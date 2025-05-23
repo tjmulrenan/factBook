@@ -1,0 +1,806 @@
+[
+    {
+        "fact": "2020 - President Donald Trump declares the COVID-19 pandemic to be a national emergency in the United States.",
+        "id": 1
+    },
+    {
+        "fact": "2020 - Katerina Sakellaropoulou is sworn in as the first female President of Greece amid strict COVID-19 measures.",
+        "id": 2
+    },
+    {
+        "fact": "2013 - The 2013 papal conclave elects Cardinal Jorge Mario Bergoglio taking the name Pope Francis as the 266th Pope of the Catholic Church.",
+        "id": 3
+    },
+    {
+        "fact": "2012 - The Sierre coach crash kills 28 people, including 22 children.",
+        "id": 4
+    },
+    {
+        "fact": "2003 - An article in Nature identifies the Ciampate del Diavolo as 350,000-year-old hominid footprints.",
+        "id": 5
+    },
+    {
+        "fact": "1997 - The Missionaries of Charity choose Sister Nirmala to succeed Mother Teresa as their leader.",
+        "id": 6
+    },
+    {
+        "fact": "1993 - The 1993 Storm of the Century affects the eastern United States, dropping feet of snow in many areas.",
+        "id": 7
+    },
+    {
+        "fact": "1992 - The Mw  6.6 Erzincan earthquake strikes eastern Turkey with a maximum Mercalli intensity of VIII (Severe).",
+        "id": 8
+    },
+    {
+        "fact": "1989 - Space Shuttle Discovery launches on STS-29 carrying the TDRS-4 satellite.",
+        "id": 9
+    },
+    {
+        "fact": "1988 - The Seikan Tunnel, the longest tunnel in the world with an undersea segment, opens between Aomori and Hakodate, Japan.",
+        "id": 10
+    },
+    {
+        "fact": "1979 - The New Jewel Movement, headed by Maurice Bishop, ousts the Prime Minister of Grenada, Eric Gairy, in a coup d'état.",
+        "id": 11
+    },
+    {
+        "fact": "1974 - Sierra Pacific Airlines Flight 802 crashes into the White Mountains near Bishop, California, killing 36.",
+        "id": 12
+    },
+    {
+        "fact": "1969 - Apollo 9 returns safely to Earth after testing the Lunar Module.",
+        "id": 13
+    },
+    {
+        "fact": "1957 - Cuban student revolutionaries storm the presidential palace in Havana in a failed attempt on the life of President Fulgencio Batista.",
+        "id": 14
+    },
+    {
+        "fact": "1943 - The Holocaust: German forces liquidate the Jewish ghetto in Kraków.",
+        "id": 15
+    },
+    {
+        "fact": "1930 - The news of the discovery of Pluto is announced by Lowell Observatory.",
+        "id": 16
+    },
+    {
+        "fact": "1920 - The Kapp Putsch briefly ousts the Weimar Republic government from Berlin.",
+        "id": 17
+    },
+    {
+        "fact": "1888 - The eruption of Ritter Island triggers tsunamis that kill up to 3,000 people on nearby islands.",
+        "id": 18
+    },
+    {
+        "fact": "1884 - The Siege of Khartoum begins. It lasts until January 26, 1885.",
+        "id": 19
+    },
+    {
+        "fact": "1862 - The Act Prohibiting the Return of Slaves is passed by the United States Congress, effectively annulling the Fugitive Slave Act of 1850 and setting the stage for the Emancipation Proclamation.",
+        "id": 20
+    },
+    {
+        "fact": "1848 - The German revolutions of 1848–1849 begin in Vienna.",
+        "id": 21
+    },
+    {
+        "fact": "1845 - Felix Mendelssohn's Violin Concerto receives its première performance in Leipzig with Ferdinand David as soloist.",
+        "id": 22
+    },
+    {
+        "fact": "1826 - Pope Leo XII publishes the apostolic constitution Quo Graviora in which he renewed the prohibition on Catholics joining freemasonry.",
+        "id": 23
+    },
+    {
+        "fact": "1815 - Participants at the Congress of Vienna declare Napoleon an outlaw following his escape from Elba",
+        "id": 24
+    },
+    {
+        "fact": "1809 - Gustav IV Adolf of Sweden is deposed in the Coup of 1809.",
+        "id": 25
+    },
+    {
+        "fact": "1781 - William Herschel discovers Uranus.",
+        "id": 26
+    },
+    {
+        "fact": "1697 - Nojpetén, capital of the last independent Maya kingdom, falls to Spanish conquistadors, the final step in the Spanish conquest of Guatemala.",
+        "id": 27
+    },
+    {
+        "fact": "1639 - Harvard College is named after clergyman John Harvard.",
+        "id": 28
+    },
+    {
+        "fact": "1591 - At the Battle of Tondibi in Mali, Moroccan forces of the Saadi dynasty, led by Judar Pasha, defeat the Songhai Empire, despite being outnumbered by at least five to one.",
+        "id": 29
+    },
+    {
+        "fact": "624 - The Battle of Badr, the first major battle between the Muslims and Quraysh.",
+        "id": 30
+    },
+    {
+        "fact": "2004 - Coco Gauff, American tennis player",
+        "id": 31
+    },
+    {
+        "fact": "2002 - Frank Gore Jr., American football player",
+        "id": 32
+    },
+    {
+        "fact": "2001 - Thomas Dearden, Australian rugby league player",
+        "id": 33
+    },
+    {
+        "fact": "1998 - Jay-Roy Grot, Dutch footballer",
+        "id": 34
+    },
+    {
+        "fact": "1998 - Jack Harlow, American rapper, singer-songwriter, and actor",
+        "id": 35
+    },
+    {
+        "fact": "1997 - Pyper America, American model, actress, and musician",
+        "id": 36
+    },
+    {
+        "fact": "1997 - Landry Shamet, American basketball player",
+        "id": 37
+    },
+    {
+        "fact": "1996 - Brayden Point, Canadian ice hockey player",
+        "id": 38
+    },
+    {
+        "fact": "1995 - Mikaela Shiffrin, American skier",
+        "id": 39
+    },
+    {
+        "fact": "1995 - Jang Su-jeong, South Korean tennis player",
+        "id": 40
+    },
+    {
+        "fact": "1994 - Gerard Deulofeu, Spanish footballer",
+        "id": 41
+    },
+    {
+        "fact": "1994 - Mohammed Siraj, Indian cricketer",
+        "id": 42
+    },
+    {
+        "fact": "1993 - Tyrone Mings, English footballer",
+        "id": 43
+    },
+    {
+        "fact": "1992 - Lucy Fry, Australian actress",
+        "id": 44
+    },
+    {
+        "fact": "1992 - George MacKay, English actor",
+        "id": 45
+    },
+    {
+        "fact": "1992 - Ozuna, Puerto Rican singer-songwriter and rapper",
+        "id": 46
+    },
+    {
+        "fact": "1992 - L, South Korean actor and singer",
+        "id": 47
+    },
+    {
+        "fact": "1991 - Daniel Greig, Australian speed skater",
+        "id": 48
+    },
+    {
+        "fact": "1991 - Tristan Thompson, American basketball player",
+        "id": 49
+    },
+    {
+        "fact": "1990 - Anicet Abel, Malagasy footballer",
+        "id": 50
+    },
+    {
+        "fact": "1990 - Marcell Dareus, American football player",
+        "id": 51
+    },
+    {
+        "fact": "1989 - Holger Badstuber, German footballer",
+        "id": 52
+    },
+    {
+        "fact": "1989 - Peaches Geldof, English columnist, television personality, and model (d. 2014)",
+        "id": 53
+    },
+    {
+        "fact": "1989 - Sandy León, Venezuelan baseball player",
+        "id": 54
+    },
+    {
+        "fact": "1989 - Marko Marin, German footballer",
+        "id": 55
+    },
+    {
+        "fact": "1989 - Robert Wickens, Canadian racing driver",
+        "id": 56
+    },
+    {
+        "fact": "1988 - Furdjel Narsingh, Dutch footballer",
+        "id": 57
+    },
+    {
+        "fact": "1987 - Marco Andretti, American race car driver",
+        "id": 58
+    },
+    {
+        "fact": "1987 - Andreas Beck, German footballer",
+        "id": 59
+    },
+    {
+        "fact": "1986 - Neil Wagner, South African-New Zealand cricketer",
+        "id": 60
+    },
+    {
+        "fact": "1985 - Alcides, Brazilian footballer",
+        "id": 61
+    },
+    {
+        "fact": "1985 - Emile Hirsch, American actor",
+        "id": 62
+    },
+    {
+        "fact": "1984 - Geeta Basra, Indian actress",
+        "id": 63
+    },
+    {
+        "fact": "1983 - Kaitlin Sandeno, American swimmer",
+        "id": 64
+    },
+    {
+        "fact": "1982 - Izi Castro Marques, Brazilian basketball player",
+        "id": 65
+    },
+    {
+        "fact": "1982 - Nicole Ohlde, American basketball player",
+        "id": 66
+    },
+    {
+        "fact": "1980 - Caron Butler, American basketball player",
+        "id": 67
+    },
+    {
+        "fact": "1980 - Brad Watts, Australian rugby league player",
+        "id": 68
+    },
+    {
+        "fact": "1979 - Johan Santana, Venezuelan baseball player",
+        "id": 69
+    },
+    {
+        "fact": "1979 - Cédric Van Branteghem, Belgian sprinter",
+        "id": 70
+    },
+    {
+        "fact": "1978 - Tom Danielson, American cyclist",
+        "id": 71
+    },
+    {
+        "fact": "1976 - Troy Hudson, American basketball player and rapper",
+        "id": 72
+    },
+    {
+        "fact": "1976 - Danny Masterson, American actor and producer",
+        "id": 73
+    },
+    {
+        "fact": "1975 - Mark Clattenburg, English football referee",
+        "id": 74
+    },
+    {
+        "fact": "1974 - James Brinkley, Scottish cricketer",
+        "id": 75
+    },
+    {
+        "fact": "1974 - Thomas Enqvist, Swedish tennis player and sportscaster",
+        "id": 76
+    },
+    {
+        "fact": "1973 - Edgar Davids, Surinamese-Dutch footballer and manager",
+        "id": 77
+    },
+    {
+        "fact": "1973 - David Draiman, American singer-songwriter",
+        "id": 78
+    },
+    {
+        "fact": "1973 - Bobby Jackson, American basketball player and coach",
+        "id": 79
+    },
+    {
+        "fact": "1972 - Common, American rapper and actor",
+        "id": 80
+    },
+    {
+        "fact": "1972 - Trent Dilfer, American football player, coach, and analyst",
+        "id": 81
+    },
+    {
+        "fact": "1971 - Annabeth Gish, American actress",
+        "id": 82
+    },
+    {
+        "fact": "1971 - Allan Nielsen, Danish footballer and manager",
+        "id": 83
+    },
+    {
+        "fact": "1971 - Adina Porter, American actress",
+        "id": 84
+    },
+    {
+        "fact": "1970 - Tim Story, American director and producer",
+        "id": 85
+    },
+    {
+        "fact": "1969 - Darren Fritz, Australian rugby league player",
+        "id": 86
+    },
+    {
+        "fact": "1967 - Andrés Escobar, Colombian footballer (d. 1994)",
+        "id": 87
+    },
+    {
+        "fact": "1967 - Pieter Vink, Dutch footballer and referee",
+        "id": 88
+    },
+    {
+        "fact": "1966 - Chico Science, Brazilian singer-songwriter (d. 1997)",
+        "id": 89
+    },
+    {
+        "fact": "1964 - Will Clark, American baseball player",
+        "id": 90
+    },
+    {
+        "fact": "1964 - Craig Dimond, Australian rugby league player",
+        "id": 91
+    },
+    {
+        "fact": "1964 - Trevor Gillmeister, Australian rugby league player and coach",
+        "id": 92
+    },
+    {
+        "fact": "1963 - Mariano Duncan, Dominican baseball player and manager",
+        "id": 93
+    },
+    {
+        "fact": "1963 - Vance Johnson, American football player",
+        "id": 94
+    },
+    {
+        "fact": "1963 - Fito Páez, Argentine musician, songwriter and filmmaker",
+        "id": 95
+    },
+    {
+        "fact": "1962 - Alfredo Maia, Portuguese politician",
+        "id": 96
+    },
+    {
+        "fact": "1960 - Adam Clayton, English-Irish musician and songwriter",
+        "id": 97
+    },
+    {
+        "fact": "1960 - Joe Ranft, American animator, screenwriter, and voice actor (d. 2005)",
+        "id": 98
+    },
+    {
+        "fact": "1959 - Dirk Wellham, Australian cricketer",
+        "id": 99
+    },
+    {
+        "fact": "1958 - Mágico González, Salvadoran footballer",
+        "id": 100
+    },
+    {
+        "fact": "1958 - Rick Lazio, American lawyer and politician",
+        "id": 101
+    },
+    {
+        "fact": "1958 - Caryl Phillips, Caribbean-English author and playwright",
+        "id": 102
+    },
+    {
+        "fact": "1957 - John Hoeven, American banker and politician, 31st Governor of North Dakota",
+        "id": 103
+    },
+    {
+        "fact": "1957 - Moses Hogan, American composer and conductor (d. 2003)",
+        "id": 104
+    },
+    {
+        "fact": "1956 - Dana Delany, American actress and producer",
+        "id": 105
+    },
+    {
+        "fact": "1956 - Jamie Dimon, North-American businessman and banker",
+        "id": 106
+    },
+    {
+        "fact": "1955 - Bruno Conti, Italian footballer and manager",
+        "id": 107
+    },
+    {
+        "fact": "1955 - Glenne Headly, American actress (d. 2017)",
+        "id": 108
+    },
+    {
+        "fact": "1955 - Olga Rukavishnikova, Russian pentathlete",
+        "id": 109
+    },
+    {
+        "fact": "1954 - Valerie Amos, Baroness Amos, Guyanese-English politician and diplomat",
+        "id": 110
+    },
+    {
+        "fact": "1954 - Robin Duke, Canadian actress and screenwriter",
+        "id": 111
+    },
+    {
+        "fact": "1953 - Andy Bean, American golfer (d. 2023)",
+        "id": 112
+    },
+    {
+        "fact": "1953 - Michael Curry, American bishop, 27th Presiding Bishop of the Episcopal Church",
+        "id": 113
+    },
+    {
+        "fact": "1953 - Deborah Raffin, American actress (d. 2012)",
+        "id": 114
+    },
+    {
+        "fact": "1952 - Wolfgang Rihm, German composer and educator",
+        "id": 115
+    },
+    {
+        "fact": "1952 - Tim Sebastian, English journalist and author",
+        "id": 116
+    },
+    {
+        "fact": "1950 - Joe Bugner, Hungarian-British boxer and actor",
+        "id": 117
+    },
+    {
+        "fact": "1950 - Bernard Julien, Trinidadian cricketer",
+        "id": 118
+    },
+    {
+        "fact": "1950 - Charles Krauthammer, American physician, journalist, and author (d. 2018)",
+        "id": 119
+    },
+    {
+        "fact": "1950 - William H. Macy, American actor, director, and screenwriter",
+        "id": 120
+    },
+    {
+        "fact": "1949 - Ze'ev Bielski, Israeli politician",
+        "id": 121
+    },
+    {
+        "fact": "1949 - Sian Elias, New Zealand lawyer and politician, 12th Chief Justice of New Zealand",
+        "id": 122
+    },
+    {
+        "fact": "1949 - Trevor Sorbie, Scottish hairdresser (d. 2024)",
+        "id": 123
+    },
+    {
+        "fact": "1947 - Lesley Collier, English ballerina and educator",
+        "id": 124
+    },
+    {
+        "fact": "1947 - Beat Richner, Swiss pediatrician and cellist (d. 2018)",
+        "id": 125
+    },
+    {
+        "fact": "1947 - Lyn St. James, American race car driver",
+        "id": 126
+    },
+    {
+        "fact": "1946 - Yonatan Netanyahu, American-Israeli colonel (d. 1976)",
+        "id": 127
+    },
+    {
+        "fact": "1945 - Anatoly Fomenko, Russian mathematician and academic",
+        "id": 128
+    },
+    {
+        "fact": "1944 - Terence Burns, Baron Burns, English economist and academic",
+        "id": 129
+    },
+    {
+        "fact": "1942 - Dave Cutler, American computer scientist and engineer",
+        "id": 130
+    },
+    {
+        "fact": "1942 - Mahmoud Darwish, Palestinian poet and author (d. 2008)",
+        "id": 131
+    },
+    {
+        "fact": "1942 - Scatman John, American singer-songwriter (d. 1999)",
+        "id": 132
+    },
+    {
+        "fact": "1942 - George Negus, Australian journalist and television host (d. 2024)",
+        "id": 133
+    },
+    {
+        "fact": "1941 - Donella Meadows, American environmentalist, author, and academic (d. 2001)",
+        "id": 134
+    },
+    {
+        "fact": "1941 - Lee Moses, American R&B Soul Singer and Guitarist (d. 1998)",
+        "id": 135
+    },
+    {
+        "fact": "1939 - Neil Sedaka, American singer-songwriter and pianist",
+        "id": 136
+    },
+    {
+        "fact": "1938 - Robert Gammage, American captain and politician (d. 2012)",
+        "id": 137
+    },
+    {
+        "fact": "1935 - David Nobbs, English author and screenwriter (d. 2015)",
+        "id": 138
+    },
+    {
+        "fact": "1933 - Diane Dillon, American illustrator",
+        "id": 139
+    },
+    {
+        "fact": "1933 - Mahdi Elmandjra, Moroccan economist and sociologist (d. 2014)",
+        "id": 140
+    },
+    {
+        "fact": "1933 - Gero von Wilpert, German author and academic (d. 2009)",
+        "id": 141
+    },
+    {
+        "fact": "1930 - Walter Jacob, American Reform rabbi (d. 2024)",
+        "id": 142
+    },
+    {
+        "fact": "1929 - Zbigniew Messner, Polish economist and politician, 9th Prime Minister of the Republic of Poland (d. 2014)",
+        "id": 143
+    },
+    {
+        "fact": "1926 - Carlos Roberto Reina, Honduran lawyer and politician, President of Honduras (d. 2003)",
+        "id": 144
+    },
+    {
+        "fact": "1925 - Roy Haynes, American drummer and composer (d. 2024)",
+        "id": 145
+    },
+    {
+        "fact": "1923 - Dimitrios Ioannidis, Greek general (d. 2010)",
+        "id": 146
+    },
+    {
+        "fact": "1921 - Al Jaffee, American cartoonist (d. 2023)",
+        "id": 147
+    },
+    {
+        "fact": "1920 - Ralph J. Roberts, American businessman, co-founded Comcast (d. 2015)",
+        "id": 148
+    },
+    {
+        "fact": "1916 - Lindy Boggs, American educator and politician, 5th United States Ambassador to the Holy See (d. 2013)",
+        "id": 149
+    },
+    {
+        "fact": "1916 - Jacque Fresco, American engineer and academic (d. 2017)",
+        "id": 150
+    },
+    {
+        "fact": "1914 - W. O. Mitchell, Canadian author and playwright (d. 1998)",
+        "id": 151
+    },
+    {
+        "fact": "1913 - William J. Casey, American politician, 13th Director of Central Intelligence (d. 1987)",
+        "id": 152
+    },
+    {
+        "fact": "1913 - Sergey Mikhalkov, Russian author and playwright (d. 2009)",
+        "id": 153
+    },
+    {
+        "fact": "1911 - José Ardévol, Cuban composer and conductor (d. 1981)",
+        "id": 154
+    },
+    {
+        "fact": "1911 - L. Ron Hubbard, American author, founder of Scientology (d. 1986)",
+        "id": 155
+    },
+    {
+        "fact": "1910 - Sammy Kaye, American saxophonist, songwriter, and bandleader (d. 1987)",
+        "id": 156
+    },
+    {
+        "fact": "1910 - Kemal Tahir, Turkish journalist and author (d. 1973)",
+        "id": 157
+    },
+    {
+        "fact": "1908 - Walter Annenberg, American publisher, philanthropist, and diplomat, United States Ambassador to the United Kingdom (d. 2002)",
+        "id": 158
+    },
+    {
+        "fact": "1908 - Myrtle Bachelder, American chemist and Women's Army Corps officer (d. 1997)",
+        "id": 159
+    },
+    {
+        "fact": "1907 - Dorothy Tangney, Australian politician (d. 1985)",
+        "id": 160
+    },
+    {
+        "fact": "1904 - Clifford Roach, Trinidadian cricketer and footballer (d. 1988)",
+        "id": 161
+    },
+    {
+        "fact": "1902 - Hans Bellmer, German-French painter and sculptor (d. 1975)",
+        "id": 162
+    },
+    {
+        "fact": "1900 - Andrée Bosquet, Belgian painter (d. 1980)",
+        "id": 163
+    },
+    {
+        "fact": "1900 - Giorgos Seferis, Greek poet and diplomat, Nobel Prize laureate (d. 1971)",
+        "id": 164
+    },
+    {
+        "fact": "1899 - John Hasbrouck Van Vleck, American physicist and mathematician, Nobel Prize laureate (d. 1980)",
+        "id": 165
+    },
+    {
+        "fact": "1899 - Pancho Vladigerov, Bulgarian pianist and composer (d. 1978)",
+        "id": 166
+    },
+    {
+        "fact": "1898 - Henry Hathaway, American director and producer (d. 1985)",
+        "id": 167
+    },
+    {
+        "fact": "1897 - Yeghishe Charents, Armenian poet and activist (d. 1937)",
+        "id": 168
+    },
+    {
+        "fact": "1892 - Janet Flanner, American journalist and author (d. 1978)",
+        "id": 169
+    },
+    {
+        "fact": "1890 - Fritz Busch, German conductor and director (d. 1951)",
+        "id": 170
+    },
+    {
+        "fact": "1888 - Paul Morand, French author and diplomat (d. 1976)",
+        "id": 171
+    },
+    {
+        "fact": "1886 - Home Run Baker, American baseball player and manager (d. 1963)",
+        "id": 172
+    },
+    {
+        "fact": "1886 - Albert William Stevens, American captain and photographer (d. 1949)",
+        "id": 173
+    },
+    {
+        "fact": "1884 - Hugh Walpole, New Zealand-English author and educator (d. 1941)",
+        "id": 174
+    },
+    {
+        "fact": "1883 - Enrico Toselli, Italian pianist and composer (d. 1926)",
+        "id": 175
+    },
+    {
+        "fact": "1880 - Josef Gočár, Czech architect (d. 1945)",
+        "id": 176
+    },
+    {
+        "fact": "1874 - Ellery Harding Clark, American jumper, coach, and lawyer (d. 1949)",
+        "id": 177
+    },
+    {
+        "fact": "1870 - William Glackens, American painter and illustrator (d. 1938)",
+        "id": 178
+    },
+    {
+        "fact": "1864 - Alexej von Jawlensky, Russian-German painter (d. 1941)",
+        "id": 179
+    },
+    {
+        "fact": "1862 - Paul Prosper Henrys, French general (d. 1943)",
+        "id": 180
+    },
+    {
+        "fact": "1860 - Hugo Wolf, Slovene-Austrian composer (d. 1903)",
+        "id": 181
+    },
+    {
+        "fact": "1857 - B. H. Roberts, English-American historian and politician (d. 1933)",
+        "id": 182
+    },
+    {
+        "fact": "1855 - Percival Lowell, American astronomer and mathematician (d. 1916)",
+        "id": 183
+    },
+    {
+        "fact": "1825 - Hans Gude, Norwegian-German painter and academic (d. 1903)",
+        "id": 184
+    },
+    {
+        "fact": "1815 - James Curtis Hepburn, American physician, linguist, and missionary (d. 1911)",
+        "id": 185
+    },
+    {
+        "fact": "1800 - Mustafa Reşid Pasha, Ottoman politician, 212th Grand Vizier of the Ottoman Empire (d. 1858)",
+        "id": 186
+    },
+    {
+        "fact": "1798 - Abigail Fillmore, American wife of Millard Fillmore, 14th First Lady of the United States (d. 1853)",
+        "id": 187
+    },
+    {
+        "fact": "1781 - Karl Friedrich Schinkel, German painter and architect, designed the Konzerthaus Berlin (d. 1841)",
+        "id": 188
+    },
+    {
+        "fact": "1770 - Daniel Lambert, English animal breeder (d. 1809)",
+        "id": 189
+    },
+    {
+        "fact": "1764 - Charles Grey, 2nd Earl Grey, English politician, Prime Minister of the United Kingdom (d. 1845)",
+        "id": 190
+    },
+    {
+        "fact": "1763 - Guillaume Brune, French general and diplomat (d. 1815)",
+        "id": 191
+    },
+    {
+        "fact": "1741 - Joseph II, Holy Roman Emperor (d. 1790)",
+        "id": 192
+    },
+    {
+        "fact": "1720 - Charles Bonnet, Swiss historian and author (d. 1793)",
+        "id": 193
+    },
+    {
+        "fact": "1700 - Michel Blavet, French flute player and composer (d. 1768)",
+        "id": 194
+    },
+    {
+        "fact": "1683 - Johann Wilhelm Weinmann, German botanist (d. 1741)",
+        "id": 195
+    },
+    {
+        "fact": "1615 - Innocent XII, pope of the Catholic Church (d. 1700)",
+        "id": 196
+    },
+    {
+        "fact": "1599 - John Berchmans, Belgian Jesuit scholastic and saint (d. 1621)",
+        "id": 197
+    },
+    {
+        "fact": "1593 - Georges de La Tour, French painter (probable; d. 1652)",
+        "id": 198
+    },
+    {
+        "fact": "1560 - William Louis, Count of Nassau-Dillenburg, Dutch count (d. 1620)",
+        "id": 199
+    },
+    {
+        "fact": "1479 - Lazarus Spengler, German hymnwriter (d. 1534)",
+        "id": 200
+    },
+    {
+        "fact": "1372 - Louis I, Duke of Orléans (d. 1407)",
+        "id": 201
+    }
+]

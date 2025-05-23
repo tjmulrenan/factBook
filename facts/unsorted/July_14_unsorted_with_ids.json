@@ -1,0 +1,622 @@
+[
+    {
+        "fact": "2019 - A GippsAero GA8 Airvan crashes in Umeå, Sweden, killing all nine aboard.",
+        "id": 1
+    },
+    {
+        "fact": "2016 - A man ploughs a truck into a Bastille Day celebration in Nice, France, killing 86 people and injuring another 434 before being shot by police.",
+        "id": 2
+    },
+    {
+        "fact": "2015 - NASA's New Horizons probe performs the first flyby of Pluto, and thus completes the initial survey of the Solar System.",
+        "id": 3
+    },
+    {
+        "fact": "2013 - Dedication of statue of Rachel Carson, a sculpture named for the environmentalist, in Woods Hole, Massachusetts.",
+        "id": 4
+    },
+    {
+        "fact": "2002 - French president Jacques Chirac escapes an assassination attempt from Maxime Brunerie during a Bastille Day parade at Champs-Élysées.",
+        "id": 5
+    },
+    {
+        "fact": "2001 - Rus Flight 9633 crashes during takeoff from Chkalovsky Airport, killing all 10 people on board.",
+        "id": 6
+    },
+    {
+        "fact": "1983 - Mario Bros. is released in Japan, beginning the popular Super Mario Bros franchise.",
+        "id": 7
+    },
+    {
+        "fact": "1965 - Mariner 4 flyby of Mars takes the first close-up photos of another planet. The photographs take approximately six hours to be transmitted back to Earth.",
+        "id": 8
+    },
+    {
+        "fact": "1960 - Jane Goodall arrives at the Gombe Stream Reserve in present-day Tanzania to begin her study of chimpanzees in the wild.",
+        "id": 9
+    },
+    {
+        "fact": "1960 - Northwest Orient Airlines Flight 1-11 ditches off Polillo Island in the Philippines, killing one person and injuring 44.",
+        "id": 10
+    },
+    {
+        "fact": "1958 - In the 14 July Revolution in Iraq, the monarchy is overthrown by popular forces led by Abd al-Karim Qasim, who becomes the nation's new leader.",
+        "id": 11
+    },
+    {
+        "fact": "1957 - Rawya Ateya takes her seat in the National Assembly of Egypt, thereby becoming the first female parliamentarian in the Arab world.",
+        "id": 12
+    },
+    {
+        "fact": "1951 - Ferrari take their first Formula One grand prix victory at the British Grand Prix at Silverstone.",
+        "id": 13
+    },
+    {
+        "fact": "1948 - Palmiro Togliatti, leader of the Italian Communist Party, is shot and wounded near the Italian Parliament.",
+        "id": 14
+    },
+    {
+        "fact": "1943 - In Diamond, Missouri, the George Washington Carver National Monument becomes the first United States National Monument in honor of an African American.",
+        "id": 15
+    },
+    {
+        "fact": "1933 - In a decree called the Gleichschaltung, Adolf Hitler abolishes all German political parties except the Nazis.",
+        "id": 16
+    },
+    {
+        "fact": "1933 - Nazi eugenics programme begins with the proclamation of the Law for the Prevention of Hereditarily Diseased Offspring requiring the compulsory sterilization of any citizen who suffers from alleged genetic disorders.",
+        "id": 17
+    },
+    {
+        "fact": "1916 - Battle of Delville Wood begins as an action within the Battle of the Somme, lasting until 3 September 1916.",
+        "id": 18
+    },
+    {
+        "fact": "1915 - Beginning of the McMahon–Hussein Correspondence between Hussein bin Ali, Sharif of Mecca and the British official Henry McMahon concerning the Arab Revolt against the Ottoman Empire.",
+        "id": 19
+    },
+    {
+        "fact": "1911 - Harry Atwood, an exhibition pilot for the Wright brothers, is greeted by President Taft after he lands his aeroplane on the South Lawn of the White House, having flown from Boston.",
+        "id": 20
+    },
+    {
+        "fact": "1902 - Peruvian explorer and farmer Agustín Lizárraga discovers Machu Picchu, the \"Lost City of the Incas\".",
+        "id": 21
+    },
+    {
+        "fact": "1902 - The Campanile in St Mark's Square, Venice collapses, also demolishing the loggetta.",
+        "id": 22
+    },
+    {
+        "fact": "1900 - Armies of the Eight-Nation Alliance capture Tientsin during the Boxer Rebellion.",
+        "id": 23
+    },
+    {
+        "fact": "1874 - The Chicago Fire of 1874 burns down 47 acres of the city, destroying 812 buildings, killing 20, and resulting in the fire insurance industry demanding municipal reforms from Chicago's city council.",
+        "id": 24
+    },
+    {
+        "fact": "1853 - Opening of the first major US world's fair, the Exhibition of the Industry of All Nations in New York City.",
+        "id": 25
+    },
+    {
+        "fact": "1798 - The Sedition Act of 1798 becomes law in the United States making it a federal crime to write, publish, or utter false or malicious statements about the United States government.",
+        "id": 26
+    },
+    {
+        "fact": "1791 - Beginning of Priestley Riots (to 17 July) in Birmingham targeting Joseph Priestley as a supporter of the French Revolution.",
+        "id": 27
+    },
+    {
+        "fact": "1790 - Inaugural Fête de la Fédération is held to celebrate the unity of the French people and the national reconciliation.",
+        "id": 28
+    },
+    {
+        "fact": "1789 - Storming of the Bastille in Paris. This event escalates the widespread discontent into the French Revolution. Bastille Day is still celebrated annually in France.",
+        "id": 29
+    },
+    {
+        "fact": "1771 - Foundation of the Mission San Antonio de Padua in modern California by the Franciscan friar Junípero Serra.",
+        "id": 30
+    },
+    {
+        "fact": "1769 - An expedition led by Gaspar de Portolá leaves its base in San Diego and sets out to find the Port of Monterey (now Monterey, California).",
+        "id": 31
+    },
+    {
+        "fact": "1430 - Joan of Arc, taken by the Burgundians in May, is handed over to Pierre Cauchon, the bishop of Beauvais.",
+        "id": 32
+    },
+    {
+        "fact": "1420 - Battle of Vítkov Hill, decisive victory of Czech Hussite forces commanded by Jan Žižka against Crusade army led by Sigismund, Holy Roman Emperor.",
+        "id": 33
+    },
+    {
+        "fact": "982 - King Otto II and his Frankish army are defeated by the Muslim army of al-Qasim at Cape Colonna, Southern Italy.",
+        "id": 34
+    },
+    {
+        "fact": "2004 - Noah Clowney, American basketball player",
+        "id": 35
+    },
+    {
+        "fact": "1997 - Neekolul, American internet personality",
+        "id": 36
+    },
+    {
+        "fact": "1995 - Harrison Butker, American football player",
+        "id": 37
+    },
+    {
+        "fact": "1995 - Kim In-hyeok, South Korean volleyball player (d. 2022)",
+        "id": 38
+    },
+    {
+        "fact": "1994 - Lucas Giolito, American baseball player",
+        "id": 39
+    },
+    {
+        "fact": "1990 - Paulo Muacho, Portuguese politician",
+        "id": 40
+    },
+    {
+        "fact": "1988 - Conor McGregor, Irish mixed martial artist",
+        "id": 41
+    },
+    {
+        "fact": "1988 - Jérémy Stravius, French swimmer",
+        "id": 42
+    },
+    {
+        "fact": "1987 - Adam Johnson, English footballer",
+        "id": 43
+    },
+    {
+        "fact": "1987 - Dan Reynolds, American singer-songwriter",
+        "id": 44
+    },
+    {
+        "fact": "1986 - Dan Smith, British singer, songwriter and record producer",
+        "id": 45
+    },
+    {
+        "fact": "1985 - Darrelle Revis, American football player",
+        "id": 46
+    },
+    {
+        "fact": "1985 - Phoebe Waller-Bridge, English actress and screenwriter",
+        "id": 47
+    },
+    {
+        "fact": "1984 - Dagbjört Hákonardóttir, Icelandic politician",
+        "id": 48
+    },
+    {
+        "fact": "1984 - Samir Handanović, Slovenian footballer",
+        "id": 49
+    },
+    {
+        "fact": "1977 - Victoria, Crown Princess of Sweden",
+        "id": 50
+    },
+    {
+        "fact": "1975 - Tim Hudson, American baseball player",
+        "id": 51
+    },
+    {
+        "fact": "1972 - Steph Bridge, British World Champion kitesurfer",
+        "id": 52
+    },
+    {
+        "fact": "1971 - Bubba Ray Dudley, American professional wrestler",
+        "id": 53
+    },
+    {
+        "fact": "1967 - Robin Ventura, American baseball player",
+        "id": 54
+    },
+    {
+        "fact": "1966 - Matthew Fox, American actor",
+        "id": 55
+    },
+    {
+        "fact": "1961 - Jackie Earle Haley, American actor and director",
+        "id": 56
+    },
+    {
+        "fact": "1960 - Anna Bligh, Australian politician, 37th Premier of Queensland",
+        "id": 57
+    },
+    {
+        "fact": "1960 - Kyle Gass, American musician, comedian, and actor",
+        "id": 58
+    },
+    {
+        "fact": "1960 - Angélique Kidjo, Beninese singer-songwriter, activist and actress",
+        "id": 59
+    },
+    {
+        "fact": "1960 - Jane Lynch, American actress (Glee), comedian, author, and game show host",
+        "id": 60
+    },
+    {
+        "fact": "1952 - Bob Casale, American musician, Devo (d.2014)",
+        "id": 61
+    },
+    {
+        "fact": "1950 - Bruce Oldfield, English fashion designer",
+        "id": 62
+    },
+    {
+        "fact": "1949 - Tommy Mottola, American businessman and music publisher",
+        "id": 63
+    },
+    {
+        "fact": "1948 - Goodwill Zwelithini kaBhekuzulu, Zulu king (d. 2021)",
+        "id": 64
+    },
+    {
+        "fact": "1947 - John Blackman, Australian radio and television presenter (d. 2024)",
+        "id": 65
+    },
+    {
+        "fact": "1947 - Claudia J. Kennedy, American general",
+        "id": 66
+    },
+    {
+        "fact": "1947 - Salih Neftçi, Turkish economist and author (d. 2009)",
+        "id": 67
+    },
+    {
+        "fact": "1947 - Navin Ramgoolam, Mauritius physician and politician, 3rd Prime Minister of Mauritius",
+        "id": 68
+    },
+    {
+        "fact": "1946 - John Wood, Australian actor and screenwriter",
+        "id": 69
+    },
+    {
+        "fact": "1942 - Javier Solana, Spanish physicist and politician, Spanish Minister of Foreign Affairs",
+        "id": 70
+    },
+    {
+        "fact": "1941 - Maulana Karenga, American philosopher, author, and activist, created Kwanzaa",
+        "id": 71
+    },
+    {
+        "fact": "1941 - Andreas Khol, German-Austrian lawyer and politician",
+        "id": 72
+    },
+    {
+        "fact": "1940 - Susan Howatch, English author and academic",
+        "id": 73
+    },
+    {
+        "fact": "1939 - Karel Gott, Czech singer-songwriter and actor (d. 2019)",
+        "id": 74
+    },
+    {
+        "fact": "1939 - George Edgar Slusser, American scholar and author (d. 2014)",
+        "id": 75
+    },
+    {
+        "fact": "1938 - Jerry Rubin, American activist, author, and businessman (d. 1994)",
+        "id": 76
+    },
+    {
+        "fact": "1938 - Tommy Vig, Hungarian vibraphone player, drummer, and composer",
+        "id": 77
+    },
+    {
+        "fact": "1937 - Yoshiro Mori, Japanese journalist and politician, 55th Prime Minister of Japan",
+        "id": 78
+    },
+    {
+        "fact": "1936 - Robert F. Overmyer, American colonel, pilot, and astronaut (d. 1996)",
+        "id": 79
+    },
+    {
+        "fact": "1933 - Robert Bourassa, Canadian lawyer and politician, 22nd Premier of Quebec (d. 1996)",
+        "id": 80
+    },
+    {
+        "fact": "1933 - Dumaagiin Sodnom, Mongolian politician; 13th Prime Minister of Mongolia",
+        "id": 81
+    },
+    {
+        "fact": "1932 - Rosey Grier, American football player and actor",
+        "id": 82
+    },
+    {
+        "fact": "1932 - Del Reeves, American country singer-songwriter (d. 2007)",
+        "id": 83
+    },
+    {
+        "fact": "1931 - Jacqueline de Ribes, French fashion designer and philanthropist",
+        "id": 84
+    },
+    {
+        "fact": "1930 - Polly Bergen, American actress and singer (d. 2014)",
+        "id": 85
+    },
+    {
+        "fact": "1930 - Benoît Sinzogan, Beninese military officer and politician (d. 2021)",
+        "id": 86
+    },
+    {
+        "fact": "1928 - Nancy Olson, American actress",
+        "id": 87
+    },
+    {
+        "fact": "1928 - William Rees-Mogg, English journalist and public servant (d. 2012)",
+        "id": 88
+    },
+    {
+        "fact": "1927 - John Chancellor, American journalist (d. 1996)",
+        "id": 89
+    },
+    {
+        "fact": "1927 - Mike Esposito, American author and illustrator (d. 2010)",
+        "id": 90
+    },
+    {
+        "fact": "1926 - Wallace Jones, American basketball player and coach (d. 2014)",
+        "id": 91
+    },
+    {
+        "fact": "1926 - Harry Dean Stanton, American actor, musician, and singer (d. 2017)",
+        "id": 92
+    },
+    {
+        "fact": "1926 - Himayat Ali Shair, Urdu poet (d. 2019)",
+        "id": 93
+    },
+    {
+        "fact": "1925 - Bruce L. Douglas, American politician",
+        "id": 94
+    },
+    {
+        "fact": "1924 - Dorothy Stanley, American educator (d. 1990)",
+        "id": 95
+    },
+    {
+        "fact": "1923 - René Favaloro, Argentine surgeon and cardiologist (d. 2000)",
+        "id": 96
+    },
+    {
+        "fact": "1923 - Dale Robertson, American actor (d. 2013)",
+        "id": 97
+    },
+    {
+        "fact": "1923 - Robert Zildjian, American businessman, founded Sabian (d. 2013)",
+        "id": 98
+    },
+    {
+        "fact": "1922 - Robin Olds, American general and pilot (d. 2007)",
+        "id": 99
+    },
+    {
+        "fact": "1922 - Elfriede Rinkel, German SS officer (d. 2018)",
+        "id": 100
+    },
+    {
+        "fact": "1922 - Käbi Laretei, Estonian-Swedish concert pianist (d. 2014)",
+        "id": 101
+    },
+    {
+        "fact": "1921 - Sixto Durán Ballén, American-Ecuadorian architect and politician, 48th President of Ecuador (d. 2016)",
+        "id": 102
+    },
+    {
+        "fact": "1921 - Leon Garfield, English author (d. 1996)",
+        "id": 103
+    },
+    {
+        "fact": "1921 - Armand Gaudreault, Canadian ice hockey player (d. 2013)",
+        "id": 104
+    },
+    {
+        "fact": "1921 - Geoffrey Wilkinson, English chemist and academic, Nobel Prize laureate (d. 1996)",
+        "id": 105
+    },
+    {
+        "fact": "1920 - Shankarrao Chavan, Indian lawyer and politician, Indian Minister of Finance (d. 2004)",
+        "id": 106
+    },
+    {
+        "fact": "1918 - Fred Baur, American chemist and founder of Pringles (d. 2008)",
+        "id": 107
+    },
+    {
+        "fact": "1918 - Ingmar Bergman, Swedish director, producer, and screenwriter (d. 2007)",
+        "id": 108
+    },
+    {
+        "fact": "1918 - Arthur Laurents, American director, screenwriter, and playwright (d. 2011)",
+        "id": 109
+    },
+    {
+        "fact": "1918 - Jay Wright Forrester, American computer engineer and systems scientist (d. 2016)",
+        "id": 110
+    },
+    {
+        "fact": "1913 - Gerald Ford, American commander, lawyer, and politician, 38th President of the United States (d. 2006)",
+        "id": 111
+    },
+    {
+        "fact": "1912 - Woody Guthrie, American singer-songwriter and guitarist (d. 1967)",
+        "id": 112
+    },
+    {
+        "fact": "1911 - Pavel Prudnikau, Belarusian poet and author (d. 2000)",
+        "id": 113
+    },
+    {
+        "fact": "1910 - William Hanna, American animator, director, producer, and actor, co-founded Hanna-Barbera (d. 2001)",
+        "id": 114
+    },
+    {
+        "fact": "1907 - Chico Landi, Brazilian racing driver (d. 1989)",
+        "id": 115
+    },
+    {
+        "fact": "1903 - Irving Stone, American author and educator (d. 1989)",
+        "id": 116
+    },
+    {
+        "fact": "1901 - Gerald Finzi, English composer and academic (d. 1956)",
+        "id": 117
+    },
+    {
+        "fact": "1898 - Happy Chandler, American lawyer and politician, 49th Governor of Kentucky, second Commissioner of Baseball (d. 1991)",
+        "id": 118
+    },
+    {
+        "fact": "1897 - Plaek Phibunsongkhram, Thai military officer and politician, 3rd Prime Minister of Thailand (d. 1964)",
+        "id": 119
+    },
+    {
+        "fact": "1896 - Buenaventura Durruti, Spanish soldier and anarchist (d. 1936)",
+        "id": 120
+    },
+    {
+        "fact": "1894 - Dave Fleischer, American animator, director, and producer (d. 1979)",
+        "id": 121
+    },
+    {
+        "fact": "1893 - Clarence J. Brown, American publisher and politician, 36th Lieutenant Governor of Ohio (d. 1965)",
+        "id": 122
+    },
+    {
+        "fact": "1893 - Garimella Satyanarayana, Indian poet and author (d. 1952)",
+        "id": 123
+    },
+    {
+        "fact": "1889 - Marco de Gastyne, French painter and illustrator (d. 1982)",
+        "id": 124
+    },
+    {
+        "fact": "1888 - Scipio Slataper, Italian author and critic (d. 1915)",
+        "id": 125
+    },
+    {
+        "fact": "1885 - Sisavang Vong, Laotian king (d. 1959)",
+        "id": 126
+    },
+    {
+        "fact": "1878 - Donald Meek, Scottish-American stage and film actor (d. 1946)",
+        "id": 127
+    },
+    {
+        "fact": "1874 - Abbas II of Egypt (d. 1944)",
+        "id": 128
+    },
+    {
+        "fact": "1874 - Crawford Vaughan, Australian politician, 27th Premier of South Australia (d. 1947)",
+        "id": 129
+    },
+    {
+        "fact": "1872 - Albert Marque, French sculptor and doll maker (d. 1939)",
+        "id": 130
+    },
+    {
+        "fact": "1868 - Gertrude Bell, English archaeologist and political officer (d. 1926)",
+        "id": 131
+    },
+    {
+        "fact": "1866 - Juliette Wytsman, Belgian painter (d. 1925)",
+        "id": 132
+    },
+    {
+        "fact": "1865 - Arthur Capper, American journalist and politician, 20th Governor of Kansas (d. 1951)",
+        "id": 133
+    },
+    {
+        "fact": "1862 - Florence Bascom, American geologist and educator (d. 1945)",
+        "id": 134
+    },
+    {
+        "fact": "1862 - Gustav Klimt, Austrian painter and illustrator (d. 1918)",
+        "id": 135
+    },
+    {
+        "fact": "1861 - Kate M. Gordon, American activist (d. 1931)",
+        "id": 136
+    },
+    {
+        "fact": "1859 - Willy Hess, German violinist and educator (d. 1928)",
+        "id": 137
+    },
+    {
+        "fact": "1825 - Georgiana Hill, English cookery book writer (d. 1903)",
+        "id": 138
+    },
+    {
+        "fact": "1816 - Arthur de Gobineau, French writer who founded Gobinism to promote development of racism (d. 1882)",
+        "id": 139
+    },
+    {
+        "fact": "1801 - Johannes Peter Müller, German physiologist and anatomist (d. 1858)",
+        "id": 140
+    },
+    {
+        "fact": "1785 - Mordecai Manuel Noah, American journalist, playwright, and diplomat (d. 1851)",
+        "id": 141
+    },
+    {
+        "fact": "1755 - Michel de Beaupuy, French general (d. 1796)",
+        "id": 142
+    },
+    {
+        "fact": "1743 - Gavrila Derzhavin, Russian poet and politician (d. 1816)",
+        "id": 143
+    },
+    {
+        "fact": "1721 - John Douglas, Scottish bishop and scholar (d. 1807)",
+        "id": 144
+    },
+    {
+        "fact": "1696 - William Oldys, English historian and author (d. 1761)",
+        "id": 145
+    },
+    {
+        "fact": "1675 - Claude Alexandre de Bonneval, French general (d. 1747)",
+        "id": 146
+    },
+    {
+        "fact": "1671 - Jacques d'Allonville, French astronomer and mathematician (d. 1732)",
+        "id": 147
+    },
+    {
+        "fact": "1634 - Pasquier Quesnel, French priest and theologian (d. 1719)",
+        "id": 148
+    },
+    {
+        "fact": "1610 - Ferdinando II de' Medici, Grand Duke of Tuscany (d. 1670)",
+        "id": 149
+    },
+    {
+        "fact": "1608 - George Goring, Lord Goring, English general (d. 1657)",
+        "id": 150
+    },
+    {
+        "fact": "1602 - Cardinal Jules Mazarin, Italian-French cardinal and politician, chief minister of France from 5 December 1642 to 9 March 1661 (d. 1661)",
+        "id": 151
+    },
+    {
+        "fact": "1515 - Philip I, Duke of Pomerania (d. 1560)",
+        "id": 152
+    },
+    {
+        "fact": "1454 - Poliziano, Italian poet and scholar (d. 1494)",
+        "id": 153
+    },
+    {
+        "fact": "1410 - Arnold, Duke of Guelders, (d. 1473)",
+        "id": 154
+    },
+    {
+        "fact": "926 - Murakami, emperor of Japan (d. 967)",
+        "id": 155
+    }
+]

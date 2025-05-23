@@ -1,0 +1,122 @@
+CATEGORY_FLAGS = {
+    "Epic Explorers": [
+        "explorer", "expedition", "discover", "journey", "navigation", "adventure", "voyage",
+        "pole", "ocean", "Everest", "Antarctica", "first to reach", "charted", "traveled"
+    ],
+    "Sporty Stuff": [
+        "football", "soccer", "Olympic", "championship", "tournament", "world cup", "athlete",
+        "runner", "sprinter", "tennis", "swimming", "basketball", "rugby", "medal", "win"
+    ],
+    "Weird but True": [
+        "odd", "strange", "unusual", "bizarre", "weird", "funny", "curious", "quirky", "strangest",
+        "law", "record", "mysterious", "coincidence", "unbelievable"
+    ],
+    "People Who Changed Things": [
+        "activist", "civil rights", "leader", "founded", "reformer", "revolutionary", "trailblazer",
+        "movement", "campaign", "equal", "change", "protest", "vote", "freedom"
+    ],
+    "Disasters & Close Calls": [
+        "earthquake", "tornado", "flood", "crash", "fire", "collapse", "blackout", "explosion",
+        "evacuate", "rescue", "emergency", "disaster", "danger"
+    ],
+    "Space and Rockets": [
+        "NASA", "shuttle", "rocket", "launch", "astronaut", "moon", "space", "orbit", "Mars",
+        "planet", "satellite", "telescope", "solar"
+    ],
+    "Famous Firsts": [
+        "first", "debut", "premiere", "original", "initial", "inaugural", "opening", "launch",
+        "start", "introduced", "unveiled"
+    ],
+    "Incredible Inventions": [
+        "invented", "patent", "invention", "created", "innovation", "device", "design",
+        "engineer", "technology", "machine", "gadget"
+    ],
+    "Cool Creators": [
+        "artist", "painter", "designer", "composer", "author", "director", "sculptor",
+        "illustrator", "songwriter", "creative", "playwright"
+    ],
+    "Powerful Politics": [
+        "president", "prime minister", "election", "government", "leader", "resign", "senate",
+        "law", "veto", "parliament", "policy", "republic", "constitution"
+    ],
+    "World at War": [
+        "battle", "war", "army", "military", "invasion", "conflict", "siege", "alliance",
+        "treaty", "revolution", "rebellion", "soldier"
+    ],
+    "On Stage & Screen": [
+        "actor", "film", "movie", "tv", "show", "theater", "broadway", "series", "comedian",
+        "performance", "celebrity"
+    ],
+    "Science Stuff": [
+        "scientist", "discovered", "research", "experiment", "chemistry", "physics", "biology",
+        "element", "theory", "cure", "laboratory", "nobel"
+    ],
+    "Building the World": [
+        "bridge", "tower", "monument", "building", "construction", "architecture", "skyscraper",
+        "opened", "unveiled", "infrastructure", "railway", "highway"
+    ],
+    "Royal & Regal": [
+        "king", "queen", "prince", "princess", "duke", "coronation", "crown", "throne",
+        "castle", "monarch", "royal"
+    ],
+    "Big Ideas": [
+        "philosopher", "education", "reform", "theory", "belief", "university", "teach",
+        "speech", "lecture", "idea", "academic", "thinker"
+    ],
+    "Musical Milestones": [
+        "music", "concert", "band", "album", "singer", "song", "musician", "opera",
+        "instrument", "performed", "toured", "record"
+    ],
+    "Animal Adventures": [
+        "zoo", "animal", "species", "discovery", "wildlife", "conservation", "pet", "habitat",
+        "nature", "rescue", "marine", "safari"
+    ],
+    "Festivals & Traditions": [
+        "holiday", "festival", "tradition", "celebration", "cultural", "ceremony", "custom",
+        "new year", "feast", "ritual", "dancing", "fireworks"
+    ],
+    "Super Smarties": [
+        "genius", "inventor", "mathematician", "scientist", "professor", "IQ", "thinker",
+        "scholar", "nobel", "physics", "calculation"
+    ],
+    "World Records": [
+        "record", "most", "fastest", "largest", "first", "tallest", "youngest", "oldest",
+        "achievement", "extreme", "champion"
+    ],
+    "Mysteries & Mayhem": [
+        "scandal", "mystery", "unsolved", "secret", "hidden", "rumor", "spy", "strange",
+        "conspiracy", "coded"
+    ],
+    "Law & Order": [
+        "trial", "court", "law", "arrest", "justice", "verdict", "criminal", "judge", "jury",
+        "legislation"
+    ],
+    "Peace & Progress": [
+        "peace", "treaty", "negotiation", "rights", "equality", "progress", "agreement",
+        "humanitarian", "justice", "accord"
+    ],
+    "Famous Faces": [
+        "actor", "musician", "leader", "president", "queen", "athlete", "famous", "celebrity",
+        "icon", "superstar", "legend"
+    ],
+    "Strange but Significant": [
+        "small event", "little known", "surprisingly", "quietly", "unexpectedly",
+        "minor moment", "forgotten", "weirdly important"
+    ],
+    "Young Achievers": [
+        "youngest", "teen", "child", "kid", "prodigy", "student", "first at age", "youth",
+        "born", "won at"
+    ],
+    "Books & Brains": [
+        "book", "literature", "published", "author", "reading", "novel", "library", "educator",
+        "essay", "poet", "journal"
+    ],
+    "Legends & Lore": [
+        "myth", "legend", "tale", "ancient", "hero", "folklore", "epic", "saga", "gods",
+        "superstition", "fabled"
+    ],
+    "Behind the Scenes": [
+        "assistant", "unknown", "background", "support", "helped", "collaborator",
+        "unsung", "quiet hero", "partner"
+    ]
+}

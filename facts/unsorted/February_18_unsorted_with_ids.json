@@ -1,0 +1,666 @@
+[
+    {
+        "fact": "2021 - Perseverance, a Mars rover designed to explore Jezero crater on Mars, as part of NASA's Mars 2020 mission, lands successfully.",
+        "id": 1
+    },
+    {
+        "fact": "2013 - Armed robbers steal a haul of diamonds worth $50 million during a raid at Brussels Airport in Belgium.",
+        "id": 2
+    },
+    {
+        "fact": "2010 - WikiLeaks publishes the first of hundreds of thousands of classified documents disclosed by the soldier now known as Chelsea Manning.",
+        "id": 3
+    },
+    {
+        "fact": "2004 - Up to 295 people, 182 of which being rescue workers, die near Nishapur, Iran, when a runaway freight train carrying sulfur, petrol and fertilizer catches fire and explodes.",
+        "id": 4
+    },
+    {
+        "fact": "2003 - 192 people die when an arsonist sets fire to a subway train in Daegu, South Korea.",
+        "id": 5
+    },
+    {
+        "fact": "2001 - FBI agent Robert Hanssen is arrested for spying for the Soviet Union. He is ultimately convicted and sentenced to life imprisonment.",
+        "id": 6
+    },
+    {
+        "fact": "1979 - Richard Petty wins a then-record sixth Daytona 500 after leaders Donnie Allison and Cale Yarborough crash on the final lap of the first NASCAR race televised live flag-to-flag.",
+        "id": 7
+    },
+    {
+        "fact": "1977 - The Space Shuttle Enterprise test vehicle is carried on its maiden \"flight\" on top of a Boeing 747.",
+        "id": 8
+    },
+    {
+        "fact": "1970 - The Chicago Seven are found not guilty of conspiring to incite riots at the 1968 Democratic National Convention.",
+        "id": 9
+    },
+    {
+        "fact": "1965 - The Gambia becomes independent from the United Kingdom.",
+        "id": 10
+    },
+    {
+        "fact": "1955 - Operation Teapot: Teapot test shot \"Wasp\" is successfully detonated at the Nevada Test Site with a yield of 1.2 kilotons.  Wasp is the first of fourteen shots in the Teapot series.",
+        "id": 11
+    },
+    {
+        "fact": "1954 - The first Church of Scientology is established in Los Angeles.",
+        "id": 12
+    },
+    {
+        "fact": "1932 - The Empire of Japan creates the independent state of Manzhouguo (the obsolete Chinese name for Manchuria) free from the Republic of China and installed former Chinese Emperor Aisin Gioro Puyi as Chief Executive of the State.",
+        "id": 13
+    },
+    {
+        "fact": "1930 - While studying photographs taken in January, Clyde Tombaugh discovers Pluto.",
+        "id": 14
+    },
+    {
+        "fact": "1930 - Elm Farm Ollie becomes the first cow to fly in a fixed-wing aircraft and also the first cow to be milked in an aircraft.",
+        "id": 15
+    },
+    {
+        "fact": "1911 - The first official flight with airmail takes place from Allahabad, United Provinces, British India (now India), when Henri Pequet, a 23-year-old pilot, delivers 6,500 letters to Naini, about 10 kilometres (6.2 mi) away.",
+        "id": 16
+    },
+    {
+        "fact": "1906 - Édouard de Laveleye forms the Belgian Olympic Committee in Brussels.",
+        "id": 17
+    },
+    {
+        "fact": "1885 - Adventures of Huckleberry Finn by Mark Twain is published in the United States.",
+        "id": 18
+    },
+    {
+        "fact": "1861 - In Montgomery, Alabama, Jefferson Davis is inaugurated as the provisional President of the Confederate States of America.",
+        "id": 19
+    },
+    {
+        "fact": "1861 - With Italian unification almost complete, Victor Emmanuel II of Piedmont, Savoy and Sardinia assumes the title of King of Italy.",
+        "id": 20
+    },
+    {
+        "fact": "1791 - Congress passes a law admitting the state of Vermont to the Union, effective 4 March, after that state had existed for 14 years as a de facto independent largely unrecognized state.",
+        "id": 21
+    },
+    {
+        "fact": "1735 - The ballad opera called Flora, or Hob in the Well went down in history as the first opera of any kind to be produced in North America (Charleston, S.C.)",
+        "id": 22
+    },
+    {
+        "fact": "1332 - Amda Seyon I, Emperor of Ethiopia begins his campaigns in the southern Muslim provinces.",
+        "id": 23
+    },
+    {
+        "fact": "1268 - The Battle of Wesenberg is fought between the Livonian Order and Dovmont of Pskov.",
+        "id": 24
+    },
+    {
+        "fact": "1229 - The Sixth Crusade: Frederick II, Holy Roman Emperor, signs a ten-year truce with al-Kamil, regaining Jerusalem, Nazareth, and Bethlehem with neither military engagements nor support from the papacy.",
+        "id": 25
+    },
+    {
+        "fact": "2002 - Manu Bhaker, Indian sports shooter",
+        "id": 26
+    },
+    {
+        "fact": "2001 - Tanguy Coulibaly, French footballer",
+        "id": 27
+    },
+    {
+        "fact": "2001 - Jaime Jaquez Jr., American basketball player",
+        "id": 28
+    },
+    {
+        "fact": "2000 - Zakaria Aboukhlal, Moroccan footballer",
+        "id": 29
+    },
+    {
+        "fact": "2000 - Giacomo Raspadori, Italian footballer",
+        "id": 30
+    },
+    {
+        "fact": "1998 - Vernon, South Korean and American rapper, singer and songwriter",
+        "id": 31
+    },
+    {
+        "fact": "1997 - DK, South Korean singer",
+        "id": 32
+    },
+    {
+        "fact": "1996 - Tyler Dorsey, American-Greek basketball player",
+        "id": 33
+    },
+    {
+        "fact": "1995 - Nathan Aké, Dutch footballer",
+        "id": 34
+    },
+    {
+        "fact": "1994 - J-Hope, South Korean rapper, singer-songwriter, dancer, and record producer",
+        "id": 35
+    },
+    {
+        "fact": "1994 - Paul Zipser, German basketball player",
+        "id": 36
+    },
+    {
+        "fact": "1993 - Kentavious Caldwell-Pope, American basketball player",
+        "id": 37
+    },
+    {
+        "fact": "1992 - Le'Veon Bell, American football player",
+        "id": 38
+    },
+    {
+        "fact": "1992 - Martin Marinčin, Slovak ice hockey player",
+        "id": 39
+    },
+    {
+        "fact": "1992 - Logan Miller, American actor",
+        "id": 40
+    },
+    {
+        "fact": "1991 - Sebastian Neumann, German footballer",
+        "id": 41
+    },
+    {
+        "fact": "1990 - Monica Aksamit, American saber fencer",
+        "id": 42
+    },
+    {
+        "fact": "1990 - Didi Gregorius, Dutch baseball player",
+        "id": 43
+    },
+    {
+        "fact": "1990 - Cody Hodgson, Canadian ice hockey player",
+        "id": 44
+    },
+    {
+        "fact": "1990 - Bryan Oviedo, Costa Rican footballer",
+        "id": 45
+    },
+    {
+        "fact": "1989 - Sonja Vasić, Serbian basketball player",
+        "id": 46
+    },
+    {
+        "fact": "1988 - Roman Neustädter, German-Russian footballer",
+        "id": 47
+    },
+    {
+        "fact": "1988 - Sarah Sutherland, American actress",
+        "id": 48
+    },
+    {
+        "fact": "1988 - Maiara Walsh, American-Brazilian actress",
+        "id": 49
+    },
+    {
+        "fact": "1986 - Kyle Weaver, American basketball player",
+        "id": 50
+    },
+    {
+        "fact": "1984 - Carlos Kameni, Cameroonian footballer",
+        "id": 51
+    },
+    {
+        "fact": "1983 - Kara Braxton, American basketball player",
+        "id": 52
+    },
+    {
+        "fact": "1983 - Jermaine Jenas, English footballer",
+        "id": 53
+    },
+    {
+        "fact": "1983 - Jason Maxiell, American basketball player",
+        "id": 54
+    },
+    {
+        "fact": "1982 - Christian Tiffert, German footballer",
+        "id": 55
+    },
+    {
+        "fact": "1981 - Andrei Kirilenko, Russian-American basketball player",
+        "id": 56
+    },
+    {
+        "fact": "1981 - Alex Ríos, American baseball player",
+        "id": 57
+    },
+    {
+        "fact": "1980 - Nik Antropov, Kazakhstani-Canadian ice hockey player",
+        "id": 58
+    },
+    {
+        "fact": "1980 - Regina Spektor, Russian-American musician and songwriter",
+        "id": 59
+    },
+    {
+        "fact": "1977 - Ike Barinholtz, American actor and comedian",
+        "id": 60
+    },
+    {
+        "fact": "1977 - Kristoffer Polaha, American actor",
+        "id": 61
+    },
+    {
+        "fact": "1975 - Gary Neville, English footballer",
+        "id": 62
+    },
+    {
+        "fact": "1974 - Carrie Ann Baade, American painter and academic",
+        "id": 63
+    },
+    {
+        "fact": "1974 - Radek Černý, Czech footballer",
+        "id": 64
+    },
+    {
+        "fact": "1974 - Julia Butterfly Hill, American environmentalist and author",
+        "id": 65
+    },
+    {
+        "fact": "1974 - Jillian Michaels, American personal trainer and television personality",
+        "id": 66
+    },
+    {
+        "fact": "1971 - Thomas Bjørn, Danish golfer",
+        "id": 67
+    },
+    {
+        "fact": "1969 - Alexander Mogilny, Russian ice hockey player",
+        "id": 68
+    },
+    {
+        "fact": "1968 - Molly Ringwald, American actress",
+        "id": 69
+    },
+    {
+        "fact": "1967 - Roberto Baggio, Italian footballer",
+        "id": 70
+    },
+    {
+        "fact": "1967 - Colin Jackson, Welsh sprinter and hurdler",
+        "id": 71
+    },
+    {
+        "fact": "1966 - Phillip DeFreitas, Dominican-English cricketer",
+        "id": 72
+    },
+    {
+        "fact": "1966 - Ryan Routh, American suspected assassin",
+        "id": 73
+    },
+    {
+        "fact": "1965 - Dr. Dre, American rapper, record producer, and entrepreneur",
+        "id": 74
+    },
+    {
+        "fact": "1964 - Matt Dillon, American actor",
+        "id": 75
+    },
+    {
+        "fact": "1960 - Andy Moog, Canadian ice hockey player",
+        "id": 76
+    },
+    {
+        "fact": "1960 - Greta Scacchi, Italian-Australian actress",
+        "id": 77
+    },
+    {
+        "fact": "1959 - Jayne Atkinson, English-American actress",
+        "id": 78
+    },
+    {
+        "fact": "1957 - Marita Koch, German sprinter",
+        "id": 79
+    },
+    {
+        "fact": "1957 - Vanna White, American television personality",
+        "id": 80
+    },
+    {
+        "fact": "1955 - Lisa See, American writer and novelist",
+        "id": 81
+    },
+    {
+        "fact": "1954 - John Travolta, American actor, singer and producer",
+        "id": 82
+    },
+    {
+        "fact": "1952 - Randy Crawford, American jazz and R&B singer",
+        "id": 83
+    },
+    {
+        "fact": "1952 - Maurice Lucas, American basketball player (d. 2010)",
+        "id": 84
+    },
+    {
+        "fact": "1952 - Juice Newton, American singer-songwriter and guitarist",
+        "id": 85
+    },
+    {
+        "fact": "1951 - Queen Komal of Nepal",
+        "id": 86
+    },
+    {
+        "fact": "1951 - Isabel Preysler, Filipino-Spanish journalist",
+        "id": 87
+    },
+    {
+        "fact": "1950 - Nana Amba Eyiaba I, Ghanaian queen mother and advocate",
+        "id": 88
+    },
+    {
+        "fact": "1950 - John Hughes, American director, producer, and screenwriter (d. 2009)",
+        "id": 89
+    },
+    {
+        "fact": "1950 - Cybill Shepherd, American actress",
+        "id": 90
+    },
+    {
+        "fact": "1947 - Dennis DeYoung, American musician, singer, and songwriter",
+        "id": 91
+    },
+    {
+        "fact": "1946 - Michael Buerk, English journalist",
+        "id": 92
+    },
+    {
+        "fact": "1946 - Jess Walton, American actress",
+        "id": 93
+    },
+    {
+        "fact": "1944 - Elizabeth Nunez, American novelist (d. 2024)",
+        "id": 94
+    },
+    {
+        "fact": "1941 - Irma Thomas, American singer-songwriter",
+        "id": 95
+    },
+    {
+        "fact": "1940 - Fabrizio De André, Italian singer-songwriter and guitarist (d. 1999)",
+        "id": 96
+    },
+    {
+        "fact": "1939 - Claude Ake, Nigerian political scientist and academic (d. 1996)",
+        "id": 97
+    },
+    {
+        "fact": "1936 - Jean M. Auel, American author",
+        "id": 98
+    },
+    {
+        "fact": "1934 - Audre Lorde, American writer and activist (d. 1992)",
+        "id": 99
+    },
+    {
+        "fact": "1933 - Yoko Ono, Japanese-American multimedia artist and musician",
+        "id": 100
+    },
+    {
+        "fact": "1933 - Bobby Robson, English footballer and manager (d. 2009)",
+        "id": 101
+    },
+    {
+        "fact": "1933 - Mary Ure, Scottish-English actress (d. 1975)",
+        "id": 102
+    },
+    {
+        "fact": "1932 - Miloš Forman, Czech-American actor, director, and screenwriter (d. 2018)",
+        "id": 103
+    },
+    {
+        "fact": "1931 - Johnny Hart, American cartoonist, co-created The Wizard of Id (d. 2007)",
+        "id": 104
+    },
+    {
+        "fact": "1931 - Toni Morrison, American novelist and editor, Nobel Prize laureate (d. 2019).",
+        "id": 105
+    },
+    {
+        "fact": "1929 - Len Deighton, English historian and author",
+        "id": 106
+    },
+    {
+        "fact": "1929 - André Mathieu, Canadian pianist and composer (d. 1968)",
+        "id": 107
+    },
+    {
+        "fact": "1927 - Fazal Mahmood, Pakistani cricketer (d. 2005)",
+        "id": 108
+    },
+    {
+        "fact": "1926 - Wallace Berman, American painter and illustrator (d. 1976)",
+        "id": 109
+    },
+    {
+        "fact": "1925 - George Kennedy, American actor (d. 2016)",
+        "id": 110
+    },
+    {
+        "fact": "1922 - Eric Gairy, Grenadan politician, 1st Prime Minister of Grenada (d. 1997)",
+        "id": 111
+    },
+    {
+        "fact": "1922 - Helen Gurley Brown, American journalist and author (d. 2012)",
+        "id": 112
+    },
+    {
+        "fact": "1922 - Connie Wisniewski, American baseball player (d. 1995)",
+        "id": 113
+    },
+    {
+        "fact": "1921 - Mary Amdur, American toxicologist and public health researcher (d. 1998)",
+        "id": 114
+    },
+    {
+        "fact": "1921 - Oscar Feltsman, Ukrainian-Russian pianist and composer (d. 2013)",
+        "id": 115
+    },
+    {
+        "fact": "1920 - Rolande Falcinelli, French organist, pianist, composer, and pedagogue (d. 2006)",
+        "id": 116
+    },
+    {
+        "fact": "1919 - Jack Palance, American boxer and actor (d. 2006)",
+        "id": 117
+    },
+    {
+        "fact": "1915 - Phyllis Calvert, English actress (d. 2002)",
+        "id": 118
+    },
+    {
+        "fact": "1915 - Joe Gordon, American baseball player and manager (d. 1978)",
+        "id": 119
+    },
+    {
+        "fact": "1914 - Pee Wee King, American singer-songwriter and fiddler (d. 2000)",
+        "id": 120
+    },
+    {
+        "fact": "1909 - Wallace Stegner, American novelist, short story writer, and essayist (d. 1993)",
+        "id": 121
+    },
+    {
+        "fact": "1906 - Hans Asperger, Austrian pediatrician and academic (d. 1980)",
+        "id": 122
+    },
+    {
+        "fact": "1903 - Nikolai Podgorny, Ukrainian engineer and politician (d. 1983)",
+        "id": 123
+    },
+    {
+        "fact": "1899 - Arthur Bryant, English historian and journalist (d. 1985)",
+        "id": 124
+    },
+    {
+        "fact": "1898 - Luis Muñoz Marín, Puerto Rican poet and politician, 1st Governor of the Commonwealth of Puerto Rico (d. 1980)",
+        "id": 125
+    },
+    {
+        "fact": "1896 - Li Linsi, Chinese educator and diplomat (d. 1970)",
+        "id": 126
+    },
+    {
+        "fact": "1893 - Maksim Haretski, Belarusian prose writer, journalist and activist (d. 1938)",
+        "id": 127
+    },
+    {
+        "fact": "1892 - Wendell Willkie, American captain, lawyer, and politician (d. 1944)",
+        "id": 128
+    },
+    {
+        "fact": "1890 - Adolphe Menjou, American actor (d. 1963)",
+        "id": 129
+    },
+    {
+        "fact": "1885 - Henri Laurens, French sculptor and illustrator (d. 1954)",
+        "id": 130
+    },
+    {
+        "fact": "1883 - Nikos Kazantzakis, Greek philosopher, author, and playwright (d. 1957)",
+        "id": 131
+    },
+    {
+        "fact": "1871 - Harry Brearley, English inventor (d. 1948)",
+        "id": 132
+    },
+    {
+        "fact": "1870 - William Laurel Harris, American painter and author (d. 1924)",
+        "id": 133
+    },
+    {
+        "fact": "1867 - Hedwig Courths-Mahler, German writer (d. 1950)",
+        "id": 134
+    },
+    {
+        "fact": "1862 - Charles M. Schwab, American businessman, co-founded Bethlehem Steel (d. 1939)",
+        "id": 135
+    },
+    {
+        "fact": "1860 - Anders Zorn, Swedish artist (d. 1920)",
+        "id": 136
+    },
+    {
+        "fact": "1855 - Jean Jules Jusserand, French historian, author, and diplomat, French Ambassador to the United States (d. 1932)",
+        "id": 137
+    },
+    {
+        "fact": "1850 - George Henschel, German-English singer-songwriter, pianist, and conductor (d. 1934)",
+        "id": 138
+    },
+    {
+        "fact": "1849 - Alexander Kielland, Norwegian author, playwright, and politician (d. 1906)",
+        "id": 139
+    },
+    {
+        "fact": "1848 - Louis Comfort Tiffany, American stained glass artist (d. 1933)",
+        "id": 140
+    },
+    {
+        "fact": "1846 - Wilson Barrett, English actor, playwright, and manager (d. 1904)",
+        "id": 141
+    },
+    {
+        "fact": "1838 - Ernst Mach, Austrian physicist and philosopher (d. 1916)",
+        "id": 142
+    },
+    {
+        "fact": "1836 - Ramakrishna Paramahamsa, Indian mystic and yogi (d. 1886)",
+        "id": 143
+    },
+    {
+        "fact": "1818 - John O'Shanassy, Irish-Australian politician, 2nd Premier of Victoria (d. 1883)",
+        "id": 144
+    },
+    {
+        "fact": "1818 - Konstanty Schmidt-Ciążyński, Polish collector and art connoisseur who donated a large collection to the National Museum in Kraków (d. 1889)",
+        "id": 145
+    },
+    {
+        "fact": "1817 - Lewis Armistead, American general (d. 1863)",
+        "id": 146
+    },
+    {
+        "fact": "1814 - Samuel Fenton Cary, American lawyer and politician (d. 1900)",
+        "id": 147
+    },
+    {
+        "fact": "1754 - Emanuel Granberg, Finnish church painter (d. 1797)",
+        "id": 148
+    },
+    {
+        "fact": "1745 - Alessandro Volta, Italian physicist, invented the battery (d. 1827)",
+        "id": 149
+    },
+    {
+        "fact": "1732 - Johann Christian Kittel, German organist and composer (d. 1809)",
+        "id": 150
+    },
+    {
+        "fact": "1658 - Charles-Irénée Castel de Saint-Pierre, French philosopher and author (d. 1743)",
+        "id": 151
+    },
+    {
+        "fact": "1642 - Marie Champmeslé, French actress (d. 1698)",
+        "id": 152
+    },
+    {
+        "fact": "1632 - Giovanni Battista Vitali, Italian violinist and composer (d. 1692)",
+        "id": 153
+    },
+    {
+        "fact": "1626 - Francesco Redi, Italian physician (d. 1697)",
+        "id": 154
+    },
+    {
+        "fact": "1602 - Per Brahe the Younger, Swedish soldier and politician, Governor-General of Finland (d. 1680)",
+        "id": 155
+    },
+    {
+        "fact": "1602 - Michelangelo Cerquozzi, Italian painter (d. 1660)",
+        "id": 156
+    },
+    {
+        "fact": "1589 - Henry Vane the Elder, English politician (d. 1655)",
+        "id": 157
+    },
+    {
+        "fact": "1589 - Maarten Gerritsz Vries, Dutch explorer (d. 1646)",
+        "id": 158
+    },
+    {
+        "fact": "1559 - Isaac Casaubon, Swiss philologist and scholar (d. 1614)",
+        "id": 159
+    },
+    {
+        "fact": "1547 - Bahāʾ al-dīn al-ʿĀmilī, founder of Isfahan School of Islamic Philosophy (d. 1621)",
+        "id": 160
+    },
+    {
+        "fact": "1543 - Charles III, Duke of Lorraine (d. 1608)",
+        "id": 161
+    },
+    {
+        "fact": "1530 - Uesugi Kenshin, Japanese daimyō (d. 1578)",
+        "id": 162
+    },
+    {
+        "fact": "1516 - Mary I of England (d. 1558)",
+        "id": 163
+    },
+    {
+        "fact": "1486 - Chaitanya Mahaprabhu, Indian monk and saint (d. 1534)",
+        "id": 164
+    },
+    {
+        "fact": "1372 - Ibn Hajar al-Asqalani, Egyptian jurist and scholar (d. 1448)",
+        "id": 165
+    },
+    {
+        "fact": "1201 - Nasir al-Din al-Tusi, Persian scientist and writer (d. 1274)",
+        "id": 166
+    }
+]
