@@ -2,6 +2,8 @@ import os
 import re
 import json
 import logging
+from io import BytesIO
+from PyPDF2 import PdfReader
 from reportlab.lib.pagesizes import letter
 from reportlab.platypus import (
     BaseDocTemplate, Frame, PageTemplate,
@@ -14,9 +16,72 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.lib import colors
 from reportlab.lib.utils import ImageReader
 from reportlab.platypus import Image as RLImage
-from PIL import Image as PILImage
 from reportlab.platypus import Flowable
 from reportlab.pdfbase.pdfmetrics import registerFontFamily
+from reportlab.lib.units import cm
+import fitz  # PyMuPDF
+from PIL import Image
+
+print("CWD:", os.getcwd())
+
+def draw_cloud_shape_background(canvas, doc, alpha=0.88, scale=1.0):
+    from reportlab.lib.units import cm
+    import math
+
+    canvas.saveState()
+    canvas.setFillColorRGB(1, 1, 1, alpha=alpha)
+
+    # Base rectangle size
+    w = doc.pagesize[0] * 0.75
+    h = doc.pagesize[1] * 0.80 * scale
+    x = (doc.pagesize[0] - w) / 2
+    y = (doc.pagesize[1] - h) / 2
+
+
+    # Bump settings
+    bumps_x = 8
+    bumps_y = 6
+    bump_radius = 10
+
+    path = canvas.beginPath()
+
+    # Start bottom-left
+    path.moveTo(x, y + bump_radius)
+
+    # Left side: bottom to top with bumps
+    for i in range(bumps_y):
+        cy = y + i * (h / bumps_y)
+        path.curveTo(x - bump_radius, cy + bump_radius / 2,
+                     x - bump_radius, cy + (h / bumps_y) - bump_radius / 2,
+                     x, cy + (h / bumps_y))
+
+    # Top side: left to right with bumps
+    for i in range(bumps_x):
+        cx = x + i * (w / bumps_x)
+        path.curveTo(cx + bump_radius / 2, y + h + bump_radius,
+                     cx + (w / bumps_x) - bump_radius / 2, y + h + bump_radius,
+                     cx + (w / bumps_x), y + h)
+
+    # Right side: top to bottom with bumps
+    for i in range(bumps_y):
+        cy = y + h - i * (h / bumps_y)
+        path.curveTo(x + w + bump_radius, cy - bump_radius / 2,
+                     x + w + bump_radius, cy - (h / bumps_y) + bump_radius / 2,
+                     x + w, cy - (h / bumps_y))
+
+    # Bottom side: right to left with bumps
+    for i in range(bumps_x):
+        cx = x + w - i * (w / bumps_x)
+        path.curveTo(cx - bump_radius / 2, y - bump_radius,
+                     cx - (w / bumps_x) + bump_radius / 2, y - bump_radius,
+                     cx - (w / bumps_x), y)
+
+    path.close()
+    canvas.drawPath(path, fill=1, stroke=0)
+    canvas.restoreState()
+
+
+
 
 class WhiteoutPage(Flowable):
     def __init__(self, width, height):
@@ -35,41 +100,111 @@ class WhiteoutPage(Flowable):
         canvas.rect(0, 0, self.width, self.height, fill=1, stroke=0)
         canvas.restoreState()
 
-logging.basicConfig(level=logging.INFO, format="🔍 %(message)s")
+log_file_path = os.path.join(os.getcwd(), "debug_output.log")
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    handlers=[
+        logging.FileHandler(log_file_path, mode='w', encoding='utf-8'),
+        logging.StreamHandler()  # Optional: keep showing logs in console too
+    ]
+)
 
-CATEGORY_BACKGROUNDS = {}
-CATEGORY_DESCRIPTIONS = {}  # Placeholder
+
+CATEGORY_BACKGROUNDS = {
+    "People Who Changed the World 👑": "people_who_changed_the_world",
+    "Spectacular Science & Inventions 🔬": "spectacular_science_and_inventions",
+    "Sports & Epic Records 🏅": "sports_and_epic_records",
+    "Turning Points in History 🌍": "turning_points_in_history",
+    "Everyday Heroes & Helpers 💪": "everyday_heroes_and_helpers",
+    "Weird, Wild & Wonderful 🫯": "weird_wild_and_wonderful",
+    "Art, Music & Creative Minds 🎨": "art_music_and_creative_minds"
+}
+
+CATEGORY_DESCRIPTIONS = {
+    "People Who Changed the World 👑": "These amazing humans didn’t just make a difference — they flipped history upside-down! On this day, they proved that one person really can change the world (and sometimes while wearing a very cool hat).",
+    "Spectacular Science & Inventions 🔬": "From lightbulbs to lightning-fast rockets, these brainy breakthroughs were discovered on this very date! On this day, brilliant minds made science sparkle and inventions pop!",
+    "Sports & Epic Records 🏅": "Whether they kicked, jumped, flipped, or flew — these legends broke records and hearts (mostly their opponents') on this day! Get ready for some jaw-dropping victories!",
+    "Turning Points in History 🌍": "These moments didn’t just shake the world — they gave it a whole new plot twist. On this day, the story of the world took a wild turn!",
+    "Everyday Heroes & Helpers 💪": "On this day, kind, clever, and courageous folks stepped up when it mattered most. They’re not in capes, but they’re totally heroic!",
+    "Weird, Wild & Wonderful 🫯": "From flying cows to unexpected royal dance-offs — this is the land of oddball awesomeness. On this day, things got wonderfully weird!",
+    "Art, Music & Creative Minds 🎨": "On this day, imaginations exploded into color, sound, and pure magic. These creative champs turned the world into their masterpiece!"
+}
+
 final_categories_dict = {}  # For category-to-fact-id export
 
 class MyDocTemplate(BaseDocTemplate):
     def __init__(self, filename, **kwargs):
         super().__init__(filename, **kwargs)
-        self._page_tracker = {}
-        self._current_category = None
-        self._background_image = ImageReader(os.path.join("backgrounds", "spacefaint.png"))
-        frame = Frame(self.leftMargin, self.bottomMargin, self.width, self.height, id='normal')
+        self._page_tracker = {}  # Tracks where each category starts
+        self._background_ranges = []  # Stores start-end ranges with ImageReader backgrounds
+
+        margin_size = 0.5
+
+        frame = Frame(
+            self.leftMargin + margin_size,          # move right from left edge
+            self.bottomMargin + margin_size,        # move up from bottom edge
+            self.width - 2 * margin_size,           # shrink width by left+right margins
+            self.height - 2 * margin_size,          # shrink height by top+bottom margins
+            id='normal'
+        )
+
         template = PageTemplate(id='Content', frames=[frame], onPage=self.draw_background)
         self.addPageTemplates([template])
 
     def afterFlowable(self, flowable):
-        if isinstance(flowable, Paragraph) and flowable.style.name == "CategoryTitle":
+        if isinstance(flowable, Paragraph):
             text = flowable.getPlainText()
-            self._page_tracker[text] = self.page
+            logging.info(f"🧩 afterFlowable: style={flowable.style.name}, text='{text}' (page {self.page})")
+
+            if flowable.style.name == "CategoryTitle":
+                if text not in self._page_tracker:
+                    self._page_tracker[text] = self.page
+                    logging.info(f"📌 Category page marked: {text} → page {self.page}")
+
+            elif text.startswith("__TRIVIA_START__"):
+                if text not in self._page_tracker:
+                    self._page_tracker[text] = self.page
+                    logging.info(f"🧠 Trivia marker registered: {text} → page {self.page}")
+
 
     def draw_background(self, canvas, doc):
+        current_page = canvas.getPageNumber()
+        canvas.saveState()
+
+        # Always fill base with solid white to avoid bleed-through
         canvas.setFillColorRGB(1, 1, 1)
         canvas.rect(0, 0, doc.pagesize[0], doc.pagesize[1], fill=1, stroke=0)
-        current_page = canvas.getPageNumber()
-        if current_page in self._page_tracker.values():
-            return
-        if self._background_image:
-            canvas.drawImage(self._background_image, 0, 0, width=letter[0], height=letter[1], mask='auto')
+
+        bg_range = None
+        for bg in self._background_ranges:
+            if bg["start"] <= current_page <= bg["end"]:
+                bg_range = bg
+                break
+
+        if bg_range:
+            img = ImageReader(bg_range.get("image_path")) if "image_path" in bg_range else bg_range.get("image")
+
+            try:
+                canvas.drawImage(img, 0, 0, width=doc.pagesize[0], height=doc.pagesize[1])
+                logging.info(f"✅ Page {current_page}: Applied background image successfully")
+            except Exception as e:
+                logging.warning(f"❌ Page {current_page}: Failed to draw background image → {e}")
+        else:
+            logging.warning(f"🚫 Page {current_page}: No background assigned")
+
+        scale = 0.2 if bg_range and current_page == bg_range["start"] else 1.0
+        draw_cloud_shape_background(canvas, doc, alpha=0.7, scale=scale)
+
+        canvas.restoreState()
         self.add_page_number(canvas, doc)
+
 
     def add_page_number(self, canvas, doc):
         page_num = canvas.getPageNumber()
         if page_num > 1:
             canvas.setFont("DejaVu", 10)
+            canvas.setFillColorRGB(1, 1, 1)
             canvas.drawRightString(570, 10, f"Page {page_num}")
 
 def build_elements(facts, styles, date_str, category_pages=None):
@@ -95,11 +230,15 @@ def build_elements(facts, styles, date_str, category_pages=None):
     elements.append(Paragraph("Before we begin!", styles['intro_header']))
     elements.append(Spacer(1, 12))
     elements.append(Paragraph(intro_text.strip(), styles['intro']))
-    elements.append(PageBreak())
 
     if category_pages:
+        elements.append(PageBreak())
         elements.append(Paragraph("Table of Contents", styles['toc_title']))
-        toc_data = [[Paragraph(cat, styles['toc_item']), Paragraph(str(pg), styles['toc_item'])] for cat, pg in category_pages]
+
+        filtered_category_pages = [(cat, pg) for cat, pg in category_pages if not cat.startswith("__TRIVIA_START__") and "Trivia Time!" not in cat]
+
+        toc_data = [[Paragraph(cat, styles['toc_item']), Paragraph(str(pg), styles['toc_item'])] for cat, pg in filtered_category_pages]
+
         table = Table(toc_data, colWidths=[380, 80], hAlign='LEFT')
         table.setStyle(TableStyle([
             ('ALIGN', (0, 0), (-1, -1), 'LEFT'),
@@ -254,7 +393,6 @@ def build_elements(facts, styles, date_str, category_pages=None):
 
         final_total = len(seen_ids)
         logging.info(f"📦 Final total facts used in book: {final_total}")
-        logging.info(f"📦 Final total facts used in book: {final_total}")
             
 
     
@@ -262,36 +400,106 @@ def build_elements(facts, styles, date_str, category_pages=None):
     for category, fact_list in categories.items():
         if category_pages is None:
             logging.info(f"📚 Category: {category} — {len(fact_list)} facts")
-        
+
+        # 🔁 PageBreak starts a new page with the category title
+        elements.append(PageBreak())
+        title = Paragraph(f"<b>{category}</b>", styles['category'])
+        desc = CATEGORY_DESCRIPTIONS.get(category, "")
+        desc_paragraph = Paragraph(desc, styles['story'])
+
+        # Build content as a block
+        title_block = KeepTogether([
+            Spacer(1, 12),
+            Paragraph(f"<para align='center'><b>{category}</b></para>", styles['category']),
+            Spacer(1, 12),
+            Paragraph(f"<para align='center'>{desc}</para>", styles['story']),
+        ])
+
+        # Add dynamic vertical centering
+        page_height = letter[1]
+        estimated_content_height = 180  # adjust this if your text is taller
+        spacer_height = max(0, (page_height - estimated_content_height) / 2 - 50)
+
+        elements.append(Spacer(1, spacer_height))
+        elements.append(title_block)
+        elements.append(PageBreak())
+
+
+        # ✅ This is where the background will kick in — nothing after this breaks it
+        for i, fact in enumerate(fact_list):
+            fact_block = KeepTogether([
+                Paragraph(f"<i>{fact['title']}</i>", styles['title']),
+                Paragraph(fact["story"], styles['story'])
+            ])
+            elements.append(fact_block)
 
         elements.append(PageBreak())
-        elements.append(Paragraph(f"<b>{category}</b>", styles['category']))
+
+        # Add centered trivia intro block
+        estimated_content_height = 180
+        spacer_height = max(0, (letter[1] - estimated_content_height) / 2 - 50)
+        elements.append(Spacer(1, spacer_height))
+
+        # Trivia title + marker placed here
+        elements.append(Paragraph("<para align='center'><b>Trivia Time!</b></para>", styles['category']))
+        elements.append(Paragraph(
+            f"__TRIVIA_START__{category}",
+            ParagraphStyle("HiddenTriviaMarker", fontSize=1, textColor=colors.white)
+        ))
         elements.append(Spacer(1, 12))
-        elements.append(Paragraph("Here are the awesome facts in this category:", styles['story']))
-        for i, fact in enumerate(fact_list, 1):
-            elements.append(Paragraph(f"{i}. <i>{fact['title']}</i>", styles['story']))
+        elements.append(Paragraph(
+            "<para align='center'>Test your brainpower with some tricky questions from this chapter. "
+            "Get them right and you might just become the world’s next quiz champion!</para>",
+            styles['story']
+        ))
         elements.append(PageBreak())
 
-        for fact in fact_list:
-            elements.append(Paragraph(f"<i>{fact['title']}</i>", styles['title']))
-            elements.append(Paragraph(fact["story"], styles['story']))
 
-        elements.append(PageBreak())
-        elements.append(Paragraph("Trivia Time!", styles['category']))
+
+        logging.info(f"🧠 Trivia start marker added for category: {category}")
+
+        # Add "Questions" heading before trivia starts
+        elements.append(Paragraph("Questions", styles['category']))
+        elements.append(Spacer(1, 12))
+
+        # Trivia Questions
         for i, fact in enumerate(fact_list, 1):
             q = fact.get("activity_question")
             choices = fact.get("activity_choices", [])
             if q and choices:
                 elements.append(Paragraph(f"{i}. {q}", styles['story']))
-                for idx, opt in enumerate(choices):
-                    elements.append(Paragraph(f"    {chr(ord('A') + idx)}. {opt}", styles['story']))
+                checkboxes = [Paragraph(f"☐ {opt}", styles['story']) for opt in choices]
+                grid = [checkboxes[i:i+2] for i in range(0, len(checkboxes), 2)]
+
+                # Pad the last row if needed
+                if len(grid[-1]) == 1:
+                    grid[-1].append("")
+
+                table = Table(grid, colWidths=[240, 220])
+                table.setStyle(TableStyle([
+                    ('LEFTPADDING', (0, 0), (0, -1), 36),  # indent left column
+                    ('LEFTPADDING', (1, 0), (1, -1), 0),   # no indent on right column
+                    ('VALIGN', (0, 0), (-1, -1), 'TOP'),
+                ]))
+                elements.append(table)
+                elements.append(Spacer(1, 12))
+
+
+        # Answers
         elements.append(PageBreak())
         elements.append(Paragraph("Answers", styles['category']))
+        elements.append(Spacer(1, 12))
         for i, fact in enumerate(fact_list, 1):
             q = fact.get("activity_question")
             a = fact.get("activity_answer")
             if q and a:
                 elements.append(Paragraph(f"• {i}. {q} → <b>{a}</b>", styles['story']))
+
+        # ✅ Insert image immediately after title/description
+        image_path = os.path.join("pictures", f"{CATEGORY_BACKGROUNDS.get(category, '').lower()}.png")
+        if os.path.exists(image_path):
+            elements.append(RLImage(image_path, width=400, height=300))
+            elements.append(Spacer(1, 20))
 
     # Export category structure for external validation with word counts
     global final_categories_dict
@@ -308,10 +516,6 @@ def build_elements(facts, styles, date_str, category_pages=None):
     }
 
     return elements
-
-
-# The rest of the script remains unchanged (generate_pdf_with_manual_toc, extract_date_with_suffix, etc.)
-
 
 def generate_pdf_with_manual_toc(json_file, output_pdf):
     with open(json_file, "r", encoding="utf-8") as f:
@@ -340,12 +544,164 @@ def generate_pdf_with_manual_toc(json_file, output_pdf):
     doc1 = MyDocTemplate(output_pdf, pagesize=letter, title=f"What Happened on {date_str}")
     elements1 = build_elements(facts, styles, date_str)
     doc1.build(elements1)
-    category_pages = sorted(doc1._page_tracker.items(), key=lambda x: x[1])
+    category_pages = sorted(
+        [(label, page) for label, page in doc1._page_tracker.items() if not label.startswith("__TRIVIA_START__")],
+        key=lambda x: x[1]
+    )
 
-    logging.info("🔄 Second pass: inserting manual TOC...")
-    doc2 = MyDocTemplate(output_pdf, pagesize=letter, title=f"What Happened on {date_str}")
+
+    # 🔄 Build final PDF first
+    doc2_stream = BytesIO()
+    doc2 = MyDocTemplate(doc2_stream, pagesize=letter, title=f"What Happened on {date_str}")
     elements2 = build_elements(facts, styles, date_str, category_pages)
     doc2.build(elements2)
+
+    import unicodedata
+
+    def strip_emoji(text):
+        return ''.join(c for c in text if not unicodedata.category(c).startswith('So'))
+
+    # 🧠 Trivia backgrounds should override category ones
+    sorted_pages = sorted(doc2._page_tracker.items(), key=lambda x: x[1])
+    temp_ranges = []
+
+    for i, (label, start_page) in enumerate(sorted_pages):
+        end_page = sorted_pages[i + 1][1] - 1 if i + 1 < len(sorted_pages) else 999
+
+        if label.startswith("__TRIVIA_START__"):
+            trivia_path = os.path.join("backgrounds", "trivia_time.png")
+            if os.path.exists(trivia_path):
+                end_page = sorted_pages[i + 1][1] - 1 if i + 1 < len(sorted_pages) else 999
+                temp_ranges.append((start_page, end_page, trivia_path, "trivia"))
+            continue
+
+        stripped_label = strip_emoji(label).strip()
+        match_key = next((k for k in CATEGORY_BACKGROUNDS if strip_emoji(k).strip() == stripped_label), None)
+        if match_key:
+            cat_path = os.path.join("backgrounds", f"{CATEGORY_BACKGROUNDS[match_key]}.png")
+            if os.path.exists(cat_path):
+                temp_ranges.append((start_page, end_page, cat_path, "category"))
+
+    # Trivia has priority: latest entry wins
+    page_map = {}
+    for start, end, path, label_type in temp_ranges:
+        for page in range(start, end + 1):
+            previous = page_map.get(page)
+            if page not in page_map or label_type == "trivia":
+                page_map[page] = (path, label_type)
+                logging.info(f"🧠 Page {page} set to {label_type} background: {os.path.basename(path)}")
+            else:
+                logging.info(f"⚠️ Page {page} already has background ({previous[1]}), skipping {label_type}")
+
+
+
+    # Merge continuous page ranges
+    background_ranges = []
+    current_path = None
+    range_start = None
+
+    for page in sorted(page_map):
+        path, _ = page_map[page]
+        if path != current_path:
+            if current_path is not None:
+                background_ranges.append({
+                    "start": range_start,
+                    "end": page - 1,
+                    "image_path": current_path
+                })
+            current_path = path
+            range_start = page
+
+    if current_path is not None:
+        background_ranges.append({
+            "start": range_start,
+            "end": max(page_map),
+            "image_path": current_path
+        })
+
+
+
+
+    logging.info("✅ Final PDF built successfully.")
+
+    # ➕ Compute background ranges using _page_tracker after layout
+    sorted_pages = sorted(doc2._page_tracker.items(), key=lambda x: x[1])
+    temp_ranges = []
+
+    for i, (label, start_page) in enumerate(sorted_pages):
+        # Detect trivia markers
+        if label.startswith("__TRIVIA_START__"):
+            trivia_path = os.path.join("backgrounds", "trivia_time.png")
+            if os.path.exists(trivia_path):
+                end_page = sorted_pages[i + 1][1] - 1 if i + 1 < len(sorted_pages) else 999
+                temp_ranges.append((start_page, end_page, trivia_path, "trivia"))
+            continue
+
+        # Detect category backgrounds
+        stripped_label = strip_emoji(label).strip()
+        match_key = next((k for k in CATEGORY_BACKGROUNDS if strip_emoji(k).strip() == stripped_label), None)
+        if match_key:
+            cat_path = os.path.join("backgrounds", f"{CATEGORY_BACKGROUNDS[match_key]}.png")
+            if os.path.exists(cat_path):
+                end_page = sorted_pages[i + 1][1] - 1 if i + 1 < len(sorted_pages) else 999
+                temp_ranges.append((start_page, end_page, cat_path, "category"))
+
+    # Deduplicate by page – trivia has higher priority
+    page_map = {}
+    for start, end, path, label_type in temp_ranges:
+        for page in range(start, end + 1):
+            if page not in page_map or label_type == "trivia":
+                page_map[page] = (path, label_type)
+
+    # Merge pages into continuous ranges
+    background_ranges = []
+    current_path = None
+    range_start = None
+
+    for page in sorted(page_map):
+        path, _ = page_map[page]
+        if path != current_path:
+            if current_path is not None:
+                background_ranges.append({
+                    "start": range_start,
+                    "end": page - 1,
+                    "image_path": current_path
+                })
+            current_path = path
+            range_start = page
+
+    if current_path is not None:
+        background_ranges.append({
+            "start": range_start,
+            "end": max(page_map),
+            "image_path": current_path
+        })
+
+    # Assign to final doc
+    # Create final_doc first
+    final_doc = MyDocTemplate(output_pdf, pagesize=letter, title=f"What Happened on {date_str}")
+    final_doc._background_ranges = background_ranges
+
+    # 🧱 Rebuild elements with TOC before the final build
+    final_elements = build_elements(facts, styles, date_str, category_pages)
+
+    frame = Frame(final_doc.leftMargin, final_doc.bottomMargin, final_doc.width, final_doc.height, id='normal')
+    template = PageTemplate(id='Content', frames=[frame], onPage=final_doc.draw_background)
+    final_doc.addPageTemplates([template])
+
+    logging.info("📄 Final build started with full backgrounds...")
+    final_doc.build(final_elements)
+
+
+    logging.info("✅ Final PDF built successfully.")
+
+
+
+    # Scan page text and match category names
+    doc2_stream.seek(0)
+    reader = PdfReader(doc2_stream)
+
+
 
     # Export final categories for debugging
     output_json = output_pdf.replace(".pdf", "_categories.json")
@@ -354,6 +710,60 @@ def generate_pdf_with_manual_toc(json_file, output_pdf):
     logging.info(f"📁 Categories exported to: {output_json}")
 
     logging.info(f"✅ PDF created at: {output_pdf}")
+    print("Page tracker keys:", doc2._page_tracker.keys())
+
+    print("🎯 Final background ranges applied:")
+    for r in final_doc._background_ranges:
+        print(f" → Pages {r['start']}–{r['end']}: {os.path.basename(r['image_path'])}")
+
+def overlay_trivia_pages(pdf_path, trivia_img_path):
+    import fitz
+    from PIL import Image
+
+    doc = fitz.open(pdf_path)
+    trivia_img_temp = "temp_trivia.jpg"
+
+    # Prepare trivia image at full quality
+    img = Image.open(trivia_img_path)
+    img = img.convert("RGB")  # Ensure RGB mode
+    img.save(trivia_img_temp, format="JPEG", quality=100)
+
+    trivia_indexes = []
+
+    # ✅ Use a precise two-page pattern: marker page + following page
+    prev_was_marker = False
+    for i, page in enumerate(doc):
+        text = page.get_text("text")
+        if "__TRIVIA_START__" in text:
+            trivia_indexes.append(i)
+            prev_was_marker = True
+            logging.info(f"📍 Found trivia marker on page {i+1}")
+        elif prev_was_marker:
+            trivia_indexes.append(i)
+            prev_was_marker = False
+            logging.info(f"📍 Included Trivia Time content page: {i+1}")
+
+    # ✅ Insert image only on these targeted pages
+    for idx in trivia_indexes:
+        if idx < len(doc):  # safety check
+            page = doc[idx]
+            rect = page.rect
+            try:
+                page.insert_image(rect, filename=trivia_img_temp, overlay=False)
+                logging.info(f"✅ Trivia background added to page {idx+1}")
+            except Exception as e:
+                logging.warning(f"❌ Failed to insert trivia image on page {idx+1}: {e}")
+
+    # Save and clean up
+    temp_output = pdf_path + ".temp.pdf"
+    doc.save(temp_output)
+    doc.close()
+    os.replace(temp_output, pdf_path)
+    os.remove(trivia_img_temp)
+
+    logging.info(f"✅ Final trivia backgrounds applied to {len(trivia_indexes)} pages.")
+
+# Usage
 
 
 def extract_date_with_suffix(filename):
@@ -389,4 +799,10 @@ if __name__ == "__main__":
             json_path = os.path.join(facts_dir, filename)
             base_name = os.path.splitext(filename)[0]
             safe_pdf_path = get_unique_filename(books_dir, f"{base_name}.pdf")
+
             generate_pdf_with_manual_toc(json_path, safe_pdf_path)
+
+            # ✅ Correct usage here — safe_pdf_path is defined now
+            overlay_trivia_pages(safe_pdf_path, os.path.join("backgrounds", "trivia_time.png"))
+
+
