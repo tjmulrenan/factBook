@@ -1,7 +1,0 @@
-2025-04-22 01:54:41,309 - INFO - \U0001f4c5 Collecting historical facts for January 10...
-2025-04-22 01:54:41,309 - INFO - Fetching Wikipedia API events from https://api.wikimedia.org/feed/v1/wikipedia/en/onthisday/all/01/10
-2025-04-22 01:54:41,309 - DEBUG - Starting new HTTPS connection (1): api.wikimedia.org:443
-2025-04-22 01:54:41,421 - DEBUG - https://api.wikimedia.org:443 "GET /feed/v1/wikipedia/en/onthisday/all/01/10 HTTP/1.1" 200 None
-2025-04-22 01:54:41,530 - INFO - Categories selected: ['sports', 'politics', 'technology', 'literature', 'space', 'movies_tv', 'catch_all', 'transport', 'music', 'royalty', 'education']
-2025-04-22 01:54:41,530 - INFO - \u2705 Total PG-rated and categorized events collected: 220
-2025-04-22 01:54:41,530 - INFO - \u2705 Facts saved: facts/January_10.json
