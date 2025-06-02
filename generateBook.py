@@ -179,6 +179,16 @@ class MyDocTemplate(BaseDocTemplate):
                     self._page_tracker[text] = self.page
                     logging.info(f"📌 TOC end marker registered: {text} → page {self.page}")
 
+            elif text.strip() == "__INTRO_PAGE__":
+                if text not in self._page_tracker:
+                    self._page_tracker[text] = self.page
+                    logging.info(f"📘 Intro marker registered: {text} → page {self.page}")
+
+            elif text.strip() == "__COVER_PAGE__":
+                if text not in self._page_tracker:
+                    self._page_tracker[text] = self.page
+                    logging.info(f"📖 Cover marker registered: {text} → page {self.page}")
+
 
 
 
@@ -210,13 +220,18 @@ class MyDocTemplate(BaseDocTemplate):
         else:
             logging.warning(f"🚫 Page {current_page}: No background assigned")
 
-        if current_page == 3:
-            scale = 1.0  # Full cloud only for TOC (page 3)
-        elif bg_range and current_page != bg_range["start"]:
-            scale = 0.8  # Full cloud for content pages
-        else:
-            scale = 0.2  # Small cloud for category title/intros
+        label = bg_range.get("label") if bg_range else None
 
+        if label == "cover":
+            scale = 0.4  # Remove cloud on cover
+        elif label == "intro":
+            scale = 0.8
+        elif label == "toc":
+            scale = 1.0
+        elif label == "category" and current_page != bg_range["start"]:
+            scale = 0.8
+        else:
+            scale = 0.2
 
 
         draw_cloud_shape_background(canvas, doc, alpha=0.7, scale=scale)
@@ -246,6 +261,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
 
     elements.append(Spacer(1, 200))
     elements += [
+        Paragraph("__COVER_PAGE__", ParagraphStyle("HiddenCoverMarker", fontSize=1, textColor=colors.white)),
         Paragraph("WHAT HAPPENED ON...", styles['cover_title']),
         Paragraph(f"{date_str}?", styles['cover_date']),
         Spacer(1, 60),
@@ -256,17 +272,20 @@ def build_elements(facts, styles, date_str, category_pages=None):
     intro_text = f"""
     Welcome to the amazing world of history, trivia, and delightfully random facts! This book is your guide to all the wild, weird, and wonderful things that happened around the world — and together, we’re about to answer the big question: <b>What happened on {date_str}?</b>
 
-    I’m TJ, a fact-lover from Saffron Walden. Whether this date is your birthday, your lizard’s, or just a lucky guess — this book’s for you.
+    I’m TJ, a fact-lover from Saffron Walden, a small town in the UK. Whether this date is your birthday, your lizard’s, or just a lucky guess — this book’s for you.
 
     There are <b>{num_facts}</b> facts packed into these pages. Let’s dive in!
     <br/><br/><br/><b>— TJ</b>"""
+    elements.append(Paragraph(
+        "__INTRO_PAGE__",
+        ParagraphStyle("HiddenIntroMarker", fontSize=1, textColor=colors.white)
+    ))
     elements.append(Paragraph("Before we begin!", styles['intro_header']))
     elements.append(Spacer(1, 12))
     elements.append(Paragraph(intro_text.strip(), styles['intro']))
 
     if category_pages:
         elements.append(PageBreak())
-        elements.append(Paragraph("Table of Contents", styles['toc_title']))
         elements.append(Paragraph(
             "__TOC_PAGE__",
             ParagraphStyle("HiddenTOCMarker", fontSize=1, textColor=colors.grey)
@@ -275,7 +294,11 @@ def build_elements(facts, styles, date_str, category_pages=None):
 
         filtered_category_pages = [
             (cat, pg) for cat, pg in category_pages
-            if not cat.startswith("__TRIVIA_START__") and "Trivia Time!" not in cat
+            if not cat.startswith("__TRIVIA_START__")
+            and "Trivia Time!" not in cat
+            and "Questions" not in cat
+            and "Answers" not in cat
+            and "__" not in cat  # catch any other hidden markers
         ]
 
         toc_data = [
@@ -609,7 +632,27 @@ def compute_background_ranges(page_tracker, category_backgrounds):
         end_page = sorted_pages[i + 1][1] - 1 if i + 1 < len(sorted_pages) else 999
         logging.debug(f"🔍 Considering label '{label}' → page {start_page} to {end_page}")
 
-        if label == "__TOC_PAGE__":
+        if label == "__COVER_PAGE__":
+            bg_path = os.path.join("backgrounds", "cover.png")
+            kind = "cover"
+            logging.info(f"📕 Cover page detected → pages {start_page}–{end_page}")
+            if os.path.exists(bg_path):
+                temp_ranges.append((start_page, end_page, bg_path, kind))
+            else:
+                logging.warning(f"❌ Cover background image not found: {bg_path}")
+            continue
+
+        elif label == "__INTRO_PAGE__":
+            bg_path = os.path.join("backgrounds", "before_we_begin.png")
+            kind = "intro"
+            logging.info(f"📘 Intro range detected → pages {start_page}–{end_page}")
+            if os.path.exists(bg_path):
+                temp_ranges.append((start_page, end_page, bg_path, kind))
+            else:
+                logging.warning(f"❌ Intro background image not found: {bg_path}")
+            continue
+
+        elif label == "__TOC_PAGE__":
             end_page = page_tracker.get("__TOC_END__", start_page)
             toc_path = os.path.join("backgrounds", "table_of_contents.png")
             if os.path.exists(toc_path):
@@ -624,6 +667,7 @@ def compute_background_ranges(page_tracker, category_backgrounds):
             bg_path = os.path.join("backgrounds", "trivia_time.png")
             kind = "trivia"
             logging.info(f"🎲 Trivia range detected: '{label}' → pages {start_page}–{end_page}")
+
 
         else:
             stripped = normalize_text(label)
@@ -839,7 +883,7 @@ def get_unique_filename(directory, base_name):
 
 if __name__ == "__main__":
     base_dir = os.getcwd()
-    facts_dir = "C:/Users/timmu/Documents/repos/Factbook Project/facts/new fact grabber/4_catagorised"
+    facts_dir = "C:/Users/timmu/Documents/repos/Factbook Project/facts/new fact grabber/4_categorised"
     books_dir = os.path.join(base_dir, "books")
     os.makedirs(books_dir, exist_ok=True)
 
