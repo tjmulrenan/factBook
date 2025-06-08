@@ -109,6 +109,7 @@ logging.basicConfig(
 )
 
 CATEGORY_BACKGROUNDS = {
+    "Today’s Vibe Check": "todays_vibe_check",
     "History’s Mic Drop Moments": "history_mic_drop_moments",
     "World Shakers & Icon Makers": "world_shakers_and_icon_makers",
     "Big Brain Energy": "big_brain_energy",
@@ -122,6 +123,7 @@ CATEGORY_BACKGROUNDS = {
 }
 
 CATEGORY_DESCRIPTIONS = {
+    "Today’s Vibe Check": "seasonal chaos, sky weirdness, animal drama",
     "History’s Mic Drop Moments": "wars, revolutions, treaties, global turning points",
     "World Shakers & Icon Makers": "powerful leaders, world changers, inspiring people",
     "Big Brain Energy": "discoveries, breakthroughs, tech, biology, chemistry",
@@ -141,6 +143,7 @@ class MyDocTemplate(BaseDocTemplate):
         super().__init__(filename, **kwargs)
         self._page_tracker = {}  # Tracks where each category starts
         self._background_ranges = []  # Stores start-end ranges with ImageReader backgrounds
+        
 
         margin_size = 0.5
 
@@ -326,7 +329,110 @@ def build_elements(facts, styles, date_str, category_pages=None):
         ])
 
         elements.append(toc_block)
+    
+    # 🌤️ Today's Vibe Check Section
+    elements.append(Paragraph(
+        "__TODAYS_VIBE_CHECK__",
+        ParagraphStyle("HiddenVibeMarker", fontSize=1, textColor=colors.white)
+    ))
 
+    # Estimate vertical space like category headers
+    page_height = letter[1]
+    estimated_content_height = 180
+    spacer_height = max(0, (page_height - estimated_content_height) / 2 - 50)
+
+    elements.append(Spacer(1, spacer_height))
+    elements.append(KeepTogether([
+        Spacer(1, 12),
+        Paragraph("<para align='center'><b>Today's Vibe Check</b></para>", styles['category']),
+        Spacer(1, 12),
+        Paragraph("<para align='center'>What's the deal with this day? Seasonal chaos, sky weirdness, animal drama — it's all happening.</para>", styles['story']),
+    ]))
+    elements.append(PageBreak())
+
+    try:
+        month, day = date_str.split()
+        day = ''.join(filter(str.isdigit, day))
+        vibe_filename = f"{month}_{day}_Facts.json"
+        vibe_path = os.path.join(
+            "C:/Users/timmu/Documents/repos/Factbook Project/facts/new fact grabber/a_rawDay",
+            vibe_filename
+        )
+        with open(vibe_path, "r", encoding="utf-8") as f:
+            vibe_facts = json.load(f)
+
+        added_any = False
+        for fact in vibe_facts:
+            if fact.get("kid_friendly", False):
+                fact_block = KeepTogether([
+                    Paragraph(f"• {fact['fact']}", styles['story']),
+                    Spacer(1, 10)
+                ])
+                elements.append(fact_block)
+                added_any = True
+
+        if not added_any:
+            elements.append(Paragraph("No kid-friendly facts available today.", styles['story']))
+
+    except Exception as e:
+        logging.warning(f"🚫 Could not load Today's Vibe Check facts: {e}")
+        elements.append(Paragraph("Oops! Vibe Check facts couldn’t load.", styles['story']))
+
+    # 🎉 Days That Slay Section
+    elements.append(Paragraph(
+        "__DAYS_THAT_SLAY__",
+        ParagraphStyle("HiddenSlayMarker", fontSize=1, textColor=colors.white)
+    ))
+
+    # Vertical spacing like category headers
+    page_height = letter[1]
+    estimated_content_height = 180
+    spacer_height = max(0, (page_height - estimated_content_height) / 2 - 50)
+    elements.append(Spacer(1, spacer_height))
+
+    elements.append(KeepTogether([
+        Spacer(1, 12),
+        Paragraph("<para align='center'><b>Days That Slay</b></para>", styles['category']),
+        Spacer(1, 12),
+        Paragraph("The most extra, random, and delightful holidays hitting today. Weird food? Niche magic? Major vibes.", styles['story']),
+    ]))
+    elements.append(PageBreak())
+
+    try:
+        month, day = date_str.split()
+        day = ''.join(filter(str.isdigit, day))
+        slay_filename = f"{month}_{day}_Holidays_scored_enhanced.json"
+        slay_path = os.path.join(
+            "C:/Users/timmu/Documents/repos/Factbook Project/facts/new fact grabber/c_enhanced",
+            slay_filename
+        )
+        with open(slay_path, "r", encoding="utf-8") as f:
+            slay_facts = json.load(f)
+
+        added_any = False
+        for entry in slay_facts:
+            if entry.get("suitable_for_8_to_12_year_old", False):
+                fact_block = KeepTogether([
+                    Paragraph(f"<b>{entry['title']}</b>", styles['story']),
+                    Spacer(1, 4),
+                    Paragraph(entry["story"], styles['story']),
+                    Spacer(1, 12)
+                ])
+                elements.append(fact_block)
+                added_any = True
+
+        if not added_any:
+            elements.append(Paragraph("No fun holidays hit today — weird!", styles['story']))
+
+    except Exception as e:
+        logging.warning(f"🚫 Could not load Days That Slay facts: {e}")
+        elements.append(Paragraph("Oops! Slay day stories couldn’t load.", styles['story']))
+
+    elements.append(PageBreak())
+
+
+
+    # Categorize facts
     categories = {}
     leftover = []
     for fact in facts:
@@ -663,6 +769,26 @@ def compute_background_ranges(page_tracker, category_backgrounds):
             skip_until = end_page
             continue
 
+        elif label == "__TODAYS_VIBE_CHECK__":
+            bg_path = os.path.join("backgrounds", "todays_vibe_check.png")
+            kind = "vibe"
+            logging.info(f"🌤️ Vibe Check page detected → pages {start_page}–{end_page}")
+            if os.path.exists(bg_path):
+                temp_ranges.append((start_page, end_page, bg_path, kind))
+            else:
+                logging.warning(f"❌ Vibe Check background image not found: {bg_path}")
+            continue
+
+        elif label == "__DAYS_THAT_SLAY__":
+            bg_path = os.path.join("backgrounds", "days_that_slay.png")
+            kind = "slay"
+            logging.info(f"🎉 Days That Slay page detected → pages {start_page}–{end_page}")
+            if os.path.exists(bg_path):
+                temp_ranges.append((start_page, end_page, bg_path, kind))
+            else:
+                logging.warning(f"❌ Days That Slay background image not found: {bg_path}")
+            continue
+
         elif label.startswith("__TRIVIA_START__"):
             bg_path = os.path.join("backgrounds", "trivia_time.png")
             kind = "trivia"
@@ -760,7 +886,7 @@ def generate_pdf_with_manual_toc(json_file, output_pdf):
         'toc_item': ParagraphStyle("TOCItem", fontName="DejaVu", fontSize=12, spaceAfter=0, leading=14, alignment=TA_LEFT),
         'category': ParagraphStyle("CategoryTitle", fontName="DejaVu-Bold", fontSize=18, spaceAfter=12, spaceBefore=12),
         'title': ParagraphStyle("FactTitle", fontName="DejaVu-BoldOblique", fontSize=13, spaceAfter=6, leading=14),
-        'story': ParagraphStyle("FactStory", fontName="DejaVu", fontSize=11, spaceAfter=12, leading=15),
+        'story': ParagraphStyle("FactStory", fontName="DejaVu", fontSize=16, leading=20, spaceAfter=16, spaceBefore=0),
         'trivia_title': ParagraphStyle("TriviaTitle", fontName="DejaVu-Bold", fontSize=16, spaceAfter=12, alignment=TA_CENTER),
     }
 

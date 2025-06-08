@@ -1,386 +1,509 @@
-2025-06-02 02:16:31,987 - INFO - 📚 Category: History's Mic Drop Moments — 20 facts
-2025-06-02 02:16:31,989 - INFO - 🧠 Trivia start marker added for category: History's Mic Drop Moments
-2025-06-02 02:16:31,994 - INFO - 📚 Category: Vibes, Beats & Brushes — 20 facts
-2025-06-02 02:16:31,996 - INFO - 🧠 Trivia start marker added for category: Vibes, Beats & Brushes
-2025-06-02 02:16:32,000 - INFO - 📚 Category: Full Beast Mode — 20 facts
-2025-06-02 02:16:32,002 - INFO - 🧠 Trivia start marker added for category: Full Beast Mode
-2025-06-02 02:16:32,007 - INFO - 📚 Category: Beyond Earth — 6 facts
-2025-06-02 02:16:32,008 - INFO - 🧠 Trivia start marker added for category: Beyond Earth
-2025-06-02 02:16:32,010 - INFO - 📚 Category: The What Zone — 7 facts
-2025-06-02 02:16:32,011 - INFO - 🧠 Trivia start marker added for category: The What Zone
-2025-06-02 02:16:32,013 - INFO - 📚 Category: Big Brain Energy — 7 facts
-2025-06-02 02:16:32,014 - INFO - 🧠 Trivia start marker added for category: Big Brain Energy
-2025-06-02 02:16:32,015 - INFO - 📚 Category: World Shakers & Icon Makers — 20 facts
-2025-06-02 02:16:32,017 - INFO - 🧠 Trivia start marker added for category: World Shakers & Icon Makers
-2025-06-02 02:16:32,022 - WARNING - 🚫 Page 1: No background assigned
-2025-06-02 02:16:32,023 - INFO - 📖 Cover marker registered: __COVER_PAGE__ → page 1
-2025-06-02 02:16:32,024 - WARNING - 🚫 Page 2: No background assigned
-2025-06-02 02:16:32,024 - INFO - 📘 Intro marker registered: __INTRO_PAGE__ → page 2
-2025-06-02 02:16:32,026 - WARNING - 🚫 Page 3: No background assigned
-2025-06-02 02:16:32,027 - INFO - 📌 Category page marked: History's Mic Drop Moments → page 3
-2025-06-02 02:16:32,027 - WARNING - 🚫 Page 4: No background assigned
-2025-06-02 02:16:32,030 - WARNING - 🚫 Page 5: No background assigned
-2025-06-02 02:16:32,034 - WARNING - 🚫 Page 6: No background assigned
-2025-06-02 02:16:32,037 - WARNING - 🚫 Page 7: No background assigned
-2025-06-02 02:16:32,040 - WARNING - 🚫 Page 8: No background assigned
-2025-06-02 02:16:32,041 - WARNING - 🚫 Page 9: No background assigned
-2025-06-02 02:16:32,042 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__History's Mic Drop Moments → page 9
-2025-06-02 02:16:32,042 - WARNING - 🚫 Page 10: No background assigned
-2025-06-02 02:16:32,043 - INFO - 📌 Category page marked: Questions → page 10
-2025-06-02 02:16:32,048 - WARNING - 🚫 Page 11: No background assigned
-2025-06-02 02:16:32,054 - WARNING - 🚫 Page 12: No background assigned
-2025-06-02 02:16:32,060 - WARNING - 🚫 Page 13: No background assigned
-2025-06-02 02:16:32,060 - INFO - 📌 Category page marked: Answers → page 13
-2025-06-02 02:16:32,066 - WARNING - 🚫 Page 14: No background assigned
-2025-06-02 02:16:32,067 - WARNING - 🚫 Page 15: No background assigned
-2025-06-02 02:16:32,068 - INFO - 📌 Category page marked: Vibes, Beats & Brushes → page 15
-2025-06-02 02:16:32,068 - WARNING - 🚫 Page 16: No background assigned
-2025-06-02 02:16:32,071 - WARNING - 🚫 Page 17: No background assigned
-2025-06-02 02:16:32,074 - WARNING - 🚫 Page 18: No background assigned
-2025-06-02 02:16:32,078 - WARNING - 🚫 Page 19: No background assigned
-2025-06-02 02:16:32,081 - WARNING - 🚫 Page 20: No background assigned
-2025-06-02 02:16:32,084 - WARNING - 🚫 Page 21: No background assigned
-2025-06-02 02:16:32,085 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__Vibes, Beats & Brushes → page 21
-2025-06-02 02:16:32,085 - WARNING - 🚫 Page 22: No background assigned
-2025-06-02 02:16:32,092 - WARNING - 🚫 Page 23: No background assigned
-2025-06-02 02:16:32,098 - WARNING - 🚫 Page 24: No background assigned
-2025-06-02 02:16:32,103 - WARNING - 🚫 Page 25: No background assigned
-2025-06-02 02:16:32,108 - WARNING - 🚫 Page 26: No background assigned
-2025-06-02 02:16:32,109 - WARNING - 🚫 Page 27: No background assigned
-2025-06-02 02:16:32,110 - INFO - 📌 Category page marked: Full Beast Mode → page 27
-2025-06-02 02:16:32,110 - WARNING - 🚫 Page 28: No background assigned
-2025-06-02 02:16:32,113 - WARNING - 🚫 Page 29: No background assigned
-2025-06-02 02:16:32,116 - WARNING - 🚫 Page 30: No background assigned
-2025-06-02 02:16:32,119 - WARNING - 🚫 Page 31: No background assigned
-2025-06-02 02:16:32,122 - WARNING - 🚫 Page 32: No background assigned
-2025-06-02 02:16:32,125 - WARNING - 🚫 Page 33: No background assigned
-2025-06-02 02:16:32,126 - WARNING - 🚫 Page 34: No background assigned
-2025-06-02 02:16:32,127 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__Full Beast Mode → page 34
-2025-06-02 02:16:32,127 - WARNING - 🚫 Page 35: No background assigned
-2025-06-02 02:16:32,133 - WARNING - 🚫 Page 36: No background assigned
-2025-06-02 02:16:32,138 - WARNING - 🚫 Page 37: No background assigned
-2025-06-02 02:16:32,143 - WARNING - 🚫 Page 38: No background assigned
-2025-06-02 02:16:32,145 - WARNING - 🚫 Page 39: No background assigned
-2025-06-02 02:16:32,150 - WARNING - 🚫 Page 40: No background assigned
-2025-06-02 02:16:32,152 - WARNING - 🚫 Page 41: No background assigned
-2025-06-02 02:16:32,153 - INFO - 📌 Category page marked: Beyond Earth → page 41
-2025-06-02 02:16:32,153 - WARNING - 🚫 Page 42: No background assigned
-2025-06-02 02:16:32,156 - WARNING - 🚫 Page 43: No background assigned
-2025-06-02 02:16:32,158 - WARNING - 🚫 Page 44: No background assigned
-2025-06-02 02:16:32,158 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__Beyond Earth → page 44
-2025-06-02 02:16:32,159 - WARNING - 🚫 Page 45: No background assigned
-2025-06-02 02:16:32,164 - WARNING - 🚫 Page 46: No background assigned
-2025-06-02 02:16:32,167 - WARNING - 🚫 Page 47: No background assigned
-2025-06-02 02:16:32,167 - INFO - 📌 Category page marked: The What Zone → page 47
-2025-06-02 02:16:32,168 - WARNING - 🚫 Page 48: No background assigned
-2025-06-02 02:16:32,171 - WARNING - 🚫 Page 49: No background assigned
-2025-06-02 02:16:32,173 - WARNING - 🚫 Page 50: No background assigned
-2025-06-02 02:16:32,173 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__The What Zone → page 50
-2025-06-02 02:16:32,174 - WARNING - 🚫 Page 51: No background assigned
-2025-06-02 02:16:32,180 - WARNING - 🚫 Page 52: No background assigned
-2025-06-02 02:16:32,182 - WARNING - 🚫 Page 53: No background assigned
-2025-06-02 02:16:32,183 - INFO - 📌 Category page marked: Big Brain Energy → page 53
-2025-06-02 02:16:32,183 - WARNING - 🚫 Page 54: No background assigned
-2025-06-02 02:16:32,187 - WARNING - 🚫 Page 55: No background assigned
-2025-06-02 02:16:32,188 - WARNING - 🚫 Page 56: No background assigned
-2025-06-02 02:16:32,189 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__Big Brain Energy → page 56
-2025-06-02 02:16:32,189 - WARNING - 🚫 Page 57: No background assigned
-2025-06-02 02:16:32,195 - WARNING - 🚫 Page 58: No background assigned
-2025-06-02 02:16:32,198 - WARNING - 🚫 Page 59: No background assigned
-2025-06-02 02:16:32,199 - INFO - 📌 Category page marked: World Shakers & Icon Makers → page 59
-2025-06-02 02:16:32,199 - WARNING - 🚫 Page 60: No background assigned
-2025-06-02 02:16:32,203 - WARNING - 🚫 Page 61: No background assigned
-2025-06-02 02:16:32,206 - WARNING - 🚫 Page 62: No background assigned
-2025-06-02 02:16:32,210 - WARNING - 🚫 Page 63: No background assigned
-2025-06-02 02:16:32,212 - WARNING - 🚫 Page 64: No background assigned
-2025-06-02 02:16:32,213 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__World Shakers & Icon Makers → page 64
-2025-06-02 02:16:32,214 - WARNING - 🚫 Page 65: No background assigned
-2025-06-02 02:16:32,219 - WARNING - 🚫 Page 66: No background assigned
-2025-06-02 02:16:32,225 - WARNING - 🚫 Page 67: No background assigned
-2025-06-02 02:16:32,231 - WARNING - 🚫 Page 68: No background assigned
-2025-06-02 02:16:32,236 - WARNING - 🚫 Page 69: No background assigned
-2025-06-02 02:16:32,285 - INFO - 🧠 Trivia start marker added for category: History's Mic Drop Moments
-2025-06-02 02:16:32,291 - INFO - 🧠 Trivia start marker added for category: Vibes, Beats & Brushes
-2025-06-02 02:16:32,297 - INFO - 🧠 Trivia start marker added for category: Full Beast Mode
-2025-06-02 02:16:32,303 - INFO - 🧠 Trivia start marker added for category: Beyond Earth
-2025-06-02 02:16:32,305 - INFO - 🧠 Trivia start marker added for category: The What Zone
-2025-06-02 02:16:32,308 - INFO - 🧠 Trivia start marker added for category: Big Brain Energy
-2025-06-02 02:16:32,311 - INFO - 🧠 Trivia start marker added for category: World Shakers & Icon Makers
-2025-06-02 02:16:32,316 - WARNING - 🚫 Page 1: No background assigned
-2025-06-02 02:16:32,317 - INFO - 📖 Cover marker registered: __COVER_PAGE__ → page 1
-2025-06-02 02:16:32,317 - WARNING - 🚫 Page 2: No background assigned
-2025-06-02 02:16:32,318 - INFO - 📘 Intro marker registered: __INTRO_PAGE__ → page 2
-2025-06-02 02:16:32,319 - WARNING - 🚫 Page 3: No background assigned
-2025-06-02 02:16:32,320 - INFO - 📋 TOC marker registered: __TOC_PAGE__ → page 3
-2025-06-02 02:16:32,322 - INFO - 📌 TOC end marker registered: __TOC_END__ → page 3
-2025-06-02 02:16:32,323 - WARNING - 🚫 Page 4: No background assigned
-2025-06-02 02:16:32,323 - INFO - 📌 Category page marked: History's Mic Drop Moments → page 4
-2025-06-02 02:16:32,323 - WARNING - 🚫 Page 5: No background assigned
-2025-06-02 02:16:32,327 - WARNING - 🚫 Page 6: No background assigned
-2025-06-02 02:16:32,330 - WARNING - 🚫 Page 7: No background assigned
-2025-06-02 02:16:32,334 - WARNING - 🚫 Page 8: No background assigned
-2025-06-02 02:16:32,337 - WARNING - 🚫 Page 9: No background assigned
-2025-06-02 02:16:32,338 - WARNING - 🚫 Page 10: No background assigned
-2025-06-02 02:16:32,339 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__History's Mic Drop Moments → page 10
-2025-06-02 02:16:32,339 - WARNING - 🚫 Page 11: No background assigned
-2025-06-02 02:16:32,340 - INFO - 📌 Category page marked: Questions → page 11
-2025-06-02 02:16:32,345 - WARNING - 🚫 Page 12: No background assigned
-2025-06-02 02:16:32,351 - WARNING - 🚫 Page 13: No background assigned
-2025-06-02 02:16:32,357 - WARNING - 🚫 Page 14: No background assigned
-2025-06-02 02:16:32,358 - INFO - 📌 Category page marked: Answers → page 14
-2025-06-02 02:16:32,363 - WARNING - 🚫 Page 15: No background assigned
-2025-06-02 02:16:32,364 - WARNING - 🚫 Page 16: No background assigned
-2025-06-02 02:16:32,365 - INFO - 📌 Category page marked: Vibes, Beats & Brushes → page 16
-2025-06-02 02:16:32,366 - WARNING - 🚫 Page 17: No background assigned
-2025-06-02 02:16:32,369 - WARNING - 🚫 Page 18: No background assigned
-2025-06-02 02:16:32,372 - WARNING - 🚫 Page 19: No background assigned
-2025-06-02 02:16:32,376 - WARNING - 🚫 Page 20: No background assigned
-2025-06-02 02:16:32,379 - WARNING - 🚫 Page 21: No background assigned
-2025-06-02 02:16:32,382 - WARNING - 🚫 Page 22: No background assigned
-2025-06-02 02:16:32,383 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__Vibes, Beats & Brushes → page 22
-2025-06-02 02:16:32,383 - WARNING - 🚫 Page 23: No background assigned
-2025-06-02 02:16:32,390 - WARNING - 🚫 Page 24: No background assigned
-2025-06-02 02:16:32,396 - WARNING - 🚫 Page 25: No background assigned
-2025-06-02 02:16:32,401 - WARNING - 🚫 Page 26: No background assigned
-2025-06-02 02:16:32,406 - WARNING - 🚫 Page 27: No background assigned
-2025-06-02 02:16:32,408 - WARNING - 🚫 Page 28: No background assigned
-2025-06-02 02:16:32,408 - INFO - 📌 Category page marked: Full Beast Mode → page 28
-2025-06-02 02:16:32,409 - WARNING - 🚫 Page 29: No background assigned
-2025-06-02 02:16:32,412 - WARNING - 🚫 Page 30: No background assigned
-2025-06-02 02:16:32,414 - WARNING - 🚫 Page 31: No background assigned
-2025-06-02 02:16:32,418 - WARNING - 🚫 Page 32: No background assigned
-2025-06-02 02:16:32,421 - WARNING - 🚫 Page 33: No background assigned
-2025-06-02 02:16:32,424 - WARNING - 🚫 Page 34: No background assigned
-2025-06-02 02:16:32,425 - WARNING - 🚫 Page 35: No background assigned
-2025-06-02 02:16:32,426 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__Full Beast Mode → page 35
-2025-06-02 02:16:32,426 - WARNING - 🚫 Page 36: No background assigned
-2025-06-02 02:16:32,431 - WARNING - 🚫 Page 37: No background assigned
-2025-06-02 02:16:32,437 - WARNING - 🚫 Page 38: No background assigned
-2025-06-02 02:16:32,442 - WARNING - 🚫 Page 39: No background assigned
-2025-06-02 02:16:32,444 - WARNING - 🚫 Page 40: No background assigned
-2025-06-02 02:16:32,449 - WARNING - 🚫 Page 41: No background assigned
-2025-06-02 02:16:32,451 - WARNING - 🚫 Page 42: No background assigned
-2025-06-02 02:16:32,452 - INFO - 📌 Category page marked: Beyond Earth → page 42
-2025-06-02 02:16:32,452 - WARNING - 🚫 Page 43: No background assigned
-2025-06-02 02:16:32,455 - WARNING - 🚫 Page 44: No background assigned
-2025-06-02 02:16:32,458 - WARNING - 🚫 Page 45: No background assigned
-2025-06-02 02:16:32,458 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__Beyond Earth → page 45
-2025-06-02 02:16:32,459 - WARNING - 🚫 Page 46: No background assigned
-2025-06-02 02:16:32,464 - WARNING - 🚫 Page 47: No background assigned
-2025-06-02 02:16:32,466 - WARNING - 🚫 Page 48: No background assigned
-2025-06-02 02:16:32,467 - INFO - 📌 Category page marked: The What Zone → page 48
-2025-06-02 02:16:32,467 - WARNING - 🚫 Page 49: No background assigned
-2025-06-02 02:16:32,471 - WARNING - 🚫 Page 50: No background assigned
-2025-06-02 02:16:32,473 - WARNING - 🚫 Page 51: No background assigned
-2025-06-02 02:16:32,474 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__The What Zone → page 51
-2025-06-02 02:16:32,474 - WARNING - 🚫 Page 52: No background assigned
-2025-06-02 02:16:32,480 - WARNING - 🚫 Page 53: No background assigned
-2025-06-02 02:16:32,482 - WARNING - 🚫 Page 54: No background assigned
-2025-06-02 02:16:32,483 - INFO - 📌 Category page marked: Big Brain Energy → page 54
-2025-06-02 02:16:32,483 - WARNING - 🚫 Page 55: No background assigned
-2025-06-02 02:16:32,487 - WARNING - 🚫 Page 56: No background assigned
-2025-06-02 02:16:32,488 - WARNING - 🚫 Page 57: No background assigned
-2025-06-02 02:16:32,489 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__Big Brain Energy → page 57
-2025-06-02 02:16:32,489 - WARNING - 🚫 Page 58: No background assigned
-2025-06-02 02:16:32,496 - WARNING - 🚫 Page 59: No background assigned
-2025-06-02 02:16:32,498 - WARNING - 🚫 Page 60: No background assigned
-2025-06-02 02:16:32,499 - INFO - 📌 Category page marked: World Shakers & Icon Makers → page 60
-2025-06-02 02:16:32,499 - WARNING - 🚫 Page 61: No background assigned
-2025-06-02 02:16:32,503 - WARNING - 🚫 Page 62: No background assigned
-2025-06-02 02:16:32,506 - WARNING - 🚫 Page 63: No background assigned
-2025-06-02 02:16:32,509 - WARNING - 🚫 Page 64: No background assigned
-2025-06-02 02:16:32,512 - WARNING - 🚫 Page 65: No background assigned
-2025-06-02 02:16:32,512 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__World Shakers & Icon Makers → page 65
-2025-06-02 02:16:32,513 - WARNING - 🚫 Page 66: No background assigned
-2025-06-02 02:16:32,519 - WARNING - 🚫 Page 67: No background assigned
-2025-06-02 02:16:32,525 - WARNING - 🚫 Page 68: No background assigned
-2025-06-02 02:16:32,530 - WARNING - 🚫 Page 69: No background assigned
-2025-06-02 02:16:32,536 - WARNING - 🚫 Page 70: No background assigned
-2025-06-02 02:16:32,581 - INFO - 📕 Cover page detected → pages 1–1
-2025-06-02 02:16:32,581 - INFO - 📘 Intro range detected → pages 2–2
-2025-06-02 02:16:32,581 - INFO - 🧭 TOC range added: pages 3–3
-2025-06-02 02:16:32,581 - INFO - 📂 Category range: 'History's Mic Drop Moments' → using 'history_mic_drop_moments.png' → pages 4–9
-2025-06-02 02:16:32,581 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__History's Mic Drop Moments' → pages 10–10
-2025-06-02 02:16:32,582 - WARNING - ❓ No match for category label 'Questions' (stripped: 'Questions')
-2025-06-02 02:16:32,582 - WARNING - ❓ No match for category label 'Answers' (stripped: 'Answers')
-2025-06-02 02:16:32,582 - INFO - 📂 Category range: 'Vibes, Beats & Brushes' → using 'vibes_beats_and_brushes.png' → pages 16–21
-2025-06-02 02:16:32,582 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__Vibes, Beats & Brushes' → pages 22–27
-2025-06-02 02:16:32,582 - INFO - 📂 Category range: 'Full Beast Mode' → using 'full_beast_mode.png' → pages 28–34
-2025-06-02 02:16:32,582 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__Full Beast Mode' → pages 35–41
-2025-06-02 02:16:32,583 - INFO - 📂 Category range: 'Beyond Earth' → using 'beyond_earth.png' → pages 42–44
-2025-06-02 02:16:32,583 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__Beyond Earth' → pages 45–47
-2025-06-02 02:16:32,583 - INFO - 📂 Category range: 'The What Zone' → using 'the_what_zone.png' → pages 48–50
-2025-06-02 02:16:32,583 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__The What Zone' → pages 51–53
-2025-06-02 02:16:32,583 - INFO - 📂 Category range: 'Big Brain Energy' → using 'big_brain_energy.png' → pages 54–56
-2025-06-02 02:16:32,583 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__Big Brain Energy' → pages 57–59
-2025-06-02 02:16:32,583 - INFO - 📂 Category range: 'World Shakers & Icon Makers' → using 'world_shakers_and_icon_makers.png' → pages 60–64
-2025-06-02 02:16:32,584 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__World Shakers & Icon Makers' → pages 65–999
-2025-06-02 02:16:32,584 - INFO - 🗺 Final computed background ranges:
-2025-06-02 02:16:32,585 - INFO -  → Pages 1–1: cover.png (cover)
-2025-06-02 02:16:32,585 - INFO -  → Pages 2–2: before_we_begin.png (intro)
-2025-06-02 02:16:32,585 - INFO -  → Pages 3–3: table_of_contents.png (toc)
-2025-06-02 02:16:32,585 - INFO -  → Pages 4–9: history_mic_drop_moments.png (category)
-2025-06-02 02:16:32,585 - INFO -  → Pages 10–15: trivia_time.png (trivia)
-2025-06-02 02:16:32,585 - INFO -  → Pages 16–21: vibes_beats_and_brushes.png (category)
-2025-06-02 02:16:32,585 - INFO -  → Pages 22–27: trivia_time.png (trivia)
-2025-06-02 02:16:32,585 - INFO -  → Pages 28–34: full_beast_mode.png (category)
-2025-06-02 02:16:32,585 - INFO -  → Pages 35–41: trivia_time.png (trivia)
-2025-06-02 02:16:32,586 - INFO -  → Pages 42–44: beyond_earth.png (category)
-2025-06-02 02:16:32,586 - INFO -  → Pages 45–47: trivia_time.png (trivia)
-2025-06-02 02:16:32,586 - INFO -  → Pages 48–50: the_what_zone.png (category)
-2025-06-02 02:16:32,586 - INFO -  → Pages 51–53: trivia_time.png (trivia)
-2025-06-02 02:16:32,586 - INFO -  → Pages 54–56: big_brain_energy.png (category)
-2025-06-02 02:16:32,586 - INFO -  → Pages 57–59: trivia_time.png (trivia)
-2025-06-02 02:16:32,586 - INFO -  → Pages 60–64: world_shakers_and_icon_makers.png (category)
-2025-06-02 02:16:32,586 - INFO -  → Pages 65–999: trivia_time.png (trivia)
-2025-06-02 02:16:32,586 - INFO - 📖 Page tracker keys + values:
-2025-06-02 02:16:32,587 - INFO -   __COVER_PAGE__ → page 1
-2025-06-02 02:16:32,587 - INFO -   __INTRO_PAGE__ → page 2
-2025-06-02 02:16:32,587 - INFO -   __TOC_PAGE__ → page 3
-2025-06-02 02:16:32,587 - INFO -   __TOC_END__ → page 3
-2025-06-02 02:16:32,587 - INFO -   History's Mic Drop Moments → page 4
-2025-06-02 02:16:32,587 - INFO -   __TRIVIA_START__History's Mic Drop Moments → page 10
-2025-06-02 02:16:32,587 - INFO -   Questions → page 11
-2025-06-02 02:16:32,587 - INFO -   Answers → page 14
-2025-06-02 02:16:32,587 - INFO -   Vibes, Beats & Brushes → page 16
-2025-06-02 02:16:32,587 - INFO -   __TRIVIA_START__Vibes, Beats & Brushes → page 22
-2025-06-02 02:16:32,587 - INFO -   Full Beast Mode → page 28
-2025-06-02 02:16:32,588 - INFO -   __TRIVIA_START__Full Beast Mode → page 35
-2025-06-02 02:16:32,588 - INFO -   Beyond Earth → page 42
-2025-06-02 02:16:32,588 - INFO -   __TRIVIA_START__Beyond Earth → page 45
-2025-06-02 02:16:32,588 - INFO -   The What Zone → page 48
-2025-06-02 02:16:32,588 - INFO -   __TRIVIA_START__The What Zone → page 51
-2025-06-02 02:16:32,588 - INFO -   Big Brain Energy → page 54
-2025-06-02 02:16:32,588 - INFO -   __TRIVIA_START__Big Brain Energy → page 57
-2025-06-02 02:16:32,588 - INFO -   World Shakers & Icon Makers → page 60
-2025-06-02 02:16:32,589 - INFO -   __TRIVIA_START__World Shakers & Icon Makers → page 65
-2025-06-02 02:16:32,592 - INFO - 🧠 Trivia start marker added for category: History's Mic Drop Moments
-2025-06-02 02:16:32,599 - INFO - 🧠 Trivia start marker added for category: Vibes, Beats & Brushes
-2025-06-02 02:16:32,605 - INFO - 🧠 Trivia start marker added for category: Full Beast Mode
-2025-06-02 02:16:32,610 - INFO - 🧠 Trivia start marker added for category: Beyond Earth
-2025-06-02 02:16:32,613 - INFO - 🧠 Trivia start marker added for category: The What Zone
-2025-06-02 02:16:32,616 - INFO - 🧠 Trivia start marker added for category: Big Brain Energy
-2025-06-02 02:16:32,620 - INFO - 🧠 Trivia start marker added for category: World Shakers & Icon Makers
-2025-06-02 02:16:32,625 - INFO - 📄 Final build started with full backgrounds...
-2025-06-02 02:16:33,772 - INFO - ✅ Page 1: Applied 'cover' background → cover.png
-2025-06-02 02:16:33,774 - INFO - 📖 Cover marker registered: __COVER_PAGE__ → page 1
-2025-06-02 02:16:34,911 - INFO - ✅ Page 2: Applied 'intro' background → before_we_begin.png
-2025-06-02 02:16:34,913 - INFO - 📘 Intro marker registered: __INTRO_PAGE__ → page 2
-2025-06-02 02:16:35,926 - INFO - ✅ Page 3: Applied 'toc' background → table_of_contents.png
-2025-06-02 02:16:35,927 - INFO - 📋 TOC marker registered: __TOC_PAGE__ → page 3
-2025-06-02 02:16:35,930 - INFO - 📌 TOC end marker registered: __TOC_END__ → page 3
-2025-06-02 02:16:37,008 - INFO - ✅ Page 4: Applied 'category' background → history_mic_drop_moments.png
-2025-06-02 02:16:37,009 - INFO - 📌 Category page marked: History's Mic Drop Moments → page 4
-2025-06-02 02:16:37,050 - INFO - ✅ Page 5: Applied 'category' background → history_mic_drop_moments.png
-2025-06-02 02:16:37,096 - INFO - ✅ Page 6: Applied 'category' background → history_mic_drop_moments.png
-2025-06-02 02:16:37,141 - INFO - ✅ Page 7: Applied 'category' background → history_mic_drop_moments.png
-2025-06-02 02:16:37,186 - INFO - ✅ Page 8: Applied 'category' background → history_mic_drop_moments.png
-2025-06-02 02:16:37,231 - INFO - ✅ Page 9: Applied 'category' background → history_mic_drop_moments.png
-2025-06-02 02:16:38,160 - INFO - ✅ Page 10: Applied 'trivia' background → trivia_time.png
-2025-06-02 02:16:38,162 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__History's Mic Drop Moments → page 10
-2025-06-02 02:16:38,199 - INFO - ✅ Page 11: Applied 'trivia' background → trivia_time.png
-2025-06-02 02:16:38,200 - INFO - 📌 Category page marked: Questions → page 11
-2025-06-02 02:16:38,242 - INFO - ✅ Page 12: Applied 'trivia' background → trivia_time.png
-2025-06-02 02:16:38,286 - INFO - ✅ Page 13: Applied 'trivia' background → trivia_time.png
-2025-06-02 02:16:38,330 - INFO - ✅ Page 14: Applied 'trivia' background → trivia_time.png
-2025-06-02 02:16:38,331 - INFO - 📌 Category page marked: Answers → page 14
-2025-06-02 02:16:38,373 - INFO - ✅ Page 15: Applied 'trivia' background → trivia_time.png
-2025-06-02 02:16:39,454 - INFO - ✅ Page 16: Applied 'category' background → vibes_beats_and_brushes.png
-2025-06-02 02:16:39,456 - INFO - 📌 Category page marked: Vibes, Beats & Brushes → page 16
-2025-06-02 02:16:39,501 - INFO - ✅ Page 17: Applied 'category' background → vibes_beats_and_brushes.png
-2025-06-02 02:16:39,550 - INFO - ✅ Page 18: Applied 'category' background → vibes_beats_and_brushes.png
-2025-06-02 02:16:39,599 - INFO - ✅ Page 19: Applied 'category' background → vibes_beats_and_brushes.png
-2025-06-02 02:16:39,648 - INFO - ✅ Page 20: Applied 'category' background → vibes_beats_and_brushes.png
-2025-06-02 02:16:39,697 - INFO - ✅ Page 21: Applied 'category' background → vibes_beats_and_brushes.png
-2025-06-02 02:16:39,739 - INFO - ✅ Page 22: Applied 'trivia' background → trivia_time.png
-2025-06-02 02:16:39,740 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__Vibes, Beats & Brushes → page 22
-2025-06-02 02:16:39,780 - INFO - ✅ Page 23: Applied 'trivia' background → trivia_time.png
-2025-06-02 02:16:39,823 - INFO - ✅ Page 24: Applied 'trivia' background → trivia_time.png
-2025-06-02 02:16:39,867 - INFO - ✅ Page 25: Applied 'trivia' background → trivia_time.png
-2025-06-02 02:16:39,910 - INFO - ✅ Page 26: Applied 'trivia' background → trivia_time.png
-2025-06-02 02:16:39,953 - INFO - ✅ Page 27: Applied 'trivia' background → trivia_time.png
-2025-06-02 02:16:41,121 - INFO - ✅ Page 28: Applied 'category' background → full_beast_mode.png
-2025-06-02 02:16:41,122 - INFO - 📌 Category page marked: Full Beast Mode → page 28
-2025-06-02 02:16:41,160 - INFO - ✅ Page 29: Applied 'category' background → full_beast_mode.png
-2025-06-02 02:16:41,201 - INFO - ✅ Page 30: Applied 'category' background → full_beast_mode.png
-2025-06-02 02:16:41,242 - INFO - ✅ Page 31: Applied 'category' background → full_beast_mode.png
-2025-06-02 02:16:41,283 - INFO - ✅ Page 32: Applied 'category' background → full_beast_mode.png
-2025-06-02 02:16:41,324 - INFO - ✅ Page 33: Applied 'category' background → full_beast_mode.png
-2025-06-02 02:16:41,365 - INFO - ✅ Page 34: Applied 'category' background → full_beast_mode.png
-2025-06-02 02:16:41,404 - INFO - ✅ Page 35: Applied 'trivia' background → trivia_time.png
-2025-06-02 02:16:41,406 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__Full Beast Mode → page 35
-2025-06-02 02:16:41,443 - INFO - ✅ Page 36: Applied 'trivia' background → trivia_time.png
-2025-06-02 02:16:41,486 - INFO - ✅ Page 37: Applied 'trivia' background → trivia_time.png
-2025-06-02 02:16:41,529 - INFO - ✅ Page 38: Applied 'trivia' background → trivia_time.png
-2025-06-02 02:16:41,572 - INFO - ✅ Page 39: Applied 'trivia' background → trivia_time.png
-2025-06-02 02:16:41,612 - INFO - ✅ Page 40: Applied 'trivia' background → trivia_time.png
-2025-06-02 02:16:41,655 - INFO - ✅ Page 41: Applied 'trivia' background → trivia_time.png
-2025-06-02 02:16:42,713 - INFO - ✅ Page 42: Applied 'category' background → beyond_earth.png
-2025-06-02 02:16:42,714 - INFO - 📌 Category page marked: Beyond Earth → page 42
-2025-06-02 02:16:42,750 - INFO - ✅ Page 43: Applied 'category' background → beyond_earth.png
-2025-06-02 02:16:42,788 - INFO - ✅ Page 44: Applied 'category' background → beyond_earth.png
-2025-06-02 02:16:42,828 - INFO - ✅ Page 45: Applied 'trivia' background → trivia_time.png
-2025-06-02 02:16:42,829 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__Beyond Earth → page 45
-2025-06-02 02:16:42,867 - INFO - ✅ Page 46: Applied 'trivia' background → trivia_time.png
-2025-06-02 02:16:42,910 - INFO - ✅ Page 47: Applied 'trivia' background → trivia_time.png
-2025-06-02 02:16:43,936 - INFO - ✅ Page 48: Applied 'category' background → the_what_zone.png
-2025-06-02 02:16:43,937 - INFO - 📌 Category page marked: The What Zone → page 48
-2025-06-02 02:16:43,980 - INFO - ✅ Page 49: Applied 'category' background → the_what_zone.png
-2025-06-02 02:16:44,024 - INFO - ✅ Page 50: Applied 'category' background → the_what_zone.png
-2025-06-02 02:16:44,063 - INFO - ✅ Page 51: Applied 'trivia' background → trivia_time.png
-2025-06-02 02:16:44,065 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__The What Zone → page 51
-2025-06-02 02:16:44,102 - INFO - ✅ Page 52: Applied 'trivia' background → trivia_time.png
-2025-06-02 02:16:44,146 - INFO - ✅ Page 53: Applied 'trivia' background → trivia_time.png
-2025-06-02 02:16:45,169 - INFO - ✅ Page 54: Applied 'category' background → big_brain_energy.png
-2025-06-02 02:16:45,170 - INFO - 📌 Category page marked: Big Brain Energy → page 54
-2025-06-02 02:16:45,210 - INFO - ✅ Page 55: Applied 'category' background → big_brain_energy.png
-2025-06-02 02:16:45,255 - INFO - ✅ Page 56: Applied 'category' background → big_brain_energy.png
-2025-06-02 02:16:45,295 - INFO - ✅ Page 57: Applied 'trivia' background → trivia_time.png
-2025-06-02 02:16:45,296 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__Big Brain Energy → page 57
-2025-06-02 02:16:45,334 - INFO - ✅ Page 58: Applied 'trivia' background → trivia_time.png
-2025-06-02 02:16:45,377 - INFO - ✅ Page 59: Applied 'trivia' background → trivia_time.png
-2025-06-02 02:16:46,421 - INFO - ✅ Page 60: Applied 'category' background → world_shakers_and_icon_makers.png
-2025-06-02 02:16:46,423 - INFO - 📌 Category page marked: World Shakers & Icon Makers → page 60
-2025-06-02 02:16:46,450 - INFO - ✅ Page 61: Applied 'category' background → world_shakers_and_icon_makers.png
-2025-06-02 02:16:46,482 - INFO - ✅ Page 62: Applied 'category' background → world_shakers_and_icon_makers.png
-2025-06-02 02:16:46,513 - INFO - ✅ Page 63: Applied 'category' background → world_shakers_and_icon_makers.png
-2025-06-02 02:16:46,545 - INFO - ✅ Page 64: Applied 'category' background → world_shakers_and_icon_makers.png
-2025-06-02 02:16:46,586 - INFO - ✅ Page 65: Applied 'trivia' background → trivia_time.png
-2025-06-02 02:16:46,587 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__World Shakers & Icon Makers → page 65
-2025-06-02 02:16:46,625 - INFO - ✅ Page 66: Applied 'trivia' background → trivia_time.png
-2025-06-02 02:16:46,668 - INFO - ✅ Page 67: Applied 'trivia' background → trivia_time.png
-2025-06-02 02:16:46,714 - INFO - ✅ Page 68: Applied 'trivia' background → trivia_time.png
-2025-06-02 02:16:46,757 - INFO - ✅ Page 69: Applied 'trivia' background → trivia_time.png
-2025-06-02 02:16:46,800 - INFO - ✅ Page 70: Applied 'trivia' background → trivia_time.png
-2025-06-02 02:16:47,941 - INFO - ✅ Final PDF built successfully.
-2025-06-02 02:16:47,943 - INFO - 📁 Categories exported to: C:\Users\timmu\Documents\repos\Factbook Project\books\March_29_culled_enhanced_catagorised_75_categories.json
-2025-06-02 02:16:47,943 - INFO - ✅ PDF created at: C:\Users\timmu\Documents\repos\Factbook Project\books\March_29_culled_enhanced_catagorised_75.pdf
-2025-06-02 02:16:48,049 - INFO - 📍 Found trivia marker on page 10
-2025-06-02 02:16:48,050 - INFO - 📍 Included Trivia Time content page: 11
-2025-06-02 02:16:48,057 - INFO - 📍 Found trivia marker on page 22
-2025-06-02 02:16:48,057 - INFO - 📍 Included Trivia Time content page: 23
-2025-06-02 02:16:48,064 - INFO - 📍 Found trivia marker on page 35
-2025-06-02 02:16:48,065 - INFO - 📍 Included Trivia Time content page: 36
-2025-06-02 02:16:48,069 - INFO - 📍 Found trivia marker on page 45
-2025-06-02 02:16:48,070 - INFO - 📍 Included Trivia Time content page: 46
-2025-06-02 02:16:48,072 - INFO - 📍 Found trivia marker on page 51
-2025-06-02 02:16:48,073 - INFO - 📍 Included Trivia Time content page: 52
-2025-06-02 02:16:48,075 - INFO - 📍 Found trivia marker on page 57
-2025-06-02 02:16:48,075 - INFO - 📍 Included Trivia Time content page: 58
-2025-06-02 02:16:48,079 - INFO - 📍 Found trivia marker on page 65
-2025-06-02 02:16:48,080 - INFO - 📍 Included Trivia Time content page: 66
-2025-06-02 02:16:48,091 - INFO - ✅ Background added to page 10
-2025-06-02 02:16:48,095 - INFO - ✅ Background added to page 11
-2025-06-02 02:16:48,098 - INFO - ✅ Background added to page 22
-2025-06-02 02:16:48,101 - INFO - ✅ Background added to page 23
-2025-06-02 02:16:48,105 - INFO - ✅ Background added to page 35
-2025-06-02 02:16:48,108 - INFO - ✅ Background added to page 36
-2025-06-02 02:16:48,111 - INFO - ✅ Background added to page 45
-2025-06-02 02:16:48,114 - INFO - ✅ Background added to page 46
-2025-06-02 02:16:48,117 - INFO - ✅ Background added to page 51
-2025-06-02 02:16:48,120 - INFO - ✅ Background added to page 52
-2025-06-02 02:16:48,123 - INFO - ✅ Background added to page 57
-2025-06-02 02:16:48,126 - INFO - ✅ Background added to page 58
-2025-06-02 02:16:48,130 - INFO - ✅ Background added to page 65
-2025-06-02 02:16:48,133 - INFO - ✅ Background added to page 66
-2025-06-02 02:16:48,220 - INFO - ✅ Final trivia backgrounds applied to 14 pages.
+2025-06-08 17:35:12,133 - INFO - 📚 Category: History's Mic Drop Moments — 20 facts
+2025-06-08 17:35:12,136 - INFO - 🧠 Trivia start marker added for category: History's Mic Drop Moments
+2025-06-08 17:35:12,142 - INFO - 📚 Category: Vibes, Beats & Brushes — 20 facts
+2025-06-08 17:35:12,145 - INFO - 🧠 Trivia start marker added for category: Vibes, Beats & Brushes
+2025-06-08 17:35:12,151 - INFO - 📚 Category: Full Beast Mode — 20 facts
+2025-06-08 17:35:12,154 - INFO - 🧠 Trivia start marker added for category: Full Beast Mode
+2025-06-08 17:35:12,160 - INFO - 📚 Category: Beyond Earth — 6 facts
+2025-06-08 17:35:12,161 - INFO - 🧠 Trivia start marker added for category: Beyond Earth
+2025-06-08 17:35:12,162 - INFO - 📚 Category: The What Zone — 7 facts
+2025-06-08 17:35:12,164 - INFO - 🧠 Trivia start marker added for category: The What Zone
+2025-06-08 17:35:12,166 - INFO - 📚 Category: Big Brain Energy — 7 facts
+2025-06-08 17:35:12,167 - INFO - 🧠 Trivia start marker added for category: Big Brain Energy
+2025-06-08 17:35:12,169 - INFO - 📚 Category: World Shakers & Icon Makers — 20 facts
+2025-06-08 17:35:12,171 - INFO - 🧠 Trivia start marker added for category: World Shakers & Icon Makers
+2025-06-08 17:35:12,176 - WARNING - 🚫 Page 1: No background assigned
+2025-06-08 17:35:12,177 - INFO - 📖 Cover marker registered: __COVER_PAGE__ → page 1
+2025-06-08 17:35:12,178 - WARNING - 🚫 Page 2: No background assigned
+2025-06-08 17:35:12,179 - INFO - 📘 Intro marker registered: __INTRO_PAGE__ → page 2
+2025-06-08 17:35:12,181 - WARNING - 🚫 Page 3: No background assigned
+2025-06-08 17:35:12,181 - INFO - 📌 Category page marked: Today's Vibe Check → page 3
+2025-06-08 17:35:12,182 - WARNING - 🚫 Page 4: No background assigned
+2025-06-08 17:35:12,184 - WARNING - 🚫 Page 5: No background assigned
+2025-06-08 17:35:12,186 - WARNING - 🚫 Page 6: No background assigned
+2025-06-08 17:35:12,187 - INFO - 📌 Category page marked: Days That Slay → page 6
+2025-06-08 17:35:12,187 - WARNING - 🚫 Page 7: No background assigned
+2025-06-08 17:35:12,190 - WARNING - 🚫 Page 8: No background assigned
+2025-06-08 17:35:12,191 - WARNING - 🚫 Page 9: No background assigned
+2025-06-08 17:35:12,191 - WARNING - 🚫 Page 10: No background assigned
+2025-06-08 17:35:12,192 - INFO - 📌 Category page marked: History's Mic Drop Moments → page 10
+2025-06-08 17:35:12,192 - WARNING - 🚫 Page 11: No background assigned
+2025-06-08 17:35:12,194 - WARNING - 🚫 Page 12: No background assigned
+2025-06-08 17:35:12,196 - WARNING - 🚫 Page 13: No background assigned
+2025-06-08 17:35:12,198 - WARNING - 🚫 Page 14: No background assigned
+2025-06-08 17:35:12,201 - WARNING - 🚫 Page 15: No background assigned
+2025-06-08 17:35:12,203 - WARNING - 🚫 Page 16: No background assigned
+2025-06-08 17:35:12,205 - WARNING - 🚫 Page 17: No background assigned
+2025-06-08 17:35:12,207 - WARNING - 🚫 Page 18: No background assigned
+2025-06-08 17:35:12,208 - WARNING - 🚫 Page 19: No background assigned
+2025-06-08 17:35:12,209 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__History's Mic Drop Moments → page 19
+2025-06-08 17:35:12,209 - WARNING - 🚫 Page 20: No background assigned
+2025-06-08 17:35:12,210 - INFO - 📌 Category page marked: Questions → page 20
+2025-06-08 17:35:12,214 - WARNING - 🚫 Page 21: No background assigned
+2025-06-08 17:35:12,218 - WARNING - 🚫 Page 22: No background assigned
+2025-06-08 17:35:12,222 - WARNING - 🚫 Page 23: No background assigned
+2025-06-08 17:35:12,226 - WARNING - 🚫 Page 24: No background assigned
+2025-06-08 17:35:12,230 - WARNING - 🚫 Page 25: No background assigned
+2025-06-08 17:35:12,230 - INFO - 📌 Category page marked: Answers → page 25
+2025-06-08 17:35:12,233 - WARNING - 🚫 Page 26: No background assigned
+2025-06-08 17:35:12,237 - WARNING - 🚫 Page 27: No background assigned
+2025-06-08 17:35:12,238 - INFO - 📌 Category page marked: Vibes, Beats & Brushes → page 27
+2025-06-08 17:35:12,238 - WARNING - 🚫 Page 28: No background assigned
+2025-06-08 17:35:12,241 - WARNING - 🚫 Page 29: No background assigned
+2025-06-08 17:35:12,243 - WARNING - 🚫 Page 30: No background assigned
+2025-06-08 17:35:12,244 - WARNING - 🚫 Page 31: No background assigned
+2025-06-08 17:35:12,247 - WARNING - 🚫 Page 32: No background assigned
+2025-06-08 17:35:12,249 - WARNING - 🚫 Page 33: No background assigned
+2025-06-08 17:35:12,251 - WARNING - 🚫 Page 34: No background assigned
+2025-06-08 17:35:12,252 - WARNING - 🚫 Page 35: No background assigned
+2025-06-08 17:35:12,254 - WARNING - 🚫 Page 36: No background assigned
+2025-06-08 17:35:12,256 - WARNING - 🚫 Page 37: No background assigned
+2025-06-08 17:35:12,257 - WARNING - 🚫 Page 38: No background assigned
+2025-06-08 17:35:12,258 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__Vibes, Beats & Brushes → page 38
+2025-06-08 17:35:12,258 - WARNING - 🚫 Page 39: No background assigned
+2025-06-08 17:35:12,263 - WARNING - 🚫 Page 40: No background assigned
+2025-06-08 17:35:12,266 - WARNING - 🚫 Page 41: No background assigned
+2025-06-08 17:35:12,270 - WARNING - 🚫 Page 42: No background assigned
+2025-06-08 17:35:12,274 - WARNING - 🚫 Page 43: No background assigned
+2025-06-08 17:35:12,278 - WARNING - 🚫 Page 44: No background assigned
+2025-06-08 17:35:12,282 - WARNING - 🚫 Page 45: No background assigned
+2025-06-08 17:35:12,285 - WARNING - 🚫 Page 46: No background assigned
+2025-06-08 17:35:12,285 - INFO - 📌 Category page marked: Full Beast Mode → page 46
+2025-06-08 17:35:12,286 - WARNING - 🚫 Page 47: No background assigned
+2025-06-08 17:35:12,288 - WARNING - 🚫 Page 48: No background assigned
+2025-06-08 17:35:12,289 - WARNING - 🚫 Page 49: No background assigned
+2025-06-08 17:35:12,291 - WARNING - 🚫 Page 50: No background assigned
+2025-06-08 17:35:12,293 - WARNING - 🚫 Page 51: No background assigned
+2025-06-08 17:35:12,295 - WARNING - 🚫 Page 52: No background assigned
+2025-06-08 17:35:12,297 - WARNING - 🚫 Page 53: No background assigned
+2025-06-08 17:35:12,299 - WARNING - 🚫 Page 54: No background assigned
+2025-06-08 17:35:12,300 - WARNING - 🚫 Page 55: No background assigned
+2025-06-08 17:35:12,302 - WARNING - 🚫 Page 56: No background assigned
+2025-06-08 17:35:12,304 - WARNING - 🚫 Page 57: No background assigned
+2025-06-08 17:35:12,305 - WARNING - 🚫 Page 58: No background assigned
+2025-06-08 17:35:12,305 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__Full Beast Mode → page 58
+2025-06-08 17:35:12,306 - WARNING - 🚫 Page 59: No background assigned
+2025-06-08 17:35:12,310 - WARNING - 🚫 Page 60: No background assigned
+2025-06-08 17:35:12,314 - WARNING - 🚫 Page 61: No background assigned
+2025-06-08 17:35:12,318 - WARNING - 🚫 Page 62: No background assigned
+2025-06-08 17:35:12,322 - WARNING - 🚫 Page 63: No background assigned
+2025-06-08 17:35:12,325 - WARNING - 🚫 Page 64: No background assigned
+2025-06-08 17:35:12,329 - WARNING - 🚫 Page 65: No background assigned
+2025-06-08 17:35:12,333 - WARNING - 🚫 Page 66: No background assigned
+2025-06-08 17:35:12,333 - WARNING - 🚫 Page 67: No background assigned
+2025-06-08 17:35:12,334 - INFO - 📌 Category page marked: Beyond Earth → page 67
+2025-06-08 17:35:12,334 - WARNING - 🚫 Page 68: No background assigned
+2025-06-08 17:35:12,336 - WARNING - 🚫 Page 69: No background assigned
+2025-06-08 17:35:12,338 - WARNING - 🚫 Page 70: No background assigned
+2025-06-08 17:35:12,340 - WARNING - 🚫 Page 71: No background assigned
+2025-06-08 17:35:12,340 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__Beyond Earth → page 71
+2025-06-08 17:35:12,341 - WARNING - 🚫 Page 72: No background assigned
+2025-06-08 17:35:12,345 - WARNING - 🚫 Page 73: No background assigned
+2025-06-08 17:35:12,347 - WARNING - 🚫 Page 74: No background assigned
+2025-06-08 17:35:12,349 - WARNING - 🚫 Page 75: No background assigned
+2025-06-08 17:35:12,350 - INFO - 📌 Category page marked: The What Zone → page 75
+2025-06-08 17:35:12,350 - WARNING - 🚫 Page 76: No background assigned
+2025-06-08 17:35:12,352 - WARNING - 🚫 Page 77: No background assigned
+2025-06-08 17:35:12,354 - WARNING - 🚫 Page 78: No background assigned
+2025-06-08 17:35:12,356 - WARNING - 🚫 Page 79: No background assigned
+2025-06-08 17:35:12,357 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__The What Zone → page 79
+2025-06-08 17:35:12,357 - WARNING - 🚫 Page 80: No background assigned
+2025-06-08 17:35:12,361 - WARNING - 🚫 Page 81: No background assigned
+2025-06-08 17:35:12,364 - WARNING - 🚫 Page 82: No background assigned
+2025-06-08 17:35:12,367 - WARNING - 🚫 Page 83: No background assigned
+2025-06-08 17:35:12,367 - INFO - 📌 Category page marked: Big Brain Energy → page 83
+2025-06-08 17:35:12,368 - WARNING - 🚫 Page 84: No background assigned
+2025-06-08 17:35:12,370 - WARNING - 🚫 Page 85: No background assigned
+2025-06-08 17:35:12,372 - WARNING - 🚫 Page 86: No background assigned
+2025-06-08 17:35:12,373 - WARNING - 🚫 Page 87: No background assigned
+2025-06-08 17:35:12,374 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__Big Brain Energy → page 87
+2025-06-08 17:35:12,374 - WARNING - 🚫 Page 88: No background assigned
+2025-06-08 17:35:12,378 - WARNING - 🚫 Page 89: No background assigned
+2025-06-08 17:35:12,381 - WARNING - 🚫 Page 90: No background assigned
+2025-06-08 17:35:12,384 - WARNING - 🚫 Page 91: No background assigned
+2025-06-08 17:35:12,384 - INFO - 📌 Category page marked: World Shakers & Icon Makers → page 91
+2025-06-08 17:35:12,385 - WARNING - 🚫 Page 92: No background assigned
+2025-06-08 17:35:12,387 - WARNING - 🚫 Page 93: No background assigned
+2025-06-08 17:35:12,389 - WARNING - 🚫 Page 94: No background assigned
+2025-06-08 17:35:12,392 - WARNING - 🚫 Page 95: No background assigned
+2025-06-08 17:35:12,394 - WARNING - 🚫 Page 96: No background assigned
+2025-06-08 17:35:12,396 - WARNING - 🚫 Page 97: No background assigned
+2025-06-08 17:35:12,398 - WARNING - 🚫 Page 98: No background assigned
+2025-06-08 17:35:12,400 - WARNING - 🚫 Page 99: No background assigned
+2025-06-08 17:35:12,400 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__World Shakers & Icon Makers → page 99
+2025-06-08 17:35:12,401 - WARNING - 🚫 Page 100: No background assigned
+2025-06-08 17:35:12,405 - WARNING - 🚫 Page 101: No background assigned
+2025-06-08 17:35:12,410 - WARNING - 🚫 Page 102: No background assigned
+2025-06-08 17:35:12,414 - WARNING - 🚫 Page 103: No background assigned
+2025-06-08 17:35:12,419 - WARNING - 🚫 Page 104: No background assigned
+2025-06-08 17:35:12,420 - WARNING - 🚫 Page 105: No background assigned
+2025-06-08 17:35:12,423 - WARNING - 🚫 Page 106: No background assigned
+2025-06-08 17:35:12,487 - INFO - 🧠 Trivia start marker added for category: History's Mic Drop Moments
+2025-06-08 17:35:12,494 - INFO - 🧠 Trivia start marker added for category: Vibes, Beats & Brushes
+2025-06-08 17:35:12,500 - INFO - 🧠 Trivia start marker added for category: Full Beast Mode
+2025-06-08 17:35:12,505 - INFO - 🧠 Trivia start marker added for category: Beyond Earth
+2025-06-08 17:35:12,508 - INFO - 🧠 Trivia start marker added for category: The What Zone
+2025-06-08 17:35:12,511 - INFO - 🧠 Trivia start marker added for category: Big Brain Energy
+2025-06-08 17:35:12,515 - INFO - 🧠 Trivia start marker added for category: World Shakers & Icon Makers
+2025-06-08 17:35:12,520 - WARNING - 🚫 Page 1: No background assigned
+2025-06-08 17:35:12,520 - INFO - 📖 Cover marker registered: __COVER_PAGE__ → page 1
+2025-06-08 17:35:12,521 - WARNING - 🚫 Page 2: No background assigned
+2025-06-08 17:35:12,522 - INFO - 📘 Intro marker registered: __INTRO_PAGE__ → page 2
+2025-06-08 17:35:12,523 - WARNING - 🚫 Page 3: No background assigned
+2025-06-08 17:35:12,524 - INFO - 📋 TOC marker registered: __TOC_PAGE__ → page 3
+2025-06-08 17:35:12,527 - INFO - 📌 TOC end marker registered: __TOC_END__ → page 3
+2025-06-08 17:35:12,527 - WARNING - 🚫 Page 4: No background assigned
+2025-06-08 17:35:12,528 - INFO - 📌 Category page marked: Today's Vibe Check → page 4
+2025-06-08 17:35:12,528 - WARNING - 🚫 Page 5: No background assigned
+2025-06-08 17:35:12,531 - WARNING - 🚫 Page 6: No background assigned
+2025-06-08 17:35:12,533 - WARNING - 🚫 Page 7: No background assigned
+2025-06-08 17:35:12,534 - INFO - 📌 Category page marked: Days That Slay → page 7
+2025-06-08 17:35:12,534 - WARNING - 🚫 Page 8: No background assigned
+2025-06-08 17:35:12,536 - WARNING - 🚫 Page 9: No background assigned
+2025-06-08 17:35:12,537 - WARNING - 🚫 Page 10: No background assigned
+2025-06-08 17:35:12,538 - WARNING - 🚫 Page 11: No background assigned
+2025-06-08 17:35:12,538 - INFO - 📌 Category page marked: History's Mic Drop Moments → page 11
+2025-06-08 17:35:12,539 - WARNING - 🚫 Page 12: No background assigned
+2025-06-08 17:35:12,541 - WARNING - 🚫 Page 13: No background assigned
+2025-06-08 17:35:12,543 - WARNING - 🚫 Page 14: No background assigned
+2025-06-08 17:35:12,545 - WARNING - 🚫 Page 15: No background assigned
+2025-06-08 17:35:12,548 - WARNING - 🚫 Page 16: No background assigned
+2025-06-08 17:35:12,550 - WARNING - 🚫 Page 17: No background assigned
+2025-06-08 17:35:12,552 - WARNING - 🚫 Page 18: No background assigned
+2025-06-08 17:35:12,554 - WARNING - 🚫 Page 19: No background assigned
+2025-06-08 17:35:12,555 - WARNING - 🚫 Page 20: No background assigned
+2025-06-08 17:35:12,556 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__History's Mic Drop Moments → page 20
+2025-06-08 17:35:12,556 - WARNING - 🚫 Page 21: No background assigned
+2025-06-08 17:35:12,557 - INFO - 📌 Category page marked: Questions → page 21
+2025-06-08 17:35:12,561 - WARNING - 🚫 Page 22: No background assigned
+2025-06-08 17:35:12,565 - WARNING - 🚫 Page 23: No background assigned
+2025-06-08 17:35:12,568 - WARNING - 🚫 Page 24: No background assigned
+2025-06-08 17:35:12,572 - WARNING - 🚫 Page 25: No background assigned
+2025-06-08 17:35:12,576 - WARNING - 🚫 Page 26: No background assigned
+2025-06-08 17:35:12,577 - INFO - 📌 Category page marked: Answers → page 26
+2025-06-08 17:35:12,580 - WARNING - 🚫 Page 27: No background assigned
+2025-06-08 17:35:12,584 - WARNING - 🚫 Page 28: No background assigned
+2025-06-08 17:35:12,584 - INFO - 📌 Category page marked: Vibes, Beats & Brushes → page 28
+2025-06-08 17:35:12,585 - WARNING - 🚫 Page 29: No background assigned
+2025-06-08 17:35:12,587 - WARNING - 🚫 Page 30: No background assigned
+2025-06-08 17:35:12,589 - WARNING - 🚫 Page 31: No background assigned
+2025-06-08 17:35:12,591 - WARNING - 🚫 Page 32: No background assigned
+2025-06-08 17:35:12,593 - WARNING - 🚫 Page 33: No background assigned
+2025-06-08 17:35:12,596 - WARNING - 🚫 Page 34: No background assigned
+2025-06-08 17:35:12,598 - WARNING - 🚫 Page 35: No background assigned
+2025-06-08 17:35:12,599 - WARNING - 🚫 Page 36: No background assigned
+2025-06-08 17:35:12,601 - WARNING - 🚫 Page 37: No background assigned
+2025-06-08 17:35:12,603 - WARNING - 🚫 Page 38: No background assigned
+2025-06-08 17:35:12,604 - WARNING - 🚫 Page 39: No background assigned
+2025-06-08 17:35:12,605 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__Vibes, Beats & Brushes → page 39
+2025-06-08 17:35:12,605 - WARNING - 🚫 Page 40: No background assigned
+2025-06-08 17:35:12,610 - WARNING - 🚫 Page 41: No background assigned
+2025-06-08 17:35:12,614 - WARNING - 🚫 Page 42: No background assigned
+2025-06-08 17:35:12,617 - WARNING - 🚫 Page 43: No background assigned
+2025-06-08 17:35:12,621 - WARNING - 🚫 Page 44: No background assigned
+2025-06-08 17:35:12,625 - WARNING - 🚫 Page 45: No background assigned
+2025-06-08 17:35:12,629 - WARNING - 🚫 Page 46: No background assigned
+2025-06-08 17:35:12,633 - WARNING - 🚫 Page 47: No background assigned
+2025-06-08 17:35:12,633 - INFO - 📌 Category page marked: Full Beast Mode → page 47
+2025-06-08 17:35:12,634 - WARNING - 🚫 Page 48: No background assigned
+2025-06-08 17:35:12,636 - WARNING - 🚫 Page 49: No background assigned
+2025-06-08 17:35:12,638 - WARNING - 🚫 Page 50: No background assigned
+2025-06-08 17:35:12,640 - WARNING - 🚫 Page 51: No background assigned
+2025-06-08 17:35:12,642 - WARNING - 🚫 Page 52: No background assigned
+2025-06-08 17:35:12,644 - WARNING - 🚫 Page 53: No background assigned
+2025-06-08 17:35:12,645 - WARNING - 🚫 Page 54: No background assigned
+2025-06-08 17:35:12,647 - WARNING - 🚫 Page 55: No background assigned
+2025-06-08 17:35:12,649 - WARNING - 🚫 Page 56: No background assigned
+2025-06-08 17:35:12,651 - WARNING - 🚫 Page 57: No background assigned
+2025-06-08 17:35:12,652 - WARNING - 🚫 Page 58: No background assigned
+2025-06-08 17:35:12,653 - WARNING - 🚫 Page 59: No background assigned
+2025-06-08 17:35:12,654 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__Full Beast Mode → page 59
+2025-06-08 17:35:12,654 - WARNING - 🚫 Page 60: No background assigned
+2025-06-08 17:35:12,658 - WARNING - 🚫 Page 61: No background assigned
+2025-06-08 17:35:12,662 - WARNING - 🚫 Page 62: No background assigned
+2025-06-08 17:35:12,666 - WARNING - 🚫 Page 63: No background assigned
+2025-06-08 17:35:12,670 - WARNING - 🚫 Page 64: No background assigned
+2025-06-08 17:35:12,674 - WARNING - 🚫 Page 65: No background assigned
+2025-06-08 17:35:12,677 - WARNING - 🚫 Page 66: No background assigned
+2025-06-08 17:35:12,683 - WARNING - 🚫 Page 67: No background assigned
+2025-06-08 17:35:12,684 - WARNING - 🚫 Page 68: No background assigned
+2025-06-08 17:35:12,685 - INFO - 📌 Category page marked: Beyond Earth → page 68
+2025-06-08 17:35:12,685 - WARNING - 🚫 Page 69: No background assigned
+2025-06-08 17:35:12,687 - WARNING - 🚫 Page 70: No background assigned
+2025-06-08 17:35:12,690 - WARNING - 🚫 Page 71: No background assigned
+2025-06-08 17:35:12,691 - WARNING - 🚫 Page 72: No background assigned
+2025-06-08 17:35:12,692 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__Beyond Earth → page 72
+2025-06-08 17:35:12,693 - WARNING - 🚫 Page 73: No background assigned
+2025-06-08 17:35:12,697 - WARNING - 🚫 Page 74: No background assigned
+2025-06-08 17:35:12,700 - WARNING - 🚫 Page 75: No background assigned
+2025-06-08 17:35:12,703 - WARNING - 🚫 Page 76: No background assigned
+2025-06-08 17:35:12,704 - INFO - 📌 Category page marked: The What Zone → page 76
+2025-06-08 17:35:12,704 - WARNING - 🚫 Page 77: No background assigned
+2025-06-08 17:35:12,706 - WARNING - 🚫 Page 78: No background assigned
+2025-06-08 17:35:12,708 - WARNING - 🚫 Page 79: No background assigned
+2025-06-08 17:35:12,710 - WARNING - 🚫 Page 80: No background assigned
+2025-06-08 17:35:12,711 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__The What Zone → page 80
+2025-06-08 17:35:12,712 - WARNING - 🚫 Page 81: No background assigned
+2025-06-08 17:35:12,716 - WARNING - 🚫 Page 82: No background assigned
+2025-06-08 17:35:12,718 - WARNING - 🚫 Page 83: No background assigned
+2025-06-08 17:35:12,721 - WARNING - 🚫 Page 84: No background assigned
+2025-06-08 17:35:12,722 - INFO - 📌 Category page marked: Big Brain Energy → page 84
+2025-06-08 17:35:12,722 - WARNING - 🚫 Page 85: No background assigned
+2025-06-08 17:35:12,725 - WARNING - 🚫 Page 86: No background assigned
+2025-06-08 17:35:12,727 - WARNING - 🚫 Page 87: No background assigned
+2025-06-08 17:35:12,728 - WARNING - 🚫 Page 88: No background assigned
+2025-06-08 17:35:12,728 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__Big Brain Energy → page 88
+2025-06-08 17:35:12,729 - WARNING - 🚫 Page 89: No background assigned
+2025-06-08 17:35:12,733 - WARNING - 🚫 Page 90: No background assigned
+2025-06-08 17:35:12,735 - WARNING - 🚫 Page 91: No background assigned
+2025-06-08 17:35:12,738 - WARNING - 🚫 Page 92: No background assigned
+2025-06-08 17:35:12,739 - INFO - 📌 Category page marked: World Shakers & Icon Makers → page 92
+2025-06-08 17:35:12,739 - WARNING - 🚫 Page 93: No background assigned
+2025-06-08 17:35:12,742 - WARNING - 🚫 Page 94: No background assigned
+2025-06-08 17:35:12,744 - WARNING - 🚫 Page 95: No background assigned
+2025-06-08 17:35:12,746 - WARNING - 🚫 Page 96: No background assigned
+2025-06-08 17:35:12,748 - WARNING - 🚫 Page 97: No background assigned
+2025-06-08 17:35:12,750 - WARNING - 🚫 Page 98: No background assigned
+2025-06-08 17:35:12,752 - WARNING - 🚫 Page 99: No background assigned
+2025-06-08 17:35:12,753 - WARNING - 🚫 Page 100: No background assigned
+2025-06-08 17:35:12,754 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__World Shakers & Icon Makers → page 100
+2025-06-08 17:35:12,754 - WARNING - 🚫 Page 101: No background assigned
+2025-06-08 17:35:12,759 - WARNING - 🚫 Page 102: No background assigned
+2025-06-08 17:35:12,763 - WARNING - 🚫 Page 103: No background assigned
+2025-06-08 17:35:12,768 - WARNING - 🚫 Page 104: No background assigned
+2025-06-08 17:35:12,772 - WARNING - 🚫 Page 105: No background assigned
+2025-06-08 17:35:12,773 - WARNING - 🚫 Page 106: No background assigned
+2025-06-08 17:35:12,778 - WARNING - 🚫 Page 107: No background assigned
+2025-06-08 17:35:12,835 - INFO - 📕 Cover page detected → pages 1–1
+2025-06-08 17:35:12,835 - INFO - 📘 Intro range detected → pages 2–2
+2025-06-08 17:35:12,835 - INFO - 🧭 TOC range added: pages 3–3
+2025-06-08 17:35:12,835 - INFO - 📂 Category range: 'Today's Vibe Check' → using 'todays_vibe_check.png' → pages 4–6
+2025-06-08 17:35:12,835 - INFO - 📂 Category range: 'Days That Slay' → using 'days_that_slay.png' → pages 7–10
+2025-06-08 17:35:12,836 - INFO - 📂 Category range: 'History's Mic Drop Moments' → using 'history_mic_drop_moments.png' → pages 11–19
+2025-06-08 17:35:12,836 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__History's Mic Drop Moments' → pages 20–20
+2025-06-08 17:35:12,836 - WARNING - ❓ No match for category label 'Questions' (stripped: 'Questions')
+2025-06-08 17:35:12,836 - WARNING - ❓ No match for category label 'Answers' (stripped: 'Answers')
+2025-06-08 17:35:12,836 - INFO - 📂 Category range: 'Vibes, Beats & Brushes' → using 'vibes_beats_and_brushes.png' → pages 28–38
+2025-06-08 17:35:12,836 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__Vibes, Beats & Brushes' → pages 39–46
+2025-06-08 17:35:12,837 - INFO - 📂 Category range: 'Full Beast Mode' → using 'full_beast_mode.png' → pages 47–58
+2025-06-08 17:35:12,837 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__Full Beast Mode' → pages 59–67
+2025-06-08 17:35:12,837 - INFO - 📂 Category range: 'Beyond Earth' → using 'beyond_earth.png' → pages 68–71
+2025-06-08 17:35:12,837 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__Beyond Earth' → pages 72–75
+2025-06-08 17:35:12,837 - INFO - 📂 Category range: 'The What Zone' → using 'the_what_zone.png' → pages 76–79
+2025-06-08 17:35:12,837 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__The What Zone' → pages 80–83
+2025-06-08 17:35:12,838 - INFO - 📂 Category range: 'Big Brain Energy' → using 'big_brain_energy.png' → pages 84–87
+2025-06-08 17:35:12,838 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__Big Brain Energy' → pages 88–91
+2025-06-08 17:35:12,838 - INFO - 📂 Category range: 'World Shakers & Icon Makers' → using 'world_shakers_and_icon_makers.png' → pages 92–99
+2025-06-08 17:35:12,838 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__World Shakers & Icon Makers' → pages 100–999
+2025-06-08 17:35:12,839 - INFO - 🗺 Final computed background ranges:
+2025-06-08 17:35:12,839 - INFO -  → Pages 1–1: cover.png (cover)
+2025-06-08 17:35:12,839 - INFO -  → Pages 2–2: before_we_begin.png (intro)
+2025-06-08 17:35:12,839 - INFO -  → Pages 3–3: table_of_contents.png (toc)
+2025-06-08 17:35:12,839 - INFO -  → Pages 4–6: todays_vibe_check.png (category)
+2025-06-08 17:35:12,839 - INFO -  → Pages 7–10: days_that_slay.png (category)
+2025-06-08 17:35:12,840 - INFO -  → Pages 11–19: history_mic_drop_moments.png (category)
+2025-06-08 17:35:12,840 - INFO -  → Pages 20–27: trivia_time.png (trivia)
+2025-06-08 17:35:12,840 - INFO -  → Pages 28–38: vibes_beats_and_brushes.png (category)
+2025-06-08 17:35:12,840 - INFO -  → Pages 39–46: trivia_time.png (trivia)
+2025-06-08 17:35:12,840 - INFO -  → Pages 47–58: full_beast_mode.png (category)
+2025-06-08 17:35:12,840 - INFO -  → Pages 59–67: trivia_time.png (trivia)
+2025-06-08 17:35:12,840 - INFO -  → Pages 68–71: beyond_earth.png (category)
+2025-06-08 17:35:12,840 - INFO -  → Pages 72–75: trivia_time.png (trivia)
+2025-06-08 17:35:12,840 - INFO -  → Pages 76–79: the_what_zone.png (category)
+2025-06-08 17:35:12,841 - INFO -  → Pages 80–83: trivia_time.png (trivia)
+2025-06-08 17:35:12,841 - INFO -  → Pages 84–87: big_brain_energy.png (category)
+2025-06-08 17:35:12,841 - INFO -  → Pages 88–91: trivia_time.png (trivia)
+2025-06-08 17:35:12,841 - INFO -  → Pages 92–99: world_shakers_and_icon_makers.png (category)
+2025-06-08 17:35:12,841 - INFO -  → Pages 100–999: trivia_time.png (trivia)
+2025-06-08 17:35:12,841 - INFO - 📖 Page tracker keys + values:
+2025-06-08 17:35:12,841 - INFO -   __COVER_PAGE__ → page 1
+2025-06-08 17:35:12,841 - INFO -   __INTRO_PAGE__ → page 2
+2025-06-08 17:35:12,841 - INFO -   __TOC_PAGE__ → page 3
+2025-06-08 17:35:12,841 - INFO -   __TOC_END__ → page 3
+2025-06-08 17:35:12,842 - INFO -   Today's Vibe Check → page 4
+2025-06-08 17:35:12,842 - INFO -   Days That Slay → page 7
+2025-06-08 17:35:12,842 - INFO -   History's Mic Drop Moments → page 11
+2025-06-08 17:35:12,842 - INFO -   __TRIVIA_START__History's Mic Drop Moments → page 20
+2025-06-08 17:35:12,842 - INFO -   Questions → page 21
+2025-06-08 17:35:12,842 - INFO -   Answers → page 26
+2025-06-08 17:35:12,842 - INFO -   Vibes, Beats & Brushes → page 28
+2025-06-08 17:35:12,842 - INFO -   __TRIVIA_START__Vibes, Beats & Brushes → page 39
+2025-06-08 17:35:12,842 - INFO -   Full Beast Mode → page 47
+2025-06-08 17:35:12,842 - INFO -   __TRIVIA_START__Full Beast Mode → page 59
+2025-06-08 17:35:12,843 - INFO -   Beyond Earth → page 68
+2025-06-08 17:35:12,843 - INFO -   __TRIVIA_START__Beyond Earth → page 72
+2025-06-08 17:35:12,843 - INFO -   The What Zone → page 76
+2025-06-08 17:35:12,843 - INFO -   __TRIVIA_START__The What Zone → page 80
+2025-06-08 17:35:12,843 - INFO -   Big Brain Energy → page 84
+2025-06-08 17:35:12,843 - INFO -   __TRIVIA_START__Big Brain Energy → page 88
+2025-06-08 17:35:12,843 - INFO -   World Shakers & Icon Makers → page 92
+2025-06-08 17:35:12,843 - INFO -   __TRIVIA_START__World Shakers & Icon Makers → page 100
+2025-06-08 17:35:12,848 - INFO - 🧠 Trivia start marker added for category: History's Mic Drop Moments
+2025-06-08 17:35:12,855 - INFO - 🧠 Trivia start marker added for category: Vibes, Beats & Brushes
+2025-06-08 17:35:12,861 - INFO - 🧠 Trivia start marker added for category: Full Beast Mode
+2025-06-08 17:35:12,867 - INFO - 🧠 Trivia start marker added for category: Beyond Earth
+2025-06-08 17:35:12,869 - INFO - 🧠 Trivia start marker added for category: The What Zone
+2025-06-08 17:35:12,872 - INFO - 🧠 Trivia start marker added for category: Big Brain Energy
+2025-06-08 17:35:12,877 - INFO - 🧠 Trivia start marker added for category: World Shakers & Icon Makers
+2025-06-08 17:35:12,882 - INFO - 📄 Final build started with full backgrounds...
+2025-06-08 17:35:14,009 - INFO - ✅ Page 1: Applied 'cover' background → cover.png
+2025-06-08 17:35:14,010 - INFO - 📖 Cover marker registered: __COVER_PAGE__ → page 1
+2025-06-08 17:35:15,116 - INFO - ✅ Page 2: Applied 'intro' background → before_we_begin.png
+2025-06-08 17:35:15,117 - INFO - 📘 Intro marker registered: __INTRO_PAGE__ → page 2
+2025-06-08 17:35:16,125 - INFO - ✅ Page 3: Applied 'toc' background → table_of_contents.png
+2025-06-08 17:35:16,127 - INFO - 📋 TOC marker registered: __TOC_PAGE__ → page 3
+2025-06-08 17:35:16,130 - INFO - 📌 TOC end marker registered: __TOC_END__ → page 3
+2025-06-08 17:35:17,280 - INFO - ✅ Page 4: Applied 'category' background → todays_vibe_check.png
+2025-06-08 17:35:17,281 - INFO - 📌 Category page marked: Today's Vibe Check → page 4
+2025-06-08 17:35:17,318 - INFO - ✅ Page 5: Applied 'category' background → todays_vibe_check.png
+2025-06-08 17:35:17,357 - INFO - ✅ Page 6: Applied 'category' background → todays_vibe_check.png
+2025-06-08 17:35:18,469 - INFO - ✅ Page 7: Applied 'category' background → days_that_slay.png
+2025-06-08 17:35:18,470 - INFO - 📌 Category page marked: Days That Slay → page 7
+2025-06-08 17:35:18,515 - INFO - ✅ Page 8: Applied 'category' background → days_that_slay.png
+2025-06-08 17:35:18,561 - INFO - ✅ Page 9: Applied 'category' background → days_that_slay.png
+2025-06-08 17:35:18,606 - INFO - ✅ Page 10: Applied 'category' background → days_that_slay.png
+2025-06-08 17:35:19,690 - INFO - ✅ Page 11: Applied 'category' background → history_mic_drop_moments.png
+2025-06-08 17:35:19,691 - INFO - 📌 Category page marked: History's Mic Drop Moments → page 11
+2025-06-08 17:35:19,732 - INFO - ✅ Page 12: Applied 'category' background → history_mic_drop_moments.png
+2025-06-08 17:35:19,776 - INFO - ✅ Page 13: Applied 'category' background → history_mic_drop_moments.png
+2025-06-08 17:35:19,819 - INFO - ✅ Page 14: Applied 'category' background → history_mic_drop_moments.png
+2025-06-08 17:35:19,862 - INFO - ✅ Page 15: Applied 'category' background → history_mic_drop_moments.png
+2025-06-08 17:35:19,906 - INFO - ✅ Page 16: Applied 'category' background → history_mic_drop_moments.png
+2025-06-08 17:35:19,950 - INFO - ✅ Page 17: Applied 'category' background → history_mic_drop_moments.png
+2025-06-08 17:35:19,993 - INFO - ✅ Page 18: Applied 'category' background → history_mic_drop_moments.png
+2025-06-08 17:35:20,037 - INFO - ✅ Page 19: Applied 'category' background → history_mic_drop_moments.png
+2025-06-08 17:35:20,980 - INFO - ✅ Page 20: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:20,981 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__History's Mic Drop Moments → page 20
+2025-06-08 17:35:21,018 - INFO - ✅ Page 21: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:21,019 - INFO - 📌 Category page marked: Questions → page 21
+2025-06-08 17:35:21,060 - INFO - ✅ Page 22: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:21,102 - INFO - ✅ Page 23: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:21,143 - INFO - ✅ Page 24: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:21,184 - INFO - ✅ Page 25: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:21,226 - INFO - ✅ Page 26: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:21,227 - INFO - 📌 Category page marked: Answers → page 26
+2025-06-08 17:35:21,267 - INFO - ✅ Page 27: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:22,375 - INFO - ✅ Page 28: Applied 'category' background → vibes_beats_and_brushes.png
+2025-06-08 17:35:22,377 - INFO - 📌 Category page marked: Vibes, Beats & Brushes → page 28
+2025-06-08 17:35:22,422 - INFO - ✅ Page 29: Applied 'category' background → vibes_beats_and_brushes.png
+2025-06-08 17:35:22,470 - INFO - ✅ Page 30: Applied 'category' background → vibes_beats_and_brushes.png
+2025-06-08 17:35:22,522 - INFO - ✅ Page 31: Applied 'category' background → vibes_beats_and_brushes.png
+2025-06-08 17:35:22,574 - INFO - ✅ Page 32: Applied 'category' background → vibes_beats_and_brushes.png
+2025-06-08 17:35:22,622 - INFO - ✅ Page 33: Applied 'category' background → vibes_beats_and_brushes.png
+2025-06-08 17:35:22,673 - INFO - ✅ Page 34: Applied 'category' background → vibes_beats_and_brushes.png
+2025-06-08 17:35:22,721 - INFO - ✅ Page 35: Applied 'category' background → vibes_beats_and_brushes.png
+2025-06-08 17:35:22,768 - INFO - ✅ Page 36: Applied 'category' background → vibes_beats_and_brushes.png
+2025-06-08 17:35:22,815 - INFO - ✅ Page 37: Applied 'category' background → vibes_beats_and_brushes.png
+2025-06-08 17:35:22,864 - INFO - ✅ Page 38: Applied 'category' background → vibes_beats_and_brushes.png
+2025-06-08 17:35:22,902 - INFO - ✅ Page 39: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:22,904 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__Vibes, Beats & Brushes → page 39
+2025-06-08 17:35:22,941 - INFO - ✅ Page 40: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:22,983 - INFO - ✅ Page 41: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:23,025 - INFO - ✅ Page 42: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:23,066 - INFO - ✅ Page 43: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:23,109 - INFO - ✅ Page 44: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:23,150 - INFO - ✅ Page 45: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:23,191 - INFO - ✅ Page 46: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:24,379 - INFO - ✅ Page 47: Applied 'category' background → full_beast_mode.png
+2025-06-08 17:35:24,381 - INFO - 📌 Category page marked: Full Beast Mode → page 47
+2025-06-08 17:35:24,417 - INFO - ✅ Page 48: Applied 'category' background → full_beast_mode.png
+2025-06-08 17:35:24,458 - INFO - ✅ Page 49: Applied 'category' background → full_beast_mode.png
+2025-06-08 17:35:24,498 - INFO - ✅ Page 50: Applied 'category' background → full_beast_mode.png
+2025-06-08 17:35:24,537 - INFO - ✅ Page 51: Applied 'category' background → full_beast_mode.png
+2025-06-08 17:35:24,577 - INFO - ✅ Page 52: Applied 'category' background → full_beast_mode.png
+2025-06-08 17:35:24,619 - INFO - ✅ Page 53: Applied 'category' background → full_beast_mode.png
+2025-06-08 17:35:24,659 - INFO - ✅ Page 54: Applied 'category' background → full_beast_mode.png
+2025-06-08 17:35:24,700 - INFO - ✅ Page 55: Applied 'category' background → full_beast_mode.png
+2025-06-08 17:35:24,739 - INFO - ✅ Page 56: Applied 'category' background → full_beast_mode.png
+2025-06-08 17:35:24,779 - INFO - ✅ Page 57: Applied 'category' background → full_beast_mode.png
+2025-06-08 17:35:24,819 - INFO - ✅ Page 58: Applied 'category' background → full_beast_mode.png
+2025-06-08 17:35:24,857 - INFO - ✅ Page 59: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:24,859 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__Full Beast Mode → page 59
+2025-06-08 17:35:24,896 - INFO - ✅ Page 60: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:24,937 - INFO - ✅ Page 61: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:24,979 - INFO - ✅ Page 62: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:25,020 - INFO - ✅ Page 63: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:25,061 - INFO - ✅ Page 64: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:25,103 - INFO - ✅ Page 65: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:25,144 - INFO - ✅ Page 66: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:25,185 - INFO - ✅ Page 67: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:26,265 - INFO - ✅ Page 68: Applied 'category' background → beyond_earth.png
+2025-06-08 17:35:26,266 - INFO - 📌 Category page marked: Beyond Earth → page 68
+2025-06-08 17:35:26,301 - INFO - ✅ Page 69: Applied 'category' background → beyond_earth.png
+2025-06-08 17:35:26,339 - INFO - ✅ Page 70: Applied 'category' background → beyond_earth.png
+2025-06-08 17:35:26,377 - INFO - ✅ Page 71: Applied 'category' background → beyond_earth.png
+2025-06-08 17:35:26,416 - INFO - ✅ Page 72: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:26,417 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__Beyond Earth → page 72
+2025-06-08 17:35:26,455 - INFO - ✅ Page 73: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:26,497 - INFO - ✅ Page 74: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:26,536 - INFO - ✅ Page 75: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:27,597 - INFO - ✅ Page 76: Applied 'category' background → the_what_zone.png
+2025-06-08 17:35:27,599 - INFO - 📌 Category page marked: The What Zone → page 76
+2025-06-08 17:35:27,638 - INFO - ✅ Page 77: Applied 'category' background → the_what_zone.png
+2025-06-08 17:35:27,683 - INFO - ✅ Page 78: Applied 'category' background → the_what_zone.png
+2025-06-08 17:35:27,726 - INFO - ✅ Page 79: Applied 'category' background → the_what_zone.png
+2025-06-08 17:35:27,765 - INFO - ✅ Page 80: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:27,766 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__The What Zone → page 80
+2025-06-08 17:35:27,804 - INFO - ✅ Page 81: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:27,846 - INFO - ✅ Page 82: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:27,886 - INFO - ✅ Page 83: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:28,956 - INFO - ✅ Page 84: Applied 'category' background → big_brain_energy.png
+2025-06-08 17:35:28,958 - INFO - 📌 Category page marked: Big Brain Energy → page 84
+2025-06-08 17:35:28,999 - INFO - ✅ Page 85: Applied 'category' background → big_brain_energy.png
+2025-06-08 17:35:29,047 - INFO - ✅ Page 86: Applied 'category' background → big_brain_energy.png
+2025-06-08 17:35:29,095 - INFO - ✅ Page 87: Applied 'category' background → big_brain_energy.png
+2025-06-08 17:35:29,134 - INFO - ✅ Page 88: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:29,136 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__Big Brain Energy → page 88
+2025-06-08 17:35:29,174 - INFO - ✅ Page 89: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:29,216 - INFO - ✅ Page 90: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:29,258 - INFO - ✅ Page 91: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:30,354 - INFO - ✅ Page 92: Applied 'category' background → world_shakers_and_icon_makers.png
+2025-06-08 17:35:30,356 - INFO - 📌 Category page marked: World Shakers & Icon Makers → page 92
+2025-06-08 17:35:30,383 - INFO - ✅ Page 93: Applied 'category' background → world_shakers_and_icon_makers.png
+2025-06-08 17:35:30,414 - INFO - ✅ Page 94: Applied 'category' background → world_shakers_and_icon_makers.png
+2025-06-08 17:35:30,445 - INFO - ✅ Page 95: Applied 'category' background → world_shakers_and_icon_makers.png
+2025-06-08 17:35:30,477 - INFO - ✅ Page 96: Applied 'category' background → world_shakers_and_icon_makers.png
+2025-06-08 17:35:30,511 - INFO - ✅ Page 97: Applied 'category' background → world_shakers_and_icon_makers.png
+2025-06-08 17:35:30,543 - INFO - ✅ Page 98: Applied 'category' background → world_shakers_and_icon_makers.png
+2025-06-08 17:35:30,573 - INFO - ✅ Page 99: Applied 'category' background → world_shakers_and_icon_makers.png
+2025-06-08 17:35:30,613 - INFO - ✅ Page 100: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:30,614 - INFO - 🧠 Trivia marker registered: __TRIVIA_START__World Shakers & Icon Makers → page 100
+2025-06-08 17:35:30,652 - INFO - ✅ Page 101: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:30,696 - INFO - ✅ Page 102: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:30,738 - INFO - ✅ Page 103: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:30,786 - INFO - ✅ Page 104: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:30,830 - INFO - ✅ Page 105: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:30,869 - INFO - ✅ Page 106: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:30,910 - INFO - ✅ Page 107: Applied 'trivia' background → trivia_time.png
+2025-06-08 17:35:32,319 - INFO - ✅ Final PDF built successfully.
+2025-06-08 17:35:32,320 - INFO - 📁 Categories exported to: C:\Users\timmu\Documents\repos\Factbook Project\books\March_29_culled_enhanced_catagorised_98_categories.json
+2025-06-08 17:35:32,320 - INFO - ✅ PDF created at: C:\Users\timmu\Documents\repos\Factbook Project\books\March_29_culled_enhanced_catagorised_98.pdf
+2025-06-08 17:35:32,373 - INFO - 📍 Found trivia marker on page 20
+2025-06-08 17:35:32,373 - INFO - 📍 Included Trivia Time content page: 21
+2025-06-08 17:35:32,381 - INFO - 📍 Found trivia marker on page 39
+2025-06-08 17:35:32,382 - INFO - 📍 Included Trivia Time content page: 40
+2025-06-08 17:35:32,390 - INFO - 📍 Found trivia marker on page 59
+2025-06-08 17:35:32,390 - INFO - 📍 Included Trivia Time content page: 60
+2025-06-08 17:35:32,395 - INFO - 📍 Found trivia marker on page 72
+2025-06-08 17:35:32,396 - INFO - 📍 Included Trivia Time content page: 73
+2025-06-08 17:35:32,398 - INFO - 📍 Found trivia marker on page 80
+2025-06-08 17:35:32,399 - INFO - 📍 Included Trivia Time content page: 81
+2025-06-08 17:35:32,402 - INFO - 📍 Found trivia marker on page 88
+2025-06-08 17:35:32,402 - INFO - 📍 Included Trivia Time content page: 89
+2025-06-08 17:35:32,407 - INFO - 📍 Found trivia marker on page 100
+2025-06-08 17:35:32,408 - INFO - 📍 Included Trivia Time content page: 101
+2025-06-08 17:35:32,414 - INFO - ✅ Background added to page 20
+2025-06-08 17:35:32,418 - INFO - ✅ Background added to page 21
+2025-06-08 17:35:32,421 - INFO - ✅ Background added to page 39
+2025-06-08 17:35:32,425 - INFO - ✅ Background added to page 40
+2025-06-08 17:35:32,428 - INFO - ✅ Background added to page 59
+2025-06-08 17:35:32,431 - INFO - ✅ Background added to page 60
+2025-06-08 17:35:32,434 - INFO - ✅ Background added to page 72
+2025-06-08 17:35:32,437 - INFO - ✅ Background added to page 73
+2025-06-08 17:35:32,441 - INFO - ✅ Background added to page 80
+2025-06-08 17:35:32,444 - INFO - ✅ Background added to page 81
+2025-06-08 17:35:32,448 - INFO - ✅ Background added to page 88
+2025-06-08 17:35:32,452 - INFO - ✅ Background added to page 89
+2025-06-08 17:35:32,455 - INFO - ✅ Background added to page 100
+2025-06-08 17:35:32,459 - INFO - ✅ Background added to page 101
+2025-06-08 17:35:32,569 - INFO - ✅ Final trivia backgrounds applied to 14 pages.
