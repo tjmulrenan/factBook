@@ -1,3 +1,4 @@
+
 import os
 import re
 import json
@@ -79,6 +80,62 @@ def draw_cloud_shape_background(canvas, doc, alpha=0.88, scale=1.0):
     canvas.restoreState()
 
 
+from reportlab.platypus import Flowable, Paragraph
+
+class TransparentBox(Flowable):
+    def __init__(self, content, style, width=None, height=None, padding=15, alpha=0.85):
+        super().__init__()
+        self.style = style
+        self.padding = padding
+        self.alpha = alpha
+        self.width = width if width is not None else 450
+        self.height = height
+
+        # Normalize content to list of flowables
+        if isinstance(content, list):
+            self._content = content
+        elif isinstance(content, Flowable):
+            self._content = [content]
+        else:
+            self._content = [Paragraph(str(content), style)]
+
+    def wrap(self, availWidth, availHeight):
+        used_width = self.width
+        content_width = used_width - 2 * self.padding
+
+        total_height = 0
+        for flowable in self._content:
+            _, h = flowable.wrap(content_width, availHeight)
+            total_height += h + self.padding
+
+        self.eff_width = used_width
+        self.eff_height = self.height if self.height is not None else total_height + self.padding
+
+        return self.eff_width, self.eff_height
+
+    def drawOn(self, canvas, x, y, _sW=0):
+        centered_x = (canvas._pagesize[0] - self.eff_width) / 2
+        super().drawOn(canvas, centered_x, y, _sW)
+
+    def draw(self):
+        self.canv.saveState()
+        self.canv.setFillColorRGB(1, 1, 1, alpha=self.alpha)
+
+        x = -self._cur_x if hasattr(self, '_cur_x') else 0
+        self.canv.rect(x, 0, self.eff_width, self.eff_height, fill=1, stroke=0)
+
+        content_width = self.eff_width - 2 * self.padding
+        y_cursor = self.eff_height - self.padding  # start from top
+
+        for flowable in self._content:
+            w, h = flowable.wrap(content_width, self.eff_height)
+            flowable.drawOn(self.canv, self.padding, y_cursor - h)
+            y_cursor -= h + self.padding
+
+        self.canv.restoreState()
+
+
+
 
 
 class WhiteoutPage(Flowable):
@@ -109,8 +166,8 @@ logging.basicConfig(
 )
 
 CATEGORY_BACKGROUNDS = {
-    "Today’s Vibe Check": "todays_vibe_check",
-    "History’s Mic Drop Moments": "history_mic_drop_moments",
+    "Today's Vibe Check": "todays_vibe_check",
+    "History's Mic Drop Moments": "history_mic_drop_moments",
     "World Shakers & Icon Makers": "world_shakers_and_icon_makers",
     "Big Brain Energy": "big_brain_energy",
     "Beyond Earth": "beyond_earth",
@@ -118,13 +175,13 @@ CATEGORY_BACKGROUNDS = {
     "Vibes, Beats & Brushes": "vibes_beats_and_brushes",
     "Days That Slay": "days_that_slay",
     "Full Beast Mode": "full_beast_mode",
-    "Mother Nature’s Meltdowns": "mother_natures_meltdowns",
+    "Mother Nature's Meltdowns": "mother_natures_meltdowns",
     "The What Zone": "the_what_zone"
 }
 
 CATEGORY_DESCRIPTIONS = {
-    "Today’s Vibe Check": "seasonal chaos, sky weirdness, animal drama",
-    "History’s Mic Drop Moments": "wars, revolutions, treaties, global turning points",
+    "Today's Vibe Check": "seasonal chaos, sky weirdness, animal drama",
+    "History's Mic Drop Moments": "wars, revolutions, treaties, global turning points",
     "World Shakers & Icon Makers": "powerful leaders, world changers, inspiring people",
     "Big Brain Energy": "discoveries, breakthroughs, tech, biology, chemistry",
     "Beyond Earth": "astronomy, space missions, meteorology ",
@@ -132,7 +189,7 @@ CATEGORY_DESCRIPTIONS = {
     "Vibes, Beats & Brushes": "Vibes, Beats & Brushes — creativity, artists, music, cultural trends",
     "Days That Slay": "holidays, rituals, festivals, national days",
     "Full Beast Mode": "competitions, record-breakers, sporting firsts",
-    "Mother Nature’s Meltdowns": "volcanoes, climate, ecosystems, nature wonders",
+    "Mother Nature's Meltdowns": "volcanoes, climate, ecosystems, nature wonders",
     "The What Zone": "oddities, mysteries, unusual facts",
 }
 
@@ -143,7 +200,10 @@ class MyDocTemplate(BaseDocTemplate):
         super().__init__(filename, **kwargs)
         self._page_tracker = {}  # Tracks where each category starts
         self._background_ranges = []  # Stores start-end ranges with ImageReader backgrounds
-        
+        self._page_usage = {}  # Tracks used vertical space per page
+        self._current_y_position = 0
+
+
 
         margin_size = 0.5
 
@@ -158,39 +218,18 @@ class MyDocTemplate(BaseDocTemplate):
         template = PageTemplate(id='Content', frames=[frame], onPage=self.draw_background)
         self.addPageTemplates([template])
 
+
     def afterFlowable(self, flowable):
+        super().afterFlowable(flowable)
+
         if isinstance(flowable, Paragraph):
-            text = flowable.getPlainText()
-
-            if flowable.style.name == "CategoryTitle":
-                if text not in self._page_tracker:
-                    self._page_tracker[text] = self.page
-                    logging.info(f"📌 Category page marked: {text} → page {self.page}")
-
-            elif text.strip() == "__TOC_PAGE__":
-                if text not in self._page_tracker:
-                    self._page_tracker[text] = self.page
-                    logging.info(f"📋 TOC marker registered: {text} → page {self.page}")
-
-            elif text.startswith("__TRIVIA_START__"):
-                if text not in self._page_tracker:
-                    self._page_tracker[text] = self.page
-                    logging.info(f"🧠 Trivia marker registered: {text} → page {self.page}")
-
-            elif text.strip() == "__TOC_END__":
-                if text not in self._page_tracker:
-                    self._page_tracker[text] = self.page
-                    logging.info(f"📌 TOC end marker registered: {text} → page {self.page}")
-
-            elif text.strip() == "__INTRO_PAGE__":
-                if text not in self._page_tracker:
-                    self._page_tracker[text] = self.page
-                    logging.info(f"📘 Intro marker registered: {text} → page {self.page}")
-
-            elif text.strip() == "__COVER_PAGE__":
-                if text not in self._page_tracker:
-                    self._page_tracker[text] = self.page
-                    logging.info(f"📖 Cover marker registered: {text} → page {self.page}")
+            text = flowable.getPlainText().strip()
+            if flowable.style.name == "CategoryTitle" and text not in self._page_tracker:
+                self._page_tracker[text] = self.page
+            elif text.startswith("__TRIVIA_START__") and text not in self._page_tracker:
+                self._page_tracker[text] = self.page
+            elif text in ("__TOC_PAGE__", "__TOC_END__", "__INTRO_PAGE__", "__COVER_PAGE__") and text not in self._page_tracker:
+                self._page_tracker[text] = self.page
 
 
 
@@ -199,10 +238,11 @@ class MyDocTemplate(BaseDocTemplate):
         current_page = canvas.getPageNumber()
         canvas.saveState()
 
-        # Always fill base with solid white to avoid bleed-through
+        # Always clear background
         canvas.setFillColorRGB(1, 1, 1)
         canvas.rect(0, 0, doc.pagesize[0], doc.pagesize[1], fill=1, stroke=0)
 
+        # Pick background range if one matches
         bg_range = None
         for bg in self._background_ranges:
             if bg["start"] <= current_page <= bg["end"]:
@@ -210,34 +250,14 @@ class MyDocTemplate(BaseDocTemplate):
                 break
 
         if bg_range:
-            img = ImageReader(bg_range.get("image_path")) if "image_path" in bg_range else bg_range.get("image")
-
             try:
+                img = bg_range.get("image")
+                if not img and "image_path" in bg_range:
+                    from reportlab.lib.utils import ImageReader
+                    img = ImageReader(bg_range["image_path"])
                 canvas.drawImage(img, 0, 0, width=doc.pagesize[0], height=doc.pagesize[1])
-                label = bg_range.get("label", "unknown")
-                img_path = bg_range.get("image_path", "inline ImageReader")
-                logging.info(f"✅ Page {current_page}: Applied '{label}' background → {os.path.basename(img_path)}")
             except Exception as e:
-                logging.warning(f"❌ Page {current_page}: Failed to draw background image → {e}")
-
-        else:
-            logging.warning(f"🚫 Page {current_page}: No background assigned")
-
-        label = bg_range.get("label") if bg_range else None
-
-        if label == "cover":
-            scale = 0.4  # Remove cloud on cover
-        elif label == "intro":
-            scale = 0.8
-        elif label == "toc":
-            scale = 1.0
-        elif label == "category" and current_page != bg_range["start"]:
-            scale = 0.8
-        else:
-            scale = 0.2
-
-
-        draw_cloud_shape_background(canvas, doc, alpha=0.7, scale=scale)
+                logging.warning(f"❌ Page {current_page}: Failed to draw background → {e}")
 
         canvas.restoreState()
         self.add_page_number(canvas, doc)
@@ -258,18 +278,24 @@ class MyDocTemplate(BaseDocTemplate):
                 canvas.drawRightString(595, 10, text)
 
 
+
 def build_elements(facts, styles, date_str, category_pages=None):
     elements = []
     num_facts = len(facts)
 
     elements.append(Spacer(1, 200))
+
     elements += [
         Paragraph("__COVER_PAGE__", ParagraphStyle("HiddenCoverMarker", fontSize=1, textColor=colors.white)),
-        Paragraph("WHAT HAPPENED ON...", styles['cover_title']),
-        Paragraph(f"{date_str}?", styles['cover_date']),
+        Spacer(1, 10),
+        TransparentBox("WHAT HAPPENED ON...", styles['cover_title'], alpha=0.85),
+        Spacer(1, 12),
+        TransparentBox(f"{date_str}?", styles['cover_date'], alpha=0.85),
         Spacer(1, 60),
-        Paragraph("Written by Timothy John Mulrenan", styles['cover_date'])
+        TransparentBox("Written by Timothy John Mulrenan", styles['cover_date'], alpha=0.85)
     ]
+
+
     elements.append(PageBreak())
 
     intro_text = f"""
@@ -283,9 +309,11 @@ def build_elements(facts, styles, date_str, category_pages=None):
         "__INTRO_PAGE__",
         ParagraphStyle("HiddenIntroMarker", fontSize=1, textColor=colors.white)
     ))
-    elements.append(Paragraph("Before we begin!", styles['intro_header']))
-    elements.append(Spacer(1, 12))
-    elements.append(Paragraph(intro_text.strip(), styles['intro']))
+    elements += [
+        TransparentBox("Before we begin!", styles['intro_header'], alpha=0.85),
+        Spacer(1, 12),
+        TransparentBox(intro_text.strip(), styles['intro'], alpha=0.85)
+    ]
 
     if category_pages:
         elements.append(PageBreak())
@@ -309,24 +337,34 @@ def build_elements(facts, styles, date_str, category_pages=None):
             for cat, pg in filtered_category_pages
         ]
 
-        table = Table(toc_data, colWidths=[380, 80], hAlign='LEFT')
+        table = Table(toc_data, colWidths=[380, 40], hAlign='LEFT')
         table.setStyle(TableStyle([
             ('ALIGN', (0, 0), (-1, -1), 'LEFT'),
             ('FONTNAME', (0, 0), (-1, -1), 'DejaVu'),
             ('FONTSIZE', (0, 0), (-1, -1), 12),
             ('TOPPADDING', (0, 0), (-1, -1), 8),
             ('BOTTOMPADDING', (0, 0), (-1, -1), 16),
-            ('LINEBELOW', (0, 0), (-1, -1), 0.25, colors.darkgrey),
+            ('LEFTPADDING', (0, 0), (-1, -1), 0),
+            ('RIGHTPADDING', (0, 0), (-1, -1), 0),
+            ('LINEBELOW', (0, 0), (-1, -2), 0.25, colors.darkgrey),
         ]))
 
         # ⛔ Force TOC to stay together on one page
         toc_block = KeepTogether([
-            Paragraph("Table of Contents", styles['toc_title']),
+            TransparentBox("<para align='center'><b>Table of Contents</b></para>", styles['toc_title'], alpha=0.85),
+            
+            # Hidden marker before the table
             Paragraph("__TOC_PAGE__", ParagraphStyle("HiddenTOCMarker", fontSize=1, textColor=colors.grey)),
+
             Spacer(1, 12),
-            table,
+
+            # ✅ Table wrapped in TransparentBox
+            TransparentBox(table, styles['story'], alpha=0.85),
+
+            # Hidden end marker
             Paragraph("__TOC_END__", ParagraphStyle("HiddenTOCEndMarker", fontSize=1, textColor=colors.white)),
         ])
+
 
         elements.append(toc_block)
     
@@ -342,12 +380,20 @@ def build_elements(facts, styles, date_str, category_pages=None):
     spacer_height = max(0, (page_height - estimated_content_height) / 2 - 50)
 
     elements.append(Spacer(1, spacer_height))
-    elements.append(KeepTogether([
-        Spacer(1, 12),
+
+    # Vibe Check intro in transparent boxes
+    vibe_intro = KeepTogether([
         Paragraph("<para align='center'><b>Today's Vibe Check</b></para>", styles['category']),
-        Spacer(1, 12),
-        Paragraph("<para align='center'>What's the deal with this day? Seasonal chaos, sky weirdness, animal drama — it's all happening.</para>", styles['story']),
-    ]))
+        TransparentBox("<para align='center'><b>Today's Vibe Check</b></para>", styles['cat_title'], alpha=0.85),
+        Spacer(1, 10),
+        TransparentBox(
+            "What's the deal with this day? Seasonal chaos, sky weirdness, animal drama — it's all happening.",
+            styles['story'],
+            alpha=0.85
+        )
+    ])
+    elements.append(vibe_intro)
+
     elements.append(PageBreak())
 
     try:
@@ -365,18 +411,20 @@ def build_elements(facts, styles, date_str, category_pages=None):
         for fact in vibe_facts:
             if fact.get("kid_friendly", False):
                 fact_block = KeepTogether([
-                    Paragraph(f"• {fact['fact']}", styles['story']),
-                    Spacer(1, 10)
+                    TransparentBox(f"• {fact['fact']}", styles['story'], alpha=0.85),
+                    # Spacer(1, 10)
                 ])
                 elements.append(fact_block)
                 added_any = True
 
         if not added_any:
             elements.append(Paragraph("No kid-friendly facts available today.", styles['story']))
+        elements.append(PageBreak())
 
     except Exception as e:
         logging.warning(f"🚫 Could not load Today's Vibe Check facts: {e}")
         elements.append(Paragraph("Oops! Vibe Check facts couldn’t load.", styles['story']))
+
 
     # 🎉 Days That Slay Section
     elements.append(Paragraph(
@@ -388,15 +436,25 @@ def build_elements(facts, styles, date_str, category_pages=None):
     page_height = letter[1]
     estimated_content_height = 180
     spacer_height = max(0, (page_height - estimated_content_height) / 2 - 50)
+    
     elements.append(Spacer(1, spacer_height))
 
-    elements.append(KeepTogether([
-        Spacer(1, 12),
+    
+
+    # Slay header and intro inside transparent boxes (matching Vibe Check)
+    slay_intro = KeepTogether([
         Paragraph("<para align='center'><b>Days That Slay</b></para>", styles['category']),
-        Spacer(1, 12),
-        Paragraph("The most extra, random, and delightful holidays hitting today. Weird food? Niche magic? Major vibes.", styles['story']),
-    ]))
-    elements.append(PageBreak())
+        TransparentBox("<para align='center'><b>Days That Slay</b></para>", styles['cat_title'], alpha=0.85),
+        Spacer(1, 10),
+        TransparentBox(
+            "The most extra, random, and delightful holidays hitting today. Weird food? Niche magic? Major vibes.",
+            styles['story'],
+            alpha=0.85
+        )
+    ])
+    elements.append(slay_intro)
+
+
 
     try:
         month, day = date_str.split()
@@ -413,10 +471,8 @@ def build_elements(facts, styles, date_str, category_pages=None):
         for entry in slay_facts:
             if entry.get("suitable_for_8_to_12_year_old", False):
                 fact_block = KeepTogether([
-                    Paragraph(f"<b>{entry['title']}</b>", styles['story']),
-                    Spacer(1, 4),
-                    Paragraph(entry["story"], styles['story']),
-                    Spacer(1, 12)
+                    TransparentBox(f"<i>{entry['title']}</i>", styles['title']),
+                    TransparentBox(entry["story"], styles['story'])
                 ])
                 elements.append(fact_block)
                 added_any = True
@@ -428,7 +484,6 @@ def build_elements(facts, styles, date_str, category_pages=None):
         logging.warning(f"🚫 Could not load Days That Slay facts: {e}")
         elements.append(Paragraph("Oops! Slay day stories couldn’t load.", styles['story']))
 
-    elements.append(PageBreak())
 
 
 
@@ -587,17 +642,24 @@ def build_elements(facts, styles, date_str, category_pages=None):
         # 🔁 PageBreak starts a new page with the category title
         elements.append(PageBreak())
         
-        title = Paragraph(f"<b>{category}</b>", styles['category'])
+        title = Paragraph(f"<b>{category}</b>", styles['cat_title'])
         desc = CATEGORY_DESCRIPTIONS.get(category, "")
         desc_paragraph = Paragraph(desc, styles['story'])
 
-        # Build content as a block
+        # Build content as a block (TOC-compatible + transparent visuals)
         title_block = KeepTogether([
             Spacer(1, 12),
-            Paragraph(f"<para align='center'><b>{category}</b></para>", styles['category']),
+            
+            # ⚠️ Paragraph version just to support TOC logic (not visible in output)
+            Paragraph(f"<b>{category}</b>", styles['category']),
+            
+            # ✅ TransparentBox version for actual visual appearance
+            TransparentBox(f"<para align='center'><b>{category}</b></para>", styles['cat_title'], alpha=0.85),
+            
             Spacer(1, 12),
-            Paragraph(f"<para align='center'>{desc}</para>", styles['story']),
+            TransparentBox(f"<para align='center'>{desc}</para>", styles['story'], alpha=0.85),
         ])
+
 
         # Add dynamic vertical centering
         page_height = letter[1]
@@ -612,8 +674,8 @@ def build_elements(facts, styles, date_str, category_pages=None):
         # ✅ This is where the background will kick in — nothing after this breaks it
         for i, fact in enumerate(fact_list):
             fact_block = KeepTogether([
-                Paragraph(f"<i>{fact['title']}</i>", styles['title']),
-                Paragraph(fact["story"], styles['story'])
+                TransparentBox(f"<i>{fact['title']}</i>", styles['title']),
+                TransparentBox(fact["story"], styles['story'])
             ])
             elements.append(fact_block)
 
@@ -624,71 +686,98 @@ def build_elements(facts, styles, date_str, category_pages=None):
         spacer_height = max(0, (letter[1] - estimated_content_height) / 2 - 50)
         elements.append(Spacer(1, spacer_height))
 
-        # Trivia title + marker placed here
-        elements.append(Paragraph("<para align='center'><b>Trivia Time!</b></para>", styles['trivia_title']))
+        # Trivia intro inside TransparentBoxes
+        trivia_intro = KeepTogether([
+            TransparentBox("Trivia Time!", styles['trivia_title'], alpha=0.85),
+            Spacer(1, 10),
+            TransparentBox(
+                "Test your brainpower with some tricky questions from this chapter. "
+                "Get them right and you might just become the world’s next quiz champion!",
+                styles['story'],
+                alpha=0.85
+            )
+        ])
+        elements.append(trivia_intro)
 
+        # Trivia marker (kept outside the box for parsing accuracy)
         elements.append(Paragraph(
             f"__TRIVIA_START__{category}",
             ParagraphStyle("HiddenTriviaMarker", fontSize=1, textColor=colors.white)
         ))
-        elements.append(Spacer(1, 12))
-        elements.append(Paragraph(
-            "<para align='center'>Test your brainpower with some tricky questions from this chapter. "
-            "Get them right and you might just become the world’s next quiz champion!</para>",
-            styles['story']
-        ))
         elements.append(PageBreak())
-
-
 
         logging.info(f"🧠 Trivia start marker added for category: {category}")
 
-        # Add "Questions" heading before trivia starts
-        elements.append(Paragraph("Questions", styles['category']))
-        elements.append(Spacer(1, 12))
+        # Questions block
+        elements.append(
+            TransparentBox(
+                Paragraph("Questions", styles['cat_title']),
+                styles['story'],
+                alpha=0.85
+            )
+        )
 
-        # Trivia Questions
+
+        # Add each question and checkbox table
         for i, fact in enumerate(fact_list, 1):
             q = fact.get("activity_question")
             choices = fact.get("activity_choices", [])
             if q and choices:
-                question_paragraph = Paragraph(f"{i}. {q}", styles['story'])
+                question_paragraph = Paragraph(f"<b>{i}.</b> {q}", styles['story'])
                 checkboxes = [Paragraph(f"☐ {opt}", styles['story']) for opt in choices]
                 grid = [checkboxes[i:i+2] for i in range(0, len(checkboxes), 2)]
-
-                # Pad the last row if needed
                 if len(grid[-1]) == 1:
                     grid[-1].append("")
 
-                table = Table(grid, colWidths=[240, 220])
+                table = Table(grid, colWidths=[210, 210])
                 table.setStyle(TableStyle([
-                    ('LEFTPADDING', (0, 0), (0, -1), 36),
-                    ('LEFTPADDING', (1, 0), (1, -1), 0),
+                    ('LEFTPADDING', (0, 0), (-1, -1), 10),
+                    ('RIGHTPADDING', (0, 0), (-1, -1), 10),
+                    ('TOPPADDING', (0, 0), (-1, -1), 6),
+                    ('BOTTOMPADDING', (0, 0), (-1, -1), 6),
                     ('VALIGN', (0, 0), (-1, -1), 'TOP'),
+                    ('LINEBELOW', (0, 0), (-1, -2), 0.25, colors.grey),
+                    ('LINEAFTER', (0, 0), (0, -1), 0.25, colors.grey),
                 ]))
 
-                # Wrap in KeepTogether to avoid page splitting
-                elements.append(KeepTogether([
+
+                # Wrap each question in its own TransparentBox
+                elements.append(TransparentBox([
                     question_paragraph,
-                    table,
-                    Spacer(1, 12)
-                ]))
+                    table
+                ], styles['story'], alpha=0.85))
+
+                elements.append(Spacer(1, 12))
+
 
         # Answers
         elements.append(PageBreak())
-        elements.append(Paragraph("Answers", styles['category']))
+        elements.append(
+            TransparentBox(
+                Paragraph("Answers", styles['cat_title']),
+                styles['story'],
+                alpha=0.85
+            )
+        )
+
         elements.append(Spacer(1, 12))
+
         for i, fact in enumerate(fact_list, 1):
             q = fact.get("activity_question")
             a = fact.get("activity_answer")
             if q and a:
-                elements.append(Paragraph(f"• {i}. {q} → <b>{a}</b>", styles['story']))
+                answer_paragraph = Paragraph(f"<b>{i}.</b> {q}<br/><b>Answer:</b> {a}", styles['story'])
+
+                elements.append(TransparentBox([answer_paragraph], styles['story'], alpha=0.85))
+                elements.append(Spacer(1, 12))
+
 
         # ✅ Insert image immediately after title/description
         image_path = os.path.join("pictures", f"{CATEGORY_BACKGROUNDS.get(category, '').lower()}.png")
         if os.path.exists(image_path):
             elements.append(RLImage(image_path, width=400, height=300))
             elements.append(Spacer(1, 20))
+
 
     # Export category structure for external validation with word counts
     global final_categories_dict
@@ -874,21 +963,110 @@ def generate_pdf_with_manual_toc(json_file, output_pdf):
     pdfmetrics.registerFont(TTFont("DejaVu-BoldOblique", os.path.join("fonts", "DejaVuSans-BoldOblique.ttf")))
     registerFontFamily("DejaVu", normal="DejaVu", bold="DejaVu-Bold", italic="DejaVu-Oblique", boldItalic="DejaVu-BoldOblique")
 
+    pdfmetrics.registerFont(TTFont("LuckiestGuy", "fonts/LuckiestGuy-Regular.ttf"))
+    pdfmetrics.registerFont(TTFont("Baloo2", "fonts/Baloo2-Regular.ttf"))
+    pdfmetrics.registerFont(TTFont("Baloo2-Bold", "fonts/Baloo2-Bold.ttf"))
+
+    registerFontFamily("Baloo2", normal="Baloo2", bold="Baloo2-Bold")
+
     date_str = extract_date_with_suffix(json_file)
 
     # Styles
     styles = {
-        'cover_title': ParagraphStyle("CoverTitle", fontName="DejaVu-Bold", fontSize=28, alignment=TA_CENTER, spaceAfter=20),
-        'cover_date': ParagraphStyle("CoverDate", fontName="DejaVu", fontSize=20, alignment=TA_CENTER),
-        'intro_header': ParagraphStyle("IntroHeader", fontName="DejaVu-Bold", fontSize=18, spaceAfter=10, alignment=TA_LEFT),
-        'intro': ParagraphStyle("Intro", fontName="DejaVu", fontSize=14, leading=22, spaceAfter=14),
-        'toc_title': ParagraphStyle("TOCTitle", fontName="DejaVu-Bold", fontSize=20, spaceAfter=24, alignment=TA_CENTER),
-        'toc_item': ParagraphStyle("TOCItem", fontName="DejaVu", fontSize=12, spaceAfter=0, leading=14, alignment=TA_LEFT),
-        'category': ParagraphStyle("CategoryTitle", fontName="DejaVu-Bold", fontSize=18, spaceAfter=12, spaceBefore=12),
-        'title': ParagraphStyle("FactTitle", fontName="DejaVu-BoldOblique", fontSize=13, spaceAfter=6, leading=14),
-        'story': ParagraphStyle("FactStory", fontName="DejaVu", fontSize=16, leading=20, spaceAfter=16, spaceBefore=0),
-        'trivia_title': ParagraphStyle("TriviaTitle", fontName="DejaVu-Bold", fontSize=16, spaceAfter=12, alignment=TA_CENTER),
+        'cover_title': ParagraphStyle(
+            "CoverTitle", fontName="LuckiestGuy", fontSize=40, leading=34,
+            alignment=TA_CENTER, spaceAfter=12
+        ),
+        'cover_date': ParagraphStyle(
+            "CoverDate", fontName="Baloo2", fontSize=20, leading=26,
+            alignment=TA_CENTER, spaceAfter=12
+        ),
+        'intro_header': ParagraphStyle(
+            "IntroHeader", fontName="LuckiestGuy", fontSize=24, leading=20,
+            alignment=TA_LEFT, spaceAfter=10
+        ),
+        'intro': ParagraphStyle(
+            "Intro", fontName="Baloo2", fontSize=18, leading=18,
+            spaceAfter=14
+        ),
+        'toc_title': ParagraphStyle(
+            "TOCTitle", fontName="LuckiestGuy", fontSize=18, leading=22,
+            spaceAfter=24, alignment=TA_CENTER
+        ),
+        'toc_item': ParagraphStyle(
+            "TOCItem", fontName="Baloo2", fontSize=18, leading=14,
+            spaceAfter=0, alignment=TA_LEFT
+        ),
+        'category': ParagraphStyle(
+            "CategoryTitle", fontName="Baloo2", fontSize=0.1, leading=1,
+            spaceAfter=0, textColor=colors.white, alignment=TA_LEFT
+        ),
+        'cat_title': ParagraphStyle(
+            "CatTitle", fontName="LuckiestGuy", fontSize=24, leading=22,
+            spaceAfter=12, spaceBefore=12
+        ),
+        'title': ParagraphStyle(
+            "FactTitle", fontName="Baloo2-Bold", fontSize=22, leading=16,
+            spaceAfter=6
+        ),
+        'story': ParagraphStyle(
+            "FactStory", fontName="Baloo2", fontSize=18, leading=19,
+            spaceAfter=16, spaceBefore=0
+        ),
+        'trivia_title': ParagraphStyle(
+            "TriviaTitle", fontName="LuckiestGuy", fontSize=24, leading=20,
+            spaceAfter=12, alignment=TA_CENTER
+        ),
     }
+
+    # styles = {
+    #     'cover_title': ParagraphStyle(
+    #         "CoverTitle", fontName="DejaVu-Bold", fontSize=28, leading=34,
+    #         alignment=TA_CENTER, spaceAfter=12
+    #     ),
+    #     'cover_date': ParagraphStyle(
+    #         "CoverDate", fontName="DejaVu", fontSize=20, leading=26,
+    #         alignment=TA_CENTER, spaceAfter=12
+    #     ),
+    #     'intro_header': ParagraphStyle(
+    #         "IntroHeader", fontName="DejaVu-Bold", fontSize=16, leading=20,
+    #         alignment=TA_LEFT, spaceAfter=10
+    #     ),
+    #     'intro': ParagraphStyle(
+    #         "Intro", fontName="DejaVu", fontSize=14, leading=18,
+    #         spaceAfter=14
+    #     ),
+    #     'toc_title': ParagraphStyle(
+    #         "TOCTitle", fontName="DejaVu-Bold", fontSize=18, leading=22,
+    #         spaceAfter=24, alignment=TA_CENTER
+    #     ),
+    #     'toc_item': ParagraphStyle(
+    #         "TOCItem", fontName="DejaVu", fontSize=12, leading=14,
+    #         spaceAfter=0, alignment=TA_LEFT
+    #     ),
+    #     'category': ParagraphStyle(
+    #         "CategoryTitle", fontName="DejaVu", fontSize=0.1, leading=1,
+    #         spaceAfter=0, textColor=colors.white, alignment=TA_LEFT
+    #     ),
+    #     'cat_title': ParagraphStyle(
+    #         "CatTitle", fontName="DejaVu-Bold", fontSize=17, leading=22,
+    #         spaceAfter=12, spaceBefore=12
+    #     ),
+    #     'title': ParagraphStyle(
+    #         "FactTitle", fontName="DejaVu-BoldOblique", fontSize=13, leading=16,
+    #         spaceAfter=6
+    #     ),
+    #     'story': ParagraphStyle(
+    #         "FactStory", fontName="DejaVu", fontSize=15, leading=19,
+    #         spaceAfter=16, spaceBefore=0
+    #     ),
+    #     'trivia_title': ParagraphStyle(
+    #         "TriviaTitle", fontName="DejaVu-Bold", fontSize=16, leading=20,
+    #         spaceAfter=12, alignment=TA_CENTER
+    #     ),
+    # }
+
+
 
     # First pass – generate page tracker info
     doc1 = MyDocTemplate(output_pdf, pagesize=letter, title=f"What Happened on {date_str}")
@@ -936,6 +1114,139 @@ def generate_pdf_with_manual_toc(json_file, output_pdf):
     print("🎯 Final background ranges applied:")
     for r in final_doc._background_ranges:
         print(f" → Pages {r['start']}–{r['end']}: {os.path.basename(r['image_path'])}")
+
+def visually_fill_transparent_gaps(pdf_path, alpha=0.85, dpi=144):
+    import fitz
+    from PIL import Image, ImageDraw
+    import numpy as np
+    import io
+    from itertools import groupby
+    from operator import itemgetter
+    import os
+
+    doc = fitz.open(pdf_path)
+    total_pages = min(len(doc), 10)
+    print(f"📘 Patching up to {total_pages} pages...")
+
+    for page_index in range(total_pages):
+        page = doc[page_index]
+        print(f"\n📄 Processing page {page_index + 1}/{total_pages}")
+
+        # Render page at higher resolution
+        mat = fitz.Matrix(dpi / 72, dpi / 72)
+        pix = page.get_pixmap(alpha=True, matrix=mat)
+        img = Image.open(io.BytesIO(pix.tobytes("png"))).convert("RGBA")
+        arr = np.array(img)
+        height, width = arr.shape[:2]
+
+        stripe_width = int(width * 0.02)
+        candidates = [0.70, 0.75, 0.80, 0.85, 0.90, 0.95]
+
+        best_x = None
+        max_bright_rows = -1
+        for ratio in candidates:
+            x_start = int(width * ratio)
+            stripe = arr[:, x_start:x_start + stripe_width, :3]
+            row_brightness = np.mean(stripe, axis=(1, 2))
+            bright_rows = np.sum(row_brightness > 180)
+            if bright_rows > max_bright_rows:
+                max_bright_rows = bright_rows
+                best_x = x_start
+
+        probe_x_start = best_x
+        bright_rows = []
+
+        for y in range(height):
+            brightness = np.mean(arr[y, probe_x_start:probe_x_start + stripe_width, :3])
+            if brightness > 130:  # lowered threshold
+                bright_rows.append(y)
+
+            if y % 20 == 0:  # print brightness every 20px
+                print(f"🔍 y={y}, brightness={brightness:.1f}")
+
+
+        blocks = []
+        for _, g in groupby(enumerate(bright_rows), lambda ix: ix[0] - ix[1]):
+            group = list(map(itemgetter(1), g))
+            if len(group) > 3:
+                start_y = min(group)
+                end_y = max(group)
+                block_slice = arr[start_y:end_y + 1, :, :3]
+                avg_cols = np.mean(block_slice, axis=(0, 2))
+                bright_cols = np.where(avg_cols > 160)[0]
+                x_start = int(np.min(bright_cols)) if len(bright_cols) > 0 else 0
+                x_end = int(np.max(bright_cols)) if len(bright_cols) > 0 else width
+                blocks.append((start_y, end_y, x_start, x_end))
+
+        draw = ImageDraw.Draw(img, "RGBA")
+        gap_count = 0
+
+        for i in range(len(blocks) - 1):
+            top = blocks[i][1] + 1
+            bottom = blocks[i + 1][0] - 1
+            x_start = blocks[i][2]
+            x_end = blocks[i][3]
+
+            if bottom > top and (x_end - x_start) > 10:
+                stripe = arr[top:bottom + 1, probe_x_start:probe_x_start + stripe_width, :3]
+                row_brightness = np.mean(stripe, axis=(1, 2))
+                is_white = row_brightness > 180
+
+                min_height = 20
+                max_gap = 12
+                merged_runs = []
+                current_start = current_end = None
+
+                for j, val in enumerate(is_white):
+                    if val:
+                        if current_start is None:
+                            current_start = j
+                        current_end = j
+                    else:
+                        if current_start is not None and (j - current_end > max_gap):
+                            if current_end - current_start + 1 >= min_height:
+                                merged_runs.append((current_start, current_end))
+                            current_start = current_end = None
+
+                if current_start is not None and (current_end - current_start + 1 >= min_height):
+                    merged_runs.append((current_start, current_end))
+
+                for k in range(len(merged_runs) - 1):
+                    fill_top = top + merged_runs[k][1] + 1
+                    fill_bottom = top + merged_runs[k + 1][0] - 1
+                    if fill_bottom > fill_top:
+                        draw.rectangle(
+                            [(x_start, fill_top), (x_end, fill_bottom)],
+                            fill=(255, 255, 255, int(alpha * 255))
+                        )
+                        gap_count += 1
+                        print(f"🩹 Page {page_index + 1}: patched y={fill_top}-{fill_bottom}")
+
+        # Save debug output
+        debug_path = pdf_path.replace(".pdf", f"_page{page_index + 1}_debug.png")
+        img.save(debug_path)
+        print(f"🖼️ Debug image saved: {debug_path}")
+
+        # 🔴 TEST: Draw red cross to prove overlay is visible
+        draw.line([(0, 0), (width, height)], fill=(255, 0, 0, 255), width=10)
+        draw.line([(width, 0), (0, height)], fill=(255, 0, 0, 255), width=10)
+
+        # Reinsert using page.rect to match original PDF geometry
+        out_bytes = io.BytesIO()
+        img.save(out_bytes, format="PNG")
+        page.clean_contents()
+        page.insert_image(
+            page.rect,
+            stream=out_bytes.getvalue(),
+            overlay=True
+        )
+
+        print(f"✅ Page {page_index + 1} complete with {gap_count} gaps filled.")
+
+    doc.saveIncr()
+    doc.close()
+    print("🎉 All done — first 10 pages patched and saved.")
+
 
 
 def overlay_trivia_pages(pdf_path, trivia_img_path):
@@ -1023,5 +1334,7 @@ if __name__ == "__main__":
 
             # ✅ Correct usage here — safe_pdf_path is defined now
             overlay_trivia_pages(safe_pdf_path, os.path.join("backgrounds", "trivia_time.png"))
+            # visually_fill_transparent_gaps(r"C:\Users\timmu\Documents\repos\Factbook Project\books\fresh_test.pdf", alpha=0.85)
+
 
 
