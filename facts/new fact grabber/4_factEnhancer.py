@@ -12,8 +12,8 @@ from tqdm import tqdm
 
 
 # Path setup
-FACTS_DIR = "C:/Users/timmu/Documents/repos/Factbook Project/facts/new fact grabber/culled"
-SORTED_DIR = "C:/Users/timmu/Documents/repos/Factbook Project/facts/new fact grabber/enhanced"
+FACTS_DIR = "C:/Users/timmu/Documents/repos/Factbook Project/facts/new fact grabber/3_culled"
+SORTED_DIR = "C:/Users/timmu/Documents/repos/Factbook Project/facts/new fact grabber/4_enhanced"
 BATCH_SIZE = 1  # or 1 if you want to test smaller batches
 os.makedirs(SORTED_DIR, exist_ok=True)
 
@@ -42,7 +42,7 @@ You're helping write a fun fact book for curious kids aged 8 to 12.
 
 Write at a level they can understand: simple words, short sentences, clear ideas. Avoid fancy vocabulary or long explanations.
 
-Each fact has an "id", a "fact", a "max_word_limit", and sometimes a "year". Your job is to turn it into a fun, easy-to-read story.
+Each fact has an "id", a "fact", a "score" (which also sets the max word count), and sometimes a "year". Your job is to turn it into a fun, easy-to-read story.
 
 Use a playful tone when the topic allows — humor, surprise, or quirky wording is great for lighter facts. If the topic is serious, keep it respectful and easy to follow.
 
@@ -52,8 +52,7 @@ Use a playful tone when the topic allows — humor, surprise, or quirky wording 
 
 Follow these exact rules:
 
-- Your story must be **between (max_word_limit - 30) and max_word_limit** words.
-- For example, if `max_word_limit` is 140, your story must be **between 110 and 140 words**.
+- Your story must be **between (score - 30) and score** words. The `score` is also your max word count.
 - If the story is **under the minimum**, that is an error. **Do not submit it. Fix it first.**
 - Always write a story — never skip one.
 - Add a **short, fun title**.
@@ -61,9 +60,11 @@ Follow these exact rules:
   - Don’t begin with “Imagine...”, “In [year]...”, or any generic setup.
   - Make the opening fresh and exciting.
 - Use a lively, simple style — like you're telling something cool to a smart 10-year-old.
-- ⚠️ **Include the year the event happened naturally in the story — even if the year is only found in the fact text.**
-  - If the fact refers to a specific year (like 1974, 2025, etc.), you must mention it clearly in the story.
-  - Example: “In 1974, something amazing happened…” or “Back in 2025, Beyoncé surprised the world…”
+- ⚠️ **Always include the year the event happened naturally in the story.**  
+  Use the actual year provided — like 1974 or 2025 — and weave it smoothly into the narrative.
+- ⚠️ If the fact is about someone’s **birth**, clearly say something like “they were born in 1969” or “she was born that year.”
+- ⚠️ The `score` is not just a rating — it directly determines the story's word limit.  
+  So if the score is 85, the story must be between 55 and 85 words.
 
 ---
 
@@ -172,13 +173,13 @@ def log_retry_error(error_message, batch, attempt):
 
 def enhance_facts(facts, retries=2):
     # Check all required fields are present
-    if any("score" not in f or "max_word_limit" not in f for f in facts):
-        raise ValueError("One or more facts are missing 'score' or 'max_word_limit'.")
+    if any("score" not in f for f in facts):
+        raise ValueError("One or more facts are missing 'score'.")
 
     for attempt in range(retries + 1):
         try:
             fact_texts = [
-                f'- id: {f["id"]}\n  fact: {f["fact"]}\n  score: {f["score"]}\n  max_word_limit: {f["max_word_limit"]}\n  year: {f.get("year", "unknown")}'
+                f'- id: {f["id"]}\n  fact: {f["fact"]}\n  score: {f["score"]}\n  year: {f.get("year", "unknown")}'
                 for f in facts
             ]
             facts_block = "\n".join(fact_texts)
@@ -248,7 +249,6 @@ def process_file(input_path):
             "id": str(fact["id"]),
             "fact": fact["original"],
             "score": fact["score"],
-            "max_word_limit": fact.get("max_word_limit"),
             "year": fact.get("year")
         }
         for fact in data

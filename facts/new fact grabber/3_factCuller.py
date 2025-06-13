@@ -3,22 +3,11 @@ import os
 
 # Define base paths
 BASE_DIR = r"C:\Users\timmu\Documents\repos\Factbook Project\facts\new fact grabber"
-SCORED_DIR = os.path.join(BASE_DIR, "scored")
-CULLED_DIR = os.path.join(BASE_DIR, "culled")
+SCORED_DIR = os.path.join(BASE_DIR, "2_scored")
+CULLED_DIR = os.path.join(BASE_DIR, "3_culled")
 
 # Ensure output directory exists
 os.makedirs(CULLED_DIR, exist_ok=True)
-
-# Score → max word limit mapping
-def get_max_word_limit(score):
-    if score >= 90:
-        return 140
-    elif score >= 70:
-        return 100
-    elif score >= 50:
-        return 75
-    else:
-        return 60
 
 # Loop through all scored JSON files
 for filename in os.listdir(SCORED_DIR):
@@ -43,10 +32,9 @@ for filename in os.listdir(SCORED_DIR):
             # Take top 100
             top_100 = sorted_facts[:100]
 
-            # Add max_word_limit to each fact
+            # Optionally strip max_word_limit if it exists
             for fact in top_100:
-                score = fact.get("score", 0)
-                fact["max_word_limit"] = get_max_word_limit(score)
+                fact.pop("max_word_limit", None)
 
             # Write to culled file
             with open(output_path, "w", encoding="utf-8") as f_out:

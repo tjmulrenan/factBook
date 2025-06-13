@@ -176,22 +176,23 @@ CATEGORY_BACKGROUNDS = {
     "Days That Slay": "days_that_slay",
     "Full Beast Mode": "full_beast_mode",
     "Mother Nature's Meltdowns": "mother_natures_meltdowns",
-    "The What Zone": "the_what_zone"
+    "The What Zone": "the_what_zone",
 }
 
 CATEGORY_DESCRIPTIONS = {
-    "Today's Vibe Check": "seasonal chaos, sky weirdness, animal drama",
-    "History's Mic Drop Moments": "wars, revolutions, treaties, global turning points",
-    "World Shakers & Icon Makers": "powerful leaders, world changers, inspiring people",
-    "Big Brain Energy": "discoveries, breakthroughs, tech, biology, chemistry",
-    "Beyond Earth": "astronomy, space missions, meteorology ",
-    "Creature Feature": "cool creatures, conservation, animal records or traits ",
-    "Vibes, Beats & Brushes": "Vibes, Beats & Brushes — creativity, artists, music, cultural trends",
-    "Days That Slay": "holidays, rituals, festivals, national days",
-    "Full Beast Mode": "competitions, record-breakers, sporting firsts",
-    "Mother Nature's Meltdowns": "volcanoes, climate, ecosystems, nature wonders",
-    "The What Zone": "oddities, mysteries, unusual facts",
+    "Today's Vibe Check": "What’s the mood today? Think weird weather, dramatic animals, and random seasonal chaos.",
+    "History's Mic Drop Moments": "Big turning points that made the world go 'WHAAAT?!' — epic wars, revolutions, and game-changing deals.",
+    "World Shakers & Icon Makers": "Meet the legends who changed everything — rulers, rebels, geniuses, and icons who made their mark.",
+    "Big Brain Energy": "Mind-blowing inventions, wild science, genius ideas, and epic 'aha!' moments.",
+    "Beyond Earth": "Stuff that’s out of this world — space launches, alien signals, meteor showers, and cosmic mysteries.",
+    "Creature Feature": "Fur, fins, feathers and fangs — meet nature’s wildest creatures and their coolest superpowers.",
+    "Vibes, Beats & Brushes": "Where art meets attitude — music, dance, trends, and creativity that made the world pop.",
+    "Days That Slay": "Holidays and celebrations that bring the party — from the wacky to the wonderful.",
+    "Full Beast Mode": "Sports, stunts, and mega records — where humans (and animals) go all out.",
+    "Mother Nature's Meltdowns": "Earth doing the most — volcanoes, wild weather, and nature’s power on full blast.",
+    "The What Zone": "Wait... what? The strangest, silliest, and most head-scratching facts you never knew you needed.",
 }
+
 
 final_categories_dict = {}  # For category-to-fact-id export
 
@@ -228,7 +229,10 @@ class MyDocTemplate(BaseDocTemplate):
                 self._page_tracker[text] = self.page
             elif text.startswith("__TRIVIA_START__") and text not in self._page_tracker:
                 self._page_tracker[text] = self.page
-            elif text in ("__TOC_PAGE__", "__TOC_END__", "__INTRO_PAGE__", "__COVER_PAGE__") and text not in self._page_tracker:
+            elif text in (
+                "__TOC_PAGE__", "__TOC_END__", "__INTRO_PAGE__", "__COVER_PAGE__",
+                "__DAYS_THAT_SLAY__", "__TODAYS_VIBE_CHECK__"
+            ):
                 self._page_tracker[text] = self.page
 
 
@@ -266,7 +270,7 @@ class MyDocTemplate(BaseDocTemplate):
     def add_page_number(self, canvas, doc):
         page_num = canvas.getPageNumber()
         if page_num >= 3:
-            canvas.setFont("DejaVu", 10)
+            canvas.setFont("DejaVu", 12)
             canvas.setFillColorRGB(1, 1, 1)
             text = f"Page {page_num}"
 
@@ -276,7 +280,6 @@ class MyDocTemplate(BaseDocTemplate):
             else:
                 # Odd pages: right-aligned
                 canvas.drawRightString(595, 10, text)
-
 
 
 def build_elements(facts, styles, date_str, category_pages=None):
@@ -292,19 +295,22 @@ def build_elements(facts, styles, date_str, category_pages=None):
         Spacer(1, 12),
         TransparentBox(f"{date_str}?", styles['cover_date'], alpha=0.85),
         Spacer(1, 60),
-        TransparentBox("Written by Timothy John Mulrenan", styles['cover_date'], alpha=0.85)
+        TransparentBox("By Timothy John Mulrenan", styles['cover_date'], alpha=0.85)
     ]
 
 
     elements.append(PageBreak())
 
     intro_text = f"""
-    Welcome to the amazing world of history, trivia, and delightfully random facts! This book is your guide to all the wild, weird, and wonderful things that happened around the world — and together, we’re about to answer the big question: <b>What happened on {date_str}?</b>
+        Hey you — yeah, you with the excellent taste in books. Whether today’s your birthday, your dog’s birthday, or just a totally random spin of the calendar wheel — this book is here to make your day 100% more interesting.
 
-    I’m TJ, a fact-lover from Saffron Walden, a small town in the UK. Whether this date is your birthday, your lizard’s, or just a lucky guess — this book’s for you.
+        I’m TJ — your guide, fact hoarder, and proud human from Saffron Walden (it's a town, not a wizard spell, I checked). I’ve spent way too much time digging through history books, science sites, fun facts, and the weird corners of the internet so you don’t have to.
 
-    There are <b>{num_facts}</b> facts packed into these pages. Let’s dive in!
-    <br/><br/><br/><b>— TJ</b>"""
+        So the big question is: <b>What happened on {date_str}?</b>
+
+        Flip the page, trust the chaos, and become the class trivia weapon your teacher never saw coming.
+        <br/><br/><br/><b>— TJ</b>"""
+
     elements.append(Paragraph(
         "__INTRO_PAGE__",
         ParagraphStyle("HiddenIntroMarker", fontSize=1, textColor=colors.white)
@@ -384,17 +390,18 @@ def build_elements(facts, styles, date_str, category_pages=None):
     # Vibe Check intro in transparent boxes
     vibe_intro = KeepTogether([
         Paragraph("<para align='center'><b>Today's Vibe Check</b></para>", styles['category']),
-        TransparentBox("<para align='center'><b>Today's Vibe Check</b></para>", styles['cat_title'], alpha=0.85),
-        Spacer(1, 10),
-        TransparentBox(
-            "What's the deal with this day? Seasonal chaos, sky weirdness, animal drama — it's all happening.",
-            styles['story'],
-            alpha=0.85
-        )
+    #     TransparentBox("<para align='center'><b>Today's Vibe Check</b></para>", styles['cat_title'], alpha=0.85),
+    #     Spacer(1, 10),
+    #     TransparentBox(
+    #         "What's the deal with this day? Seasonal chaos, sky weirdness, animal drama — it's all happening.",
+    #         styles['story'],
+    #         alpha=0.85
+        # )
     ])
     elements.append(vibe_intro)
 
     elements.append(PageBreak())
+
 
     try:
         month, day = date_str.split()
@@ -444,16 +451,16 @@ def build_elements(facts, styles, date_str, category_pages=None):
     # Slay header and intro inside transparent boxes (matching Vibe Check)
     slay_intro = KeepTogether([
         Paragraph("<para align='center'><b>Days That Slay</b></para>", styles['category']),
-        TransparentBox("<para align='center'><b>Days That Slay</b></para>", styles['cat_title'], alpha=0.85),
-        Spacer(1, 10),
-        TransparentBox(
-            "The most extra, random, and delightful holidays hitting today. Weird food? Niche magic? Major vibes.",
-            styles['story'],
-            alpha=0.85
-        )
+    #     TransparentBox("<para align='center'><b>Days That Slay</b></para>", styles['cat_title'], alpha=0.85),
+    #     Spacer(1, 10),
+    #     TransparentBox(
+    #         "The most extra, random, and delightful holidays hitting today. Weird food? Niche magic? Major vibes.",
+    #         styles['story'],
+    #         alpha=0.85
+    #     )
     ])
     elements.append(slay_intro)
-
+    elements.append(PageBreak())
 
 
     try:
@@ -500,28 +507,29 @@ def build_elements(facts, styles, date_str, category_pages=None):
         if not matched:
             leftover.append(fact)
 
-    # Reassign categories with fewer than 6 facts to stronger categories
-    reassigned = []
-    filtered_categories = {}
+# THIS IS FOR MAKING SURE A CATAGORY HAS AT LEAST 6 FACTS
+    # # Reassign categories with fewer than 6 facts to stronger categories
+    # reassigned = []
+    # filtered_categories = {}
 
-    for cat, facts_in_cat in categories.items():
-        if len(facts_in_cat) < 6:
-            for fact in facts_in_cat:
-                reassigned.append(fact)
-        else:
-            filtered_categories[cat] = facts_in_cat
+    # for cat, facts_in_cat in categories.items():
+    #     if len(facts_in_cat) < 6:
+    #         for fact in facts_in_cat:
+    #             reassigned.append(fact)
+    #     else:
+    #         filtered_categories[cat] = facts_in_cat
 
-    for fact in reassigned:
-        reassigned_to = False
-        for alt_cat in fact.get("categories", []):
-            if alt_cat in filtered_categories:
-                filtered_categories[alt_cat].append(fact)
-                reassigned_to = True
-                break
-        if not reassigned_to:
-            filtered_categories.setdefault("Extra Awesome Facts 🌟", []).append(fact)
+    # for fact in reassigned:
+    #     reassigned_to = False
+    #     for alt_cat in fact.get("categories", []):
+    #         if alt_cat in filtered_categories:
+    #             filtered_categories[alt_cat].append(fact)
+    #             reassigned_to = True
+    #             break
+    #     if not reassigned_to:
+    #         filtered_categories.setdefault("Extra Awesome Facts 🌟", []).append(fact)
 
-    categories = filtered_categories
+    # categories = filtered_categories
 
     # Step 1: Collect all facts across all categories (avoid counting duplicates)
     all_facts_by_id = {}
@@ -653,11 +661,11 @@ def build_elements(facts, styles, date_str, category_pages=None):
             # ⚠️ Paragraph version just to support TOC logic (not visible in output)
             Paragraph(f"<b>{category}</b>", styles['category']),
             
-            # ✅ TransparentBox version for actual visual appearance
-            TransparentBox(f"<para align='center'><b>{category}</b></para>", styles['cat_title'], alpha=0.85),
+            # # ✅ TransparentBox version for actual visual appearance
+            # TransparentBox(f"<para align='center'><b>{category}</b></para>", styles['cat_title'], alpha=0.85),
             
-            Spacer(1, 12),
-            TransparentBox(f"<para align='center'>{desc}</para>", styles['story'], alpha=0.85),
+            # Spacer(1, 12),
+            # TransparentBox(f"<para align='center'>{desc}</para>", styles['story'], alpha=0.85),
         ])
 
 
@@ -687,17 +695,17 @@ def build_elements(facts, styles, date_str, category_pages=None):
         elements.append(Spacer(1, spacer_height))
 
         # Trivia intro inside TransparentBoxes
-        trivia_intro = KeepTogether([
-            TransparentBox("Trivia Time!", styles['trivia_title'], alpha=0.85),
-            Spacer(1, 10),
-            TransparentBox(
-                "Test your brainpower with some tricky questions from this chapter. "
-                "Get them right and you might just become the world’s next quiz champion!",
-                styles['story'],
-                alpha=0.85
-            )
-        ])
-        elements.append(trivia_intro)
+        # trivia_intro = KeepTogether([
+        #     TransparentBox("Trivia Time!", styles['trivia_title'], alpha=0.85),
+        #     Spacer(1, 10),
+        #     TransparentBox(
+        #         "Test your brainpower with some tricky questions from this chapter. "
+        #         "Get them right and you might just become the world’s next quiz champion!",
+        #         styles['story'],
+        #         alpha=0.85
+        #     )
+        # ])
+        # elements.append(trivia_intro)
 
         # Trivia marker (kept outside the box for parsing accuracy)
         elements.append(Paragraph(
@@ -879,30 +887,71 @@ def compute_background_ranges(page_tracker, category_backgrounds):
             continue
 
         elif label.startswith("__TRIVIA_START__"):
-            bg_path = os.path.join("backgrounds", "trivia_time.png")
+            base_path = os.path.join("backgrounds", "trivia_time.png")
+            title_path = os.path.join("backgrounds", "trivia_time_t.png")
             kind = "trivia"
+            
             logging.info(f"🎲 Trivia range detected: '{label}' → pages {start_page}–{end_page}")
 
+            if os.path.exists(title_path):
+                temp_ranges.append((start_page, start_page, title_path, "trivia_title"))
+                logging.info(f"🎨 Trivia title background → page {start_page}: {os.path.basename(title_path)}")
+            else:
+                logging.warning(f"❌ Trivia *_t.png title background missing: {title_path}")
 
+            if end_page > start_page and os.path.exists(base_path):
+                temp_ranges.append((start_page + 1, end_page, base_path, kind))
+                logging.info(f"🖼️ Trivia background → pages {start_page + 1}–{end_page}: {os.path.basename(base_path)}")
+            elif end_page > start_page:
+                logging.warning(f"❌ Trivia background image not found: {base_path}")
+            
+            continue  # 🔥 CRITICAL: ensures it doesn't fall through to category block
+
+            
+
+        # Handle category or trivia background ranges
         else:
-            stripped = normalize_text(label)
+            is_trivia = label.startswith("__TRIVIA_START__")
+            if is_trivia:
+                # Extract just the category name from "__TRIVIA_START__Category Name"
+                stripped = normalize_text(label.replace("__TRIVIA_START__", ""))
+            else:
+                stripped = normalize_text(label)
 
             match_key = next(
                 (k for k in category_backgrounds if normalize_text(k) == stripped),
                 None
             )
-            if not match_key:
-                logging.warning(f"❓ No match for category label '{label}' (stripped: '{stripped}')")
-                continue
-            bg_file = f"{category_backgrounds[match_key]}.png"
-            bg_path = os.path.join("backgrounds", bg_file)
-            kind = "category"
-            logging.info(f"📂 Category range: '{label}' → using '{bg_file}' → pages {start_page}–{end_page}")
 
-        if os.path.exists(bg_path):
-            temp_ranges.append((start_page, end_page, bg_path, kind))
-        else:
-            logging.warning(f"❌ Background image not found: {bg_path}")
+            if not match_key:
+                logging.warning(f"❓ No match for {'trivia' if is_trivia else 'category'} label '{label}' (stripped: '{stripped}')")
+                continue
+
+            bg_base = category_backgrounds[match_key]
+            base_start = start_page
+            base_end = sorted_pages[i + 1][1] - 1 if i + 1 < len(sorted_pages) else 999
+
+            # Trivia or category-specific background files
+            t_path = os.path.join("backgrounds", f"{bg_base}_t.png")
+            normal_path = os.path.join("backgrounds", f"{bg_base}.png")
+
+            kind = "trivia" if is_trivia else "category"
+
+            # First page (title/intro)
+            if os.path.exists(t_path):
+                temp_ranges.append((base_start, base_start, t_path, f"{kind}_title"))
+                logging.info(f"🎨 {kind.capitalize()} title background for '{label}': {os.path.basename(t_path)} → page {base_start}")
+            else:
+                logging.warning(f"❌ Missing {kind} *_t.png background: {t_path}")
+
+            # Remaining pages
+            if base_end > base_start and os.path.exists(normal_path):
+                temp_ranges.append((base_start + 1, base_end, normal_path, kind))
+                logging.info(f"🖼️ {kind.capitalize()} content background for '{label}': {os.path.basename(normal_path)} → pages {base_start + 1}–{base_end}")
+            elif base_end > base_start:
+                logging.warning(f"❌ Missing {kind} *.png background: {normal_path}")
+
+
 
     # ✅ Deduplicate by page – trivia wins if overlap
     page_map = {}
@@ -978,11 +1027,11 @@ def generate_pdf_with_manual_toc(json_file, output_pdf):
             alignment=TA_CENTER, spaceAfter=12
         ),
         'cover_date': ParagraphStyle(
-            "CoverDate", fontName="Baloo2", fontSize=20, leading=26,
+            "CoverDate", fontName="Baloo2", fontSize=34, leading=26,
             alignment=TA_CENTER, spaceAfter=12
         ),
         'intro_header': ParagraphStyle(
-            "IntroHeader", fontName="LuckiestGuy", fontSize=24, leading=20,
+            "IntroHeader", fontName="LuckiestGuy", fontSize=28, leading=20,
             alignment=TA_LEFT, spaceAfter=10
         ),
         'intro': ParagraphStyle(
@@ -990,7 +1039,7 @@ def generate_pdf_with_manual_toc(json_file, output_pdf):
             spaceAfter=14
         ),
         'toc_title': ParagraphStyle(
-            "TOCTitle", fontName="LuckiestGuy", fontSize=18, leading=22,
+            "TOCTitle", fontName="LuckiestGuy", fontSize=28, leading=22,
             spaceAfter=24, alignment=TA_CENTER
         ),
         'toc_item': ParagraphStyle(
@@ -1002,7 +1051,7 @@ def generate_pdf_with_manual_toc(json_file, output_pdf):
             spaceAfter=0, textColor=colors.white, alignment=TA_LEFT
         ),
         'cat_title': ParagraphStyle(
-            "CatTitle", fontName="LuckiestGuy", fontSize=24, leading=22,
+            "CatTitle", fontName="LuckiestGuy", fontSize=28, leading=22,
             spaceAfter=12, spaceBefore=12
         ),
         'title': ParagraphStyle(
@@ -1320,7 +1369,7 @@ def get_unique_filename(directory, base_name):
 
 if __name__ == "__main__":
     base_dir = os.getcwd()
-    facts_dir = "C:/Users/timmu/Documents/repos/Factbook Project/facts/new fact grabber/4_categorised"
+    facts_dir = "C:/Users/timmu/Documents/repos/Factbook Project/facts/new fact grabber/5_catagorised"
     books_dir = os.path.join(base_dir, "books")
     os.makedirs(books_dir, exist_ok=True)
 

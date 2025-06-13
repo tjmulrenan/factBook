@@ -12,8 +12,8 @@ from tqdm import tqdm
 
 
 # Path setup
-FACTS_DIR = "C:/Users/timmu/Documents/repos/Factbook Project/facts/new fact grabber/facts"
-SCORED_DIR = "C:/Users/timmu/Documents/repos/Factbook Project/facts/new fact grabber/scored"
+FACTS_DIR = "C:/Users/timmu/Documents/repos/Factbook Project/facts/new fact grabber/1_raw"
+SCORED_DIR = "C:/Users/timmu/Documents/repos/Factbook Project/facts/new fact grabber/2_scored"
 BATCH_SIZE = 1  # or 1 if you want to test smaller batches
 os.makedirs(SCORED_DIR, exist_ok=True)
 
@@ -49,8 +49,17 @@ For each event, do the following:
    - 1–39 = Boring — too dry, confusing, or just not for kids
 
 2. Decide if the fact is kid-friendly for ages 8–12:
-   - Return true if it’s fun, weird, or educational
-   - Return false if it involves war, violence, politics, or adult themes
+   - Return **true** if it’s fun, weird, or educational
+   - Return **false** if it involves war, violence, politics, adult themes, or is simply not appealing to kids
+
+⚠️ Immediately return `is_kid_friendly: false` and **do not score the fact at all** if the event is primarily about:
+- A book, album, or movie being released — even a major hit
+- A re-release, anniversary edition, or chart milestone
+- Someone appearing on a magazine cover
+- A political speech, campaign announcement, or becoming a leader
+- Any “notable” adult doing something ordinary (e.g., publishing a memoir, giving a talk)
+
+✅ Only exceptions: If the release led to something **wildly viral**, hilarious, or instantly recognizable to modern kids (e.g., a dance challenge, toy craze, or iconic internet meme), you may consider scoring it — but only if it truly feels like a kid-relevant phenomenon.
 
 Kids today love:
 - Animals, records, space, inventions, anything funny or surprising
@@ -61,13 +70,6 @@ Kids today love:
 - It’s a treaty, law, or milestone with no “wow”
 - It names someone most kids wouldn’t know, and nothing wild happened
 
-⚠️ These must **NEVER score above 50** unless they are truly bizarre or hilarious:
-- Someone on the cover of a magazine
-- Someone announces a campaign or political intention
-- Someone gives a speech or is reported on by the news
-- A political party is formed or someone becomes a leader
-- Any “notable” adult doing something normal or expected
-
 Also: don’t be fooled by vague words like “eccentric” or “notable.” That doesn’t make it fun for kids unless the **action** was weird, wild, or funny.
 
 Don’t reward adult-important events. Only reward what kids would actually care about.
@@ -77,23 +79,23 @@ Now rate the following facts.
 Return a JSON array. For each fact include:
 - id
 - original (same text you were given)
-- year (from the input)
-- score (1–100)
+- score (1–100) — OMIT this field entirely if the fact was rejected due to being release-related
 - is_kid_friendly (true or false)
 
-EXAMPLES:
-[
-  { "id": 1, "original": "Neil Armstrong walks on the Moon.", "year": "1969", "score": 98, "is_kid_friendly": true },
-  { "id": 2, "original": "World’s oldest cat turns 38.", "year": "2020", "score": 100, "is_kid_friendly": true },
-  { "id": 3, "original": "Goat elected mayor of a US town.", "year": "1882", "score": 100, "is_kid_friendly": true },
-  { "id": 4, "original": "First Star Wars movie is released.", "year": "1977", "score": 95, "is_kid_friendly": true },
-  { "id": 5, "original": "Julius Caesar assassinated in the Roman Senate.", "year": "44 BC", "score": 55, "is_kid_friendly": false },
-  { "id": 6, "original": "French & Indians attack Deerfield, kill 50, abduct 100.", "year": "1704", "score": 30, "is_kid_friendly": false },
-  { "id": 7, "original": "Time magazine features eccentric politician on the cover.", "year": "1932", "score": 25, "is_kid_friendly": false },
-  { "id": 8, "original": "Small treaty signed between two European countries.", "year": "1903", "score": 20, "is_kid_friendly": false }
+EXAMPLES: [
+  { "id": 1, "original": "Neil Armstrong walks on the Moon.", "score": 98, "is_kid_friendly": true },
+  { "id": 2, "original": "World’s oldest cat turns 38.", "score": 100, "is_kid_friendly": true },
+  { "id": 3, "original": "Goat elected mayor of a US town.", "score": 100, "is_kid_friendly": true },
+  { "id": 4, "original": "First Star Wars movie is released.", "is_kid_friendly": false },
+  { "id": 5, "original": "Julius Caesar assassinated in the Roman Senate.", "score": 55, "is_kid_friendly": false },
+  { "id": 6, "original": "French & Indians attack Deerfield, kill 50, abduct 100.", "score": 30, "is_kid_friendly": false },
+  { "id": 7, "original": "Time magazine features eccentric politician on the cover.", "is_kid_friendly": false },
+  { "id": 8, "original": "Small treaty signed between two European countries.", "score": 20, "is_kid_friendly": false },
+  { "id": 9, "original": "A chicken wins a local art contest in Nebraska.", "score": 97, "is_kid_friendly": true },
+  { "id": 10, "original": "NASA discovers water on Mars.", "score": 89, "is_kid_friendly": true },
+  { "id": 11, "original": "A man eats 76 hot dogs in 10 minutes at a contest.", "score": 91, "is_kid_friendly": true }
 ]
 """
-
 
 
 
@@ -180,11 +182,12 @@ def enhance_facts(facts, retries=2):
                 if "score" in result and "is_kid_friendly" in result:
                     enriched = {
                         "id": facts[i]["id"],
-                        "year": result.get("year", ""),
-                        "original": result.get("original", ""),
+                        "year": facts[i]["year"],  # ✅ use original year, not Claude's
+                        "original": facts[i]["original"],  # ✅ also reuse original text
                         "score": result["score"],
                         "is_kid_friendly": result["is_kid_friendly"]
                     }
+
                     matched.append(enriched)
                     print(json.dumps(enriched, indent=2, ensure_ascii=False))
 

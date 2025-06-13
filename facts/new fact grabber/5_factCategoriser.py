@@ -3,8 +3,8 @@ from collections import Counter
 import os
 
 # Config
-INPUT_FILE = r"C:\Users\timmu\Documents\repos\Factbook Project\facts\new fact grabber\3_enhanced\March_29_culled_enhanced.json"
-OUTPUT_FILE = r"C:\Users\timmu\Documents\repos\Factbook Project\facts\new fact grabber\4_catagorised\March_29_culled_enhanced_catagorised.json"
+INPUT_FILE = r"C:\Users\timmu\Documents\repos\Factbook Project\facts\new fact grabber\4_enhanced\March_29_culled_enhanced.json"
+OUTPUT_FILE = r"C:\Users\timmu\Documents\repos\Factbook Project\facts\new fact grabber\5_catagorised\March_29_culled_enhanced_catagorised.json"
 CATEGORY_CAP = 20
 MIN_CATEGORY_SIZE = 6
 FALLBACK_CATEGORY = "The What Zone"

@@ -5,7 +5,7 @@ import io
 from itertools import groupby
 from operator import itemgetter
 
-def visually_fill_transparent_gaps(pdf_path, alpha=0.85, dpi=144):
+def visually_fill_transparent_gaps(pdf_path, alpha=0.65, dpi=144):
     doc = fitz.open(pdf_path)
     page_count = min(len(doc), 10)
 
@@ -23,7 +23,7 @@ def visually_fill_transparent_gaps(pdf_path, alpha=0.85, dpi=144):
         stripe_width = int(width * 0.02)
         best_x = None
         max_bright_rows = -1
-        candidates = [round(x / 100, 2) for x in range(95, 59, -1)]
+        candidates = [round(x / 100, 2) for x in range(85, 84, -1)]
 
 
 
@@ -46,7 +46,7 @@ def visually_fill_transparent_gaps(pdf_path, alpha=0.85, dpi=144):
         blocks = []
         for _, g in groupby(enumerate(bright_rows), lambda ix: ix[0] - ix[1]):
             group = list(map(itemgetter(1), g))
-            if len(group) > 3:
+            if len(group) > 100:
                 start_y = min(group)
                 end_y = max(group)
 
@@ -112,5 +112,5 @@ def visually_fill_transparent_gaps(pdf_path, alpha=0.85, dpi=144):
 # 🔧 Replace this with your test file path
 visually_fill_transparent_gaps(
     r"C:\Users\timmu\Documents\repos\Factbook Project\books\fresh_test.pdf",
-    alpha=0.85
+    alpha=0.65
 )
