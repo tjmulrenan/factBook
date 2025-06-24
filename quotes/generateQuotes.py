@@ -1,6 +1,8 @@
 import os
 import json
 import time
+import re
+import ast
 from anthropic import Anthropic
 
 # Anthropic API setup
@@ -20,53 +22,69 @@ CATEGORIES = {
     "The What Zone - Wait... what? The strangest, silliest, and most head-scratching facts you never knew you needed.",
 }
 
-def generate_jokes_for_category(category):
+def generate_quotes_for_category(category):
     prompt = f"""
-    Find 20 real or classic jokes related to the theme of **{category}**.
+Give me 10 short real quotes that match this theme: **{category}**
 
-    Guidelines:
-    - The jokes can be historical, widely told, or themed around real people, places, or events in that category.
-    - They should be appropriate and funny for kids aged around 12.
-    - Avoid dark, mean, or inappropriate humor.
-    - Use puns, playful logic, or classic-style joke structure.
-    - Each joke should be on a single line or a two-line Q&A format.
-
-    Output ONLY a JSON list like:
-    ["Joke 1...", "Joke 2...", ..., "Joke 20..."]
-    No extra explanations, notes, or formatting — just the JSON list.
-    """
-
+Guidelines:
+- Each quote must be authentic and from a real person.
+- Keep it short — max 15 words.
+- Format like: Name: "Quote."
+- Make them appropriate, inspiring, curious, or funny for ages 8–12.
+- Output ONLY a JSON list of strings:
+["Name: \\"Quote.\\"", ...]
+No notes, no explanations, no code blocks.
+"""
 
     response = anthropic.messages.create(
         model="claude-sonnet-4-20250514",
         max_tokens=1024,
-        temperature=0.8,
+        temperature=0.4,
         messages=[{"role": "user", "content": prompt}]
     )
 
     try:
         raw = response.content[0].text.strip()
-        jokes = json.loads(raw) if raw.startswith("[") else json.loads(raw.split("```json")[-1].split("```")[0])
-        if isinstance(jokes, list) and len(jokes) == 20:
-            return jokes
+        print(f"\n📜 Raw response for {category}:\n{raw}\n")
+
+        # Step 1: Find the JSON-like list in the response
+        json_match = re.search(r"\[.*\]", raw, re.DOTALL)
+        if not json_match:
+            raise ValueError("No list structure found in response.")
+
+        list_text = json_match.group()
+
+        # Step 2: Normalize smart quotes and ensure escape sequences are valid
+        list_text = list_text.replace("“", "\"").replace("”", "\"")
+
+        # Step 3: First try json.loads
+        try:
+            return json.loads(list_text)
+        except json.JSONDecodeError:
+            print("⚠️ json.loads failed, trying ast.literal_eval...")
+            return ast.literal_eval(list_text)
+
     except Exception as e:
-        print(f"⚠️ Failed to parse jokes for {category}: {e}")
+        print(f"⚠️ Failed to parse quotes for {category}: {e}")
     return []
 
+
+
+
 def main():
-    joke_data = {}
+    quote_data = {}
     for idx, category in enumerate(CATEGORIES, 1):
-        print(f"✨ Generating jokes for: {category} ({idx}/{len(CATEGORIES)})")
-        jokes = generate_jokes_for_category(category)
-        if jokes:
-            joke_data[category] = jokes
+        print(f"✨ Generating quotes for: {category} ({idx}/{len(CATEGORIES)})")
+        quotes = generate_quotes_for_category(category)
+        if quotes:
+            quote_data[category] = quotes
         else:
-            print(f"❌ No jokes returned for {category}")
+            print(f"❌ No quotes returned for {category}")
         time.sleep(1)
 
-    with open("generatedJokes.json", "w", encoding="utf-8") as f:
-        json.dump(joke_data, f, indent=4, ensure_ascii=False)
-    print("\n✅ All jokes saved to generatedJokes.json")
+    with open("generatedquotes.json", "w", encoding="utf-8") as f:
+        json.dump(quote_data, f, indent=4, ensure_ascii=False)
+    print("\n✅ All quotes saved to generatedquotes.json")
 
 if __name__ == "__main__":
     main()

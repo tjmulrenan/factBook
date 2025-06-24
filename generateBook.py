@@ -276,10 +276,18 @@ class MyDocTemplate(BaseDocTemplate):
 
             if page_num % 2 == 0:
                 # Even pages: left-aligned
-                canvas.drawString(28, 10, text)
+                canvas.drawString(28, 770, text)
             else:
                 # Odd pages: right-aligned
-                canvas.drawRightString(595, 10, text)
+                canvas.drawRightString(595, 770, text)
+
+# before
+#             if page_num % 2 == 0:
+#                 # Even pages: left-aligned
+#                 canvas.drawString(28, 10, text)
+#             else:
+#                 # Odd pages: right-aligned
+#                 canvas.drawRightString(595, 10, text)
 
 
 def build_elements(facts, styles, date_str, category_pages=None):

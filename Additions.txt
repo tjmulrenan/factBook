@@ -6,6 +6,7 @@ Mentions on this day or something ismilar
  
 40-80
 
+judge thing for FACTS
 
 
 FIX CLOUDS
@@ -32,6 +33,7 @@ if a complex word please explain it in terms a 12 year odl owould udnerstandf
 
 
 
+
 NEED TO ALTER THRESHOLD FOR WORLD SHAKER CATEGORY
 
 find tj
@@ -48,3 +50,104 @@ question at the end of the book
     whats thspecial about this day
     whats your favourite FACTS
     etc
+
+
+fix prompt for one this day reminder  (maybe do a percentage? dont need them everytgime)
+optional shouldnt repeat tidself make it clearer
+
+
+Maybe boring or not kid ones
+Jack Benny's Radio Breakthrough
+Jack Benny stepped up to the microphone on Ed
+Sullivan's New York interview program in 1932 and
+changed comedy forever! This wasn't just any radio
+show - it was Benny's very first time on radio, and he
+was so nervous his hands were probably shaking. But
+once he started talking in his famous style, audiences
+fell in love with his perfect timing and hilarious
+personality. That one radio appearance launched
+Benny into becoming one of America's most beloved
+comedians for decades to come.
+Pearl Bailey's Star-Studded Journey
+Pearl Bailey was born in Newport News, Virginia in 1918
+and grew up to become one of America's brightest
+stars! She could do it all - sing, dance, and act with
+incredible talent. Pearl won both a Tony Award and an
+Emmy Award for her amazing performances. She's
+most famous for starring in the musical "Hello, Dolly!"
+where her powerful voice and charming personality lit
+up the stage night after night.
+The Comedy Queen from Endicott
+Amy Sedaris makes people laugh for a living as an
+actress and comedian! She was born in 1961 in a small
+town called Endicott in New York. This funny lady grew
+up to star in TV shows and movies, always finding ways
+to make audiences giggle and smile with her silly
+characters and clever jokes.
+
+this one in wrong catagory
+A Soccer Team Born in a Dutch Town
+Soccer fans in the small Dutch town of Drachten
+decided they needed their own team to cheer for! In
+1948, they created the Drachtster Boys soccer club,
+naming it after their hometown. The team started
+small but gave local kids and adults a chance to play
+the sport they loved most. Today, this little club still
+kicks goals in the Netherlands, proving that big dreams
+can start in small towns.
+The Redhead Who Ruled the Court
+Dave Cowens shocked the basketball world when he
+won the NBA MVP award in 1973! This red-headed
+center for the Boston Celtics wasn't the tallest or
+strongest player, but he played with incredible heart
+and energy. Cowens dove for every loose ball, fought
+for every rebound, and never gave up on any play. His
+teammates loved his fighting spirit, and fans went wild
+watching him battle against much bigger opponents.
+That year, he proved that heart could beat height in
+basketball.
+The Cuban Boxing Legend Who Said No to
+Millions
+Teofilo Stevenson was born in Puerto Padre, Cuba in
+1952 and became one of boxing's greatest champions.
+This incredible heavyweight boxer won Olympic gold
+medals three times in a row - in 1972, 1976, and 1980!
+That's something very few athletes ever achieve.
+Professional boxing promoters offered him millions of
+dollars to turn pro, but Stevenson chose to stay
+amateur and represent Cuba instead.
+The Tyler Rose Blooms
+Earl Campbell became one of football's greatest
+running backs after being born in Tyler, Texas in 1955.
+This powerhouse player earned the nickname "The
+Tyler Rose" and dominated both college and
+professional football. He won the prestigious Heisman
+Trophy in 1977 while playing for the University of
+Texas, then steamrolled into the NFL where he made
+the Pro Bowl five times with the Houston Oilers.
+The Gymnast Who Flipped Into History
+Olga Tass was born in 1929 in Pécs, Hungary, and she
+would grow up to make gymnastics history! In 1956,
+she helped her Hungarian team win Olympic gold in
+something called "team portable apparatus" - a
+gymnastics event that doesn't even exist anymore.
+This amazing athlete spent her whole life flipping,
+jumping, and spinning her way to greatness
+
+this one got porno in it
+The Rock Star Who Changed His Name
+Perry Farrell sounds like a cool rock star name, but this
+famous singer was actually born Peretz Bernstein in
+Queens, New York City in 1959! He completely
+transformed his identity when he became the
+frontman for Jane's Addiction, one of the most
+important alternative rock bands ever. Their hit song
+"Just Because" helped define a whole new sound in
+rock music. Later, Perry started another band called
+Porno For Pyros.
+
+
+FOR PDF CLOUDS
+PS C:\Users\timmu\Documents\repos\Factbook Project> pip install pymupdf==1.22.3
+Collecting pymupdf==1.22.3
+  Downloading PyMuPDF-1.22.3.tar.gz (59.2 MB)

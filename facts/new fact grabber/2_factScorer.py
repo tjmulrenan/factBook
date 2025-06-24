@@ -52,12 +52,28 @@ For each event, do the following:
    - Return **true** if it’s fun, weird, or educational
    - Return **false** if it involves war, violence, politics, adult themes, or is simply not appealing to kids
 
-⚠️ Immediately return `is_kid_friendly: false` and **do not score the fact at all** if the event is primarily about:
-- A book, album, or movie being released — even a major hit
-- A re-release, anniversary edition, or chart milestone
-- Someone appearing on a magazine cover
-- A political speech, campaign announcement, or becoming a leader
-- Any “notable” adult doing something ordinary (e.g., publishing a memoir, giving a talk)
+⚠️ Immediately return `is_kid_friendly: false` if the event is primarily about:
+
+— MEDIA & PROMOTION —
+- A book, album, song, podcast, or movie being released — even a major hit
+- Any re-release, anniversary edition, or chart milestone
+- Someone appearing on a magazine cover, talk show, or interview
+- A TV pilot airing, season premiere, or finale
+- Advertising campaigns, endorsements, or product launches
+
+— POLITICS & PUBLICITY —
+- A political speech, campaign announcement, election win, or becoming a leader
+- Publishing a memoir, autobiography, or adult-focused book
+- Receiving an honorary degree, giving a commencement speech, or lifetime achievement award
+- Being appointed to a board, committee, or institution
+- Launching a foundation or organization (unless it did something weird or amazing for kids right away)
+
+— BORING ADULT MILESTONES —
+- Any “notable” adult doing something ordinary, like:
+  - Giving a talk or lecture
+  - Getting hired, retired, or promoted
+  - Attending a formal event or ceremony
+- Winning adult-focused professional awards (e.g., Nobel Prize, knighthood) unless something funny or kid-amazing happened
 
 ✅ Only exceptions: If the release led to something **wildly viral**, hilarious, or instantly recognizable to modern kids (e.g., a dance challenge, toy craze, or iconic internet meme), you may consider scoring it — but only if it truly feels like a kid-relevant phenomenon.
 

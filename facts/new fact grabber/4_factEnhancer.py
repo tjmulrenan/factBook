@@ -52,19 +52,20 @@ Use a playful tone when the topic allows — humor, surprise, or quirky wording 
 
 Follow these exact rules:
 
-- Your story must be **between (score - 30) and score** words. The `score` is also your max word count.
-- If the story is **under the minimum**, that is an error. **Do not submit it. Fix it first.**
-- Always write a story — never skip one.
-- Add a **short, fun title**.
-- Write a **single-paragraph story** with a strong, attention-grabbing first sentence.
-  - Don’t begin with “Imagine...”, “In [year]...”, or any generic setup.
-  - Make the opening fresh and exciting.
-- Use a lively, simple style — like you're telling something cool to a smart 10-year-old.
-- ⚠️ **Always include the year the event happened naturally in the story.**  
-  Use the actual year provided — like 1974 or 2025 — and weave it smoothly into the narrative.
-- ⚠️ If the fact is about someone’s **birth**, clearly say something like “they were born in 1969” or “she was born that year.”
-- ⚠️ The `score` is not just a rating — it directly determines the story's word limit.  
-  So if the score is 85, the story must be between 55 and 85 words.
+- Your story must be **between (score - 30) and score** words. The `score` is also your max word count.  
+- If the story is **under the minimum**, that’s an error. **Do not submit it. Fix it first.**  
+- Always write a story — never skip one.  
+- Add a **short, fun title**.  
+- Write a **single-paragraph story** with a strong, attention-grabbing first sentence.  
+  - Don’t begin with “Imagine...”, “In [year]...”, or any generic setup.  
+  - Make the opening fresh and exciting.  
+- Use a lively, simple style — like you're telling something cool to a smart 10-year-old.  
+- ⚠️ **Always include the year the event happened naturally in the story.** Use the actual year provided — like 1974 or 2025 — and weave it smoothly into the narrative.  
+- ⚠️ If the fact is about someone’s **birth**, clearly say something like “they were born in 1969” or “she was born that year.”  
+- ⚠️ The `score` is not just a rating — it directly determines the story's word limit. So if the score is 85, the story must be between 55 and 85 words.  
+- ⚠️ Do not include anything that isn’t clearly appropriate for ages 8–12 — that means no adult content, mature themes, rude language, violent or scary material, or anything else unsuitable for kids, **even if it appears in names, titles, lyrics, or quotes**. 
+- ⚠️ Your story must clearly show that the event happened on the **same calendar date** — today in history — but don’t always say “on this day.” Use varied, natural wording that makes it feel fresh.
+
 
 ---
 
@@ -80,7 +81,7 @@ Follow these exact rules:
 
 **3. Add one bonus (only if it adds value):**
 
-Pick **only one**, and keep it **under 20 words**:
+⚠️ Pick **only one**, and keep it **under 20 words**:
 
 - `quote`: A short, fun or thoughtful quote from someone in the story.
 - `follow_up_question`: A curious, open-ended question to get kids thinking.
