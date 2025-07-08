@@ -7,6 +7,10 @@ from operator import itemgetter
 import random
 import math
 
+BRIGHTNESS_THRESHOLD_ROW = 200
+BRIGHTNESS_THRESHOLD_BLOCK = 220
+BRIGHTNESS_THRESHOLD_COL = 200
+
 def generate_top_semicircle_cutouts(x0, y0, x1, y1, num_bumps=12, radius=None):
     if radius is None:
         radius = (x1 - x0) / (2 * num_bumps)
@@ -82,7 +86,7 @@ def visually_fill_transparent_gaps(pdf_path, alpha=0.85, dpi=144):
             x_start = int(width * ratio)
             stripe = arr[:, x_start:x_start + stripe_width, :3]
             row_brightness = np.mean(stripe, axis=(1, 2))
-            bright_rows = np.sum(row_brightness > 180)
+            bright_rows = np.sum(row_brightness > BRIGHTNESS_THRESHOLD_BLOCK)
             if bright_rows > max_bright_rows:
                 max_bright_rows = bright_rows
                 best_x = x_start
@@ -91,7 +95,7 @@ def visually_fill_transparent_gaps(pdf_path, alpha=0.85, dpi=144):
         bright_rows = []
         for y in range(height):
             brightness = np.mean(arr[y, probe_x_start:probe_x_start + stripe_width, :3])
-            if brightness > 160:
+            if brightness > BRIGHTNESS_THRESHOLD_ROW:
                 bright_rows.append(y)
 
         blocks = []
@@ -103,7 +107,7 @@ def visually_fill_transparent_gaps(pdf_path, alpha=0.85, dpi=144):
 
                 block_slice = arr[start_y:end_y + 1, :, :3]
                 avg_cols = np.mean(block_slice, axis=(0, 2))
-                bright_cols = np.where(avg_cols > 160)[0]
+                bright_cols = np.where(avg_cols > BRIGHTNESS_THRESHOLD_COL)[0]
 
                 if len(bright_cols) > 0:
                     x_start = int(np.min(bright_cols))
@@ -219,7 +223,6 @@ def visually_fill_transparent_gaps(pdf_path, alpha=0.85, dpi=144):
     print(f"📦 Compressed saved to:   {compressed_path}")
 
     doc.close()
-    print(f"\n🎉 Saved patched PDF to: {output_path}")
 
 
 

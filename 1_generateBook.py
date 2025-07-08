@@ -83,13 +83,14 @@ def draw_cloud_shape_background(canvas, doc, alpha=0.88, scale=1.0):
 from reportlab.platypus import Flowable, Paragraph
 
 class TransparentBox(Flowable):
-    def __init__(self, content, style, width=None, height=None, padding=15, alpha=0.85):
+    def __init__(self, content, style, width=None, height=None, padding=15, alpha=0.85, inner_spacing=None):
         super().__init__()
         self.style = style
         self.padding = padding
         self.alpha = alpha
         self.width = width if width is not None else 450
         self.height = height
+        self.inner_spacing = 0 if inner_spacing is None else inner_spacing  # ✅ Add this
 
         # Normalize content to list of flowables
         if isinstance(content, list):
@@ -104,12 +105,14 @@ class TransparentBox(Flowable):
         content_width = used_width - 2 * self.padding
 
         total_height = 0
-        for flowable in self._content:
+        for i, flowable in enumerate(self._content):
             _, h = flowable.wrap(content_width, availHeight)
-            total_height += h + self.padding
+            total_height += h
+            if i < len(self._content) - 1:
+                total_height += self.inner_spacing  # ✅ space between items
 
         self.eff_width = used_width
-        self.eff_height = self.height if self.height is not None else total_height + self.padding
+        self.eff_height = self.height if self.height is not None else total_height + 2 * self.padding  # ✅ top + bottom
 
         return self.eff_width, self.eff_height
 
@@ -127,10 +130,12 @@ class TransparentBox(Flowable):
         content_width = self.eff_width - 2 * self.padding
         y_cursor = self.eff_height - self.padding  # start from top
 
-        for flowable in self._content:
+        for i, flowable in enumerate(self._content):
             w, h = flowable.wrap(content_width, self.eff_height)
             flowable.drawOn(self.canv, self.padding, y_cursor - h)
-            y_cursor -= h + self.padding
+            y_cursor -= h
+            if i < len(self._content) - 1:
+                y_cursor -= self.inner_spacing  # ✅ only between elements
 
         self.canv.restoreState()
 
@@ -289,9 +294,13 @@ class MyDocTemplate(BaseDocTemplate):
 #                 # Odd pages: right-aligned
 #                 canvas.drawRightString(595, 10, text)
 
+global_answers = []  # Collect answers to render later
+
 
 def build_elements(facts, styles, date_str, category_pages=None):
     elements = []
+    global global_answers
+    global_answers = []  # ⬅️ Reset before accumulating again
     num_facts = len(facts)
 
     elements.append(Spacer(1, 200))
@@ -649,7 +658,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
         logging.info(f"📦 Final total facts used in book: {final_total}")
             
 
-    
+    question_number = 1
 
     for category, fact_list in categories.items():
         if category_pages is None:
@@ -735,12 +744,12 @@ def build_elements(facts, styles, date_str, category_pages=None):
 
 
         # Add each question and checkbox table
-        for i, fact in enumerate(fact_list, 1):
+        for fact in fact_list:
             q = fact.get("activity_question")
             choices = fact.get("activity_choices", [])
             if q and choices:
-                question_paragraph = Paragraph(f"<b>{i}.</b> {q}", styles['story'])
-                checkboxes = [Paragraph(f"☐ {opt}", styles['story']) for opt in choices]
+                question_paragraph = Paragraph(f"<b>{question_number}.</b> {q}", styles['trivia_questions'])
+                checkboxes = [Paragraph(f"☐ {opt}", styles['trivia_questions']) for opt in choices]
                 grid = [checkboxes[i:i+2] for i in range(0, len(checkboxes), 2)]
                 if len(grid[-1]) == 1:
                     grid[-1].append("")
@@ -760,21 +769,102 @@ def build_elements(facts, styles, date_str, category_pages=None):
                 # Wrap each question in its own TransparentBox
                 elements.append(TransparentBox([
                     question_paragraph,
+                    Spacer(1, 4),
                     table
-                ], styles['story'], alpha=0.85))
+                ], styles['trivia_questions'], alpha=0.85))
 
-                elements.append(Spacer(1, 12))
+                question_number += 1 
+                # elements.append(Spacer(1, 12))
 
-
-        # Answers
+        # ➕ Letter Quest Page
         elements.append(PageBreak())
-        elements.append(
-            TransparentBox(
-                Paragraph("Answers", styles['cat_title']),
-                styles['story'],
-                alpha=0.85
-            )
+
+        # Title and description at top (same styling as Questions section)
+        # elements.append(Spacer(1, 40))
+        elements.append(TransparentBox("Letter Quest", styles['cat_title'], alpha=0.85))
+        elements.append(TransparentBox(
+            "Unleash your inner word wizard with this word search! ",
+            styles['trivia_questions'],
+            alpha=0.85
+        ))
+        # elements.append(Spacer(1, 20))  # space before image
+
+        # Word search image (centered below description)
+        category_key = CATEGORY_BACKGROUNDS.get(category, '').lower()
+        image_path = os.path.join(
+            "C:/Users/timmu/Documents/repos/Factbook Project/wordsearch",
+            f"{category_key}.png"
         )
+        if os.path.exists(image_path):
+            try:
+                img_reader = ImageReader(image_path)
+                original_width, original_height = img_reader.getSize()
+
+                # Set fixed height
+                desired_height = 450
+                aspect_ratio = original_width / original_height
+                new_width = desired_height * aspect_ratio
+
+                elements.append(Spacer(1, -10))
+                elements.append(RLImage(image_path, width=new_width, height=desired_height))
+                elements.append(Spacer(1, -10))
+            except Exception as e:
+                logging.warning(f"❌ Could not scale image properly: {e}")
+        else:
+            elements.append(Paragraph("Word search image not found.", styles['story']))
+        # Word list below the picture
+        all_words_path = os.path.join(
+            "C:/Users/timmu/Documents/repos/Factbook Project/wordsearch",
+            "letter_quest_words.json"
+        )
+        if os.path.exists(all_words_path):
+            try:
+                with open(all_words_path, "r", encoding="utf-8") as f:
+                    all_words = json.load(f)
+                words = all_words.get(category_key, [])
+                if words:
+                    # Wrap words by total character length per line
+                    max_chars_per_line = 90  # Adjust this as needed
+                    lines = []
+                    current_line = ""
+                    for word in words[:20]:
+                        word_upper = word.upper()
+                        if len(current_line) + len(word_upper) + 6 > max_chars_per_line:  # 6 for spacing
+                            lines.append(current_line.strip())
+                            current_line = ""
+                        current_line += word_upper + "      "  # 6 spaces
+                    if current_line:
+                        lines.append(current_line.strip())
+
+                    # Combine into a single paragraph with <br/> line breaks
+                    inline_text = "<para align='center'>" + "<br/>".join(lines) + "</para>"
+
+                    word_block = TransparentBox(
+                        Paragraph(inline_text, styles['wordsearch']),
+                        styles['wordsearch'],
+                        alpha=0.85,
+                        padding=10
+                    )
+                    elements.append(word_block)
+                else:
+                    elements.append(Paragraph("No word list found for this category.", styles['story']))
+            except Exception as e:
+                logging.warning(f"❌ Could not load Letter Quest words: {e}")
+                elements.append(Paragraph("Couldn’t load word list!", styles['story']))
+        else:
+            elements.append(Paragraph("Word list file is missing!", styles['story']))
+
+
+
+        # # Answers
+        # elements.append(PageBreak())
+        # elements.append(
+        #     TransparentBox(
+        #         Paragraph("Answers", styles['cat_title']),
+        #         styles['story'],
+        #         alpha=0.85
+        #     )
+        # )
 
         elements.append(Spacer(1, 12))
 
@@ -782,10 +872,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
             q = fact.get("activity_question")
             a = fact.get("activity_answer")
             if q and a:
-                answer_paragraph = Paragraph(f"<b>{i}.</b> {q}<br/><b>Answer:</b> {a}", styles['story'])
-
-                elements.append(TransparentBox([answer_paragraph], styles['story'], alpha=0.85))
-                elements.append(Spacer(1, 12))
+                global_answers.append((q, a))
 
 
         # ✅ Insert image immediately after title/description
@@ -806,8 +893,26 @@ def build_elements(facts, styles, date_str, category_pages=None):
             }
             for fact in fact_list
         ]
+
         for category, fact_list in categories.items()
     }
+
+    if global_answers:
+        elements.append(PageBreak())
+
+        elements.append(
+            TransparentBox(
+                Paragraph("Answers", styles['cat_title']),
+                styles['story'],
+                alpha=0.85
+            )
+        )
+
+    elements.append(Spacer(1, 12))
+
+    for i, (q, a) in enumerate(global_answers, 1):
+        para = Paragraph(f"<b>{i}.</b> {q}<br/><b>Answer:</b> {a}", styles['trivia_answers'])
+        elements.append(TransparentBox([para], styles['trivia_answers'], alpha=0.85, padding=4, inner_spacing=0))
 
     return elements
 
@@ -1070,10 +1175,23 @@ def generate_pdf_with_manual_toc(json_file, output_pdf):
             "FactStory", fontName="Baloo2", fontSize=18, leading=19,
             spaceAfter=16, spaceBefore=0
         ),
+        'wordsearch': ParagraphStyle(
+            "Wordsearch", fontName="Baloo2", fontSize=12, leading=19,
+            spaceAfter=16, spaceBefore=0
+        ),
         'trivia_title': ParagraphStyle(
             "TriviaTitle", fontName="LuckiestGuy", fontSize=24, leading=20,
             spaceAfter=12, alignment=TA_CENTER
         ),
+        'trivia_questions': ParagraphStyle(
+            "TriviaQuestions", fontName="Baloo2", fontSize=18, leading=19,
+            spaceAfter=6, spaceBefore=0
+        ),
+        'trivia_answers': ParagraphStyle(
+            "TriviaAnswers", fontName="Baloo2", fontSize=14, leading=12,
+            spaceAfter=2, spaceBefore=0
+        )
+
     }
 
     # styles = {

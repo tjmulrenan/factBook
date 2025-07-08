@@ -42,8 +42,6 @@ def fix_trailing_commas(json_text):
 with open("quotes/generatedquotes.json", "r", encoding="utf-8") as f:
     raw = f.read()
 fixed = fix_trailing_commas(raw)
-with open("quotes/generatedquotes_fixed.json", "w", encoding="utf-8") as f:
-    f.write(fixed)
 
 with open(r"C:\Users\timmu\Documents\repos\Factbook Project\quotes\generatedquotes.json", "r", encoding="utf-8") as f:
     quotes_by_category = json.load(f)
@@ -255,7 +253,14 @@ while page_number < original_page_count:
         elif insert_type == "quote":
             for q in available_quotes:
                 if len(q) <= 120:
-                    bubble_text = f"“{q}”"
+                    # Try to split at the first colon (e.g., 'MLK: "I have a dream."')
+                    if ":" in q:
+                        speaker, quote_text = q.split(":", 1)
+                        speaker = speaker.strip()
+                        quote_text = quote_text.strip().strip('"“”')  # clean quotes
+                        bubble_text = f"“{quote_text}” — {speaker}"
+                    else:
+                        bubble_text = f"“{q.strip().strip('“”')}”"
                     used_quotes.add(q)
                     best_type = "quote"
                     image_key = "quote"
