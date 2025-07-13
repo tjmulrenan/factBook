@@ -6,10 +6,35 @@ from itertools import groupby
 from operator import itemgetter
 import random
 import math
+import pytesseract
+import difflib
 
 BRIGHTNESS_THRESHOLD_ROW = 200
 BRIGHTNESS_THRESHOLD_BLOCK = 220
 BRIGHTNESS_THRESHOLD_COL = 200
+
+def detect_special_layout(image: Image.Image):
+    text = pytesseract.image_to_string(image)
+    text_lower = text.lower()
+
+    # Split text into lines to handle line breaks and OCR misalignments
+    lines = [line.strip() for line in text_lower.splitlines() if line.strip()]
+
+    is_grid_gauntlet = any("grid gauntlet" in line for line in lines)
+
+    # Fuzzy match for letter quest
+    is_letter_quest = any(
+        difflib.get_close_matches(line, ["letter quest"], n=1, cutoff=0.75)
+        for line in lines
+    )
+
+    return {
+        "grid_gauntlet": is_grid_gauntlet,
+        "letter_quest": is_letter_quest,
+        "raw_text": text
+    }
+
+
 
 def generate_top_semicircle_cutouts(x0, y0, x1, y1, num_bumps=12, radius=None):
     if radius is None:
@@ -65,6 +90,7 @@ def visually_fill_transparent_gaps(pdf_path, alpha=0.85, dpi=144):
     # page_count = min(len(doc), 63)
     page_count = len(doc)
 
+    # for page_index in range(page_count - 15, page_count): # Debugging last 15 pages
     for page_index in range(page_count):
         page = doc[page_index]
         print(f"\n📄 Processing page {page_index + 1}/{page_count}")
@@ -121,31 +147,49 @@ def visually_fill_transparent_gaps(pdf_path, alpha=0.85, dpi=144):
         draw = ImageDraw.Draw(img, "RGBA")
         gap_count = 0
 
-        for i in range(len(blocks) - 1):
-            top = blocks[i][1]
-            bottom = blocks[i + 1][0]
-            # Added once after block detection
-            x_start_common = max(b[2] for b in blocks)  # narrowest left edge
-            x_end_common = min(b[3] for b in blocks)    # narrowest right edge
+        layout_flags = detect_special_layout(img)
+        is_gauntlet = layout_flags["grid_gauntlet"]
+        is_letter_quest = layout_flags["letter_quest"]
+        ocr_text = layout_flags["raw_text"]
+        print(f"🧠 Grid Gauntlet Page Detected: {is_gauntlet}")
+
+        # 🔁 Custom block grouping
+        if (is_gauntlet or is_letter_quest) and len(blocks) >= 3:
+            grouped_blocks = [blocks[:2], [blocks[-1]]]
+        else:
+            grouped_blocks = [blocks]
+
+        print(f"🧠 Grid Gauntlet Detected: {is_gauntlet}")
+        print(f"📜 Letter Quest Detected: {is_letter_quest}")
+        print(f"🔤 OCR Text (page {page_index + 1}):\n{ocr_text}")
+        print(f"🔍 Grouped block sets for page {page_index + 1}: {[[(b[0], b[1]) for b in g] for g in grouped_blocks]}")
+
+        # 🔁 Loop through block groups
+        for group in grouped_blocks:
+            if len(group) < 2:
+                continue  # skip patching if only 1 block in this group
+
+            # ✅ PATCH gaps *within* this group
+            for i in range(len(group) - 1):
+                top = group[i][1]
+                bottom = group[i + 1][0]
+                x_start_common = max(b[2] for b in group)
+                x_end_common = min(b[3] for b in group)
+
+                if bottom > top and (x_end_common - x_start_common) > 10:
+                    draw.rectangle(
+                        [(x_start_common, top + 1), (x_end_common, bottom - 1)],
+                        fill=(255, 255, 255, int(alpha * 255))
+                    )
+                    print(f"🩹 Page {page_index + 1}: hard-patched y={top + 1}-{bottom - 1}")
+                    gap_count += 1
 
 
-
-            if bottom > top and (x_end - x_start) > 10:
-                draw.rectangle(
-                    [(x_start, top + 1), (x_end, bottom - 1)],
-                    fill=(255, 255, 255, int(alpha * 255))
-                )
-                print(f"🩹 Page {page_index + 1}: hard-patched y={top + 1}-{bottom - 1}")
-                gap_count += 1
-
-        # ✅ Add cloud border if any gaps were patched
-        if len(blocks) > 0:
-            # Calculate cloud bounds
-            cloud_top = blocks[0][0]
-            cloud_bottom = blocks[-1][1]
-            cloud_x_start = x_start_common
-            cloud_x_end = x_end_common
-
+            # ✅ CLOUD for this group
+            cloud_top = group[0][0]
+            cloud_bottom = group[-1][1]
+            cloud_x_start = max(b[2] for b in group)
+            cloud_x_end = min(b[3] for b in group)
 
             x0, y0 = cloud_x_start - 25, cloud_top - 25
             w = (cloud_x_end - cloud_x_start) + 50

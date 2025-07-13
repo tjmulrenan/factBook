@@ -1,63 +1,30 @@
 Things to add in book
 
-Mentions on this day or something ismilar
-140 words maybe 100 instead max
-
- 
-40-80
-
-judge thing for FACTS
-
-
-FIX CLOUDS
+Content stuff
+Mentions on this day or something similar
+40-80 words make sure
+judge thing for FACTS?
 REMOVE RECORD RELEASES AND MOVIE RELEASES AS EVNETS, these are not fun
-
-
-ASK FACTS TO BE worldwide for day and holiday? Maybe make them more cool
-
-add scrabble or wordsearch
-FEWER WORDS ON FACTS
-OLDEER LOOKING BACKGROUND
-CHANFGE FONT
-MAKE THE PHOTOS MORE 14 YO MAYBE
-
-
-tzwrite it iin the style of a 8-12 year old reading level bracket appropirate
-drawing in 12 year old 
-
+DAYS THAT SLAY -ASK FACTS TO BE worldwide for day and holiday? Maybe make them more cool
 if a complex word please explain it in terms a 12 year odl owould udnerstandf
-
-
-12p for scorer
-
-
-
-make sure to correct background spellings
-
-
-NEED TO ALTER THRESHOLD FOR WORLD SHAKER CATEGORY
-
-find tj
-wordseastch
-il be hiding intro
-put me hardcoded into the title pagesw
-
-
-answsers at end all numberewd together, smaller font closer together
-
-
-to personm from person
-question at the end of the book
-    whats thspecial about this day
-    whats your favourite FACTS
-    etc
-
-
+12p for scorer?
+specifify the cataogrys in this book arre unique to this book, so ask friends what they get or  something
 fix prompt for one this day reminder  (maybe do a percentage? dont need them everytgime)
 optional shouldnt repeat tidself make it clearer
 
+graphic stuff
+make sure to correct background spellings
+NEED TO ALTER THRESHOLD FOR WORLD SHAKER CATEGORY
+to personm from person at begining
 
-Maybe boring or not kid ones
+
+
+ADJUST PROMPT TO FIX THE FOLLOWING
+Maybe boring or not kid ones 
+WRONG CATRAOGRIES (MAYBNE FOR JSON CHECKER IT SHOULD LET ME REASSIGN CATAGORY AND ALSO SHOW TOTLA CURRENT OF THAT CATAGORY)
+this one got porno in it (NEED TO REMOVE STUFF LIKE THAT)
+
+Maybe boring or not kid ones 
 Jack Benny's Radio Breakthrough
 Jack Benny stepped up to the microphone on Ed
 Sullivan's New York interview program in 1932 and
@@ -146,9 +113,3 @@ important alternative rock bands ever. Their hit song
 "Just Because" helped define a whole new sound in
 rock music. Later, Perry started another band called
 Porno For Pyros.
-
-
-FOR PDF CLOUDS
-PS C:\Users\timmu\Documents\repos\Factbook Project> pip install pymupdf==1.22.3
-Collecting pymupdf==1.22.3
-  Downloading PyMuPDF-1.22.3.tar.gz (59.2 MB)

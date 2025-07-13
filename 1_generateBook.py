@@ -18,12 +18,16 @@ from reportlab.lib import colors
 from reportlab.lib.utils import ImageReader
 from reportlab.platypus import Image as RLImage
 from reportlab.platypus import Flowable
+from reportlab.platypus import Table, TableStyle
 from reportlab.pdfbase.pdfmetrics import registerFontFamily
 from reportlab.lib.units import cm
 import fitz  # PyMuPDF
 from PIL import Image
+from reportlab.lib.pagesizes import letter 
 
 print("CWD:", os.getcwd())
+
+
 
 def draw_cloud_shape_background(canvas, doc, alpha=0.88, scale=1.0):
     from reportlab.lib.units import cm
@@ -83,7 +87,7 @@ def draw_cloud_shape_background(canvas, doc, alpha=0.88, scale=1.0):
 from reportlab.platypus import Flowable, Paragraph
 
 class TransparentBox(Flowable):
-    def __init__(self, content, style, width=None, height=None, padding=15, alpha=0.85, inner_spacing=None):
+    def __init__(self, content, style, width=None, height=None, padding=15, alpha=0.85, inner_spacing=None, border=False):
         super().__init__()
         self.style = style
         self.padding = padding
@@ -91,6 +95,7 @@ class TransparentBox(Flowable):
         self.width = width if width is not None else 450
         self.height = height
         self.inner_spacing = 0 if inner_spacing is None else inner_spacing  # ✅ Add this
+        self.border = border
 
         # Normalize content to list of flowables
         if isinstance(content, list):
@@ -125,7 +130,14 @@ class TransparentBox(Flowable):
         self.canv.setFillColorRGB(1, 1, 1, alpha=self.alpha)
 
         x = -self._cur_x if hasattr(self, '_cur_x') else 0
-        self.canv.rect(x, 0, self.eff_width, self.eff_height, fill=1, stroke=0)
+
+        # ✅ Add border if requested
+        if getattr(self, "border", False):
+            self.canv.setStrokeColor(colors.black)
+            self.canv.setLineWidth(3)
+            self.canv.rect(x, 0, self.eff_width, self.eff_height, fill=1, stroke=1)
+        else:
+            self.canv.rect(x, 0, self.eff_width, self.eff_height, fill=1, stroke=0)
 
         content_width = self.eff_width - 2 * self.padding
         y_cursor = self.eff_height - self.padding  # start from top
@@ -139,6 +151,21 @@ class TransparentBox(Flowable):
 
         self.canv.restoreState()
 
+class FixedBottomTransparentBox(TransparentBox):
+    def __init__(self, content, style, page_height, bottom_margin=30, **kwargs):
+        super().__init__(content, style, **kwargs)
+        self.page_height = page_height
+        self.bottom_margin = bottom_margin
+
+    def wrap(self, availWidth, availHeight):
+        # Let it calculate internally, but report no height
+        super().wrap(availWidth, availHeight)
+        return 0, 0  # force ReportLab to "ignore" it for layout
+
+    def drawOn(self, canvas, x, y, _sW=0):
+        y_position = self.bottom_margin
+        centered_x = (canvas._pagesize[0] - self.eff_width) / 2
+        super().drawOn(canvas, centered_x, y_position, _sW)
 
 
 
@@ -319,14 +346,18 @@ def build_elements(facts, styles, date_str, category_pages=None):
     elements.append(PageBreak())
 
     intro_text = f"""
-        Hey you — yeah, you with the excellent taste in books. Whether today’s your birthday, your dog’s birthday, or just a totally random spin of the calendar wheel — this book is here to make your day 100% more interesting.
+        Hey you — yeah, you with the excellent taste in books. Whether today’s your birthday, your dog’s birthday, or just a totally random spin of the calendar wheel, this book is here to make your day 100% more interesting.
 
-        I’m TJ — your guide, fact hoarder, and proud human from Saffron Walden (it's a town, not a wizard spell, I checked). I’ve spent way too much time digging through history books, science sites, fun facts, and the weird corners of the internet so you don’t have to.
+        I’m TJ: your guide, fact hoarder, and proud human from Saffron Walden (it's a town, not a wizard spell — I checked). I’ve spent way too much time digging through history books, science sites, fun facts, and the weird corners of the internet so you don’t have to.
 
         So the big question is: <b>What happened on {date_str}?</b>
 
         Flip the page, trust the chaos, and become the class trivia weapon your teacher never saw coming.
-        <br/><br/><br/><b>— TJ</b>"""
+
+        <br/><br/><i>P.S. I’ll be hiding at the start of each chapter...<br/>Can you find me?</i>
+        <br/><br/><b>— TJ</b>
+    """
+
 
     elements.append(Paragraph(
         "__INTRO_PAGE__",
@@ -761,8 +792,8 @@ def build_elements(facts, styles, date_str, category_pages=None):
                     ('TOPPADDING', (0, 0), (-1, -1), 6),
                     ('BOTTOMPADDING', (0, 0), (-1, -1), 6),
                     ('VALIGN', (0, 0), (-1, -1), 'TOP'),
-                    ('LINEBELOW', (0, 0), (-1, -2), 0.25, colors.grey),
-                    ('LINEAFTER', (0, 0), (0, -1), 0.25, colors.grey),
+                    ('LINEBELOW', (0, 0), (-1, -2), 0.25, colors.darkgrey),
+                    ('LINEAFTER', (0, 0), (0, -1), 0.25, colors.darkgrey),
                 ]))
 
 
@@ -787,6 +818,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
             styles['trivia_questions'],
             alpha=0.85
         ))
+        elements.append(Spacer(1, 12))
         # elements.append(Spacer(1, 20))  # space before image
 
         # Word search image (centered below description)
@@ -800,14 +832,15 @@ def build_elements(facts, styles, date_str, category_pages=None):
                 img_reader = ImageReader(image_path)
                 original_width, original_height = img_reader.getSize()
 
-                # Set fixed height
-                desired_height = 450
+                # Fixed height
+                fixed_height = 430
                 aspect_ratio = original_width / original_height
-                new_width = desired_height * aspect_ratio
+                new_width = fixed_height * aspect_ratio
 
-                elements.append(Spacer(1, -10))
-                elements.append(RLImage(image_path, width=new_width, height=desired_height))
-                elements.append(Spacer(1, -10))
+                elements.append(Spacer(1, 12))
+                elements.append(RLImage(image_path, width=new_width, height=fixed_height))
+                elements.append(Spacer(1, 12))
+
             except Exception as e:
                 logging.warning(f"❌ Could not scale image properly: {e}")
         else:
@@ -822,28 +855,42 @@ def build_elements(facts, styles, date_str, category_pages=None):
                 with open(all_words_path, "r", encoding="utf-8") as f:
                     all_words = json.load(f)
                 words = all_words.get(category_key, [])
+
                 if words:
-                    # Wrap words by total character length per line
-                    max_chars_per_line = 90  # Adjust this as needed
-                    lines = []
-                    current_line = ""
-                    for word in words[:20]:
-                        word_upper = word.upper()
-                        if len(current_line) + len(word_upper) + 6 > max_chars_per_line:  # 6 for spacing
-                            lines.append(current_line.strip())
-                            current_line = ""
-                        current_line += word_upper + "      "  # 6 spaces
-                    if current_line:
-                        lines.append(current_line.strip())
+                    # Format words into rows of 4 (or whatever you want)
+                    row_length = 4
+                    # Convert all words to uppercase
+                    words_upper = [w.upper() for w in words]
 
-                    # Combine into a single paragraph with <br/> line breaks
-                    inline_text = "<para align='center'>" + "<br/>".join(lines) + "</para>"
+                    # Slice into rows of 6
+                    table_data = [words_upper[i:i + row_length] for i in range(0, len(words_upper), row_length)]
 
-                    word_block = TransparentBox(
-                        Paragraph(inline_text, styles['wordsearch']),
+                    # Pad last row if needed
+                    if len(table_data[-1]) < row_length:
+                        table_data[-1] += [""] * (row_length - len(table_data[-1]))
+
+                    # Create table
+                    word_table = Table(table_data, colWidths=450 // row_length)
+                    word_table.setStyle(TableStyle([
+                        ('FONTNAME', (0, 0), (-1, -1), 'Baloo2'),
+                        ('FONTSIZE', (0, 0), (-1, -1), 11),
+                        ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
+                        ('VALIGN', (0, 0), (-1, -1), 'MIDDLE'),
+                        ('BOTTOMPADDING', (0, 0), (-1, -1), 2),
+                        ('TOPPADDING', (0, 0), (-1, -1), 2),
+                        # Optional: background if needed for visibility
+                        # ('BACKGROUND', (0, 0), (-1, -1), colors.white),
+                    ]))
+
+                    # Wrap in FixedBottomTransparentBox
+                    word_block = FixedBottomTransparentBox(
+                        word_table,
                         styles['wordsearch'],
+                        page_height=letter[1],
+                        width=450,
+                        padding=10,
                         alpha=0.85,
-                        padding=10
+                        border=True
                     )
                     elements.append(word_block)
                 else:
@@ -853,6 +900,102 @@ def build_elements(facts, styles, date_str, category_pages=None):
                 elements.append(Paragraph("Couldn’t load word list!", styles['story']))
         else:
             elements.append(Paragraph("Word list file is missing!", styles['story']))
+
+        # ➕ Grid Gauntlet Page
+        elements.append(PageBreak())
+
+        # Title and intro
+        elements.append(TransparentBox("Grid Gauntlet", styles['cat_title'], alpha=0.85))
+        elements.append(TransparentBox(
+            "Tackle the clues and conquer the crossword — it’s brain-flexing time!",
+            styles['trivia_questions'],
+            alpha=0.85
+        ))
+        elements.append(Spacer(1, 12))
+
+        # Crossword image
+        category_key = CATEGORY_BACKGROUNDS.get(category, '').lower()
+        crossword_path = os.path.join(
+            "C:/Users/timmu/Documents/repos/Factbook Project/crossword",
+            f"{category_key}.png"
+        )
+
+        if os.path.exists(crossword_path):
+            try:
+                img_reader = ImageReader(crossword_path)
+                original_width, original_height = img_reader.getSize()
+
+                fixed_height = 250  # 👈 your new constant height
+                aspect_ratio = original_width / original_height  # 👈 note: width over height
+                new_width = fixed_height * aspect_ratio
+
+                elements.append(Spacer(1, 12))
+                elements.append(RLImage(crossword_path, width=new_width, height=fixed_height))
+                elements.append(Spacer(1, 12))  # 👇 DON'T add a PageBreak here
+
+            except Exception as e:
+                logging.warning(f"❌ Could not load crossword image for {category_key}: {e}")
+                elements.append(Paragraph("Crossword image couldn't load.", styles['story']))
+        else:
+            logging.warning(f"❌ Crossword image not found: {crossword_path}")
+            elements.append(Paragraph("Crossword image not found.", styles['story']))
+
+        # Load clue data
+        clue_path = "C:/Users/timmu/Documents/repos/Factbook Project/crossword/grid_gauntlet_words.json"
+        clue_key = f"{category_key}_crossword"
+
+        across_clues = {}
+        down_clues = {}
+
+        if os.path.exists(clue_path):
+            try:
+                with open(clue_path, "r", encoding="utf-8") as f:
+                    all_clues = json.load(f)
+                    if clue_key in all_clues:
+                        across_clues = all_clues[clue_key].get("across", {})
+                        down_clues = all_clues[clue_key].get("down", {})
+                    else:
+                        logging.warning(f"❓ No crossword clues found for key: {clue_key}")
+            except Exception as e:
+                logging.warning(f"❌ Error reading crossword clues: {e}")
+        else:
+            logging.warning("❌ grid_gauntlet_words.json not found")
+
+        # Display clue table below the image
+        if across_clues or down_clues:
+            across_items = sorted(across_clues.items(), key=lambda x: int(x[0]))
+            down_items = sorted(down_clues.items(), key=lambda x: int(x[0]))
+
+            # Build paragraphs separately
+            across_paragraphs = [Paragraph("<b>ACROSS</b>", styles['crossword_layout'])] + [
+                Paragraph(f"<b>{number}.</b> {clue}", styles['crossword']) for number, clue in across_items
+            ]
+            down_paragraphs = [Paragraph("<b>DOWN</b>", styles['crossword_layout'])] + [
+                Paragraph(f"<b>{number}.</b> {clue}", styles['crossword']) for number, clue in down_items
+            ]
+
+            # Build 2-column table with two vertical stacks (each a list of flowables)
+            clue_table = Table(
+                [[across_paragraphs, down_paragraphs]],
+                colWidths=[220, 220]
+            )
+            clue_table.setStyle(TableStyle([
+                ('VALIGN', (0, 0), (-1, -1), 'TOP'),
+                ('LEFTPADDING', (0, 0), (-1, -1), 10),
+                ('RIGHTPADDING', (0, 0), (-1, -1), 10),
+                ('TOPPADDING', (0, 0), (-1, -1), 1),
+                ('BOTTOMPADDING', (0, 0), (-1, -1), 1),
+            ]))
+
+            elements.append(FixedBottomTransparentBox(
+                clue_table,
+                styles['crossword'],
+                page_height=letter[1],
+                width=450,
+                padding=12,
+                alpha=0.85,
+                border=True
+            ))
 
 
 
@@ -913,6 +1056,331 @@ def build_elements(facts, styles, date_str, category_pages=None):
     for i, (q, a) in enumerate(global_answers, 1):
         para = Paragraph(f"<b>{i}.</b> {q}<br/><b>Answer:</b> {a}", styles['trivia_answers'])
         elements.append(TransparentBox([para], styles['trivia_answers'], alpha=0.85, padding=4, inner_spacing=0))
+
+    # ➕ Letter Quest Answers Section (2x2 Grid Layout)
+    if category_pages:
+        elements.append(PageBreak())
+        elements.append(TransparentBox("🧩 Letter Quest Answers", styles['cat_title'], alpha=0.85))
+
+        grid_cells = []
+
+        for category, bg_key in CATEGORY_BACKGROUNDS.items():
+            answer_image_path = os.path.join(
+                "C:/Users/timmu/Documents/repos/Factbook Project/wordsearch",
+                f"{bg_key.lower()}_answers.png"
+            )
+
+            if not os.path.exists(answer_image_path):
+                logging.warning(f"❌ Missing Letter Quest answer image: {answer_image_path}")
+                continue
+
+            try:
+                img_reader = ImageReader(answer_image_path)
+                original_width, original_height = img_reader.getSize()
+
+                # Resize for 2x2 layout
+                fixed_height = 250
+                aspect_ratio = original_width / original_height
+                new_width = fixed_height * aspect_ratio
+
+                title_para = Paragraph(category, ParagraphStyle(
+                    "GridTitle",
+                    fontName="Baloo2-Bold",
+                    fontSize=12,
+                    leading=14,
+                    alignment=TA_CENTER,
+                    spaceAfter=4,
+                    textColor=colors.white  # ← this makes the text white
+                ))
+
+                image = RLImage(answer_image_path, width=new_width, height=fixed_height)
+
+                cell_content = [title_para, Spacer(1, 4), image]
+                grid_cells.append(cell_content)
+
+            except Exception as e:
+                logging.warning(f"❌ Could not load Letter Quest answer image for {category}: {e}")
+                continue
+
+        # ➕ Group into 2x2 layout (2 columns, 2 rows per page)
+
+        rows_of_2 = [grid_cells[i:i + 2] for i in range(0, len(grid_cells), 2)]
+        page_blocks = [rows_of_2[i:i + 2] for i in range(0, len(rows_of_2), 2)]
+
+        for page_block in page_blocks:
+            page_table_data = []
+            for row in page_block:
+                # Pad to ensure 2 items
+                while len(row) < 2:
+                    row.append([Spacer(1, 1)])
+                page_table_data.append(row)
+
+            table = Table(
+                page_table_data,
+                colWidths=[270, 270],
+                rowHeights=None,
+                hAlign='CENTER'
+            )
+            table.setStyle(TableStyle([
+                ('VALIGN', (0, 0), (-1, -1), 'TOP'),
+                ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
+                ('LEFTPADDING', (0, 0), (-1, -1), 6),
+                ('RIGHTPADDING', (0, 0), (-1, -1), 6),
+                ('BOTTOMPADDING', (0, 0), (-1, -1), 14),
+                ('TOPPADDING', (0, 0), (-1, -1), 4),
+                ('GRID', (0, 0), (-1, -1), 0.5, colors.grey)
+            ]))
+
+            elements.append(Spacer(1, 12))
+            elements.append(table)
+            elements.append(PageBreak())
+
+        # ➕ Grid Gauntlet Answers Section (2x2 Grid Layout)
+        elements.append(PageBreak())
+        elements.append(TransparentBox("🧠 Grid Gauntlet Answers", styles['cat_title'], alpha=0.85))
+
+        gridgauntlet_cells = []
+
+        for category, bg_key in CATEGORY_BACKGROUNDS.items():
+            answer_image_path = os.path.join(
+                "C:/Users/timmu/Documents/repos/Factbook Project/crossword",
+                f"{bg_key.lower()}_answers.png"
+            )
+
+            if not os.path.exists(answer_image_path):
+                logging.warning(f"❌ Missing Grid Gauntlet answer image: {answer_image_path}")
+                continue
+
+            try:
+                img_reader = ImageReader(answer_image_path)
+                original_width, original_height = img_reader.getSize()
+
+                max_cell_width = 250  # max width per image cell
+                aspect_ratio = original_height / original_width
+                new_height = max_cell_width * aspect_ratio
+
+                title_para = Paragraph(category, ParagraphStyle(
+                    "GridGauntletTitle",
+                    fontName="Baloo2-Bold",
+                    fontSize=12,
+                    leading=14,
+                    alignment=TA_CENTER,
+                    spaceAfter=4,
+                    textColor=colors.white  # ✅ white text for visibility
+                ))
+
+                image = RLImage(answer_image_path, width=max_cell_width, height=new_height)
+
+                cell_content = [title_para, Spacer(1, 4), image]
+                gridgauntlet_cells.append(cell_content)
+
+            except Exception as e:
+                logging.warning(f"❌ Could not load Grid Gauntlet answer image for {category}: {e}")
+                continue
+
+        # Group into 2×2 layout
+        rows_of_2 = [gridgauntlet_cells[i:i + 2] for i in range(0, len(gridgauntlet_cells), 2)]
+        page_blocks = [rows_of_2[i:i + 2] for i in range(0, len(rows_of_2), 2)]
+
+        for page_block in page_blocks:
+            table_data = []
+            for row in page_block:
+                while len(row) < 2:
+                    row.append([Spacer(1, 1)])
+                table_data.append(row)
+
+            table = Table(
+                table_data,
+                colWidths=[270, 270],
+                hAlign='CENTER'
+            )
+            table.setStyle(TableStyle([
+                ('VALIGN', (0, 0), (-1, -1), 'TOP'),
+                ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
+                ('LEFTPADDING', (0, 0), (-1, -1), 6),
+                ('RIGHTPADDING', (0, 0), (-1, -1), 6),
+                ('BOTTOMPADDING', (0, 0), (-1, -1), 14),
+                ('TOPPADDING', (0, 0), (-1, -1), 4),
+                ('GRID', (0, 0), (-1, -1), 0.5, colors.grey)
+            ]))
+
+            elements.append(Spacer(1, 12))
+            elements.append(table)
+
+
+
+    elements.append(PageBreak())
+    elements.append(TransparentBox("🧪 Letter Quest Previews", styles['cat_title'], alpha=0.85))
+
+    # Load word lists once
+    all_words_path = os.path.join(
+        "C:/Users/timmu/Documents/repos/Factbook Project/wordsearch",
+        "letter_quest_words.json"
+    )
+    if os.path.exists(all_words_path):
+        with open(all_words_path, "r", encoding="utf-8") as f:
+            all_words = json.load(f)
+    else:
+        all_words = {}
+
+    # Loop through all categories
+    for category, bg_key in CATEGORY_BACKGROUNDS.items():
+        elements.append(PageBreak())
+        elements.append(TransparentBox("Letter Quest", styles['cat_title'], alpha=0.85))
+        elements.append(TransparentBox(
+            "Unleash your inner word wizard with this word search!",
+            styles['trivia_questions'],
+            alpha=0.85
+        ))
+        elements.append(Spacer(1, 12))
+
+        # 📸 Word search image
+        image_path = os.path.join(
+            "C:/Users/timmu/Documents/repos/Factbook Project/wordsearch",
+            f"{bg_key.lower()}.png"
+        )
+        if os.path.exists(image_path):
+            try:
+                img_reader = ImageReader(image_path)
+                original_width, original_height = img_reader.getSize()
+                fixed_height = 430
+                aspect_ratio = original_width / original_height
+                new_width = fixed_height * aspect_ratio
+
+                elements.append(Spacer(1, 12))
+                elements.append(RLImage(image_path, width=new_width, height=fixed_height))
+                elements.append(Spacer(1, 12))
+            except Exception as e:
+                logging.warning(f"❌ Failed to load preview image for {category}: {e}")
+                elements.append(Paragraph("Could not load word search image.", styles['story']))
+        else:
+            elements.append(Paragraph("Word search image not found.", styles['story']))
+
+        # 🔠 Word list using a Table (NEW)
+        words = all_words.get(bg_key.lower(), [])
+        if words:
+            row_length = 4  # columns
+            # Convert all words to uppercase
+            words_upper = [w.upper() for w in words]
+
+            # Slice into rows of 6
+            table_data = [words_upper[i:i + row_length] for i in range(0, len(words_upper), row_length)]
+            if len(table_data[-1]) < row_length:
+                table_data[-1] += [""] * (row_length - len(table_data[-1]))  # pad last row
+
+            word_table = Table(table_data, colWidths=450 // row_length)
+            word_table.setStyle(TableStyle([
+                ('FONTNAME', (0, 0), (-1, -1), 'Baloo2'),
+                ('FONTSIZE', (0, 0), (-1, -1), 11),
+                ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
+                ('VALIGN', (0, 0), (-1, -1), 'MIDDLE'),
+                ('BOTTOMPADDING', (0, 0), (-1, -1), 2),
+                ('TOPPADDING', (0, 0), (-1, -1), 2),
+                # Optional background
+                # ('BACKGROUND', (0, 0), (-1, -1), colors.white),
+            ]))
+
+            word_block = FixedBottomTransparentBox(
+                word_table,
+                styles['wordsearch'],
+                page_height=letter[1],
+                width=450,
+                padding=10,
+                alpha=0.85,
+                border=True
+            )
+            elements.append(word_block)
+        else:
+            elements.append(Paragraph("No word list found for this category.", styles['story']))
+    
+    # ➕ Grid Gauntlet Previews
+    elements.append(PageBreak())
+    elements.append(TransparentBox("🧠 Grid Gauntlet Previews", styles['cat_title'], alpha=0.85))
+
+    # Load all crossword clues
+    clue_path = "C:/Users/timmu/Documents/repos/Factbook Project/crossword/grid_gauntlet_words.json"
+    if os.path.exists(clue_path):
+        with open(clue_path, "r", encoding="utf-8") as f:
+            all_clues = json.load(f)
+    else:
+        all_clues = {}
+
+    for category, bg_key in CATEGORY_BACKGROUNDS.items():
+        elements.append(PageBreak())
+        elements.append(TransparentBox("Grid Gauntlet", styles['cat_title'], alpha=0.85))
+        elements.append(TransparentBox(
+            "Tackle the clues and conquer the crossword — it’s brain-flexing time!",
+            styles['trivia_questions'],
+            alpha=0.85
+        ))
+        elements.append(Spacer(1, 12))
+
+        # 📸 Crossword image
+        crossword_path = os.path.join(
+            "C:/Users/timmu/Documents/repos/Factbook Project/crossword",
+            f"{bg_key.lower()}.png"
+        )
+
+        if os.path.exists(crossword_path):
+            try:
+                img_reader = ImageReader(crossword_path)
+                original_width, original_height = img_reader.getSize()
+                
+                fixed_height = 250  # 👈 fixed height
+                aspect_ratio = original_width / original_height  # width / height
+                new_width = fixed_height * aspect_ratio
+
+                elements.append(Spacer(1, 12))
+                elements.append(RLImage(crossword_path, width=new_width, height=fixed_height))
+                elements.append(Spacer(1, 12))
+            except Exception as e:
+                logging.warning(f"❌ Failed to load preview crossword for {category}: {e}")
+                elements.append(Paragraph("Could not load crossword image.", styles['story']))
+        else:
+            elements.append(Paragraph("Crossword image not found.", styles['story']))
+
+        # 🧩 Crossword clues
+        clue_key = f"{bg_key.lower()}_crossword"
+        across_clues = all_clues.get(clue_key, {}).get("across", {})
+        down_clues = all_clues.get(clue_key, {}).get("down", {})
+
+        if across_clues or down_clues:
+            across_items = sorted(across_clues.items(), key=lambda x: int(x[0]))
+            down_items = sorted(down_clues.items(), key=lambda x: int(x[0]))
+
+            # Build paragraphs separately
+            across_paragraphs = [Paragraph("<b>ACROSS</b>", styles['crossword_layout'])] + [
+                Paragraph(f"<b>{number}.</b> {clue}", styles['crossword']) for number, clue in across_items
+            ]
+            down_paragraphs = [Paragraph("<b>DOWN</b>", styles['crossword_layout'])] + [
+                Paragraph(f"<b>{number}.</b> {clue}", styles['crossword']) for number, clue in down_items
+            ]
+
+            # Build 2-column table with two vertical stacks (each a list of flowables)
+            clue_table = Table(
+                [[across_paragraphs, down_paragraphs]],
+                colWidths=[220, 220]
+            )
+            clue_table.setStyle(TableStyle([
+                ('VALIGN', (0, 0), (-1, -1), 'TOP'),
+                ('LEFTPADDING', (0, 0), (-1, -1), 10),
+                ('RIGHTPADDING', (0, 0), (-1, -1), 10),
+                ('TOPPADDING', (0, 0), (-1, -1), 1),
+                ('BOTTOMPADDING', (0, 0), (-1, -1), 1),
+            ]))
+
+            elements.append(FixedBottomTransparentBox(
+                clue_table,
+                styles['crossword'],
+                page_height=letter[1],
+                width=450,
+                padding=12,
+                alpha=0.85,
+                border=True
+            ))
+        else:
+            elements.append(Paragraph("No crossword clues found for this category.", styles['story']))
+
 
     return elements
 
@@ -1176,8 +1644,16 @@ def generate_pdf_with_manual_toc(json_file, output_pdf):
             spaceAfter=16, spaceBefore=0
         ),
         'wordsearch': ParagraphStyle(
-            "Wordsearch", fontName="Baloo2", fontSize=12, leading=19,
-            spaceAfter=16, spaceBefore=0
+            "Wordsearch", fontName="Baloo2", fontSize=14, leading=12,
+            spaceAfter=2, spaceBefore=0
+        ),
+        'crossword_layout': ParagraphStyle(
+            "Crossword_Layout", fontName="LuckiestGuy", fontSize=12, leading=12,
+            spaceAfter=4, spaceBefore=0
+        ),
+        'crossword': ParagraphStyle(
+            "Crossword", fontName="Baloo2", fontSize=10, leading=12,
+            spaceAfter=2, spaceBefore=0
         ),
         'trivia_title': ParagraphStyle(
             "TriviaTitle", fontName="LuckiestGuy", fontSize=24, leading=20,
