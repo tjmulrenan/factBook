@@ -13,6 +13,7 @@ BRIGHTNESS_THRESHOLD_ROW = 200
 BRIGHTNESS_THRESHOLD_BLOCK = 220
 BRIGHTNESS_THRESHOLD_COL = 200
 
+
 def detect_special_layout(image: Image.Image):
     text = pytesseract.image_to_string(image)
     text_lower = text.lower()
@@ -89,6 +90,8 @@ def visually_fill_transparent_gaps(pdf_path, alpha=0.85, dpi=144):
     doc = fitz.open(pdf_path)
     # page_count = min(len(doc), 63)
     page_count = len(doc)
+    has_seen_letter_quest_answers = False
+    has_seen_grid_gauntlet_answers = False
 
     # for page_index in range(page_count - 15, page_count): # Debugging last 15 pages
     for page_index in range(page_count):
@@ -151,10 +154,49 @@ def visually_fill_transparent_gaps(pdf_path, alpha=0.85, dpi=144):
         is_gauntlet = layout_flags["grid_gauntlet"]
         is_letter_quest = layout_flags["letter_quest"]
         ocr_text = layout_flags["raw_text"]
-        print(f"🧠 Grid Gauntlet Page Detected: {is_gauntlet}")
+        text_lower = ocr_text.lower()
+
+        # Page-specific detection
+        is_lqa_page = "letter quest answers" in text_lower
+        is_gga_page = "grid gauntlet answers" in text_lower
+
+        # Delay updating flags until after rendering
+        mark_lqa_seen = False
+        mark_gga_seen = False
+
+        # Control flow for cloud/gap logic
+        cloud_mode = False
+        allow_gap_patch = True
+        special_single_cloud = False
+
+        if is_lqa_page:
+            cloud_mode = True
+            allow_gap_patch = False
+            special_single_cloud = True
+            mark_lqa_seen = True
+        elif is_gga_page:
+            cloud_mode = True
+            allow_gap_patch = False
+            special_single_cloud = True
+            mark_gga_seen = True
+        elif has_seen_letter_quest_answers and not has_seen_grid_gauntlet_answers:
+            cloud_mode = False
+            allow_gap_patch = False
+        elif has_seen_letter_quest_answers and has_seen_grid_gauntlet_answers:
+            cloud_mode = False
+            allow_gap_patch = False
+        else:
+            cloud_mode = True  # ✅ Enable clouds by default before LQA
+            allow_gap_patch = True
+
+        print(f"🧠 Grid Gauntlet Detected: {is_gauntlet}")
+        print(f"📜 Letter Quest Detected: {is_letter_quest}")
+        print(f"🔤 OCR Text (page {page_index + 1}):\n{text_lower}")
 
         # 🔁 Custom block grouping
-        if (is_gauntlet or is_letter_quest) and len(blocks) >= 3:
+        if special_single_cloud and len(blocks) >= 1:
+            grouped_blocks = [[blocks[0]]]  # Only first block gets a cloud
+        elif (is_gauntlet or is_letter_quest) and len(blocks) >= 3:
             grouped_blocks = [blocks[:2], [blocks[-1]]]
         else:
             grouped_blocks = [blocks]
@@ -166,79 +208,82 @@ def visually_fill_transparent_gaps(pdf_path, alpha=0.85, dpi=144):
 
         # 🔁 Loop through block groups
         for group in grouped_blocks:
-            if len(group) < 2:
-                continue  # skip patching if only 1 block in this group
+            if len(group) < 2 and not special_single_cloud:
+                continue
 
             # ✅ PATCH gaps *within* this group
-            for i in range(len(group) - 1):
-                top = group[i][1]
-                bottom = group[i + 1][0]
-                x_start_common = max(b[2] for b in group)
-                x_end_common = min(b[3] for b in group)
+            if allow_gap_patch:
+                for i in range(len(group) - 1):
+                    top = group[i][1]
+                    bottom = group[i + 1][0]
+                    x_start_common = max(b[2] for b in group)
+                    x_end_common = min(b[3] for b in group)
 
-                if bottom > top and (x_end_common - x_start_common) > 10:
-                    draw.rectangle(
-                        [(x_start_common, top + 1), (x_end_common, bottom - 1)],
-                        fill=(255, 255, 255, int(alpha * 255))
-                    )
-                    print(f"🩹 Page {page_index + 1}: hard-patched y={top + 1}-{bottom - 1}")
-                    gap_count += 1
+                    if bottom > top and (x_end_common - x_start_common) > 10:
+                        draw.rectangle(
+                            [(x_start_common, top + 1), (x_end_common, bottom - 1)],
+                            fill=(255, 255, 255, int(alpha * 255))
+                        )
+                        print(f"🩹 Page {page_index + 1}: hard-patched y={top + 1}-{bottom - 1}")
+                        gap_count += 1
 
 
             # ✅ CLOUD for this group
-            cloud_top = group[0][0]
-            cloud_bottom = group[-1][1]
-            cloud_x_start = max(b[2] for b in group)
-            cloud_x_end = min(b[3] for b in group)
+            if cloud_mode:
+                # ✅ CLOUD for this group
+                cloud_top = group[0][0]
+                cloud_bottom = group[-1][1]
+                cloud_x_start = max(b[2] for b in group)
+                cloud_x_end = min(b[3] for b in group)
 
-            x0, y0 = cloud_x_start - 25, cloud_top - 25
-            w = (cloud_x_end - cloud_x_start) + 50
-            h = (cloud_bottom - cloud_top) + 50
+                x0, y0 = cloud_x_start - 25, cloud_top - 25
+                w = (cloud_x_end - cloud_x_start) + 50
+                h = (cloud_bottom - cloud_top) + 50
 
-            # Upscaling factor
-            SCALE = 4
-            highres_w = width * SCALE
-            highres_h = height * SCALE
+                # Upscaling factor
+                SCALE = 4
+                highres_w = width * SCALE
+                highres_h = height * SCALE
 
-            # High-res overlay
-            cloud_hr = Image.new("RGBA", (highres_w, highres_h), (0, 0, 0, 0))
-            cloud_draw = ImageDraw.Draw(cloud_hr)
+                # High-res overlay
+                cloud_hr = Image.new("RGBA", (highres_w, highres_h), (0, 0, 0, 0))
+                cloud_draw = ImageDraw.Draw(cloud_hr)
 
-            # Scale all coordinates
-            x0_hr = x0 * SCALE
-            y0_hr = y0 * SCALE
-            w_hr = w * SCALE
-            h_hr = h * SCALE
-            cloud_x_start_hr = cloud_x_start * SCALE
-            cloud_x_end_hr = cloud_x_end * SCALE
-            cloud_top_hr = cloud_top * SCALE
-            cloud_bottom_hr = cloud_bottom * SCALE
+                # Scale all coordinates
+                x0_hr = x0 * SCALE
+                y0_hr = y0 * SCALE
+                w_hr = w * SCALE
+                h_hr = h * SCALE
+                cloud_x_start_hr = cloud_x_start * SCALE
+                cloud_x_end_hr = cloud_x_end * SCALE
+                cloud_top_hr = cloud_top * SCALE
+                cloud_bottom_hr = cloud_bottom * SCALE
 
-            # Generate path
-            path_points = generate_soft_cloud_path(x0_hr, y0_hr, w_hr, h_hr, bumps_x=10, bumps_y=8, radius=18 * SCALE)
+                # Generate path
+                path_points = generate_soft_cloud_path(
+                    x0_hr, y0_hr, w_hr, h_hr, bumps_x=10, bumps_y=8, radius=18 * SCALE
+                )
 
-            # Fill outside, punch hole in center
-            cloud_draw.polygon(path_points, fill=(255, 255, 255, int(alpha * 255)))
-            cloud_draw.rectangle(
-                [(cloud_x_start_hr, cloud_top_hr), (cloud_x_end_hr, cloud_bottom_hr)],
-                fill=(0, 0, 0, 0)
-            )
+                # Fill outside, punch hole in center
+                cloud_draw.polygon(path_points, fill=(255, 255, 255, int(alpha * 255)))
+                cloud_draw.rectangle(
+                    [(cloud_x_start_hr, cloud_top_hr), (cloud_x_end_hr, cloud_bottom_hr)],
+                    fill=(0, 0, 0, 0)
+                )
 
-            # 🔽 Transparent semicircles along top edge
-            semicircle_path = generate_top_semicircle_cutouts(
-                cloud_x_start_hr, cloud_top_hr, cloud_x_end_hr, cloud_top_hr,
-                num_bumps=20, radius=12 * SCALE
-            )
-            cloud_draw.polygon(semicircle_path, fill=(0, 0, 0, 0))
+                # Transparent semicircles
+                semicircle_path = generate_top_semicircle_cutouts(
+                    cloud_x_start_hr, cloud_top_hr, cloud_x_end_hr, cloud_top_hr,
+                    num_bumps=20, radius=12 * SCALE
+                )
+                cloud_draw.polygon(semicircle_path, fill=(0, 0, 0, 0))
 
-            # Smooth bold outline
-            cloud_draw.line(path_points + [path_points[0]], fill=(0, 0, 0, 255), width=5 * SCALE, joint="curve")
+                # Outline
+                cloud_draw.line(path_points + [path_points[0]], fill=(0, 0, 0, 255), width=5 * SCALE, joint="curve")
 
-            # Downscale for anti-aliasing
-            cloud_final = cloud_hr.resize((width, height), resample=Image.LANCZOS)
-
-            # Composite to base image
-            img = Image.alpha_composite(img, cloud_final)
+                # Downscale and merge
+                cloud_final = cloud_hr.resize((width, height), resample=Image.LANCZOS)
+                img = Image.alpha_composite(img, cloud_final)
 
 
 
@@ -254,6 +299,12 @@ def visually_fill_transparent_gaps(pdf_path, alpha=0.85, dpi=144):
         out_bytes = io.BytesIO()
         img.save(out_bytes, format="PNG")
         page.insert_image(page.rect, stream=out_bytes.getvalue(), overlay=True)
+
+        # ✅ Now mark the current page as seen (but only after rendering)
+        if mark_lqa_seen:
+            has_seen_letter_quest_answers = True
+        if mark_gga_seen:
+            has_seen_grid_gauntlet_answers = True
 
     # Save uncompressed version (optional)
     output_path = pdf_path.replace(".pdf", "_gapfilled.pdf")

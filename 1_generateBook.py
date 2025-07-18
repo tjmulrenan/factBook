@@ -902,7 +902,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
             elements.append(Paragraph("Word list file is missing!", styles['story']))
 
         # ➕ Grid Gauntlet Page
-        elements.append(PageBreak())
+        # elements.append(PageBreak())
 
         # Title and intro
         elements.append(TransparentBox("Grid Gauntlet", styles['cat_title'], alpha=0.85))
@@ -1064,7 +1064,10 @@ def build_elements(facts, styles, date_str, category_pages=None):
 
         grid_cells = []
 
-        for category, bg_key in CATEGORY_BACKGROUNDS.items():
+        for category in categories:
+            bg_key = CATEGORY_BACKGROUNDS.get(category)
+            if not bg_key:
+                continue  # skip if no background key is mapped
             answer_image_path = os.path.join(
                 "C:/Users/timmu/Documents/repos/Factbook Project/wordsearch",
                 f"{bg_key.lower()}_answers.png"
@@ -1079,7 +1082,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
                 original_width, original_height = img_reader.getSize()
 
                 # Resize for 2x2 layout
-                fixed_height = 250
+                fixed_height = 230
                 aspect_ratio = original_width / original_height
                 new_width = fixed_height * aspect_ratio
 
@@ -1133,7 +1136,6 @@ def build_elements(facts, styles, date_str, category_pages=None):
 
             elements.append(Spacer(1, 12))
             elements.append(table)
-            elements.append(PageBreak())
 
         # ➕ Grid Gauntlet Answers Section (2x2 Grid Layout)
         elements.append(PageBreak())
@@ -1141,7 +1143,10 @@ def build_elements(facts, styles, date_str, category_pages=None):
 
         gridgauntlet_cells = []
 
-        for category, bg_key in CATEGORY_BACKGROUNDS.items():
+        for category in categories:
+            bg_key = CATEGORY_BACKGROUNDS.get(category)
+            if not bg_key:
+                continue  # skip if no background key is mapped
             answer_image_path = os.path.join(
                 "C:/Users/timmu/Documents/repos/Factbook Project/crossword",
                 f"{bg_key.lower()}_answers.png"
