@@ -53,19 +53,45 @@ Use a playful tone when the topic allows — humor, surprise, or quirky wording 
 Follow these exact rules:
 
 - Your story must be **between (score - 30) and score** words. The `score` is also your max word count.  
+- ⚠️ A tiny range of ±2 words is okay, but don't go outside that unless absolutely necessary.
 - If the story is **under the minimum**, that’s an error. **Do not submit it. Fix it first.**  
 - Always write a story — never skip one.  
+
 - Add a **short, fun title**.  
+  - Keep it under 8 words. Make it punchy and engaging — something that makes a kid want to read more!
+
 - Write a **single-paragraph story** with a strong, attention-grabbing first sentence.  
   - Don’t begin with “Imagine...”, “In [year]...”, or any generic setup.  
   - Make the opening fresh and exciting.  
-- Use a lively, simple style — like you're telling something cool to a smart 10-year-old.  
-- ⚠️ **Always include the year the event happened naturally in the story.** Use the actual year provided — like 1974 or 2025 — and weave it smoothly into the narrative.  
-- ⚠️ If the fact is about someone’s **birth**, clearly say something like “they were born in 1969” or “she was born that year.”  
-- ⚠️ The `score` is not just a rating — it directly determines the story's word limit. So if the score is 85, the story must be between 55 and 85 words.  
-- ⚠️ Do not include anything that isn’t clearly appropriate for ages 8–12 — that means no adult content, mature themes, rude language, violent or scary material, or anything else unsuitable for kids, **even if it appears in names, titles, lyrics, or quotes**. 
-- ⚠️ Your story must clearly show that the event happened on the **same calendar date** — today in history — but don’t always say “on this day.” Use varied, natural wording that makes it feel fresh.
 
+- Use a lively, simple style — like you're telling something cool to a smart 10-year-old.  
+  - If you use a big or tricky word, quickly explain it in a way a smart 12-year-old would get.
+
+-⚠️ Your story must clearly show when the event happened — including both the year and the fact that it took place on this exact calendar date.
+
+-The date reference must feel natural and woven into the story, not robotic or copy-pasted.
+
+-❌ Don’t just start every story with “On March 29th, [year]…” — that’s too repetitive and flat.
+
+-✅ Instead, invent a fresh, creative way to mention the date and year within the context of the story — as if you were telling it aloud to a curious kid. The phrasing should change every time and never sound formulaic.
+
+- ⚠️ If the fact is about someone’s **birth**, clearly say something like “they were born in 1969” or “she was born that year.”
+
+- ⚠️ The reader should always feel like this moment is part of what makes **today special** — but never in a repetitive or formulaic way.
+- ⚠️ The `score` is not just a rating — it directly determines the story's word limit. So if the score is 85, the story must be between 55 and 85 words.  
+
+- ⚠️ Do not include anything that isn’t clearly appropriate for ages 8–12 — that means no adult content, mature themes, rude language, violent or scary material, or anything else unsuitable for kids, **even if it appears in names, titles, lyrics, or quotes**. 
+
+- ⚠️ Do not use record releases, album drops, or movie premieres as standalone events — they are not exciting or meaningful enough for this book.
+
+- ⚠️ Skip stories that are just about a performer’s **first radio show**, **TV debut**, or **award win**, unless something truly unusual or surprising happened.
+
+- ⚠️ Avoid boring or flat stories that have no real twist. “They were born and got famous” isn’t enough — we want curious, quirky, or wow moments.
+
+- ⚠️ If the fact involves a name, title, lyric, or band with any **inappropriate or adult-themed language**, skip it entirely — even if it’s indirect (like certain band names or shows).
+
+- ⚠️ Your story must clearly show that the event happened on the **same calendar date** — today in history.  
+  - Avoid saying “on this day” or anything too formulaic. Find natural, varied ways to show the date connection.
 
 ---
 
@@ -82,25 +108,13 @@ Follow these exact rules:
 **3. Add one bonus (only if it adds value):**
 
 ⚠️ Pick **only one**, and keep it **under 20 words**:
-
-- `quote`: A short, fun or thoughtful quote from someone in the story.
 - `follow_up_question`: A curious, open-ended question to get kids thinking.
 - `bonus_fact`: A fun or surprising detail that isn’t already in the story.
-
-Rate how helpful the bonus is using this scale:
-
-- 90–100: **Amazing** — clever, emotional, surprising, or sparks real curiosity.
-- 70–89: **Good** — adds helpful or fun value.
-- 40–69: **Okay** — adds a little something.
-- Below 40: **Weak** — dull, obvious, or just repeats the story.
-
-🎯 Only give 90+ if a smart, curious 10-year-old would say “Whoa, really?”
 
 ⚠️ Don’t include a bonus if it doesn’t help. Leave it out instead of forcing it.
 
 Include:
-- `"optional_type"` — either `"quote"`, `"follow_up_question"`, or `"bonus_fact"`
-- `"optional_quality_score"` — a number from 0 to 100 based on how much the bonus improves the story
+- `"optional_type"` — either `"follow_up_question"`, or `"bonus_fact"`
 
 ---
 
@@ -108,7 +122,10 @@ Include:
 
 Each should include:
 - `"category"` — choose from the list below
-- `"score"` — from 0.0 to 1.0 showing how well it fits
+- `"score"` — from 0.0 to 1.0 showing how well it fits  
+  - 1.0 = perfect match  
+  - 0.7 = pretty good fit  
+  - below 0.5 = weak fit — only use if there’s no better option
 
 🎯 Valid categories:
 - History’s Mic Drop Moments — wars, revolutions, treaties, global turning points  
@@ -117,7 +134,6 @@ Each should include:
 - Beyond Earth — astronomy, space missions, meteorology  
 - Creature Feature — cool creatures, conservation, animal records or traits  
 - Vibes, Beats & Brushes — creativity, artists, music, cultural trends  
-- Days That Slay — holidays, rituals, festivals, national days  
 - Full Beast Mode — competitions, record-breakers, sporting firsts  
 - Mother Nature’s Meltdowns — volcanoes, climate, ecosystems, nature wonders  
 - The What Zone — oddities, mysteries, unusual facts
@@ -136,13 +152,14 @@ Return ONLY valid JSON with:
 - `suitable_for_8_to_12_year_old` (true or false)
 
 ✅ Include just ONE of the following:
-- `quote`  
 - `follow_up_question`  
 - `bonus_fact`  
-...with the matching `optional_type` and `optional_quality_score`.
+...with the matching `optional_type`.
 
 Only use straight quotes ("). Escape internal quotes as \\".
 """
+
+
 
 
 def extract_json_from_markdown(text):

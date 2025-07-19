@@ -1,22 +1,61 @@
 [
   {
-    "id": "2",
-    "title": "Sweet and Sour Power Hour",
-    "story": "March 29th is National Lemon Chiffon Cake Day, when bakers everywhere whip up this fluffy, tangy treat! Lemon chiffon cake is super light and airy because it's made with beaten egg whites that create tiny bubbles. On this day, bakeries feature special lemon chiffon displays, families share their secret recipes, and social media fills with photos of perfectly golden slices. The cake tastes like sunshine with its bright lemon flavor and cloud-like texture that practically melts in your mouth!",
+    "id": "901",
+    "title": "Lemon Chiffon Cake Day: Light, Fluffy Fun!",
+    "story": "Every March 29th, bakers across America celebrate National Lemon Chiffon Cake Day by whipping up this special dessert! Chiffon cake is super light and airy because it's made with oil instead of butter, plus beaten egg whites that make it fluffy like a cloud. People love making lemon chiffon cake because it tastes bright and citrusy, perfect for spring. Bakeries sell extra slices on this day, and home bakers share photos of their yellow masterpieces online. The best part? This cake is so soft and spongy, it practically melts in your mouth!",
+    "activity_question": "What makes chiffon cake so light and fluffy?",
+    "activity_choices": [
+      "Oil instead of butter and beaten egg whites",
+      "Extra sugar and vanilla extract",
+      "Baking it in a pizza oven",
+      "Adding fizzy soda to the batter"
+    ],
+    "activity_answer": "Oil instead of butter and beaten egg whites",
+    "bonus_fact": "Chiffon cake was invented in 1927 but kept secret for 20 years!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
     "suitable_for_8_to_12_year_old": true,
     "score": 65
   },
   {
-    "id": "4",
-    "title": "Smoke and Mirrors Day: When Magic Meets Truth!",
-    "story": "March 29th is Smoke and Mirrors Day, when people celebrate the art of illusion and question what's really true! Magicians perform extra tricks today, showing off classic \"smoke and mirrors\" effects that fool our eyes. But it's not just about magic shows - people also use this day to talk about being honest and spotting when someone might be trying to trick them with fancy words or confusing facts. Schools sometimes hold magic shows or teach kids how to think critically about information they see online.",
+    "id": "902",
+    "title": "Smoke and Mirrors Day: Magic or Trickery?",
+    "story": "March 29th is Smoke and Mirrors Day, when people celebrate the art of illusion and magic tricks! Magicians perform special shows using classic \"smoke and mirrors\" techniques to amaze audiences. Kids practice card tricks, coin disappearing acts, and simple illusions they can share with friends and family. The phrase \"smoke and mirrors\" also means when someone tries to confuse or trick others, so some people use this day to learn about spotting fake news or misleading information online. Libraries and schools often host magic workshops where children can learn the secrets behind famous tricks and create their own magical performances.",
+    "activity_question": "What do magicians traditionally use to create illusions on Smoke and Mirrors Day?",
+    "activity_choices": [
+      "Smoke and mirrors",
+      "Glitter and rainbows",
+      "Cookies and milk",
+      "Books and pencils"
+    ],
+    "activity_answer": "Smoke and mirrors",
+    "follow_up_question": "What's the coolest magic trick you've ever seen or would like to learn?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
     "suitable_for_8_to_12_year_old": true,
     "score": 75
   },
   {
-    "id": "5",
-    "title": "When the Famous Falls Took a Break!",
-    "story": "On March 29th, people celebrate one of the weirdest natural events ever recorded - the day Niagara Falls completely stopped flowing! Back in 1848, ice blocked the Niagara River so badly that the thundering waterfalls went silent for almost 30 hours. Today on March 29th, visitors to Niagara Falls share photos and stories about this incredible moment when you could actually walk on the dry riverbed where millions of gallons usually crash down every minute. Some people even joke about what they'd do if they could explore behind the falls without getting soaked!",
+    "id": "903",
+    "title": "When Niagara Falls Forgot to Flow",
+    "story": "Every March 29th, people celebrate one of the weirdest days in waterfall history! On this day in 1848, Niagara Falls actually stopped flowing for about 30 hours. An ice jam blocked the Niagara River, and suddenly the thundering water went silent. People walked out onto the dry riverbed and picked up fish and artifacts! Today, visitors to Niagara Falls on March 29th love sharing photos and stories about this incredible day when nature hit the pause button. Tour guides tell the amazing tale, and people imagine what it would be like to see the famous falls completely dry again.",
+    "activity_question": "What caused Niagara Falls to stop flowing in 1848?",
+    "activity_choices": [
+      "An ice jam blocked the river",
+      "A giant beaver dam",
+      "Someone forgot to pay the water bill",
+      "A massive earthquake"
+    ],
+    "activity_answer": "An ice jam blocked the river",
+    "bonus_fact": "People found old guns, tomahawks, and other artifacts in the dry riverbed!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
     "suitable_for_8_to_12_year_old": true,
     "score": 90
   }

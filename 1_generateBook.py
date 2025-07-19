@@ -262,8 +262,7 @@ class MyDocTemplate(BaseDocTemplate):
             elif text.startswith("__TRIVIA_START__") and text not in self._page_tracker:
                 self._page_tracker[text] = self.page
             elif text in (
-                "__TOC_PAGE__", "__TOC_END__", "__INTRO_PAGE__", "__COVER_PAGE__",
-                "__DAYS_THAT_SLAY__", "__TODAYS_VIBE_CHECK__"
+                "__TOC_PAGE__", "__TOC_END__", "__INTRO_PAGE__", "__COVER_PAGE__", "__TODAYS_VIBE_CHECK__"
             ):
                 self._page_tracker[text] = self.page
 
@@ -330,23 +329,14 @@ def build_elements(facts, styles, date_str, category_pages=None):
     global_answers = []  # ⬅️ Reset before accumulating again
     num_facts = len(facts)
 
-    elements.append(Spacer(1, 200))
-
+    # ✅ Insert only the hidden marker and a page break — no visible content
     elements += [
         Paragraph("__COVER_PAGE__", ParagraphStyle("HiddenCoverMarker", fontSize=1, textColor=colors.white)),
-        Spacer(1, 10),
-        TransparentBox("WHAT HAPPENED ON...", styles['cover_title'], alpha=0.85),
-        Spacer(1, 12),
-        TransparentBox(f"{date_str}?", styles['cover_date'], alpha=0.85),
-        Spacer(1, 60),
-        TransparentBox("By Timothy John Mulrenan", styles['cover_date'], alpha=0.85)
+        PageBreak()
     ]
-
-
-    elements.append(PageBreak())
-
+    
     intro_text = f"""
-        Hey you — yeah, you with the excellent taste in books. Whether today’s your birthday, your dog’s birthday, or just a totally random spin of the calendar wheel, this book is here to make your day 100% more interesting.
+        Hey you! Yeah, you with the excellent taste in books. Whether today’s your birthday, your dog’s birthday, or just a totally random spin of the calendar wheel, this book is here to make your day 100% more interesting.
 
         I’m TJ: your guide, fact hoarder, and proud human from Saffron Walden (it's a town, not a wizard spell — I checked). I’ve spent way too much time digging through history books, science sites, fun facts, and the weird corners of the internet so you don’t have to.
 
@@ -474,72 +464,11 @@ def build_elements(facts, styles, date_str, category_pages=None):
 
         if not added_any:
             elements.append(Paragraph("No kid-friendly facts available today.", styles['story']))
-        elements.append(PageBreak())
+        # elements.append(PageBreak())
 
     except Exception as e:
         logging.warning(f"🚫 Could not load Today's Vibe Check facts: {e}")
         elements.append(Paragraph("Oops! Vibe Check facts couldn’t load.", styles['story']))
-
-
-    # 🎉 Days That Slay Section
-    elements.append(Paragraph(
-        "__DAYS_THAT_SLAY__",
-        ParagraphStyle("HiddenSlayMarker", fontSize=1, textColor=colors.white)
-    ))
-
-    # Vertical spacing like category headers
-    page_height = letter[1]
-    estimated_content_height = 180
-    spacer_height = max(0, (page_height - estimated_content_height) / 2 - 50)
-    
-    elements.append(Spacer(1, spacer_height))
-
-    
-
-    # Slay header and intro inside transparent boxes (matching Vibe Check)
-    slay_intro = KeepTogether([
-        Paragraph("<para align='center'><b>Days That Slay</b></para>", styles['category']),
-    #     TransparentBox("<para align='center'><b>Days That Slay</b></para>", styles['cat_title'], alpha=0.85),
-    #     Spacer(1, 10),
-    #     TransparentBox(
-    #         "The most extra, random, and delightful holidays hitting today. Weird food? Niche magic? Major vibes.",
-    #         styles['story'],
-    #         alpha=0.85
-    #     )
-    ])
-    elements.append(slay_intro)
-    elements.append(PageBreak())
-
-
-    try:
-        month, day = date_str.split()
-        day = ''.join(filter(str.isdigit, day))
-        slay_filename = f"{month}_{day}_Holidays_scored_enhanced.json"
-        slay_path = os.path.join(
-            "C:/Users/timmu/Documents/repos/Factbook Project/facts/new fact grabber/c_enhanced",
-            slay_filename
-        )
-        with open(slay_path, "r", encoding="utf-8") as f:
-            slay_facts = json.load(f)
-
-        added_any = False
-        for entry in slay_facts:
-            if entry.get("suitable_for_8_to_12_year_old", False):
-                fact_block = KeepTogether([
-                    TransparentBox(f"<i>{entry['title']}</i>", styles['title']),
-                    TransparentBox(entry["story"], styles['story'])
-                ])
-                elements.append(fact_block)
-                added_any = True
-
-        if not added_any:
-            elements.append(Paragraph("No fun holidays hit today — weird!", styles['story']))
-
-    except Exception as e:
-        logging.warning(f"🚫 Could not load Days That Slay facts: {e}")
-        elements.append(Paragraph("Oops! Slay day stories couldn’t load.", styles['story']))
-
-
 
 
     # Categorize facts
@@ -691,9 +620,13 @@ def build_elements(facts, styles, date_str, category_pages=None):
 
     question_number = 1
 
+    from collections import Counter
+
     for category, fact_list in categories.items():
         if category_pages is None:
-            logging.info(f"📚 Category: {category} — {len(fact_list)} facts")
+            fact_ids = [f["id"] for f in fact_list]
+            logging.info(f"📚 Category: {category} — {len(fact_ids)} facts")
+            logging.info(f"   🆔 IDs: {', '.join(fact_ids)}")
 
         # 🔁 PageBreak starts a new page with the category title
         elements.append(PageBreak())
@@ -1027,6 +960,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
 
     # Export category structure for external validation with word counts
     global final_categories_dict
+    print("🧩 Final categories at export time:", list(categories.keys()))
     final_categories_dict = {
         category: [
             {
@@ -1055,7 +989,19 @@ def build_elements(facts, styles, date_str, category_pages=None):
 
     for i, (q, a) in enumerate(global_answers, 1):
         para = Paragraph(f"<b>{i}.</b> {q}<br/><b>Answer:</b> {a}", styles['trivia_answers'])
-        elements.append(TransparentBox([para], styles['trivia_answers'], alpha=0.85, padding=4, inner_spacing=0))
+        box = TransparentBox(
+            [para],
+            styles['trivia_answers'],
+            alpha=0.85,
+            padding=4,
+            inner_spacing=0,
+            width=450  # keep default width to avoid extra wrapping
+        )
+        # 🔽 Horizontally offset the box inward by 45 pts (~0.6 inch)
+        box.drawOn = lambda canvas, x, y, _sW=0, box=box: TransparentBox.drawOn(
+            box, canvas, x + 45, y, _sW
+        )
+        elements.append(box)
 
     # ➕ Letter Quest Answers Section (2x2 Grid Layout)
     if category_pages:
@@ -1214,177 +1160,177 @@ def build_elements(facts, styles, date_str, category_pages=None):
 
 
 
-    elements.append(PageBreak())
-    elements.append(TransparentBox("🧪 Letter Quest Previews", styles['cat_title'], alpha=0.85))
+    # elements.append(PageBreak())
+    # elements.append(TransparentBox("🧪 Letter Quest Previews", styles['cat_title'], alpha=0.85))
 
-    # Load word lists once
-    all_words_path = os.path.join(
-        "C:/Users/timmu/Documents/repos/Factbook Project/wordsearch",
-        "letter_quest_words.json"
-    )
-    if os.path.exists(all_words_path):
-        with open(all_words_path, "r", encoding="utf-8") as f:
-            all_words = json.load(f)
-    else:
-        all_words = {}
+    # # Load word lists once
+    # all_words_path = os.path.join(
+    #     "C:/Users/timmu/Documents/repos/Factbook Project/wordsearch",
+    #     "letter_quest_words.json"
+    # )
+    # if os.path.exists(all_words_path):
+    #     with open(all_words_path, "r", encoding="utf-8") as f:
+    #         all_words = json.load(f)
+    # else:
+    #     all_words = {}
 
-    # Loop through all categories
-    for category, bg_key in CATEGORY_BACKGROUNDS.items():
-        elements.append(PageBreak())
-        elements.append(TransparentBox("Letter Quest", styles['cat_title'], alpha=0.85))
-        elements.append(TransparentBox(
-            "Unleash your inner word wizard with this word search!",
-            styles['trivia_questions'],
-            alpha=0.85
-        ))
-        elements.append(Spacer(1, 12))
+    # # Loop through all categories
+    # for category, bg_key in CATEGORY_BACKGROUNDS.items():
+    #     elements.append(PageBreak())
+    #     elements.append(TransparentBox("Letter Quest", styles['cat_title'], alpha=0.85))
+    #     elements.append(TransparentBox(
+    #         "Unleash your inner word wizard with this word search!",
+    #         styles['trivia_questions'],
+    #         alpha=0.85
+    #     ))
+    #     elements.append(Spacer(1, 12))
 
-        # 📸 Word search image
-        image_path = os.path.join(
-            "C:/Users/timmu/Documents/repos/Factbook Project/wordsearch",
-            f"{bg_key.lower()}.png"
-        )
-        if os.path.exists(image_path):
-            try:
-                img_reader = ImageReader(image_path)
-                original_width, original_height = img_reader.getSize()
-                fixed_height = 430
-                aspect_ratio = original_width / original_height
-                new_width = fixed_height * aspect_ratio
+    #     # 📸 Word search image
+    #     image_path = os.path.join(
+    #         "C:/Users/timmu/Documents/repos/Factbook Project/wordsearch",
+    #         f"{bg_key.lower()}.png"
+    #     )
+    #     if os.path.exists(image_path):
+    #         try:
+    #             img_reader = ImageReader(image_path)
+    #             original_width, original_height = img_reader.getSize()
+    #             fixed_height = 430
+    #             aspect_ratio = original_width / original_height
+    #             new_width = fixed_height * aspect_ratio
 
-                elements.append(Spacer(1, 12))
-                elements.append(RLImage(image_path, width=new_width, height=fixed_height))
-                elements.append(Spacer(1, 12))
-            except Exception as e:
-                logging.warning(f"❌ Failed to load preview image for {category}: {e}")
-                elements.append(Paragraph("Could not load word search image.", styles['story']))
-        else:
-            elements.append(Paragraph("Word search image not found.", styles['story']))
+    #             elements.append(Spacer(1, 12))
+    #             elements.append(RLImage(image_path, width=new_width, height=fixed_height))
+    #             elements.append(Spacer(1, 12))
+    #         except Exception as e:
+    #             logging.warning(f"❌ Failed to load preview image for {category}: {e}")
+    #             elements.append(Paragraph("Could not load word search image.", styles['story']))
+    #     else:
+    #         elements.append(Paragraph("Word search image not found.", styles['story']))
 
-        # 🔠 Word list using a Table (NEW)
-        words = all_words.get(bg_key.lower(), [])
-        if words:
-            row_length = 4  # columns
-            # Convert all words to uppercase
-            words_upper = [w.upper() for w in words]
+    #     # 🔠 Word list using a Table (NEW)
+    #     words = all_words.get(bg_key.lower(), [])
+    #     if words:
+    #         row_length = 4  # columns
+    #         # Convert all words to uppercase
+    #         words_upper = [w.upper() for w in words]
 
-            # Slice into rows of 6
-            table_data = [words_upper[i:i + row_length] for i in range(0, len(words_upper), row_length)]
-            if len(table_data[-1]) < row_length:
-                table_data[-1] += [""] * (row_length - len(table_data[-1]))  # pad last row
+    #         # Slice into rows of 6
+    #         table_data = [words_upper[i:i + row_length] for i in range(0, len(words_upper), row_length)]
+    #         if len(table_data[-1]) < row_length:
+    #             table_data[-1] += [""] * (row_length - len(table_data[-1]))  # pad last row
 
-            word_table = Table(table_data, colWidths=450 // row_length)
-            word_table.setStyle(TableStyle([
-                ('FONTNAME', (0, 0), (-1, -1), 'Baloo2'),
-                ('FONTSIZE', (0, 0), (-1, -1), 11),
-                ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
-                ('VALIGN', (0, 0), (-1, -1), 'MIDDLE'),
-                ('BOTTOMPADDING', (0, 0), (-1, -1), 2),
-                ('TOPPADDING', (0, 0), (-1, -1), 2),
-                # Optional background
-                # ('BACKGROUND', (0, 0), (-1, -1), colors.white),
-            ]))
+    #         word_table = Table(table_data, colWidths=450 // row_length)
+    #         word_table.setStyle(TableStyle([
+    #             ('FONTNAME', (0, 0), (-1, -1), 'Baloo2'),
+    #             ('FONTSIZE', (0, 0), (-1, -1), 11),
+    #             ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
+    #             ('VALIGN', (0, 0), (-1, -1), 'MIDDLE'),
+    #             ('BOTTOMPADDING', (0, 0), (-1, -1), 2),
+    #             ('TOPPADDING', (0, 0), (-1, -1), 2),
+    #             # Optional background
+    #             # ('BACKGROUND', (0, 0), (-1, -1), colors.white),
+    #         ]))
 
-            word_block = FixedBottomTransparentBox(
-                word_table,
-                styles['wordsearch'],
-                page_height=letter[1],
-                width=450,
-                padding=10,
-                alpha=0.85,
-                border=True
-            )
-            elements.append(word_block)
-        else:
-            elements.append(Paragraph("No word list found for this category.", styles['story']))
+    #         word_block = FixedBottomTransparentBox(
+    #             word_table,
+    #             styles['wordsearch'],
+    #             page_height=letter[1],
+    #             width=450,
+    #             padding=10,
+    #             alpha=0.85,
+    #             border=True
+    #         )
+    #         elements.append(word_block)
+    #     else:
+    #         elements.append(Paragraph("No word list found for this category.", styles['story']))
     
-    # ➕ Grid Gauntlet Previews
-    elements.append(PageBreak())
-    elements.append(TransparentBox("🧠 Grid Gauntlet Previews", styles['cat_title'], alpha=0.85))
+    # # ➕ Grid Gauntlet Previews
+    # elements.append(PageBreak())
+    # elements.append(TransparentBox("🧠 Grid Gauntlet Previews", styles['cat_title'], alpha=0.85))
 
-    # Load all crossword clues
-    clue_path = "C:/Users/timmu/Documents/repos/Factbook Project/crossword/grid_gauntlet_words.json"
-    if os.path.exists(clue_path):
-        with open(clue_path, "r", encoding="utf-8") as f:
-            all_clues = json.load(f)
-    else:
-        all_clues = {}
+    # # Load all crossword clues
+    # clue_path = "C:/Users/timmu/Documents/repos/Factbook Project/crossword/grid_gauntlet_words.json"
+    # if os.path.exists(clue_path):
+    #     with open(clue_path, "r", encoding="utf-8") as f:
+    #         all_clues = json.load(f)
+    # else:
+    #     all_clues = {}
 
-    for category, bg_key in CATEGORY_BACKGROUNDS.items():
-        elements.append(PageBreak())
-        elements.append(TransparentBox("Grid Gauntlet", styles['cat_title'], alpha=0.85))
-        elements.append(TransparentBox(
-            "Tackle the clues and conquer the crossword — it’s brain-flexing time!",
-            styles['trivia_questions'],
-            alpha=0.85
-        ))
-        elements.append(Spacer(1, 12))
+    # for category, bg_key in CATEGORY_BACKGROUNDS.items():
+    #     elements.append(PageBreak())
+    #     elements.append(TransparentBox("Grid Gauntlet", styles['cat_title'], alpha=0.85))
+    #     elements.append(TransparentBox(
+    #         "Tackle the clues and conquer the crossword — it’s brain-flexing time!",
+    #         styles['trivia_questions'],
+    #         alpha=0.85
+    #     ))
+    #     elements.append(Spacer(1, 12))
 
-        # 📸 Crossword image
-        crossword_path = os.path.join(
-            "C:/Users/timmu/Documents/repos/Factbook Project/crossword",
-            f"{bg_key.lower()}.png"
-        )
+    #     # 📸 Crossword image
+    #     crossword_path = os.path.join(
+    #         "C:/Users/timmu/Documents/repos/Factbook Project/crossword",
+    #         f"{bg_key.lower()}.png"
+    #     )
 
-        if os.path.exists(crossword_path):
-            try:
-                img_reader = ImageReader(crossword_path)
-                original_width, original_height = img_reader.getSize()
+    #     if os.path.exists(crossword_path):
+    #         try:
+    #             img_reader = ImageReader(crossword_path)
+    #             original_width, original_height = img_reader.getSize()
                 
-                fixed_height = 250  # 👈 fixed height
-                aspect_ratio = original_width / original_height  # width / height
-                new_width = fixed_height * aspect_ratio
+    #             fixed_height = 250  # 👈 fixed height
+    #             aspect_ratio = original_width / original_height  # width / height
+    #             new_width = fixed_height * aspect_ratio
 
-                elements.append(Spacer(1, 12))
-                elements.append(RLImage(crossword_path, width=new_width, height=fixed_height))
-                elements.append(Spacer(1, 12))
-            except Exception as e:
-                logging.warning(f"❌ Failed to load preview crossword for {category}: {e}")
-                elements.append(Paragraph("Could not load crossword image.", styles['story']))
-        else:
-            elements.append(Paragraph("Crossword image not found.", styles['story']))
+    #             elements.append(Spacer(1, 12))
+    #             elements.append(RLImage(crossword_path, width=new_width, height=fixed_height))
+    #             elements.append(Spacer(1, 12))
+    #         except Exception as e:
+    #             logging.warning(f"❌ Failed to load preview crossword for {category}: {e}")
+    #             elements.append(Paragraph("Could not load crossword image.", styles['story']))
+    #     else:
+    #         elements.append(Paragraph("Crossword image not found.", styles['story']))
 
-        # 🧩 Crossword clues
-        clue_key = f"{bg_key.lower()}_crossword"
-        across_clues = all_clues.get(clue_key, {}).get("across", {})
-        down_clues = all_clues.get(clue_key, {}).get("down", {})
+    #     # 🧩 Crossword clues
+    #     clue_key = f"{bg_key.lower()}_crossword"
+    #     across_clues = all_clues.get(clue_key, {}).get("across", {})
+    #     down_clues = all_clues.get(clue_key, {}).get("down", {})
 
-        if across_clues or down_clues:
-            across_items = sorted(across_clues.items(), key=lambda x: int(x[0]))
-            down_items = sorted(down_clues.items(), key=lambda x: int(x[0]))
+    #     if across_clues or down_clues:
+    #         across_items = sorted(across_clues.items(), key=lambda x: int(x[0]))
+    #         down_items = sorted(down_clues.items(), key=lambda x: int(x[0]))
 
-            # Build paragraphs separately
-            across_paragraphs = [Paragraph("<b>ACROSS</b>", styles['crossword_layout'])] + [
-                Paragraph(f"<b>{number}.</b> {clue}", styles['crossword']) for number, clue in across_items
-            ]
-            down_paragraphs = [Paragraph("<b>DOWN</b>", styles['crossword_layout'])] + [
-                Paragraph(f"<b>{number}.</b> {clue}", styles['crossword']) for number, clue in down_items
-            ]
+    #         # Build paragraphs separately
+    #         across_paragraphs = [Paragraph("<b>ACROSS</b>", styles['crossword_layout'])] + [
+    #             Paragraph(f"<b>{number}.</b> {clue}", styles['crossword']) for number, clue in across_items
+    #         ]
+    #         down_paragraphs = [Paragraph("<b>DOWN</b>", styles['crossword_layout'])] + [
+    #             Paragraph(f"<b>{number}.</b> {clue}", styles['crossword']) for number, clue in down_items
+    #         ]
 
-            # Build 2-column table with two vertical stacks (each a list of flowables)
-            clue_table = Table(
-                [[across_paragraphs, down_paragraphs]],
-                colWidths=[220, 220]
-            )
-            clue_table.setStyle(TableStyle([
-                ('VALIGN', (0, 0), (-1, -1), 'TOP'),
-                ('LEFTPADDING', (0, 0), (-1, -1), 10),
-                ('RIGHTPADDING', (0, 0), (-1, -1), 10),
-                ('TOPPADDING', (0, 0), (-1, -1), 1),
-                ('BOTTOMPADDING', (0, 0), (-1, -1), 1),
-            ]))
+    #         # Build 2-column table with two vertical stacks (each a list of flowables)
+    #         clue_table = Table(
+    #             [[across_paragraphs, down_paragraphs]],
+    #             colWidths=[220, 220]
+    #         )
+    #         clue_table.setStyle(TableStyle([
+    #             ('VALIGN', (0, 0), (-1, -1), 'TOP'),
+    #             ('LEFTPADDING', (0, 0), (-1, -1), 10),
+    #             ('RIGHTPADDING', (0, 0), (-1, -1), 10),
+    #             ('TOPPADDING', (0, 0), (-1, -1), 1),
+    #             ('BOTTOMPADDING', (0, 0), (-1, -1), 1),
+    #         ]))
 
-            elements.append(FixedBottomTransparentBox(
-                clue_table,
-                styles['crossword'],
-                page_height=letter[1],
-                width=450,
-                padding=12,
-                alpha=0.85,
-                border=True
-            ))
-        else:
-            elements.append(Paragraph("No crossword clues found for this category.", styles['story']))
+    #         elements.append(FixedBottomTransparentBox(
+    #             clue_table,
+    #             styles['crossword'],
+    #             page_height=letter[1],
+    #             width=450,
+    #             padding=12,
+    #             alpha=0.85,
+    #             border=True
+    #         ))
+    #     else:
+    #         elements.append(Paragraph("No crossword clues found for this category.", styles['story']))
 
 
     return elements
@@ -1422,7 +1368,7 @@ def compute_background_ranges(page_tracker, category_backgrounds):
         logging.debug(f"🔍 Considering label '{label}' → page {start_page} to {end_page}")
 
         if label == "__COVER_PAGE__":
-            bg_path = os.path.join("backgrounds", "cover.png")
+            bg_path = os.path.join("backgrounds", "to_from.png")
             kind = "cover"
             logging.info(f"📕 Cover page detected → pages {start_page}–{end_page}")
             if os.path.exists(bg_path):
@@ -1460,16 +1406,6 @@ def compute_background_ranges(page_tracker, category_backgrounds):
                 temp_ranges.append((start_page, end_page, bg_path, kind))
             else:
                 logging.warning(f"❌ Vibe Check background image not found: {bg_path}")
-            continue
-
-        elif label == "__DAYS_THAT_SLAY__":
-            bg_path = os.path.join("backgrounds", "days_that_slay.png")
-            kind = "slay"
-            logging.info(f"🎉 Days That Slay page detected → pages {start_page}–{end_page}")
-            if os.path.exists(bg_path):
-                temp_ranges.append((start_page, end_page, bg_path, kind))
-            else:
-                logging.warning(f"❌ Days That Slay background image not found: {bg_path}")
             continue
 
         elif label.startswith("__TRIVIA_START__"):
@@ -1976,7 +1912,7 @@ def get_unique_filename(directory, base_name):
 
 if __name__ == "__main__":
     base_dir = os.getcwd()
-    facts_dir = "C:/Users/timmu/Documents/repos/Factbook Project/facts/new fact grabber/5_catagorised"
+    facts_dir = "C:/Users/timmu/Documents/repos/Factbook Project/facts/new fact grabber/6_final"
     books_dir = os.path.join(base_dir, "books")
     os.makedirs(books_dir, exist_ok=True)
 

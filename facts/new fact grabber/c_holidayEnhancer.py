@@ -40,7 +40,7 @@ client = Client(api_key=os.getenv("ANTHROPIC_API_KEY"))
 PROMPT_HEADER = """
 You're helping write a fun fact book for curious kids aged 8 to 12.
 
-Each fact is about a real or unusual holiday that’s celebrated on a specific day of the year. Your job is to turn the fact into a short, playful story that explains:
+Each fact is about a real or unusual holiday that’s celebrated on a specific day of the year. Your job is to turn that fact into a short, playful story that explains:
 - what the holiday is about,
 - how people celebrate it today,
 - and why it’s fun, quirky, or meaningful to mark on this day.
@@ -51,6 +51,7 @@ Each fact includes:
 - an "id"
 - a "fact" (about the holiday)
 - a "score" (which sets your word count)
+- sometimes a "year"
 
 Use the score to guide your story length:
 - If the score is 100, your story must be **between 80 and 100 words**
@@ -61,21 +62,22 @@ Use the score to guide your story length:
 
 ---
 
-**Write the story:**
+**1. Write the story:**
 
 Follow these exact rules:
 
 - Focus **mostly on how the holiday is celebrated today** — what people do, eat, wear, say, post, or share on this exact day.
 - You may include fun facts or history about the holiday **only if it helps explain the celebration**.
-- The story must **clearly say** the holiday is being celebrated on *this specific calendar day* (not just “sometime” or “every year”).
+- The story must **clearly say** the holiday is celebrated on *this specific calendar day* (not just “sometime” or “every year”).
 - If room allows, end with a fun twist, modern trend, or curious tradition people enjoy.
 
 - Add a **clever, catchy, or funny title** that:
   - Includes the name or idea of the holiday
   - Feels like it belongs in a fun kids’ trivia book
   - Uses wordplay, rhyme, exaggeration, or puns if they fit the vibe
+  - Keep it under 8 words
 
-- Write a **single-paragraph story** with a punchy, specific first sentence.
+- Write a **single-paragraph story** with a strong, attention-grabbing first sentence.
   - Don’t begin with “Imagine...”, “In [year]...”, or any vague setup.
   - Start with something **lively, weird, bold, or straight into the action**.
 
@@ -84,18 +86,53 @@ Follow these exact rules:
   - For meaningful or serious days, stay respectful but still friendly and engaging.
 
 - ⚠️ If a **specific year** is mentioned in the fact, work it naturally into the story.
+  - Weave the year into a sentence smoothly — don’t tack it on awkwardly.
+
+- ⚠️ Do not include anything that isn’t clearly appropriate for ages 8–12 — no adult themes, rude language, scary material, or mature content.
+
+---
+
+**2. Add a trivia question:**
+
+- `activity_question`: A multiple-choice question based on something clearly in the story.
+- `activity_choices`: 4 answers total.
+  - For fun topics, include one silly or unexpected wrong answer.
+  - For serious topics, keep all answers realistic.
+- `activity_answer`: The correct one.
+
+---
+
+**3. Add one bonus (only if it adds value):**
+
+⚠️ Pick **only one**, and keep it **under 20 words**:
+- `follow_up_question`: A curious, open-ended question to get kids thinking.
+- `bonus_fact`: A fun or surprising detail that isn’t already in the story.
+
+⚠️ Don’t include a bonus if it doesn’t help. Leave it out instead of forcing it.
+
+Include:
+- `"optional_type"` — either `"follow_up_question"`, or `"bonus_fact"`
 
 ---
 
 Return ONLY valid JSON with:
 
-- `id`
-- `title`
-- `story`
+- `id`  
+- `title`  
+- `story`  
+- `activity_question`  
+- `activity_choices` (4 total)  
+- `activity_answer`  
 - `suitable_for_8_to_12_year_old` (true or false)
 
-Use only straight quotes ("). Escape any internal quotes as \\".
+✅ Include just ONE of the following:
+- `follow_up_question`  
+- `bonus_fact`  
+...with the matching `optional_type`.
+
+Only use straight quotes ("). Escape internal quotes as \\".
 """
+
 
 def extract_json_from_markdown(text):
     if "```json" in text:
@@ -170,13 +207,38 @@ def enhance_facts(facts, retries=2):
 
             for new in enhanced:
                 orig = id_map.get(str(new.get("id")))
-                if orig:
-                    new["id"] = orig["id"]
-                    new["score"] = orig["score"]  # ✅ Add the score back in
-                    matched.append(new)
-
-                else:
+                if not orig:
                     print(f"⚠️ No ID match found for: {new.get('title', '[No title]')}")
+                    continue
+
+                # Keep id and score from original
+                new["id"] = orig["id"]
+                new["score"] = orig["score"]
+
+                # Handle optional_type
+                if "bonus_fact" in new and new["bonus_fact"].strip():
+                    new["optional_type"] = "bonus_fact"
+                elif "follow_up_question" in new and new["follow_up_question"].strip():
+                    new["optional_type"] = "follow_up_question"
+
+                # Prefer one: drop follow_up if both exist
+                if "bonus_fact" in new and "follow_up_question" in new:
+                    del new["follow_up_question"]
+
+                # Always use the fixed category
+                new["categories"] = ["Days That Slay"]
+
+                # Ensure all required fields exist
+                required_fields = [
+                    "title", "story", "activity_question", "activity_choices",
+                    "activity_answer", "suitable_for_8_to_12_year_old", "categories"
+                ]
+                for key in required_fields:
+                    if key not in new:
+                        new[key] = "" if key != "activity_choices" else []
+
+                matched.append(new)
+
 
 
             return matched
@@ -197,17 +259,20 @@ def process_file(input_path):
         data = json.load(f)
 
     # Adjust for new structure
-    input_facts = [
-        {
-            "id": str(fact["id"]),
+    # Start IDs from 901 even if originals are 1, 2, 3...
+    kid_friendly = [fact for fact in data if fact.get("is_kid_friendly") is True]
+    input_facts = []
+
+    start_id = 901
+    for i, fact in enumerate(kid_friendly):
+        input_facts.append({
+            "id": str(start_id + i),  # Override with new ID
             "fact": fact["original"],
             "score": fact["score"],
             "max_word_limit": fact.get("max_word_limit"),
             "year": fact.get("year")
-        }
-        for fact in data
-        if fact.get("is_kid_friendly") is True
-    ]
+        })
+
 
     if not input_facts:
         print("No kid-friendly facts found.")
@@ -223,8 +288,21 @@ def process_file(input_path):
 
     # Save to enhanced folder
     output_path = os.path.join(SORTED_DIR, Path(input_path).stem + "_enhanced.json")
+    # Sort keys into preferred order
+    field_order = [
+        "id", "title", "story",
+        "activity_question", "activity_choices", "activity_answer",
+        "bonus_fact", "follow_up_question", "optional_type",
+        "categories", "suitable_for_8_to_12_year_old", "score"
+    ]
+
+    ordered = []
+    for fact in enhanced:
+        ordered_fact = {k: fact[k] for k in field_order if k in fact}
+        ordered.append(ordered_fact)
+
     with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(enhanced, f, indent=2, ensure_ascii=False)
+        json.dump(ordered, f, indent=2, ensure_ascii=False)
 
     print(f"\n✅ Saved enhanced facts to: {output_path}")
     sys.stdout.write('\a')

@@ -40,6 +40,7 @@ class FactEditorApp:
         self.save_indicators = {}
 
         # 🔹 Build UI
+        self.bonus_label_text = "Bonus Fact"  # default fallback label
         self.create_widgets()
         self.display_fact()
 
@@ -247,8 +248,8 @@ class FactEditorApp:
             color = 'red' if count < 3 else FG_LIGHT
             self.cat_listbox.itemconfig(idx, {'fg': color})
 
-            if cat == current:
-                self.cat_listbox.itemconfig(idx, {'bg': '#555555'})  # highlight selected
+            bg_color = '#555555' if cat == current else ENTRY_BG
+            self.cat_listbox.itemconfig(idx, {'bg': bg_color})
 
     def reset_all_facts(self):
         confirm = messagebox.askyesno("Reset All", "Are you sure you want to reset all facts to their original versions?")
@@ -381,8 +382,13 @@ class FactEditorApp:
             label_frame = Frame(field_frame, bg=BG_DARK)
             label_frame.pack(fill="x")
 
-            Label(label_frame, text=field.replace("_", " ").title(), anchor="w", font=("Arial", 10, "bold"),
-                bg=BG_DARK, fg=FG_LIGHT).pack(side="left")
+            label_text = "Bonus Fact" if field == "bonus_fact" else field.replace("_", " ").title()
+            label_widget = Label(label_frame, text=label_text, anchor="w", font=("Arial", 10, "bold"),
+                                bg=BG_DARK, fg=FG_LIGHT)
+            label_widget.pack(side="left")
+
+            if field == "bonus_fact":
+                self.bonus_label_widget = label_widget  # ✅ Save it so we can change it later
 
             if field != "activity_choices":
                 txt = Text(field_frame, height=height, width=100, wrap="word", font=("Arial", 10),
@@ -640,6 +646,18 @@ class FactEditorApp:
             return
 
         fact = self.facts[self.index]
+    
+        # Determine custom label for bonus_fact field 
+        self.bonus_label_text = "Bonus Fact"
+        # Handle alternate key for follow-up question
+        if fact.get("optional_type") == "follow_up_question":
+            self.bonus_label_text = "Follow-Up Question"
+            # Copy the actual content from follow_up_question into bonus_fact
+            self.bonus_label_widget.config(text="Follow-Up Question")
+            fact["bonus_fact"] = fact.get("follow_up_question", "")
+        else:
+            self.bonus_label_text = "Bonus Fact"
+            self.bonus_label_widget.config(text="Bonus Fact")
 
         for field, widget in self.fields.items():
             edited_val = fact.get(field, "")
@@ -708,6 +726,7 @@ class FactEditorApp:
         approved_count = sum(1 for fact in self.facts if fact.get("approved"))
         total_count = len(self.facts)
         self.approval_summary_label.config(text=f"✅ {approved_count} / {total_count} facts approved")
+        self.refresh_category_listbox()  # 🔁 Re-apply highlight to the current category
 
 
     def confirm(self, title, message):

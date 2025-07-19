@@ -87,7 +87,7 @@ image_map = {
 
 # --- File Paths ---
 pdf_path = r"C:\Users\timmu\Documents\repos\Factbook Project\books\finishedBook.pdf"
-json_path = r"C:\Users\timmu\Documents\repos\Factbook Project\facts\new fact grabber\5_catagorised\March_29_culled_enhanced_catagorised.json"
+json_path = r"C:\Users\timmu\Documents\repos\Factbook Project\facts\new fact grabber\6_final\March_29_Final.json"
 output_path = r"C:\Users\timmu\Documents\repos\Factbook Project\books\finishedBook_with_speechbubbles.pdf"
 
 

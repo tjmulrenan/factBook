@@ -93,8 +93,11 @@ def visually_fill_transparent_gaps(pdf_path, alpha=0.85, dpi=144):
     has_seen_letter_quest_answers = False
     has_seen_grid_gauntlet_answers = False
 
-    # for page_index in range(page_count - 15, page_count): # Debugging last 15 pages
-    for page_index in range(page_count):
+    for page_index in range(page_count - 15, page_count): # Debugging last 15 pages
+    # for page_index in range(page_count):
+        if page_index == 0:
+            print("🚫 Skipping page 1: no gap filling or clouding.")
+            continue
         page = doc[page_index]
         print(f"\n📄 Processing page {page_index + 1}/{page_count}")
 
@@ -196,6 +199,8 @@ def visually_fill_transparent_gaps(pdf_path, alpha=0.85, dpi=144):
         # 🔁 Custom block grouping
         if special_single_cloud and len(blocks) >= 1:
             grouped_blocks = [[blocks[0]]]  # Only first block gets a cloud
+        elif len(blocks) == 1:
+            grouped_blocks = [[blocks[0]]]  # New condition: one block = one cloud
         elif (is_gauntlet or is_letter_quest) and len(blocks) >= 3:
             grouped_blocks = [blocks[:2], [blocks[-1]]]
         else:
@@ -206,10 +211,18 @@ def visually_fill_transparent_gaps(pdf_path, alpha=0.85, dpi=144):
         print(f"🔤 OCR Text (page {page_index + 1}):\n{ocr_text}")
         print(f"🔍 Grouped block sets for page {page_index + 1}: {[[(b[0], b[1]) for b in g] for g in grouped_blocks]}")
 
+        has_drawn_first_cloud = False
         # 🔁 Loop through block groups
         for group in grouped_blocks:
-            if len(group) < 2 and not special_single_cloud:
-                continue
+            if not group:
+                print(f"⚠️ Skipping empty block group on page {page_index + 1}")
+                continue  # Skip empty groups entirely
+
+            if len(group) < 2:
+                if not cloud_mode:
+                    continue
+                else:
+                    print(f"☁️ Forcing cloud for single block on page {page_index + 1}")
 
             # ✅ PATCH gaps *within* this group
             if allow_gap_patch:
@@ -230,6 +243,15 @@ def visually_fill_transparent_gaps(pdf_path, alpha=0.85, dpi=144):
 
             # ✅ CLOUD for this group
             if cloud_mode:
+                # ✋ Skip cloud if one was already drawn, and this is a LQ/GG layout
+                if has_drawn_first_cloud and (is_letter_quest or is_gauntlet):
+                    print(f"⛔ Skipping extra cloud for LQ/GG page {page_index + 1}")
+                    continue
+
+                print(f"🌩 Drawing cloud for group on page {page_index + 1}: "
+                    f"y={group[0][0]}–{group[-1][1]}, x={max(b[2] for b in group)}–{min(b[3] for b in group)}")
+
+
                 # ✅ CLOUD for this group
                 cloud_top = group[0][0]
                 cloud_bottom = group[-1][1]
@@ -284,6 +306,8 @@ def visually_fill_transparent_gaps(pdf_path, alpha=0.85, dpi=144):
                 # Downscale and merge
                 cloud_final = cloud_hr.resize((width, height), resample=Image.LANCZOS)
                 img = Image.alpha_composite(img, cloud_final)
+
+                has_drawn_first_cloud = True 
 
 
 

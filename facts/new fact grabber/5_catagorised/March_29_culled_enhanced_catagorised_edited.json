@@ -1,19 +1,18 @@
 [
   {
     "id": "164",
-    "title": "The Clay Army That Shocked the World",
-    "story": "Chinese farmers were digging a well near Xi'an in 1974 when their shovels hit something incredible\u2014pieces of clay that looked like broken pottery, but way more exciting! What they had stumbled upon was the most amazing archaeological discovery ever: over 8,000 life-sized clay warrior statues buried underground for more than 2,000 years. These weren't just any statues\u2014they were the Terracotta Army, created to guard the tomb of Qin Shi Huang, China's first emperor. Each clay soldier has a different face, different clothes, and different weapons, like a massive ancient army frozen in time. The farmers went from looking for water to uncovering one of the world's greatest treasures!",
-    "activity_question": "What were the Chinese farmers originally trying to do when they discovered the Terracotta Army?",
+    "title": "Clay Army Rises from the Ground",
+    "story": "Chinese farmers were digging a well near Xi'an on March 29th, 1974, when their shovels hit something hard and strange. Instead of water, they found pieces of clay that looked like broken pottery. But when archaeologists rushed to the scene, they uncovered one of the most incredible discoveries in history \u2014 an entire army made of clay! Over 8,000 life-sized warrior statues had been buried underground for more than 2,000 years, standing guard over the tomb of Qin Shi Huang, China's first emperor. Each clay soldier was unique, with different faces, hairstyles, and armor. The emperor wanted this terracotta army to protect him in the afterlife, creating what might be the world's most amazing underground surprise.",
+    "activity_question": "What were the Chinese farmers originally trying to dig when they found the Terracotta Army?",
     "activity_choices": [
-      "Dig a well for water",
-      "Plant rice in their fields",
-      "Build a new house",
-      "Look for buried treasure"
+      "A well for water",
+      "A tunnel to their neighbor's farm",
+      "A hole to plant a giant tree",
+      "A basement for their house"
     ],
-    "activity_answer": "Dig a well for water",
-    "bonus_fact": "Every single clay warrior has a unique face\u2014no two soldiers look exactly alike!",
+    "activity_answer": "A well for water",
+    "bonus_fact": "Each clay warrior's face is different \u2014 no two soldiers look exactly the same!",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 92,
     "categories": [
       "History's Mic Drop Moments"
     ],
@@ -23,21 +22,20 @@
   },
   {
     "id": "93",
-    "title": "The Space Express Train",
-    "story": "A Russian spacecraft called Soyuz TMA-08M broke the speed record for reaching the International Space Station in 2013! Instead of taking two whole days like usual, this amazing spacecraft zipped through space and docked with the ISS in just 6 hours. That's faster than most people's workday! The three astronauts inside probably felt like they were riding the ultimate express train through space. Before this record-breaking flight, astronauts had to float around in their cramped spacecraft for about 50 hours, which meant sleeping, eating, and waiting in a space no bigger than a small car. Now they could get to their new home in space faster than it takes to drive across some states!",
-    "activity_question": "How long did it take Soyuz TMA-08M to reach the International Space Station?",
+    "title": "Space Express: Record-Breaking Rocket Ride",
+    "story": "Three astronauts buckled up for the fastest trip to space ever attempted on March 28th, 2013! The Soyuz TMA-08M spacecraft blasted off from Earth with a bold mission: reach the International Space Station in just six hours instead of the usual two days. This wasn't just any regular space flight \u2014 it was like switching from a slow bus to a rocket-powered express train! The crew zoomed through space at incredible speeds, racing against the clock as they orbited Earth multiple times. When they finally docked with the space station that same day, they had shattered the previous record and proven that space travel could be much faster than anyone thought possible.",
+    "activity_question": "How long did it normally take spacecraft to reach the International Space Station before this record?",
     "activity_choices": [
-      "6 hours",
-      "2 days",
-      "1 week",
-      "6 minutes"
+      "Two days",
+      "Six hours",
+      "One week",
+      "Thirty minutes"
     ],
-    "activity_answer": "6 hours",
-    "bonus_fact": "The spacecraft traveled at about 17,500 miles per hour to reach the ISS!",
+    "activity_answer": "Two days",
+    "bonus_fact": "The crew orbited Earth four times during their speedy six-hour journey!",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
     "categories": [
-      "Big Brain Energy"
+      "Beyond Earth"
     ],
     "suitable_for_8_to_12_year_old": true,
     "score": 93,
@@ -45,43 +43,41 @@
   },
   {
     "id": "100",
-    "title": "The Giant Ship That Broke the Internet",
-    "story": "A massive container ship called Ever Given got completely stuck sideways in Egypt's Suez Canal in 2021, creating one of the biggest traffic jams in shipping history! This wasn't just any little boat problem - the ship was longer than the Empire State Building is tall and weighed as much as several skyscrapers. For nearly a week, the giant vessel blocked the entire canal like a cork in a bottle, trapping at least 369 other ships that couldn't go anywhere. The whole world watched as tiny excavators tried to dig out this monster ship, and people made hilarious memes about it online. When they finally freed the Ever Given after six days, it was like unclogging the world's most expensive drain!",
-    "activity_question": "How many ships were waiting to pass through the canal while Ever Given was stuck?",
+    "title": "Giant Ship Gets Unstuck!",
+    "story": "The massive container ship Ever Given finally broke free from the Suez Canal on March 29th, 2021, after being stuck sideways for nearly a week! This wasn't just any traffic jam \u2014 the gigantic vessel had completely blocked one of the world's busiest shipping routes, creating the most expensive traffic backup in history. At least 369 ships were trapped waiting to pass through, carrying everything from oil to toilet paper. The ship was longer than the Empire State Building is tall, and it took tugboats, excavators, and even the high tide to finally wiggle it loose. When it moved again, people around the world cheered!",
+    "activity_question": "How many ships were waiting to pass through the Suez Canal while Ever Given was stuck?",
     "activity_choices": [
-      "At least 369 vessels",
-      "Exactly 100 ships",
-      "About 50 boats",
-      "Over 1,000 ships"
+      "At least 369 ships",
+      "About 100 ships",
+      "Exactly 500 ships",
+      "Only 50 ships"
     ],
-    "activity_answer": "At least 369 vessels",
-    "bonus_fact": "The Ever Given is longer than four football fields placed end to end!",
-    "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
+    "activity_answer": "At least 369 ships",
     "categories": [
       "The What Zone"
     ],
+    "bonus_fact": "The Ever Given is so huge it can carry over 20,000 shipping containers!",
+    "optional_type": "bonus_fact",
     "suitable_for_8_to_12_year_old": true,
     "score": 93,
     "approved": false
   },
   {
     "id": "103",
-    "title": "Pluto's Ice Volcanoes Are Real!",
-    "story": "Pluto shoots ice lava from frozen volcanoes called cryovolcanoes! Scientists discovered this amazing fact in 2022 when they studied footage from NASA's New Horizons spacecraft that flew past the dwarf planet in 2015. Instead of hot melted rock like Earth's volcanoes, Pluto's cryovolcanoes blast out freezing cold water, nitrogen, and other icy materials. These ice volcanoes can build huge mountains and reshape Pluto's surface, even though the dwarf planet is nearly three billion miles from the Sun. The ice lava is so cold it would instantly freeze anything on Earth, but on Pluto it flows like regular lava flows on our planet.",
-    "activity_question": "What do Pluto's cryovolcanoes shoot out instead of hot lava?",
+    "title": "Pluto's Ice Volcanoes Discovered!",
+    "story": "Scientists made an incredible discovery about Pluto in 2022 when they took a closer look at old footage from NASA's New Horizons spacecraft! The tiny dwarf planet, which is so far away it takes sunlight over five hours to reach it, has something amazing on its surface: cryovolcanoes. These aren't regular volcanoes that spew hot lava - they're ice volcanoes that shoot out freezing cold \"lava\" made of water, nitrogen, and other frozen materials. The researchers found this evidence by studying photos taken back in 2015 when New Horizons flew past Pluto. Instead of the dead, boring rock everyone expected, Pluto turned out to have active geology with these icy eruptions reshaping its surface!",
+    "activity_question": "What makes cryovolcanoes different from regular volcanoes?",
     "activity_choices": [
-      "Ice lava made of water and nitrogen",
-      "Hot melted rock",
-      "Colorful space dust",
-      "Frozen pizza sauce"
+      "They shoot out freezing ice lava instead of hot lava",
+      "They're much bigger than regular volcanoes",
+      "They only erupt at night",
+      "They're made of cheese like the moon"
     ],
-    "activity_answer": "Ice lava made of water and nitrogen",
-    "bonus_fact": "Pluto's ice lava is colder than -400 degrees Fahrenheit!",
+    "activity_answer": "They shoot out freezing ice lava instead of hot lava",
+    "bonus_fact": "Pluto's ice volcanoes might be taller than any mountain on Earth!",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
     "categories": [
-      "Big Brain Energy"
+      "Beyond Earth"
     ],
     "suitable_for_8_to_12_year_old": true,
     "score": 93,
@@ -89,19 +85,18 @@
   },
   {
     "id": "92",
-    "title": "The American Horse That Conquered Dubai",
-    "story": "Animal Kingdom galloped into history as the first American horse to win the Dubai World Cup in 2013! This wasn't just any race \u2013 the Dubai World Cup is one of the richest horse races in the world, with millions of dollars in prize money. Animal Kingdom had already proven he was special by winning the Kentucky Derby in 2011, but this victory was different. He traveled thousands of miles from America to the desert city of Dubai, where he faced the best horses from around the globe. The track was made of special dirt, and the competition was fierce. But Animal Kingdom's powerful legs carried him across the finish line first, making American horse racing fans cheer with pride and proving that sometimes the best adventures happen far from home.",
-    "activity_question": "What made Animal Kingdom's 2013 victory so special?",
+    "title": "American Horse Conquers Dubai's Desert",
+    "story": "Animal Kingdom galloped into history on March 30th, 2013, when this amazing American racehorse thundered across the finish line first at the Dubai World Cup! This wasn't just any horse race \u2013 it was one of the richest and most exciting races in the world, held in the middle of the desert in Dubai. Animal Kingdom had to beat the fastest horses from around the globe, and he did it with style. The victory was extra special because it proved that American horses could compete with the best international champions. As dust settled on the track that day, Animal Kingdom had earned his owners a whopping $6 million prize and brought serious bragging rights back to America.",
+    "activity_question": "Where did Animal Kingdom win the 2013 World Cup race?",
     "activity_choices": [
-      "He was the first American horse to win the Dubai World Cup",
-      "He was the youngest horse ever to race in Dubai",
-      "He won while wearing golden horseshoes",
-      "He ran the race backwards"
+      "Dubai",
+      "Kentucky",
+      "Japan",
+      "On the moon"
     ],
-    "activity_answer": "He was the first American horse to win the Dubai World Cup",
-    "bonus_fact": "The Dubai World Cup offers $10 million in total prize money!",
+    "activity_answer": "Dubai",
+    "bonus_fact": "The Dubai World Cup is run on a special artificial surface called Tapeta.",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
     "categories": [
       "Full Beast Mode"
     ],
@@ -111,22 +106,21 @@
   },
   {
     "id": "136",
-    "title": "The Great One Breaks His Own Record",
-    "story": "Wayne Gretzky was already the king of hockey assists, but in 1985 he decided to completely blow everyone's minds by breaking his own record! The Great One had set the NHL season record for assists the year before, but apparently that wasn't enough for him. So he kept passing the puck like a wizard, racking up assist after assist until he hit his incredible 126th one of the season. That's more than two assists every single game! Most hockey players would be thrilled to get 126 assists in their entire career, but Gretzky did it in just one season. He didn't just break records \u2013 he absolutely shattered them into a million pieces.",
-    "activity_question": "How many assists did Wayne Gretzky get in 1985 to break his own record?",
+    "title": "The Great One's Incredible Assist Record",
+    "story": "Wayne Gretzky was already known as \"The Great One\" when he did something absolutely mind-blowing on March 29th, 1985. The hockey superstar didn't just break someone else's record that night \u2014 he shattered his own! Gretzky scored his 126th assist of the season, which meant he had broken his previous record of 125 assists that he had set just two years earlier. An assist is when you help a teammate score a goal, and most players are thrilled to get even 50 assists in a whole season. But Gretzky was so good at seeing the ice and setting up perfect passes that he nearly tripled what most players could do. This incredible moment showed why many people still call him the greatest hockey player who ever lived.",
+    "activity_question": "How many assists did Wayne Gretzky get to break his own record in 1985?",
     "activity_choices": [
-      "126 assists",
-      "100 assists",
-      "150 assists",
-      "126 goals"
+      "126",
+      "125",
+      "100",
+      "200"
     ],
-    "activity_answer": "126 assists",
-    "bonus_fact": "Gretzky ended that season with 163 assists, meaning he broke his record 37 more times!",
-    "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
+    "activity_answer": "126",
     "categories": [
       "Full Beast Mode"
     ],
+    "bonus_fact": "Gretzky ended that season with 163 assists \u2014 a record that still stands today!",
+    "optional_type": "bonus_fact",
     "suitable_for_8_to_12_year_old": true,
     "score": 92,
     "approved": false
@@ -134,7 +128,7 @@
   {
     "id": "158",
     "title": "Three Swings, Three Home Runs!",
-    "story": "Baseball history exploded at Yankee Stadium in 2025 when something incredible happened on the very first three pitches of the game! Paul Goldschmidt stepped up to the plate and CRACK - home run number one! Next came Cody Bellinger, who smashed the second pitch deep into the stands for home run number two! Then Aaron Judge crushed the third pitch for home run number three! The crowd went absolutely wild as three straight Yankees hit three straight home runs to start the game. But wait, there's more - the Yankees didn't stop there and kept hitting home runs until they had nine total, setting a new team record in their amazing 20-9 victory over the Milwaukee Brewers!",
+    "story": "Baseball fans couldn't believe their eyes when the New York Yankees stepped up to bat in 2025! Paul Goldschmidt grabbed his bat and smacked the very first pitch from Milwaukee Brewers pitcher Nester Cortes straight over the fence for a home run. Then Cody Bellinger did the exact same thing on the second pitch. But wait, it gets even crazier - Aaron Judge crushed the third pitch for another home run! Three batters, three pitches, three home runs in a row. The Yankees were just getting started though, because they ended up hitting a franchise record nine home runs total that day, winning the game 20-9 at Yankee Stadium. Talk about starting with a bang!",
     "activity_question": "How many home runs did the Yankees hit in total during this record-breaking game?",
     "activity_choices": [
       "Three home runs",
@@ -143,9 +137,8 @@
       "Fifty home runs"
     ],
     "activity_answer": "Nine home runs",
-    "bonus_fact": "The Yankees scored 20 runs, which is like scoring three touchdowns in football!",
+    "bonus_fact": "The Yankees scored 20 runs, which is like scoring 3 touchdowns in football!",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 75,
     "categories": [
       "Full Beast Mode"
     ],
@@ -155,19 +148,18 @@
   },
   {
     "id": "54",
-    "title": "The Shot That Saved Kids",
-    "story": "Scientists dropped amazing news that changed everything for kids around the world! In 1971, researchers announced they had finally created a vaccine to protect children from serum hepatitis, a dangerous liver disease that was making many young people very sick. This wasn't just any ordinary medicine - it was a superhero shot that could stop a sneaky virus before it even got started. Kids everywhere could now get a simple injection that would keep their livers healthy and strong. Doctors and parents celebrated because this breakthrough meant fewer children would end up in hospitals with yellow skin and feeling terrible from hepatitis.",
-    "activity_question": "What year was the serum hepatitis vaccine for children announced?",
+    "title": "A Shot at Protection",
+    "story": "Scientists made a huge announcement on this day in 1971 that would protect millions of kids around the world. They had finally developed a vaccine for serum hepatitis, a serious liver disease that was making children very sick. Hepatitis is a tricky virus that attacks your liver, the organ that helps clean your blood and digest food. Before this vaccine, kids could catch this disease from contaminated blood or medical equipment, and it would make them feel terrible for weeks or even months. The new vaccine worked like a superhero training program for your immune system, teaching it how to fight off the hepatitis virus before it could cause harm. This breakthrough meant that children everywhere could get a simple shot to stay healthy and avoid a really nasty illness.",
+    "activity_question": "What organ does hepatitis attack in your body?",
     "activity_choices": [
-      "1971",
-      "1969",
-      "1973",
-      "1975"
+      "The liver",
+      "The heart",
+      "The lungs",
+      "The funny bone"
     ],
-    "activity_answer": "1971",
-    "bonus_fact": "Hepatitis makes your skin turn yellow because it affects your liver!",
-    "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
+    "activity_answer": "The liver",
+    "follow_up_question": "How do you think vaccines help your body learn to fight diseases?",
+    "optional_type": "follow_up_question",
     "categories": [
       "Big Brain Energy"
     ],
@@ -178,18 +170,17 @@
   {
     "id": "161",
     "title": "The Day Niagara Falls Went Silent",
-    "story": "Niagara Falls completely stopped roaring! On March 29, 1848, people woke up to an eerie silence where the thunderous waterfall should have been. For 30 whole hours, one of the world's most powerful waterfalls sat completely dry and quiet. The reason? A massive ice jam had formed upstream in the Niagara River, blocking all the water from flowing over the falls. People could actually walk out onto the rocky riverbed that was usually hidden under millions of gallons of rushing water. Some brave folks even picked up souvenirs from the exposed bottom! It must have felt like visiting an alien planet.",
-    "activity_question": "How long did Niagara Falls stop flowing in 1848?",
+    "story": "Water stopped thundering over Niagara Falls completely, leaving visitors staring at empty cliffs where millions of gallons usually crashed down every minute. On March 29th, 1848, something incredible happened that hadn't occurred in thousands of years \u2014 the mighty falls went totally silent for 30 whole hours! The culprit was a massive ice jam that had formed upstream in the Niagara River, acting like a giant cork in a bottle. Chunks of ice piled up so high and thick that they completely blocked the water from flowing toward the falls. People walked out onto the dry riverbed where the falls normally roared, picking up fish and old artifacts. It was so quiet and strange that many thought the world was ending, until the ice finally broke apart and the water came rushing back with a tremendous roar.",
+    "activity_question": "What caused Niagara Falls to stop flowing in 1848?",
     "activity_choices": [
-      "30 hours",
-      "3 days",
-      "One week",
-      "30 minutes"
+      "An ice jam upstream in the river",
+      "A giant beaver dam",
+      "An earthquake moved the rocks",
+      "People built a wall to stop it"
     ],
-    "activity_answer": "30 hours",
-    "bonus_fact": "Some people found old military artifacts on the exposed riverbed!",
+    "activity_answer": "An ice jam upstream in the river",
+    "bonus_fact": "People found old guns and tomahawks on the dry riverbed that day!",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
     "categories": [
       "The What Zone"
     ],
@@ -199,19 +190,18 @@
   },
   {
     "id": "63",
-    "title": "The Flying Finn Who Soared Into History",
-    "story": "Tiina Lehtola launched herself off a ski jump ramp and flew through the air like a superhero, landing a whopping 110 meters away! This amazing Finnish athlete smashed the women's ski jumping world record in 1981, proving that girls could fly just as far as anyone else. Picture zooming down a steep ramp faster than a car on a highway, then shooting into the sky and staying airborne long enough to cover more than a football field. Tiina's incredible jump was so impressive that it took years for another woman to beat her distance record.",
+    "title": "Girl Power Takes Flight on Skis",
+    "story": "Tiina Lehtola from Finland made history soar through the air on this March day back in 1981! She launched herself off a ski jump and flew an incredible 110 meters before landing safely in the snow. That's longer than a football field! What made this jump extra special was that Tiina smashed the women's ski jumping world record, proving that girls could fly just as far as anyone else. Her amazing leap showed the world that female ski jumpers deserved to compete alongside the boys, and her record inspired countless other girls to strap on skis and reach for the sky.",
     "activity_question": "How far did Tiina Lehtola jump to set her world record?",
     "activity_choices": [
       "110 meters",
+      "100 meters",
       "95 meters",
-      "125 meters",
-      "200 meters while doing a backflip"
+      "150 meters"
     ],
     "activity_answer": "110 meters",
-    "bonus_fact": "Women's ski jumping wasn't allowed in the Olympics until 2014!",
+    "bonus_fact": "Women weren't allowed in Olympic ski jumping until 2014!",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 92,
     "categories": [
       "Full Beast Mode"
     ],
@@ -221,21 +211,20 @@
   },
   {
     "id": "56",
-    "title": "Mercury's First Close-Up!",
-    "story": "A brave little spacecraft named Mariner 10 became the first visitor to snap photos of Mercury, the closest planet to our Sun! In 1974, this amazing robot flew right past the scorching hot planet and sent back incredible pictures that no human had ever seen before. Scientists on Earth were thrilled to finally see what Mercury's rocky, crater-covered surface actually looked like up close. The photos showed a world that looked a lot like our Moon, covered in huge craters from billions of years of getting smacked by space rocks. Mariner 10's historic fly-by opened up a whole new chapter in exploring our solar system!",
-    "activity_question": "What was special about Mariner 10's mission to Mercury?",
+    "title": "First Photos from Mercury's Hot Neighborhood",
+    "story": "A brave little spacecraft named Mariner 10 made history on March 29th, 1974, when it became the first visitor to snap photos of Mercury, the sun's closest neighbor. Flying at incredible speeds through space, this robot photographer zoomed past the scorching hot planet and beamed back amazing pictures that no human had ever seen before. Scientists on Earth were thrilled to finally get a close look at Mercury's cratered surface, which looks a lot like our moon but gets hot enough to melt lead during the day!",
+    "activity_question": "What was special about Mariner 10's mission to Mercury in 1974?",
     "activity_choices": [
       "It was the first spacecraft to take photos of Mercury",
       "It landed on Mercury and collected rocks",
-      "It brought back aliens from Mercury",
-      "It built a space station around Mercury"
+      "It discovered that Mercury was made of cheese",
+      "It brought back alien samples from Mercury"
     ],
     "activity_answer": "It was the first spacecraft to take photos of Mercury",
-    "bonus_fact": "Mariner 10 also flew by Venus on its way to Mercury!",
+    "bonus_fact": "Mercury is so close to the sun that a year there lasts only 88 Earth days!",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 75,
     "categories": [
-      "Big Brain Energy"
+      "Beyond Earth"
     ],
     "suitable_for_8_to_12_year_old": true,
     "score": 85,
@@ -243,41 +232,39 @@
   },
   {
     "id": "26",
-    "title": "The Speed Demon of Daytona",
-    "story": "Henry Segrave slammed his foot on the gas and felt his Sunbeam race car roar to life on Daytona's sandy beach. The year was 1927, and Segrave was determined to break the world land speed record that had been teasing drivers for years. As his sleek machine thundered down the coastline, the speedometer climbed higher and higher until it hit an incredible 203.79 miles per hour! Segrave had just become the fastest human on Earth, leaving tire tracks in the sand and his name in the history books.",
+    "title": "Racing Into History at 203 MPH",
+    "story": "Henry Segrave gripped the steering wheel of his sleek Sunbeam race car and prepared to make history on March 29th, 1927. The sandy beaches of Daytona stretched ahead like a natural racetrack, perfect for his daring attempt. When Segrave hit the gas, his car roared forward faster than any human had ever traveled on land before. The speedometer climbed higher and higher until it reached an incredible 203.79 miles per hour! That's faster than most cars can go today on highways. Segrave had just shattered the world land speed record, proving that with enough courage and engineering skill, humans could push the boundaries of what seemed possible.",
     "activity_question": "What speed did Henry Segrave reach in his record-breaking run?",
     "activity_choices": [
       "203.79 mph",
-      "195.42 mph",
-      "210.33 mph",
-      "299.99 mph"
+      "150.25 mph",
+      "275.50 mph",
+      "300 mph exactly"
     ],
     "activity_answer": "203.79 mph",
-    "bonus_fact": "Segrave's record run happened on the same beach where NASCAR races today!",
-    "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
     "categories": [
       "Full Beast Mode"
     ],
+    "bonus_fact": "Daytona's hard-packed sand made it perfect for early speed records before racetracks existed.",
+    "optional_type": "bonus_fact",
     "suitable_for_8_to_12_year_old": true,
     "score": 82,
     "approved": false
   },
   {
     "id": "62",
-    "title": "Cricket's Epic Blowout Victory",
-    "story": "Delhi absolutely crushed Karnataka in one of cricket's most lopsided championship victories ever! In 1979, Delhi's cricket team didn't just win the Ranji Trophy - they demolished their opponents by a whopping 399 runs. That's like winning a race and having time to eat lunch before the other runner crosses the finish line! The Ranji Trophy is India's biggest domestic cricket competition, where states battle it out to be crowned champions. Delhi's players must have felt like superheroes after such a massive win that left Karnataka wondering what hit them.",
-    "activity_question": "By how many runs did Delhi beat Karnataka to win the 1979 Ranji Trophy?",
+    "title": "Cricket's Most Crushing Victory Ever",
+    "story": "Cricket fans couldn't believe their eyes when Delhi absolutely demolished Karnataka in the Ranji Trophy final on this date in 1979. The Ranji Trophy is India's biggest cricket tournament, where states compete for the ultimate prize. But nobody expected what happened next \u2014 Delhi didn't just win, they crushed Karnataka by a whopping 399 runs! That's like winning a race by almost four laps. It was one of the most lopsided victories in cricket history, and Delhi players probably couldn't stop grinning for weeks.",
+    "activity_question": "By how many runs did Delhi beat Karnataka in the 1979 Ranji Trophy final?",
     "activity_choices": [
       "399 runs",
       "299 runs",
       "199 runs",
-      "99 runs and a pizza"
+      "99 runs"
     ],
     "activity_answer": "399 runs",
-    "bonus_fact": "The Ranji Trophy is named after a cricket-loving Indian prince who played for England!",
+    "bonus_fact": "The Ranji Trophy is named after a famous Indian prince who played cricket.",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
     "categories": [
       "Full Beast Mode"
     ],
@@ -287,19 +274,18 @@
   },
   {
     "id": "74",
-    "title": "Ice Dancing Champions from a Changing World",
-    "story": "Marina Klimova and Sergei Ponomarenko glided across the ice in Oakland, California, making history in more ways than one. When they won the Ice Dance Championship in 1992, they weren't competing for the Soviet Union like before - they represented the Commonwealth of Independent States, or CIS. This happened because the Soviet Union had just broken apart into separate countries! These amazing ice dancers didn't let political changes stop them from performing their beautiful routines and claiming victory in California.",
-    "activity_question": "What did Klimova and Ponomarenko represent when they won in 1992?",
+    "title": "Ice Dancing Champions Without a Country",
+    "story": "Two Russian ice dancers found themselves in a very strange situation on March 29th, 1992, when they won the World Ice Dance Championship in Oakland, California. Marina Klimova and Sergei Ponomarenko were incredible on the ice, gliding and spinning their way to victory with perfect grace. But here's the weird part - they couldn't compete for Russia because the Soviet Union had just broken apart! Instead, they had to represent something called the CIS (Commonwealth of Independent States), which was basically a temporary team name for athletes from the former Soviet countries. Imagine winning gold but not knowing exactly which flag would be raised for you!",
+    "activity_question": "What did CIS stand for when Klimova and Ponomarenko won their championship?",
     "activity_choices": [
-      "The Soviet Union",
-      "Commonwealth of Independent States (CIS)",
-      "Russia",
-      "The Ice Dancing Alliance of California"
+      "Commonwealth of Independent States",
+      "Champions in Ice Skating",
+      "California Ice Society",
+      "Cool Ice Superstars"
     ],
-    "activity_answer": "Commonwealth of Independent States (CIS)",
-    "bonus_fact": "The CIS only lasted as a sports team name for about two years before countries competed separately.",
-    "optional_type": "bonus_fact",
-    "optional_quality_score": 75,
+    "activity_answer": "Commonwealth of Independent States",
+    "follow_up_question": "How do you think it would feel to win a world championship but not be sure which country you're representing?",
+    "optional_type": "follow_up_question",
     "categories": [
       "Full Beast Mode"
     ],
@@ -309,19 +295,18 @@
   },
   {
     "id": "80",
-    "title": "Turner Field's Grand Opening Game",
-    "story": "The Atlanta Braves made history by winning the very first baseball game ever played at their brand-new Turner Field! On this special day in 1997, the Braves faced off against the famous New York Yankees in what's called an exhibition game. Exhibition games don't count toward the regular season, but they're still exciting because teams get to test out new stadiums and show off for fans. The Braves didn't disappoint their home crowd, beating the mighty Yankees 2-0 in a shutout victory. It was the perfect way to christen their new ballpark and show that Turner Field would be a tough place for visiting teams to win.",
-    "activity_question": "What was the final score when the Atlanta Braves played the first game at Turner Field?",
+    "title": "Atlanta's Brand New Baseball Home",
+    "story": "The Atlanta Braves had a big problem in 1997 - they needed a new stadium! Their old one was getting torn down after the Olympics. So on March 29th that year, something exciting happened: the very first baseball game at their shiny new Turner Field. It was just a practice game against the famous New York Yankees, but the Braves wanted to make a good first impression in their new home. And they did! The Braves won 2-0, which was pretty awesome for a team playing in a brand new ballpark. The players got to run around the bases, the fans got to cheer from new seats, and everyone got to see what would become the Braves' home for many years.",
+    "activity_question": "What was special about the baseball game on March 29th, 1997?",
     "activity_choices": [
-      "Braves won 2-0",
-      "Yankees won 3-1",
-      "Braves won 5-2",
-      "Braves won 100-0"
+      "It was the first game ever played at Turner Field",
+      "The Braves scored 20 runs",
+      "It was played in the snow",
+      "The game lasted 15 innings"
     ],
-    "activity_answer": "Braves won 2-0",
-    "bonus_fact": "Turner Field was built specifically for the 1996 Olympics before becoming the Braves' home.",
+    "activity_answer": "It was the first game ever played at Turner Field",
+    "bonus_fact": "Turner Field was built using parts of the 1996 Olympics stadium!",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
     "categories": [
       "Full Beast Mode"
     ],
@@ -331,41 +316,39 @@
   },
   {
     "id": "97",
-    "title": "Australia's Cricket Championship Crush",
-    "story": "Australia absolutely crushed New Zealand at the famous Melbourne Cricket Ground in 2015, winning their fourth Cricket World Cup title! The Aussies didn't just win - they demolished the Kiwis by seven wickets with 101 balls still left to play. That's like finishing a race while your opponent is still halfway around the track! James Faulkner was the star player, taking three wickets and only giving up 36 runs, earning him Player of the Match honors in front of his home crowd.",
-    "activity_question": "How many wickets did Australia win by against New Zealand?",
+    "title": "Australia's Cricket Championship Victory",
+    "story": "Cricket fans around the world held their breath as Australia faced New Zealand in the Cricket World Cup final at Melbourne's famous MCG stadium on March 29th, 2015. The Aussies were playing for their fourth world championship title on home soil, with thousands of cheering fans packed into the massive stadium. Australia's bowlers struck first, with James Faulkner taking three crucial wickets for just 36 runs to slow down New Zealand's batting. Then Australia's batters stepped up big time, smashing the winning runs with 101 balls still left to play - that's like finishing a race way ahead of everyone else!",
+    "activity_question": "How many Cricket World Cup titles had Australia won after this victory?",
     "activity_choices": [
-      "Seven wickets",
-      "Four wickets",
-      "Ten wickets",
-      "Twelve wickets"
+      "Four titles",
+      "Three titles",
+      "Five titles",
+      "Two titles"
     ],
-    "activity_answer": "Seven wickets",
-    "bonus_fact": "The MCG can hold over 100,000 cricket fans - that's like fitting a small city in one stadium!",
-    "optional_type": "bonus_fact",
-    "optional_quality_score": 75,
+    "activity_answer": "Four titles",
     "categories": [
       "Full Beast Mode"
     ],
+    "bonus_fact": "The MCG stadium can hold over 100,000 people - that's like a small city!",
+    "optional_type": "bonus_fact",
     "suitable_for_8_to_12_year_old": true,
     "score": 80,
     "approved": false
   },
   {
     "id": "22",
-    "title": "A Monument Takes Forever",
-    "story": "US Congress said yes to building the Lincoln Memorial in 1867, just two years after President Lincoln was shot and killed. But here's the crazy part - they didn't actually start building it until 1914, almost 50 years later! The beautiful white marble monument we see today wasn't finished until 1922. That means it took 55 years from the first approval to the final dedication ceremony, making it one of the slowest monument projects in American history.",
-    "activity_question": "How many years passed between Congress approving the Lincoln Memorial and actually starting to build it?",
+    "title": "A Monument Years in the Making",
+    "story": "Abraham Lincoln had been gone for two years when Congress made a big decision on this day in 1867 \u2014 they voted to build a special monument to honor the president who had saved the nation. But here's the crazy part: it took 55 more years before the Lincoln Memorial we know today was actually finished! The lawmakers wanted to create something amazing, but they couldn't agree on what it should look like or where to put it. Some wanted a simple statue, others dreamed of a grand temple with giant columns.",
+    "activity_question": "How long did it take from when Congress first approved the Lincoln Memorial until it was actually finished?",
     "activity_choices": [
-      "About 50 years",
-      "About 10 years",
-      "About 25 years",
-      "About 100 years"
+      "55 years",
+      "25 years",
+      "10 years",
+      "100 years"
     ],
-    "activity_answer": "About 50 years",
-    "bonus_fact": "The Lincoln Memorial cost $3 million to build, which equals about $45 million today!",
+    "activity_answer": "55 years",
+    "bonus_fact": "The Lincoln Memorial's statue of Lincoln is 19 feet tall and weighs 175 tons!",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 78,
     "categories": [
       "History's Mic Drop Moments"
     ],
@@ -376,18 +359,17 @@
   {
     "id": "73",
     "title": "Rocket Dreams Take Flight",
-    "story": "A private company's rocket blasted off from White Sands Missile Range in New Mexico, making history as the first commercial rocket built by a US company to reach space! In 1989, this wasn't government space agencies like NASA doing the flying\u2014it was regular people with big dreams and rocket fuel. The rocket didn't go all the way to orbit around Earth, but it did make it to the edge of space in what's called a suborbital flight. This groundbreaking moment showed that private companies could build rockets too, opening the door for today's space companies.",
-    "activity_question": "What made this 1989 rocket flight special?",
+    "story": "A homemade rocket blasted off from the desert on March 29th, 1989, making history as the first private commercial rocket to reach space and come back down. At White Sands Missile Range in New Mexico, this wasn't built by NASA or the government \u2014 regular people with big dreams had created their own spacecraft! The rocket shot up into the blackness above Earth's atmosphere, then safely returned in what's called a suborbital flight. It proved that someday, private companies might take people to space too.",
+    "activity_question": "What made this 1989 rocket launch special?",
     "activity_choices": [
-      "It was the first US private commercial rocket to reach space",
-      "It landed on the moon",
-      "It was powered by chocolate milk",
-      "It was the fastest rocket ever built"
+      "It was the first private commercial rocket to make a suborbital flight",
+      "It was powered by chocolate chip cookies",
+      "It was built by NASA scientists",
+      "It landed on the moon"
     ],
-    "activity_answer": "It was the first US private commercial rocket to reach space",
-    "follow_up_question": "How do you think this first private rocket flight changed the future of space exploration?",
+    "activity_answer": "It was the first private commercial rocket to make a suborbital flight",
+    "follow_up_question": "What do you think private space companies might accomplish next?",
     "optional_type": "follow_up_question",
-    "optional_quality_score": 85,
     "categories": [
       "Big Brain Energy"
     ],
@@ -397,19 +379,18 @@
   },
   {
     "id": "75",
-    "title": "Ice Dancing Dreams Come True",
-    "story": "Two skaters from the former Soviet Union glided across the ice in Oakland, California, making history with every graceful move. Natalia Mishkutienok and Artur Dmitriev represented the Commonwealth of Independent States (CIS) at the 1992 Ice Pairs Championship, spinning and jumping their way to victory. Their flawless performance earned them the gold medal, proving that teamwork and years of practice can create pure magic on ice. The crowd cheered as they took their final bow, champions of the world.",
-    "activity_question": "What country/region did the winning ice skating pair represent?",
+    "title": "Ice Dancing Gold from a Vanished Country",
+    "story": "Two figure skaters made history on March 29th, 1992, but they competed for a country that was disappearing! Natalia Mishkutenok and Artur Dmitriev glided across the ice in Oakland, California, spinning and leaping their way to victory at the Ice Pairs Championship. The twist? They represented the CIS - the Commonwealth of Independent States - which was what remained after the Soviet Union broke apart just months earlier. While their homeland was changing forever, these talented athletes proved that some things, like perfect teamwork on ice, stay beautiful no matter what's happening in the world around them.",
+    "activity_question": "What did CIS stand for when Mishkutenok and Dmitriev won their championship?",
     "activity_choices": [
-      "Commonwealth of Independent States (CIS)",
-      "United States",
-      "Canada",
-      "The Kingdom of Frozen Pizza"
+      "Commonwealth of Independent States",
+      "Central Ice Skating",
+      "California Ice Society",
+      "Champions in Skating"
     ],
-    "activity_answer": "Commonwealth of Independent States (CIS)",
-    "bonus_fact": "Ice skating pairs must stay within arm's reach of each other during most of their routine.",
+    "activity_answer": "Commonwealth of Independent States",
+    "bonus_fact": "The CIS only lasted about one year as a competing nation in sports!",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 78,
     "categories": [
       "Full Beast Mode"
     ],
@@ -419,43 +400,41 @@
   },
   {
     "id": "106",
-    "title": "Antarctica's Ocean Highways Are Breaking Down",
-    "story": "Deep under Antarctica's icy waters, invisible highways carry nutrient-rich water around the world's oceans. These underwater currents act like a giant conveyor belt, moving food and oxygen to sea creatures everywhere. But in 2023, researchers discovered something scary: these crucial ocean highways could collapse by 42% by 2050. When these currents slow down or stop, they can't carry nutrients north to feed ocean life. Even worse, this breakdown makes Antarctic ice melt faster and heats up oceans worldwide.",
-    "activity_question": "What percentage could the Antarctic ocean currents collapse by 2050?",
+    "title": "Antarctica's Hidden Ocean Highway in Danger",
+    "story": "Deep beneath Antarctica's icy waters, invisible rivers carry nutrients around the world like a giant underwater highway. Scientists discovered in 2023 that this amazing system could break down by almost half before 2050. These special ocean currents work like conveyor belts, moving cold, nutrient-rich water from the bottom of the sea up to the surface and around the globe. When they slow down or stop, it's like turning off a massive refrigerator that helps keep our planet cool. Without these currents, ice melts faster and oceans get warmer everywhere.",
+    "activity_question": "What do the deep Antarctic ocean currents do?",
     "activity_choices": [
-      "42%",
-      "25%",
-      "60%",
-      "15%"
+      "Carry nutrients around the world like underwater highways",
+      "Create icebergs that float to other countries",
+      "Make the water taste better for penguins",
+      "Generate electricity for research stations"
     ],
-    "activity_answer": "42%",
-    "follow_up_question": "How might ocean animals be affected when these nutrient highways shut down?",
-    "optional_type": "follow_up_question",
-    "optional_quality_score": 85,
+    "activity_answer": "Carry nutrients around the world like underwater highways",
     "categories": [
       "Big Brain Energy"
     ],
     "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What other invisible systems in nature help keep our planet healthy?",
+    "optional_type": "follow_up_question",
     "score": 75,
     "approved": false
   },
   {
     "id": "113",
-    "title": "The Queen's Concert Hall Surprise",
-    "story": "Queen Victoria had a big problem in 1871 - London needed a fancy new concert hall, but she was too sad to appear in public much after her husband died. Everyone expected her to stay hidden away, but surprise! The Queen shocked everyone by showing up to personally open the magnificent Royal Albert Hall. She named this grand red-brick building after her beloved husband Prince Albert, and it became one of London's most famous places for music and shows.",
-    "activity_question": "What did Queen Victoria name the concert hall after?",
+    "title": "Queen Victoria's Grand Opening",
+    "story": "Queen Victoria had a big problem on March 29th, 1871 - she was supposed to open a brand new concert hall in London, but she was still sad about her husband Albert's death ten years earlier. The Royal Albert Hall was actually named after him! When the Queen stood up to give her speech that day, something amazing happened. She got so emotional thinking about Albert that she couldn't finish her words. The crowd understood and cheered anyway, officially opening one of the world's most famous music venues.",
+    "activity_question": "What happened when Queen Victoria tried to give her opening speech?",
     "activity_choices": [
-      "Her favorite song",
-      "Her husband Prince Albert",
-      "Her pet corgi",
-      "The city of London"
+      "She couldn't finish because she got too emotional",
+      "She sang a song instead of speaking",
+      "She forgot all her words completely",
+      "She spoke for three hours straight"
     ],
-    "activity_answer": "Her husband Prince Albert",
-    "bonus_fact": "The hall is so big that it can fit over 5,000 people inside!",
-    "optional_type": "bonus_fact",
-    "optional_quality_score": 75,
+    "activity_answer": "She couldn't finish because she got too emotional",
+    "follow_up_question": "Why do you think they named the hall after Prince Albert?",
+    "optional_type": "follow_up_question",
     "categories": [
-      "Vibes, Beats & Brushes"
+      "World Shakers & Icon Makers"
     ],
     "suitable_for_8_to_12_year_old": true,
     "score": 75,
@@ -463,19 +442,18 @@
   },
   {
     "id": "118",
-    "title": "The Brown Bomber's Lightning Strike",
-    "story": "Joe Louis threw punches like lightning bolts, and in 1940, poor Johnny Paycheck learned this the hard way! The American boxing champion defended his heavyweight title by knocking out Paycheck in just two rounds. That's less than six minutes of fighting! Louis was nicknamed \"The Brown Bomber\" because his punches exploded like bombs, ending fights super fast. Paycheck probably wished he'd called in sick that day instead of stepping into the ring with one of boxing's greatest champions.",
-    "activity_question": "How many rounds did it take Joe Louis to knock out Johnny Paycheck?",
+    "title": "Lightning-Fast Champion Keeps His Crown",
+    "story": "Joe Louis was already the heavyweight boxing champion when he stepped into the ring on this date in 1940, but Johnny Paycheck thought he could take the title away. Big mistake! Louis was nicknamed the \"Brown Bomber\" because his punches were so powerful and fast. In just two rounds, Louis knocked out Paycheck and kept his heavyweight crown. The fight was over so quickly that some fans probably didn't even finish their popcorn! Louis was one of the greatest boxers ever, and this lightning-fast victory showed exactly why he held the title for so long.",
+    "activity_question": "What was Joe Louis's famous nickname?",
     "activity_choices": [
-      "2 rounds",
-      "6 rounds",
-      "10 rounds",
-      "He knocked him out with a single sneeze"
+      "The Brown Bomber",
+      "Lightning Louis",
+      "The Knockout King",
+      "The Dancing Destroyer"
     ],
-    "activity_answer": "2 rounds",
-    "bonus_fact": "Joe Louis held the heavyweight title for 12 years, longer than anyone else!",
+    "activity_answer": "The Brown Bomber",
+    "bonus_fact": "Joe Louis held the heavyweight title for 12 years, longer than any other heavyweight champion!",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
     "categories": [
       "Full Beast Mode"
     ],
@@ -485,19 +463,18 @@
   },
   {
     "id": "128",
-    "title": "The Fight That Went the Distance",
-    "story": "Muhammad Ali threw punches for a full 15 rounds against tough Canadian boxer George Chuvalo in 1966, defending his heavyweight boxing title in one of the longest fights of his career. Chuvalo was known for having an iron jaw - he never got knocked down in his entire boxing career! Ali won the fight, but both boxers were exhausted after battling for nearly an hour in the ring. It was a true test of endurance and skill.",
-    "activity_question": "How many rounds did Muhammad Ali and George Chuvalo fight?",
+    "title": "The Toughest Man Ali Never Knocked Down",
+    "story": "Muhammad Ali threw everything he had at George Chuvalo, but the tough Canadian boxer just wouldn't fall! Back on March 29th, 1966, these two heavyweight champions battled for 15 brutal rounds in Toronto. Ali was defending his world heavyweight title, dancing around the ring with his famous footwork. Chuvalo was known as one of the hardest fighters to knock out in boxing history. For 15 rounds, Ali punched and jabbed, but Chuvalo kept standing up and fighting back. When the final bell rang, Ali won by decision, but Chuvalo had done something amazing - he became one of the few boxers Ali could never knock down!",
+    "activity_question": "How many rounds did Ali and Chuvalo fight?",
     "activity_choices": [
       "12 rounds",
       "15 rounds",
       "10 rounds",
-      "They fought until someone fell asleep"
+      "8 rounds"
     ],
     "activity_answer": "15 rounds",
-    "bonus_fact": "George Chuvalo never got knocked down in his entire 93-fight professional boxing career.",
+    "bonus_fact": "Chuvalo was never knocked down in his entire 93-fight professional career!",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
     "categories": [
       "Full Beast Mode"
     ],
@@ -507,19 +484,18 @@
   },
   {
     "id": "159",
-    "title": "Vikings Cash Out in Paris",
-    "story": "Viking warriors sailed their longships right up to Paris and attacked the city in 845! The fierce raiders, probably led by the legendary Ragnar Lodbrok, weren't just there to cause trouble. They had a clever plan to get rich quick. After showing the terrified people of Paris just how dangerous they could be, the Vikings made a deal. Instead of destroying everything, they agreed to sail away peacefully if the city paid them a massive ransom. The smart but scary strategy worked perfectly, and the Vikings left Paris with their ships loaded with treasure.",
-    "activity_question": "What did the Vikings do after attacking Paris in 845?",
+    "title": "Vikings Demand Paris Ransom!",
+    "story": "Viking longships filled the Seine River on March 29th, 845, as fierce warriors led by the legendary Ragnar Lodbrok attacked Paris! The Vikings weren't just raiding for treasure this time\u2014they had a clever plan. After sacking the city and showing their strength, Ragnar made the French king an offer he couldn't refuse: pay us a massive ransom of silver, and we'll sail away peacefully. The terrified king agreed, handing over thousands of pounds of precious silver to make the Vikings leave. It worked perfectly, and Ragnar's crew sailed home rich and famous!",
+    "activity_question": "What did Ragnar Lodbrok demand from the French king after attacking Paris?",
     "activity_choices": [
-      "They collected a huge ransom and left",
-      "They built a permanent settlement there",
-      "They converted the city into a Viking fortress",
-      "They opened a fish and chips restaurant"
+      "A huge ransom of silver",
+      "The king's crown and throne",
+      "A year's supply of French cheese",
+      "Half of all the land in France"
     ],
-    "activity_answer": "They collected a huge ransom and left",
-    "bonus_fact": "Ragnar Lodbrok's name means 'Ragnar Hairy Pants' in Old Norse!",
+    "activity_answer": "A huge ransom of silver",
+    "bonus_fact": "Ragnar's successful ransom trick inspired other Viking leaders to try the same strategy!",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
     "categories": [
       "History's Mic Drop Moments"
     ],
@@ -529,21 +505,20 @@
   },
   {
     "id": "191",
-    "title": "The Amazing Parodi Sisters",
-    "story": "Ritta and Christina Parodi were born as conjoined twins in Sassare, a small town in Sardinia, Italy. These sisters were connected at their bodies but lived full lives together, becoming famous throughout Europe for their remarkable bond. People traveled from far away just to meet them and hear their stories. The Parodi twins were known for their intelligence and charm, proving that being different made them special, not less. They lived until 1829, inspiring everyone they met with their courage and joy.",
-    "activity_question": "Where were Ritta and Christina Parodi born?",
+    "title": "The Amazing Parodi Twins",
+    "story": "Two very special sisters named Ritta and Christina Parodi were born in the town of Sassare on the island of Sardinia on this date in 1829. These remarkable twins were what doctors call conjoined twins, meaning they were physically connected when they were born. Back in the 1800s, people often called conjoined twins \"Siamese twins\" after two famous brothers from Thailand. The Parodi sisters lived their entire lives together, sharing everything and facing the world as a team until they passed away later that same year.",
+    "activity_question": "What were Ritta and Christina Parodi?",
     "activity_choices": [
-      "Sassare, Sardinia",
-      "Rome, Italy",
-      "Paris, France",
-      "On a pirate ship"
+      "Conjoined twins",
+      "Famous painters",
+      "Ship captains",
+      "Dancing elephants"
     ],
-    "activity_answer": "Sassare, Sardinia",
-    "follow_up_question": "How do you think conjoined twins today might live differently than in the 1800s?",
-    "optional_type": "follow_up_question",
-    "optional_quality_score": 85,
+    "activity_answer": "Conjoined twins",
+    "bonus_fact": "The term \"Siamese twins\" came from famous conjoined brothers Chang and Eng from Thailand.",
+    "optional_type": "bonus_fact",
     "categories": [
-      "World Shakers & Icon Makers"
+      "The What Zone"
     ],
     "suitable_for_8_to_12_year_old": true,
     "score": 75,
@@ -551,19 +526,18 @@
   },
   {
     "id": "244",
-    "title": "The Horse That Almost Never Lost",
-    "story": "Man o' War became America's most famous racehorse, but he was born in 1917 with a name that sounded like trouble! This incredible thoroughbred was foaled at Nursery Stud in Kentucky and grew up to be a racing legend. In 1920, he thundered to victory at both the Preakness Stakes and Belmont Stakes, leaving other horses eating his dust. Man o' War only lost one race in his entire career, winning an amazing 20 out of 21 races before he died in 1947.",
-    "activity_question": "In which year did Man o' War win both the Preakness Stakes and Belmont Stakes?",
+    "title": "The Greatest Racehorse Ever Born",
+    "story": "March 29th, 1917 brought something special to a Kentucky horse farm \u2014 the birth of a colt who would become racing's biggest superstar. Man o' War was born that day at Nursery Stud, and this wasn't just any ordinary foal. He grew up to be so fast and powerful that people called him \"Big Red\" because of his massive size and reddish coat. In 1920, he won both the Preakness Stakes and Belmont Stakes, two of horse racing's most important races. He was so good that he only lost one race in his entire career!",
+    "activity_question": "What nickname did people give Man o' War because of his size and color?",
     "activity_choices": [
-      "1917",
-      "1920",
-      "1925",
-      "1947"
+      "Big Red",
+      "Lightning Bolt",
+      "Thunder Hooves",
+      "The Kentucky King"
     ],
-    "activity_answer": "1920",
-    "bonus_fact": "Man o' War was so fast that other horses were sometimes given huge head starts just to make races fair!",
+    "activity_answer": "Big Red",
+    "bonus_fact": "Man o' War only lost one race out of 21 \u2014 and that was because of a bad start!",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
     "categories": [
       "Full Beast Mode"
     ],
@@ -573,21 +547,20 @@
   },
   {
     "id": "350",
-    "title": "From Army Base to Outer Space",
-    "story": "William Oefelein started life at Fort Belvoir, an Army base in Virginia, when he was born in 1965. This future astronaut probably never imagined that his journey would take him from a military town all the way to the stars! Years later, he became part of NASA's astronaut program and flew on the STS-116 Space Shuttle mission, helping to build the International Space Station piece by piece in orbit above Earth.",
-    "activity_question": "What was the name of William Oefelein's Space Shuttle mission?",
+    "title": "Baby Astronaut Takes First Breath",
+    "story": "A future space explorer took his very first breath on March 29th, 1965, when William Oefelein was born in Fort Belvoir, Virginia. Little did anyone know that this tiny baby would grow up to zoom around Earth at 17,500 miles per hour! Years later, Oefelein became a NASA astronaut and blasted off on the Space Shuttle Discovery for mission STS-116. His job was to help build the International Space Station, floating in zero gravity while constructing humanity's home among the stars. From a military base in Virginia to the endless black of space, this March birthday boy proved that dreams really can reach beyond the clouds.",
+    "activity_question": "What was the name of the space shuttle mission that William Oefelein flew on?",
     "activity_choices": [
       "STS-116",
-      "STS-117",
-      "STS-115",
+      "STS-200",
+      "Apollo 11",
       "STS-Pizza Express"
     ],
     "activity_answer": "STS-116",
-    "bonus_fact": "Fort Belvoir is home to some of the Army's most important engineering and intelligence work.",
+    "bonus_fact": "The International Space Station travels around Earth once every 90 minutes!",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 72,
     "categories": [
-      "World Shakers & Icon Makers"
+      "Beyond Earth"
     ],
     "suitable_for_8_to_12_year_old": true,
     "score": 75,
@@ -595,19 +568,18 @@
   },
   {
     "id": "28",
-    "title": "Boston's Big Win at the Garden",
-    "story": "The Boston Bruins skated into Madison Square Garden and made hockey history! In 1929, they beat the New York Rangers 2-1 in an exciting game that gave them a 2-0 series sweep in the Stanley Cup Final. This wasn't just any victory - it was Boston's very first Stanley Cup Championship ever. The crowd at Madison Square Garden watched as the Bruins celebrated their amazing achievement on enemy ice.",
-    "activity_question": "What made Boston's 1929 Stanley Cup victory extra special?",
+    "title": "Boston's First Stanley Cup Victory",
+    "story": "The Boston Bruins made hockey history on March 29th, 1929, when they defeated the New York Rangers 2-1 at Madison Square Garden. This victory gave Boston a 2-0 series sweep and their very first Stanley Cup championship! The crowd in New York watched as the visiting team celebrated on their home ice. For Boston fans, it was the moment they had been waiting for since the team started playing hockey.",
+    "activity_question": "What was special about the Boston Bruins' 1929 Stanley Cup victory?",
     "activity_choices": [
-      "It was their first Championship ever",
+      "It was their first championship ever",
       "They won in overtime",
-      "They scored 10 goals",
-      "The game was played on a frozen pond"
+      "They scored 10 goals in the game",
+      "They played on roller skates"
     ],
-    "activity_answer": "It was their first Championship ever",
-    "bonus_fact": "The Bruins won their first Cup by beating the Rangers on the Rangers' home ice.",
+    "activity_answer": "It was their first championship ever",
+    "bonus_fact": "The Bruins won the championship by playing only two games in the final series.",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 75,
     "categories": [
       "Full Beast Mode"
     ],
@@ -617,19 +589,18 @@
   },
   {
     "id": "38",
-    "title": "Cricket's Historic Showdown",
-    "story": "Cricket fans went wild when Australia and New Zealand faced off in their very first Test Cricket match in 1946! This wasn't just any game - it was a historic moment that cricket lovers had been waiting for. The two neighboring countries finally got to prove who had the better team in the most serious form of cricket. Test Cricket matches can last up to five days, so this was going to be an epic battle of skill, patience, and strategy between these friendly rivals.",
-    "activity_question": "In what year did Australia and New Zealand play their first Test Cricket match?",
+    "title": "Cricket's Epic Six-Day Battle Begins",
+    "story": "Two cricket teams stepped onto the field in Wellington, New Zealand on March 29th, 1946, ready to make history. Australia and New Zealand were about to play their very first official Test cricket match against each other! Test cricket is the longest form of the sport, where games can last up to five days. This wasn't just any game - it marked the beginning of a friendly rivalry that would last for decades, with both countries showing off their best players and strategies in this exciting new chapter of cricket history.",
+    "activity_question": "How long can a Test cricket match last?",
     "activity_choices": [
-      "1946",
-      "1945",
-      "1950",
-      "1948"
+      "Up to five days",
+      "One afternoon",
+      "Exactly 24 hours",
+      "Two weeks straight"
     ],
-    "activity_answer": "1946",
-    "bonus_fact": "Test Cricket matches can actually end in a draw even after five full days of playing!",
+    "activity_answer": "Up to five days",
+    "bonus_fact": "New Zealand actually won this historic first Test match against Australia!",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 75,
     "categories": [
       "Full Beast Mode"
     ],
@@ -639,19 +610,18 @@
   },
   {
     "id": "41",
-    "title": "The Tie That Made Baseball History",
-    "story": "Baseball fans couldn't believe their eyes when the New York Yankees and Boston Red Sox ended their spring training game in a 2-2 tie after 17 incredible innings in 1948! Most baseball games last only 9 innings, but this epic battle kept going and going like the world's longest pizza slice. Players were probably getting hungry and tired, but neither team would give up. Spring training games are supposed to help teams practice for the real season, but this marathon match became more exciting than many regular games. It was like watching two stubborn kids arguing over the last cookie!",
-    "activity_question": "How many innings did this epic Yankees vs Red Sox game last?",
+    "title": "The Longest Spring Training Game Ever",
+    "story": "Baseball fans got way more than they bargained for when the New York Yankees and Boston Red Sox faced off in spring training on this date back in 1948! What started as a regular practice game turned into an epic marathon that lasted 17 innings. Both teams kept scoring and then getting shut down, over and over again. Players were probably getting pretty tired by the 10th inning, but they kept playing. Finally, after what felt like forever, the game ended in a 2-2 tie. That's one way to get extra batting practice!",
+    "activity_question": "How many innings did this epic spring training game last?",
     "activity_choices": [
       "17 innings",
-      "9 innings",
       "12 innings",
-      "25 innings"
+      "25 innings",
+      "9 innings"
     ],
     "activity_answer": "17 innings",
-    "bonus_fact": "Spring training games can actually end in ties, unlike regular season games!",
+    "bonus_fact": "Spring training games today rarely go past 9 innings, even if tied!",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 75,
     "categories": [
       "Full Beast Mode"
     ],
@@ -661,19 +631,18 @@
   },
   {
     "id": "81",
-    "title": "Strike! The Perfect Name for a Bowling Champion",
-    "story": "Rick Steelsmith sounds like a superhero name, but he's actually a bowling legend who knocked down pins for a living! In 1997, this perfectly-named athlete rolled his way to victory at the PBA National Championship, one of bowling's biggest tournaments. With a last name like \"Steelsmith,\" it's almost like he was destined to throw heavy bowling balls down wooden lanes and crush the competition.",
-    "activity_question": "What major bowling tournament did Rick Steelsmith win in 1997?",
+    "title": "Strike! The Perfect Game Champion",
+    "story": "Rick Steelsmith rolled his way into bowling history on this date in 1997 when he won the PBA National Championship! The Professional Bowlers Association tournament is like the Super Bowl for bowling pros. Steelsmith had to knock down thousands of pins and beat dozens of other skilled bowlers to claim the top prize. His victory proved that sometimes the coolest champions come from the most unexpected sports - and that perfect strikes can make you a legend!",
+    "activity_question": "What does PBA stand for in bowling?",
     "activity_choices": [
-      "PBA National Championship",
-      "World Bowling Cup",
-      "Strike Master Tournament",
-      "Golden Pin Championship"
+      "Professional Bowlers Association",
+      "Perfect Ball Alliance",
+      "Pin Busting Academy",
+      "Powerful Bowling Athletes"
     ],
-    "activity_answer": "PBA National Championship",
-    "bonus_fact": "His last name \"Steelsmith\" sounds like it was made for someone who throws heavy balls!",
-    "optional_type": "bonus_fact",
-    "optional_quality_score": 75,
+    "activity_answer": "Professional Bowlers Association",
+    "follow_up_question": "What other sports have championship tournaments that most people don't know about?",
+    "optional_type": "follow_up_question",
     "categories": [
       "Full Beast Mode"
     ],
@@ -683,41 +652,39 @@
   },
   {
     "id": "115",
-    "title": "The Last Words from Antarctica",
-    "story": "Captain Robert Falcon Scott was trapped in a tiny tent, surrounded by howling Antarctic winds and deadly cold. In 1912, he and his team had reached the South Pole, only to discover another explorer had beaten them there. Now, on their way back, they were stuck in a terrible blizzard with no food left. Scott picked up his diary one final time and wrote his last entry: \"the end cannot be far.\" Those brave words became some of the most famous last diary entries in history.",
+    "title": "Scott's Final Words from Antarctica",
+    "story": "Captain Robert Falcon Scott was trapped in his tent somewhere near the bottom of the world, with howling Antarctic winds keeping him prisoner. On March 29th, 1912, this brave explorer picked up his pen one last time and wrote in his diary: \"the end cannot be far.\" Scott and his team had reached the South Pole, but they discovered another team had beaten them there first. Now, on their way back, they were stuck in a terrible blizzard with no food left and no way to escape.",
     "activity_question": "What did Captain Scott write in his final diary entry?",
     "activity_choices": [
       "\"the end cannot be far\"",
       "\"we made it to the South Pole\"",
       "\"the weather is getting better\"",
-      "\"I can see penguins dancing outside\""
+      "\"I can see penguins dancing\""
     ],
     "activity_answer": "\"the end cannot be far\"",
     "categories": [
       "History's Mic Drop Moments"
     ],
-    "bonus_fact": "Scott's diary was found eight months later, perfectly preserved in the frozen tent.",
+    "bonus_fact": "Scott's diary was found eight months later, still frozen in the tent.",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
     "suitable_for_8_to_12_year_old": true,
     "score": 70,
     "approved": false
   },
   {
     "id": "165",
-    "title": "The Pyramid That Shocked Paris",
-    "story": "A giant glass pyramid suddenly appeared in front of one of the world's most famous museums! When architect I. M. Pei designed a modern glass pyramid as the new entrance to the Louvre Museum in Paris, many people were shocked. How could this futuristic structure fit with the old, elegant palace? But in 1989, when the pyramid officially opened, it became an instant hit. The see-through design let natural light flood into the underground entrance below, making visiting the museum much easier and more beautiful.",
-    "activity_question": "What material was I. M. Pei's pyramid entrance made of?",
+    "title": "Glass Pyramid Shocks Paris",
+    "story": "A giant glass pyramid suddenly appeared in front of one of the world's most famous museums, and Parisians were not happy! On March 30th, 1989, architect I. M. Pei's bold new entrance to the Louvre Museum officially opened to the public. The shiny pyramid looked totally different from the old palace around it, and many people thought it was ugly and didn't belong. But Pei had a clever plan - the pyramid let natural light flood into the underground lobby below, making the museum much brighter and easier to visit.",
+    "activity_question": "What did I. M. Pei's new entrance to the Louvre Museum look like?",
     "activity_choices": [
-      "Glass",
-      "Stone",
-      "Gold",
-      "Cheese (it is France, after all!)"
+      "A glass pyramid",
+      "A giant golden dome",
+      "A marble statue",
+      "A spinning disco ball"
     ],
-    "activity_answer": "Glass",
-    "bonus_fact": "The pyramid uses 603 diamond-shaped glass panels and 70 triangular ones.",
+    "activity_answer": "A glass pyramid",
+    "bonus_fact": "The pyramid is made of 603 pieces of glass and 70 pieces of steel.",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
     "categories": [
       "Vibes, Beats & Brushes"
     ],
@@ -727,41 +694,39 @@
   },
   {
     "id": "330",
-    "title": "The Gymnast Who Became a Movie Star",
-    "story": "Kurt Thomas flipped his way into history books when he was born in Miami, Florida in 1956. This amazing gymnast became the first American male ever to win a gold medal at the World Championships, taking home the prize for floor exercise in 1978. The next year, he struck gold again, winning both floor and horizontal bars in 1979. But Kurt didn't stop at gymnastics - he also became an actor and starred in a wild martial arts movie called \"Gymkata\" where he used his gymnastic skills to fight bad guys!",
+    "title": "America's First Male Gymnastics Gold Hero",
+    "story": "Kurt Thomas flipped into history when he was born in Miami, Florida on this very date in 1956! This future gymnastics superstar would become the first American male ever to win a gold medal at the World Championships. In 1978, he dazzled judges with his floor routine, then came back in 1979 to win gold again on both floor and horizontal bars. But here's the twist - he also became a movie star in an action film called \"Gymkata,\" where he used his incredible gymnastics skills to fight bad guys!",
     "activity_question": "What made Kurt Thomas special in gymnastics history?",
     "activity_choices": [
-      "He was the first American male to win World Championship gold",
-      "He invented a new type of gymnastics move",
+      "He was the first American male to win World Championships gold",
+      "He invented a new type of gymnastics equipment",
       "He was the tallest gymnast ever",
       "He could do backflips while eating pizza"
     ],
-    "activity_answer": "He was the first American male to win World Championship gold",
-    "bonus_fact": "In \"Gymkata,\" Kurt's character literally used pommel horse moves to defeat enemies in combat!",
-    "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
+    "activity_answer": "He was the first American male to win World Championships gold",
     "categories": [
       "Full Beast Mode"
     ],
+    "bonus_fact": "Kurt Thomas had a gymnastics move named after him - the \"Thomas Flair\" on pommel horse!",
+    "optional_type": "bonus_fact",
     "suitable_for_8_to_12_year_old": true,
     "score": 70,
     "approved": false
   },
   {
     "id": "349",
-    "title": "Greece's Golden Hurdler",
-    "story": "Voula Patoulidou was born in 1965 in the small Greek village of Tripotamo, and she would grow up to make Olympic history! This amazing athlete trained hard for years, perfecting her technique of jumping over hurdles while sprinting at top speed. In 1992, she shocked the world by winning Olympic gold in the 100-meter hurdles, becoming Greece's first woman ever to claim an Olympic gold medal in track and field.",
+    "title": "Greece's Golden Sprint to Glory",
+    "story": "A future Olympic champion took her first breath in the small Greek village of Tripotamo on this very day in 1965. Voula Patoulidou was born that year with no idea she would one day make history for her entire country. Twenty-seven years later, she would sprint and leap over hurdles faster than any other woman in the world, winning Greece's first-ever Olympic gold medal in track and field at the 1992 Barcelona Olympics in the 100-meter hurdles!",
     "activity_question": "What Olympic event did Voula Patoulidou win gold in?",
     "activity_choices": [
       "100-meter hurdles",
       "Long jump",
       "Marathon",
-      "100-meter butterfly swimming"
+      "Pole vault"
     ],
     "activity_answer": "100-meter hurdles",
-    "bonus_fact": "She was Greece's first woman to win Olympic gold in track and field.",
+    "bonus_fact": "Her victory was Greece's first Olympic track and field gold medal ever!",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 75,
     "categories": [
       "Full Beast Mode"
     ],
@@ -771,19 +736,18 @@
   },
   {
     "id": "16",
-    "title": "Ohio's Big Work Rule",
-    "story": "Ohio passed a surprising law in 1852 that said kids under 18 and women couldn't work more than 10 hours a day. Back then, many people worked in dangerous factories for 12 or even 14 hours without breaks! This new rule was meant to protect people from getting too tired or hurt. While it sounds unfair to us today because it treated women differently than men, it was actually one of the first laws in America to limit how long anyone could work in a single day.",
-    "activity_question": "In what year did Ohio pass this work hour limit law?",
+    "title": "Ohio's Big Work Rule Change",
+    "story": "Back on this date in 1852, Ohio did something pretty unusual - they made a new law saying kids under 18 and women couldn't work more than 10 hours a day. That might sound like a long time now, but back then, many people worked 12 or even 14 hours every single day! This was one of the first times a state said \"Hey, that's too much work for some people.\" It was a big step toward making work safer and fairer, even though it would take many more years before work rules became truly equal for everyone.",
+    "activity_question": "How many hours per day did Ohio's 1852 law limit work for children and women?",
     "activity_choices": [
-      "1852",
-      "1845",
-      "1860",
-      "1875"
+      "8 hours",
+      "10 hours",
+      "12 hours",
+      "6 hours"
     ],
-    "activity_answer": "1852",
-    "follow_up_question": "Why do you think some of the first worker protection laws focused on women and children?",
+    "activity_answer": "10 hours",
+    "follow_up_question": "Why do you think it took so long for work rules to become equal for everyone?",
     "optional_type": "follow_up_question",
-    "optional_quality_score": 85,
     "categories": [
       "History's Mic Drop Moments"
     ],
@@ -793,21 +757,20 @@
   },
   {
     "id": "31",
-    "title": "The Giant Mirror That Stopped Traffic",
-    "story": "A massive 200-inch mirror blank rolled through Indianapolis in 1936, and 10,000 people lined the streets to watch it pass by! This wasn't just any mirror - it was destined to become part of the famous Palomar Observatory telescope in California. The giant glass disk was so huge and heavy that moving it across the country became a spectacular event. People treated it like a parade, cheering as the enormous mirror slowly made its way through their city on its journey to help scientists explore the stars.",
-    "activity_question": "How many people watched the giant mirror pass through Indianapolis?",
+    "title": "Giant Mirror's Epic Road Trip",
+    "story": "A massive crowd of 10,000 people lined the streets of Indianapolis on this March day in 1936 to watch something incredible roll through their city. The biggest mirror blank ever made\u2014a whopping 200 inches wide\u2014was traveling by train to California to become the heart of a giant telescope. This wasn't just any piece of glass, but a 20-ton monster that would help scientists see farther into space than ever before!",
+    "activity_question": "How many people watched the giant mirror blank pass through Indianapolis?",
     "activity_choices": [
       "5,000 people",
       "10,000 people",
       "15,000 people",
-      "Just the mayor and his pet hamster"
+      "Just a few curious kids"
     ],
     "activity_answer": "10,000 people",
-    "bonus_fact": "The mirror took 11 years to cool down and be polished before it could actually be used!",
+    "bonus_fact": "The mirror blank weighed as much as 10 cars put together!",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
     "categories": [
-      "Big Brain Energy"
+      "Beyond Earth"
     ],
     "suitable_for_8_to_12_year_old": true,
     "score": 65,
@@ -815,19 +778,18 @@
   },
   {
     "id": "70",
-    "title": "The Beatles Finally Rock Russia",
-    "story": "The Beatles' music was banned in Russia for over twenty years! While kids in America and Europe were dancing to \"Hey Jude\" and \"Let It Be,\" Russian fans could only listen secretly to smuggled recordings. Finally, in 1986, the Soviet government decided it was okay for people to buy Beatles albums in stores. Imagine waiting more than two decades to legally own your favorite band's music! Russian Beatles fans must have been incredibly excited to finally walk into a record shop and buy those famous albums without breaking any rules.",
-    "activity_question": "How long were Beatles records banned from official sale in Russia?",
+    "title": "Beatles Finally Rock Russia",
+    "story": "The Beatles' music was banned in Russia for over twenty years, but March 29th, 1986 changed everything! On this historic day, Russian fans could finally walk into stores and buy official Beatles records. For decades, people had to secretly trade bootleg copies or listen to fuzzy radio broadcasts from other countries. The government thought rock music was dangerous and would corrupt young minds. But by 1986, things were changing, and suddenly \"Help!\" and \"Hey Jude\" were spinning on turntables across the Soviet Union for the first time legally.",
+    "activity_question": "How long were Beatles records banned in Russia before going on sale?",
     "activity_choices": [
-      "More than twenty years",
-      "Exactly ten years",
-      "Just five years",
-      "They were never actually banned"
+      "Over twenty years",
+      "Five years",
+      "Ten years",
+      "They were never banned"
     ],
-    "activity_answer": "More than twenty years",
-    "bonus_fact": "Some Russian fans risked jail time just for owning Beatles bootleg recordings.",
+    "activity_answer": "Over twenty years",
+    "bonus_fact": "Russian fans called bootleg Beatles records \"music on bones\" because they were pressed on old X-ray films.",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
     "categories": [
       "Vibes, Beats & Brushes"
     ],
@@ -838,18 +800,17 @@
   {
     "id": "79",
     "title": "When New York Played Against Itself",
-    "story": "Baseball fans got a rare treat when the New York Yankees faced off against the New York Mets in 1996! This wasn't a regular season game, but a special exhibition match that had the whole city buzzing. The Yankees came out swinging and beat their crosstown rivals 7-3, giving their fans plenty to cheer about. It was like watching two siblings compete in the backyard, except these siblings were professional baseball teams with thousands of fans rooting for each side.",
-    "activity_question": "What was the final score when the Yankees beat the Mets in this 1996 exhibition game?",
+    "story": "Baseball fans got a special treat on March 29th, 1996, when New York's two biggest teams faced off in an exhibition game. The Yankees and Mets don't usually play each other during the regular season, so this was like watching two siblings compete in the backyard. The Yankees won 7-3, but since it was just a practice game, both teams were really getting ready for the real season ahead.",
+    "activity_question": "What was the final score when the Yankees beat the Mets in 1996?",
     "activity_choices": [
       "7-3",
       "5-2",
-      "9-4",
-      "12-0"
+      "9-1",
+      "3-7"
     ],
     "activity_answer": "7-3",
-    "bonus_fact": "Exhibition games don't count toward official team records, but the bragging rights are still real!",
+    "bonus_fact": "Exhibition games let teams practice against different opponents before the real season starts.",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 75,
     "categories": [
       "Full Beast Mode"
     ],
@@ -860,18 +821,17 @@
   {
     "id": "87",
     "title": "Mexico Buys Back Ancient Wonder",
-    "story": "The Mexican state of Yucat\u00e1n made headlines in 2010 when they bought back one of their own treasures! For years, the famous Mayan ruins of Chichen Itza belonged to a private landowner, even though millions of tourists visited this ancient wonder every year. The state decided it was time to own this incredible archaeological site themselves, so they purchased it from the private owner. Now this amazing pyramid and the ruins around it truly belong to the people of Mexico again!",
-    "activity_question": "What happened to Chichen Itza in 2010?",
+    "story": "The Mexican government made a huge deal on March 29th, 2010 \u2014 they bought back one of the world's most famous ancient cities! For years, the incredible Mayan ruins of Chichen Itza belonged to a private landowner, even though millions of tourists visited to see the amazing pyramid and ball courts. The state of Yucat\u00e1n finally purchased this archaeological treasure, which includes the famous El Castillo pyramid that's over 1,000 years old. Now this Wonder of the World truly belongs to the people of Mexico again!",
+    "activity_question": "What famous ancient structure is located at Chichen Itza?",
     "activity_choices": [
-      "The Mexican state bought it from a private owner",
-      "A new pyramid was discovered there",
-      "It was destroyed by an earthquake",
-      "Aliens returned to claim it"
+      "El Castillo pyramid",
+      "The Great Wall",
+      "A giant taco stand",
+      "The Sphinx"
     ],
-    "activity_answer": "The Mexican state bought it from a private owner",
-    "optional_type": "follow_up_question",
-    "optional_quality_score": 85,
-    "follow_up_question": "Should ancient ruins belong to governments or private people?",
+    "activity_answer": "El Castillo pyramid",
+    "bonus_fact": "Chichen Itza's pyramid has exactly 365 steps \u2014 one for each day of the year!",
+    "optional_type": "bonus_fact",
     "categories": [
       "History's Mic Drop Moments"
     ],
@@ -882,18 +842,17 @@
   {
     "id": "96",
     "title": "Love Wins in the UK",
-    "story": "Wedding bells rang out across the United Kingdom in 2014 as something amazing happened for the first time ever. Same-sex couples could finally get married legally, thanks to a new law called The Marriage (Same Sex Couples) Act that passed in 2013. Couples who had been waiting years to tie the knot rushed to become the very first to say \"I do\" under this groundbreaking law.",
-    "activity_question": "What was the name of the law that allowed same-sex couples to marry in the UK?",
+    "story": "March 29th, 2014 became a celebration day across the United Kingdom when something historic happened - the very first same-sex couples got married! This special day was possible because of a new law called The Marriage (Same Sex Couples) Act that passed in 2013. For the first time ever, couples who had been together for years could finally have the same wedding rights as everyone else. Many couples had waited decades for this moment, and when that Saturday morning arrived, they rushed to make it official with happy tears and big smiles.",
+    "activity_question": "What made March 29th, 2014 a historic day in the UK?",
     "activity_choices": [
-      "The Marriage (Same Sex Couples) Act",
-      "The Equal Love Act",
-      "The Wedding Rights Act",
-      "The Partnership Marriage Act"
+      "The first same-sex couples could legally marry",
+      "A new queen was crowned",
+      "The first space mission launched",
+      "A new currency was introduced"
     ],
-    "activity_answer": "The Marriage (Same Sex Couples) Act",
-    "follow_up_question": "Why do you think it took until 2014 for this law to be passed?",
+    "activity_answer": "The first same-sex couples could legally marry",
+    "follow_up_question": "Why do you think it was important for couples to have equal marriage rights?",
     "optional_type": "follow_up_question",
-    "optional_quality_score": 85,
     "categories": [
       "History's Mic Drop Moments"
     ],
@@ -903,19 +862,18 @@
   },
   {
     "id": "130",
-    "title": "The Redhead Who Ruled the Court",
-    "story": "Dave Cowens shocked the basketball world when he won the NBA MVP award in 1973! This red-headed center for the Boston Celtics wasn't the tallest or strongest player, but he played with incredible heart and energy. Cowens dove for every loose ball, fought for every rebound, and never gave up on any play. His teammates loved his fighting spirit, and fans went wild watching him battle against much bigger opponents. That year, he proved that heart could beat height in basketball.",
-    "activity_question": "What team did Dave Cowens play for when he won MVP?",
+    "title": "The Redhead Who Shocked Basketball",
+    "story": "Dave Cowens proved that heart beats height when he grabbed the NBA's Most Valuable Player award on this date in 1973. The Boston Celtics center stood just 6'9\" \u2014 short for his position \u2014 but played like a giant among men. While other centers towered over him, Cowens used his fiery red hair and even fiercer determination to outwork everyone on the court, leading Boston to greatness and earning basketball's biggest individual honor.",
+    "activity_question": "What made Dave Cowens unusual for an NBA center?",
     "activity_choices": [
-      "Boston Celtics",
-      "Los Angeles Lakers",
-      "Chicago Bulls",
-      "Boston Baked Beans"
+      "He was shorter than most centers",
+      "He played with his eyes closed",
+      "He only shot left-handed",
+      "He wore roller skates"
     ],
-    "activity_answer": "Boston Celtics",
-    "bonus_fact": "Cowens was only 6'9\" tall, making him one of the shortest centers to win MVP.",
+    "activity_answer": "He was shorter than most centers",
+    "bonus_fact": "Cowens was known for his incredible hustle and diving for loose balls despite being a center.",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
     "categories": [
       "World Shakers & Icon Makers"
     ],
@@ -925,19 +883,18 @@
   },
   {
     "id": "3",
-    "title": "Brazil's First Capital City",
-    "story": "Salvador da Bahia became Brazil's very first capital city when Portuguese settlers founded it in 1549! This colorful coastal city served as the heart of Brazil's government for over 200 years. The Portuguese chose this spot because it had a perfect harbor for ships and high cliffs that were easy to defend from enemies. Salvador was where all the big decisions about Brazil were made until the capital moved to Rio de Janeiro much later.",
-    "activity_question": "What made Salvador da Bahia a good choice for Brazil's first capital?",
+    "title": "Brazil's First Capital Gets Born",
+    "story": "Portuguese explorers picked the perfect spot along Brazil's coast and founded Salvador da Bahia on March 29th, 1549, making it the very first capital city of this huge South American country! The city's name means \"Savior of the Bay,\" and it sat right next to a beautiful harbor where ships could safely dock. For over 200 years, this colorful city served as Brazil's most important place, welcoming traders, settlers, and adventurers from around the world before the capital eventually moved to Rio de Janeiro.",
+    "activity_question": "What does Salvador da Bahia's name mean in English?",
     "activity_choices": [
-      "It had a perfect harbor and high cliffs for defense",
-      "It was the largest city in South America",
-      "It had the best pizza restaurants",
-      "It was closest to Europe"
+      "Savior of the Bay",
+      "City of Gold",
+      "Harbor of Dreams",
+      "Land of Parrots"
     ],
-    "activity_answer": "It had a perfect harbor and high cliffs for defense",
-    "bonus_fact": "Salvador stayed Brazil's capital for 214 years before Rio de Janeiro took over!",
+    "activity_answer": "Savior of the Bay",
+    "bonus_fact": "Salvador da Bahia was Brazil's capital for 214 years!",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 75,
     "categories": [
       "History's Mic Drop Moments"
     ],
@@ -947,19 +904,18 @@
   },
   {
     "id": "6",
-    "title": "Sweden's American Adventure",
-    "story": "Peter Minuit had a bold plan that would shock everyone! This Dutch explorer decided to help Sweden start its own colony in America, even though he used to work for the Dutch. In 1638, Minuit sailed across the Atlantic Ocean with the first Swedish immigrants to establish New Sweden on the Delaware Peninsula. The Swedes built forts, traded with Native Americans, and created their own little piece of Sweden in the New World.",
-    "activity_question": "Who led the Swedish immigrants to establish New Sweden?",
+    "title": "Sweden's American Adventure Begins",
+    "story": "Peter Minuit had a wild idea that would change history forever on March 29th, 1638! This brave explorer sailed across the dangerous Atlantic Ocean with the very first Swedish families to reach America. They landed on the Delaware Peninsula and founded New Sweden, creating the first Swedish colony in the New World. These tough pioneers brought their own language, customs, and dreams of a better life to a completely unknown land thousands of miles from home.",
+    "activity_question": "What did Peter Minuit and the Swedish immigrants establish in 1638?",
     "activity_choices": [
-      "Peter Minuit",
-      "Captain Sweden",
-      "King Gustav",
-      "Erik the Explorer"
+      "New Sweden colony",
+      "A giant meatball factory",
+      "The first IKEA store",
+      "New Norway colony"
     ],
-    "activity_answer": "Peter Minuit",
-    "bonus_fact": "Peter Minuit had previously bought Manhattan Island for the Dutch before switching sides to help Sweden.",
+    "activity_answer": "New Sweden colony",
+    "bonus_fact": "Swedish colonists introduced log cabins to America, which became iconic frontier homes.",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
     "categories": [
       "History's Mic Drop Moments"
     ],
@@ -969,19 +925,18 @@
   },
   {
     "id": "10",
-    "title": "America's First Super Highway",
-    "story": "America's very first federal highway got the green light in 1806 when Congress said yes to building the Great National Pike! This massive road project, which most people called the Cumberland Road, was like the grandfather of all American highways. It stretched from Maryland all the way to Illinois, helping pioneers travel west much easier than bumping along on rough dirt trails.",
-    "activity_question": "What was the Great National Pike more commonly called?",
+    "title": "America's First Federal Highway Gets the Green Light",
+    "story": "Congress made history on March 29th, 1806, when they said \"yes\" to building America's very first federal highway! The Great National Pike, which most people called the Cumberland Road, would stretch from Maryland all the way to Illinois. Before this amazing road, traveling across the country meant bumping along terrible dirt paths that turned into muddy messes when it rained. This new highway would change everything, making it much easier for families to move west and for goods to travel between states.",
+    "activity_question": "What was the popular nickname for the Great National Pike?",
     "activity_choices": [
       "The Cumberland Road",
+      "The Liberty Highway",
       "The Pioneer Path",
-      "The Western Express",
-      "The Maryland Highway"
+      "The Muddy Mess Express"
     ],
     "activity_answer": "The Cumberland Road",
-    "follow_up_question": "How do you think this first highway changed life for American families wanting to move west?",
-    "optional_type": "follow_up_question",
-    "optional_quality_score": 85,
+    "bonus_fact": "The road eventually stretched over 600 miles and cost about $7 million to build!",
+    "optional_type": "bonus_fact",
     "categories": [
       "History's Mic Drop Moments"
     ],
@@ -991,19 +946,18 @@
   },
   {
     "id": "72",
-    "title": "Ice Breakers from Russia",
-    "story": "Hockey fans couldn't believe their eyes when Soviet players finally stepped onto NHL ice! For decades, the best Russian hockey stars were trapped behind the Iron Curtain, unable to join North American teams. In 1989, everything changed when the Soviet Union finally allowed their talented players to cross over and compete in the NHL. This historic decision opened the floodgates for incredible athletes who would revolutionize professional hockey with their unique playing style and amazing skills.",
-    "activity_question": "What happened in 1989 that changed professional hockey?",
+    "title": "Soviet Hockey Stars Break the Ice",
+    "story": "Hockey fans went wild when something amazing happened on March 29th, 1989! For the first time ever, Soviet hockey players got permission to play in the NHL. Before this day, these incredible athletes were stuck behind the Iron Curtain, unable to join North American teams. The Soviet Union had always kept their best players at home, but everything changed in 1989. This opened the door for legendary players to finally show their skills on NHL ice!",
+    "activity_question": "What happened to Soviet hockey players for the first time in 1989?",
     "activity_choices": [
-      "Soviet players were first allowed to join the NHL",
-      "Hockey pucks were made square instead of round",
-      "The first indoor ice rink was built",
-      "Women were allowed to play professional hockey"
+      "They were allowed to play in the NHL",
+      "They invented a new type of hockey stick",
+      "They started playing hockey on roller skates",
+      "They formed their own league in Canada"
     ],
-    "activity_answer": "Soviet players were first allowed to join the NHL",
-    "bonus_fact": "Many Soviet players became NHL superstars and completely changed how the game was played.",
-    "optional_type": "bonus_fact",
-    "optional_quality_score": 75,
+    "activity_answer": "They were allowed to play in the NHL",
+    "follow_up_question": "Why do you think the Soviet Union finally decided to let their players join the NHL?",
+    "optional_type": "follow_up_question",
     "categories": [
       "History's Mic Drop Moments"
     ],
@@ -1013,21 +967,20 @@
   },
   {
     "id": "78",
-    "title": "When a Football Team Flew Away",
-    "story": "The Cleveland Browns packed up and moved to Baltimore, but they couldn't take their name with them! In 1996, the team needed a brand new identity for their new city. After lots of thinking, they picked the Baltimore Ravens, named after a famous poem by Edgar Allan Poe, who lived in Baltimore. The old Browns name stayed in Cleveland, waiting for a new team to use it later.",
-    "activity_question": "What did the relocated Cleveland Browns rename themselves in Baltimore?",
+    "title": "Ravens Rise from the Ashes",
+    "story": "The Cleveland Browns were packing up and moving to Baltimore, but they needed a brand new name for their fresh start. On March 29th, 1996, team owners announced their choice: the Baltimore Ravens! The name came from Edgar Allan Poe's famous spooky poem \"The Raven,\" since the writer had lived in Baltimore. Fans loved the connection to their city's literary history, and the Ravens were born.",
+    "activity_question": "What inspired the name \"Baltimore Ravens\"?",
     "activity_choices": [
-      "Baltimore Ravens",
-      "Baltimore Eagles",
-      "Baltimore Poets",
-      "Baltimore Thunder"
+      "Edgar Allan Poe's poem \"The Raven\"",
+      "The city's black birds",
+      "A fan contest winner",
+      "The team's dark uniforms"
     ],
-    "activity_answer": "Baltimore Ravens",
-    "bonus_fact": "Edgar Allan Poe, who inspired the Ravens name, is buried in Baltimore.",
+    "activity_answer": "Edgar Allan Poe's poem \"The Raven\"",
+    "bonus_fact": "Edgar Allan Poe is buried in a Baltimore cemetery and lived there for several years.",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 75,
     "categories": [
-      "History's Mic Drop Moments"
+      "Vibes, Beats & Brushes"
     ],
     "suitable_for_8_to_12_year_old": true,
     "score": 60,
@@ -1036,18 +989,17 @@
   {
     "id": "83",
     "title": "Europe's Longest Bridge Opens in Portugal",
-    "story": "Portugal just built the longest bridge in all of Europe! The Vasco da Gama Road bridge opened in Lisbon in 1998, stretching an incredible distance across the water. This massive bridge was named after a famous Portuguese explorer who sailed around Africa to reach India hundreds of years ago. Now people can drive across this amazing structure that connects different parts of the city.",
-    "activity_question": "In which year did the Vasco da Gama Road bridge open in Lisbon?",
+    "story": "Portugal made history on March 29th, 1998, when the massive Vasco da Gama Road bridge finally opened in Lisbon! This incredible bridge stretched longer than any other bridge in Europe at the time. Named after the famous explorer Vasco da Gama, it spans across the Tagus River and is so long that on foggy days, you can't see from one end to the other!",
+    "activity_question": "What made the Vasco da Gama bridge special when it opened in 1998?",
     "activity_choices": [
-      "1996",
-      "1998",
-      "2000",
-      "1995"
+      "It was the longest bridge in Europe",
+      "It could fly like a plane",
+      "It was made entirely of gold",
+      "It was the tallest bridge in the world"
     ],
-    "activity_answer": "1998",
+    "activity_answer": "It was the longest bridge in Europe",
     "bonus_fact": "The bridge is over 10 miles long - that's longer than 175 football fields!",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
     "categories": [
       "Big Brain Energy"
     ],
@@ -1057,19 +1009,18 @@
   },
   {
     "id": "325",
-    "title": "The Cuban Boxing Legend Who Said No to Millions",
-    "story": "Teofilo Stevenson was born in Puerto Padre, Cuba in 1952 and became one of boxing's greatest champions. This incredible heavyweight boxer won Olympic gold medals three times in a row - in 1972, 1976, and 1980! That's something very few athletes ever achieve. Professional boxing promoters offered him millions of dollars to turn pro, but Stevenson chose to stay amateur and represent Cuba instead.",
-    "activity_question": "How many Olympic gold medals did Teofilo Stevenson win?",
+    "title": "The Cuban Boxing Legend's Birthday",
+    "story": "March 29th, 1952 marked the birth of a future boxing superstar in Puerto Padre, Cuba. Teofilo Stevenson was born that day and would grow up to become one of the greatest amateur boxers ever. This heavyweight champion did something almost impossible - he won Olympic gold medals three times in a row! Stevenson claimed the top prize at the 1972, 1976, and 1980 Olympics, making him a legend in the boxing world and a hero in Cuba.",
+    "activity_question": "How many Olympic gold medals did Teofilo Stevenson win in boxing?",
     "activity_choices": [
       "Two",
       "Three",
       "Four",
-      "Seventeen (he collected them like trading cards)"
+      "He won silver, not gold"
     ],
     "activity_answer": "Three",
-    "bonus_fact": "He was so good that Muhammad Ali once said he wanted to fight him.",
+    "bonus_fact": "Stevenson turned down millions of dollars to stay an amateur boxer in Cuba.",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
     "categories": [
       "World Shakers & Icon Makers"
     ],
@@ -1080,40 +1031,38 @@
   {
     "id": "329",
     "title": "The Tyler Rose Blooms",
-    "story": "Earl Campbell became one of football's greatest running backs after being born in Tyler, Texas in 1955. This powerhouse player earned the nickname \"The Tyler Rose\" and dominated both college and professional football. He won the prestigious Heisman Trophy in 1977 while playing for the University of Texas, then steamrolled into the NFL where he made the Pro Bowl five times with the Houston Oilers.",
+    "story": "A future football legend took his first breath in Tyler, Texas on March 29th, 1955, when Earl Campbell was born. This baby would grow up to become one of the most powerful running backs ever to thunder across a football field! Campbell earned the nickname \"The Tyler Rose\" and proved he was special by winning the Heisman Trophy in 1977 at the University of Texas. He didn't stop there - he made it to five Pro Bowls and became a Hall of Fame player who could bulldoze through defenders like they were made of paper.",
     "activity_question": "What nickname did Earl Campbell earn?",
     "activity_choices": [
       "The Tyler Rose",
       "The Texas Tornado",
       "The Houston Hurricane",
-      "The Dancing Banana"
+      "The Dancing Daffodil"
     ],
     "activity_answer": "The Tyler Rose",
-    "bonus_fact": "Campbell was so tough that defenders often got hurt trying to tackle him!",
-    "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
     "categories": [
       "World Shakers & Icon Makers"
     ],
+    "bonus_fact": "Campbell was so tough that defenders often got hurt trying to tackle him!",
+    "optional_type": "bonus_fact",
     "suitable_for_8_to_12_year_old": true,
     "score": 60,
     "approved": false
   },
   {
     "id": "5",
-    "title": "Sweden's American Adventure",
-    "story": "Swedish explorers sailed across the Atlantic Ocean and built Fort Christina in 1638, creating the first permanent white settlement in what we now call Delaware. They named their fort after their young queen, Christina, who was only twelve years old at the time! These brave Swedish Lutherans wanted to start a new life in America, so they picked a spot along the river that would later become the city of Wilmington.",
-    "activity_question": "What did the Swedish settlers name their fort after?",
+    "title": "Sweden's Surprise American Colony",
+    "story": "Swedish explorers sailed across the Atlantic Ocean and built Fort Christina on March 29th, 1638, creating Delaware's very first permanent white settlement! These brave Swedish Lutherans chose a spot along the Delaware River that would later become the city of Wilmington. It was pretty bold for Sweden to start a colony so far from home, competing with bigger countries like England and Spain for land in the New World.",
+    "activity_question": "What country founded Fort Christina in 1638?",
     "activity_choices": [
-      "Their queen Christina",
-      "A famous Swedish meatball",
-      "The Delaware River",
-      "Their homeland Sweden"
+      "Sweden",
+      "England",
+      "Spain",
+      "France"
     ],
-    "activity_answer": "Their queen Christina",
-    "bonus_fact": "Queen Christina was only 12 years old when the fort was named after her!",
+    "activity_answer": "Sweden",
+    "bonus_fact": "The Swedish colony was called New Sweden and lasted about 17 years.",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
     "categories": [
       "History's Mic Drop Moments"
     ],
@@ -1124,18 +1073,17 @@
   {
     "id": "43",
     "title": "Cracking the Maya Code",
-    "story": "Yuri Knorosov shocked the world by figuring out how to read ancient Maya writing! In 1955, this clever Russian linguist defended his master's thesis in Moscow, proving his amazing discovery worked. He had first announced his breakthrough method in 1952, showing that Maya symbols represented sounds, not just pictures like everyone thought.",
-    "activity_question": "What did Yuri Knorosov prove about Maya symbols?",
+    "story": "A young Russian linguist named Yuri Knorosov stood before professors in Moscow on this day in 1955, defending his master's thesis about something incredible - he had figured out how to read ancient Maya writing! For hundreds of years, nobody could understand the mysterious symbols carved on Maya temples and monuments. Knorosov discovered that the symbols weren't just pictures, but actually represented sounds and syllables, like letters in our alphabet. His breakthrough opened up a whole lost world of Maya history and stories.",
+    "activity_question": "What did Yuri Knorosov discover about Maya writing?",
     "activity_choices": [
-      "They represented sounds, not just pictures",
-      "They were actually upside-down",
-      "They were written by aliens",
-      "They were just decorative art"
+      "The symbols represented sounds and syllables",
+      "The symbols were just decorative art",
+      "The symbols were actually upside down",
+      "The symbols were a secret treasure map"
     ],
-    "activity_answer": "They represented sounds, not just pictures",
-    "bonus_fact": "Knorosov never visited Maya ruins but cracked the code using library books in cold Moscow.",
+    "activity_answer": "The symbols represented sounds and syllables",
+    "bonus_fact": "Knorosov never visited a Maya site but worked from books in a library!",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
     "categories": [
       "Big Brain Energy"
     ],
@@ -1145,21 +1093,20 @@
   },
   {
     "id": "65",
-    "title": "Cricket's Closest Call",
-    "story": "Delhi pulled off one of cricket's most nail-biting victories when they beat Karnataka by just two runs to win the Ranji Trophy in 1982! Delhi scored 707 runs in their first innings, while Karnataka managed 705 runs in theirs. With only a tiny margin separating the teams, Delhi claimed the championship trophy in this incredibly close match.",
-    "activity_question": "By how many runs did Delhi beat Karnataka in the 1982 Ranji Trophy final?",
+    "title": "Cricket's Closest Call Ever",
+    "story": "March 29th, 1982 delivered one of cricket's most nail-biting finishes ever! In India's biggest cricket tournament, the Ranji Trophy, two teams battled it out with incredible skill. Delhi scored 707 runs in their first innings, while Karnataka managed 705 runs. Just two runs separated victory from defeat! Delhi won the championship by the tiniest possible margin, proving that in cricket, every single run counts.",
+    "activity_question": "By how many runs did Delhi beat Karnataka to win the 1982 Ranji Trophy?",
     "activity_choices": [
       "2 runs",
-      "7 runs",
-      "12 runs",
-      "50 runs"
+      "10 runs",
+      "50 runs",
+      "100 runs"
     ],
     "activity_answer": "2 runs",
-    "bonus_fact": "The Ranji Trophy is India's most important domestic cricket tournament.",
+    "bonus_fact": "The Ranji Trophy is named after a famous Indian prince who played cricket for England!",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 75,
     "categories": [
-      "History's Mic Drop Moments"
+      "The What Zone"
     ],
     "suitable_for_8_to_12_year_old": true,
     "score": 55,
@@ -1167,19 +1114,18 @@
   },
   {
     "id": "86",
-    "title": "Ireland's Big Smoke-Free Victory",
-    "story": "Ireland made history by becoming the very first country to ban smoking in ALL workplaces! In 2004, this brave decision meant no more cigarettes in offices, restaurants, or even pubs. Many people thought it would never work, especially in Ireland where pubs are super popular gathering places. But the new law was a huge success and inspired countries around the world to follow Ireland's lead in protecting people's health.",
-    "activity_question": "What made Ireland special in 2004 regarding smoking laws?",
+    "title": "Ireland's Smoke-Free Revolution",
+    "story": "Ireland shocked the world when it became the first country ever to ban smoking in all workplaces on March 29th, 2004. This meant no more cigarettes in offices, restaurants, or even pubs - which was huge news in Ireland where pubs are super important to social life! Many people thought it would never work, but Ireland proved that protecting workers' health was more important than old habits.",
+    "activity_question": "What made Ireland's smoking ban in 2004 so special?",
     "activity_choices": [
       "It was the first country to ban smoking in all workplaces",
-      "It invented nicotine gum",
-      "It grew the world's largest tobacco plant",
-      "It only banned smoking on Tuesdays"
+      "It only banned smoking in schools",
+      "It made cigarettes completely illegal",
+      "It required special smoking helmets"
     ],
     "activity_answer": "It was the first country to ban smoking in all workplaces",
-    "bonus_fact": "Over 80 countries have now copied Ireland's workplace smoking ban!",
-    "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
+    "follow_up_question": "Why do you think other countries followed Ireland's example?",
+    "optional_type": "follow_up_question",
     "categories": [
       "History's Mic Drop Moments"
     ],
@@ -1190,8 +1136,8 @@
   {
     "id": "110",
     "title": "Beethoven's Big Break",
-    "story": "Twenty-four-year-old Ludwig van Beethoven stepped onto the stage at Vienna's fancy Burgtheater in 1795, ready to blow everyone's minds with his piano skills. This wasn't just any concert - it was his very first big performance as a professional pianist! The audience had no idea they were watching a future music legend make his debut.",
-    "activity_question": "How old was Beethoven when he performed at the Burgtheater?",
+    "story": "A young musician named Ludwig van Beethoven stepped onto the stage at Vienna's fancy Burgtheater on March 29th, 1795, ready to prove himself as a pianist. The 24-year-old had been living in Vienna for just a few years, but this performance would change everything. His powerful playing and amazing talent wowed the audience that night, launching his career as one of history's greatest composers.",
+    "activity_question": "How old was Beethoven when he had his debut performance in Vienna?",
     "activity_choices": [
       "24 years old",
       "18 years old",
@@ -1199,9 +1145,8 @@
       "16 years old"
     ],
     "activity_answer": "24 years old",
-    "bonus_fact": "Beethoven could play piano so powerfully that he sometimes broke the strings!",
+    "bonus_fact": "Beethoven moved to Vienna to study with the famous composer Mozart, but Mozart died shortly after.",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
     "categories": [
       "Vibes, Beats & Brushes"
     ],
@@ -1211,19 +1156,18 @@
   },
   {
     "id": "117",
-    "title": "Jack Benny's Radio Breakthrough",
-    "story": "Jack Benny stepped up to the microphone on Ed Sullivan's New York interview program in 1932 and changed comedy forever! This wasn't just any radio show - it was Benny's very first time on radio, and he was so nervous his hands were probably shaking. But once he started talking in his famous style, audiences fell in love with his perfect timing and hilarious personality. That one radio appearance launched Benny into becoming one of America's most beloved comedians for decades to come.",
-    "activity_question": "What year did Jack Benny make his radio debut on Ed Sullivan's show?",
+    "title": "Jack Benny's Radio Debut",
+    "story": "A comedian named Jack Benny stepped up to a microphone for the very first time on March 29th, 1932, appearing on Ed Sullivan's New York interview program. This moment launched one of radio's biggest stars! Benny would go on to make millions of people laugh with his funny timing and pretend stinginess, becoming so popular that families would gather around their radios just to hear his voice every week.",
+    "activity_question": "What year did Jack Benny make his radio debut?",
     "activity_choices": [
       "1932",
-      "1935",
-      "1928",
-      "1940"
+      "1925",
+      "1940",
+      "1935"
     ],
     "activity_answer": "1932",
-    "bonus_fact": "Jack Benny later became famous for always claiming he was 39 years old!",
+    "bonus_fact": "Jack Benny always joked that he was 39 years old, no matter how old he really was!",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
     "categories": [
       "Vibes, Beats & Brushes"
     ],
@@ -1234,18 +1178,17 @@
   {
     "id": "185",
     "title": "The Man Who Started America's Oil Rush",
-    "story": "Edwin Drake changed America forever when he was born in Greenville, New York in 1819. This businessman would grow up to drill the very first productive oil well in the United States! Before Drake's big discovery, people thought oil was just a messy nuisance that bubbled up from the ground.",
-    "activity_question": "What was Edwin Drake the first person in America to do?",
+    "story": "Edwin Drake changed America forever when he was born in Greenville, New York on March 29th, 1819. This future businessman would grow up to drill the very first productive oil well in the United States! Before Drake's big discovery, people thought oil was just something that bubbled up from the ground naturally. But Drake figured out how to dig deep and pump it up on purpose, starting America's entire oil industry and changing how we power our world.",
+    "activity_question": "What did Edwin Drake accomplish that changed America?",
     "activity_choices": [
-      "Drill a productive oil well",
-      "Discover gold in California",
-      "Invent the steam engine",
-      "Build a chocolate factory"
+      "He drilled the first productive US oil well",
+      "He invented the first car engine",
+      "He discovered gold in California",
+      "He built the first railroad"
     ],
-    "activity_answer": "Drill a productive oil well",
-    "bonus_fact": "Before oil wells, people collected oil by soaking it up with blankets from natural seeps!",
+    "activity_answer": "He drilled the first productive US oil well",
+    "bonus_fact": "Drake's well was only 69 feet deep, but it launched a billion-dollar industry!",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
     "categories": [
       "History's Mic Drop Moments"
     ],
@@ -1255,19 +1198,18 @@
   },
   {
     "id": "247",
-    "title": "Pearl Bailey's Star-Studded Journey",
-    "story": "Pearl Bailey was born in Newport News, Virginia in 1918 and grew up to become one of America's brightest stars! She could do it all - sing, dance, and act with incredible talent. Pearl won both a Tony Award and an Emmy Award for her amazing performances. She's most famous for starring in the musical \"Hello, Dolly!\" where her powerful voice and charming personality lit up the stage night after night.",
-    "activity_question": "What musical is Pearl Bailey most famous for starring in?",
+    "title": "Broadway's Sparkling Pearl",
+    "story": "Pearl Bailey sparkled into the world on March 29th, 1918, in Newport News, Virginia, and she was destined to become one of America's brightest stars! This amazing performer could sing, dance, and act so well that she won both a Tony Award and an Emmy Award. Pearl became famous for playing Dolly in the musical \"Hello, Dolly!\" on Broadway, where her powerful voice and joyful energy made audiences cheer night after night.",
+    "activity_question": "What awards did Pearl Bailey win during her career?",
     "activity_choices": [
-      "Hello, Dolly!",
-      "The Lion King",
-      "Hamilton",
-      "Cats"
+      "Tony and Emmy Awards",
+      "Oscar and Grammy Awards",
+      "Tony and Grammy Awards",
+      "Emmy and Oscar Awards"
     ],
-    "activity_answer": "Hello, Dolly!",
-    "bonus_fact": "Pearl Bailey also served as a U.S. delegate to the United Nations.",
+    "activity_answer": "Tony and Emmy Awards",
+    "bonus_fact": "Pearl Bailey was also appointed as a special advisor to the United Nations!",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
     "categories": [
       "Vibes, Beats & Brushes"
     ],
@@ -1277,21 +1219,20 @@
   },
   {
     "id": "293",
-    "title": "The Pulsar Hunter",
-    "story": "Joseph Hooton Taylor Jr. was born in Philadelphia, Pennsylvania in 1941, and he grew up to become a space detective! This amazing astrophysicist discovered a brand new type of pulsar - those are super dense stars that spin incredibly fast and shoot out beams of energy like cosmic lighthouses. His discovery was so important that he won the Nobel Prize in Physics in 1993.",
-    "activity_question": "What prize did Joseph Hooton Taylor Jr. win in 1993?",
+    "title": "The Pulsar Hunter's Birthday",
+    "story": "A baby born in Philadelphia on this March day in 1941 would grow up to hunt for some of the weirdest objects in space! Joseph Hooton Taylor Jr. became an astrophysicist who discovered a brand new type of pulsar - spinning stars that shoot out beams of energy like cosmic lighthouses. His amazing find was so important that he won the Nobel Prize in Physics in 1993!",
+    "activity_question": "What prize did Joseph Taylor win for discovering a new type of pulsar?",
     "activity_choices": [
       "Nobel Prize in Physics",
-      "Academy Award for Best Director",
-      "Olympic Gold Medal",
-      "Nobel Prize in Literature"
+      "Academy Award for Best Space Movie",
+      "Grammy Award for Best Cosmic Sounds",
+      "Olympic Gold Medal in Star Hunting"
     ],
     "activity_answer": "Nobel Prize in Physics",
-    "bonus_fact": "Pulsars can spin up to 700 times per second!",
+    "bonus_fact": "Pulsars spin incredibly fast - some rotate over 700 times per second!",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
     "categories": [
-      "Big Brain Energy"
+      "Beyond Earth"
     ],
     "suitable_for_8_to_12_year_old": true,
     "score": 55,
@@ -1299,19 +1240,18 @@
   },
   {
     "id": "340",
-    "title": "The Comedy Queen from Endicott",
-    "story": "Amy Sedaris makes people laugh for a living as an actress and comedian! She was born in 1961 in a small town called Endicott in New York. This funny lady grew up to star in TV shows and movies, always finding ways to make audiences giggle and smile with her silly characters and clever jokes.",
+    "title": "The Comedian Who Cleans Houses",
+    "story": "Amy Sedaris burst into the world on March 29th, 1961, in Endicott, New York, destined to become one of America's funniest people. This future comedy star would grow up to make millions laugh with her wild characters and silly voices. But here's the twist that makes Amy extra special: she's just as famous for her comedy as she is for her amazing cupcakes and cleaning tips! Amy proves you can be hilarious and helpful at the same time.",
     "activity_question": "What year was Amy Sedaris born?",
     "activity_choices": [
-      "1959",
       "1961",
-      "1963",
-      "1965"
+      "1965",
+      "1959",
+      "1963"
     ],
     "activity_answer": "1961",
-    "bonus_fact": "Amy's brother David is also a famous writer and humorist!",
+    "bonus_fact": "Amy once had a pet rabbit named Dusty who appeared on TV with her!",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 75,
     "categories": [
       "Vibes, Beats & Brushes"
     ],
@@ -1321,19 +1261,18 @@
   },
   {
     "id": "352",
-    "title": "The Harmonica Hero from Ohio",
-    "story": "John Popper was born in Chardon, Ohio in 1967, and he would grow up to become one of the most amazing harmonica players ever! He started the band Blues Traveler and made the harmonica cool again with their hit song \"Run Around.\" Most people think harmonicas are just tiny toys, but John turned his into a rock star instrument that could wail and sing like a guitar!",
-    "activity_question": "What hit song did John Popper's band Blues Traveler become famous for?",
+    "title": "The Harmonica Hero's Big Day",
+    "story": "John Popper blew into the world on March 29th, 1967, in Chardon, Ohio, and he would grow up to become one of the most amazing harmonica players ever! This future rock star didn't just play the harmonica like most people do - he turned it into a superpower, creating incredible sounds that helped make his band Blues Traveler famous with songs like \"Run Around.\"",
+    "activity_question": "What instrument did John Popper become famous for playing?",
     "activity_choices": [
-      "Run Around",
-      "Walk Slowly",
-      "Jump High",
-      "Sit Down"
+      "Harmonica",
+      "Guitar",
+      "Drums",
+      "Kazoo"
     ],
-    "activity_answer": "Run Around",
-    "bonus_fact": "John Popper often wore a vest with dozens of harmonicas attached so he could switch between different keys instantly during concerts!",
+    "activity_answer": "Harmonica",
+    "bonus_fact": "John Popper often wore a special harmonica holder that let him play multiple harmonicas at once!",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
     "categories": [
       "Vibes, Beats & Brushes"
     ],
@@ -1343,19 +1282,18 @@
   },
   {
     "id": "17",
-    "title": "Britain's Big Gift to Greece",
-    "story": "Great Britain decided to give away seven beautiful islands in 1864! The Ionian Islands, including the famous vacation spot Corfu, had been under British control for decades. But Britain surprised everyone by handing them back to Greece as a gift when a new Greek king took the throne. It was like giving someone the best birthday present ever!",
+    "title": "The Great Island Giveaway",
+    "story": "Great Britain did something pretty unusual on May 2nd, 1864 - they gave away a bunch of beautiful islands! The Ionian Islands, including the famous vacation spot of Corfu, were handed back to Greece after being under British control for decades. This wasn't because of a war or anything dramatic - Britain just decided it was the right thing to do and wanted to help Greece become stronger as a country.",
     "activity_question": "What did Great Britain give back to Greece in 1864?",
     "activity_choices": [
       "The Ionian Islands",
-      "The island of Crete",
-      "A collection of ancient statues",
-      "Seven magic carpets"
+      "A giant cheese wheel",
+      "The city of London",
+      "Some old sailing ships"
     ],
     "activity_answer": "The Ionian Islands",
-    "bonus_fact": "Corfu, one of these islands, is now a popular tourist destination with amazing beaches!",
-    "optional_type": "bonus_fact",
-    "optional_quality_score": 75,
+    "follow_up_question": "Why do you think countries sometimes give territory back to other nations?",
+    "optional_type": "follow_up_question",
     "categories": [
       "History's Mic Drop Moments"
     ],
@@ -1366,40 +1304,59 @@
   {
     "id": "27",
     "title": "A New Kind of College Opens",
-    "story": "New York City got its first Jewish university when Yeshiva College received its official charter in 1928! This wasn't just any school - it was created to blend religious studies with regular college subjects like science and math. Students could study ancient texts in the morning and chemistry in the afternoon. The college grew so much that it eventually became Yeshiva University, helping thousands of students get both religious and academic education under one roof.",
-    "activity_question": "What made Yeshiva College special when it opened?",
+    "story": "March 29th, 1928 marked a special day for education in New York City when Yeshiva College received its official charter to operate as a real college. This wasn't just any school - it was the first college in America designed to let Jewish students study both regular subjects like math and science AND their religious traditions at the same time. Before this, students often had to choose one or the other, but Yeshiva College said \"Why not both?\" The school later grew so big and successful that it became Yeshiva University, proving that mixing different kinds of learning can create something amazing.",
+    "activity_question": "What made Yeshiva College special when it opened in 1928?",
     "activity_choices": [
-      "It only taught on weekends",
-      "It combined religious studies with regular college subjects",
-      "It was built underground",
-      "It only accepted students over 30"
+      "It was the first college to combine religious and regular studies",
+      "It only taught math and science",
+      "It was the biggest college in America",
+      "It had classes taught by robots"
     ],
-    "activity_answer": "It combined religious studies with regular college subjects",
-    "follow_up_question": "What other schools combine different types of learning in creative ways?",
-    "optional_type": "follow_up_question",
-    "optional_quality_score": 75,
+    "activity_answer": "It was the first college to combine religious and regular studies",
     "categories": [
       "Big Brain Energy"
     ],
+    "follow_up_question": "What subjects would you want to study together that don't usually go together?",
+    "optional_type": "follow_up_question",
     "suitable_for_8_to_12_year_old": true,
     "score": 50,
     "approved": false
   },
   {
     "id": "39",
-    "title": "Cricket's Most Epic Collapse",
-    "story": "New Zealand's cricket team faced total disaster in 1946 when Australia's bowlers absolutely destroyed them! In a Test match in Wellington, two Australian bowlers went on a wrecking spree that cricket fans still talk about today. Bill O'Reilly knocked out five batters, while Ernie Toshack got four more, leaving New Zealand all out for just 42 runs - one of the lowest scores ever!",
+    "title": "Cricket's Ultimate Bowling Masterclass",
+    "story": "March 29th, 1946 became one of cricket's most lopsided days when Australia demolished New Zealand for just 42 runs in Wellington. Bill O'Reilly and Ernie Toshack bowled like magicians, taking nine wickets between them and leaving the Kiwis stunned. This match also marked the debut of three future Australian legends who would dominate cricket for years to come.",
     "activity_question": "How many runs did New Zealand score in their disastrous innings?",
     "activity_choices": [
       "42 runs",
       "84 runs",
-      "24 runs",
-      "142 runs"
+      "21 runs",
+      "103 runs"
     ],
     "activity_answer": "42 runs",
-    "bonus_fact": "This match also featured the debut of three future Australian cricket legends.",
+    "categories": [
+      "History's Mic Drop Moments"
+    ],
+    "bonus_fact": "This remains one of the lowest Test cricket scores ever recorded in international play.",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 75,
+    "suitable_for_8_to_12_year_old": true,
+    "score": 50,
+    "approved": false
+  },
+  {
+    "id": "40",
+    "title": "A Soccer Dream Takes Root",
+    "story": "Kids in the Dutch town of Drachten had a big dream in 1948 - they wanted their own soccer team! On this day that year, the Drachtster Boys soccer club was officially born. The young players probably had no idea their team would still be kicking goals decades later. Starting a sports club might sound easy, but it takes real teamwork and dedication to make it last.",
+    "activity_question": "In which country was the Drachtster Boys soccer team formed?",
+    "activity_choices": [
+      "Netherlands",
+      "Germany",
+      "Belgium",
+      "Denmark"
+    ],
+    "activity_answer": "Netherlands",
+    "bonus_fact": "Drachten is famous for removing all its traffic lights in a safety experiment!",
+    "optional_type": "bonus_fact",
     "categories": [
       "History's Mic Drop Moments"
     ],
@@ -1408,42 +1365,19 @@
     "approved": false
   },
   {
-    "id": "40",
-    "title": "A Soccer Team Born in a Dutch Town",
-    "story": "Soccer fans in the small Dutch town of Drachten decided they needed their own team to cheer for! In 1948, they created the Drachtster Boys soccer club, naming it after their hometown. The team started small but gave local kids and adults a chance to play the sport they loved most. Today, this little club still kicks goals in the Netherlands, proving that big dreams can start in small towns.",
-    "activity_question": "In which year was the Drachtster Boys soccer team formed?",
-    "activity_choices": [
-      "1948",
-      "1952",
-      "1945",
-      "1950"
-    ],
-    "activity_answer": "1948",
-    "follow_up_question": "What would you name a sports team if you started one in your town?",
-    "optional_type": "follow_up_question",
-    "optional_quality_score": 75,
-    "categories": [
-      "Vibes, Beats & Brushes"
-    ],
-    "suitable_for_8_to_12_year_old": true,
-    "score": 50,
-    "approved": false
-  },
-  {
     "id": "265",
-    "title": "The Gymnast Who Flipped Into History",
-    "story": "Olga Tass was born in 1929 in P\u00e9cs, Hungary, and she would grow up to make gymnastics history! In 1956, she helped her Hungarian team win Olympic gold in something called \"team portable apparatus\" - a gymnastics event that doesn't even exist anymore. This amazing athlete spent her whole life flipping, jumping, and spinning her way to greatness.",
+    "title": "The Gymnast Who Made History",
+    "story": "Olga Tass was born in P\u00e9cs, Hungary on this date in 1929, and she would grow up to become one of the most amazing gymnasts ever! In 1956, she helped her Hungarian team win Olympic gold in something called \"team portable apparatus\" - a gymnastics event that doesn't even exist anymore. This special competition used equipment that could be moved around, making it totally different from today's gymnastics.",
     "activity_question": "What year was Olga Tass born?",
     "activity_choices": [
       "1929",
-      "1956",
+      "1930",
       "1925",
       "1932"
     ],
     "activity_answer": "1929",
-    "bonus_fact": "The \"portable apparatus\" event used equipment that could be moved around, unlike today's fixed gymnastics equipment.",
+    "bonus_fact": "The portable apparatus event was so unique that it was only held at one Olympics!",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 78,
     "categories": [
       "World Shakers & Icon Makers"
     ],
@@ -1453,8 +1387,8 @@
   },
   {
     "id": "337",
-    "title": "The Rock Star Who Changed His Name",
-    "story": "Perry Farrell sounds like a cool rock star name, but this famous singer was actually born Peretz Bernstein in Queens, New York City in 1959! He completely transformed his identity when he became the frontman for Jane's Addiction, one of the most important alternative rock bands ever. Their hit song \"Just Because\" helped define a whole new sound in rock music. Later, Perry started another band called Porno For Pyros.",
+    "title": "Rock Star's Secret Name Swap",
+    "story": "A baby named Peretz Bernstein was born in Queens, New York City on this date in 1959, but the world would know him by a completely different name! This little guy grew up to become Perry Farrell, the wild frontman of the rock band Jane's Addiction. He didn't just change his name - he changed his whole identity, becoming one of rock music's most creative and energetic performers, proving that sometimes reinventing yourself can lead to amazing things.",
     "activity_question": "What was Perry Farrell's real birth name?",
     "activity_choices": [
       "Peretz Bernstein",
@@ -1463,9 +1397,8 @@
       "Patrick Farrell"
     ],
     "activity_answer": "Peretz Bernstein",
-    "bonus_fact": "Perry also created the famous Lollapalooza music festival!",
-    "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
+    "follow_up_question": "Why do you think some musicians choose to change their names when they become famous?",
+    "optional_type": "follow_up_question",
     "categories": [
       "Vibes, Beats & Brushes"
     ],
@@ -1475,8 +1408,8 @@
   },
   {
     "id": "11",
-    "title": "The Ultimate Farewell Concert",
-    "story": "Vienna's streets overflowed with 20,000 mourners when Ludwig van Beethoven died in 1827. The famous composer's funeral became one of the biggest events the city had ever seen. People packed the streets, climbing on rooftops and hanging out windows just to say goodbye to the musical genius who gave the world masterpieces like his Ninth Symphony.",
+    "title": "Vienna's Biggest Goodbye Ever",
+    "story": "Vienna had never seen anything like it when Ludwig van Beethoven died on March 26th, 1827. Three days later, 20,000 people crowded the streets for his funeral \u2014 that's like filling a huge stadium! Even though Beethoven was completely deaf by then, his music had touched so many hearts that the entire city came to say goodbye to their beloved composer.",
     "activity_question": "How many people attended Beethoven's funeral in Vienna?",
     "activity_choices": [
       "5,000 people",
@@ -1485,9 +1418,8 @@
       "100,000 people"
     ],
     "activity_answer": "20,000 people",
-    "bonus_fact": "Beethoven was completely deaf when he wrote some of his greatest music.",
+    "bonus_fact": "Beethoven wrote his most famous symphonies after he went completely deaf.",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
     "categories": [
       "Vibes, Beats & Brushes"
     ],
@@ -1498,18 +1430,17 @@
   {
     "id": "174",
     "title": "The Sea Captain Who Saved Children",
-    "story": "Thomas Coram sailed the dangerous seas as a ship captain, but his biggest adventure happened on land! Born in 1668 in Lyme Regis, England, this brave sailor noticed something heartbreaking - abandoned babies left on London's cold streets. Instead of just feeling sad, Captain Coram did something amazing and started the Foundling Hospital to give homeless children a safe place to live.",
+    "story": "Thomas Coram sailed the seas as a ship captain, but his biggest adventure happened on land. Born in Lyme Regis on this very date back in 1668, he would grow up to become something amazing \u2014 a hero for children who had nowhere to go. Coram founded the Foundling Hospital, a safe place for kids without families.",
     "activity_question": "What did Thomas Coram create to help children?",
     "activity_choices": [
       "The Foundling Hospital",
-      "A pirate ship daycare",
-      "A school for sailors",
-      "A children's library"
+      "A sailing school",
+      "A treasure map",
+      "A new type of ship"
     ],
     "activity_answer": "The Foundling Hospital",
-    "bonus_fact": "The Foundling Hospital still exists today as a children's charity!",
+    "bonus_fact": "The Foundling Hospital was one of the first places in England to care for abandoned babies.",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
     "categories": [
       "World Shakers & Icon Makers"
     ],
@@ -1519,19 +1450,18 @@
   },
   {
     "id": "321",
-    "title": "The Kora King's Musical Magic",
-    "story": "Mory Kant\u00e9 was born in 1950 in a place called Albadaria, which was part of French Guinea at the time. He became famous for playing the kora, a beautiful African harp with 21 strings that sounds like magic when you hear it. His biggest hit song was called \"Y\u00e9 k\u00e9 y\u00e9 k\u00e9,\" and it made people dance all over the world!",
-    "activity_question": "What instrument was Mory Kant\u00e9 famous for playing?",
+    "title": "The Kora Master's Musical Magic",
+    "story": "A baby boy named Mory Kant\u00e9 was born on this day in 1950 in a small village in French Guinea, Africa. He would grow up to become famous around the world for playing the kora, a beautiful harp-like instrument with 21 strings. His biggest hit song was called \"Y\u00e9 k\u00e9 y\u00e9 k\u00e9,\" which means \"it's all good\" in his language!",
+    "activity_question": "What instrument did Mory Kant\u00e9 become famous for playing?",
     "activity_choices": [
-      "The kora harp",
-      "The electric guitar",
-      "The piano",
-      "The flying banjo"
+      "Piano",
+      "Kora harp",
+      "Guitar",
+      "Flying accordion"
     ],
-    "activity_answer": "The kora harp",
-    "bonus_fact": "The kora harp is made from a large gourd and has 21 strings!",
+    "activity_answer": "Kora harp",
+    "bonus_fact": "The kora is made from a large gourd and sounds like a guitar and harp combined!",
     "optional_type": "bonus_fact",
-    "optional_quality_score": 75,
     "categories": [
       "Vibes, Beats & Brushes"
     ],
@@ -1541,22 +1471,21 @@
   },
   {
     "id": "269",
-    "title": "The Polka Dot Queen",
-    "story": "Yayoi Kusama was born in 1929 in Matsumoto, Japan, and she would grow up to become one of the world's most famous artists! She's known for covering everything in colorful polka dots - rooms, sculptures, even giant pumpkins. Her art makes people feel like they're inside a magical, spotty dream world.",
-    "activity_question": "What year was Yayoi Kusama born?",
+    "title": "The Polka Dot Queen is Born",
+    "story": "Yayoi Kusama was born in Matsumoto, Japan in 1929, and she would grow up to become one of the world's most famous artists! She's known for covering everything in colorful polka dots - rooms, sculptures, even giant pumpkins. Her art makes people feel like they're inside a magical, spotted dream world.",
+    "activity_question": "What is Yayoi Kusama most famous for in her artwork?",
     "activity_choices": [
-      "1929",
-      "1925",
-      "1932",
-      "1920"
+      "Polka dots everywhere",
+      "Giant ice cream sculptures",
+      "Invisible paintings",
+      "Robot dancers"
     ],
-    "activity_answer": "1929",
-    "bonus_fact": "She calls her polka dots \"infinity nets\" because they seem to go on forever!",
-    "optional_type": "bonus_fact",
-    "optional_quality_score": 85,
+    "activity_answer": "Polka dots everywhere",
     "categories": [
       "Vibes, Beats & Brushes"
     ],
+    "bonus_fact": "Kusama once covered a entire room with mirrors and polka dot lights!",
+    "optional_type": "bonus_fact",
     "suitable_for_8_to_12_year_old": true,
     "score": 40,
     "approved": false
