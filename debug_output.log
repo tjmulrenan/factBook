@@ -1,366 +1,159 @@
-2025-07-18 23:02:08,026 - INFO - 📚 Category: Days That Slay — 3 facts
-2025-07-18 23:02:08,026 - INFO -    🆔 IDs: 901, 902, 903
-2025-07-18 23:02:08,027 - INFO - 🧠 Trivia start marker added for category: Days That Slay
-2025-07-18 23:02:08,067 - INFO - 📚 Category: History's Mic Drop Moments — 17 facts
-2025-07-18 23:02:08,068 - INFO -    🆔 IDs: 164, 22, 159, 115, 16, 87, 96, 3, 6, 10, 72, 5, 86, 185, 17, 39, 40
-2025-07-18 23:02:08,070 - INFO - 🧠 Trivia start marker added for category: History's Mic Drop Moments
-2025-07-18 23:02:08,080 - INFO - 📚 Category: Beyond Earth — 6 facts
-2025-07-18 23:02:08,080 - INFO -    🆔 IDs: 93, 103, 56, 350, 31, 293
-2025-07-18 23:02:08,082 - INFO - 🧠 Trivia start marker added for category: Beyond Earth
-2025-07-18 23:02:08,088 - INFO - 📚 Category: The What Zone — 4 facts
-2025-07-18 23:02:08,089 - INFO -    🆔 IDs: 100, 161, 191, 65
-2025-07-18 23:02:08,090 - INFO - 🧠 Trivia start marker added for category: The What Zone
-2025-07-18 23:02:08,097 - INFO - 📚 Category: Full Beast Mode — 20 facts
-2025-07-18 23:02:08,097 - INFO -    🆔 IDs: 92, 136, 158, 63, 26, 62, 74, 80, 97, 75, 118, 128, 244, 28, 38, 41, 81, 330, 349, 79
-2025-07-18 23:02:08,100 - INFO - 🧠 Trivia start marker added for category: Full Beast Mode
-2025-07-18 23:02:08,110 - INFO - 📚 Category: Big Brain Energy — 6 facts
-2025-07-18 23:02:08,110 - INFO -    🆔 IDs: 54, 73, 106, 83, 43, 27
-2025-07-18 23:02:08,112 - INFO - 🧠 Trivia start marker added for category: Big Brain Energy
-2025-07-18 23:02:08,118 - INFO - 📚 Category: World Shakers & Icon Makers — 6 facts
-2025-07-18 23:02:08,118 - INFO -    🆔 IDs: 113, 130, 325, 329, 265, 174
-2025-07-18 23:02:08,120 - INFO - 🧠 Trivia start marker added for category: World Shakers & Icon Makers
-2025-07-18 23:02:08,126 - INFO - 📚 Category: Vibes, Beats & Brushes — 12 facts
-2025-07-18 23:02:08,126 - INFO -    🆔 IDs: 165, 70, 78, 110, 117, 247, 340, 352, 337, 11, 321, 269
-2025-07-18 23:02:08,128 - INFO - 🧠 Trivia start marker added for category: Vibes, Beats & Brushes
-2025-07-18 23:02:12,764 - INFO - 🧠 Trivia start marker added for category: Days That Slay
-2025-07-18 23:02:12,771 - INFO - 🧠 Trivia start marker added for category: History's Mic Drop Moments
-2025-07-18 23:02:12,780 - INFO - 🧠 Trivia start marker added for category: Beyond Earth
-2025-07-18 23:02:12,788 - INFO - 🧠 Trivia start marker added for category: The What Zone
-2025-07-18 23:02:12,796 - INFO - 🧠 Trivia start marker added for category: Full Beast Mode
-2025-07-18 23:02:12,806 - INFO - 🧠 Trivia start marker added for category: Big Brain Energy
-2025-07-18 23:02:12,812 - INFO - 🧠 Trivia start marker added for category: World Shakers & Icon Makers
-2025-07-18 23:02:12,819 - INFO - 🧠 Trivia start marker added for category: Vibes, Beats & Brushes
-2025-07-18 23:02:19,589 - INFO - 📕 Cover page detected → pages 1–1
-2025-07-18 23:02:19,590 - INFO - 📘 Intro range detected → pages 2–2
-2025-07-18 23:02:19,591 - INFO - 🧭 TOC range added: pages 3–3
-2025-07-18 23:02:19,592 - INFO - 🎨 Category title background for 'Today's Vibe Check': todays_vibe_check_t.png → page 4
-2025-07-18 23:02:19,593 - INFO - 🖼️ Category content background for 'Today's Vibe Check': todays_vibe_check.png → pages 5–7
-2025-07-18 23:02:19,593 - INFO - 🎨 Category title background for 'Days That Slay': days_that_slay_t.png → page 8
-2025-07-18 23:02:19,594 - INFO - 🖼️ Category content background for 'Days That Slay': days_that_slay.png → pages 9–11
-2025-07-18 23:02:19,594 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__Days That Slay' → pages 12–15
-2025-07-18 23:02:19,594 - INFO - 🎨 Trivia title background → page 12: trivia_time_t.png
-2025-07-18 23:02:19,594 - INFO - 🖼️ Trivia background → pages 13–15: trivia_time.png
-2025-07-18 23:02:19,595 - INFO - 🎨 Category title background for 'History's Mic Drop Moments': history_mic_drop_moments_t.png → page 16
-2025-07-18 23:02:19,595 - INFO - 🖼️ Category content background for 'History's Mic Drop Moments': history_mic_drop_moments.png → pages 17–25
-2025-07-18 23:02:19,595 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__History's Mic Drop Moments' → pages 26–33
-2025-07-18 23:02:19,596 - INFO - 🎨 Trivia title background → page 26: trivia_time_t.png
-2025-07-18 23:02:19,596 - INFO - 🖼️ Trivia background → pages 27–33: trivia_time.png
-2025-07-18 23:02:19,596 - INFO - 🎨 Category title background for 'Beyond Earth': beyond_earth_t.png → page 34
-2025-07-18 23:02:19,597 - INFO - 🖼️ Category content background for 'Beyond Earth': beyond_earth.png → pages 35–38
-2025-07-18 23:02:19,597 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__Beyond Earth' → pages 39–43
-2025-07-18 23:02:19,597 - INFO - 🎨 Trivia title background → page 39: trivia_time_t.png
-2025-07-18 23:02:19,597 - INFO - 🖼️ Trivia background → pages 40–43: trivia_time.png
-2025-07-18 23:02:19,598 - INFO - 🎨 Category title background for 'The What Zone': the_what_zone_t.png → page 44
-2025-07-18 23:02:19,598 - INFO - 🖼️ Category content background for 'The What Zone': the_what_zone.png → pages 45–47
-2025-07-18 23:02:19,599 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__The What Zone' → pages 48–51
-2025-07-18 23:02:19,599 - INFO - 🎨 Trivia title background → page 48: trivia_time_t.png
-2025-07-18 23:02:19,600 - INFO - 🖼️ Trivia background → pages 49–51: trivia_time.png
-2025-07-18 23:02:19,600 - INFO - 🎨 Category title background for 'Full Beast Mode': full_beast_mode_t.png → page 52
-2025-07-18 23:02:19,601 - INFO - 🖼️ Category content background for 'Full Beast Mode': full_beast_mode.png → pages 53–66
-2025-07-18 23:02:19,602 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__Full Beast Mode' → pages 67–75
-2025-07-18 23:02:19,602 - INFO - 🎨 Trivia title background → page 67: trivia_time_t.png
-2025-07-18 23:02:19,603 - INFO - 🖼️ Trivia background → pages 68–75: trivia_time.png
-2025-07-18 23:02:19,603 - INFO - 🎨 Category title background for 'Big Brain Energy': big_brain_energy_t.png → page 76
-2025-07-18 23:02:19,603 - INFO - 🖼️ Category content background for 'Big Brain Energy': big_brain_energy.png → pages 77–80
-2025-07-18 23:02:19,604 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__Big Brain Energy' → pages 81–85
-2025-07-18 23:02:19,604 - INFO - 🎨 Trivia title background → page 81: trivia_time_t.png
-2025-07-18 23:02:19,605 - INFO - 🖼️ Trivia background → pages 82–85: trivia_time.png
-2025-07-18 23:02:19,605 - INFO - 🎨 Category title background for 'World Shakers & Icon Makers': world_shakers_and_icon_makers_t.png → page 86
-2025-07-18 23:02:19,606 - INFO - 🖼️ Category content background for 'World Shakers & Icon Makers': world_shakers_and_icon_makers.png → pages 87–89
-2025-07-18 23:02:19,606 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__World Shakers & Icon Makers' → pages 90–94
-2025-07-18 23:02:19,607 - INFO - 🎨 Trivia title background → page 90: trivia_time_t.png
-2025-07-18 23:02:19,607 - INFO - 🖼️ Trivia background → pages 91–94: trivia_time.png
-2025-07-18 23:02:19,607 - INFO - 🎨 Category title background for 'Vibes, Beats & Brushes': vibes_beats_and_brushes_t.png → page 95
-2025-07-18 23:02:19,608 - INFO - 🖼️ Category content background for 'Vibes, Beats & Brushes': vibes_beats_and_brushes.png → pages 96–101
-2025-07-18 23:02:19,608 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__Vibes, Beats & Brushes' → pages 102–999
-2025-07-18 23:02:19,609 - INFO - 🎨 Trivia title background → page 102: trivia_time_t.png
-2025-07-18 23:02:19,609 - INFO - 🖼️ Trivia background → pages 103–999: trivia_time.png
-2025-07-18 23:02:19,612 - INFO - 🗺 Final computed background ranges:
-2025-07-18 23:02:19,612 - INFO -  → Pages 1–1: to_from.png (cover)
-2025-07-18 23:02:19,612 - INFO -  → Pages 2–2: before_we_begin.png (intro)
-2025-07-18 23:02:19,613 - INFO -  → Pages 3–3: table_of_contents.png (toc)
-2025-07-18 23:02:19,613 - INFO -  → Pages 4–4: todays_vibe_check_t.png (category_title)
-2025-07-18 23:02:19,613 - INFO -  → Pages 5–7: todays_vibe_check.png (category)
-2025-07-18 23:02:19,613 - INFO -  → Pages 8–8: days_that_slay_t.png (category_title)
-2025-07-18 23:02:19,614 - INFO -  → Pages 9–11: days_that_slay.png (category)
-2025-07-18 23:02:19,614 - INFO -  → Pages 12–12: trivia_time_t.png (trivia_title)
-2025-07-18 23:02:19,614 - INFO -  → Pages 13–15: trivia_time.png (trivia)
-2025-07-18 23:02:19,614 - INFO -  → Pages 16–16: history_mic_drop_moments_t.png (category_title)
-2025-07-18 23:02:19,614 - INFO -  → Pages 17–25: history_mic_drop_moments.png (category)
-2025-07-18 23:02:19,615 - INFO -  → Pages 26–26: trivia_time_t.png (trivia_title)
-2025-07-18 23:02:19,615 - INFO -  → Pages 27–33: trivia_time.png (trivia)
-2025-07-18 23:02:19,615 - INFO -  → Pages 34–34: beyond_earth_t.png (category_title)
-2025-07-18 23:02:19,615 - INFO -  → Pages 35–38: beyond_earth.png (category)
-2025-07-18 23:02:19,615 - INFO -  → Pages 39–39: trivia_time_t.png (trivia_title)
-2025-07-18 23:02:19,616 - INFO -  → Pages 40–43: trivia_time.png (trivia)
-2025-07-18 23:02:19,616 - INFO -  → Pages 44–44: the_what_zone_t.png (category_title)
-2025-07-18 23:02:19,616 - INFO -  → Pages 45–47: the_what_zone.png (category)
-2025-07-18 23:02:19,616 - INFO -  → Pages 48–48: trivia_time_t.png (trivia_title)
-2025-07-18 23:02:19,616 - INFO -  → Pages 49–51: trivia_time.png (trivia)
-2025-07-18 23:02:19,617 - INFO -  → Pages 52–52: full_beast_mode_t.png (category_title)
-2025-07-18 23:02:19,617 - INFO -  → Pages 53–66: full_beast_mode.png (category)
-2025-07-18 23:02:19,617 - INFO -  → Pages 67–67: trivia_time_t.png (trivia_title)
-2025-07-18 23:02:19,617 - INFO -  → Pages 68–75: trivia_time.png (trivia)
-2025-07-18 23:02:19,617 - INFO -  → Pages 76–76: big_brain_energy_t.png (category_title)
-2025-07-18 23:02:19,617 - INFO -  → Pages 77–80: big_brain_energy.png (category)
-2025-07-18 23:02:19,617 - INFO -  → Pages 81–81: trivia_time_t.png (trivia_title)
-2025-07-18 23:02:19,618 - INFO -  → Pages 82–85: trivia_time.png (trivia)
-2025-07-18 23:02:19,618 - INFO -  → Pages 86–86: world_shakers_and_icon_makers_t.png (category_title)
-2025-07-18 23:02:19,618 - INFO -  → Pages 87–89: world_shakers_and_icon_makers.png (category)
-2025-07-18 23:02:19,618 - INFO -  → Pages 90–90: trivia_time_t.png (trivia_title)
-2025-07-18 23:02:19,618 - INFO -  → Pages 91–94: trivia_time.png (trivia)
-2025-07-18 23:02:19,619 - INFO -  → Pages 95–95: vibes_beats_and_brushes_t.png (category_title)
-2025-07-18 23:02:19,619 - INFO -  → Pages 96–101: vibes_beats_and_brushes.png (category)
-2025-07-18 23:02:19,619 - INFO -  → Pages 102–102: trivia_time_t.png (trivia_title)
-2025-07-18 23:02:19,619 - INFO -  → Pages 103–999: trivia_time.png (trivia)
-2025-07-18 23:02:19,619 - INFO - 📖 Page tracker keys + values:
-2025-07-18 23:02:19,620 - INFO -   __COVER_PAGE__ → page 1
-2025-07-18 23:02:19,620 - INFO -   __INTRO_PAGE__ → page 2
-2025-07-18 23:02:19,620 - INFO -   __TOC_PAGE__ → page 3
-2025-07-18 23:02:19,621 - INFO -   __TOC_END__ → page 3
-2025-07-18 23:02:19,621 - INFO -   __TODAYS_VIBE_CHECK__ → page 3
-2025-07-18 23:02:19,621 - INFO -   Today's Vibe Check → page 4
-2025-07-18 23:02:19,621 - INFO -   Days That Slay → page 8
-2025-07-18 23:02:19,621 - INFO -   __TRIVIA_START__Days That Slay → page 12
-2025-07-18 23:02:19,621 - INFO -   History's Mic Drop Moments → page 16
-2025-07-18 23:02:19,621 - INFO -   __TRIVIA_START__History's Mic Drop Moments → page 26
-2025-07-18 23:02:19,621 - INFO -   Beyond Earth → page 34
-2025-07-18 23:02:19,622 - INFO -   __TRIVIA_START__Beyond Earth → page 39
-2025-07-18 23:02:19,622 - INFO -   The What Zone → page 44
-2025-07-18 23:02:19,622 - INFO -   __TRIVIA_START__The What Zone → page 48
-2025-07-18 23:02:19,622 - INFO -   Full Beast Mode → page 52
-2025-07-18 23:02:19,622 - INFO -   __TRIVIA_START__Full Beast Mode → page 67
-2025-07-18 23:02:19,622 - INFO -   Big Brain Energy → page 76
-2025-07-18 23:02:19,623 - INFO -   __TRIVIA_START__Big Brain Energy → page 81
-2025-07-18 23:02:19,623 - INFO -   World Shakers & Icon Makers → page 86
-2025-07-18 23:02:19,623 - INFO -   __TRIVIA_START__World Shakers & Icon Makers → page 90
-2025-07-18 23:02:19,623 - INFO -   Vibes, Beats & Brushes → page 95
-2025-07-18 23:02:19,623 - INFO -   __TRIVIA_START__Vibes, Beats & Brushes → page 102
-2025-07-18 23:02:19,629 - INFO - 🧠 Trivia start marker added for category: Days That Slay
-2025-07-18 23:02:19,637 - INFO - 🧠 Trivia start marker added for category: History's Mic Drop Moments
-2025-07-18 23:02:19,647 - INFO - 🧠 Trivia start marker added for category: Beyond Earth
-2025-07-18 23:02:19,653 - INFO - 🧠 Trivia start marker added for category: The What Zone
-2025-07-18 23:02:19,664 - INFO - 🧠 Trivia start marker added for category: Full Beast Mode
-2025-07-18 23:02:19,677 - INFO - 🧠 Trivia start marker added for category: Big Brain Energy
-2025-07-18 23:02:19,684 - INFO - 🧠 Trivia start marker added for category: World Shakers & Icon Makers
-2025-07-18 23:02:19,693 - INFO - 🧠 Trivia start marker added for category: Vibes, Beats & Brushes
-2025-07-18 23:02:19,721 - INFO - 📄 Final build started with full backgrounds...
-2025-07-18 23:03:15,864 - INFO - ✅ Final PDF built successfully.
-2025-07-18 23:03:15,866 - INFO - 📁 Categories exported to: C:\Users\timmu\Documents\repos\Factbook Project\books\March_29_Final_13_categories.json
-2025-07-18 23:03:15,866 - INFO - ✅ PDF created at: C:\Users\timmu\Documents\repos\Factbook Project\books\March_29_Final_13.pdf
-2025-07-18 23:03:15,984 - INFO - 📍 Found trivia marker on page 12
-2025-07-18 23:03:15,985 - INFO - 📍 Included Trivia Time content page: 13
-2025-07-18 23:03:15,995 - INFO - 📍 Found trivia marker on page 26
-2025-07-18 23:03:15,996 - INFO - 📍 Included Trivia Time content page: 27
-2025-07-18 23:03:16,005 - INFO - 📍 Found trivia marker on page 39
-2025-07-18 23:03:16,006 - INFO - 📍 Included Trivia Time content page: 40
-2025-07-18 23:03:16,010 - INFO - 📍 Found trivia marker on page 48
-2025-07-18 23:03:16,011 - INFO - 📍 Included Trivia Time content page: 49
-2025-07-18 23:03:16,024 - INFO - 📍 Found trivia marker on page 67
-2025-07-18 23:03:16,025 - INFO - 📍 Included Trivia Time content page: 68
-2025-07-18 23:03:16,033 - INFO - 📍 Found trivia marker on page 81
-2025-07-18 23:03:16,034 - INFO - 📍 Included Trivia Time content page: 82
-2025-07-18 23:03:16,042 - INFO - 📍 Found trivia marker on page 90
-2025-07-18 23:03:16,043 - INFO - 📍 Included Trivia Time content page: 91
-2025-07-18 23:03:16,050 - INFO - 📍 Found trivia marker on page 102
-2025-07-18 23:03:16,051 - INFO - 📍 Included Trivia Time content page: 103
-2025-07-18 23:03:16,095 - INFO - ✅ Background added to page 12
-2025-07-18 23:03:16,101 - INFO - ✅ Background added to page 13
-2025-07-18 23:03:16,107 - INFO - ✅ Background added to page 26
-2025-07-18 23:03:16,114 - INFO - ✅ Background added to page 27
-2025-07-18 23:03:16,121 - INFO - ✅ Background added to page 39
-2025-07-18 23:03:16,127 - INFO - ✅ Background added to page 40
-2025-07-18 23:03:16,134 - INFO - ✅ Background added to page 48
-2025-07-18 23:03:16,142 - INFO - ✅ Background added to page 49
-2025-07-18 23:03:16,146 - INFO - ✅ Background added to page 67
-2025-07-18 23:03:16,152 - INFO - ✅ Background added to page 68
-2025-07-18 23:03:16,158 - INFO - ✅ Background added to page 81
-2025-07-18 23:03:16,164 - INFO - ✅ Background added to page 82
-2025-07-18 23:03:16,170 - INFO - ✅ Background added to page 90
-2025-07-18 23:03:16,178 - INFO - ✅ Background added to page 91
-2025-07-18 23:03:16,185 - INFO - ✅ Background added to page 102
-2025-07-18 23:03:16,190 - INFO - ✅ Background added to page 103
-2025-07-18 23:03:16,559 - INFO - ✅ Final trivia backgrounds applied to 16 pages.
-2025-07-18 23:03:16,648 - INFO - 📚 Category: Days That Slay — 3 facts
-2025-07-18 23:03:16,648 - INFO -    🆔 IDs: 901, 902, 903
-2025-07-18 23:03:16,649 - INFO - 🧠 Trivia start marker added for category: Days That Slay
-2025-07-18 23:03:16,654 - INFO - 📚 Category: History's Mic Drop Moments — 17 facts
-2025-07-18 23:03:16,654 - INFO -    🆔 IDs: 164, 22, 159, 115, 16, 87, 96, 3, 6, 10, 72, 5, 86, 185, 17, 39, 40
-2025-07-18 23:03:16,661 - INFO - 🧠 Trivia start marker added for category: History's Mic Drop Moments
-2025-07-18 23:03:16,673 - INFO - 📚 Category: Beyond Earth — 6 facts
-2025-07-18 23:03:16,674 - INFO -    🆔 IDs: 93, 103, 56, 350, 31, 293
-2025-07-18 23:03:16,675 - INFO - 🧠 Trivia start marker added for category: Beyond Earth
-2025-07-18 23:03:16,683 - INFO - 📚 Category: The What Zone — 4 facts
-2025-07-18 23:03:16,683 - INFO -    🆔 IDs: 100, 161, 191, 65
-2025-07-18 23:03:16,684 - INFO - 🧠 Trivia start marker added for category: The What Zone
-2025-07-18 23:03:16,692 - INFO - 📚 Category: Full Beast Mode — 20 facts
-2025-07-18 23:03:16,693 - INFO -    🆔 IDs: 92, 136, 158, 63, 26, 62, 74, 80, 97, 75, 118, 128, 244, 28, 38, 41, 81, 330, 349, 79
-2025-07-18 23:03:16,696 - INFO - 🧠 Trivia start marker added for category: Full Beast Mode
-2025-07-18 23:03:16,712 - INFO - 📚 Category: Big Brain Energy — 6 facts
-2025-07-18 23:03:16,712 - INFO -    🆔 IDs: 54, 73, 106, 83, 43, 27
-2025-07-18 23:03:16,713 - INFO - 🧠 Trivia start marker added for category: Big Brain Energy
-2025-07-18 23:03:16,721 - INFO - 📚 Category: World Shakers & Icon Makers — 6 facts
-2025-07-18 23:03:16,722 - INFO -    🆔 IDs: 113, 130, 325, 329, 265, 174
-2025-07-18 23:03:16,724 - INFO - 🧠 Trivia start marker added for category: World Shakers & Icon Makers
-2025-07-18 23:03:16,730 - INFO - 📚 Category: Vibes, Beats & Brushes — 12 facts
-2025-07-18 23:03:16,731 - INFO -    🆔 IDs: 165, 70, 78, 110, 117, 247, 340, 352, 337, 11, 321, 269
-2025-07-18 23:03:16,734 - INFO - 🧠 Trivia start marker added for category: Vibes, Beats & Brushes
-2025-07-18 23:03:22,440 - INFO - 🧠 Trivia start marker added for category: Days That Slay
-2025-07-18 23:03:22,448 - INFO - 🧠 Trivia start marker added for category: History's Mic Drop Moments
-2025-07-18 23:03:22,460 - INFO - 🧠 Trivia start marker added for category: Beyond Earth
-2025-07-18 23:03:22,469 - INFO - 🧠 Trivia start marker added for category: The What Zone
-2025-07-18 23:03:22,478 - INFO - 🧠 Trivia start marker added for category: Full Beast Mode
-2025-07-18 23:03:22,492 - INFO - 🧠 Trivia start marker added for category: Big Brain Energy
-2025-07-18 23:03:22,502 - INFO - 🧠 Trivia start marker added for category: World Shakers & Icon Makers
-2025-07-18 23:03:22,510 - INFO - 🧠 Trivia start marker added for category: Vibes, Beats & Brushes
-2025-07-18 23:03:30,509 - INFO - 📕 Cover page detected → pages 1–1
-2025-07-18 23:03:30,509 - INFO - 📘 Intro range detected → pages 2–2
-2025-07-18 23:03:30,510 - INFO - 🧭 TOC range added: pages 3–3
-2025-07-18 23:03:30,511 - INFO - 🎨 Category title background for 'Today's Vibe Check': todays_vibe_check_t.png → page 4
-2025-07-18 23:03:30,511 - INFO - 🖼️ Category content background for 'Today's Vibe Check': todays_vibe_check.png → pages 5–7
-2025-07-18 23:03:30,512 - INFO - 🎨 Category title background for 'Days That Slay': days_that_slay_t.png → page 8
-2025-07-18 23:03:30,512 - INFO - 🖼️ Category content background for 'Days That Slay': days_that_slay.png → pages 9–11
-2025-07-18 23:03:30,512 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__Days That Slay' → pages 12–15
-2025-07-18 23:03:30,513 - INFO - 🎨 Trivia title background → page 12: trivia_time_t.png
-2025-07-18 23:03:30,513 - INFO - 🖼️ Trivia background → pages 13–15: trivia_time.png
-2025-07-18 23:03:30,513 - INFO - 🎨 Category title background for 'History's Mic Drop Moments': history_mic_drop_moments_t.png → page 16
-2025-07-18 23:03:30,516 - INFO - 🖼️ Category content background for 'History's Mic Drop Moments': history_mic_drop_moments.png → pages 17–25
-2025-07-18 23:03:30,516 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__History's Mic Drop Moments' → pages 26–33
-2025-07-18 23:03:30,516 - INFO - 🎨 Trivia title background → page 26: trivia_time_t.png
-2025-07-18 23:03:30,517 - INFO - 🖼️ Trivia background → pages 27–33: trivia_time.png
-2025-07-18 23:03:30,517 - INFO - 🎨 Category title background for 'Beyond Earth': beyond_earth_t.png → page 34
-2025-07-18 23:03:30,518 - INFO - 🖼️ Category content background for 'Beyond Earth': beyond_earth.png → pages 35–38
-2025-07-18 23:03:30,518 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__Beyond Earth' → pages 39–43
-2025-07-18 23:03:30,518 - INFO - 🎨 Trivia title background → page 39: trivia_time_t.png
-2025-07-18 23:03:30,518 - INFO - 🖼️ Trivia background → pages 40–43: trivia_time.png
-2025-07-18 23:03:30,519 - INFO - 🎨 Category title background for 'The What Zone': the_what_zone_t.png → page 44
-2025-07-18 23:03:30,519 - INFO - 🖼️ Category content background for 'The What Zone': the_what_zone.png → pages 45–47
-2025-07-18 23:03:30,519 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__The What Zone' → pages 48–51
-2025-07-18 23:03:30,520 - INFO - 🎨 Trivia title background → page 48: trivia_time_t.png
-2025-07-18 23:03:30,520 - INFO - 🖼️ Trivia background → pages 49–51: trivia_time.png
-2025-07-18 23:03:30,520 - INFO - 🎨 Category title background for 'Full Beast Mode': full_beast_mode_t.png → page 52
-2025-07-18 23:03:30,520 - INFO - 🖼️ Category content background for 'Full Beast Mode': full_beast_mode.png → pages 53–66
-2025-07-18 23:03:30,521 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__Full Beast Mode' → pages 67–75
-2025-07-18 23:03:30,521 - INFO - 🎨 Trivia title background → page 67: trivia_time_t.png
-2025-07-18 23:03:30,521 - INFO - 🖼️ Trivia background → pages 68–75: trivia_time.png
-2025-07-18 23:03:30,522 - INFO - 🎨 Category title background for 'Big Brain Energy': big_brain_energy_t.png → page 76
-2025-07-18 23:03:30,522 - INFO - 🖼️ Category content background for 'Big Brain Energy': big_brain_energy.png → pages 77–80
-2025-07-18 23:03:30,522 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__Big Brain Energy' → pages 81–85
-2025-07-18 23:03:30,522 - INFO - 🎨 Trivia title background → page 81: trivia_time_t.png
-2025-07-18 23:03:30,522 - INFO - 🖼️ Trivia background → pages 82–85: trivia_time.png
-2025-07-18 23:03:30,523 - INFO - 🎨 Category title background for 'World Shakers & Icon Makers': world_shakers_and_icon_makers_t.png → page 86
-2025-07-18 23:03:30,523 - INFO - 🖼️ Category content background for 'World Shakers & Icon Makers': world_shakers_and_icon_makers.png → pages 87–89
-2025-07-18 23:03:30,523 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__World Shakers & Icon Makers' → pages 90–94
-2025-07-18 23:03:30,524 - INFO - 🎨 Trivia title background → page 90: trivia_time_t.png
-2025-07-18 23:03:30,524 - INFO - 🖼️ Trivia background → pages 91–94: trivia_time.png
-2025-07-18 23:03:30,524 - INFO - 🎨 Category title background for 'Vibes, Beats & Brushes': vibes_beats_and_brushes_t.png → page 95
-2025-07-18 23:03:30,525 - INFO - 🖼️ Category content background for 'Vibes, Beats & Brushes': vibes_beats_and_brushes.png → pages 96–101
-2025-07-18 23:03:30,525 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__Vibes, Beats & Brushes' → pages 102–999
-2025-07-18 23:03:30,525 - INFO - 🎨 Trivia title background → page 102: trivia_time_t.png
-2025-07-18 23:03:30,526 - INFO - 🖼️ Trivia background → pages 103–999: trivia_time.png
-2025-07-18 23:03:30,527 - INFO - 🗺 Final computed background ranges:
-2025-07-18 23:03:30,528 - INFO -  → Pages 1–1: to_from.png (cover)
-2025-07-18 23:03:30,528 - INFO -  → Pages 2–2: before_we_begin.png (intro)
-2025-07-18 23:03:30,529 - INFO -  → Pages 3–3: table_of_contents.png (toc)
-2025-07-18 23:03:30,529 - INFO -  → Pages 4–4: todays_vibe_check_t.png (category_title)
-2025-07-18 23:03:30,529 - INFO -  → Pages 5–7: todays_vibe_check.png (category)
-2025-07-18 23:03:30,529 - INFO -  → Pages 8–8: days_that_slay_t.png (category_title)
-2025-07-18 23:03:30,529 - INFO -  → Pages 9–11: days_that_slay.png (category)
-2025-07-18 23:03:30,530 - INFO -  → Pages 12–12: trivia_time_t.png (trivia_title)
-2025-07-18 23:03:30,530 - INFO -  → Pages 13–15: trivia_time.png (trivia)
-2025-07-18 23:03:30,530 - INFO -  → Pages 16–16: history_mic_drop_moments_t.png (category_title)
-2025-07-18 23:03:30,530 - INFO -  → Pages 17–25: history_mic_drop_moments.png (category)
-2025-07-18 23:03:30,530 - INFO -  → Pages 26–26: trivia_time_t.png (trivia_title)
-2025-07-18 23:03:30,531 - INFO -  → Pages 27–33: trivia_time.png (trivia)
-2025-07-18 23:03:30,531 - INFO -  → Pages 34–34: beyond_earth_t.png (category_title)
-2025-07-18 23:03:30,531 - INFO -  → Pages 35–38: beyond_earth.png (category)
-2025-07-18 23:03:30,532 - INFO -  → Pages 39–39: trivia_time_t.png (trivia_title)
-2025-07-18 23:03:30,532 - INFO -  → Pages 40–43: trivia_time.png (trivia)
-2025-07-18 23:03:30,532 - INFO -  → Pages 44–44: the_what_zone_t.png (category_title)
-2025-07-18 23:03:30,533 - INFO -  → Pages 45–47: the_what_zone.png (category)
-2025-07-18 23:03:30,533 - INFO -  → Pages 48–48: trivia_time_t.png (trivia_title)
-2025-07-18 23:03:30,533 - INFO -  → Pages 49–51: trivia_time.png (trivia)
-2025-07-18 23:03:30,533 - INFO -  → Pages 52–52: full_beast_mode_t.png (category_title)
-2025-07-18 23:03:30,533 - INFO -  → Pages 53–66: full_beast_mode.png (category)
-2025-07-18 23:03:30,534 - INFO -  → Pages 67–67: trivia_time_t.png (trivia_title)
-2025-07-18 23:03:30,534 - INFO -  → Pages 68–75: trivia_time.png (trivia)
-2025-07-18 23:03:30,534 - INFO -  → Pages 76–76: big_brain_energy_t.png (category_title)
-2025-07-18 23:03:30,534 - INFO -  → Pages 77–80: big_brain_energy.png (category)
-2025-07-18 23:03:30,535 - INFO -  → Pages 81–81: trivia_time_t.png (trivia_title)
-2025-07-18 23:03:30,535 - INFO -  → Pages 82–85: trivia_time.png (trivia)
-2025-07-18 23:03:30,535 - INFO -  → Pages 86–86: world_shakers_and_icon_makers_t.png (category_title)
-2025-07-18 23:03:30,535 - INFO -  → Pages 87–89: world_shakers_and_icon_makers.png (category)
-2025-07-18 23:03:30,536 - INFO -  → Pages 90–90: trivia_time_t.png (trivia_title)
-2025-07-18 23:03:30,536 - INFO -  → Pages 91–94: trivia_time.png (trivia)
-2025-07-18 23:03:30,536 - INFO -  → Pages 95–95: vibes_beats_and_brushes_t.png (category_title)
-2025-07-18 23:03:30,536 - INFO -  → Pages 96–101: vibes_beats_and_brushes.png (category)
-2025-07-18 23:03:30,536 - INFO -  → Pages 102–102: trivia_time_t.png (trivia_title)
-2025-07-18 23:03:30,536 - INFO -  → Pages 103–999: trivia_time.png (trivia)
-2025-07-18 23:03:30,537 - INFO - 📖 Page tracker keys + values:
-2025-07-18 23:03:30,537 - INFO -   __COVER_PAGE__ → page 1
-2025-07-18 23:03:30,537 - INFO -   __INTRO_PAGE__ → page 2
-2025-07-18 23:03:30,537 - INFO -   __TOC_PAGE__ → page 3
-2025-07-18 23:03:30,538 - INFO -   __TOC_END__ → page 3
-2025-07-18 23:03:30,538 - INFO -   __TODAYS_VIBE_CHECK__ → page 3
-2025-07-18 23:03:30,538 - INFO -   Today's Vibe Check → page 4
-2025-07-18 23:03:30,538 - INFO -   Days That Slay → page 8
-2025-07-18 23:03:30,538 - INFO -   __TRIVIA_START__Days That Slay → page 12
-2025-07-18 23:03:30,538 - INFO -   History's Mic Drop Moments → page 16
-2025-07-18 23:03:30,538 - INFO -   __TRIVIA_START__History's Mic Drop Moments → page 26
-2025-07-18 23:03:30,539 - INFO -   Beyond Earth → page 34
-2025-07-18 23:03:30,539 - INFO -   __TRIVIA_START__Beyond Earth → page 39
-2025-07-18 23:03:30,539 - INFO -   The What Zone → page 44
-2025-07-18 23:03:30,539 - INFO -   __TRIVIA_START__The What Zone → page 48
-2025-07-18 23:03:30,539 - INFO -   Full Beast Mode → page 52
-2025-07-18 23:03:30,539 - INFO -   __TRIVIA_START__Full Beast Mode → page 67
-2025-07-18 23:03:30,540 - INFO -   Big Brain Energy → page 76
-2025-07-18 23:03:30,540 - INFO -   __TRIVIA_START__Big Brain Energy → page 81
-2025-07-18 23:03:30,540 - INFO -   World Shakers & Icon Makers → page 86
-2025-07-18 23:03:30,540 - INFO -   __TRIVIA_START__World Shakers & Icon Makers → page 90
-2025-07-18 23:03:30,540 - INFO -   Vibes, Beats & Brushes → page 95
-2025-07-18 23:03:30,540 - INFO -   __TRIVIA_START__Vibes, Beats & Brushes → page 102
-2025-07-18 23:03:30,546 - INFO - 🧠 Trivia start marker added for category: Days That Slay
-2025-07-18 23:03:30,556 - INFO - 🧠 Trivia start marker added for category: History's Mic Drop Moments
-2025-07-18 23:03:30,568 - INFO - 🧠 Trivia start marker added for category: Beyond Earth
-2025-07-18 23:03:30,584 - INFO - 🧠 Trivia start marker added for category: The What Zone
-2025-07-18 23:03:30,592 - INFO - 🧠 Trivia start marker added for category: Full Beast Mode
-2025-07-18 23:03:30,606 - INFO - 🧠 Trivia start marker added for category: Big Brain Energy
-2025-07-18 23:03:30,617 - INFO - 🧠 Trivia start marker added for category: World Shakers & Icon Makers
-2025-07-18 23:03:30,624 - INFO - 🧠 Trivia start marker added for category: Vibes, Beats & Brushes
-2025-07-18 23:03:30,656 - INFO - 📄 Final build started with full backgrounds...
-2025-07-18 23:04:26,212 - INFO - ✅ Final PDF built successfully.
-2025-07-18 23:04:26,214 - INFO - 📁 Categories exported to: C:\Users\timmu\Documents\repos\Factbook Project\books\March_29_Final_edited_4_categories.json
-2025-07-18 23:04:26,214 - INFO - ✅ PDF created at: C:\Users\timmu\Documents\repos\Factbook Project\books\March_29_Final_edited_4.pdf
-2025-07-18 23:04:26,277 - INFO - 📍 Found trivia marker on page 12
-2025-07-18 23:04:26,278 - INFO - 📍 Included Trivia Time content page: 13
-2025-07-18 23:04:26,287 - INFO - 📍 Found trivia marker on page 26
-2025-07-18 23:04:26,288 - INFO - 📍 Included Trivia Time content page: 27
-2025-07-18 23:04:26,296 - INFO - 📍 Found trivia marker on page 39
-2025-07-18 23:04:26,298 - INFO - 📍 Included Trivia Time content page: 40
-2025-07-18 23:04:26,303 - INFO - 📍 Found trivia marker on page 48
-2025-07-18 23:04:26,304 - INFO - 📍 Included Trivia Time content page: 49
-2025-07-18 23:04:26,318 - INFO - 📍 Found trivia marker on page 67
-2025-07-18 23:04:26,319 - INFO - 📍 Included Trivia Time content page: 68
-2025-07-18 23:04:26,327 - INFO - 📍 Found trivia marker on page 81
-2025-07-18 23:04:26,328 - INFO - 📍 Included Trivia Time content page: 82
-2025-07-18 23:04:26,333 - INFO - 📍 Found trivia marker on page 90
-2025-07-18 23:04:26,334 - INFO - 📍 Included Trivia Time content page: 91
-2025-07-18 23:04:26,340 - INFO - 📍 Found trivia marker on page 102
-2025-07-18 23:04:26,342 - INFO - 📍 Included Trivia Time content page: 103
-2025-07-18 23:04:26,358 - INFO - ✅ Background added to page 12
-2025-07-18 23:04:26,365 - INFO - ✅ Background added to page 13
-2025-07-18 23:04:26,370 - INFO - ✅ Background added to page 26
-2025-07-18 23:04:26,376 - INFO - ✅ Background added to page 27
-2025-07-18 23:04:26,385 - INFO - ✅ Background added to page 39
-2025-07-18 23:04:26,390 - INFO - ✅ Background added to page 40
-2025-07-18 23:04:26,395 - INFO - ✅ Background added to page 48
-2025-07-18 23:04:26,403 - INFO - ✅ Background added to page 49
-2025-07-18 23:04:26,408 - INFO - ✅ Background added to page 67
-2025-07-18 23:04:26,414 - INFO - ✅ Background added to page 68
-2025-07-18 23:04:26,420 - INFO - ✅ Background added to page 81
-2025-07-18 23:04:26,427 - INFO - ✅ Background added to page 82
-2025-07-18 23:04:26,433 - INFO - ✅ Background added to page 90
-2025-07-18 23:04:26,438 - INFO - ✅ Background added to page 91
-2025-07-18 23:04:26,444 - INFO - ✅ Background added to page 102
-2025-07-18 23:04:26,451 - INFO - ✅ Background added to page 103
-2025-07-18 23:04:26,791 - INFO - ✅ Final trivia backgrounds applied to 16 pages.
+2025-08-24 13:52:56,067 - INFO - 📚 Category: Days That Slay — 3 facts
+2025-08-24 13:52:56,068 - INFO -    🆔 IDs: 901, 902, 903
+2025-08-24 13:52:56,068 - INFO - 🧠 Trivia start marker added for category: Days That Slay
+2025-08-24 13:52:56,085 - INFO - 📚 Category: History's Mic Drop Moments — 14 facts
+2025-08-24 13:52:56,086 - INFO -    🆔 IDs: 164, 22, 159, 115, 16, 87, 96, 3, 6, 10, 72, 86, 17, 40
+2025-08-24 13:52:56,087 - INFO - 🧠 Trivia start marker added for category: History's Mic Drop Moments
+2025-08-24 13:52:56,092 - INFO - 📚 Category: Beyond Earth — 6 facts
+2025-08-24 13:52:56,093 - INFO -    🆔 IDs: 93, 103, 56, 350, 31, 293
+2025-08-24 13:52:56,094 - INFO - 🧠 Trivia start marker added for category: Beyond Earth
+2025-08-24 13:52:56,097 - INFO - 📚 Category: The What Zone — 3 facts
+2025-08-24 13:52:56,097 - INFO -    🆔 IDs: 100, 191, 43
+2025-08-24 13:52:56,098 - INFO - 🧠 Trivia start marker added for category: The What Zone
+2025-08-24 13:52:56,101 - INFO - 📚 Category: Full Beast Mode — 20 facts
+2025-08-24 13:52:56,101 - INFO -    🆔 IDs: 136, 158, 63, 26, 62, 74, 80, 97, 118, 128, 244, 28, 38, 41, 81, 330, 349, 79, 130, 329
+2025-08-24 13:52:56,103 - INFO - 🧠 Trivia start marker added for category: Full Beast Mode
+2025-08-24 13:52:56,110 - INFO - 📚 Category: Big Brain Energy — 6 facts
+2025-08-24 13:52:56,110 - INFO -    🆔 IDs: 54, 73, 106, 83, 185, 27
+2025-08-24 13:52:56,111 - INFO - 🧠 Trivia start marker added for category: Big Brain Energy
+2025-08-24 13:52:56,115 - INFO - 📚 Category: World Shakers & Icon Makers — 3 facts
+2025-08-24 13:52:56,115 - INFO -    🆔 IDs: 113, 265, 174
+2025-08-24 13:52:56,115 - INFO - 🧠 Trivia start marker added for category: World Shakers & Icon Makers
+2025-08-24 13:52:56,119 - INFO - 📚 Category: Vibes, Beats & Brushes — 11 facts
+2025-08-24 13:52:56,119 - INFO -    🆔 IDs: 165, 70, 78, 110, 117, 247, 340, 352, 337, 321, 269
+2025-08-24 13:52:56,120 - INFO - 🧠 Trivia start marker added for category: Vibes, Beats & Brushes
+2025-08-24 13:52:59,678 - INFO - 🧠 Trivia start marker added for category: Days That Slay
+2025-08-24 13:52:59,682 - INFO - 🧠 Trivia start marker added for category: History's Mic Drop Moments
+2025-08-24 13:52:59,688 - INFO - 🧠 Trivia start marker added for category: Beyond Earth
+2025-08-24 13:52:59,692 - INFO - 🧠 Trivia start marker added for category: The What Zone
+2025-08-24 13:52:59,697 - INFO - 🧠 Trivia start marker added for category: Full Beast Mode
+2025-08-24 13:52:59,704 - INFO - 🧠 Trivia start marker added for category: Big Brain Energy
+2025-08-24 13:52:59,710 - INFO - 🧠 Trivia start marker added for category: World Shakers & Icon Makers
+2025-08-24 13:52:59,714 - INFO - 🧠 Trivia start marker added for category: Vibes, Beats & Brushes
+2025-08-24 13:53:04,491 - INFO - 📕 Cover page detected → pages 1–1
+2025-08-24 13:53:04,491 - INFO - 📘 Intro range detected → pages 2–2
+2025-08-24 13:53:04,492 - INFO - 🧭 TOC background applied to page 3
+2025-08-24 13:53:04,492 - INFO - 🌤️ Vibe title background applied to page 4
+2025-08-24 13:53:04,492 - WARNING - ❓ No match for category label '__TOC_END__' (stripped: '__TOC_END__')
+2025-08-24 13:53:04,492 - INFO - 🎨 Category title background for 'Today's Vibe Check': todays_vibe_check_t.png → page 5
+2025-08-24 13:53:04,493 - INFO - 🖼️ Category content background for 'Today's Vibe Check': todays_vibe_check.png → pages 6–8
+2025-08-24 13:53:04,493 - INFO - 🎨 Category title background for 'Days That Slay': days_that_slay_t.png → page 9
+2025-08-24 13:53:04,493 - INFO - 🖼️ Category content background for 'Days That Slay': days_that_slay.png → pages 10–11
+2025-08-24 13:53:04,493 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__Days That Slay' → pages 12–16
+2025-08-24 13:53:04,494 - INFO - 🎨 Trivia title background → page 12: trivia_time_t.png
+2025-08-24 13:53:04,494 - INFO - 🖼️ Trivia background → pages 13–16: trivia_time.png
+2025-08-24 13:53:04,494 - INFO - 🎨 Category title background for 'History's Mic Drop Moments': history_mic_drop_moments_t.png → page 17
+2025-08-24 13:53:04,494 - INFO - 🖼️ Category content background for 'History's Mic Drop Moments': history_mic_drop_moments.png → pages 18–25
+2025-08-24 13:53:04,495 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__History's Mic Drop Moments' → pages 26–33
+2025-08-24 13:53:04,495 - INFO - 🎨 Trivia title background → page 26: trivia_time_t.png
+2025-08-24 13:53:04,495 - INFO - 🖼️ Trivia background → pages 27–33: trivia_time.png
+2025-08-24 13:53:04,495 - INFO - 🎨 Category title background for 'Beyond Earth': beyond_earth_t.png → page 34
+2025-08-24 13:53:04,495 - INFO - 🖼️ Category content background for 'Beyond Earth': beyond_earth.png → pages 35–38
+2025-08-24 13:53:04,495 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__Beyond Earth' → pages 39–44
+2025-08-24 13:53:04,496 - INFO - 🎨 Trivia title background → page 39: trivia_time_t.png
+2025-08-24 13:53:04,496 - INFO - 🖼️ Trivia background → pages 40–44: trivia_time.png
+2025-08-24 13:53:04,496 - INFO - 🎨 Category title background for 'The What Zone': the_what_zone_t.png → page 45
+2025-08-24 13:53:04,496 - INFO - 🖼️ Category content background for 'The What Zone': the_what_zone.png → pages 46–47
+2025-08-24 13:53:04,496 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__The What Zone' → pages 48–51
+2025-08-24 13:53:04,496 - INFO - 🎨 Trivia title background → page 48: trivia_time_t.png
+2025-08-24 13:53:04,497 - INFO - 🖼️ Trivia background → pages 49–51: trivia_time.png
+2025-08-24 13:53:04,497 - INFO - 🎨 Category title background for 'Full Beast Mode': full_beast_mode_t.png → page 52
+2025-08-24 13:53:04,497 - INFO - 🖼️ Category content background for 'Full Beast Mode': full_beast_mode.png → pages 53–64
+2025-08-24 13:53:04,497 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__Full Beast Mode' → pages 65–74
+2025-08-24 13:53:04,497 - INFO - 🎨 Trivia title background → page 65: trivia_time_t.png
+2025-08-24 13:53:04,497 - INFO - 🖼️ Trivia background → pages 66–74: trivia_time.png
+2025-08-24 13:53:04,498 - INFO - 🎨 Category title background for 'Big Brain Energy': big_brain_energy_t.png → page 75
+2025-08-24 13:53:04,498 - INFO - 🖼️ Category content background for 'Big Brain Energy': big_brain_energy.png → pages 76–79
+2025-08-24 13:53:04,498 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__Big Brain Energy' → pages 80–85
+2025-08-24 13:53:04,498 - INFO - 🎨 Trivia title background → page 80: trivia_time_t.png
+2025-08-24 13:53:04,498 - INFO - 🖼️ Trivia background → pages 81–85: trivia_time.png
+2025-08-24 13:53:04,498 - INFO - 🎨 Category title background for 'World Shakers & Icon Makers': world_shakers_and_icon_makers_t.png → page 86
+2025-08-24 13:53:04,499 - INFO - 🖼️ Category content background for 'World Shakers & Icon Makers': world_shakers_and_icon_makers.png → pages 87–88
+2025-08-24 13:53:04,499 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__World Shakers & Icon Makers' → pages 89–92
+2025-08-24 13:53:04,499 - INFO - 🎨 Trivia title background → page 89: trivia_time_t.png
+2025-08-24 13:53:04,499 - INFO - 🖼️ Trivia background → pages 90–92: trivia_time.png
+2025-08-24 13:53:04,499 - INFO - 🎨 Category title background for 'Vibes, Beats & Brushes': vibes_beats_and_brushes_t.png → page 93
+2025-08-24 13:53:04,499 - INFO - 🖼️ Category content background for 'Vibes, Beats & Brushes': vibes_beats_and_brushes.png → pages 94–99
+2025-08-24 13:53:04,500 - INFO - 🎲 Trivia range detected: '__TRIVIA_START__Vibes, Beats & Brushes' → pages 100–105
+2025-08-24 13:53:04,500 - INFO - 🎨 Trivia title background → page 100: trivia_time_t.png
+2025-08-24 13:53:04,500 - INFO - 🖼️ Trivia background → pages 101–105: trivia_time.png
+2025-08-24 13:53:04,500 - INFO - 📜 Answers section detected → pages 106–999
+2025-08-24 13:53:04,500 - INFO - 🎨 Answers title background → page 106
+2025-08-24 13:53:04,500 - INFO - 🖼️ Answers background → pages 107–999
+2025-08-24 13:53:04,501 - INFO - 🗺 Final computed background ranges:
+2025-08-24 13:53:04,501 - INFO -  → Pages 1–1: to_from.png (cover)
+2025-08-24 13:53:04,501 - INFO -  → Pages 2–2: before_we_begin.png (intro)
+2025-08-24 13:53:04,501 - INFO -  → Pages 3–3: table_of_contents.png (toc)
+2025-08-24 13:53:04,501 - INFO -  → Pages 4–4: todays_vibe_check_t.png (vibe_title)
+2025-08-24 13:53:04,501 - INFO -  → Pages 5–5: todays_vibe_check_t.png (category_title)
+2025-08-24 13:53:04,502 - INFO -  → Pages 6–8: todays_vibe_check.png (category)
+2025-08-24 13:53:04,502 - INFO -  → Pages 9–9: days_that_slay_t.png (category_title)
+2025-08-24 13:53:04,502 - INFO -  → Pages 10–11: days_that_slay.png (category)
+2025-08-24 13:53:04,502 - INFO -  → Pages 12–12: trivia_time_t.png (trivia_title)
+2025-08-24 13:53:04,502 - INFO -  → Pages 13–16: trivia_time.png (trivia)
+2025-08-24 13:53:04,502 - INFO -  → Pages 17–17: history_mic_drop_moments_t.png (category_title)
+2025-08-24 13:53:04,502 - INFO -  → Pages 18–25: history_mic_drop_moments.png (category)
+2025-08-24 13:53:04,502 - INFO -  → Pages 26–26: trivia_time_t.png (trivia_title)
+2025-08-24 13:53:04,502 - INFO -  → Pages 27–33: trivia_time.png (trivia)
+2025-08-24 13:53:04,503 - INFO -  → Pages 34–34: beyond_earth_t.png (category_title)
+2025-08-24 13:53:04,503 - INFO -  → Pages 35–38: beyond_earth.png (category)
+2025-08-24 13:53:04,503 - INFO -  → Pages 39–39: trivia_time_t.png (trivia_title)
+2025-08-24 13:53:04,503 - INFO -  → Pages 40–44: trivia_time.png (trivia)
+2025-08-24 13:53:04,503 - INFO -  → Pages 45–45: the_what_zone_t.png (category_title)
+2025-08-24 13:53:04,503 - INFO -  → Pages 46–47: the_what_zone.png (category)
+2025-08-24 13:53:04,503 - INFO -  → Pages 48–48: trivia_time_t.png (trivia_title)
+2025-08-24 13:53:04,503 - INFO -  → Pages 49–51: trivia_time.png (trivia)
+2025-08-24 13:53:04,503 - INFO -  → Pages 52–52: full_beast_mode_t.png (category_title)
+2025-08-24 13:53:04,503 - INFO -  → Pages 53–64: full_beast_mode.png (category)
+2025-08-24 13:53:04,504 - INFO -  → Pages 65–65: trivia_time_t.png (trivia_title)
+2025-08-24 13:53:04,504 - INFO -  → Pages 66–74: trivia_time.png (trivia)
+2025-08-24 13:53:04,504 - INFO -  → Pages 75–75: big_brain_energy_t.png (category_title)
+2025-08-24 13:53:04,504 - INFO -  → Pages 76–79: big_brain_energy.png (category)
+2025-08-24 13:53:04,504 - INFO -  → Pages 80–80: trivia_time_t.png (trivia_title)
+2025-08-24 13:53:04,504 - INFO -  → Pages 81–85: trivia_time.png (trivia)
+2025-08-24 13:53:04,504 - INFO -  → Pages 86–86: world_shakers_and_icon_makers_t.png (category_title)
+2025-08-24 13:53:04,504 - INFO -  → Pages 87–88: world_shakers_and_icon_makers.png (category)
+2025-08-24 13:53:04,504 - INFO -  → Pages 89–89: trivia_time_t.png (trivia_title)
+2025-08-24 13:53:04,504 - INFO -  → Pages 90–92: trivia_time.png (trivia)
+2025-08-24 13:53:04,505 - INFO -  → Pages 93–93: vibes_beats_and_brushes_t.png (category_title)
+2025-08-24 13:53:04,505 - INFO -  → Pages 94–99: vibes_beats_and_brushes.png (category)
+2025-08-24 13:53:04,505 - INFO -  → Pages 100–100: trivia_time_t.png (trivia_title)
+2025-08-24 13:53:04,505 - INFO -  → Pages 101–105: trivia_time.png (trivia)
+2025-08-24 13:53:04,505 - INFO -  → Pages 106–106: answers_t.png (answers_title)
+2025-08-24 13:53:04,505 - INFO -  → Pages 107–999: answers.png (answers)
+2025-08-24 13:53:04,505 - INFO - 📖 Page tracker keys + values:
+2025-08-24 13:53:04,505 - INFO -   __COVER_PAGE__ → page 1
+2025-08-24 13:53:04,505 - INFO -   __INTRO_PAGE__ → page 2
+2025-08-24 13:53:04,505 - INFO -   __TOC_PAGE__ → page 3
+2025-08-24 13:53:04,506 - INFO -   __TOC_END__ → page 4
+2025-08-24 13:53:04,506 - INFO -   Today's Vibe Check → page 5
+2025-08-24 13:53:04,506 - INFO -   Days That Slay → page 9
+2025-08-24 13:53:04,506 - INFO -   __TRIVIA_START__Days That Slay → page 12
+2025-08-24 13:53:04,506 - INFO -   History's Mic Drop Moments → page 17
+2025-08-24 13:53:04,506 - INFO -   __TRIVIA_START__History's Mic Drop Moments → page 26
+2025-08-24 13:53:04,506 - INFO -   Beyond Earth → page 34
+2025-08-24 13:53:04,506 - INFO -   __TRIVIA_START__Beyond Earth → page 39
+2025-08-24 13:53:04,506 - INFO -   The What Zone → page 45
+2025-08-24 13:53:04,507 - INFO -   __TRIVIA_START__The What Zone → page 48
+2025-08-24 13:53:04,507 - INFO -   Full Beast Mode → page 52
+2025-08-24 13:53:04,507 - INFO -   __TRIVIA_START__Full Beast Mode → page 65
+2025-08-24 13:53:04,507 - INFO -   Big Brain Energy → page 75
+2025-08-24 13:53:04,507 - INFO -   __TRIVIA_START__Big Brain Energy → page 80
+2025-08-24 13:53:04,507 - INFO -   World Shakers & Icon Makers → page 86
+2025-08-24 13:53:04,507 - INFO -   __TRIVIA_START__World Shakers & Icon Makers → page 89
+2025-08-24 13:53:04,507 - INFO -   Vibes, Beats & Brushes → page 93
+2025-08-24 13:53:04,507 - INFO -   __TRIVIA_START__Vibes, Beats & Brushes → page 100
+2025-08-24 13:53:04,507 - INFO -   __ANSWERS_START__ → page 106
+2025-08-24 13:53:04,510 - INFO - 🧠 Trivia start marker added for category: Days That Slay
+2025-08-24 13:53:04,514 - INFO - 🧠 Trivia start marker added for category: History's Mic Drop Moments
+2025-08-24 13:53:04,520 - INFO - 🧠 Trivia start marker added for category: Beyond Earth
+2025-08-24 13:53:04,524 - INFO - 🧠 Trivia start marker added for category: The What Zone
+2025-08-24 13:53:04,529 - INFO - 🧠 Trivia start marker added for category: Full Beast Mode
+2025-08-24 13:53:04,537 - INFO - 🧠 Trivia start marker added for category: Big Brain Energy
+2025-08-24 13:53:04,541 - INFO - 🧠 Trivia start marker added for category: World Shakers & Icon Makers
+2025-08-24 13:53:04,545 - INFO - 🧠 Trivia start marker added for category: Vibes, Beats & Brushes
+2025-08-24 13:53:04,561 - INFO - 📄 Final build started with full backgrounds...
+2025-08-24 13:53:43,432 - INFO - ✅ Final PDF built successfully.
+2025-08-24 13:53:43,433 - INFO - 📁 Categories exported to: C:\Users\timmu\Documents\repos\Factbook Project\books\March_29_Final_58_categories.json
+2025-08-24 13:53:43,433 - INFO - ✅ PDF created at: C:\Users\timmu\Documents\repos\Factbook Project\books\March_29_Final_58.pdf
+2025-08-24 13:53:43,748 - INFO - ✅ Final trivia backgrounds applied to 0 pages.

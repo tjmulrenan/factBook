@@ -8,34 +8,97 @@ import random
 import math
 import pytesseract
 import difflib
+from PIL import ImageOps, ImageFilter
+import re
 
 BRIGHTNESS_THRESHOLD_ROW = 200
 BRIGHTNESS_THRESHOLD_BLOCK = 220
 BRIGHTNESS_THRESHOLD_COL = 200
 
+INK_MAX_BRIGHTNESS = 70      # ≤ this = “ink” (very dark) → ignore in gap logic
+ROW_BRIGHT_MIN_FRAC = 0.70   # row counts as bright if ≥70% of non-ink pixels are bright
 
-def detect_special_layout(image: Image.Image):
-    text = pytesseract.image_to_string(image)
-    text_lower = text.lower()
+# --- Margin band for whiteness detection (right side) ---
+# Use ratios of page width so it works on any DPI / page
+MARGIN_RIGHT_START_RATIO = 0.86   # left edge of margin band (e.g., 88% of width)
+MARGIN_RIGHT_END_RATIO   = 0.88   # right edge of margin band (e.g., 98% of width)
+GUIDE_LINE_WIDTH = 3             # pixels
 
-    # Split text into lines to handle line breaks and OCR misalignments
-    lines = [line.strip() for line in text_lower.splitlines() if line.strip()]
+TOP_SKIP_PX = 80  # ignore the top 20 pixels when detecting gaps
+# If you want this to scale with DPI (e.g., 20pt), use:
+# TOP_SKIP_PX = int((20/72) * dpi)
 
-    is_grid_gauntlet = any("grid gauntlet" in line for line in lines)
+DEBUG_OCR = False
+DEBUG_OCR_MAX_CHARS = 400
 
-    # Fuzzy match for letter quest
-    is_letter_quest = any(
-        difflib.get_close_matches(line, ["letter quest"], n=1, cutoff=0.75)
-        for line in lines
-    )
+# Force LSTM engine, PSM tuned for blocks, and add user words
+USER_WORDS = r"C:\Users\timmu\Documents\repos\Factbook Project\fonts\user_words.txt"
+OCR_CFG = fr'--oem 3 --psm 6 --user-words "{USER_WORDS}"'
+
+def prep_for_ocr(img_rgba):
+    # Upscale for sharper glyphs
+    upscale = img_rgba.resize((img_rgba.width*2, img_rgba.height*2), Image.BICUBIC)
+
+    # Convert to grayscale
+    gray = upscale.convert("L")
+
+    # Auto contrast
+    gray = ImageOps.autocontrast(gray, cutoff=1)
+
+    # Binarize (threshold ~190 works for headers)
+    bw = gray.point(lambda p: 255 if p > 190 else 0, mode="1")
+
+    # Denoise
+    return bw.convert("L").filter(ImageFilter.MedianFilter(3))
+
+def _ocr_region(image_rgba, x0, y0, x1, y1, note=""):
+    """
+    OCR a sub-rectangle of the RGBA image; returns trimmed text.
+    Ensures bounds are clamped and handles empty regions safely.
+    """
+    x0 = max(0, int(x0)); y0 = max(0, int(y0))
+    x1 = min(image_rgba.width, int(x1)); y1 = min(image_rgba.height, int(y1))
+    if x1 <= x0 or y1 <= y0:
+        return ""
+    # Tesseract works best on L or RGB; drop alpha
+    region = image_rgba.crop((x0, y0, x1, y1))
+    region = prep_for_ocr(region)   # ✅ preprocess (upscale, contrast, binarize)
+    try:
+        txt = pytesseract.image_to_string(region, config=OCR_CFG)
+    except Exception as e:
+        txt = f"[OCR ERROR: {e}]"
+    txt = txt.strip()
+    if len(txt) > DEBUG_OCR_MAX_CHARS:
+        txt = txt[:DEBUG_OCR_MAX_CHARS] + " …[truncated]"
+    if DEBUG_OCR and note:
+        print(f"🔎 OCR {note} [{x0},{y0} → {x1},{y1}]:\n{txt}\n")
+    return txt
+
+def _norm(s: str) -> str:
+    # normalize whitespace and punctuation; keep words only
+    s = s.lower()
+    s = re.sub(r"[^a-z0-9\s]+", " ", s)
+    s = re.sub(r"\s+", " ", s).strip()
+    return s
+
+def detect_special_layout(image_rgba, page=None):
+    txt = page.get_text("text") if page is not None else pytesseract.image_to_string(image_rgba.convert("RGB"))
+    norm = _norm(txt)
+
+    # check longer phrases FIRST so they win
+    is_lq_answers  = bool(re.search(r"\bletter quest answers\b", norm))
+    is_lq          = bool(re.search(r"\bletter quest\b", norm)) and not is_lq_answers
+
+    is_gg_answers  = bool(re.search(r"\bgrid gauntlet answers\b", norm))
+    is_gg          = bool(re.search(r"\bgrid gauntlet\b", norm)) and not is_gg_answers
 
     return {
-        "grid_gauntlet": is_grid_gauntlet,
-        "letter_quest": is_letter_quest,
-        "raw_text": text
+        "letter_quest": is_lq,
+        "letter_quest_answers": is_lq_answers,
+        "grid_gauntlet": is_gg,
+        "grid_gauntlet_answers": is_gg_answers,
+        "raw_text": txt,
     }
-
-
 
 def generate_top_semicircle_cutouts(x0, y0, x1, y1, num_bumps=12, radius=None):
     if radius is None:
@@ -93,8 +156,9 @@ def visually_fill_transparent_gaps(pdf_path, alpha=0.85, dpi=144):
     has_seen_letter_quest_answers = False
     has_seen_grid_gauntlet_answers = False
 
-    for page_index in range(page_count - 15, page_count): # Debugging last 15 pages
-    # for page_index in range(page_count):
+    # for page_index in range(page_count - 20, page_count): # Debugging last 20 pages
+    # for page_index in range(min(15, page_count)):
+    for page_index in range(page_count):
         if page_index == 0:
             print("🚫 Skipping page 1: no gap filling or clouding.")
             continue
@@ -108,26 +172,50 @@ def visually_fill_transparent_gaps(pdf_path, alpha=0.85, dpi=144):
         arr = np.array(img)
         height, width = arr.shape[:2]
 
-        stripe_width = int(width * 0.02)
-        best_x = None
-        max_bright_rows = -1
-        # candidates = [round(x / 100, 2) for x in range(95, 59, -1)]
-        candidates = [0.85]
+        # 🔎 DEBUG: OCR preview of whole page
+        if DEBUG_OCR:
+            page_ocr_preview = pytesseract.image_to_string(img.convert("RGB"), config=OCR_CFG)
+            page_ocr_preview = page_ocr_preview.strip()
+            if len(page_ocr_preview) > DEBUG_OCR_MAX_CHARS:
+                page_ocr_preview = page_ocr_preview[:DEBUG_OCR_MAX_CHARS] + " …[truncated]"
+            print(f"📄 OCR preview (page {page_index+1}):\n{page_ocr_preview}\n")
 
-        for ratio in candidates:
-            x_start = int(width * ratio)
-            stripe = arr[:, x_start:x_start + stripe_width, :3]
-            row_brightness = np.mean(stripe, axis=(1, 2))
-            bright_rows = np.sum(row_brightness > BRIGHTNESS_THRESHOLD_BLOCK)
-            if bright_rows > max_bright_rows:
-                max_bright_rows = bright_rows
-                best_x = x_start
+        # --- Compute fixed right-margin band for this page ---
+        mx0 = int(width * MARGIN_RIGHT_START_RATIO)
+        mx1 = int(width * MARGIN_RIGHT_END_RATIO)
 
-        probe_x_start = best_x
+        mx0 = max(0, min(mx0, width - 1))
+        mx1 = max(mx0 + 1, min(mx1, width))  # ensure at least 1px wide
+        
+        # --- Draw guide lines so you can verify the band ---
+        if DEBUG_OCR:
+            draw = ImageDraw.Draw(img, "RGBA")
+            draw.line([(mx0, 0), (mx0, height - 1)], fill=(255, 0, 0, 200), width=GUIDE_LINE_WIDTH)
+            draw.line([(mx1, 0), (mx1, height - 1)], fill=(0, 0, 255, 200), width=GUIDE_LINE_WIDTH)
+
+            # --- Horizontal cutoff guide line (green) ---
+            draw.line([(0, TOP_SKIP_PX), (width - 1, TOP_SKIP_PX)], fill=(0, 255, 0, 200), width=2)
+
+        # --- DEBUG: OCR the exact margin band used for detection (from TOP_SKIP_PX downward)
+        if DEBUG_OCR:
+            _ = _ocr_region(img, mx0, TOP_SKIP_PX, mx1, height,
+                            note=f"(page {page_index+1}) margin band from TOP_SKIP_PX")
+
+        # Use the fixed right-margin band (mx0:mx1) for row whiteness checks
         bright_rows = []
-        for y in range(height):
-            brightness = np.mean(arr[y, probe_x_start:probe_x_start + stripe_width, :3])
-            if brightness > BRIGHTNESS_THRESHOLD_ROW:
+        stripe = arr[:, mx0:mx1, :3]
+
+        lum = stripe.mean(axis=2)  # H x W
+        ink_mask = lum <= INK_MAX_BRIGHTNESS
+        bright_mask = lum > BRIGHTNESS_THRESHOLD_ROW
+
+        for y in range(TOP_SKIP_PX, height):   # ✅ scanning starts at y=20, not at the very top
+            valid = ~ink_mask[y]
+            valid_count = valid.sum()
+            if valid_count == 0:
+                continue
+            bright_frac = (bright_mask[y] & valid).sum() / valid_count
+            if bright_frac >= ROW_BRIGHT_MIN_FRAC:
                 bright_rows.append(y)
 
         blocks = []
@@ -137,15 +225,54 @@ def visually_fill_transparent_gaps(pdf_path, alpha=0.85, dpi=144):
                 start_y = min(group)
                 end_y = max(group)
 
-                block_slice = arr[start_y:end_y + 1, :, :3]
-                avg_cols = np.mean(block_slice, axis=(0, 2))
-                bright_cols = np.where(avg_cols > BRIGHTNESS_THRESHOLD_COL)[0]
+                # 1) Keep using the margin band to CONFIRM a bright block vertically
+                block_slice_margin = arr[start_y:end_y + 1, mx0:mx1, :3]   # H x (margin width) x 3
+                lum_cols_m = block_slice_margin.mean(axis=2)
+                ink_cols_m = lum_cols_m <= INK_MAX_BRIGHTNESS
+                bright_cols_mask_m = lum_cols_m > BRIGHTNESS_THRESHOLD_COL
 
-                if len(bright_cols) > 0:
-                    x_start = int(np.min(bright_cols))
-                    x_end = int(np.max(bright_cols))
+                valid_per_col_m = (~ink_cols_m).sum(axis=0)
+                valid_per_col_m = np.where(valid_per_col_m == 0, 1, valid_per_col_m)
+                bright_frac_cols_m = (bright_cols_mask_m & ~ink_cols_m).sum(axis=0) / valid_per_col_m
+
+                bright_cols_m = np.where(bright_frac_cols_m >= ROW_BRIGHT_MIN_FRAC)[0]
+                has_bright_in_margin = len(bright_cols_m) > 0
+
+                # 2) For the FINAL BOX WIDTH, scan the SAME Y slice across the FULL PAGE width
+                block_slice_full = arr[start_y:end_y + 1, :, :3]          # H x W x 3
+                lum_cols_f = block_slice_full.mean(axis=2)                # H x W
+                ink_cols_f = lum_cols_f <= INK_MAX_BRIGHTNESS
+                bright_cols_mask_f = lum_cols_f > BRIGHTNESS_THRESHOLD_COL
+
+                valid_per_col_f = (~ink_cols_f).sum(axis=0)
+                valid_per_col_f = np.where(valid_per_col_f == 0, 1, valid_per_col_f)
+                bright_frac_cols_f = (bright_cols_mask_f & ~ink_cols_f).sum(axis=0) / valid_per_col_f
+
+                bright_cols_f = np.where(bright_frac_cols_f >= ROW_BRIGHT_MIN_FRAC)[0]
+
+                if has_bright_in_margin and len(bright_cols_f) > 0:
+                    # Use the full-page bright band (true width of the white box)
+                    x_start = int(np.min(bright_cols_f))
+                    x_end   = int(np.max(bright_cols_f))
+                elif has_bright_in_margin:
+                    # Fallback: at least keep the margin band if full-page scan fails
+                    x_start, x_end = mx0, mx1
                 else:
-                    x_start, x_end = 0, width
+                    # No bright evidence in margin → skip this block
+                    continue
+
+                # 🔎 DEBUG OCR of detected block regions
+                if DEBUG_OCR:
+                    # OCR of the margin slice (detector evidence)
+                    _ = _ocr_region(
+                        img, mx0, start_y, mx1, end_y + 1,
+                        note=f"(page {page_index+1}) block margin slice y={start_y}-{end_y}"
+                    )
+                    # OCR of the full-width box (final box used for patching/cloud)
+                    _ = _ocr_region(
+                        img, x_start, start_y, x_end + 1, end_y + 1,
+                        note=f"(page {page_index+1}) block FULL-WIDTH box y={start_y}-{end_y}"
+                    )
 
                 blocks.append((start_y, end_y, x_start, x_end))
                 print(f"📦 Page {page_index + 1}: bright block y={start_y}-{end_y}, x={x_start}-{x_end}")
@@ -153,15 +280,12 @@ def visually_fill_transparent_gaps(pdf_path, alpha=0.85, dpi=144):
         draw = ImageDraw.Draw(img, "RGBA")
         gap_count = 0
 
-        layout_flags = detect_special_layout(img)
-        is_gauntlet = layout_flags["grid_gauntlet"]
-        is_letter_quest = layout_flags["letter_quest"]
-        ocr_text = layout_flags["raw_text"]
-        text_lower = ocr_text.lower()
-
-        # Page-specific detection
-        is_lqa_page = "letter quest answers" in text_lower
-        is_gga_page = "grid gauntlet answers" in text_lower
+        layout_flags = detect_special_layout(img, page=page)
+        is_gauntlet      = layout_flags["grid_gauntlet"]
+        is_letter_quest  = layout_flags["letter_quest"]
+        is_lqa_page      = layout_flags["letter_quest_answers"]
+        is_gga_page      = layout_flags["grid_gauntlet_answers"]
+        ocr_text         = layout_flags["raw_text"]
 
         # Delay updating flags until after rendering
         mark_lqa_seen = False
@@ -171,40 +295,55 @@ def visually_fill_transparent_gaps(pdf_path, alpha=0.85, dpi=144):
         cloud_mode = False
         allow_gap_patch = True
         special_single_cloud = False
+        grouped_blocks = []  # ensure defined before grouping tweaks
 
         if is_lqa_page:
+            # LETTER QUEST ANSWERS → cloud only the first box, no gap patch
             cloud_mode = True
             allow_gap_patch = False
-            special_single_cloud = True
+            grouped_blocks = [[blocks[0]]] if blocks else []
             mark_lqa_seen = True
+
         elif is_gga_page:
+            # GRID GAUNTLET ANSWERS → cloud only the first box, no gap patch
             cloud_mode = True
             allow_gap_patch = False
-            special_single_cloud = True
+            grouped_blocks = [[blocks[0]]] if blocks else []
             mark_gga_seen = True
-        elif has_seen_letter_quest_answers and not has_seen_grid_gauntlet_answers:
+
+        elif is_letter_quest or is_gauntlet:
+            print("🎯 LQ/GG page (non-answers): clouding ONLY the top block; gap patch OFF")
+            # NON-answers LQ/GG pages → cloud only the first box, no gap patch
+            cloud_mode = True
+            allow_gap_patch = False
+            grouped_blocks = [[blocks[0]]] if blocks else []
+            special_single_cloud = True
+
+        elif has_seen_letter_quest_answers or has_seen_grid_gauntlet_answers:
+            # After answers have appeared, do nothing on later pages
             cloud_mode = False
             allow_gap_patch = False
-        elif has_seen_letter_quest_answers and has_seen_grid_gauntlet_answers:
-            cloud_mode = False
-            allow_gap_patch = False
+            grouped_blocks = []
+
         else:
-            cloud_mode = True  # ✅ Enable clouds by default before LQA
+            # Normal pages
+            cloud_mode = True
             allow_gap_patch = True
 
-        print(f"🧠 Grid Gauntlet Detected: {is_gauntlet}")
-        print(f"📜 Letter Quest Detected: {is_letter_quest}")
-        print(f"🔤 OCR Text (page {page_index + 1}):\n{text_lower}")
 
-        # 🔁 Custom block grouping
-        if special_single_cloud and len(blocks) >= 1:
-            grouped_blocks = [[blocks[0]]]  # Only first block gets a cloud
-        elif len(blocks) == 1:
-            grouped_blocks = [[blocks[0]]]  # New condition: one block = one cloud
-        elif (is_gauntlet or is_letter_quest) and len(blocks) >= 3:
-            grouped_blocks = [blocks[:2], [blocks[-1]]]
-        else:
-            grouped_blocks = [blocks]
+
+        # 🔁 Custom block grouping (only if not already set above)
+        if not grouped_blocks:
+            if special_single_cloud and len(blocks) >= 1:
+                grouped_blocks = [[blocks[0]]]
+            elif len(blocks) == 1:
+                grouped_blocks = [[blocks[0]]]
+            elif (is_gauntlet or is_letter_quest) and len(blocks) >= 3:
+                grouped_blocks = [blocks[:2], [blocks[-1]]]
+            else:
+                grouped_blocks = [blocks]
+
+
 
         print(f"🧠 Grid Gauntlet Detected: {is_gauntlet}")
         print(f"📜 Letter Quest Detected: {is_letter_quest}")
@@ -226,24 +365,29 @@ def visually_fill_transparent_gaps(pdf_path, alpha=0.85, dpi=144):
 
             # ✅ PATCH gaps *within* this group
             if allow_gap_patch:
-                for i in range(len(group) - 1):
+                max_patches = 2 if page_index == 2 else len(group) - 1
+                for i in range(min(len(group) - 1, max_patches)):
                     top = group[i][1]
                     bottom = group[i + 1][0]
                     x_start_common = max(b[2] for b in group)
                     x_end_common = min(b[3] for b in group)
 
-                    if bottom > top and (x_end_common - x_start_common) > 10:
-                        draw.rectangle(
-                            [(x_start_common, top + 1), (x_end_common, bottom - 1)],
-                            fill=(255, 255, 255, int(alpha * 255))
-                        )
-                        print(f"🩹 Page {page_index + 1}: hard-patched y={top + 1}-{bottom - 1}")
-                        gap_count += 1
+                    gap_height = (bottom - top) - 1
+                    gap_width  = (x_end_common - x_start_common)
+
+                    # Always patch, regardless of size
+                    draw.rectangle(
+                        [(x_start_common, top + 1), (x_end_common, bottom - 1)],
+                        fill=(255, 255, 255, int(alpha * 255))
+                    )
+                    print(f"🩹 Page {page_index + 1}: hard-patched y={top + 1}-{bottom - 1} (h={gap_height}, w={gap_width})")
+                    gap_count += 1
+
 
 
             # ✅ CLOUD for this group
             if cloud_mode:
-                # ✋ Skip cloud if one was already drawn, and this is a LQ/GG layout
+                # (unchanged — keep this guard to only draw the first cloud on LQ/GG pages)
                 if has_drawn_first_cloud and (is_letter_quest or is_gauntlet):
                     print(f"⛔ Skipping extra cloud for LQ/GG page {page_index + 1}")
                     continue

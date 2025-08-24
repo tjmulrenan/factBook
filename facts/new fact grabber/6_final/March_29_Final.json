@@ -1,49 +1,52 @@
 [
   {
     "id": "901",
-    "title": "Lemon Chiffon Cake Day: Light, Fluffy Fun!",
-    "story": "Every March 29th, bakers across America celebrate National Lemon Chiffon Cake Day by whipping up this special dessert! Chiffon cake is super light and airy because it's made with oil instead of butter, plus beaten egg whites that make it fluffy like a cloud. People love making lemon chiffon cake because it tastes bright and citrusy, perfect for spring. Bakeries sell extra slices on this day, and home bakers share photos of their yellow masterpieces online. The best part? This cake is so soft and spongy, it practically melts in your mouth!",
-    "activity_question": "What makes chiffon cake so light and fluffy?",
+    "title": "Mermaids Just Wanna Have Fun",
+    "story": "On March 29th, people get to celebrate International Mermaid Day\u2014and no, you don\u2019t need a tail to join in! Kids dress up in sparkly fins, watch mermaid movies like *The Little Mermaid*, and even swim in mermaid tails at the pool. Some families make ocean-themed snacks or crafts, while others share their best mermaid selfies online. The day started in 2018 when a TV show called *Siren* first aired, but now it\u2019s a full-blown splash-fest. It\u2019s the perfect excuse to believe in magic, glitter, and the power of the sea!",
+    "activity_question": "Why do people celebrate International Mermaid Day on March 29?",
     "activity_choices": [
-      "Oil instead of butter and beaten egg whites",
-      "Extra sugar and vanilla extract",
-      "Baking it in a pizza oven",
-      "Adding fizzy soda to the batter"
+      "To match the launch of a mermaid TV show",
+      "Because it\u2019s when real mermaids were spotted",
+      "It\u2019s the only day you can swim",
+      "It\u2019s when the ocean was invented"
     ],
-    "activity_answer": "Oil instead of butter and beaten egg whites",
-    "bonus_fact": "Chiffon cake was invented in 1927 but kept secret for 20 years!",
+    "activity_answer": "To match the launch of a mermaid TV show",
+    "bonus_fact": "Some pools offer special 'mermaiding' classes just for kids!",
     "optional_type": "bonus_fact",
     "categories": [
       "Days That Slay"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 65
+    "score": 65,
+    "approved": true
   },
   {
     "id": "902",
     "title": "Smoke and Mirrors Day: Magic or Trickery?",
     "story": "March 29th is Smoke and Mirrors Day, when people celebrate the art of illusion and magic tricks! Magicians perform special shows using classic \"smoke and mirrors\" techniques to amaze audiences. Kids practice card tricks, coin disappearing acts, and simple illusions they can share with friends and family. The phrase \"smoke and mirrors\" also means when someone tries to confuse or trick others, so some people use this day to learn about spotting fake news or misleading information online. Libraries and schools often host magic workshops where children can learn the secrets behind famous tricks and create their own magical performances.",
-    "activity_question": "What do magicians traditionally use to create illusions on Smoke and Mirrors Day?",
+    "activity_question": "What is one way people celebrate Smoke and Mirrors Day?",
     "activity_choices": [
-      "Smoke and mirrors",
-      "Glitter and rainbows",
-      "Cookies and milk",
-      "Books and pencils"
+      "Learn and perform magic tricks",
+      "Try to turn invisible with whipped cream",
+      "Light fireworks to make smoke trails",
+      "Watch science documentaries about clouds"
     ],
-    "activity_answer": "Smoke and mirrors",
+    "activity_answer": "Learn and perform magic tricks",
     "follow_up_question": "What's the coolest magic trick you've ever seen or would like to learn?",
     "optional_type": "follow_up_question",
     "categories": [
       "Days That Slay"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 75
+    "score": 75,
+    "approved": true,
+    "bonus_fact": "What's the coolest magic trick you've ever seen or would like to learn?"
   },
   {
     "id": "903",
     "title": "When Niagara Falls Forgot to Flow",
-    "story": "Every March 29th, people celebrate one of the weirdest days in waterfall history! On this day in 1848, Niagara Falls actually stopped flowing for about 30 hours. An ice jam blocked the Niagara River, and suddenly the thundering water went silent. People walked out onto the dry riverbed and picked up fish and artifacts! Today, visitors to Niagara Falls on March 29th love sharing photos and stories about this incredible day when nature hit the pause button. Tour guides tell the amazing tale, and people imagine what it would be like to see the famous falls completely dry again.",
-    "activity_question": "What caused Niagara Falls to stop flowing in 1848?",
+    "story": "On this day in 1848, Niagara Falls actually stopped flowing for about 30 hours. An ice jam blocked the Niagara River, and suddenly the thundering water went silent. People walked out onto the dry riverbed and picked up fish and artifacts! Today, visitors to Niagara Falls on March 29th love sharing photos and stories about this incredible day when nature hit the pause button. Tour guides tell the amazing tale, and people imagine what it would be like to see the famous falls completely dry again.",
+    "activity_question": "Why did Niagara Falls go silent in 1848, even though it wasn\u2019t winter freezing?",
     "activity_choices": [
       "An ice jam blocked the river",
       "A giant beaver dam",
@@ -57,12 +60,13 @@
       "Days That Slay"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 90
+    "score": 90,
+    "approved": true
   },
   {
     "id": "164",
     "title": "Clay Army Rises from the Ground",
-    "story": "Chinese farmers were digging a well near Xi'an on March 29th, 1974, when their shovels hit something hard and strange. Instead of water, they found pieces of clay that looked like broken pottery. But when archaeologists rushed to the scene, they uncovered one of the most incredible discoveries in history — an entire army made of clay! Over 8,000 life-sized warrior statues had been buried underground for more than 2,000 years, standing guard over the tomb of Qin Shi Huang, China's first emperor. Each clay soldier was unique, with different faces, hairstyles, and armor. The emperor wanted this terracotta army to protect him in the afterlife, creating what might be the world's most amazing underground surprise.",
+    "story": "Chinese farmers were digging a well near Xi'an on March 29th, 1974, when their shovels hit something hard and strange. Instead of water, they found pieces of clay that looked like broken pottery. But when archaeologists rushed to the scene, they uncovered one of the most incredible discoveries in history \u2014 an entire army made of clay! Over 8,000 life-sized warrior statues had been buried underground for more than 2,000 years, standing guard over the tomb of Qin Shi Huang, China's first emperor. Each clay soldier was unique, with different faces, hairstyles, and armor. The emperor wanted this terracotta army to protect him in the afterlife, creating what might be the world's most amazing underground surprise.",
     "activity_question": "What were the Chinese farmers originally trying to dig when they found the Terracotta Army?",
     "activity_choices": [
       "A well for water",
@@ -71,18 +75,19 @@
       "A basement for their house"
     ],
     "activity_answer": "A well for water",
-    "bonus_fact": "Each clay warrior's face is different — no two soldiers look exactly the same!",
+    "bonus_fact": "Each clay warrior's face is different \u2014 no two soldiers look exactly the same!",
     "optional_type": "bonus_fact",
     "categories": [
       "History's Mic Drop Moments"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 98
+    "score": 98,
+    "approved": true
   },
   {
     "id": "93",
     "title": "Space Express: Record-Breaking Rocket Ride",
-    "story": "Three astronauts buckled up for the fastest trip to space ever attempted on March 28th, 2013! The Soyuz TMA-08M spacecraft blasted off from Earth with a bold mission: reach the International Space Station in just six hours instead of the usual two days. This wasn't just any regular space flight — it was like switching from a slow bus to a rocket-powered express train! The crew zoomed through space at incredible speeds, racing against the clock as they orbited Earth multiple times. When they finally docked with the space station that same day, they had shattered the previous record and proven that space travel could be much faster than anyone thought possible.",
+    "story": "Three astronauts buckled up for the fastest trip to space ever attempted on March 28th, 2013! The Soyuz TMA-08M spacecraft blasted off from Earth with a bold mission: reach the International Space Station in just six hours instead of the usual two days. This wasn't just any regular space flight \u2014 it was like switching from a slow bus to a rocket-powered express train! The crew zoomed through space at incredible speeds, racing against the clock as they orbited Earth multiple times. When they finally docked with the space station that same day, they had shattered the previous record and proven that space travel could be much faster than anyone thought possible.",
     "activity_question": "How long did it normally take spacecraft to reach the International Space Station before this record?",
     "activity_choices": [
       "Two days",
@@ -97,12 +102,13 @@
       "Beyond Earth"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 93
+    "score": 93,
+    "approved": true
   },
   {
     "id": "100",
     "title": "Giant Ship Gets Unstuck!",
-    "story": "The massive container ship Ever Given finally broke free from the Suez Canal on March 29th, 2021, after being stuck sideways for nearly a week! This wasn't just any traffic jam — the gigantic vessel had completely blocked one of the world's busiest shipping routes, creating the most expensive traffic backup in history. At least 369 ships were trapped waiting to pass through, carrying everything from oil to toilet paper. The ship was longer than the Empire State Building is tall, and it took tugboats, excavators, and even the high tide to finally wiggle it loose. When it moved again, people around the world cheered!",
+    "story": "The massive container ship Ever Given finally broke free from the Suez Canal on March 29th, 2021, after being stuck sideways for nearly a week! This wasn't just any traffic jam \u2014 the gigantic vessel had completely blocked one of the world's busiest shipping routes, creating the most expensive traffic backup in history. At least 369 ships were trapped waiting to pass through, carrying everything from oil to toilet paper. The ship was longer than the Empire State Building is tall, and it took tugboats, excavators, and even the high tide to finally wiggle it loose. When it moved again, people around the world cheered!",
     "activity_question": "How many ships were waiting to pass through the Suez Canal while Ever Given was stuck?",
     "activity_choices": [
       "At least 369 ships",
@@ -117,7 +123,8 @@
     "bonus_fact": "The Ever Given is so huge it can carry over 20,000 shipping containers!",
     "optional_type": "bonus_fact",
     "suitable_for_8_to_12_year_old": true,
-    "score": 93
+    "score": 93,
+    "approved": true
   },
   {
     "id": "103",
@@ -137,32 +144,13 @@
       "Beyond Earth"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 93
-  },
-  {
-    "id": "92",
-    "title": "American Horse Conquers Dubai's Desert",
-    "story": "Animal Kingdom galloped into history on March 30th, 2013, when this amazing American racehorse thundered across the finish line first at the Dubai World Cup! This wasn't just any horse race – it was one of the richest and most exciting races in the world, held in the middle of the desert in Dubai. Animal Kingdom had to beat the fastest horses from around the globe, and he did it with style. The victory was extra special because it proved that American horses could compete with the best international champions. As dust settled on the track that day, Animal Kingdom had earned his owners a whopping $6 million prize and brought serious bragging rights back to America.",
-    "activity_question": "Where did Animal Kingdom win the 2013 World Cup race?",
-    "activity_choices": [
-      "Dubai",
-      "Kentucky",
-      "Japan",
-      "On the moon"
-    ],
-    "activity_answer": "Dubai",
-    "bonus_fact": "The Dubai World Cup is run on a special artificial surface called Tapeta.",
-    "optional_type": "bonus_fact",
-    "categories": [
-      "Full Beast Mode"
-    ],
-    "suitable_for_8_to_12_year_old": true,
-    "score": 92
+    "score": 93,
+    "approved": true
   },
   {
     "id": "136",
     "title": "The Great One's Incredible Assist Record",
-    "story": "Wayne Gretzky was already known as \"The Great One\" when he did something absolutely mind-blowing on March 29th, 1985. The hockey superstar didn't just break someone else's record that night — he shattered his own! Gretzky scored his 126th assist of the season, which meant he had broken his previous record of 125 assists that he had set just two years earlier. An assist is when you help a teammate score a goal, and most players are thrilled to get even 50 assists in a whole season. But Gretzky was so good at seeing the ice and setting up perfect passes that he nearly tripled what most players could do. This incredible moment showed why many people still call him the greatest hockey player who ever lived.",
+    "story": "Wayne Gretzky was already known as \"The Great One\" when he did something absolutely mind-blowing on March 29th, 1985. The hockey superstar didn't just break someone else's record that night \u2014 he shattered his own! Gretzky scored his 126th assist of the season, which meant he had broken his previous record of 125 assists that he had set just two years earlier. An assist is when you help a teammate score a goal, and most players are thrilled to get even 50 assists in a whole season. But Gretzky was so good at seeing the ice and setting up perfect passes that he nearly tripled what most players could do. This incredible moment showed why many people still call him the greatest hockey player who ever lived.",
     "activity_question": "How many assists did Wayne Gretzky get to break his own record in 1985?",
     "activity_choices": [
       "126",
@@ -174,10 +162,11 @@
     "categories": [
       "Full Beast Mode"
     ],
-    "bonus_fact": "Gretzky ended that season with 163 assists — a record that still stands today!",
+    "bonus_fact": "Gretzky ended that season with 163 assists \u2014 a record that still stands today!",
     "optional_type": "bonus_fact",
     "suitable_for_8_to_12_year_old": true,
-    "score": 92
+    "score": 92,
+    "approved": true
   },
   {
     "id": "158",
@@ -197,7 +186,8 @@
       "Full Beast Mode"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 92
+    "score": 92,
+    "approved": true
   },
   {
     "id": "54",
@@ -217,27 +207,9 @@
       "Big Brain Energy"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 90
-  },
-  {
-    "id": "161",
-    "title": "The Day Niagara Falls Went Silent",
-    "story": "Water stopped thundering over Niagara Falls completely, leaving visitors staring at empty cliffs where millions of gallons usually crashed down every minute. On March 29th, 1848, something incredible happened that hadn't occurred in thousands of years — the mighty falls went totally silent for 30 whole hours! The culprit was a massive ice jam that had formed upstream in the Niagara River, acting like a giant cork in a bottle. Chunks of ice piled up so high and thick that they completely blocked the water from flowing toward the falls. People walked out onto the dry riverbed where the falls normally roared, picking up fish and old artifacts. It was so quiet and strange that many thought the world was ending, until the ice finally broke apart and the water came rushing back with a tremendous roar.",
-    "activity_question": "What caused Niagara Falls to stop flowing in 1848?",
-    "activity_choices": [
-      "An ice jam upstream in the river",
-      "A giant beaver dam",
-      "An earthquake moved the rocks",
-      "People built a wall to stop it"
-    ],
-    "activity_answer": "An ice jam upstream in the river",
-    "bonus_fact": "People found old guns and tomahawks on the dry riverbed that day!",
-    "optional_type": "bonus_fact",
-    "categories": [
-      "The What Zone"
-    ],
-    "suitable_for_8_to_12_year_old": true,
-    "score": 88
+    "score": 90,
+    "approved": true,
+    "bonus_fact": "How do you think vaccines help your body learn to fight diseases?"
   },
   {
     "id": "63",
@@ -257,7 +229,8 @@
       "Full Beast Mode"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 87
+    "score": 87,
+    "approved": true
   },
   {
     "id": "56",
@@ -277,7 +250,8 @@
       "Beyond Earth"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 85
+    "score": 85,
+    "approved": true
   },
   {
     "id": "26",
@@ -297,12 +271,13 @@
     "bonus_fact": "Daytona's hard-packed sand made it perfect for early speed records before racetracks existed.",
     "optional_type": "bonus_fact",
     "suitable_for_8_to_12_year_old": true,
-    "score": 82
+    "score": 82,
+    "approved": true
   },
   {
     "id": "62",
     "title": "Cricket's Most Crushing Victory Ever",
-    "story": "Cricket fans couldn't believe their eyes when Delhi absolutely demolished Karnataka in the Ranji Trophy final on this date in 1979. The Ranji Trophy is India's biggest cricket tournament, where states compete for the ultimate prize. But nobody expected what happened next — Delhi didn't just win, they crushed Karnataka by a whopping 399 runs! That's like winning a race by almost four laps. It was one of the most lopsided victories in cricket history, and Delhi players probably couldn't stop grinning for weeks.",
+    "story": "Cricket fans couldn't believe their eyes when Delhi absolutely demolished Karnataka in the Ranji Trophy final on this date in 1979. The Ranji Trophy is India's biggest cricket tournament, where states compete for the ultimate prize. But nobody expected what happened next \u2014 Delhi didn't just win, they crushed Karnataka by a whopping 399 runs! That's like winning a race by almost four laps. It was one of the most lopsided victories in cricket history, and Delhi players probably couldn't stop grinning for weeks.",
     "activity_question": "By how many runs did Delhi beat Karnataka in the 1979 Ranji Trophy final?",
     "activity_choices": [
       "399 runs",
@@ -317,7 +292,8 @@
       "Full Beast Mode"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 80
+    "score": 80,
+    "approved": true
   },
   {
     "id": "74",
@@ -337,7 +313,9 @@
       "Full Beast Mode"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 80
+    "score": 80,
+    "approved": true,
+    "bonus_fact": "How do you think it would feel to win a world championship but not be sure which country you're representing?"
   },
   {
     "id": "80",
@@ -357,7 +335,8 @@
       "Full Beast Mode"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 80
+    "score": 80,
+    "approved": true
   },
   {
     "id": "97",
@@ -377,12 +356,13 @@
     "bonus_fact": "The MCG stadium can hold over 100,000 people - that's like a small city!",
     "optional_type": "bonus_fact",
     "suitable_for_8_to_12_year_old": true,
-    "score": 80
+    "score": 80,
+    "approved": true
   },
   {
     "id": "22",
     "title": "A Monument Years in the Making",
-    "story": "Abraham Lincoln had been gone for two years when Congress made a big decision on this day in 1867 — they voted to build a special monument to honor the president who had saved the nation. But here's the crazy part: it took 55 more years before the Lincoln Memorial we know today was actually finished! The lawmakers wanted to create something amazing, but they couldn't agree on what it should look like or where to put it. Some wanted a simple statue, others dreamed of a grand temple with giant columns.",
+    "story": "Abraham Lincoln had been gone for two years when Congress made a big decision on this day in 1867 \u2014 they voted to build a special monument to honor the president who had saved the nation. But here's the crazy part: it took 55 more years before the Lincoln Memorial we know today was actually finished! The lawmakers wanted to create something amazing, but they couldn't agree on what it should look like or where to put it. Some wanted a simple statue, others dreamed of a grand temple with giant columns.",
     "activity_question": "How long did it take from when Congress first approved the Lincoln Memorial until it was actually finished?",
     "activity_choices": [
       "55 years",
@@ -397,12 +377,13 @@
       "History's Mic Drop Moments"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 75
+    "score": 75,
+    "approved": true
   },
   {
     "id": "73",
     "title": "Rocket Dreams Take Flight",
-    "story": "A homemade rocket blasted off from the desert on March 29th, 1989, making history as the first private commercial rocket to reach space and come back down. At White Sands Missile Range in New Mexico, this wasn't built by NASA or the government — regular people with big dreams had created their own spacecraft! The rocket shot up into the blackness above Earth's atmosphere, then safely returned in what's called a suborbital flight. It proved that someday, private companies might take people to space too.",
+    "story": "A homemade rocket blasted off from the desert on March 29th, 1989, making history as the first private commercial rocket to reach space and come back down. At White Sands Missile Range in New Mexico, this wasn't built by NASA or the government \u2014 regular people with big dreams had created their own spacecraft! The rocket shot up into the blackness above Earth's atmosphere, then safely returned in what's called a suborbital flight. It proved that someday, private companies might take people to space too.",
     "activity_question": "What made this 1989 rocket launch special?",
     "activity_choices": [
       "It was the first private commercial rocket to make a suborbital flight",
@@ -417,27 +398,9 @@
       "Big Brain Energy"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 75
-  },
-  {
-    "id": "75",
-    "title": "Ice Dancing Gold from a Vanished Country",
-    "story": "Two figure skaters made history on March 29th, 1992, but they competed for a country that was disappearing! Natalia Mishkutenok and Artur Dmitriev glided across the ice in Oakland, California, spinning and leaping their way to victory at the Ice Pairs Championship. The twist? They represented the CIS - the Commonwealth of Independent States - which was what remained after the Soviet Union broke apart just months earlier. While their homeland was changing forever, these talented athletes proved that some things, like perfect teamwork on ice, stay beautiful no matter what's happening in the world around them.",
-    "activity_question": "What did CIS stand for when Mishkutenok and Dmitriev won their championship?",
-    "activity_choices": [
-      "Commonwealth of Independent States",
-      "Central Ice Skating",
-      "California Ice Society",
-      "Champions in Skating"
-    ],
-    "activity_answer": "Commonwealth of Independent States",
-    "bonus_fact": "The CIS only lasted about one year as a competing nation in sports!",
-    "optional_type": "bonus_fact",
-    "categories": [
-      "Full Beast Mode"
-    ],
-    "suitable_for_8_to_12_year_old": true,
-    "score": 75
+    "score": 75,
+    "approved": true,
+    "bonus_fact": "What do you think private space companies might accomplish next?"
   },
   {
     "id": "106",
@@ -457,7 +420,9 @@
     "suitable_for_8_to_12_year_old": true,
     "follow_up_question": "What other invisible systems in nature help keep our planet healthy?",
     "optional_type": "follow_up_question",
-    "score": 75
+    "score": 75,
+    "approved": true,
+    "bonus_fact": "What other invisible systems in nature help keep our planet healthy?"
   },
   {
     "id": "113",
@@ -477,7 +442,9 @@
       "World Shakers & Icon Makers"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 75
+    "score": 75,
+    "approved": true,
+    "bonus_fact": "Why do you think they named the hall after Prince Albert?"
   },
   {
     "id": "118",
@@ -497,7 +464,8 @@
       "Full Beast Mode"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 75
+    "score": 75,
+    "approved": true
   },
   {
     "id": "128",
@@ -517,12 +485,13 @@
       "Full Beast Mode"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 75
+    "score": 75,
+    "approved": true
   },
   {
     "id": "159",
     "title": "Vikings Demand Paris Ransom!",
-    "story": "Viking longships filled the Seine River on March 29th, 845, as fierce warriors led by the legendary Ragnar Lodbrok attacked Paris! The Vikings weren't just raiding for treasure this time—they had a clever plan. After sacking the city and showing their strength, Ragnar made the French king an offer he couldn't refuse: pay us a massive ransom of silver, and we'll sail away peacefully. The terrified king agreed, handing over thousands of pounds of precious silver to make the Vikings leave. It worked perfectly, and Ragnar's crew sailed home rich and famous!",
+    "story": "Viking longships filled the Seine River on March 29th, 845, as fierce warriors led by the legendary Ragnar Lodbrok attacked Paris! The Vikings weren't just raiding for treasure this time\u2014they had a clever plan. After sacking the city and showing their strength, Ragnar made the French king an offer he couldn't refuse: pay us a massive ransom of silver, and we'll sail away peacefully. The terrified king agreed, handing over thousands of pounds of precious silver to make the Vikings leave. It worked perfectly, and Ragnar's crew sailed home rich and famous!",
     "activity_question": "What did Ragnar Lodbrok demand from the French king after attacking Paris?",
     "activity_choices": [
       "A huge ransom of silver",
@@ -537,7 +506,8 @@
       "History's Mic Drop Moments"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 75
+    "score": 75,
+    "approved": true
   },
   {
     "id": "191",
@@ -557,12 +527,13 @@
       "The What Zone"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 75
+    "score": 75,
+    "approved": true
   },
   {
     "id": "244",
     "title": "The Greatest Racehorse Ever Born",
-    "story": "March 29th, 1917 brought something special to a Kentucky horse farm — the birth of a colt who would become racing's biggest superstar. Man o' War was born that day at Nursery Stud, and this wasn't just any ordinary foal. He grew up to be so fast and powerful that people called him \"Big Red\" because of his massive size and reddish coat. In 1920, he won both the Preakness Stakes and Belmont Stakes, two of horse racing's most important races. He was so good that he only lost one race in his entire career!",
+    "story": "March 29th, 1917 brought something special to a Kentucky horse farm \u2014 the birth of a colt who would become racing's biggest superstar. Man o' War was born that day at Nursery Stud, and this wasn't just any ordinary foal. He grew up to be so fast and powerful that people called him \"Big Red\" because of his massive size and reddish coat. In 1920, he won both the Preakness Stakes and Belmont Stakes, two of horse racing's most important races. He was so good that he only lost one race in his entire career!",
     "activity_question": "What nickname did people give Man o' War because of his size and color?",
     "activity_choices": [
       "Big Red",
@@ -571,13 +542,14 @@
       "The Kentucky King"
     ],
     "activity_answer": "Big Red",
-    "bonus_fact": "Man o' War only lost one race out of 21 — and that was because of a bad start!",
+    "bonus_fact": "Man o' War only lost one race out of 21 \u2014 and that was because of a bad start!",
     "optional_type": "bonus_fact",
     "categories": [
       "Full Beast Mode"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 75
+    "score": 75,
+    "approved": true
   },
   {
     "id": "350",
@@ -597,7 +569,8 @@
       "Beyond Earth"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 75
+    "score": 75,
+    "approved": true
   },
   {
     "id": "28",
@@ -617,7 +590,8 @@
       "Full Beast Mode"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 70
+    "score": 70,
+    "approved": true
   },
   {
     "id": "38",
@@ -637,7 +611,8 @@
       "Full Beast Mode"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 70
+    "score": 70,
+    "approved": true
   },
   {
     "id": "41",
@@ -657,7 +632,8 @@
       "Full Beast Mode"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 70
+    "score": 70,
+    "approved": true
   },
   {
     "id": "81",
@@ -677,7 +653,9 @@
       "Full Beast Mode"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 70
+    "score": 70,
+    "approved": true,
+    "bonus_fact": "What other sports have championship tournaments that most people don't know about?"
   },
   {
     "id": "115",
@@ -697,7 +675,8 @@
     "bonus_fact": "Scott's diary was found eight months later, still frozen in the tent.",
     "optional_type": "bonus_fact",
     "suitable_for_8_to_12_year_old": true,
-    "score": 70
+    "score": 70,
+    "approved": true
   },
   {
     "id": "165",
@@ -717,7 +696,8 @@
       "Vibes, Beats & Brushes"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 70
+    "score": 70,
+    "approved": true
   },
   {
     "id": "330",
@@ -737,7 +717,8 @@
     "bonus_fact": "Kurt Thomas had a gymnastics move named after him - the \"Thomas Flair\" on pommel horse!",
     "optional_type": "bonus_fact",
     "suitable_for_8_to_12_year_old": true,
-    "score": 70
+    "score": 70,
+    "approved": true
   },
   {
     "id": "349",
@@ -757,7 +738,8 @@
       "Full Beast Mode"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 70
+    "score": 70,
+    "approved": true
   },
   {
     "id": "16",
@@ -777,12 +759,14 @@
       "History's Mic Drop Moments"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 65
+    "score": 65,
+    "approved": true,
+    "bonus_fact": "Why do you think it took so long for work rules to become equal for everyone?"
   },
   {
     "id": "31",
     "title": "Giant Mirror's Epic Road Trip",
-    "story": "A massive crowd of 10,000 people lined the streets of Indianapolis on this March day in 1936 to watch something incredible roll through their city. The biggest mirror blank ever made—a whopping 200 inches wide—was traveling by train to California to become the heart of a giant telescope. This wasn't just any piece of glass, but a 20-ton monster that would help scientists see farther into space than ever before!",
+    "story": "A massive crowd of 10,000 people lined the streets of Indianapolis on this March day in 1936 to watch something incredible roll through their city. The biggest mirror blank ever made\u2014a whopping 200 inches wide\u2014was traveling by train to California to become the heart of a giant telescope. This wasn't just any piece of glass, but a 20-ton monster that would help scientists see farther into space than ever before!",
     "activity_question": "How many people watched the giant mirror blank pass through Indianapolis?",
     "activity_choices": [
       "5,000 people",
@@ -797,7 +781,8 @@
       "Beyond Earth"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 65
+    "score": 65,
+    "approved": true
   },
   {
     "id": "70",
@@ -817,7 +802,8 @@
       "Vibes, Beats & Brushes"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 65
+    "score": 65,
+    "approved": true
   },
   {
     "id": "79",
@@ -837,12 +823,13 @@
       "Full Beast Mode"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 65
+    "score": 65,
+    "approved": true
   },
   {
     "id": "87",
     "title": "Mexico Buys Back Ancient Wonder",
-    "story": "The Mexican government made a huge deal on March 29th, 2010 — they bought back one of the world's most famous ancient cities! For years, the incredible Mayan ruins of Chichen Itza belonged to a private landowner, even though millions of tourists visited to see the amazing pyramid and ball courts. The state of Yucatán finally purchased this archaeological treasure, which includes the famous El Castillo pyramid that's over 1,000 years old. Now this Wonder of the World truly belongs to the people of Mexico again!",
+    "story": "The Mexican government made a huge deal on March 29th, 2010 \u2014 they bought back one of the world's most famous ancient cities! For years, the incredible Mayan ruins of Chichen Itza belonged to a private landowner, even though millions of tourists visited to see the amazing pyramid and ball courts. The state of Yucat\u00e1n finally purchased this archaeological treasure, which includes the famous El Castillo pyramid that's over 1,000 years old. Now this Wonder of the World truly belongs to the people of Mexico again!",
     "activity_question": "What famous ancient structure is located at Chichen Itza?",
     "activity_choices": [
       "El Castillo pyramid",
@@ -851,38 +838,41 @@
       "The Sphinx"
     ],
     "activity_answer": "El Castillo pyramid",
-    "bonus_fact": "Chichen Itza's pyramid has exactly 365 steps — one for each day of the year!",
+    "bonus_fact": "Chichen Itza's pyramid has exactly 365 steps \u2014 one for each day of the year!",
     "optional_type": "bonus_fact",
     "categories": [
       "History's Mic Drop Moments"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 65
+    "score": 65,
+    "approved": true
   },
   {
     "id": "96",
     "title": "Love Wins in the UK",
     "story": "March 29th, 2014 became a celebration day across the United Kingdom when something historic happened - the very first same-sex couples got married! This special day was possible because of a new law called The Marriage (Same Sex Couples) Act that passed in 2013. For the first time ever, couples who had been together for years could finally have the same wedding rights as everyone else. Many couples had waited decades for this moment, and when that Saturday morning arrived, they rushed to make it official with happy tears and big smiles.",
-    "activity_question": "What made March 29th, 2014 a historic day in the UK?",
+    "activity_question": "What made the marriages on March 29th, 2014, so historic in the UK?",
     "activity_choices": [
-      "The first same-sex couples could legally marry",
-      "A new queen was crowned",
-      "The first space mission launched",
-      "A new currency was introduced"
+      "It was the first time same-sex couples could legally marry",
+      "It was the first time weddings were broadcast on TV",
+      "A new rule let people get married without a license",
+      "Everyone had to wear top hats and dance into city hall"
     ],
-    "activity_answer": "The first same-sex couples could legally marry",
+    "activity_answer": "It was the first time same-sex couples could legally marry",
     "follow_up_question": "Why do you think it was important for couples to have equal marriage rights?",
     "optional_type": "follow_up_question",
     "categories": [
       "History's Mic Drop Moments"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 65
+    "score": 65,
+    "approved": true,
+    "bonus_fact": "Why do you think it was important for couples to have equal marriage rights?"
   },
   {
     "id": "130",
     "title": "The Redhead Who Shocked Basketball",
-    "story": "Dave Cowens proved that heart beats height when he grabbed the NBA's Most Valuable Player award on this date in 1973. The Boston Celtics center stood just 6'9\" — short for his position — but played like a giant among men. While other centers towered over him, Cowens used his fiery red hair and even fiercer determination to outwork everyone on the court, leading Boston to greatness and earning basketball's biggest individual honor.",
+    "story": "Dave Cowens proved that heart beats height when he grabbed the NBA's Most Valuable Player award on this date in 1973. The Boston Celtics center stood just 6'9\" \u2014 short for his position \u2014 but played like a giant among men. While other centers towered over him, Cowens used his fiery red hair and even fiercer determination to outwork everyone on the court, leading Boston to greatness and earning basketball's biggest individual honor.",
     "activity_question": "What made Dave Cowens unusual for an NBA center?",
     "activity_choices": [
       "He was shorter than most centers",
@@ -894,10 +884,11 @@
     "bonus_fact": "Cowens was known for his incredible hustle and diving for loose balls despite being a center.",
     "optional_type": "bonus_fact",
     "categories": [
-      "World Shakers & Icon Makers"
+      "Full Beast Mode"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 65
+    "score": 65,
+    "approved": true
   },
   {
     "id": "3",
@@ -917,7 +908,8 @@
       "History's Mic Drop Moments"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 60
+    "score": 60,
+    "approved": true
   },
   {
     "id": "6",
@@ -937,7 +929,8 @@
       "History's Mic Drop Moments"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 60
+    "score": 60,
+    "approved": true
   },
   {
     "id": "10",
@@ -957,7 +950,8 @@
       "History's Mic Drop Moments"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 60
+    "score": 60,
+    "approved": true
   },
   {
     "id": "72",
@@ -977,7 +971,9 @@
       "History's Mic Drop Moments"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 60
+    "score": 60,
+    "approved": true,
+    "bonus_fact": "Why do you think the Soviet Union finally decided to let their players join the NHL?"
   },
   {
     "id": "78",
@@ -997,7 +993,8 @@
       "Vibes, Beats & Brushes"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 60
+    "score": 60,
+    "approved": true
   },
   {
     "id": "83",
@@ -1017,27 +1014,8 @@
       "Big Brain Energy"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 60
-  },
-  {
-    "id": "325",
-    "title": "The Cuban Boxing Legend's Birthday",
-    "story": "March 29th, 1952 marked the birth of a future boxing superstar in Puerto Padre, Cuba. Teofilo Stevenson was born that day and would grow up to become one of the greatest amateur boxers ever. This heavyweight champion did something almost impossible - he won Olympic gold medals three times in a row! Stevenson claimed the top prize at the 1972, 1976, and 1980 Olympics, making him a legend in the boxing world and a hero in Cuba.",
-    "activity_question": "How many Olympic gold medals did Teofilo Stevenson win in boxing?",
-    "activity_choices": [
-      "Two",
-      "Three",
-      "Four",
-      "He won silver, not gold"
-    ],
-    "activity_answer": "Three",
-    "bonus_fact": "Stevenson turned down millions of dollars to stay an amateur boxer in Cuba.",
-    "optional_type": "bonus_fact",
-    "categories": [
-      "World Shakers & Icon Makers"
-    ],
-    "suitable_for_8_to_12_year_old": true,
-    "score": 60
+    "score": 60,
+    "approved": true
   },
   {
     "id": "329",
@@ -1052,32 +1030,13 @@
     ],
     "activity_answer": "The Tyler Rose",
     "categories": [
-      "World Shakers & Icon Makers"
+      "Full Beast Mode"
     ],
     "bonus_fact": "Campbell was so tough that defenders often got hurt trying to tackle him!",
     "optional_type": "bonus_fact",
     "suitable_for_8_to_12_year_old": true,
-    "score": 60
-  },
-  {
-    "id": "5",
-    "title": "Sweden's Surprise American Colony",
-    "story": "Swedish explorers sailed across the Atlantic Ocean and built Fort Christina on March 29th, 1638, creating Delaware's very first permanent white settlement! These brave Swedish Lutherans chose a spot along the Delaware River that would later become the city of Wilmington. It was pretty bold for Sweden to start a colony so far from home, competing with bigger countries like England and Spain for land in the New World.",
-    "activity_question": "What country founded Fort Christina in 1638?",
-    "activity_choices": [
-      "Sweden",
-      "England",
-      "Spain",
-      "France"
-    ],
-    "activity_answer": "Sweden",
-    "bonus_fact": "The Swedish colony was called New Sweden and lasted about 17 years.",
-    "optional_type": "bonus_fact",
-    "categories": [
-      "History's Mic Drop Moments"
-    ],
-    "suitable_for_8_to_12_year_old": true,
-    "score": 55
+    "score": 60,
+    "approved": true
   },
   {
     "id": "43",
@@ -1094,30 +1053,11 @@
     "bonus_fact": "Knorosov never visited a Maya site but worked from books in a library!",
     "optional_type": "bonus_fact",
     "categories": [
-      "Big Brain Energy"
-    ],
-    "suitable_for_8_to_12_year_old": true,
-    "score": 55
-  },
-  {
-    "id": "65",
-    "title": "Cricket's Closest Call Ever",
-    "story": "March 29th, 1982 delivered one of cricket's most nail-biting finishes ever! In India's biggest cricket tournament, the Ranji Trophy, two teams battled it out with incredible skill. Delhi scored 707 runs in their first innings, while Karnataka managed 705 runs. Just two runs separated victory from defeat! Delhi won the championship by the tiniest possible margin, proving that in cricket, every single run counts.",
-    "activity_question": "By how many runs did Delhi beat Karnataka to win the 1982 Ranji Trophy?",
-    "activity_choices": [
-      "2 runs",
-      "10 runs",
-      "50 runs",
-      "100 runs"
-    ],
-    "activity_answer": "2 runs",
-    "bonus_fact": "The Ranji Trophy is named after a famous Indian prince who played cricket for England!",
-    "optional_type": "bonus_fact",
-    "categories": [
       "The What Zone"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 55
+    "score": 55,
+    "approved": true
   },
   {
     "id": "86",
@@ -1137,7 +1077,9 @@
       "History's Mic Drop Moments"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 55
+    "score": 55,
+    "approved": true,
+    "bonus_fact": "Why do you think other countries followed Ireland's example?"
   },
   {
     "id": "110",
@@ -1157,7 +1099,8 @@
       "Vibes, Beats & Brushes"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 55
+    "score": 55,
+    "approved": true
   },
   {
     "id": "117",
@@ -1177,7 +1120,8 @@
       "Vibes, Beats & Brushes"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 55
+    "score": 55,
+    "approved": true
   },
   {
     "id": "185",
@@ -1194,10 +1138,11 @@
     "bonus_fact": "Drake's well was only 69 feet deep, but it launched a billion-dollar industry!",
     "optional_type": "bonus_fact",
     "categories": [
-      "History's Mic Drop Moments"
+      "Big Brain Energy"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 55
+    "score": 55,
+    "approved": true
   },
   {
     "id": "247",
@@ -1217,7 +1162,8 @@
       "Vibes, Beats & Brushes"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 55
+    "score": 55,
+    "approved": true
   },
   {
     "id": "293",
@@ -1237,7 +1183,8 @@
       "Beyond Earth"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 55
+    "score": 55,
+    "approved": true
   },
   {
     "id": "340",
@@ -1257,7 +1204,8 @@
       "Vibes, Beats & Brushes"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 55
+    "score": 55,
+    "approved": true
   },
   {
     "id": "352",
@@ -1277,7 +1225,8 @@
       "Vibes, Beats & Brushes"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 55
+    "score": 55,
+    "approved": true
   },
   {
     "id": "17",
@@ -1297,7 +1246,9 @@
       "History's Mic Drop Moments"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 50
+    "score": 50,
+    "approved": true,
+    "bonus_fact": "Why do you think countries sometimes give territory back to other nations?"
   },
   {
     "id": "27",
@@ -1317,27 +1268,9 @@
     "follow_up_question": "What subjects would you want to study together that don't usually go together?",
     "optional_type": "follow_up_question",
     "suitable_for_8_to_12_year_old": true,
-    "score": 50
-  },
-  {
-    "id": "39",
-    "title": "Cricket's Ultimate Bowling Masterclass",
-    "story": "March 29th, 1946 became one of cricket's most lopsided days when Australia demolished New Zealand for just 42 runs in Wellington. Bill O'Reilly and Ernie Toshack bowled like magicians, taking nine wickets between them and leaving the Kiwis stunned. This match also marked the debut of three future Australian legends who would dominate cricket for years to come.",
-    "activity_question": "How many runs did New Zealand score in their disastrous innings?",
-    "activity_choices": [
-      "42 runs",
-      "84 runs",
-      "21 runs",
-      "103 runs"
-    ],
-    "activity_answer": "42 runs",
-    "categories": [
-      "History's Mic Drop Moments"
-    ],
-    "bonus_fact": "This remains one of the lowest Test cricket scores ever recorded in international play.",
-    "optional_type": "bonus_fact",
-    "suitable_for_8_to_12_year_old": true,
-    "score": 50
+    "score": 50,
+    "approved": true,
+    "bonus_fact": "What subjects would you want to study together that don't usually go together?"
   },
   {
     "id": "40",
@@ -1357,12 +1290,13 @@
       "History's Mic Drop Moments"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 50
+    "score": 50,
+    "approved": true
   },
   {
     "id": "265",
     "title": "The Gymnast Who Made History",
-    "story": "Olga Tass was born in Pécs, Hungary on this date in 1929, and she would grow up to become one of the most amazing gymnasts ever! In 1956, she helped her Hungarian team win Olympic gold in something called \"team portable apparatus\" - a gymnastics event that doesn't even exist anymore. This special competition used equipment that could be moved around, making it totally different from today's gymnastics.",
+    "story": "Olga Tass was born in P\u00e9cs, Hungary on this date in 1929, and she would grow up to become one of the most amazing gymnasts ever! In 1956, she helped her Hungarian team win Olympic gold in something called \"team portable apparatus\" - a gymnastics event that doesn't even exist anymore. This special competition used equipment that could be moved around, making it totally different from today's gymnastics.",
     "activity_question": "What year was Olga Tass born?",
     "activity_choices": [
       "1929",
@@ -1377,7 +1311,8 @@
       "World Shakers & Icon Makers"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 50
+    "score": 50,
+    "approved": true
   },
   {
     "id": "337",
@@ -1397,32 +1332,14 @@
       "Vibes, Beats & Brushes"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 50
-  },
-  {
-    "id": "11",
-    "title": "Vienna's Biggest Goodbye Ever",
-    "story": "Vienna had never seen anything like it when Ludwig van Beethoven died on March 26th, 1827. Three days later, 20,000 people crowded the streets for his funeral — that's like filling a huge stadium! Even though Beethoven was completely deaf by then, his music had touched so many hearts that the entire city came to say goodbye to their beloved composer.",
-    "activity_question": "How many people attended Beethoven's funeral in Vienna?",
-    "activity_choices": [
-      "5,000 people",
-      "20,000 people",
-      "50,000 people",
-      "100,000 people"
-    ],
-    "activity_answer": "20,000 people",
-    "bonus_fact": "Beethoven wrote his most famous symphonies after he went completely deaf.",
-    "optional_type": "bonus_fact",
-    "categories": [
-      "Vibes, Beats & Brushes"
-    ],
-    "suitable_for_8_to_12_year_old": true,
-    "score": 45
+    "score": 50,
+    "approved": true,
+    "bonus_fact": "Why do you think some musicians choose to change their names when they become famous?"
   },
   {
     "id": "174",
     "title": "The Sea Captain Who Saved Children",
-    "story": "Thomas Coram sailed the seas as a ship captain, but his biggest adventure happened on land. Born in Lyme Regis on this very date back in 1668, he would grow up to become something amazing — a hero for children who had nowhere to go. Coram founded the Foundling Hospital, a safe place for kids without families.",
+    "story": "Thomas Coram sailed the seas as a ship captain, but his biggest adventure happened on land. Born in Lyme Regis on this very date back in 1668, he would grow up to become something amazing \u2014 a hero for children who had nowhere to go. Coram founded the Foundling Hospital, a safe place for kids without families.",
     "activity_question": "What did Thomas Coram create to help children?",
     "activity_choices": [
       "The Foundling Hospital",
@@ -1437,13 +1354,14 @@
       "World Shakers & Icon Makers"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 45
+    "score": 45,
+    "approved": true
   },
   {
     "id": "321",
     "title": "The Kora Master's Musical Magic",
-    "story": "A baby boy named Mory Kanté was born on this day in 1950 in a small village in French Guinea, Africa. He would grow up to become famous around the world for playing the kora, a beautiful harp-like instrument with 21 strings. His biggest hit song was called \"Yé ké yé ké,\" which means \"it's all good\" in his language!",
-    "activity_question": "What instrument did Mory Kanté become famous for playing?",
+    "story": "A baby boy named Mory Kant\u00e9 was born on this day in 1950 in a small village in French Guinea, Africa. He would grow up to become famous around the world for playing the kora, a beautiful harp-like instrument with 21 strings. His biggest hit song was called \"Y\u00e9 k\u00e9 y\u00e9 k\u00e9,\" which means \"it's all good\" in his language!",
+    "activity_question": "What instrument did Mory Kant\u00e9 become famous for playing?",
     "activity_choices": [
       "Piano",
       "Kora harp",
@@ -1457,7 +1375,8 @@
       "Vibes, Beats & Brushes"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 45
+    "score": 45,
+    "approved": true
   },
   {
     "id": "269",
@@ -1477,6 +1396,7 @@
     "bonus_fact": "Kusama once covered a entire room with mirrors and polka dot lights!",
     "optional_type": "bonus_fact",
     "suitable_for_8_to_12_year_old": true,
-    "score": 40
+    "score": 40,
+    "approved": true
   }
 ]

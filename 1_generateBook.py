@@ -5,7 +5,7 @@ import json
 import logging
 from io import BytesIO
 from PyPDF2 import PdfReader
-from reportlab.lib.pagesizes import letter
+from reportlab.lib.units import inch
 from reportlab.platypus import (
     BaseDocTemplate, Frame, PageTemplate,
     Paragraph, Spacer, PageBreak, Table, TableStyle, KeepTogether
@@ -23,11 +23,21 @@ from reportlab.pdfbase.pdfmetrics import registerFontFamily
 from reportlab.lib.units import cm
 import fitz  # PyMuPDF
 from PIL import Image
-from reportlab.lib.pagesizes import letter 
+from reportlab.lib.colors import Color
+from reportlab.lib.units import inch
 
 print("CWD:", os.getcwd())
 
+TRIM_W_IN, TRIM_H_IN = 6.0, 9.0        # your actual book size
+BLEED_IN = 0.125                       # KDP bleed per side
+BLEED_PT = BLEED_IN * inch
 
+PAGE_W = (TRIM_W_IN + 2*BLEED_IN) * inch
+PAGE_H = (TRIM_H_IN + 2*BLEED_IN) * inch
+
+# Use the full bleed page size for the document
+custom_page_size = (PAGE_W, PAGE_H)
+custom_blue = Color(13/255, 78/255, 111/255)
 
 def draw_cloud_shape_background(canvas, doc, alpha=0.88, scale=1.0):
     from reportlab.lib.units import cm
@@ -92,7 +102,7 @@ class TransparentBox(Flowable):
         self.style = style
         self.padding = padding
         self.alpha = alpha
-        self.width = width if width is not None else 450
+        self.width = width if width is not None else 350
         self.height = height
         self.inner_spacing = 0 if inner_spacing is None else inner_spacing  # ✅ Add this
         self.border = border
@@ -134,7 +144,7 @@ class TransparentBox(Flowable):
         # ✅ Add border if requested
         if getattr(self, "border", False):
             self.canv.setStrokeColor(colors.black)
-            self.canv.setLineWidth(3)
+            self.canv.setLineWidth(2)
             self.canv.rect(x, 0, self.eff_width, self.eff_height, fill=1, stroke=1)
         else:
             self.canv.rect(x, 0, self.eff_width, self.eff_height, fill=1, stroke=0)
@@ -230,27 +240,31 @@ final_categories_dict = {}  # For category-to-fact-id export
 
 class MyDocTemplate(BaseDocTemplate):
     def __init__(self, filename, **kwargs):
+        # Make sure you're building with pagesize=custom_page_size where you instantiate this doc
         super().__init__(filename, **kwargs)
-        self._page_tracker = {}  # Tracks where each category starts
+
+        self._page_tracker = {}       # Tracks where each category starts
         self._background_ranges = []  # Stores start-end ranges with ImageReader backgrounds
-        self._page_usage = {}  # Tracks used vertical space per page
+        self._page_usage = {}         # Tracks used vertical space per page
         self._current_y_position = 0
 
+        # Keep your original inside-trim margins the same (0.5")
+        margin_in = 0.5
+        margin_pt = margin_in * inch
 
-
-        margin_size = 0.5
+        EXTRA_BOTTOM = 50  # points — stop text 20pts higher
 
         frame = Frame(
-            self.leftMargin + margin_size,          # move right from left edge
-            self.bottomMargin + margin_size,        # move up from bottom edge
-            self.width - 2 * margin_size,           # shrink width by left+right margins
-            self.height - 2 * margin_size,          # shrink height by top+bottom margins
+            x1=BLEED_PT + margin_pt,
+            y1=BLEED_PT + margin_pt - 10 + EXTRA_BOTTOM,  # move bottom UP by 20
+            width=(PAGE_W - 2*BLEED_PT) - 2*margin_pt,
+            height=(PAGE_H - 2*BLEED_PT) - 2*margin_pt - 10 - EXTRA_BOTTOM,  # shrink by 20
             id='normal'
         )
-
         template = PageTemplate(id='Content', frames=[frame], onPage=self.draw_background)
         self.addPageTemplates([template])
-
+        template = PageTemplate(id='Content', frames=[frame], onPage=self.draw_background)
+        self.addPageTemplates([template])
 
     def afterFlowable(self, flowable):
         super().afterFlowable(flowable)
@@ -262,22 +276,24 @@ class MyDocTemplate(BaseDocTemplate):
             elif text.startswith("__TRIVIA_START__") and text not in self._page_tracker:
                 self._page_tracker[text] = self.page
             elif text in (
-                "__TOC_PAGE__", "__TOC_END__", "__INTRO_PAGE__", "__COVER_PAGE__", "__TODAYS_VIBE_CHECK__"
+                "__TOC_PAGE__", "__TOC_END__", "__INTRO_PAGE__", "__COVER_PAGE__", "__TODAYS_VIBE_CHECK__", "__ANSWERS_START__"
             ):
                 self._page_tracker[text] = self.page
 
 
 
 
+    # ===== BACKGROUNDS =====
+    # Your draw_background already draws to full page; keep it that way:
     def draw_background(self, canvas, doc):
         current_page = canvas.getPageNumber()
         canvas.saveState()
 
-        # Always clear background
+        # Clear full page INCLUDING BLEED
         canvas.setFillColorRGB(1, 1, 1)
         canvas.rect(0, 0, doc.pagesize[0], doc.pagesize[1], fill=1, stroke=0)
 
-        # Pick background range if one matches
+        # Draw background images full-page (0,0 to PAGE_W,PAGE_H)
         bg_range = None
         for bg in self._background_ranges:
             if bg["start"] <= current_page <= bg["end"]:
@@ -290,6 +306,7 @@ class MyDocTemplate(BaseDocTemplate):
                 if not img and "image_path" in bg_range:
                     from reportlab.lib.utils import ImageReader
                     img = ImageReader(bg_range["image_path"])
+                # Full-page draw = extends to bleed
                 canvas.drawImage(img, 0, 0, width=doc.pagesize[0], height=doc.pagesize[1])
             except Exception as e:
                 logging.warning(f"❌ Page {current_page}: Failed to draw background → {e}")
@@ -297,7 +314,7 @@ class MyDocTemplate(BaseDocTemplate):
         canvas.restoreState()
         self.add_page_number(canvas, doc)
 
-
+    # ===== PAGE NUMBERS (keep inside trim) =====
     def add_page_number(self, canvas, doc):
         page_num = canvas.getPageNumber()
         if page_num >= 3:
@@ -305,12 +322,18 @@ class MyDocTemplate(BaseDocTemplate):
             canvas.setFillColorRGB(1, 1, 1)
             text = f"Page {page_num}"
 
+            # Safe zone inside trim
+            top_y = doc.pagesize[1] - BLEED_PT - 30  # 20pt down from top trim
+            left_x = BLEED_PT + 28
+            right_x = (doc.pagesize[0] - BLEED_PT) - 28
+
             if page_num % 2 == 0:
-                # Even pages: left-aligned
-                canvas.drawString(28, 770, text)
+                # even pages = left corner
+                canvas.drawString(left_x, top_y, text)
             else:
-                # Odd pages: right-aligned
-                canvas.drawRightString(595, 770, text)
+                # odd pages = right corner
+                canvas.drawRightString(right_x, top_y, text)
+
 
 # before
 #             if page_num % 2 == 0:
@@ -331,7 +354,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
 
     # ✅ Insert only the hidden marker and a page break — no visible content
     elements += [
-        Paragraph("__COVER_PAGE__", ParagraphStyle("HiddenCoverMarker", fontSize=1, textColor=colors.white)),
+        Paragraph("__COVER_PAGE__", ParagraphStyle("HiddenCoverMarker", fontSize=0, textColor=colors.white)),
         PageBreak()
     ]
     
@@ -351,19 +374,18 @@ def build_elements(facts, styles, date_str, category_pages=None):
 
     elements.append(Paragraph(
         "__INTRO_PAGE__",
-        ParagraphStyle("HiddenIntroMarker", fontSize=1, textColor=colors.white)
+        ParagraphStyle("HiddenIntroMarker", fontSize=0, textColor=colors.white)
     ))
     elements += [
         TransparentBox("Before we begin!", styles['intro_header'], alpha=0.85),
-        Spacer(1, 12),
         TransparentBox(intro_text.strip(), styles['intro'], alpha=0.85)
     ]
 
     if category_pages:
-        elements.append(PageBreak())
+        # elements.append(PageBreak())
         elements.append(Paragraph(
             "__TOC_PAGE__",
-            ParagraphStyle("HiddenTOCMarker", fontSize=1, textColor=colors.grey)
+            ParagraphStyle("HiddenTOCMarker", fontSize=0, textColor=colors.grey)
         ))
         elements.append(Spacer(1, 12))
 
@@ -381,7 +403,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
             for cat, pg in filtered_category_pages
         ]
 
-        table = Table(toc_data, colWidths=[380, 40], hAlign='LEFT')
+        table = Table(toc_data, colWidths=[300, 20], hAlign='LEFT')
         table.setStyle(TableStyle([
             ('ALIGN', (0, 0), (-1, -1), 'LEFT'),
             ('FONTNAME', (0, 0), (-1, -1), 'DejaVu'),
@@ -398,7 +420,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
             TransparentBox("<para align='center'><b>Table of Contents</b></para>", styles['toc_title'], alpha=0.85),
             
             # Hidden marker before the table
-            Paragraph("__TOC_PAGE__", ParagraphStyle("HiddenTOCMarker", fontSize=1, textColor=colors.grey)),
+            Paragraph("__TOC_PAGE__", ParagraphStyle("HiddenTOCMarker", fontSize=0, textColor=colors.grey)),
 
             Spacer(1, 12),
 
@@ -406,20 +428,21 @@ def build_elements(facts, styles, date_str, category_pages=None):
             TransparentBox(table, styles['story'], alpha=0.85),
 
             # Hidden end marker
-            Paragraph("__TOC_END__", ParagraphStyle("HiddenTOCEndMarker", fontSize=1, textColor=colors.white)),
+            Paragraph("__TOC_END__", ParagraphStyle("HiddenTOCEndMarker", fontSize=0, textColor=colors.white)),
         ])
 
 
         elements.append(toc_block)
     
+    
     # 🌤️ Today's Vibe Check Section
-    elements.append(Paragraph(
-        "__TODAYS_VIBE_CHECK__",
-        ParagraphStyle("HiddenVibeMarker", fontSize=1, textColor=colors.white)
-    ))
+    # elements.append(Paragraph(
+    #     "__TODAYS_VIBE_CHECK__",
+    #     ParagraphStyle("HiddenVibeMarker", fontSize=1, textColor=colors.white)
+    # ))
 
     # Estimate vertical space like category headers
-    page_height = letter[1]
+    page_height = custom_page_size[1]
     estimated_content_height = 180
     spacer_height = max(0, (page_height - estimated_content_height) / 2 - 50)
 
@@ -456,7 +479,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
         for fact in vibe_facts:
             if fact.get("kid_friendly", False):
                 fact_block = KeepTogether([
-                    TransparentBox(f"• {fact['fact']}", styles['story'], alpha=0.85),
+                    TransparentBox(f"{fact['fact']}", styles['story'], alpha=0.85),
                     # Spacer(1, 10)
                 ])
                 elements.append(fact_block)
@@ -651,7 +674,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
 
 
         # Add dynamic vertical centering
-        page_height = letter[1]
+        page_height = custom_page_size[1]
         estimated_content_height = 180  # adjust this if your text is taller
         spacer_height = max(0, (page_height - estimated_content_height) / 2 - 50)
 
@@ -672,7 +695,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
 
         # Add centered trivia intro block
         estimated_content_height = 180
-        spacer_height = max(0, (letter[1] - estimated_content_height) / 2 - 50)
+        spacer_height = max(0, (custom_page_size[1] - estimated_content_height) / 2 - 50)
         elements.append(Spacer(1, spacer_height))
 
         # Trivia intro inside TransparentBoxes
@@ -691,7 +714,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
         # Trivia marker (kept outside the box for parsing accuracy)
         elements.append(Paragraph(
             f"__TRIVIA_START__{category}",
-            ParagraphStyle("HiddenTriviaMarker", fontSize=1, textColor=colors.white)
+            ParagraphStyle("HiddenTriviaMarker", fontSize=0, textColor=custom_blue)
         ))
         elements.append(PageBreak())
 
@@ -718,10 +741,10 @@ def build_elements(facts, styles, date_str, category_pages=None):
                 if len(grid[-1]) == 1:
                     grid[-1].append("")
 
-                table = Table(grid, colWidths=[210, 210])
+                table = Table(grid, colWidths=[160, 160])
                 table.setStyle(TableStyle([
-                    ('LEFTPADDING', (0, 0), (-1, -1), 10),
-                    ('RIGHTPADDING', (0, 0), (-1, -1), 10),
+                    ('LEFTPADDING', (0, 0), (-1, -1), 6),
+                    ('RIGHTPADDING', (0, 0), (-1, -1), 6),
                     ('TOPPADDING', (0, 0), (-1, -1), 6),
                     ('BOTTOMPADDING', (0, 0), (-1, -1), 6),
                     ('VALIGN', (0, 0), (-1, -1), 'TOP'),
@@ -766,7 +789,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
                 original_width, original_height = img_reader.getSize()
 
                 # Fixed height
-                fixed_height = 430
+                fixed_height = 250
                 aspect_ratio = original_width / original_height
                 new_width = fixed_height * aspect_ratio
 
@@ -803,7 +826,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
                         table_data[-1] += [""] * (row_length - len(table_data[-1]))
 
                     # Create table
-                    word_table = Table(table_data, colWidths=450 // row_length)
+                    word_table = Table(table_data, colWidths=350 // row_length)
                     word_table.setStyle(TableStyle([
                         ('FONTNAME', (0, 0), (-1, -1), 'Baloo2'),
                         ('FONTSIZE', (0, 0), (-1, -1), 11),
@@ -819,8 +842,8 @@ def build_elements(facts, styles, date_str, category_pages=None):
                     word_block = FixedBottomTransparentBox(
                         word_table,
                         styles['wordsearch'],
-                        page_height=letter[1],
-                        width=450,
+                        page_height=custom_page_size[1],
+                        width=350,
                         padding=10,
                         alpha=0.85,
                         border=True
@@ -835,7 +858,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
             elements.append(Paragraph("Word list file is missing!", styles['story']))
 
         # ➕ Grid Gauntlet Page
-        # elements.append(PageBreak())
+        elements.append(PageBreak())
 
         # Title and intro
         elements.append(TransparentBox("Grid Gauntlet", styles['cat_title'], alpha=0.85))
@@ -858,7 +881,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
                 img_reader = ImageReader(crossword_path)
                 original_width, original_height = img_reader.getSize()
 
-                fixed_height = 250  # 👈 your new constant height
+                fixed_height = 180  # 👈 your new constant height
                 aspect_ratio = original_width / original_height  # 👈 note: width over height
                 new_width = fixed_height * aspect_ratio
 
@@ -910,12 +933,12 @@ def build_elements(facts, styles, date_str, category_pages=None):
             # Build 2-column table with two vertical stacks (each a list of flowables)
             clue_table = Table(
                 [[across_paragraphs, down_paragraphs]],
-                colWidths=[220, 220]
+                colWidths=[170, 170]
             )
             clue_table.setStyle(TableStyle([
                 ('VALIGN', (0, 0), (-1, -1), 'TOP'),
-                ('LEFTPADDING', (0, 0), (-1, -1), 10),
-                ('RIGHTPADDING', (0, 0), (-1, -1), 10),
+                ('LEFTPADDING', (0, 0), (-1, -1), 5),
+                ('RIGHTPADDING', (0, 0), (-1, -1), 5),
                 ('TOPPADDING', (0, 0), (-1, -1), 1),
                 ('BOTTOMPADDING', (0, 0), (-1, -1), 1),
             ]))
@@ -923,8 +946,8 @@ def build_elements(facts, styles, date_str, category_pages=None):
             elements.append(FixedBottomTransparentBox(
                 clue_table,
                 styles['crossword'],
-                page_height=letter[1],
-                width=450,
+                page_height=custom_page_size[1],
+                width=350,
                 padding=12,
                 alpha=0.85,
                 border=True
@@ -954,7 +977,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
         # ✅ Insert image immediately after title/description
         image_path = os.path.join("pictures", f"{CATEGORY_BACKGROUNDS.get(category, '').lower()}.png")
         if os.path.exists(image_path):
-            elements.append(RLImage(image_path, width=400, height=300))
+            elements.append(RLImage(image_path, width=460, height=300))
             elements.append(Spacer(1, 20))
 
 
@@ -975,11 +998,20 @@ def build_elements(facts, styles, date_str, category_pages=None):
     }
 
     if global_answers:
+        # Hidden marker for background computation
+        elements.append(PageBreak())
+        elements.append(Paragraph(
+            "__ANSWERS_START__",
+            ParagraphStyle("HiddenAnswersMarker", fontSize=0, textColor=custom_blue)
+        ))
+
+        # Title page → leave blank so only the background shows
         elements.append(PageBreak())
 
+        # Questions page (content header)
         elements.append(
             TransparentBox(
-                Paragraph("Answers", styles['cat_title']),
+                Paragraph("Questions", styles['cat_title']),
                 styles['story'],
                 alpha=0.85
             )
@@ -995,7 +1027,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
             alpha=0.85,
             padding=4,
             inner_spacing=0,
-            width=450  # keep default width to avoid extra wrapping
+            width=350  # keep default width to avoid extra wrapping
         )
         # 🔽 Horizontally offset the box inward by 45 pts (~0.6 inch)
         box.drawOn = lambda canvas, x, y, _sW=0, box=box: TransparentBox.drawOn(
@@ -1007,6 +1039,8 @@ def build_elements(facts, styles, date_str, category_pages=None):
     if category_pages:
         elements.append(PageBreak())
         elements.append(TransparentBox("🧩 Letter Quest Answers", styles['cat_title'], alpha=0.85))
+        elements.append(Spacer(1, 12))
+        elements.append(Spacer(1, 12))
 
         grid_cells = []
 
@@ -1028,7 +1062,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
                 original_width, original_height = img_reader.getSize()
 
                 # Resize for 2x2 layout
-                fixed_height = 230
+                fixed_height = 150
                 aspect_ratio = original_width / original_height
                 new_width = fixed_height * aspect_ratio
 
@@ -1066,7 +1100,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
 
             table = Table(
                 page_table_data,
-                colWidths=[270, 270],
+                colWidths=[175, 175],
                 rowHeights=None,
                 hAlign='CENTER'
             )
@@ -1086,6 +1120,8 @@ def build_elements(facts, styles, date_str, category_pages=None):
         # ➕ Grid Gauntlet Answers Section (2x2 Grid Layout)
         elements.append(PageBreak())
         elements.append(TransparentBox("🧠 Grid Gauntlet Answers", styles['cat_title'], alpha=0.85))
+        elements.append(Spacer(1, 12))
+        elements.append(Spacer(1, 12))
 
         gridgauntlet_cells = []
 
@@ -1106,7 +1142,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
                 img_reader = ImageReader(answer_image_path)
                 original_width, original_height = img_reader.getSize()
 
-                max_cell_width = 250  # max width per image cell
+                max_cell_width = 160  # max width per image cell
                 aspect_ratio = original_height / original_width
                 new_height = max_cell_width * aspect_ratio
 
@@ -1142,7 +1178,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
 
             table = Table(
                 table_data,
-                colWidths=[270, 270],
+                colWidths=[175, 175],
                 hAlign='CENTER'
             )
             table.setStyle(TableStyle([
@@ -1157,6 +1193,24 @@ def build_elements(facts, styles, date_str, category_pages=None):
 
             elements.append(Spacer(1, 12))
             elements.append(table)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1194,7 +1248,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
     #         try:
     #             img_reader = ImageReader(image_path)
     #             original_width, original_height = img_reader.getSize()
-    #             fixed_height = 430
+    #             fixed_height = 280
     #             aspect_ratio = original_width / original_height
     #             new_width = fixed_height * aspect_ratio
 
@@ -1219,7 +1273,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
     #         if len(table_data[-1]) < row_length:
     #             table_data[-1] += [""] * (row_length - len(table_data[-1]))  # pad last row
 
-    #         word_table = Table(table_data, colWidths=450 // row_length)
+    #         word_table = Table(table_data, colWidths=350 // row_length)
     #         word_table.setStyle(TableStyle([
     #             ('FONTNAME', (0, 0), (-1, -1), 'Baloo2'),
     #             ('FONTSIZE', (0, 0), (-1, -1), 11),
@@ -1234,8 +1288,8 @@ def build_elements(facts, styles, date_str, category_pages=None):
     #         word_block = FixedBottomTransparentBox(
     #             word_table,
     #             styles['wordsearch'],
-    #             page_height=letter[1],
-    #             width=450,
+    #             page_height=custom_page_size[1],
+    #             width=350,
     #             padding=10,
     #             alpha=0.85,
     #             border=True
@@ -1277,7 +1331,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
     #             img_reader = ImageReader(crossword_path)
     #             original_width, original_height = img_reader.getSize()
                 
-    #             fixed_height = 250  # 👈 fixed height
+    #             fixed_height = 180  # 👈 fixed height
     #             aspect_ratio = original_width / original_height  # width / height
     #             new_width = fixed_height * aspect_ratio
 
@@ -1310,12 +1364,12 @@ def build_elements(facts, styles, date_str, category_pages=None):
     #         # Build 2-column table with two vertical stacks (each a list of flowables)
     #         clue_table = Table(
     #             [[across_paragraphs, down_paragraphs]],
-    #             colWidths=[220, 220]
+    #             colWidths=[170, 170]
     #         )
     #         clue_table.setStyle(TableStyle([
     #             ('VALIGN', (0, 0), (-1, -1), 'TOP'),
-    #             ('LEFTPADDING', (0, 0), (-1, -1), 10),
-    #             ('RIGHTPADDING', (0, 0), (-1, -1), 10),
+    #             ('LEFTPADDING', (0, 0), (-1, -1), 5),
+    #             ('RIGHTPADDING', (0, 0), (-1, -1), 5),
     #             ('TOPPADDING', (0, 0), (-1, -1), 1),
     #             ('BOTTOMPADDING', (0, 0), (-1, -1), 1),
     #         ]))
@@ -1323,8 +1377,8 @@ def build_elements(facts, styles, date_str, category_pages=None):
     #         elements.append(FixedBottomTransparentBox(
     #             clue_table,
     #             styles['crossword'],
-    #             page_height=letter[1],
-    #             width=450,
+    #             page_height=custom_page_size[1],
+    #             width=350,
     #             padding=12,
     #             alpha=0.85,
     #             border=True
@@ -1358,8 +1412,8 @@ def compute_background_ranges(page_tracker, category_backgrounds):
     skip_until = None
 
     for i, (label, start_page) in enumerate(sorted_pages):
-        # ✅ Skip anything that falls inside the TOC range
-        if skip_until is not None and start_page <= skip_until:
+        # ✅ Skip anything that falls inside the TOC range — except Vibe Check
+        if skip_until is not None and start_page <= skip_until and label != "__TODAYS_VIBE_CHECK__":
             logging.debug(f"⏭️ Skipping label '{label}' at page {start_page} (within TOC range ending {skip_until})")
             continue
 
@@ -1388,20 +1442,42 @@ def compute_background_ranges(page_tracker, category_backgrounds):
             continue
 
         elif label == "__TOC_PAGE__":
-            end_page = page_tracker.get("__TOC_END__", start_page)
+            start = start_page
+            end = start  # TOC is one page
             toc_path = os.path.join("backgrounds", "table_of_contents.png")
             if os.path.exists(toc_path):
-                temp_ranges.append((start_page, end_page, toc_path, "toc"))
-                logging.info(f"🧭 TOC range added: pages {start_page}–{end_page}")
+                temp_ranges.append((start, end, toc_path, "toc"))
+                logging.info(f"🧭 TOC background applied to page {start}")
             else:
                 logging.warning(f"🚫 TOC image missing at: {toc_path}")
-            skip_until = end_page
+
+            # Pre-apply Vibe *title* background to the next page (e.g., page 4)
+            vibe_check_page = start + 1
+            vibe_path = os.path.join("backgrounds", "todays_vibe_check_t.png")
+            if os.path.exists(vibe_path):
+                temp_ranges.append((vibe_check_page, vibe_check_page, vibe_path, "vibe_title"))
+                logging.info(f"🌤️ Vibe title background applied to page {vibe_check_page}")
+            else:
+                logging.warning(f"❌ Vibe Check *_t.png background not found: {vibe_path}")
+
+            # ✅ Only skip the TOC page so the "Today's Vibe Check" category label
+            # can run next and add the *normal* background for subsequent pages.
+            skip_until = start
             continue
 
         elif label == "__TODAYS_VIBE_CHECK__":
             bg_path = os.path.join("backgrounds", "todays_vibe_check.png")
             kind = "vibe"
-            logging.info(f"🌤️ Vibe Check page detected → pages {start_page}–{end_page}")
+            
+            # 🔒 Force Vibe Check to start immediately after TOC (if TOC exists)
+            toc_end = page_tracker.get("__TOC_END__")
+            if toc_end:
+                start_page = toc_end + 1
+                end_page = start_page  # Make it a single page background
+                logging.info(f"🌤️ Forcing Vibe Check background → page {start_page} (immediately after TOC)")
+            else:
+                logging.info(f"🌤️ Vibe Check page detected → pages {start_page}–{end_page}")
+            
             if os.path.exists(bg_path):
                 temp_ranges.append((start_page, end_page, bg_path, kind))
             else:
@@ -1430,6 +1506,26 @@ def compute_background_ranges(page_tracker, category_backgrounds):
             continue  # 🔥 CRITICAL: ensures it doesn't fall through to category block
 
             
+
+        elif label == "__ANSWERS_START__":
+            bg_title_path = os.path.join("backgrounds", "answers_t.png")
+            bg_path = os.path.join("backgrounds", "answers.png")
+            kind = "answers"
+
+            logging.info(f"📜 Answers section detected → pages {start_page}–{end_page}")
+            
+            if os.path.exists(bg_title_path):
+                temp_ranges.append((start_page, start_page, bg_title_path, f"{kind}_title"))
+                logging.info(f"🎨 Answers title background → page {start_page}")
+            else:
+                logging.warning(f"❌ Missing answers *_t.png background: {bg_title_path}")
+
+            if end_page > start_page and os.path.exists(bg_path):
+                temp_ranges.append((start_page + 1, end_page, bg_path, kind))
+                logging.info(f"🖼️ Answers background → pages {start_page + 1}–{end_page}")
+            elif end_page > start_page:
+                logging.warning(f"❌ Missing answers background: {bg_path}")
+            continue
 
         # Handle category or trivia background ranges
         else:
@@ -1545,71 +1641,71 @@ def generate_pdf_with_manual_toc(json_file, output_pdf):
     # Styles
     styles = {
         'cover_title': ParagraphStyle(
-            "CoverTitle", fontName="LuckiestGuy", fontSize=40, leading=34,
+            "CoverTitle", fontName="LuckiestGuy", fontSize=28, leading=30,
             alignment=TA_CENTER, spaceAfter=12
         ),
         'cover_date': ParagraphStyle(
-            "CoverDate", fontName="Baloo2", fontSize=34, leading=26,
-            alignment=TA_CENTER, spaceAfter=12
+            "CoverDate", fontName="Baloo2", fontSize=22, leading=26,
+            alignment=TA_CENTER, spaceAfter=10
         ),
         'intro_header': ParagraphStyle(
-            "IntroHeader", fontName="LuckiestGuy", fontSize=28, leading=20,
-            alignment=TA_LEFT, spaceAfter=10
+            "IntroHeader", fontName="LuckiestGuy", fontSize=20, leading=22,
+            alignment=TA_LEFT, spaceAfter=8
         ),
         'intro': ParagraphStyle(
-            "Intro", fontName="Baloo2", fontSize=18, leading=18,
-            spaceAfter=14
+            "Intro", fontName="Baloo2", fontSize=12.5, leading=15,
+            spaceAfter=12
         ),
         'toc_title': ParagraphStyle(
-            "TOCTitle", fontName="LuckiestGuy", fontSize=28, leading=22,
-            spaceAfter=24, alignment=TA_CENTER
+            "TOCTitle", fontName="LuckiestGuy", fontSize=20, leading=24,
+            spaceAfter=16, alignment=TA_CENTER
         ),
         'toc_item': ParagraphStyle(
-            "TOCItem", fontName="Baloo2", fontSize=18, leading=14,
-            spaceAfter=0, alignment=TA_LEFT
+            "TOCItem", fontName="Baloo2", fontSize=11.5, leading=14,
+            spaceAfter=2, alignment=TA_LEFT
         ),
         'category': ParagraphStyle(
             "CategoryTitle", fontName="Baloo2", fontSize=0.1, leading=1,
             spaceAfter=0, textColor=colors.white, alignment=TA_LEFT
         ),
         'cat_title': ParagraphStyle(
-            "CatTitle", fontName="LuckiestGuy", fontSize=28, leading=22,
-            spaceAfter=12, spaceBefore=12
+            "CatTitle", fontName="LuckiestGuy", fontSize=20, leading=24,
+            spaceAfter=0, spaceBefore=10
         ),
         'title': ParagraphStyle(
-            "FactTitle", fontName="Baloo2-Bold", fontSize=22, leading=16,
-            spaceAfter=6
+            "FactTitle", fontName="Baloo2-Bold", fontSize=14, leading=16,
+            spaceAfter=4
         ),
         'story': ParagraphStyle(
-            "FactStory", fontName="Baloo2", fontSize=18, leading=19,
-            spaceAfter=16, spaceBefore=0
+            "FactStory", fontName="Baloo2", fontSize=11.5, leading=14,
+            spaceAfter=12, spaceBefore=0
         ),
         'wordsearch': ParagraphStyle(
-            "Wordsearch", fontName="Baloo2", fontSize=14, leading=12,
+            "Wordsearch", fontName="Baloo2", fontSize=10, leading=12,
             spaceAfter=2, spaceBefore=0
         ),
         'crossword_layout': ParagraphStyle(
-            "Crossword_Layout", fontName="LuckiestGuy", fontSize=12, leading=12,
-            spaceAfter=4, spaceBefore=0
+            "Crossword_Layout", fontName="LuckiestGuy", fontSize=10, leading=12,
+            spaceAfter=2, spaceBefore=0
         ),
         'crossword': ParagraphStyle(
-            "Crossword", fontName="Baloo2", fontSize=10, leading=12,
+            "Crossword", fontName="Baloo2", fontSize=7, leading=11,
             spaceAfter=2, spaceBefore=0
         ),
         'trivia_title': ParagraphStyle(
-            "TriviaTitle", fontName="LuckiestGuy", fontSize=24, leading=20,
-            spaceAfter=12, alignment=TA_CENTER
+            "TriviaTitle", fontName="LuckiestGuy", fontSize=18, leading=22,
+            spaceAfter=10, alignment=TA_CENTER
         ),
         'trivia_questions': ParagraphStyle(
-            "TriviaQuestions", fontName="Baloo2", fontSize=18, leading=19,
+            "TriviaQuestions", fontName="Baloo2", fontSize=12, leading=14,
             spaceAfter=6, spaceBefore=0
         ),
         'trivia_answers': ParagraphStyle(
-            "TriviaAnswers", fontName="Baloo2", fontSize=14, leading=12,
-            spaceAfter=2, spaceBefore=0
+            "TriviaAnswers", fontName="Baloo2", fontSize=10, leading=12,
+            spaceAfter=2, spaceBefore=0, leftIndent=10, rightIndent=10  
         )
-
     }
+
 
     # styles = {
     #     'cover_title': ParagraphStyle(
@@ -1661,19 +1757,24 @@ def generate_pdf_with_manual_toc(json_file, output_pdf):
 
 
     # First pass – generate page tracker info
-    doc1 = MyDocTemplate(output_pdf, pagesize=letter, title=f"What Happened on {date_str}")
+    doc1 = MyDocTemplate(output_pdf, pagesize=custom_page_size, title=f"What Happened on {date_str}")
     elements1 = build_elements(facts, styles, date_str)
     doc1.build(elements1)
 
     # Capture page locations for TOC and category headings
     category_pages = sorted(
-        [(label, page) for label, page in doc1._page_tracker.items() if not label.startswith("__TRIVIA_START__")],
+        [(label, page) for label, page in doc1._page_tracker.items()
+        if not label.startswith("__TRIVIA_START__")],
         key=lambda x: x[1]
     )
 
+    # 🔧 Hardcode TOC page number(s)
+    TOC_PAGE_OVERRIDES = {"Today's Vibe Check": 4}
+    category_pages = [(cat, TOC_PAGE_OVERRIDES.get(cat, pg)) for cat, pg in category_pages]
+
     # Second pass – render again with TOC now present
     doc2_stream = BytesIO()
-    doc2 = MyDocTemplate(doc2_stream, pagesize=letter, title=f"What Happened on {date_str}")
+    doc2 = MyDocTemplate(doc2_stream, pagesize=custom_page_size, title=f"What Happened on {date_str}")
     elements2 = build_elements(facts, styles, date_str, category_pages)
     doc2.build(elements2)
 
@@ -1681,15 +1782,11 @@ def generate_pdf_with_manual_toc(json_file, output_pdf):
     background_ranges = compute_background_ranges(doc2._page_tracker, CATEGORY_BACKGROUNDS)
 
     # Final doc with backgrounds applied
-    final_doc = MyDocTemplate(output_pdf, pagesize=letter, title=f"What Happened on {date_str}")
+    final_doc = MyDocTemplate(output_pdf, pagesize=custom_page_size, title=f"What Happened on {date_str}")
     final_doc._background_ranges = background_ranges
 
     # Rebuild final output
     final_elements = build_elements(facts, styles, date_str, category_pages)
-
-    frame = Frame(final_doc.leftMargin, final_doc.bottomMargin, final_doc.width, final_doc.height, id='normal')
-    template = PageTemplate(id='Content', frames=[frame], onPage=final_doc.draw_background)
-    final_doc.addPageTemplates([template])
 
     logging.info("📄 Final build started with full backgrounds...")
     final_doc.build(final_elements)

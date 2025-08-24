@@ -10,3 +10,4 @@ facts/new fact grabber/retry_log.txt
 facts/old/
 .env
 oldResources/
+cover/complete/

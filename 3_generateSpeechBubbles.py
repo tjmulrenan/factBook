@@ -5,9 +5,18 @@ import re
 import random
 from collections import defaultdict
 
+INCH = 72
+BLEED_IN = 0.125
+SAFE_IN = 0.25
+SAFE_PAD = int((BLEED_IN + SAFE_IN) * INCH)   # 27 pt  (use 36 if you want extra cushion)
+SIDE_PAD = max(SAFE_PAD, 36)                  # bump side pad a touch if you like
+BOTTOM_PAD = max(SAFE_PAD, 36)
+TOP_PAD = max(SAFE_PAD, 36)
+
 # --- Font Setup ---
 font_path = r"C:\Users\timmu\Documents\repos\Factbook Project\fonts\Baloo2-Bold.ttf"
 font_name = "Baloo2Bold"  # No spaces — required for PyMuPDF
+RAISE_Y = 25  # move bubble + character image 20pt higher (toward the top)
 
 # --- Utility: Text Wrapping ---
 def wrap_text_to_two_lines_balanced(text, max_width, font, fontsize):
@@ -159,13 +168,21 @@ while page_number < original_page_count:
             break
 
 
-    matched_facts = [
-        fact for title, fact in title_to_fact.items() if title in text
-    ]
+    def normalize(s):
+        return re.sub(r'\s+', ' ', s).strip().lower()
 
+    normalized_text = normalize(text)
 
+    matched_facts = []
+    for title, fact in title_to_fact.items():
+        if normalize(title) in normalized_text:
+            print(f"  ✅ Matched normalized title: {title}")
+            matched_facts.append(fact)
 
     if not matched_facts:
+        print(f"❌ No matches found on page {page_number + 1}.")
+        print("🧾 First 300 characters of page text:")
+        print(text[:300])
         page_number += 1
         continue
 
@@ -292,25 +309,35 @@ while page_number < original_page_count:
 
     bubble_position = "right" if page_number % 2 == 0 else "left"
     page_width, page_height = page.rect.width, page.rect.height
-    margin = 150
-    bubble_height = 56
-    font_size = 15
+    margin = 120
+    font_size = 9
     corner_radius = 50
 
-    # Estimate characters per line for your font at this size
-    # Use accurate 2-line wrapping based on actual text width
+    # Bubble sizing (dynamic)
     max_bubble_width = page_width * 0.75
-    padding = 40  # extra space inside bubble
-    lines = wrap_text_to_two_lines_balanced(bubble_text, max_bubble_width - padding, doc_font, font_size)
+    padding_inner = 28        # inner horizontal padding inside bubble
+    line_gap = 3              # space between lines
 
-
-
-    # Estimate text width based on real rendered width of lines
-    text_width_estimate = max(
-        doc_font.text_length(line, fontsize=font_size)
-        for line in lines
+    # Wrap with the new font size
+    lines = wrap_text_to_two_lines_balanced(
+        bubble_text, max_bubble_width - padding_inner, doc_font, font_size
     )
-    bubble_width = min(text_width_estimate + padding, max_bubble_width)
+
+    # Measure text width
+    text_width_estimate = max(
+        doc_font.text_length(line, fontsize=font_size) for line in lines
+    ) if lines else 0
+
+    # Final bubble width / height
+    bubble_width = min(text_width_estimate + padding_inner, max_bubble_width)
+    line_height = font_size + line_gap
+    bubble_height = len(lines) * line_height + 12   # 16 = top/bottom padding
+    bubble_height = max(bubble_height, 32)          # don’t let it get too tiny
+
+    # Tail scales with font so proportions look right
+    tail_half_thickness = max(4, int(font_size * 0.45))   # ~5 at 11pt
+    tail_len = max(10, int(font_size * 1.0))              # ~11 at 11pt
+
     
     # 🧼 Clean final width calculation already done — now log it
     char_count = sum(len(line) for line in lines)
@@ -319,12 +346,11 @@ while page_number < original_page_count:
 
 
     if bubble_position == "right":
-        # Anchor right edge and grow inward
         bubble_rect = fitz.Rect(
             page_width - margin - bubble_width,
-            page_height - bubble_height - 20,
+            page_height - bubble_height - (20 + RAISE_Y),
             page_width - margin,
-            page_height - 20
+            page_height - (20 + RAISE_Y)
         )
         tail = [
             fitz.Point(bubble_rect.x1, bubble_rect.y0 + bubble_height / 2 - 6),
@@ -332,18 +358,18 @@ while page_number < original_page_count:
             fitz.Point(bubble_rect.x1, bubble_rect.y0 + bubble_height / 2 + 6),
         ]
     else:
-        # Anchor left edge and grow inward
         bubble_rect = fitz.Rect(
             margin,
-            page_height - bubble_height - 20,
+            page_height - bubble_height - (20 + RAISE_Y),
             margin + bubble_width,
-            page_height - 20
+            page_height - (20 + RAISE_Y)
         )
         tail = [
             fitz.Point(bubble_rect.x0, bubble_rect.y0 + bubble_height / 2 - 6),
             fitz.Point(bubble_rect.x0 - 12, bubble_rect.y0 + bubble_height / 2),
             fitz.Point(bubble_rect.x0, bubble_rect.y0 + bubble_height / 2 + 6),
         ]
+
 
 
 
@@ -419,10 +445,9 @@ while page_number < original_page_count:
 
     # Check and insert image
     if image_path and os.path.exists(image_path):
-        img_width = 90
-        img_height = 90
-        outer_margin = 60
-        bottom_margin = 10
+        img_width = img_height = 85  # was 90 → ~20% smaller
+        outer_margin = 30
+        bottom_margin = RAISE_Y
 
         y1 = page_height - bottom_margin
         y0 = y1 - img_height
@@ -461,12 +486,97 @@ while page_number < original_page_count:
     page_number += 1
 
 
+# save finished book
 doc.save(output_path)
 doc.close()
-
 
 print("\n📊 Insert Summary:")
 for k, v in insert_counts.items():
     print(f"  {k.title()}: {v}")
 
 print(f"✅ New PDF with speech bubbles saved to:\n{output_path}")
+
+# --- Optional: tighten structure only (no DPI change) ---
+# If you don’t want Ghostscript, you can instead do:
+# doc.save(output_path, deflate=True, clean=True, garbage=4)
+
+import subprocess, shutil, os, glob, datetime, time
+
+def _find_gs_exe():
+    pinned = r"C:\Program Files\gs\gs10.05.1\bin\gswin64c.exe"
+    if os.path.exists(pinned): return pinned
+    gs = shutil.which("gswin64c") or shutil.which("gs")
+    if gs: return gs
+    for path in sorted(glob.glob(r"C:\Program Files\gs\gs*\bin\gswin64c.exe"), reverse=True):
+        if os.path.exists(path): return path
+    return None
+
+def _unique_out(path):
+    base, ext = os.path.splitext(path)
+    ts = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
+    return f"{base}_compressed_{ts}{ext}"
+
+def compress_with_ghostscript(inp_pdf, out_pdf=None,
+                              jpeg_quality=100, color_res=300, gray_res=300, mono_res=600):
+    """
+    If out_pdf is None, writes to <inp>_compressed_YYYYmmdd-HHMMSS.pdf
+    """
+    gs = _find_gs_exe()
+    if not gs:
+        raise FileNotFoundError("Ghostscript not found.")
+
+    if out_pdf is None:
+        out_pdf = _unique_out(inp_pdf)
+
+    out_dir = os.path.dirname(out_pdf) or "."
+    os.makedirs(out_dir, exist_ok=True)
+
+    # Don’t try to delete existing; pick a fresh name to avoid lock issues.
+    if os.path.exists(out_pdf):
+        out_pdf = _unique_out(out_pdf)
+
+    args = [
+        gs,
+        "-dBATCH", "-dNOPAUSE", "-dQUIET", "-dNOSAFER",
+        "-sDEVICE=pdfwrite",
+        "-dCompatibilityLevel=1.7",
+        "-dPDFSETTINGS=/printer",
+        "-dDetectDuplicateImages=true",
+        "-dCompressFonts=true",
+        "-dSubsetFonts=true",
+        "-dAutoRotatePages=/None",
+
+        "-dDownsampleColorImages=true",
+        f"-dColorImageResolution={color_res}",
+        "-dColorImageDownsampleType=/Average",
+
+        "-dDownsampleGrayImages=true",
+        f"-dGrayImageResolution={gray_res}",
+        "-dGrayImageDownsampleType=/Average",
+
+        "-dDownsampleMonoImages=true",
+        f"-dMonoImageResolution={mono_res}",
+        "-dMonoImageDownsampleType=/Subsample",
+
+        "-dEncodeColorImages=true",
+        "-dEncodeGrayImages=true",
+        f"-dJPEGQ={jpeg_quality}",
+
+        f"-sOutputFile={out_pdf}",
+        inp_pdf,
+    ]
+    proc = subprocess.run(args, capture_output=True, text=True)
+    if proc.returncode != 0:
+        raise RuntimeError(
+            "Ghostscript failed.\n"
+            f"STDOUT:\n{proc.stdout}\n\nSTDERR:\n{proc.stderr}\n\n"
+            f"Command:\n{' '.join(args)}"
+        )
+    return out_pdf
+
+# === Use it ===
+final_pdf = output_path  # your PyMuPDF output
+compressed_pdf = compress_with_ghostscript(final_pdf,
+                                           jpeg_quality=100,
+                                           color_res=300, gray_res=300, mono_res=600)
+print(f"🗜️ Compressed PDF written to:\n{compressed_pdf}")
