@@ -1,0 +1,40 @@
+[
+  {
+    "id": "901",
+    "title": "Students Score Big on Sports Day",
+    "story": "College students around the world lace up their sneakers on September 20th for International Day of University Sport! Universities host tournaments, fun runs, and sports festivals to celebrate how athletics bring students together. Some schools organize massive relay races or quirky games like three-legged soccer matches to get everyone moving and laughing together.",
+    "activity_question": "What do universities organize on International Day of University Sport?",
+    "activity_choices": [
+      "Tournaments and sports festivals",
+      "Cooking competitions",
+      "Art exhibitions",
+      "Science fairs"
+    ],
+    "activity_answer": "Tournaments and sports festivals",
+    "follow_up_question": "What fun sports activity would you want your school to try?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 48
+  },
+  {
+    "id": "902",
+    "title": "Thailand's Day to Shine Young and Bright",
+    "story": "Every year on September 20, Thailand celebrates National Youth Day with colorful parades, talent shows, and community festivals! Young people across the country showcase their skills through dance performances, art exhibitions, and sports competitions. Schools organize special events where kids can display their creativity and leadership. The day highlights how important young voices are in shaping Thailand's future, with government officials often attending youth-led ceremonies and listening to students' ideas for improving their communities.",
+    "activity_question": "What kinds of events do communities hold on Thailand’s National Youth Day?",
+    "activity_choices": [
+      "Parades, talent shows, and festivals",
+      "Cooking contests and car shows",
+      "Science fairs and spelling bees only",
+      "Silent classroom study sessions"
+    ],
+    "activity_answer": "Parades, talent shows, and festivals",
+    "follow_up_question": "What talents or skills would you want to showcase if your school had a youth celebration day?",
+    "optional_type": "follow_up_question",
+    "categories": ["Days That Slay"],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  }
+]

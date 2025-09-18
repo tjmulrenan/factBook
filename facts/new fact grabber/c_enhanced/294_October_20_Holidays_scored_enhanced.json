@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Cooking Up Fun on International Chefs Day",
+    "story": "Every October 20, kitchens around the world sizzle with extra excitement for International Chefs Day! Professional chefs wear their tall white hats with pride, cooking special meals and sharing their favorite recipes online. Cooking schools host fun events where kids can learn to make simple dishes like pasta or cookies. Restaurants might offer cooking classes or let customers peek behind the scenes to watch chefs work their magic. Many people celebrate at home by trying a new recipe or cooking their family's favorite meal together. Social media fills up with photos of delicious creations and cooking tips from both professional chefs and home cooks who love to experiment in the kitchen.",
+    "activity_question": "What do cooking schools often do on International Chefs Day?",
+    "activity_choices": [
+      "Host fun cooking events for kids",
+      "Close for the entire day",
+      "Only serve pizza",
+      "Make students wear funny costumes"
+    ],
+    "activity_answer": "Host fun cooking events for kids",
+    "follow_up_question": "What new recipe would you want to try cooking on International Chefs Day?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "902",
+    "title": "Sky-High Heroes Keep Planes Safe",
+    "story": "Air traffic controllers are the unsung heroes who guide every airplane safely through the sky! On October 20, people around the world celebrate International Day of the Air Traffic Controller to honor these amazing professionals. They work in tall control towers at airports, watching radar screens and talking to pilots through headsets. Without them, planes couldn't take off or land safely. Many airports host special events where kids can tour control towers and see how these sky guardians keep millions of passengers safe every single day.",
+    "activity_question": "Where do air traffic controllers typically work to guide airplanes?",
+    "activity_choices": [
+      "In tall control towers at airports",
+      "Inside the airplanes with pilots",
+      "Underground in subway stations",
+      "On top of tall buildings downtown"
+    ],
+    "activity_answer": "In tall control towers at airports",
+    "bonus_fact": "A single air traffic controller can guide over 100 planes per hour during busy times!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "903",
+    "title": "Slow Down for International Sloth Day!",
+    "story": "Every October 20, the world celebrates the slowest animals on Earth during International Sloth Day! People share adorable sloth photos on social media, visit sloths at zoos, and learn amazing facts about these sleepy tree-dwellers. Some families even have \"sloth parties\" where everyone moves super slowly and takes lots of naps. Schools teach kids how sloths only come down from trees once a week to poop, and how their slow lifestyle actually helps them survive in the rainforest. The best part? Many people use this day as an excuse to be lazy and move at sloth speed all day long!",
+    "activity_question": "According to the story, how often do sloths come down from trees to poop?",
+    "activity_choices": [
+      "Once a week",
+      "Every day",
+      "Once a month",
+      "Only when it's raining"
+    ],
+    "activity_answer": "Once a week",
+    "follow_up_question": "What other slow-moving animals do you think deserve their own special day?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  }
+]

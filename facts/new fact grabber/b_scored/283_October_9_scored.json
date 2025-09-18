@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "original": "World Post Day",
+    "score": 55,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "Leif Erikson Day",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "Hangul Day",
+    "score": 65,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "Independence Day of Uganda",
+    "score": 35,
+    "is_kid_friendly": false
+  }
+]

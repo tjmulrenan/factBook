@@ -1,0 +1,122 @@
+[
+  {
+    "id": "901",
+    "title": "Three Kings and Sweet Things",
+    "story": "Every January 6, Christians around the world celebrate Epiphany, remembering when three wise kings brought gifts to baby Jesus. In many countries, families exchange presents on this day instead of Christmas! Kids in Spain leave their shoes out for the Three Kings to fill with candy and toys. Some families bake special cakes with hidden surprises inside, and whoever finds the treasure gets to wear a paper crown for the day.",
+    "activity_question": "What do kids in Spain leave out for the Three Kings to fill?",
+    "activity_choices": [
+      "Their shoes",
+      "Their backpacks",
+      "Their pillowcases",
+      "Their lunch boxes"
+    ],
+    "activity_answer": "Their shoes",
+    "bonus_fact": "The hidden surprise in Epiphany cakes is often a tiny plastic baby or bean!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "902",
+    "title": "Three Kings Bring the Magic on January 6",
+    "story": "Every January 6, families celebrate Three Kings Day by remembering the wise men who brought gifts to baby Jesus. Kids in many countries wake up to find presents left by the three kings instead of Santa Claus! Families bake special sweet bread called rosca de reyes with a tiny baby figurine hidden inside. Whoever finds the baby in their slice gets to host a party later. Children leave their shoes out the night before, hoping the kings will fill them with treats and toys.",
+    "activity_question": "What do children leave out for the Three Kings to fill with gifts?",
+    "activity_choices": [
+      "Their shoes",
+      "Their backpacks",
+      "Their lunch boxes",
+      "Their pillowcases"
+    ],
+    "activity_answer": "Their shoes",
+    "bonus_fact": "The person who finds the baby figurine must buy tamales for everyone on February 2nd!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "903",
+    "title": "Bean There, Done That Day!",
+    "story": "Every January 6, bean lovers everywhere celebrate National Bean Day by cooking up their favorite legumes! People share photos of colorful bean dishes on social media, from hearty chili and baked beans to fancy three-bean salads. Some families host bean cook-offs to see who makes the tastiest recipe. Health enthusiasts love posting about beans' superpowers - they're packed with protein and fiber that keep you strong and energized!",
+    "activity_question": "What do people often share on social media during National Bean Day?",
+    "activity_choices": [
+      "Photos of their bean dishes",
+      "Pictures of their pets eating beans",
+      "Videos of beans dancing",
+      "Stories about magic beanstalks"
+    ],
+    "activity_answer": "Photos of their bean dishes",
+    "bonus_fact": "There are over 400 types of beans grown around the world!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "904",
+    "title": "Sweet and Crumbly Shortbread Day",
+    "story": "Buttery, crumbly shortbread cookies take center stage every January 6 on National Shortbread Day! People celebrate by baking traditional Scottish shortbread using just three simple ingredients: butter, sugar, and flour. Bakeries showcase their best shortbread recipes, while families gather in kitchens to make homemade batches. Social media fills with photos of golden, perfectly shaped cookies. Many people enjoy dunking their shortbread in tea or coffee, just like the Scots have done for centuries.",
+    "activity_question": "What are the three main ingredients in traditional shortbread?",
+    "activity_choices": [
+      "Butter, sugar, and flour",
+      "Eggs, milk, and vanilla",
+      "Chocolate, nuts, and cream",
+      "Honey, oats, and cinnamon"
+    ],
+    "activity_answer": "Butter, sugar, and flour",
+    "bonus_fact": "Shortbread was originally made from leftover bread dough that was dried out in the oven!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "905",
+    "title": "National Cuddle Up Day Gets Cozy",
+    "story": "Every January 6, people across the country celebrate National Cuddle Up Day by getting as cozy as possible! Families pile onto couches with soft blankets, hot chocolate, and their favorite movies. Friends have sleepovers where they build blanket forts and share warm snacks. Pet owners spend extra time snuggling with their cats, dogs, and even guinea pigs. Some people post pictures of their coziest moments on social media using hashtags like #CuddleUpDay. Libraries and community centers sometimes host special story times where kids can bring their stuffed animals and favorite blankets. It's the perfect excuse to slow down after the busy holidays and enjoy simple comfort with the people you love most.",
+    "activity_question": "What do people often bring to special story times on National Cuddle Up Day?",
+    "activity_choices": [
+      "Stuffed animals and blankets",
+      "Homework and pencils",
+      "Sports equipment",
+      "Musical instruments"
+    ],
+    "activity_answer": "Stuffed animals and blankets",
+    "follow_up_question": "What's your favorite way to get cozy on a cold winter day?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "906",
+    "title": "Poets Need Lunch Too!",
+    "story": "Poetry lovers everywhere grab their favorite writers for a meal on January 6! National Take a Poet to Lunch Day encourages people to invite poets out for food and conversation. Some folks take famous local poets to restaurants, while others pack sandwiches and have picnics with poetry club friends. Libraries and bookstores often host special lunch events where poets read their work between bites. It's a sweet way to support writers and hear amazing words!",
+    "activity_question": "What do libraries and bookstores often do on this holiday?",
+    "activity_choices": [
+      "Host lunch events with poetry readings",
+      "Give away free poetry books",
+      "Teach people how to write haikus",
+      "Have poets deliver food to customers"
+    ],
+    "activity_answer": "Host lunch events with poetry readings",
+    "follow_up_question": "What questions would you ask a poet over lunch?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  }
+]

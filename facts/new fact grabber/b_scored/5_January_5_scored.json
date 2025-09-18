@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "original": "National Bird Day",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "National Whipped Cream Day",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "Twelfth Night",
+    "score": 65,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "National Screenwriters Day",
+    "score": 55,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 5,
+    "original": "National Keto Day",
+    "score": 35,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 6,
+    "original": "Epiphany Eve",
+    "score": 70,
+    "is_kid_friendly": true
+  }
+]

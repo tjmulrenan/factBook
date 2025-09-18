@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Special Delivery Day Around the World",
+    "story": "Mailboxes get extra attention on October 9 when people celebrate World Post Day! This special day honors postal workers who deliver letters, packages, and postcards to every corner of the planet. People share thank-you notes for their mail carriers, post offices host fun events, and some families write old-fashioned letters instead of texts. It's amazing how mail connects us all!",
+    "activity_question": "What do people do to honor postal workers on World Post Day?",
+    "activity_choices": [
+      "Share thank-you notes for mail carriers",
+      "Send emails instead of letters",
+      "Hide all the mailboxes",
+      "Only use text messages"
+    ],
+    "activity_answer": "Share thank-you notes for mail carriers",
+    "follow_up_question": "What's the most interesting piece of mail you've ever received?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "902",
+    "title": "Viking Explorer Gets His Day!",
+    "story": "Every October 9, Americans celebrate Leif Erikson Day to honor the brave Viking explorer who reached North America around 500 years before Christopher Columbus! People with Scandinavian heritage especially love this day, sharing stories about Viking adventures and posting cool facts about Norse explorers on social media. Some communities hold festivals with traditional Nordic food, while schools teach kids about Leif's incredible journey across the Atlantic Ocean in wooden ships. It's a perfect day to learn about this fearless explorer who proved Vikings were amazing sailors and adventurers.",
+    "activity_question": "What makes Leif Erikson special compared to Christopher Columbus?",
+    "activity_choices": [
+      "He reached North America about 500 years earlier",
+      "He was the first person to cross any ocean",
+      "He invented the wooden ship",
+      "He brought pizza to America"
+    ],
+    "activity_answer": "He reached North America about 500 years earlier",
+    "bonus_fact": "Leif Erikson called the land he found \"Vinland\" because of all the wild grapes growing there!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "903",
+    "title": "Hangul Day: Korea's Alphabet Celebration",
+    "story": "Every October 9, South Korea throws a party for their alphabet! Hangul Day celebrates the Korean writing system called Hangul, which has 24 letters that look totally different from English. Schools teach special lessons about how smart and easy Hangul is to learn. Museums display ancient books written in beautiful Korean characters. TV shows explain how Hangul helped more people learn to read and write. Some families even play word games using Korean letters!",
+    "activity_question": "What is the Korean writing system called?",
+    "activity_choices": [
+      "Hangul",
+      "Kimchi",
+      "Seoul Script",
+      "K-pop Letters"
+    ],
+    "activity_answer": "Hangul",
+    "follow_up_question": "What would it be like if your country invented a brand new alphabet today?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  }
+]

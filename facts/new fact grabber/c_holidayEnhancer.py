@@ -17,22 +17,42 @@ SORTED_DIR = "C:/Users/timmu/Documents/repos/Factbook Project/facts/new fact gra
 BATCH_SIZE = 1  # or 1 if you want to test smaller batches
 os.makedirs(SORTED_DIR, exist_ok=True)
 
-def list_json_files(directory):
-    files = [f for f in os.listdir(directory) if f.endswith(".json")]
-    files.sort()
-    for i, file in enumerate(files, 1):
-        print(f"{i}: {file}")
-    return files
+NUMERIC_PREFIX_RE = re.compile(r"^\s*(\d+)_([A-Za-z]+)_(\d{1,2})_scored\.json$", re.IGNORECASE)
 
-def choose_file(files):
-    while True:
-        try:
-            choice = int(input("\nEnter the number of the file to process: "))
-            if 1 <= choice <= len(files):
-                return files[choice - 1]
-        except ValueError:
-            pass
-        print("Invalid choice. Try again.")
+def select_file_by_doy(directory: str, doy: int):
+    """Return (filename, month, day) for the first file like '{doy}_Month_Day_scored.json'."""
+    candidates = []
+    for f in os.listdir(directory):
+        m = NUMERIC_PREFIX_RE.match(f)
+        if m and int(m.group(1)) == doy:
+            candidates.append((f, m.group(2), int(m.group(3))))
+    candidates.sort(key=lambda t: t[0].lower())
+    if not candidates:
+        return None, None, None
+    # If multiple (shouldn't happen), take the first
+    return candidates[0]
+
+
+def story_missing_month_or_day(story: str, today_str: str) -> bool:
+    """
+    Return True if the story is missing either the month or the day token.
+    Month must appear as a whole word (e.g., 'September').
+    Day may appear as 7, 07, 7th, 7ST, etc. (case-insensitive).
+    """
+    if not story or not today_str:
+        return True
+
+    parts = today_str.split()
+    if len(parts) != 2:
+        return True
+
+    month, day_str = parts[0], str(int(parts[1]))  # normalize '07' -> '7'
+
+    month_ok = re.search(rf"\b{re.escape(month)}\b", story, flags=re.IGNORECASE) is not None
+    day_ok   = re.search(rf"\b0*{re.escape(day_str)}(?:st|nd|rd|th)?\b", story, flags=re.IGNORECASE) is not None
+
+    return not (month_ok and day_ok)
+
 
 # Claude client setup
 client = Client(api_key=os.getenv("ANTHROPIC_API_KEY"))
@@ -100,6 +120,9 @@ Follow these exact rules:
   - For serious topics, keep all answers realistic.
 - `activity_answer`: The correct one.
 
+⚠️ The trivia question **must NOT ask “On what date is this holiday celebrated?”**  
+(Since that’s already the title of the book, it’s too obvious.)
+
 ---
 
 **3. Add one bonus (only if it adds value):**
@@ -133,6 +156,29 @@ Return ONLY valid JSON with:
 Only use straight quotes ("). Escape internal quotes as \\".
 """
 
+def story_missing_month_or_day(story: str, today_str: str) -> bool:
+    """
+    Return True if the story is missing either the month or the day token.
+    Month must appear as a whole word (e.g., 'September').
+    Day may appear as 7, 07, 7th, 7ST, etc. (case-insensitive).
+    """
+    if not story or not today_str:
+        return True
+
+    parts = today_str.split()
+    if len(parts) != 2:
+        return True
+
+    month, day_str = parts[0], str(int(parts[1]))  # normalize '07' -> '7'
+
+    # Month present as a whole word (case-insensitive)
+    month_ok = re.search(rf"\b{re.escape(month)}\b", story, flags=re.IGNORECASE) is not None
+
+    # Day present as 7 / 07 / 7th / 7ST etc. (case-insensitive)
+    day_ok = re.search(rf"\b0*{re.escape(day_str)}(?:st|nd|rd|th)?\b", story, flags=re.IGNORECASE) is not None
+
+    return not (month_ok and day_ok)
+
 
 def extract_json_from_markdown(text):
     if "```json" in text:
@@ -161,10 +207,12 @@ def log_retry_error(error_message, batch, attempt):
         log_file.write(f"[{timestamp}] Attempt {attempt + 1} failed for IDs: {ids}\nError: {error_message}\n\n")
 
 
-def enhance_facts(facts, retries=2):
+def enhance_facts(facts, retries=2, today_str=None):
     # Check all required fields are present
-    if any("score" not in f or "max_word_limit" not in f for f in facts):
-        raise ValueError("One or more facts are missing 'score' or 'max_word_limit'.")
+    if any("score" not in f for f in facts):
+        raise ValueError("One or more facts are missing 'score'.")
+    for f in facts:
+        f.setdefault("max_word_limit", f["score"])
 
     for attempt in range(retries + 1):
         try:
@@ -173,12 +221,26 @@ def enhance_facts(facts, retries=2):
                 for f in facts
             ]
             facts_block = "\n".join(fact_texts)
-            full_prompt = PROMPT_HEADER + f"\nFacts:\n{facts_block}"
+
+            date_lock = ""
+            if today_str:
+                month_token, day_token = today_str.split()[0], str(int(today_str.split()[1]))
+                date_lock = f"""
+                            IMPORTANT — FIXED CALENDAR DATE
+                            - The date for ALL stories in this batch is **{today_str}**.
+                            - You must include BOTH tokens "{month_token}" and "{day_token}" somewhere in the STORY (any order, not necessarily together).
+                            - Do NOT write any other specific month/day (e.g., "December 29").
+                            - If the fact text mentions a different date, IGNORE it and instead explain how the holiday is celebrated on **{today_str}** in general (today/each year).
+                            """
+
+            full_prompt = date_lock + PROMPT_HEADER + f"\nFacts:\n{facts_block}"
+
 
             response = client.messages.create(
                 model="claude-sonnet-4-20250514",
                 max_tokens=4000,
-                temperature=0.7,
+                temperature=0.2,   # lower = less drift
+                top_p=0.3,
                 timeout=90,
                 messages=[{"role": "user", "content": full_prompt}]
             )
@@ -239,7 +301,29 @@ def enhance_facts(facts, retries=2):
 
                 matched.append(new)
 
+            # 🔎 Debug: confirm month & day presence per item (if today_str provided)
+            if today_str:
+                parts = today_str.split()
+                if len(parts) == 2:
+                    month_token, day_token = parts[0], str(int(parts[1]))
+                    for it in matched:
+                        story = (it.get("story") or "")
+                        month_ok = re.search(rf"\b{re.escape(month_token)}\b", story, flags=re.IGNORECASE) is not None
+                        day_ok   = re.search(rf"\b0*{re.escape(day_token)}(?:st|nd|rd|th)?\b", story, flags=re.IGNORECASE) is not None
+                        print(f"🧩 id={it['id']}: month_ok={month_ok} day_ok={day_ok} (expecting '{today_str}')")
 
+                # ✅ Simple month/day presence check from filename date; retry batch if missing
+                bad_ids = [
+                    it["id"] for it in matched
+                    if story_missing_month_or_day(it.get("story", ""), today_str)
+                ]
+                if bad_ids:
+                    print(f"🗓️ Date check failed for ids={bad_ids} — story missing month/day for '{today_str}'.")
+                    if attempt < retries:
+                        time.sleep(1.0)
+                        continue
+                    else:
+                        print("⚠️ Still missing after retries; keeping current results.")
 
             return matched
 
@@ -252,9 +336,10 @@ def enhance_facts(facts, retries=2):
                 return []
 
 
+
 # choose_input_file and process_file stay unchanged
 
-def process_file(input_path):
+def process_file(input_path, doy, month, day):
     with open(input_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
@@ -269,7 +354,7 @@ def process_file(input_path):
             "id": str(start_id + i),  # Override with new ID
             "fact": fact["original"],
             "score": fact["score"],
-            "max_word_limit": fact.get("max_word_limit"),
+            "max_word_limit": fact.get("max_word_limit", fact["score"]),
             "year": fact.get("year")
         })
 
@@ -280,14 +365,17 @@ def process_file(input_path):
 
     enhanced = []
     total_batches = math.ceil(len(input_facts) / BATCH_SIZE)
+    today_str = f"{month} {int(day)}"  # e.g., "September 7"
+
     for i in tqdm(range(0, len(input_facts), BATCH_SIZE), desc="Enhancing", unit="batch"):
         batch = input_facts[i:i + BATCH_SIZE]
-        batch_result = enhance_facts(batch)
+        batch_result = enhance_facts(batch, today_str=today_str)
         enhanced.extend(batch_result)
         time.sleep(1.2)
 
-    # Save to enhanced folder
-    output_path = os.path.join(SORTED_DIR, Path(input_path).stem + "_enhanced.json")
+    # Save to enhanced folder with fixed naming
+    output_filename = f"{doy}_{month}_{day}_Holidays_scored_enhanced.json"
+    output_path = os.path.join(SORTED_DIR, output_filename)
     # Sort keys into preferred order
     field_order = [
         "id", "title", "story",
@@ -309,13 +397,22 @@ def process_file(input_path):
 
 
 if __name__ == "__main__":
-    files = list_json_files(FACTS_DIR)
-    selected_file = choose_file(files)
-    
-    print(f"\n📂 Processing file: {selected_file}")
+    doy_input = input("Enter day-of-year number (e.g., 251 for Sep 7): ").strip()
+    try:
+        doy = int(doy_input)
+        if not (1 <= doy <= 366):
+            raise ValueError
+    except ValueError:
+        print("❌ Invalid day-of-year.")
+        sys.exit(1)
 
+    selected_file, month, day = select_file_by_doy(FACTS_DIR, doy)
+    if not selected_file:
+        print(f"❌ No file found in b_scored starting with '{doy}_' and ending with '_scored.json'.")
+        sys.exit(1)
+
+    print(f"\n📂 Processing file: {selected_file}")
     input_path = os.path.join(FACTS_DIR, selected_file)
 
-    process_file(input_path)
-
+    process_file(input_path, doy, month, day)
 

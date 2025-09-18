@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Green Ribbons for Amazing Kids",
+    "story": "People around the world wear green ribbons and share stories on October 6 for World Cerebral Palsy Day. This special day celebrates kids and adults with cerebral palsy, showing everyone how awesome they are at sports, art, school, and friendship. Families post photos online using special hashtags, and communities hold fun events to learn about cerebral palsy and support each other.",
+    "activity_question": "What color ribbons do people wear on World Cerebral Palsy Day?",
+    "activity_choices": [
+      "Green",
+      "Purple",
+      "Red",
+      "Rainbow sparkly ones"
+    ],
+    "activity_answer": "Green",
+    "follow_up_question": "What amazing things have you seen kids with different abilities do?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "902",
+    "title": "Mad Hatter Day: Tea Time Goes Crazy!",
+    "story": "Every October 6, people celebrate Mad Hatter Day by throwing the wildest tea parties you can imagine! This silly holiday honors the crazy character from Alice in Wonderland who loved riddles and wore a giant top hat. People dress up in colorful, mismatched clothes and wear the biggest, funniest hats they can find. They serve tea in upside-down cups, eat cake for breakfast, and ask impossible riddles like \"Why is a raven like a writing desk?\" Some families have backwards tea parties where dessert comes first and everyone sits in different chairs every few minutes. It's the perfect day to be absolutely bonkers!",
+    "activity_question": "What do people wear to celebrate Mad Hatter Day?",
+    "activity_choices": [
+      "Big, funny hats and colorful clothes",
+      "Pajamas and slippers",
+      "School uniforms",
+      "Swimming suits and goggles"
+    ],
+    "activity_answer": "Big, funny hats and colorful clothes",
+    "follow_up_question": "What would you serve at your own mad tea party?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "903",
+    "title": "Bratwurst and Heritage Day",
+    "story": "Every October 6, Americans with German roots celebrate National German-American Day! Families gather to eat bratwurst, pretzels, and sauerkraut while sharing stories about their ancestors who came from Germany. Many people wear traditional lederhosen or dirndls, play polka music, and dance folk dances to honor their heritage.",
+    "activity_question": "What traditional German foods do people eat on National German-American Day?",
+    "activity_choices": [
+      "Bratwurst, pretzels, and sauerkraut",
+      "Tacos, rice, and beans",
+      "Pizza, pasta, and gelato",
+      "Sushi, ramen, and tempura"
+    ],
+    "activity_answer": "Bratwurst, pretzels, and sauerkraut",
+    "bonus_fact": "German-Americans are the largest ancestry group in the United States!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 48
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "original": "Epiphany",
+    "score": 60,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "Three Kings Day",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "National Bean Day",
+    "score": 65,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "National Shortbread Day",
+    "score": 65,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 5,
+    "original": "National Cuddle Up Day",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 6,
+    "original": "National Take a Poet to Lunch Day",
+    "score": 55,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 7,
+    "original": "World Day for War Orphans",
+    "score": 35,
+    "is_kid_friendly": false
+  }
+]

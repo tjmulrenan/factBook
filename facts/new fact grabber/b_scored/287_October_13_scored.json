@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "original": "International Day for Disaster Risk Reduction",
+    "score": 60,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "World Thrombosis Day",
+    "score": 35,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 3,
+    "original": "National Yorkshire Pudding Day",
+    "score": 50,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "National Train Your Brain Day",
+    "score": 65,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 5,
+    "original": "National Metastatic Breast Cancer Awareness Day",
+    "score": 25,
+    "is_kid_friendly": false
+  }
+]

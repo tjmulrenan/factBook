@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "original": "World Animal Day",
+    "score": 92,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "National Vodka Day",
+    "score": 15,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 3,
+    "original": "National Cinnamon Roll Day",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "National Ships in Bottles Day",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 5,
+    "original": "National Toot Your Flute Day",
+    "score": 70,
+    "is_kid_friendly": true
+  }
+]

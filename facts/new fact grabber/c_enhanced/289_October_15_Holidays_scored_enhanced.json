@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Scrub-a-Dub Day Goes Global!",
+    "story": "Millions of people around the world celebrate Global Handwashing Day on October 15 by washing their hands with soap and water! Schools, hospitals, and communities organize fun events where kids learn proper handwashing techniques through songs, games, and demonstrations. People share photos and videos of their 20-second handwashing routines on social media to spread awareness about staying healthy and preventing germs from spreading.",
+    "activity_question": "How long should you wash your hands according to the story?",
+    "activity_choices": [
+      "10 seconds",
+      "20 seconds",
+      "30 seconds",
+      "Until you finish singing the alphabet backwards"
+    ],
+    "activity_answer": "20 seconds",
+    "follow_up_question": "What creative songs or games could you invent to make handwashing more fun?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "902",
+    "title": "Lucy's Laugh-Out-Loud Legacy Day",
+    "story": "Every October 15, fans celebrate National I Love Lucy Day by watching episodes of the famous black-and-white TV show that made millions of people laugh. Lucy Ricardo, played by Lucille Ball, was known for getting into hilarious trouble with her wild schemes and funny faces. Today, people host viewing parties, quote Lucy's famous lines, and share their favorite scenes on social media. Some fans even dress up like Lucy with her signature red hair and polka-dot dress. It's a perfect day to discover why this comedy queen is still making people giggle decades later!",
+    "activity_question": "What is Lucy Ricardo famous for in the TV show?",
+    "activity_choices": [
+      "Getting into hilarious trouble with wild schemes",
+      "Being a serious news reporter",
+      "Cooking gourmet meals perfectly",
+      "Teaching dance lessons"
+    ],
+    "activity_answer": "Getting into hilarious trouble with wild schemes",
+    "bonus_fact": "Lucille Ball was the first woman to run a major TV studio!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "903",
+    "title": "White Cane Safety Day: Tapping Into Awareness",
+    "story": "Every October 15, people celebrate White Cane Safety Day to honor the independence and achievements of people who are blind or visually impaired. The white cane is a special tool that helps people navigate safely by tapping the ground to detect obstacles, steps, and changes in the path. On this day, communities organize walks, schools teach students about accessibility, and people share stories about how white canes help millions of people travel confidently every day. It's a time to celebrate courage and remind everyone to be respectful when they see someone using a white cane.",
+    "activity_question": "What does a white cane help people do?",
+    "activity_choices": [
+      "Navigate safely by detecting obstacles",
+      "Play music while walking",
+      "Measure distances in miles",
+      "Change colors in sunlight"
+    ],
+    "activity_answer": "Navigate safely by detecting obstacles",
+    "follow_up_question": "How can you be helpful when you see someone using a white cane?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  }
+]

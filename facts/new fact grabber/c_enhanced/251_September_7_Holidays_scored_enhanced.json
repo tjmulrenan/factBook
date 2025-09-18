@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Slice, Slice, Baby: National Salami Day",
+    "story": "Every September 7, meat lovers across America celebrate National Salami Day by honoring this spicy, cured sausage! People visit delis to try different types of salami, from pepperoni to sopressata. Families make salami sandwiches, add it to pizza, or create fancy charcuterie boards for parties. Food bloggers post photos of their favorite salami creations on social media. Some restaurants offer special salami dishes or discounts. It's the perfect day to discover new flavors and appreciate this tasty tradition that's been around for centuries!",
+    "activity_question": "What do people commonly make with salami on National Salami Day?",
+    "activity_choices": [
+      "Sandwiches and pizza",
+      "Ice cream sundaes",
+      "Fruit smoothies",
+      "Vegetable soup"
+    ],
+    "activity_answer": "Sandwiches and pizza",
+    "bonus_fact": "Salami gets its name from the Italian word 'salare,' which means 'to salt.'",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "902",
+    "title": "Squash Goals on National Acorn Squash Day",
+    "story": "September 7 is National Acorn Squash Day, when people celebrate this funny-shaped orange vegetable! Families roast acorn squash with butter and brown sugar, making it taste like candy. Restaurants create special squash soups and pies. Some people even carve faces into them like mini pumpkins!",
+    "activity_question": "How do many families prepare acorn squash to make it taste sweet?",
+    "activity_choices": [
+      "With butter and brown sugar",
+      "With ketchup and mustard",
+      "With ice cream and sprinkles",
+      "With salt and pepper only"
+    ],
+    "activity_answer": "With butter and brown sugar",
+    "bonus_fact": "Acorn squash got its name because it looks like a giant acorn!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 45
+  },
+  {
+    "id": "903",
+    "title": "Mail Heroes Rain or Shine!",
+    "story": "Mail carriers become superheroes every September 7 on National Neither Snow nor Rain Day! This holiday celebrates postal workers who deliver letters and packages no matter what crazy weather hits. People thank their mail carriers with cold drinks, snacks, or thank-you notes to show they notice their hard work.",
+    "activity_question": "What do people give mail carriers on this holiday to show appreciation?",
+    "activity_choices": [
+      "Cold drinks and snacks",
+      "New mail trucks",
+      "Weather forecasts",
+      "Superhero capes"
+    ],
+    "activity_answer": "Cold drinks and snacks",
+    "follow_up_question": "What's the most extreme weather you've seen a mail carrier work in?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 48
+  },
+  {
+    "id": "904",
+    "title": "Strength in Orange: World Duchenne Awareness Day",
+    "story": "People around the world wear orange on September 7 for World Duchenne Awareness Day. This special day helps everyone learn about Duchenne muscular dystrophy, a condition that affects muscles and makes them weaker over time. Families, friends, and supporters share stories online, post orange photos, and raise money for research. Schools and communities often hold events to show support for kids and families dealing with this challenge, spreading hope and kindness together.",
+    "activity_question": "What color do people wear on World Duchenne Awareness Day?",
+    "activity_choices": [
+      "Orange",
+      "Purple",
+      "Green",
+      "Polka dots"
+    ],
+    "activity_answer": "Orange",
+    "follow_up_question": "How could you show support for someone facing a health challenge?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  }
+]

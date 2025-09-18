@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Fresh Start, Fresh Fun!",
+    "story": "Confetti falls like colorful snow as people around the world celebrate New Year's Day on January 1st! This special holiday marks the beginning of a brand new year, and everyone loves to start fresh. People make resolutions - promises to themselves about good things they want to do. Families gather for special meals, often eating foods they believe bring good luck, like black-eyed peas or grapes. Many cities throw huge parades with marching bands and floats. Kids love staying up late on New Year's Eve to watch fireworks light up the sky at midnight, then sleeping in on New Year's Day!",
+    "activity_question": "What do people often make on New Year's Day?",
+    "activity_choices": [
+      "Resolutions",
+      "Snowmen",
+      "Pancakes",
+      "Paper airplanes"
+    ],
+    "activity_answer": "Resolutions",
+    "follow_up_question": "What's one good habit you'd like to start this year?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "902",
+    "title": "Polar Bear Plunge: The Coolest Crazy Tradition",
+    "story": "Thousands of brave people jump into freezing cold ocean water on Polar Bear Plunge Day, celebrated on New Year's Day, January 1st! These \"polar bears\" run straight into icy waves wearing swimsuits, costumes, or sometimes just their regular clothes. Some beaches have organized plunges with hundreds of participants, while others are small groups of friends daring each other to take the chilly dive. People say the shock of cold water wakes them up and gives them energy for the new year. Many participants raise money for charity while they shiver and splash around in the frigid water.",
+    "activity_question": "When is Polar Bear Plunge Day celebrated?",
+    "activity_choices": [
+      "January 1st",
+      "December 31st",
+      "February 14th",
+      "Every full moon"
+    ],
+    "activity_answer": "January 1st",
+    "bonus_fact": "The biggest polar bear plunge happens in Maryland with over 20,000 participants!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "903",
+    "title": "Ellis Island: Gateway to Dreams Day",
+    "story": "Every January 1st, people celebrate Ellis Island Day to honor the famous immigration station in New York Harbor. From 1892 to 1954, over 12 million immigrants passed through Ellis Island hoping to start new lives in America. Today, families visit the island to learn about their ancestors who came through those doors. Many people research their family histories online or share immigration stories on social media. Museums host special exhibits about the brave journey millions took to reach America.",
+    "activity_question": "How many immigrants passed through Ellis Island during its years of operation?",
+    "activity_choices": [
+      "Over 12 million",
+      "About 5 million",
+      "Nearly 20 million",
+      "Exactly 8 million"
+    ],
+    "activity_answer": "Over 12 million",
+    "follow_up_question": "What stories might your own family have about coming to America?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "904",
+    "title": "Global Family Day: Love Around the World",
+    "story": "Every January 1st, families around the world celebrate Global Family Day by spending extra time together. This special holiday encourages people to put down their phones, turn off the TV, and focus on their loved ones. Families play board games, cook meals together, share stories, and take group photos. Some families create time capsules or write letters to open next year. Many post pictures online with hashtags like #GlobalFamilyDay to show how they're celebrating. It's the perfect way to start the new year by remembering what matters most!",
+    "activity_question": "When is Global Family Day celebrated?",
+    "activity_choices": [
+      "January 1st",
+      "December 25th",
+      "July 4th",
+      "On pizza delivery day"
+    ],
+    "activity_answer": "January 1st",
+    "follow_up_question": "What special activity would you plan for your family on Global Family Day?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  }
+]

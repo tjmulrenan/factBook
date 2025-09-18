@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Mind Matters: World Mental Health Day",
+    "story": "People around the globe wear green ribbons and share kindness on World Mental Health Day every October 10. Schools teach students about feelings and how to help friends who feel sad or worried. Families talk about emotions at dinner, and communities host fun runs and art activities. Social media fills with positive messages and mental health tips. This special day reminds everyone that taking care of our minds is just as important as taking care of our bodies!",
+    "activity_question": "What color ribbons do people wear on World Mental Health Day?",
+    "activity_choices": [
+      "Green",
+      "Blue",
+      "Purple",
+      "Rainbow"
+    ],
+    "activity_answer": "Green",
+    "follow_up_question": "What's one way you like to take care of your feelings when you're upset?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "902",
+    "title": "Fluffy Cloud Cake Takes Flight!",
+    "story": "Every October 10, bakers across America whip up the fluffiest dessert imaginable for National Angel Food Cake Day! This super-light cake gets its amazing texture from beaten egg whites that trap tons of tiny air bubbles. People celebrate by baking these white, spongy cakes from scratch or buying them from bakeries. The best part? Angel food cake is so airy that a whole slice weighs almost nothing! Many families top theirs with fresh strawberries and whipped cream.",
+    "activity_question": "What gives angel food cake its incredibly light and fluffy texture?",
+    "activity_choices": [
+      "Beaten egg whites with air bubbles",
+      "Special fluffy flour",
+      "Baking soda and vinegar",
+      "Tiny marshmallows mixed in"
+    ],
+    "activity_answer": "Beaten egg whites with air bubbles",
+    "bonus_fact": "Angel food cake is so light that it's sometimes called \"food of the angels\"!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  },
+  {
+    "id": "903",
+    "title": "Powers of 10 Pack a Mathematical Punch!",
+    "story": "Every October 10, math lovers celebrate National Powers of 10 Day because the date looks like 10/10! Powers of 10 are super cool numbers like 10, 100, 1,000, and 10,000 that help us understand how big things can get. Teachers use this day to show students fun math tricks with these special numbers. Kids might count by tens, explore how many zeros are in a million, or discover that our entire number system is built on groups of 10. Some classrooms have contests to see who can write the biggest power of 10, while others create art projects using patterns of tens. It's the perfect day to appreciate how these mighty numbers make math easier and help us measure everything from pennies to planets!",
+    "activity_question": "Why is October 10 chosen as National Powers of 10 Day?",
+    "activity_choices": [
+      "Because the date looks like 10/10",
+      "Because school starts in October",
+      "Because it's when calculators were invented",
+      "Because October has 10 letters"
+    ],
+    "activity_answer": "Because the date looks like 10/10",
+    "bonus_fact": "The number googol is 1 followed by 100 zeros - that's 10 to the 100th power!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  }
+]

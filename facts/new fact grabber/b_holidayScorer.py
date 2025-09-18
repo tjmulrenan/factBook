@@ -17,22 +17,41 @@ SCORED_DIR = "C:/Users/timmu/Documents/repos/Factbook Project/facts/new fact gra
 BATCH_SIZE = 1  # or 1 if you want to test smaller batches
 os.makedirs(SCORED_DIR, exist_ok=True)
 
-def list_json_files(directory):
-    files = [f for f in os.listdir(directory) if f.endswith(".json")]
-    files.sort()
-    for i, file in enumerate(files, 1):
-        print(f"{i}: {file}")
-    return files
+NUMERIC_PREFIX_RE = re.compile(r"^\s*(\d+)_.*\.json$", re.IGNORECASE)
 
-def choose_file(files):
+def list_json_files_by_prefix(directory):
+    items = []
+    for f in os.listdir(directory):
+        m = NUMERIC_PREFIX_RE.match(f)
+        if m:
+            items.append((int(m.group(1)), f))
+    items.sort(key=lambda t: (t[0], t[1].lower()))
+    if not items:
+        print("No numeric JSON files found.")
+        return []
+    print("Valid files (choose by the NUMBER at start of filename):")
+    seen = set()
+    for day_num, fname in items:
+        if day_num in seen:
+            continue
+        seen.add(day_num)
+        print(f"{day_num}: {fname}")
+    return items
+
+def choose_file_by_daynum(items):
+    by_num = {}
+    for day_num, fname in items:
+        by_num.setdefault(day_num, fname)
     while True:
-        try:
-            choice = int(input("\nEnter the number of the file to process: "))
-            if 1 <= choice <= len(files):
-                return files[choice - 1]
-        except ValueError:
-            pass
-        print("Invalid choice. Try again.")
+        raw = input("\nEnter the day number (e.g., 251): ").strip()
+        if not raw.isdigit():
+            print("Please enter a numeric day number (e.g., 251).")
+            continue
+        n = int(raw)
+        if n in by_num:
+            return by_num[n]
+        print(f"No file starting with '{n}_' was found. Try again.")
+
 
 # Claude client setup
 client = Client(api_key=os.getenv("ANTHROPIC_API_KEY"))
@@ -257,14 +276,12 @@ def process_file(input_path):
     print(f"👍 Kid-Friendly (true): {kid_friendly_count}")
     print(f"👎 Not Kid-Friendly (false): {not_kid_friendly_count}")
 
-
-
-
-
 if __name__ == "__main__":
-    files = list_json_files(FACTS_DIR)
-    selected_file = choose_file(files)
-    
+    items = list_json_files_by_prefix(FACTS_DIR)
+    if not items:
+        sys.exit(1)
+
+    selected_file = choose_file_by_daynum(items)
     print(f"\n📂 Processing file: {selected_file}")
 
     input_path = os.path.join(FACTS_DIR, selected_file)

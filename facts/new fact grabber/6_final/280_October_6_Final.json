@@ -1,0 +1,1262 @@
+[
+  {
+    "id": "901",
+    "title": "Green Ribbons for Amazing Kids",
+    "story": "People around the world wear green ribbons and share stories on October 6 for World Cerebral Palsy Day. This special day celebrates kids and adults with cerebral palsy, showing everyone how awesome they are at sports, art, school, and friendship. Families post photos online using special hashtags, and communities hold fun events to learn about cerebral palsy and support each other.",
+    "activity_question": "What color ribbons do people wear on World Cerebral Palsy Day?",
+    "activity_choices": [
+      "Green",
+      "Purple",
+      "Red",
+      "Rainbow sparkly ones"
+    ],
+    "activity_answer": "Green",
+    "follow_up_question": "What amazing things have you seen kids with different abilities do?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "902",
+    "title": "Mad Hatter Day: Tea Time Goes Crazy!",
+    "story": "Every October 6, people celebrate Mad Hatter Day by throwing the wildest tea parties you can imagine! This silly holiday honors the crazy character from Alice in Wonderland who loved riddles and wore a giant top hat. People dress up in colorful, mismatched clothes and wear the biggest, funniest hats they can find. They serve tea in upside-down cups, eat cake for breakfast, and ask impossible riddles like \"Why is a raven like a writing desk?\" Some families have backwards tea parties where dessert comes first and everyone sits in different chairs every few minutes. It's the perfect day to be absolutely bonkers!",
+    "activity_question": "What do people wear to celebrate Mad Hatter Day?",
+    "activity_choices": [
+      "Big, funny hats and colorful clothes",
+      "Pajamas and slippers",
+      "School uniforms",
+      "Swimming suits and goggles"
+    ],
+    "activity_answer": "Big, funny hats and colorful clothes",
+    "follow_up_question": "What would you serve at your own mad tea party?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "903",
+    "title": "Bratwurst and Heritage Day",
+    "story": "Every October 6, Americans with German roots celebrate National German-American Day! Families gather to eat bratwurst, pretzels, and sauerkraut while sharing stories about their ancestors who came from Germany. Many people wear traditional lederhosen or dirndls, play polka music, and dance folk dances to honor their heritage.",
+    "activity_question": "What traditional German foods do people eat on National German-American Day?",
+    "activity_choices": [
+      "Bratwurst, pretzels, and sauerkraut",
+      "Tacos, rice, and beans",
+      "Pizza, pasta, and gelato",
+      "Sushi, ramen, and tempura"
+    ],
+    "activity_answer": "Bratwurst, pretzels, and sauerkraut",
+    "bonus_fact": "German-Americans are the largest ancestry group in the United States!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 48
+  },
+  {
+    "id": "191",
+    "title": "Simone Biles: Gymnastics Queen Reigns Supreme",
+    "story": "Flipping and twisting her way into history, Simone Biles soared to victory on October 6, 2023. The American gymnast dazzled spectators in Antwerp, Belgium, clinching gold in the all-round competition at the World Championships. With this win, Biles vaulted to a new level of greatness, becoming the most decorated gymnast ever. Her collection of 34 world and Olympic medals sparkles brighter than the stars, inspiring young athletes everywhere to reach for their dreams.",
+    "activity_question": "Where did Simone Biles win her historic gold medal in 2023?",
+    "activity_choices": [
+      "Antwerp, Belgium",
+      "New York, USA",
+      "Tokyo, Japan",
+      "Paris, France"
+    ],
+    "activity_answer": "Antwerp, Belgium",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What sport is Simone Biles famous for?",
+    "optional_type": "follow_up_question",
+    "score": 98,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "118",
+    "title": "Around the World by Human Power",
+    "story": "Pedaling, paddling, and skating his way across continents and oceans, Jason Lewis achieved an incredible feat in 2007. On October 6, he became the first person to circle the entire globe using only human power. Lewis's epic journey took him over land and sea, facing dangers like crocodiles and malaria. His determination proved that with creativity and perseverance, humans can accomplish amazing things without engines or motors.",
+    "activity_question": "How did Jason Lewis travel around the world?",
+    "activity_choices": [
+      "Using only human power",
+      "By airplane",
+      "In a sailboat",
+      "Riding elephants"
+    ],
+    "activity_answer": "Using only human power",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What are some ways humans can travel without using engines?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "98",
+    "title": "Knuckleball King's Incredible Milestone",
+    "story": "Batter up! Phil Niekro, the New York Yankees' knuckleball wizard, threw his way into baseball history in 1985. On October 6, at the impressive age of 46, Niekro became the oldest pitcher ever to throw a shutout. But that wasn't all! In the same game, he clinched his 300th career win, joining an elite club of only 18 pitchers. Niekro's tricky knuckleball danced past Toronto's batters, leading the Yankees to a commanding 8-0 victory.",
+    "activity_question": "What type of pitch was Phil Niekro famous for throwing?",
+    "activity_choices": [
+      "Fastball",
+      "Curveball",
+      "Knuckleball",
+      "Slider"
+    ],
+    "activity_answer": "Knuckleball",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think a knuckleball is so hard for batters to hit?",
+    "optional_type": "follow_up_question",
+    "score": 98,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "141",
+    "title": "Ancient Footsteps Reveal Early American History",
+    "story": "Imagine walking where humans first stepped in America! In 2023, scientists confirmed that fossil footprints found in White Sands National Park, New Mexico, are the oldest evidence of humans in the Americas. These amazing tracks were made between 23,000 and 21,000 years ago. On October 6, researchers announced that new studies backed up this exciting discovery, giving us a glimpse into the lives of ancient people who explored this land long before us.",
+    "activity_question": "Where were the ancient footprints found?",
+    "activity_choices": [
+      "White Sands National Park",
+      "Yellowstone National Park",
+      "Grand Canyon National Park",
+      "Yosemite National Park"
+    ],
+    "activity_answer": "White Sands National Park",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How old are the oldest footprints?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "335",
+    "title": "Splash of Gold: Tom Jager's Olympic Journey",
+    "story": "Dive into the world of swimming superstar Tom Jager! Born in East St. Louis, Illinois in 1964, Jager made waves in the pool. He splashed his way to an incredible five Olympic gold medals across three Games. Jager dominated the 50-meter freestyle, setting the world record six times. On October 6, we celebrate the birth of this aquatic legend who left competitors in his wake.",
+    "activity_question": "In which swimming event did Tom Jager set multiple world records?",
+    "activity_choices": [
+      "50-meter freestyle",
+      "100-meter butterfly",
+      "200-meter backstroke",
+      "400-meter individual medley"
+    ],
+    "activity_answer": "50-meter freestyle",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How many Olympic Games did Tom Jager win gold medals in?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "152",
+    "title": "Ancient Ape Ancestor Discovered in Kenya",
+    "story": "Digging through ancient layers of earth, Mary Leakey unearthed a thrilling find. On October 6, 1948, this famous fossil hunter discovered part of a skull from Proconsul africanus on Rusinga Island, Kenya. This creature lived long ago and was an important ancestor of both apes and humans. Leakey's discovery helped scientists better understand how our family tree branched out millions of years ago.",
+    "activity_question": "What type of creature did Mary Leakey discover?",
+    "activity_choices": [
+      "Proconsul africanus",
+      "Tyrannosaurus rex",
+      "Woolly mammoth",
+      "Giant sloth"
+    ],
+    "activity_answer": "Proconsul africanus",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think scientists get excited about finding fossils?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "120",
+    "title": "Pitching Perfection: Halladay's No-Hitter Magic",
+    "story": "Baseball fans held their breath as Roy Halladay took the mound. The Phillies ace was about to make history. With laser focus, he threw pitch after perfect pitch. Batters swung and missed. The crowd roared. When the final out was called, Halladay had done the incredible. He pitched a no-hitter in the playoffs, only the second time ever in Major League Baseball history. The Phillies won 4-0 against the Cincinnati Reds in 2010.",
+    "activity_question": "What rare achievement did Roy Halladay accomplish in this game?",
+    "activity_choices": [
+      "He pitched a no-hitter",
+      "He struck out every batter",
+      "He hit a grand slam",
+      "He caught a fly ball with his hat"
+    ],
+    "activity_answer": "He pitched a no-hitter",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why is pitching a no-hitter in the playoffs so special?",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "366",
+    "title": "China's First Woman in Space",
+    "story": "Soaring high above Earth, Liu Yang made history as China's first woman in space. Born in Zhengzhou, Henan province in 1978, Liu's dreams of flight took her all the way to the stars. On October 6, years of hard work paid off when she blasted off aboard Shenzhou 9. As a taikonaut - China's term for astronaut - Liu inspired countless young girls to reach for the sky.",
+    "activity_question": "What is China's term for astronaut?",
+    "activity_choices": [
+      "Taikonaut",
+      "Cosmonaut",
+      "Spationaut",
+      "Vyomanaut"
+    ],
+    "activity_answer": "Taikonaut",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What do you think would be the most exciting part of being an astronaut?",
+    "score": 92,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "179",
+    "title": "Basketball Legend Takes a Break",
+    "story": "Swoosh! Michael Jordan soared through the air, slamming dunks and winning hearts. But on October 6, 1993, the basketball world gasped. After nine amazing seasons and three shiny NBA Championships with the Chicago Bulls, Jordan shocked fans by announcing his retirement. The court felt empty without his magic moves. But wait! The story wasn't over. Jordan couldn't stay away from the game he loved. He laced up his sneakers again, returning to lead the Bulls to three more NBA titles.",
+    "activity_question": "What did Michael Jordan announce on October 6, 1993?",
+    "activity_choices": [
+      "His retirement from the NBA",
+      "A new sneaker line",
+      "Joining a new team",
+      "Winning another championship"
+    ],
+    "activity_answer": "His retirement from the NBA",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How many NBA Championships did Jordan win with the Bulls after his return?",
+    "score": 90,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "190",
+    "title": "A Breakthrough in the Fight Against Malaria",
+    "story": "Mosquitoes, watch out! In 2021, a powerful new weapon emerged in the battle against malaria. On October 6, the World Health Organization's leader, Dr. Tedros, gave a thumbs-up to Mosquirix, the world's first malaria vaccine. After successful tests in Africa, this groundbreaking shot was recommended for children. It's a game-changer in protecting kids from the dangerous illness carried by those pesky mosquitoes.",
+    "activity_question": "What is the name of the world's first malaria vaccine?",
+    "activity_choices": [
+      "Mosquirix",
+      "Malaria-B-Gone",
+      "Buzz-Off",
+      "Skeeter Defeater"
+    ],
+    "activity_answer": "Mosquirix",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it's important to have a vaccine against malaria?",
+    "optional_type": "follow_up_question",
+    "score": 90,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "343",
+    "title": "Mighty Muscles: A Strongman's Birth",
+    "story": "Muscles flexed and weights trembled as Svend Karlsen entered the world. Born in Drammen, Norway in 1967, this future powerhouse would grow up to become a legendary strongman. Karlsen's incredible strength and determination led him to claim the prestigious World's Strongest Man title on October 6, 2001. His journey from a Norwegian baby to a global champion inspired many to push their limits.",
+    "activity_question": "What title did Svend Karlsen win?",
+    "activity_choices": [
+      "World's Strongest Man",
+      "Olympic Weightlifting Gold",
+      "Mr. Universe",
+      "Super Powerlifter Champion"
+    ],
+    "activity_answer": "World's Strongest Man",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What country was Svend Karlsen born in?",
+    "score": 90,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "61",
+    "title": "The Goat That Cursed the Cubs",
+    "story": "A strange baseball legend was born when tavern owner William Sianis brought his pet goat to Wrigley Field on October 6, 1945. Sianis bought two tickets for Game 4 of the World Series - one for himself and one for his goat! But stadium officials weren't amused and kicked them both out. Angry, Sianis declared the Chicago Cubs would never win again. This became known as the 'Curse of the Billy Goat,' haunting Cubs fans for decades.",
+    "activity_question": "What did William Sianis bring to the baseball game?",
+    "activity_choices": [
+      "His pet goat",
+      "A lucky rabbit's foot",
+      "A foam finger",
+      "A giant foam hat"
+    ],
+    "activity_answer": "His pet goat",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Do you think a goat's curse could really affect a baseball team?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Creature Feature"
+    ]
+  },
+  {
+    "id": "194",
+    "title": "A Sweet Solution to Stop Polio",
+    "story": "Imagine a world without the fear of polio! In 1956, scientist Albert Sabin made a breakthrough announcement. His new polio vaccine was ready for testing on October 6. Unlike earlier shots, Sabin's vaccine could be taken by mouth. It was easier to give and would soon become popular worldwide. This tasty medicine helped protect millions of children from a dangerous disease.",
+    "activity_question": "How was Sabin's new polio vaccine different from earlier ones?",
+    "activity_choices": [
+      "It could be taken by mouth",
+      "It was more expensive",
+      "It needed to be refrigerated",
+      "It was made from bananas"
+    ],
+    "activity_answer": "It could be taken by mouth",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why might an oral vaccine be easier to give to children than a shot?",
+    "score": 88,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "134",
+    "title": "Black Hole Explorers Win Nobel Prize",
+    "story": "Peering into the darkest corners of space, three scientists made groundbreaking discoveries about mysterious black holes. For their incredible work, Roger Penrose, Reinhard Genzel, and Andrea M. Ghez were awarded the Nobel Prize in Physics on October 6, 2020. Their research helped us understand these cosmic giants that swallow everything, even light!",
+    "activity_question": "What did the scientists win for their work on black holes?",
+    "activity_choices": [
+      "The Nobel Prize in Physics",
+      "A trip to space",
+      "A new telescope",
+      "A black hole in a jar"
+    ],
+    "activity_answer": "The Nobel Prize in Physics",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name one of the scientists who won the prize?",
+    "score": 88,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "104",
+    "title": "Discovery Blasts Off to the Stars",
+    "story": "Whoosh! The space shuttle Discovery roared to life, piercing the sky on October 6, 1990. This wasn't just any flight - it was the 67th time humans had ventured into orbit from the United States. As Discovery climbed higher, its crew of brave astronauts prepared for their mission among the stars. The shuttle's journey, known as STS-41, marked another exciting chapter in space exploration.",
+    "activity_question": "What was the name of the space shuttle that launched on this mission?",
+    "activity_choices": [
+      "Discovery",
+      "Atlantis",
+      "Endeavour",
+      "Columbia"
+    ],
+    "activity_answer": "Discovery",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think space missions are given special names like STS-41?",
+    "optional_type": "follow_up_question",
+    "score": 88,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "25",
+    "title": "Conquering Africa's Highest Peak",
+    "story": "Brave explorers reached new heights in 1889! German climber Hans Meyer and Austrian Ludwig Purtscheller became the first known people to stand atop Mount Kilimanjaro on October 6. This towering mountain in Tanzania is Africa's highest peak. The daring duo faced icy winds, thin air, and treacherous slopes to achieve their goal. Their historic climb opened the door for future adventurers to experience the breathtaking views from the roof of Africa.",
+    "activity_question": "What is Mount Kilimanjaro known as?",
+    "activity_choices": [
+      "Africa's highest peak",
+      "Europe's tallest mountain",
+      "The world's biggest volcano",
+      "Tanzania's snowy hat"
+    ],
+    "activity_answer": "Africa's highest peak",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Would you like to climb a mountain someday? What challenges might you face?",
+    "score": 85,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "69",
+    "title": "Submarine's Icy Adventure Under the Pole",
+    "story": "Beneath the frozen Arctic, a daring submarine crew embarked on a chilly challenge. In 1958, the USS Seawolf plunged into the icy waters near the North Pole. This nuclear-powered submarine stayed submerged for an incredible length of time, navigating the dark, frigid depths. On October 6, after nearly two months underwater, the Seawolf finally surfaced, completing a remarkable journey that pushed the limits of submarine technology and human endurance.",
+    "activity_question": "What was the name of the submarine that stayed underwater near the North Pole?",
+    "activity_choices": [
+      "USS Seawolf",
+      "USS Polar Bear",
+      "USS Iceberg",
+      "USS Frosty"
+    ],
+    "activity_answer": "USS Seawolf",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What kind of power did the USS Seawolf use?",
+    "score": 85,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "109",
+    "title": "A Planet Beyond Our Solar System",
+    "story": "Astronomers made a groundbreaking discovery in 1995. They found a planet orbiting a star far from our own Sun. This star, called 51 Pegasi, became famous on October 6. It was the first time we'd seen a planet circling another star like ours. This exciting find opened up a whole new world of possibilities. Could there be other planets out there like Earth?",
+    "activity_question": "What was special about the discovery of 51 Pegasi?",
+    "activity_choices": [
+      "It was the first star discovered",
+      "It was the first planet orbiting another star like our Sun",
+      "It was the closest star to Earth",
+      "It was the biggest star ever seen"
+    ],
+    "activity_answer": "It was the first planet orbiting another star like our Sun",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What do you think we might find if we could visit planets around other stars?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "196",
+    "title": "The World's First Globe Maker",
+    "story": "A curious boy named Martin Behaim was born in Nuremberg, Germany in 1459. He grew up to become a navigator and geographer who changed how we see the world. Behaim designed the Erdapfel, which means 'earth apple' in German. This special creation wasn't for eating—it was the very first globe of our planet! His invention helped people understand Earth's shape and geography in a whole new way.",
+    "activity_question": "What did Martin Behaim design?",
+    "activity_choices": [
+      "The Erdapfel",
+      "A new type of apple",
+      "A sailing ship",
+      "A map of Germany"
+    ],
+    "activity_answer": "The Erdapfel",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think Behaim's globe was called the 'Erdapfel' (earth apple)?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "186",
+    "title": "Rugby Titans Triumph in Championship",
+    "story": "The All Blacks roared to victory in 2012, clinching the first-ever Rugby Championship. On October 6, New Zealand's powerhouse team crushed South Africa 32-16 in Johannesburg. They dominated the field, scoring four tries to South Africa's one. Star player Dan Carter sealed the deal, expertly kicking three conversions, a penalty, and a dropped goal. This win capped off an undefeated run, cementing the All Blacks' reputation as rugby legends.",
+    "activity_question": "Who was the star player mentioned in the story?",
+    "activity_choices": [
+      "Dan Carter",
+      "Richie McCaw",
+      "Jonah Lomu",
+      "Kiwi McKickerson"
+    ],
+    "activity_answer": "Dan Carter",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The All Blacks perform a traditional Maori war dance called the haka before each match.",
+    "score": 85,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "129",
+    "title": "Rugby Miracle: Wallabies' Epic Comeback",
+    "story": "The Wallabies pulled off a rugby miracle in Salta, Argentina. Trailing 31-7 at halftime, Australia's team seemed doomed. But on October 6, 2018, they roared back with an incredible second-half performance. The Wallabies scored five tries without reply, overwhelming the Pumas. Their 45-34 victory marked the biggest comeback in Rugby Championship history, thrilling fans worldwide.",
+    "activity_question": "Where did this historic rugby match take place?",
+    "activity_choices": [
+      "Salta, Argentina",
+      "Sydney, Australia",
+      "Wellington, New Zealand",
+      "Johannesburg, South Africa"
+    ],
+    "activity_answer": "Salta, Argentina",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What does 'Wallabies' refer to in rugby?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "184",
+    "title": "Instagram's Picture-Perfect Launch",
+    "story": "Snap! A new way to share photos burst onto the scene. Kevin Systrom and Mike Krieger launched Instagram in 2010, changing how we capture moments. The app let users add cool filters to their pictures and share them instantly. On October 6, Instagram opened its virtual doors, and people couldn't stop clicking. It quickly became a hit, turning everyday snapshots into works of art.",
+    "activity_question": "What did Instagram allow users to do with their photos?",
+    "activity_choices": [
+      "Add cool filters",
+      "Print them instantly",
+      "Sell them online",
+      "Turn them into emojis"
+    ],
+    "activity_answer": "Add cool filters",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What's your favorite type of photo to take?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "383",
+    "title": "A Young Voice for Change",
+    "story": "Jazz Jennings burst onto the scene as a powerful advocate for transgender rights. Born on October 6, 2000, in South Florida, she became one of the youngest people to publicly share her journey as a transgender individual. Jazz's bravery and openness helped educate many about gender identity, inspiring others to embrace their true selves.",
+    "activity_question": "What did Jazz Jennings become an advocate for?",
+    "activity_choices": [
+      "Transgender rights",
+      "Animal welfare",
+      "Environmental protection",
+      "Space exploration"
+    ],
+    "activity_answer": "Transgender rights",
+    "suitable_for_8_to_12_year_old": false,
+    "follow_up_question": "How do you think sharing personal stories can help create understanding?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "384",
+    "title": "YouTube Star Ryan Kaji Enters the World",
+    "story": "A tiny star was born in California on October 6, 2011. Ryan Kaji, the future face of 'Ryan's World' on YouTube, arrived with big dreams ahead. Little did anyone know that this baby boy would grow up to captivate millions of kids worldwide with his toy reviews and fun adventures. Ryan's infectious smile and curiosity would soon make him a household name in the world of online entertainment.",
+    "activity_question": "What is Ryan Kaji known for on YouTube?",
+    "activity_choices": [
+      "Toy reviews",
+      "Cooking shows",
+      "Science experiments",
+      "Dance tutorials"
+    ],
+    "activity_answer": "Toy reviews",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What kind of videos would you make if you had a YouTube channel?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "112",
+    "title": "Superman's Love Story Takes Flight",
+    "story": "Sparks flew in the comic book world when Superman and Lois Lane finally tied the knot! On October 6, 1996, the beloved fictional couple said 'I do' in a special wedding issue. Fans had waited decades to see the Man of Steel and his ace reporter girlfriend become husband and wife. Their marriage brought new adventures and challenges for the iconic duo.",
+    "activity_question": "What did Superman and Lois Lane do in 1996?",
+    "activity_choices": [
+      "Tied the knot",
+      "Broke up",
+      "Moved to Gotham",
+      "Retired from heroics"
+    ],
+    "activity_answer": "Tied the knot",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Superman and Lois Lane first appeared together in Action Comics #1 in 1938.",
+    "score": 80,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "36",
+    "title": "Soaring to New Heights",
+    "story": "Beatrix van Rijk spread her wings and made history! In 1911, she became the first Dutch woman to earn her pilot's license. On October 6, van Rijk took to the skies, breaking barriers and inspiring future generations of female aviators. Her courage and determination opened doors for women in aviation, proving that the sky's the limit for anyone with a dream to fly.",
+    "activity_question": "What did Beatrix van Rijk become in 1911?",
+    "activity_choices": [
+      "The first Dutch woman to earn her pilot's license",
+      "The first woman to fly across the Atlantic",
+      "The inventor of the airplane",
+      "The first person to fly upside down"
+    ],
+    "activity_answer": "The first Dutch woman to earn her pilot's license",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think Beatrix van Rijk's achievement inspired other women?",
+    "score": 80,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "103",
+    "title": "Ulysses: The Sun-Studying Space Explorer",
+    "story": "Blasting off into space, the Ulysses spacecraft began its incredible journey on October 6, 1990. This special robot explorer had a unique mission: to study the Sun from all angles, even its hard-to-see poles! Named after the legendary Greek hero, Ulysses bravely circled our star for nearly two decades, sending back valuable information about solar wind and magnetic fields.",
+    "activity_question": "What was Ulysses designed to study?",
+    "activity_choices": [
+      "The Sun",
+      "The Moon",
+      "Mars",
+      "Jupiter"
+    ],
+    "activity_answer": "The Sun",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it's important for scientists to study the Sun?",
+    "score": 80,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "348",
+    "title": "A Puppeteer's Magical Journey Begins",
+    "story": "In a Kansas City hospital, a baby boy named Matt Vogel took his first breath. Little did anyone know that this child, born in 1970, would grow up to bring joy to millions. Matt became a talented puppeteer, joining the beloved Sesame Street in 1996. His skillful hands would later bring Kermit the Frog and Big Bird to life, continuing their legacy of laughter and learning on October 6 and beyond.",
+    "activity_question": "Which famous character did Matt Vogel start performing as in 2017?",
+    "activity_choices": [
+      "Kermit the Frog",
+      "Big Bird",
+      "Elmo",
+      "Cookie Monster"
+    ],
+    "activity_answer": "Kermit the Frog",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another famous Muppet character?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "355",
+    "title": "Slam Dunk Star: Rebecca Lobo's Journey",
+    "story": "Hoops history was made when Rebecca Lobo bounced into the world in 1973. Born in Hartford, Connecticut on October 6, this future basketball sensation would grow up to dominate the court. Lobo's talent led her to Olympic glory, snagging a gold medal in 1996. She then became a key player for the New York Liberty in the WNBA, inspiring young athletes everywhere.",
+    "activity_question": "What team did Rebecca Lobo play for in the WNBA?",
+    "activity_choices": [
+      "New York Liberty",
+      "Connecticut Sun",
+      "Los Angeles Sparks",
+      "Chicago Sky"
+    ],
+    "activity_answer": "New York Liberty",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What other sports do you think Rebecca Lobo might have excelled at?",
+    "score": 80,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "128",
+    "title": "Golden Knights Shine in NHL Debut",
+    "story": "Skates flashed and sticks clacked as a new team took the ice. The Vegas Golden Knights burst onto the hockey scene in 2017, facing the Dallas Stars. In their very first National Hockey League game on October 6, the Knights proved they were no rookies. They outskated and outscored their opponents, clinching an impressive 2-1 victory. It was a golden start for Vegas, showing they were ready to compete with the best.",
+    "activity_question": "Who did the Vegas Golden Knights play in their first NHL game?",
+    "activity_choices": [
+      "The Dallas Stars",
+      "The Chicago Blackhawks",
+      "The New York Rangers",
+      "The Mighty Ducks"
+    ],
+    "activity_answer": "The Dallas Stars",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What was the final score of the Golden Knights first game?",
+    "score": 80,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "130",
+    "title": "Rugby Triumph for New Zealand",
+    "story": "Cheers erupted as New Zealand's All Blacks clinched victory in Pretoria. On October 6, 2018, they outscored South Africa's Springboks with four tries to three, securing a 32-20 win. This thrilling match not only gave New Zealand their sixth Rugby Championship overall but also marked their third consecutive title. The All Blacks' impressive performance showcased their dominance in the sport.",
+    "activity_question": "What did New Zealand achieve with their victory?",
+    "activity_choices": [
+      "Their sixth Rugby Championship overall",
+      "Their first Rugby Championship",
+      "A world record for tries scored",
+      "A victory against Australia"
+    ],
+    "activity_answer": "Their sixth Rugby Championship overall",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How many tries did New Zealand score in the match?",
+    "score": 80,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "354",
+    "title": "A Funny Man's First Laugh",
+    "story": "Jeff B. Davis let out his first giggle in 1973. Born on October 6 in Los Angeles, this future funnyman would grow up to make millions laugh. Davis became famous for his quick wit and spot-on impressions on the hit TV show 'Whose Line Is It Anyway?'. His talent for comedy has kept audiences in stitches for years.",
+    "activity_question": "What TV show is Jeff B. Davis known for?",
+    "activity_choices": [
+      "'Whose Line Is It Anyway?'",
+      "Saturday Night Live",
+      "The Tonight Show",
+      "America's Got Talent"
+    ],
+    "activity_answer": "'Whose Line Is It Anyway?'",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What special skill is Jeff B. Davis known for besides comedy?",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "276",
+    "title": "X-ray Vision: A Nobel Scientist's Birth",
+    "story": "Riccardo Giacconi, a brilliant mind who would change how we see the universe, entered the world in Genoa, Italy. Born in 1931, this future astrophysicist would grow up to pioneer X-ray astronomy. His groundbreaking work earned him the Nobel Prize in Physics in 2002. Giacconi's discoveries on October 6 opened our eyes to the hot, energetic side of space.",
+    "activity_question": "What field of astronomy did Riccardo Giacconi pioneer?",
+    "activity_choices": [
+      "X-ray astronomy",
+      "Radio astronomy",
+      "Infrared astronomy",
+      "Gamma-ray astronomy"
+    ],
+    "activity_answer": "X-ray astronomy",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you think of other ways X-rays are used besides looking at space?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "380",
+    "title": "Loyle Carner: Rapper with a Twist",
+    "story": "Loyle Carner burst onto the music scene with a unique style. Born in London on October 6, 1994, this English rapper's real name is Benjamin Coyle-Larner. He cleverly created his stage name by mixing up the letters in his surname. Carner's thoughtful lyrics and smooth flow quickly caught the attention of hip-hop fans and critics alike.",
+    "activity_question": "What is Loyle Carner's real name?",
+    "activity_choices": [
+      "Benjamin Coyle-Larner",
+      "Loyle Carter",
+      "Benjamin Larner-Coyle",
+      "Coyle Benjamin"
+    ],
+    "activity_answer": "Benjamin Coyle-Larner",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you figure out how Loyle Carner created his stage name from his real name?",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Tick Tock Goes the Self-Winding Clock",
+    "story": "Clocks got a clever upgrade in 1783. Benjamin Hanks, a clever inventor, patented a special timepiece on October 6. His creation was a self-winding clock that didn't need someone to wind it up every day. This smart clock used changes in air pressure to keep itself running. Hanks' invention marked a big step forward in timekeeping technology.",
+    "activity_question": "What did Benjamin Hanks patent?",
+    "activity_choices": [
+      "A self-winding clock",
+      "A pocket watch",
+      "A sundial",
+      "A water clock"
+    ],
+    "activity_answer": "A self-winding clock",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How did Hanks' clock keep itself running?",
+    "score": 65,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "155",
+    "title": "A Play That Never Stops",
+    "story": "Curtains up! Agatha Christie's mystery play 'The Mousetrap' first thrilled audiences in London in 1952. Amazingly, it's still running today, making it the longest-running show in theater history. On October 6 that year, theatergoers were captivated by a whodunit set in a snowy guesthouse. Little did they know they were witnessing the start of a record-breaking performance!",
+    "activity_question": "What type of play is 'The Mousetrap'?",
+    "activity_choices": [
+      "A comedy",
+      "A musical",
+      "A mystery",
+      "A romance"
+    ],
+    "activity_answer": "A mystery",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Agatha Christie is famous for writing many popular detective novels featuring characters like Hercule Poirot and Miss Marple.",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "119",
+    "title": "Spacecraft's Close Encounter with Mercury",
+    "story": "Zoom! A spacecraft named MESSENGER raced past the planet Mercury, snapping photos as it flew. This exciting flyby on October 6, 2008 was the second time MESSENGER visited Mercury. Scientists eagerly studied the new images, learning more about the smallest planet in our solar system. The mission helped unlock Mercury's secrets!",
+    "activity_question": "What was the name of the spacecraft that flew by Mercury?",
+    "activity_choices": [
+      "MESSENGER",
+      "Voyager",
+      "Hubble",
+      "Curiosity"
+    ],
+    "activity_answer": "MESSENGER",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think scientists were excited to study new images of Mercury?",
+    "score": 75,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "137",
+    "title": "Tiny Tools, Big Impact: Chemistry Prize Winners",
+    "story": "Chemists Benjamin List and David MacMillan made a huge splash in the world of tiny molecules. On October 6, 2021, they won the Nobel Prize in Chemistry for creating a clever new way to build molecules called asymmetric organocatalysis. This tool helps scientists make medicines and other important substances more easily and with less waste.",
+    "activity_question": "What did List and MacMillan win the Nobel Prize for?",
+    "activity_choices": [
+      "Creating a new element",
+      "Developing asymmetric organocatalysis",
+      "Discovering a new planet",
+      "Inventing a super glue"
+    ],
+    "activity_answer": "Developing asymmetric organocatalysis",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you think of any medicines that might be made using this new tool?",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "143",
+    "title": "A Royal Return: King Faces the People",
+    "story": "Angry crowds marched to Versailles! King Louis XVI of France faced a tough choice in 1789. On October 6, he decided to leave his grand palace and return to Paris with the people. This moment marked a big shift in the French Revolution, as the king had to listen to the demands of ordinary citizens.",
+    "activity_question": "Where did King Louis XVI return from?",
+    "activity_choices": [
+      "Versailles",
+      "London",
+      "Rome",
+      "Madrid"
+    ],
+    "activity_answer": "Versailles",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think the people wanted the king to come back to Paris?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "174",
+    "title": "Hockey Hero's Hat Trick Triumph",
+    "story": "Swish! The puck flew into the net, and the crowd erupted. Mike Bossy, star player for the New York Islanders, had just scored his 25th career hat trick in 1983. On October 6, Bossy's lightning-fast moves and precise shots dazzled fans and opponents alike. His incredible feat showcased why he was considered one of hockey's greatest goal-scorers.",
+    "activity_question": "What team did Mike Bossy play for?",
+    "activity_choices": [
+      "New York Islanders",
+      "Boston Bruins",
+      "Montreal Canadiens",
+      "Toronto Maple Leafs"
+    ],
+    "activity_answer": "New York Islanders",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Do you know what a 'hat trick' means in hockey?",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "175",
+    "title": "Alain Prost's Formula 1 Victory Lap",
+    "story": "Engines roared as Alain Prost zoomed across the finish line at Brands Hatch. The French McLaren driver's fourth-place finish in the European Grand Prix was enough to secure his first Formula 1 World Drivers Championship. On October 6, 1985, Prost's dream came true, marking the beginning of his legendary racing career.",
+    "activity_question": "What did Alain Prost win in 1985?",
+    "activity_choices": [
+      "Formula 1 World Drivers Championship",
+      "European Grand Prix",
+      "McLaren Racing Trophy",
+      "Brands Hatch Cup"
+    ],
+    "activity_answer": "Formula 1 World Drivers Championship",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What country is Alain Prost from?",
+    "score": 70,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "78",
+    "title": "The Beatles Rock TV with Music Videos",
+    "story": "Lights, camera, Beatles! In 1968, the Fab Four rocked American television screens. On October 6, The Smothers Brothers Comedy Hour aired groundbreaking promotional films for two hit Beatles songs: 'Hey Jude' and 'Revolution'. These short films, now known as music videos, brought the band's electrifying performances right into living rooms across the USA.",
+    "activity_question": "What were the two Beatles songs featured in the promotional films?",
+    "activity_choices": [
+      "'Hey Jude' and 'Revolution'",
+      "'Yesterday' and 'Help!'",
+      "'Let It Be' and 'Come Together'",
+      "'Yellow Submarine' and 'Penny Lane'"
+    ],
+    "activity_answer": "'Hey Jude' and 'Revolution'",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What modern term do we use for these promotional films?",
+    "score": 78,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "124",
+    "title": "Neutrino Detectives Win Nobel Prize",
+    "story": "Tiny ghost particles called neutrinos puzzled scientists for years. But in 2015, Takaaki Kajita and Arthur McDonald cracked the case! On October 6, these clever physicists from Japan and Canada won the Nobel Prize in Physics. They discovered that neutrinos can change identities, solving a big mystery about these elusive cosmic travelers.",
+    "activity_question": "What did Kajita and McDonald discover about neutrinos?",
+    "activity_choices": [
+      "They can change identities",
+      "They are visible to the naked eye",
+      "They only exist on Earth",
+      "They taste like strawberries"
+    ],
+    "activity_answer": "They can change identities",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think neutrinos are called 'ghost particles'?",
+    "optional_type": "follow_up_question",
+    "score": 78,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "20",
+    "title": "Voices of Freedom: Fisk Jubilee Singers Tour",
+    "story": "Powerful voices filled the air as the Fisk Jubilee Singers took the stage in Cincinnati. This African-American a cappella group from Nashville's Fisk University began their first national tour on October 6, 1871. Their soulful performances of spirituals and folk songs would soon captivate audiences across America, breaking barriers and sharing rich musical traditions.",
+    "activity_question": "Where did the Fisk Jubilee Singers begin their first national tour?",
+    "activity_choices": [
+      "Cincinnati",
+      "Nashville",
+      "New York",
+      "Chicago"
+    ],
+    "activity_answer": "Cincinnati",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The Fisk Jubilee Singers helped raise money to support their university through their performances.",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "52",
+    "title": "A Wild New Home for Animals",
+    "story": "Roars and squawks filled the air as the Zoological Gardens opened its gates in San Francisco. On October 6, 1940, curious visitors flocked to see exotic creatures at the corner of Sloat and Skyline Boulevards. This new zoo gave animals a spacious home with sweeping views of the Pacific Ocean. Families marveled at lions, monkeys, and colorful birds in their naturalistic habitats.",
+    "activity_question": "Where in San Francisco did the Zoological Gardens open?",
+    "activity_choices": [
+      "At Sloat & Skyline Boulevards",
+      "Near the Golden Gate Bridge",
+      "In Golden Gate Park",
+      "On Fisherman's Wharf"
+    ],
+    "activity_answer": "At Sloat & Skyline Boulevards",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What ocean could visitors see from the new zoo?",
+    "score": 75,
+    "categories": [
+      "Creature Feature"
+    ]
+  },
+  {
+    "id": "57",
+    "title": "Canadian Heroes Liberate Austria",
+    "story": "Tanks rumbled and soldiers cheered as Canadian troops rolled into Austria. It was October 6, 1944, and these brave men were freeing the country from Nazi control. The Canadians fought hard, pushing back enemy forces town by town. Their arrival brought hope to Austrian people who had suffered under harsh rule for years. This important victory helped turn the tide of World War II in Europe.",
+    "activity_question": "What country did Canadian troops free in 1944?",
+    "activity_choices": [
+      "Austria",
+      "Germany",
+      "France",
+      "Italy"
+    ],
+    "activity_answer": "Austria",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think the Austrian people were happy to see the Canadian soldiers?",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "249",
+    "title": "A Nobel-Worthy Birthday",
+    "story": "Ernest Walton, born in Abbeyside, Ireland in 1903, would grow up to make a big splash in science. This future physicist helped build the worlds earliest particle accelerator. His groundbreaking work earned him the Nobel Prize in 1951, putting Ireland on the map for major scientific discoveries.",
+    "activity_question": "What did Ernest Walton help build?",
+    "activity_choices": [
+      "The worlds earliest particle accelerator",
+      "The first computer in Ireland",
+      "A giant telescope",
+      "A time machine"
+    ],
+    "activity_answer": "The worlds earliest particle accelerator",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What prize did Ernest Walton win for his work?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "257",
+    "title": "Meret Oppenheim: Surrealist Artist Extraordinaire",
+    "story": "Fur-covered teacups? That's the kind of wild art Meret Oppenheim created! Born in Berlin in 1913 on October 6, this Swiss surrealist artist loved to surprise people. Oppenheim mixed everyday objects in strange ways, making viewers see the world differently. Her famous furry teacup sculpture shocked and delighted art fans, showing how creative and daring she was.",
+    "activity_question": "What kind of artist was Meret Oppenheim?",
+    "activity_choices": [
+      "Impressionist",
+      "Surrealist",
+      "Renaissance",
+      "Cubist"
+    ],
+    "activity_answer": "Surrealist",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you think of an everyday object that would be funny or strange if covered in fur?",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "303",
+    "title": "Millie Small: Jamaica's Ska Sensation",
+    "story": "Millie Small, the voice behind the catchy tune 'My Boy Lollipop', entered the world in 1946. Born in Clarendon, Jamaica on October 6, this talented singer and songwriter would grow up to become a ska music sensation. Small's upbeat melodies and cheerful voice helped introduce ska to audiences around the globe, spreading the joyful sounds of her island home.",
+    "activity_question": "What famous song was Millie Small known for?",
+    "activity_choices": [
+      "'My Boy Lollipop'",
+      "'Jamaica Jam'",
+      "'Ska Skies'",
+      "'Clarendon Beats'"
+    ],
+    "activity_answer": "'My Boy Lollipop'",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Ska is a lively music genre that originated in Jamaica in the late 1950s.",
+    "score": 80,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "185",
+    "title": "Movie Magic Comes to Life",
+    "story": "Fans at the Hollywood Bowl got a surprise on October 6, 2012. Actor John Cusack walked on stage and handed singer Peter Gabriel a boombox. This was a nod to Cusack's famous scene in the movie 'Say Anything...'. Gabriel then performed his hit song 'In Your Eyes', just like in the film. The crowd went wild for this real-life movie moment!",
+    "activity_question": "What did John Cusack hand to Peter Gabriel on stage?",
+    "activity_choices": [
+      "A boombox",
+      "A microphone",
+      "A guitar",
+      "A movie script"
+    ],
+    "activity_answer": "A boombox",
+    "suitable_for_8_to_12_year_old": false,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Have you ever seen a movie scene recreated in real life?",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "333",
+    "title": "Marathon Queen Born in Leipzig",
+    "story": "Lace up those running shoes! Kathrin Dörre-Heinig, a German marathon superstar, took her first steps on October 6, 1961. Born in Leipzig, she grew up to become a champion athlete. Dörre-Heinig won the London, Tokyo, and Hamburg Marathons three times each! Her speed and endurance even earned her an Olympic bronze medal in 1988.",
+    "activity_question": "Which city was Kathrin Dörre-Heinig born in?",
+    "activity_choices": [
+      "Leipzig",
+      "London",
+      "Tokyo",
+      "Hamburg"
+    ],
+    "activity_answer": "Leipzig",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How many times did Dörre-Heinig win the London Marathon?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "70",
+    "title": "Luna 3's Lunar Snapshot Adventure",
+    "story": "Zoom! A space camera rocketed toward the Moon. Luna 3, launched by the Soviet Union, became the first spacecraft to snap photos of the Moon's far side in 1959. On October 6, after its mission, Luna 3 dramatically crashed into the lunar surface. Its groundbreaking images revealed a landscape no human eyes had ever seen before!",
+    "activity_question": "What did Luna 3 accomplish for the first time?",
+    "activity_choices": [
+      "Took photos of the Moon's far side",
+      "Landed safely on the Moon",
+      "Brought Moon rocks back to Earth",
+      "Discovered alien life on the Moon"
+    ],
+    "activity_answer": "Took photos of the Moon's far side",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it was important to see the far side of the Moon?",
+    "score": 70,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "89",
+    "title": "Breaking Barriers in Higher Education",
+    "story": "Cheers erupted as Hannah H. Gray made history. In 1978, she became the first woman to lead a major American university. The University of Chicago welcomed her as its new president on October 6. Gray's appointment opened doors for women in academia, inspiring future generations to reach for the stars in education.",
+    "activity_question": "What milestone did Hannah H. Gray achieve?",
+    "activity_choices": [
+      "Became the first woman to lead a major American university",
+      "Won a Nobel Prize in Education",
+      "Invented a new teaching method",
+      "Wrote a bestselling textbook"
+    ],
+    "activity_answer": "Became the first woman to lead a major American university",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it's important for women to have leadership roles in education?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "111",
+    "title": "Hockey's New Team Takes the Ice",
+    "story": "Skates sliced across fresh ice as the Colorado Avalanche made their thrilling debut. On October 6, 1995, this brand-new hockey team faced off against the Detroit Red Wings. Fans cheered as the Avalanche, who had just moved from Quebec, scored a victory in their very first National Hockey League game. It was an exciting start for Colorado's new sports heroes!",
+    "activity_question": "Which team did the Colorado Avalanche defeat in their first NHL game?",
+    "activity_choices": [
+      "Detroit Red Wings",
+      "Quebec Nordiques",
+      "Montreal Canadiens",
+      "Snowy Penguins"
+    ],
+    "activity_answer": "Detroit Red Wings",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What was the name of the team before they became the Colorado Avalanche?",
+    "score": 70,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "135",
+    "title": "Music Returns to Carnegie Hall",
+    "story": "After a long silence, the world-famous Carnegie Hall in New York City came alive with music again. In 2021, the grand concert venue reopened its doors on October 6 following an 18-month shutdown due to the pandemic. The Philadelphia Orchestra, led by conductor Yannick Nézet-Séguin, filled the hall with beautiful melodies, marking a joyous return to live performances.",
+    "activity_question": "Who conducted the reopening concert at Carnegie Hall?",
+    "activity_choices": [
+      "Yannick Nézet-Séguin",
+      "Leonard Bernstein",
+      "Gustav Mahler",
+      "Beethoven"
+    ],
+    "activity_answer": "Yannick Nézet-Séguin",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it was important for Carnegie Hall to reopen after the pandemic?",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "161",
+    "title": "George Harrison's Beatles Breakthrough",
+    "story": "Guitar strings hummed as George Harrison's song 'Something' hit the airwaves. On October 6, 1969, The Beatles released this single in the US. It marked a special moment for Harrison. For the first time, one of his compositions landed the coveted 'A' side of a Beatles record. The tune's beautiful melody and heartfelt lyrics quickly won over fans and fellow musicians alike.",
+    "activity_question": "What was special about the release of 'Something' for George Harrison?",
+    "activity_choices": [
+      "It was his first 'A' side composition",
+      "It was his last song with The Beatles",
+      "It was recorded in the US",
+      "It featured a banjo solo"
+    ],
+    "activity_answer": "It was his first 'A' side composition",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "'Something' became one of The Beatles' most covered songs, with over 150 artists recording their own versions.",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "320",
+    "title": "From Player to Super Bowl Champion Coach",
+    "story": "Tony Dungy's football journey began when he was born in Jackson, Michigan in 1955. He grew up to become a legendary coach, leading the Indianapolis Colts to victory in Super Bowl XLI. Dungy's brilliant strategies and leadership skills earned him a spot in the Pro Football Hall of Fame. On October 6, we celebrate the birth of this coaching icon.",
+    "activity_question": "Which team did Tony Dungy lead to a Super Bowl victory?",
+    "activity_choices": [
+      "Indianapolis Colts",
+      "TB Buccaneers",
+      "Jackson Wolverines",
+      "Michigan Spartans"
+    ],
+    "activity_answer": "Indianapolis Colts",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Tony Dungy was named NFL Coach of the Year twice, in 1997 and 2005.",
+    "score": 65,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "361",
+    "title": "A Star is Born: Barbie Hsu's Arrival",
+    "story": "Lights, camera, action! On October 6, 1976, a future star entered the world. Barbie Hsu, destined to become a famous Taiwanese actress, singer, and TV personality, was born in Taipei City. She would later dazzle audiences in the hit show 'Meteor Garden' and charm fans with her Mando-pop music.",
+    "activity_question": "What hit show did Barbie Hsu star in?",
+    "activity_choices": [
+      "Meteor Garden",
+      "Star Trek",
+      "Friends",
+      "Barbie World"
+    ],
+    "activity_answer": "Meteor Garden",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What other talents did Barbie Hsu have besides acting?",
+    "score": 65,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "363",
+    "title": "Flobots Frontman Rides into Music History",
+    "story": "Jamie Laurie, the voice behind the catchy hit 'Handlebars', entered the world in Denver, Colorado. Born in 1977 on October 6, he grew up to become the lead rapper of Flobots. This American musician blends rock and rap, creating a unique sound that would later captivate listeners across the nation.",
+    "activity_question": "What famous song is Jamie Laurie known for?",
+    "activity_choices": [
+      "Handlebars",
+      "Bicycle",
+      "Unicycle",
+      "Tricycle"
+    ],
+    "activity_answer": "Handlebars",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name another band that mixes rap and rock?",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "22",
+    "title": "Batter Up! The First World Series",
+    "story": "Cheers erupted as the Cincinnati Red Stockings stepped up to the plate. It was 1882, and baseball fans were buzzing with excitement. On October 6, the very first World Series game kicked off at Bank Street Grounds in Cincinnati. The Red Stockings faced off against the Chicago White Stockings, scoring a shutout victory of 4-0. This historic match marked the beginning of a beloved American tradition.",
+    "activity_question": "Which team won the first World Series game?",
+    "activity_choices": [
+      "Cincinnati Red Stockings",
+      "Chicago White Stockings",
+      "New York Yankees",
+      "Boston Red Sox"
+    ],
+    "activity_answer": "Cincinnati Red Stockings",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The 'World Series' name wasn't used until years later. This early championship was called the 'Championship of the United States.'",
+    "score": 70,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  }
+]

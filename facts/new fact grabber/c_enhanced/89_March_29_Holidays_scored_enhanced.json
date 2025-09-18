@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Sweet and Fluffy Lemon Dreams",
+    "story": "Bakers across the country whip up something magical on March 29 for National Lemon Chiffon Cake Day! This isn't your ordinary cake - it's incredibly light and airy, almost like eating a sweet lemon cloud. The secret is folding beaten egg whites into the batter, making it super fluffy. People celebrate by baking their own chiffon cakes or buying slices from bakeries. Many share photos of their towering, golden creations online, and some even host lemon-themed parties where everything tastes citrusy and bright!",
+    "activity_question": "What makes lemon chiffon cake so light and fluffy?",
+    "activity_choices": [
+      "Adding beaten egg whites to the batter",
+      "Using extra butter and sugar",
+      "Baking it at a very high temperature",
+      "Adding fizzy soda to the mix"
+    ],
+    "activity_answer": "Adding beaten egg whites to the batter",
+    "bonus_fact": "Chiffon cake was invented in 1927 but kept secret for 20 years!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  },
+  {
+    "id": "902",
+    "title": "Small Business, Big Heart Day",
+    "story": "Every March 29, we celebrate the small family businesses that make our neighborhoods special! National Mom and Pop Business Owners Day honors those corner stores, local restaurants, and family shops where everyone knows your name. People show support by shopping at small businesses instead of big chains, posting photos of their favorite local spots, and thanking hardworking business owners who serve their communities with pride.",
+    "activity_question": "What do people do to celebrate National Mom and Pop Business Owners Day?",
+    "activity_choices": [
+      "Shop at small family businesses",
+      "Only visit big chain stores",
+      "Stay home all day",
+      "Write letters to the government"
+    ],
+    "activity_answer": "Shop at small family businesses",
+    "follow_up_question": "What's your favorite small business in your neighborhood and why?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 50
+  },
+  {
+    "id": "903",
+    "title": "Smoke and Mirrors Day: Nothing Is As It Seems!",
+    "story": "Every March 29, people celebrate the art of illusion and trickery on Smoke and Mirrors Day! This quirky holiday encourages everyone to question what they see and think about how things aren't always what they appear to be. Magicians love this day and often perform special shows filled with mind-bending tricks. Some people share optical illusions online or try learning simple magic tricks to fool their friends and family. Others use the day to talk about being careful with information and not believing everything at first glance. It's a perfect time to practice critical thinking while having fun with the mysterious world of illusions!",
+    "activity_question": "What do magicians especially like to do on Smoke and Mirrors Day?",
+    "activity_choices": [
+      "Perform special shows with mind-bending tricks",
+      "Make actual smoke disappear",
+      "Break all their mirrors for good luck",
+      "Only eat foods that are black and white"
+    ],
+    "activity_answer": "Perform special shows with mind-bending tricks",
+    "follow_up_question": "What's the coolest magic trick or optical illusion you've ever seen?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 88
+  }
+]

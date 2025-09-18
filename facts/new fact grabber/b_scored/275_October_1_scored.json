@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "original": "International Coffee Day",
+    "score": 55,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 2,
+    "original": "World Vegetarian Day",
+    "score": 58,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "International Day of Older Persons",
+    "score": 55,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "CD Player Day",
+    "score": 65,
+    "is_kid_friendly": true
+  }
+]

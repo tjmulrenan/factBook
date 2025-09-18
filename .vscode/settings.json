@@ -1,0 +1,31 @@
+{
+  "python-envs.defaultEnvManager": "ms-python.python:system",
+  "python-envs.pythonProjects": [],
+
+  // Prettier as the default formatter
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Format JS/TS with Prettier
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Format Python with Black (if installed in your Python env)
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+
+  // Auto-format on save globally
+  "editor.formatOnSave": true,
+
+  // Tell VS Code not to validate mcp.json
+  "json.schemas": [
+    {
+      "fileMatch": ["mcp.json"],
+      "schema": {}
+    }
+  ]
+}

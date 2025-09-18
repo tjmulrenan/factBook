@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Sweet Dreams Come True Day",
+    "story": "Every October 14, dessert lovers across America celebrate National Dessert Day by indulging in their favorite sweet treats! Bakeries offer special deals on cakes, cookies, and pastries, while ice cream shops create unique flavors just for the day. Families bake together at home, trying new recipes or making old favorites like chocolate chip cookies or brownies. Social media fills with drool-worthy photos of elaborate desserts, from towering layer cakes to colorful macarons. Restaurants often feature special dessert menus, and some people even eat dessert for breakfast because, hey, it's National Dessert Day! The holiday reminds us that life is sweeter when we take time to enjoy the little pleasures.",
+    "activity_question": "What do bakeries often do on National Dessert Day?",
+    "activity_choices": [
+      "Offer special deals on sweet treats",
+      "Close early to eat dessert",
+      "Only sell vegetables",
+      "Give away free toothbrushes"
+    ],
+    "activity_answer": "Offer special deals on sweet treats",
+    "follow_up_question": "What's the most creative dessert you've ever seen or tasted?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Crunchy Chocolate Bug Bites!",
+    "story": "Crickets covered in chocolate might sound gross, but they're actually crunchy and delicious! On October 14, adventurous eaters celebrate National Chocolate Covered Insects Day by trying bugs dipped in sweet chocolate. Many restaurants now serve chocolate-covered crickets, mealworms, and ants as fancy snacks. These tiny treats are packed with protein and taste surprisingly nutty. Food bloggers post photos of their bug-eating adventures, and some candy shops sell chocolate insects year-round. Kids who try them often say they taste like chocolate-covered popcorn. It's the perfect day to be brave and munch on something most people would never imagine eating!",
+    "activity_question": "What do chocolate-covered insects supposedly taste like?",
+    "activity_choices": [
+      "Chocolate-covered popcorn",
+      "Chicken nuggets",
+      "Cotton candy",
+      "Pizza"
+    ],
+    "activity_answer": "Chocolate-covered popcorn",
+    "bonus_fact": "Insects are eaten by over 2 billion people worldwide as regular food!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "903",
+    "title": "Be Bald and Be Free Day",
+    "story": "Shiny heads everywhere shine extra bright on October 14 during Be Bald and Be Free Day! This awesome holiday celebrates people who are bald by choice or by nature. Some folks shave their heads just for today, while others who are already bald show off their smooth domes with pride. People post selfies of their bald heads on social media, wear funny hats, or go completely hat-free to feel the breeze. It's all about embracing what makes you unique and feeling confident in your own skin!",
+    "activity_question": "What do some people do with their heads just for this holiday?",
+    "activity_choices": [
+      "Shave their heads",
+      "Dye their hair purple",
+      "Wear wigs all day",
+      "Cover them with stickers"
+    ],
+    "activity_answer": "Shave their heads",
+    "follow_up_question": "What other things make people unique that they should celebrate?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  }
+]

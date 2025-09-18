@@ -1,0 +1,102 @@
+[
+  {
+    "id": "901",
+    "title": "Twirl and Swirl: National Pasta Day!",
+    "story": "Every October 17, pasta lovers across America celebrate National Pasta Day by diving fork-first into their favorite noodle dishes! Restaurants offer special pasta deals, families cook up giant pots of spaghetti, and social media fills with photos of colorful bowls topped with sauce, cheese, and herbs. Some people try making fresh pasta from scratch, rolling out long ribbons of dough and cutting them into perfect strips. Others host pasta parties where everyone brings a different shape - from tiny shells to giant rigatoni tubes. Food bloggers share creative recipes mixing unexpected ingredients, while Italian restaurants see their busiest day of the year as customers line up for authentic carbonara and lasagna.",
+    "activity_question": "What do restaurants typically offer on National Pasta Day?",
+    "activity_choices": [
+      "Special pasta deals",
+      "Free cooking lessons",
+      "Pasta-making contests",
+      "Giant fork giveaways"
+    ],
+    "activity_answer": "Special pasta deals",
+    "bonus_fact": "Americans eat about 6 billion pounds of pasta every year!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "902",
+    "title": "Gaudy and Proud: The Flashiest Fashion Day",
+    "story": "October 17 is the one day when wearing clashing colors and sparkly accessories is totally encouraged! Wear Something Gaudy Day celebrates bold, over-the-top fashion choices that would normally make people stare. People dig out their brightest shirts, wildest patterns, and most outrageous jewelry to create eye-popping outfits. Schools and offices often join the fun, with everyone showing up in neon colors, glittery accessories, and mismatched socks. Social media fills with photos of people proudly showing off their gaudiest looks. It's a day to throw fashion rules out the window and embrace being wonderfully, ridiculously flashy!",
+    "activity_question": "What do people typically wear on Wear Something Gaudy Day?",
+    "activity_choices": [
+      "Bright colors and sparkly accessories",
+      "All black clothing",
+      "Their pajamas",
+      "School uniforms"
+    ],
+    "activity_answer": "Bright colors and sparkly accessories",
+    "follow_up_question": "What's the gaudiest outfit you could put together from your closet?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "903",
+    "title": "Second Chances and Do-Overs Galore!",
+    "story": "Every October 17, people celebrate National Mulligan Day by giving themselves and others second chances! A mulligan means getting a do-over when something goes wrong. On this special day, friends forgive mistakes, teachers might let students retake a test, and families start fresh after arguments. Some people use their mulligan to try a new hobby they failed at before or apologize for something they messed up. It's like having a magic eraser for life's little mistakes!",
+    "activity_question": "What does a 'mulligan' mean?",
+    "activity_choices": [
+      "Getting a second chance or do-over",
+      "A type of sandwich",
+      "A dance move",
+      "A lucky coin"
+    ],
+    "activity_answer": "Getting a second chance or do-over",
+    "follow_up_question": "What mistake would you most like to get a mulligan for?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "904",
+    "title": "Spreadsheet Day: Celebrating Cells and Formulas",
+    "story": "Every October 17, computer fans celebrate Spreadsheet Day by honoring those amazing grids of rows and columns that help organize data. People share their coolest spreadsheet tricks online, create fun charts, and even make pixel art using colored cells. Some offices hold contests for the most creative use of formulas!",
+    "activity_question": "What do people sometimes create using colored cells in spreadsheets?",
+    "activity_choices": [
+      "Pixel art",
+      "Real paintings",
+      "Music videos",
+      "Paper airplanes"
+    ],
+    "activity_answer": "Pixel art",
+    "bonus_fact": "The first spreadsheet program was called VisiCalc and came out in 1979.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 48
+  },
+  {
+    "id": "905",
+    "title": "Words That Sing and Stories That Soar",
+    "story": "Every October 17, people across America celebrate National Black Poetry Day by sharing powerful poems written by Black poets. Libraries host special readings where kids and adults take turns reading verses out loud. Schools organize poetry contests and students learn about famous poets like Langston Hughes and Maya Angelou. Bookstores display collections of Black poetry, and social media fills with people posting their favorite lines and verses. It's a day to discover how words can paint pictures, tell stories, and share feelings in the most beautiful ways.",
+    "activity_question": "What do libraries often do on National Black Poetry Day?",
+    "activity_choices": [
+      "Host special poetry readings",
+      "Give away free pizza",
+      "Close early for the day",
+      "Only allow silent reading"
+    ],
+    "activity_answer": "Host special poetry readings",
+    "follow_up_question": "What feelings or pictures could you create if you wrote your own poem?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  }
+]

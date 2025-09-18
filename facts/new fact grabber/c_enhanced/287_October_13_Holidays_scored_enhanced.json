@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Ready for Anything Day",
+    "story": "Every October 13, people around the world celebrate International Day for Disaster Risk Reduction by learning how to stay safe when emergencies happen. Schools practice fire drills, families create emergency kits with water and flashlights, and communities share tips about preparing for storms, earthquakes, or floods. It's like a global safety training day where everyone becomes a disaster superhero by knowing what to do when trouble strikes!",
+    "activity_question": "What do families often create on International Day for Disaster Risk Reduction?",
+    "activity_choices": [
+      "Emergency kits with water and flashlights",
+      "Giant birthday cakes",
+      "Paper airplanes",
+      "Treasure maps"
+    ],
+    "activity_answer": "Emergency kits with water and flashlights",
+    "follow_up_question": "What would you put in your family's emergency kit?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "902",
+    "title": "Puffy Pudding That's Not Really Pudding",
+    "story": "Yorkshire pudding isn't actually pudding at all! On October 13, people across Britain and beyond celebrate this crispy, golden treat that's more like a savory popover. Families make the batter from eggs, flour, and milk, then bake it until it puffs up like a balloon. Some eat it with roast beef dinners, while others fill it with sausages for \"toad in the hole.\"",
+    "activity_question": "What ingredients are used to make Yorkshire pudding batter?",
+    "activity_choices": [
+      "Eggs, flour, and milk",
+      "Sugar, chocolate, and cream",
+      "Potatoes, cheese, and butter",
+      "Apples, cinnamon, and honey"
+    ],
+    "activity_answer": "Eggs, flour, and milk",
+    "bonus_fact": "Yorkshire pudding was originally cooked under roasting meat to catch the drippings!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 50
+  },
+  {
+    "id": "903",
+    "title": "All Aboard the Brain Train!",
+    "story": "Your brain gets a special workout every October 13 on National Train Your Brain Day! People celebrate by doing puzzles, playing memory games, and trying new challenges that make their minds stronger. Kids might solve riddles, learn a new skill, or play brain-teasing apps. Adults often pick up crossword puzzles or try learning a different language. The whole idea is to exercise your brain just like you would exercise your body at the gym!",
+    "activity_question": "What do people do to celebrate National Train Your Brain Day?",
+    "activity_choices": [
+      "Exercise their brains with puzzles and games",
+      "Take their pets to obedience school",
+      "Build model trains all day long",
+      "Sleep extra hours to rest their minds"
+    ],
+    "activity_answer": "Exercise their brains with puzzles and games",
+    "follow_up_question": "What's the most challenging brain exercise you've ever tried?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  }
+]

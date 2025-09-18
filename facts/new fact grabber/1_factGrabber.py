@@ -3,6 +3,10 @@ from bs4 import BeautifulSoup
 import json
 import os
 import re
+import calendar
+import datetime
+
+OUTPUT_DIR = r"C:\Users\timmu\Documents\repos\Factbook Project\facts\new fact grabber\1_raw"
 
 def fetch_onthisday_events(month: str, day: int):
     url = f"https://www.onthisday.com/events/{month.lower()}/{day}"
@@ -13,14 +17,14 @@ def fetch_onthisday_events(month: str, day: int):
         response = requests.get(url, headers=headers)
         response.raise_for_status()
 
-        with open("debug_events_december17.html", "w", encoding="utf-8") as debug_file:
+        debug_path = f"debug_events_{month}_{day}.html"
+        with open(debug_path, "w", encoding="utf-8") as debug_file:
             debug_file.write(response.text)
-        print("📝 Saved raw HTML to debug_december17.html")
+        print(f"📝 Saved raw HTML to {debug_path}")
 
     except Exception as e:
         print(f"❌ Request failed: {e}")
         return []
-
 
     soup = BeautifulSoup(response.text, "html.parser")
     facts = []
@@ -36,7 +40,6 @@ def fetch_onthisday_events(month: str, day: int):
         year = year_tag.get_text(strip=True) if year_tag else None
 
         if not year:
-            # Attempt to extract year and text even if there's no space
             match = re.match(r"^\s*(\d{1,4})(?:\s?(BC|AD))?(.*)", clean_text)
             if not match or not match.group(3).strip():
                 print(f"  ⚠️ Skipping item {i} — missing year or text\n     Raw text: {full_text}")
@@ -49,7 +52,6 @@ def fetch_onthisday_events(month: str, day: int):
         else:
             text = clean_text[len(year):].strip()
 
-
         if not text:
             print(f"  ⚠️ Skipping item {i} — empty text after year removal")
             continue
@@ -59,7 +61,7 @@ def fetch_onthisday_events(month: str, day: int):
             "text": text
         })
 
-    # === POI Highlight Section (e.g. King Alfonso V, sports records, etc.) ===
+    # === POI Highlight Section ===
     poi_blocks = soup.select("div.section--highlight.section--poi p")
     print(f"🟨 Found {len(poi_blocks)} highlighted POI entries")
 
@@ -73,7 +75,7 @@ def fetch_onthisday_events(month: str, day: int):
             continue
 
         year = match.group(1).strip()
-        if match.group(2):  # if "BC" or "AD"
+        if match.group(2):
             year += " " + match.group(2).strip()
         text = match.group(3).strip()
 
@@ -82,7 +84,7 @@ def fetch_onthisday_events(month: str, day: int):
             "text": text
         })
 
-    # === Other Highlight Sections (e.g. Wright Brothers, cultural events) ===
+    # === Other Highlight Sections ===
     other_highlight_blocks = soup.select("div.section--highlight:not(.section--poi) p")
     print(f"🟪 Found {len(other_highlight_blocks)} other highlighted entries")
 
@@ -96,7 +98,7 @@ def fetch_onthisday_events(month: str, day: int):
             continue
 
         year = match.group(1).strip()
-        if match.group(2):  # if "BC" or "AD"
+        if match.group(2):
             year += " " + match.group(2).strip()
         text = match.group(3).strip()
 
@@ -135,7 +137,6 @@ def fetch_birthdays(month: str, day: int):
 
     for i, li in enumerate(birthday_items, 1):
         try:
-            # Try to find the year in an <a> tag, fallback to <b>
             year_tag = li.select_one("a.birthDate") or li.select_one("b")
             full_text = li.get_text(strip=True)
 
@@ -154,36 +155,23 @@ def fetch_birthdays(month: str, day: int):
             print(f"⚠️ Skipped birthday {i} due to parsing error: {e}")
             continue
 
-
     return birthdays
 
-
-
-def save_to_json(month, day, events, birthdays):
-    os.makedirs("facts", exist_ok=True)
-    filename = f"facts/OnThisDay_{month}_{day}.json"
+def save_to_json(day_of_year: int, month: str, day: int, events, birthdays):
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    filename = os.path.join(OUTPUT_DIR, f"{day_of_year}_{month}_{day}.json")
     combined_facts = events + birthdays
     with open(filename, "w", encoding="utf-8") as f:
         json.dump({"Facts": combined_facts}, f, indent=2, ensure_ascii=False)
     print(f"📁 Saved to {filename}")
 
-
-# if __name__ == "__main__":
-#     month_name = "December"
-#     day = 17
-
-#     print(f"\n📅 Scraping {month_name} {day}...")
-#     events = fetch_onthisday_events(month_name, day)
-#     birthdays = fetch_birthdays(month_name, day)
-#     save_to_json(month_name, day, events, birthdays)     
-
-
 if __name__ == "__main__":
-    import calendar
+    # Use a leap year so Feb 29 is included and numbering is 1..366
+    YEAR = 2024
 
     for month_index in range(1, 13):
         month_name = calendar.month_name[month_index]
-        days_in_month = calendar.monthrange(2024, month_index)[1]
+        days_in_month = calendar.monthrange(YEAR, month_index)[1]
 
         for day in range(1, days_in_month + 1):
             print(f"\n📅 Scraping {month_name} {day}...")
@@ -191,9 +179,12 @@ if __name__ == "__main__":
             events = fetch_onthisday_events(month_name, day)
             birthdays = fetch_birthdays(month_name, day)
 
+            # Compute day-of-year including leap day
+            day_of_year = datetime.date(YEAR, month_index, day).timetuple().tm_yday
+
             print(f"📊 Events: {len(events)}")
             print(f"🎉 Birthdays: {len(birthdays)}")
             print(f"📦 Total facts to save: {len(events) + len(birthdays)}")
+            print(f"🧮 Day-of-year: {day_of_year}")
 
-            save_to_json(month_name, day, events, birthdays)
-
+            save_to_json(day_of_year, month_name, day, events, birthdays)

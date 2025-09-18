@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "original": "National Science Fiction Day",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "World Introvert Day",
+    "score": 55,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "Berchtoldstag",
+    "score": 41,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 4,
+    "original": "Kakizome",
+    "score": 65,
+    "is_kid_friendly": true
+  }
+]

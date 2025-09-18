@@ -1,0 +1,1262 @@
+[
+  {
+    "id": "901",
+    "title": "Fresh Start, Fresh Fun!",
+    "story": "Confetti falls like colorful snow as people around the world celebrate New Year's Day on January 1st! This special holiday marks the beginning of a brand new year, and everyone loves to start fresh. People make resolutions - promises to themselves about good things they want to do. Families gather for special meals, often eating foods they believe bring good luck, like black-eyed peas or grapes. Many cities throw huge parades with marching bands and floats. Kids love staying up late on New Year's Eve to watch fireworks light up the sky at midnight, then sleeping in on New Year's Day!",
+    "activity_question": "What do people often make on New Year's Day?",
+    "activity_choices": [
+      "Resolutions",
+      "Snowmen",
+      "Pancakes",
+      "Paper airplanes"
+    ],
+    "activity_answer": "Resolutions",
+    "follow_up_question": "What's one good habit you'd like to start this year?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "902",
+    "title": "Polar Bear Plunge: The Coolest Crazy Tradition",
+    "story": "Thousands of brave people jump into freezing cold ocean water on Polar Bear Plunge Day, celebrated on New Year's Day, January 1st! These \"polar bears\" run straight into icy waves wearing swimsuits, costumes, or sometimes just their regular clothes. Some beaches have organized plunges with hundreds of participants, while others are small groups of friends daring each other to take the chilly dive. People say the shock of cold water wakes them up and gives them energy for the new year. Many participants raise money for charity while they shiver and splash around in the frigid water.",
+    "activity_question": "Why do many people take the plunge?",
+    "activity_choices": [
+      "To raise money for charity",
+      "To learn surfing",
+      "To stay warm",
+      "To study fish"
+    ],
+    "activity_answer": "To raise money for charity.",
+    "bonus_fact": "The biggest polar bear plunge happens in Maryland with over 20,000 participants!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "903",
+    "title": "Ellis Island: Gateway to Dreams Day",
+    "story": "Every January 1st, people celebrate Ellis Island Day to honor the famous immigration station in New York Harbor. From 1892 to 1954, over 12 million immigrants passed through Ellis Island hoping to start new lives in America. Today, families visit the island to learn about their ancestors who came through those doors. Many people research their family histories online or share immigration stories on social media. Museums host special exhibits about the brave journey millions took to reach America.",
+    "activity_question": "How many immigrants passed through Ellis Island during its years of operation?",
+    "activity_choices": [
+      "Over 12 million",
+      "About 5 million",
+      "Nearly 20 million",
+      "Exactly 8 million"
+    ],
+    "activity_answer": "Over 12 million",
+    "follow_up_question": "What stories might your own family have about coming to America?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "904",
+    "title": "Global Family Day: Love Around the World",
+    "story": "Every January 1st, families around the world celebrate Global Family Day by spending extra time together. This special holiday encourages people to put down their phones, turn off the TV, and focus on their loved ones. Families play board games, cook meals together, share stories, and take group photos. Some families create time capsules or write letters to open next year. Many post pictures online with hashtags like #GlobalFamilyDay to show how they're celebrating. It's the perfect way to start the new year by remembering what matters most!",
+    "activity_question": "When is Global Family Day celebrated?",
+    "activity_choices": [
+      "January 1st",
+      "December 25th",
+      "July 4th",
+      "On pizza delivery day"
+    ],
+    "activity_answer": "January 1st",
+    "follow_up_question": "What special activity would you plan for your family on Global Family Day?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "95",
+    "title": "Brooklyn Joins the Big Apple",
+    "story": "Imagine a city so big it swallowed another city whole! That's what happened when Brooklyn, once its own separate place, joined with New York on January 1, 1898. This super-sized merger created the New York City we know today. Suddenly, millions more people became New Yorkers overnight. The city grew not just in population, but in culture, energy, and excitement too. It was the birth of a true urban giant!",
+    "activity_question": "What happened to Brooklyn in 1898?",
+    "activity_choices": [
+      "It merged with New York",
+      "It became its own country",
+      "It sank into the ocean",
+      "It changed its name to Manhattan"
+    ],
+    "activity_answer": "It merged with New York",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "The Brooklyn Bridge had already connected Brooklyn to Manhattan for 15 years before they officially merged.",
+    "optional_type": "bonus_fact",
+    "score": 95,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "94",
+    "title": "A Historic Touchdown for College Football",
+    "story": "Cheers erupted as two teams made history on the football field. In 1897, Atlanta University and Tuskegee Institute faced off in the first-ever game between Black colleges. The match on January 1 was more than just a game; it was a powerful statement. Atlanta U emerged victorious with a score of 10-0, but both teams won by breaking barriers and paving the way for future generations of players.",
+    "activity_question": "Which two teams played in this historic football game?",
+    "activity_choices": [
+      "Atlanta University and Tuskegee Institute",
+      "Harvard and Yale",
+      "Notre Dame and USC",
+      "Grambling State and Southern"
+    ],
+    "activity_answer": "Atlanta University and Tuskegee Institute",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think this game was so important for college football?",
+    "optional_type": "follow_up_question",
+    "score": 94,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "184",
+    "title": "Seeing Through Skin: X-Rays Unveiled",
+    "story": "A strange glow caught Wilhelm Röntgen's eye in his lab. The German physicist had stumbled upon an invisible ray that could pass through solid objects! In 1896, on January 1, Röntgen announced his discovery of x-rays to the world. This breakthrough allowed doctors to see inside the human body without surgery. Röntgen's accidental find revolutionized medicine, helping diagnose broken bones and detect hidden illnesses.",
+    "activity_question": "What did Wilhelm Röntgen discover?",
+    "activity_choices": [
+      "X-rays",
+      "Electricity",
+      "Gravity",
+      "Magnets"
+    ],
+    "activity_answer": "X-rays",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Röntgen took the first x-ray image of a human - his wife's hand with a ring!",
+    "score": 92,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "312",
+    "title": "A Diplomat's Heroic Choice",
+    "story": "Chiune Sugihara was born in 1900, on January 1, in Kozuchi Town, Empire of Japan. He grew up to become a brave diplomat who made a life-changing decision. As Japan's vice-consul in Lithuania during World War II, Sugihara chose to help thousands of Jewish people escape danger. He issued travel visas, giving them a chance to find safety in other countries. His courageous actions saved many lives during a difficult time in history.",
+    "activity_question": "What did Chiune Sugihara do to help Jewish people during World War II?",
+    "activity_choices": [
+      "He issued travel visas",
+      "He built secret shelters",
+      "He donated money",
+      "He wrote protest letters"
+    ],
+    "activity_answer": "He issued travel visas",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think Sugihara's actions were considered brave?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "323",
+    "title": "Kinue Hitomi: Japan's Trailblazing Track Star",
+    "story": "Leaping into history, Kinue Hitomi burst onto the sports scene. Born in Okayama, Japan in 1908, she became a powerhouse in track and field. Hitomi set world records in the 100m, 200m, long jump, and triple jump. Her speed and strength amazed fans worldwide. At the 1928 Olympics, she raced to a silver medal in the 800m, blazing a trail for future athletes on January 1 and beyond.",
+    "activity_question": "In which Olympic event did Kinue Hitomi win a silver medal?",
+    "activity_choices": [
+      "100m",
+      "200m",
+      "800m",
+      "Long jump"
+    ],
+    "activity_answer": "800m",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Kinue Hitomi was the first Japanese woman to win an Olympic medal in athletics.",
+    "score": 92,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "90",
+    "title": "Denmark Syncs Up with Europe",
+    "story": "Tick tock! Denmark decided to join the time party with its European neighbors. In 1894, on January 1, the country switched to Mid-European time. Before this, each town in Denmark set its own time based on the sun. Now, everyone's clocks would tick together, making train schedules and communication much easier. It was a big step towards a more connected world!",
+    "activity_question": "What did Denmark adopt on January 1, 1894?",
+    "activity_choices": [
+      "Mid-European time",
+      "A new flag",
+      "A national anthem",
+      "Daylight saving time"
+    ],
+    "activity_answer": "Mid-European time",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it's important for countries to share the same time?",
+    "optional_type": "follow_up_question",
+    "score": 90,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "200",
+    "title": "Lincoln's Bold Move for Freedom",
+    "story": "President Abraham Lincoln made a daring declaration on January 1, 1863. He issued the Emancipation Proclamation, a powerful document that aimed to free slaves in Confederate states. This bold move during the Civil War changed the course of American history. It declared that all enslaved people in rebel states 'are, and henceforward shall be free.' While it didn't immediately free everyone, the proclamation was a crucial step toward ending slavery in the United States.",
+    "activity_question": "What did Abraham Lincoln issue on January 1, 1863?",
+    "activity_choices": [
+      "The Emancipation Proclamation",
+      "The Declaration of Independence",
+      "The Gettysburg Address",
+      "The Constitution"
+    ],
+    "activity_answer": "The Emancipation Proclamation",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why was the Emancipation Proclamation important for American history?",
+    "score": 90,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "369",
+    "title": "A Hero's Humble Beginnings",
+    "story": "In a small village in India, a baby boy was born who would grow up to change countless lives. Abdul Sattar Edhi came into the world on January 1, 1928, in Bantva, Gujarat. This future Pakistani philanthropist would go on to create the Edhi Foundation, a charity that helps millions of people in need. Edhi's compassion and dedication to serving others made him a true hero in his homeland and beyond.",
+    "activity_question": "What organization did Abdul Sattar Edhi create?",
+    "activity_choices": [
+      "The Edhi Foundation",
+      "The Red Cross",
+      "UNICEF",
+      "The Giving Tree"
+    ],
+    "activity_answer": "The Edhi Foundation",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think Edhi's childhood in India might have influenced his later work helping others?",
+    "score": 90,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "43",
+    "title": "Haiti's Freedom: A Nation Born from Courage",
+    "story": "Imagine a country where former slaves became leaders! That's exactly what happened in Haiti. On January 1, 1804, Haiti declared its independence from France. This wasn't just any ordinary new country. Haiti became the world's first nation founded by people who had once been enslaved. They bravely fought for their freedom and created a place where slavery was not allowed.",
+    "activity_question": "What made Haiti's independence unique?",
+    "activity_choices": [
+      "It was the first nation founded by former slaves",
+      "It was the largest country in the world",
+      "It was founded by France",
+      "It was discovered by Christopher Columbus"
+    ],
+    "activity_answer": "It was the first nation founded by former slaves",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it was important for Haiti to ban slavery when it became independent?",
+    "score": 88,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "119",
+    "title": "Flying High: The First Scheduled Airline",
+    "story": "Soaring over the water, a small airboat made history in 1914. On January 1, the St. Petersburg–Tampa Airboat Line took flight, becoming the world's first scheduled airline. Pilot Tony Jannus flew passengers across the bay in just 23 minutes. This exciting new way to travel was much faster than taking a boat. Though the airline only lasted three months, it paved the way for the future of air travel.",
+    "activity_question": "Who piloted the first scheduled airline flight?",
+    "activity_choices": [
+      "Tony Jannus",
+      "Amelia Earhart",
+      "Charles Lindbergh",
+      "Captain Seaplane"
+    ],
+    "activity_answer": "Tony Jannus",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How long did the flight between St. Petersburg and Tampa take?",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "302",
+    "title": "The Brilliant Mind Behind Quantum Physics",
+    "story": "A scientific genius was born! Satyendra Nath Bose entered the world in Calcutta, British India in 1894. This clever boy grew up to become a famous physicist. Bose made huge discoveries about how tiny particles behave. His work was so important that a whole type of particle was named after him - bosons! Even Albert Einstein was impressed and worked with Bose on special theories.",
+    "activity_question": "What type of particle was named after Satyendra Nath Bose?",
+    "activity_choices": [
+      "Bosons",
+      "Electrons",
+      "Protons",
+      "Neutrons"
+    ],
+    "activity_answer": "Bosons",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another famous physicist who worked with Bose?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "82",
+    "title": "A Massive Engineering Marvel Begins",
+    "story": "Shovels hit dirt as work on the Panama Canal kicked off in 1880. This massive project aimed to create a shortcut for ships between the Atlantic and Pacific Oceans. On January 1, French engineers started digging, facing dense jungles and tough terrain. Though challenges lay ahead, their efforts marked the start of one of history's greatest engineering feats.",
+    "activity_question": "What was the goal of the Panama Canal project?",
+    "activity_choices": [
+      "To create a shortcut for ships",
+      "To build a new city",
+      "To discover buried treasure",
+      "To make the world's biggest swimming pool"
+    ],
+    "activity_answer": "To create a shortcut for ships",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "The canal cuts through the Isthmus of Panama, saving ships thousands of miles of travel.",
+    "optional_type": "bonus_fact",
+    "score": 82,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "173",
+    "title": "A Monster Awakens in Literature",
+    "story": "Lightning crackled as a new kind of monster came to life - not in a lab, but on the pages of a book. In 1818, on January 1, a young writer named Mary Shelley unleashed Frankenstein on the world. Her groundbreaking novel told the chilling tale of a scientist who creates a living creature. At first, the book was published without Shelley's name, keeping the author a mystery.",
+    "activity_question": "What was the name of Mary Shelley's famous novel?",
+    "activity_choices": [
+      "Frankenstein",
+      "The Modern Scientist",
+      "The Lightning Monster",
+      "Dr. Frankenstein's Creation"
+    ],
+    "activity_answer": "Frankenstein",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Mary Shelley was only 20 years old when Frankenstein was published.",
+    "score": 82,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "181",
+    "title": "A Legendary Duo Meets",
+    "story": "Imagine a world without Sherlock Holmes and Dr. Watson! In 1881, author Arthur Conan Doyle brought these iconic characters to life. On January 1, readers first met the brilliant detective and his loyal friend in a thrilling story. Their adventures would captivate millions and inspire countless mysteries. Elementary, my dear reader - a new era of detective fiction had begun!",
+    "activity_question": "Who created the characters Sherlock Holmes and Dr. Watson?",
+    "activity_choices": [
+      "Arthur Conan Doyle",
+      "Agatha Christie",
+      "Edgar Allan Poe",
+      "Sir Isaac Newton"
+    ],
+    "activity_answer": "Arthur Conan Doyle",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name any other famous detective characters from books or movies?",
+    "score": 80,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "259",
+    "title": "Stepping Up: The Escalator Inventor's Birth",
+    "story": "Jesse Reno, born in Fort Leavenworth, Kansas on January 1, 1861, would change the way we move through buildings forever. This clever American engineer invented the first escalator! His creation made climbing between floors as easy as standing still. Reno's invention helps millions of people every day in malls, airports, and subway stations around the world.",
+    "activity_question": "What did Jesse Reno invent?",
+    "activity_choices": [
+      "The first escalator",
+      "The elevator",
+      "The moving sidewalk",
+      "The stairmaster"
+    ],
+    "activity_answer": "The first escalator",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Where might you see an escalator today?",
+    "score": 80,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "346",
+    "title": "A Line Comes to Life",
+    "story": "Squiggles and giggles! In 1920, a special artist was born who would make simple lines hilarious. Osvaldo Cavandoli arrived on January 1 in Maderno, Italy. He grew up to create 'La Linea', a cartoon where a funny little man made of just one line goes on wild adventures. Cavandoli's clever drawings made people laugh all over the world!",
+    "activity_question": "What was the name of the cartoon Osvaldo Cavandoli created?",
+    "activity_choices": [
+      "'La Linea'",
+      "'The Squiggle'",
+      "'The Italian Line'",
+      "'The Funny Man'"
+    ],
+    "activity_answer": "'La Linea'",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "'La Linea' means 'The Line' in Italian, perfectly describing the main character's simple design.",
+    "score": 80,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "384",
+    "title": "Pun-loving Cat Cartoonist Born",
+    "story": "Meow-velous news! A master of feline fun was born in Norwalk, Connecticut in 1935. B. Kliban, the American cartoonist who would later make people laugh with his quirky cat drawings, entered the world on January 1. His cats weren't just cute - they came with hilarious puns like 'Love to Eat Them Mousies.' Kliban's unique humor and artistic style made him a beloved figure in the world of cartooning.",
+    "activity_question": "What kind of animal did B. Kliban famously draw?",
+    "activity_choices": [
+      "Dogs",
+      "Cats",
+      "Mice",
+      "Parrots"
+    ],
+    "activity_answer": "Cats",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you think of a funny pun about cats?",
+    "score": 80,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "168",
+    "title": "Fahrenheit's Hot Idea Warms Up Science",
+    "story": "Glassblower Daniel Gabriel Fahrenheit had a brilliant idea that changed how we measure temperature. In 1724, he invented a new system for making thermometers and a temperature scale. Fahrenheit shared his cool discovery with the Royal Society of London on January 1. Scientists were so impressed, they made him a fellow of their group!",
+    "activity_question": "What did Fahrenheit invent?",
+    "activity_choices": [
+      "A new system for making thermometers",
+      "A way to make glass",
+      "A type of telescope",
+      "A fancy thermometer case"
+    ],
+    "activity_answer": "A new system for making thermometers",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think measuring temperature accurately is important for scientists?",
+    "score": 78,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Gladiators Hang Up Their Swords",
+    "story": "Swords clashed and crowds roared for the final time in Rome's famous arena. The year 404 marked the end of an era as the last gladiator competition took place on January 1. These warriors had battled for centuries, but times were changing. People began to see the fights as too violent. The emperor decided it was time to close this chapter of history.",
+    "activity_question": "What happened in Rome in the year 404?",
+    "activity_choices": [
+      "The last gladiator competition",
+      "The first chariot race",
+      "A big feast for the emperor",
+      "The invention of pizza"
+    ],
+    "activity_answer": "The last gladiator competition",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think gladiator fights were stopped?",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "41",
+    "title": "A Monk's Stellar Discovery",
+    "story": "Stargazing monk Giuseppe Piazzi made a heavenly find in 1801. While mapping the night sky on January 1, he spotted a tiny dot that wasn't in his star charts. This mysterious object turned out to be Ceres, the largest body in the asteroid belt. Originally thought to be a planet, Ceres is now classified as a dwarf planet, orbiting between Mars and Jupiter.",
+    "activity_question": "What did Giuseppe Piazzi discover?",
+    "activity_choices": [
+      "Ceres",
+      "Mars",
+      "Jupiter",
+      "A new star"
+    ],
+    "activity_answer": "Ceres",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why is Ceres called a dwarf planet instead of a regular planet?",
+    "score": 75,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "44",
+    "title": "A Bridge of Iron Changes History",
+    "story": "The world's first iron bridge opened to the public in 1805, spanning the Severn River in England. This amazing structure at Coalbrookdale wasn't just a way to cross water - it was a symbol of progress! Strong and sturdy, the bridge showed how iron could be used in new ways. It marked the start of big changes in how things were made and built.",
+    "activity_question": "What river did the world's first iron bridge cross?",
+    "activity_choices": [
+      "The Severn River",
+      "The Thames River",
+      "The Mississippi River",
+      "The Amazon River"
+    ],
+    "activity_answer": "The Severn River",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The bridge still stands today and you can walk across it!",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "75",
+    "title": "Free Land for Brave Pioneers",
+    "story": "Imagine getting free land just for living on it! That's what happened in 1863 when the first claim under the Homestead Act was made near Beatrice, Nebraska. This law allowed brave pioneers to own 160 acres if they lived there and improved the land. On January 1, a determined settler staked their claim, starting a rush of people seeking new homes and fresh starts in the American West.",
+    "activity_question": "Where was the first Homestead Act claim made?",
+    "activity_choices": [
+      "Near Beatrice, Nebraska",
+      "In New York City",
+      "Along the Mississippi River",
+      "On the moon"
+    ],
+    "activity_answer": "Near Beatrice, Nebraska",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How many acres could a settler claim under the Homestead Act?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "108",
+    "title": "Teddy's Tireless Handshake Marathon",
+    "story": "President Theodore Roosevelt had a grip on history! On January 1, 1907, he shook hands with an incredible number of people. Imagine a line stretching around the White House as Teddy greeted each person. His arm must have been sore, but he kept smiling and shaking. It was a true test of presidential endurance!",
+    "activity_question": "What did President Theodore Roosevelt do on January 1, 1907?",
+    "activity_choices": [
+      "Shook hands with many people",
+      "Gave a long speech",
+      "Ran a marathon",
+      "Planted trees"
+    ],
+    "activity_answer": "Shook hands with many people",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think the President wanted to shake so many hands?",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "112",
+    "title": "Underarm Bowling Surprise in Cricket",
+    "story": "Cricket fans were in for a shock in 1910! On January 1, England's George Simpson-Hayward made his Test debut against South Africa in Johannesburg. He bowled underhand, using lobs instead of the usual overarm style. This unusual technique helped him take an impressive 6 wickets for just 43 runs. Despite his efforts, South Africa still won the match by 19 runs.",
+    "activity_question": "What unusual bowling technique did George Simpson-Hayward use?",
+    "activity_choices": [
+      "Underhand lobs",
+      "Overarm spin",
+      "Fast bounces",
+      "Silly spinners"
+    ],
+    "activity_answer": "Underhand lobs",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think underhand bowling is rare in modern cricket?",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "115",
+    "title": "A Race Through San Francisco",
+    "story": "Runners dashed across San Francisco in 1912, kicking off the first-ever Bay to Breakers footrace on January 1. This exciting event stretched for miles through the city's streets. Robert Vlught sprinted to victory, finishing the course in just over 44 minutes. Little did those early runners know their race would become a beloved tradition, still going strong today!",
+    "activity_question": "Who won the first Bay to Breakers race?",
+    "activity_choices": [
+      "Robert Vlught",
+      "San Francisco",
+      "Bay to Breakers",
+      "A group of runners"
+    ],
+    "activity_answer": "Robert Vlught",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Would you like to run in a race like Bay to Breakers? Why or why not?",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "156",
+    "title": "Sydney Sizzles in Scorching Heat",
+    "story": "Whew! Sydney, Australia, felt like a giant oven on January 1, 1939. The city baked in extreme heat, with temperatures soaring to a sizzling 45°C (113°F). This wasn't just hot—it was the hottest day ever recorded in Sydney's history! Imagine trying to enjoy summer activities when it feels like you're standing next to a blazing campfire.",
+    "activity_question": "What was the record-breaking temperature in Sydney on this day?",
+    "activity_choices": [
+      "45°C (113°F)",
+      "40°C (104°F)",
+      "50°C (122°F)",
+      "35°C (95°F)"
+    ],
+    "activity_answer": "45°C (113°F)",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How might people in Sydney have stayed cool on such a hot day?",
+    "score": 75,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "189",
+    "title": "Cricket Legend's Stellar Debut",
+    "story": "Jack Hobbs stepped onto the cricket pitch for England and instantly became a star. In 1908, he played his first international match against Australia, scoring an impressive 83 runs in one innings and 28 in another. This January 1 game at the Melbourne Cricket Ground marked the beginning of Hobbs' incredible career. He went on to become the top run-scorer in first-class cricket history.",
+    "activity_question": "Where did Jack Hobbs play his first international cricket match?",
+    "activity_choices": [
+      "Melbourne Cricket Ground",
+      "Lord's Cricket Ground",
+      "Sydney Cricket Ground",
+      "Oval Cricket Ground"
+    ],
+    "activity_answer": "Melbourne Cricket Ground",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What achievement did Jack Hobbs go on to accomplish in his cricket career?",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "196",
+    "title": "Tech Titans Start in a Garage",
+    "story": "Two friends with big dreams sparked a tech revolution. Bill Hewlett and Dave Packard tinkered away in a small garage, creating their first product. Little did they know, their company Hewlett-Packard would grow into a global tech giant. That humble garage in Palo Alto, California became known as the birthplace of Silicon Valley on January 1, 1939.",
+    "activity_question": "Where did Hewlett and Packard start their company?",
+    "activity_choices": [
+      "In a garage",
+      "In a basement",
+      "In a college dorm",
+      "On a spaceship"
+    ],
+    "activity_answer": "In a garage",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What famous tech area did Hewlett-Packard's garage help create?",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "257",
+    "title": "Stepping Up: The Escalator's Inventor",
+    "story": "Charles Seeberger, born in Oskaloosa, Iowa on January 1, 1857, changed how we move through buildings. This clever inventor came up with the word 'escalator' and designed the first one that stores could buy. His moving staircase idea helped people glide between floors easily, making tall buildings more practical and shopping more fun.",
+    "activity_question": "What did Charles Seeberger invent?",
+    "activity_choices": [
+      "The elevator",
+      "The escalator",
+      "The moving sidewalk",
+      "The revolving door"
+    ],
+    "activity_answer": "The escalator",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you think of places where you often see escalators today?",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "258",
+    "title": "Glassmaker Revolutionizes Bottle Production",
+    "story": "Michael J. Owens, born in Mason County, West Virginia in 1859, would change the world of glass forever. This clever inventor created a machine that could make glass bottles automatically. Before his invention, bottles were made by hand, which was slow and expensive. Owens machine sped up production and made bottles more affordable for everyone.",
+    "activity_question": "What did Michael J. Owens invent?",
+    "activity_choices": [
+      "A machine that could make glass bottles automatically",
+      "A new type of glass",
+      "A bottle-cleaning robot",
+      "A glass recycling system"
+    ],
+    "activity_answer": "A machine that could make glass bottles automatically",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think Owens invention changed everyday life for people?",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "270",
+    "title": "The Forgotten Flying Pioneer",
+    "story": "Gustave Whitehead soared into history on January 1, 1874. Born in Germany, this daring inventor later moved to America and became an aviation pioneer. Whitehead boldly claimed he flew a powered airplane in 1903, before the famous Wright brothers! While debate still swirls, his passion for flight helped push the boundaries of what humans thought possible in the skies.",
+    "activity_question": "What did Gustave Whitehead claim to have done before the Wright brothers?",
+    "activity_choices": [
+      "Flown a powered airplane",
+      "Built a hot air balloon",
+      "Invented the propeller",
+      "Jumped from the Eiffel Tower"
+    ],
+    "activity_answer": "Flown a powered airplane",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it's important to remember early aviation pioneers like Gustave Whitehead?",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "333",
+    "title": "A Princess Turned Secret Agent",
+    "story": "Noor Inayat Khan was no ordinary princess. Born in Moscow on January 1, 1914, this Indian royal would grow up to become a daring British spy during World War II. Her bravery in the face of danger earned her the George Cross, one of Britain's highest honors, after she sadly lost her life in the war.",
+    "activity_question": "What honor did Noor Inayat Khan receive for her bravery?",
+    "activity_choices": [
+      "The George Cross",
+      "The Victoria Cross",
+      "The Order of Merit",
+      "The Royal Crown"
+    ],
+    "activity_answer": "The George Cross",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you think of other jobs where people might need to be brave like Noor?",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "345",
+    "title": "From Boxing Ring to TV Star",
+    "story": "Pow! Rocky Graziano burst onto the scene in 1919. Born on January 1 in Brooklyn, New York, he grew up to become a fierce boxer. Graziano fought his way to the World Middleweight title, holding it for a year. His legendary battles with Tony Zale thrilled fans. But Rocky wasn't just about boxing. He later became an entertainer, appearing on TV shows like Pantomime Quiz and Miami Undercover.",
+    "activity_question": "What title did Rocky Graziano hold?",
+    "activity_choices": [
+      "World Middleweight title",
+      "Heavyweight Champion",
+      "TV Quiz Master",
+      "King of Brooklyn"
+    ],
+    "activity_answer": "World Middleweight title",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name one TV show Rocky Graziano appeared on?",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "364",
+    "title": "Youngest MLB Player Steps Up to Pitch",
+    "story": "Carl Scheib loved baseball so much, he couldn't wait to play in the big leagues! Born in Gratz, Pennsylvania in 1927, Carl became a pitcher for the Philadelphia A's. In 1943, at just 16 years old, he made history as the youngest player in Major League Baseball at that time. Talk about an early start to a dream career!",
+    "activity_question": "What team did Carl Scheib pitch for?",
+    "activity_choices": [
+      "Philadelphia A's",
+      "New York Yankees",
+      "Boston Red Sox",
+      "Chicago Cubs"
+    ],
+    "activity_answer": "Philadelphia A's",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How old do you think most baseball players are when they start in the major leagues?",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "381",
+    "title": "Splashing into Olympic Gold",
+    "story": "Ford Konno made waves in the swimming world. Born in Honolulu on January 1, 1933, he became a powerhouse in the pool. Konno's talent propelled him to Olympic glory in 1952, where he clinched gold medals in two events. He didn't stop there, setting world records in freestyle swimming that left competitors in his wake.",
+    "activity_question": "In which Olympic events did Ford Konno win gold medals?",
+    "activity_choices": [
+      "1,500m and 4x200m freestyle",
+      "100m and 200m backstroke",
+      "200m butterfly and 400m medley",
+      "50m and 100m freestyle"
+    ],
+    "activity_answer": "1,500m and 4x200m freestyle",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Where was Ford Konno born?",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "31",
+    "title": "Discovering Earth's Loneliest Island",
+    "story": "Imagine sailing through icy waters and spotting a mysterious island nobody knew existed! That's what happened to French explorer Jean-Baptiste Charles Bouvet de Lozier in 1739. On January 1, he discovered a tiny, uninhabited island near Antarctica. Today, we call it Bouvet Island. It's so far from everything else, it's known as the world's most remote island!",
+    "activity_question": "What is Bouvet Island known as?",
+    "activity_choices": [
+      "The world's most remote island",
+      "The largest island near Antarctica",
+      "The coldest island on Earth",
+      "The island of penguins"
+    ],
+    "activity_answer": "The world's most remote island",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think no one lives on Bouvet Island?",
+    "optional_type": "follow_up_question",
+    "score": 72,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "193",
+    "title": "Lawrence of Arabia's Desert Adventure Begins",
+    "story": "A daring British officer embarked on a thrilling desert journey in 1917. T. E. Lawrence joined the forces of Arabian sheik Feisal al Husayn on January 1. This marked the start of Lawrence's legendary exploits across the sands. His adventures would lead him all the way to Damascus, earning him the famous nickname 'Lawrence of Arabia'.",
+    "activity_question": "What nickname did T. E. Lawrence earn from his desert adventures?",
+    "activity_choices": [
+      "Lawrence of Arabia",
+      "The Desert Fox",
+      "The Sand Warrior",
+      "Captain Camel"
+    ],
+    "activity_answer": "Lawrence of Arabia",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you imagine traveling across a vast desert? What challenges might Lawrence have faced?",
+    "score": 72,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "244",
+    "title": "A Poet's Fiery Spirit Ignites",
+    "story": "Sándor Petőfi burst into the world with words ready to bloom. Born in 1823 in Kiskőrös, Hungary, he grew to become a beloved poet and fierce revolutionary. His pen danced across pages, creating verses that captured hearts. One famous poem declared, 'You Cannot Forbid the Flower,' echoing his free spirit. On January 1, Hungary celebrates this literary hero's birth.",
+    "activity_question": "What famous poem did Sándor Petőfi write?",
+    "activity_choices": [
+      "You Cannot Forbid the Flower",
+      "The Dancing Pen",
+      "Hungary's Hero",
+      "Revolutionary Rhymes"
+    ],
+    "activity_answer": "You Cannot Forbid the Flower",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think Petőfi chose a flower as a symbol in his poem?",
+    "optional_type": "follow_up_question",
+    "score": 72,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "339",
+    "title": "Weather Wizard Born on New Year's Day",
+    "story": "A baby boy named Jule Gregory Charney arrived in San Francisco on January 1, 1917. Little did anyone know he would grow up to become a weather wizard! Charney became a famous meteorologist, using math to predict the weather. His work helped create the computer forecasts we rely on today.",
+    "activity_question": "What did Jule Gregory Charney become famous for?",
+    "activity_choices": [
+      "Using math to predict the weather",
+      "Inventing the thermometer",
+      "Studying earthquakes",
+      "Writing children's books"
+    ],
+    "activity_answer": "Using math to predict the weather",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think weather forecasts have changed since Charney's time?",
+    "optional_type": "follow_up_question",
+    "score": 72,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "32",
+    "title": "Explorers Reach the Rocky Mountains",
+    "story": "Two brave French brothers made an amazing discovery in 1743. Louis-Joseph and François de La Vérendrye trekked across the vast Great Plains. On January 1, they became the first Europeans to see the mighty Rocky Mountains! They reached the foot of these towering peaks at the Yellow River, opening up a new world of adventure.",
+    "activity_question": "What did the French brothers discover on their journey?",
+    "activity_choices": [
+      "The Rocky Mountains",
+      "The Great Plains",
+      "The Yellow River",
+      "A new type of cheese"
+    ],
+    "activity_answer": "The Rocky Mountains",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you imagine how excited the brothers must have felt seeing those huge mountains for the first time?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "70",
+    "title": "Horses to the Rescue!",
+    "story": "Clop-clop-clop! The sound of hooves echoed through the streets as a new hero arrived in 1853. The first practical fire engine in the United States began its service on January 1. This wasn't just any fire engine - it was pulled by powerful horses! Firefighters could now race to emergencies faster than ever before, ready to battle blazes and save lives.",
+    "activity_question": "What made this new fire engine special?",
+    "activity_choices": [
+      "It was pulled by horses",
+      "It could fly",
+      "It was made of gold",
+      "It ran on steam"
+    ],
+    "activity_answer": "It was pulled by horses",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think this horse-drawn fire engine changed firefighting?",
+    "score": 70,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "84",
+    "title": "Roses Roll Through Pasadena",
+    "story": "Flowers filled the streets of Pasadena, California in 1890. On January 1, the city held its first Tournament of Roses. Decorated carriages paraded through town, covered in colorful blooms. This flowery festival later became known as the Rose Parade. It grew into a beloved New Year's Day tradition, delighting crowds with its fragrant floats and festive spirit.",
+    "activity_question": "What was the original name of the Rose Parade?",
+    "activity_choices": [
+      "Tournament of Roses",
+      "Flower Festival",
+      "Pasadena Parade",
+      "Blooming Bonanza"
+    ],
+    "activity_answer": "Tournament of Roses",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The Rose Parade is still held every January 1, unless that day falls on a Sunday.",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "99",
+    "title": "School for All in the Netherlands",
+    "story": "Pencils sharpened and books ready! In 1900, the Netherlands made a big change. On January 1, they started compulsory education. This meant all kids had to go to school. Before, not everyone got the chance to learn. Now, Dutch children could dream bigger, knowing they'd all get an education.",
+    "activity_question": "What big change happened in the Netherlands in 1900?",
+    "activity_choices": [
+      "Compulsory education started",
+      "Everyone got free bicycles",
+      "Tulips became the national flower",
+      "Wooden shoes were banned"
+    ],
+    "activity_answer": "Compulsory education started",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it's important for all kids to go to school?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "100",
+    "title": "Australia Unites as a Nation",
+    "story": "Six colonies joined forces to create a new country in 1901. On January 1, the Commonwealth of Australia was born! This exciting moment happened when a special law from the British Parliament came into effect. Suddenly, the separate colonies became one big team, working together as a united Australia.",
+    "activity_question": "What was created on January 1, 1901?",
+    "activity_choices": [
+      "The Commonwealth of Australia",
+      "The British Parliament",
+      "Six new colonies",
+      "A special law book"
+    ],
+    "activity_answer": "The Commonwealth of Australia",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name any of the six colonies that joined to form Australia?",
+    "score": 70,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "109",
+    "title": "Speedy Shoes: A Marathon Marvel",
+    "story": "Lace up those running shoes! In 1909, American Robert Fowler dashed into the history books. On January 1, he blazed through Yonkers, New York, setting a new world record for the marathon. Fowler's incredible time of 2 hours, 52 minutes, and 45.4 seconds left spectators in awe. His feat showed just how fast humans could go when they pushed their limits.",
+    "activity_question": "Where did Robert Fowler set his marathon record?",
+    "activity_choices": [
+      "Yonkers, New York",
+      "Boston, Massachusetts",
+      "Chicago, Illinois",
+      "Los Angeles, California"
+    ],
+    "activity_answer": "Yonkers, New York",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How long did it take Robert Fowler to run his record-breaking marathon?",
+    "score": 70,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "121",
+    "title": "A Life-Saving Medical Breakthrough",
+    "story": "Blood rushed through tubes, bringing hope to a patient in need. On January 1, 1916, doctors performed the first transfusion using stored and cooled blood. This medical milestone opened new possibilities for saving lives. Before, blood had to be transferred directly from person to person. Now, hospitals could keep a supply ready for emergencies.",
+    "activity_question": "What medical procedure was first performed with stored and cooled blood?",
+    "activity_choices": [
+      "A blood transfusion",
+      "A heart surgery",
+      "A kidney transplant",
+      "A brain scan"
+    ],
+    "activity_answer": "A blood transfusion",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why was using stored blood important for hospitals?",
+    "score": 70,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "160",
+    "title": "Rome's Youngest Consul Takes Office",
+    "story": "Imagine being in charge of an empire at just 15 years old! In 177, Commodus, the teenage son of Emperor Marcus Aurelius, became a Roman consul. This made him the youngest person ever to hold this important position in Roman history. On January 1, he stepped into a role usually reserved for much older, experienced leaders.",
+    "activity_question": "How old was Commodus when he became consul?",
+    "activity_choices": [
+      "15 years old",
+      "20 years old",
+      "25 years old",
+      "30 years old"
+    ],
+    "activity_answer": "15 years old",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What was Commodus's father's name?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "253",
+    "title": "Tractor Tracks That Changed Farming",
+    "story": "Benjamin Holt, born in 1849, revolutionized farming with his clever invention. On January 1, this American businessman from Concord, New Hampshire, entered the world. Holt would go on to create the crawler-type tread tractor, a machine that moved on tracks instead of wheels. This innovation helped tractors work better on soft, muddy ground.",
+    "activity_question": "What type of tractor did Benjamin Holt invent?",
+    "activity_choices": [
+      "Crawler-type tread tractor",
+      "Flying tractor",
+      "Underwater tractor",
+      "Invisible tractor"
+    ],
+    "activity_answer": "Crawler-type tread tractor",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Holt's company later became part of Caterpillar, a famous maker of construction equipment.",
+    "score": 70,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "261",
+    "title": "The Man Who Revived the Olympics",
+    "story": "Pierre de Coubertin was born in Paris on January 1, 1863. This French educator and historian would go on to change the world of sports forever. He founded the International Olympic Committee, bringing back the ancient Greek tradition of Olympic games. Coubertin served as the committee's president for nearly 30 years, helping to shape the modern Olympics we know today.",
+    "activity_question": "What organization did Pierre de Coubertin found?",
+    "activity_choices": [
+      "International Olympic Committee",
+      "French Education Board",
+      "World Sports Federation",
+      "Ancient Greek Fan Club"
+    ],
+    "activity_answer": "International Olympic Committee",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The first modern Olympic Games were held in Athens, Greece, in 1896.",
+    "score": 70,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "341",
+    "title": "Speedy Swimmer Makes a Splash",
+    "story": "Willy den Ouden dove into the world on January 1, 1918, in Rotterdam, Netherlands. This Dutch swimmer became a true water wonder! She set an incredible world record in the 100m freestyle that lasted for over two decades. Den Ouden also splashed her way to Olympic gold in 1936 as part of the 4×100m freestyle relay team.",
+    "activity_question": "What Olympic event did Willy den Ouden win gold in?",
+    "activity_choices": [
+      "100m freestyle",
+      "4×100m freestyle relay",
+      "200m backstroke",
+      "Underwater basket weaving"
+    ],
+    "activity_answer": "4×100m freestyle relay",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How long did Willy den Ouden's world record in the 100m freestyle stand?",
+    "score": 70,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "349",
+    "title": "Alain Mimoun: From Algeria to Olympic Gold",
+    "story": "Alain Mimoun raced into the world on January 1, 1921, in Telagh, Algeria. This speedy baby grew up to become a legendary distance runner. Mimoun's determination led him to Olympic glory, winning marathon gold in 1956. But his journey wasn't always smooth - he earned three silver medals in 1948 and 1952 before finally reaching the top of the podium.",
+    "activity_question": "What Olympic medal did Alain Mimoun win in 1956?",
+    "activity_choices": [
+      "Marathon gold",
+      "Marathon silver",
+      "Sprint gold",
+      "Hurdles bronze"
+    ],
+    "activity_answer": "Marathon gold",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name the country Alain Mimoun represented in the Olympics?",
+    "score": 70,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "371",
+    "title": "Pakistan's Cricket Pioneer Born",
+    "story": "Speedy cricket balls flew from his hands! Khan Mohammad, born in 1928 on January 1 in Lahore, Pakistan, became a legendary fast bowler. He made history by bowling Pakistan's first ball in Test cricket and taking their first wicket. Mohammad played in 13 Test matches, snagging an impressive 54 wickets for his country.",
+    "activity_question": "What type of bowler was Khan Mohammad?",
+    "activity_choices": [
+      "Fast bowler",
+      "Spin bowler",
+      "Medium-pace bowler",
+      "Slow bowler"
+    ],
+    "activity_answer": "Fast bowler",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Cricket balls can travel at speeds over 90 miles per hour when bowled by fast bowlers!",
+    "score": 70,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "78",
+    "title": "Japan's New Calendar Begins",
+    "story": "Tick-tock! Japan's timekeeping got a major upgrade in 1873. On January 1, the country switched to the Gregorian calendar used by much of the world. Before this, Japan had its own unique way of tracking days and years. The change helped Japan sync up with other nations for trade and communication.",
+    "activity_question": "What did Japan switch to on January 1, 1873?",
+    "activity_choices": [
+      "The Gregorian calendar",
+      "A digital clock system",
+      "A lunar calendar",
+      "A new time zone"
+    ],
+    "activity_answer": "The Gregorian calendar",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it's important for countries to use the same calendar?",
+    "optional_type": "follow_up_question",
+    "score": 68,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "20",
+    "title": "Admiral Yi's Legendary War Diary",
+    "story": "Cannons boomed as Admiral Yi Sun-sin grabbed his brush. It was January 1, 1592, and Korea was under attack. The brave naval commander began writing his famous war diary, Nanjung ilgi. His detailed accounts of battles and strategies would become so important that centuries later, in 2013, UNESCO added the diary to its Memory of the World list.",
+    "activity_question": "What was the name of Admiral Yi's war diary?",
+    "activity_choices": [
+      "Nanjung ilgi",
+      "Korean Chronicles",
+      "Battle Notes",
+      "Sea Captain's Log"
+    ],
+    "activity_answer": "Nanjung ilgi",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think keeping a war diary might be important for a military leader?",
+    "score": 65,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "30",
+    "title": "Folding Umbrellas: A Rainy Day Revolution",
+    "story": "Splash! Rain poured in Paris, but Jean Marius had a clever solution. This inventive merchant created Europe's first folding umbrella in 1710. On January 1 that year, Marius received a special 5-year privilege from the king to make and sell his handy invention. Now people could easily carry protection from sudden showers!",
+    "activity_question": "What did Jean Marius invent?",
+    "activity_choices": [
+      "Europe's first folding umbrella",
+      "A new type of raincoat",
+      "Waterproof shoes",
+      "A fancy hat"
+    ],
+    "activity_answer": "Europe's first folding umbrella",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think folding umbrellas were such a useful invention?",
+    "score": 65,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "37",
+    "title": "Quakers Free Their Slaves",
+    "story": "Imagine owning another person. Sounds wrong, right? In 1788, a group called the Quakers in Pennsylvania agreed. On January 1, they took a big step. They freed all the slaves they owned. This was a brave move at a time when many people still thought slavery was okay. The Quakers showed that change can start with a small group of people doing the right thing.",
+    "activity_question": "What did the Quakers in Pennsylvania do on January 1, 1788?",
+    "activity_choices": [
+      "They freed all the slaves they owned",
+      "They moved to a new state",
+      "They started a new religion",
+      "They built a giant clock"
+    ],
+    "activity_answer": "They freed all the slaves they owned",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it was brave for the Quakers to free their slaves?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "58",
+    "title": "Horses Gallop into History Down Under",
+    "story": "Hooves thundered and dust flew as horses raced across the Australian landscape. In 1838, Adelaide hosted South Australia's first official horse race. On January 1, spectators cheered as the swift animals competed, marking the beginning of a beloved sporting tradition in the region.",
+    "activity_question": "Where was South Australia's first official horse race held?",
+    "activity_choices": [
+      "Adelaide",
+      "Sydney",
+      "Melbourne",
+      "Perth"
+    ],
+    "activity_answer": "Adelaide",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "Horse racing is still popular in Australia today, with many famous races held each year.",
+    "optional_type": "bonus_fact",
+    "score": 65,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "59",
+    "title": "Pins and Strikes: America's First Bowling Match",
+    "story": "Crash! The sound of falling pins echoed through Knickerbocker Alleys in New York City. It was January 1, 1840, and history was being made. The first recorded bowling match in the United States was taking place. Eager players lined up, ready to roll heavy balls down wooden lanes. This exciting event marked the beginning of a beloved American pastime that would soon sweep across the nation.",
+    "activity_question": "Where did the first recorded bowling match in the United States take place?",
+    "activity_choices": [
+      "Knickerbocker Alleys",
+      "Central Park",
+      "Broadway Theater",
+      "Empire State Building"
+    ],
+    "activity_answer": "Knickerbocker Alleys",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think bowling alleys have changed since 1840?",
+    "score": 65,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "71",
+    "title": "A New School for Black Students",
+    "story": "A husband and wife team had a big dream. In 1854, John Miller Dickey and Sarah Emlen Cresson opened a special school. They called it Ashmun Institute. It was one of the first colleges for Black students in America. Located in Hinsonville, Pennsylvania, the school later changed its name to Lincoln University.",
+    "activity_question": "What was the original name of the school founded by John Miller Dickey and Sarah Emlen Cresson?",
+    "activity_choices": [
+      "Ashmun Institute",
+      "Lincoln University",
+      "Hinsonville College",
+      "Dickey-Cresson Academy"
+    ],
+    "activity_answer": "Ashmun Institute",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it was important to create colleges for Black students in 1854?",
+    "score": 65,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  }
+]

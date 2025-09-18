@@ -4,170 +4,256 @@ import re
 from anthropic import Client
 from pathlib import Path
 import time
-import html
 import sys
 import math
 import datetime
 from tqdm import tqdm
-
+import string
 
 # Path setup
 FACTS_DIR = "C:/Users/timmu/Documents/repos/Factbook Project/facts/new fact grabber/3_culled"
 SORTED_DIR = "C:/Users/timmu/Documents/repos/Factbook Project/facts/new fact grabber/4_enhanced"
 BATCH_SIZE = 1  # or 1 if you want to test smaller batches
 os.makedirs(SORTED_DIR, exist_ok=True)
+MODEL_NAME = os.getenv("CLAUDE_MODEL", "claude-3-5-sonnet-20240620")  # or your preferred working ID
 
-def list_json_files(directory):
-    files = [f for f in os.listdir(directory) if f.endswith(".json")]
-    files.sort()
-    for i, file in enumerate(files, 1):
-        print(f"{i}: {file}")
-    return files
 
-def choose_file(files):
+def story_missing_month_or_day(story: str, today_str: str) -> bool:
+    """
+    Return True if the story is missing either the month or the day token.
+    Month must appear as a whole word (e.g., 'September').
+    Day may appear as 7, 07, 7th, 7ST, etc. (case-insensitive).
+    """
+    if not story or not today_str:
+        return True
+
+    parts = today_str.split()
+    if len(parts) != 2:
+        return True
+
+    month, day_str = parts[0], str(int(parts[1]))  # normalize '07' -> '7'
+
+    # Month present as a whole word (case-insensitive)
+    month_ok = re.search(rf"\b{re.escape(month)}\b", story, flags=re.IGNORECASE) is not None
+
+    # Day present as 7 / 07 / 7th / 7ST etc. (case-insensitive)
+    day_ok = re.search(rf"\b0*{re.escape(day_str)}(?:st|nd|rd|th)?\b", story, flags=re.IGNORECASE) is not None
+
+    return not (month_ok and day_ok)
+
+def _norm(s: str) -> str:
+    # lowercase, strip punctuation for robust substring checks
+    table = str.maketrans("", "", string.punctuation)
+    return s.lower().translate(table)
+
+def digits_in(text: str) -> set:
+    return set(re.findall(r"\d+", text or ""))
+
+def contains_forbidden_how_many(text: str) -> bool:
+    t = text.lower()
+    # block “how many / how long / how much / how far / how old” unless numbers exist in story
+    return any(k in t for k in ["how many", "how long", "how much", "how far", "how old"])
+
+def validate_item(item: dict, story: str, year: str|int|None):
+    errors = []
+
+    # 1) answer must be substring of story (loose punctuation-insensitive check)
+    if item.get("activity_answer") and story:
+        if _norm(item["activity_answer"]) not in _norm(story):
+            errors.append("Answer is not a verbatim substring of the story.")
+    else:
+        errors.append("Missing answer or story.")
+
+    # 2) all digits in Q/choices/answer must be present in story or equal to year
+    allowed_digits = digits_in(story)
+    if year:
+        allowed_digits.add(str(year))
+
+    def check_digits(field_name, text):
+        for d in digits_in(text or ""):
+            if d not in allowed_digits:
+                errors.append(f"Digit {d} in {field_name} not present in story/year.")
+
+    check_digits("activity_question", item.get("activity_question", ""))
+    for i, ch in enumerate(item.get("activity_choices", [])):
+        check_digits(f"activity_choices[{i}]", ch)
+    check_digits("activity_answer", item.get("activity_answer", ""))
+
+    # 3) discourage derived “how many/how long/…”
+    if contains_forbidden_how_many(item.get("activity_question","")) and not digits_in(story):
+        errors.append("Question asks for counts/durations not stated in story.")
+
+    # 4) answer must match one of the choices exactly
+    if item.get("activity_answer") not in (item.get("activity_choices") or []):
+        errors.append("Answer is not one of the choices.")
+
+    return errors
+
+def get_text_from_response(resp):
+    """Works with both dict-like and SDK object responses."""
+    try:
+        # Anthropic SDK v1 style
+        parts = getattr(resp, "content", None) or []
+        texts = []
+        for p in parts:
+            t = getattr(p, "text", None)
+            if t is None and isinstance(p, dict):
+                t = p.get("text")
+            if t:
+                texts.append(t)
+        return "\n".join(texts).strip()
+    except Exception:
+        pass
+    # Fallbacks
+    try:
+        return resp["content"][0]["text"].strip()
+    except Exception:
+        return ""
+
+NUMERIC_PREFIX_RE = re.compile(r"^\s*(\d+)_.*_culled\.json$", re.IGNORECASE)
+
+def list_json_files_by_prefix(directory):
+    items = []
+    for f in os.listdir(directory):
+        m = NUMERIC_PREFIX_RE.match(f)
+        if m:
+            items.append((int(m.group(1)), f))
+    items.sort(key=lambda t: (t[0], t[1].lower()))
+    if not items:
+        print("No numeric *_culled.json files found.")
+        return []
+    print("Valid *_culled.json files (choose by the NUMBER at start of filename):")
+    for day_num, fname in items:
+        print(f"{day_num}: {fname}")
+    return items
+
+def choose_file_by_daynum(items):
+    valid_numbers = {day_num: fname for day_num, fname in items}
     while True:
-        try:
-            choice = int(input("\nEnter the number of the file to process: "))
-            if 1 <= choice <= len(files):
-                return files[choice - 1]
-        except ValueError:
-            pass
-        print("Invalid choice. Try again.")
+        raw = input("\nEnter the day number (e.g., 251): ").strip()
+        if not raw.isdigit():
+            print("Please enter a numeric day number (e.g., 251).")
+            continue
+        n = int(raw)
+        if n in valid_numbers:
+            return valid_numbers[n]
+        print(f"No file starting with '{n}_' was found. Try again.")
 
-# Claude client setup
-client = Client(api_key=os.getenv("ANTHROPIC_API_KEY"))
+
+# Claude client setup (guarded)
+api_key = os.getenv("ANTHROPIC_API_KEY")
+if not api_key:
+    raise RuntimeError("ANTHROPIC_API_KEY is not set.")
+client = Client(api_key=api_key)
+
+def build_prompt_with_date(today_str: str) -> str:
+    date_lock = f"""
+IMPORTANT — FIXED CALENDAR DATE FOR THIS BOOK
+- Today’s fixed calendar date is **{today_str}**.
+- If you name the month/day in the story, it must be exactly “{today_str}”.
+- Never write any other specific month/day (e.g., “August 13”). If unsure, use varied phrasing like “on this date in <YEAR>…”.
+- Do NOT add new factual claims (e.g., “first,” “record,” name origins, times, distances, attendance, locations) unless they are clearly present in the given fact text.
+- Do NOT introduce digits other than the given YEAR or digits already in the fact text. If you hint at quantity, use words only (“about”, “nearly”, “a few”) with **no digits**.
+- Do NOT use double quotes inside any text fields (title, story, questions, choices, answers). If you need to quote a word, use single quotes (e.g., 'superhenge'). Never include a raw " character inside those fields.
+"""
+    return date_lock + "\n" + PROMPT_HEADER
 
 PROMPT_HEADER = """
-You're helping write a fun fact book for curious kids aged 8 to 12.
+You're helping write a fun fact book for curious kids aged 8–12.
 
-Write at a level they can understand: simple words, short sentences, clear ideas. Avoid fancy vocabulary or long explanations.
-
-Each fact has an "id", a "fact", a "score" (which also sets the max word count), and sometimes a "year". Your job is to turn it into a fun, easy-to-read story.
-
-Use a playful tone when the topic allows — humor, surprise, or quirky wording is great for lighter facts. If the topic is serious, keep it respectful and easy to follow.
+You will receive facts as objects with: "id", "fact", "score" (which sets the MAX word count), and sometimes "year".
+Write at a level kids understand: simple words, short sentences, clear ideas, playful where appropriate.
 
 ---
+1) Write the story
 
-**1. Write the story:**
+Rules:
+- Length: between (score - 30) and score words. If score is 85, story must be 55–85 words. ±2 words tolerance max.
+- One paragraph. Add a short, punchy title under 8 words.
+- Strong, fresh first sentence to hook the reader. Do not start with the date or phrases like “On…”, “In…”, “Today…”, or “Imagine…”. Each fact must begin in a different style from the others (action, surprise, question, vivid scene, etc.), so openings never repeat.
+- Clearly weave in the event's year AND that it happened on this same calendar date (today in history). Vary phrasing each time; avoid “on this day”.
+- If it’s a birth, clearly say they were born that year.
+- Do NOT invent new numbers. Only use numbers already in the fact or the given year. If you need to hint at size/quantity, use words like “about”, “nearly”, “a few” without digits.
+- Disasters/accidents/conflict: do not specify death tallies. Keep neutral to gently positive where natural (do not force it). Highlight helpers, resilience, or lessons learned. Never glamorize danger; for stunts, add a clear “don’t try this” safety idea.
+- Absolutely no adult content, rude language, slurs, or scary/graphic material. Keep it safe for 8–12.
 
-Follow these exact rules:
+Content suitability flags:
+- If the core topic is an album/movie/TV show release, premiere, or standard TV channel launch, set "suitable_for_8_to_12_year_old": false. (Exception: only set true if the channel/show is historically special for kids and you clearly explain why.)
+- Controversial celebrity figures (e.g., adult themes, explicit reputations, slur-based names, or content not kid-appropriate) => set "suitable_for_8_to_12_year_old": false.
 
-- Your story must be **between (score - 30) and score** words. The `score` is also your max word count.  
-- ⚠️ A tiny range of ±2 words is okay, but don't go outside that unless absolutely necessary.
-- If the story is **under the minimum**, that’s an error. **Do not submit it. Fix it first.**  
-- Always write a story — never skip one.  
-
-- Add a **short, fun title**.  
-  - Keep it under 8 words. Make it punchy and engaging — something that makes a kid want to read more!
-
-- Write a **single-paragraph story** with a strong, attention-grabbing first sentence.  
-  - Don’t begin with “Imagine...”, “In [year]...”, or any generic setup.  
-  - Make the opening fresh and exciting.  
-
-- Use a lively, simple style — like you're telling something cool to a smart 10-year-old.  
-  - If you use a big or tricky word, quickly explain it in a way a smart 12-year-old would get.
-
--⚠️ Your story must clearly show when the event happened — including both the year and the fact that it took place on this exact calendar date.
-
--The date reference must feel natural and woven into the story, not robotic or copy-pasted.
-
--❌ Don’t just start every story with “On March 29th, [year]…” — that’s too repetitive and flat.
-
--✅ Instead, invent a fresh, creative way to mention the date and year within the context of the story — as if you were telling it aloud to a curious kid. The phrasing should change every time and never sound formulaic.
-
-- ⚠️ If the fact is about someone’s **birth**, clearly say something like “they were born in 1969” or “she was born that year.”
-
-- ⚠️ The reader should always feel like this moment is part of what makes **today special** — but never in a repetitive or formulaic way.
-- ⚠️ The `score` is not just a rating — it directly determines the story's word limit. So if the score is 85, the story must be between 55 and 85 words.  
-
-- ⚠️ Do not include anything that isn’t clearly appropriate for ages 8–12 — that means no adult content, mature themes, rude language, violent or scary material, or anything else unsuitable for kids, **even if it appears in names, titles, lyrics, or quotes**. 
-
-- ⚠️ Do not use record releases, album drops, or movie premieres as standalone events — they are not exciting or meaningful enough for this book.
-
-- ⚠️ Skip stories that are just about a performer’s **first radio show**, **TV debut**, or **award win**, unless something truly unusual or surprising happened.
-
-- ⚠️ Avoid boring or flat stories that have no real twist. “They were born and got famous” isn’t enough — we want curious, quirky, or wow moments.
-
-- ⚠️ If the fact involves a name, title, lyric, or band with any **inappropriate or adult-themed language**, skip it entirely — even if it’s indirect (like certain band names or shows).
-
-- ⚠️ Your story must clearly show that the event happened on the **same calendar date** — today in history.  
-  - Avoid saying “on this day” or anything too formulaic. Find natural, varied ways to show the date connection.
+(You should still produce the full object following all rules; the suitability flag controls downstream filtering.)
 
 ---
+2) Add a trivia question
 
-**2. Add a trivia question:**
-
-- `activity_question`: A multiple-choice question based on something clearly in the story.
-- `activity_choices`: 4 answers total.
-  - For fun topics, include one silly or unexpected wrong answer.
-  - For serious topics, keep all answers realistic.
-- `activity_answer`: The correct one.
-
----
-
-**3. Add one bonus (only if it adds value):**
-
-⚠️ Pick **only one**, and keep it **under 20 words**:
-- `follow_up_question`: A curious, open-ended question to get kids thinking.
-- `bonus_fact`: A fun or surprising detail that isn’t already in the story.
-
-⚠️ Don’t include a bonus if it doesn’t help. Leave it out instead of forcing it.
-
-Include:
-- `"optional_type"` — either `"follow_up_question"`, or `"bonus_fact"`
+- activity_question: a multiple-choice question answerable **directly and explicitly** from the STORY TEXT.
+- The correct answer must be a **verbatim substring** of the story (case-insensitive, ignoring punctuation). Do not paraphrase the correct answer.
+- Do not ask for counts, streaks, totals, firsts/records, durations, distances, ages, or superlatives **unless those exact details (including any numbers) are already written in the story**.
+- Do NOT introduce any new digits. Every digit in the question, choices, and answer must already appear in the story or be the given YEAR.
+- activity_choices: exactly 4 options. For fun topics, one may be a silly wrong answer; for serious topics, keep all realistic.
+- activity_answer: must exactly match one of the choices **and** appear verbatim in the story.
+- Do not ask about details that weren’t mentioned in the story. Mirror the story’s wording/units so the correct answer matches cleanly.
 
 ---
+3) Add ONE optional bonus (only if it adds value)
 
-**4. Add 3 categories:**
-
-Each should include:
-- `"category"` — choose from the list below
-- `"score"` — from 0.0 to 1.0 showing how well it fits  
-  - 1.0 = perfect match  
-  - 0.7 = pretty good fit  
-  - below 0.5 = weak fit — only use if there’s no better option
-
-🎯 Valid categories:
-- History’s Mic Drop Moments — wars, revolutions, treaties, global turning points  
-- World Shakers & Icon Makers — powerful leaders, world changers, inspiring people  
-- Big Brain Energy — discoveries, breakthroughs, tech, biology, chemistry  
-- Beyond Earth — astronomy, space missions, meteorology  
-- Creature Feature — cool creatures, conservation, animal records or traits  
-- Vibes, Beats & Brushes — creativity, artists, music, cultural trends  
-- Full Beast Mode — competitions, record-breakers, sporting firsts  
-- Mother Nature’s Meltdowns — volcanoes, climate, ecosystems, nature wonders  
-- The What Zone — oddities, mysteries, unusual facts
+- optional_type: "follow_up_question" OR "bonus_fact"
+- If included, content must be under 20 words.
+- If neither helps, omit both and do not include optional_type.
 
 ---
+Output format
 
-Return ONLY valid JSON with:
+Each object must have:
 
-- `id`  
-- `title`  
-- `story`  
-- `activity_question`  
-- `activity_choices` (4 total)  
-- `activity_answer`  
-- `categories` (3 total, each with `category` and `score`)  
-- `suitable_for_8_to_12_year_old` (true or false)
+- "id"
+- "title"
+- "story"
+- "activity_question"
+- "activity_choices"  (array of 4 strings)
+- "activity_answer"
+- "suitable_for_8_to_12_year_old" (true/false)
 
-✅ Include just ONE of the following:
-- `follow_up_question`  
-- `bonus_fact`  
-...with the matching `optional_type`.
+Include at most ONE of:
+- "follow_up_question"  (and set "optional_type": "follow_up_question")
+- "bonus_fact"          (and set "optional_type": "bonus_fact")
 
-Only use straight quotes ("). Escape internal quotes as \\".
+Return ONLY a single JSON array. No headings, no explanations, no code fences.
+Use straight quotes ("). Escape internal quotes as \\".
 """
 
+def extract_json_from_markdown(text: str) -> str:
+    # Prefer fenced JSON
+    m = re.search(r"```json\s*(\[\s*{.*?}\s*\])\s*```", text, re.DOTALL | re.IGNORECASE)
+    if m:
+        return m.group(1).strip()
 
+    # Find first top-level array
+    start = text.find("[")
+    while start != -1:
+        depth, in_str, esc = 0, False, False
+        for i, ch in enumerate(text[start:], start):
+            if in_str:
+                if esc:
+                    esc = False
+                elif ch == "\\":
+                    esc = True
+                elif ch == '"':
+                    in_str = False
+            else:
+                if ch == '"':
+                    in_str = True
+                elif ch == "[":
+                    depth += 1
+                elif ch == "]":
+                    depth -= 1
+                    if depth == 0:
+                        return text[start:i+1].strip()
+        start = text.find("[", start + 1)
 
-
-def extract_json_from_markdown(text):
-    if "```json" in text:
-        match = re.search(r"```json\s*(.*?)\s*```", text, re.DOTALL)
-        if match:
-            return match.group(1).strip()
-    return text.strip()
+    # Last resort: any array-ish block
+    m = re.search(r"(\[\s*{.*?}\s*\])", text, re.DOTALL)
+    return m.group(1).strip() if m else text.strip()
 
 def safe_parse_json(raw_output):
     try:
@@ -182,14 +268,47 @@ def safe_parse_json(raw_output):
             print("❌ Still failed after escaping. No valid full parse.")
             return [], False
 
+def repair_trivia_for_item(bad_item: dict, story: str, year):
+    repair_rules = """
+You will receive one JSON object with fields including "title", "story", "activity_question",
+"activity_choices", "activity_answer", etc.
+
+TASK: Fix ONLY the trivia fields (activity_question, activity_choices, activity_answer) to satisfy ALL rules:
+
+- Question must be answerable directly and explicitly from the STORY text provided.
+- The correct answer must be a verbatim substring of the story (case-insensitive, ignore punctuation).
+- Do NOT introduce new digits. Every digit must already appear in the story or be the given YEAR.
+- No counts/streaks/firsts/durations/superlatives unless those exact details are already in the story text.
+- Exactly 4 choices; the answer must exactly match one of them.
+
+Do not change title, story, bonus fields, categories, suitability, id, or score.
+Return ONLY the single corrected JSON object, no code fences, no prose.
+"""
+    packed = json.dumps(bad_item, ensure_ascii=False)
+    msg = f"{repair_rules}\n\nYEAR: {year}\n\nSTORY:\n{story}\n\nOBJECT TO FIX:\n{packed}"
+    resp = client.messages.create(
+        model=MODEL_NAME,
+        max_tokens=800,
+        temperature=0.2,
+        system="Return only a single valid JSON object, no code fences.",
+        messages=[{"role": "user", "content": msg}]
+    )
+    fixed_raw = get_text_from_response(resp)
+    obj_text = extract_json_from_markdown(fixed_raw)
+    obj, ok = safe_parse_json(obj_text)
+    if isinstance(obj, list):
+        obj = obj[0] if obj else {}
+    return obj if ok and isinstance(obj, dict) else bad_item
+
 def log_retry_error(error_message, batch, attempt):
     with open("retry_log.txt", "a", encoding="utf-8") as log_file:
         timestamp = datetime.datetime.now().isoformat()
-        ids = ", ".join(f["id"] for f in batch)
+        ids = ", ".join(str(f["id"]) for f in batch)
         log_file.write(f"[{timestamp}] Attempt {attempt + 1} failed for IDs: {ids}\nError: {error_message}\n\n")
 
+# --- snip (imports & setup unchanged) ---
 
-def enhance_facts(facts, retries=2):
+def enhance_facts(facts, retries=2, today_str=None):
     # Check all required fields are present
     if any("score" not in f for f in facts):
         raise ValueError("One or more facts are missing 'score'.")
@@ -201,24 +320,26 @@ def enhance_facts(facts, retries=2):
                 for f in facts
             ]
             facts_block = "\n".join(fact_texts)
-            full_prompt = PROMPT_HEADER + f"\nFacts:\n{facts_block}"
+            date_prompt = build_prompt_with_date(today_str or "this date")
+            full_prompt = date_prompt + f"\nFacts:\n{facts_block}"
 
             response = client.messages.create(
-                model="claude-sonnet-4-20250514",
+                model=MODEL_NAME,
                 max_tokens=4000,
-                temperature=0.7,
-                timeout=90,
+                temperature=0.0,   # was 0.4
+                top_p=0.3,
+                system="Output ONLY a single valid JSON array. No code fences. No explanations.",
                 messages=[{"role": "user", "content": full_prompt}]
             )
-            
-            print("🔢 Claude usage:",
-                  f"\n  input_tokens:  {response.usage.input_tokens}",
-                  f"\n  output_tokens: {response.usage.output_tokens}")
 
-            raw_output = response.content[0].text
-            print("\n🧾 RAW RESPONSE:\n" + raw_output[:1000] + ("..." if len(raw_output) > 1000 else ""))
-            raw_output = html.unescape(raw_output)
+            try:
+                print("🔢 Claude usage:",
+                      f"\n  input_tokens:  {getattr(getattr(response, 'usage', None), 'input_tokens', 'n/a')}",
+                      f"\n  output_tokens: {getattr(getattr(response, 'usage', None), 'output_tokens', 'n/a')}")
+            except Exception:
+                pass
 
+            raw_output = get_text_from_response(response)
             if not raw_output.strip():
                 raise ValueError("Empty response from Claude.")
 
@@ -226,48 +347,120 @@ def enhance_facts(facts, retries=2):
             enhanced, success = safe_parse_json(json_text)
 
             if not success:
+                print("📨 RAW OUTPUT (first 1200 chars):\n" + raw_output[:1200])
                 print("📨 Prompt that caused the failure:\n" + full_prompt[:2000] + ("..." if len(full_prompt) > 2000 else ""))
 
+            # Map original facts by string id, including category
             id_map = {str(f["id"]): f for f in facts}
             matched = []
             if isinstance(enhanced, dict):
-                enhanced = [enhanced]  # wrap in a list if it's a single object
+                enhanced = [enhanced]
 
             for new in enhanced:
                 orig = id_map.get(str(new.get("id")))
-                if orig:
-                    new["id"] = orig["id"]
-                    new["score"] = orig["score"]  # ✅ Add the score back in
-                    matched.append(new)
-
-                else:
+                if not orig:
                     print(f"⚠️ No ID match found for: {new.get('title', '[No title]')}")
+                    continue
+
+                # Preserve original typed id & score
+                new["id"] = orig["id"]
+                new["score"] = orig["score"]
+
+                # ✨ Always set categories from input file's single 'category'
+                orig_cat = (orig.get("category") or "").strip()
+                if orig_cat:
+                    new["categories"] = [orig_cat]
+                else:
+                    new.pop("categories", None)
+
+                matched.append(new)
+                try:
+                    print(json.dumps(new, indent=2, ensure_ascii=False))
+                except Exception:
+                    print(new)
+
+            # 🔎 Debug: confirm month & day presence per item
+            for it in matched:
+                story = it.get("story", "") or ""
+                month, day = (today_str or "").split()
+                month_ok = re.search(rf"\b{re.escape(month)}\b", story, flags=re.IGNORECASE) is not None
+                day_ok   = re.search(rf"\b0*{re.escape(str(int(day)))}(?:st|nd|rd|th)?\b", story, flags=re.IGNORECASE) is not None
+                print(f"🧩 id={it['id']}: month_ok={month_ok} day_ok={day_ok} (expecting '{today_str}')")
+
+            # ✅ Simple month/day presence check from filename date
+            bad_ids = [
+                it["id"] for it in matched
+                if story_missing_month_or_day(it.get("story", ""), today_str or "")
+            ]
+            if bad_ids:
+                print(f"🗓️ Date check failed for ids={bad_ids} — story missing month/day for '{today_str}'.")
+                if attempt < retries:
+                    time.sleep(1.0)
+                    continue
+                else:
+                    print("⚠️ Still missing after retries; keeping current results.")
+
+            # 🧪 Validate & auto-repair trivia once per item
+            repaired = []
+            for item in matched:
+                story = item.get("story", "")
+                year  = id_map[str(item["id"])].get("year")
+                errs  = validate_item(item, story, year)
+                if errs:
+                    print(f"🧪 Trivia check failed for id={item['id']}: {errs}")
+                    fixed = repair_trivia_for_item(item, story, year)
+                    errs2 = validate_item(fixed, story, year)
+                    if errs2:
+                        print(f"❌ Still failing after repair for id={item['id']}: {errs2}")
+                        repaired.append(item)
+                    else:
+                        repaired.append(fixed)
+                else:
+                    repaired.append(item)
+
+                    # simplest policy: keep but mark; or skip/regen. To be strict, skip:
+                    # continue  # uncomment to drop bad ones
 
 
-            return matched
+                # 🧪 Trivia validation comes AFTER story-level checks
+                errs  = validate_item(item, story, year)
+                if errs:
+                    print(f"🧪 Trivia check failed for id={item['id']}: {errs}")
+                    fixed = repair_trivia_for_item(item, story, year)
+                    errs2 = validate_item(fixed, story, year)
+                    if errs2:
+                        print(f"❌ Still failing after repair for id={item['id']}: {errs2}")
+                        repaired.append(item)
+                    else:
+                        repaired.append(fixed)
+                else:
+                    repaired.append(item)
+
+            return repaired
+
 
         except Exception as e:
+            import traceback
             print(f"❌ Claude error (attempt {attempt + 1}): {e}")
+            print(traceback.format_exc())
             log_retry_error(str(e), facts, attempt)
             if attempt < retries:
                 time.sleep(2)
             else:
                 return []
 
-
-# choose_input_file and process_file stay unchanged
-
-def process_file(input_path):
+def process_file(input_path, today_str):
     with open(input_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    # Adjust for new structure
+    # ✅ Include single 'category' from the culled file (no AI choice here)
     input_facts = [
         {
             "id": str(fact["id"]),
             "fact": fact["original"],
             "score": fact["score"],
-            "year": fact.get("year")
+            "year": fact.get("year"),
+            "category": fact.get("category")  # ✨ carry through
         }
         for fact in data
         if fact.get("is_kid_friendly") is True
@@ -281,11 +474,10 @@ def process_file(input_path):
     total_batches = math.ceil(len(input_facts) / BATCH_SIZE)
     for i in tqdm(range(0, len(input_facts), BATCH_SIZE), desc="Enhancing", unit="batch"):
         batch = input_facts[i:i + BATCH_SIZE]
-        batch_result = enhance_facts(batch)
+        batch_result = enhance_facts(batch, today_str=today_str)
         enhanced.extend(batch_result)
         time.sleep(1.2)
 
-    # Save to enhanced folder
     output_path = os.path.join(SORTED_DIR, Path(input_path).stem + "_enhanced.json")
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(enhanced, f, indent=2, ensure_ascii=False)
@@ -295,13 +487,19 @@ def process_file(input_path):
 
 
 if __name__ == "__main__":
-    files = list_json_files(FACTS_DIR)
-    selected_file = choose_file(files)
-    
+    items = list_json_files_by_prefix(FACTS_DIR)
+    if not items:
+        sys.exit(1)
+
+    selected_file = choose_file_by_daynum(items)
     print(f"\n📂 Processing file: {selected_file}")
 
     input_path = os.path.join(FACTS_DIR, selected_file)
 
-    process_file(input_path)
+    m = re.match(r"^\s*\d+_([A-Za-z]+)_(\d{1,2})_culled\.json$", selected_file, re.IGNORECASE)
+    if not m:
+        raise SystemExit(f"❌ Could not parse month/day from filename: {selected_file}")
+    TODAY_STR = f"{m.group(1)} {int(m.group(2))}"
 
+    process_file(input_path, TODAY_STR)
 

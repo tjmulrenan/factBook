@@ -1,0 +1,1120 @@
+[
+  {
+    "id": "901",
+    "title": "Students Score Big on Sports Day",
+    "story": "College students around the world lace up their sneakers on September 20th for International Day of University Sport! Universities host tournaments, fun runs, and sports festivals to celebrate how athletics bring students together. Some schools organize massive relay races or quirky games like three-legged soccer matches to get everyone moving and laughing together.",
+    "activity_question": "What do universities organize on International Day of University Sport?",
+    "activity_choices": [
+      "Tournaments and sports festivals",
+      "Cooking competitions",
+      "Art exhibitions",
+      "Science fairs"
+    ],
+    "activity_answer": "Tournaments and sports festivals",
+    "follow_up_question": "What fun sports activity would you want your school to try?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 48
+  },
+  {
+    "id": "902",
+    "title": "Thailand's Day to Shine Young and Bright",
+    "story": "Every year on September 20, Thailand celebrates National Youth Day with colorful parades, talent shows, and community festivals! Young people across the country showcase their skills through dance performances, art exhibitions, and sports competitions. Schools organize special events where kids can display their creativity and leadership. The day highlights how important young voices are in shaping Thailand's future, with government officials often attending youth-led ceremonies and listening to students' ideas for improving their communities.",
+    "activity_question": "What kinds of events do communities hold on Thailand’s National Youth Day?",
+    "activity_choices": [
+      "Parades, talent shows, and festivals",
+      "Cooking contests and car shows",
+      "Science fairs and spelling bees only",
+      "Silent classroom study sessions"
+    ],
+    "activity_answer": "Parades, talent shows, and festivals",
+    "follow_up_question": "What talents or skills would you want to showcase if your school had a youth celebration day?",
+    "optional_type": "follow_up_question",
+    "categories": ["Days That Slay"],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  },
+  {
+    "id": "95",
+    "title": "The Mighty Longbow's Incredible Draw",
+    "story": "Imagine the strength it takes to pull back a massive bow! In 1975, on September 20, Gary Sentman showed off his incredible muscles by drawing a huge longbow. This wasn't just any bow - it weighed a whopping 176 pounds! Sentman pulled it back an impressive 28½ inches. That's like lifting a person with just your arms while shooting an arrow!",
+    "activity_question": "How much did the longbow Gary Sentman drew weigh?",
+    "activity_choices": [
+      "176 pounds",
+      "28½ pounds",
+      "100 pounds",
+      "50 pounds"
+    ],
+    "activity_answer": "176 pounds",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think drawing such a heavy bow is challenging?",
+    "optional_type": "follow_up_question",
+    "score": 95,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "125",
+    "title": "Baseball's Rarest Play: One Man, Three Outs",
+    "story": "Imagine making three outs all by yourself in baseball! That's exactly what Mickey Morandini of the Philadelphia Phillies did in 1992. On September 20, he pulled off an unassisted triple play - catching a line drive, stepping on second base, and tagging the runner. It's one of the rarest feats in baseball, happening only about once every few years. Morandini's quick thinking and lightning-fast reflexes earned him a place in baseball history!",
+    "activity_question": "What rare baseball play did Mickey Morandini achieve?",
+    "activity_choices": [
+      "An unassisted triple play",
+      "A perfect game",
+      "A grand slam home run",
+      "A no-hitter"
+    ],
+    "activity_answer": "An unassisted triple play",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name the three steps Morandini took to complete this play?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "166",
+    "title": "Knuckleball Magic: A No-Hit Wonder",
+    "story": "Hoyt Wilhelm's knuckleball danced and fluttered, leaving batters baffled. On September 20, 1958, the Baltimore Orioles pitcher achieved baseball greatness. Wilhelm tossed a no-hitter against the mighty New York Yankees, winning the game 1-0. His unpredictable pitch kept Yankee hitters off-balance all day, unable to make solid contact. It was a masterful performance that showcased the art of the knuckleball.",
+    "activity_question": "What type of pitch was Hoyt Wilhelm known for throwing?",
+    "activity_choices": [
+      "Fastball",
+      "Curveball",
+      "Knuckleball",
+      "Slider"
+    ],
+    "activity_answer": "Knuckleball",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think a knuckleball is hard for batters to hit?",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "187",
+    "title": "Diving Champion Bounces Back from Injury",
+    "story": "Ouch! American diver Greg Louganis smacked his head on the springboard during the 1988 Seoul Olympics. But he didn't let that stop him. The very next day, September 20, Louganis showed incredible courage. He returned to the pool and won the gold medal in the 3-meter springboard event. His amazing comeback inspired people around the world.",
+    "activity_question": "What medal did Greg Louganis win after his injury?",
+    "activity_choices": [
+      "Gold medal",
+      "Silver medal",
+      "Bronze medal",
+      "No medal"
+    ],
+    "activity_answer": "Gold medal",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think Louganis felt when he returned to dive after his accident?",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "90",
+    "title": "Cartoon Band Tops the Charts",
+    "story": "Groovy tunes from an unexpected source rocked the music world! The Archies, a virtual cartoon band, zoomed to the top of the charts with their catchy hit 'Sugar, Sugar' in 1969. On September 20, this animated group of fictional teenagers proved they had real musical talent. Their sugary-sweet pop song captured hearts and had everyone singing along, showing that even cartoon characters could create chart-topping hits!",
+    "activity_question": "What was the name of the hit song by The Archies?",
+    "activity_choices": [
+      "'Sugar, Sugar'",
+      "'Candy, Candy'",
+      "'Sweet, Sweet'",
+      "'Honey, Honey'"
+    ],
+    "activity_answer": "'Sugar, Sugar'",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name any real-life cartoon bands inspired by The Archies' success?",
+    "score": 90,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "140",
+    "title": "Magellan's Epic Voyage Begins",
+    "story": "Sailors cheered as five ships set sail from Spain in 1519, embarking on an incredible journey. Led by Portuguese explorer Ferdinand Magellan, this Spanish expedition aimed to find a western route to the spice-rich East Indies. Little did they know, their voyage on September 20 would become the first successful trip around the entire world, though Magellan himself wouldn't live to see it completed.",
+    "activity_question": "What was the goal of Magellan's expedition?",
+    "activity_choices": [
+      "To find a western route to the East Indies",
+      "To discover new lands in Africa",
+      "To establish trade with China",
+      "To map the coastline of South America"
+    ],
+    "activity_answer": "To find a western route to the East Indies",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The expedition took almost three years to complete, with only one ship returning to Spain.",
+    "score": 90,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "152",
+    "title": "Wright Brothers' Circular Flight Triumph",
+    "story": "Soaring through the air, Orville and Wilbur Wright made history on September 20, 1904. The pioneering brothers achieved a remarkable feat by flying their Flyer II aircraft in a complete circle. This groundbreaking flight took place near Dayton, Ohio, marking a significant milestone in aviation. The Wright brothers' circular journey proved that controlled, sustained flight was possible, paving the way for the future of air travel.",
+    "activity_question": "What did the Wright brothers achieve with their Flyer II aircraft?",
+    "activity_choices": [
+      "They flew in a complete circle",
+      "They crossed the Atlantic Ocean",
+      "They reached the speed of sound",
+      "They landed on the moon"
+    ],
+    "activity_answer": "They flew in a complete circle",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think flying in a circle was an important achievement for early aviation?",
+    "optional_type": "follow_up_question",
+    "score": 90,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "170",
+    "title": "JFK's Bold Space Proposal",
+    "story": "President Kennedy had a daring idea. In 1963, he suggested the United States and Soviet Union work together to reach the moon. On September 20, JFK spoke at the United Nations, proposing this joint space mission. It was a surprising move during the tense Cold War. Kennedy hoped cooperation in space could lead to peace on Earth. Though it didn't happen, the idea showed a vision of unity in exploring the cosmos.",
+    "activity_question": "What did President Kennedy propose in his speech?",
+    "activity_choices": [
+      "A joint US-Soviet voyage to the moon",
+      "Building a space station together",
+      "Sharing satellite technology",
+      "A race to Mars"
+    ],
+    "activity_answer": "A joint US-Soviet voyage to the moon",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think working together in space might help countries get along better on Earth?",
+    "score": 90,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "279",
+    "title": "The Birth of a Cartoon Legend",
+    "story": "Moose and squirrel, anyone? The world of cartoons got a lot funnier when Jay Ward was born in Berkeley, California in 1920. On September 20 that year, the future creator of beloved characters like Rocky and Bullwinkle entered the scene. Ward's imagination would later bring us talking animals, time-traveling adventures, and plenty of puns that made both kids and adults laugh out loud.",
+    "activity_question": "What famous cartoon characters did Jay Ward create?",
+    "activity_choices": [
+      "Rocky and Bullwinkle",
+      "Tom and Jerry",
+      "Scooby-Doo",
+      "SpongeBob SquarePants"
+    ],
+    "activity_answer": "Rocky and Bullwinkle",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name any other cartoon characters or shows created by Jay Ward?",
+    "score": 90,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "185",
+    "title": "Walter Payton's Record-Breaking Run",
+    "story": "Football fans cheered as Walter Payton sprinted into the end zone. The Chicago Bears star had just scored his 107th rushing touchdown, setting a new NFL record! This amazing feat happened in 1987 during a game against Tampa Bay. Payton's incredible speed and skill helped the Bears win 20-3. His record-breaking run on September 20 cemented his place in football history.",
+    "activity_question": "What team did Walter Payton play for when he set the record?",
+    "activity_choices": [
+      "Chicago Bears",
+      "Tampa Bay",
+      "Green Bay Packers",
+      "Miami Dolphins"
+    ],
+    "activity_answer": "Chicago Bears",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Walter Payton's nickname was 'Sweetness' because of his smooth running style.",
+    "score": 88,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "91",
+    "title": "Moon Drilling Adventure",
+    "story": "Imagine a robot arm reaching out to scoop up moon dust! In 1970, the Soviet spacecraft Luna 16 touched down on a dark patch of the Moon called Mare Fecunditatis. On September 20, this clever machine drilled into the lunar surface, snagging a precious core sample. It was like giving the Moon a tiny robotic check-up, helping scientists learn about our celestial neighbor's history.",
+    "activity_question": "Where on the Moon did Luna 16 land?",
+    "activity_choices": [
+      "Mare Fecunditatis",
+      "Lunar highlands",
+      "Crater rim",
+      "Dark side of the Moon"
+    ],
+    "activity_answer": "Mare Fecunditatis",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think scientists wanted a sample from the Moon?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "366",
+    "title": "Speedy Alice Sprints to Olympic Gold",
+    "story": "Alice Regina Brown raced into the world on September 20, 1960, in Jackson, Mississippi. This lightning-fast runner would go on to become an Olympic champion. Brown's incredible speed helped her win gold medals in the 4x100 meter relay at not one, but two Olympic Games. She blazed across the finish line to victory in 1984 and again in 1988, proving herself a true American sports hero.",
+    "activity_question": "In which Olympic event did Alice Regina Brown win gold medals?",
+    "activity_choices": [
+      "4x100 meter relay",
+      "100 meter dash",
+      "Marathon",
+      "Long jump"
+    ],
+    "activity_answer": "4x100 meter relay",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How many Olympic Games did Alice Regina Brown win gold medals in?",
+    "score": 85,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "84",
+    "title": "Moon Mission Mishap",
+    "story": "Blast off! On September 20, 1966, the United States launched Surveyor B, a robotic spacecraft destined for the Moon. Scientists were eager to explore our celestial neighbor up close. The mission started with high hopes, but things didn't go as planned. Just three days after launch, Surveyor B sadly crashed onto the lunar surface. Despite the setback, each attempt taught valuable lessons for future Moon missions.",
+    "activity_question": "What was Surveyor B?",
+    "activity_choices": [
+      "A robotic spacecraft",
+      "A lunar rover",
+      "An astronaut training program",
+      "A space telescope"
+    ],
+    "activity_answer": "A robotic spacecraft",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it's important to keep trying even when space missions don't succeed?",
+    "optional_type": "follow_up_question",
+    "score": 84,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "82",
+    "title": "The Beatles Rock for Charity",
+    "story": "Screaming fans filled the Paramount Theatre as The Beatles wrapped up their first North American tour in 1964. The Fab Four returned to New York City on September 20 for a special show. They headlined 'An Evening With The Beatles', a benefit concert for United Cerebral Palsy. The charity event also featured singers Steve Lawrence and Eydie Gormé, making it a night of music and goodwill.",
+    "activity_question": "What was the name of the charity benefit concert The Beatles performed?",
+    "activity_choices": [
+      "An Evening With The Beatles",
+      "The Fab Four Fundraiser",
+      "Beatles for Cerebral Palsy",
+      "New York City Rocks"
+    ],
+    "activity_answer": "An Evening With The Beatles",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it's important for famous musicians to support charities?",
+    "score": 82,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "111",
+    "title": "The Secret Code That Changed Everything",
+    "story": "Imagine a lock so strong, it keeps secrets safe across the entire internet! In 1983, on September 20, a brilliant invention called RSA was patented. This special code system lets computers talk secretly, protecting our emails, online shopping, and more. It's like a digital superhero, keeping bad guys from stealing our information!",
+    "activity_question": "What was patented on September 20, 1983?",
+    "activity_choices": [
+      "RSA",
+      "The internet",
+      "Online shopping",
+      "Digital superhero"
+    ],
+    "activity_answer": "RSA",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you think of times when you use secret codes in your daily life?",
+    "score": 80,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "153",
+    "title": "Babe Ruth Smashes His Way to History",
+    "story": "Crack! The crowd roared as Babe Ruth's bat connected with the ball, sending it soaring over the fence. On September 20, 1919, the legendary slugger hit his 27th home run of the season for the Boston Red Sox. This mighty swing in the 9th inning not only secured a 4-3 victory against the Chicago White Sox but also tied the MLB record set by Ned Williamson.",
+    "activity_question": "What team was Babe Ruth playing for when he hit his record-tying home run?",
+    "activity_choices": [
+      "Boston Red Sox",
+      "Chicago White Sox",
+      "New York Yankees",
+      "Slugger City Smashers"
+    ],
+    "activity_answer": "Boston Red Sox",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Babe Ruth would go on to hit many more home runs, finishing his career with an amazing 714!",
+    "score": 80,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "389",
+    "title": "Musical Maestro of Virtual Worlds",
+    "story": "Masashi Hamauzu, the musical genius behind beloved video games, entered the world in Munich, West Germany. Born in 1971 on September 20, this Japanese composer would grow up to create enchanting soundtracks for the Final Fantasy series. His melodies breathe life into digital realms, captivating players in games like Final Fantasy VII Remake and Rebirth.",
+    "activity_question": "Where was Masashi Hamauzu born?",
+    "activity_choices": [
+      "Munich, West Germany",
+      "Tokyo, Japan",
+      "New York, USA",
+      "London, England"
+    ],
+    "activity_answer": "Munich, West Germany",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What famous video game series did Masashi Hamauzu compose music for?",
+    "score": 80,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "400",
+    "title": "A Voice That Brings Anime to Life",
+    "story": "Yui Horie's magical voice first entered the world on September 20, 1976, in Tokyo, Japan. This talented singer and voice actress has breathed life into countless anime characters. Her work in popular shows like Ressha Sentai ToQger and My Hero Academia has delighted fans around the globe. Horie's ability to create unique voices for each character has made her a true star in the world of Japanese animation.",
+    "activity_question": "What type of work is Yui Horie known for?",
+    "activity_choices": [
+      "Voice acting",
+      "Painting",
+      "Cooking",
+      "Dancing"
+    ],
+    "activity_answer": "Voice acting",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name another anime series Yui Horie has worked on?",
+    "score": 80,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "410",
+    "title": "Snowboard Champ's Frosty Birthday",
+    "story": "Whoosh! Alex Pullin zipped down snowy slopes, carving his way to snowboarding glory. Born on September 20, 1987, in Mansfield, Australia, Pullin became a world-class athlete. He snagged gold medals in snowboard cross at the World Championships in 2011 and 2013, showing off his incredible skills on the icy terrain.",
+    "activity_question": "What sport did Alex Pullin excel in?",
+    "activity_choices": [
+      "Snowboarding",
+      "Skiing",
+      "Ice skating",
+      "Sledding"
+    ],
+    "activity_answer": "Snowboarding",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another winter sport that's popular in the Olympics?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "38",
+    "title": "Pitching Perfection: A No-Hit Wonder",
+    "story": "Imagine throwing a baseball so well that no one can hit it! That's exactly what Nick Maddox did for the Pittsburgh Pirates. On September 20, 1907, he pitched a no-hitter against the Brooklyn Superbas. In baseball, a no-hitter is when a pitcher doesn't allow any hits during the entire game. It's super rare and exciting! Maddox's amazing performance helped the Pirates win 2-1 at Exposition Park in Pittsburgh.",
+    "activity_question": "What special achievement did Nick Maddox accomplish in this baseball game?",
+    "activity_choices": [
+      "He pitched a no-hitter",
+      "He hit a home run",
+      "He caught a fly ball",
+      "He stole a base"
+    ],
+    "activity_answer": "He pitched a no-hitter",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think pitching a no-hitter is considered so impressive in baseball?",
+    "optional_type": "follow_up_question",
+    "score": 78,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "168",
+    "title": "Maris Smashes Home Run 59",
+    "story": "Crack! The crowd roared as Roger Maris sent the ball soaring. On September 20, 1961, the New York Yankees outfielder hit his 59th home run of the season. Fans held their breath, hoping for number 60, but it wasn't to be that day. Still, Maris's powerful swing helped the Yankees clinch their 26th pennant, securing their spot in baseball history.",
+    "activity_question": "What did Roger Maris hit on September 20, 1961?",
+    "activity_choices": [
+      "His 59th home run",
+      "His 60th home run",
+      "A grand slam",
+      "A foul ball"
+    ],
+    "activity_answer": "His 59th home run",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What's a pennant in baseball?",
+    "score": 78,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "32",
+    "title": "Women Break Political Barriers",
+    "story": "Belva Lockwood and Marietta Stow made history in 1884. The Equal Rights Party nominated them as the first all-female ticket for U.S. President and Vice President. On September 20, these trailblazers shattered expectations, showing girls they could aim for the highest office. Though they didn't win, their bold campaign opened doors for future women in politics.",
+    "activity_question": "What political party nominated Belva Lockwood and Marietta Stow?",
+    "activity_choices": [
+      "The Equal Rights Party",
+      "The Democratic Party",
+      "The Republican Party",
+      "The Whig Party"
+    ],
+    "activity_answer": "The Equal Rights Party",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it was important for women to run for President in 1884?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "34",
+    "title": "Nixey's No-Hit Wonder",
+    "story": "Batter up! Jimmy 'Nixey' Callahan stepped onto the mound with fire in his eyes. The Chicago White Sox pitcher was about to make baseball history. On September 20, 1902, Nixey threw a no-hitter against the Detroit Tigers. Not a single Tiger managed to get a hit off him! The White Sox won the game 3-0, and Nixey's name was forever etched in the record books.",
+    "activity_question": "What did Jimmy 'Nixey' Callahan achieve in this baseball game?",
+    "activity_choices": [
+      "He threw a no-hitter",
+      "He hit three home runs",
+      "He struck out every batter",
+      "He pitched a perfect game"
+    ],
+    "activity_answer": "He threw a no-hitter",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you explain what a no-hitter means in baseball?",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "58",
+    "title": "Running Legend Sweeps the Track",
+    "story": "Speedy feet and unbeatable stamina made Gunder Hagg a running sensation. On September 20, 1942, this Swedish athlete became the world champion of all records from 1500 meters to 5000 meters. Hagg's incredible performance showed he could outrun anyone at multiple distances, making him a true track and field superstar.",
+    "activity_question": "What distances did Gunder Hagg set records for?",
+    "activity_choices": [
+      "From 1500 meters to 5000 meters",
+      "From 100 meters to 1000 meters",
+      "From 5000 meters to 10000 meters",
+      "From 800 meters to 3000 meters"
+    ],
+    "activity_answer": "From 1500 meters to 5000 meters",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it's impressive for a runner to hold records at different distances?",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "89",
+    "title": "Pirate Pitcher's Perfect Performance",
+    "story": "Batter up! On September 20, 1969, Pittsburgh Pirates pitcher Bob Moose threw a no-hitter against the New York Mets. In baseball, a no-hitter is when a pitcher doesn't allow any hits during the entire game. It's super rare and exciting! Moose's amazing pitching led the Pirates to a 4-0 victory. His teammates must have been cheering like crazy!",
+    "activity_question": "What special achievement did Bob Moose accomplish in this baseball game?",
+    "activity_choices": [
+      "He threw a no-hitter",
+      "He hit a home run",
+      "He caught a fly ball",
+      "He stole a base"
+    ],
+    "activity_answer": "He threw a no-hitter",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think throwing a no-hitter is considered so special in baseball?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "105",
+    "title": "NASA's Space Detective Takes Flight",
+    "story": "Blasting off into the cosmos, NASA launched a high-tech space detective on September 20, 1979. The HEAO 3 satellite soared into orbit, ready to unravel cosmic mysteries. This orbiting observatory hunted for clues about the universe, studying X-rays and gamma rays from distant stars and galaxies. Like a space-age Sherlock Holmes, HEAO 3 helped scientists piece together the puzzle of our vast universe.",
+    "activity_question": "What did the HEAO 3 satellite study in space?",
+    "activity_choices": [
+      "X-rays and gamma rays",
+      "Radio waves",
+      "Visible light",
+      "Cosmic dust"
+    ],
+    "activity_answer": "X-rays and gamma rays",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think scientists use satellites to study space instead of just telescopes on Earth?",
+    "score": 75,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "126",
+    "title": "Endeavour's Stellar Space Journey",
+    "story": "Whoosh! The space shuttle Endeavour zoomed back to Earth on September 20, 1992. After an amazing adventure in orbit, the crew of STS-47 touched down safely. This mission was extra special because it carried the first African-American woman and the first married couple to fly together in space. Talk about a cosmic family trip!",
+    "activity_question": "What made the STS-47 mission extra special?",
+    "activity_choices": [
+      "It carried the first African-American woman and married couple in space",
+      "It was Endeavour's first flight",
+      "It landed on Mars",
+      "It discovered a new planet"
+    ],
+    "activity_answer": "It carried the first African-American woman and married couple in space",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you imagine what it would be like to travel in space with your family?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "158",
+    "title": "Gandhi's Powerful Protest for Equality",
+    "story": "Mahatma Gandhi, India's famous peace leader, took a bold stand against unfairness in 1932. On September 20, he started a hunger strike to protest how Hindu 'untouchables' were treated. Gandhi refused to eat until people changed their ways. His brave action helped shine a light on the need for equality for all people in India.",
+    "activity_question": "What did Gandhi do to protest unfair treatment?",
+    "activity_choices": [
+      "Started a hunger strike",
+      "Wrote a letter to the government",
+      "Organized a march",
+      "Gave a speech"
+    ],
+    "activity_answer": "Started a hunger strike",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think Gandhi chose a hunger strike as a form of protest?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "161",
+    "title": "Ernie Banks Blasts Off",
+    "story": "Crack! The ball soared over the fence as Ernie Banks smashed his first major league home run. On September 20, 1953, this young Chicago Cubs player showed the world a glimpse of his future greatness. Banks would go on to become one of baseball's most beloved stars, known for his power hitting and positive attitude.",
+    "activity_question": "What team did Ernie Banks play for when he hit his first home run?",
+    "activity_choices": [
+      "Chicago Cubs",
+      "New York Yankees",
+      "Boston Red Sox",
+      "Los Angeles Dodgers"
+    ],
+    "activity_answer": "Chicago Cubs",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Ernie Banks' nickname was 'Mr. Sunshine' because of his cheerful personality.",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "167",
+    "title": "A Brave Stand for Education",
+    "story": "James Meredith made history on September 20, 1961. This courageous African-American student tried to enroll at the University of Mississippi. But the school said no because of the color of his skin. Meredith didn't give up. His bravery helped challenge unfair rules and opened doors for future students of all backgrounds.",
+    "activity_question": "What did James Meredith try to do in 1961?",
+    "activity_choices": [
+      "Enroll at the University of Mississippi",
+      "Become a teacher",
+      "Join a sports team",
+      "Write a book about education"
+    ],
+    "activity_answer": "Enroll at the University of Mississippi",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it's important for all students to have equal access to education?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "173",
+    "title": "Mickey Mantle's Mighty Final Swing",
+    "story": "Crack! The crowd roared as Mickey Mantle smashed his last home run. On September 20, 1968, the baseball legend hit number 536, capping off an incredible career. Mantle's powerful swing had thrilled fans for years. Though it was the end of an era, his impact on the game would last forever.",
+    "activity_question": "What number was Mickey Mantle's final home run?",
+    "activity_choices": [
+      "536",
+      "1968",
+      "20",
+      "1000"
+    ],
+    "activity_answer": "536",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "Mickey Mantle played his entire 18-year career with the New York Yankees.",
+    "optional_type": "bonus_fact",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "323",
+    "title": "A Master of Glass Art Begins",
+    "story": "Sparks of creativity were born on September 20, 1941, when Dale Chihuly entered the world in Tacoma, Washington. This future glass-shaping wizard would go on to dazzle people with his incredible sculptures. Chihuly's talent shone bright early, earning him the prestigious Louis Tiffany Award in 1967. His colorful, swirling creations now amaze viewers in museums and public spaces around the globe.",
+    "activity_question": "What prestigious award did Dale Chihuly receive in 1967?",
+    "activity_choices": [
+      "The Louis Tiffany Award",
+      "The Crystal Globe Prize",
+      "The Glass Master Medal",
+      "The Tacoma Art Trophy"
+    ],
+    "activity_answer": "The Louis Tiffany Award",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What kind of art is Dale Chihuly famous for creating?",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "401",
+    "title": "Japan's Pop Princess Takes the Stage",
+    "story": "A star was born in Naha, Okinawa! Namie Amuro, who would become a Japanese pop sensation, entered the world in 1977. On September 20, this future singing superstar began her journey. Amuro's powerful voice and dazzling dance moves would later captivate fans across Japan and beyond. She started with the group Super Monkey's before soaring to solo success.",
+    "activity_question": "Where was Namie Amuro born?",
+    "activity_choices": [
+      "Tokyo",
+      "Naha, Okinawa",
+      "Kyoto",
+      "Osaka"
+    ],
+    "activity_answer": "Naha, Okinawa",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What musical styles is Namie Amuro known for?",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "408",
+    "title": "Pop Star Yuna Ito's Multicultural Melody",
+    "story": "Yuna Ito's musical journey began on September 20, 1983, in Los Angeles. Born to Japanese and Korean parents, this American pop singer would grow up to captivate audiences with her powerful voice. Yuna's talent isn't limited to singing - she's also made a name for herself as an actress. Her hit song 'Heart' touched many fans, showcasing her ability to blend cultures through music.",
+    "activity_question": "Where was Yuna Ito born?",
+    "activity_choices": [
+      "Los Angeles",
+      "Tokyo",
+      "Seoul",
+      "New York"
+    ],
+    "activity_answer": "Los Angeles",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think Yuna's multicultural background might influence her music?",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "36",
+    "title": "Butterfingers on the Baseball Diamond",
+    "story": "Oops! The Cleveland baseball team had a case of the dropsies in 1905. On September 20, they fumbled their way into the record books by making seven errors in a single inning. That's a lot of missed catches and wild throws! It was like watching a game of hot potato gone wrong. Despite the comedy of errors, the team learned from their mistakes and kept playing hard.",
+    "activity_question": "What did the Cleveland baseball team do in 1905?",
+    "activity_choices": [
+      "Made seven errors in an inning",
+      "Won the World Series",
+      "Invented a new baseball pitch",
+      "Played in funny costumes"
+    ],
+    "activity_answer": "Made seven errors in an inning",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Have you ever made a mistake while playing sports? How did you bounce back?",
+    "score": 72,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "144",
+    "title": "A Prince's Daring Escape",
+    "story": "Danger lurked around every corner as Bonnie Prince Charlie raced across Scotland. The young prince, hoping to claim the throne, had just lost a big battle. Now, on September 20, 1746, he made a daring escape to France. Disguised and helped by loyal supporters, he slipped away by boat, leaving his dream of being king behind.",
+    "activity_question": "Where did Bonnie Prince Charlie escape to?",
+    "activity_choices": [
+      "France",
+      "England",
+      "Ireland",
+      "Spain"
+    ],
+    "activity_answer": "France",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think the prince was called 'Bonnie'?",
+    "optional_type": "follow_up_question",
+    "score": 72,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "147",
+    "title": "A Royal First: Prince Crosses the Pond",
+    "story": "Cheers erupted as a dashing young prince stepped onto American soil. The Prince of Wales, future King Edward VII, made history in 1860. On September 20, he became the first British royal to visit the United States. Crowds gathered, eager to catch a glimpse of the charming heir to the throne. His journey marked a new chapter in US-UK relations.",
+    "activity_question": "Who was the first British royal to visit the United States?",
+    "activity_choices": [
+      "The Prince of Wales",
+      "Queen Victoria",
+      "King George III",
+      "Princess Diana"
+    ],
+    "activity_answer": "The Prince of Wales",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What title did the Prince of Wales later hold?",
+    "optional_type": "follow_up_question",
+    "score": 72,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "33",
+    "title": "Vrooom! The First Gas-Powered Car Arrives",
+    "story": "Imagine the excitement as a strange new vehicle puttered down the street! In 1893, on September 20, the first gasoline-powered car made its debut in Springfield, Massachusetts. People gathered to watch this horseless carriage, marveling at its noisy engine and smoky exhaust. This revolutionary invention would soon change transportation forever, paving the way for the cars we know today.",
+    "activity_question": "Where did the first gasoline-powered car make its debut?",
+    "activity_choices": [
+      "Springfield, Massachusetts",
+      "New York City",
+      "Detroit, Michigan",
+      "Boston, Massachusetts"
+    ],
+    "activity_answer": "Springfield, Massachusetts",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think people reacted when they first saw a car driving down the street?",
+    "score": 70,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "41",
+    "title": "Butterfingers Bonanza: Yankees' Fumbling Fiasco",
+    "story": "Gloves turned to butter as the New York Yankees set an unwanted record. In a double header on September 20, 1911, the team committed a whopping 12 errors! Fans watched in disbelief as balls slipped through fingers and bounced off mitts. Despite the fumbles, the Yankees showed true grit, refusing to let their mistakes dampen their spirits.",
+    "activity_question": "What type of record did the New York Yankees set?",
+    "activity_choices": [
+      "An unwanted record",
+      "A home run record",
+      "A pitching record",
+      "A winning streak record"
+    ],
+    "activity_answer": "An unwanted record",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think the players felt after making so many errors in one day?",
+    "score": 70,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "52",
+    "title": "Cubs Roar to Victory",
+    "story": "The crowd roared as the Chicago Cubs clinched the National League pennant in 1932. On September 20, these baseball heroes secured their spot in the World Series. Fans cheered wildly as the Cubs showed their skill on the diamond, proving they were the best team in their league that year.",
+    "activity_question": "What did the Chicago Cubs clinch in 1932?",
+    "activity_choices": [
+      "The National League pennant",
+      "The World Series",
+      "The American League title",
+      "The Golden Glove award"
+    ],
+    "activity_answer": "The National League pennant",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What big event did winning the pennant allow the Cubs to play in?",
+    "score": 70,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "70",
+    "title": "The Birth of FORTRAN Programming",
+    "story": "Beep, boop! A groundbreaking moment in computer history happened in 1954. On September 20, the very first FORTRAN program ran successfully. FORTRAN, short for FORmula TRANslation, was a revolutionary language that made it easier for scientists and engineers to write complex programs. It paved the way for modern coding languages we use today!",
+    "activity_question": "What does FORTRAN stand for?",
+    "activity_choices": [
+      "FORmula TRANslation",
+      "FORward TRANsmission",
+      "FORmat TRANsfer",
+      "FORtified TRANscript"
+    ],
+    "activity_answer": "FORmula TRANslation",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you think of any ways we use computer programs in our daily lives?",
+    "score": 70,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "86",
+    "title": "Beulah's Fury: A Powerful Hurricane Strikes",
+    "story": "Winds howled and waves crashed as Hurricane Beulah slammed into the Texas-Mexico border in 1967. This massive storm, one of the largest ever seen, brought heavy rain and destructive winds on September 20. Despite the damage, communities came together to help each other recover. The event led to improved hurricane tracking and preparation methods, making coastal areas safer today.",
+    "activity_question": "What area did Hurricane Beulah hit?",
+    "activity_choices": [
+      "The Texas-Mexico border",
+      "Florida's coast",
+      "The Caribbean islands",
+      "California's beaches"
+    ],
+    "activity_answer": "The Texas-Mexico border",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How might communities prepare for hurricanes today?",
+    "score": 70,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "94",
+    "title": "Baseball Legend Willie Mays Hangs Up His Glove",
+    "story": "Fans gasped as Willie Mays, one of baseball's greatest players, announced he'd retire after the 1973 season. Known for his incredible catches and powerful hits, Mays had thrilled crowds for over two decades. On September 20, he shared the news, ending an era in America's favorite pastime.",
+    "activity_question": "What did Willie Mays announce on September 20, 1973?",
+    "activity_choices": [
+      "He'd retire after the season",
+      "He'd join a new team",
+      "He'd become a coach",
+      "He'd write a baseball book"
+    ],
+    "activity_answer": "He'd retire after the season",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Willie Mays was nicknamed 'The Say Hey Kid' for his youthful energy on the field.",
+    "score": 70,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "108",
+    "title": "Giant Kick Shatters Record",
+    "story": "Boom! The football soared through the air, launched by Joe Danelo's powerful leg. In 1981, Danelo amazed fans with a jaw-dropping 55-yard field goal for the New York Giants. This September 20 kick set a new team record, showing just how far a skilled player could send the ball flying between those goalposts.",
+    "activity_question": "What did Joe Danelo do for the New York Giants?",
+    "activity_choices": [
+      "Kicked a 55-yard field goal",
+      "Caught a touchdown pass",
+      "Threw for 300 yards",
+      "Ran for a 100-yard touchdown"
+    ],
+    "activity_answer": "Kicked a 55-yard field goal",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think players practice to kick such long field goals?",
+    "score": 70,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "127",
+    "title": "Discovery's Daring Space Adventure",
+    "story": "Whoosh! The space shuttle Discovery zoomed back to Earth on September 20, 1994. After an exciting mission in orbit, the brave astronauts guided their spacecraft to a perfect landing. This flight, known as STS-64, was Discovery's 20th journey into space. The crew conducted important experiments and even tested new technology high above our planet.",
+    "activity_question": "What was the name of the space shuttle that landed on September 20, 1994?",
+    "activity_choices": [
+      "Discovery",
+      "Atlantis",
+      "Endeavour",
+      "Columbia"
+    ],
+    "activity_answer": "Discovery",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How many times had Discovery flown into space by this mission?",
+    "score": 70,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "136",
+    "title": "A New Era for Military Equality",
+    "story": "The U.S. military took a big step towards fairness in 2011. On September 20, they ended the 'Don't Ask, Don't Tell' policy. This change meant gay men and women could now serve openly in the armed forces. No more hiding who they were! It was a proud moment for many soldiers who could finally be themselves while serving their country.",
+    "activity_question": "What policy did the U.S. military end in 2011?",
+    "activity_choices": [
+      "'Don't Ask, Don't Tell'",
+      "'No Gays Allowed'",
+      "'Open Service Act'",
+      "'Military Equality Law'"
+    ],
+    "activity_answer": "'Don't Ask, Don't Tell'",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it's important for people to be able to be themselves at work?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "271",
+    "title": "A Musical Maestro's Birth",
+    "story": "Lights, camera, music! Frank De Vol, the maestro behind beloved TV tunes, entered the world in 1911. Born in Moundsville, West Virginia on September 20, he'd grow up to compose catchy themes for shows like My Three Sons and The Brady Bunch. This talented arranger even stepped in front of the camera, acting in comedies and leading orchestras.",
+    "activity_question": "What famous TV show did Frank De Vol compose the theme song for?",
+    "activity_choices": [
+      "The Brady Bunch",
+      "Friends",
+      "Cheers",
+      "Seinfeld"
+    ],
+    "activity_answer": "The Brady Bunch",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you hum or sing part of The Brady Bunch theme song?",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "280",
+    "title": "Chico Hamilton: Jazz Drumming Legend",
+    "story": "Boom, crash, sizzle! The rhythm of jazz got a new beat when Foreststorn 'Chico' Hamilton was born in 1921. This Los Angeles native grew up to become a drumming sensation, keeping time for jazz giants like Lester Young and Count Basie. Chico didn't just follow the beat—he led it, forming the famous Chico Hamilton Quintet on September 20 of his birth year.",
+    "activity_question": "What famous musical group did Chico Hamilton form?",
+    "activity_choices": [
+      "Chico Hamilton Quintet",
+      "Los Angeles Jazz Band",
+      "Count Basie Orchestra",
+      "Lester Young Trio"
+    ],
+    "activity_answer": "Chico Hamilton Quintet",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Chico's real first name, Foreststorn, is as unique as his drumming style!",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "332",
+    "title": "Electronic Music Pioneer Laurie Spiegel",
+    "story": "Beep, boop, beep! Those futuristic sounds might remind you of Laurie Spiegel's music. Born in Chicago on September 20, 1945, Spiegel became a groundbreaking electronic music composer. She mixed computer technology with musical creativity, crafting unique tunes and even designing computer graphics.",
+    "activity_question": "What kind of music did Laurie Spiegel compose?",
+    "activity_choices": [
+      "Electronic music",
+      "Classical music",
+      "Jazz music",
+      "Rock music"
+    ],
+    "activity_answer": "Electronic music",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Spiegel was also a talented guitarist, blending traditional instruments with electronic sounds.",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "373",
+    "title": "Guitar Hero's Island Roots",
+    "story": "Nuno Bettencourt strummed his first notes in paradise. Born in the Azores, a beautiful Portuguese island chain, he grew up to become a rock guitar sensation. In 1966, on September 20, the future Extreme band member entered the world in Praia da Vitória. His fingers would later create the unforgettable melody of 'More Than Words'.",
+    "activity_question": "Where was Nuno Bettencourt born?",
+    "activity_choices": [
+      "Azores",
+      "Mainland Portugal",
+      "United States",
+      "Guitar Island"
+    ],
+    "activity_answer": "Azores",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The Azores are known for their lush landscapes and volcanic features, making them a unique birthplace for a rock star.",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "12",
+    "title": "A Handshake Ends Nine Years of War",
+    "story": "Swords clashed for the Nine Years’ War, but talks finally won. On September 20, 1697, leaders met in the Dutch town of Rijswijk. There, they shook hands and signed the Treaties of Rijswijk. This important agreement ended the long fighting and brought peace to many parts of Europe.",
+    "activity_question": "What was signed to end the nine-year war?",
+    "activity_choices": [
+      "Treaties of Rijswijk",
+      "A battle plan",
+      "A royal decree",
+      "A treasure map"
+    ],
+    "activity_answer": "Treaties of Rijswijk",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it's important for countries to find peaceful solutions to conflicts?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "17",
+    "title": "A Song for America's Stars and Stripes",
+    "story": "Bombs burst in air as Francis Scott Key penned powerful words. In 1814, his poem became America's anthem. On September 20, 'The Star-Spangled Banner' was published as a song. Key's stirring lyrics joined a tune by John Stafford Smith, creating a patriotic masterpiece that still moves hearts today.",
+    "activity_question": "Who wrote the lyrics to 'The Star-Spangled Banner'?",
+    "activity_choices": [
+      "Francis Scott Key",
+      "John Stafford Smith",
+      "George Washington",
+      "Benjamin Franklin"
+    ],
+    "activity_answer": "Francis Scott Key",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What inspired Francis Scott Key to write the lyrics?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "18",
+    "title": "Free Men Unite Against Slavery",
+    "story": "Brave free African Americans gathered to fight injustice. In 1830, on September 20, the First Negro Convention of Free Men met. They made a bold decision to stop buying products made by enslaved people. This peaceful protest aimed to weaken the cruel system of slavery by hitting slaveholders in their wallets.",
+    "activity_question": "What did the Free Men agree to do at the convention?",
+    "activity_choices": [
+      "Boycott slave-produced goods",
+      "Start a new political party",
+      "Build more schools",
+      "Write a letter to the President"
+    ],
+    "activity_answer": "Boycott slave-produced goods",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think boycotting slave-produced goods might help fight against slavery?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "20",
+    "title": "Trains Roll into Dutch History",
+    "story": "Choo-choo! The Netherlands welcomed its first railroad in 1839. On September 20, steam engines puffed to life, connecting the cities of Amsterdam and Haarlem. This new iron road changed how people traveled, making trips faster and easier. It marked the beginning of a transportation revolution in the country.",
+    "activity_question": "What two cities did the first railroad in the Netherlands connect?",
+    "activity_choices": [
+      "Amsterdam and Haarlem",
+      "Rotterdam and Utrecht",
+      "The Hague and Eindhoven",
+      "Groningen and Maastricht"
+    ],
+    "activity_answer": "Amsterdam and Haarlem",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think travel changed for people after the railroad opened?",
+    "score": 65,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "original": "World Food Day",
+    "score": 65,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "Dictionary Day",
+    "score": 55,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "World Spine Day",
+    "score": 45,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "World Anesthesia Day",
+    "score": 45,
+    "is_kid_friendly": false
+  }
+]

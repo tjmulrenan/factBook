@@ -1,0 +1,102 @@
+[
+  {
+    "id": "901",
+    "title": "Cherry Sweet Dreams Come True Day",
+    "story": "Every January 3rd, chocolate lovers celebrate National Chocolate Covered Cherry Day by biting into these gooey, fruity treats! People visit candy shops to buy boxes of chocolate-covered cherries, share them with friends, or try making their own at home. Some families make it a tradition to eat them while watching movies together. Bakeries and candy stores often put these treats on special display or offer discounts. Social media fills up with photos of people showing off their favorite brands or homemade versions. The best part? That moment when you bite through the chocolate shell and the sweet cherry juice surprises your taste buds!",
+    "activity_question": "When is National Chocolate Covered Cherry Day celebrated?",
+    "activity_choices": [
+      "January 3rd",
+      "February 14th",
+      "March 15th",
+      "December 25th"
+    ],
+    "activity_answer": "January 3rd",
+    "bonus_fact": "Some chocolate-covered cherries are made with real liquid cherry juice inside the chocolate shell!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Snooze and You Win Day!",
+    "story": "January 3rd is Festival of Sleep Day, when being lazy is actually the goal! People celebrate by sleeping in as long as possible, taking epic afternoon naps, and wearing their comfiest pajamas all day. Some families have \"who can nap longest\" contests or build the ultimate blanket fort for maximum coziness. Social media fills with photos of people in bed with captions like \"professionally napping today.\" It's the perfect excuse to recover from all those late New Year's Eve parties and start the year feeling totally rested!",
+    "activity_question": "What do people wear on Festival of Sleep Day?",
+    "activity_choices": [
+      "Their comfiest pajamas",
+      "Fancy party clothes",
+      "Swimming suits",
+      "School uniforms"
+    ],
+    "activity_answer": "Their comfiest pajamas",
+    "follow_up_question": "What's your ultimate cozy setup for the perfect nap?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "903",
+    "title": "Sip, Sip, Hooray for Straw Day!",
+    "story": "Every January 3rd is Drinking Straw Day, celebrating one of the coolest inventions ever! People post photos of their favorite colorful straws, from bendy ones to paper straws covered in fun designs. Restaurants might offer special drinks with extra-fancy straws, and some families have straw-decorating contests at home. Kids love showing off their craziest straw tricks, like making bubbles in milk or connecting multiple straws together.",
+    "activity_question": "When is Drinking Straw Day celebrated?",
+    "activity_choices": [
+      "January 3rd",
+      "March 1st",
+      "July 4th",
+      "December 25th"
+    ],
+    "activity_answer": "January 3rd",
+    "bonus_fact": "The first bendable straw was invented in 1937 to help his daughter drink milkshakes easier!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "904",
+    "title": "Fruitcake Toss Day: Flying Food Fun!",
+    "story": "Every January 3rd, people across America grab their leftover holiday fruitcakes and launch them as far as they can! Fruitcake Toss Day started because many folks think fruitcakes are too heavy, dense, or just plain weird to eat. Instead of throwing them in the trash, families head to parks or their backyards for epic throwing contests. Some towns even hold official fruitcake-flinging competitions with prizes for distance and creativity. People use catapults, slingshots, or just their bare hands to send these rock-hard cakes soaring through the air. It's the perfect way to get rid of unwanted holiday treats while having a blast!",
+    "activity_question": "When is Fruitcake Toss Day celebrated?",
+    "activity_choices": [
+      "January 3rd",
+      "December 25th",
+      "November 15th",
+      "February 14th"
+    ],
+    "activity_answer": "January 3rd",
+    "bonus_fact": "Some fruitcakes can fly over 100 feet when thrown with enough force!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "905",
+    "title": "One Ring to Rule This Day",
+    "story": "Every January 3rd, fantasy fans around the world celebrate JRR Tolkien Day to honor the famous author who created The Hobbit and The Lord of the Rings! People mark this special day by reading their favorite Tolkien books, watching the epic movies, and sharing quotes about hobbits, elves, and wizards on social media. Some fans get creative by baking hobbit-style meals with multiple breakfasts, while others dress up as their favorite Middle-earth characters. Libraries often host special reading events, and bookstores display Tolkien's magical stories front and center to introduce new readers to his incredible fantasy worlds.",
+    "activity_question": "What do people often bake on JRR Tolkien Day?",
+    "activity_choices": [
+      "Hobbit-style meals with multiple breakfasts",
+      "Dragon-shaped birthday cakes",
+      "Elf ear cookies",
+      "Ring-shaped donuts"
+    ],
+    "activity_answer": "Hobbit-style meals with multiple breakfasts",
+    "bonus_fact": "Tolkien invented over 15 different languages for his Middle-earth stories!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  }
+]

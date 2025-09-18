@@ -1,0 +1,1262 @@
+[
+  {
+    "id": "901",
+    "title": "Veggie Power Takes Over October 1",
+    "story": "Every October 1, people around the world celebrate World Vegetarian Day by ditching meat and trying delicious plant-based foods instead! Restaurants create special veggie menus, families cook colorful meals with beans and vegetables, and social media fills with photos of amazing meat-free dishes. Some people use this day to try being vegetarian for the first time, while others share their favorite recipes with friends.",
+    "activity_question": "What do restaurants often do on World Vegetarian Day?",
+    "activity_choices": [
+      "Create special veggie menus",
+      "Give away free hamburgers",
+      "Close for the entire day",
+      "Only serve desserts"
+    ],
+    "activity_answer": "Create special veggie menus",
+    "follow_up_question": "What vegetarian dish would you most want to try making?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 58
+  },
+  {
+    "id": "902",
+    "title": "Celebrating Our Wise and Wonderful Elders",
+    "story": "Every October 1, people around the world celebrate International Day of Older Persons to honor grandparents, great-grandparents, and all the amazing older adults in our communities. Families visit nursing homes, share stories with elderly neighbors, and post photos with their favorite older relatives on social media. Schools organize special programs where kids interview seniors about life decades ago, learning incredible tales from before smartphones and video games existed!",
+    "activity_question": "What do kids often do with seniors during this celebration?",
+    "activity_choices": [
+      "Interview them about life in the past",
+      "Teach them how to skateboard",
+      "Challenge them to video game contests",
+      "Ask them to do their homework"
+    ],
+    "activity_answer": "Interview them about life in the past",
+    "follow_up_question": "What amazing story might an older person in your family tell you?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "903",
+    "title": "Spin Into CD Player Day!",
+    "story": "Every October 1, music lovers celebrate CD Player Day by dusting off their old compact disc players and spinning their favorite albums! People share photos of their vintage CD collections on social media, hunt for rare discs at thrift stores, and remember when skipping songs meant actually pressing a button. Some families have CD listening parties where everyone brings their most treasured disc to play. It's a nostalgic day that proves sometimes the old ways of enjoying music still rock!",
+    "activity_question": "What do people often hunt for at thrift stores on CD Player Day?",
+    "activity_choices": [
+      "Rare compact discs",
+      "Vintage vinyl records",
+      "Old cassette tapes",
+      "Digital music files"
+    ],
+    "activity_answer": "Rare compact discs",
+    "bonus_fact": "CDs can hold about 74 minutes of music - enough for most full albums!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "200",
+    "title": "The Car That Changed Everything",
+    "story": "Vroom! A shiny new car rolled off the assembly line. It was the Model T, created by Henry Ford. This affordable automobile hit the streets on October 1, 1908, costing $825. Ford's invention wasn't just a car; it was a revolution on wheels. The Model T made owning a car possible for many ordinary people, not just the wealthy. It changed how we travel, work, and live.",
+    "activity_question": "What was the name of the car Henry Ford introduced?",
+    "activity_choices": [
+      "Model T",
+      "Model A",
+      "Thunderbird",
+      "Mustang"
+    ],
+    "activity_answer": "Model T",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The Model T came in any color... as long as it was black! This helped speed up production.",
+    "score": 90,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "141",
+    "title": "Zooming into the Future: Japan's Bullet Train",
+    "story": "Whoosh! In 1964, Japan's first bullet train rocketed into action. The sleek Tokaido Shinkansen sped from Tokyo to Osaka on October 1, slashing travel time from six and a half hours to just four. This lightning-fast train zipped along at speeds that left everyone amazed. It wasn't just a ride; it was a glimpse into the future of transportation, showing the world how fast and efficient rail travel could be.",
+    "activity_question": "What was the name of Japan's first bullet train?",
+    "activity_choices": [
+      "Tokaido Shinkansen",
+      "Tokyo Express",
+      "Osaka Zoomer",
+      "Speedy Sushi"
+    ],
+    "activity_answer": "Tokaido Shinkansen",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How much time did the bullet train save on the Tokyo to Osaka journey?",
+    "score": 90,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "332",
+    "title": "The Birth of a Fantasy Game Legend",
+    "story": "Imagine rolling dice to battle dragons! Dave Arneson, born in Minnesota on October 1, 1947, would grow up to create magical worlds. He co-designed Dungeons & Dragons, the game that lets players become heroes in fantastical adventures. Arneson's imagination sparked a revolution in gaming, inspiring millions to embark on quests filled with swords, sorcery, and mythical creatures.",
+    "activity_question": "What famous game did Dave Arneson co-design?",
+    "activity_choices": [
+      "Dungeons & Dragons",
+      "Monopoly",
+      "Chess",
+      "Scrabble"
+    ],
+    "activity_answer": "Dungeons & Dragons",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What kind of characters do players become in Dungeons & Dragons?",
+    "optional_type": "follow_up_question",
+    "score": 90,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "84",
+    "title": "Tiny Books, Big Adventures Begin",
+    "story": "Colorful stories in pint-sized packages burst onto bookshelves on October 1, 1942. Little Golden Books made their debut, bringing affordable tales to young readers everywhere. These slim volumes with their distinctive gold spines quickly became favorites. From The Poky Little Puppy to The Little Red Hen, these books sparked imaginations and fostered a love of reading in countless children.",
+    "activity_question": "What made Little Golden Books stand out on bookshelves?",
+    "activity_choices": [
+      "Their distinctive gold spines",
+      "Their large size",
+      "Their leather covers",
+      "Their flashing lights"
+    ],
+    "activity_answer": "Their distinctive gold spines",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "The Poky Little Puppy became one of the best-selling children's books of all time.",
+    "optional_type": "bonus_fact",
+    "score": 92,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "208",
+    "title": "The Fairy Godmother of Fairytales",
+    "story": "Once upon a time, in a small French village, a magical storyteller was born. Marie-Catherine, later known as Madame d'Aulnoy, came into the world on October 1, 1652. This clever writer would grow up to sprinkle literary pixie dust across Europe. She invented the term 'fairytales' and introduced the dashing 'Prince Charming' to readers everywhere. Her enchanting stories captivated imaginations and laid the foundation for countless magical tales to come.",
+    "activity_question": "What term did Madame d'Aulnoy invent?",
+    "activity_choices": [
+      "Fairytales",
+      "Bedtime stories",
+      "Fables",
+      "Legends"
+    ],
+    "activity_answer": "Fairytales",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you think of any famous fairytale characters besides Prince Charming?",
+    "optional_type": "follow_up_question",
+    "score": 90,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "190",
+    "title": "Maris Smashes Home Run Record",
+    "story": "Crack! The crowd roared as Roger Maris's bat connected with the ball, sending it soaring over the fence. On October 1, 1961, the New York Yankees outfielder made baseball history. With his 61st home run of the season, Maris surpassed the legendary Babe Ruth's record. The historic hit came against Boston rookie Tracy Stallard, sealing a 1-0 victory for the Yankees at their home stadium.",
+    "activity_question": "What record did Roger Maris break?",
+    "activity_choices": [
+      "Babe Ruth's home run record",
+      "Most runs in a season",
+      "Longest hitting streak",
+      "Fastest pitch thrown"
+    ],
+    "activity_answer": "Babe Ruth's home run record",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How many home runs did Maris hit to break the record?",
+    "score": 90,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "126",
+    "title": "Surprise Eruption Shakes Tristan da Cunha",
+    "story": "Boom! The ground shook as a long-dormant volcano roared back to life on Tristan da Cunha in 1961. This remote island in the South Atlantic Ocean got a big surprise on October 1 when the volcano, thought to be extinct, suddenly erupted. Lava and ash spewed into the sky, forcing the islanders to flee their homes. It was a stark reminder that Earth's fiery forces can awaken at any time, even in unexpected places.",
+    "activity_question": "What type of natural event occurred on Tristan da Cunha?",
+    "activity_choices": [
+      "A volcanic eruption",
+      "An earthquake",
+      "A tsunami",
+      "A hurricane"
+    ],
+    "activity_answer": "A volcanic eruption",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think the eruption was such a surprise to the islanders?",
+    "score": 88,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "177",
+    "title": "Babe Ruth's Grand Finale on the Mound",
+    "story": "Babe Ruth stepped onto the pitcher's mound one last time in 1933, thrilling fans at Yankee Stadium. The baseball legend hurled a complete game against the Boston Red Sox, leading his team to a 6-5 victory. But the Babe wasn't done yet! He also smashed his 34th home run of the season in the fifth inning, proving he could still dominate both on the mound and at the plate on October 1.",
+    "activity_question": "What did Babe Ruth do in the fifth inning of his final pitching game?",
+    "activity_choices": [
+      "Hit his 34th home run",
+      "Struck out three batters",
+      "Caught a fly ball",
+      "Stole second base"
+    ],
+    "activity_answer": "Hit his 34th home run",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Babe Ruth was famous for his hitting, but he started his career as a pitcher!",
+    "score": 88,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "26",
+    "title": "Stargazer's Surprise: A Hidden Comet",
+    "story": "Peering through her telescope, Maria Mitchell made an incredible discovery. On October 1, 1847, this American astronomer spotted a comet that couldn't be seen with the naked eye. Mitchell's sharp eyes and dedication to observing the night sky led her to find this celestial wanderer. Her discovery earned her fame and inspired many young women to pursue careers in astronomy.",
+    "activity_question": "What did Maria Mitchell discover?",
+    "activity_choices": [
+      "A comet",
+      "A planet",
+      "A star",
+      "A galaxy"
+    ],
+    "activity_answer": "A comet",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What tool did Maria Mitchell use to make her discovery?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "244",
+    "title": "Ip Man: The Wing Chun Master",
+    "story": "Fists flew through the air as a young boy practiced his martial arts moves. Little did he know he'd become a legend! On October 1, 1893, Ip Man was born in Foshan, China. He grew up to be a master of Wing Chun, a powerful fighting style. Ip Man taught many students, including the famous Bruce Lee, spreading the art around the world.",
+    "activity_question": "What martial art style did Ip Man master?",
+    "activity_choices": [
+      "Wing Chun",
+      "Karate",
+      "Taekwondo",
+      "Judo"
+    ],
+    "activity_answer": "Wing Chun",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Wing Chun focuses on close-range combat and quick strikes.",
+    "score": 85,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "275",
+    "title": "The Birth of a Martial Arts Legend",
+    "story": "Kicks, punches, and throws! On October 1, 1913, a tiny baby named Hélio Gracie was born in Belém, Brazil. Little did anyone know, he would grow up to become a martial arts superstar. Hélio co-founded Brazilian Jiu-Jitsu, a fighting style that teaches smaller people to defend themselves against bigger opponents. His techniques revolutionized martial arts, earning him the nickname 'Godfather' of Brazilian Jiu-Jitsu.",
+    "activity_question": "What nickname did Hélio Gracie earn in the martial arts world?",
+    "activity_choices": [
+      "The Brazilian Warrior",
+      "Master of the Mat",
+      "Godfather of Brazilian Jiu-Jitsu",
+      "The Unbeatable Fighter"
+    ],
+    "activity_answer": "Godfather of Brazilian Jiu-Jitsu",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think Brazilian Jiu-Jitsu helps smaller people defend themselves?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "354",
+    "title": "Superhuman Swimmer Born in Slovenia",
+    "story": "A baby boy splashed into the world on October 1, 1954, in Mokronog, Slovenia. Little did anyone know that Martin Strel would grow up to become a legendary long-distance swimmer. He conquered mighty rivers like the Danube, Mississippi, Yangtze, and even the wild Amazon. Strel set records swimming these massive waterways, earning the nickname 'Big River Man' for his incredible aquatic feats.",
+    "activity_question": "What nickname did Martin Strel earn for his swimming achievements?",
+    "activity_choices": [
+      "Big River Man",
+      "Slovenian Splash",
+      "Aquatic Ace",
+      "Marathon Merman"
+    ],
+    "activity_answer": "Big River Man",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Which of the rivers Martin swam would you most like to see, and why?",
+    "score": 85,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "165",
+    "title": "A Timeless Tale of Sisters",
+    "story": "A beloved book about four sisters hit the shelves on October 1, 1868. Louisa May Alcott's 'Little Women' quickly captured hearts across America. The story follows the March sisters as they grow up during the Civil War era. Readers fell in love with Jo, Meg, Beth, and Amy's adventures, struggles, and dreams. Published in Boston, this classic novel continues to inspire young readers today.",
+    "activity_question": "What is the name of the famous book published on October 1, 1868?",
+    "activity_choices": [
+      "Little Women",
+      "Pride and Prejudice",
+      "Anne of Green Gables",
+      "The Secret Garden"
+    ],
+    "activity_answer": "Little Women",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Who wrote 'Little Women'?",
+    "score": 85,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "152",
+    "title": "Alexander's Epic Victory at Gaugamela",
+    "story": "Clash of titans! In 331 BC, Alexander the Great led his army against the mighty Persian forces of King Darius III. The battle took place at Gaugamela, where Alexander's clever tactics outsmarted the much larger Persian army. Despite being outnumbered, Alexander's troops fought bravely and emerged victorious on October 1. This triumph marked a turning point, paving the way for Alexander's conquest of the Persian Empire.",
+    "activity_question": "Who did Alexander the Great defeat in the Battle of Gaugamela?",
+    "activity_choices": [
+      "Darius III of Persia",
+      "Julius Caesar",
+      "Hannibal",
+      "King Leonidas"
+    ],
+    "activity_answer": "Darius III of Persia",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What made Alexander's victory impressive?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "178",
+    "title": "Giants Win Without Moving the Chains",
+    "story": "Football fans were stunned when the New York Giants pulled off an incredible victory. In 1933, they beat the Green Bay Packers 10-7 without making a single first down! This unusual game took place on October 1 at Borchert Field in Milwaukee. The Giants managed to score through other means, likely with big plays or defensive touchdowns. It's a reminder that in football, anything can happen!",
+    "activity_question": "Where did this unusual football game take place?",
+    "activity_choices": [
+      "Borchert Field",
+      "Yankee Stadium",
+      "Lambeau Field",
+      "Central Park"
+    ],
+    "activity_answer": "Borchert Field",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you think of other ways a football team might score without getting first downs?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "48",
+    "title": "A Natural Wonder Becomes a National Treasure",
+    "story": "Towering waterfalls, ancient sequoias, and breathtaking granite cliffs found a forever home in 1890. On October 1 that year, the US Congress officially established Yosemite National Park in California. This decision protected nearly 1,200 square miles of stunning wilderness for future generations to explore and enjoy. Today, millions of visitors flock to Yosemite each year to marvel at its natural wonders and experience the great outdoors.",
+    "activity_question": "What did the US Congress establish on October 1, 1890?",
+    "activity_choices": [
+      "Yosemite National Park",
+      "Yellowstone National Park",
+      "Sequoia National Park",
+      "Grand Canyon National Park"
+    ],
+    "activity_answer": "Yosemite National Park",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Yosemite is home to El Capitan, one of the world's largest granite monoliths.",
+    "score": 85,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "330",
+    "title": "Nobel Prize Winner's Protein Discovery",
+    "story": "Aaron Ciechanover, born in Haifa, Israel in 1947, made a groundbreaking discovery about how our bodies break down proteins. His work was so important that on October 1, 2004, he was awarded the Nobel Prize in Chemistry. Ciechanover's research helps scientists understand diseases and develop new medicines.",
+    "activity_question": "What did Aaron Ciechanover discover that led to his Nobel Prize?",
+    "activity_choices": [
+      "How our bodies break down proteins",
+      "How to make new proteins",
+      "How to clone sheep",
+      "How to grow giant vegetables"
+    ],
+    "activity_answer": "How our bodies break down proteins",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think understanding how proteins break down is important for medicine?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "366",
+    "title": "Sonic's Musical Mastermind Born",
+    "story": "Masato Nakamura, the musical genius behind Sonic the Hedgehog's catchy tunes, entered the world in 1958. Born on October 1 in Chōfu, Tokyo, this talented Japanese artist would grow up to become a bass player for the band Dreams Come True. But it's his work composing the iconic music for Sonic that made him a legend in both gaming and music circles.",
+    "activity_question": "What video game character's music did Masato Nakamura compose?",
+    "activity_choices": [
+      "Sonic the Hedgehog",
+      "Mario",
+      "Pac-Man",
+      "Pikachu"
+    ],
+    "activity_answer": "Sonic the Hedgehog",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you hum or whistle your favorite Sonic the Hedgehog tune?",
+    "score": 80,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "356",
+    "title": "The Real-Life Crocodile Dundee",
+    "story": "G'day, mate! Meet Rod Ansell, the rugged Aussie bushman who inspired the famous 'Crocodile Dundee' character. Born in Murgon, Queensland on October 1, 1954, Ansell grew up to become a legendary outback adventurer. His wild tales of survival and close encounters with crocs caught the world's attention, sparking the creation of the beloved movie hero.",
+    "activity_question": "What famous movie character was inspired by Rod Ansell?",
+    "activity_choices": [
+      "'Crocodile Dundee'",
+      "Indiana Jones",
+      "Tarzan",
+      "Captain Kangaroo"
+    ],
+    "activity_answer": "'Crocodile Dundee'",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you think of any other movies inspired by real people?",
+    "score": 75,
+    "categories": [
+      "Creature Feature"
+    ]
+  },
+  {
+    "id": "257",
+    "title": "A Physicist's Explosive Discovery",
+    "story": "Otto Robert Frisch burst onto the science scene with a bang! Born in Vienna on October 1, 1904, this Austrian-British physicist would later coin the term 'nuclear fission.' Frisch's work on the Manhattan Project during World War II helped unlock the secrets of atomic energy. After the war, he became a respected educator at Cambridge, inspiring future generations of scientists.",
+    "activity_question": "What important term did Otto Robert Frisch coin?",
+    "activity_choices": [
+      "Nuclear fission",
+      "Atomic energy",
+      "Manhattan Project",
+      "Cambridge physics"
+    ],
+    "activity_answer": "Nuclear fission",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think understanding nuclear fission was so important for scientists?",
+    "score": 80,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "123",
+    "title": "NASA Takes Flight: A New Space Era",
+    "story": "Rockets roared and dreams soared as NASA blasted off into existence in 1958. On October 1, the United States' brand-new space agency opened its doors, ready to explore the cosmos. NASA combined the skills of rocket scientists, astronomers, and daring pilots. Their mission? To unlock the secrets of space and push the boundaries of human knowledge.",
+    "activity_question": "What was NASA's mission when it was created?",
+    "activity_choices": [
+      "To unlock the secrets of space",
+      "To build faster airplanes",
+      "To study weather patterns",
+      "To create new types of fuel"
+    ],
+    "activity_answer": "To unlock the secrets of space",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name a famous NASA space mission?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "130",
+    "title": "Surfin' into Music History",
+    "story": "Cowabunga! The Beach Boys caught a musical wave that changed rock forever. In 1961, these California dudes recorded their very first song, 'Surfin'. It wasn't just any tune - it was the start of a whole new sound. On October 1, they laid down the track that would introduce the world to surf rock. Their catchy harmonies and beachy vibes made everyone want to grab a board and hit the waves!",
+    "activity_question": "What was the name of The Beach Boys' first recorded song?",
+    "activity_choices": [
+      "Surfin'",
+      "Cowabunga",
+      "California Dudes",
+      "Hit the Waves"
+    ],
+    "activity_answer": "Surfin'",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The Beach Boys were actually brothers, cousins, and a friend - not just a random group of surfers!",
+    "score": 85,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Nature's Twist in a Historic Siege",
+    "story": "A fierce storm unleashed its fury in 1574, changing the course of history. Raging waters broke through a dike near Leiden, Netherlands. This unexpected flood swept away many Spanish soldiers, helping end their long siege of the city. The brave people of Leiden had endured months of hardship. Now, on October 1, nature intervened in their struggle for freedom.",
+    "activity_question": "What natural event helped end the Siege of Leiden?",
+    "activity_choices": [
+      "A fierce storm",
+      "An earthquake",
+      "A volcanic eruption",
+      "A meteor strike"
+    ],
+    "activity_answer": "A fierce storm",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How might the people of Leiden have felt when the flood waters arrived?",
+    "optional_type": "follow_up_question",
+    "score": 82,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "23",
+    "title": "A Whirlwind Race in the Gulf",
+    "story": "Winds howled and waves crashed as a powerful hurricane swept through the Gulf of Mexico in 1837. Sailors nicknamed it the 'Racer's Hurricane' because it chased ships across the sea like a determined competitor. On October 1, the storm reached its peak, testing the courage of everyone in its path. Despite the danger, brave sailors worked together to keep their vessels afloat.",
+    "activity_question": "What nickname did sailors give to the hurricane?",
+    "activity_choices": [
+      "Racer's Hurricane",
+      "Gulf Chaser",
+      "Sea Sprinter",
+      "Windy Warrior"
+    ],
+    "activity_answer": "Racer's Hurricane",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think sailors gave hurricanes nicknames?",
+    "score": 80,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "174",
+    "title": "Flying Finn Sets Amazing Running Records",
+    "story": "Paavo Nurmi, the Flying Finn, raced into history on October 1, 1924. This incredible runner zoomed across the track in Vilpuri, Russia, setting not one, but two world records! Nurmi blazed through 4 miles in just 19 minutes and 15.4 seconds. He then pushed even further, running 5 miles in 24 minutes and 6.2 seconds. His lightning-fast feet left the world in awe.",
+    "activity_question": "What nickname was given to Paavo Nurmi?",
+    "activity_choices": [
+      "The Flying Finn",
+      "The Russian Rocket",
+      "The Speedy Sprinter",
+      "The Marathon Man"
+    ],
+    "activity_answer": "The Flying Finn",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How many world records did Nurmi set that day?",
+    "optional_type": "follow_up_question",
+    "score": 82,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "73",
+    "title": "Flying Finn Sets Two Records",
+    "story": "Paavo Nurmi, the Finnish running sensation, blazed across the track in Berlin, Germany. On October 1, 1928, he shattered not one, but two world records! Nurmi's lightning-fast feet carried him through 15 kilometers in just 46 minutes and 49.6 seconds. As if that wasn't enough, he kept going to complete 10 miles in 50 minutes and 15 seconds flat. Talk about speedy!",
+    "activity_question": "What two distances did Paavo Nurmi set world records for?",
+    "activity_choices": [
+      "15 kilometers and 10 miles",
+      "10 kilometers and 15 miles",
+      "5 kilometers and 10 miles",
+      "20 kilometers and 5 miles"
+    ],
+    "activity_answer": "15 kilometers and 10 miles",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think Nurmi was nicknamed the 'Flying Finn'?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "193",
+    "title": "Breaking Barriers at Ole Miss",
+    "story": "Courage walked onto campus as James Meredith became the first Black student at the University of Mississippi in 1962. On October 1, he bravely stepped into history, escorted by federal troops. Despite facing a riot, Meredith's determination opened doors for others. His enrollment marked a turning point in the fight for equal education in the American South.",
+    "activity_question": "Who became the first Black student at the University of Mississippi?",
+    "activity_choices": [
+      "James Meredith",
+      "Martin Luther King Jr.",
+      "Rosa Parks",
+      "Malcolm X"
+    ],
+    "activity_answer": "James Meredith",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it was important for James Meredith to attend the University of Mississippi?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "175",
+    "title": "Wiley Post: From Accident to Aviation",
+    "story": "Wiley Post faced a life-changing moment in 1926. While working in an oil field, an accident cost him his left eye. But Post didn't let this setback ground him. He used the settlement money from the incident to buy his very first aircraft. This bold move launched his career as a famous aviator, proving that sometimes, challenges can lead to unexpected opportunities.",
+    "activity_question": "What did Wiley Post use his settlement money for?",
+    "activity_choices": [
+      "To buy his first aircraft",
+      "To pay for medical treatment",
+      "To start an oil company",
+      "To build a flight school"
+    ],
+    "activity_answer": "To buy his first aircraft",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How might losing an eye affect a pilot's ability to fly?",
+    "score": 78,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "83",
+    "title": "America's First Jet Takes to the Skies",
+    "story": "Zoom! The Bell P-59 Airacomet roared down the runway, lifting off into aviation history. This sleek fighter was America's first jet-powered aircraft, and on October 1, 1942, it made its maiden flight. The Airacomet marked a huge leap forward in aircraft technology, leaving propeller planes in its dust. Though it never saw combat, this pioneering jet paved the way for faster, more advanced military planes.",
+    "activity_question": "What was special about the Bell P-59 Airacomet?",
+    "activity_choices": [
+      "It was America's first jet-powered aircraft",
+      "It was the fastest propeller plane",
+      "It was the most used fighter in World War II",
+      "It was made entirely of wood"
+    ],
+    "activity_answer": "It was America's first jet-powered aircraft",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think jet engines changed air travel for everyday people?",
+    "score": 83,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "94",
+    "title": "Helicopters Take to the Skies for Mail",
+    "story": "Whirring blades and hovering aircraft brought a new era of mail delivery in 1947. Los Angeles, California saw the launch of the first-ever helicopter air mail and express service on October 1. These nimble flying machines could zip between buildings and land in tight spaces, making them perfect for speedy urban deliveries. It was a groundbreaking moment that showed how helicopters could revolutionize transportation in crowded cities.",
+    "activity_question": "What type of aircraft was used for this new mail service?",
+    "activity_choices": [
+      "Helicopter",
+      "Airplane",
+      "Blimp",
+      "Rocket"
+    ],
+    "activity_answer": "Helicopter",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think helicopter mail delivery might be different from traditional mail trucks?",
+    "optional_type": "follow_up_question",
+    "score": 94,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "90",
+    "title": "Underdogs Triumph in Baseball Surprise",
+    "story": "Cheers erupted at Sportsman's Park III as the St. Louis Browns pulled off a stunning victory. They defeated the mighty New York Yankees 5-2, clinching their first-ever American League pennant in 1944. It was October 1, and baseball fans were buzzing with excitement. The Browns' underdog story captivated the nation, though their fairy tale run ended when they lost the World Series to their crosstown rivals, the Cardinals.",
+    "activity_question": "Which team did the St. Louis Browns defeat to win the American League pennant?",
+    "activity_choices": [
+      "New York Yankees",
+      "St. Louis Cardinals",
+      "Boston Red Sox",
+      "Chicago Cubs"
+    ],
+    "activity_answer": "New York Yankees",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How many games did the Browns win in the World Series against the Cardinals?",
+    "score": 90,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "100",
+    "title": "Gwendolyn Brooks' Poetic Triumph",
+    "story": "Gwendolyn Brooks' powerful words burst onto the literary scene in 1949. Her poetry collection 'Annie Allen' hit bookshelves on October 1, capturing readers' hearts with its vivid portrayal of African American life. Brooks' talent shone so brightly that she later became the first African American to win a Pulitzer Prize for her moving verses.",
+    "activity_question": "What was the name of Gwendolyn Brooks' poetry collection published in 1949?",
+    "activity_choices": [
+      "'Annie Allen'",
+      "'Poetic Dreams'",
+      "'Urban Rhythms'",
+      "'Bronzeville Beats'"
+    ],
+    "activity_answer": "'Annie Allen'",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What major award did Gwendolyn Brooks win for her poetry?",
+    "optional_type": "follow_up_question",
+    "score": 90,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "167",
+    "title": "Stanford University: A Dream Becomes Reality",
+    "story": "A grieving couple's vision blossomed into a world-class university on October 1, 1891. Leland and Jane Stanford founded Stanford University in California, honoring their late son's memory. Their generous $40 million gift launched an institution that would shape countless futures. Among the first graduates? None other than Herbert Hoover, who later became President of the United States!",
+    "activity_question": "Who was among Stanford University's first graduates?",
+    "activity_choices": [
+      "Herbert Hoover",
+      "Leland Stanford",
+      "Jane Stanford",
+      "The Stanford's son"
+    ],
+    "activity_answer": "Herbert Hoover",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What important role did Herbert Hoover later have in the United States?",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "43",
+    "title": "A Magazine That Explores Our World",
+    "story": "Explorers and adventurers rejoice! On October 1, 1888, the first issue of National Geographic magazine hit newsstands. This colorful publication brought the wonders of our planet into homes everywhere. With stunning photographs and fascinating stories, it inspired readers to learn about faraway places, exotic animals, and different cultures around the globe.",
+    "activity_question": "What did National Geographic magazine bring into homes?",
+    "activity_choices": [
+      "The wonders of our planet",
+      "Cooking recipes",
+      "Sports news",
+      "Fashion trends"
+    ],
+    "activity_answer": "The wonders of our planet",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "National Geographic's famous yellow border wasn't added to the cover until 1910.",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "115",
+    "title": "Rookie Rushes to Record Books",
+    "story": "Alan Ameche burst onto the NFL scene like a rocket! The Baltimore Colts fullback amazed fans on October 1, 1955, by rushing for 153 yards against the Detroit Lions. This incredible performance came right after his 194-yard debut against the Chicago Bears. Ameche became the first rookie ever to top 100 yards rushing in his first two games, setting a thrilling new standard for newcomers in pro football.",
+    "activity_question": "What team did Alan Ameche play for?",
+    "activity_choices": [
+      "Baltimore Colts",
+      "Detroit Lions",
+      "Chicago Bears",
+      "Green Bay Packers"
+    ],
+    "activity_answer": "Baltimore Colts",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How many yards did Ameche rush for in his debut game?",
+    "score": 78,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "170",
+    "title": "Pitching Duel: Chesbro's Final Highlander Win",
+    "story": "Baseball fans cheered as Jack Chesbro stepped onto the mound. On October 1, 1908, he faced off against the legendary Walter Johnson in a thrilling pitchers' duel. Chesbro's team, the New York Highlanders, squeaked out a 2-1 victory over the Washington Senators. Little did anyone know, this would be Chesbro's last win for the Highlanders before joining the Red Sox.",
+    "activity_question": "Who did Jack Chesbro's team defeat in this game?",
+    "activity_choices": [
+      "Washington Senators",
+      "Boston Red Sox",
+      "Chicago Cubs",
+      "Philadelphia Athletics"
+    ],
+    "activity_answer": "Washington Senators",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What was the final score of the game?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "197",
+    "title": "King Richard's Unbeatable NASCAR Streak",
+    "story": "Zoom! Richard Petty, the 'King' of NASCAR, raced into history on October 1, 1967. At North Wilkesboro Speedway, he clinched his tenth win in a row at the Wilkes 400. This incredible streak left fans and fellow drivers in awe. Petty's skill behind the wheel was unmatched, as he zoomed past the competition race after race.",
+    "activity_question": "What was Richard Petty's nickname in NASCAR?",
+    "activity_choices": [
+      "The King",
+      "The Champ",
+      "The Rocket",
+      "The Zoom Master"
+    ],
+    "activity_answer": "The King",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think winning ten races in a row is so impressive in NASCAR?",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "171",
+    "title": "Lawrence of Arabia's Desert Victory",
+    "story": "The sands of Damascus shifted as a daring team rode into the city. Led by the legendary T.E. Lawrence, known as 'Lawrence of Arabia,' a mixed force of Arab and British fighters captured the ancient Syrian capital from Turkish control. This bold move on October 1, 1918, marked a turning point in World War I's Middle Eastern campaign.",
+    "activity_question": "Who was the leader known as 'Lawrence of Arabia'?",
+    "activity_choices": [
+      "T.E. Lawrence",
+      "Winston Churchill",
+      "General Allenby",
+      "Camel Carl"
+    ],
+    "activity_answer": "T.E. Lawrence",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Lawrence of Arabia spoke fluent Arabic and often wore traditional Arab clothing during his desert campaigns.",
+    "score": 76,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "125",
+    "title": "Nigeria's Big Day: Freedom and UN Membership",
+    "story": "Cheers erupted across Nigeria as the green and white flag rose high. After years of British rule, Nigeria became an independent nation on October 1, 1960. But that wasn't all! On the same exciting day, Nigeria joined the United Nations as its 99th member. It was a double celebration of freedom and global recognition for Africa's most populous country.",
+    "activity_question": "What two important events happened for Nigeria on October 1, 1960?",
+    "activity_choices": [
+      "It gained independence and joined the UN",
+      "It discovered oil and built a new capital",
+      "It won the World Cup and hosted the Olympics",
+      "It invented a new dance and launched a satellite"
+    ],
+    "activity_answer": "It gained independence and joined the UN",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What colors are on Nigeria's flag?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "135",
+    "title": "Giant Ear to the Sky",
+    "story": "A massive metal dish appeared in West Virginia in 1962. This wasn't for cooking - it was for listening to space! On October 1, scientists installed a huge radio telescope in Green Bank. At about 300 feet wide, it could catch faint radio waves from distant stars and galaxies. This giant 'ear' helped us learn amazing things about our universe.",
+    "activity_question": "What was the purpose of the giant metal dish installed in West Virginia?",
+    "activity_choices": [
+      "For cooking giant meals",
+      "For listening to space",
+      "For satellite TV",
+      "For bouncing radio signals"
+    ],
+    "activity_answer": "For listening to space",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you think of other ways scientists study space besides radio telescopes?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "35",
+    "title": "A Giant Roof for London's Trains",
+    "story": "In 1868, London's skyline changed forever. St Pancras railway station opened its doors, boasting a roof like no other. This marvel of Victorian engineering stretched an incredible 689 feet long and soared 100 feet high. It was the world's largest single-span roof at the time, a crowning achievement of Gothic architecture that still amazes visitors on October 1.",
+    "activity_question": "What architectural style was St Pancras station known for?",
+    "activity_choices": [
+      "Victorian Gothic",
+      "Art Deco",
+      "Modernist",
+      "Baroque"
+    ],
+    "activity_answer": "Victorian Gothic",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The station's roof was designed to let in natural light, reducing the need for gas lamps.",
+    "score": 72,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "62",
+    "title": "Moo-ving Day at the Fair",
+    "story": "Cows mooed and farmers cheered at the Berkshire Cattle Fair in Pittsfield, Massachusetts. This exciting event on October 1, 1910, marked the birth of state fairs in America. Families flocked to see prize animals, taste local treats, and enjoy fun games. It was a day of community spirit and rural pride that would inspire fairs across the country for years to come.",
+    "activity_question": "What type of animals were featured at the Berkshire Cattle Fair?",
+    "activity_choices": [
+      "Cows",
+      "Pigs",
+      "Sheep",
+      "Chickens"
+    ],
+    "activity_answer": "Cows",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "State fairs often showcase agriculture, crafts, and local culture.",
+    "optional_type": "bonus_fact",
+    "score": 75,
+    "categories": [
+      "Creature Feature"
+    ]
+  },
+  {
+    "id": "95",
+    "title": "Soaring into the Jet Age",
+    "story": "Zoom! The F-86 Sabre roared to life, taking its maiden flight on October 1, 1947. This sleek jet fighter marked a huge leap in aviation technology. With swept-back wings and a powerful engine, the Sabre could fly faster than the speed of sound. It quickly became a star of the U.S. Air Force, defending the skies for years to come.",
+    "activity_question": "What special feature did the F-86 Sabre have that helped it fly so fast?",
+    "activity_choices": [
+      "Swept-back wings",
+      "Propellers",
+      "Rocket boosters",
+      "Inflatable tires"
+    ],
+    "activity_answer": "Swept-back wings",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think swept-back wings help planes fly faster?",
+    "score": 70,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "142",
+    "title": "Cable Cars: A Rolling Piece of History",
+    "story": "Clang, clang! The iconic cable cars of San Francisco received a special honor in 1964. On October 1, these beloved trolleys were officially declared a national landmark. Riding up and down the city's steep hills, these historic vehicles have been a symbol of San Francisco for over a century. Now protected, they continue to charm both locals and tourists alike.",
+    "activity_question": "What were San Francisco's cable cars declared in 1964?",
+    "activity_choices": [
+      "A national landmark",
+      "A city treasure",
+      "A tourist attraction",
+      "An endangered species"
+    ],
+    "activity_answer": "A national landmark",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "San Francisco's cable cars are the world's last manually operated cable car system.",
+    "score": 70,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "98",
+    "title": "Love Wins: A Landmark Legal Victory",
+    "story": "Andrea Perez and Sylvester Davis wanted to marry, but California law said no because of their different races. They fought back! On October 1, 1948, the California Supreme Court made a bold decision. They struck down the unfair law, saying love should not have limits based on race. This brave couple's victory paved the way for more equality in marriage across America.",
+    "activity_question": "What did the California Supreme Court do in this story?",
+    "activity_choices": [
+      "They struck down the unfair law",
+      "They upheld the existing law",
+      "They postponed the decision",
+      "They asked for more evidence"
+    ],
+    "activity_answer": "They struck down the unfair law",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it's important for people to be free to marry whoever they love?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "70",
+    "title": "Radio Waves Hit the Airwaves",
+    "story": "Voices crackled through the air as WJZ in Newark, New Jersey, began broadcasting on October 1, 1921. This pioneering radio station brought news, music, and entertainment right into people's homes. Families gathered around their radios, excited to hear the latest sounds and stories from far away, all without leaving their living rooms.",
+    "activity_question": "What did WJZ bring into people's homes?",
+    "activity_choices": [
+      "News, music, and entertainment",
+      "Television shows",
+      "Newspapers",
+      "Mail delivery"
+    ],
+    "activity_answer": "News, music, and entertainment",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think radio changed how families spent time together?",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "379",
+    "title": "Harry Hill: Comedy's Quirky King",
+    "story": "Laughter erupted in Woking, England as Harry Hill entered the world in 1964. Born on October 1, this future comedy star would grow up to tickle funny bones across the nation. Known for his big collar and bald head, Harry became a beloved TV presenter. His hilarious narration on 'You've Been Framed' had families in stitches for years.",
+    "activity_question": "What TV show is Harry Hill known for presenting?",
+    "activity_choices": [
+      "You've Been Framed",
+      "Britain's Got Talent",
+      "The Great British Bake Off",
+      "Silly Hats Only"
+    ],
+    "activity_answer": "You've Been Framed",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What physical features is Harry Hill known for?",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "327",
+    "title": "A Soul Star Is Born",
+    "story": "A musical legend entered the world on October 1, 1945. Donny Hathaway, the soulful voice behind hits like 'Where Is The Love?', was born in Chicago, Illinois. His powerful vocals and songwriting talents would go on to inspire generations of artists, leaving an indelible mark on the world of soul and R&B music.",
+    "activity_question": "What hit song is Donny Hathaway known for?",
+    "activity_choices": [
+      "Where Is The Love?",
+      "Chicago Blues",
+      "Soul Power",
+      "Illinois Groove"
+    ],
+    "activity_answer": "Where Is The Love?",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name another famous musician born in Chicago?",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "329",
+    "title": "Sprinting to Olympic Gold",
+    "story": "Ewa Klobukowska raced into the world on October 1, 1946, in Warsaw, Poland. This speedy athlete would go on to make her country proud. In 1964, she zoomed to victory as part of Poland's 4x100m relay team, winning a shiny Olympic gold medal. Klobukowska's lightning-fast legs helped her team dash past the competition on the world's biggest sports stage.",
+    "activity_question": "What Olympic event did Ewa Klobukowska win gold in?",
+    "activity_choices": [
+      "4x100m relay",
+      "100m sprint",
+      "Marathon",
+      "Long jump"
+    ],
+    "activity_answer": "4x100m relay",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another Olympic running event?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "353",
+    "title": "A Funny Man's First Day",
+    "story": "Laughter filled the air in Brooklyn as Larry Miller took his first breath. Born on October 1, 1953, this future comedian would bring smiles to millions. Miller grew up to become a beloved character actor, appearing in shows like Dream On and Mad About You. He even voiced characters in cartoons and wrote funny columns for newspapers!",
+    "activity_question": "What TV show did Larry Miller appear in?",
+    "activity_choices": [
+      "Dream On",
+      "Friends",
+      "Seinfeld",
+      "The Office"
+    ],
+    "activity_answer": "Dream On",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another job Larry Miller had besides acting?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "318",
+    "title": "Baseball's Winning Wizard Born",
+    "story": "A baseball legend entered the world in 1940. John Schuerholz Jr. was born in Baltimore, Maryland on October 1. He grew up to become a brilliant baseball executive. Schuerholz led two teams to World Series victories as their general manager. He guided the Kansas City Royals to glory in 1985 and the Atlanta Braves to triumph in 1995.",
+    "activity_question": "Which two teams did John Schuerholz Jr. lead to World Series victories?",
+    "activity_choices": [
+      "Kansas City Royals and Atlanta Braves",
+      "Baltimore Orioles and New York Yankees",
+      "Chicago Cubs and Boston Red Sox",
+      "Los Angeles Dodgers and San Francisco Giants"
+    ],
+    "activity_answer": "Kansas City Royals and Atlanta Braves",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "John Schuerholz Jr. was inducted into the Baseball Hall of Fame for his exceptional work as an executive.",
+    "score": 70,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "284",
+    "title": "A Comedy Legend Is Born",
+    "story": "Laughter echoed through New York City as Walter Matthau entered the world in 1920. Born on October 1, this future comedy star would go on to tickle funny bones in movies like The Odd Couple and Bad News Bears. Matthau's grumpy-but-lovable characters made him a fan favorite for decades.",
+    "activity_question": "In which famous comedy movie did Walter Matthau star?",
+    "activity_choices": [
+      "The Odd Couple",
+      "Funny Bones",
+      "Laughing City",
+      "Grumpy Old Men"
+    ],
+    "activity_answer": "The Odd Couple",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Walter Matthau often played grumpy characters, but in real life, he was known for being very friendly and funny.",
+    "score": 60,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "232",
+    "title": "A Champion for Change",
+    "story": "Annie Besant burst onto the world stage in 1847, born on October 1 in London. This fiery spirit would grow up to become a powerful voice for social reform and Indian independence. Besant fearlessly fought for workers' rights and women's causes, never backing down from a challenge. Her passion for justice and equality inspired many to join her in making the world a fairer place.",
+    "activity_question": "What causes did Annie Besant fight for?",
+    "activity_choices": [
+      "Workers' rights and women's causes",
+      "Animal welfare and environmental protection",
+      "Space exploration and scientific research",
+      "Sports and entertainment"
+    ],
+    "activity_answer": "Workers' rights and women's causes",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you think of any social causes that are important today?",
+    "score": 55,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "233",
+    "title": "The Magical Music of Paul Dukas",
+    "story": "A musical wizard was born in Paris on October 1, 1865. Paul Dukas would grow up to create enchanting melodies that still captivate listeners today. His most famous work, 'The Sorcerer's Apprentice,' brings to life a tale of magic gone wild with its playful and dramatic orchestral sounds.",
+    "activity_question": "What was Paul Dukas's most famous work?",
+    "activity_choices": [
+      "The Sorcerer's Apprentice",
+      "The Wizard's Wand",
+      "The Magical Melody",
+      "The Parisian Symphony"
+    ],
+    "activity_answer": "The Sorcerer's Apprentice",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Disney's 'Fantasia' features 'The Sorcerer's Apprentice' with Mickey Mouse as the apprentice.",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "248",
+    "title": "The Man Behind the Three Stooges",
+    "story": "Nyuk, nyuk, nyuk! The laughter began when Ted Healy was born in Texas on October 1, 1896. This funny guy grew up to create the famous comedy team, the Three Stooges. Healy became a big star in vaudeville shows and later acted in movies like Mad Love and San Francisco. His silly antics and slapstick humor made people giggle for years.",
+    "activity_question": "What famous comedy team did Ted Healy create?",
+    "activity_choices": [
+      "The Three Stooges",
+      "The Marx Brothers",
+      "Laurel and Hardy",
+      "Abbott and Costello"
+    ],
+    "activity_answer": "The Three Stooges",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Ted Healy's real name was Ernest Nash.",
+    "score": 65,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "373",
+    "title": "Aussie Rules Legend Born",
+    "story": "Gary Ablett Sr, a superstar of Australian Rules Football, entered the world in Drouin, Victoria. Born in 1961 on October 1, he would grow up to become one of the sport's greatest forwards. Ablett's incredible skills earned him multiple All Australian honors and the prestigious Coleman Medal three times.",
+    "activity_question": "What position did Gary Ablett Sr play in Australian Rules Football?",
+    "activity_choices": [
+      "Forward",
+      "Defender",
+      "Midfielder",
+      "Goalkeeper"
+    ],
+    "activity_answer": "Forward",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What is the Coleman Medal awarded for in Australian Rules Football?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "47",
+    "title": "Forecasting the Future: Weather Bureau Born",
+    "story": "Clouds of change swept across America in 1890. On October 1, the US Congress created the Weather Bureau, giving the nation its first official weather forecasting service. This new agency would help farmers plan crops, warn sailors of storms, and keep everyone informed about Mother Nature's moods. It was like having a crystal ball for the skies!",
+    "activity_question": "What did the US Congress create in 1890?",
+    "activity_choices": [
+      "The Weather Bureau",
+      "The Farmer's Almanac",
+      "The Storm Chasers",
+      "The Cloud Watchers"
+    ],
+    "activity_answer": "The Weather Bureau",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think weather forecasting helps people in their daily lives?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "154",
+    "title": "A Clash of Religious Minds",
+    "story": "Two powerful voices of the Protestant Reformation faced off in 1529. Martin Luther and Huldrych Zwingli, both seeking to change Christianity, met on October 1 to debate their ideas. Though they agreed on many points, they clashed over their understanding of communion. This meeting showed how even reformers could disagree on important religious matters.",
+    "activity_question": "What did Martin Luther and Huldrych Zwingli disagree about during their meeting?",
+    "activity_choices": [
+      "Their understanding of communion",
+      "The date of the meeting",
+      "Who should lead the Reformation",
+      "The color of church robes"
+    ],
+    "activity_answer": "Their understanding of communion",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another important figure from the Protestant Reformation?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "158",
+    "title": "A Prince's Daring Escape",
+    "story": "Danger lurked around every corner as Bonnie Prince Charlie made his daring escape. After months of hiding in the Scottish Highlands, the young prince finally reached safety on October 1, 1746. Under cover of darkness, he boarded a French ship and sailed away from Scotland, leaving behind his dreams of claiming the throne.",
+    "activity_question": "Where did Bonnie Prince Charlie escape to?",
+    "activity_choices": [
+      "France",
+      "England",
+      "Ireland",
+      "Spain"
+    ],
+    "activity_answer": "France",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think the prince was called 'Bonnie'?",
+    "score": 65,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "129",
+    "title": "A Symphony of Space and Sound",
+    "story": "Rockets roared and music soared! On October 1, 1961, composer Dmitri Shostakovich unveiled his 12th Symphony. This powerful piece celebrated the first human in space, Yuri Gagarin, who had orbited Earth earlier that year. The symphony's bold notes echoed the excitement of the Space Age, blending classical music with the thrill of cosmic exploration.",
+    "activity_question": "What event inspired Shostakovich's 12th Symphony?",
+    "activity_choices": [
+      "The first human in space",
+      "The invention of rockets",
+      "A classical music festival",
+      "The birth of an alien"
+    ],
+    "activity_answer": "The first human in space",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name the first human who went to space in 1961?",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "original": "New Year's Day",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "National Hangover Day",
+    "score": 25,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 3,
+    "original": "Polar Bear Plunge Day",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "National Bloody Mary Day",
+    "score": 25,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 5,
+    "original": "Ellis Island Day",
+    "score": 65,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 6,
+    "original": "Global Family Day",
+    "score": 75,
+    "is_kid_friendly": true
+  }
+]

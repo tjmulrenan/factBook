@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Girls Rule the World Day",
+    "story": "Every October 11, people around the world celebrate the International Day of the Girl Child! This special day shines a spotlight on girls everywhere and their amazing potential. Schools host assemblies about girl power, communities organize events celebrating female leaders, and social media fills with inspiring stories of girls changing the world. People wear purple ribbons, share photos with #DayOfTheGirl, and talk about how girls deserve equal chances to learn, lead, and dream big!",
+    "activity_question": "What color ribbons do people wear on International Day of the Girl Child?",
+    "activity_choices": [
+      "Purple",
+      "Pink",
+      "Rainbow",
+      "Sparkly unicorn"
+    ],
+    "activity_answer": "Purple",
+    "follow_up_question": "What amazing thing could you do to change the world when you grow up?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "902",
+    "title": "Sausage Pizza Gets Its Own Slice of Fame",
+    "story": "Pizza lovers across America grab their biggest appetites on October 11 for National Sausage Pizza Day! This cheesy celebration honors the classic combo of spicy sausage, gooey mozzarella, and tangy tomato sauce. Pizzerias offer special deals on sausage pies, while families gather around kitchen tables to make their own versions at home. Some people get creative by mixing different sausage types like pepperoni, Italian sausage, or even breakfast sausage on their crusts. Social media fills with drool-worthy photos of perfectly golden sausage pizzas fresh from the oven. It's the perfect excuse to skip cooking dinner and order your favorite sausage-topped masterpiece instead!",
+    "activity_question": "What do pizzerias typically do on National Sausage Pizza Day?",
+    "activity_choices": [
+      "Offer special deals on sausage pizzas",
+      "Give away free pizza boxes",
+      "Only serve vegetarian pizzas",
+      "Close early to celebrate"
+    ],
+    "activity_answer": "Offer special deals on sausage pizzas",
+    "follow_up_question": "What's the most unusual sausage topping you'd be brave enough to try on pizza?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  }
+]

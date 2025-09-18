@@ -2,9 +2,42 @@ import os
 import json
 import calendar
 import re
+from datetime import datetime, timedelta
 from anthropic import Anthropic
 
+LEAP_YEAR = 2024  # use leap-year indexing (e.g., Sep 7 = 251)
+
+OUTPUT_DIR = r"C:\Users\timmu\Documents\repos\Factbook Project\facts\new fact grabber\a_raw"
+
+def doy_to_month_day(doy: int):
+    base = datetime(LEAP_YEAR, 1, 1) + timedelta(days=doy - 1)
+    return base.strftime("%B"), base.day  # ("September", 7)
+
+
 anthropic = Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
+
+def extract_last_json_array(text: str) -> str:
+    """
+    Find the last top-level JSON array in arbitrary text (handles prose + code blocks).
+    Returns the JSON string or '' if none.
+    """
+    stack = 0
+    start = -1
+    last = ""
+    for i, ch in enumerate(text):
+        if ch == '"' and (i == 0 or text[i-1] != '\\'):
+            # naive: ignore string parsing for brevity; works well on model output that’s mostly valid JSON
+            pass
+        if ch == '[':
+            if stack == 0:
+                start = i
+            stack += 1
+        elif ch == ']':
+            if stack > 0:
+                stack -= 1
+                if stack == 0 and start != -1:
+                    last = text[start:i+1]
+    return last.strip()
 
 def ask_claude_for_initial_holidays(month: str, day: int) -> list:
     user_input = (
@@ -18,22 +51,32 @@ def ask_claude_for_initial_holidays(month: str, day: int) -> list:
         "- name\n"
         "- whether it is kid-friendly (true or false)\n\n"
         "Respond only with a valid JSON list in this format:\n"
-        "[{\"name\": \"Holiday Name\", \"kid_friendly\": true}]"
+        '[{\"name\": \"Holiday Name\", \"kid_friendly\": true}]'
     )
-
 
     response = anthropic.messages.create(
         model="claude-sonnet-4-20250514",
-        max_tokens=1200,
+        system="Return ONLY a valid JSON array. No prose. No code fences.",
+        max_tokens=1000,
         temperature=0.0,
-        messages=[{"role": "user", "content": user_input}]
+        messages=[
+            {"role": "user", "content": user_input}
+        ]
     )
 
+    raw = response.content[0].text.strip()
+
+    # Prefer code block, else find last JSON array, else raw
+    block = re.search(r"```json\s*(\[\s*{.*?}\s*\])\s*```", raw, re.DOTALL)
+    json_text = block.group(1).strip() if block else extract_last_json_array(raw)
+    if not json_text:
+        json_text = raw
+
     try:
-        return json.loads(response.content[0].text.strip())
+        return json.loads(json_text)
     except Exception as e:
         print("❌ JSON parsing error (initial):", e)
-        print(response.content[0].text)
+        print(raw[:1200])
         return []
 
 def ask_claude_to_clean_holidays(month: str, day: int, holidays: list) -> list:
@@ -50,13 +93,12 @@ def ask_claude_to_clean_holidays(month: str, day: int, holidays: list) -> list:
         "- It is vague or invented without strong reference to the exact calendar date\n\n"
         f"Keep only holidays that are consistently and verifiably celebrated on {month} {day} in 2025, and always on that date in other years as well.\n\n"
         "Return only the cleaned JSON list in this format:\n"
-        "[{\"name\": \"Holiday Name\", \"kid_friendly\": true}]"
+        '[{\"name\": \"Holiday Name\", \"kid_friendly\": true}]'
     )
-
-
 
     response = anthropic.messages.create(
         model="claude-sonnet-4-20250514",
+        system="Return ONLY a valid JSON array. No prose. No code fences.",
         max_tokens=1000,
         temperature=0.0,
         messages=[
@@ -64,58 +106,61 @@ def ask_claude_to_clean_holidays(month: str, day: int, holidays: list) -> list:
             {"role": "user", "content": json.dumps(holidays, indent=2)}
         ]
     )
-
     raw = response.content[0].text.strip()
 
-    # Extract JSON from markdown code block
-    match = re.search(r"```json\s*(.*?)\s*```", raw, re.DOTALL)
-    json_text = match.group(1) if match else raw
+    # Prefer code block, else last JSON array, else raw
+    block = re.search(r"```json\s*(\[\s*{.*?}\s*\])\s*```", raw, re.DOTALL)
+    json_text = block.group(1).strip() if block else extract_last_json_array(raw)
+    if not json_text:
+        json_text = raw
 
     try:
         cleaned = json.loads(json_text)
 
         # Logging removed holidays
-        initial_names = {h['name'] for h in holidays}
-        cleaned_names = {h['name'] for h in cleaned}
+        initial_names = {h.get('name') for h in holidays}
+        cleaned_names = {h.get('name') for h in cleaned}
         removed = initial_names - cleaned_names
 
         print("\n📋 Initial holidays:")
         for h in holidays:
-            print(f"  - {h['name']} (kid_friendly: {h['kid_friendly']})")
+            print(f"  - {h.get('name')} (kid_friendly: {h.get('kid_friendly')})")
 
         print("\n🗑️ Removed during cleanup:")
         for name in removed:
-            print(f"  ✘ {name}")
+            if name: print(f"  ✘ {name}")
 
         print("\n✅ Final cleaned holidays:")
         for h in cleaned:
-            print(f"  ✔ {h['name']} (kid_friendly: {h['kid_friendly']})")
+            print(f"  ✔ {h.get('name')} (kid_friendly: {h.get('kid_friendly')})")
 
         return cleaned
 
     except Exception as e:
         print("❌ JSON parsing error (cleanup):", e)
-        print(raw)
-        return []
+        print(raw[:1200])
+        print("⚠️ Using initial holidays due to parse failure.")
+        return holidays
 
-def save_to_json(month: str, day: int, holidays: list):
-    os.makedirs("a_raw", exist_ok=True)
-    filename = os.path.join("a_raw", f"{month}_{day}_Holidays.json")
+def save_to_json(doy: int, month: str, day: int, holidays: list):
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    filename = os.path.join(OUTPUT_DIR, f"{doy}_{month}_{day}.json")
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(holidays, f, indent=2, ensure_ascii=False)
     print(f"\n📁 Saved {len(holidays)} holidays to {filename}")
 
 if __name__ == "__main__":
-    month_input = input("Enter month name (e.g. March): ").strip().capitalize()
-    day_input = input("Enter day (1-31): ").strip()
+    doy_input = input("Enter day-of-year number (e.g., 251 for Sep 7): ").strip()
 
     try:
-        day = int(day_input)
-        if month_input not in calendar.month_name:
+        doy = int(doy_input)
+        if not (1 <= doy <= 366):
             raise ValueError
     except ValueError:
-        print("❌ Invalid month or day.")
+        print("❌ Invalid day-of-year.")
         exit(1)
+
+    month_input, day = doy_to_month_day(doy)
 
     print(f"🔍 Step 1: Asking Claude for all holidays on {month_input} {day}...")
     initial_holidays = ask_claude_for_initial_holidays(month_input, day)
@@ -123,5 +168,5 @@ if __name__ == "__main__":
     print(f"🧹 Step 2: Asking Claude to clean and verify the list...")
     cleaned_holidays = ask_claude_to_clean_holidays(month_input, day, initial_holidays)
 
-    # Overwrite the original with cleaned results
-    save_to_json(month_input, day, cleaned_holidays)
+    # Save as {DOY}_{Month}_{Day}.json in the absolute folder
+    save_to_json(doy, month_input, day, cleaned_holidays)

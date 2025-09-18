@@ -1,0 +1,102 @@
+[
+  {
+    "id": "901",
+    "title": "Celebrating Heritage on Día de la Raza",
+    "story": "People across Latin America celebrate Día de la Raza every October 12 to honor their mixed heritage and cultural diversity. Families gather to share traditional foods, music, and stories that celebrate both indigenous and Spanish roots. Schools often host special programs featuring folk dances and historical presentations about their ancestors.",
+    "activity_question": "What do families typically share during Día de la Raza celebrations?",
+    "activity_choices": [
+      "Traditional foods, music, and stories",
+      "Halloween costumes and candy",
+      "Birthday cakes and presents",
+      "Video games and movies"
+    ],
+    "activity_answer": "Traditional foods, music, and stories",
+    "bonus_fact": "The holiday celebrates the blending of indigenous, European, and African cultures in Latin America.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 45
+  },
+  {
+    "id": "902",
+    "title": "Stirring Up National Gumbo Day",
+    "story": "Every October 12, kitchens across America bubble with the rich, hearty stew called gumbo! This Louisiana favorite mixes rice with whatever delicious ingredients you can find - shrimp, chicken, sausage, okra, and spices all swimming together in one amazing bowl. Families gather to share recipes passed down for generations, while restaurants serve up their special versions. Some people make it thick and meaty, others prefer it soupy with seafood. The best part? No two gumbos taste exactly the same, making every celebration unique and tasty!",
+    "activity_question": "What ingredient is commonly mixed with gumbo when serving?",
+    "activity_choices": [
+      "Rice",
+      "Pasta",
+      "Bread",
+      "Potatoes"
+    ],
+    "activity_answer": "Rice",
+    "follow_up_question": "What ingredients would you put in your perfect gumbo recipe?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "903",
+    "title": "Pulled Pork Makes October 12 Sizzle!",
+    "story": "Barbecue pits across America fire up on October 12 for National Pulled Pork Day! This smoky holiday celebrates the art of slow-cooking pork shoulder until it's so tender you can shred it with a fork. Restaurants offer special deals on pulled pork sandwiches piled high with coleslaw and tangy sauce. Backyard pitmasters spend hours tending their smokers, while families gather to enjoy this messy, delicious comfort food. Social media fills with drool-worthy photos of towering sandwiches and secret sauce recipes passed down through generations.",
+    "activity_question": "What do people use to shred the tender pork on National Pulled Pork Day?",
+    "activity_choices": [
+      "A fork",
+      "A chainsaw",
+      "Their bare hands",
+      "A blender"
+    ],
+    "activity_answer": "A fork",
+    "bonus_fact": "Some pulled pork takes up to 16 hours of slow smoking to get perfectly tender!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "904",
+    "title": "Scream It Out: International Frustration Day",
+    "story": "Every October 12, people around the world celebrate International Moment of Frustration Scream Day by letting out their biggest, loudest screams! This quirky holiday gives everyone permission to release all their built-up stress and annoyance in one epic yell. Some people scream into pillows to muffle the sound, while others head to empty fields or beaches where they can really let loose. Schools sometimes organize group screaming sessions during recess, and families might have screaming contests in their backyards. Social media fills with videos of people's creative screaming spots and techniques. It's a silly but surprisingly helpful way to feel better!",
+    "activity_question": "Where do some people go to scream really loudly on this holiday?",
+    "activity_choices": [
+      "Empty fields or beaches",
+      "Shopping malls",
+      "Libraries",
+      "Movie theaters"
+    ],
+    "activity_answer": "Empty fields or beaches",
+    "follow_up_question": "What other healthy ways could you release frustration besides screaming?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "905",
+    "title": "Think for Yourself Day!",
+    "story": "Every October 12, people celebrate National Freethought Day by encouraging others to think for themselves and ask big questions about the world. It's a day when curious minds share ideas, have respectful debates, and explore different ways of thinking without being told what to believe.",
+    "activity_question": "What do people encourage others to do on National Freethought Day?",
+    "activity_choices": [
+      "Think for themselves and ask questions",
+      "Follow what everyone else believes",
+      "Stop thinking about difficult topics",
+      "Only read one type of book"
+    ],
+    "activity_answer": "Think for themselves and ask questions",
+    "follow_up_question": "What's a big question about the world that you'd like to explore?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 45
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Blast Off Into Science Fiction Day!",
+    "story": "Robots, spaceships, and alien adventures take over January 2nd during National Science Fiction Day! This awesome holiday celebrates all the cool sci-fi stories that imagine what the future might look like. People celebrate by reading their favorite science fiction books, watching classic space movies, or binge-watching shows about time travel and distant planets. Libraries host special sci-fi events, bookstores create amazing displays of robot and alien books, and fans dress up like their favorite characters from Star Wars or Star Trek. Some people even write their own futuristic stories about flying cars and robot friends!",
+    "activity_question": "When is National Science Fiction Day celebrated?",
+    "activity_choices": [
+      "January 2nd",
+      "May 4th",
+      "December 25th",
+      "Every full moon"
+    ],
+    "activity_answer": "January 2nd",
+    "follow_up_question": "What kind of futuristic invention would you want to see become real someday?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Quiet Celebration for Shy Superstars",
+    "story": "World Introvert Day on January 2nd celebrates people who love quiet time and small groups instead of big crowds. Introverts might spend this day reading their favorite books, drawing, writing in journals, or having deep conversations with close friends. Some people share posts online about how awesome introverts are, highlighting famous introverts like Albert Einstein and J.K. Rowling. It's the perfect holiday for anyone who needs to recharge after all that New Year's socializing!",
+    "activity_question": "When is World Introvert Day celebrated?",
+    "activity_choices": [
+      "January 2nd",
+      "February 14th",
+      "March 15th",
+      "December 31st"
+    ],
+    "activity_answer": "January 2nd",
+    "follow_up_question": "What activities help you feel calm and recharged when you need quiet time?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "903",
+    "title": "Kakizome: Japan's Perfect Penmanship Day",
+    "story": "Every January 2nd in Japan, people grab their brushes and ink for Kakizome, the first calligraphy writing of the new year. Families gather around low tables with special paper and black ink to carefully paint beautiful Japanese characters with brushes. They often write hopeful words like \"peace,\" \"happiness,\" or their biggest dreams for the year ahead. Schools hold contests to see who creates the most elegant writing, and many people hang their finished artwork on walls for good luck.",
+    "activity_question": "What do people write during Kakizome celebrations?",
+    "activity_choices": [
+      "Hopeful words and dreams for the new year",
+      "Their grocery shopping lists",
+      "Complaints about homework",
+      "Secret codes to their friends"
+    ],
+    "activity_answer": "Hopeful words and dreams for the new year",
+    "follow_up_question": "What word would you choose to write beautifully for your new year?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  }
+]

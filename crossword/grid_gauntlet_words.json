@@ -22,23 +22,22 @@
   },
     "beyond_earth_crossword": {
     "across": {
-      "4": "Famous space program that sent humans to the Moon",
-      "7": "Type of power that comes from the Sun",
-      "8": "A famous space telescope orbiting Earth",
-      "9": "The galaxy where Earth lives",
-      "10": "What astronauts wear outside a spaceship",
-      "13": "A hole left behind by a space rock crash"
+      "4": "Type of power that comes from the Sun",
+      "5": "A space rock that lands on Earth",
+      "8": "A term for something related to space",
+      "10": "A hole left behind by a space rock crash",
+      "12": "What astronauts wear to stay safe in space",
+      "14": "A famous space telescope orbiting Earth"
     },
     "down": {
-      "1": "What astronauts wear to stay safe in space",
-      "2": "A robot sent into space to explore",
-      "3": "A word that means \"related to space\"",
-      "5": "Space is full of this — no air, no sound!",
+      "1": "Space is full of this — no air, no sound!",
+      "2": "The U.S. group that sends people to space",
+      "3": "A robot sent into space to explore",
       "6": "Gas you need to breathe — rare in space!",
-      "9": "A space rock that lands on Earth",
-      "10": "The giant star at the center of our solar system",
-      "11": "When the Moon blocks the Sun (or vice versa!)",
-      "12": "The U.S. group that sends people to space"
+      "7": "When the Moon blocks the Sun (or vice versa!)",
+      "9": "The galaxy where Earth lives",
+      "11": "Famous space program that sent humans to the Moon",
+      "13": "The giant star at the center of our solar system"
     }
   },
     "creature_feature_crossword": {
@@ -169,44 +168,43 @@
   },
     "vibes_beats_and_brushes_crossword": {
     "across": {
-      "3": "A performer who speaks lyrics to a beat",
-      "6": "A cutout shape used to trace or spray paint",
-      "7": "A loud, portable speaker with music power",
-      "9": "A colorful shirt made with twisted fabric and dye",
-      "11": "A bold pen used for bright lines and colors",
-      "12": "What you wear to listen to music privately",
-      "14": "When dancers or rappers make it up as they go",
-      "15": "A machine that plays music when you pick a song"
+      "2": "A place where people show off their art",
+      "4": "What you’re wearing from head to toe",
+      "5": "What you wear to listen to music privately",
+      "8": "A new version of a song with fun changes",
+      "10": "A bunch of songs put together in one playlist",
+      "13": "A loud, portable speaker with music power",
+      "14": "A colorful shirt made with twisted fabric and dye",
+      "15": "Super bright color that glows and grabs attention"
     },
     "down": {
-      "1": "Making up moves, rhymes, or art on the spot",
-      "2": "A place where people show off their art",
-      "4": "A bunch of songs put together in one playlist",
-      "5": "The mood or energy of a place, person, or song",
-      "8": "What you’re wearing from head to toe",
-      "10": "Super bright color that glows and grabs attention",
-      "13": "A new version of a song with fun changes"
+      "1": "A performer who speaks lyrics to a beat",
+      "3": "A machine that plays music when you pick a song",
+      "6": "When dancers or rappers make it up as they go",
+      "7": "A cutout shape used to trace or spray paint",
+      "9": "A bold pen used for bright lines and colors",
+      "11": "Making up moves, rhymes, or art on the spot",
+      "12": "The mood or energy of a place, person, or song"
     }
   },
     "world_shakers_and_icon_makers_crossword": {
     "across": {
-      "2": "A person with big ideas for a better world",
-      "4": "Someone who puts pieces together to make something great",
-      "6": "Someone whose ideas make others stop and wonder",
-      "8": "Elected head of a country or group",
-      "11": "Someone who studies a subject deeply and shares it",
-      "12": "A person who helps others feel better",
-      "14": "A storyteller who puts ideas on paper"
+      "4": "A storyteller who puts ideas on paper",
+      "6": "A person who helps others learn and grow",
+      "10": "A person who helps others feel better",
+      "12": "Someone who inspires people with their words",
+      "13": "A writer who turns feelings into rhythm and rhyme",
+      "14": "A person with big ideas for a better world"
     },
     "down": {
-      "1": "A person who creates with color, sound, or shape",
-      "3": "A person who guides a team, group, or country",
-      "4": "A person who creates something that lasts",
-      "5": "Someone brave who stands up for what’s right",
-      "7": "A person who creates something brand new",
-      "9": "A person who helps others learn and grow",
-      "10": "Someone who inspires people with their words",
-      "13": "A writer who turns feelings into rhythm and rhyme"
+      "1": "Someone who puts pieces together to make something great",
+      "2": "Elected head of a country or group",
+      "3": "A person who creates something brand new",
+      "5": "Someone whose ideas make others stop and wonder",
+      "7": "A person who creates with color, sound, or shape",
+      "8": "Someone brave who stands up for what’s right",
+      "9": "Someone who studies a subject deeply",
+      "11": "A person who guides a team, group, or country"
     }
   }
 }

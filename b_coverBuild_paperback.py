@@ -1,7 +1,7 @@
 # make_cover_paperback.py
 # pip install pymupdf pillow
 
-import os, sys
+import os, sys, re
 import fitz  # PyMuPDF
 from PIL import Image
 
@@ -12,12 +12,13 @@ BACK_IMG   = r"C:\Users\timmu\Documents\repos\Factbook Project\cover\back.png"
 SPINE_IMG  = r"C:\Users\timmu\Documents\repos\Factbook Project\cover\spine.png"
 SPINE_TITLE_IMG = r"C:\Users\timmu\Documents\repos\Factbook Project\cover\what_happened_on.png"
 SPINE_FONT_FILE = r"C:\Users\timmu\Documents\repos\Factbook Project\fonts\Domine-Bold.ttf"
+FINAL_DIR = r"C:\Users\timmu\Documents\repos\Factbook Project\FINAL"
 
 SPINE_TEXT_COLOR = (0, 0, 0)  # RGB 0–1
 SPINE_ROTATE_DEG = 270        # 90 or 270
-# Match KDP paperback “Spine Safe Area”: ~0.118" total safe width on a 0.243" spine (108 pages)
 SPINE_MARGIN_X_IN = 0.0625    # left/right inset inside TRUE spine
 SPINE_MARGIN_Y_IN = 0.125     # top/bottom inset (bleed clearance)
+SPINE_WRAP_IN = 0.25          # wrap spine a bit onto covers
 
 # ===== BOOK / LAYOUT =====
 TRIM_W_IN, TRIM_H_IN = 6.0, 9.0
@@ -27,17 +28,43 @@ MARGIN_IN = 0.50
 FIT_MODE = "contain"           # "contain", "cover", or "fillcrop"
 VALID_EXT = {".png", ".jpg", ".jpeg"}
 
-# optional thin lines where panels meet the spine
 DRAW_SPINE_EDGE_LINES = True
-SPINE_EDGE_LINE_WIDTH_PT = 1.0
+SPINE_EDGE_LINE_WIDTH_PT = 2.0
 SPINE_EDGE_LINE_COLOR = (0, 0, 0)
 
 # ===== CONSTANTS (paperback per-page thickness) =====
 PT = 72.0
-SPINE_PER_PAGE = {"white":0.002252, "cream":0.0025, "color":0.002347}
-PAPER = "white"   # set "white" | "cream" | "color" per your interior
+SPINE_PER_PAGE = {
+    "white": 0.002252,          # B&W White
+    "cream": 0.0025,            # B&W Cream
+    "standard_color": 0.002252, # Standard Color on white paper
+    "premium_color": 0.002347,  # Premium Color
+}
+PAPER = "standard_color"
 
 # ---------- helpers ----------
+def _read_doy():
+    # CLI: b_coverBuild_paperback.py 89   OR   --doy=89
+    for arg in sys.argv[1:]:
+        if arg.isdigit():
+            return int(arg)
+        if arg.startswith("--doy="):
+            v = arg.split("=", 1)[1]
+            if v.isdigit():
+                return int(v)
+    # ENV
+    v = os.environ.get("FACTBOOK_DOY")
+    if v and v.isdigit():
+        return int(v)
+    # STDIN (from pipeline)
+    try:
+        line = sys.stdin.readline().strip()
+        if line.isdigit():
+            return int(line)
+    except Exception:
+        pass
+    return None
+
 def even_pages(p: int) -> int:
     return p if p % 2 == 0 else p + 1
 
@@ -218,75 +245,52 @@ def make_cover_spread_paperback(img_path: str, out_path: str, pages: int,
     x1_front_in = x0_front_in + TRIM_W_IN
     front_panel = fitz.Rect(IN(x0_front_in), IN(y0_in), IN(x1_front_in), IN(y1_in))
 
+    # Bleed-inclusive rects
+    back_bleed_rect  = fitz.Rect(IN(x0_back_in - BLEED_IN), IN(y0_in - BLEED_IN),
+                                 IN(x1_back_in),             IN(y1_in + BLEED_IN))
+    front_bleed_rect = fitz.Rect(IN(x0_front_in),            IN(y0_in - BLEED_IN),
+                                 IN(x1_front_in + BLEED_IN), IN(y1_in + BLEED_IN))
+    spine_bleed_rect = fitz.Rect(
+        max(0, spine_panel.x0 - IN(SPINE_WRAP_IN)),
+        IN(y0_in - BLEED_IN),
+        min(page.rect.x1, spine_panel.x1 + IN(SPINE_WRAP_IN)),
+        IN(y1_in + BLEED_IN)
+    )
+
     # TRUE spine (same as spine_panel for paperback)
     true_spine = spine_panel
 
-    # Spine text bands (use KDP safe insets)
+    # Spine text bands (safe insets)
     r = fitz.Rect(true_spine.x0 + IN(SPINE_MARGIN_X_IN),
                   true_spine.y0 + IN(SPINE_MARGIN_Y_IN),
                   true_spine.x1 - IN(SPINE_MARGIN_X_IN),
                   true_spine.y1 - IN(SPINE_MARGIN_Y_IN))
-
     h = r.height
     title_band  = fitz.Rect(r.x0, r.y0 + h*0.04, r.x1, r.y0 + h * 0.40)
     date_band   = fitz.Rect(r.x0, r.y0 + h*0.40, r.x1, r.y0 + h * 0.80)
     author_band = fitz.Rect(r.x0, r.y0 + h*0.71, r.x1, r.y0 + h * 0.96)
 
-    # utility to place front/back
-    def dest_for_panel(panel_rect, which: str, mode: str, safe: float):
-        if mode == "panel":
-            return fitz.Rect(panel_rect.x0 + IN(safe),
-                             panel_rect.y0 + IN(safe),
-                             panel_rect.x1 - IN(safe),
-                             panel_rect.y1 - IN(safe))
-        # "trim": place exactly 6x9 aligned to outer fore-edge
-        iw, ih = TRIM_W_IN - 2*safe, TRIM_H_IN - 2*safe
-        if which == "front":
-            x1 = panel_rect.x1 - IN(safe)
-            x0 = x1 - IN(iw)
-        else:
-            x0 = panel_rect.x0 + IN(safe)
-            x1 = x0 + IN(iw)
-        y0 = panel_rect.y0 + (panel_rect.height - IN(ih)) / 2
-        y1 = y0 + IN(ih)
-        return fitz.Rect(x0, y0, x1, y1)
-
-    # FRONT image
-    dest_front = dest_for_panel(front_panel, "front", place_mode, safe_margin_in)
-    page.insert_image(dest_front, filename=img_path, keep_proportion=True)
-
-    # BACK image (optional)
+    # FRONT / BACK
+    insert_image_fill_rect_with_crop(page, front_bleed_rect, img_path, DPI)
     if back_img_path:
-        b_mode = back_place_mode or place_mode
-        b_safe = back_safe_margin_in if back_safe_margin_in is not None else safe_margin_in
-        dest_back = dest_for_panel(back_panel, "back", b_mode, b_safe)
-        page.insert_image(dest_back, filename=back_img_path, keep_proportion=True)
+        insert_image_fill_rect_with_crop(page, back_bleed_rect, back_img_path, DPI)
 
-    # Optional spine background image (exact fit, will crop if needed)
+    # Spine background
     if spine_img_path:
-        insert_image_fill_rect_with_crop(page, spine_panel, spine_img_path, DPI)
+        insert_image_fill_rect_with_crop(page, spine_bleed_rect, spine_img_path, DPI)
 
     # Panel separators
     if DRAW_SPINE_EDGE_LINES:
-        y_top, y_bottom = spine_panel.y0, spine_panel.y1
-        # left join (back → spine)
-        page.draw_line((spine_panel.x0, y_top), (spine_panel.x0, y_bottom),
+        left_line_x  = max(0, spine_panel.x0 - IN(SPINE_WRAP_IN))
+        right_line_x = min(page.rect.x1, spine_panel.x1 + IN(SPINE_WRAP_IN))
+        y_top    = IN(y0_in - BLEED_IN)
+        y_bottom = IN(y1_in + BLEED_IN)
+        page.draw_line((left_line_x, y_top), (left_line_x, y_bottom),
                        color=SPINE_EDGE_LINE_COLOR, width=SPINE_EDGE_LINE_WIDTH_PT)
-        # right join (spine → front)
-        page.draw_line((spine_panel.x1, y_top), (spine_panel.x1, y_bottom),
+        page.draw_line((right_line_x, y_top), (right_line_x, y_bottom),
                        color=SPINE_EDGE_LINE_COLOR, width=SPINE_EDGE_LINE_WIDTH_PT)
 
-    # Spine title image
-    if spine_title_img_path and os.path.exists(spine_title_img_path):
-        insert_rotated_image_fit(page, title_band, spine_title_img_path, deg=SPINE_ROTATE_DEG)
-
-    # Date / Author (rotated Domine-Bold)
-    insert_rotated_text_pil(page, date_band,   spine_date_text,   SPINE_FONT_FILE,
-                            rotate_deg=SPINE_ROTATE_DEG, color=SPINE_TEXT_COLOR,
-                            dpi=DPI, thickness_frac=0.90)
-    insert_rotated_text_pil(page, author_band, spine_author_text, SPINE_FONT_FILE,
-                            rotate_deg=SPINE_ROTATE_DEG, color=SPINE_TEXT_COLOR,
-                            dpi=DPI, thickness_frac=0.55)
+    # (Spine text currently disabled; uncomment if needed)
 
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     doc.save(out_path, garbage=4, clean=True)
@@ -294,103 +298,78 @@ def make_cover_spread_paperback(img_path: str, out_path: str, pages: int,
 
 # ---------- CLI ----------
 def main():
-    files = list_images()
-    if not files:
-        print("No PNG/JPG covers found in:", INPUT_DIR)
+    print("=== MAKE COVER PAPERBACK (non-interactive) ===")
+
+    target_num = _read_doy()
+    if not isinstance(target_num, int):
+        print("❌ Missing DOY. Pass as CLI (e.g., 89), --doy=89, ENV FACTBOOK_DOY, or via stdin.")
         sys.exit(1)
 
-    print("\nSelect a cover by number:\n")
-    for i, f in enumerate(files, 1):
-        print(f"{i:3d}. {f}")
-
-    try:
-        idx = int(input("\nEnter number: ").strip())
-        assert 1 <= idx <= len(files)
-    except Exception:
-        print("Invalid selection.")
-        sys.exit(1)
-
-    chosen = files[idx - 1]
-    img_path = os.path.join(INPUT_DIR, chosen)
-    stem, _ = os.path.splitext(chosen)
-    cover_pdf = os.path.join(OUTPUT_DIR, f"{stem}_PB_COVER.pdf")
-
-    spine_override_in = None
-
-    while True:
-        try:
-            pages_in = int(input("Enter total interior pages (e.g., 108): ").strip())
-        except Exception:
-            print("Enter a valid integer page count.")
+    # Find FINAL/<DOY>_<Month>_<Day> folder
+    pattern = re.compile(r'^(?P<num>\d+)_([A-Za-z]+)_(\d{1,2})$')
+    candidates = []
+    for name in os.listdir(FINAL_DIR):
+        full = os.path.join(FINAL_DIR, name)
+        if not os.path.isdir(full):
             continue
+        m = pattern.match(name)
+        if m and int(m.group('num')) == target_num:
+            candidates.append(name)
 
-        pages = even_pages(pages_in)
-        if pages != pages_in:
-            print(f"⚠ Page count must be even. Using {pages} instead of {pages_in}.")
+    if not candidates:
+        print(f"❌ No FINAL subfolder for DOY {target_num} (expected '<DOY>_<Month>_<Day>').")
+        sys.exit(1)
 
-        while True:
-            pb = cover_specs_paperback(pages, TRIM_W_IN, TRIM_H_IN, BLEED_IN, DPI, PAPER)
-            auto_spine = pb["spine_in"]
-            if spine_override_in is not None:
-                pb["spine_in"] = spine_override_in
+    folder_name = sorted(candidates)[0]  # deterministic if multiple
+    target_dir = os.path.join(FINAL_DIR, folder_name)
+    parts = folder_name.split("_")
+    month_name = parts[1].title()
+    day_num = int(parts[2])
 
-            print("\n=== SPEC PREVIEW — PAPERBACK ===")
-            print(f"Chosen file      : {chosen}")
-            print(f"Interior trim    : {TRIM_W_IN:.3f} in × {TRIM_H_IN:.3f} in  "
-                  f"({px(TRIM_W_IN,DPI)} × {px(TRIM_H_IN,DPI)} px @ {DPI} DPI)")
-            if spine_override_in is None:
-                print(f"Spine (auto)     : {auto_spine:.3f} in  ({px(auto_spine, DPI)} px)")
-            else:
-                print(f"Spine (override) : {spine_override_in:.3f} in  ({px(spine_override_in, DPI)} px)  [auto={auto_spine:.3f}\"]")
-            full_w_in = 2*TRIM_W_IN + (spine_override_in or auto_spine) + 2*BLEED_IN
-            full_h_in = TRIM_H_IN + 2*BLEED_IN
-            print(f"Full cover       : {full_w_in:.3f} in × {full_h_in:.3f} in")
-            print(f"Bleed            : {BLEED_IN:.3f} in on all sides")
-            print(f"Cover spread out : {cover_pdf}")
-            print("Commands: [y] proceed  [p] change pages  [s] set spine  [r] reset spine  [n] abort")
-            cmd = input("> ").strip().lower()
+    # Required files/paths
+    img_path = os.path.join(target_dir, "front_cover.png")
+    manuscript_path = os.path.join(target_dir, "full_manuscript.pdf")
+    cover_pdf = os.path.join(target_dir, "book_cover.pdf")
+    spine_path_candidate = os.path.join(target_dir, "spine.png")
 
-            if cmd == "y":
-                break
-            if cmd == "n":
-                print("Aborted.")
-                return
-            if cmd == "p":
-                break
-            if cmd == "r":
-                spine_override_in = None
-                continue
-            if cmd == "s":
-                raw = input("Enter spine width (e.g., 0.243 or 73px): ").strip().lower()
-                try:
-                    if raw.endswith("px"):
-                        px_val = float(raw[:-2])
-                        spine_override_in = px_val / DPI
-                    else:
-                        spine_override_in = float(raw)
-                    if not (0.05 <= spine_override_in <= 2.0):
-                        print("Unusual spine width; keeping it but double-check.")
-                except Exception:
-                    print("Could not parse that spine value.")
-                continue
+    if not os.path.exists(img_path):
+        print(f"❌ front_cover.png missing: {img_path}")
+        sys.exit(1)
+    if not os.path.exists(manuscript_path):
+        print(f"❌ full_manuscript.pdf missing: {manuscript_path}")
+        sys.exit(1)
 
-            print("Unknown command.")
+    # Page count (auto)
+    try:
+        with fitz.open(manuscript_path) as mdoc:
+            pages_in = mdoc.page_count
+    except Exception as e:
+        print(f"❌ Failed to read manuscript: {e}")
+        sys.exit(1)
 
-        if cmd == "y":
-            break
+    # Force even pages for print
+    pages = even_pages(pages_in)
+    if pages != pages_in:
+        print(f"ℹ Even-page adjust: {pages_in} → {pages}")
 
-    # derive "Month Day" from filename
-    import re
-    m = re.search(r'(January|February|March|April|May|June|July|August|September|October|November|December)[ _-]?(\d{1,2})',
-                  stem, re.IGNORECASE)
-    spine_date_text = (f"{m.group(1).title()} {int(m.group(2))}" if m else "").upper()
+    # Optional assets (auto if present)
+    back_path  = BACK_IMG if os.path.exists(BACK_IMG) else None
+    title_img_path = SPINE_TITLE_IMG if os.path.exists(SPINE_TITLE_IMG) else None
+    spine_path = spine_path_candidate if os.path.exists(spine_path_candidate) \
+                 else (SPINE_IMG if os.path.exists(SPINE_IMG) else None)
+
+    # Spine text (if you later re-enable your spine text routine)
+    spine_date_text = f"{month_name} {day_num}".upper()
     spine_author_text = "By TJ Mulrenan"
 
-    back_path  = BACK_IMG  if os.path.exists(BACK_IMG)  else None
-    spine_path = SPINE_IMG if os.path.exists(SPINE_IMG) else None
-    title_img_path = SPINE_TITLE_IMG if os.path.exists(SPINE_TITLE_IMG) else None
+    print(f"> DOY: {target_num}  |  Folder: {folder_name}")
+    print(f"> Pages (even): {pages}")
+    print(f"> Front: {img_path}")
+    print(f"> Back : {back_path or 'None'}")
+    print(f"> Spine img: {spine_path or 'None'}")
+    print(f"> Out  : {cover_pdf}")
 
-    print(f"→ Writing COVER SPREAD PDF: {cover_pdf}")
+    # Auto build with computed spine (no override, no prompts)
     make_cover_spread_paperback(
         img_path,
         cover_pdf,
@@ -399,7 +378,7 @@ def main():
         safe_margin_in=0.0,
         place_mode="trim",
         bg=(1, 1, 1),
-        spine_override=spine_override_in,
+        spine_override=None,                 # <-- TRUST auto spine calc
         back_img_path=back_path,
         back_place_mode="trim",
         back_safe_margin_in=0.0,
@@ -408,8 +387,16 @@ def main():
         spine_date_text=spine_date_text,
         spine_author_text=spine_author_text
     )
-    print("\n✅ Done.")
-    print(f"Cover: {cover_pdf}")
+
+    print("✅ Paperback cover built.")
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        print(f"\n🔥 Unhandled error: {e}")
+        try:
+            import traceback; traceback.print_exc()
+        except Exception:
+            pass
+        sys.exit(1)

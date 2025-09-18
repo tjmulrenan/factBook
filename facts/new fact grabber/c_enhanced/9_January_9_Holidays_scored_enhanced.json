@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Shocking Fun on Static Electricity Day",
+    "story": "Rub a balloon on your hair and watch it stick to the wall like magic! National Static Electricity Day is celebrated every January 9, and it's the perfect time to explore the invisible forces around us. Kids and adults conduct fun experiments by shuffling across carpets in socks, then touching doorknobs for a tiny zap. Science museums host special demonstrations where they make people's hair stand straight up using giant static generators. Teachers love this day because they can show students how to bend water with a charged comb or make pieces of paper dance in the air. It's amazing how something we can't see can create such shocking results!",
+    "activity_question": "What happens when you rub a balloon on your hair on Static Electricity Day?",
+    "activity_choices": [
+      "It sticks to the wall",
+      "It changes colors",
+      "It starts singing",
+      "It becomes invisible"
+    ],
+    "activity_answer": "It sticks to the wall",
+    "bonus_fact": "Lightning is actually a giant spark of static electricity from storm clouds!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "902",
+    "title": "Up, Up, and Away Day!",
+    "story": "Hot air balloons fill the sky like giant floating rainbows on National Balloon Ascension Day every January 9! This amazing holiday celebrates the wonder of flight and the joy of watching colorful balloons drift through the clouds. People gather at balloon festivals to see dozens of balloons inflate and take off together. Some brave adventurers even climb into baskets for magical rides high above the ground. Others release helium balloons with wishes tied to their strings. Social media explodes with stunning photos of balloon-filled skies. It's a day when everyone looks up and dreams of soaring through the air like a bird!",
+    "activity_question": "What do some people tie to helium balloons on this holiday?",
+    "activity_choices": [
+      "Wishes",
+      "Sandwiches",
+      "Car keys",
+      "Homework"
+    ],
+    "activity_answer": "Wishes",
+    "follow_up_question": "If you could ride in a hot air balloon, where would you want to float?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "903",
+    "title": "Desk Mess? Time to Impress!",
+    "story": "Piles of papers, tangled cables, and mystery crumbs covering your workspace? January 9 is National Clean Off Your Desk Day! People everywhere tackle their messy desks by sorting, organizing, and throwing away junk they've been ignoring for months. It's the perfect excuse to finally find that missing homework!",
+    "activity_question": "What do people do on National Clean Off Your Desk Day?",
+    "activity_choices": [
+      "Sort and organize their messy workspaces",
+      "Buy a brand new desk",
+      "Eat lunch at their desk",
+      "Paint their desk a different color"
+    ],
+    "activity_answer": "Sort and organize their messy workspaces",
+    "follow_up_question": "What's the weirdest thing you've ever found hiding under papers on a desk?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 45
+  }
+]

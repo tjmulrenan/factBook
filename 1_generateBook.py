@@ -25,6 +25,7 @@ import fitz  # PyMuPDF
 from PIL import Image
 from reportlab.lib.colors import Color
 from reportlab.lib.units import inch
+from reportlab.platypus import HRFlowable
 
 print("CWD:", os.getcwd())
 
@@ -38,6 +39,221 @@ PAGE_H = (TRIM_H_IN + 2*BLEED_IN) * inch
 # Use the full bleed page size for the document
 custom_page_size = (PAGE_W, PAGE_H)
 custom_blue = Color(13/255, 78/255, 111/255)
+
+def extract_fact_text(rec: dict) -> str:
+    return rec.get("fact") or rec.get("story") or rec.get("original") or rec.get("title") or ""
+
+# ➕ ADD THIS HELPER (right below extract_fact_text)
+def normalize_categories(raw):
+    """
+    Returns a list of category strings from whatever the JSON has:
+    - None  -> ["Other"]
+    - "Days That Slay" -> ["Days That Slay"]
+    - [{"name":"Days That Slay"}, "Beyond Earth"] -> ["Days That Slay", "Beyond Earth"]
+    - Any weird type -> coerced to string
+    """
+    if raw is None:
+        return ["Other"]
+    if isinstance(raw, (str, dict)):
+        raw = [raw]
+    out = []
+    for item in raw:
+        if isinstance(item, str):
+            s = item.strip()
+            if s:
+                out.append(s)
+        elif isinstance(item, dict):
+            for key in ("name", "title", "label", "category", "value"):
+                v = item.get(key)
+                if isinstance(v, str) and v.strip():
+                    out.append(v.strip())
+                    break
+            else:
+                out.append(str(item))
+        else:
+            out.append(str(item))
+    return out or ["Other"]
+
+def _collect_answer_images(categories, base_folder, suffix):
+    """
+    Build [(category_title, image_path), ...] only for files that exist.
+    suffix should include leading underscore if needed, e.g. '_answers.png'
+    """
+    items = []
+    for category in categories:
+        bg_key = CATEGORY_BACKGROUNDS.get(category)
+        if not bg_key:
+            continue
+        p = os.path.join(base_folder, f"{bg_key.lower()}{suffix}")
+        if os.path.exists(p):
+            items.append((category, p))
+        else:
+            logging.warning(f"❌ Missing answers image: {p}")
+    return items
+
+
+def _answers_grid(elements, styles, title_text, items, cell_width=175, rows_per_page=2, cols_per_page=2):
+    """
+    Thin wrapper so the 'real' answers pages look the same as preview pages.
+    Uses the same paginator/scaler as _answers_preview_grid.
+    """
+    if not items:
+        elements.append(PageBreak())
+        elements.append(TransparentBox(f"{title_text} not found.", styles['story'], alpha=0.85))
+        return
+
+    _answers_preview_grid(
+        elements,
+        title_text=title_text,
+        styles=styles,
+        image_paths=items,
+        cell_width=cell_width,
+        rows_per_page=rows_per_page,
+        cols_per_page=cols_per_page
+    )
+
+
+def _trivia_answers_grid(elements, styles, qa_pairs, cell_width=175, rows_per_page=2, cols_per_page=2):
+    """
+    Paginate a grid of (question + answer) cells like the answers preview.
+    qa_pairs: list of tuples -> (question, answer)
+    """
+    from reportlab.platypus import Table, TableStyle, Paragraph, Spacer
+    from reportlab.lib import colors
+
+    # Build cells (white text, centered title vibe)
+    cells = []
+    for i, (q, a) in enumerate(qa_pairs, 1):
+        # White text to pop on your dark answers backgrounds
+        qa_para = Paragraph(
+            f"<b>{i}.</b> {q}<br/><b>Answer:</b> {a}",
+            ParagraphStyle(
+                "TriviaAnswersCell",
+                parent=styles['trivia_answers'],
+                textColor=colors.white,    # key for dark background
+                fontSize=10,
+                leading=12,
+                spaceAfter=0,
+                spaceBefore=0
+            )
+        )
+        # Wrap in a TransparentBox like the preview cells (no offset hacks)
+        box = TransparentBox(
+            [qa_para],
+            styles['trivia_answers'],
+            width=cell_width,
+            padding=8,
+            alpha=0.85,
+            border=False
+        )
+        cells.append(box)
+
+    # Paginate into pages of rows_per_page x cols_per_page
+    page_capacity = rows_per_page * cols_per_page
+    for i in range(0, len(cells), page_capacity):
+        block = cells[i:i + page_capacity]
+
+        # Build rows
+        rows = []
+        for r in range(0, len(block), cols_per_page):
+            row = block[r:r + cols_per_page]
+            while len(row) < cols_per_page:
+                row.append(Spacer(1, 1))  # pad empty cells
+            rows.append(row)
+
+        # Ensure exactly rows_per_page rows per page
+        while len(rows) < rows_per_page:
+            rows.append([Spacer(1, 1) for _ in range(cols_per_page)])
+
+        table = Table(rows, colWidths=[cell_width]*cols_per_page, hAlign='CENTER')
+        table.setStyle(TableStyle([
+            ('VALIGN', (0, 0), (-1, -1), 'TOP'),
+            ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
+            ('LEFTPADDING', (0, 0), (-1, -1), 6),
+            ('RIGHTPADDING', (0, 0), (-1, -1), 6),
+            ('BOTTOMPADDING', (0, 0), (-1, -1), 12),
+            ('TOPPADDING', (0, 0), (-1, -1), 6),
+            # ('GRID', (0,0), (-1,-1), 0.5, colors.grey),  # debug if needed
+        ]))
+        elements.append(Spacer(1, 12))
+        elements.append(table)
+
+
+
+def _answers_preview_grid(elements, title_text, styles, image_paths, cell_width=175, rows_per_page=2, cols_per_page=2):
+    """
+    Paginate a 2x2 grid of (title + image) cells across as many pages as needed.
+    image_paths: list of tuples -> (category_title, image_path)
+    """
+    from reportlab.platypus import Table, TableStyle, Paragraph, Spacer
+    from reportlab.lib import colors
+    from reportlab.platypus import Image as RLImage
+    from reportlab.lib.utils import ImageReader
+
+    # Title
+    elements.append(PageBreak())
+    elements.append(TransparentBox(title_text, styles['cat_title'], alpha=0.85))
+    elements.append(Spacer(1, 12))
+    elements.append(Spacer(1, 12))
+
+    # Build cells
+    cells = []
+    for cat_title, img_path in image_paths:
+        try:
+            img_reader = ImageReader(img_path)
+            ow, oh = img_reader.getSize()
+
+            # keep aspect by fixing width, adapt height
+            max_w = float(cell_width)
+            # keep some headroom; target around 150–170 high usually
+            scale = max_w / float(ow)
+            new_w = max_w
+            new_h = oh * scale
+
+            # Caption (white text so it pops on your dark backgrounds)
+            title_para = Paragraph(cat_title, ParagraphStyle(
+                "AnswersPreviewTitle",
+                fontName="Baloo2-Bold",
+                fontSize=12,
+                leading=14,
+                alignment=TA_CENTER,
+                spaceAfter=4,
+                textColor=colors.white
+            ))
+            image = RLImage(img_path, width=new_w, height=new_h)
+
+            cells.append([title_para, Spacer(1, 4), image])
+        except Exception as e:
+            logging.warning(f"❌ Could not load answers preview image for {cat_title}: {e}")
+
+    # Pagination into pages of (rows_per_page x cols_per_page)
+    page_capacity = rows_per_page * cols_per_page
+    for i in range(0, len(cells), page_capacity):
+        block = cells[i:i + page_capacity]
+        # build rows
+        rows = []
+        for r in range(0, len(block), cols_per_page):
+            row = block[r:r + cols_per_page]
+            while len(row) < cols_per_page:
+                row.append([Spacer(1, 1)])  # pad empty
+            rows.append(row)
+
+        # ensure exactly rows_per_page rows per page (pad if needed)
+        while len(rows) < rows_per_page:
+            rows.append([[Spacer(1, 1)] for _ in range(cols_per_page)])
+
+        table = Table(rows, colWidths=[cell_width] * cols_per_page, hAlign='CENTER')
+        table.setStyle(TableStyle([
+            ('VALIGN', (0, 0), (-1, -1), 'TOP'),
+            ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
+            ('LEFTPADDING', (0, 0), (-1, -1), 6),
+            ('RIGHTPADDING', (0, 0), (-1, -1), 6),
+            ('BOTTOMPADDING', (0, 0), (-1, -1), 14),
+            ('TOPPADDING', (0, 0), (-1, -1), 4),
+            # (‘GRID’, (0,0), (-1,-1), 0.5, colors.grey),  # enable if you want gridlines
+        ]))
+        elements.append(Spacer(1, 12))
+        elements.append(table)
 
 def draw_cloud_shape_background(canvas, doc, alpha=0.88, scale=1.0):
     from reportlab.lib.units import cm
@@ -96,8 +312,70 @@ def draw_cloud_shape_background(canvas, doc, alpha=0.88, scale=1.0):
 
 from reportlab.platypus import Flowable, Paragraph
 
+class OverlayRule(Flowable):
+    """Opaque line drawn over the previous box (height=0 → no extra gap)."""
+    def __init__(self, target_width=350, thickness=1.8, color=colors.darkgrey,
+                 inset=5, offset_up=10):
+        super().__init__()
+        self.target_width = target_width    # line length
+        self.thickness = thickness
+        self.color = color
+        self.inset = inset                  # left padding inside the box
+        self.offset_up = offset_up          # how far up from the current y to draw
+
+    def wrap(self, availWidth, availHeight):
+        return 0, 0  # consume no vertical space
+
+    def drawOn(self, canvas, x, y, _sW=0):
+        # center horizontally like TransparentBox, then add left inset
+        centered_x = (canvas._pagesize[0] - (self.target_width + 2*self.inset)) / 2 + self.inset
+        super().drawOn(canvas, centered_x, y, _sW)
+
+    def draw(self):
+        c = self.canv
+        # force full opacity (don’t inherit box alpha)
+        try: c.setFillAlpha(1); c.setStrokeAlpha(1)
+        except Exception: pass
+        c.setFillColor(self.color)
+        c.rect(0, self.offset_up, self.target_width, self.thickness, stroke=0, fill=1)
+
+
+class MidGapRule(Flowable):
+    """Opaque horizontal rule drawn inside the <br/><br/> gap (no extra height)."""
+    def __init__(self, width_pct=100, thickness=1.8,
+                 color=colors.HexColor("#000000"), y_offset=0):
+        super().__init__()
+        self.width_pct = width_pct
+        self.thickness = thickness
+        self.color = color
+        self.y_offset = y_offset
+
+    def wrap(self, availWidth, availHeight):
+        self._w = availWidth * (self.width_pct / 100.0)
+        self._x = (availWidth - self._w) / 2.0  # center within text box
+        return self._w, 0  # consume no vertical space
+
+    def draw(self):
+        c = self.canv
+        c.saveState()
+        # reset any inherited transparency
+        try:
+            c.setFillAlpha(1)
+        except Exception:
+            pass
+        try:
+            c.setStrokeAlpha(1)
+        except Exception:
+            pass
+
+        c.setFillColor(self.color)
+        # draw a filled rectangle (more solid than a stroked line under blending)
+        h = float(self.thickness)
+        # place it lower in the gap by y_offset (negative y goes down)
+        c.rect(self._x, -self.y_offset - h/2.0, self._w, h, stroke=0, fill=1)
+        c.restoreState()
 class TransparentBox(Flowable):
-    def __init__(self, content, style, width=None, height=None, padding=15, alpha=0.85, inner_spacing=None, border=False):
+    def __init__(self, content, style, width=None, height=None, padding=5, alpha=0.85, inner_spacing=None, border=False):
         super().__init__()
         self.style = style
         self.padding = padding
@@ -136,30 +414,37 @@ class TransparentBox(Flowable):
         super().drawOn(canvas, centered_x, y, _sW)
 
     def draw(self):
-        self.canv.saveState()
-        self.canv.setFillColorRGB(1, 1, 1, alpha=self.alpha)
-
+        c = self.canv
+        c.saveState()
         x = -self._cur_x if hasattr(self, '_cur_x') else 0
 
-        # ✅ Add border if requested
+        # --- draw translucent background in an isolated state ---
+        c.saveState()
+        c.setFillColorRGB(1, 1, 1, alpha=self.alpha)
         if getattr(self, "border", False):
-            self.canv.setStrokeColor(colors.black)
-            self.canv.setLineWidth(2)
-            self.canv.rect(x, 0, self.eff_width, self.eff_height, fill=1, stroke=1)
+            c.setStrokeColor(colors.black)
+            c.setLineWidth(2)
+            c.rect(x, 0, self.eff_width, self.eff_height, fill=1, stroke=1)
         else:
-            self.canv.rect(x, 0, self.eff_width, self.eff_height, fill=1, stroke=0)
+            c.rect(x, 0, self.eff_width, self.eff_height, fill=1, stroke=0)
+        c.restoreState()            # <<< resets alpha to 1 for content
 
+        # (extra safety for older ReportLab builds)
+        try: c.setFillAlpha(1); c.setStrokeAlpha(1)
+        except Exception: pass
+
+        # --- draw contents opaque ---
         content_width = self.eff_width - 2 * self.padding
-        y_cursor = self.eff_height - self.padding  # start from top
-
+        y_cursor = self.eff_height - self.padding
         for i, flowable in enumerate(self._content):
             w, h = flowable.wrap(content_width, self.eff_height)
-            flowable.drawOn(self.canv, self.padding, y_cursor - h)
+            flowable.drawOn(c, self.padding, y_cursor - h)
             y_cursor -= h
             if i < len(self._content) - 1:
-                y_cursor -= self.inner_spacing  # ✅ only between elements
+                y_cursor -= self.inner_spacing
 
-        self.canv.restoreState()
+        c.restoreState()
+
 
 class FixedBottomTransparentBox(TransparentBox):
     def __init__(self, content, style, page_height, bottom_margin=30, **kwargs):
@@ -345,6 +630,45 @@ class MyDocTemplate(BaseDocTemplate):
 
 global_answers = []  # Collect answers to render later
 
+def find_vibe_json_path(base_dir, month, day_str):
+    """
+    Return full path to the vibe JSON for Month/Day, handling files like:
+      - 3_January_3_Facts.json
+      - January_3_Facts.json   (legacy)
+    """
+    day_num = str(int(day_str))  # normalize '03' -> '3'
+    candidates = []
+    patts = [
+        rf"^\d+_{re.escape(month)}_{day_num}_Facts\.json$",
+        rf"^{re.escape(month)}_{day_num}_Facts\.json$",
+    ]
+    regexes = [re.compile(p, re.IGNORECASE) for p in patts]
+    try:
+        for fname in os.listdir(base_dir):
+            for rx in regexes:
+                if rx.match(fname):
+                    candidates.append(os.path.join(base_dir, fname))
+                    break
+    except FileNotFoundError:
+        logging.warning(f"🚫 Vibe base folder not found: {base_dir}")
+        return None
+
+    if not candidates:
+        logging.warning(f"🚫 No vibe file found for {month} {day_num} in {base_dir}")
+        return None
+
+    # Prefer the one with a numeric prefix if both exist
+    candidates.sort(key=lambda p: (0 if re.match(r"^\d+_", os.path.basename(p)) else 1, p.lower()))
+    return candidates[0]
+
+
+def is_kid_friendly(rec: dict) -> bool:
+    return bool(
+        rec.get("kid_friendly") is True
+        or rec.get("suitable_for_8_to_12_year_old") is True
+        or rec.get("is_kid_friendly") is True
+    )
+
 
 def build_elements(facts, styles, date_str, category_pages=None):
     elements = []
@@ -387,7 +711,6 @@ def build_elements(facts, styles, date_str, category_pages=None):
             "__TOC_PAGE__",
             ParagraphStyle("HiddenTOCMarker", fontSize=0, textColor=colors.grey)
         ))
-        elements.append(Spacer(1, 12))
 
         filtered_category_pages = [
             (cat, pg) for cat, pg in category_pages
@@ -404,35 +727,45 @@ def build_elements(facts, styles, date_str, category_pages=None):
         ]
 
         table = Table(toc_data, colWidths=[300, 20], hAlign='LEFT')
+        row_h = styles['toc_item'].leading + 10   # tweak the +10 to taste (e.g., 8–12)
+
+        table = Table(
+            toc_data,
+            colWidths=[300, 20],
+            rowHeights=[row_h] * len(toc_data),
+            hAlign='LEFT'
+        )
+
         table.setStyle(TableStyle([
-            ('ALIGN', (0, 0), (-1, -1), 'LEFT'),
-            ('FONTNAME', (0, 0), (-1, -1), 'DejaVu'),
-            ('FONTSIZE', (0, 0), (-1, -1), 12),
-            ('TOPPADDING', (0, 0), (-1, -1), 8),
-            ('BOTTOMPADDING', (0, 0), (-1, -1), 16),
-            ('LEFTPADDING', (0, 0), (-1, -1), 0),
-            ('RIGHTPADDING', (0, 0), (-1, -1), 0),
-            ('LINEBELOW', (0, 0), (-1, -2), 0.25, colors.darkgrey),
+            ('FONTNAME',   (0, 0), (-1, -1), 'DejaVu'),
+            ('FONTSIZE',   (0, 0), (-1, -1), 12),
+            ('ALIGN',      (0, 0), (-1, -1), 'LEFT'),
+            ('VALIGN',     (0, 0), (-1, -1), 'MIDDLE'),
+            ('TOPPADDING', (0, 0), (-1, -1), 0),
+            ('BOTTOMPADDING',(0,0),(-1,-1), 0),
+            ('LEFTPADDING',(0, 0), (-1, -1), 0),
+            ('RIGHTPADDING',(0,0), (-1, -1), 0),
+            ('LINEBELOW',  (0, 0), (-1, -2), 0.25, colors.darkgrey)
         ]))
 
         # ⛔ Force TOC to stay together on one page
         toc_block = KeepTogether([
-            TransparentBox("<para align='center'><b>Table of Contents</b></para>", styles['toc_title'], alpha=0.85),
-            
             # Hidden marker before the table
             Paragraph("__TOC_PAGE__", ParagraphStyle("HiddenTOCMarker", fontSize=0, textColor=colors.grey)),
 
-            Spacer(1, 12),
+            TransparentBox("<para align='center'><b>Table of Contents</b></para>", styles['toc_title'], alpha=0.85),
 
             # ✅ Table wrapped in TransparentBox
             TransparentBox(table, styles['story'], alpha=0.85),
 
             # Hidden end marker
             Paragraph("__TOC_END__", ParagraphStyle("HiddenTOCEndMarker", fontSize=0, textColor=colors.white)),
+            
         ])
 
 
         elements.append(toc_block)
+        elements.append(PageBreak())
     
     
     # 🌤️ Today's Vibe Check Section
@@ -445,8 +778,6 @@ def build_elements(facts, styles, date_str, category_pages=None):
     page_height = custom_page_size[1]
     estimated_content_height = 180
     spacer_height = max(0, (page_height - estimated_content_height) / 2 - 50)
-
-    elements.append(Spacer(1, spacer_height))
 
     # Vibe Check intro in transparent boxes
     vibe_intro = KeepTogether([
@@ -467,45 +798,71 @@ def build_elements(facts, styles, date_str, category_pages=None):
     try:
         month, day = date_str.split()
         day = ''.join(filter(str.isdigit, day))
-        vibe_filename = f"{month}_{day}_Facts.json"
-        vibe_path = os.path.join(
-            "C:/Users/timmu/Documents/repos/Factbook Project/facts/new fact grabber/a_rawDay",
-            vibe_filename
-        )
-        with open(vibe_path, "r", encoding="utf-8") as f:
-            vibe_facts = json.load(f)
 
-        added_any = False
-        for fact in vibe_facts:
-            if fact.get("kid_friendly", False):
-                fact_block = KeepTogether([
-                    TransparentBox(f"{fact['fact']}", styles['story'], alpha=0.85),
-                    # Spacer(1, 10)
-                ])
-                elements.append(fact_block)
-                added_any = True
+        vibe_base = r"C:/Users/timmu/Documents/repos/Factbook Project/facts/new fact grabber/a_rawDay"
+        vibe_path = find_vibe_json_path(vibe_base, month, day)
 
-        if not added_any:
-            elements.append(Paragraph("No kid-friendly facts available today.", styles['story']))
-        # elements.append(PageBreak())
+        if not vibe_path:
+            elements.append(Paragraph("Oops! Vibe Check facts couldn’t load.", styles['story']))
+        else:
+            with open(vibe_path, "r", encoding="utf-8") as f:
+                vibe_facts = json.load(f)
+
+            kid_facts = [rec for rec in vibe_facts if is_kid_friendly(rec)]
+
+            if kid_facts:
+                pad = 5
+                gap_leading = styles['story'].leading
+                offset_up = pad + gap_leading * (-0.3)
+                line_thickness = 1.2
+                line_color = colors.darkgrey
+
+                for idx, fact in enumerate(kid_facts):
+                    text = extract_fact_text(fact).strip()
+                    story_box = TransparentBox(
+                        Paragraph(f"{text}<br/>", styles['story']),
+                        styles['story'],
+                        alpha=0.85,
+                        padding=pad,
+                        inner_spacing=0
+                    )
+                    elements.append(story_box)
+
+                    if idx < len(kid_facts) - 1:
+                        elements.append(OverlayRule(
+                            target_width=350 - 2*pad,
+                            thickness=line_thickness,
+                            color=line_color,
+                            inset=pad,
+                            offset_up=offset_up
+                        ))
+            else:
+                elements.append(Paragraph("No kid-friendly facts available today.", styles['story']))
 
     except Exception as e:
         logging.warning(f"🚫 Could not load Today's Vibe Check facts: {e}")
         elements.append(Paragraph("Oops! Vibe Check facts couldn’t load.", styles['story']))
 
-
-    # Categorize facts
+    # Categorize facts (robust to non-string category entries)
     categories = {}
     leftover = []
+
+    # optional: quick diagnostic to log the first offending record, if any
+    for i, fact in enumerate(facts, 1):
+        raw = fact.get("categories")
+        items = raw if isinstance(raw, (list, tuple)) else [raw]
+        bad = [type(x).__name__ for x in items if x is not None and not isinstance(x, (str, dict))]
+        if any(isinstance(x, dict) for x in items) or bad:
+            logging.debug(f"🧪 Category shapes for id={fact.get('id')}: {raw}")
+
     for fact in facts:
-        matched = False
-        for cat in fact.get("categories", ["Other"]):
-            if cat not in categories:
-                categories[cat] = []
-            categories[cat].append(fact)
-            matched = True
-        if not matched:
+        norm_cats = normalize_categories(fact.get("categories"))
+        if not norm_cats:
             leftover.append(fact)
+            continue
+        for cat in norm_cats:
+            categories.setdefault(cat, []).append(fact)
+
 
 # THIS IS FOR MAKING SURE A CATAGORY HAS AT LEAST 6 FACTS
     # # Reassign categories with fewer than 6 facts to stronger categories
@@ -660,7 +1017,6 @@ def build_elements(facts, styles, date_str, category_pages=None):
 
         # Build content as a block (TOC-compatible + transparent visuals)
         title_block = KeepTogether([
-            Spacer(1, 12),
             
             # ⚠️ Paragraph version just to support TOC logic (not visible in output)
             Paragraph(f"<b>{category}</b>", styles['category']),
@@ -678,7 +1034,6 @@ def build_elements(facts, styles, date_str, category_pages=None):
         estimated_content_height = 180  # adjust this if your text is taller
         spacer_height = max(0, (page_height - estimated_content_height) / 2 - 50)
 
-        elements.append(Spacer(1, spacer_height))
         elements.append(title_block)
         elements.append(PageBreak())
 
@@ -687,7 +1042,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
         for i, fact in enumerate(fact_list):
             fact_block = KeepTogether([
                 TransparentBox(f"<i>{fact['title']}</i>", styles['title']),
-                TransparentBox(fact["story"], styles['story'])
+                TransparentBox(fact["story"] + "<br/><br/>", styles['story'])
             ])
             elements.append(fact_block)
 
@@ -696,7 +1051,6 @@ def build_elements(facts, styles, date_str, category_pages=None):
         # Add centered trivia intro block
         estimated_content_height = 180
         spacer_height = max(0, (custom_page_size[1] - estimated_content_height) / 2 - 50)
-        elements.append(Spacer(1, spacer_height))
 
         # Trivia intro inside TransparentBoxes
         # trivia_intro = KeepTogether([
@@ -723,7 +1077,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
         # Questions block
         elements.append(
             TransparentBox(
-                Paragraph("Questions", styles['cat_title']),
+                Paragraph("Trivia Time", styles['cat_title']),
                 styles['story'],
                 alpha=0.85
             )
@@ -756,7 +1110,6 @@ def build_elements(facts, styles, date_str, category_pages=None):
                 # Wrap each question in its own TransparentBox
                 elements.append(TransparentBox([
                     question_paragraph,
-                    Spacer(1, 4),
                     table
                 ], styles['trivia_questions'], alpha=0.85))
 
@@ -774,8 +1127,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
             styles['trivia_questions'],
             alpha=0.85
         ))
-        elements.append(Spacer(1, 12))
-        # elements.append(Spacer(1, 20))  # space before image
+        elements.append(Spacer(1, 12))  # space before image
 
         # Word search image (centered below description)
         category_key = CATEGORY_BACKGROUNDS.get(category, '').lower()
@@ -788,13 +1140,22 @@ def build_elements(facts, styles, date_str, category_pages=None):
                 img_reader = ImageReader(image_path)
                 original_width, original_height = img_reader.getSize()
 
-                # Fixed height
-                fixed_height = 250
-                aspect_ratio = original_width / original_height
-                new_width = fixed_height * aspect_ratio
+                # ---- content frame width (same as your Frame calc) ----
+                margin_in = 0.5
+                margin_pt = margin_in * inch
+                content_width = (PAGE_W - 2*BLEED_PT) - 2*margin_pt  # cap by margins
+
+                # ---- height cap ----
+                max_height = 380
+                max_width = float(content_width)
+
+                # ---- scale by the tighter of the two caps (keep ratio) ----
+                scale = min(max_width / original_width, max_height / original_height)
+                new_width = original_width * scale
+                new_height = original_height * scale
 
                 elements.append(Spacer(1, 12))
-                elements.append(RLImage(image_path, width=new_width, height=fixed_height))
+                elements.append(RLImage(image_path, width=new_width, height=new_height))
                 elements.append(Spacer(1, 12))
 
             except Exception as e:
@@ -826,7 +1187,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
                         table_data[-1] += [""] * (row_length - len(table_data[-1]))
 
                     # Create table
-                    word_table = Table(table_data, colWidths=350 // row_length)
+                    word_table = Table(table_data, colWidths=330 // row_length)
                     word_table.setStyle(TableStyle([
                         ('FONTNAME', (0, 0), (-1, -1), 'Baloo2'),
                         ('FONTSIZE', (0, 0), (-1, -1), 11),
@@ -863,11 +1224,12 @@ def build_elements(facts, styles, date_str, category_pages=None):
         # Title and intro
         elements.append(TransparentBox("Grid Gauntlet", styles['cat_title'], alpha=0.85))
         elements.append(TransparentBox(
-            "Tackle the clues and conquer the crossword — it’s brain-flexing time!",
+            "Test your brainpower with a tricky crossword challenge!",
             styles['trivia_questions'],
             alpha=0.85
         ))
-        elements.append(Spacer(1, 12))
+
+        elements.append(Spacer(1, 20))  # space before image
 
         # Crossword image
         category_key = CATEGORY_BACKGROUNDS.get(category, '').lower()
@@ -879,15 +1241,24 @@ def build_elements(facts, styles, date_str, category_pages=None):
         if os.path.exists(crossword_path):
             try:
                 img_reader = ImageReader(crossword_path)
-                original_width, original_height = img_reader.getSize()
+                ow, oh = img_reader.getSize()
 
-                fixed_height = 180  # 👈 your new constant height
-                aspect_ratio = original_width / original_height  # 👈 note: width over height
-                new_width = fixed_height * aspect_ratio
+                # Content-frame width (matches your Frame calc)
+                margin_in = 0.5
+                margin_pt = margin_in * inch
+                content_width = (PAGE_W - 2*BLEED_PT) - 2*margin_pt  # width cap by margins
+
+                # Height cap (same logic as word search previews)
+                max_height =300.0
+
+                # Scale by the tighter cap, keep aspect ratio
+                scale = min(float(content_width) / ow, max_height / oh)
+                new_w = ow * scale
+                new_h = oh * scale
 
                 elements.append(Spacer(1, 12))
-                elements.append(RLImage(crossword_path, width=new_width, height=fixed_height))
-                elements.append(Spacer(1, 12))  # 👇 DON'T add a PageBreak here
+                elements.append(RLImage(crossword_path, width=new_w, height=new_h))
+                elements.append(Spacer(1, 12))
 
             except Exception as e:
                 logging.warning(f"❌ Could not load crossword image for {category_key}: {e}")
@@ -965,8 +1336,6 @@ def build_elements(facts, styles, date_str, category_pages=None):
         #     )
         # )
 
-        elements.append(Spacer(1, 12))
-
         for i, fact in enumerate(fact_list, 1):
             q = fact.get("activity_question")
             a = fact.get("activity_answer")
@@ -978,7 +1347,6 @@ def build_elements(facts, styles, date_str, category_pages=None):
         image_path = os.path.join("pictures", f"{CATEGORY_BACKGROUNDS.get(category, '').lower()}.png")
         if os.path.exists(image_path):
             elements.append(RLImage(image_path, width=460, height=300))
-            elements.append(Spacer(1, 20))
 
 
     # Export category structure for external validation with word counts
@@ -1011,13 +1379,11 @@ def build_elements(facts, styles, date_str, category_pages=None):
         # Questions page (content header)
         elements.append(
             TransparentBox(
-                Paragraph("Questions", styles['cat_title']),
+                Paragraph("Trivia Time Answers", styles['cat_title']),
                 styles['story'],
                 alpha=0.85
             )
         )
-
-    elements.append(Spacer(1, 12))
 
     for i, (q, a) in enumerate(global_answers, 1):
         para = Paragraph(f"<b>{i}.</b> {q}<br/><b>Answer:</b> {a}", styles['trivia_answers'])
@@ -1035,165 +1401,40 @@ def build_elements(facts, styles, date_str, category_pages=None):
         )
         elements.append(box)
 
-    # ➕ Letter Quest Answers Section (2x2 Grid Layout)
+    # ➕ Letter Quest Answers Section (match preview look)
     if category_pages:
-        elements.append(PageBreak())
-        elements.append(TransparentBox("🧩 Letter Quest Answers", styles['cat_title'], alpha=0.85))
-        elements.append(Spacer(1, 12))
-        elements.append(Spacer(1, 12))
+        lq_items = _collect_answer_images(
+            categories=categories.keys(),
+            base_folder="C:/Users/timmu/Documents/repos/Factbook Project/wordsearch",
+            suffix="_answers.png"
+        )
 
-        grid_cells = []
+        _answers_grid(
+            elements,
+            styles,
+            title_text="🧩 Letter Quest Answers",
+            items=lq_items,
+            cell_width=175,
+            rows_per_page=2,
+            cols_per_page=2
+        )
 
-        for category in categories:
-            bg_key = CATEGORY_BACKGROUNDS.get(category)
-            if not bg_key:
-                continue  # skip if no background key is mapped
-            answer_image_path = os.path.join(
-                "C:/Users/timmu/Documents/repos/Factbook Project/wordsearch",
-                f"{bg_key.lower()}_answers.png"
-            )
+        # ➕ Grid Gauntlet Answers Section (match preview look)
+        gg_items = _collect_answer_images(
+            categories=categories.keys(),
+            base_folder="C:/Users/timmu/Documents/repos/Factbook Project/crossword",
+            suffix="_answers.png"
+        )
 
-            if not os.path.exists(answer_image_path):
-                logging.warning(f"❌ Missing Letter Quest answer image: {answer_image_path}")
-                continue
-
-            try:
-                img_reader = ImageReader(answer_image_path)
-                original_width, original_height = img_reader.getSize()
-
-                # Resize for 2x2 layout
-                fixed_height = 150
-                aspect_ratio = original_width / original_height
-                new_width = fixed_height * aspect_ratio
-
-                title_para = Paragraph(category, ParagraphStyle(
-                    "GridTitle",
-                    fontName="Baloo2-Bold",
-                    fontSize=12,
-                    leading=14,
-                    alignment=TA_CENTER,
-                    spaceAfter=4,
-                    textColor=colors.white  # ← this makes the text white
-                ))
-
-                image = RLImage(answer_image_path, width=new_width, height=fixed_height)
-
-                cell_content = [title_para, Spacer(1, 4), image]
-                grid_cells.append(cell_content)
-
-            except Exception as e:
-                logging.warning(f"❌ Could not load Letter Quest answer image for {category}: {e}")
-                continue
-
-        # ➕ Group into 2x2 layout (2 columns, 2 rows per page)
-
-        rows_of_2 = [grid_cells[i:i + 2] for i in range(0, len(grid_cells), 2)]
-        page_blocks = [rows_of_2[i:i + 2] for i in range(0, len(rows_of_2), 2)]
-
-        for page_block in page_blocks:
-            page_table_data = []
-            for row in page_block:
-                # Pad to ensure 2 items
-                while len(row) < 2:
-                    row.append([Spacer(1, 1)])
-                page_table_data.append(row)
-
-            table = Table(
-                page_table_data,
-                colWidths=[175, 175],
-                rowHeights=None,
-                hAlign='CENTER'
-            )
-            table.setStyle(TableStyle([
-                ('VALIGN', (0, 0), (-1, -1), 'TOP'),
-                ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
-                ('LEFTPADDING', (0, 0), (-1, -1), 6),
-                ('RIGHTPADDING', (0, 0), (-1, -1), 6),
-                ('BOTTOMPADDING', (0, 0), (-1, -1), 14),
-                ('TOPPADDING', (0, 0), (-1, -1), 4),
-                ('GRID', (0, 0), (-1, -1), 0.5, colors.grey)
-            ]))
-
-            elements.append(Spacer(1, 12))
-            elements.append(table)
-
-        # ➕ Grid Gauntlet Answers Section (2x2 Grid Layout)
-        elements.append(PageBreak())
-        elements.append(TransparentBox("🧠 Grid Gauntlet Answers", styles['cat_title'], alpha=0.85))
-        elements.append(Spacer(1, 12))
-        elements.append(Spacer(1, 12))
-
-        gridgauntlet_cells = []
-
-        for category in categories:
-            bg_key = CATEGORY_BACKGROUNDS.get(category)
-            if not bg_key:
-                continue  # skip if no background key is mapped
-            answer_image_path = os.path.join(
-                "C:/Users/timmu/Documents/repos/Factbook Project/crossword",
-                f"{bg_key.lower()}_answers.png"
-            )
-
-            if not os.path.exists(answer_image_path):
-                logging.warning(f"❌ Missing Grid Gauntlet answer image: {answer_image_path}")
-                continue
-
-            try:
-                img_reader = ImageReader(answer_image_path)
-                original_width, original_height = img_reader.getSize()
-
-                max_cell_width = 160  # max width per image cell
-                aspect_ratio = original_height / original_width
-                new_height = max_cell_width * aspect_ratio
-
-                title_para = Paragraph(category, ParagraphStyle(
-                    "GridGauntletTitle",
-                    fontName="Baloo2-Bold",
-                    fontSize=12,
-                    leading=14,
-                    alignment=TA_CENTER,
-                    spaceAfter=4,
-                    textColor=colors.white  # ✅ white text for visibility
-                ))
-
-                image = RLImage(answer_image_path, width=max_cell_width, height=new_height)
-
-                cell_content = [title_para, Spacer(1, 4), image]
-                gridgauntlet_cells.append(cell_content)
-
-            except Exception as e:
-                logging.warning(f"❌ Could not load Grid Gauntlet answer image for {category}: {e}")
-                continue
-
-        # Group into 2×2 layout
-        rows_of_2 = [gridgauntlet_cells[i:i + 2] for i in range(0, len(gridgauntlet_cells), 2)]
-        page_blocks = [rows_of_2[i:i + 2] for i in range(0, len(rows_of_2), 2)]
-
-        for page_block in page_blocks:
-            table_data = []
-            for row in page_block:
-                while len(row) < 2:
-                    row.append([Spacer(1, 1)])
-                table_data.append(row)
-
-            table = Table(
-                table_data,
-                colWidths=[175, 175],
-                hAlign='CENTER'
-            )
-            table.setStyle(TableStyle([
-                ('VALIGN', (0, 0), (-1, -1), 'TOP'),
-                ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
-                ('LEFTPADDING', (0, 0), (-1, -1), 6),
-                ('RIGHTPADDING', (0, 0), (-1, -1), 6),
-                ('BOTTOMPADDING', (0, 0), (-1, -1), 14),
-                ('TOPPADDING', (0, 0), (-1, -1), 4),
-                ('GRID', (0, 0), (-1, -1), 0.5, colors.grey)
-            ]))
-
-            elements.append(Spacer(1, 12))
-            elements.append(table)
-
+        _answers_grid(
+            elements,
+            styles,
+            title_text="🧠 Grid Gauntlet Answers",
+            items=gg_items,
+            cell_width=175,
+            rows_per_page=2,
+            cols_per_page=2
+        )
 
 
 
@@ -1239,27 +1480,41 @@ def build_elements(facts, styles, date_str, category_pages=None):
     #     ))
     #     elements.append(Spacer(1, 12))
 
-    #     # 📸 Word search image
+    #     # 📸 Word search image (auto-scale to frame width, up to 480px tall)
     #     image_path = os.path.join(
     #         "C:/Users/timmu/Documents/repos/Factbook Project/wordsearch",
     #         f"{bg_key.lower()}.png"
     #     )
+
     #     if os.path.exists(image_path):
     #         try:
     #             img_reader = ImageReader(image_path)
     #             original_width, original_height = img_reader.getSize()
-    #             fixed_height = 280
-    #             aspect_ratio = original_width / original_height
-    #             new_width = fixed_height * aspect_ratio
+
+    #             # ---- content frame width (same as your Frame calc) ----
+    #             margin_in = 0.5
+    #             margin_pt = margin_in * inch
+    #             content_width = (PAGE_W - 2*BLEED_PT) - 2*margin_pt  # cap by margins
+
+    #             # ---- height cap ----
+    #             max_height = 380
+    #             max_width = float(content_width)
+
+    #             # ---- scale by the tighter of the two caps (keep ratio) ----
+    #             scale = min(max_width / original_width, max_height / original_height)
+    #             new_width = original_width * scale
+    #             new_height = original_height * scale
 
     #             elements.append(Spacer(1, 12))
-    #             elements.append(RLImage(image_path, width=new_width, height=fixed_height))
+    #             elements.append(RLImage(image_path, width=new_width, height=new_height))
     #             elements.append(Spacer(1, 12))
+
     #         except Exception as e:
     #             logging.warning(f"❌ Failed to load preview image for {category}: {e}")
     #             elements.append(Paragraph("Could not load word search image.", styles['story']))
     #     else:
     #         elements.append(Paragraph("Word search image not found.", styles['story']))
+
 
     #     # 🔠 Word list using a Table (NEW)
     #     words = all_words.get(bg_key.lower(), [])
@@ -1314,13 +1569,13 @@ def build_elements(facts, styles, date_str, category_pages=None):
     #     elements.append(PageBreak())
     #     elements.append(TransparentBox("Grid Gauntlet", styles['cat_title'], alpha=0.85))
     #     elements.append(TransparentBox(
-    #         "Tackle the clues and conquer the crossword — it’s brain-flexing time!",
+    #         "Test your brainpower with a tricky crossword challenge!",
     #         styles['trivia_questions'],
     #         alpha=0.85
     #     ))
-    #     elements.append(Spacer(1, 12))
+    #     elements.append(Spacer(1, 20))
 
-    #     # 📸 Crossword image
+    #     # 📸 Crossword image (auto-scale to frame width, up to 480px tall)
     #     crossword_path = os.path.join(
     #         "C:/Users/timmu/Documents/repos/Factbook Project/crossword",
     #         f"{bg_key.lower()}.png"
@@ -1329,14 +1584,23 @@ def build_elements(facts, styles, date_str, category_pages=None):
     #     if os.path.exists(crossword_path):
     #         try:
     #             img_reader = ImageReader(crossword_path)
-    #             original_width, original_height = img_reader.getSize()
-                
-    #             fixed_height = 180  # 👈 fixed height
-    #             aspect_ratio = original_width / original_height  # width / height
-    #             new_width = fixed_height * aspect_ratio
+    #             ow, oh = img_reader.getSize()
+
+    #             # Content-frame width (matches your Frame calc)
+    #             margin_in = 0.5
+    #             margin_pt = margin_in * inch
+    #             content_width = (PAGE_W - 2*BLEED_PT) - 2*margin_pt  # width cap by margins
+
+    #             # Height cap (same logic as word search previews)
+    #             max_height =300.0
+
+    #             # Scale by the tighter cap, keep aspect ratio
+    #             scale = min(float(content_width) / ow, max_height / oh)
+    #             new_w = ow * scale
+    #             new_h = oh * scale
 
     #             elements.append(Spacer(1, 12))
-    #             elements.append(RLImage(crossword_path, width=new_width, height=fixed_height))
+    #             elements.append(RLImage(crossword_path, width=new_w, height=new_h))
     #             elements.append(Spacer(1, 12))
     #         except Exception as e:
     #             logging.warning(f"❌ Failed to load preview crossword for {category}: {e}")
@@ -1385,6 +1649,62 @@ def build_elements(facts, styles, date_str, category_pages=None):
     #         ))
     #     else:
     #         elements.append(Paragraph("No crossword clues found for this category.", styles['story']))
+
+    # # === AFTER your "Grid Gauntlet Previews" section ===
+
+    # # ➕ Letter Quest Answers — ALL CATEGORIES (Preview)
+    # lq_answers_image_paths = []
+    # for category, bg_key in CATEGORY_BACKGROUNDS.items():
+    #     p = os.path.join(
+    #         "C:/Users/timmu/Documents/repos/Factbook Project/wordsearch",
+    #         f"{bg_key.lower()}_answers.png"
+    #     )
+    #     if os.path.exists(p):
+    #         lq_answers_image_paths.append((category, p))
+    #     else:
+    #         logging.warning(f"❌ Missing Letter Quest answers preview: {p}")
+
+    # if lq_answers_image_paths:
+    #     _answers_preview_grid(
+    #         elements,
+    #         "🧩 Letter Quest Answers — All Categories (Preview)",
+    #         styles,
+    #         lq_answers_image_paths,
+    #         cell_width=175,   # tune if you want larger/smaller
+    #         rows_per_page=2,
+    #         cols_per_page=2
+    #     )
+    # else:
+    #     elements.append(PageBreak())
+    #     elements.append(TransparentBox("Letter Quest answers previews not found.", styles['story'], alpha=0.85))
+
+    # # ➕ Grid Gauntlet Answers — ALL CATEGORIES (Preview)
+    # gg_answers_image_paths = []
+    # for category, bg_key in CATEGORY_BACKGROUNDS.items():
+    #     p = os.path.join(
+    #         "C:/Users/timmu/Documents/repos/Factbook Project/crossword",
+    #         f"{bg_key.lower()}_answers.png"
+    #     )
+    #     if os.path.exists(p):
+    #         gg_answers_image_paths.append((category, p))
+    #     else:
+    #         logging.warning(f"❌ Missing Grid Gauntlet answers preview: {p}")
+
+    # if gg_answers_image_paths:
+    #     _answers_preview_grid(
+    #         elements,
+    #         "🧠 Grid Gauntlet Answers — All Categories (Preview)",
+    #         styles,
+    #         gg_answers_image_paths,
+    #         cell_width=175,
+    #         rows_per_page=2,
+    #         cols_per_page=2
+    #     )
+    # else:
+    #     elements.append(PageBreak())
+    #     elements.append(TransparentBox("Grid Gauntlet answers previews not found.", styles['story'], alpha=0.85))
+
+
 
 
     return elements
@@ -1623,6 +1943,18 @@ def generate_pdf_with_manual_toc(json_file, output_pdf):
     with open(json_file, "r", encoding="utf-8") as f:
         facts = json.load(f)
 
+        # Quick sanity check for categories
+        for rec in facts:
+            raw = rec.get("categories")
+            # log the first weird shape we see
+            if raw is not None and not (
+                isinstance(raw, list) and all(isinstance(x, (str, dict)) for x in raw)
+                or isinstance(raw, (str, dict))
+            ):
+                logging.warning(f"⚠️ Odd categories shape in id={rec.get('id')}: {raw}")
+                break
+
+
     # Font registration
     pdfmetrics.registerFont(TTFont("DejaVu", os.path.join("fonts", "DejaVuSans.ttf")))
     pdfmetrics.registerFont(TTFont("DejaVu-Bold", os.path.join("fonts", "DejaVuSans-Bold.ttf")))
@@ -1650,19 +1982,19 @@ def generate_pdf_with_manual_toc(json_file, output_pdf):
         ),
         'intro_header': ParagraphStyle(
             "IntroHeader", fontName="LuckiestGuy", fontSize=20, leading=22,
-            alignment=TA_LEFT, spaceAfter=8
+            alignment=TA_LEFT, spaceAfter=0
         ),
         'intro': ParagraphStyle(
             "Intro", fontName="Baloo2", fontSize=12.5, leading=15,
-            spaceAfter=12
+            spaceAfter=0
         ),
         'toc_title': ParagraphStyle(
             "TOCTitle", fontName="LuckiestGuy", fontSize=20, leading=24,
-            spaceAfter=16, alignment=TA_CENTER
+            spaceAfter=0, alignment=TA_CENTER
         ),
         'toc_item': ParagraphStyle(
             "TOCItem", fontName="Baloo2", fontSize=11.5, leading=14,
-            spaceAfter=2, alignment=TA_LEFT
+            spaceAfter=0, alignment=TA_LEFT
         ),
         'category': ParagraphStyle(
             "CategoryTitle", fontName="Baloo2", fontSize=0.1, leading=1,
@@ -1670,18 +2002,18 @@ def generate_pdf_with_manual_toc(json_file, output_pdf):
         ),
         'cat_title': ParagraphStyle(
             "CatTitle", fontName="LuckiestGuy", fontSize=20, leading=24,
-            spaceAfter=0, spaceBefore=10
+            spaceAfter=0, spaceBefore=0
         ),
         'title': ParagraphStyle(
-            "FactTitle", fontName="Baloo2-Bold", fontSize=14, leading=16,
-            spaceAfter=4
+            "FactTitle", fontName="Baloo2-Bold", fontSize=14, leading=25,
+            spaceAfter=0
         ),
         'story': ParagraphStyle(
-            "FactStory", fontName="Baloo2", fontSize=11.5, leading=14,
-            spaceAfter=12, spaceBefore=0
+            "FactStory", fontName="Baloo2", fontSize=11.5, leading=18,
+            spaceAfter=0, spaceBefore=0
         ),
         'wordsearch': ParagraphStyle(
-            "Wordsearch", fontName="Baloo2", fontSize=10, leading=12,
+            "Wordsearch", fontName="Baloo2", fontSize=8, leading=12,
             spaceAfter=2, spaceBefore=0
         ),
         'crossword_layout': ParagraphStyle(
@@ -1698,11 +2030,11 @@ def generate_pdf_with_manual_toc(json_file, output_pdf):
         ),
         'trivia_questions': ParagraphStyle(
             "TriviaQuestions", fontName="Baloo2", fontSize=12, leading=14,
-            spaceAfter=6, spaceBefore=0
+            spaceAfter=0, spaceBefore=0
         ),
         'trivia_answers': ParagraphStyle(
             "TriviaAnswers", fontName="Baloo2", fontSize=10, leading=12,
-            spaceAfter=2, spaceBefore=0, leftIndent=10, rightIndent=10  
+            spaceAfter=0, spaceBefore=0, leftIndent=10, rightIndent=10  
         )
     }
 
@@ -2008,22 +2340,64 @@ def get_unique_filename(directory, base_name):
     return candidate
 
 if __name__ == "__main__":
-    base_dir = os.getcwd()
-    facts_dir = "C:/Users/timmu/Documents/repos/Factbook Project/facts/new fact grabber/6_final"
-    books_dir = os.path.join(base_dir, "books")
-    os.makedirs(books_dir, exist_ok=True)
+    import sys
+    import re
 
-    for filename in os.listdir(facts_dir):
-        if filename.endswith(".json"):
-            json_path = os.path.join(facts_dir, filename)
-            base_name = os.path.splitext(filename)[0]
-            safe_pdf_path = get_unique_filename(books_dir, f"{base_name}.pdf")
+    FACTS_DIR = r"C:\Users\timmu\Documents\repos\Factbook Project\facts\new fact grabber\6_final"
+    FINAL_ROOT = r"C:\Users\timmu\Documents\repos\Factbook Project\FINAL"
 
-            generate_pdf_with_manual_toc(json_path, safe_pdf_path)
+    # Build an index: number -> (filename, "Month_Day")
+    pattern = re.compile(
+        r'^(?P<num>\d+)_((?P<month>[A-Za-z]+)_(?P<day>\d{1,2}))_Final\.json$',
+        re.IGNORECASE
+    )
+    index = {}
 
-            # ✅ Correct usage here — safe_pdf_path is defined now
-            overlay_trivia_pages(safe_pdf_path, os.path.join("backgrounds", "trivia_time.png"))
-            # visually_fill_transparent_gaps(r"C:\Users\timmu\Documents\repos\Factbook Project\books\fresh_test.pdf", alpha=0.85)
+    try:
+        for fname in os.listdir(FACTS_DIR):
+            if not fname.lower().endswith(".json"):
+                continue
+            m = pattern.match(fname)
+            if m:
+                num = int(m.group("num"))
+                month_day = f"{m.group('month')}_{m.group('day')}"
+                index[num] = (fname, month_day)
+    except FileNotFoundError:
+        print(f"❌ Facts directory not found: {FACTS_DIR}")
+        sys.exit(1)
 
+    if not index:
+        print("❌ No *_Final.json files found in the facts directory.")
+        sys.exit(1)
 
+    # Ask for the number
+    user_in = input("Type the book number (e.g., 89): ").strip()
+    if not user_in.isdigit():
+        print("❌ Please enter a valid number, e.g., 89")
+        sys.exit(1)
 
+    pick = int(user_in)
+    if pick not in index:
+        # Small hint with the nearest numbers to reduce hunting
+        nearest = sorted(index.keys())
+        hint = ", ".join(str(n) for n in nearest[:10]) + (" ..." if len(nearest) > 10 else "")
+        print(f"❌ {pick} not found. Known numbers start like: {hint}")
+        sys.exit(1)
+
+    chosen_file, month_day = index[pick]
+    json_path = os.path.join(FACTS_DIR, chosen_file)
+
+    # Output folder: FINAL\<num>_<Month>_<Day>\build_docs\1.pdf
+    out_folder = os.path.join(FINAL_ROOT, f"{pick}_{month_day}", "build_docs")
+    os.makedirs(out_folder, exist_ok=True)
+    output_pdf = os.path.join(out_folder, "1.pdf")
+
+    print(f"📄 Building from: {json_path}")
+    print(f"📦 Output to:    {output_pdf}")
+
+    generate_pdf_with_manual_toc(json_path, output_pdf)
+
+    # Overlay trivia backgrounds as you were doing
+    overlay_trivia_pages(output_pdf, os.path.join("backgrounds", "trivia_time.png"))
+
+    print("✅ Done.")
