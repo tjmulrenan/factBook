@@ -1,0 +1,1262 @@
+[
+  {
+    "id": "901",
+    "title": "Families Around the World Unite!",
+    "story": "Every May 15, families everywhere celebrate the International Day of Families! This special day brings attention to how important families are in every culture around the world. People share photos of their loved ones on social media, have big family dinners, and spend extra time together. Some communities organize fun family events like picnics, games, and storytelling sessions where grandparents share old tales with younger generations.",
+    "activity_question": "What do people commonly share on social media during International Day of Families?",
+    "activity_choices": [
+      "Photos of their loved ones",
+      "Pictures of their breakfast",
+      "Videos of dancing cats",
+      "Screenshots of video games"
+    ],
+    "activity_answer": "Photos of their loved ones",
+    "follow_up_question": "What makes your family special and unique?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "902",
+    "title": "Chips Ahoy! It's Chocolate Chip Day!",
+    "story": "Every May 15, chocolate chip lovers across America celebrate National Chocolate Chip Day by baking, buying, and devouring their favorite treats! People share photos of homemade chocolate chip cookies on social media, bakeries offer special deals, and families gather in kitchens to make fresh batches together. Some folks get creative by adding chocolate chips to pancakes, muffins, or even pizza! The tiny morsels that accidentally became famous when Ruth Wakefield chopped up a chocolate bar for her cookies in 1938 now have their very own holiday. It's the perfect excuse to indulge in America's favorite cookie ingredient!",
+    "activity_question": "What do people often add chocolate chips to besides cookies on this holiday?",
+    "activity_choices": [
+      "Pancakes and muffins",
+      "Ice cream and soup",
+      "Salad and sandwiches",
+      "Toothpaste and shampoo"
+    ],
+    "activity_answer": "Pancakes and muffins",
+    "bonus_fact": "Ruth Wakefield's chocolate chip invention happened completely by accident!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "903",
+    "title": "Top Off Your Day with Style!",
+    "story": "Every May 15, people celebrate Straw Hat Day by dusting off their favorite summer headwear! This fun holiday marks the perfect time to break out those breezy, woven hats that keep you cool and stylish. People wear straw hats to work, school, or just around town, showing off everything from classic sun hats to funky fedoras. Social media fills up with hat selfies and outfit posts featuring these timeless accessories.",
+    "activity_question": "What do people mainly do to celebrate Straw Hat Day?",
+    "activity_choices": [
+      "Wear their favorite straw hats",
+      "Make hats out of actual straw from farms",
+      "Drink smoothies through straw hats",
+      "Give away free hats at stores"
+    ],
+    "activity_answer": "Wear their favorite straw hats",
+    "follow_up_question": "What's the most creative straw hat design you can imagine?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "62",
+    "title": "Mickey Mouse's Silent Film Debut",
+    "story": "Squeak! A tiny mouse with big ears scampered onto movie screens for the first time. On May 15, 1928, Mickey Mouse made his debut in a silent film called 'Plane Crazy'. This playful cartoon showed Mickey trying to fly like his hero, Charles Lindbergh. Though it wasn't an instant hit, it marked the birth of one of the world's most beloved cartoon characters. Mickey's cheerful spirit and daring adventures would soon capture hearts around the globe.",
+    "activity_question": "What was the name of Mickey Mouse's first film?",
+    "activity_choices": [
+      "Plane Crazy",
+      "Steamboat Willie",
+      "The Gallopin' Gaucho",
+      "Mouse Mania"
+    ],
+    "activity_answer": "Plane Crazy",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Mickey Mouse was originally named Mortimer, but Walt Disney's wife suggested Mickey instead.",
+    "score": 92,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "75",
+    "title": "The Birth of a Fast Food Giant",
+    "story": "Burgers and fries were about to change forever! In 1940, brothers Richard and Maurice McDonald fired up the grill at their new restaurant in San Bernardino, California. Little did they know, their small eatery would grow into the world-famous McDonald's chain. On May 15, they served their first customers, launching a fast food revolution that would spread across the globe.",
+    "activity_question": "Where did the McDonald brothers open their first restaurant?",
+    "activity_choices": [
+      "San Bernardino, California",
+      "Chicago, Illinois",
+      "New York City, New York",
+      "Hamburger Town, USA"
+    ],
+    "activity_answer": "San Bernardino, California",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name the two brothers who started McDonald's?",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "99",
+    "title": "Blast Off: Building the Soviet Space Hub",
+    "story": "Rockets roared to life as the Soviet Union launched its space dreams. On May 15, 1955, construction began on the Baikonur Cosmodrome in Kazakhstan. This massive space center would become the heart of Soviet space exploration. From its launch pads, cosmonauts would soar into orbit and spacecraft would journey to the stars. Baikonur played a crucial role in the Space Race, helping push the boundaries of human achievement beyond Earth's atmosphere.",
+    "activity_question": "Where was the Soviet space travel center built?",
+    "activity_choices": [
+      "Kazakhstan",
+      "Russia",
+      "Ukraine",
+      "Siberia"
+    ],
+    "activity_answer": "Kazakhstan",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "Baikonur is still used today for space missions.",
+    "optional_type": "bonus_fact",
+    "score": 90,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "104",
+    "title": "Sputnik III: A Space Race Milestone",
+    "story": "Beep, beep! A new sound echoed from space in 1958. The Soviet Union had just launched Sputnik III, a cone-shaped satellite packed with scientific instruments. This metal explorer, bigger than its predecessors, orbited Earth to study our planet's atmosphere and magnetic field. On May 15, it soared into the sky, marking another leap forward in the exciting Space Race between the USSR and the United States.",
+    "activity_question": "What was the shape of Sputnik III?",
+    "activity_choices": [
+      "Cone-shaped",
+      "Sphere-shaped",
+      "Cube-shaped",
+      "Donut-shaped"
+    ],
+    "activity_answer": "Cone-shaped",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What was the main purpose of Sputnik III's mission?",
+    "score": 90,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "115",
+    "title": "Astronaut Cooper's Cosmic Journey",
+    "story": "Blast off! On May 15, 1963, astronaut Gordon Cooper soared into space aboard Faith 7. This exciting mission marked the final flight of Project Mercury, America's first human spaceflight program. Cooper orbited Earth, conducting experiments and capturing breathtaking views of our planet from high above.",
+    "activity_question": "What was the name of Gordon Cooper's spacecraft?",
+    "activity_choices": [
+      "Faith 7",
+      "Mercury 7",
+      "Apollo 7",
+      "Cosmic Cruiser"
+    ],
+    "activity_answer": "Faith 7",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "Cooper's flight lasted over 34 hours, setting a new record for the longest American space mission at that time.",
+    "optional_type": "bonus_fact",
+    "score": 75,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "78",
+    "title": "Jet Power Takes Flight!",
+    "story": "Zoom! On May 15, 1941, a strange new aircraft roared to life. English engineer Frank Whittle had created something revolutionary: the turbojet engine. His invention powered the Gloster E.28/39 plane as it soared into the sky at RAF Cranwell. This successful test flight marked the birth of jet-powered aviation, changing the future of air travel forever.",
+    "activity_question": "What did Frank Whittle invent that powered the Gloster E.28/39?",
+    "activity_choices": [
+      "The turbojet engine",
+      "A rocket booster",
+      "A propeller system",
+      "A flying saucer"
+    ],
+    "activity_answer": "The turbojet engine",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think jet engines changed air travel compared to older planes?",
+    "score": 78,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "15",
+    "title": "The Daring Glider Flight of Diego Marín",
+    "story": "Soaring through the air, Diego Marín Aguilera made history on May 15, 1793. This brave inventor from Spain flew a glider he built himself. He glided for about 360 meters, staying 5-6 meters above the ground. It was one of the first attempts at human flight, long before airplanes were invented!",
+    "activity_question": "What did Diego Marín Aguilera fly?",
+    "activity_choices": [
+      "A glider",
+      "A hot air balloon",
+      "A kite",
+      "A paper airplane"
+    ],
+    "activity_answer": "A glider",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How high above the ground did Diego fly his glider?",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "96",
+    "title": "Cooking Up Life in a Lab",
+    "story": "Zap! In 1953, scientists Stanley Miller and Harold Urey cooked up a storm in their lab. They mixed gases and water, then added electricity to mimic Earth's early conditions. On May 15, they published their groundbreaking 'primordial soup' experiment in Science magazine. This chemical recipe showed how the basic building blocks of life might have formed on our young planet.",
+    "activity_question": "What did the scientists add to their mixture to mimic Earth's early conditions?",
+    "activity_choices": [
+      "Electricity",
+      "Salt",
+      "Sunlight",
+      "Ice"
+    ],
+    "activity_answer": "Electricity",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think scientists call it 'primordial soup'?",
+    "optional_type": "follow_up_question",
+    "score": 88,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "156",
+    "title": "Kepler's Cosmic Dance Discovery",
+    "story": "Stargazer alert! In 1618, German astronomer Johannes Kepler made a stellar breakthrough. After years of studying the night sky, he uncovered the third of his famous planetary laws on May 15. This 'harmonic law' revealed a cosmic dance between planets and their orbits. Kepler's discovery helped explain how celestial bodies move, paving the way for future space exploration.",
+    "activity_question": "What did Johannes Kepler discover?",
+    "activity_choices": [
+      "The third of his planetary laws",
+      "A new planet",
+      "A comet's tail",
+      "The rings of Saturn"
+    ],
+    "activity_answer": "The third of his planetary laws",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name one way Kepler's discoveries help us today?",
+    "optional_type": "follow_up_question",
+    "score": 90,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "100",
+    "title": "Conquering the Mighty Makalu",
+    "story": "Towering ice and rock pierced the sky as brave climbers reached a new height. On May 15, 1955, a French team became the first to conquer Makalu, the world's fifth-highest mountain. This giant of the Himalayas, straddling the border of China and Nepal, had long challenged explorers. The successful ascent marked a thrilling milestone in mountaineering history, inspiring future adventurers to dream big and climb high.",
+    "activity_question": "Where is Makalu located?",
+    "activity_choices": [
+      "On the China-Nepal border",
+      "In France",
+      "In the Alps",
+      "On the moon"
+    ],
+    "activity_answer": "On the China-Nepal border",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think climbing such high mountains is challenging?",
+    "score": 95,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "179",
+    "title": "Flying High: Amy Johnson's Swift Journey",
+    "story": "Soaring through the skies, Amy Johnson touched down in Croydon, England on May 15, 1936. The daring aviator had just completed an incredible flight from South Africa in a mere four days and sixteen hours. This speedy journey set a new record, showcasing Johnson's skill and determination. Her arrival thrilled onlookers and proved that women could achieve great feats in the world of aviation.",
+    "activity_question": "Where did Amy Johnson land after her record-breaking flight?",
+    "activity_choices": [
+      "Croydon, England",
+      "South Africa",
+      "London, England",
+      "Paris, France"
+    ],
+    "activity_answer": "Croydon, England",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What qualities do you think a pilot like Amy Johnson needed to succeed?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "231",
+    "title": "Star-Gazing Scot Spots Cosmic Horse",
+    "story": "Williamina Fleming had her eyes on the stars! Born in Scotland in 1857, she became a trailblazing astronomer. On May 15, 1888, Fleming made an incredible discovery - the Horsehead Nebula. This cosmic cloud of gas and dust looks just like a horse's head floating in space. Fleming's sharp eyes and brilliant mind helped unlock secrets of the night sky, inspiring future stargazers to dream big.",
+    "activity_question": "What did Williamina Fleming discover?",
+    "activity_choices": [
+      "The Horsehead Nebula",
+      "A new planet",
+      "A comet",
+      "An alien spaceship"
+    ],
+    "activity_answer": "The Horsehead Nebula",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think the Horsehead Nebula got its name?",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "262",
+    "title": "Unraveling Ancient Mysteries in the Desert",
+    "story": "Maria Reiche, born in Dresden, Germany in 1903, would grow up to become a legendary explorer of Peru's Nazca lines. These massive ancient drawings, only visible from the sky, fascinated her. Reiche dedicated her life to studying and protecting these mysterious desert etchings. Her work on May 15 and every day helped the world understand this incredible piece of human history.",
+    "activity_question": "What ancient mystery did Maria Reiche study?",
+    "activity_choices": [
+      "Nazca lines",
+      "Egyptian pyramids",
+      "Stonehenge",
+      "Easter Island statues"
+    ],
+    "activity_answer": "Nazca lines",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think the Nazca lines can only be seen from above?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "232",
+    "title": "A Brilliant Mind Enters the World",
+    "story": "Imagine a baby born in Paris who would grow up to change science forever. That's exactly what happened when Pierre Curie arrived on May 15, 1859. This future physicist would team up with his wife Marie to make groundbreaking discoveries. Their work was so important, they both won the Nobel Prize in 1903!",
+    "activity_question": "What prize did Pierre Curie win with his wife Marie?",
+    "activity_choices": [
+      "The Nobel Prize",
+      "The Paris Science Award",
+      "The French Physics Medal",
+      "The Eiffel Tower Trophy"
+    ],
+    "activity_answer": "The Nobel Prize",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What field of science do you think the Curies studied to win their Nobel Prize?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "19",
+    "title": "Shining Beads in the Sky",
+    "story": "Imagine looking up at the sun and seeing a ring of shimmering beads! That's what Francis Baily saw on May 15, 1836. During a special type of solar eclipse, he noticed bright spots of sunlight peeking around the moon's edge. These glowing dots looked like a string of pearls circling the dark moon. Scientists now call this amazing sight 'Baily's Beads' in his honor.",
+    "activity_question": "What did Francis Baily observe during the solar eclipse?",
+    "activity_choices": [
+      "Baily's Beads",
+      "A ring of fire",
+      "A total blackout",
+      "Dancing stars"
+    ],
+    "activity_answer": "Baily's Beads",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think the bright spots of sunlight looked like beads?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "366",
+    "title": "Musical Genius Behind Tubular Bells",
+    "story": "A musical prodigy entered the world in Reading, Berkshire. Mike Oldfield, born in 1953, would grow up to become a brilliant composer. His most famous work, Tubular Bells, revolutionized instrumental music. This groundbreaking album features Oldfield playing nearly every instrument himself. May 15 marks the birthday of this talented British musician who changed the sound of rock forever.",
+    "activity_question": "What is Mike Oldfield's most famous work?",
+    "activity_choices": [
+      "Tubular Bells",
+      "Guitar Symphony",
+      "Reading Rhapsody",
+      "Berkshire Beats"
+    ],
+    "activity_answer": "Tubular Bells",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Oldfield was just 19 years old when he recorded Tubular Bells.",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "360",
+    "title": "A Nobel Mind Is Born",
+    "story": "Genius sparked in Mineola, New York on May 15, 1951. Frank Wilczek, a future physics superstar, entered the world. His brilliant mind would one day unlock secrets of the universe, earning him the prestigious Nobel Prize in 2004. Wilczek's groundbreaking work changed how we understand the tiniest building blocks of matter.",
+    "activity_question": "What prestigious award did Frank Wilczek win in 2004?",
+    "activity_choices": [
+      "The Nobel Prize",
+      "The Pulitzer Prize",
+      "The Fields Medal",
+      "The Oscar"
+    ],
+    "activity_answer": "The Nobel Prize",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What field of science did Frank Wilczek study?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "167",
+    "title": "Brave Women Fight for Voting Rights",
+    "story": "Two courageous women, Susan B. Anthony and Elizabeth Cady Stanton, took a bold step in 1869. They formed the National Woman Suffrage Association in New York on May 15. This group had a big goal: to win the right for women to vote. At the time, only men could have a say in elections. These determined ladies started a movement that would change history.",
+    "activity_question": "What was the goal of the National Woman Suffrage Association?",
+    "activity_choices": [
+      "To win the right for women to vote",
+      "To start a new political party",
+      "To open more schools for girls",
+      "To elect a woman president"
+    ],
+    "activity_answer": "To win the right for women to vote",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it was important for women to have the right to vote?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "199",
+    "title": "Pioneers Blaze a Trail to California",
+    "story": "Brave pioneers set out on an epic journey in 1841. On May 15, the first emigrant wagon train bound for California left Independence, Missouri. These adventurous settlers faced a grueling 1,730-mile trek across rugged terrain. Their path would take them over the towering Sierra Nevada mountains. This daring expedition opened up new frontiers and sparked a wave of westward expansion.",
+    "activity_question": "What was the starting point of the wagon train's journey?",
+    "activity_choices": [
+      "Independence, Missouri",
+      "California",
+      "Sierra Nevada",
+      "The Rocky Mountains"
+    ],
+    "activity_answer": "Independence, Missouri",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think people were willing to make such a long and difficult journey?",
+    "score": 82,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "149",
+    "title": "Archers Hit the Bullseye for 24 Hours",
+    "story": "Arrows flew through the air as two determined archers took aim at an incredible goal. On May 15, 1987, a pair of skilled bowmen set out to achieve something extraordinary. For a full day and night, they drew their bows again and again, hitting targets with remarkable precision. Their dedication and accuracy paid off, resulting in a new record archery score for a team over 24 hours.",
+    "activity_question": "What did the pair of archers set in 1987?",
+    "activity_choices": [
+      "A new record archery score",
+      "A target distance record",
+      "The longest time holding a bow",
+      "The most arrows shot in an hour"
+    ],
+    "activity_answer": "A new record archery score",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What skills do you think are important for archery?",
+    "optional_type": "follow_up_question",
+    "score": 88,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "383",
+    "title": "Pitching Legend John Smoltz Enters the World",
+    "story": "Baseball fans, get ready to cheer! John Smoltz, a future pitching superstar, was born in Warren, Michigan in 1967. On May 15, this tiny bundle of joy had no idea he'd grow up to become an eight-time All-Star and help the Atlanta Braves win the World Series. Smoltz's amazing skills on the mound would even earn him a spot in the Baseball Hall of Fame!",
+    "activity_question": "What team did John Smoltz help win the World Series?",
+    "activity_choices": [
+      "Atlanta Braves",
+      "New York Yankees",
+      "Boston Red Sox",
+      "Los Angeles Dodgers"
+    ],
+    "activity_answer": "Atlanta Braves",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another famous baseball player born in Michigan?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "64",
+    "title": "Trailblazing Woman Takes to the Skies",
+    "story": "Ellen Church soared into history in 1930. This brave nurse became the world's first female airline stewardess on May 15. She flew with United Airlines from San Francisco to Cheyenne, Wyoming. Church's groundbreaking flight opened the cabin door for women in aviation. Her courage and skill proved that the sky was no longer the limit for female careers.",
+    "activity_question": "What was Ellen Church's job before becoming a stewardess?",
+    "activity_choices": [
+      "Nurse",
+      "Pilot",
+      "Teacher",
+      "Chef"
+    ],
+    "activity_answer": "Nurse",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it was important for women to work as airline stewardesses?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "70",
+    "title": "Underground Marvel: Moscow's Metro Debuts",
+    "story": "Beneath the bustling streets of Moscow, a new world opened up in 1935. On May 15, the city's metro system welcomed its first passengers. This underground marvel stretched for about 11 kilometers and boasted 13 beautifully designed stations. Muscovites marveled at the gleaming trains and ornate platforms, marking the start of a transportation revolution in the Soviet capital.",
+    "activity_question": "How many stations did the Moscow Metro have when it first opened?",
+    "activity_choices": [
+      "13",
+      "11",
+      "6",
+      "20"
+    ],
+    "activity_answer": "13",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "Some Moscow Metro stations are so deep, they doubled as bomb shelters during World War II.",
+    "optional_type": "bonus_fact",
+    "score": 70,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "38",
+    "title": "Desert Oasis: Las Vegas Begins",
+    "story": "A dusty patch of desert transformed into a glittering city! Las Vegas sprang to life in 1905, when 110 acres of land were auctioned off in the Nevada desert. On May 15, the first lots were sold, marking the official founding of this future entertainment capital. From humble beginnings, Las Vegas would grow into a world-famous destination for lights, excitement, and fun.",
+    "activity_question": "What was auctioned off to found Las Vegas?",
+    "activity_choices": [
+      "110 acres of land",
+      "A gold mine",
+      "A casino",
+      "A railroad"
+    ],
+    "activity_answer": "110 acres of land",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Las Vegas means 'The Meadows' in Spanish, named for springs that once created green areas in the desert.",
+    "score": 65,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "110",
+    "title": "Sputnik 4: The Space Capsule That Got Lost",
+    "story": "Zoom! On May 15, 1960, Sputnik 4 blasted off into space. This Soviet spacecraft was meant to test if humans could survive in orbit. But oops! When it was time to come home, Sputnik 4 got confused. Instead of landing safely, it zoomed higher into space. The capsule eventually fell back to Earth, but in the wrong place. Talk about a cosmic mix-up!",
+    "activity_question": "What was Sputnik 4 supposed to test?",
+    "activity_choices": [
+      "If humans could survive in orbit",
+      "How fast rockets could go",
+      "If aliens existed",
+      "The temperature of the moon"
+    ],
+    "activity_answer": "If humans could survive in orbit",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it's important to test spacecraft before sending people into space?",
+    "score": 70,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "148",
+    "title": "Soviet Space Giant Takes Flight",
+    "story": "The sky rumbled as the massive Energiya rocket roared to life. On May 15, 1987, the Soviet Union launched this powerful new spacecraft for the first time. Energiya was a giant among rockets, designed to carry heavy loads into orbit. This successful test flight marked a big step forward in the space race, showing the world what Soviet engineers could achieve.",
+    "activity_question": "What was the name of the powerful new spacecraft launched by the Soviet Union?",
+    "activity_choices": [
+      "Energiya",
+      "Sputnik",
+      "Vostok",
+      "Soyuz"
+    ],
+    "activity_answer": "Energiya",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Energiya was so strong it could lift over 100 tons into space – as heavy as a blue whale!",
+    "score": 70,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "37",
+    "title": "Steam-Powered Dreams Take Flight",
+    "story": "Lyman Gilmore had big dreams of flying. On May 15, 1902, he claimed to soar into history as the first person to pilot a powered aircraft. His unusual invention? A steam-powered airplane! Instead of a regular engine, Gilmore's craft lugged a hefty boiler and used coal for fuel. While some doubt his story, Gilmore's creative spirit reminds us to reach for the sky.",
+    "activity_question": "What unusual power source did Lyman Gilmore use for his airplane?",
+    "activity_choices": [
+      "Steam",
+      "Electricity",
+      "Gasoline",
+      "Wind"
+    ],
+    "activity_answer": "Steam",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why might a steam-powered airplane be challenging to fly?",
+    "score": 65,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "77",
+    "title": "Zooming into the Jet Age",
+    "story": "Whoosh! A strange new aircraft roared to life in 1941. On May 15, Britain's first turbojet plane took flight, marking a huge leap in aviation. This speedy machine, powered by jet engines instead of propellers, soared through the skies. It was like something out of a science fiction story, but it was real!",
+    "activity_question": "What type of aircraft flew for the first time in this story?",
+    "activity_choices": [
+      "Britain's first turbojet plane",
+      "A propeller-powered plane",
+      "A hot air balloon",
+      "A flying saucer"
+    ],
+    "activity_answer": "Britain's first turbojet plane",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "Jet engines work by pushing out hot gases at high speed, creating thrust.",
+    "optional_type": "bonus_fact",
+    "score": 68,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "123",
+    "title": "Twister Tears Through Town",
+    "story": "A powerful tornado ripped through Jonesboro, Arkansas in 1968. The fierce funnel cloud struck late at night on May 15, catching many residents off guard. Despite the destruction, the community pulled together to help those affected. This event led to improved tornado warning systems, making towns safer during future storms.",
+    "activity_question": "What type of natural disaster hit Jonesboro, Arkansas?",
+    "activity_choices": [
+      "Tornado",
+      "Earthquake",
+      "Flood",
+      "Hurricane"
+    ],
+    "activity_answer": "Tornado",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How did this event help improve safety for future storms?",
+    "score": 72,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "310",
+    "title": "Jasper Johns: Painting Outside the Lines",
+    "story": "Brushes ready! On May 15, 1930, a creative spark ignited as Jasper Johns was born in Augusta, Georgia. This American artist would grow up to revolutionize the art world with his unique abstract paintings and sculptures. Johns became famous for transforming everyday objects into thought-provoking masterpieces. His works like 'Green Target' and 'Flag' challenged viewers to see familiar things in fresh, exciting ways.",
+    "activity_question": "What type of artist was Jasper Johns?",
+    "activity_choices": [
+      "Abstract painter and sculptor",
+      "Landscape photographer",
+      "Portrait artist",
+      "Comic book illustrator"
+    ],
+    "activity_answer": "Abstract painter and sculptor",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you think of an everyday object that might inspire an interesting abstract painting?",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "354",
+    "title": "The Birth of a Musical Mastermind",
+    "story": "Imagine a world without some of your favorite songs! Brian Eno, a musical genius, was born in 1948 on May 15. This British artist became a rock star, created dreamy ambient music, and helped make hit albums for famous bands like U2 and Coldplay. Eno's talent shaped the sound of music for decades!",
+    "activity_question": "What type of music did Brian Eno create besides rock?",
+    "activity_choices": [
+      "Country",
+      "Jazz",
+      "Ambient",
+      "Classical"
+    ],
+    "activity_answer": "Ambient",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name a famous band Brian Eno worked with?",
+    "optional_type": "follow_up_question",
+    "score": 60,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "384",
+    "title": "A Storyteller's Birth",
+    "story": "Laura Hillenbrand's pen brought history to life. Born in Fairfax, Virginia on May 15, 1967, she grew up to become a celebrated American author. Her books, like 'Seabiscuit' and 'Unbroken,' captivate readers with tales of real-life heroes overcoming incredible odds. Hillenbrand's vivid storytelling turns forgotten moments into unforgettable adventures.",
+    "activity_question": "What are two books written by Laura Hillenbrand?",
+    "activity_choices": [
+      "Seabiscuit and Unbroken",
+      "Harry Potter and The Hunger Games",
+      "Charlotte's Web and Stuart Little",
+      "The Cat in the Hat and Green Eggs and Ham"
+    ],
+    "activity_answer": "Seabiscuit and Unbroken",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What themes do you think Laura Hillenbrand explores in her books?",
+    "optional_type": "follow_up_question",
+    "score": 60,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "323",
+    "title": "The Wild Artist Behind Gonzo Journalism",
+    "story": "Ralph Steadman's pen brought chaos to life! Born in 1936 on May 15 in Wallasey, England, this British illustrator became famous for his wild, splattered drawings. Steadman's unique style perfectly matched the crazy world of writer Hunter S. Thompson's books. He also created eye-catching album cover art that made music jump off the shelves!",
+    "activity_question": "What type of art did Ralph Steadman become famous for?",
+    "activity_choices": [
+      "Wild, splattered drawings",
+      "Realistic oil paintings",
+      "Delicate watercolors",
+      "Clay sculptures"
+    ],
+    "activity_answer": "Wild, splattered drawings",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Steadman's illustrations often feature ink splatters he creates by blowing through a straw!",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "325",
+    "title": "Wavy Gravy: Clown with a Cause",
+    "story": "Hugh Romney Jr., better known as Wavy Gravy, burst into the world on May 15, 1936. This colorful character would grow up to become a famous clown and peace activist. Born in East Greenbush, New York, Wavy Gravy used his silly antics and big heart to spread joy and fight for important causes. His unique name and rainbow personality made him stand out in a crowd!",
+    "activity_question": "What is Wavy Gravy's real name?",
+    "activity_choices": [
+      "Hugh Romney Jr.",
+      "Rainbow Clown",
+      "East Greenbush",
+      "Peace Activist"
+    ],
+    "activity_answer": "Hugh Romney Jr.",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think someone might choose to become a clown activist?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "143",
+    "title": "Beatles Reunite to Honor John Lennon",
+    "story": "A musical tribute brought former Beatles together in 1981. George Harrison released 'All Those Years Ago,' a heartfelt song honoring his late bandmate John Lennon. The track featured Ringo Starr on drums and Paul and Linda McCartney singing backup. This May 15 release marked a rare collaboration for the legendary group after their breakup.",
+    "activity_question": "Who was the song 'All Those Years Ago' honoring?",
+    "activity_choices": [
+      "John Lennon",
+      "Paul McCartney",
+      "Ringo Starr",
+      "Linda McCartney"
+    ],
+    "activity_answer": "John Lennon",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Which former Beatles members participated in this tribute song?",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "195",
+    "title": "Globetrotters Bounce onto Gilligan's Island",
+    "story": "Basketball magic met shipwreck silliness in 1981! The Harlem Globetrotters, famous for their amazing tricks, visited Gilligan and friends in a special TV movie. On May 15, viewers watched as the talented team brought their hoop skills to the castaways' tropical paradise. It was a wacky adventure full of laughs and jaw-dropping basketball moves.",
+    "activity_question": "What famous basketball team appeared in this TV movie?",
+    "activity_choices": [
+      "The Harlem Globetrotters",
+      "The Los Angeles Lakers",
+      "The Chicago Bulls",
+      "The Coconut Dribblers"
+    ],
+    "activity_answer": "The Harlem Globetrotters",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Have you ever seen the Harlem Globetrotters perform their amazing basketball tricks?",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "177",
+    "title": "Lights, Camera, Hotel!",
+    "story": "Imagine a hotel fit for movie stars! In 1927, the Roosevelt Hotel opened its doors in Hollywood. Famous actors Douglas Fairbanks and Mary Pickford, along with theater owner Sid Grauman, helped create this glamorous spot. Little did they know on May 15 that their hotel would later host the very first Academy Awards ceremony!",
+    "activity_question": "Who helped open the Roosevelt Hotel?",
+    "activity_choices": [
+      "Douglas Fairbanks",
+      "Charlie Chaplin",
+      "Walt Disney",
+      "Clark Gable"
+    ],
+    "activity_answer": "Douglas Fairbanks",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "The Roosevelt Hotel was named after President Theodore Roosevelt.",
+    "optional_type": "bonus_fact",
+    "score": 68,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "166",
+    "title": "Rebels of the Art World Unite!",
+    "story": "Brushstrokes of rebellion swept through Paris in 1863. On May 15, the Salon des Refusés flung open its doors, showcasing art deemed too daring for the official Salon. This alternative exhibition gave voice to bold painters like Cézanne, Pissarro, and Manet. Their colorful canvases challenged traditions and sparked a revolution in the art world.",
+    "activity_question": "What was the name of the exhibition that showcased rejected artworks?",
+    "activity_choices": [
+      "Salon des Refusés",
+      "Official Salon",
+      "Paris Art Fair",
+      "Rebel Painters Gallery"
+    ],
+    "activity_answer": "Salon des Refusés",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think these artists works were considered too daring for the official Salon?",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "180",
+    "title": "Buck O'Neil: A Baseball Legend Begins",
+    "story": "Crack! The sound of bat meeting ball echoed through Ruppert Stadium in Kansas City. It was May 15, 1938, and a young player named Buck O'Neil was stepping up to the plate for the first time with the Kansas City Monarchs. This moment marked the start of an incredible journey in Negro league baseball for O'Neil, who would go on to become a beloved figure in the sport.",
+    "activity_question": "What team did Buck O'Neil debut for in 1938?",
+    "activity_choices": [
+      "Kansas City Monarchs",
+      "New York Yankees",
+      "Chicago Cubs",
+      "Homestead Grays"
+    ],
+    "activity_answer": "Kansas City Monarchs",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The Negro leagues gave many talented African American players a chance to shine when Major League Baseball was still segregated.",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "87",
+    "title": "Cricket Craze: Australia's Record-Breaking Day",
+    "story": "Bats were swinging and balls were flying as the Australian cricket team made history. On May 15, 1948, they scored an incredible 721 runs in a single day against Essex. This wasn't just any good game - it was a world record! The Aussies showed off their skills, hitting boundary after boundary. Cricket fans were amazed by the display of talent and teamwork.",
+    "activity_question": "What did the Australian cricket team achieve in 1948?",
+    "activity_choices": [
+      "They scored 721 runs in one day",
+      "They won the World Cup",
+      "They played for 24 hours straight",
+      "They invented a new cricket ball"
+    ],
+    "activity_answer": "They scored 721 runs in one day",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name another popular sport that involves hitting a ball with a bat?",
+    "score": 85,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "39",
+    "title": "Four Strikeouts in One Inning!",
+    "story": "Batter up! In 1906, pitcher George 'Hooks' Wiltse amazed baseball fans with an incredible feat. On May 15, he struck out four batters in a single inning! How's that possible? Well, after the third strikeout, the catcher dropped the ball. This allowed the batter to run to first base safely, giving Wiltse a chance for an extra strikeout. Talk about a lucky break!",
+    "activity_question": "What unusual event allowed Wiltse to strike out four batters in one inning?",
+    "activity_choices": [
+      "The catcher dropped the ball",
+      "The umpire made a mistake",
+      "Extra innings were played",
+      "The rules changed that day"
+    ],
+    "activity_answer": "The catcher dropped the ball",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you think of other sports where a mistake might give a player an extra chance to score?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "186",
+    "title": "Rocky Marciano's Lightning-Fast Victory",
+    "story": "Pow! In 1953, Rocky Marciano proved why he was the champ. On May 15, he defended his world heavyweight boxing title against Jersey Joe Walcott. The fight at Chicago Stadium was over in a flash. Marciano knocked out the former champion in the very first round! It was a stunning display of power that left fans in awe.",
+    "activity_question": "Where did Rocky Marciano's fight take place?",
+    "activity_choices": [
+      "Chicago Stadium",
+      "Madison Square Garden",
+      "Las Vegas Arena",
+      "Wembley Stadium"
+    ],
+    "activity_answer": "Chicago Stadium",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think a quick knockout is impressive in boxing?",
+    "score": 80,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "391",
+    "title": "From College Star to Super Bowl Hero",
+    "story": "Touchdown! Desmond Howard sprinted onto the football scene when he was born in Cleveland, Ohio in 1970. On May 15 that year, a future gridiron legend entered the world. Howard would go on to dazzle fans with his lightning-fast moves, first as a college superstar and later in the pros. His amazing catches and electrifying returns made him a true champion on the field.",
+    "activity_question": "Where was Desmond Howard born?",
+    "activity_choices": [
+      "Cleveland, Ohio",
+      "Green Bay, Wisconsin",
+      "Ann Arbor, Michigan",
+      "Touchdown Town, USA"
+    ],
+    "activity_answer": "Cleveland, Ohio",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What position did Desmond Howard play?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "281",
+    "title": "Turk Broda: Hockey's Legendary Goalie",
+    "story": "Turk Broda, a hockey hero, was born on May 15, 1914. He became a star goaltender for the Toronto Maple Leafs. Broda's amazing skills helped his team win the Stanley Cup five times! He also earned two Vezina Trophies as the league's best goalie. Fans cheered for Turk from 1935 to 1951 as he protected the Leafs' net.",
+    "activity_question": "What team did Turk Broda play for?",
+    "activity_choices": [
+      "Toronto Maple Leafs",
+      "Montreal Canadiens",
+      "Boston Bruins",
+      "New York Rangers"
+    ],
+    "activity_answer": "Toronto Maple Leafs",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How many Stanley Cups did Turk Broda win?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "334",
+    "title": "Basketball Legend Don Nelson's Slam Dunk Start",
+    "story": "Swoosh! A basketball star was born on May 15, 1940. Don Nelson entered the world in Muskegon, Michigan, destined for hoops greatness. He'd become a champion player and an even more celebrated coach. Nelson's skills on the court and brilliant strategies from the sidelines would earn him a spot among the Top 10 Coaches in NBA History.",
+    "activity_question": "Where was Don Nelson born?",
+    "activity_choices": [
+      "Muskegon, Michigan",
+      "Boston, Massachusetts",
+      "Milwaukee, Wisconsin",
+      "Dallas, Texas"
+    ],
+    "activity_answer": "Muskegon, Michigan",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What sport did Don Nelson become famous for?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "344",
+    "title": "From Indiana to Space: Tony England's Journey",
+    "story": "Blast off! Tony England rocketed into the world on May 15, 1942, in Indianapolis, Indiana. This future space explorer would grow up to become both a brilliant scientist and a daring NASA astronaut. England's big adventure came in 1985 when he soared into orbit aboard the space shuttle Challenger on mission STS 51-F.",
+    "activity_question": "What was Tony England's profession besides being an astronaut?",
+    "activity_choices": [
+      "Scientist",
+      "Teacher",
+      "Pilot",
+      "Engineer"
+    ],
+    "activity_answer": "Scientist",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What do you think would be the most exciting part of being an astronaut?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "357",
+    "title": "A Future Space Explorer Takes Flight",
+    "story": "Frank L Culbertson Jr soared into life on May 15, 1949. Born in Charleston, South Carolina, he would grow up to become a US Navy officer and NASA astronaut. Culbertson's journey led him to the stars, piloting the space shuttle mission STS-38. His birth marked the beginning of an extraordinary adventure in space exploration.",
+    "activity_question": "What did Frank L Culbertson Jr become in addition to a US Navy officer?",
+    "activity_choices": [
+      "NASA astronaut",
+      "Air Force pilot",
+      "Marine biologist",
+      "Rocket scientist"
+    ],
+    "activity_answer": "NASA astronaut",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What skills do you think are important for becoming an astronaut?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "304",
+    "title": "Mary Lyon: Unraveling Genetic Mysteries",
+    "story": "Imagine a scientist who unlocked secrets hidden in our cells! Mary Lyon, born in Norwich, England in 1925, grew up to become a brilliant geneticist. On May 15 of that year, a future pioneer entered the world. Lyon's groundbreaking work on X-chromosome inactivation helped explain why some traits appear differently in males and females.",
+    "activity_question": "What field of science did Mary Lyon work in?",
+    "activity_choices": [
+      "Genetics",
+      "Chemistry",
+      "Physics",
+      "Astronomy"
+    ],
+    "activity_answer": "Genetics",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another famous scientist born in England?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "309",
+    "title": "The Birth of an Internet Pioneer",
+    "story": "Frank Evans Heart, a computer whiz, entered the world in the Bronx, New York on May 15, 1929. He grew up to become an American engineer who played a huge role in creating ARPANET. This special computer network paved the way for the internet we use today. Heart helped build the first routing computer, a key piece in connecting people across long distances.",
+    "activity_question": "What did Frank Evans Heart help build for ARPANET?",
+    "activity_choices": [
+      "The first routing computer",
+      "The first email system",
+      "The first web browser",
+      "The first chat room"
+    ],
+    "activity_answer": "The first routing computer",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How is ARPANET related to the internet we use today?",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "227",
+    "title": "The Birth of a Bacteria-Battling Scientist",
+    "story": "A tiny baby born in Russia on May 15, 1845, would grow up to become a giant in science. Ilya Mechnikov entered the world in Ivanovka, ready to explore it. His curious mind led him to study tiny creatures and how our bodies fight germs. Mechnikov's work was so important that he won a Nobel Prize in 1908. People call him the father of natural immunity for showing how our bodies protect us.",
+    "activity_question": "What did Ilya Mechnikov win in 1908?",
+    "activity_choices": [
+      "A Nobel Prize",
+      "A gold medal",
+      "A science fair",
+      "A bacteria battle"
+    ],
+    "activity_answer": "A Nobel Prize",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What field of science did Mechnikov study?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "211",
+    "title": "A Musical Prodigy Overcomes Blindness",
+    "story": "Maria Theresia von Paradis was born in Vienna in 1759, destined to become a remarkable musician. Despite being blind, she mastered the piano, organ, and singing. Her talent shone brightly on May 15, as she grew into a celebrated composer in the Austrian Empire. Maria's determination proved that disabilities couldn't dim her musical brilliance.",
+    "activity_question": "What instruments did Maria Theresia von Paradis play?",
+    "activity_choices": [
+      "Piano and organ",
+      "Violin and cello",
+      "Flute and clarinet",
+      "Trumpet and trombone"
+    ],
+    "activity_answer": "Piano and organ",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think Maria learned to play music without being able to see?",
+    "optional_type": "follow_up_question",
+    "score": 78,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "293",
+    "title": "Jazz Pianist Ellis Larkins Breaks Barriers",
+    "story": "Ellis Larkins tickled the ivories like no other. Born in Baltimore on May 15, 1923, he became a trailblazer in music. As the first Black student at the prestigious Peabody Institute, Larkins shattered barriers. His talent led him to accompany jazz legends like Ella Fitzgerald and Eartha Kitt. Larkins blended classical training with jazz flair, creating a unique sound that echoed through history.",
+    "activity_question": "What famous singers did Ellis Larkins accompany?",
+    "activity_choices": [
+      "Ella Fitzgerald and Eartha Kitt",
+      "Louis Armstrong and Billie Holiday",
+      "Frank Sinatra and Bing Crosby",
+      "Banana peels and coconuts"
+    ],
+    "activity_answer": "Ella Fitzgerald and Eartha Kitt",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What made Ellis Larkins a trailblazer in music?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "316",
+    "title": "A Folk Hero's Musical Journey Begins",
+    "story": "A voice that would shape American folk music took its first breath on May 15, 1935. Bruce 'Utah' Phillips was born in Cleveland, Ohio, destined to become a beloved singer-songwriter, storyteller, and champion for workers' rights. His songs like 'Green Rolling Hills' would later inspire generations of musicians and activists.",
+    "activity_question": "What type of music was Utah Phillips known for?",
+    "activity_choices": [
+      "Folk music",
+      "Classical music",
+      "Jazz",
+      "Rock and roll"
+    ],
+    "activity_answer": "Folk music",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Utah Phillips wasn't just a musician - he was also a poet and a labor organizer who fought for workers' rights.",
+    "score": 72,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "376",
+    "title": "Rap Pioneer Melle Mel Enters the World",
+    "story": "Melvin Glover, better known as Melle Mel, burst onto the scene in 1961. Born in The Bronx, New York on May 15, he would grow up to become a legendary rapper. Melle Mel made his mark as a key member of Grandmaster Flash and the Furious Five, helping shape the early sound of hip-hop music.",
+    "activity_question": "What was Melle Mel's birth name?",
+    "activity_choices": [
+      "Melvin Glover",
+      "Melle Mel",
+      "Grandmaster Flash",
+      "Furious Five"
+    ],
+    "activity_answer": "Melvin Glover",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The Bronx is often called the birthplace of hip-hop culture.",
+    "score": 65,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "394",
+    "title": "PM Dawn's Prince Be: A Musical Star Rises",
+    "story": "A musical star was born on May 15, 1970. Prince Be, whose real name was Attrell Cordes, entered the world in Jersey City. He would grow up to become the creative force behind PM Dawn, an American hip-hop group that blended rap with dreamy melodies. Prince Be's unique sound helped shape 1990s music.",
+    "activity_question": "What was Prince Be's real name?",
+    "activity_choices": [
+      "Attrell Cordes",
+      "PM Dawn",
+      "Jersey City",
+      "Prince Bee"
+    ],
+    "activity_answer": "Attrell Cordes",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "PM Dawn stands for 'Prince Millennium Dawn,' a name inspired by Prince Be's love of spirituality.",
+    "optional_type": "bonus_fact",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "345",
+    "title": "The Hitmaker Behind Disco's Biggest Songs",
+    "story": "Freddie Perren, the musical genius who shaped disco's sound, was born in 1943. This talented songwriter and record producer crafted unforgettable hits like 'Boogie Fever' and 'I Will Survive'. Perren's magic touch helped artists like The Sylvers, Gloria Gaynor, and Peaches & Herb climb the charts. His melodies still make people dance today!",
+    "activity_question": "What famous disco song did Freddie Perren produce for Gloria Gaynor?",
+    "activity_choices": [
+      "I Will Survive",
+      "Boogie Fever",
+      "Reunited",
+      "Disco Inferno"
+    ],
+    "activity_answer": "I Will Survive",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another artist Freddie Perren worked with?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "389",
+    "title": "A Star is Born in Damascus",
+    "story": "A powerful voice emerged from Damascus, Syria on May 15, 1969. Assala Nasri, destined to become a famous Middle Eastern and Arabic pop singer, was born. Her soulful melodies and heartfelt lyrics would soon captivate audiences across the region. Assala's hit song 'Ma Aaaraftik' became a beloved favorite among her fans.",
+    "activity_question": "What type of music is Assala Nasri known for?",
+    "activity_choices": [
+      "Middle Eastern and Arabic pop",
+      "Classical opera",
+      "American country",
+      "Reggae"
+    ],
+    "activity_answer": "Middle Eastern and Arabic pop",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name another country in the Middle East besides Syria?",
+    "score": 60,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "286",
+    "title": "A Country Music Legend Is Born",
+    "story": "Eddy Arnold, the smooth-voiced country singer, took his first breath in Henderson, Tennessee in 1918. Born on May 15, he would grow up to charm audiences with hit songs like 'Make The World Go Away' and 'Then You Can Tell Me Goodbye'. Arnold's rich baritone and gentle style helped shape country music for decades.",
+    "activity_question": "What were two of Eddy Arnold's hit songs mentioned in the story?",
+    "activity_choices": [
+      "'Make The World Go Away' and 'Then You Can Tell Me Goodbye'",
+      "'Country Roads' and 'Jolene'",
+      "'Ring of Fire' and 'I Walk the Line'",
+      "'Friends in Low Places' and 'The Gambler'"
+    ],
+    "activity_answer": "'Make The World Go Away' and 'Then You Can Tell Me Goodbye'",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Eddy Arnold's career spanned seven decades, earning him the nickname 'The Tennessee Plowboy'.",
+    "score": 60,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "326",
+    "title": "Trini Lopez: A Musical Star is Born",
+    "story": "Guitars strummed a new tune on May 15, 1937, when Trini Lopez entered the world in Dallas, Texas. This talented musician would go on to make waves with hit songs like 'If I Had A Hammer' and 'Lemon Tree'. Lopez wasn't just about music, though. He also showed off his acting chops in the famous war movie 'The Dirty Dozen'.",
+    "activity_question": "What famous war movie did Trini Lopez act in?",
+    "activity_choices": [
+      "The Dirty Dozen",
+      "Saving Private Ryan",
+      "Full Metal Jacket",
+      "The Great Escape"
+    ],
+    "activity_answer": "The Dirty Dozen",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name one of Trini Lopez's hit songs mentioned in the story?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "322",
+    "title": "A Playwright's Blooming Talent",
+    "story": "Paul Zindel's creative journey began in 1936 when he was born in Staten Island, New York. He grew up to become a famous American playwright and novelist. His most well-known work, with a long flowery title about gamma rays and marigolds, won him great acclaim. Zindel's stories continue to inspire readers on May 15 and beyond.",
+    "activity_question": "What type of writer was Paul Zindel?",
+    "activity_choices": [
+      "A playwright and novelist",
+      "A poet and journalist",
+      "A screenwriter and director",
+      "A comic book artist"
+    ],
+    "activity_answer": "A playwright and novelist",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you think of another flower that might be fun to put in a book title?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "original": "International Museum Day",
+    "score": 65,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "National Visit Your Relatives Day",
+    "score": 55,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "National Cheese Souffle Day",
+    "score": 60,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "World AIDS Vaccine Day",
+    "score": 55,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 5,
+    "original": "National Send a Card to a Friend Day",
+    "score": 70,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 6,
+    "original": "National No Dirty Dishes Day",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 7,
+    "original": "International Day of Fascination with Plants",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 8,
+    "original": "National HIV Vaccine Awareness Day",
+    "score": 32,
+    "is_kid_friendly": false
+  }
+]

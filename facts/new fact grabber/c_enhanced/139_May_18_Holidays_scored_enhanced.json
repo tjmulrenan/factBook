@@ -1,0 +1,122 @@
+[
+  {
+    "id": "901",
+    "title": "Museum Mania Day Around the World",
+    "story": "Museums everywhere throw open their doors for free on May 18 for International Museum Day! This awesome celebration lets families explore art, dinosaurs, space rockets, and ancient treasures without paying admission. Museums host special tours, hands-on activities, and cool demonstrations you can't see any other day. Some even stay open late with flashlight tours or mystery games. It's like having a giant treasure hunt in every city, where the prizes are amazing discoveries and fun facts to share with friends.",
+    "activity_question": "What special thing do many museums do on International Museum Day?",
+    "activity_choices": [
+      "Offer free admission",
+      "Close early for cleaning",
+      "Only show dinosaur exhibits",
+      "Require special costumes"
+    ],
+    "activity_answer": "Offer free admission",
+    "follow_up_question": "What type of museum exhibit would you be most excited to explore for free?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "902",
+    "title": "Family Time: National Visit Your Relatives Day",
+    "story": "Pack your bags and grab some snacks because May 18 is National Visit Your Relatives Day! Families across the country use this special day to reconnect with aunts, uncles, cousins, and grandparents they haven't seen in a while. Some people drive for hours to surprise their relatives with unexpected visits, while others plan big family reunions with games and potluck dinners. It's the perfect excuse to catch up on family stories and create new memories together.",
+    "activity_question": "What do families often bring when they visit relatives on this day?",
+    "activity_choices": [
+      "Snacks and food to share",
+      "Their pet goldfish",
+      "Homework assignments",
+      "Winter coats"
+    ],
+    "activity_answer": "Snacks and food to share",
+    "follow_up_question": "What's your favorite memory from visiting a relative's house?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "903",
+    "title": "Fluffy Cheese Dreams Come True",
+    "story": "Chefs around the world hold their breath on May 18 as they celebrate National Cheese Souffle Day! This tricky French dish puffs up like a golden cloud in the oven, but it can collapse faster than a popped balloon. Food lovers share photos of their fluffy creations online, while cooking shows feature souffle challenges that make everyone nervous. The key is opening the oven door very gently and serving immediately before it deflates!",
+    "activity_question": "What happens if you're not careful when making a cheese souffle?",
+    "activity_choices": [
+      "It can collapse like a popped balloon",
+      "It turns into regular scrambled eggs",
+      "It becomes too spicy to eat",
+      "It changes from yellow to purple"
+    ],
+    "activity_answer": "It can collapse like a popped balloon",
+    "follow_up_question": "What other foods do you know that are tricky to make perfectly?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "904",
+    "title": "Mail Magic: Send a Card to a Friend Day",
+    "story": "Every May 18, people celebrate National Send a Card to a Friend Day by picking up actual pens and writing real cards! Friends surprise each other with funny greeting cards, handmade notes, or postcards from their hometown. Some people mail cards to friends who live far away, while others hand-deliver them with silly drawings or inside jokes. It's like texting, but way more special because someone can hold it forever!",
+    "activity_question": "What makes sending a card different from texting a friend?",
+    "activity_choices": [
+      "Cards can be held and kept forever",
+      "Cards are faster to send",
+      "Cards use less paper",
+      "Cards automatically reply back"
+    ],
+    "activity_answer": "Cards can be held and kept forever",
+    "follow_up_question": "What would you draw or write on a card to make your friend smile?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  },
+  {
+    "id": "905",
+    "title": "No Dirty Dishes Day: Clean Plate Club",
+    "story": "Every May 18, people celebrate National No Dirty Dishes Day by avoiding the dreaded pile of dirty plates and bowls! Some families eat off paper plates or order takeout in disposable containers. Others might have a picnic outside where cleanup is super easy. The smartest celebrators cook simple one-pot meals or eat foods that don't need much dishware at all. Many people use this day as an excuse to try that new restaurant they've been wanting to visit. It's the perfect holiday for anyone who's ever stared at a sink full of dishes and wished they would just disappear!",
+    "activity_question": "What do some people do on National No Dirty Dishes Day to avoid washing dishes?",
+    "activity_choices": [
+      "Use paper plates or order takeout",
+      "Hide all their dishes in the closet",
+      "Only eat ice cream all day",
+      "Wash dishes before they get dirty"
+    ],
+    "activity_answer": "Use paper plates or order takeout",
+    "follow_up_question": "What creative ways could you avoid dirty dishes while still eating healthy meals?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "906",
+    "title": "Plants Are Pretty Fascinating!",
+    "story": "Scientists around the world throw a giant plant party every May 18 for the International Day of Fascination with Plants! Botanical gardens open their doors for special tours, schools organize seed-planting activities, and researchers share cool discoveries about how plants grow, communicate, and survive. Kids get to peek through microscopes at tiny plant cells, learn how flowers make seeds, and discover that some plants can actually \"talk\" to each other through their roots. Many families visit greenhouses or start their own mini gardens to celebrate these amazing green life forms that make our oxygen and food.",
+    "activity_question": "What do some plants use to communicate with each other?",
+    "activity_choices": [
+      "Their roots",
+      "Tiny cell phones",
+      "Colorful flowers",
+      "Loud singing"
+    ],
+    "activity_answer": "Their roots",
+    "bonus_fact": "Some plants can live for thousands of years - longer than entire civilizations!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  }
+]

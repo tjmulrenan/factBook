@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "original": "World Bee Day",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "National Weights and Measures Day",
+    "score": 45,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "World Metrology Day",
+    "score": 45,
+    "is_kid_friendly": false
+  }
+]
