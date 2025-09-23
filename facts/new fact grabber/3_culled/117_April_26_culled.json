@@ -1,0 +1,542 @@
+[
+  {
+    "id": 11,
+    "year": "1777",
+    "original": "Sybil Ludington aged 16, rides 40 miles in New York to warn her father's militia of the approach of the British",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 1
+  },
+  {
+    "id": 131,
+    "year": "2024",
+    "original": "106 tornadoes tear through  Nebraska, Iowa, Texas, Kansas and Missouri destroying hundreds of homes",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 2
+  },
+  {
+    "id": 12,
+    "year": "1803",
+    "original": "Meteorites fall in L'Aigle, France",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 3
+  },
+  {
+    "id": 185,
+    "year": "1954",
+    "original": "Mass trials ofJonas Salk's anti-polio vaccine begin; the first shot is delivered in Fairfax County, Virginia; more than 443,000 children receive shots over three months",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 4
+  },
+  {
+    "id": 81,
+    "year": "1980",
+    "original": "Longest jump by a jet boat is set at 120 feet",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 5
+  },
+  {
+    "id": 95,
+    "year": "1991",
+    "original": "\"Dinosaurs\" premieres on ABC-TV",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 6
+  },
+  {
+    "id": 126,
+    "year": "2019",
+    "original": "Waorani people of Pastaza win landmark environmental case against the Ecuadorian government to protect half a million acres of their territory in the Amazon rainforest",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 7
+  },
+  {
+    "id": 121,
+    "year": "2017",
+    "original": "Gift Ngoepe becomes 1st black African to play in Major League Baseball, for the Pittsburgh Pirates",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 8
+  },
+  {
+    "id": 180,
+    "year": "2023",
+    "original": "Brazilian Portuguese-language Michaelis dictionary adds \"pelé\" as a new adjective to its online edition, meaning \"exceptional, incomparable, unique\"",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 9
+  },
+  {
+    "id": 246,
+    "year": "1900",
+    "original": "Charles F. Richter, American physicist and seismologist (developed the Richter scale for measuring earthquake magnitude), born in Overpeck, Ohio (d. 1985)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 10
+  },
+  {
+    "id": 258,
+    "year": "1910",
+    "original": "Tomoyuki Tanaka, Japanese film producer (Godzilla), born in Ōsaka, Japan (d. 1997)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 11
+  },
+  {
+    "id": 105,
+    "year": "1994",
+    "original": "Physicists announce the first evidence of the top quark subatomic particle",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 12
+  },
+  {
+    "id": 77,
+    "year": "1978",
+    "original": "NASA launches space vehicle S-201",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 13
+  },
+  {
+    "id": 31,
+    "year": "1920",
+    "original": "Ice hockey makes its Olympic debut at the Antwerp Games with center Frank Fredrickson scoring 7 goals in Canada's 12-1 drubbing of Sweden in the gold medal match",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 14
+  },
+  {
+    "id": 24,
+    "year": "1905",
+    "original": "Cubs Jack McCarthy becomes only major league player to throw out 3 runners at plate in 1 game, all were ends of a double play",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 15
+  },
+  {
+    "id": 273,
+    "year": "1918",
+    "original": "Francina \"Fanny\" Blankers-Koen, Dutch athlete (Olympic gold 100m, 200m, 80m hurdles, 4x100m relay 1948), born in Lage Vuursche, Netherlands (d. 2004)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 16
+  },
+  {
+    "id": 293,
+    "year": "1927",
+    "original": "Dame Anne McLaren, British biologist and leading researcher on human in vitro fertilisation (IVF), born in London, England (d. 2007)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 17
+  },
+  {
+    "id": 96,
+    "year": "1991",
+    "original": "Twenty-three killed in Kansas and Oklahoma by tornadoes",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 18
+  },
+  {
+    "id": 67,
+    "year": "1971",
+    "original": "Heaviest rains ever in Bahia district of Brazil, 15\" in 24 hrs",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 19
+  },
+  {
+    "id": 71,
+    "year": "1974",
+    "original": "Landslide in Huancavelica Province Peru creates a natural dam",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 20
+  },
+  {
+    "id": 104,
+    "year": "1994",
+    "original": "First day of voting in the first-ever multiracial elections in South Africa, Dr. Nomaza Paintin in New Zealand is the first Black South African to vote",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 21
+  },
+  {
+    "id": 127,
+    "year": "2021",
+    "original": "The US, the EU and other countries announce they are sending pandemic aid to India as it's COVID-19 crisis continues to worsen",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 22
+  },
+  {
+    "id": 92,
+    "year": "1990",
+    "original": "126 die in a (6.9) earthquake in China",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 23
+  },
+  {
+    "id": 60,
+    "year": "1966",
+    "original": "An earthquake of magnitude 7.5 destroys Tashkent, Uzbekistan",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 24
+  },
+  {
+    "id": 58,
+    "year": "1962",
+    "original": "US and UK launch Ariel, the first UK satellite and the first international payload",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 25
+  },
+  {
+    "id": 18,
+    "year": "1879",
+    "original": "National Park (later renamed Royal National Park) established south of Sydney, Australia. World's second-oldest national park.",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 26
+  },
+  {
+    "id": 29,
+    "year": "1920",
+    "original": "Harlow Shapley and Heber D. Curtis hold the \"Great Debate\" on the nature of nebulae, galaxies, and the size of the universe at the US National Academy of Sciences, Washington, D.C.",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 27
+  },
+  {
+    "id": 133,
+    "year": "1514",
+    "original": "Copernicusmakes his 1st observations of Saturn",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 28
+  },
+  {
+    "id": 137,
+    "year": "1848",
+    "original": "Alfred Russel Wallacedeparts the UK for South America, beginning four years of travel, collecting, and research in the region",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 29
+  },
+  {
+    "id": 134,
+    "year": "1564",
+    "original": "William Shakespeareis baptized in Stratford-upon-Avon, Warwickshire, England",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 30
+  },
+  {
+    "id": 139,
+    "year": "1865",
+    "original": "Confederate GeneralJoseph E. Johnstonsurrenders remaining forces to Union GeneralWilliam T. Shermanat Bennett Place in Durham, North Carolina, ending the American Civil War",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 31
+  },
+  {
+    "id": 6,
+    "year": "1607",
+    "original": "Jamestown expedition makes first landing in America at a place named Cape Henry, in what would become Virginia, but they quickly depart for a better site",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 32
+  },
+  {
+    "id": 3,
+    "year": "1336",
+    "original": "Italian Renaissance poet Francesco Petrarch famously climbs Mont Ventoux",
+    "score": 58,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 33
+  },
+  {
+    "id": 85,
+    "year": "1984",
+    "original": "Liverpool's Cavern Club reopens",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 34
+  },
+  {
+    "id": 101,
+    "year": "1993",
+    "original": "Space Shuttle Columbia, mission STS-55, launches into orbit carrying Spacelab D2 laboratory",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 35
+  },
+  {
+    "id": 366,
+    "year": "1966",
+    "original": "Yoshihiro Togashi, Japanese Manga artist who created YuYu Hakusho, born in Shinjō, Yamagata, Japan",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 36
+  },
+  {
+    "id": 372,
+    "year": "1970",
+    "original": "T-Boz [Tionne Watkins], American R&B-pop singer (TLC -\"Waterfalls\"; \"No Scrubs\"), born in Des Moines, Iowa",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 37
+  },
+  {
+    "id": 318,
+    "year": "1940",
+    "original": "Giorgio Moroder, Italian record producer, and film score composer (Cat People; Top Gun), born in Ortisei, Italy",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 38
+  },
+  {
+    "id": 237,
+    "year": "1886",
+    "original": "Ma Rainey [Gertrude Pridgett], American singer known as the \"Mother of the Blues\", born in Columbus, Georgia (d. 1939)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 39
+  },
+  {
+    "id": 217,
+    "year": "1834",
+    "original": "Artemus Ward [Charles Farrar Browne], American humorist (considered to be America's first stand-up comedian), born in Waterford, Maine (d. 1867)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 40
+  },
+  {
+    "id": 210,
+    "year": "1808",
+    "original": "Martha Finley, American children's book author (Elsie Dinsmore series), born in Chillicothe, Ohio (d. 1909)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 41
+  },
+  {
+    "id": 226,
+    "year": "1865",
+    "original": "Akseli Gallen-Kallela, Finnish painter known for his illustrations of the Kalevala, the Finnish national epic, born in Pori, Finland (d. 1931)[1]",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 42
+  },
+  {
+    "id": 234,
+    "year": "1880",
+    "original": "Mikhail Fokine, Russian choreographer and founder of modern dance, born in Saint Petersburg, Russian Empire (d. 1942)",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 43
+  },
+  {
+    "id": 238,
+    "year": "1888",
+    "original": "Anita Loos, American screenwriter, novelist (Gentlemen Prefer Blondes) and playwright, born in Sisson, California (d. 1981)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 44
+  },
+  {
+    "id": 287,
+    "year": "1925",
+    "original": "Michele Ferrero, Italian entrepreneur (Ferrero SpA - Nutella), born in Dogliani, Piedmont (d. 2015)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 45
+  },
+  {
+    "id": 364,
+    "year": "1965",
+    "original": "Kevin James, American actor and comedian (The King of Queens), born in Mineola, Long Island, New York",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 46
+  },
+  {
+    "id": 368,
+    "year": "1967",
+    "original": "Kane [Glenn Jacobs], American professional wrestler, born in Torrejón de Ardoz, Spain",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 47
+  },
+  {
+    "id": 301,
+    "year": "1932",
+    "original": "Michael Smith, English-Canadian biochemist (Nobel 1993- Site-directed mutagenesis), born in Blackpool, England (d. 2000)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 48
+  },
+  {
+    "id": 302,
+    "year": "1933",
+    "original": "Arno Penzias, German-born American physicist (1978 Nobel Prize for detecting cosmic microwave background), born in Munich, Germany (d. 2024)[1]",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 49
+  },
+  {
+    "id": 275,
+    "year": "1920",
+    "original": "Padú del Caribe [Juan Chabaya Lampe], Aruban pianist and composer, known as the \"Father of the Caribbean\" (\"Aruba Dushi Tera\" - Aruba's national anthem), born in Oranjestad, Aruba, Kingdom of the Netherlands (d. 2019)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 50
+  },
+  {
+    "id": 355,
+    "year": "1961",
+    "original": "Joan Chen [Chen Chong], Chinese-American actress (Heaven & Earth, The Last Emperor), born in Shanghai, China",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 51
+  },
+  {
+    "id": 341,
+    "year": "1950",
+    "original": "(Lakshminarayana) \"L.\" Shankar, Indian rock, jazz and Indian classical violinist, singer and composer (Shakti; Frank Zappa; Peter Gabriel), born in Madras, Tamil Nadu",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 52
+  },
+  {
+    "id": 334,
+    "year": "1947",
+    "original": "Donna De Varona, American swimmer (Olympic-2 gold-64), born in Greenwich, Connecticut",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 53
+  },
+  {
+    "id": 314,
+    "year": "1938",
+    "original": "Duane Eddy, American twangy guitarist (\"Rebel Rouser\"; Peter Gunn\"; \"Cannonball\"), born in Corning, New York (d. 2024)[1][2]",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 54
+  },
+  {
+    "id": 315,
+    "year": "1938",
+    "original": "Maurice Williams, American doo-wop singer, and songwriter (Maurice Williams and the Zodiacs - \"Stay\"), born in Lancaster, Pennsylvania (d. 2024)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 55
+  },
+  {
+    "id": 353,
+    "year": "1960",
+    "original": "Roger Taylor, English rock drummer (Duran Duran - \"Hungry Like The Wolf\"), born in Birmingham, England",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 56
+  },
+  {
+    "id": 340,
+    "year": "1949",
+    "original": "Jimmy Hall, American southern rock singer and saxophonist (Wet Willie), born in Birmingham, Alabama",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 57
+  },
+  {
+    "id": 346,
+    "year": "1955",
+    "original": "Mike Scott, American baseball pitcher (NL Cy Young Award & NLCS MVP 1986, NL wins leader 1989; 3 × MLB All-Star Houston Astros), born in Santa Monica, California",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 58
+  },
+  {
+    "id": 349,
+    "year": "1958",
+    "original": "Giancarlo Esposito, American actor (Bob Roberts, School Daze, King of NY), born in Copenhagen, Denmark",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 59
+  },
+  {
+    "id": 307,
+    "year": "1934",
+    "original": "Michael McCloskey, American environmentalist and chairman (Sierra Club), born in Eugene, Oregon",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 60
+  }
+]

@@ -1,0 +1,542 @@
+[
+  {
+    "id": 68,
+    "year": "1962",
+    "original": "Yogi the bear becomes the first creature ejected at supersonic speeds by the US military during testing of ejection seats",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 1
+  },
+  {
+    "id": 196,
+    "year": "2024",
+    "original": "Elon Musk's Neuralink company posts a video of a patient playing chess online using a brain implant",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 2
+  },
+  {
+    "id": 138,
+    "year": "2019",
+    "original": "Bangladeshi woman with two uteruses safely gives birth to twins 26 days after giving birth to another child",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 3
+  },
+  {
+    "id": 124,
+    "year": "2013",
+    "original": "European Space Agency reveals new data indicating that the universe is 13.82 billion years old",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 4
+  },
+  {
+    "id": 109,
+    "year": "1999",
+    "original": "Swiss aviator Bertrand Piccard and British aviator Brian Jones become the first to circumnavigate the Earth in a hot air balloon.",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 5
+  },
+  {
+    "id": 177,
+    "year": "1985",
+    "original": "CanadianRick Hansensets off on his 'Man in Motion' world tour in his wheelchair raising money for spinal research, from Oakridge Mall, Vancouver (successfully completes May 1987)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 6
+  },
+  {
+    "id": 183,
+    "year": "1994",
+    "original": "Wayne Gretzkyties Gordie Howe's NHL record of 801 goals",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 7
+  },
+  {
+    "id": 90,
+    "year": "1983",
+    "original": "Only known typo on Time Magazine cover (control=contol), all recalled",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 8
+  },
+  {
+    "id": 199,
+    "year": "1963",
+    "original": "Alcatraz prison in San Francisco Bay is closed",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 9
+  },
+  {
+    "id": 390,
+    "year": "1980",
+    "original": "Marit Bjørgen, Norwegian cross-country skier, 15 Olympic medals, 18 World Championship medals, born in Trondheim, Norway",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 42
+  },
+  {
+    "id": 351,
+    "year": "1959",
+    "original": "Nobuo Uematsu, Japanese keyboardist and video game composer (Final Fatasy), born in Kōchi, Japan",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 11
+  },
+  {
+    "id": 399,
+    "year": "2000",
+    "original": "Jace Norman, American actor (Henry Danger), born in Corrales, New Mexico",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 12
+  },
+  {
+    "id": 397,
+    "year": "1993",
+    "original": "Suraj Sharma, Indian actor (Life of Pi, God Friended Me), born in New Delhi, India",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 13
+  },
+  {
+    "id": 248,
+    "year": "1904",
+    "original": "Forrest Mars Sr., American candy magnate (Mars Inc.) who introduced the Milky Way, Mars bar, M&M's and Uncle Ben's Rice, born in Wadena, Minnesota (d. 1999)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 14
+  },
+  {
+    "id": 191,
+    "year": "2019",
+    "original": "Japanese baseball right fielderIchiro Suzukifinishes his career with a record 4,367 base hits (NPB & MLB) as Seattle Mariners beat the Oakland A's, 5-4 in Tokyo, Japan",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 15
+  },
+  {
+    "id": 168,
+    "year": "1965",
+    "original": "Martin Luther King Jr.begins march fromSelma to Montgomery, Alabama",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 16
+  },
+  {
+    "id": 175,
+    "year": "1984",
+    "original": "Part of Central Park in New York City is named \"Strawberry Fields\" honoringJohn Lennon",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 17
+  },
+  {
+    "id": 184,
+    "year": "1997",
+    "original": "Film \"Selena\" is released based on the life of singer Selena Quintanilla-Pérez, starringJennifer Lopezin her breakthrough role, directed by Gregory Nava",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 18
+  },
+  {
+    "id": 381,
+    "year": "1972",
+    "original": "Kristen Anderson-Lopez, American songwriter (Frozen), born in New York City",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 19
+  },
+  {
+    "id": 198,
+    "year": "1871",
+    "original": "JournalistHenry Morton Stanleybegins his famous expedition to Africa",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 20
+  },
+  {
+    "id": 83,
+    "year": "1975",
+    "original": "Ethiopia abolishes its monarchy after 3,000 years",
+    "score": 83,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 21
+  },
+  {
+    "id": 101,
+    "year": "1991",
+    "original": "Quebec Nordiques goaltender Ron Tugnutt sets NHL modern-day record for most saves in a regular season non-loss game (70 of 73 shots in 3-3 tie with the Boston Bruins",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 22
+  },
+  {
+    "id": 225,
+    "year": "1866",
+    "original": "Antonia Maury, American astronomer (created own stellar classification, one of the Harvard 'Observatory human computers), born in Cold Spring, New York (d. 1952)",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 23
+  },
+  {
+    "id": 51,
+    "year": "1946",
+    "original": "Kenny Washington signs with Rams, 1st black NFLer since 1933",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 24
+  },
+  {
+    "id": 50,
+    "year": "1945",
+    "original": "Dutch Resistance fighter Hannie Schaft arrested by Nazi police",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 25
+  },
+  {
+    "id": 69,
+    "year": "1964",
+    "original": "Beatles' single \"She Loves You\" goes #1 in the US & stays #1 for 2 weeks",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 26
+  },
+  {
+    "id": 174,
+    "year": "1982",
+    "original": "Movie \"Annie\" directed by John Huston, starring Aileen Quinn,Albert FinneyandCarol Burnettpremieres",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 27
+  },
+  {
+    "id": 389,
+    "year": "1980",
+    "original": "Deryck Whibley, Canadian guitarist and singer (Sum41 - \"Fat Lip\"), born in Scarborough, Ontario",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 28
+  },
+  {
+    "id": 395,
+    "year": "1992",
+    "original": "Chiney Ogwumike, American basketball player and sports commentator (1st black woman host for ESPN radio show), born in Tomball, Texas",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 29
+  },
+  {
+    "id": 89,
+    "year": "1982",
+    "original": "Jerry Pate celebrates golf win by jumping into the water hazard",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 30
+  },
+  {
+    "id": 94,
+    "year": "1986",
+    "original": "Kania skates ladies world record 500 m (39.52 sec) & 3 km (4:18.02)",
+    "score": 94,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 43
+  },
+  {
+    "id": 70,
+    "year": "1965",
+    "original": "US Ranger 9 launched; takes 5,814 pictures before lunar impact",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 33
+  },
+  {
+    "id": 131,
+    "year": "2018",
+    "original": "Dave Patterson and John Hennessy win the Turing Award for their work on RISC computer chips",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 34
+  },
+  {
+    "id": 311,
+    "year": "1941",
+    "original": "Dirk Frimout, Belgian cosmonaut and first Belgian astronaut (STS-45 in 1992), born in Poperinge, Belgium",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 35
+  },
+  {
+    "id": 273,
+    "year": "1921",
+    "original": "Joe Sutter, American engineer and head of the Boeing 747 program, born in Seattle, Washington (d. 2016)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 36
+  },
+  {
+    "id": 103,
+    "year": "1992",
+    "original": "Pakistan scores 6-264 to overhaul NZ in exciting World Cup cricket semi",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 37
+  },
+  {
+    "id": 58,
+    "year": "1953",
+    "original": "NBA record 106 fouls & 12 players foul out (Boston-Syracuse)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 38
+  },
+  {
+    "id": 78,
+    "year": "1971",
+    "original": "Vermont seasonal snowfall totals 132.2\"",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 39
+  },
+  {
+    "id": 143,
+    "year": "2022",
+    "original": "178 wildfires have burnt more than 108,000 acres across southwest Texas according to local fire officials with 23 still active",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 40
+  },
+  {
+    "id": 149,
+    "year": "2025",
+    "original": "Major power outage caused by a fire at a nearby electricity substation forces Heathrow Airport, London, to shut down completely, stopping more than 1,300 flights and disrupting more than 270,000 passenger journeys",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 41
+  },
+  {
+    "id": 391,
+    "year": "1982",
+    "original": "Aaron Hill, American baseball player (1st to win Silver Slugger Award in NL and AL), born in Visalia, California",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 44
+  },
+  {
+    "id": 29,
+    "year": "1917",
+    "original": "Loretta Walsh becomes US Navy's 1st female Petty Officer",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 47
+  },
+  {
+    "id": 106,
+    "year": "1994",
+    "original": "United Nations Framework Convention on Climate Change (UNFCCC) enters into force after being ratified by the required number of nations",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 48
+  },
+  {
+    "id": 139,
+    "year": "2019",
+    "original": "Governor of Missouri Mike Parson declares a state of emergency as flooding from Nebraska and Iowa flows downstream into the state",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 49
+  },
+  {
+    "id": 97,
+    "year": "1989",
+    "original": "1st sea test of Trident 2 missile self-destructs, Cape Canaveral, Florida",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 50
+  },
+  {
+    "id": 164,
+    "year": "1952",
+    "original": "20,000 people attempt to attend the first-ever rock & roll concert when Alan Freed presents \"The Moondog Coronation Ball\" at the old 12,000-seat Cleveland Arena; performers include Paul Williams and the Hucklebuckers,Tiny Grimesand the Rocking Highlanders, The Dominoes, and Varetta Dillard",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 51
+  },
+  {
+    "id": 159,
+    "year": "1941",
+    "original": "In a hard fought 15th title defenseJoe LouisKOs Abe Simon in the 13th round at Olympia Stadium, Detroit to retain NYSAC heavyweight boxing crown",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 52
+  },
+  {
+    "id": 187,
+    "year": "2014",
+    "original": "Canadian freestyle skier (moguls) and two-time Olympic gold medalistAlexandre Bilodeauretires at 26",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 53
+  },
+  {
+    "id": 150,
+    "year": "1413",
+    "original": "Henry of Monmouth, Prince of Wales, becomes KingHenry Vof England upon the death of his father",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 54
+  },
+  {
+    "id": 161,
+    "year": "1944",
+    "original": "US GeneralEisenhowerpostpones invasion of the south of France until after Normandy",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 55
+  },
+  {
+    "id": 169,
+    "year": "1967",
+    "original": "Musical comedy film \"Thoroughly Modern Millie\", starringJulie Andrews,Mary Tyler Moore, and Carol Channing, premieres at the Criterion Theatre, NYC",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 56
+  },
+  {
+    "id": 154,
+    "year": "1826",
+    "original": "Beethoven's \"String Quartet No. 13\" in B flat major (Op 130) premieres in Vienna",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 57
+  },
+  {
+    "id": 74,
+    "year": "1968",
+    "original": "Hill, Hawkins & Coghill's musical premieres in London",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 58
+  },
+  {
+    "id": 96,
+    "year": "1987",
+    "original": "PSV sells soccer player Ruud Gullit to AC Milan (Ÿ17 million)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 59
+  },
+  {
+    "id": 99,
+    "year": "1990",
+    "original": "Namibia becomes independent of South Africa, Sam Nujoma becomes president",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 60
+  },
+  {
+    "id": 128,
+    "year": "2018",
+    "original": "African trade deal agreed by 44 African countries in Kigali, Rwanda",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 61
+  },
+  {
+    "id": 215,
+    "year": "1806",
+    "original": "Benito Juárez, Mexican politician (1st indigenous President of Mexico 1858-72), born in  San Pablo Guelatao, Oaxaca, Mexico (d. 1872)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 62
+  },
+  {
+    "id": 212,
+    "year": "1768",
+    "original": "Joseph Fourier, French mathematician (mathematical theory of heat conduction) and Egyptologist, born in Auxerre, France (d. 1830)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 63
+  },
+  {
+    "id": 208,
+    "year": "1713",
+    "original": "Francis Lewis, Welsh-American merchant and US Founding Father (signed the Declaration of Independence), born in Llandaff, Wales (d. 1802)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 64
+  },
+  {
+    "id": 227,
+    "year": "1876",
+    "original": "Walter Tewksbury, American track and field athlete (Olympics, 1920 - 2 gold, 2 silver, 1 bronze), and dentist, born in Ashley, Pennsylvania (d. 1968)[1]",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 65
+  }
+]

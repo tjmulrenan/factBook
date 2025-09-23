@@ -1,0 +1,22 @@
+[
+  {
+    "id": "901",
+    "title": "Heroes in Red: World Red Cross Day",
+    "story": "Every May 8, people around the world celebrate World Red Cross and Red Crescent Day to honor amazing helpers who rush to disasters and emergencies. The Red Cross symbol means safety and help wherever you see it. Today, volunteers share stories on social media about rescuing people from floods, earthquakes, and fires. Many communities hold blood drives and first aid classes to teach kids how to help others too.",
+    "activity_question": "What do Red Cross volunteers do during disasters?",
+    "activity_choices": [
+      "Rush to help rescue people and provide aid",
+      "Sell emergency supplies to make money",
+      "Only work in hospitals during normal times",
+      "Paint red crosses on all the buildings"
+    ],
+    "activity_answer": "Rush to help rescue people and provide aid",
+    "follow_up_question": "How could you help your community during an emergency?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  }
+]

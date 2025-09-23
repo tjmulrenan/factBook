@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Say Hello to World Hello Day!",
+    "story": "People around the globe celebrate World Hello Day on November 21 by greeting at least ten different people! This special day started as a way to promote peace and understanding between countries. Today, folks say hello in dozens of languages - from \"hola\" in Spanish to \"konnichiwa\" in Japanese. Schools organize greeting exchanges, families teach each other new ways to say hello, and social media fills with multilingual hellos. Some people challenge themselves to learn greetings from countries they've never visited before, turning a simple \"hello\" into a mini adventure around the world.",
+    "activity_question": "How many different people should you greet on World Hello Day?",
+    "activity_choices": [
+      "At least ten people",
+      "Exactly five people",
+      "As many as possible",
+      "Only people who speak different languages"
+    ],
+    "activity_answer": "At least ten people",
+    "follow_up_question": "What's the most interesting way to say hello that you've ever learned?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "902",
+    "title": "World Television Day: Screen Time Supreme!",
+    "story": "Every November 21, people around the world celebrate World Television Day by appreciating how TV brings us together! Families gather to watch their favorite shows, news programs share special stories about television's impact, and social media fills with posts about beloved TV memories. Schools might discuss how television educates and entertains millions of people daily. It's a day to think about how this amazing invention connects cultures and shares information across the globe!",
+    "activity_question": "What do families often do together on World Television Day?",
+    "activity_choices": [
+      "Gather to watch their favorite shows",
+      "Turn off all their TVs for the day",
+      "Build their own television sets",
+      "Only watch movies on their phones"
+    ],
+    "activity_answer": "Gather to watch their favorite shows",
+    "bonus_fact": "The first TV broadcast happened almost 100 years ago with just fuzzy black and white pictures!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "903",
+    "title": "False Confession Day: Time to Spill Secrets!",
+    "story": "Every November 21, people celebrate False Confession Day by admitting to silly things they didn't actually do! Friends might confess to eating the last cookie when they really didn't, or claim they broke something that was already cracked. It's all about having fun with harmless fake admissions that make everyone laugh. Some people post funny false confessions on social media, while others play confession games with family. The whole point is to be playful and creative with your \"guilty\" secrets that aren't really guilty at all!",
+    "activity_question": "What kind of confessions do people make on False Confession Day?",
+    "activity_choices": [
+      "Silly things they didn't actually do",
+      "Real secrets they've been hiding",
+      "Serious crimes they committed",
+      "Their deepest fears and worries"
+    ],
+    "activity_answer": "Silly things they didn't actually do",
+    "follow_up_question": "What harmless false confession would you make to make your friends giggle?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  }
+]

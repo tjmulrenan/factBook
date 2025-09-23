@@ -1,0 +1,542 @@
+[
+  {
+    "id": 31,
+    "year": "1903",
+    "original": "The Wright brothers attempt to fly the Wright Flyer for the first time at Kitty Hawk, North Carolina",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 1
+  },
+  {
+    "id": 195,
+    "year": "1911",
+    "original": "NorwegianRoald Amundsen's Antarctic expedition is the first to reach the South Pole",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 2
+  },
+  {
+    "id": 127,
+    "year": "2016",
+    "original": "Amazon announces its 1st delivery by drone 2 km from their warehouse in the UK",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 3
+  },
+  {
+    "id": 128,
+    "year": "2016",
+    "original": "University of Toronto scientists present findings of the world's oldest water - 2 billion years old from a mine in Canada",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 4
+  },
+  {
+    "id": 81,
+    "year": "1967",
+    "original": "DNA created in a test tube",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 5
+  },
+  {
+    "id": 77,
+    "year": "1962",
+    "original": "Mariner 2 makes 1st US fly-by of another planet (Venus)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 6
+  },
+  {
+    "id": 104,
+    "year": "1986",
+    "original": "Experimental airplane Voyager, piloted by Dick Rutan & Jeana Yeager, takes off from Edwards AFB, California on 1st non-stop, non-refueled flight around the world; lands 9 days later",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 7
+  },
+  {
+    "id": 87,
+    "year": "1972",
+    "original": "Eugene Cernan & Harrison Schmitt leave the Moon",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 8
+  },
+  {
+    "id": 140,
+    "year": "2020",
+    "original": "Total solar eclipse visible across southern Chile and Argentina",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 9
+  },
+  {
+    "id": 315,
+    "year": "1943",
+    "original": "Britt Allcroft, British film and television producer and writer who created the children's TV series \"Thomas the Tank Engine & Friends\", born in Worthing, West Sussex, England",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 10
+  },
+  {
+    "id": 144,
+    "year": "2021",
+    "original": "Steph Curry makes his 2,974th three-point shot to pass Ray Allen as the NBA's greatest career 3-point shooter during Golden State Warriors' 105-96 win over NY Knicks at Madison Square Garden",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 11
+  },
+  {
+    "id": 121,
+    "year": "2004",
+    "original": "The Millau viaduct, the highest bridge in the world, designed by architect Norman Foster and engineer Michel Virlogeux, near Millau, France is officially opened",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 12
+  },
+  {
+    "id": 260,
+    "year": "1911",
+    "original": "Hans von Ohain, German-American aerospace engineer, developed 1st turbojet engine, born in Dessau, Duchy of Anhalt German Empire (d. 1998)[1]",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 13
+  },
+  {
+    "id": 27,
+    "year": "1900",
+    "original": "Birth of Quantum Physics: German Physicist Max Planck presents a theoretical derivation of his black-body radiation law",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 14
+  },
+  {
+    "id": 189,
+    "year": "2017",
+    "original": "The Vatican announces it has rediscovered the lost last paintings ofRaphaelin Vatican Museum, painted in 1520",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 15
+  },
+  {
+    "id": 132,
+    "year": "2017",
+    "original": "The Walt Disney Company buys most of 21st Century Fox for $52.4 billion",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 16
+  },
+  {
+    "id": 187,
+    "year": "2015",
+    "original": "\"Star Wars: The Force Awakens\" directed byJ.J. Abramsand starringDaisy Ridley,John BoyegaandHarrison Fordhas its world premiere at the TCL Chinese Theatre in Los Angeles",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 17
+  },
+  {
+    "id": 115,
+    "year": "1994",
+    "original": "Construction begins on the Three Gorges Dam, China",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 18
+  },
+  {
+    "id": 10,
+    "year": "1656",
+    "original": "Artificial pearls 1st manufactured by M. Jacquin in Paris made of gypsum pellets covered with fish scales",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 19
+  },
+  {
+    "id": 11,
+    "year": "1702",
+    "original": "The Forty-seven Ronin (leaderless samurai), under the command of Ōishi Kuranosuke, avenge the death of their master in Japan",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 20
+  },
+  {
+    "id": 170,
+    "year": "1969",
+    "original": "Jackson Five make their 1st appearance on \"TheEd SullivanShow\"",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 21
+  },
+  {
+    "id": 356,
+    "year": "1960",
+    "original": "Catherine Coleman, American USAF officer and astronaut (STS 73), born in Charleston, South Carolina",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 22
+  },
+  {
+    "id": 302,
+    "year": "1936",
+    "original": "Carl Scheer, American basketball executive (general manager Denver Nuggets, LA Clippers, Charlotte Hornets; inventor NBA Slam Dunk Contest), born in Springfield, Massachusetts (d. 2019)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 23
+  },
+  {
+    "id": 234,
+    "year": "1883",
+    "original": "Morihei Ueshiba, Japanese martial artist and founder of the Japanese martial art of aikido, born in Tanabe, Wakayama, Japan (d. 1969)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 24
+  },
+  {
+    "id": 71,
+    "year": "1959",
+    "original": "Joe B. Jordan in F-104C starfighter sets world altitude record, 31,513m",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 25
+  },
+  {
+    "id": 73,
+    "year": "1960",
+    "original": "Australia v West Indies 1st Test Cricket at the Gabba ends in a tie",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 26
+  },
+  {
+    "id": 137,
+    "year": "2019",
+    "original": "Miss World won by Miss Jamaica Toni-Ann Singh in London. First time all five major beauty titles held by black women.",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 27
+  },
+  {
+    "id": 145,
+    "year": "2022",
+    "original": "HSBC, Europe's largest bank, says it will stop financing new oil and gas fields, in attempt to lower global greenhouse gas emissions",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 28
+  },
+  {
+    "id": 150,
+    "year": "2024",
+    "original": "Cyclone Chido makes a direct hit on the French island territory of Mayotte off the coast of east Africa before striking northern Mozambique",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 29
+  },
+  {
+    "id": 14,
+    "year": "1774",
+    "original": "First incident of American Revolution - 400 New Hampshire militiamen successfully attack Fort William and Mary",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 30
+  },
+  {
+    "id": 92,
+    "year": "1977",
+    "original": "Egyptian & Israeli representatives gather in Cairo for first formal peace conference",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 31
+  },
+  {
+    "id": 62,
+    "year": "1950",
+    "original": "UN General Assembly establishes High Commission for Refugees, goes on to win Nobel Peace Prize in 1954",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 32
+  },
+  {
+    "id": 219,
+    "year": "1829",
+    "original": "John Mercer Langston, 1st African-American to hold US political office, born in Louisa County, Virginia (d. 1897)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 33
+  },
+  {
+    "id": 361,
+    "year": "1962",
+    "original": "Glenda E. Gray, South African scientist specializing in HIV research, born in Boksburg, South Africa",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 34
+  },
+  {
+    "id": 303,
+    "year": "1936",
+    "original": "Robert Alan Ridley Parker, American PhD/astronaut (STS-9, STS-35), born in New York City",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 35
+  },
+  {
+    "id": 346,
+    "year": "1954",
+    "original": "Steve MacLean, Canadian astronaut (STS 52), born in Ottawa, Ontario",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 36
+  },
+  {
+    "id": 258,
+    "year": "1909",
+    "original": "Edward L Tatum, American molecular geneticist and biochemist (Nobel Prize 1958), born in Boulder, Colorado (d. 1975)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 37
+  },
+  {
+    "id": 262,
+    "year": "1911",
+    "original": "Spike Jones [Lindley Armstrong Jones], American bandleader (\"Der Fueher's Face\", \"Cocktails For Two\"), born in Long Beach, California (d. 1965)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 38
+  },
+  {
+    "id": 364,
+    "year": "1965",
+    "original": "Craig Biggio, American Baseball HOF infielder (7 × MLB All-Star; 4 × Gold Glove Award; 5 × Silver Slugger Award; Houston Astros), born in Smithtown, New York",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 39
+  },
+  {
+    "id": 330,
+    "year": "1949",
+    "original": "Bill Buckner, American MLB 1st baseman (1986 World Series infamous fielding error; NL batting champ 1980), born in Vallejo, California (d. 2019)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 40
+  },
+  {
+    "id": 365,
+    "year": "1966",
+    "original": "Bill Ranford, Canadian ice hockey goaltender (Stanley Cup 1988, 90 Edmonton Oilers; Conn Smythe Trophy 1990; Canada Cup MVP 1991), born in Brandon, Manitoba",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 41
+  },
+  {
+    "id": 168,
+    "year": "1968",
+    "original": "Bobby Orrscores first career hat trick (vs Chicago Blackhawks)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 42
+  },
+  {
+    "id": 175,
+    "year": "1982",
+    "original": "LA Kings'Marcel Dionnebecomes 9th NHLer to score 500 goals",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 43
+  },
+  {
+    "id": 324,
+    "year": "1946",
+    "original": "Ruth Fuchs, German javelin thrower (Olympic 2 gold-72, 76), born in Egeln, Sachsen-Anhalt, Germany",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 45
+  },
+  {
+    "id": 283,
+    "year": "1924",
+    "original": "Siiri Rantanen, Finnish cross country skier (Olympic gold 3 × 5k relay 1956, bronze 1960; bronze 10k 1952), born in Tohmajärvi, North Karelia, Finland (d. 2023)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 47
+  },
+  {
+    "id": 331,
+    "year": "1949",
+    "original": "Cliff Williams, English rock bassist (AC/DC), born in Romford, Essex, England",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 48
+  },
+  {
+    "id": 379,
+    "year": "1970",
+    "original": "Beth Orton, English folk-electronica singer and songwriter (Central Reservation), born in East Dereham, Norfolk, England",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 49
+  },
+  {
+    "id": 351,
+    "year": "1958",
+    "original": "Peter \"Spider\" Tracy, English rock tin whistle player and vocalist (The Pogues - \"Fairy Tale Of New York\"), born in Eastbourne, England",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 50
+  },
+  {
+    "id": 335,
+    "year": "1952",
+    "original": "John Lurie, American jazz saxophonist (Lounge Lizards), composer and actor (Down By Law; Stranger Than Paradise), born in Minneapolis, Minnesota",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 51
+  },
+  {
+    "id": 316,
+    "year": "1943",
+    "original": "Dandy Livingstone (Robert Livingstone Thompson), Jamaican-British reggae musician and record producer (\"Suzanne Beware of the Devil\"; \"Rudy, A Message to You\"), born in Kingston, Jamaica",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 52
+  },
+  {
+    "id": 282,
+    "year": "1924",
+    "original": "Raj Kapoor, Indian actor known as \"the greatest showman of Hindi cinema\" (Awaara, Boot Polish), born in Peshawar, British India (d. 1988)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 53
+  },
+  {
+    "id": 275,
+    "year": "1920",
+    "original": "Clark Terry, American jazz trumpeter, born in St Louis, Missouri (d. 2015)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 54
+  },
+  {
+    "id": 341,
+    "year": "1953",
+    "original": "Vijay Amritraj, Indian tennis player and actor (Octopussy), born in Chennai, India",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 55
+  },
+  {
+    "id": 328,
+    "year": "1948",
+    "original": "Dee Wallace Stone [Deanna Bowers], American actress (Critters, 10, ET), born in Kansas City, Kanasas",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 56
+  },
+  {
+    "id": 201,
+    "year": "1640",
+    "original": "Aphra Behn, English playwright and novelist (Oroonoko - one of earliest English novels), baptized in Canterbury, England (d. 1689)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 57
+  },
+  {
+    "id": 244,
+    "year": "1901",
+    "original": "Helen Blair Bartlett, American geologist credited with inventing the insulation for spark plugs, born in Sharpsville, Pennsylvania (d. 1969)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 58
+  },
+  {
+    "id": 272,
+    "year": "1918",
+    "original": "B.K.S. Iyengar, Indian yoga advocate, born in Bellur, Kolar district, Kingdom of Mysore (d. 2014)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 60
+  },
+  {
+    "id": 284,
+    "year": "1925",
+    "original": "Sam Jones, American baseball pitcher (MLB All-Star 1955, 59; no-hitter 1955; Chicago Cubs), born in Stewartsville, Ohio (d. 1971)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 61
+  },
+  {
+    "id": 291,
+    "year": "1931",
+    "original": "Jaun Elia, Pakistani scholar, poet and philosopher, born in Amroha, Uttar Pradesh, British India (d. 2002)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 62
+  },
+  {
+    "id": 296,
+    "year": "1933",
+    "original": "Leo Wright, American jazz saxophone and flute player (Dizzy Gillespie;; Blues Shout; I Left My Heart In San Francisco), born in Wichita Falls, Texas (d. 1991)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 63
+  }
+]

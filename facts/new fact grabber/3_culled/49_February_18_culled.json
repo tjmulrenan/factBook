@@ -1,0 +1,542 @@
+[
+  {
+    "id": 110,
+    "year": "1979",
+    "original": "Snow falls in the Sahara Desert",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 1
+  },
+  {
+    "id": 54,
+    "year": "1930",
+    "original": "American astronomer Clyde Tombaugh discovers the dwarf planet Pluto",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 2
+  },
+  {
+    "id": 55,
+    "year": "1930",
+    "original": "Cow flown & milked, milk sealed in paper containers & parachuted",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 3
+  },
+  {
+    "id": 104,
+    "year": "1977",
+    "original": "Space Shuttle Enterprise takes its maiden flight affixed atop a Boeing 747 Shuttle Aircraft Carrier",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 4
+  },
+  {
+    "id": 98,
+    "year": "1973",
+    "original": "54-kg octopus measuring 7m across captured in Hood Canal, Washington",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 5
+  },
+  {
+    "id": 182,
+    "year": "1981",
+    "original": "Twenty-year-old Edmonton centerWayne Gretzkybecomes the first player in NHL history to score five career hat tricks before age 21, scoring five goals and two assists in a 9-2 Oilers home win against St. Louis",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 6
+  },
+  {
+    "id": 88,
+    "year": "1967",
+    "original": "Softball pitcher Eddie Feigner strikes out 6 straight major leaguers",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 7
+  },
+  {
+    "id": 106,
+    "year": "1978",
+    "original": "1st Iron Man Triathlon (swim, bike ride, and run marathon) held, beginning and ending at the Aloha Tower in Honolulu Harbor of Oʻahu, Hawaii",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 8
+  },
+  {
+    "id": 155,
+    "year": "1885",
+    "original": "Mark Twainpublishes \"The Adventures of Huckleberry Finn\" in the US",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 9
+  },
+  {
+    "id": 199,
+    "year": "1879",
+    "original": "French SculptorFrédéric-Auguste Bartholdiis awarded a US patent for his design for the Statue of Liberty",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 10
+  },
+  {
+    "id": 66,
+    "year": "1944",
+    "original": "15-year-old Joe Nuxhall signs a contract to play baseball with the Cincinnati Reds just one day after playing in a high school basketball game; debuts later that year",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 11
+  },
+  {
+    "id": 119,
+    "year": "1986",
+    "original": "San Antonio guard Alvin Robertson scores NBA's 2nd quadruple double-20 points, 11 rebounds, 10 assists & 10 steals in 120-114 win over Phoenix Suns",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 12
+  },
+  {
+    "id": 121,
+    "year": "1992",
+    "original": "American amateur astronomer Peter Collins discovers Nova Cygni 1992, observed from Boulder, Colorado",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 13
+  },
+  {
+    "id": 134,
+    "year": "2014",
+    "original": "American snowboarder David Wise wins first of 2 consecutive Olympic halfpipe gold medals in Sochi; wins again in Pyeongchang (2018)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 14
+  },
+  {
+    "id": 376,
+    "year": "1950",
+    "original": "John Hughes, American film director (Breakfast Club; Ferris Bueller's Day Off), born in Lansing, Michigan (d. 2009)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 16
+  },
+  {
+    "id": 184,
+    "year": "1986",
+    "original": "Anti-smoking ad airs for 1st time on TV, featuringYul Brynner: he died of smoking-induced lung cancer on 10th October 1985",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 17
+  },
+  {
+    "id": 13,
+    "year": "1787",
+    "original": "Holy Roman Emperor Joseph II bans children under 8 from labor",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 18
+  },
+  {
+    "id": 156,
+    "year": "1893",
+    "original": "The Barnum Museum opens in Bridgeport, Connecticut, dedicated to the life ofP. T. Barnum",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 19
+  },
+  {
+    "id": 174,
+    "year": "1968",
+    "original": "British guitaristDavid Gilmourjoins progressive rock groupPink Floyd",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 20
+  },
+  {
+    "id": 30,
+    "year": "1896",
+    "original": "Cave of Winds at Niagara Falls goes almost dry for first time in 50 yrs",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 21
+  },
+  {
+    "id": 39,
+    "year": "1911",
+    "original": "The first official flight with air mail takes place in Allahabad, British India, when Henri Pequet, a 23-year-old pilot, delivers 6,500 letters to Naini, about 10 km away.",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 22
+  },
+  {
+    "id": 164,
+    "year": "1913",
+    "original": "French modernist painting \"Nude Descending a Staircase\" byMarcel Duchampcauses an uproar when shown in New York",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 23
+  },
+  {
+    "id": 240,
+    "year": "1848",
+    "original": "Louis Comfort Tiffany, American artist and designer known for his glasswork (Tiffany & Co), born in New York City (d. 1933)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 24
+  },
+  {
+    "id": 250,
+    "year": "1871",
+    "original": "Harry Brearley, English inventor of stainless steel, born in Sheffield, England (d. 1948)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 25
+  },
+  {
+    "id": 36,
+    "year": "1901",
+    "original": "H Cecil Booth patented a dust removing suction cleaner",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 26
+  },
+  {
+    "id": 233,
+    "year": "1831",
+    "original": "Rebecca Lee Crumpler, American physician and medical writer (first African American woman to receive a medical degree), born in Delaware (d. 1895)[1]",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 27
+  },
+  {
+    "id": 159,
+    "year": "1903",
+    "original": "\"In Dahomey\" the first African American musical to perform on Broadway opens at the New York Theater, starring George Walker and Bert Williams with music by Will Marion Cook",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 28
+  },
+  {
+    "id": 190,
+    "year": "1998",
+    "original": "Andrea Bocellimakes his operatic debut as Rodolfo in \"La bohème\" at the Teatro Comunale in Cagliari",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 29
+  },
+  {
+    "id": 140,
+    "year": "2018",
+    "original": "Frenchman Martin Fourcade wins his 2nd of 3 gold medals at the Pyeongchang Winter Olympics in the 15k mass start biathlon; also wins men's 12.5k pursuit & mixed relay",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 38
+  },
+  {
+    "id": 165,
+    "year": "1919",
+    "original": "Cy Dennenyof NHL Ottawa Senators scores record 52nd goal",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 39
+  },
+  {
+    "id": 107,
+    "year": "1979",
+    "original": "-52°F (-47°C), Old Forge, New York (state record)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 44
+  },
+  {
+    "id": 90,
+    "year": "1968",
+    "original": "Britain commences a trial of year-round daylight saving time (BST - British Standard Time, one hour ahead of GMT)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 45
+  },
+  {
+    "id": 109,
+    "year": "1979",
+    "original": "NASA launches space vehicle S-202",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 48
+  },
+  {
+    "id": 100,
+    "year": "1974",
+    "original": "NASA launches Italian satellite San Marcos C-2 (235/843 km)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 49
+  },
+  {
+    "id": 127,
+    "year": "2003",
+    "original": "Comet C/2002 V1 (NEAT) makes perihelion, seen by SOHO.",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 50
+  },
+  {
+    "id": 194,
+    "year": "2009",
+    "original": "English fantasy authorTerry Pratchettreceives a knighthood fromQueen Elizabeth IIat Buckingham Palace",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 51
+  },
+  {
+    "id": 247,
+    "year": "1862",
+    "original": "Boris Borisovich Golitsyn, prominent Russian physicist and inventor of the first electromagnetic seismograph, born in Saint Petersburg, Russia (d. 1916)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 52
+  },
+  {
+    "id": 204,
+    "year": "1530",
+    "original": "Uesugi Kenshin, Japanese samurai and warlord known as the \"Dragon of Echigo\", born in Echigo Province, Japan (d. 1578)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 53
+  },
+  {
+    "id": 276,
+    "year": "1906",
+    "original": "Hans Asperger, Austrian pediatrician and eponym of Asperger syndrome, born in Vienna, Austria-Hungary (d. 1980)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 54
+  },
+  {
+    "id": 330,
+    "year": "1934",
+    "original": "Audre Lorde, American writer, feminist and activist (Black Unicorn), born in New York City (d. 1992)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 55
+  },
+  {
+    "id": 334,
+    "year": "1935",
+    "original": "George Lee [George Li], Chinese ballet dancer who is believed to be the first Asian dancer at the New York City Ballet, born in Hong Kong (d. 2025)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 56
+  },
+  {
+    "id": 300,
+    "year": "1924",
+    "original": "Humberto Fernández-Morán, Venezuelan scientist who developed the diamond knife, born in Maracaibo, Venezuela (d. 1999)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 57
+  },
+  {
+    "id": 375,
+    "year": "1950",
+    "original": "Foday Musa Suso, Gambian kora (21-string West African lute-like instrument), composer, and  girot (oral historian and folk musician), born in Sarre Hamadi, British Gambia Colony (d. 2025)[1]",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 58
+  },
+  {
+    "id": 350,
+    "year": "1940",
+    "original": "Prue Leith, South African restaurateur, food writer and TV presenter (The Great British Bake Off), born in Cape Town, South Africa",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 59
+  },
+  {
+    "id": 354,
+    "year": "1941",
+    "original": "Irma Thomas [Lee], American R&B and soul singer (\"It's Raining\"), born in Ponchatoula, Louisiana",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 60
+  },
+  {
+    "id": 381,
+    "year": "1953",
+    "original": "(Robin) \"Robbie\" Bachman, Canadian drummer (Bachman-Turner Overdrive - \"You Ain't Seen Nothing Yet\"; \"Takin' Care Of Business\"), born in Winnipeg, Manitoba (d. 2023)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 61
+  },
+  {
+    "id": 111,
+    "year": "1980",
+    "original": "East German cross country skier Barbara Petzold wins first of 2 gold medals at the Lake Placid Winter Olympics in women's 10k; also takes gold as part of 4 x 5k relay team",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 66
+  },
+  {
+    "id": 188,
+    "year": "1991",
+    "original": "Edmonton Oiler goalieGrant Fuhrreturns to NHL after season-long suspension for substance abuse & shuts out NJ Devils 4-0",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 69
+  },
+  {
+    "id": 31,
+    "year": "1899",
+    "original": "80°F recorded in San Francisco, California",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 70
+  },
+  {
+    "id": 17,
+    "year": "1828",
+    "original": "More than 100 vessels destroyed in a storm, Gibraltar",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 71
+  },
+  {
+    "id": 103,
+    "year": "1977",
+    "original": "American rock band KISS play their first concert in their hometown venue of Madison Square Garden in New York City",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 76
+  },
+  {
+    "id": 105,
+    "year": "1977",
+    "original": "West Indies cricket fast bowlers Joel Garner (4/130) and (Colin Croft 3/85) debut in drawn 1st Test v Pakistan at Bridgetown, Barbados",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 77
+  },
+  {
+    "id": 2,
+    "year": "749",
+    "original": "Kʼakʼ Yipyaj Chan Kʼawiil, known as Smoke Shell, ascends to the throne of the Maya city of Copán",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 78
+  },
+  {
+    "id": 144,
+    "year": "1503",
+    "original": "Henry Tudor (laterHenry VIII) is appointed Prince of Wales, heir apparent to the English throne",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 79
+  },
+  {
+    "id": 145,
+    "year": "1519",
+    "original": "Hernán Cortésleaves Cuba for the Yucatán Peninsula, Mexico, with 11 ships and 500 men",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 80
+  },
+  {
+    "id": 10,
+    "year": "1688",
+    "original": "Quakers consider drafting formal protest of slavery in Germantown, Pennsylvania",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 81
+  },
+  {
+    "id": 15,
+    "year": "1804",
+    "original": "Ohio legislature approves establishment of Ohio University at Athens as the 1st university in Ohio; first classes are held in 1809",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 82
+  },
+  {
+    "id": 20,
+    "year": "1849",
+    "original": "First regular steamboat service to California starts (or Feb 28)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 83
+  },
+  {
+    "id": 236,
+    "year": "1838",
+    "original": "Ernst Mach, Austrian physicist (shock waves, Mach number), philosopher and psychologist, born in Brno, Moravia, Austrian Empire (d. 1916)",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 85
+  },
+  {
+    "id": 268,
+    "year": "1897",
+    "original": "Charles Kuentz, Alsatian WW1 veteran, changed nationality 4 times, born in Ranspach, Alsace (d. 2005)",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 86
+  }
+]

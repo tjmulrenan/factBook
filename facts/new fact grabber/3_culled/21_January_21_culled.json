@@ -1,0 +1,542 @@
+[
+  {
+    "id": 146,
+    "year": "1903",
+    "original": "Harry Houdiniescapes from Halvemaansteeg police station in Amsterdam",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 1
+  },
+  {
+    "id": 120,
+    "year": "2007",
+    "original": "Awashima Marine Park in Japan catches a video tape of the rare frilled shark.",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 2
+  },
+  {
+    "id": 89,
+    "year": "1980",
+    "original": "Les Henson, Virginia Tech, makes 89' 3\" basketball field goal",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 3
+  },
+  {
+    "id": 132,
+    "year": "2020",
+    "original": "World's oldest asteroid impact at 2.2 billion years old found in Yarrabubba, Western Australia, may have ended an ice age, reported in \"Nature Communications\"",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 4
+  },
+  {
+    "id": 140,
+    "year": "2025",
+    "original": "Historic snowstorm hits US deep south, with Louisiana and parts of Texas issuing their first-ever blizzard warnings: record snow accumulations in Louisiana and Florida",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 5
+  },
+  {
+    "id": 178,
+    "year": "2019",
+    "original": "Golden State guardKlay Thompsonsets an NBA record by making his first 10 attempts from 3-point range as the Warriors beat the LA Lakers, 130-111; Thompson scores 44 points",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 6
+  },
+  {
+    "id": 64,
+    "year": "1954",
+    "original": "First nuclear-powered submarine, USS Nautilus, is launched on the Thames River in Connecticut",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 7
+  },
+  {
+    "id": 118,
+    "year": "2004",
+    "original": "NASA's MER-A (the Mars Rover Spirit) ceases communication with mission control. The problem lies with Flash Memory management and is fixed remotely from Earth on February 6.",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 8
+  },
+  {
+    "id": 169,
+    "year": "1989",
+    "original": "Wayne GretzkypassesMarcel Dionneto become NHL's 2nd all time scorer",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 9
+  },
+  {
+    "id": 117,
+    "year": "2004",
+    "original": "Minnesota Wild set an NHL record for 2 fastest goals, when Jim Dowd and Richard Park score just 3 seconds apart in the final 15 seconds of a 4-2 win over visiting Chicago Blackhawks",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 10
+  },
+  {
+    "id": 164,
+    "year": "1982",
+    "original": "\"Shaolin Temple\" martial arts film released, first Hong Kong feature filmed in China, directed by Chang Hsin Yen and starringJet Liin his debut role",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 11
+  },
+  {
+    "id": 170,
+    "year": "1990",
+    "original": "John McEnroebecomes the first player to be expelled from the Australian Open",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 12
+  },
+  {
+    "id": 174,
+    "year": "2010",
+    "original": "LA Lakers forwardKobe Bryantbecomes the youngest NBA player to reach 25,000 career points at 31 years, 151 days; beats Wilt Chamberlain by 35 days",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 13
+  },
+  {
+    "id": 86,
+    "year": "1976",
+    "original": "Supersonic Concorde has its 1st commercial flights",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 14
+  },
+  {
+    "id": 87,
+    "year": "1979",
+    "original": "Neptune becomes outermost planet (Pluto moves closer)",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 15
+  },
+  {
+    "id": 219,
+    "year": "1884",
+    "original": "Katie Sandwina [Katie Brumbach], Austrian-American weight-lifter (Ringling Bros. and Barnum & Bailey Circus), born in Vienna, Austria (d. 1952)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 16
+  },
+  {
+    "id": 262,
+    "year": "1921",
+    "original": "Barney Clark, American dentist and heart patient, 1st to receive a permanent artificial heart, born in Utah (d. 1983)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 17
+  },
+  {
+    "id": 381,
+    "year": "2007",
+    "original": "Luke Littler, English darts player (PDC World C'ship 2024; youngest PDC World Champion [17 years and 347 days]), born in Runcorn, England",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 18
+  },
+  {
+    "id": 129,
+    "year": "2017",
+    "original": "Adam Hadwin fires only the 7th sub-60 round (59) in PGA Tour history in the 3rd round of the CareerBuilder Challenge at LaQuinta CC",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 19
+  },
+  {
+    "id": 41,
+    "year": "1930",
+    "original": "Boston Bruins become first team in NHL history to score 100 goals in a season, in a 5-1 win over Chicago at Boston Garden; Cooney Weiland scores Bruins' 100th goal in their 26th game of the year",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 21
+  },
+  {
+    "id": 163,
+    "year": "1978",
+    "original": "Panamanian boxerRoberto Duránbecomes undisputed world lightweight champion with a 12th-round TKO of Esteban De Jesus at Caesars Palace, Las Vegas; defends his WBA title for 12th time, also takes De Jesus’ WBC title",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 24
+  },
+  {
+    "id": 26,
+    "year": "1894",
+    "original": "Oscar Fredriksen skates world record 500m in 47.8 sec",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 25
+  },
+  {
+    "id": 96,
+    "year": "1985",
+    "original": "-19°F (-28°C), Caesar's Head, South Carolina (state record)",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 27
+  },
+  {
+    "id": 97,
+    "year": "1985",
+    "original": "-34°F (-37°C), Mt Mitchell, North Carolina (state record)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 28
+  },
+  {
+    "id": 44,
+    "year": "1935",
+    "original": "12.0\" (30.5 cm) of rain falls, Quinault RS, Washington (state record)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 29
+  },
+  {
+    "id": 23,
+    "year": "1887",
+    "original": "Brisbane receives a daily rainfall of 465 millimetres (18.3 inches), a record for any Australian capital city",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 30
+  },
+  {
+    "id": 73,
+    "year": "1962",
+    "original": "Snow falls in San Francisco",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 31
+  },
+  {
+    "id": 88,
+    "year": "1979",
+    "original": "Super Bowl XIII, Miami Orange Bowl, Miami, FL: Pittsburgh Steelers beat Dallas Cowboys, 35-31; MVP: Terry Bradshaw, Pittsburgh, QB",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 32
+  },
+  {
+    "id": 149,
+    "year": "1921",
+    "original": "British crime writerAgatha Christiepublishes her first novel \"The Mysterious Affair at Styles\" introducing the character Hercule Poirot",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 33
+  },
+  {
+    "id": 190,
+    "year": "1743",
+    "original": "John Fitch, American inventor (had a working steamboat years before Fulton), born in Windsor, Connecticut (d. 1798)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 34
+  },
+  {
+    "id": 200,
+    "year": "1815",
+    "original": "Horace Wells, American dentist (pioneered use of medical anesthesia), born in Hartford, Vermont (d. 1848)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 35
+  },
+  {
+    "id": 122,
+    "year": "2008",
+    "original": "The Eyak language in Alaska becomes extinct as its last native speaker dies",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 36
+  },
+  {
+    "id": 179,
+    "year": "2019",
+    "original": "Li Naof China becomes first Asian player to be elected to the International Tennis Hall of Fame; joins Russian Yevgeny Kafelnikov andMary Pierceof France as Class of 2019 inductees",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 37
+  },
+  {
+    "id": 343,
+    "year": "1965",
+    "original": "Jam Master Jay [Jason Mizell], American rapper, DJ and musician (Run-DMC), born in New York City (d. 2002)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 38
+  },
+  {
+    "id": 277,
+    "year": "1926",
+    "original": "Stephen \"Steve\" Reeves, American professional bodybuilder, actor (Hercules, Goliath, Sandokan), and philanthropist, born in Glasgow, Montana (d. 2000)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 40
+  },
+  {
+    "id": 300,
+    "year": "1941",
+    "original": "Richie Havens, American singer-songwriter, and guitarist who opened the Woodstock Festival (\"Freedom\"; \"Here Comes the Sun\"), born in Bedford–Stuyvesant, Brooklyn, New York City (d. 2013)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 41
+  },
+  {
+    "id": 320,
+    "year": "1950",
+    "original": "Billy Ocean [Leslie Charles], Trinidadian-British pop and R&B singer (\"Caribbean Queen\"; \"Get Outta My Dreams, Get Into My Car\"), born in Fyzabad, Trinidad and Tobago",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 42
+  },
+  {
+    "id": 378,
+    "year": "1994",
+    "original": "(Nils) \"Booboo\" Stewart, American actor (Descendants), born in Beverly Hills, California",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 44
+  },
+  {
+    "id": 332,
+    "year": "1956",
+    "original": "Geena Davis, American actress (Beetlejuice, Fly), born in Wareham, Massachusetts",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 45
+  },
+  {
+    "id": 359,
+    "year": "1977",
+    "original": "Jerry Trainor, American actor (Drake & Josh; iCarly), born in San Diego, California",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 46
+  },
+  {
+    "id": 375,
+    "year": "1988",
+    "original": "Felipe Neto, Brazilian vlogger (YouTube), born in Rio de Janeiro, Brazil",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 47
+  },
+  {
+    "id": 380,
+    "year": "2004",
+    "original": "Ingrid Alexandra, Princess of Norway, oldest child of Crown Prince Haakon, born in Oslo, Norway",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 48
+  },
+  {
+    "id": 45,
+    "year": "1935",
+    "original": "The Wilderness Society is founded by conservationists",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 50
+  },
+  {
+    "id": 103,
+    "year": "1988",
+    "original": "US accepts immigration of 30,000 US-Vietnamese children",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 51
+  },
+  {
+    "id": 14,
+    "year": "1813",
+    "original": "Spaniard Don Francisco de Paula y Marin plants coffee in Hawaii, first record of coffee growing in Hawaii",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 52
+  },
+  {
+    "id": 50,
+    "year": "1941",
+    "original": "1st commercial extraction of magnesium from seawater, Freeport, Texas",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 53
+  },
+  {
+    "id": 8,
+    "year": "1677",
+    "original": "First medical publication in America, a pamphlet on smallpox, is published in Boston",
+    "score": 55,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 54
+  },
+  {
+    "id": 123,
+    "year": "2013",
+    "original": "1 person is killed and 15 are injured by a magnitude 5.9 earthquake in Indonesia",
+    "score": 55,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 55
+  },
+  {
+    "id": 352,
+    "year": "1972",
+    "original": "Xiaowei Zhuang, Chinese-American scientist, developed super-resolution imaging method STORM, born in Rugao, Jiangsu, China[1]",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 56
+  },
+  {
+    "id": 206,
+    "year": "1840",
+    "original": "Sophia Louisa Jex-Blake, English physician and feminist who was one of the first female medical students at a British university, born in Hastings, England (d. 1912)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 57
+  },
+  {
+    "id": 221,
+    "year": "1885",
+    "original": "Umberto Nobile, Italian aviator and polar explorer (designed and flew 1st airship across the polar air cap), born in Lauro, Italy (d. 1978)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 58
+  },
+  {
+    "id": 377,
+    "year": "1993",
+    "original": "Sei Young Kim, South Korean golfer (PGA Women's C'ship 2020; LPGA 72-hole scoring record 257), born in Seoul, South Korea",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 61
+  },
+  {
+    "id": 379,
+    "year": "1994",
+    "original": "Laura Robson, British tennis player (Olympics mixed doubles silver 2012), born in Melbourne, Australia",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 62
+  },
+  {
+    "id": 184,
+    "year": "1978",
+    "original": "Bee Gees' album \"Saturday Night Fever\" goes #1 for 24 weeks",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 63
+  },
+  {
+    "id": 153,
+    "year": "1942",
+    "original": "Count Basierecords the music single and Jazz standard \"One O'Clock Jump\"",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 64
+  },
+  {
+    "id": 167,
+    "year": "1987",
+    "original": "B.B. Kingdonates his 7,000 record collection to the University of Mississippi",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 65
+  },
+  {
+    "id": 168,
+    "year": "1987",
+    "original": "Second Rock and Roll Hall of Fame inductees: The Coasters; Eddie Cochran;Bo Diddley;Aretha Franklin;Marvin Gaye;Bill Haley;B.B. King; Clyde McPhatter;Ricky Nelson;Roy Orbison;Carl Perkins;Smokey Robinson; Joe Turner;Muddy Waters;Jackie Wilson;Louis Jordan;T-Bone Walker;Hank Williams; Leonard Chess; Ahmet Ertegun; Jerry Leiber and Mike Stoller; and Jerry Wexler",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 66
+  },
+  {
+    "id": 90,
+    "year": "1980",
+    "original": "Price of gold peaks briefly at over $870 before closing at then record $850 an ounce",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 70
+  },
+  {
+    "id": 95,
+    "year": "1983",
+    "original": "First supertitles for a live opera performance: \"Elektra\" at Canadian Opera Company, English titles by Sonya Friedman",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 71
+  },
+  {
+    "id": 100,
+    "year": "1985",
+    "original": "Jessye Norman sings \"Simple Gifts\" at the second inauguration of US PresidentRonald Reaganin Washington, D. C.",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 72
+  }
+]

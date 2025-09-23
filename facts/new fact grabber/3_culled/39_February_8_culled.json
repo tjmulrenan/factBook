@@ -1,0 +1,542 @@
+[
+  {
+    "id": 20,
+    "year": "1855",
+    "original": "The Devil's Footprints, hoof-like marks mysteriously appear for over 60km after a snowfall in southern Devon, England",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 1
+  },
+  {
+    "id": 103,
+    "year": "1969",
+    "original": "Meteorite weighing over 1 ton falls in Chihuahua, Mexico",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 2
+  },
+  {
+    "id": 130,
+    "year": "1986",
+    "original": "5'7\" Spud Webb of the Atlanta Hawks wins the NBA Slam Dunk Contest",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 3
+  },
+  {
+    "id": 127,
+    "year": "1985",
+    "original": "Bruce Morris, Marshall Univ, makes a 92' 5½\" basketball shot",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 4
+  },
+  {
+    "id": 100,
+    "year": "1968",
+    "original": "Film \"Planet of the Apes\", based on Pierre Boulle's 1963 novel \"La Planète des singes\" premieres in New York City",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 5
+  },
+  {
+    "id": 110,
+    "year": "1974",
+    "original": "Three US astronauts return to Earth after a 85 days in the US space station, Skylab",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 6
+  },
+  {
+    "id": 164,
+    "year": "1926",
+    "original": "Disney Brothers Cartoon Studio becomesWalt DisneyStudios",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 7
+  },
+  {
+    "id": 146,
+    "year": "1998",
+    "original": "Finland beats Sweden, 6-0 at the Aqua Wing Arena in Nagano, Japan in the first female ice hockey game played in Olympic history",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 8
+  },
+  {
+    "id": 124,
+    "year": "1984",
+    "original": "For the 1st time eight people are in space",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 9
+  },
+  {
+    "id": 267,
+    "year": "1906",
+    "original": "Chester F. Carlson, American inventor (photocopying), born in Seattle, Washington (d. 1968)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 10
+  },
+  {
+    "id": 360,
+    "year": "1961",
+    "original": "Bruce Timm, American artist and TV Producer (DC Animated Universe), born in Oklahoma",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 11
+  },
+  {
+    "id": 384,
+    "year": "1974",
+    "original": "Guy-Manuel de Homem-Christo, French musician, singer-songwriter, and producer (Daft Punk - \"Get Lucky\"), born in Neuilly-sur-Seine, France",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 12
+  },
+  {
+    "id": 26,
+    "year": "1879",
+    "original": "Sandford Fleming first proposes dividing the world into 24 equal time zones and adopting a Universal Standard Time at a meeting of the Royal Canadian Institute (adopted 1884)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 13
+  },
+  {
+    "id": 159,
+    "year": "1672",
+    "original": "Isaac Newtonreads his first optics paper before the Royal Society in London",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 14
+  },
+  {
+    "id": 148,
+    "year": "2002",
+    "original": "XIX Winter Olympic Games open in Salt Lake City, Utah, United States",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 40
+  },
+  {
+    "id": 122,
+    "year": "1983",
+    "original": "Prize stallion and Derby winner Shergar kidnapped in Ireland, never to be found causing Lloyd's of London to payout $10.6 million insurance",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 16
+  },
+  {
+    "id": 38,
+    "year": "1910",
+    "original": "The Boy Scouts of America is incorporated by William D. Boyce",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 17
+  },
+  {
+    "id": 374,
+    "year": "1968",
+    "original": "Gary Coleman, American actor (Diff'rent Strokes), born in Zion, llinois (d. 2010)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 18
+  },
+  {
+    "id": 386,
+    "year": "1974",
+    "original": "Seth Green, American actor and producer (Family Guy; Austin Powers), born in Philadelphia, Pennsylvania",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 19
+  },
+  {
+    "id": 406,
+    "year": "1984",
+    "original": "Cecily Strong, American actress and comedian (Saturday Night Live), born in Stringfield, Illinois",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 20
+  },
+  {
+    "id": 13,
+    "year": "1743",
+    "original": "Comet C/1743 C1 approaches within 0.0390 AUs of Earth",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 21
+  },
+  {
+    "id": 138,
+    "year": "1992",
+    "original": "Ulysses spacecraft passes Jupiter",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 22
+  },
+  {
+    "id": 6,
+    "year": "1627",
+    "original": "Gunpowder is used in a mining operation instead of mechanical tools in present-day Slovakia, reportedly the first time explosives had been used in mining",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 23
+  },
+  {
+    "id": 301,
+    "year": "1928",
+    "original": "Ada Lois Sipuel Fisher, American lawyer and civil rights activist (challenged University of Oklahoma segregation laws in Supreme Court and won), born in Chickasha, Oklahoma (d. 1995)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 24
+  },
+  {
+    "id": 356,
+    "year": "1958",
+    "original": "Marina Silva, Brazilian politician and environmentalist (as Environment Minister increased Amazon protections), born in Rio Branco, Brazil",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 25
+  },
+  {
+    "id": 317,
+    "year": "1937",
+    "original": "Joe Raposa, American composer and songwriter (Sesame Street - \"Bein' Green\"), born in Fall River Massachusetts (d. 1989)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 26
+  },
+  {
+    "id": 409,
+    "year": "1987",
+    "original": "Carolina Kostner, Italian figure skater (5X European Champion; World Champion, 2012; Olympic bronze, 2014), born in Bolzano, Italy",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 27
+  },
+  {
+    "id": 410,
+    "year": "1989",
+    "original": "Bronte Barratt, Australian swimmer (Olympic gold 4x200m freestyle relay 2008 WR; World C'ship gold 4x100m freestyle relay 2015), born in Brisbane, Australia",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 28
+  },
+  {
+    "id": 412,
+    "year": "1989",
+    "original": "Julio Jones, American football receiver (First-team All-Pro 2015, 16; 7 × Pro Bowl; Atlanta Falcons), born in Foley, Alabama",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 29
+  },
+  {
+    "id": 407,
+    "year": "1985",
+    "original": "Jeremy Davis, American rock bassist and songwriter (Paramore, 2004-15 - \"Misery Business\"; \"Still Into You\"), born in Little Rock, Arkansas",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 30
+  },
+  {
+    "id": 392,
+    "year": "1977",
+    "original": "Dave Farrell, American rock bass player (Linkin Park - \"In The End\"; \"What I've Done\"), born in Plymouth, Massachusetts",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 31
+  },
+  {
+    "id": 408,
+    "year": "1986",
+    "original": "Anderson Paak [Brandon Paak Anderson], American singer-songwriter and rapper (\"Leave the Door Open\"), born in Oxnard, California",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 32
+  },
+  {
+    "id": 399,
+    "year": "1980",
+    "original": "William Jackson Harper, American actor (The Good Place - \"Chidi\"), born in Dallas, Texas",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 33
+  },
+  {
+    "id": 415,
+    "year": "1997",
+    "original": "Kathryn Newton, American actress (Freaky), born in Orlando, Florida",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 34
+  },
+  {
+    "id": 411,
+    "year": "1989",
+    "original": "Danielle Harmer, English actress (The Story of Tracey Beaker), born in Bracknell, England",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 35
+  },
+  {
+    "id": 128,
+    "year": "1985",
+    "original": "Michael Gross swims world record 800m freestyle (7:38.75)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 36
+  },
+  {
+    "id": 394,
+    "year": "1978",
+    "original": "Christa Williams, American softball pitcher (Olympic gold 1996), born in Houston, Texas",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 37
+  },
+  {
+    "id": 182,
+    "year": "1975",
+    "original": "Pete Maravichscores 47 points as the New Orleans Jazz end a 28-game NBA road losing streak with a 106-102 win over the Hawks in Atlanta",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 39
+  },
+  {
+    "id": 76,
+    "year": "1948",
+    "original": "Canada beats Switzerland 3-0, to regain the Olympic ice hockey title at the St. Moritz Winter Games; forward Walter Halder top scores with 29 points in Canada’s 5th Olympic title",
+    "score": 76,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 41
+  },
+  {
+    "id": 191,
+    "year": "1994",
+    "original": "Kapil Devsets world record for Test Cricket wickets with 432",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 43
+  },
+  {
+    "id": 125,
+    "year": "1984",
+    "original": "Soyuz T-10 launches with crew of 3 to Salyut 7",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 44
+  },
+  {
+    "id": 131,
+    "year": "1988",
+    "original": "NASA launches DOD-2",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 45
+  },
+  {
+    "id": 335,
+    "year": "1944",
+    "original": "Sebastião Salgado, Brazilian documentary photographer known for his photos of the Amazon rainforest, born in Aimorés, Brazil (d. 2025)[1]",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 48
+  },
+  {
+    "id": 211,
+    "year": "1700",
+    "original": "Daniel Bernoulli, Dutch-Swiss mathematician, and physicist (10 time French Award), born in Groningen, Netherlands (d. 1782)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 49
+  },
+  {
+    "id": 235,
+    "year": "1876",
+    "original": "Paula Modersohn-Becker, German Expressionist painter (1st known woman to paint nude self-portraits), born in Dresden-Friedrichstadt (d. 1907)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 50
+  },
+  {
+    "id": 242,
+    "year": "1882",
+    "original": "Thomas Selfridge, American army officer, 1st person to die in an airplane crash, born in San Francisco, California (d. 1908)",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 51
+  },
+  {
+    "id": 287,
+    "year": "1921",
+    "original": "Betsy Jochum, American baseball player and original member of the All-American Girls Professional Baseball League, born in Cincinnati, Ohio (d. 2025)[1]",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 53
+  },
+  {
+    "id": 292,
+    "year": "1922",
+    "original": "Yuri Averbach, Russian chess player (first centenarian FIDE Grandmaster), born in Kaluga, Russia (d. 2022)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 54
+  },
+  {
+    "id": 16,
+    "year": "1802",
+    "original": "Simon Willard patents banjo clock",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 55
+  },
+  {
+    "id": 24,
+    "year": "1865",
+    "original": "Martin Robison Delany, 1st black major in US Army appointed during US Civil War",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 56
+  },
+  {
+    "id": 170,
+    "year": "1945",
+    "original": "Paul Brownagrees to coach the new American football expansion team in Cleveland, which would later be named the Cleveland Browns after their coach",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 57
+  },
+  {
+    "id": 180,
+    "year": "1972",
+    "original": "Josh Gibsonand Buck Leonard elected to the Baseball Hall of Fame",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 58
+  },
+  {
+    "id": 115,
+    "year": "1977",
+    "original": "Earthquake in San Francisco, at 5.0, strongest since 1966",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 60
+  },
+  {
+    "id": 59,
+    "year": "1933",
+    "original": "-23°F (-31°C), Seminole, Texas (state record)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 61
+  },
+  {
+    "id": 144,
+    "year": "1996",
+    "original": "The massive Internet collaboration \"24 Hours in Cyberspace\" takes place",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 62
+  },
+  {
+    "id": 151,
+    "year": "2010",
+    "original": "747-8 Freighter takes off for its maiden flight from Paine Field, Washington",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 63
+  },
+  {
+    "id": 54,
+    "year": "1928",
+    "original": "1st transatlantic TV image received at Hartsdale, NY",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 64
+  },
+  {
+    "id": 60,
+    "year": "1933",
+    "original": "1st flight of all-metal Boeing 247",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 65
+  },
+  {
+    "id": 27,
+    "year": "1883",
+    "original": "Louis Waterman begins experiment to invent the fountain pen",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 66
+  },
+  {
+    "id": 157,
+    "year": "1575",
+    "original": "University of Leiden established byWilliam I of Orange, given the motto \"Praesidium Libertatis\" (oldest university in Netherlands)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 71
+  }
+]

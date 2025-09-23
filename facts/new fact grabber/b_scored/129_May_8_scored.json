@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "original": "World Red Cross and Red Crescent Day",
+    "score": 55,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "Victory in Europe Day (VE Day)",
+    "score": 40,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 3,
+    "original": "Time of Remembrance and Reconciliation for Those Who Lost Their Lives during the Second World War",
+    "score": 35,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 4,
+    "original": "World Ovarian Cancer Day",
+    "score": 35,
+    "is_kid_friendly": false
+  }
+]

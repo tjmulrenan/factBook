@@ -1,0 +1,122 @@
+[
+  {
+    "id": "901",
+    "title": "Stack Attack: National Sandwich Day",
+    "story": "Every November 3, sandwich lovers across America celebrate National Sandwich Day by creating their wildest food combinations! People share photos of towering club sandwiches, gooey grilled cheese, and crazy creations like peanut butter and pickle combos on social media. Restaurants offer special sandwich deals, and families have fun building the tallest sandwiches they can imagine. Some people try to recreate famous sandwiches from around the world, while others invent completely new flavors. It's the perfect day to get creative with bread and fillings!",
+    "activity_question": "What do people often share on social media during National Sandwich Day?",
+    "activity_choices": [
+      "Photos of their sandwich creations",
+      "Videos of dancing bread slices",
+      "Pictures of empty plates",
+      "Recipes for soup"
+    ],
+    "activity_answer": "Photos of their sandwich creations",
+    "follow_up_question": "What's the weirdest sandwich combination you would want to try?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "902",
+    "title": "Dollar Bills and Good Feels Day",
+    "story": "People across the country hand out dollar bills to strangers on November 3 for National Give Someone a Dollar Today Day! You might see folks at coffee shops paying for the person behind them, or kids giving their allowance money to someone who looks like they need a smile. Some people leave dollars in library books, tape them to vending machines, or surprise their mail carrier. It's a simple way to spread kindness and make someone's day a little brighter with just one small act of generosity.",
+    "activity_question": "According to the story, where might people leave dollar bills as surprises?",
+    "activity_choices": [
+      "In library books or on vending machines",
+      "Under car windshield wipers",
+      "In their own piggy banks",
+      "Inside birthday cards only"
+    ],
+    "activity_answer": "In library books or on vending machines",
+    "follow_up_question": "What creative way would you give someone a dollar to make them smile?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  },
+  {
+    "id": "903",
+    "title": "Same Old, Same Old: National Cliché Day",
+    "story": "Every November 3, people celebrate National Cliché Day by using all those overused phrases we hear constantly! It's a day to have fun with sayings like \"it's raining cats and dogs\" or \"don't count your chickens before they hatch.\" Some people post their favorite clichés on social media, while others try to use as many as possible in conversations. Teachers might challenge students to spot clichés in books or movies. The holiday reminds us that even though these phrases are super common, they're still part of how we talk every day!",
+    "activity_question": "What might people do on National Cliché Day?",
+    "activity_choices": [
+      "Post their favorite overused phrases on social media",
+      "Avoid talking to anyone all day",
+      "Only speak in foreign languages",
+      "Write completely new words"
+    ],
+    "activity_answer": "Post their favorite overused phrases on social media",
+    "follow_up_question": "What's your favorite cliché that you hear people say all the time?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "904",
+    "title": "Japan's Amazing Culture Day Celebration",
+    "story": "Every November 3, Japan celebrates National Culture Day by honoring art, science, and learning! Schools across the country hold special festivals where kids perform traditional dances, display artwork, and show off science projects. Museums open their doors for free, and the Emperor presents awards to people who've made amazing contributions to Japanese culture. Families visit temples, watch kabuki performances, and many people dress in beautiful kimonos. It's like a giant celebration of everything that makes Japan special!",
+    "activity_question": "What do Japanese schools typically do on National Culture Day?",
+    "activity_choices": [
+      "Hold festivals with dances and art displays",
+      "Have extra math classes",
+      "Close for the entire week",
+      "Only serve sushi for lunch"
+    ],
+    "activity_answer": "Hold festivals with dances and art displays",
+    "follow_up_question": "What part of your own culture would you most want to celebrate?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "905",
+    "title": "Dominica's Freedom Festival Day",
+    "story": "Steel drums echo across the Caribbean island of Dominica every November 3 as people celebrate their Independence Day! Families gather for huge outdoor festivals with calypso music, traditional dancing, and delicious local foods like mountain chicken and breadfruit. Everyone wears the national colors of green, yellow, and red while parades fill the streets with colorful floats and costumed performers celebrating their freedom from British rule.",
+    "activity_question": "What colors do people in Dominica wear on Independence Day?",
+    "activity_choices": [
+      "Green, yellow, and red",
+      "Blue, white, and gold",
+      "Purple, orange, and pink",
+      "Black, silver, and rainbow stripes"
+    ],
+    "activity_answer": "Green, yellow, and red",
+    "bonus_fact": "Mountain chicken is actually a type of large frog, not chicken at all!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "906",
+    "title": "Panama's Freedom Fiesta",
+    "story": "Every November 3, Panama throws the biggest party of the year to celebrate their independence! Streets fill with parades featuring colorful floats, marching bands, and dancers in traditional polleras dresses. Families gather to watch fireworks light up the sky while eating sancocho soup and rice with beans. Schools close so kids can join the festivities and wave tiny Panamanian flags. The whole country celebrates breaking free and becoming their own nation on this special day each year.",
+    "activity_question": "What traditional dress do dancers wear during Panama's Independence Day celebrations?",
+    "activity_choices": [
+      "Polleras dresses",
+      "Sombreros and ponchos",
+      "Carnival masks",
+      "Soccer uniforms"
+    ],
+    "activity_answer": "Polleras dresses",
+    "follow_up_question": "What would you include in your own independence day celebration?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  }
+]

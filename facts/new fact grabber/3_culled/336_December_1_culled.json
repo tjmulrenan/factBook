@@ -1,0 +1,542 @@
+[
+  {
+    "id": 79,
+    "year": "1959",
+    "original": "The 1st color photograph of Earth received from outer space",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 1
+  },
+  {
+    "id": 144,
+    "year": "1887",
+    "original": "Sherlock Holmes first appears in print in \"Study in Scarlet\" byArthur Conan Doyle",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 2
+  },
+  {
+    "id": 161,
+    "year": "1955",
+    "original": "Rosa Parksis arrested for refusing to move to the back of a bus and give her seat to a white passenger in Montgomery, Alabama",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 3
+  },
+  {
+    "id": 200,
+    "year": "1990",
+    "original": "British and French workers meet in the middle of the Channel Tunnel under the English Channel",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 4
+  },
+  {
+    "id": 76,
+    "year": "1958",
+    "original": "Liberty Records releases single \"The Chipmunk Song (Christmas Don't Be Late)\" by David Seville and the Chipmunks; it becomes a #1 hit, and wins 3 Grammy Awards (Comedy Performance, Children's Recording, and Best Engineered),",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 5
+  },
+  {
+    "id": 306,
+    "year": "1933",
+    "original": "Fujiko F. Fujio [Hiroshi Fujimoto], Japanese manga cartoon artist (Doraemon), born in Takaoka, Japan (d. 1996)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 6
+  },
+  {
+    "id": 192,
+    "year": "1989",
+    "original": "Romanian 5-time Olympic gold medal winning gymnastNadia Comăneciarrives in NYC requesting political asylum to the United States; granted",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 7
+  },
+  {
+    "id": 199,
+    "year": "1913",
+    "original": "Ford Motor Company institutes the world's first moving assembly line for the Model T Ford",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 8
+  },
+  {
+    "id": 321,
+    "year": "1941",
+    "original": "Federico Faggin, Italian physicist and inventor (microprocessor), born in Vicenza, Italy",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 9
+  },
+  {
+    "id": 41,
+    "year": "1929",
+    "original": "Game of Bingo invented by American toy salesman Edwin S. Lowe",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 10
+  },
+  {
+    "id": 11,
+    "year": "1783",
+    "original": "Jacques Charles and Nicolas Roberts make first untethered ascension with gas hydrogen balloon in Paris",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 11
+  },
+  {
+    "id": 18,
+    "year": "1884",
+    "original": "Deputy Sheriff Elfego Baca holds off a gang of 80 Texan cowboys near Frisco, New Mexico, who want to kill him for arresting Charles McCarty",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 12
+  },
+  {
+    "id": 21,
+    "year": "1903",
+    "original": "\"The Great Train Robbery\" the 1st Western film, released starring Justus D. Barnes and G. M. Anderson",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 13
+  },
+  {
+    "id": 190,
+    "year": "1988",
+    "original": "Benazir Bhuttois named Prime Minister of Pakistan, the first female leader of a Muslim country",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 14
+  },
+  {
+    "id": 84,
+    "year": "1963",
+    "original": "Wendell Scott wins the Grand National Series Jacksonville 200 at Speedway Park in Jacksonville, Florida, becoming the first black driver to win a race at NASCAR's premier level",
+    "score": 84,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 15
+  },
+  {
+    "id": 29,
+    "year": "1917",
+    "original": "Boys Town founded by Father Edward Flanagan west of Omaha, Nebraska",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 16
+  },
+  {
+    "id": 123,
+    "year": "1987",
+    "original": "Digging begins to link England & France under English Channel",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 17
+  },
+  {
+    "id": 35,
+    "year": "1922",
+    "original": "1st skywriting over US - \"Hello USA\"-by Capt Turner, RAF",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 18
+  },
+  {
+    "id": 33,
+    "year": "1921",
+    "original": "1st US helium-filled dirigible makes its 1st flight",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 19
+  },
+  {
+    "id": 47,
+    "year": "1936",
+    "original": "Ernest Brundin & Frank Lyon obtain US patent for hydroponic (soil-less) culture of plants",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 20
+  },
+  {
+    "id": 78,
+    "year": "1959",
+    "original": "12 nations sign treaty for scientific peaceful use of Antarctica",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 21
+  },
+  {
+    "id": 134,
+    "year": "1991",
+    "original": "92% of Ukrainians vote for independence from the Soviet Union",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 22
+  },
+  {
+    "id": 311,
+    "year": "1934",
+    "original": "LaMar Clark, American boxer (record most consecutive knockouts 44, including unsanctioned bouts), born in Cedar City, Utah (d. 2006)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 66
+  },
+  {
+    "id": 114,
+    "year": "1982",
+    "original": "Dentist Barney B Clark gets 1st artificial heart",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 24
+  },
+  {
+    "id": 86,
+    "year": "1965",
+    "original": "Airlift of refugees from Cuba to US begins",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 25
+  },
+  {
+    "id": 184,
+    "year": "1978",
+    "original": "US PresidentJimmy Cartermore than doubles national park system size",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 26
+  },
+  {
+    "id": 178,
+    "year": "1971",
+    "original": "John LennonandYoko Onorelease single \"Happy Xmas (War is Over)\" in the US",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 27
+  },
+  {
+    "id": 189,
+    "year": "1985",
+    "original": "TV mini series \"Anne of Green Gables\" based on the novel byLucy Maud Montgomery, starring Megan Follows is first shown on CBS in Canada",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 28
+  },
+  {
+    "id": 193,
+    "year": "1989",
+    "original": "USSR PresidentMikhail Gorbachevmeets PopeJohn Paul IIat the Vatican",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 29
+  },
+  {
+    "id": 139,
+    "year": "1822",
+    "original": "Franz Liszt, aged 11, debuts as a pianist in Vienna",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 30
+  },
+  {
+    "id": 49,
+    "year": "1940",
+    "original": "Four sets of brothers play in one NHL game when Chicago Blackhawks beat NY Rangers, 4-1; Lynn & Muzz Patrick and Neil & Mac Colville (Rangers); Max & Doug Bentley and Bob & Bill Carse (Chicago)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 31
+  },
+  {
+    "id": 165,
+    "year": "1956",
+    "original": "Led by future Basketball Hall of FamersBill Russelland K.C. Jones, the US wins it's 4th consecutive Olympic gold medal with an 89-55 victory over the Soviet Union at the Melbourne Games",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 32
+  },
+  {
+    "id": 162,
+    "year": "1956",
+    "original": "Australian women's 4 x 100m relay team of Norma Croker,Betty Cuthbert, Fleur Mellor & Shirley Strickland de la Hunty run world record 44.65 to win the gold medal at the Melbourne Olympics; Cuthbert's 3rd gold of the Games",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 33
+  },
+  {
+    "id": 166,
+    "year": "1956",
+    "original": "Legendary Australian swimmerDawn Frasersets world record 1:02.0 to win the women's 100m freestyle at the Melbourne Olympics; first of Fraser's 3 consecutive gold medals in the event",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 34
+  },
+  {
+    "id": 168,
+    "year": "1956",
+    "original": "US men's 4 x 100m relay team of Thane Baker, Leamon King,Bobby Morrow& Ira Murchison sets world record 39.60s to win the gold medal at the Melbourne Olympics; Morrow's 3rd gold medal of the Games",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 35
+  },
+  {
+    "id": 71,
+    "year": "1956",
+    "original": "Hungarian boxer László Papp wins his 3rd straight Olympic gold medal when he beats future Hall of Famer José Torres representing the US on points in the light-middleweight final at the Melbourne Olympics",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 36
+  },
+  {
+    "id": 164,
+    "year": "1956",
+    "original": "Gert Fredrikssonof Sweden wins his 3rd consecutive K-1 1,000m canoeing gold medal by 2.5s from Igor Pissarov of the Soviet Union at the Melbourne Olympics; also wins K-1 10,000m gold",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 37
+  },
+  {
+    "id": 185,
+    "year": "1981",
+    "original": "Kareem Abdul-Jabbarpasses Oscar Robertson (26,710) to become the NBA’s second all-time leading scorer behind Wilt Chamberlain; scores 14 points in 117-86 Lakers' win over Utah Jazz in Los Angeles",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 39
+  },
+  {
+    "id": 179,
+    "year": "1973",
+    "original": "Jack Nicklausfinishes at 13-under-par 275 to win the Walt Disney World Open by 1 stroke over Mason Rudolph and becomes the first player to reach $2 million in PGA Tour career earnings",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 41
+  },
+  {
+    "id": 116,
+    "year": "1984",
+    "original": "American boxer Greg Page KOs home town favourite Gerrie Coetzee in 8th round to win WBA heavyweight title in Sun City, South Africa",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 42
+  },
+  {
+    "id": 174,
+    "year": "1967",
+    "original": "Philadelphia centerWilt Chamberlainscores 52 points in 76ers' 133-109 win over Seattle SuperSonics; sets NBA record for 22 free throw misses",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 43
+  },
+  {
+    "id": 169,
+    "year": "1957",
+    "original": "Seminal rock bandBuddy Holly& The Crickets make their \"Ed SullivanShow\" debut, performing \"That'll Be The Day\" and \"Peggy Sue\"; singerSam Cookealso performs after getting bumped due to time constraints on November 3rd - he sings \"You Send Me\" and “(I Love You) For Sentimental Reasons”",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 44
+  },
+  {
+    "id": 175,
+    "year": "1967",
+    "original": "Queen Elizabeth IIinaugurates 98-inch (249-cm) Isaac Newton telescope",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 45
+  },
+  {
+    "id": 136,
+    "year": "1991",
+    "original": "US 75th manned space mission \"STS 44\" Atlantis 10 lands",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 46
+  },
+  {
+    "id": 85,
+    "year": "1964",
+    "original": "After just 3 seasons in MLB the Houston Colt .45s change name of the team to Astros; owners say move signals a step into the future for the franchise and the city of Houston",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 47
+  },
+  {
+    "id": 92,
+    "year": "1967",
+    "original": "Pacific Northwest Sports, Inc. is awarded one of the 2 American League baseball expansion franchises; new team named the Seattle Pilots",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 48
+  },
+  {
+    "id": 198,
+    "year": "1991",
+    "original": "Reigning US Open championPayne Stewartwins only 1 hole, but claims the Skins Game at La Quinta and sets record in the process; 3-foot birdie putt at 14th hole earns 8 skins worth $260,000; record for most money won on 1 hole",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 50
+  },
+  {
+    "id": 183,
+    "year": "1978",
+    "original": "Australian cricket fast bowler Rodney Hogg debuts in 1st Test v England in Brisbane; after Australia all out 116, Hogg makes instant impact by dismissing both high profile England openersGraham Gooch(2) and Geoff Boycott (13)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 51
+  },
+  {
+    "id": 88,
+    "year": "1966",
+    "original": "Ecuadorian national baseball team defends its title with a 4-3 win over Brazil in the South American Championship; last win for next 50 years; Eloy Guerrero drives in Ramón Sotomayor with the winning run",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 52
+  },
+  {
+    "id": 167,
+    "year": "1956",
+    "original": "Musical comedy film \"The Girl Can't Help It\" starringJayne Mansfieldwith cameos by rock 'n' roll starsLittle Richard, Eddie Cochran, and Gene Vincent premieres",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 57
+  },
+  {
+    "id": 90,
+    "year": "1966",
+    "original": "Housing charity Shelter launches in Britain",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 58
+  },
+  {
+    "id": 75,
+    "year": "1958",
+    "original": "Central African Republic made autonomous member of the French Community (National Day)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 59
+  },
+  {
+    "id": 118,
+    "year": "1985",
+    "original": "Noraly Beyer becomes the Netherland's 1st black TV newscaster",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 60
+  },
+  {
+    "id": 133,
+    "year": "1990",
+    "original": "Lithuania, Estonia & Latvia hold their 1st joint session",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 61
+  },
+  {
+    "id": 143,
+    "year": "1884",
+    "original": "Society of Independent Artists hold 1st exhibition in Polychrome Pavilion, Paris, includesGeorges Seurat's \"Bathers at Asnières\"",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 62
+  },
+  {
+    "id": 351,
+    "year": "1953",
+    "original": "Victor Ambros, American geneticist (2024 Nobel Prize in Physiology or Medicine for discovery of microRNA), born in Hanover, New Hampshire[1]",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 64
+  },
+  {
+    "id": 322,
+    "year": "1942",
+    "original": "John Clauser, American physicist (Nobel Prize 2022 for experiments with entangled photons), born in Pasadena, California[1]",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 65
+  },
+  {
+    "id": 312,
+    "year": "1935",
+    "original": "Roger Christian, American ice hockey left wing (Olympic gold 1960; Christian Brother's Hockey Sticks), born in Warroad, Minnesota (d. 2011)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 69
+  },
+  {
+    "id": 330,
+    "year": "1944",
+    "original": "John Densmore, American drummer (The Doors - \"Light My Fire\"; \"L.A. Woman\"), born in Los Angeles, California",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 70
+  },
+  {
+    "id": 345,
+    "year": "1950",
+    "original": "Richard Keith [Thibodeaux], American actor (I Love Lucy - \"Little Ricky\"), and drummer, born in Lafayette, Louisiana",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 71
+  }
+]

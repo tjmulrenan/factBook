@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "original": "Day of the Dead",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "All Souls' Day",
+    "score": 35,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 3,
+    "original": "National Deviled Egg Day",
+    "score": 65,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "Look for Circles Day",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 5,
+    "original": "Plan Your Epitaph Day",
+    "score": 22,
+    "is_kid_friendly": false
+  }
+]

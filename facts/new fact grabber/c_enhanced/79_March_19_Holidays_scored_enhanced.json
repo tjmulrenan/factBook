@@ -1,0 +1,102 @@
+[
+  {
+    "id": "901",
+    "title": "Saint Joseph's Special Day",
+    "story": "Catholics around the world honor Saint Joseph, the father of Jesus, every March 19. Families attend special church services and share traditional meals together. In Italy, people prepare huge feasts with pastries and bread shaped like crosses to celebrate this holy day.",
+    "activity_question": "What shapes do Italian people make their bread into for Saint Joseph's Day?",
+    "activity_choices": [
+      "Crosses",
+      "Hearts",
+      "Stars",
+      "Pizza slices"
+    ],
+    "activity_answer": "Crosses",
+    "bonus_fact": "Some Italian towns build huge outdoor altars covered with food for everyone to share.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 40
+  },
+  {
+    "id": "902",
+    "title": "Cluck Yeah, It's Poultry Day!",
+    "story": "Every March 19, chicken lovers everywhere celebrate National Poultry Day by honoring all our feathered farm friends! People share photos of their backyard chickens on social media, visit local farms, and cook up their favorite chicken recipes. Some families try making homemade chicken nuggets or visit petting zoos to meet real hens and roosters. Restaurants often feature special poultry dishes, and farmers markets showcase fresh eggs from happy hens. It's the perfect day to appreciate how chickens, turkeys, and ducks provide us with eggs and meat while being pretty entertaining animals too!",
+    "activity_question": "What do people often share on social media during National Poultry Day?",
+    "activity_choices": [
+      "Photos of their backyard chickens",
+      "Pictures of their pet cats",
+      "Videos of dancing cows",
+      "Images of their homework"
+    ],
+    "activity_answer": "Photos of their backyard chickens",
+    "follow_up_question": "What's the funniest thing you've ever seen a chicken do?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "903",
+    "title": "Sweet Dreams Are Made of Caramel",
+    "story": "Every March 19, candy lovers across America celebrate National Chocolate Caramel Day by indulging in the perfect sweet combo! People visit candy shops to buy chocolate-covered caramels, make homemade caramel sauce for ice cream, and share photos of their gooey treats on social media. Bakeries create special chocolate caramel cupcakes, while families gather to make caramel apples dipped in melted chocolate. Some people even host caramel-making parties where they learn to pull the sticky, golden candy by hand. It's the sweetest excuse to enjoy that magical moment when rich chocolate meets buttery caramel goodness!",
+    "activity_question": "What do people often make at home to celebrate this holiday?",
+    "activity_choices": [
+      "Caramel sauce for ice cream",
+      "Chocolate chip cookies",
+      "Vanilla pudding",
+      "Peanut butter sandwiches"
+    ],
+    "activity_answer": "Caramel sauce for ice cream",
+    "bonus_fact": "It takes about 248 degrees Fahrenheit to make perfect caramel!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "904",
+    "title": "Giggles Galore on Let's Laugh Day",
+    "story": "Every March 19, people celebrate National Let's Laugh Day by doing exactly what it sounds like - laughing as much as possible! Friends share their funniest jokes, families watch silly movies together, and classrooms have giggle contests. Some people post their most embarrassing moments online to make others smile. Comedy clubs host special shows, and even serious workplaces encourage employees to tell funny stories during meetings. Scientists say laughing is like exercise for your face muscles and makes you feel happier. The best part? You don't need any special equipment or skills to join in - just your sense of humor and willingness to be silly!",
+    "activity_question": "According to the story, what do some people post online on Let's Laugh Day?",
+    "activity_choices": [
+      "Their most embarrassing moments",
+      "Pictures of their lunch",
+      "Serious news articles",
+      "Photos of their pets sleeping"
+    ],
+    "activity_answer": "Their most embarrassing moments",
+    "bonus_fact": "Laughing can burn as many calories as walking slowly for several minutes!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "905",
+    "title": "Heroes in Scrubs Get Their Day",
+    "story": "Nurses save lives every single day, and on March 19, we celebrate National Certified Nurses Day! Hospitals hang thank-you banners, patients send cards, and families share stories about amazing nurses who helped them. Many people post photos on social media with #ThankANurse to show appreciation. It's the perfect day to remember these healthcare heroes who work around the clock caring for others.",
+    "activity_question": "How do people commonly show appreciation for nurses on this day?",
+    "activity_choices": [
+      "Send thank-you cards and post on social media",
+      "Give them stethoscope-shaped cookies",
+      "Sing lullabies in hospital hallways",
+      "Wear scrubs to school or work"
+    ],
+    "activity_answer": "Send thank-you cards and post on social media",
+    "follow_up_question": "What would you want to say to a nurse who helped you or your family?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 50
+  }
+]

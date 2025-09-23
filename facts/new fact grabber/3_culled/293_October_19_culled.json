@@ -1,0 +1,542 @@
+[
+  {
+    "id": 100,
+    "year": "1980",
+    "original": "Steve McPeak rides 101'9\" unicycle",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 1
+  },
+  {
+    "id": 141,
+    "year": "2020",
+    "original": "Peru announces rediscovered 37m figure of a cat, completed 500 BC to 200 AD, a geoglyph outline in the Nazca Desert",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 2
+  },
+  {
+    "id": 144,
+    "year": "2022",
+    "original": "Massachusetts names Podokesaurus holyokensis (\"swift-footed lizard of Holyoke\") as official state dinosaur",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 3
+  },
+  {
+    "id": 133,
+    "year": "2014",
+    "original": "A working human intestine is generated in a laboratory from stem cells in the United States",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 4
+  },
+  {
+    "id": 134,
+    "year": "2015",
+    "original": "Scientists from the University of California find evidence that life on Earth may have begun 4.1 billion years ago, 300 million years earlier than previously thought",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 5
+  },
+  {
+    "id": 30,
+    "year": "1901",
+    "original": "Alberto Santos-Dumont proves airships are maneuverable by circling the Eiffel Tower in his airship No. 6, winning the Deutsch Prize and 100,000 francs",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 6
+  },
+  {
+    "id": 128,
+    "year": "2005",
+    "original": "Hurricane Wilma becomes the most intense Atlantic hurricane on record with a minimum pressure of 882 mb",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 7
+  },
+  {
+    "id": 50,
+    "year": "1943",
+    "original": "Streptomycin, the first antibiotic remedy for tuberculosis, is isolated by researchers at Rutgers University in Piscataway, New Jersey",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 8
+  },
+  {
+    "id": 226,
+    "year": "1862",
+    "original": "Auguste Lumière, French engineer and filmmaker who made the 1st movie (Workers Leaving Lumière Factory), born in Besançon, France (d. 1954)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 9
+  },
+  {
+    "id": 106,
+    "year": "1983",
+    "original": "US Senate establishesMartin Luther King Jr.Day as a federal holiday, observed on the third Monday in January (on or near his January 15 birthday)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 10
+  },
+  {
+    "id": 326,
+    "year": "1946",
+    "original": "Philip Pullman, English writer known for the trilogy \"His Dark Materials\", born in Norwich, England",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 11
+  },
+  {
+    "id": 62,
+    "year": "1953",
+    "original": "Dystopian novel \"Fahrenheit 451\" by Ray Bradbury is published in the US",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 12
+  },
+  {
+    "id": 177,
+    "year": "1981",
+    "original": "Nicolaas Bloembergen and ArthurSchawlowwin Nobel Prize for Physics (laser)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 13
+  },
+  {
+    "id": 145,
+    "year": "2022",
+    "original": "Philadelphia Phillies right-hander Aaron Nola faces his brother San Diego Padres catcher Austin Nola in first MLB playoff sibling pitcher-batter battle; Austin goes 1-2, with rally starting RBI in 8-5 win at Petco Park, San Diego",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 14
+  },
+  {
+    "id": 168,
+    "year": "1957",
+    "original": "Montreal CanadienMaurice \"Rocket\" Richardbecomes the first NHL player to score 500 goals",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 15
+  },
+  {
+    "id": 64,
+    "year": "1954",
+    "original": "First ascent of Cho Oyu, sixth highest mountain in the world at 8,201 metres",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 16
+  },
+  {
+    "id": 300,
+    "year": "1937",
+    "original": "Marilyn Bell, Canadian open water swimmer (first to swim across Lake Ontario), born in Toronto, Ontario",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 17
+  },
+  {
+    "id": 78,
+    "year": "1967",
+    "original": "Mariner 5 makes fly-by of Venus",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 18
+  },
+  {
+    "id": 99,
+    "year": "1977",
+    "original": "Supersonic jet Concorde makes its 1st landing in NYC, a passengerless test flight by Air France, two days after US Supreme Court overrules local authority's ban",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 19
+  },
+  {
+    "id": 115,
+    "year": "1988",
+    "original": "US Senate passes a bill curbing ads during children's TV shows",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 20
+  },
+  {
+    "id": 82,
+    "year": "1968",
+    "original": "Golden Gate Bridge charges tolls only for southbound cars",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 21
+  },
+  {
+    "id": 136,
+    "year": "2018",
+    "original": "\"Halloween\" film reboot starring Jamie Curtis makes a record $77m for a horror film with a female lead, biggest debut any film with female lead over 55 in US",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 22
+  },
+  {
+    "id": 152,
+    "year": "1812",
+    "original": "Napoleon Bonaparteand his Grande Armée begin their retreat from Moscow numbering just 100,000 (started campaign with 500,000)",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 23
+  },
+  {
+    "id": 1,
+    "year": "202 BC",
+    "original": "Battle of Zama: Hannibal Barca and the Carthaginian army are defeated by Roman legions under Scipio Africanus, ending the Second Punic War",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 24
+  },
+  {
+    "id": 170,
+    "year": "1960",
+    "original": "Martin Luther King Jr.arrested in Atlanta sit-in",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 25
+  },
+  {
+    "id": 114,
+    "year": "1988",
+    "original": "South African anti-apartheid leader Sisulu wins $100,000 Human Rights prize",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 26
+  },
+  {
+    "id": 181,
+    "year": "2003",
+    "original": "Mother Teresaof Calcutta is beatified by PopeJohn Paul II",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 27
+  },
+  {
+    "id": 94,
+    "year": "1974",
+    "original": "NHL Detroit Red Wing Mickey Redmond scores 1st hat trick against Washington Capitals",
+    "score": 94,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 44
+  },
+  {
+    "id": 119,
+    "year": "1991",
+    "original": "Longest NCAA football game (3:52) as Rhode Island beats Maine, 52-30 (6 OT)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 29
+  },
+  {
+    "id": 48,
+    "year": "1941",
+    "original": "1st woman jockey in North America, Anna Lee Wiley in Mexico",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 30
+  },
+  {
+    "id": 222,
+    "year": "1850",
+    "original": "Annie Smith Peck, American mountain climber/explorer/diplomat, born in Providence, Rhode Island (d. 1935)",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 31
+  },
+  {
+    "id": 169,
+    "year": "1958",
+    "original": "Stirling Mosswins season ending Moroccan Grand Prix at Ain-Diab but fellow Brit Mike Hawthorn takes World Drivers Championship from Moss by just 1 point by finishing second; first British world champion",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 32
+  },
+  {
+    "id": 171,
+    "year": "1966",
+    "original": "Bobby Orrmakes his NHL regular-season debut for the Boston Bruins against the Detroit Red Wings",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 33
+  },
+  {
+    "id": 258,
+    "year": "1910",
+    "original": "Subrahmanyan Chandrasekhar, India, astrophysicist (Nobel Prize 1983 for work on structure and evolution of the stars), born in Lahore, British India (d. 1995)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 34
+  },
+  {
+    "id": 221,
+    "year": "1839",
+    "original": "Almon Brown Strowger, American undertaker and inventor (automatic telephone-dialing system), born in Penfield, New York (d. 1902)[1]",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 35
+  },
+  {
+    "id": 376,
+    "year": "1967",
+    "original": "Yoko Shimomura, Japanese pianist and video game composer, born in Hyogo, Japan",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 36
+  },
+  {
+    "id": 316,
+    "year": "1944",
+    "original": "O Yeong-Su, South Korean actor (Squid Game), born in Kaepung County, Japanese Korea",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 37
+  },
+  {
+    "id": 179,
+    "year": "1990",
+    "original": "\"Dances with Wolves\" directed byKevin Costnerand starring Kevin Costner and Mary McDonnell premieres in Washington, D.C. (Academy Awards Best Picture 1991)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 38
+  },
+  {
+    "id": 194,
+    "year": "1847",
+    "original": "Charlotte Brontë's novel \"Jane Eyre\" is published by Smith, Elder & Co. of London under her pen name \"Currer Bell\"",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 39
+  },
+  {
+    "id": 11,
+    "year": "1634",
+    "original": "Beach Island in North Sea destroyed by a heavy storm flood",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 40
+  },
+  {
+    "id": 85,
+    "year": "1969",
+    "original": "Oakland Darryle Lamonica passes for 6 touchdowns vs Buffalo (50-21)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 45
+  },
+  {
+    "id": 254,
+    "year": "1909",
+    "original": "Marguerite Perey, French physicist, discovered the element francium (Fr), born in Villemomble, France (d. 1975)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 42
+  },
+  {
+    "id": 406,
+    "year": "1984",
+    "original": "Thundercat [Stephen Bruner], American bass guitarist (Flying Lotus), born in Los Angeles, California",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 47
+  },
+  {
+    "id": 317,
+    "year": "1944",
+    "original": "Peter Tosh [Winston Hubert McIntosh], Jamaican reggae musician (The Wailers -\"Get Up Stand Up\"; Mystic Man, Legalize It), born in Westmoreland, Jamaica (d. 1987)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 48
+  },
+  {
+    "id": 375,
+    "year": "1967",
+    "original": "Amy Carter, US President Jimmy Carter's daughter and peace activist, born in Plains, Georgia",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 49
+  },
+  {
+    "id": 230,
+    "year": "1871",
+    "original": "Walter Bradford Cannon, American physiologist (Wisdom of the Body, coined term \"fight or flight response\"), born in Prairie du Chien, Wisconsin (d. 1945)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 50
+  },
+  {
+    "id": 232,
+    "year": "1876",
+    "original": "Mordecai \"Three Finger\" Brown, American Baseball HOF pitcher (World Series 1907, 08; NL wins leader 1909; MLB ERA leader 1906; Chicago Cubs), born in Nyesville, Indiana (d. 1948)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 51
+  },
+  {
+    "id": 390,
+    "year": "1976",
+    "original": "Michael Young, American baseball infielder (7 × MLB All-Star; Gold Glove Award 2008, AL batting champion 2005 Texas Rangers), born in Covina, California",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 52
+  },
+  {
+    "id": 285,
+    "year": "1929",
+    "original": "Balbir Singh Sr., Indian field hockey centre forward (Olympic gold 1948, 52, 56) and coach (World Cup gold 1975), born in Haripur Khalsa, India (d. 2020)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 53
+  },
+  {
+    "id": 271,
+    "year": "1918",
+    "original": "Charles Evans, British mountaineer and surgeon (deputy leader 1953 British Everest expedition, led 1955 British Kangchenjunga expedition), born in Liverpool, England (d. 1995)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 54
+  },
+  {
+    "id": 288,
+    "year": "1931",
+    "original": "Atsushi Miyagi, Japanese tennis player (US Open doubles 1955 [with Kosei Kamo] first Japanese players to win a Grand Slam event), born in Tokyo, Japan (d. 2021)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 55
+  },
+  {
+    "id": 231,
+    "year": "1873",
+    "original": "Bart King, American cricket pioneer (North America's greatest all-rounder; helped develop art of swing bowling), born in Philadelphia, Pennsylvania (d. 1965)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 56
+  },
+  {
+    "id": 243,
+    "year": "1897",
+    "original": "Salimuzzaman Siddiqui, Pakistani organic chemist and pioneering scientist, born in Subeha, British India (d. 1994)",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 57
+  },
+  {
+    "id": 229,
+    "year": "1868",
+    "original": "Bertha Knight Landes, American politician (1st female mayor of any major US city - Mayor of Seattle 1926-28), born in Ware, Massachusetts (d. 1943)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 58
+  },
+  {
+    "id": 297,
+    "year": "1936",
+    "original": "Johnetta Cole, American educator, president of Spellman College, President National Council of Negro Women, born in Jacksonville, Florida",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 59
+  },
+  {
+    "id": 359,
+    "year": "1960",
+    "original": "Jennifer Holliday, American Grammy and Tony Award-winning stage actress, and pop, R&B, and gospel singer (Dream Girls), born in Houston, Texas",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 61
+  },
+  {
+    "id": 370,
+    "year": "1965",
+    "original": "Brad Daugherty, American basketball center (5 x NBA All-Star; Cleveland Cavaliers), NASCAR team owner (JTG Daugherty Racing, winner Daytona 500 2023) and broadcaster (ESPN, NBC, CBS), born in Black Mountain, North Carolina",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 62
+  },
+  {
+    "id": 384,
+    "year": "1972",
+    "original": "Pras [Prakazrel Michel], Haitian-American rapper, songwriter and producer (The Fugees - \"Killing Me Softly\"), born in Brooklyn, New York City",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 63
+  },
+  {
+    "id": 402,
+    "year": "1982",
+    "original": "Gillian Jacobs, American actress known for \"Community\" and \"The Bear\", born in Pittsburgh, Pennsylvania",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 64
+  },
+  {
+    "id": 407,
+    "year": "2001",
+    "original": "SpotEmGottem [Nehemiah Harden], American rapper and songwriter (\"Beat Box\"), born in Jacksonville, Florida",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 65
+  }
+]

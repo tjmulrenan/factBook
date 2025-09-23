@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Shadow or No Shadow? Groundhog's Big Day!",
+    "story": "Every February 2, thousands of people gather in small towns across America to watch a furry weather forecaster do his job. On Groundhog Day, the most famous groundhog, Punxsutawney Phil, pokes his head out of his burrow while crowds cheer and cameras roll. If Phil sees his shadow, legend says winter will last six more weeks. No shadow means spring comes early! People throw Groundhog Day parties, make shadow puppets, and share funny memes about Phil's predictions. Some towns have their own groundhog celebrities who make their own forecasts, creating a silly competition between fuzzy meteorologists across the country.",
+    "activity_question": "What happens if the groundhog sees his shadow on Groundhog Day?",
+    "activity_choices": [
+      "Spring comes early",
+      "Winter lasts six more weeks",
+      "It rains for a month",
+      "The groundhog goes back to sleep forever"
+    ],
+    "activity_answer": "Winter lasts six more weeks",
+    "bonus_fact": "Punxsutawney Phil has been making predictions since 1887 and is only right about 40% of the time!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "902",
+    "title": "Splashing Into World Wetlands Day",
+    "story": "Every February 2, people around the world celebrate World Wetlands Day by learning about swamps, marshes, and other watery places that help our planet! Schools organize nature walks to nearby wetlands, while families visit aquariums and wildlife centers. Many kids post photos of frogs, ducks, and other wetland animals on social media to spread awareness. It's a perfect day to discover how these soggy spots clean our water and protect us from floods!",
+    "activity_question": "What do people often visit on World Wetlands Day to learn about these watery habitats?",
+    "activity_choices": [
+      "Aquariums and wildlife centers",
+      "Shopping malls",
+      "Movie theaters",
+      "Ice cream shops"
+    ],
+    "activity_answer": "Aquariums and wildlife centers",
+    "follow_up_question": "What wetland animals live near your home that you could help protect?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "903",
+    "title": "Candlemas: Light Up the Night!",
+    "story": "Churches around the world glow with hundreds of flickering candles every February 2 for Candlemas! This special Christian holiday celebrates when baby Jesus was first brought to the temple. Families gather to light candles together, symbolizing how Jesus brought light to the world. Many churches hold beautiful candlelight services where everyone holds glowing candles while singing hymns. Some people even bring their own candles from home to be blessed by the priest!",
+    "activity_question": "What do people light during Candlemas celebrations?",
+    "activity_choices": [
+      "Candles",
+      "Fireworks",
+      "Campfires",
+      "Birthday cake candles"
+    ],
+    "activity_answer": "Candles",
+    "bonus_fact": "Candlemas is also connected to Groundhog Day traditions in some places!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "904",
+    "title": "Imbolc: Ancient Spring's First Hello",
+    "story": "Every February 2, people celebrate Imbolc, an ancient Celtic holiday that welcomes the first hints of spring! Modern pagans and nature lovers light candles, make corn dolls, and plant seeds indoors to honor the growing daylight. Some families bake special bread shaped like wheels or suns, while others take nature walks to spot early spring flowers peeking through the snow.",
+    "activity_question": "What do people make on Imbolc to honor the holiday?",
+    "activity_choices": [
+      "Corn dolls and sun-shaped bread",
+      "Paper snowflakes",
+      "Halloween costumes",
+      "Easter eggs"
+    ],
+    "activity_answer": "Corn dolls and sun-shaped bread",
+    "bonus_fact": "Imbolc means \"in the belly\" because baby animals are growing inside their mothers.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 50
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "original": "International Day for the Elimination of Racial Discrimination",
+    "score": 53,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 2,
+    "original": "World Down Syndrome Day",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "International Day of Forests",
+    "score": 70,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "World Poetry Day",
+    "score": 55,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 5,
+    "original": "International Day of Nowruz",
+    "score": 55,
+    "is_kid_friendly": true
+  }
+]

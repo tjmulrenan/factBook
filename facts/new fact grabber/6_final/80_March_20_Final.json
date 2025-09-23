@@ -1,0 +1,1262 @@
+[
+  {
+    "id": "901",
+    "title": "Happiness Day: Smiles Around the World",
+    "story": "Every March 20, people across the globe celebrate the International Day of Happiness by spreading joy and kindness! Countries host festivals, communities organize fun activities, and families share what makes them grateful. Social media fills with happy photos and positive messages. Schools might have special assemblies about well-being, while some cities throw parades or concerts. The day reminds everyone that happiness matters just as much as health and success.",
+    "activity_question": "What do people share on social media during International Day of Happiness?",
+    "activity_choices": [
+      "Happy photos and positive messages",
+      "Scary stories and complaints",
+      "Shopping lists and homework",
+      "Weather reports and news"
+    ],
+    "activity_answer": "Happy photos and positive messages",
+    "follow_up_question": "What small act of kindness could you do to spread happiness today?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "902",
+    "title": "Smile Wide for World Oral Health Day!",
+    "story": "Dentists and health experts around the globe celebrate World Oral Health Day every March 20 by reminding everyone to brush, floss, and smile! Schools host tooth-brushing contests, dental offices give out free checkups, and social media fills with sparkling smiles and healthy teeth tips.",
+    "activity_question": "What do schools often host on World Oral Health Day?",
+    "activity_choices": [
+      "Tooth-brushing contests",
+      "Cookie-eating competitions",
+      "Singing competitions",
+      "Art contests"
+    ],
+    "activity_answer": "Tooth-brushing contests",
+    "follow_up_question": "What's your favorite way to keep your teeth healthy and strong?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 45
+  },
+  {
+    "id": "903",
+    "title": "Chirp Up for World Sparrow Day!",
+    "story": "Tiny sparrows get their own special day on March 20! World Sparrow Day celebrates these small brown birds that hop around our neighborhoods, parks, and backyards. People mark this day by watching for sparrows, putting out bird feeders filled with seeds, and learning about how to help these feathered friends. Some families build simple birdhouses or leave shallow dishes of water outside. It's amazing how much joy these little chirping creatures bring to our world!",
+    "activity_question": "What do people put out to help sparrows on World Sparrow Day?",
+    "activity_choices": [
+      "Bird feeders with seeds",
+      "Tiny umbrellas",
+      "Miniature trampolines",
+      "Sparrow sunglasses"
+    ],
+    "activity_answer": "Bird feeders with seeds",
+    "follow_up_question": "What other small animals in your neighborhood deserve their own special day?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "120",
+    "title": "Brick by Brick: Legoland Comes to America",
+    "story": "Imagine a world made of colorful bricks! On March 20, 1999, Legoland California opened its doors in Carlsbad, becoming the first Legoland park outside Europe. Kids and adults alike marveled at the miniature cities, towering castles, and thrilling rides - all inspired by those beloved plastic building blocks. This brick-tastic wonderland brought joy and creativity to a whole new continent!",
+    "activity_question": "Where was the first Legoland outside Europe built?",
+    "activity_choices": [
+      "Carlsbad, California",
+      "New York City",
+      "Orlando, Florida",
+      "Bricktown, USA"
+    ],
+    "activity_answer": "Carlsbad, California",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What do you think would be the coolest thing to build if you had millions of Lego bricks?",
+    "score": 90,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "130",
+    "title": "Super Sniffer Helps Parkinson's Research",
+    "story": "A woman with an extraordinary sense of smell made a breakthrough in Parkinson's disease research. In 2019, her unique ability to detect the illness by scent led scientists in Manchester, England to a major discovery. On March 20, researchers identified special molecules on the skin of people with Parkinson's, thanks to this super-sniffer's talent. Her gift could lead to earlier diagnosis and better treatments for the disease.",
+    "activity_question": "What did the woman with an extraordinary sense of smell help researchers identify?",
+    "activity_choices": [
+      "Special molecules on the skin",
+      "A new type of perfume",
+      "Invisible bacteria",
+      "Magical potions"
+    ],
+    "activity_answer": "Special molecules on the skin",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How might this discovery help people with Parkinson's disease?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "297",
+    "title": "The Inventor Who Made Flying Safer",
+    "story": "Planes zoom through the sky, but how do we know what happens during a flight? David Warren, born in Australia in 1925, had a brilliant idea. He invented the 'black box,' a special recorder that captures important information during flights. This device helps investigators understand what occurred if something goes wrong. Warren's invention on March 20 has made air travel much safer for everyone!",
+    "activity_question": "What did David Warren invent?",
+    "activity_choices": [
+      "The 'black box'",
+      "The airplane",
+      "The parachute",
+      "The jet engine"
+    ],
+    "activity_answer": "The 'black box'",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Despite its name, the 'black box' is usually bright orange to make it easier to find after an accident.",
+    "score": 90,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "152",
+    "title": "Shocking News: The Electric Battery Arrives!",
+    "story": "Zap! In 1800, Alessandro Volta sent a letter that would electrify the world. He wrote to Joseph Banks, head of London's Royal Society, about his amazing new invention: the electric battery. This groundbreaking device could store and release electrical power, sparking a revolution in science and technology. Volta's discovery on March 20 lit up the path to our modern, battery-powered world.",
+    "activity_question": "Who did Alessandro Volta write to about his electric battery invention?",
+    "activity_choices": [
+      "Joseph Banks",
+      "Benjamin Franklin",
+      "Thomas Edison",
+      "Nikola Tesla"
+    ],
+    "activity_answer": "Joseph Banks",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Volta's invention inspired the word 'volt,' the unit we use to measure electrical potential.",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "96",
+    "title": "Mushing to Victory: Libby Riddles' Historic Win",
+    "story": "Bundled up against the icy Alaskan wind, Libby Riddles and her team of sled dogs raced across the snowy landscape. In 1985, she became the first woman to win the grueling Iditarod Trail Dog Sled Race. Braving blizzards and freezing temperatures, Libby and her loyal canine companions mushed over a thousand miles from Anchorage to Nome. Her determination and skill on March 20 broke barriers and inspired future generations of mushers.",
+    "activity_question": "What race did Libby Riddles win in 1985?",
+    "activity_choices": [
+      "Iditarod Trail Dog Sled Race",
+      "Alaska Ice Marathon",
+      "Arctic Circle Challenge",
+      "Frozen Tundra Trek"
+    ],
+    "activity_answer": "Iditarod Trail Dog Sled Race",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think dog sledding is important in Alaska?",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "160",
+    "title": "The Colonel's Crispy Creation",
+    "story": "Finger-lickin' good chicken was born in 1930! Colonel Harland Sanders fired up his first restaurant, Sanders Court & Café, in North Corbin, Kentucky. Little did he know his crispy recipe would become the famous Kentucky Fried Chicken. On March 20, a small café launched what would grow into a global fast-food empire, serving up buckets of joy to millions.",
+    "activity_question": "What was the original name of the restaurant that became KFC?",
+    "activity_choices": [
+      "Sanders Court & Café",
+      "Kentucky Fried Chicken",
+      "Colonel's Crispy Café",
+      "Finger-Lickin' Diner"
+    ],
+    "activity_answer": "Sanders Court & Café",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Colonel Sanders wasn't a real military colonel. It was an honorary title given by Kentucky's governor.",
+    "score": 80,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "359",
+    "title": "A Beloved Children's Author Is Born",
+    "story": "Louis Sachar, the creative mind behind beloved books like 'Holes' and the 'Wayside School' series, entered the world on March 20, 1954. Born in East Meadow, New York, Sachar would grow up to become a celebrated author, winning the prestigious Newbery Medal for his captivating storytelling. His imaginative tales have sparked joy and adventure in young readers for generations.",
+    "activity_question": "Which famous book series did Louis Sachar create?",
+    "activity_choices": [
+      "Wayside School",
+      "Harry Potter",
+      "Percy Jackson",
+      "The Magic Tree House"
+    ],
+    "activity_answer": "Wayside School",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Have you read any of Louis Sachar's books? Which one is your favorite?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "161",
+    "title": "Babe Didrikson's Baseball Surprise",
+    "story": "Babe Didrikson Zaharias was a superstar athlete who could do it all. In 1934, she shocked everyone by pitching for a men's baseball team! On March 20, Babe took the mound for the Philadelphia A's in an exhibition game against the Brooklyn Dodgers. She threw a perfect inning, not allowing a single hit. This amazing feat proved that Babe could compete with the boys in any sport she tried.",
+    "activity_question": "What did Babe Didrikson Zaharias do in the baseball game?",
+    "activity_choices": [
+      "Threw a perfect inning",
+      "Hit a home run",
+      "Caught a fly ball",
+      "Stole a base"
+    ],
+    "activity_answer": "Threw a perfect inning",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Babe Didrikson Zaharias also won Olympic gold medals in track and field.",
+    "score": 90,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "127",
+    "title": "Mega-Prizes for Brilliant Minds",
+    "story": "Imagine winning millions for your amazing science ideas! That's what happened when the Breakthrough Prizes launched in 2013. These super-sized awards, worth a whopping $3 million each, celebrate top thinkers in math, life sciences, and physics. On March 20, Julia and Yuri Milner created these prizes to inspire future scientists and show that big brains deserve big rewards.",
+    "activity_question": "What fields did the Breakthrough Prizes celebrate?",
+    "activity_choices": [
+      "Math, life sciences, and physics",
+      "Art, music, and dance",
+      "Sports, cooking, and gardening",
+      "History, geography, and literature"
+    ],
+    "activity_answer": "Math, life sciences, and physics",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it's important to reward scientific discoveries?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "199",
+    "title": "A General's Bold Promise",
+    "story": "Bombs fell as General Douglas MacArthur fled the Philippines. Japanese forces had overrun the islands, but MacArthur wasn't giving up. On March 20, 1942, after a daring escape, he made a powerful declaration: 'I came through and I shall return.' His words became a rallying cry, giving hope to those left behind and showing the world that America wouldn't back down.",
+    "activity_question": "What famous promise did General MacArthur make?",
+    "activity_choices": [
+      "I came through and I shall return",
+      "I will never surrender",
+      "We shall fight on the beaches",
+      "Give me liberty or give me death"
+    ],
+    "activity_answer": "I came through and I shall return",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Did General MacArthur keep his promise to return to the Philippines?",
+    "score": 82,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "150",
+    "title": "A Royal Escape Gone Wrong",
+    "story": "King Charles I had a daring plan. In 1648, he tried to escape from Carisbrooke Castle on the Isle of Wight. The king thought he could squeeze through a window to freedom. But on March 20, his plan hit a snag. As he climbed out, he got stuck! The window was too small, leaving the royal prisoner red-faced and firmly trapped.",
+    "activity_question": "Where did King Charles I attempt to escape from?",
+    "activity_choices": [
+      "Carisbrooke Castle",
+      "Buckingham Palace",
+      "Tower of London",
+      "Windsor Castle"
+    ],
+    "activity_answer": "Carisbrooke Castle",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think the king chose a window for his escape attempt?",
+    "score": 70,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "53",
+    "title": "Alarm Clock Chaos in Chicago",
+    "story": "Tick-tock madness struck Chicago in 1944! On March 20, a department store announced a sale of 1,500 alarm clocks. Suddenly, 2,500 eager shoppers stormed in, trampling guards and workers in their rush. Why such clock craziness? During wartime, alarm clocks were hard to find, making them a hot item. Remember, folks: no sale is worth putting others in danger!",
+    "activity_question": "What item caused the chaos at the Chicago department store?",
+    "activity_choices": [
+      "Alarm clocks",
+      "Wristwatches",
+      "Grandfather clocks",
+      "Cuckoo clocks"
+    ],
+    "activity_answer": "Alarm clocks",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think alarm clocks were so hard to find during wartime?",
+    "optional_type": "follow_up_question",
+    "score": 78,
+    "categories": [
+      "The What Zone"
+    ]
+  },
+  {
+    "id": "198",
+    "title": "A Book That Shook America",
+    "story": "Harriet Beecher Stowe's powerful words ignited a nation. Her novel, 'Uncle Tom's Cabin', hit bookstores in Boston in 1852. On March 20, this story about the harsh realities of slavery sparked fierce debates across America. Stowe's vivid characters and emotional scenes opened many eyes to the injustices of the time.",
+    "activity_question": "What was the title of Harriet Beecher Stowe's influential novel?",
+    "activity_choices": [
+      "'Uncle Tom's Cabin'",
+      "'The American Dream'",
+      "'Boston's Story'",
+      "'Freedom's Call'"
+    ],
+    "activity_answer": "'Uncle Tom's Cabin'",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think books can be so powerful in changing people's minds?",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "142",
+    "title": "Climate Scientists Sound the Alarm",
+    "story": "Scientists raised a red flag about our planet's health. The UN's climate experts warned that Earth is heating up too fast. They said we need to act quickly to protect our home. By 2030, we must cut harmful gases in half. And by the early 2050s, we should stop adding extra carbon dioxide to the air. This urgent message came on March 20, 2023.",
+    "activity_question": "What did the UN climate experts say we need to do by 2030?",
+    "activity_choices": [
+      "Cut harmful gases in half",
+      "Plant more trees",
+      "Use only electric cars",
+      "Build more wind turbines"
+    ],
+    "activity_answer": "Cut harmful gases in half",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What are some ways you can help reduce harmful gases at home or school?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "44",
+    "title": "Phar Lap's Final Gallop to Glory",
+    "story": "Hooves thundering, the mighty Phar Lap raced into history on March 20, 1932. This legendary Australian horse sprinted to victory in the Agua Caliente Handicap in Mexico. It wasn't just a win - Phar Lap smashed the track record! Sadly, this triumph marked the champion's last race. Today, Phar Lap remains a symbol of speed and strength, inspiring horse lovers around the world.",
+    "activity_question": "Where did Phar Lap win his final race?",
+    "activity_choices": [
+      "Mexico",
+      "Australia",
+      "United States",
+      "New Zealand"
+    ],
+    "activity_answer": "Mexico",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Phar Lap's name means 'lightning' in Thai, fitting for such a fast horse!",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "170",
+    "title": "Baseball Hero's Bittersweet Hall of Fame Honor",
+    "story": "Roberto Clemente's amazing baseball skills dazzled fans for years. The Pittsburgh Pirates star was known for his powerful throws and incredible catches in right field. Sadly, Clemente died in a plane crash while on a mission to help earthquake victims. In 1973, just weeks after his death, baseball honored his legacy. On March 20, Clemente became the first Latin American player elected to the Hall of Fame.",
+    "activity_question": "What position did Roberto Clemente play for the Pittsburgh Pirates?",
+    "activity_choices": [
+      "Right field",
+      "Pitcher",
+      "Catcher",
+      "First base"
+    ],
+    "activity_answer": "Right field",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Clemente was known for his humanitarian work, often helping those in need during the off-season.",
+    "score": 88,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "276",
+    "title": "The Electric Gospel Queen",
+    "story": "A musical pioneer roared into the world on March 20, 1915. Sister Rosetta Tharpe, born in Cotton Plant, Arkansas, would become a powerhouse singer and electric guitarist. She blazed trails in gospel and R&B, electrifying audiences with her soulful voice and dazzling guitar skills. Tharpe's hit songs like 'This Train' and 'Down By The Riverside' inspired generations of musicians across genres.",
+    "activity_question": "What two musical genres did Sister Rosetta Tharpe pioneer?",
+    "activity_choices": [
+      "Gospel and R&B",
+      "Jazz and blues",
+      "Rock and country",
+      "Folk and pop"
+    ],
+    "activity_answer": "Gospel and R&B",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Sister Rosetta Tharpe was one of the first guitarists to use distortion in her playing.",
+    "score": 85,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "346",
+    "title": "A Star Trek Legend is Born",
+    "story": "Zap! A future sci-fi icon entered our world. John de Lancie, the actor who would become famous as the mischievous Q on Star Trek: The Next Generation, was born in Philadelphia, Pennsylvania in 1948. On March 20 that year, nobody knew this baby would grow up to challenge Captain Picard and delight millions of fans with his witty, otherworldly character.",
+    "activity_question": "What famous character did John de Lancie play on Star Trek: The Next Generation?",
+    "activity_choices": [
+      "Q",
+      "Captain Picard",
+      "Data",
+      "Worf"
+    ],
+    "activity_answer": "Q",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "John de Lancie also voiced Discord in My Little Pony, a character inspired by Q!",
+    "optional_type": "bonus_fact",
+    "score": 85,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "417",
+    "title": "K-Pop Star Hyunjin Dances into the World",
+    "story": "Lights, camera, action! On March 20, 2000, a future K-pop sensation took his first breath in Seoul, South Korea. Hyunjin, destined to become a dazzling dancer and rapper, was born. Years later, he'd join the popular group Stray Kids, wowing fans with his smooth moves and catchy rhymes. Hyunjin's talent shines bright in songs like 'Grow Up', inspiring young dreamers everywhere to reach for the stars.",
+    "activity_question": "What famous K-pop group did Hyunjin join?",
+    "activity_choices": [
+      "Stray Kids",
+      "BTS",
+      "EXO",
+      "BLACKPINK"
+    ],
+    "activity_answer": "Stray Kids",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What other talents does Hyunjin have besides rapping?",
+    "optional_type": "follow_up_question",
+    "score": 90,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "418",
+    "title": "Piano Prodigy's Remarkable Journey",
+    "story": "A musical star was born in Siheung, South Korea on March 20, 2004. Yunchan Lim entered the world, destined to become a piano sensation. His talent blossomed early, leading to an incredible achievement. At just 18, Lim became the youngest winner of the prestigious Van Cliburn International Piano Competition, dazzling audiences with his extraordinary skill and passion for music.",
+    "activity_question": "What prestigious competition did Yunchan Lim win at age 18?",
+    "activity_choices": [
+      "Van Cliburn International Piano Competition",
+      "World Chess Championship",
+      "Olympic Gold Medal in Gymnastics",
+      "International Spelling Bee"
+    ],
+    "activity_answer": "Van Cliburn International Piano Competition",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What instrument does Yunchan Lim play?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "182",
+    "title": "Speed Skater's Lightning-Fast Record",
+    "story": "Zoom! Dan Jansen's skates sliced through the ice like lightning. On March 20, 1993, this American speed skater blazed into the history books. Jansen set a new world record in the 500-meter race. His incredible time? Just 36.02 seconds! That's faster than most of us can tie our shoes. Jansen's skill and determination made him a true champion on the ice.",
+    "activity_question": "What was Dan Jansen's record-breaking time in the 500-meter race?",
+    "activity_choices": [
+      "36.02 seconds",
+      "35.02 seconds",
+      "37.02 seconds",
+      "36.20 seconds"
+    ],
+    "activity_answer": "36.02 seconds",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What sport did Dan Jansen compete in to set this world record?",
+    "score": 90,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "129",
+    "title": "Rivers Come Alive in India",
+    "story": "Splash! Two mighty rivers in India got a special status in 2017. On March 20, a court in Uttarakhand state declared the Yamuna and Ganges rivers as 'living entities.' This means these flowing waters now have legal rights, just like people! It's a unique way to protect these important waterways from pollution and harm.",
+    "activity_question": "What special status did the Yamuna and Ganges rivers receive?",
+    "activity_choices": [
+      "Living entities",
+      "National treasures",
+      "Sacred waters",
+      "Protected landmarks"
+    ],
+    "activity_answer": "Living entities",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it's important to protect rivers?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "135",
+    "title": "Deadly Smoke: The Hidden Danger of Bushfires",
+    "story": "Bushfires raged across Australia in 2020, but a surprising danger lurked in the air. A study revealed that smoke from these fires claimed more lives than the flames themselves. Researchers found that while the fires directly caused some deaths, the smoke's effects were far more widespread. It affected breathing and heart health, especially for vulnerable people. This discovery on March 20 highlighted the importance of protecting air quality during wildfires.",
+    "activity_question": "What did the study reveal about the bushfires in Australia?",
+    "activity_choices": [
+      "Smoke from fires claimed more lives than flames",
+      "Flames were more dangerous than smoke",
+      "Smoke had no effect on people's health",
+      "Bushfires only affected plants and animals"
+    ],
+    "activity_answer": "Smoke from fires claimed more lives than flames",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How might we protect ourselves from wildfire smoke?",
+    "score": 75,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "140",
+    "title": "Somalian Drought: A Call for Help",
+    "story": "In 2023, researchers shared shocking news about Somalia's severe drought. They found that many people, especially young children, suffered greatly the year before. Aid groups like UNICEF sounded the alarm in Mogadishu on March 20. They urged the world to help Somalia fight hunger and provide clean water to those in need.",
+    "activity_question": "Where did UNICEF present the research about Somalia's drought?",
+    "activity_choices": [
+      "Mogadishu",
+      "New York",
+      "Nairobi",
+      "London"
+    ],
+    "activity_answer": "Mogadishu",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How can kids help during droughts in other countries?",
+    "score": 80,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "193",
+    "title": "Clean Cars for a Greener Future",
+    "story": "Vroom! The roads are changing. President Joe Biden announced a new rule on March 20, 2024, to reduce pollution from car tailpipes. This rule aims to boost the number of electric vehicles zooming around the United States. It's a big step towards cleaner air and a healthier planet for everyone.",
+    "activity_question": "What type of vehicles does the new rule aim to increase?",
+    "activity_choices": [
+      "Electric vehicles",
+      "Diesel trucks",
+      "Flying cars",
+      "Steam engines"
+    ],
+    "activity_answer": "Electric vehicles",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think more electric cars might change your neighborhood?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "202",
+    "title": "Obama's Historic Trip to Cuba",
+    "story": "Air Force One touched down in Havana, carrying a special passenger. Barack Obama made history as the first U.S. President to visit Cuba in nearly 90 years. On March 20, 2016, he began a three-day tour with First Lady Michelle, aiming to improve relations between the two countries.",
+    "activity_question": "Who accompanied President Obama on his historic trip to Cuba?",
+    "activity_choices": [
+      "First Lady Michelle",
+      "Vice President Biden",
+      "Secretary of State",
+      "His children"
+    ],
+    "activity_answer": "First Lady Michelle",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it took so long for a U.S. President to visit Cuba?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "190",
+    "title": "Football Legend Makes a Big Move",
+    "story": "Touchdown for Tampa Bay! In 2020, football superstar Tom Brady shocked fans by leaving the New England Patriots after 20 amazing years. On March 20, he officially joined the Tampa Bay Buccaneers. Brady, known for winning six Super Bowls, signed a huge deal to play for his new team.",
+    "activity_question": "Which team did Tom Brady join in 2020?",
+    "activity_choices": [
+      "Tampa Bay Buccaneers",
+      "New England Patriots",
+      "Miami Dolphins",
+      "Green Bay Packers"
+    ],
+    "activity_answer": "Tampa Bay Buccaneers",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How many Super Bowls had Tom Brady won before changing teams?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "414",
+    "title": "Tennis Star Sloane Stephens Serves Up Success",
+    "story": "Sloane Stephens bounced into the world on March 20, 1993, in Plantation, Florida. This future tennis champion would go on to dazzle fans with her powerful serves and quick footwork. Stephens proved her skills by winning the prestigious US Open in 2017, showing young players everywhere that with hard work and determination, they too could become sports superstars.",
+    "activity_question": "What major tennis tournament did Sloane Stephens win?",
+    "activity_choices": [
+      "US Open",
+      "Wimbledon",
+      "French Open",
+      "Australian Open"
+    ],
+    "activity_answer": "US Open",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What qualities do you think helped Sloane Stephens become a tennis champion?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "415",
+    "title": "Charley Hull: Golf's Rising Star",
+    "story": "Swinging into the spotlight, Charley Hull was born on March 20, 1996, in Kettering, England. This British golfer quickly became a force on the green. Hull's talent shone bright as she competed in major tournaments like the ANA Inspiration, US Open, and British Open. Her skill and determination led to impressive runner-up finishes, marking her as a rising star in the world of golf.",
+    "activity_question": "Where was Charley Hull born?",
+    "activity_choices": [
+      "Kettering, England",
+      "London, England",
+      "Edinburgh, Scotland",
+      "Dublin, Ireland"
+    ],
+    "activity_answer": "Kettering, England",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What sport is Charley Hull famous for playing?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "416",
+    "title": "A Golf Star Is Born in Hawaii",
+    "story": "Aloha! A future golf champion took her first swing at life on March 20, 1998. Allisen Corpuz was born in sunny Honolulu, Hawaii. Little did anyone know that this island baby would grow up to conquer the greens. In 2023, Corpuz made waves by winning the prestigious US Open golf tournament. Her journey from Hawaiian shores to golfing glory shows that big dreams can start on even the smallest islands!",
+    "activity_question": "Where was Allisen Corpuz born?",
+    "activity_choices": [
+      "Honolulu, Hawaii",
+      "Los Angeles, California",
+      "New York City",
+      "Orlando, Florida"
+    ],
+    "activity_answer": "Honolulu, Hawaii",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What major golf tournament did Allisen Corpuz win in 2023?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "405",
+    "title": "A Disney Star Is Born",
+    "story": "Lights, camera, action! On March 20, 1984, a future Disney Channel star entered the world. Christy Carlson Romano was born in Milford, Connecticut. She would grow up to become famous for her roles in the hit show Even Stevens and as the voice of the animated teen hero Kim Possible.",
+    "activity_question": "What Disney Channel show did Christy Carlson Romano star in?",
+    "activity_choices": [
+      "Even Stevens",
+      "Lizzie McGuire",
+      "The Suite Life of Zack and Cody",
+      "Hannah Montana"
+    ],
+    "activity_answer": "Even Stevens",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What animated character did Christy Carlson Romano voice?",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "397",
+    "title": "A Voice That Rocked the World",
+    "story": "Chester Bennington burst onto the music scene with a powerful voice that would change rock forever. Born in Phoenix, Arizona in 1976, he grew up to become the lead singer of Linkin Park. The band's unique blend of rock and rap took the world by storm on March 20, 2000, when they released their debut album, Hybrid Theory.",
+    "activity_question": "What was the name of Linkin Park's debut album?",
+    "activity_choices": [
+      "Hybrid Theory",
+      "Meteora",
+      "Minutes to Midnight",
+      "A Thousand Suns"
+    ],
+    "activity_answer": "Hybrid Theory",
+    "suitable_for_8_to_12_year_old": false,
+    "bonus_fact": "Linkin Park has sold over 100 million records worldwide.",
+    "optional_type": "bonus_fact",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "91",
+    "title": "Joan Jett Rocks the Charts",
+    "story": "Guitar riffs blasted through radios everywhere as Joan Jett and the Blackhearts' anthem 'I Love Rock 'n' Roll' climbed to the top. Released in 1982, the song hit number one on March 20 and stayed there for weeks. Jett's powerful vocals and catchy chorus had fans of all ages singing along and playing air guitar.",
+    "activity_question": "What song by Joan Jett and the Blackhearts became a number one hit?",
+    "activity_choices": [
+      "I Love Rock 'n' Roll",
+      "I Love Pop Music",
+      "I Love Country Songs",
+      "I Love Jazz Tunes"
+    ],
+    "activity_answer": "I Love Rock 'n' Roll",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Joan Jett started her music career as a teenager in the all-girl band The Runaways.",
+    "score": 78,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "1",
+    "title": "Halley's Comet Zooms Past Earth",
+    "story": "Whoosh! A bright streak blazed across the night sky as Halley's Comet made its closest approach to Earth in 141. This cosmic visitor, a giant ball of ice and dust, swings by our planet every 75-76 years. Ancient stargazers on March 20 witnessed the comet's dazzling tail, not knowing it would become one of the most famous celestial objects in history.",
+    "activity_question": "What type of object is Halley's Comet?",
+    "activity_choices": [
+      "A giant ball of ice and dust",
+      "A shooting star",
+      "A planet",
+      "A UFO"
+    ],
+    "activity_answer": "A giant ball of ice and dust",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How often does Halley's Comet visit Earth?",
+    "score": 75,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "21",
+    "title": "Shoe Revolution: Matzeliger's Marvelous Machine",
+    "story": "Shoes stepped into the future in 1883! Jan Matzeliger, a clever inventor, created a machine that changed how shoes were made. On March 20, he received his first patent for a shoe lasting machine. This amazing device could quickly shape the upper part of a shoe around a foot-shaped mold, making shoe production much faster and cheaper.",
+    "activity_question": "What did Jan Matzeliger invent?",
+    "activity_choices": [
+      "A shoe lasting machine",
+      "A sewing machine",
+      "A shoe polishing robot",
+      "A foot measuring device"
+    ],
+    "activity_answer": "A shoe lasting machine",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "Before Matzeliger's invention, skilled workers could make about 50 pairs of shoes a day.",
+    "optional_type": "bonus_fact",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "34",
+    "title": "Epic Journey: London to South Africa by Air",
+    "story": "Soaring through the skies, a daring adventure unfolded in 1920. The first-ever flight from London to South Africa finally touched down on March 20. This wasn't your typical quick trip—it took a whopping one and a half months to complete! Imagine the excitement as the brave pilots navigated their way across continents, facing challenges and making history with each mile.",
+    "activity_question": "How long did the first flight from London to South Africa take?",
+    "activity_choices": [
+      "One and a half months",
+      "One week",
+      "Three days",
+      "Six hours"
+    ],
+    "activity_answer": "One and a half months",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think the flight took so long compared to modern air travel?",
+    "score": 75,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "36",
+    "title": "The Navy's Flying Ship",
+    "story": "Planes taking off from a ship? In 1922, the USS Langley made it possible! On March 20, this special vessel became the U.S. Navy's first aircraft carrier. Sailors could now launch planes from the sea, changing naval battles forever. The Langley started a new era of air power on the ocean, paving the way for future floating runways.",
+    "activity_question": "What type of ship was the USS Langley?",
+    "activity_choices": [
+      "Battleship",
+      "Submarine",
+      "Aircraft carrier",
+      "Tugboat"
+    ],
+    "activity_answer": "Aircraft carrier",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "The USS Langley was named after Samuel Pierpont Langley, an aviation pioneer.",
+    "optional_type": "bonus_fact",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "97",
+    "title": "Mighty Wind Blasts Scottish Mountain",
+    "story": "Whoosh! The wind howled with incredible force across Cairngorm mountain in Scotland. On March 20, 1986, a powerful gust reached an astonishing speed of 228 kilometers per hour. This wasn't just any breeze - it set a new record as the strongest wind ever measured in the United Kingdom. Imagine trying to stand up in that gale!",
+    "activity_question": "What was special about the wind gust on Cairngorm mountain?",
+    "activity_choices": [
+      "It set a UK record",
+      "It caused an avalanche",
+      "It lifted a car",
+      "It created a rainbow"
+    ],
+    "activity_answer": "It set a UK record",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think scientists measure such strong winds?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "63",
+    "title": "Sleeping Giant Awakens: Mount Bezymianny Erupts",
+    "story": "The ground trembled as Mount Bezymianny roared to life in 1956. This massive volcano on the Kamchatka Peninsula in the Soviet Union had been quiet for centuries. Then, on March 20, it suddenly exploded with incredible force. The eruption sent ash and rock soaring into the sky, transforming the landscape. Scientists were amazed by the power of nature unleashed that day.",
+    "activity_question": "Where is Mount Bezymianny located?",
+    "activity_choices": [
+      "Kamchatka Peninsula",
+      "Siberian Plains",
+      "Ural Mountains",
+      "Baltic Coast"
+    ],
+    "activity_answer": "Kamchatka Peninsula",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Bezymianny means 'nameless' in Russian, as it was once thought to be an unremarkable mountain.",
+    "score": 78,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "68",
+    "title": "Snowstorm Blankets the Mason-Dixon Line",
+    "story": "Snowflakes danced through the air, piling up higher and higher. In 1958, a massive snowstorm hit the Mason-Dixon line on March 20. The snow kept falling until it reached an incredible 50 inches deep! That's taller than many kids. The heavy snowfall created a winter wonderland, but also caused challenges for people living in the area.",
+    "activity_question": "How much snow fell during this storm?",
+    "activity_choices": [
+      "50 inches",
+      "20 inches",
+      "100 inches",
+      "5 feet"
+    ],
+    "activity_answer": "50 inches",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What do you think people did for fun during this big snowstorm?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "124",
+    "title": "Banana Disaster: Cyclone Larry Strikes",
+    "story": "Bananas vanished from Australian stores! On March 20, 2006, a powerful storm named Cyclone Larry slammed into eastern Australia. It tore through farms, flattening nearly all the country's banana trees. Suddenly, this favorite fruit became scarce and expensive. But Aussie farmers didn't give up. They replanted, and soon bananas were back on the menu.",
+    "activity_question": "What did Cyclone Larry destroy in Australia?",
+    "activity_choices": [
+      "Most of the country's banana crop",
+      "All the beaches",
+      "Many kangaroo habitats",
+      "The Sydney Opera House"
+    ],
+    "activity_answer": "Most of the country's banana crop",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think Australians adapted to having fewer bananas available?",
+    "score": 75,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "138",
+    "title": "Flood Waters Rise in Sydney",
+    "story": "Raindrops pounded Sydney in 2021, unleashing a rare and powerful flood. Water rushed through streets and fields, forcing people to leave their homes. This wasn't just any rainy day - it was a once-in-a-century downpour on March 20. The flood affected not only the big city but spread across the whole state of New South Wales.",
+    "activity_question": "What kind of weather event hit Sydney in 2021?",
+    "activity_choices": [
+      "A powerful flood",
+      "A severe drought",
+      "A massive earthquake",
+      "A tropical cyclone"
+    ],
+    "activity_answer": "A powerful flood",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it's important for people to be prepared for rare weather events?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "195",
+    "title": "Planets Blamed for a Deadly Mistake",
+    "story": "The skies held a rare sight in 1345 on March 20. Mars, Jupiter, and Saturn lined up close together. Some smart people at the University of Paris thought this special planet lineup caused a terrible sickness spreading across Europe. They were wrong! We now know tiny germs, not planets, caused the illness called the Black Death.",
+    "activity_question": "What did some people at the University of Paris think caused a terrible sickness?",
+    "activity_choices": [
+      "A special planet lineup",
+      "Tiny germs",
+      "Fleas and rats",
+      "Magic spells"
+    ],
+    "activity_answer": "A special planet lineup",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The real cause was a germ spread by fleas living on rats and other animals.",
+    "score": 75,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "153",
+    "title": "Napoleon's Daring Return to Power",
+    "story": "Napoleon Bonaparte shocked the world with a bold escape from exile on the island of Elba. On March 20, 1815, he marched triumphantly into Paris, reclaiming his throne as Emperor of France. This dramatic comeback kicked off Napoleon's final period of rule, known as the Hundred Days. It was a time of intense political drama that would reshape European history.",
+    "activity_question": "What was Napoleon's final period of rule called?",
+    "activity_choices": [
+      "The Hundred Days",
+      "The Great Escape",
+      "The Paris March",
+      "The Emperor's Return"
+    ],
+    "activity_answer": "The Hundred Days",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think Napoleon's return caused such a stir in Europe?",
+    "optional_type": "follow_up_question",
+    "score": 78,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "174",
+    "title": "Tennis Titans Clash in NYC",
+    "story": "Rackets clashed as tennis titans Martina Navratilova and Chris Evert Lloyd faced off at Madison Square Garden in New York City. On March 20, 1983, Navratilova dominated the court, winning the WTA Tour Championships with a stunning 6-2, 6-0 victory. This match kicked off an impressive streak, as Navratilova went on to claim the title for five consecutive years.",
+    "activity_question": "Where did this famous tennis match take place?",
+    "activity_choices": [
+      "Madison Square Garden",
+      "Wimbledon",
+      "Roland Garros",
+      "Central Park"
+    ],
+    "activity_answer": "Madison Square Garden",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another famous sport played at Madison Square Garden?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "176",
+    "title": "Iron Mike's Swift Victory in Tokyo",
+    "story": "Pow! In 1988, Mike Tyson lived up to his 'Iron Mike' nickname. The defending champ unleashed his fierce punches on Tony Tubbs at the Tokyo Dome on March 20. Tyson's lightning-fast fists ended the fight in just two rounds. He kept his undisputed world heavyweight boxing title with a technical knockout. Remember, boxing is a tough sport - always train safely!",
+    "activity_question": "What nickname did Mike Tyson have?",
+    "activity_choices": [
+      "Iron Mike",
+      "The Champ",
+      "Tokyo Titan",
+      "Lightning Fists"
+    ],
+    "activity_answer": "Iron Mike",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think boxers have nicknames? How might a nickname affect a fighter's image?",
+    "score": 70,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "178",
+    "title": "Kareem's Number Soars to the Rafters",
+    "story": "Cheers erupted as the LA Lakers honored a basketball legend in 1990. On March 20, Kareem Abdul-Jabbar's iconic jersey number 33 was lifted high above the court, never to be worn again. This retirement ceremony celebrated Kareem's incredible career, including his famous skyhook shot that helped the Lakers win five championships.",
+    "activity_question": "What was Kareem Abdul-Jabbar's jersey number that the LA Lakers retired?",
+    "activity_choices": [
+      "33",
+      "23",
+      "34",
+      "32"
+    ],
+    "activity_answer": "33",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Kareem Abdul-Jabbar is the all-time leading scorer in NBA history.",
+    "score": 70,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "77",
+    "title": "Bruins Skate to Victory Streak",
+    "story": "Skates sliced the ice as the Boston Bruins charged toward hockey history. On March 20, 1971, the team clinched their thirteenth consecutive win in the National Hockey League. This impressive streak showcased the Bruins' dominance on the rink, thrilling fans with each goal and save. Their teamwork and skill propelled them to new heights in the sport.",
+    "activity_question": "What did the Boston Bruins achieve in 1971?",
+    "activity_choices": [
+      "Their thirteenth consecutive win",
+      "Their first Stanley Cup",
+      "A new goal-scoring record",
+      "A perfect season"
+    ],
+    "activity_answer": "Their thirteenth consecutive win",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "The Bruins' team colors are black and gold.",
+    "optional_type": "bonus_fact",
+    "score": 70,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "131",
+    "title": "Finland Tops World Happiness Chart",
+    "story": "Smiles all around! Finland claimed the title of world's happiest country in 2019. The annual World Happiness Report, released on March 20, ranked nations based on factors like social support and freedom. While Finns celebrated their joyful status, South Sudan faced challenges at the other end of the scale.",
+    "activity_question": "What report determined Finland as the happiest country?",
+    "activity_choices": [
+      "World Happiness Report",
+      "Global Joy Index",
+      "International Smile Survey",
+      "Planetary Cheer Chart"
+    ],
+    "activity_answer": "World Happiness Report",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What makes you feel happy in your country?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "The What Zone"
+    ]
+  },
+  {
+    "id": "133",
+    "title": "Nebraska's Watery Woes",
+    "story": "Raging rivers and swollen streams swept across Nebraska in 2019. The flooding was so bad that Governor Pete Ricketts called it the most widespread destruction ever seen in the state's history. On March 20, Nebraskans faced rising waters and worked together to help their neighbors stay safe.",
+    "activity_question": "What did Governor Pete Ricketts call the flooding?",
+    "activity_choices": [
+      "The most widespread destruction ever seen",
+      "A minor inconvenience",
+      "A typical spring event",
+      "An easily manageable situation"
+    ],
+    "activity_answer": "The most widespread destruction ever seen",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How might communities prepare for future floods?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "123",
+    "title": "Fukuoka Shaken by Surprise Earthquake",
+    "story": "The ground rumbled and buildings swayed as a powerful earthquake struck Fukuoka, Japan on March 20, 2005. It was the city's first major quake in over a century! The 6.6 magnitude tremor caught many by surprise. While it caused damage and injuries, the community came together to help those affected and rebuild.",
+    "activity_question": "How strong was the earthquake that hit Fukuoka?",
+    "activity_choices": [
+      "5.5 magnitude",
+      "6.6 magnitude",
+      "7.7 magnitude",
+      "8.8 magnitude"
+    ],
+    "activity_answer": "6.6 magnitude",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it's important for communities to be prepared for natural disasters like earthquakes?",
+    "score": 70,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "41",
+    "title": "Diesel Engine Zooms to New Heights",
+    "story": "Vroom! In 1930, American engine builder Clessie Cummins revved up excitement. On March 20, he pushed a diesel engine to its limits, reaching a blazing speed of 80.4 mph. This impressive feat set a new world record for diesel-powered vehicles. Cummins' innovative design proved that diesel engines could be both powerful and fast.",
+    "activity_question": "What speed did Clessie Cummins' diesel engine reach?",
+    "activity_choices": [
+      "80.4 mph",
+      "100 mph",
+      "60 mph",
+      "90 mph"
+    ],
+    "activity_answer": "80.4 mph",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think setting speed records for engines is important?",
+    "score": 70,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "16",
+    "title": "A Library for All in Boston",
+    "story": "Books for everyone! In 1854, the Boston Public Library opened its doors, becoming the first big free library in America. This wasn't just any library - it was a place where anyone could borrow books without paying. On March 20, curious readers flocked to explore shelves filled with knowledge and adventure. It sparked a movement, inspiring other cities to create their own free libraries.",
+    "activity_question": "What made the Boston Public Library special when it opened?",
+    "activity_choices": [
+      "It was the first big free library in America",
+      "It had the most books in the world",
+      "It was only for children",
+      "It was built underwater"
+    ],
+    "activity_answer": "It was the first big free library in America",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think free libraries are important for a community?",
+    "score": 70,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "12",
+    "title": "Lady Hester's Daring Desert Adventure",
+    "story": "Saddle up for adventure! In 1813, Lady Hester Stanhope became a trailblazer. This brave Englishwoman set out on March 20 to explore the ancient city of Palmyra in Syria. No western woman had ever visited this mysterious place before. Lady Hester rode across the desert on horseback, facing sandstorms and unknown dangers to make history.",
+    "activity_question": "What ancient city did Lady Hester Stanhope visit?",
+    "activity_choices": [
+      "Palmyra",
+      "Cairo",
+      "Damascus",
+      "Petra"
+    ],
+    "activity_answer": "Palmyra",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it was unusual for a woman to make this journey in 1813?",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "72",
+    "title": "Pop Art Bursts onto the Scene",
+    "story": "Colorful soup cans and comic book heroes invaded an art gallery in New York City. It was March 20, 1963, and the first-ever Pop Art exhibition had just opened its doors. Artists like Andy Warhol and Roy Lichtenstein turned everyday objects into bold, eye-catching artworks. This new style challenged traditional ideas about what could be considered art, sparking excitement and debate in the art world.",
+    "activity_question": "What type of objects did Pop Art turn into artworks?",
+    "activity_choices": [
+      "Everyday objects",
+      "Ancient artifacts",
+      "Rare gemstones",
+      "Exotic animals"
+    ],
+    "activity_answer": "Everyday objects",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name any everyday objects you'd like to see as Pop Art?",
+    "optional_type": "follow_up_question",
+    "score": 72,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "82",
+    "title": "Superhero Cops Hit the Big Screen",
+    "story": "Pow! Bam! The streets of New York City came alive with action on March 20, 1974. That's when 'The Super Cops' burst onto movie screens, bringing real-life police heroes to the big screen. Directed by Gordon Parks, this exciting film showed two brave officers fighting crime in the Big Apple. It wasn't just make-believe - the movie was based on true stories of daring police work!",
+    "activity_question": "Who directed the movie 'The Super Cops'?",
+    "activity_choices": [
+      "Gordon Parks",
+      "Steven Spielberg",
+      "Martin Scorsese",
+      "Captain America"
+    ],
+    "activity_answer": "Gordon Parks",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "Gordon Parks was also a famous photographer and writer.",
+    "optional_type": "bonus_fact",
+    "score": 82,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "73",
+    "title": "Europe Reaches for the Stars",
+    "story": "Blast off! In 1964, scientists from ten European countries joined forces to create the European Space Research Organization (ESRO). This cosmic team-up happened on March 20, launching Europe into the space race. ESRO's mission? To explore the universe and develop cutting-edge space technology. It paved the way for future European space adventures!",
+    "activity_question": "What was ESRO's mission?",
+    "activity_choices": [
+      "To explore the universe and develop cutting-edge space technology",
+      "To build a space station on Mars",
+      "To train astronauts from every country",
+      "To discover alien life forms"
+    ],
+    "activity_answer": "To explore the universe and develop cutting-edge space technology",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name any of the ten European countries that might have been part of ESRO?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "101",
+    "title": "Satellite Soars into Space",
+    "story": "Whoosh! A powerful rocket blasted off, carrying a special satellite called Palapa B2P. NASA launched this high-tech marvel in 1987 on March 20. The satellite's mission? To improve communication across Indonesia's many islands. It would help connect people, beam TV shows, and even assist during emergencies.",
+    "activity_question": "What was the name of the satellite launched by NASA?",
+    "activity_choices": [
+      "Palapa B2P",
+      "Hubble",
+      "Sputnik",
+      "Voyager"
+    ],
+    "activity_answer": "Palapa B2P",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "Satellites orbit Earth at different heights, from a few hundred to thousands of miles up!",
+    "optional_type": "bonus_fact",
+    "score": 68,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "166",
+    "title": "Dorothy Height's Voice Reaches New Heights",
+    "story": "Dorothy Height, a powerful civil and women's rights activist, made waves in 1965. On March 20, her first column appeared in the New York Amsterdam News, a popular African-American newspaper. Height's words reached countless readers, inspiring change and sparking important conversations about equality.",
+    "activity_question": "Where was Dorothy Height's first column published?",
+    "activity_choices": [
+      "New York Amsterdam News",
+      "The Washington Post",
+      "Chicago Tribune",
+      "Los Angeles Times"
+    ],
+    "activity_answer": "New York Amsterdam News",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it's important for activists to write newspaper columns?",
+    "score": 65,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "184",
+    "title": "Pope's Historic Holy Land Journey",
+    "story": "Pilgrims flocked to see Pope John Paul II as he embarked on a groundbreaking trip in 2000. On March 20, the Pope began his visit to the Holy Land, traveling through Jordan, Israel, and Palestine. This journey marked the first time a pope had visited these sacred places in decades, bringing a message of peace and unity to the region.",
+    "activity_question": "Which three places did Pope John Paul II visit on his Holy Land trip?",
+    "activity_choices": [
+      "Jordan, Israel, and Palestine",
+      "Egypt, Syria, and Lebanon",
+      "Turkey, Greece, and Cyprus",
+      "Italy, Vatican City, and Malta"
+    ],
+    "activity_answer": "Jordan, Israel, and Palestine",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think the Pope's visit to these places was important?",
+    "score": 65,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  }
+]

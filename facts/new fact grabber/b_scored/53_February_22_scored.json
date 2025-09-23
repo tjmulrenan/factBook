@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "original": "World Thinking Day",
+    "score": 55,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "National Margarita Day",
+    "score": 65,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 3,
+    "original": "National Cook a Sweet Potato Day",
+    "score": 60,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "National Walking the Dog Day",
+    "score": 70,
+    "is_kid_friendly": true
+  }
+]

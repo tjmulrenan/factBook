@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Trash to Treasure Day!",
+    "story": "Every November 15, America celebrates America Recycles Day by turning trash into treasure! People across the country sort their bottles, cans, and paper to give them new life. Schools host recycling drives where kids compete to collect the most recyclables. Families clean out their recycling bins and learn fun facts about how their old soda bottles might become new playground equipment or fleece jackets!",
+    "activity_question": "What might an old soda bottle become after being recycled?",
+    "activity_choices": [
+      "A new playground equipment or fleece jacket",
+      "A birthday cake",
+      "A live goldfish",
+      "A math textbook"
+    ],
+    "activity_answer": "A new playground equipment or fleece jacket",
+    "follow_up_question": "What's the coolest thing you could make from recycled materials?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "902",
+    "title": "Fridge Cleaning Frenzy Day",
+    "story": "Every November 15, people across the country open their refrigerators and get ready to clean! National Clean Out Your Refrigerator Day encourages families to toss expired food, wipe down shelves, and organize everything neatly. Kids help by checking dates on milk cartons and yogurt cups. Some families make it a game by seeing who can find the oldest item hiding in the back corners!",
+    "activity_question": "What do families check on food items during this holiday?",
+    "activity_choices": [
+      "Expiration dates",
+      "The color of the packaging",
+      "How much it weighs",
+      "Whether it glows in the dark"
+    ],
+    "activity_answer": "Expiration dates",
+    "follow_up_question": "What's the weirdest thing you've ever found forgotten in your fridge?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "903",
+    "title": "Spicy Hermit Cookies Heat Up November",
+    "story": "Bakers across America fire up their ovens on November 15 for National Spicy Hermit Cookie Day! These chewy, old-fashioned cookies pack a punch with warm spices like cinnamon, nutmeg, and ginger. Unlike regular cookies, hermit cookies actually taste better after sitting for a day or two – that's how they got their \"hermit\" name, because they hide away and improve with time. Families love making big batches together, filling their kitchens with amazing smells. Many people share photos of their homemade hermit cookies on social media, showing off different spice combinations and secret family recipes.",
+    "activity_question": "Why are these cookies called \"hermit\" cookies?",
+    "activity_choices": [
+      "Because they taste better after hiding away for a day or two",
+      "Because they're shaped like tiny caves",
+      "Because hermits invented the recipe",
+      "Because you eat them alone in your room"
+    ],
+    "activity_answer": "Because they taste better after hiding away for a day or two",
+    "bonus_fact": "Some hermit cookie recipes are over 150 years old and passed down through generations!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "904",
+    "title": "Pen Your Passion on I Love to Write Day",
+    "story": "Writers everywhere grab their favorite pens, pencils, and keyboards on November 15 for I Love to Write Day! This special holiday celebrates the joy of putting words on paper, whether you're writing stories, poems, letters, or even grocery lists. Schools often host writing contests where kids create amazing tales about dragons, space adventures, or their pet hamsters. Libraries set up cozy writing corners with special notebooks and colorful pens. Many people share their favorite writing tips online or post pictures of their messy, ink-stained fingers. Some families write thank-you notes together or start journals they promise to keep all year long.",
+    "activity_question": "What do schools often host on I Love to Write Day?",
+    "activity_choices": [
+      "Writing contests",
+      "Spelling bees",
+      "Book fairs",
+      "Pizza parties"
+    ],
+    "activity_answer": "Writing contests",
+    "follow_up_question": "What kind of story would you write if you entered a writing contest today?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 82
+  }
+]

@@ -1,0 +1,8234 @@
+[
+  {
+    "id": 1,
+    "year": "70",
+    "original": "The Tower of Antonia is destroyed by the Romans",
+    "score": 52,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "year": "1220",
+    "original": "Sweden is defeated by Estonian tribes in the Battle of Lihula",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.8
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "year": "1303",
+    "original": "Crete earthquake strikes with an estimated magnitude of 8, triggering a major tsunami that damages the Lighthouse of Alexandria and sweeps ships two miles inland in Egypt",
+    "score": 85,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 1.0
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.6
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "year": "1322",
+    "original": "Emperor Godaigo makes Sojiji the chief monastery of Soto Sect",
+    "score": 42,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "year": "1509",
+    "original": "Emperor Krishnadeva Raya is crowned, beginning the rejuvenation of the Vijayanagara Empire in southern India",
+    "score": 72,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "year": "1549",
+    "original": "Henry II of France declares war on England and orders the siege of Boulogne",
+    "score": 52,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "year": "1567",
+    "original": "Duke of Alva's army enters Brussels, Habsburg Netherlands (now Belgium)",
+    "score": 32,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "year": "1570",
+    "original": "Peace of Saint-Germain-en-Laye grants more freedom to Huguenots",
+    "score": 45,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "year": "1585",
+    "original": "John Davis enters Cumberland Sound in search of the Northwest Passage",
+    "score": 68,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "Beyond Earth",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "year": "1605",
+    "original": "The city of Oulu, Finland, is founded by Charles IX of Sweden",
+    "score": 52,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "year": "1615",
+    "original": "Dutch expedition of Joris van Spilbergen attacks and later pillages the Spanish-held town of Paita, north of Lima",
+    "score": 35,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "Full Beast Mode",
+        "score": 0.5
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "year": "1647",
+    "original": "The Irish Confederate Wars and Wars of the Three Kingdoms: English Parliamentary forces defeat Irish forces in the Battle of Dungan's Hill",
+    "score": 35,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "year": "1655",
+    "original": "City of Vilnius, capital of the Grand Duchy of Lithuania, falls to Muscovite forces, who pillage it with such ferocity that fires burn for two weeks",
+    "score": 35,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.8
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "year": "1673",
+    "original": "Dutch battle fleet of 23 ships demands the surrender of New York City",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "year": "1703",
+    "original": "Vienna-based newspaper Wienerisches Diarium (later called Wiener Zeitung) prints its first edition and publishes daily for almost 320 years",
+    "score": 55,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.6
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "year": "1709",
+    "original": "First known ascent in a hot-air balloon by Bartolomeu de Gusmão (indoors)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Beyond Earth",
+        "score": 0.8
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.7
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.6
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "year": "1729",
+    "original": "Town of Baltimore is founded in the British North American colony of the Province of Maryland",
+    "score": 52,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "year": "1758",
+    "original": "British troops occupy and plunder Cherbourg",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.2
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.1
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "year": "1786",
+    "original": "Jacques Balmat and Michel Paccard are the first to climb to the top of Mont Blanc, the highest mountain in Western Europe",
+    "score": 88,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.9
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.8
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.7
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "year": "1793",
+    "original": "The insurrection of Lyon occurs during the French Revolution",
+    "score": 45,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "year": "1794",
+    "original": "Joseph Whidbey and George Vancouver lead an expedition to search for the Northwest Passage near Juneau, Alaska",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "Beyond Earth",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "year": "1796",
+    "original": "Boston African Society is established with 44 members",
+    "score": 55,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "year": "1809",
+    "original": "70 disciples of Gaon of Vilnius, arrive in Palestine",
+    "score": 55,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "year": "1814",
+    "original": "Peace negotiations begin in Ghent, United Netherlands (now Belgium)",
+    "score": 45,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "year": "1816",
+    "original": "Bavaria joins the Holy Alliance",
+    "score": 32,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "year": "1829",
+    "original": "French government of Polignac forms",
+    "score": 32,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "year": "1829",
+    "original": "The Stourbridge Lion steam locomotive, built by Foster, Rastrick and Co. in Stourbridge, England, goes into service for the Delaware and Hudson Canal Company in Honesdale, Pennsylvania",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Big Brain Energy",
+        "score": 0.8
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "year": "1831",
+    "original": "Battle of Hasselt: Dutch army drives out the Belgians",
+    "score": 42,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "year": "1839",
+    "original": "Beta Theta Pi is founded in Oxford, Ohio",
+    "score": 27,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.2
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.1
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "year": "1843",
+    "original": "Natal in South Africa becomes a British colony",
+    "score": 42,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "year": "1853",
+    "original": "Russian fleet appears at Nagasaki, Japan",
+    "score": 45,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "Beyond Earth",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "year": "1854",
+    "original": "Smith & Wesson patents metal bullet cartridges",
+    "score": 35,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Big Brain Energy",
+        "score": 0.7
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "year": "1860",
+    "original": "Queen of the Sandwich Islands, Hawaii, arrives in New York City",
+    "score": 42,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "year": "1863",
+    "original": "American Civil War: Tennessee's \"military\" Governor Andrew Johnson frees his personal slaves, celebrated as a holiday by Tennessee African Americans in the early 20th century",
+    "score": 75,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "year": "1864",
+    "original": "Comet C/1864 N1 (Tempel) passes within 0.0964 AU (approximately 14.4 million km or 8.9 million miles) of Earth",
+    "score": 75,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Beyond Earth",
+        "score": 1.0
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.7
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "year": "1864",
+    "original": "Union troops and fleet occupy Fort Gaines, Alabama",
+    "score": 45,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.3
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "year": "1868",
+    "original": "Earthquake destroys the city of Arica, Chile",
+    "score": 55,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.9
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.6
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "year": "1870",
+    "original": "New York Yacht Club’s first defense of America's Cup: \"Magic\" (NYYC) defeats \"Cambria\" (Royal Thames YC, England; finishes 8th) and 16 fellow defenders from New York Harbor to Sandy Hook Light Vessel on the Atlantic and return (38 miles)",
+    "score": 72,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.8
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "year": "1870",
+    "original": "The Republic of Ploiești, a failed Radical-Liberal uprising against Domnitor Carol I of Romania",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "year": "1876",
+    "original": "Dan O'Leary completes a 500-mile walk in 139 hours and 32 minutes",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.9
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.6
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "year": "1882",
+    "original": "Snow falls on Lake Michigan",
+    "score": 75,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.8
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.7
+      },
+      {
+        "category": "Beyond Earth",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "year": "1894",
+    "original": "Riccardo Drigo's ballet \"Le Réveil de Flore\" premieres with the Imperial Mariinsky Ballet at the Peterhof Palace in St. Petersburg, Russian Empire",
+    "score": 45,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.8
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "year": "1900",
+    "original": "1st International Lawn Tennis Challenge (precursor to Davis Cup) begins at Longwood Cricket Club in Massachusetts, won 3-0 by the US over the British Isles",
+    "score": 52,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.7
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "year": "1910",
+    "original": "The US Army installs the first tricycle landing gear on the Army's Wright Flyer",
+    "score": 72,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Big Brain Energy",
+        "score": 0.8
+      },
+      {
+        "category": "Beyond Earth",
+        "score": 0.7
+      },
+      {
+        "category": "Full Beast Mode",
+        "score": 0.6
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "year": "1911",
+    "original": "Public Law 62-5 sets the number of representatives in the United States House of Representatives at 435 and comes into effect in 1913",
+    "score": 32,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "year": "1911",
+    "original": "The millionth patent is filed in the United States Patent Office by Francis Holton for a tubeless vehicle tire",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Big Brain Energy",
+        "score": 0.8
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "year": "1913",
+    "original": "Richard Corfield's \"Camel Corps\" opens against the \"Mad Mullah\" in Burao, Somalia",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "year": "1914",
+    "original": "French troops under Gen. Bonneau occupy Mulhouse in Alsace",
+    "score": 32,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "year": "1914",
+    "original": "Montenegro declares war on Germany",
+    "score": 35,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "year": "1916",
+    "original": "The A's set an American League record with their 19th consecutive loss on the road",
+    "score": 35,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.7
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "year": "1918",
+    "original": "World War I: The Allies launch the Hundred Days Offensive, beginning with the Battle of Amiens, where 500 tanks and 10 Allied divisions attack German lines",
+    "score": 45,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.8
+      },
+      {
+        "category": "Full Beast Mode",
+        "score": 0.6
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "year": "1919",
+    "original": "Treaty of Rawalpindi: British recognize Afghanistan's independence",
+    "score": 55,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "year": "1920",
+    "original": "Tigers beat Yankees 1-0 in the shortest American League game, lasting 73 minutes",
+    "score": 75,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.8
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.7
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "year": "1922",
+    "original": "Pirates set a record of 46 hits in a doubleheader against the Phillies",
+    "score": 82,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 1.0
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.7
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "year": "1924",
+    "original": "British-Russian trade agreement is signed",
+    "score": 42,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "year": "1925",
+    "original": "First national march of the Ku Klux Klan (between 25,000 and 40,000 marchers) in Washington, D.C.",
+    "score": 5,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.2
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.1
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "year": "1929",
+    "original": "Salem airport in Oregon dedicated",
+    "score": 25,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.4
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.3
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "year": "1930",
+    "original": "MLB St. Louis Cardinals are 12 games back in the NL and go on to win the pennant",
+    "score": 75,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.8
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "year": "1931",
+    "original": "Washington Senators pitcher Bobby Burke no-hits Boston Red Sox, 5-0 at Griffith Stadium, Washington D. C.",
+    "score": 75,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.8
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "year": "1936",
+    "original": "A Finnish quinella in the 3,000 m steeplechase at the Berlin Olympics as Volmari Iso-Hollo beats teammate Kaarlo Tuominen in a world record time of 9:03.8",
+    "score": 60,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.8
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.7
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "year": "1936",
+    "original": "American Glenn Morris's decathlon total of 7,254 points is a world record; teammates Bob Clark and Jack Parker complete a US sweep in the grueling event at the Berlin Olympics",
+    "score": 85,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 1.0
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "year": "1936",
+    "original": "Corbett National Park and Tiger Reserve is founded in Uttarakhand, British India, as Hailey National Park (later renamed) as India's first national park",
+    "score": 78,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.9
+      },
+      {
+        "category": "Creature Feature",
+        "score": 0.8
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "year": "1937",
+    "original": "Bonneville Dam on the Columbia River begins producing power",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Big Brain Energy",
+        "score": 0.8
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.7
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "year": "1938",
+    "original": "Great Trek Centenary Celebrations commence; the Great Trek was a migration involving Boers leaving the Cape Colony and settling in the interior of South Africa",
+    "score": 45,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "year": "1940",
+    "original": "31 German aircraft are shot down over England",
+    "score": 45,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "Full Beast Mode",
+        "score": 0.6
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "year": "1941",
+    "original": "Twenty divisions of the Soviet 6th and 12th Armies surrender at Uman",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "year": "1942",
+    "original": "British Flower class corvette HMS Dianthus sinks U-379",
+    "score": 32,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      },
+      {
+        "category": "Full Beast Mode",
+        "score": 0.4
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "year": "1942",
+    "original": "Six convicted Nazi saboteurs who land in the US are executed in Washington, D.C.",
+    "score": 12,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "year": "1942",
+    "original": "Soviet counteroffensive at Voronezh under Marshal Timoshenko",
+    "score": 32,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "year": "1943",
+    "original": "Common Chiefs of Staff meet in Quebec",
+    "score": 70,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "year": "1943",
+    "original": "US amphibians land at Sant'Agata on the north coast of Sicily",
+    "score": 55,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "year": "1943",
+    "original": "Vegetables and fruit are rationed in the Netherlands",
+    "score": 55,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.7
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.6
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "year": "1944",
+    "original": "Canadian and Polish troops occupy Cramesnil, Secqueville, Cintheaux, and St-Aignan",
+    "score": 42,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "year": "1944",
+    "original": "First test flight of the Junkers Ju 287, a proposed German Luftwaffe jet bomber; it is never fully put into production",
+    "score": 55,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.6
+      },
+      {
+        "category": "Beyond Earth",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "year": "1944",
+    "original": "US 15th Army corps occupies Le Mans",
+    "score": 75,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "year": "1945",
+    "original": "England and Australian armed services draw the fourth Victory Test",
+    "score": 52,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.7
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.5
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "year": "1945",
+    "original": "Soviet Union declares war on Japan during World War II and invades Manchuria the next day",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "year": "1946",
+    "original": "Dreyfuss family, owners of MLB Pittsburgh Pirates since 1900, sells club to Frank McKinney and John Galbreath for $25 million",
+    "score": 28,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.4
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "year": "1946",
+    "original": "First flight of Convair B-36",
+    "score": 45,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.5
+      },
+      {
+        "category": "Beyond Earth",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "year": "1946",
+    "original": "India agrees to give Bhutan 32 square miles (82.88 square kilometers) of territory in the area of Dewangiri",
+    "score": 80,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "year": "1947",
+    "original": "Pakistan's national flag is approved",
+    "score": 45,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "year": "1949",
+    "original": "Bhutan, Land of the Dragon, becomes an independent monarchy",
+    "score": 82,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "year": "1952",
+    "original": "Syngman Rhee is re-elected as president of South Korea",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "year": "1953",
+    "original": "US and South Korea initial a mutual security pact",
+    "score": 52,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "year": "1955",
+    "original": "Geneva Conference is held to discuss the peaceful uses of atomic energy",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Big Brain Energy",
+        "score": 0.8
+      },
+      {
+        "category": "Beyond Earth",
+        "score": 0.7
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "year": "1956",
+    "original": "Fire and explosion kill 263 miners in Marcinelle, Belgium",
+    "score": 32,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "year": "1956",
+    "original": "WDIQ (now KMCT) TV channel 2 in Dozier, AL (PBS) begins broadcasting",
+    "score": 12,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.2
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.1
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.1
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "year": "1957",
+    "original": "USSR offers Syria economic and military aid",
+    "score": 32,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "year": "1960",
+    "original": "Brian Hyland's recording of \"Itsy Bitsy Teenie Weenie Yellow Polkadot Bikini\", a novelty pop song written by Paul Vance and Lee Pockriss, hits #1 on the Billboard Hot 100",
+    "score": 89,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 1.0
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.7
+      },
+      {
+        "category": "Full Beast Mode",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "year": "1960",
+    "original": "Charges against 53 of the 76 Africans detained after the Sharpeville Massacre in South Africa are dropped",
+    "score": 45,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "year": "1960",
+    "original": "South Kasai secedes from the Congo",
+    "score": 35,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "year": "1961",
+    "original": "Hamilton Tiger-Cats (CFL) beat Buffalo Bills (NFL) 38-21 in Hamilton, Ontario",
+    "score": 92,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 1.0
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "year": "1961",
+    "original": "Verne Gagne beats Gene Kiniski in Minneapolis to become NWA champion",
+    "score": 70,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "year": "1963",
+    "original": "Great Train Robbery in England involves the theft of £2.6 million ($7.3 million)",
+    "score": 94,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.8
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.7
+      },
+      {
+        "category": "Full Beast Mode",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "year": "1963",
+    "original": "The Kingsmen release \"Louie, Louie;\" some radio stations ban it due to rumors of obscene content",
+    "score": 95,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 1.0
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "year": "1963",
+    "original": "Verne Gagne beats Fritz Von Erich in Amarillo to become NWA Champion",
+    "score": 96,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 1.0
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "year": "1964",
+    "original": "First Rolling Stones concert in the Netherlands at the Kurhaus of Scheveningen in The Hague",
+    "score": 65,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "year": "1964",
+    "original": "The Dutch Opera forms in Amsterdam",
+    "score": 55,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "year": "1967",
+    "original": "Indonesia, Malaysia, the Philippines, Singapore, and Thailand meet to form the Association of Southeast Asian Nations (ASEAN)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "year": "1968",
+    "original": "Jarry Park is approved by Montreal Mayor Jean Drapeau for interim use by the Expos",
+    "score": 70,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "Full Beast Mode",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "year": "1968",
+    "original": "Race riot in Miami, Florida",
+    "score": 12,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "year": "1969",
+    "original": "The Beatles are photographed by Iain MacMillan crossing the street as they walk away from EMI Recording Studios, for the cover of their \"Abbey Road\" album",
+    "score": 85,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 1.0
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.8
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.6
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "year": "1971",
+    "original": "A British soldier is shot dead by the Irish Republican Army in Belfast",
+    "score": 15,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.2
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.1
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "year": "1971",
+    "original": "France performs a nuclear test at Mururoa Atoll",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "Beyond Earth",
+        "score": 0.5
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "year": "1972",
+    "original": "New York Yankees sign a 30-year lease to play in remodeled Yankee Stadium",
+    "score": 32,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.6
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.3
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "year": "1974",
+    "original": "US PresidentRichard Nixonannounces he will resign at 12 p.m. the next day",
+    "score": 35,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "year": "1975",
+    "original": "As a result of rainfall from Typhoon Nina, the Banqiao Dam in China fails, causing the collapse of almost 6 million buildings and 229,000 deaths",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.8
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "year": "1976",
+    "original": "Chicago White Sox wear shorts for a game instead of traditional baseball pants",
+    "score": 75,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.8
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.7
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "year": "1977",
+    "original": "Maurine Stuart is ordained as a Zen priest by Eido Tai Shimano Roshi",
+    "score": 35,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "year": "1977",
+    "original": "Texas Rangers turn their first triple play against the Athletics",
+    "score": 70,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.8
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "year": "1978",
+    "original": "Pioneer-Venus 2 with five atmospheric probes launches toward Venus",
+    "score": 80,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Beyond Earth",
+        "score": 1.0
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.7
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "year": "1980",
+    "original": "Lake Buena Vista Conference Center and Club Lake Villas open",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.2
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.1
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "year": "1981",
+    "original": "At a summit, South African trade unions resolve to defy apartheid and labor laws",
+    "score": 30,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "year": "1983",
+    "original": "Jury in KC, Mo, awards TV anchorwoman Christine Craft $500,000 in a sex discrimination suit against KMBC-TV (later overturned)",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "year": "1984",
+    "original": "Milwaukee's 10-game losing streak ends",
+    "score": 30,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.7
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "year": "1984",
+    "original": "Nawal El Moutawakel of Morocco becomes the first female Olympic champion from a Muslim nation and the first from her country in the 400 m hurdles at the Los Angeles Olympics",
+    "score": 90,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 1.0
+      },
+      {
+        "category": "Full Beast Mode",
+        "score": 0.8
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "year": "1985",
+    "original": "Baseball's new agreement permits two new National League teams in 1993",
+    "score": 45,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.7
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "year": "1985",
+    "original": "Japan launches Planet-A, a probe to Halley's Comet",
+    "score": 85,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Beyond Earth",
+        "score": 1.0
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.8
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.6
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "year": "1986",
+    "original": "Altaf Hussain addresses Nishtar Park in Karachi, announcing the establishment of the Muttahida Qaumi Movement (MQM) political movement",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "year": "1986",
+    "original": "Texas paroles American rock singer David Crosby from state prison five months into his five-year prison sentence for drug and weapons convictions; he credits the reprieve with helping him break his cocaine addiction",
+    "score": 35,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "year": "1987",
+    "original": "Brewers' Rob Deer strikes out five times in a game",
+    "score": 40,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.7
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "year": "1987",
+    "original": "Pakistan is all out for 708 against England at The Oval, with Botham taking 3-217",
+    "score": 32,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.7
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "year": "1988",
+    "original": "Angola, Cuba and South Africa agree to a ceasefire in the Angolan Civil War",
+    "score": 55,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "year": "1988",
+    "original": "Army in Rangoon, Myanmar fires on pro-democracy students, killing thousands during the \"8888 Uprising\"",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "year": "1988",
+    "original": "Astronomers announce the discovery of the most distant galaxy known, 4C41.17, a cluster of stars more than 10 billion light-years away",
+    "score": 95,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Beyond Earth",
+        "score": 1.0
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.9
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.7
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "year": "1988",
+    "original": "Ceasefire between Iran and Iraq takes effect after eight years of war",
+    "score": 32,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "year": "1988",
+    "original": "Jennifer Levin's parents file a $25 million lawsuit against Dorrian's Red Hand Bar",
+    "score": 15,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.2
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.1
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "year": "1988",
+    "original": "Minnesota Twins pull second triple play of year in 6-2 win over Cleveland",
+    "score": 80,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.8
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.7
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "year": "1988",
+    "original": "Renovated Central Park Zoo reopens after 4 years in New York City",
+    "score": 80,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.7
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.6
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "year": "1988",
+    "original": "Russian troops begin to pull out of Afghanistan after 9 years of war",
+    "score": 45,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "year": "1988",
+    "original": "Sarah, Duchess of York, gives birth to her first child, Beatrice, weighing 6 lb 12 oz (3.06 kg)",
+    "score": 35,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "year": "1988",
+    "original": "Temperature hits a high of 88°F on 8/8/88 in NYC",
+    "score": 50,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.7
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.6
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "year": "1988",
+    "original": "The Cubs and Phillies attempt to play the first night game ever at Wrigley Field but are rained out in the fourth inning with Chicago leading 3-1",
+    "score": 75,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.8
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.7
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "year": "1989",
+    "original": "US space shuttle STS-28 is launched",
+    "score": 80,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Beyond Earth",
+        "score": 1.0
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.7
+      },
+      {
+        "category": "Full Beast Mode",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "year": "1990",
+    "original": "Baltimore Orioles pull off their 10th triple play (1-6-3 vs. Oakland)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.9
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.7
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "year": "1990",
+    "original": "Carlton Fisk tiesJohnny Benchby hitting 327 home runs as a catcher",
+    "score": 70,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "year": "1990",
+    "original": "Iraq annexes Kuwait as its 19th province",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "year": "1991",
+    "original": "Shiite Muslims release British hostage John McCarthy",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "year": "1991",
+    "original": "The Warsaw radio mast, at one time the tallest construction ever built, collapses",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.8
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.7
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "year": "1991",
+    "original": "With two months left in the season, the White Sox set a new home attendance record of 2,150,951 attendees",
+    "score": 35,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.7
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "year": "1992",
+    "original": "Bulgarian canoeist Nikolay Bukhalov completes the C-1 500/1,000 double, winning the latter at the Barcelona Olympics",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "year": "1992",
+    "original": "Fermín Cacho wins Spain's first Olympic gold medal in a running event when he takes the 1,500 m at the Barcelona Games",
+    "score": 85,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.9
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "year": "1992",
+    "original": "Germany goes through the field hockey competition undefeated to win gold with a 2-1 victory over Australia in the men's final at the Barcelona Olympics",
+    "score": 80,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.9
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "year": "1992",
+    "original": "Lou Whitaker hits his 200th career home run",
+    "score": 55,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "year": "1992",
+    "original": "Spanish center forward Kiko scores twice as the home team wins the Olympic football gold medal with a 3-2 victory over Poland in front of 95,000 at Camp Nou, Barcelona",
+    "score": 92,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 1.0
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "year": "1993",
+    "original": "Tropical Storm Bret ravages Venezuela, killing about 100 people",
+    "score": 35,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.8
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "year": "1995",
+    "original": "10.75 inches (27.305 cm) of rainfall at Lockington Dam, Lockington, Ohio (state record)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 1.0
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.7
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "year": "1995",
+    "original": "Jeff King of the Pirates is the 16th National League player to hit two home runs in one inning",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.8
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "year": "1996",
+    "original": "American jazz artist Mel Tormé (70) suffers a stroke, ending his 65-year singing career",
+    "score": 35,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "year": "1997",
+    "original": "Mariner Randy Johnson strikes out 19 Chicago White Sox players",
+    "score": 85,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 1.0
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.7
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "year": "1997",
+    "original": "The UN approves a sale-price formula for Iraqi crude oil sales under the oil-for-food plan",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "year": "2000",
+    "original": "Confederate submarine CSS H.L. Hunley is raised to the surface after 136 years on the ocean floor off the coast of South Carolina",
+    "score": 72,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.8
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.7
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.6
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "year": "2007",
+    "original": "An EF2 tornado touches down in Kings County and Richmond County, New York State, the most powerful tornado in New York to date and the first in Brooklyn since 1889",
+    "score": 85,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 1.0
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.7
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "year": "2008",
+    "original": "Russia launches a full-scale land, air, and sea invasion of Georgia, referring to it as a \"peace enforcement\" operation after Georgia responds to aggression from South Ossetia",
+    "score": 12,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "year": "2008",
+    "original": "XXIX Summer Olympic Games open in Beijing, China",
+    "score": 80,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 1.0
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "Beyond Earth",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "year": "2012",
+    "original": "China announces plans to close 23 rare earth mines and up to 50 smelting companies",
+    "score": 70,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Big Brain Energy",
+        "score": 0.8
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.7
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "year": "2012",
+    "original": "Flooding due to heavy rain in Manila, Philippines, kills 16 people",
+    "score": 40,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.8
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "year": "2013",
+    "original": "14 people are killed by a bomb explosion in Nangarhar, Afghanistan",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.2
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.1
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "year": "1508",
+    "original": "SpaniardJuan Ponce de Leónfounds Caparra, the first European settlement in Puerto Rico",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "Beyond Earth",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "year": "1576",
+    "original": "Cornerstone is laid forTycho Brahe's observatory in Uraniborg, Denmark, which, when built, becomes the world's most advanced research institution",
+    "score": 85,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Big Brain Energy",
+        "score": 1.0
+      },
+      {
+        "category": "Beyond Earth",
+        "score": 0.8
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "year": "1585",
+    "original": "Pope Sixtus excommunicates Henry of Navarre (Henry IV)",
+    "score": 32,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "year": "1609",
+    "original": "Galileo Galileipresents his telescope to the Venetian Senate in Venice",
+    "score": 90,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Big Brain Energy",
+        "score": 1.0
+      },
+      {
+        "category": "Beyond Earth",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "year": "1788",
+    "original": "French KingLouis XVIconvenes the Estates-General, held in May 1789",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "year": "1844",
+    "original": "Brigham Youngis chosen as the head of the Church of Jesus Christ of Latter-day Saints following the death of Joseph Smith",
+    "score": 45,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "year": "1876",
+    "original": "Thomas Edisonis granted the patent for autographic printing (US Patent 180,857)",
+    "score": 45,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Big Brain Energy",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "year": "1914",
+    "original": "Ernest Shackleton's ship \"Endurance\" leaves Plymouth, England, on the final major expedition of the Heroic Age of Antarctic Exploration",
+    "score": 90,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Beyond Earth",
+        "score": 0.9
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.8
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.7
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "year": "1939",
+    "original": "7th Venice Film Festival opens with a United States boycott due toBenito Mussolini's Fascist Italian regime",
+    "score": 32,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "year": "1942",
+    "original": "GeneralBernard Montgomeryis appointed commander of the British 8th Army at El Alamein",
+    "score": 48,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "year": "1950",
+    "original": "Florence Chadwickswims across the English Channel in a record time of 13 hours and 23 minutes",
+    "score": 85,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 1.0
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "year": "1953",
+    "original": "Soviet leaderGeorgy Malenkovreports possession of a hydrogen bomb",
+    "score": 65,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.8
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "year": "1955",
+    "original": "Fidel Castroforms the \"26th of July Movement,\" a Cuban vanguard revolutionary organization",
+    "score": 32,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "year": "1966",
+    "original": "South African Broadcasting bans the playing of all Beatles songs due toJohn Lennon's remark that the band is \"more popular than Jesus\"",
+    "score": 65,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "year": "1968",
+    "original": "Republican Convention in Miami Beach nominatesRichard Nixonfor President",
+    "score": 32,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "year": "1970",
+    "original": "MLB New York Yankees honorCasey Stengelby retiring his jersey number 37; Stengel manages the team from 1949 to 1960, winning 7 World Series titles in 10 appearances",
+    "score": 70,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.8
+      },
+      {
+        "category": "Full Beast Mode",
+        "score": 0.7
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "year": "1973",
+    "original": "US Vice PresidentSpiro Agnewsays reports he takes kickbacks from government contracts in Maryland are \"damned lies\" and vows not to resign",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "year": "1975",
+    "original": "Hank Williams Jr. falls off the side of Ajax Peak in Montana",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.8
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.7
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "year": "1979",
+    "original": "Iraqi PresidentSaddam Husseinexecutes 22 political opponents",
+    "score": 12,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "year": "1983",
+    "original": "Columbia Records releases \"An Innocent Man,\" singer-songwriterBilly Joel's ninth studio album; it features three Billboard Top 10 hit singles: \"Tell Her About It,\" \"Uptown Girl,\" and the title track",
+    "score": 45,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      },
+      {
+        "category": "Full Beast Mode",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "year": "1983",
+    "original": "Military coup in Guatemala; dictator and former GeneralEfraín Ríos Monttflees",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "year": "1984",
+    "original": "Carl Lewiswins his third gold medal of the Los Angeles Olympics, joining Kirk Baptiste and Thomas Jefferson in an American sweep of the 200 m",
+    "score": 90,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 1.0
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.8
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "year": "1984",
+    "original": "Future five-time America's Cup winnerRussell Couttsof New Zealand wins the Finn Class sailing gold medal at the Los Angeles Olympics",
+    "score": 75,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "Beyond Earth",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "year": "1988",
+    "original": "Rap group N.W.A releases their debut studio album \"Straight Outta Compton\"",
+    "score": 50,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "year": "1988",
+    "original": "US Secretary of StateGeorge P. Shultznarrowly escapes an assassination attempt in Bolivia",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "year": "1989",
+    "original": "New Zealand Prime MinisterDavid Langeresigns after five years due to a no-confidence issue",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "year": "1990",
+    "original": "Former MLB baseball player and managerPete Rosebegins a 5-month prison term at Marion (IL) Federal Prison Camp for filing false income tax returns",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.4
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "year": "1991",
+    "original": "ActorGary Oldmanis arrested for drunk driving",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      },
+      {
+        "category": "Full Beast Mode",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "year": "1991",
+    "original": "Rock guitar heroCarlos Santanapleads no contest to marijuana possession charge in Houston, Texas",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "year": "1991",
+    "original": "Singer-keyboardistBilly Prestonis charged with exhibiting pornography to a minor",
+    "score": 10,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.1
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.1
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "year": "1992",
+    "original": "Metallicasinger and guitaristJames Hetfieldsuffers second and third-degree burns during a pyrotechnics explosion on stage at Olympic Stadium in Montreal",
+    "score": 60,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.7
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.6
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "year": "1992",
+    "original": "The original US \"Dream Team\" wins the basketball gold at the Barcelona Olympics 117-85 over Croatia, featuring superstarsMichael Jordan,Magic Johnson,Larry Bird,Scottie Pippen,Charles Barkley, andPatrick Ewing",
+    "score": 95,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 1.0
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.8
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.6
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "year": "1995",
+    "original": "\"Gangster's Paradise\" single released byCoolio(Billboard Song of the Year, 1995)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.8
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.6
+      },
+      {
+        "category": "Full Beast Mode",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 192,
+    "year": "2004",
+    "original": "John Elwayis inducted into the Pro Football Hall of Fame",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.8
+      },
+      {
+        "category": "Full Beast Mode",
+        "score": 0.7
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "year": "2006",
+    "original": "ActorSylvester Stalloneand former heavyweight boxing contender Chuck Wepner settle a lawsuit out of court for an undisclosed sum; Wepner claims he is the inspiration for the \"Rocky\" movies",
+    "score": 35,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "year": "2006",
+    "original": "Joe Liebermanloses the Democratic Senate primary in Connecticut to Ned Lamont and announces he will run as an independent candidate",
+    "score": 32,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "year": "2007",
+    "original": "Carlos SlimovertakesBill Gatesas the world's richest person with an estimated net worth of US$59 billion, according to \"Fortune\"",
+    "score": 35,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "year": "1786",
+    "original": "US Congress unanimously chooses the dollar as the monetary unit for the United States of America",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.8
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.7
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "year": "1929",
+    "original": "German airshipGraf Zeppelinbegins the first round-the-world flight by airship, departing from Lakehurst, New Jersey",
+    "score": 85,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Beyond Earth",
+        "score": 0.8
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.7
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "year": "1940",
+    "original": "The German \"Aufbau Ost\" directive is signed byWilhelm Keitelto mobilize German forces in the East before the start of Operation Barbarossa and the invasion of the Soviet Union",
+    "score": 22,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "Mother Nature's Meltdowns",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "year": "1945",
+    "original": "PresidentHarry Trumansigns the United Nations Charter",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "year": "1945",
+    "original": "US, USSR, Britain, and France sign the Treaty of London, which sets down procedures for the Nuremberg war trials of Nazi leaders",
+    "score": 52,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "year": "1079",
+    "original": "Horikawa, 73rd Emperor of Japan (1087-1107), born in Japan (d. 1107)",
+    "score": 35,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "year": "1170",
+    "original": "Saint Dominic, Castilian Catholic priest, founder of the Dominican Order, and patron saint of astronomers, born in Caleruega, Spain (d. 1221)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.8
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.6
+      },
+      {
+        "category": "Beyond Earth",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 203,
+    "year": "1518",
+    "original": "Conrad Lycosthenes, French-born German humanist and encyclopedist, born in Rouffach, France (d. 1561)",
+    "score": 45,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 204,
+    "year": "1571",
+    "original": "John Ward, English composer, born in Canterbury, England (d. 1638)",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 205,
+    "year": "1586",
+    "original": "Adolf, Count of Nassau-Siegen, third son of Count ruling Count John VII, born at Dillenburg Castle, Dillenburg (d. 1608)",
+    "score": 22,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 206,
+    "year": "1605",
+    "original": "Cecilius Calvert, 2nd Baron Baltimore, British peer granted charter to settle Maryland, born in Kent, England (d. 1675)",
+    "score": 42,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 207,
+    "year": "1617",
+    "original": "Joris van Geel, Belgian missionary in Africa (earliest know dictionary of Congolese Bantu), born in Oevel, Spanish Netherlands (d. 1652)[1]",
+    "score": 45,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.6
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 208,
+    "year": "1646",
+    "original": "Godfrey Kneller, German-British portrait and court painter, born in Lübeck  (d. 1723)",
+    "score": 32,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 209,
+    "year": "1653",
+    "original": "Jacques Basnage, French historian and vicar (History of the Reformed Churches), born in Rouen, France (d. 1723)",
+    "score": 27,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.3
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 210,
+    "year": "1673",
+    "original": "John Ker, Scottish spy who spied for the British government against the Jacobites, born in Crawfurdland, Scotland (d. 1726)",
+    "score": 35,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 211,
+    "year": "1693",
+    "original": "Laurent Belissen, French Baroque composer, born in Aix-en-Provence, France (d. 1762)",
+    "score": 42,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 212,
+    "year": "1694",
+    "original": "Francis Hutcheson, Irish-Scots philosopher during Scottish Enlightenment, born in Drumalig, Ireland (d. 1746)",
+    "score": 45,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.6
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 213,
+    "year": "1705",
+    "original": "Gustaaf Willem, baron van Imhoff, Dutch statesman (Governor of Ceylon 1736-40, Governor of the Dutch East Indies 1743-50), born in Leer, Netherlands (d. 1750)",
+    "score": 32,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.4
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 214,
+    "year": "1709",
+    "original": "Tokugawa Ietsugu, 7th Japanese shōgun of the Tokugawa shogunate (1713-6), born in Edo, Japan (d. 1716)",
+    "score": 35,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 215,
+    "year": "1720",
+    "original": "Carl Fredrik Pechlin, Swedish politician who is thought to have organized assassination of King Gustav III, born in Holstein, Germany (d. 1796)",
+    "score": 35,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 216,
+    "year": "1732",
+    "original": "Johann Christoph Adelung, German linguist, librarian, translator and lexicographer, born in Spantekow, Duchy of Mecklenburg-Strelitz (now Germany) (d. 1806)",
+    "score": 42,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Big Brain Energy",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 217,
+    "year": "1746",
+    "original": "Hieronymus van Alphen, Dutch poet of children's poems (Proeve van kleine gedigen voor Kinder), born in Gouda, The Netherlands (d. 1803)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 218,
+    "year": "1755",
+    "original": "Luigi Marchesi, Italian castrato singer, born in Milan, Habsburg Empire (d. 1829)",
+    "score": 32,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 219,
+    "year": "1763",
+    "original": "Charles Bulfinch, 1st American professional architect (Massachusetts State House), born in Boston, Massachusetts (d. 1844)",
+    "score": 55,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.6
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 220,
+    "year": "1805",
+    "original": "Antoon Jurgens, Dutch butter and margarine manufacturer, born in Oss, Netherlands (d. 1880)",
+    "score": 12,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Big Brain Energy",
+        "score": 0.3
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.2
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.1
+      }
+    ]
+  },
+  {
+    "id": 221,
+    "year": "1807",
+    "original": "Emilie Flygare-Carlén, Swedish novelist, most read novelist of her time, born in Strömstad, Sweden (d. 1892)",
+    "score": 55,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.6
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 222,
+    "year": "1812",
+    "original": "John Rodgers II, American admiral, commander in the Union Navy, born near Havre de Grace, Maryland (d. 1882)",
+    "score": 45,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      },
+      {
+        "category": "Full Beast Mode",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 223,
+    "year": "1814",
+    "original": "Esther Morris [Esther Hobart McQuigg], American suffragist, anti-slavery activist, and 1st female justice of the peace in the US, born in Tioga County, New York (d. 1902)",
+    "score": 78,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.9
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 224,
+    "year": "1819",
+    "original": "Charles Anderson Dana, American newspaper editor and Assistant Secretary of War for Union during Civil War, born in Hinsdale, New Hampshire (d. 1897)",
+    "score": 42,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 225,
+    "year": "1820",
+    "original": "Winfield Scott Featherston \"Old Swet\", American politician and Army Brigadier General (Confederate), born near Murfreesboro, Tennessee (d. 1891)",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.4
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 226,
+    "year": "1823",
+    "original": "Théodule-Augustin Ribot, French realist painter (Breton Fishermen and Their Families), born in Saint-Nicolas-d'Attez, France (d. 1891)",
+    "score": 45,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 227,
+    "year": "1824",
+    "original": "Maria Alexandrovna (Marie of Hesse), German-born Tsarina of Russia as first wife of Emperor Alexander II, born in Darmstadt, Duchy of Hesse (d. 1880)",
+    "score": 50,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 228,
+    "year": "1835",
+    "original": "James William Forsyth, American Brigadier General (Union Army), born in Maumee, Ohio (d. 1906)",
+    "score": 32,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.4
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "Full Beast Mode",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 229,
+    "year": "1839",
+    "original": "Nelson Appleton Miles, American Major General (Union Army), born in Westminster, Massachusetts (d. 1925)",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.4
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 230,
+    "year": "1852",
+    "original": "Barend Barendse, Dutch actor and director (Heilig recht), born in Amsterdam, Noord-Holland, Netherlands (d. 1935)",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.4
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 231,
+    "year": "1857",
+    "original": "Cécile Chaminade, French pianist and 1st female composer awarded with Chevalier de la Légion d'Honneur (1913), born in Paris, France (d. 1944)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 232,
+    "year": "1857",
+    "original": "Henry Fairfield Osborn, American paleontologist, geologist (founded US Eugenics Society), born in Fairfield, Connecticut (d. 1935)",
+    "score": 12,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Big Brain Energy",
+        "score": 0.6
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 233,
+    "year": "1861",
+    "original": "William Bateson, English biologist (originator of term \"genetics\"), born in Whitby, England (d. 1926)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Big Brain Energy",
+        "score": 0.9
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 234,
+    "year": "1864",
+    "original": "Henri de Vries [Hendricus Van Walterop], Dutch actor (Cleopatra, White Cargo), born in Rotterdam, Zuid-Holland, Netherlands (d. 1949)",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.2
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.1
+      }
+    ]
+  },
+  {
+    "id": 235,
+    "year": "1866",
+    "original": "Matthew Henson, American explorer, 1st African American to reach North Pole (Jun 4 1909), born in Nanjemoy, Maryland (d. 1955)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 1.0
+      },
+      {
+        "category": "Beyond Earth",
+        "score": 0.8
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      }
+    ]
+  },
+  {
+    "id": 236,
+    "year": "1871",
+    "original": "William Henry Squire, British cellist, music educator, and composer, born in Ross-on-Wye, Herefordshire, England (d. 1963)",
+    "score": 52,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 237,
+    "year": "1875",
+    "original": "Artur Bernardes, President of Brazil (1922-26) founder of the Republican Party, born in Santa Rita do Turvo, Brazil (d. 1955)",
+    "score": 27,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.4
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 238,
+    "year": "1879",
+    "original": "\"Dr. Bob\" Smith, American physician and co-founder of Alcoholics Anonymous, born in St. Johnsbury, Vermont (d. 1950)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.8
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 239,
+    "year": "1880",
+    "original": "Earle Page, Australian politician, 11th Prime Minister of Australia (1939), born in Grafton, New South Wales (d. 1961)",
+    "score": 32,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Politics & Publicity",
+        "score": 0.7
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.5
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 240,
+    "year": "1881",
+    "original": "Paul Ludwig Ewald von Kleist, German general (led the \"blitzkrieg\", 1st Panzer Group on Eastern Front), born in Braunfels, Germany Empire (d. 1954)",
+    "score": 12,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 241,
+    "year": "1882",
+    "original": "Ladislas Starevich, Polish animator, created stop-motion animation (\"The Cameraman’s Revenge\"), born in Moscow, Russia (d. 1965)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 1.0
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.8
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.7
+      }
+    ]
+  },
+  {
+    "id": 242,
+    "year": "1884",
+    "original": "Sara Teasdale, American lyric poet (Pulitzer Prize 1918 \"Love Songs\"), born in St Louis, Missouri (d. 1933)",
+    "score": 55,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.6
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 243,
+    "year": "1886",
+    "original": "Daniel Ruyneman, Dutch composer and pianist, born in Amsterdam, Netherlands (d. 1963)",
+    "score": 35,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 244,
+    "year": "1886",
+    "original": "Pietro Yon, Italian-American organist (St. Patrick's Cathedral, 1927-43; St. Francis Xavier Church, 1907-26), composer (Gesù bambino; Concerto Gregoriano), and educator, born in Settimo Vittone, Italy (d. 1943)[1]",
+    "score": 45,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.6
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 245,
+    "year": "1887",
+    "original": "Esme Percy, British actor (Murder!, Pygmalion, Old Spanish Custom), born in London, England (d. 1957)",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.2
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.1
+      }
+    ]
+  },
+  {
+    "id": 246,
+    "year": "1887",
+    "original": "Malcolm Keen, British actor (The Lodger, The Manxman, The Murder Party), born in Bristol, England (d. 1970)",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.2
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.1
+      }
+    ]
+  },
+  {
+    "id": 247,
+    "year": "1887",
+    "original": "Ullrich Haupt, Prussian actor (Morocco, Du Barry-Woman of Passion), born in Falkenburg, Pomerania, Germany (d. 1931)",
+    "score": 12,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.3
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.2
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.1
+      }
+    ]
+  },
+  {
+    "id": 248,
+    "year": "1889",
+    "original": "Jack Ryder, Australian cricket all-rounder (20 Tests, 1,394 runs @ 51.62), born in Collingwood, Victoria (d. 1977)",
+    "score": 45,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 249,
+    "year": "1891",
+    "original": "Adolf Busch, German-Swiss violinist (Busch Quartet, 1920-51), conductor (Lucerne Festival; Marlboro Festival), and composer, born in Siegen, Germany (d. 1952)",
+    "score": 42,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.5
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 250,
+    "year": "1896",
+    "original": "Marjorie Kinnan Rawlings, American writer (The Yearling), born in Washington, D.C. (d. 1953)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.6
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 251,
+    "year": "1898",
+    "original": "Alexis Minotis [Alexandros Minotakis], Greek actor (The Merchant of Venice, King Lear), born in Chania, Crete, Greece (d. 1990)",
+    "score": 45,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 252,
+    "year": "1899",
+    "original": "Victor Young, American violinist, arranger, orchestra leader, and composer (\"Street of Dreams\"; \"Love Letters\"; \"I Don't Stand a Ghost of a Chance with You\"), born in Chicago, Illinois (d. 1956)",
+    "score": 52,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 253,
+    "year": "1900",
+    "original": "Josephine Holt Bay, American 1st woman to head a firm on NY stock exchange, born in Iowa (d. 1962)",
+    "score": 55,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.8
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 254,
+    "year": "1901",
+    "original": "Ernest Lawrence, American nuclear scientist and inventor (Cyclotron - Nobel 1939), born in Canton, South Dakota (d. 1958)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Big Brain Energy",
+        "score": 1.0
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.8
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      }
+    ]
+  },
+  {
+    "id": 255,
+    "year": "1903",
+    "original": "Dayton Lummis, American character actor (The Court-Martial of Billy Mitchell; The Wrong Man; Moonfire), born in Summit, New Jersey (d. 1988)",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.2
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.1
+      }
+    ]
+  },
+  {
+    "id": 256,
+    "year": "1904",
+    "original": "(William) Elmo Tanner, American big band singer, whistler (Ted Weems Orchestra - \"Heartaches\"), bandleader, and DJ, born in Nashville, Tennessee (d. 1990)",
+    "score": 55,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 257,
+    "year": "1904",
+    "original": "Achille Varzi, Italian auto racer (14 Grand Prix wins), born in Galliate, Italy (d. 1948)",
+    "score": 45,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 258,
+    "year": "1904",
+    "original": "István Szelényi, Hungarian pianist and composer, born in Altsohl, Austria-Hungary (d. 1972)",
+    "score": 42,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 259,
+    "year": "1905",
+    "original": "André Jolivet, French composer (Jeune France; Mana), born in Paris, France (d. 1974)",
+    "score": 42,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 260,
+    "year": "1905",
+    "original": "Nino Martini, Italian actor (The Gay Desperado, Here's to Romance), born in Verona, Veneto, Italy (d. 1976)",
+    "score": 35,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.3
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 261,
+    "year": "1906",
+    "original": "André Demedts, Belgian Flemish writer (Neerslag der dagen (Depression of the Days)), born in Wielsbeke, Belgian (d. 1992)",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.4
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 262,
+    "year": "1907",
+    "original": "(Bennett) \"Benny\" Carter, American Grammy Award-winning jazz saxophonist, clarinetist, trumpeter, arranger, composer (\"Harlem Renaissance Suite\"), and bandleader, born in New York City (d. 2003)",
+    "score": 78,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 1.0
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 263,
+    "year": "1908",
+    "original": "Arthur Goldberg, American jurist and statesman (UN ambassador, Supreme Court justice 1962-65), born in Chicago, Illinois (d. 1990)",
+    "score": 35,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.4
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 264,
+    "year": "1908",
+    "original": "Chivu Stoica, Romanian politician (Premier of Romania 1955-61), born in Smeeni, Romania (d. 1975)",
+    "score": 12,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.2
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.1
+      }
+    ]
+  },
+  {
+    "id": 265,
+    "year": "1908",
+    "original": "Emilio Flores Márquez \"Don Millo\", Puerto Rican sugar cane worker and centenarian, (world's oldest man in 2021), born in Carolina, Pueto Rico (d. 2021)[1]",
+    "score": 70,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.7
+      },
+      {
+        "category": "Creature Feature",
+        "score": 0.6
+      }
+    ]
+  },
+  {
+    "id": 266,
+    "year": "1909",
+    "original": "Bill Voce, English cricket fast bowler (27 Tests, 98 wickets, BB 7/70; Nottinghamshire CCC), born in Annesley Woodhouse, England (d. 1984)",
+    "score": 35,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 267,
+    "year": "1910",
+    "original": "Francisco Brochado Da Rocha, Brazilian professor and politician (Prime Minister of Brazil 1962), born in Porte Alegre, Brazil (d. 1962)",
+    "score": 32,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.3
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 268,
+    "year": "1910",
+    "original": "Lucky Millinder [Lucius Venable], American swing and rhythm-and-blues bandleader (Rosetta Tharpe - \"Shout, Sister, Shout\"; Wynonie Harris - \"Who Threw The Whiskey in the Well\"), born in Anniston, Alabama (d. 1966)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 269,
+    "year": "1910",
+    "original": "Sylvia Sidney [Sophia Kosow], American actress (Sabotage, Beetlejuice, Demon), born in The Bronx, New York (d. 1999)",
+    "score": 55,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 270,
+    "year": "1911",
+    "original": "Rosetta LeNoire, American actress (Family Matters, The Brother from Another Planet), born in New York City (d. 2002)",
+    "score": 60,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 271,
+    "year": "1912",
+    "original": "Daniel Mann [Chugerman], American stage and screen director (The Rose Tattoo; The Teahouse Of The August Moon; Butterfield 8), born in Brooklyn, New York (d. 1991)",
+    "score": 35,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.3
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 272,
+    "year": "1913",
+    "original": "Axel Stordahl, American arranger (Tommy Dorsey; Frank Sinatra), orchestra leader (Eddie Fisher), and composer (McHales's Navy theme), born in Staten Island, New York (d. 1963)",
+    "score": 45,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 273,
+    "year": "1913",
+    "original": "Cecil Travis, American baseball infielder (1st player to get 5 hits on debut; MLB All Star 1938, 40, 41; Washington Senators), born in Riverdale, Georgia (d. 2006)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 274,
+    "year": "1913",
+    "original": "Daan Wildschut, Dutch painter, and sculptor (stained glass works), born in Grave, Netherlands (d. 1995)",
+    "score": 45,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 275,
+    "year": "1913",
+    "original": "Robert Stafford, American politician (Sen-R-VT, 1971-88), born in Rutland, Vermont (d. 2006)",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.2
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.1
+      }
+    ]
+  },
+  {
+    "id": 276,
+    "year": "1914",
+    "original": "(C. Dudley) \"Pete\" King, American film and easy listening music arranger and composer (The Pied Piper of Hamelin; The Last of the Secret Agents?), born in Greenville, Ohio (d. 1982)",
+    "score": 32,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.6
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 277,
+    "year": "1914",
+    "original": "Unity Mitford, English fascist sympathizer and one of the Mitford sisters, born in London (d. 1948)",
+    "score": 35,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 278,
+    "year": "1915",
+    "original": "Jumbo Elliott, American track coach of Villanova University Wildcats, coached 5 Olympic Gold medalists, born in Philadelphia, Pennsylvania (d. 1981)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.8
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.7
+      },
+      {
+        "category": "Full Beast Mode",
+        "score": 0.6
+      }
+    ]
+  },
+  {
+    "id": 279,
+    "year": "1919",
+    "original": "Dino De Laurentiis, Italian film producer (King Kong), born in Torre Annunziata, Italy (d. 2010)",
+    "score": 45,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 280,
+    "year": "1920",
+    "original": "Don Cook, American foreign Correspondent (The New York Herald Tribune), born in Bridgeport, Connecticut (d. 1995)",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.1
+      }
+    ]
+  },
+  {
+    "id": 281,
+    "year": "1920",
+    "original": "Jimmy Witherspoon, American jump blues singer (\"Ain't Nobody's Business\"), born in Gurdon, Arkansas (d. 1997)",
+    "score": 52,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 282,
+    "year": "1920",
+    "original": "Leo Chiosso, Italian lyricist (Fred Buscaglione), and screenwriter, born in Chieri, Italy (d. 2006)",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.4
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 283,
+    "year": "1921",
+    "original": "Esther Williams, American swimmer and actress (Dangerous When Wet), born in Inglewood California (d. 2013)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "Creature Feature",
+        "score": 0.6
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 284,
+    "year": "1921",
+    "original": "Roger Nixon, American composer, born in Tulare, California (d. 2009)",
+    "score": 35,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.4
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 285,
+    "year": "1921",
+    "original": "Vulimiri Ramalingaswami, Indian medical scientist, born in Srikakulam, British India (d. 2001)",
+    "score": 55,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Big Brain Energy",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 286,
+    "year": "1921",
+    "original": "Webb Pierce, American honky-tonk country singer-songwriter, and guitarist (\"In The Jailhouse Now\"; \"Wondering\"; \"There Stands The Glass\"), born in West Monroe, Louisiana (d. 1991)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 287,
+    "year": "1922",
+    "original": "Gertrude Himmelfarb, American conservative historian, born in New York City (d. 2019)",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.3
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 288,
+    "year": "1922",
+    "original": "Rory Calhoun [Francis Timothy McCown], American actor (Blue & Gray, How to Marry a Millionaire), born in Los Angeles, California (d. 1999)",
+    "score": 35,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.3
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 289,
+    "year": "1922",
+    "original": "Rudi Gernreich, Austrian-American fashion designer (monokini - 1st women's topless swimsuit), born in Vienna, Austria (d. 1985)",
+    "score": 65,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.8
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.6
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 290,
+    "year": "1924",
+    "original": "Gene Deitch, American illustrator (Tom Terrific, Nudnik), born in Chicago, Illinois (d. 2020)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 291,
+    "year": "1924",
+    "original": "Thomas Beversdorf, American classical composer (\"Of Walruses, Cheesecake, and Morse Code\"), and educator (Indiana University, 1949-80), born in Yoakum, Texas (d. 1981)",
+    "score": 45,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 292,
+    "year": "1925",
+    "original": "Alija Izetbegović, Bosnian politician and 1st president of the Republic of Bosnia and Herzegovina (1990-2000), born in Bosanski Šamac, Kingdom of Serbs, Croats and Slovenes (d. 2003)",
+    "score": 42,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 293,
+    "year": "1926",
+    "original": "Ferdinando Orlandi, Italian actor (The House with Laughing Windows), born in Italy (d. 1991)",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.2
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.1
+      }
+    ]
+  },
+  {
+    "id": 294,
+    "year": "1926",
+    "original": "Richard Anderson, American actor (Oscar Goldman- The 6 Million Dollar Man, The Bionic Woman television series), born in Long Branch, New Jersey (d. 2017)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 295,
+    "year": "1926",
+    "original": "Urban \"Urbie\" Green, American jazz trombonist (Woody Herman; Buck Clayton; Hugo Montenegro), born in Mobile, Alabama (d. 2018)",
+    "score": 55,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 296,
+    "year": "1927",
+    "original": "Elis Juliana, Curaçao writer and poet (Lady of the Night: A flower), born in Curaçao (d. 2013)",
+    "score": 50,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 297,
+    "year": "1927",
+    "original": "Jim Weaver, American politician (US Representatives from Oregon, 1975-87), businessman, and WWII veteran, born in Brookings, South Dakota (d. 2020)",
+    "score": 42,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.4
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "Full Beast Mode",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 298,
+    "year": "1927",
+    "original": "Melvin F. Stute, American thoroughbred racehorse trainer (Preakness Stakes 1986, Breeders' Cup Juvenile Fillies 1986, Breeders' Cup Sprint 1987), born in Fort Wayne, Indiana (d. 2020)",
+    "score": 55,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 299,
+    "year": "1927",
+    "original": "Yuri Kazakov, Russian writer (Arcturus the Hunting Hound; Autumn in the Oak Woods), born in Moscow, Russa (d. 1982)",
+    "score": 45,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 300,
+    "year": "1928",
+    "original": "Don Burrows, Australian jazz musician, born in Marrickville, Australia (d. 2020)",
+    "score": 45,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 301,
+    "year": "1928",
+    "original": "François Remetter, French soccer goalkeeper (26 caps; RC Strasbourg, FC Metz, FC Sochaux), born in Strasbourg, France (d. 2022)",
+    "score": 35,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 302,
+    "year": "1928",
+    "original": "Ken Scowcroft, English insurance magnate and founder of Swinton Insurance (1957), born in England (d. 2018)",
+    "score": 12,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.2
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.1
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.1
+      }
+    ]
+  },
+  {
+    "id": 303,
+    "year": "1928",
+    "original": "Lord Alfred Hayes, English pro wrestler, manager and commentator (WWF), born in London, England (d. 2005)",
+    "score": 35,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 304,
+    "year": "1929",
+    "original": "Gudrun Burwitz [Himmler], German daughter of SS leader Heinrich Himmler, born in Munich, Weimar Republic (d. 2018)",
+    "score": 12,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.4
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 305,
+    "year": "1929",
+    "original": "Josef Suk, Czech concert violinist (Artist of Merit, 1977), violist, and namesake of composer grandfather, born in Prague, Czechoslovakia (d. 2011)",
+    "score": 55,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 306,
+    "year": "1929",
+    "original": "Larisa Bogoraz, Soviet dissident, born in Kharkiv, Ukrainian SSR, Soviet Union (d. 2004)",
+    "score": 32,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 307,
+    "year": "1929",
+    "original": "Ronnie Biggs, English criminal (Great Train Robbery of 1963), born in Stockwell, London, England (d. 2013)[1]",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 308,
+    "year": "1929",
+    "original": "William Nolde, US Army officer, last US soldier killed during Vietnam War, born in Menominee, Michigan (d. 1973)",
+    "score": 45,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 309,
+    "year": "1930",
+    "original": "Jerry Tarkanian, American collegiate basketball coach (California State, UNLV, Fresno State; career record: 784–202), born in Euclid, Ohio (d. 2015)",
+    "score": 55,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "Full Beast Mode",
+        "score": 0.6
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 310,
+    "year": "1930",
+    "original": "Joan Mondale (née Adams;), American artist, author, and wife of US vice-president Walter Mondale, born in Eugene, Oregon (d. 2014)",
+    "score": 50,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.6
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 311,
+    "year": "1930",
+    "original": "Nita Talbot [Anita Sokol], American actress (Hogan's Heroes; Supertrain; Here We Go Again), born in New York City",
+    "score": 45,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 312,
+    "year": "1930",
+    "original": "Terry Nation, British screenwriter (Dr Who; Blake 7), and novelist, born in Cardiff, Wales (d. 1997)",
+    "score": 45,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 313,
+    "year": "1931",
+    "original": "Jonathan Elkus, American composer (band music), born in San Francisco, California",
+    "score": 52,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 314,
+    "year": "1931",
+    "original": "Roger Penrose, English physicist (2020 Nobel Prize for Physics for work on black holes), born in Colchester, England",
+    "score": 80,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Big Brain Energy",
+        "score": 1.0
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "Beyond Earth",
+        "score": 0.6
+      }
+    ]
+  },
+  {
+    "id": 315,
+    "year": "1932",
+    "original": "Gaudenzio Bernasconi, Italian soccer midfielder (6 caps; Sampdoria 334 games), born in Ponte San Pietro, Italy (d. 2023)",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 316,
+    "year": "1932",
+    "original": "Luis García Meza Tejada, Bolivian general and dictator, born in La Paz, Bolivia (d. 2018)",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 317,
+    "year": "1932",
+    "original": "Mel Tillis [Lonnie Melvin Tillis], American country singer (\"Who's Julie\"; \"M-M-Mel\"), born in Pahokee, Florida (d. 2017)",
+    "score": 55,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 318,
+    "year": "1933",
+    "original": "Joe Tex [Joseph Arrington, Jr.], American soul musician (\"Hold What You've Got\"; \"I Gotcha\"), born in Rogers, Texas (d. 1982)",
+    "score": 50,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 319,
+    "year": "1934",
+    "original": "Julian Dixon, American politician (Rep-D-California, 1979-2000), born in Washington, D.C. (d. 2000)",
+    "score": 32,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.2
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.1
+      }
+    ]
+  },
+  {
+    "id": 320,
+    "year": "1935",
+    "original": "Donald P. Bellisario, American television producer (Magnum P.I., NCIS), born in Cokeburg, Pennsylvania",
+    "score": 50,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 321,
+    "year": "1935",
+    "original": "John Laws, Australia radio personality, born in Wau, Territory of New Guinea",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.5
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 322,
+    "year": "1935",
+    "original": "Ron Marlenee, American politician (Rep-R-MT, 1977-93), born in Scobey, Montana (d. 2020)",
+    "score": 12,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.2
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.1
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.1
+      }
+    ]
+  },
+  {
+    "id": 323,
+    "year": "1936",
+    "original": "Don Bowden, American middle distance runner (1st American to run sub 4 minute mile 1957, 3:58.7), born in San José, California",
+    "score": 80,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.8
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      }
+    ]
+  },
+  {
+    "id": 324,
+    "year": "1936",
+    "original": "Frank Howard, American baseball utility (4 × MLB All-Star; World Series 1963 LA Dodgers; NL Rookie of the Year 1960) and manager (SD Padres, NY Mets), born in Columbus, Ohio (d. 2023)",
+    "score": 60,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 325,
+    "year": "1936",
+    "original": "Keith Barron, English actor (At Earth's Core, Baby Love), born in Mexborough, England (d. 2017)",
+    "score": 35,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.2
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.1
+      }
+    ]
+  },
+  {
+    "id": 326,
+    "year": "1937",
+    "original": "(Ludwig) \"Louis\" Neefs, Belgian pop singer (Eurovision, 1967 & 1969), born in Gierle, Belgium (d. 1980)",
+    "score": 35,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 327,
+    "year": "1937",
+    "original": "Bruno Lauzi, Italian singer-songwriter (\"Ritornerai\"), and poet, born in Asmara, Italian East Africa (d. 2006)",
+    "score": 42,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 328,
+    "year": "1937",
+    "original": "Cornelis Vreeswijk, Dutch singer-songwriter (\"Brev från kolonien\"), and poet, based in Sweden, born in IJmuiden, Netherlands (d. 1987)",
+    "score": 45,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 329,
+    "year": "1938",
+    "original": "Connie Stevens [Concetta Ingoglia], American actress (Hawaiian Eye - \"Cricket\"; Back to the Beach), and singer (\"Sixteen Reasons\"), born in Brooklyn, New York",
+    "score": 55,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 330,
+    "year": "1938",
+    "original": "Jacques Hétu, Canadian composer, born in Trois-Rivières, Quebec (d. 2010)",
+    "score": 42,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 331,
+    "year": "1939",
+    "original": "Phil Baisley, American country singer (Statler Brothers - \"Flowers on the Wall\", \"Bed of Rose's\", \"The Class of '57\"), born in Augusta, Virginia",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 332,
+    "year": "1939",
+    "original": "Viorica Viscopoleanu, Romanian athlete (Olympic gold, long jump 1968), born in Storozhynets, Romania",
+    "score": 80,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.8
+      },
+      {
+        "category": "Full Beast Mode",
+        "score": 0.7
+      },
+      {
+        "category": "Creature Feature",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 333,
+    "year": "1939",
+    "original": "William Hibbard, American composer, musician and conductor, born in Newton, Massachusetts (d. 1989)",
+    "score": 45,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 334,
+    "year": "1940",
+    "original": "Fred Miller, American football defensive tackle (Super Bowl 1970 Baltimore Colts; Pro Bowl 1967, 68, 69), born in Homer, Louisiana (d. 2023)",
+    "score": 60,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 335,
+    "year": "1942",
+    "original": "Jay David, American drummer, and arranger (Brenda Lee; Dr Hook & Medicine Show, 1968-73 - \"The Cover of the Rolling Stone\"), born in New Jersey",
+    "score": 48,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 336,
+    "year": "1942",
+    "original": "Johnny Gustafson, British rock bassist (The Merseybeats; Roxy Music; Ian Gillan Band), born in Liverpool, England (d. 2014)",
+    "score": 40,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 337,
+    "year": "1942",
+    "original": "Vardo Rumessen, Estonian classical pianist, musicologist, politician, and independence advocate, born in Pärnu, Estonian SSR, USSR (d. 2015)",
+    "score": 55,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.6
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 338,
+    "year": "1943",
+    "original": "Daniel Börtz, Swedish classical composer, born in Hässleholm, Sweden",
+    "score": 55,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 339,
+    "year": "1943",
+    "original": "Esma Redžepova, Macedonian Romani folk music vocalist, songwriter and humanitarian, known as \"the Queen of the Gypsies\", born in Skopje, Tsardom of Bulgaria (d. 2016)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.9
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "Creature Feature",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 340,
+    "year": "1943",
+    "original": "Jean-Claude Marty, French rugby league winger (13 Tests; FC Lézignan XIII, Racing Club Albi XIII), born in Carcassonne, France (d. 2023)",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 341,
+    "year": "1944",
+    "original": "Dapper Dan [Daniel Day], American fashion designer, born in Harlem, New York",
+    "score": 70,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 342,
+    "year": "1944",
+    "original": "Hans van Eijk, Dutch rock guitarist (Jumping Jewels), and record producer, born in The Hague, Netherlands",
+    "score": 45,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 343,
+    "year": "1944",
+    "original": "John Renbourn, British jazz and folk guitarist and songwriter (Pentangle; Bert and John), born in Marleylebone, London (d. 2015)",
+    "score": 55,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 344,
+    "year": "1944",
+    "original": "Michael Johnson, American singer-songwriter, guitarist, born in Alamosa, Colorado",
+    "score": 45,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 345,
+    "year": "1946",
+    "original": "James W. Lewis, American convicted extortionist, suspected of killing 7 people with cyanide-laced Tylenol, born in Memphis, Tennessee (d. 2023)[1]",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.6
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 346,
+    "year": "1946",
+    "original": "Joe Bethancourt, American multi-instrumentalist folk and bluegrass musician (Naked Banjo; String Concert), born in El Paso, Texas (d. 2014)",
+    "score": 55,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 347,
+    "year": "1946",
+    "original": "Robin Tallon, American politician (Rep-D-SC, 1983-93), born in Hemingway, South Carolina",
+    "score": 22,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.2
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.1
+      }
+    ]
+  },
+  {
+    "id": 348,
+    "year": "1947",
+    "original": "Brenda Lee Eager, American gospel and soul singer and songwriter, born in Mobile, Alabama",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 349,
+    "year": "1947",
+    "original": "José Cruz, Puerto Rican-American baseball outfielder (MLB All Star 1980, 85; Silver Slugger Award 1983, 84; Houston Astros), born in Arroyo, Puerto Rico",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 350,
+    "year": "1947",
+    "original": "Larry Wilcox, actor (Lassie, Officer Jon Baker-CHiPs), born in San Diego, California",
+    "score": 35,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.3
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 351,
+    "year": "1948",
+    "original": "Floyd Reese, American football administrator (GM Houston Oilers/Tennessee Titans 1994-2006) and analyst (ESPN's NFL Live, ESPN.com), born in Springfield, Missouri (d. 2021)",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.5
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 352,
+    "year": "1948",
+    "original": "José Jiménez, Puerto Rico-American civil rights leader, founder of the Young Lords in Chicago and co-founder of the Rainbow Coalition, born in Puerto Rico (d. 2025)[1]",
+    "score": 75,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.9
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.6
+      }
+    ]
+  },
+  {
+    "id": 353,
+    "year": "1948",
+    "original": "Svetlana Savitskaya, Russian cosmonaut (Soyuz T-7, T-12, T-15A, 2nd woman in space), born in Moscow, Soviet Union",
+    "score": 90,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 1.0
+      },
+      {
+        "category": "Beyond Earth",
+        "score": 0.9
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.7
+      }
+    ]
+  },
+  {
+    "id": 354,
+    "year": "1949",
+    "original": "Béla Magyari, Hungarian pilot and cosmonaut, born in Kiskunfélegyháza, Hungary (d. 2018)",
+    "score": 35,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.4
+      },
+      {
+        "category": "Beyond Earth",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 355,
+    "year": "1949",
+    "original": "Keith Carradine, American actor (Young Guns, Pretty Baby), born in San Mateo California",
+    "score": 32,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.3
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 356,
+    "year": "1950",
+    "original": "(Liberatori) \"Liberty\" DeVitto, American rock drummer (Billy Joel, 1976-2006), born in New York City",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.8
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 357,
+    "year": "1950",
+    "original": "Willie Hall, American drummer (Blues Brothers Band), born in Memphis, Tennessee",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "Full Beast Mode",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 358,
+    "year": "1951",
+    "original": "Laurie Ann Frink, American big band jazz trumpeter and educator, born in Pender, Nebraska (d. 2013)[1]",
+    "score": 48,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 359,
+    "year": "1951",
+    "original": "Les Binks, Northern Irish heavy metal drummer (Judas Priest, 1977-79), born in Portadown, Northern Ireland (d. 2025)",
+    "score": 45,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 360,
+    "year": "1951",
+    "original": "Mamoru Oshii, Japanese filmmaker and writer known for \"The Ghost in the Shell\", born in Tokyo, Japan",
+    "score": 80,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.8
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.6
+      }
+    ]
+  },
+  {
+    "id": 361,
+    "year": "1951",
+    "original": "Martin Brest, American director (Scent of a Woman, Beverly Hills Cop), born in The Bronx, New York",
+    "score": 45,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 362,
+    "year": "1951",
+    "original": "Randy Shilts, American journalist and author (& the band played on), born in Davenport, Iowa (d. 1994)",
+    "score": 45,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 363,
+    "year": "1952",
+    "original": "Jostein Gaarder, Norwegian author on philosophy aimed at children (Sophie's World), born in Oslo, Norway",
+    "score": 85,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.8
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.7
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.6
+      }
+    ]
+  },
+  {
+    "id": 364,
+    "year": "1952",
+    "original": "Robin Quivers, American radio and TV personality (Howard Stern's sidekick), born in Baltimore, Maryland",
+    "score": 45,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.6
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 365,
+    "year": "1952",
+    "original": "Sudhakar Rao, Indian cricketer, born in Bangalore, Karnataka, India",
+    "score": 35,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.6
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 366,
+    "year": "1953",
+    "original": "Don Most, American actor and director (Ralph Malph-Happy Days), born in Brooklyn, New York",
+    "score": 60,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 367,
+    "year": "1953",
+    "original": "Lloyd Austin, American general, 1st black Secretary of Defense (2021-), born in Mobile, Alabama",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.8
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.7
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 368,
+    "year": "1953",
+    "original": "Louis Dunbar, American basketball player (Harlem Globetrotters), born in Minden, Louisiana",
+    "score": 70,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "Creature Feature",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 369,
+    "year": "1955",
+    "original": "Ali Score, British new wave-pop drummer (Flock Of Seagulls, 1979-86 - \"I Ran So Far Away\"), born in Beverley, England",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 370,
+    "year": "1955",
+    "original": "Branscombe Richmond, American actor (Renegade, Commando), born in Los Angeles, California",
+    "score": 45,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 371,
+    "year": "1955",
+    "original": "Diddú [Sigrún Hjálmtýsdóttir], Icelandic soprano and songwriter, born in Reykjavík, Iceland",
+    "score": 60,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 372,
+    "year": "1956",
+    "original": "Chris Foreman, British pop-ska guitarist (Madness - \"Our House\"; \"It Must Be Love\"), born in London",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 373,
+    "year": "1956",
+    "original": "David Grant, British pop-soul singer (\"Stop & Go\"; \"Could It Be I'm Falling in Love\"), and televeion personality (Pop Idol), born in Hackney, London",
+    "score": 45,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 374,
+    "year": "1957",
+    "original": "Dennis Drew, American alternative rock keyboardist and songwriter (10,000 Maniacs - \"Trouble Me\"), born in Jamestown, New York",
+    "score": 52,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 375,
+    "year": "1957",
+    "original": "Dieuwertje Blok, Dutch actress and host (Sinterklaasjournaal), born in Nederhorst den Berg, Netherlands",
+    "score": 50,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.6
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 376,
+    "year": "1957",
+    "original": "Nancy Glass, American TV broadcaster and CEO (American Journal), born in Boston, Massachusetts",
+    "score": 32,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.3
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 377,
+    "year": "1958",
+    "original": "Cecilia Roth, Argentine actress known for \"All About My Mother\", born in Buenos Aires, Argentina",
+    "score": 45,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 378,
+    "year": "1958",
+    "original": "Deborah Norville, American news anchor (Today Show, Inside Edition), born in Dalton, Georgia",
+    "score": 45,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 379,
+    "year": "1958",
+    "original": "Harry Crosby, American actor (Friday the 13th), born in Los Angeles, California",
+    "score": 25,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.3
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 380,
+    "year": "1959",
+    "original": "Caroline Ansink, Dutch flautist, contemporary classical composer, and music educator, born in Amsterdam, Netherlands",
+    "score": 60,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "Big Brain Energy",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 381,
+    "year": "1959",
+    "original": "Ronald Weigel, German race walker (Olympic silver 20k, 50k 1988; bronze 50k 1992; World C'ship gold 50k 1983), born in Hildburghausen, Germany",
+    "score": 55,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 382,
+    "year": "1960",
+    "original": "Cheyne Horan, Australian surfer (World C'ship runner-up 1978, 79, 81, 82), born in Sydney, Australia",
+    "score": 65,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "Creature Feature",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 383,
+    "year": "1960",
+    "original": "Ulrich Maly, German politician, Mayor of Nuremberg, born in Nuremberg, West Germany",
+    "score": 12,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.2
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.1
+      }
+    ]
+  },
+  {
+    "id": 384,
+    "year": "1961",
+    "original": "Bruce Matthews, American NFL guard/center (Houston/Tennessee Oilers/Titans), born in Raleigh, North Carolina",
+    "score": 45,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "History's Mic Drop Moments",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 385,
+    "year": "1961",
+    "original": "Daniel House, American bassist and music label owner, born in Berkeley, California",
+    "score": 45,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  },
+  {
+    "id": 386,
+    "year": "1961",
+    "original": "Rikki Rockett [Richard Ream], American drummer (Poison - \"Every Rose Has A Thorn\"), born in Mechanicsburg, Pennsylvania",
+    "score": 55,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.8
+      },
+      {
+        "category": "Full Beast Mode",
+        "score": 0.6
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 387,
+    "year": "1961",
+    "original": "Ron Klain, American attorney, White House Chief of Staff to Joe Biden (2021-23), born in Indianapolis, Indiana",
+    "score": 24,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Politics & Publicity",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 388,
+    "year": "1961",
+    "original": "The Edge [David Evans], British rock guitarist (U2 - \"I Will Follow\"; \"Desire\"; \"Where The Streets Have No Name\"), born in London",
+    "score": 75,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 389,
+    "year": "1962",
+    "original": "Charmaine Crooks, Canadian 800m runner (Olympics 1984, 88, 92, 96), born in Mandeville, Jamaica",
+    "score": 70,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "Full Beast Mode",
+        "score": 0.8
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.7
+      },
+      {
+        "category": "Creature Feature",
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": 390,
+    "year": "1962",
+    "original": "Suzee Pai, American actress (Big Trouble in Little China), born in Toledo, Ohio",
+    "score": 60,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.6
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.5
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.4
+      }
+    ]
+  },
+  {
+    "id": 391,
+    "year": "1963",
+    "original": "Caroline Crawley, British alt-rock singer (Shelleyan Orphan; Babacar), born in Bournemouth, England (d. 2016)",
+    "score": 45,
+    "is_kid_friendly": false,
+    "categories": [
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.7
+      },
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.3
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "id": 392,
+    "year": "1963",
+    "original": "Jon Turteltaub, American director (While You Were Sleeping), born in New York City",
+    "score": 45,
+    "is_kid_friendly": true,
+    "categories": [
+      {
+        "category": "World Shakers & Icon Makers",
+        "score": 0.5
+      },
+      {
+        "category": "Vibes, Beats & Brushes",
+        "score": 0.4
+      },
+      {
+        "category": "The What Zone",
+        "score": 0.3
+      }
+    ]
+  }
+]

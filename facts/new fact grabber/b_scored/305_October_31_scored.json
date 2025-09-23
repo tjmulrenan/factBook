@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "original": "Halloween",
+    "score": 95,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "All Hallows' Eve",
+    "score": 92,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "World Cities Day",
+    "score": 65,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "National UNICEF Day",
+    "score": 85,
+    "is_kid_friendly": true
+  }
+]

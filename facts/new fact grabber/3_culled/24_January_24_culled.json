@@ -1,0 +1,542 @@
+[
+  {
+    "id": 163,
+    "year": "1986",
+    "original": "Voyager 2 makes 1st fly-by of Uranus (81,593 km), finds new moons",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 1
+  },
+  {
+    "id": 160,
+    "year": "1848",
+    "original": "James Marshall finds gold in Sutter's Mill in Coloma, California",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 2
+  },
+  {
+    "id": 162,
+    "year": "1984",
+    "original": "Apple Computer Inc. unveils its revolutionary Macintosh personal computer in a Super Bowl TV ad directed byRidley Scott",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 3
+  },
+  {
+    "id": 58,
+    "year": "1958",
+    "original": "After warming to 100,000,000 degrees, 2 light atoms are bashed together to create a heavier atom, resulting in 1st man-made nuclear fusion",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 4
+  },
+  {
+    "id": 154,
+    "year": "2006",
+    "original": "Walt Disney International andBob Igerannounce it is buying computer animation film studio Pixar for $7.4 billion",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 5
+  },
+  {
+    "id": 24,
+    "year": "1890",
+    "original": "World's oldest wooden sculpture the Shigir Idol - radiocarbon dated to 12,500 years old, is discovered in a peat bog near Kalata, Middle Urals",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 6
+  },
+  {
+    "id": 133,
+    "year": "1908",
+    "original": "Lieutenant GeneralRobert Baden-Powellpublishes \"Scouting for Boys\" as a manual for self-instruction in outdoor skills and self-improvement. The book becomes the inspiration for the Scout Movement.",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 7
+  },
+  {
+    "id": 77,
+    "year": "1975",
+    "original": "Fastest Earth-bound object, 7200 kph, in vacuum centrifuge, England",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 8
+  },
+  {
+    "id": 337,
+    "year": "1968",
+    "original": "Mary Lou Retton, American gymnast (Olympic gold - all-round 1984), born in Fairmont, West Virginia",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 9
+  },
+  {
+    "id": 297,
+    "year": "1948",
+    "original": "Michio Kaku, American physicist, futurist, author (Physics of the Impossible; The God Equation: The Quest for a Theory of Everything), broadcaster, and peace activist, born in San Jose, California",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 10
+  },
+  {
+    "id": 229,
+    "year": "1916",
+    "original": "Marvin Creamer, American mariner, 1st recorded person to sail around the world without navigational instruments, born near Vineland, New Jersey (d. 2020)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 11
+  },
+  {
+    "id": 73,
+    "year": "1972",
+    "original": "Japanese Sergeant Shōichi Yokoi is found hiding in the jungles of Guam, where he had been since the end of World War II",
+    "score": 73,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 12
+  },
+  {
+    "id": 56,
+    "year": "1956",
+    "original": "96.5 cm precipitation at Kilauea Plantation, Hawaii (state record)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 13
+  },
+  {
+    "id": 41,
+    "year": "1925",
+    "original": "Moving picture of a solar eclipse taken from dirigible over Long Island",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 14
+  },
+  {
+    "id": 64,
+    "year": "1962",
+    "original": "Jackie Robinsonis 1st African American elected to Baseball's Hall of Fame; Bob Feller is also elected",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 15
+  },
+  {
+    "id": 107,
+    "year": "2019",
+    "original": "17 temperature records broken in South Australia including highest ever recorded for capital Adelaide at 46.6C",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 16
+  },
+  {
+    "id": 37,
+    "year": "1922",
+    "original": "Eskimo Pie patented by Christian Kent Nelson of Iowa (not an Eskimo)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 17
+  },
+  {
+    "id": 283,
+    "year": "1944",
+    "original": "David Gerrold [Jerrold David Friedman], American science fiction screenwriter (Star Trek) and author (The Martian Child), born in Chicago, Illinois",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 18
+  },
+  {
+    "id": 350,
+    "year": "1972",
+    "original": "Naoshi Mizuta, Japanese composer for video games (Final Fantasy; Parasite Eve), born in Kōchi, Japan",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 19
+  },
+  {
+    "id": 161,
+    "year": "1935",
+    "original": "First canned beer, \"Krueger's Cream Ale,\" is sold by American company Krueger Brewing Co.",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 20
+  },
+  {
+    "id": 360,
+    "year": "1979",
+    "original": "Tatyana M. Ali, American actress (Sesame St, Fresh Prince of Bel Air), born in New York City",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 21
+  },
+  {
+    "id": 372,
+    "year": "1986",
+    "original": "Sean McVay, American football coach (Super Bowl 2022 Los Angeles Rams), born in Dayton, Ohio",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 22
+  },
+  {
+    "id": 150,
+    "year": "1976",
+    "original": "Former world heavyweight boxing championGeorge ForemanKOs Ron Lyle in 5th round at Caesar's Palace, Las Vegas; Foreman knocked down twice in 4th; 'The Ring' Fight of the Year",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 23
+  },
+  {
+    "id": 108,
+    "year": "2019",
+    "original": "Search for missing Argentine footballer Emiliano Sala is called off after rescuers fail to find aircraft that disappeared from radar over English Channel 3 days earlier; search resumes funded by soccer community donations; wreckage discovered Feb 3",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 24
+  },
+  {
+    "id": 120,
+    "year": "2024",
+    "original": "UK confirms 3-year loan of Ghana's \"crown jewels\" belonging to the Asante monarch to the Manhyia Palace Museum, Kumasi, 150 years after they were looted",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 25
+  },
+  {
+    "id": 7,
+    "year": "1616",
+    "original": "Dutch mariners Jacob Le Maire and Willem Schouten are the first Europeans to discover Le Maire Strait, Tierra del Fuego - go on to round Cape Horn",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 26
+  },
+  {
+    "id": 156,
+    "year": "2011",
+    "original": "\"21\" second studio album byAdeleis released (Grammy Award for Album of the Year 2012, Brit Award for British Album of the Year, 2011 Billboard Album of the Year)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 27
+  },
+  {
+    "id": 85,
+    "year": "1988",
+    "original": "Cerebral Palsy telethon raises $21 million",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 28
+  },
+  {
+    "id": 151,
+    "year": "1982",
+    "original": "Super Bowl XVI, Pontiac Silverdome, Detroit, MI: San Francisco 49ers beat Cincinnati Bengals, 26-21; MVP:Joe Montana, SF, QB",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 29
+  },
+  {
+    "id": 36,
+    "year": "1922",
+    "original": "-54°F (-48°C), Danbury, Wisconsin (state record)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 30
+  },
+  {
+    "id": 89,
+    "year": "1990",
+    "original": "Japanese MUSES-A (Hiten) launched towards moon",
+    "score": 89,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 31
+  },
+  {
+    "id": 82,
+    "year": "1985",
+    "original": "15th Space Shuttle (51-C) Mission-Discovery 3 is launched",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 32
+  },
+  {
+    "id": 94,
+    "year": "1993",
+    "original": "Soyuz TM-16 launches",
+    "score": 94,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 33
+  },
+  {
+    "id": 72,
+    "year": "1970",
+    "original": "Valeri Muratov skates world record 500m (38.99 sec)",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 34
+  },
+  {
+    "id": 152,
+    "year": "1986",
+    "original": "NHL New York IslandersMike Bossyscores his 1,000th point",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 35
+  },
+  {
+    "id": 78,
+    "year": "1976",
+    "original": "Cleveland Cavaliers score their biggest margin of victory to date (43 points), when they beat Milwaukee 132-89",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 36
+  },
+  {
+    "id": 42,
+    "year": "1930",
+    "original": "John Mills scores New Zealand's 1st Test century in cricket, sharing a record 276 run opening stand with Stewie Dempster",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 37
+  },
+  {
+    "id": 260,
+    "year": "1931",
+    "original": "Maria Piątkowska, Polish athlete (WR 4 x 100m relay 1964), born in Goleni, Moldova (d. 2020)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 40
+  },
+  {
+    "id": 303,
+    "year": "1951",
+    "original": "Murray Sinclair, Canadian and Anishinaabe senator and lawyer, led the Indian Residential Schools Truth and Reconciliation Commission, born in Selkirk, Manitoba (d. 2024)[1]",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 41
+  },
+  {
+    "id": 145,
+    "year": "1962",
+    "original": "Retail entrepreneurBrian Epsteinsigns a 5-year management contract with the Beatles",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 42
+  },
+  {
+    "id": 137,
+    "year": "1936",
+    "original": "Benny Goodmanand His Orchestra record \"Stompin' at the Savoy\" for Victor Records in Chicago, Illinois",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 43
+  },
+  {
+    "id": 132,
+    "year": "1875",
+    "original": "Camille Saint-Saëns' orchestral tone poem \"Danse Macabre\" premieres",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 44
+  },
+  {
+    "id": 149,
+    "year": "1972",
+    "original": "Columbia Records releases \"Paul Simon\", the second solo studio album by American singer-songwriter Paul Simon; it includes singles \"Mother and Child Reunion\" and \"Me and Julio Down by the Schoolyard\"",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 45
+  },
+  {
+    "id": 139,
+    "year": "1939",
+    "original": "Adventure film \"Gunga Din\", based on the poem byRudyard Kiplingand starringCary Grant,Victor McLaglen, andDouglas Fairbanks Jr.is released",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 46
+  },
+  {
+    "id": 55,
+    "year": "1955",
+    "original": "Photography exhibition \"The Family of Man\" curated by Edward Steichen opens at MOMA, New York, \"greatest photographic enterprise ever undertaken\"",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 47
+  },
+  {
+    "id": 97,
+    "year": "1997",
+    "original": "The Swiss government and several banks and businesses agree to create a memorial fund for victims of the Holocaust",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 48
+  },
+  {
+    "id": 205,
+    "year": "1888",
+    "original": "Ernst Heinrich Heinkel, German aeronautical engineer (1st rocket-powered aircraft), born in Grunbach, Germany (d. 1958)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 49
+  },
+  {
+    "id": 237,
+    "year": "1920",
+    "original": "Jerry Maren [Gerard Marenghi], American actor (The Wizard of Oz; Mayor McCheese), born in Boston, Massachusetts (d. 2018)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 50
+  },
+  {
+    "id": 255,
+    "year": "1928",
+    "original": "Desmond Morris, English zoologist (Human Ape; Body Language), born in Purton, England",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 51
+  },
+  {
+    "id": 270,
+    "year": "1936",
+    "original": "Doug Kershaw, American Cajun, folk and bluegrass fiddle player, born in Cameron Parrish, Louisiana",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 52
+  },
+  {
+    "id": 277,
+    "year": "1941",
+    "original": "Aaron Neville, American Grammy Award-winning R&B, soul, and pop singer, and keyboardist (Neville Brothers; \"Don't Know Much\"), born in New Orleans, Louisiana",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 53
+  },
+  {
+    "id": 304,
+    "year": "1951",
+    "original": "Yakov Smirnoff, Ukrainian-American comedian (It's a wonderful country), born in Odessa, Ukraine",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 54
+  },
+  {
+    "id": 305,
+    "year": "1952",
+    "original": "William F. Readdy, American astronaut (STS 42, 51, 79), born in Quonset Point, Rhode Island",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 55
+  },
+  {
+    "id": 316,
+    "year": "1957",
+    "original": "Mark Eaton, American basketball center (NBA All-Star 1989; NBA Defensive Player of the Year 1985, 89; Utah Jazz), born in Westminster, California (d. 2021)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 56
+  },
+  {
+    "id": 321,
+    "year": "1959",
+    "original": "Vic Reeves [James Roderick Moir], English comedian, born in Leeds, United Kingdom",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 57
+  },
+  {
+    "id": 331,
+    "year": "1965",
+    "original": "Carlos Saldanha, Brazilian film director, born in Rio de Janeiro, Brazil",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 58
+  },
+  {
+    "id": 335,
+    "year": "1967",
+    "original": "Phil LaMarr, American voice actor, born in Los Angeles, California",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 59
+  },
+  {
+    "id": 201,
+    "year": "1874",
+    "original": "Arthur Schomburg (Arturo Alfonso), Puerto Rican archivist of African American history and culture, born in Santurce, Puerto Rico (d. 1938)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 62
+  },
+  {
+    "id": 222,
+    "year": "1911",
+    "original": "C. L. Moore, American science fiction & fantasy writer (Judgment Night), born in Indianapolis, Indiana (d. 1987)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 63
+  },
+  {
+    "id": 245,
+    "year": "1924",
+    "original": "Marvin Kaplan, American character and voice actor (Top Cat - \"Choo Choo\"; Alice - \"Henry\"), born in Brooklyn, New York City (d. 2016)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 64
+  }
+]

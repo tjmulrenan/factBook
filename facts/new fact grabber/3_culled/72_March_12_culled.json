@@ -1,0 +1,542 @@
+[
+  {
+    "id": 177,
+    "year": "1957",
+    "original": "Random House and Houghton-Mifflin co-publish \"The Cat in the Hat\" byDr. Seuss",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 1
+  },
+  {
+    "id": 196,
+    "year": "1989",
+    "original": "Computer scientistTim Berners-Leesubmits his first proposal for an \"information management system\" to his boss at the European Organization for Nuclear Research (CERN) who finds it “vague, but exciting”",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 2
+  },
+  {
+    "id": 164,
+    "year": "1912",
+    "original": "Girl Scouts begin in the US as the Girl Guides, formed byJuliette Gordon Lowin Savannah",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 3
+  },
+  {
+    "id": 199,
+    "year": "2002",
+    "original": "Animated film \"Ice Age\" directed by Chris Wedge and Carlos Saldanha, with voices by Denis Leary andJohn Leguizamopremieres",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 4
+  },
+  {
+    "id": 376,
+    "year": "1946",
+    "original": "Frank Welker, American voice actor (Scooby-Doo - \"Fred\"; Curious George), born in Denver, Colorado",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 5
+  },
+  {
+    "id": 210,
+    "year": "1930",
+    "original": "Mahatma Gandhibegins his famous 200-mile (320 km) protest march against the widely hated British salt tax",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 6
+  },
+  {
+    "id": 106,
+    "year": "1986",
+    "original": "Susan Butcher wins 1,158 mile Iditarod Trail Sled Dog Race",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 7
+  },
+  {
+    "id": 127,
+    "year": "2003",
+    "original": "Elizabeth Smart found after having been missing for 9 months.",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 8
+  },
+  {
+    "id": 150,
+    "year": "2021",
+    "original": "Researchers say world has likely reached 'peak twin' with more twin births than ever before - 1.6 million twins born per year (1 in 42)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 9
+  },
+  {
+    "id": 33,
+    "year": "1881",
+    "original": "Andrew Watson makes his Scotland debut as the world's first Black international football player and captain",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 10
+  },
+  {
+    "id": 75,
+    "year": "1951",
+    "original": "Comic strip \"Dennis the Menace,\" 1st appears in the British comic magazine The Beano'",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 11
+  },
+  {
+    "id": 123,
+    "year": "1995",
+    "original": "World Ladies' Figure Skating Champ in Birmingham won by Chen Lu (China)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 29
+  },
+  {
+    "id": 345,
+    "year": "1931",
+    "original": "William \"Billie\" Thomas, American child actor (Our Gang - \"Buckwheat\"), born in Los Angeles, California (d. 1980)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 13
+  },
+  {
+    "id": 201,
+    "year": "2012",
+    "original": "\"The Hunger Games\" directed by Francis Lawrence and starringJennifer Lawrencepremieres in Los Angeles",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 14
+  },
+  {
+    "id": 207,
+    "year": "2023",
+    "original": "95th Academy Awards: \"Everything Everywhere All at Once\" best film, best director Daniel Kwan and Daniel Scheinert,Michelle Yeohsecond woman of color to win best actress,Brendan Fraserbest actor",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 15
+  },
+  {
+    "id": 90,
+    "year": "1967",
+    "original": "Austria's Reinhold Bachler ski jumps 505 feet",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 17
+  },
+  {
+    "id": 144,
+    "year": "2018",
+    "original": "Research shows Chinese cites have decreased pollution by 32 percent on average in just four years",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 18
+  },
+  {
+    "id": 152,
+    "year": "2023",
+    "original": "Cyclone Freddy makes landfall for a second time in central Mozambique, Madagascar and Malawi, killing about 200 people and setting records as the longest-lasting cyclone in the southern hemisphere (formed Feb 6)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 19
+  },
+  {
+    "id": 155,
+    "year": "1455",
+    "original": "First record ofJohannes Gutenberg's Bible, a letter dated this day by Enea Silvio Piccolomini refers to the Bible printed a year earlier",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 20
+  },
+  {
+    "id": 314,
+    "year": "1923",
+    "original": "Walter \"Wally\" Schirra Jr, American US Navy Captain and NASA astronaut (Mercury 8, Gemini 6, Apollo 7), born in Hackensack, New Jersey (d. 2007)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 21
+  },
+  {
+    "id": 101,
+    "year": "1981",
+    "original": "Soyuz T-4 carries 2 cosmonauts to Salyut 6 space station",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 22
+  },
+  {
+    "id": 138,
+    "year": "2013",
+    "original": "JOGMEC becomes the first to successfully extract methane hydrate from seabed deposits",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 23
+  },
+  {
+    "id": 19,
+    "year": "1773",
+    "original": "Jeanne Baptiste Pointe de Sable found settlement now known as Chicago",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 24
+  },
+  {
+    "id": 209,
+    "year": "1894",
+    "original": "Coca-Cola is sold in bottles for the first time in a candy store in Vicksburg, Mississippi",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 25
+  },
+  {
+    "id": 102,
+    "year": "1981",
+    "original": "Walter R T Witschey installs world's largest sundial in Richmond, Virginia",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 26
+  },
+  {
+    "id": 194,
+    "year": "1987",
+    "original": "David Robinsonscores 50 points in a NCAA basketball game",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 31
+  },
+  {
+    "id": 312,
+    "year": "1923",
+    "original": "Mae Young, American professional wrestler and one of the pioneers in women's wrestling (National Wrestling Alliance, WWF), born in Sand Springs, Oklahoma (d. 2014)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 34
+  },
+  {
+    "id": 162,
+    "year": "1904",
+    "original": "Andrew Carnegieestablishes Carnegie Hero Fund",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 35
+  },
+  {
+    "id": 18,
+    "year": "1755",
+    "original": "1st steam engine in America installed, to pump water from a mine",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 37
+  },
+  {
+    "id": 71,
+    "year": "1948",
+    "original": "-5°F lowest temperature ever recorded in Cleveland, Ohio in month of March (record tied in 1984)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 38
+  },
+  {
+    "id": 149,
+    "year": "2020",
+    "original": "NHL pauses the 2019-20 season due to the COVID-19 pandemic",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 39
+  },
+  {
+    "id": 200,
+    "year": "2007",
+    "original": "22nd Rock and Roll Hall of Fame inductees: Grandmaster Flash and the Furious Five; R.E.M.; The Ronettes; Patti Smith; andVan Halen",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 40
+  },
+  {
+    "id": 398,
+    "year": "1953",
+    "original": "Carl Hiaasen, American journalist (Miami Herald 1976-2021) and author (Hoot), born in Fort Lauderdale, Florida[1][2]",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 41
+  },
+  {
+    "id": 368,
+    "year": "1940",
+    "original": "Al Jarreau, American jazz singer (\"Breaking Away\"; \"We're In This Love Together\"; \"Moonlighting\"), born in Milwaukee, Wisconsin (d. 2017)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 42
+  },
+  {
+    "id": 352,
+    "year": "1936",
+    "original": "Eddie Sutton, Basketball Hall of Fame coach (Creighton, Arkansas, Kentucky, Oklahoma State; first coach to take 4 schools to NCAA tournament), born in Bucklin, Kansas (d. 2020)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 43
+  },
+  {
+    "id": 197,
+    "year": "1992",
+    "original": "Rock for the Rainforest benefit concert held at Carnegie Hall, NYC; performers include:Sting,Elton John,James Taylor,Natalie Cole, and Don Henley",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 44
+  },
+  {
+    "id": 190,
+    "year": "1980",
+    "original": "Columbia Records releases \"Glass Houses\", singer-songwriterBilly Joel's seventh studio album; it features his 1st No.1 single - \"It's Still Rock and Roll to Me\"",
+    "score": 55,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 45
+  },
+  {
+    "id": 86,
+    "year": "1965",
+    "original": "\"Wooly Bully\" single released by Sam the Sham and the Pharaohs",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 46
+  },
+  {
+    "id": 94,
+    "year": "1971",
+    "original": "The Allman Brothers Band record their live album \"Live at Fillmore East\" on this date and the following day",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 47
+  },
+  {
+    "id": 124,
+    "year": "1998",
+    "original": "\"The Sound of Music\" opens at Martin Beck Theater NYC",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 48
+  },
+  {
+    "id": 160,
+    "year": "1891",
+    "original": "Clara SchumannplaysJohannes Brahms's \"Variations on a Theme by Haydn\" for two pianos, with James Kwast in her last public concert (Frankfurt, Germany)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 49
+  },
+  {
+    "id": 129,
+    "year": "2004",
+    "original": "Music work \"I La Galigo\" by Richard Wilson debuts in Singapore, based on Bugis creation myth from South Sulawesi (world's most voluminous literary work)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 54
+  },
+  {
+    "id": 217,
+    "year": "1613",
+    "original": "André Le Nôtre, French landscape architect (gardens of the Palace of Versailles) and principal gardener of King Louis XIV of France, born in Paris, France (d. 1700)[1]",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 55
+  },
+  {
+    "id": 245,
+    "year": "1835",
+    "original": "Simon Newcomb, Canadian-American scientist, mathematician and astronomer (calculated extremely accurate tables for the solar system), born in Wallace, Nova Scotia (d. 1909)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 56
+  },
+  {
+    "id": 247,
+    "year": "1838",
+    "original": "William Perkin, English chemist (discovered aniline dyes), born in London, England (d. 1907)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 57
+  },
+  {
+    "id": 274,
+    "year": "1890",
+    "original": "Vaslav Nijinsky, Ukrainian legendary ballet dancer (Petroesjka - Ballets Russes) and choreographer, born in Kyiv, Russian Empire (d. 1950) [OS=Feb 28]",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 58
+  },
+  {
+    "id": 348,
+    "year": "1933",
+    "original": "Niède Guidon, Brazilian archeologist known for her work on red ocher cave paintings, born in Jaú, Brazil (d. 2025)[1]",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 59
+  },
+  {
+    "id": 255,
+    "year": "1864",
+    "original": "Alice Tegnér (née Sandström), Swedish organist, poet, and composer of children's songs, born in Karlshamn, Sweden (d. 1943)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 61
+  },
+  {
+    "id": 318,
+    "year": "1925",
+    "original": "Leo Esaki [Esaki Reona], Japanese physicist (Tunnel effect-Nobel 1973), born in Osaka Prefecture, Japan",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 62
+  },
+  {
+    "id": 278,
+    "year": "1895",
+    "original": "William C. Lee, American U.S. Army general and 'Father of the US Airboure', born in Dunn, North Carolina (d. 1948)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 63
+  },
+  {
+    "id": 167,
+    "year": "1918",
+    "original": "Fearing foreign invasion,Vladimir Leninshifts revolutionary Russia's capital from Petrograd (St. Petersburg) to Moscow",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 64
+  },
+  {
+    "id": 178,
+    "year": "1963",
+    "original": "the Beatles perform as a trio, at Granada Cinema, in Bedford, England, asJohn Lennonis ill with a cold",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 65
+  },
+  {
+    "id": 91,
+    "year": "1968",
+    "original": "Indian Ocean island nation Mauritius gains independence from Britain (National Day)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 66
+  },
+  {
+    "id": 76,
+    "year": "1951",
+    "original": "Communist troops driven out of Seoul",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 67
+  },
+  {
+    "id": 93,
+    "year": "1970",
+    "original": "US lowers voting age from 21 to 18",
+    "score": 55,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 68
+  },
+  {
+    "id": 81,
+    "year": "1959",
+    "original": "US House joins Senate approving Hawaii statehood",
+    "score": 55,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 69
+  },
+  {
+    "id": 118,
+    "year": "1994",
+    "original": "The Church of England ordains its first 32 female priests at the Bristol Cathedral in Bristol, England",
+    "score": 55,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 70
+  },
+  {
+    "id": 141,
+    "year": "2017",
+    "original": "Irene Sankoff and David Hein's musical drama \"Come From Away\" opens at Schoenfeld Theatre, NYC",
+    "score": 55,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 71
+  },
+  {
+    "id": 34,
+    "year": "1884",
+    "original": "Mississippi establishes 1st US state college for women",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 72
+  },
+  {
+    "id": 42,
+    "year": "1903",
+    "original": "New York Highlanders (Yankees) baseball franchise is approved as a member of the American League",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 73
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Earth Day: Planet Party Time!",
+    "story": "Millions of people around the world throw the biggest party for our planet on April 22! Earth Day brings communities together to plant trees, pick up trash, and learn cool ways to protect nature. Schools organize recycling drives and nature walks. Families switch off lights for an hour or start composting. Social media fills with photos of beautiful landscapes and green tips. Some cities host huge festivals with eco-friendly crafts and solar-powered concerts. It's like giving Earth a giant birthday celebration every year!",
+    "activity_question": "What are some ways people celebrate Earth Day?",
+    "activity_choices": [
+      "Planting trees and picking up trash",
+      "Having water balloon fights",
+      "Eating only birthday cake",
+      "Staying inside all day"
+    ],
+    "activity_answer": "Planting trees and picking up trash",
+    "follow_up_question": "What's one small thing you could do every day to help protect our planet?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "902",
+    "title": "Sweet Little Beans of Joy",
+    "story": "Millions of tiny, colorful candies take center stage every April 22 during National Jelly Bean Day! People celebrate by munching on their favorite flavors, from classic cherry and lemon to wild ones like buttered popcorn or grass. Candy stores display rainbow towers of jelly beans, and families play guessing games trying to identify mystery flavors while blindfolded. Some people sort their jelly beans by color before eating them, while others just grab handfuls and enjoy the surprise mix of tastes. Social media fills with photos of jelly bean art and flavor rankings as everyone shares their sweet tooth adventures.",
+    "activity_question": "What do some families do with jelly beans to make the holiday more fun?",
+    "activity_choices": [
+      "Play blindfolded flavor-guessing games",
+      "Use them as pizza toppings",
+      "Plant them in gardens",
+      "Wear them as jewelry"
+    ],
+    "activity_answer": "Play blindfolded flavor-guessing games",
+    "bonus_fact": "It takes 7-21 days to make a single jelly bean!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "903",
+    "title": "Mother Earth Gets Her Special Day",
+    "story": "Every April 22, people around the world celebrate International Mother Earth Day by showing love for our planet! Kids plant trees, families organize neighborhood cleanups, and schools host recycling drives. Many people share photos of beautiful nature spots on social media with green heart emojis. Some communities hold Earth festivals with eco-friendly crafts and games. It's a day when everyone remembers that taking care of Earth is super important for all living things.",
+    "activity_question": "What do many people share on social media for International Mother Earth Day?",
+    "activity_choices": [
+      "Photos of beautiful nature spots with green heart emojis",
+      "Pictures of their favorite pizza",
+      "Videos of dancing cats",
+      "Screenshots of video games"
+    ],
+    "activity_answer": "Photos of beautiful nature spots with green heart emojis",
+    "follow_up_question": "What's one small thing you could do every day to help take care of Earth?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  }
+]

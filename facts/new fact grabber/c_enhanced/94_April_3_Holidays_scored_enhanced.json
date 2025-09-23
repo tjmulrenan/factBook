@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Mousse Madness: A Fluffy Chocolate Holiday",
+    "story": "Spoons are flying and chocolate is swirling because April 3 is National Chocolate Mousse Day! This fluffy, creamy dessert gets its own special celebration every year on this date. People mark the day by making homemade chocolate mousse in their kitchens, trying new recipes with dark chocolate, milk chocolate, or even white chocolate. Restaurants often feature special mousse desserts on their menus, and bakeries display their fluffiest creations in shop windows. Social media fills up with photos of perfectly swirled chocolate treats topped with whipped cream, berries, or mint leaves. Some families make it a tradition to have a mousse-making contest to see who can create the most delicious version!",
+    "activity_question": "What do people often top their chocolate mousse with on this holiday?",
+    "activity_choices": [
+      "Whipped cream, berries, or mint leaves",
+      "Hot sauce and pickles",
+      "Cheese and crackers",
+      "Ice cubes and salt"
+    ],
+    "activity_answer": "Whipped cream, berries, or mint leaves",
+    "bonus_fact": "The word 'mousse' comes from French and means 'foam' or 'froth'!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Chasing Colors in the Sky",
+    "story": "Rainbow hunters grab their cameras and head outside every April 3 for National Find a Rainbow Day! This colorful holiday encourages people to look up at the sky and search for nature's most beautiful light show. Some families plan special outdoor adventures, hoping to spot rainbows after spring showers. Others create their own rainbows using garden hoses and sunlight in their backyards. Social media fills with rainbow photos as people share their discoveries from around the world. Kids love making rainbow crafts, eating colorful foods, and learning how sunlight splits into seven amazing colors. It's the perfect excuse to spend time outdoors and appreciate the magic that happens when rain meets sunshine!",
+    "activity_question": "What do people use to create their own rainbows in their backyards?",
+    "activity_choices": [
+      "Garden hoses and sunlight",
+      "Flashlights and mirrors",
+      "Colored pencils and paper",
+      "Magic rainbow wands"
+    ],
+    "activity_answer": "Garden hoses and sunlight",
+    "follow_up_question": "What other natural phenomena would you like to have a special day for observing?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 88
+  },
+  {
+    "id": "903",
+    "title": "Skip Work for Fun Day!",
+    "story": "Every April 3, some grown-ups celebrate Don't Go to Work Unless It's Fun Day by doing exactly what it sounds like! If their job isn't enjoyable that day, they might call in sick, work from home in pajamas, or find creative ways to make their workplace more exciting. Some people bring games to the office, wear silly costumes, or organize fun activities with coworkers. Others use this quirky holiday as an excuse to take a mental health day and do something they actually love instead. It's a playful reminder that work should bring joy, not just stress!",
+    "activity_question": "What might people do to celebrate this holiday at their workplace?",
+    "activity_choices": [
+      "Bring games and wear silly costumes",
+      "Work extra hard all day",
+      "Have serious meetings only",
+      "Clean the entire office"
+    ],
+    "activity_answer": "Bring games and wear silly costumes",
+    "follow_up_question": "What would make school more fun if you could change one thing about it?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "904",
+    "title": "Galloping Into History on Pony Express Day",
+    "story": "Every April 3, people celebrate Pony Express Day by remembering the brave riders who carried mail across America on horseback! Museums host special exhibits about these daring young men who rode through dangerous weather and wild territories. Schools often organize relay races where kids pretend to be Pony Express riders, passing messages from one \"station\" to another. Some towns hold parades with people dressed as Old West mail carriers. Libraries display books about frontier life, and families might watch Western movies together. It's a day to honor the incredible courage it took to deliver mail before cars, trains, or airplanes made the job easier!",
+    "activity_question": "What do schools often organize on Pony Express Day to help kids understand how mail was delivered?",
+    "activity_choices": [
+      "Relay races where kids pass messages",
+      "Horseback riding lessons",
+      "Letter writing contests",
+      "Treasure hunts in the playground"
+    ],
+    "activity_answer": "Relay races where kids pass messages",
+    "bonus_fact": "Pony Express riders were usually teenagers because they were lightweight for the horses!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  }
+]

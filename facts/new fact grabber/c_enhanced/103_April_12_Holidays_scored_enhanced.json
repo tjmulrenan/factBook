@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Melted Magic: National Grilled Cheese Day",
+    "story": "Sizzling butter hits the pan as millions of people celebrate National Grilled Cheese Sandwich Day on April 12! This gooey holiday brings families together in kitchens everywhere, flipping golden-brown sandwiches filled with melted cheese. Restaurants offer special deals on fancy versions with multiple cheeses, bacon, or tomato. Food bloggers share creative recipes online, from grilled cheese ice cream sandwiches to rainbow-colored bread. Some people host grilled cheese parties where everyone brings different cheese types to try. The best part? You get to pull apart that perfect sandwich and watch the cheese stretch into long, stringy ribbons that make everyone smile!",
+    "activity_question": "What do food bloggers share online during this holiday?",
+    "activity_choices": [
+      "Creative grilled cheese recipes",
+      "Pictures of their pets eating cheese",
+      "Videos of dancing sandwiches",
+      "Stories about cheese factories"
+    ],
+    "activity_answer": "Creative grilled cheese recipes",
+    "follow_up_question": "What's the most unusual grilled cheese combination you'd want to try?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Love It or Hate It Licorice Day",
+    "story": "Black licorice might be the most divisive candy on Earth, and April 12 is when it gets its moment to shine! National Licorice Day celebrates this polarizing treat that people either absolutely love or completely despise. Candy stores showcase their licorice collections, from classic black twists to colorful red ropes. Social media explodes with debates about whether black licorice tastes amazing or terrible, while licorice lovers proudly share photos of their favorite varieties and recipes for licorice-flavored desserts.",
+    "activity_question": "What makes licorice such a unique candy according to the story?",
+    "activity_choices": [
+      "People either love it or hate it completely",
+      "It's the most expensive candy to make",
+      "It only comes in black color",
+      "It's made from magical ingredients"
+    ],
+    "activity_answer": "People either love it or hate it completely",
+    "bonus_fact": "Black licorice gets its flavor from anise, the same plant used in some cough medicines!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "903",
+    "title": "Blast Off to Russian Cosmonautics Day!",
+    "story": "Every April 12, Russia celebrates Cosmonautics Day to honor their amazing space achievements! This special day marks when Yuri Gagarin became the first human to travel into space back in 1961. Russians celebrate by visiting space museums, watching rocket launches on TV, and learning about astronauts called cosmonauts. Schools organize space-themed activities where kids build model rockets and study the solar system. Many people share photos of stars and planets on social media. Some cities even host parades with space floats! It's a day when everyone looks up at the sky and dreams about exploring the universe.",
+    "activity_question": "What do Russians call their astronauts?",
+    "activity_choices": [
+      "Cosmonauts",
+      "Space pilots",
+      "Rocket riders",
+      "Star sailors"
+    ],
+    "activity_answer": "Cosmonauts",
+    "bonus_fact": "Yuri Gagarin's historic space flight lasted only 108 minutes!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "904",
+    "title": "Blast Off Into Space Day!",
+    "story": "Rockets roar and astronauts float as the world celebrates International Day of Human Space Flight on April 12! This amazing holiday honors the first time a human traveled to space and all the incredible space missions that followed. People around the globe mark this day by visiting space museums, watching rocket launches online, and sharing photos of the stars. Kids build model rockets, dress up like astronauts, and learn about planets and galaxies. Schools host space-themed activities where students imagine life on Mars or design their own spacecraft. It's the perfect day to look up at the sky and dream about exploring the universe!",
+    "activity_question": "What do people often build on International Day of Human Space Flight?",
+    "activity_choices": [
+      "Model rockets",
+      "Space sandwiches",
+      "Moon boots",
+      "Alien costumes"
+    ],
+    "activity_answer": "Model rockets",
+    "follow_up_question": "If you could travel anywhere in space, which planet would you visit first?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  }
+]

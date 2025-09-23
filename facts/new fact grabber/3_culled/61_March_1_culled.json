@@ -1,0 +1,542 @@
+[
+  {
+    "id": 173,
+    "year": "1941",
+    "original": "Captain America, created by cartoonists Joe Simon andJack Kirby, is first published by Timely Comics (premiere issue released on December 20, 1940)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 1
+  },
+  {
+    "id": 124,
+    "year": "1966",
+    "original": "Venera 3 becomes 1st man-made object to impact on a planet (Venus)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 2
+  },
+  {
+    "id": 194,
+    "year": "1974",
+    "original": "PhysicistStephen Hawkingpublishes his landmark paper \"Black hole explosions\" introducing idea of 'Hawking radiation' the idea black holes are not truly black because they omit heat",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 3
+  },
+  {
+    "id": 41,
+    "year": "1872",
+    "original": "Yellowstone becomes the world's first national park",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 4
+  },
+  {
+    "id": 167,
+    "year": "1896",
+    "original": "Henri Becquereldiscovers radioactivity",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 5
+  },
+  {
+    "id": 183,
+    "year": "1961",
+    "original": "US PresidentJFKestablishes the Peace Corps",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 6
+  },
+  {
+    "id": 36,
+    "year": "1864",
+    "original": "Rebecca Lee in the US becomes 1st African American woman to receive a medical degree",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 7
+  },
+  {
+    "id": 165,
+    "year": "1890",
+    "original": "1st US edition of Sherlock Holmes' first story \"A Study in Scarlet\" byArthur Conan Doylepublished",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 8
+  },
+  {
+    "id": 53,
+    "year": "1912",
+    "original": "U.S. Army Captain Albert Berry performs first (attached-type) parachute jump from an airplane",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 9
+  },
+  {
+    "id": 72,
+    "year": "1936",
+    "original": "Boulder (Hoover) Dam fully completed",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 10
+  },
+  {
+    "id": 112,
+    "year": "1957",
+    "original": "Kokomo the Chimp becomes Today Show animal editor",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 11
+  },
+  {
+    "id": 157,
+    "year": "1579",
+    "original": "British admiral and explorerFrancis Drakesurprises and captures the Spanish treasure ship 'Nuestra Señora de la Concepción' off the coast of Peru, Drake's richest plunder",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 12
+  },
+  {
+    "id": 42,
+    "year": "1873",
+    "original": "E. Remington and Sons in Ilion, New York begins production of the first practical typewriter",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 13
+  },
+  {
+    "id": 390,
+    "year": "1954",
+    "original": "Ron Howard, American actor and director (American Graffiti, Happy Days), born in Duncan, Oklahoma",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 14
+  },
+  {
+    "id": 131,
+    "year": "1968",
+    "original": "NBC's unprecedented on-air announcement, Star Trek will return",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 15
+  },
+  {
+    "id": 191,
+    "year": "1973",
+    "original": "Harvest (UK) and Capitol Records (US) releasePink Floyd's 8th studio album \"The Dark Side of the Moon\"; it stays on the Billboard Top 200 Album chart for most of the next 14 years, selling over 50 million copies worldwide",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 16
+  },
+  {
+    "id": 185,
+    "year": "1968",
+    "original": "Andrew Lloyd WebberandTim Rice's musical \"Joseph and the Amazing Technicolor Dreamcoat\" first performed as a 15-minute pop cantata at Colet Court School in London",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 17
+  },
+  {
+    "id": 177,
+    "year": "1949",
+    "original": "Former world heavyweight boxing championJoe Louisretires with a 66-3-0 record including 52 KOs; defended the title a record 25 times",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 18
+  },
+  {
+    "id": 187,
+    "year": "1969",
+    "original": "New York Yankees legendMickey Mantleannounces his retirement due to persistent knee injuries and finishes an 18-season career with 536 home runs and a .298 batting average",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 19
+  },
+  {
+    "id": 19,
+    "year": "1780",
+    "original": "Pennsylvania becomes first US state to abolish slavery (for newborns only)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 20
+  },
+  {
+    "id": 51,
+    "year": "1910",
+    "original": "Wall of snow collapse in Cascade Mountain Range buries three passenger trains, killing 96, near Steven's Pass, Washington; 23 people survive the worst avalanche in US history",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 21
+  },
+  {
+    "id": 14,
+    "year": "1565",
+    "original": "Portuguese soldier Estácio de Sá founds the city of Rio de Janeiro, Brazil",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 22
+  },
+  {
+    "id": 311,
+    "year": "1924",
+    "original": "(Donald) \"Deke\" Slayton, American US Air Force pilot and NASA astronaut (Mercury Seven; Apollo–Soyuz Test Project), born in Sparta, Wisconsin (d. 1993)[1]",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 23
+  },
+  {
+    "id": 52,
+    "year": "1912",
+    "original": "Isabella Goodwin appointed first US woman detective, NYC",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 24
+  },
+  {
+    "id": 347,
+    "year": "1943",
+    "original": "Akinori Nakayama, Japanese gymnast (6 x Olympic gold 1968, 72; 7 x World C'ships gold 1966, 70), born in Nagoya, Japan",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 60
+  },
+  {
+    "id": 148,
+    "year": "1973",
+    "original": "Robyn Smith rides North Sea to victory in the Paumanok Handicap at Aqueduct Race Track in NYC to become the first American female jockey to win a stakes race",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 26
+  },
+  {
+    "id": 176,
+    "year": "1947",
+    "original": "MLB Cleveland Indians ownerBill Veecksets up spring training camp in racially tolerant Phoenix, AZ in anticipation of signing team's first black players;Larry Dobyis first acquisition later in the season",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 27
+  },
+  {
+    "id": 139,
+    "year": "1970",
+    "original": "End of US commercial whale hunting",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 28
+  },
+  {
+    "id": 166,
+    "year": "1896",
+    "original": "Battle of Adwa: 80,000 Ethiopians destroy 20,000 Italians in Ethopia, killing two generals and capturing General Matteo Albertone",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 29
+  },
+  {
+    "id": 75,
+    "year": "1937",
+    "original": "US Steel raises workers' wages to $5 a day",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 30
+  },
+  {
+    "id": 309,
+    "year": "1922",
+    "original": "William Gaines, American publisher (MAD Magazine), born in Brooklyn, New York (d. 1992)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 31
+  },
+  {
+    "id": 151,
+    "year": "1975",
+    "original": "Colour television transmission begins in Australia",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 32
+  },
+  {
+    "id": 386,
+    "year": "1954",
+    "original": "Catherine Bach, American actress (Daisey Duke-The Dukes of Hazzard), born in Warren, Ohio",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 33
+  },
+  {
+    "id": 365,
+    "year": "1947",
+    "original": "Alan Thicke, Canadian actor (Thicke of the Night; Growing Pains), and TV theme song composer (Doff'rent Strokes; The Facts Of Life), born in Kirkland Lake, Ontario (d. 2016)",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 34
+  },
+  {
+    "id": 204,
+    "year": "1445",
+    "original": "Sandro Botticelli, Florentine Early Renaissance painter (Birth of Venus), born in Florence, Republic of Florence (d. 1510) [birthdate disputed]",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 35
+  },
+  {
+    "id": 197,
+    "year": "1781",
+    "original": "Continental Congress officially adopts the Articles of Confederation, the first constitution of the United States of America after ratification by the 13th state, Maryland",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 36
+  },
+  {
+    "id": 38,
+    "year": "1867",
+    "original": "Most of Nebraska becomes 37th US state (expanded later)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 37
+  },
+  {
+    "id": 125,
+    "year": "1967",
+    "original": "Dominica & St Lucia gain independence from Britain",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 38
+  },
+  {
+    "id": 70,
+    "year": "1934",
+    "original": "Henry Pu Yi crowned Emperor Kang Teh of Manchuria",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 39
+  },
+  {
+    "id": 164,
+    "year": "1866",
+    "original": "War of the Triple Alliance: Paraguayan canoes sink two Brazilian ironclads on the Rio Paraná",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 40
+  },
+  {
+    "id": 45,
+    "year": "1878",
+    "original": "First winter ascent of Aneto, highest mountain in the Pyrenees",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 41
+  },
+  {
+    "id": 182,
+    "year": "1958",
+    "original": "21-year-old West Indian cricket all-rounderGarfield Sobersturns his maiden Test century into a world record 365no in the Windies' 3rd Test win over Pakistan in Kingston, Jamaica; Sobers and Conrad Hunte (260) 446 run partnership for 2nd wicket",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 43
+  },
+  {
+    "id": 189,
+    "year": "1970",
+    "original": "Boston'sBobby Orrbecomes the first defenseman in NHL history to score 25 goals in a season during a 3-1 Bruins win over the visiting St. Louis Blues",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 44
+  },
+  {
+    "id": 188,
+    "year": "1969",
+    "original": "Phil Espositohas a goal and assist in Boston Bruins' 8-5 win over NY Rangers to give him 99 points for the season, breaking the NHL record for most points in a season (97) held byStan Mikita",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 45
+  },
+  {
+    "id": 181,
+    "year": "1954",
+    "original": "Future Baseball Hall of Fame outfielderTed Williamsfractures his collarbone on the first day of Boston Red Sox spring training; injury keeps him out of Boston lineup until May 15",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 46
+  },
+  {
+    "id": 82,
+    "year": "1941",
+    "original": "Rangers' goalie Dave Kerr becomes the 5th goaltender in NHL history to record 200 career victories when New York wins, 3-1 over the Canadiens at Montreal",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 47
+  },
+  {
+    "id": 130,
+    "year": "1968",
+    "original": "High winds blow-off the Philadelphia Spectrum's roof, forcing the Flyers to play their final month of the NHL season on the road, with home games moved to Toronto, NYC and Quebec City",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 49
+  },
+  {
+    "id": 65,
+    "year": "1921",
+    "original": "Spin bowler Arthur Mailey takes 5 for 119 (record 36 wickets for series) to lead Australia to a 9 wicket 5th Test win over England in Sydney; first ever, 5-0 Ashes cricket series win for Australia",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 50
+  },
+  {
+    "id": 80,
+    "year": "1941",
+    "original": "Former University of Notre Dame star fullback Elmer Layden is named first Commissioner of the NFL",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 52
+  },
+  {
+    "id": 292,
+    "year": "1914",
+    "original": "Harry Caray, American Baseball Hall of Fame broadcaster (Chicago Cubs), born in St Louis, Missouri (d. 1998)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 53
+  },
+  {
+    "id": 325,
+    "year": "1930",
+    "original": "Raymond St Jacques, American actor, director and producer, who was the 1st African-American to hold a regular role in a western series (Simon Blake in \"Rawhide\"), born in Hartford, Connecticut (d. 1990)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 54
+  },
+  {
+    "id": 357,
+    "year": "1945",
+    "original": "Burning Spear [Winston Rodney], Jamaican reggae singer, born in Saint Ann's Bay, Jamaica",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 55
+  },
+  {
+    "id": 360,
+    "year": "1946",
+    "original": "Elvin Bethea, American Pro Football Hall of Fame defensive end (8 × Pro Bowl; 5 × All-Pro; Houston Oilers), born in Trenton, New Jersey",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 56
+  },
+  {
+    "id": 380,
+    "year": "1952",
+    "original": "Leigh Matthews, Australian Football Hall of Fame rover (Hawthorne FC), coach (Collingwood 1990 premiers; Brisbane 2001-03 premiers) and broadcaster (7 Network; 3AW), born in Melbourne, Australia",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 57
+  },
+  {
+    "id": 320,
+    "year": "1928",
+    "original": "Willie Mitchell, American R&B, pop, and soul trumpeter, songwriter, producer, and arranger (Al Green; Ann Peeples), born in Ashland, Mississippi (d. 2010)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 59
+  },
+  {
+    "id": 342,
+    "year": "1941",
+    "original": "Michael Lampton, American astronaut and founder of the optical ray tracing company \"Stellar Software\", born in Williamsport, Pennsylvania",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 61
+  },
+  {
+    "id": 377,
+    "year": "1951",
+    "original": "Scott Ross, American-French harpsichordist (recorded all 555 sonatas of Domenico Scarlatti), born in Pittsburgh, Pennsylvania (d. 1989)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 62
+  },
+  {
+    "id": 315,
+    "year": "1926",
+    "original": "Robert Clary [Widerman], French-American actor (Hogan's Heroes - \"Cpl LeBeau\"; Days of Our Lives), singer, author, artist, lecturer, and Holocaust survivor, born in Paris, France (d. 2022)[1]",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 63
+  },
+  {
+    "id": 335,
+    "year": "1936",
+    "original": "Monique Bégin, French Canadian politician and academic who fought for universal healthcare and women's equality (Ladies, Upstairs), born in Rome, Italy (d. 2023)[1]",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 64
+  },
+  {
+    "id": 352,
+    "year": "1943",
+    "original": "Rashid Sunyaev, Tatar-Russian physicist and astrophysicist, born in Tashkent, Uzbek SSR, Soviet Union",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 65
+  }
+]

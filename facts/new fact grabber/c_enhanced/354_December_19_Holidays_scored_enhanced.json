@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Sweet and Crunchy Candy Craze",
+    "story": "Crunch, suck, and savor because December 19 is National Hard Candy Day! People celebrate by enjoying their favorite hard candies like peppermints, butterscotch drops, lollipops, and candy canes. Some folks visit old-fashioned candy shops to try unique flavors, while others make homemade hard candy in their kitchens. Social media fills with colorful photos of glass jars packed with shiny candies. Many people share memories of their grandparents' candy dishes or trade their favorite hard candy brands with friends.",
+    "activity_question": "What do people often fill with hard candies to display them?",
+    "activity_choices": [
+      "Glass jars",
+      "Shoe boxes",
+      "Coffee mugs",
+      "Plastic bags"
+    ],
+    "activity_answer": "Glass jars",
+    "bonus_fact": "Hard candy can last for years if stored properly in a cool, dry place!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "902",
+    "title": "Muffin Magic on Oatmeal Day",
+    "story": "Kitchens across America smell amazing on December 19 because it's National Oatmeal Muffin Day! People celebrate by baking these hearty, delicious treats that combine the goodness of oats with muffin magic. Families gather to mix batter, add blueberries or chocolate chips, and fill their homes with warm, cozy aromas. Bakeries often feature special oatmeal muffin flavors, and many people share their favorite recipes online to spread the muffin love.",
+    "activity_question": "What do people often add to oatmeal muffins to make them extra tasty?",
+    "activity_choices": [
+      "Blueberries or chocolate chips",
+      "Pickles and mustard",
+      "Ice cream and sprinkles",
+      "Lettuce and tomatoes"
+    ],
+    "activity_answer": "Blueberries or chocolate chips",
+    "bonus_fact": "Oats in muffins help keep you full longer than regular flour alone!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "903",
+    "title": "Stay Green All Year Long Day",
+    "story": "December 19 is Look for an Evergreen Day, when people celebrate trees that stay green all year round! Families take nature walks to spot pine trees, spruces, and firs that keep their needles even in winter. Many people decorate their homes with fresh evergreen branches, making wreaths or garlands that smell amazing. Some families plant new evergreen trees in their yards on this special day. It's the perfect time to appreciate these tough trees that give us oxygen and stay beautiful through every season!",
+    "activity_question": "What do evergreen trees keep all year round?",
+    "activity_choices": [
+      "Their needles",
+      "Their flowers",
+      "Their fruit",
+      "Their singing birds"
+    ],
+    "activity_answer": "Their needles",
+    "follow_up_question": "What's your favorite thing about evergreen trees in winter?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Pizza Party Day for Everyone!",
+    "story": "Pizza lovers across America go absolutely wild on February 9 for National Pizza Day! Restaurants offer crazy deals like buy-one-get-one-free slices, while pizza shops create wild new toppings just for this special day. Families order their favorite pies for dinner, and some people even have pizza for breakfast (yes, really!). Social media explodes with photos of cheesy, gooey slices as everyone shares their pizza adventures. Some pizza places hold contests for the weirdest topping combinations, and schools sometimes serve pizza parties to celebrate. Whether you love pepperoni, Hawaiian, or plain cheese, February 9 is the perfect excuse to grab a slice and join millions of people celebrating America's favorite food!",
+    "activity_question": "What do some pizza places hold contests for on National Pizza Day?",
+    "activity_choices": [
+      "The weirdest topping combinations",
+      "The fastest pizza delivery",
+      "The loudest pizza eater",
+      "The biggest pizza box collection"
+    ],
+    "activity_answer": "The weirdest topping combinations",
+    "bonus_fact": "Americans eat about 3 billion pizzas every year!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 95
+  },
+  {
+    "id": "902",
+    "title": "Bagels and Lox Rock!",
+    "story": "Cream cheese, smoked salmon, and a chewy bagel come together for the ultimate breakfast combo on February 9! National Bagels and Lox Day celebrates this classic Jewish-American dish that became a weekend brunch favorite across the country. People line up at delis and bagel shops to order their perfect stack - everything bagel with lox, capers, and red onion, or keep it simple with plain cream cheese. Food lovers share photos of their towering bagel creations on social media, and many families make it a tradition to enjoy this special meal together.",
+    "activity_question": "What type of fish is traditionally used in bagels and lox?",
+    "activity_choices": [
+      "Smoked salmon",
+      "Tuna fish",
+      "Grilled chicken",
+      "Rainbow trout"
+    ],
+    "activity_answer": "Smoked salmon",
+    "bonus_fact": "The word 'lox' comes from the Yiddish word for salmon!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "903",
+    "title": "Splish Splash, Time to Read and Relax!",
+    "story": "People across the world grab their favorite books and head straight to their bathtubs on February 9 for Read in the Bathtub Day! This quirky holiday encourages everyone to combine two relaxing activities: soaking in warm, bubbly water and diving into a good story. Families celebrate by setting up waterproof book holders, using plastic page protectors, or choosing books they don't mind getting a little damp. Some people light candles, add bath bombs, and create the perfect reading atmosphere. Libraries and bookstores often promote waterproof books and reading tips for this special day.",
+    "activity_question": "What do people use to protect their books while reading in the bathtub?",
+    "activity_choices": [
+      "Plastic page protectors",
+      "Rubber gloves",
+      "Swimming goggles",
+      "Waterproof socks"
+    ],
+    "activity_answer": "Plastic page protectors",
+    "bonus_fact": "Some bookstores sell special floating book holders designed just for bathtub reading!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  }
+]

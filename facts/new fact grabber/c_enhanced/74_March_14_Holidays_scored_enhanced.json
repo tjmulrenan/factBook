@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Pi Day: Math Gets Deliciously Round!",
+    "story": "Every March 14, math lovers everywhere celebrate Pi Day because the date matches the first three digits of pi: 3.14! This special number helps us measure circles, and people mark the day by eating circular treats like pies, pizzas, and cookies. Schools host pi recitation contests where students try to memorize as many digits as possible after 3.14159... Bakeries sell special pies with math puns, and teachers organize fun geometry activities. Some people even time their celebrations to start at 1:59 PM, matching even more digits of pi. It's the perfect excuse to make math tasty and turn numbers into a party!",
+    "activity_question": "Why is Pi Day celebrated on March 14th?",
+    "activity_choices": [
+      "Because the date 3/14 matches the first digits of pi",
+      "Because circles were invented in March",
+      "Because it's when pizza was first made round",
+      "Because mathematicians like spring weather"
+    ],
+    "activity_answer": "Because the date 3/14 matches the first digits of pi",
+    "bonus_fact": "The record for memorizing pi digits is over 70,000 numbers!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "902",
+    "title": "White Day: Sweet Revenge Time!",
+    "story": "White Day flips Valentine's Day upside down! On March 14, exactly one month after Valentine's Day, it's the boys' turn to give gifts. In Japan and other Asian countries, guys give white chocolates, marshmallows, and candy to girls who gave them treats in February. The rule is simple: return the favor with something three times more expensive! Some boys spend weeks planning the perfect white-wrapped present to show their appreciation.",
+    "activity_question": "According to the story, what's the spending rule for White Day gifts?",
+    "activity_choices": [
+      "Spend exactly the same amount",
+      "Spend three times more than what you received",
+      "Spend half of what you received",
+      "Spend whatever you want"
+    ],
+    "activity_answer": "Spend three times more than what you received",
+    "bonus_fact": "White Day was invented by a Japanese candy company in 1978!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "903",
+    "title": "Math Magic Day Goes Global!",
+    "story": "Every March 14, math lovers around the world celebrate International Day of Mathematics! This special day encourages everyone to discover how amazing math can be. Schools host fun math games, puzzles, and competitions. Students might solve riddles, create geometric art, or explore cool number patterns. Many people share their favorite math jokes online or post pictures of mathematical shapes they find in nature. It's a day to show that math isn't just about homework—it's everywhere around us and can be really exciting!",
+    "activity_question": "What do schools often host on International Day of Mathematics?",
+    "activity_choices": [
+      "Fun math games and competitions",
+      "Cooking contests",
+      "Dance performances",
+      "Pet shows"
+    ],
+    "activity_answer": "Fun math games and competitions",
+    "bonus_fact": "March 14 is also known as Pi Day because the date looks like 3.14!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 58
+  },
+  {
+    "id": "904",
+    "title": "Einstein's Birthday Brain Celebration",
+    "story": "March 14 marks the birthday of Albert Einstein, one of history's smartest scientists! People celebrate this day by sharing his famous quotes, posting pictures of his wild hair, and doing fun science experiments. Schools often hold special science fairs or physics demonstrations to honor the man who discovered amazing things about space and time. Some fans even eat pie because March 14 is also Pi Day, making it a double celebration of math and science genius!",
+    "activity_question": "How do people often celebrate Albert Einstein's birthday?",
+    "activity_choices": [
+      "By doing science experiments and sharing his quotes",
+      "By getting wild haircuts like Einstein",
+      "By traveling to space",
+      "By solving impossible math problems"
+    ],
+    "activity_answer": "By doing science experiments and sharing his quotes",
+    "bonus_fact": "Einstein's messy hair became so famous that people still copy his hairstyle today!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  }
+]

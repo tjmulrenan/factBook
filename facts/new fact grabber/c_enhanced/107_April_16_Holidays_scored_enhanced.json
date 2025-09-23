@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Eggs-traordinary Benedict Day!",
+    "story": "Chefs crack eggs and drizzle golden hollandaise sauce over English muffins every April 16 for National Eggs Benedict Day! Restaurants serve this fancy breakfast dish with Canadian bacon and perfectly poached eggs. Food lovers post pictures of their towering Benedict creations on social media, showing off colorful variations with salmon, spinach, or avocado instead of traditional bacon.",
+    "activity_question": "What sauce is traditionally drizzled over eggs Benedict?",
+    "activity_choices": [
+      "Hollandaise sauce",
+      "Ketchup",
+      "Chocolate sauce",
+      "Ranch dressing"
+    ],
+    "activity_answer": "Hollandaise sauce",
+    "bonus_fact": "Eggs Benedict was invented at a fancy New York hotel in the 1860s!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 50
+  },
+  {
+    "id": "902",
+    "title": "Speak Up for World Voice Day!",
+    "story": "Your voice is amazing, and World Voice Day on April 16 celebrates exactly that! People around the world use this day to appreciate how incredible human voices are. Singers perform special concerts, teachers talk about voice care, and doctors remind everyone to drink water and rest their vocal cords. Some folks even try voice exercises or learn fun facts about how voices work!",
+    "activity_question": "What do doctors recommend people do to take care of their voices on World Voice Day?",
+    "activity_choices": [
+      "Drink water and rest vocal cords",
+      "Sing as loudly as possible",
+      "Whisper all day long",
+      "Eat spicy foods"
+    ],
+    "activity_answer": "Drink water and rest vocal cords",
+    "follow_up_question": "What makes your voice unique compared to everyone else's voice?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 50
+  },
+  {
+    "id": "903",
+    "title": "Pajama Power at the Office!",
+    "story": "Cozy flannel pants and fuzzy slippers take over offices across America on April 16 for National Wear Your Pajamas to Work Day! This wonderfully weird holiday lets grown-ups ditch their fancy work clothes and show up in their comfiest sleepwear instead. Some companies throw pajama parties with hot chocolate and breakfast treats, while others hold contests for the silliest or most creative PJs. Remote workers love this day because they can finally admit they've been wearing pajamas during video calls all along! It's a fun way to bring comfort and laughter to the workplace.",
+    "activity_question": "What do some companies do to celebrate National Wear Your Pajamas to Work Day?",
+    "activity_choices": [
+      "Hold contests for the silliest pajamas",
+      "Make everyone wear suits instead",
+      "Close the office for the day",
+      "Only allow polka-dot pajamas"
+    ],
+    "activity_answer": "Hold contests for the silliest pajamas",
+    "bonus_fact": "Some offices even set up breakfast buffets to complete the cozy morning vibe!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "904",
+    "title": "Square Up for Foursquare Fun!",
+    "story": "Grab a bouncy ball and find three friends because April 16 is Foursquare Day! This awesome playground game gets its own special celebration every year. Kids and adults draw a big square on the ground, split it into four smaller squares, and take turns bouncing the ball between sections. The goal is to make it to the \"king\" square and stay there as long as possible. Schools, parks, and communities organize tournaments where players show off their best serves and tricky moves. It's the perfect day to remember that simple games with just a ball and some chalk can create hours of fun!",
+    "activity_question": "What do you need to draw on the ground to play foursquare?",
+    "activity_choices": [
+      "A big square split into four smaller squares",
+      "A circle with numbers inside",
+      "A triangle with three sections",
+      "A rectangle with two halves"
+    ],
+    "activity_answer": "A big square split into four smaller squares",
+    "bonus_fact": "The \"king\" square is usually in the top right corner of the foursquare court.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  }
+]

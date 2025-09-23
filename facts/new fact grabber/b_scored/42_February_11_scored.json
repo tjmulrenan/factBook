@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "original": "World Day of the Sick",
+    "score": 32,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 2,
+    "original": "National Inventors' Day",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "National Make a Friend Day",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "National Peppermint Patty Day",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 5,
+    "original": "National White Shirt Day",
+    "score": 35,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 6,
+    "original": "National Don't Cry Over Spilled Milk Day",
+    "score": 75,
+    "is_kid_friendly": true
+  }
+]

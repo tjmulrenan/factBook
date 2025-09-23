@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "The Extra Day That Only Shows Up Every Four Years",
+    "story": "February 29 is the rarest day on the calendar because it only appears once every four years! This special day is called Leap Day, and it exists to keep our calendars in sync with Earth's orbit around the sun. People born on February 29 are called \"leaplings\" and they throw epic birthday parties since they can only celebrate their real birthday every four years. Some leaplings joke that they age four times slower than everyone else! Many people use Leap Day as a chance to do something they've never done before, like trying a new hobby or visiting a new place. It's like getting a bonus day to make extra memories.",
+    "activity_question": "What are people born on February 29 called?",
+    "activity_choices": [
+      "Leaplings",
+      "Calendar kids",
+      "Rare babies",
+      "February frogs"
+    ],
+    "activity_answer": "Leaplings",
+    "follow_up_question": "What special thing would you do if you had an extra day every four years?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "902",
+    "title": "Rare Disease Day: Standing Together Strong",
+    "story": "Every February 29, people around the world wear bright colors and share stories to support families affected by rare diseases. This special day happens on the rarest date of the calendar because rare diseases need extra attention too! Schools, hospitals, and communities organize walks, fundraisers, and awareness events. People post photos with zebra stripes online since doctors say \"when you hear hoofbeats, think horses, not zebras\" - but sometimes it really is a zebra!",
+    "activity_question": "Why is the zebra used as a symbol for rare diseases?",
+    "activity_choices": [
+      "Because zebras are the rarest animals in the world",
+      "Because doctors say rare diseases are like zebras - unexpected but real",
+      "Because zebra stripes look like DNA patterns",
+      "Because zebras only come out on leap years"
+    ],
+    "activity_answer": "Because doctors say rare diseases are like zebras - unexpected but real",
+    "bonus_fact": "There are over 7,000 different rare diseases affecting 300 million people worldwide.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  }
+]

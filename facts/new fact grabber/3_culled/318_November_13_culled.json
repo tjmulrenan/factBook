@@ -1,0 +1,542 @@
+[
+  {
+    "id": 127,
+    "year": "2024",
+    "original": "World's largest coral, larger than a blue whale and 300 years old, found off the Solomon Islands in the southwest Pacific Ocean",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 1
+  },
+  {
+    "id": 135,
+    "year": "1940",
+    "original": "Walt Disney's animated film \"Fantasia,\" starring Leopold Stokowski, The Philadelphia Orchestra, Mickey Mouse, and ballet-dancing hippopotamuses, premieres at the Broadway Theatre, NYC",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 2
+  },
+  {
+    "id": 161,
+    "year": "1999",
+    "original": "\"Toy Story2\", directed by John Lasseter, starringTom HanksandTim Allen, premieres in the US",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 3
+  },
+  {
+    "id": 69,
+    "year": "1971",
+    "original": "Mariner 9, 1st to orbit another planet (Mars)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 4
+  },
+  {
+    "id": 74,
+    "year": "1980",
+    "original": "US spacecraft Voyager 1 sends back first close-up pictures of Saturn during its fly-by",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 5
+  },
+  {
+    "id": 168,
+    "year": "2014",
+    "original": "Chandra Bahadur Dangimeets the world's tallest living man,Sultan Kösen, at an event in London for Guinness World Records Day",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 6
+  },
+  {
+    "id": 24,
+    "year": "1907",
+    "original": "French cyclist Paul Cornu flies 1st helicopter (twin rotor)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 7
+  },
+  {
+    "id": 109,
+    "year": "2017",
+    "original": "First Barbie doll to wear a hijab, modeled on Olympic fencer Ibtihaj Muhammad unveiled in New York",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 8
+  },
+  {
+    "id": 125,
+    "year": "2023",
+    "original": "Kenya holds its first national tree planting holiday, aiming to plant 100 million trees. Part of a climate change initiative to plant 15 billion trees by 2032",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 9
+  },
+  {
+    "id": 171,
+    "year": "2019",
+    "original": "South Korean girl groupBlackpinkare the first K-pop group to have a single reach 1 billion views on YouTube for \"Ddu-Du Ddu-Du\"",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 10
+  },
+  {
+    "id": 92,
+    "year": "1997",
+    "original": "\"Lion King\" opens at New Amersterdam Theater NYC",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 11
+  },
+  {
+    "id": 111,
+    "year": "2017",
+    "original": "World's earliest winemaking is uncovered in Khramis Didi Gora, Georgia, in clay pots from 6,000 BC",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 12
+  },
+  {
+    "id": 48,
+    "year": "1946",
+    "original": "First artificial snow produced from a natural cloud, Mt Greylock, Massachusetts",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 13
+  },
+  {
+    "id": 77,
+    "year": "1985",
+    "original": "Nevado del Ruiz volcano erupts in Colombia, killing 25,000 in the town of Armero",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 14
+  },
+  {
+    "id": 166,
+    "year": "2002",
+    "original": "Eminemreleases the single 'Lose Yourself' from the soundtrack of \"8 Mile\", the first rap song to win the Academy Award for Best Original Song",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 15
+  },
+  {
+    "id": 179,
+    "year": "1856",
+    "original": "The Great Bell of Big Ben first chimes at the foot of the still-unfinished clock tower outside the Palace of Westminster",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 16
+  },
+  {
+    "id": 37,
+    "year": "1927",
+    "original": "New York - New Jersey Holland Tunnel, 1st twin-tube underwater auto tunnel, opens",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 17
+  },
+  {
+    "id": 107,
+    "year": "2014",
+    "original": "Indian cricket batsman Rohit Sharma sets new world ODI record of 264 runs off 173 balls against Sri Lanka at Eden Gardens in Kolkata",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 18
+  },
+  {
+    "id": 175,
+    "year": "2022",
+    "original": "Joel Embiidscores a career-high 59 points in a victory over the Utah Jazz",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 19
+  },
+  {
+    "id": 158,
+    "year": "1994",
+    "original": "Title contendersMichael Schumacherand Damon Hill famously collide on lap 35 of the season ending Australian Grand Prix in Adelaide; Schumacher wins his first F1 World Drivers Championship by 1 point from Hill",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 20
+  },
+  {
+    "id": 116,
+    "year": "2019",
+    "original": "Rediscovered painting \"Lucretia\" by female baroque artist Artemisia Gentileschi sells for $4.1 million to the Getty Museum at auction in Paris",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 21
+  },
+  {
+    "id": 117,
+    "year": "2019",
+    "original": "Venice hit by worse floods for 50 years, due to a very high tide with waves in St Mark's square, killing one resident",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 22
+  },
+  {
+    "id": 152,
+    "year": "1985",
+    "original": "Dwight Gooden, youngest 20 game winner, wins Cy Young award",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 41
+  },
+  {
+    "id": 94,
+    "year": "2000",
+    "original": "The Beatles release their compilation album “1” (2001 Billboard Album of the Year), and launch their official website - thebeatles.com",
+    "score": 94,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 24
+  },
+  {
+    "id": 120,
+    "year": "2021",
+    "original": "Glasgow Climate Pact agreed at COP26: commits countries to a phasedown\" of \"unabated\" coal, end deforestation by 2030 and cut methane emissions by 30% by 2030",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 25
+  },
+  {
+    "id": 118,
+    "year": "2020",
+    "original": "Fly-half Nicolas Sanchez scores all the Pumas points as Argentina claim their 1st ever win over New Zealand's All Blacks, winning 25-15 in a Rugby Championship game in Sydney",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 26
+  },
+  {
+    "id": 191,
+    "year": "1715",
+    "original": "Dorothea Erxleben, German first female medical doctor, born in Quedlinburg, Germany (d. 1762)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 27
+  },
+  {
+    "id": 194,
+    "year": "1745",
+    "original": "Valentin Haüy, French professor \"interpreter to the King\", founded the first school for the blind, born in Saint-Just-en-Chaussée, France (d. 1822)[1]",
+    "score": 87,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 28
+  },
+  {
+    "id": 260,
+    "year": "1913",
+    "original": "Malcom McLean, American trucking fleet owner (SeaLand - invented containerized shipping), born near Maxton, North Carolina (d. 2001)[1]",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 29
+  },
+  {
+    "id": 56,
+    "year": "1956",
+    "original": "US Supreme Court rules racial segregation on buses in Alabama unconstitutional",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 30
+  },
+  {
+    "id": 133,
+    "year": "1789",
+    "original": "In a letter to Jean-Baptiste Le Roy,Benjamin Franklinwrites \"in this world nothing can be said to be certain, except death and taxes\"",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 31
+  },
+  {
+    "id": 8,
+    "year": "1841",
+    "original": "James Braid first sees a demonstration of animal magnetism, which leads to his study of the subject he eventually calls hypnosis",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 32
+  },
+  {
+    "id": 139,
+    "year": "1964",
+    "original": "PopePaul VIgives up the jewel-encrusted gold papal crown, donating it to the poor at a service in Rome",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 33
+  },
+  {
+    "id": 241,
+    "year": "1899",
+    "original": "Howard Hill, American expert bowman (billed as \"The World's Greatest Archer\"; movie technical adviser), born in Wilsonville, Alabama (d. 1975)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 34
+  },
+  {
+    "id": 51,
+    "year": "1951",
+    "original": "Janet Collins is the first 1st African-American dancer to appear at the Metropolitan Opera, in a production of Aida",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 35
+  },
+  {
+    "id": 159,
+    "year": "1995",
+    "original": "\"GoldenEye\", 17th James Bond film released, starringPierce Brosnanfor the first time,Robbie ColtraneandJudi Denchas M",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 36
+  },
+  {
+    "id": 144,
+    "year": "1971",
+    "original": "Steven Spielbergmakes his feature-length film debut with the made-for-television movie \"Duel\"",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 37
+  },
+  {
+    "id": 110,
+    "year": "2017",
+    "original": "Italy fails to qualify for 2018 Football World Cup (first time since 1958), after play-off defeat against Sweden",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 38
+  },
+  {
+    "id": 123,
+    "year": "2022",
+    "original": "ICC Men's Cricket T20 World Cup, Melbourne: England beats Pakistan by 5 wickets to win their WC second title; Player of the match & series: England fast bowler Sam Curran; crowd 80,462",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 39
+  },
+  {
+    "id": 162,
+    "year": "1999",
+    "original": "Lennox LewisdefeatsEvander Holyfieldin 12 rounds by unanimous decision to become the undisputed heavyweight champion of the world",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 40
+  },
+  {
+    "id": 141,
+    "year": "1968",
+    "original": "As a rookie, future Basketball Hall of Fame forwardElvin Hayesscores 54 points in San Diego Rockets' 122-120 win over Detroit Pistons, a career-high",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 43
+  },
+  {
+    "id": 154,
+    "year": "1988",
+    "original": "Brazilian McLaren driverAyrton Sennafinishes 2nd in the season ending Australian Grand Prix in Adelaide to win his first Formula 1 World Drivers Championship; wins title by 3 points fromAlain Prost",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 44
+  },
+  {
+    "id": 157,
+    "year": "1992",
+    "original": "Riddick Bowewins the undisputed world heavyweight boxing crown with a unanimous points decision overEvander Holyfieldin Las Vegas; first of their 3 meetings",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 45
+  },
+  {
+    "id": 76,
+    "year": "1984",
+    "original": "David Levy finds his first comet",
+    "score": 76,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 46
+  },
+  {
+    "id": 78,
+    "year": "1986",
+    "original": "NASA launches space vehicle S-199",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 47
+  },
+  {
+    "id": 90,
+    "year": "1996",
+    "original": "Joel Armengaud discovers 2^1398269 - 1 (35th known Mersenne prime)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 48
+  },
+  {
+    "id": 5,
+    "year": "1775",
+    "original": "American Revolutionary forces capture Montreal",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 49
+  },
+  {
+    "id": 45,
+    "year": "1942",
+    "original": "Chaotic \"sea battle of Friday the 13th\" at Guadalcanal",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 50
+  },
+  {
+    "id": 12,
+    "year": "1851",
+    "original": "The Denny Party lands at Alki Point, the first settlers of what would become Seattle, Washington",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 51
+  },
+  {
+    "id": 18,
+    "year": "1875",
+    "original": "Harvard-Yale game is 1st college football contest with uniforms",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 52
+  },
+  {
+    "id": 23,
+    "year": "1906",
+    "original": "C. W. Gregory out for 383 as NSW make 763 v Queensland, in record cricket innings by an Australian",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 53
+  },
+  {
+    "id": 34,
+    "year": "1920",
+    "original": "Hudson River freezes at Albany",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 54
+  },
+  {
+    "id": 54,
+    "year": "1955",
+    "original": "1st live telecast from non-contiguous foreign country-Havana Cuba",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 55
+  },
+  {
+    "id": 57,
+    "year": "1958",
+    "original": "NYC Mayor Robert Wagner announces plans to begin a new baseball league called the Continental League, to fill the void created by the city's Giants and Dodgers moving to the west coast",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 56
+  },
+  {
+    "id": 71,
+    "year": "1977",
+    "original": "Final Al Capp comic strip of \"Li'l Abner\" (1934-77)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 58
+  },
+  {
+    "id": 72,
+    "year": "1978",
+    "original": "NASA launches HEAO 2",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 59
+  },
+  {
+    "id": 85,
+    "year": "1993",
+    "original": "7.1 seaquake east of Kamchatka",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 60
+  },
+  {
+    "id": 104,
+    "year": "2010",
+    "original": "Australian rock band Powderfinger, perform their last concert at the Brisbane River Stage",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 61
+  },
+  {
+    "id": 106,
+    "year": "2014",
+    "original": "Clayton Kershaw and Mike Trout wins the MVP awards in MLB for 2014",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 62
+  },
+  {
+    "id": 124,
+    "year": "2022",
+    "original": "The Deauville Hotel in Miami Beach, Florida, built in 1957 and host to JFK, The Beatles, and Frank Sinatra is imploded; closed in 2017 after an electrical fire",
+    "score": 55,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 63
+  }
+]

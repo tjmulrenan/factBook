@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Birthday Beats for Beethoven",
+    "story": "Music lovers around the world celebrate one of history's greatest composers on December 16! Ludwig van Beethoven's birthday brings concerts, piano recitals, and symphony performances to concert halls everywhere. Schools often play his famous pieces like \"Ode to Joy\" or the dramatic Fifth Symphony. Many musicians post videos online playing Beethoven's music, while classical music stations dedicate entire programs to his masterpieces. It's amazing that we still rock out to music written centuries ago!",
+    "activity_question": "What famous piece by Beethoven is mentioned in the story?",
+    "activity_choices": [
+      "Ode to Joy",
+      "Moonlight Sonata",
+      "Fur Elise",
+      "The Magic Flute"
+    ],
+    "activity_answer": "Ode to Joy",
+    "bonus_fact": "Beethoven continued composing beautiful music even after he became completely deaf!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "902",
+    "title": "Posadas Navideñas: The Christmas Journey Begins",
+    "story": "Every December 16, families across Mexico and many Latino communities start a magical nine-day celebration called Posadas Navideñas! Groups of people walk from house to house, carrying candles and singing special songs that tell the story of Mary and Joseph looking for a place to stay in Bethlehem. At each house, they act out the holy couple asking for shelter, and finally one family opens their doors with joy. Everyone gathers inside for delicious food, hot chocolate, and the highlight of the night - breaking colorful piñatas filled with candy and treats!",
+    "activity_question": "How many days does the Posadas Navideñas celebration last?",
+    "activity_choices": [
+      "Nine days",
+      "Seven days",
+      "Twelve days",
+      "Five days"
+    ],
+    "activity_answer": "Nine days",
+    "bonus_fact": "The nine days represent the nine months Mary carried baby Jesus.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "903",
+    "title": "Making Peace on December 16",
+    "story": "South Africans celebrate the Day of Reconciliation every December 16 to bring people together and heal old wounds. This special holiday encourages everyone to forgive past hurts and work toward unity. Families gather for community events, share meals with neighbors from different backgrounds, and participate in peace walks. Schools organize activities where kids learn about understanding and friendship across all cultures.",
+    "activity_question": "What is the main purpose of South Africa's Day of Reconciliation?",
+    "activity_choices": [
+      "To bring people together and heal old wounds",
+      "To celebrate the harvest season",
+      "To honor famous South African musicians",
+      "To mark the start of summer vacation"
+    ],
+    "activity_answer": "To bring people together and heal old wounds",
+    "follow_up_question": "How do you think communities can work together to solve disagreements peacefully?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "904",
+    "title": "Victory Day Celebrates Bangladesh's Big Win",
+    "story": "Every December 16, Bangladesh celebrates Victory Day with parades, flag ceremonies, and special prayers. This important holiday marks when Bangladesh won its independence war and became a free country in 1971. People wear red and green, sing the national anthem, and remember the brave soldiers who fought for freedom. Schools hold programs where kids perform dances and recite poems about their nation's history.",
+    "activity_question": "What colors do people in Bangladesh wear on Victory Day?",
+    "activity_choices": [
+      "Red and green",
+      "Blue and yellow",
+      "Orange and purple",
+      "Black and white"
+    ],
+    "activity_answer": "Red and green",
+    "follow_up_question": "How do you think kids your age in Bangladesh feel celebrating their country's independence?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  }
+]

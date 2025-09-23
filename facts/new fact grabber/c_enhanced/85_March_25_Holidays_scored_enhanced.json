@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "One Ring to Read Them All",
+    "story": "Every March 25, fantasy fans around the world celebrate Tolkien Reading Day by diving into the magical worlds of Middle-earth! This special day honors J.R.R. Tolkien, the brilliant author who created The Hobbit and The Lord of the Rings. People celebrate by reading their favorite Tolkien books, sharing quotes online, and hosting reading parties with friends. Libraries organize special events where kids and adults read passages aloud together. Some fans even dress up as hobbits, elves, or wizards while they read! The date was chosen because it's when the One Ring was destroyed in the story, making it the perfect day to celebrate these beloved tales of adventure.",
+    "activity_question": "What do people often dress up as while celebrating Tolkien Reading Day?",
+    "activity_choices": [
+      "Hobbits, elves, or wizards",
+      "Pirates and princesses",
+      "Superheroes and villains",
+      "Animals and insects"
+    ],
+    "activity_answer": "Hobbits, elves, or wizards",
+    "follow_up_question": "What other fantasy books do you think deserve their own reading day?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "902",
+    "title": "Maryland Day: Old Bay and Crab Cakes!",
+    "story": "Every March 25, Maryland throws a huge birthday party for itself! Maryland Day celebrates when the first colonists arrived way back in 1634. Today, people across the state host crab feasts, sprinkle Old Bay seasoning on everything, and wave Maryland's awesome black-and-gold checkered flag. Schools teach Maryland history, and families visit historic sites like St. Mary's City where it all began.",
+    "activity_question": "What do people commonly sprinkle on food during Maryland Day celebrations?",
+    "activity_choices": [
+      "Old Bay seasoning",
+      "Cinnamon sugar",
+      "Rainbow sprinkles",
+      "Parmesan cheese"
+    ],
+    "activity_answer": "Old Bay seasoning",
+    "bonus_fact": "Maryland's flag design comes from the coat of arms of the founding Calvert family.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  }
+]

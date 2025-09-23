@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Be Prepared for Boy Scout Day!",
+    "story": "Boy Scouts across America celebrate their organization every February 8 with National Boy Scout Day! Troops gather for special ceremonies, community service projects, and outdoor adventures. Many scouts wear their uniforms proudly and share stories about earning merit badges, camping trips, and helping their neighborhoods. Some troops organize food drives, clean up parks, or visit nursing homes to show what scouting is all about. It's a perfect day to honor the motto \"Be Prepared\" and celebrate young people learning leadership, outdoor skills, and good citizenship through fun activities with friends.",
+    "activity_question": "What is the Boy Scout motto mentioned in the story?",
+    "activity_choices": [
+      "Be Prepared",
+      "Do Your Best",
+      "Always Ready",
+      "Help Others"
+    ],
+    "activity_answer": "Be Prepared",
+    "bonus_fact": "Boy Scouts have earned over 100 different merit badges in subjects from cooking to astronomy!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "902",
+    "title": "Soaring High on Kite Flying Day",
+    "story": "Every February 8, people grab their colorful kites and head outside for Kite Flying Day! Families pack up diamond-shaped kites, box kites, and even crazy designs that look like dragons or butterflies. Parks fill with kids running across fields, tugging on strings as their kites dance in the wind. Some people make their own kites using paper, sticks, and ribbon, while others buy fancy ones from stores. The goal is simple: get your kite as high as possible and keep it flying! Many communities organize kite festivals where hundreds of kites fill the sky at once, creating a rainbow of colors against the clouds. It's the perfect excuse to get outside and play!",
+    "activity_question": "What do people try to do with their kites on Kite Flying Day?",
+    "activity_choices": [
+      "Get them as high as possible",
+      "Make them spin in circles",
+      "Use them as umbrellas",
+      "Hide them underground"
+    ],
+    "activity_answer": "Get them as high as possible",
+    "follow_up_question": "What creative kite design would you make if you could build any shape you wanted?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 92
+  },
+  {
+    "id": "903",
+    "title": "Laugh Your Way to the Bank Day",
+    "story": "People believe that laughter can actually help you become more successful and wealthy! On February 8, folks celebrate Laugh and Get Rich Day by telling jokes at work, sharing funny memes online, and watching comedy shows with friends. The idea is that when you're happy and laughing, you think more creatively and make better decisions. Some people start their day with funny videos, while others practice laughing out loud for a few minutes. Business owners might tell jokes during meetings or post silly content on social media. It's based on the belief that positive energy and good humor attract good fortune and opportunities into your life.",
+    "activity_question": "According to the story, what do people believe laughter helps you do?",
+    "activity_choices": [
+      "Become more successful and wealthy",
+      "Grow taller and stronger",
+      "Sleep better at night",
+      "Remember things better"
+    ],
+    "activity_answer": "Become more successful and wealthy",
+    "follow_up_question": "What's the funniest joke you know that always makes you laugh?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 92
+  }
+]

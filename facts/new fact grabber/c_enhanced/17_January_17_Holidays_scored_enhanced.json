@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Kid Inventors' Day: Young Minds, Big Ideas!",
+    "story": "Every January 17, we celebrate the amazing inventions created by kids just like you! Kid Inventors' Day honors young people who have come up with brilliant ideas that changed the world. Schools often host invention contests where students show off their creative projects. Libraries display books about famous kid inventors like Chester Greenwood, who invented earmuffs when he was just 15. Families encourage their children to think like inventors by building something new from household items. Many kids share their inventions on social media or enter science fairs. Some young inventors have created everything from improved backpacks to helpful apps. This special day reminds us that great ideas can come from anyone, no matter how young they are!",
+    "activity_question": "What did Chester Greenwood invent when he was 15?",
+    "activity_choices": [
+      "Earmuffs",
+      "The telephone",
+      "Flying shoes",
+      "A better pencil"
+    ],
+    "activity_answer": "Earmuffs",
+    "follow_up_question": "What invention would you create to solve a problem in your daily life?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 95
+  },
+  {
+    "id": "902",
+    "title": "Franklin's Famous January 17 Fun Day",
+    "story": "Every January 17, people celebrate Benjamin Franklin Day to honor one of America's most amazing inventors and leaders! Franklin invented bifocal glasses, the lightning rod, and even proved that lightning was electricity with his famous kite experiment. Today, schools hold special lessons about his discoveries, libraries display his quotes like \"Early to bed and early to rise makes a man healthy, wealthy, and wise,\" and science museums demonstrate his inventions. Some people even fly kites or visit Philadelphia to see where he lived and worked!",
+    "activity_question": "What did Benjamin Franklin prove about lightning using a kite?",
+    "activity_choices": [
+      "That lightning was electricity",
+      "That lightning could cook hot dogs",
+      "That lightning only strikes twice",
+      "That lightning was made of ice"
+    ],
+    "activity_answer": "That lightning was electricity",
+    "bonus_fact": "Franklin also invented swim fins and a musical instrument called the glass harmonica!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  }
+]

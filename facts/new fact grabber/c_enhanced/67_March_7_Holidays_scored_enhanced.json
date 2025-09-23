@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Crunch Time: National Cereal Day!",
+    "story": "Every March 7, cereal lovers across America celebrate National Cereal Day by diving into their favorite bowls of crunchy goodness! People share photos of colorful cereal combinations on social media, from classic Cheerios to wild fruity loops. Some families have cereal-for-dinner parties, while others try mixing different cereals together for crazy new flavors. Grocery stores often put cereals on sale, and restaurants sometimes create special cereal-themed desserts. It's the perfect day to debate whether the milk or cereal goes in the bowl first!",
+    "activity_question": "What do some families do to celebrate National Cereal Day?",
+    "activity_choices": [
+      "Have cereal-for-dinner parties",
+      "Only eat oatmeal all day",
+      "Throw cereal at each other",
+      "Ban all sugary cereals"
+    ],
+    "activity_answer": "Have cereal-for-dinner parties",
+    "bonus_fact": "Americans eat about 2.7 billion boxes of cereal every year!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "902",
+    "title": "Pork Crown Fit for a King!",
+    "story": "Chefs across America show off their fanciest cooking skills every March 7 for National Crown Roast of Pork Day! This special dish looks like a royal crown made from pork chops that are tied together in a circle. The center gets stuffed with delicious filling like rice or vegetables. Restaurants and home cooks love making this impressive meal because it looks so fancy on the dinner table!",
+    "activity_question": "What does a crown roast of pork look like?",
+    "activity_choices": [
+      "A royal crown made from pork chops in a circle",
+      "A flat pork chop with a crown drawn on it",
+      "A sandwich shaped like a triangle",
+      "A soup with crown-shaped noodles"
+    ],
+    "activity_answer": "A royal crown made from pork chops in a circle",
+    "follow_up_question": "What other foods do you think could be arranged to look like a crown?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "903",
+    "title": "Speak Up and Be Heard Day!",
+    "story": "Every March 7, National Be Heard Day encourages people to speak up about things that matter to them! Kids write letters to leaders, share ideas with teachers, or start conversations about causes they care about. Some people post videos online explaining their thoughts, while others organize small community meetings. It's all about finding your voice and making sure others listen to what you have to say, no matter how young you are!",
+    "activity_question": "What are some ways people participate in National Be Heard Day?",
+    "activity_choices": [
+      "Writing letters to leaders and sharing ideas",
+      "Only whispering to their friends",
+      "Staying completely silent all day",
+      "Eating extra loud snacks"
+    ],
+    "activity_answer": "Writing letters to leaders and sharing ideas",
+    "follow_up_question": "What important message would you want the world to hear from you?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  }
+]

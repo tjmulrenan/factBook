@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Spooks, Sweets, and Scary Treats!",
+    "story": "Every October 31, kids transform into ghosts, superheroes, witches, and monsters for Halloween! They knock on doors shouting \"Trick or treat!\" to collect candy from neighbors. Houses glow with carved pumpkins called jack-o'-lanterns, and spooky decorations cover front yards. Some families visit haunted houses or corn mazes for extra thrills. Adults join the fun too, dressing up for costume parties and handing out treats. The tradition started long ago when people believed spirits roamed the earth on this night. Today, it's all about creativity, community, and collecting as much candy as possible before bedtime!",
+    "activity_question": "What do kids shout when they go door-to-door on Halloween?",
+    "activity_choices": [
+      "Trick or treat!",
+      "Happy Halloween!",
+      "Give me candy!",
+      "Boo-ya!"
+    ],
+    "activity_answer": "Trick or treat!",
+    "bonus_fact": "Americans buy over 600 million pounds of candy every Halloween!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 95
+  },
+  {
+    "id": "902",
+    "title": "All Hallows' Eve: The Spookiest Night Ever",
+    "story": "Ghosts, goblins, and witches roam the streets every October 31 for All Hallows' Eve, better known as Halloween! This ancient holiday started as a way to remember saints and spirits, but today it's all about costumes, candy, and scares. Kids dress up as everything from superheroes to zombies and go trick-or-treating door to door. Families carve jack-o'-lanterns with scary faces and decorate their homes with fake spiders and skeletons. Some people visit haunted houses or watch horror movies, while others throw costume parties with spooky snacks. It's the one night when being frightening is actually fun!",
+    "activity_question": "What do kids traditionally do on Halloween to get candy?",
+    "activity_choices": [
+      "Go trick-or-treating door to door",
+      "Carve pumpkins in their backyard",
+      "Watch scary movies all night",
+      "Dance with friendly ghosts"
+    ],
+    "activity_answer": "Go trick-or-treating door to door",
+    "follow_up_question": "What's the most creative Halloween costume you've ever seen or thought of?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 92
+  },
+  {
+    "id": "903",
+    "title": "World Cities Day: Celebrating Urban Adventures",
+    "story": "Cities around the globe throw a massive party on October 31 for World Cities Day! This special holiday celebrates everything awesome about urban life - from towering skyscrapers to bustling markets. People share photos of their favorite city spots on social media, mayors host community events, and families explore local neighborhoods they've never visited before. Museums offer free tours, street artists create colorful murals, and food trucks gather to showcase flavors from around the world. It's like a giant birthday party for every city on Earth!",
+    "activity_question": "What do people commonly share on social media during World Cities Day?",
+    "activity_choices": [
+      "Photos of their favorite city spots",
+      "Pictures of their pets wearing tiny hats",
+      "Videos of themselves doing backflips",
+      "Drawings of imaginary dragons"
+    ],
+    "activity_answer": "Photos of their favorite city spots",
+    "follow_up_question": "What makes your city or town special compared to other places?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "904",
+    "title": "Helping Kids Around the World Day",
+    "story": "Every October 31, people across America celebrate National UNICEF Day by helping children around the world! This special day started when kids would carry orange UNICEF boxes while trick-or-treating, collecting coins instead of just candy. Today, schools organize fundraisers, families donate online, and communities host events to support UNICEF's work providing clean water, medicine, and education to kids in need. Some families still carry those famous orange boxes on Halloween night, making it extra meaningful to help other children while having fun. It's amazing how one day can bring hope to millions of kids worldwide!",
+    "activity_question": "What did kids traditionally carry while trick-or-treating for UNICEF?",
+    "activity_choices": [
+      "Orange boxes",
+      "Blue buckets",
+      "Red bags",
+      "Yellow envelopes"
+    ],
+    "activity_answer": "Orange boxes",
+    "bonus_fact": "UNICEF helps children in over 190 countries and territories around the world!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  }
+]

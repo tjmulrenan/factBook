@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Dancing with Skeletons on Day of the Dead",
+    "story": "Colorful sugar skulls, marigold flowers, and dancing skeletons fill the streets as families celebrate Day of the Dead on November 2! This Mexican holiday isn't scary at all - it's a joyful time when people remember loved ones who have died. Families build beautiful altars called ofrendas with photos, favorite foods, and bright decorations. They visit cemeteries to clean graves, share stories, and even have picnics with their ancestors' spirits. People paint their faces like cheerful skulls and eat sweet bread called pan de muerto.",
+    "activity_question": "What do families build to remember their loved ones on Day of the Dead?",
+    "activity_choices": [
+      "Ofrendas (altars)",
+      "Sandcastles",
+      "Treehouses",
+      "Snow forts"
+    ],
+    "activity_answer": "Ofrendas (altars)",
+    "bonus_fact": "Marigolds are called \"flowers of the dead\" because their bright smell guides spirits home.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "902",
+    "title": "Devil's in the Delicious Details",
+    "story": "Every November 2, egg lovers across America celebrate National Deviled Egg Day by whipping up these creamy, yellow-topped treats! People hard-boil eggs, scoop out the yolks, and mix them with mayonnaise, mustard, and spices before spooning the mixture back into the white halves. Families gather around kitchen tables to make dozens together, experimenting with fun toppings like bacon bits, paprika, or even pickles. Social media fills with photos of perfectly piped deviled eggs arranged on fancy platters, ready for parties and potlucks.",
+    "activity_question": "What do people mix with the egg yolks to make deviled eggs?",
+    "activity_choices": [
+      "Mayonnaise, mustard, and spices",
+      "Butter, sugar, and vanilla",
+      "Ketchup, relish, and cheese",
+      "Peanut butter and jelly"
+    ],
+    "activity_answer": "Mayonnaise, mustard, and spices",
+    "bonus_fact": "The name \"deviled\" comes from the spicy seasoning that gives these eggs their kick!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "903",
+    "title": "Look for Circles Day: Round and Round Fun!",
+    "story": "Circles are everywhere, and on November 2, people celebrate Look for Circles Day by hunting for round shapes all around them! Kids grab cameras or notebooks and search their homes, schools, and neighborhoods for perfect circles. They find them in clock faces, pizza slices, bicycle wheels, and even soap bubbles. Some families turn it into a fun game, counting how many circles they can spot in one room. Teachers love using this day to help students notice geometry in everyday life. It's amazing how many circles surround us once we start really looking!",
+    "activity_question": "What do people use to hunt for circles on this holiday?",
+    "activity_choices": [
+      "Cameras or notebooks",
+      "Magnifying glasses",
+      "Telescopes",
+      "Magic wands"
+    ],
+    "activity_answer": "Cameras or notebooks",
+    "follow_up_question": "What's the most unusual place you think you could find a perfect circle?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  }
+]

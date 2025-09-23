@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Going Nuts for Date Nut Bread Day",
+    "story": "Bakers across America fire up their ovens on December 22 for National Date Nut Bread Day! This sweet, dense bread packed with chewy dates and crunchy nuts becomes the star of kitchen counters everywhere. Families share warm slices with butter while the amazing smell fills their homes.",
+    "activity_question": "What two main ingredients make this special bread extra delicious?",
+    "activity_choices": [
+      "Dates and nuts",
+      "Raisins and chocolate chips",
+      "Bananas and walnuts",
+      "Apples and cinnamon"
+    ],
+    "activity_answer": "Dates and nuts",
+    "bonus_fact": "Date nut bread stays fresh for days and actually tastes better the next day!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 45
+  },
+  {
+    "id": "902",
+    "title": "Math Magic Day!",
+    "story": "Numbers take center stage on December 22 when National Mathematics Day celebrates the amazing world of math! Schools host fun math competitions, puzzle contests, and brain-teasing games that make equations exciting. Teachers organize special activities where kids solve riddles, play with geometric shapes, and discover cool math tricks. Many students share their favorite math jokes online or create colorful posters showing how math appears everywhere in nature.",
+    "activity_question": "What kind of activities do schools organize for National Mathematics Day?",
+    "activity_choices": [
+      "Math competitions and puzzle contests",
+      "Spelling bees and reading marathons",
+      "Art shows and music concerts",
+      "Science experiments with volcanoes"
+    ],
+    "activity_answer": "Math competitions and puzzle contests",
+    "follow_up_question": "What's your favorite way math shows up in everyday life?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "903",
+    "title": "Shine Bright on National Flashlight Day!",
+    "story": "Every December 22, people celebrate National Flashlight Day by grabbing their trusty lights and having fun in the dark! Families go on nighttime scavenger hunts, kids build blanket forts and tell spooky stories with flashlights under their chins, and some people even have flashlight dance parties. Many folks use this day to check their emergency flashlights and replace old batteries. Some families play flashlight tag in their backyards or create shadow puppet shows on bedroom walls. It's the perfect excuse to turn off the lights and let your flashlight be the star of the show!",
+    "activity_question": "What do some families do with flashlights on National Flashlight Day?",
+    "activity_choices": [
+      "Play flashlight tag and make shadow puppets",
+      "Use them to cook dinner",
+      "Trade them with neighbors",
+      "Paint them different colors"
+    ],
+    "activity_answer": "Play flashlight tag and make shadow puppets",
+    "follow_up_question": "What creative games could you invent using only a flashlight?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  }
+]

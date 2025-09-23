@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Create Something Amazing Day!",
+    "story": "Every April 21, people around the world celebrate World Creativity and Innovation Day by letting their imaginations run wild! Artists paint colorful murals, inventors build crazy contraptions, and kids create everything from cardboard robots to silly songs. Schools host invention fairs where students show off their coolest creations. Companies encourage workers to brainstorm wild new ideas. Families work together on craft projects, write stories, or design games. Social media fills with photos of homemade masterpieces and creative challenges. The day reminds everyone that being creative isn't just fun – it helps solve problems and makes the world more interesting!",
+    "activity_question": "What do schools often host on World Creativity and Innovation Day?",
+    "activity_choices": [
+      "Invention fairs",
+      "Pizza parties",
+      "Math competitions",
+      "Dance contests"
+    ],
+    "activity_answer": "Invention fairs",
+    "follow_up_question": "What's the most creative thing you've ever made with your own hands?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "902",
+    "title": "Kindergarten Day: Celebrating Little Learners",
+    "story": "Every April 21, schools and families celebrate National Kindergarten Day to honor the youngest students in elementary school! Teachers often throw special parties with extra playtime, story circles, and fun learning games. Some kindergarten classes make colorful artwork to display in hallways, while others enjoy special snacks or have dress-up days. Parents might share cute photos of their little ones learning to read, write, and make new friends. It's a day to celebrate how kindergarten helps kids grow from playful toddlers into confident students ready for bigger adventures!",
+    "activity_question": "What do kindergarten teachers often do to celebrate National Kindergarten Day?",
+    "activity_choices": [
+      "Throw special parties with extra playtime and games",
+      "Give students homework packets",
+      "Cancel school for the day",
+      "Have students clean the classroom"
+    ],
+    "activity_answer": "Throw special parties with extra playtime and games",
+    "follow_up_question": "What's your favorite memory from kindergarten or what do you think makes kindergarten special?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "original": "Navy Day",
+    "score": 60,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "World Day for Audiovisual Heritage",
+    "score": 50,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "Independence Day of Turkmenistan",
+    "score": 35,
+    "is_kid_friendly": false
+  }
+]

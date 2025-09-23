@@ -1,0 +1,542 @@
+[
+  {
+    "id": 150,
+    "year": "2021",
+    "original": "NASA probe Lucy launched on mission to fly-by eight Trojan asteroids circling the sun",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 1
+  },
+  {
+    "id": 176,
+    "year": "1950",
+    "original": "The first edition ofC.S. Lewis' \"The Lion, the Witch and the Wardrobe\" is released in London",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 2
+  },
+  {
+    "id": 94,
+    "year": "1973",
+    "original": "Monks Heng Yo & Heng Ju, start 1000 mile SF to Seattle pilgrimage",
+    "score": 94,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 3
+  },
+  {
+    "id": 3,
+    "year": "1384",
+    "original": "Jadwiga is crowned King of Poland aged nine, despite being female",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 4
+  },
+  {
+    "id": 103,
+    "year": "1982",
+    "original": "Mt Palomar Observatory 1st to detect Halley's comet on 13th return",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 5
+  },
+  {
+    "id": 141,
+    "year": "2017",
+    "original": "Findings are published of a neutron star collision that occurred two months prior on August 17, the first cosmic event observed in both gravitational waves and light, confirming that heavy elements such as gold result from such collisions",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 6
+  },
+  {
+    "id": 147,
+    "year": "2019",
+    "original": "Egyptian archaeologists announce discovery of more than 20 painted wooden coffins from Theban necropolis of Asasif",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 7
+  },
+  {
+    "id": 154,
+    "year": "2024",
+    "original": "Italian fashion house Prada and aerospace company Axiom Space unveil the new spacesuit for NASA's Artemis III mission to the moon in Milan",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 8
+  },
+  {
+    "id": 170,
+    "year": "1936",
+    "original": "Jean Battenreaches Auckland, New Zealand after flying solo from Kent, England in a record 11 days and 45 minutes",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 9
+  },
+  {
+    "id": 42,
+    "year": "1923",
+    "original": "Disney Brothers Cartoon Studio is founded",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 10
+  },
+  {
+    "id": 74,
+    "year": "1964",
+    "original": "American swimmer Sharon Strouder sets world record 1:04.7 to beat Ada Kok of the Netherlands by 0.9s and win the women's 100m butterfly at the Tokyo Olympics",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 11
+  },
+  {
+    "id": 110,
+    "year": "1987",
+    "original": "18-month-year-old Jessica McClure is rescued, 58 hrs after falling 22' into a well shaft in Midland, Texas",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 12
+  },
+  {
+    "id": 140,
+    "year": "2016",
+    "original": "Ed Whitlock (85) becomes oldest person to complete a marathon under 4 hours, at Toronto Waterfront Marathon in 3 hours 56 minutes",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 13
+  },
+  {
+    "id": 153,
+    "year": "2023",
+    "original": "Model of a Star Wars X-wing Starfighter used in a \"Star Wars\" film sells for over $3 million from collection of Hollywood model maker Greg Jein",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 14
+  },
+  {
+    "id": 192,
+    "year": "1984",
+    "original": "Desmond Tutu, South African Anglican Archbishop, wins Nobel Peace Prize",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 15
+  },
+  {
+    "id": 356,
+    "year": "1953",
+    "original": "Sue Pedersen, American swimmer (Olympic gold 4×100m medley, 4×100m freestyle 1968; WR 200m freestyle 2:09.5 1968), born in Sacramento, California",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 16
+  },
+  {
+    "id": 407,
+    "year": "1980",
+    "original": "Sue Bird, American basketball guard (record 508 WNBA games, Seattle Storm; Olympic gold 2004, 08, 12, 16, 20), born in Syosset, New York",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 17
+  },
+  {
+    "id": 194,
+    "year": "1986",
+    "original": "Rolling Stones guitaristKeith Richardsorganizes concert celebrating rock and roll legendChuck Berry's 60th birthday at the Fox Theatre in St. Louis, Missouri; performers include: Richards, Berry, Johnnie Johnson,Eric Clapton,Etta James,Linda Ronstadt, Robert Cray, and Julian Lennon among others",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 18
+  },
+  {
+    "id": 86,
+    "year": "1968",
+    "original": "Jim Dorey sets Toronto Maple Leaf penalty records (48 mins on 9 penalties in a game & 44 minutes on 7 penalties in a period)",
+    "score": 86,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 19
+  },
+  {
+    "id": 50,
+    "year": "1940",
+    "original": "Benjamin Oliver Davis Sr. is promoted to brigadier general, the first African-American person to become a general in the US military",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 20
+  },
+  {
+    "id": 67,
+    "year": "1958",
+    "original": "Children's programme \"Blue Peter\", created by John Hunter Blair, premieres on the BBC",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 21
+  },
+  {
+    "id": 105,
+    "year": "1985",
+    "original": "Challenger vehicle moves to launch pad for STS 61A mission",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 22
+  },
+  {
+    "id": 148,
+    "year": "2019",
+    "original": "First plant-powered selfie taken by Pete the Fern as part of research into use of microbial fuel cells at London Zoo (London, England)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 23
+  },
+  {
+    "id": 205,
+    "year": "2004",
+    "original": "17-year oldLionel Messimakes his league debut for FC Barcelona in a 1-0 win against cross-town rivals Espanyol at the Estadi Olímpic Lluís Companys, Barcelona",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 24
+  },
+  {
+    "id": 213,
+    "year": "1962",
+    "original": "Cuban Missile Crisis begins as US PresidentJohn F. Kennedyis shown photos confirming the presence of Soviet missiles in Cuba",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 25
+  },
+  {
+    "id": 419,
+    "year": "1994",
+    "original": "Alice Oseman, English writer (Heartstopper), born in Chatham, England",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 26
+  },
+  {
+    "id": 152,
+    "year": "2023",
+    "original": "Amazon's largest tributary, The Negro River, records its lowest-ever level, confirming the rainforest is in the midst of its most significant drought",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 28
+  },
+  {
+    "id": 193,
+    "year": "1985",
+    "original": "Intelintroduces 32-bit 80386 microcomputer chip",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 30
+  },
+  {
+    "id": 196,
+    "year": "1986",
+    "original": "Wole Soyinka, Nigerian playwright and poet, becomes the first African to receive the Nobel Prize in Literature",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 31
+  },
+  {
+    "id": 400,
+    "year": "1975",
+    "original": "Jacques Kallis, South African cricket all-rounder, captain (166 Tests, 13,289 runs @ 55.37, 45x100, HS 224, 292 wickets; Western Province, Middlesex CCC, Glamorgan CCC, Kolkata Knight Riders), born in Cape Town, South Africa",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 32
+  },
+  {
+    "id": 66,
+    "year": "1957",
+    "original": "USAF sends 2 aluminium bullets into space",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 33
+  },
+  {
+    "id": 156,
+    "year": "1690",
+    "original": "English demand the surrender of Quebec, French GovernorLouis de Buade de Frontenacreplies “I have no reply to make to your general other than from the mouths of my cannon and muskets”",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 35
+  },
+  {
+    "id": 210,
+    "year": "1579",
+    "original": "Francis Drakesights land in the Philippines after crossing the Pacific Ocean aboard the 'Golden Hind'",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 36
+  },
+  {
+    "id": 17,
+    "year": "1839",
+    "original": "Joseph Saxton, a machine inspector at the US Mint, takes 1st daguerrotype photograph in US, of Central High School building in Philadelphia, Pennsylvania",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 38
+  },
+  {
+    "id": 19,
+    "year": "1843",
+    "original": "Sir William Rowan Hamilton comes up with the idea of quaternions, a non-commutative extension of complex numbers.",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 39
+  },
+  {
+    "id": 53,
+    "year": "1942",
+    "original": "Aaron Coplandand Agnes de Mille's ballet \"Rodeo,\" premieres in NYC",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 40
+  },
+  {
+    "id": 54,
+    "year": "1942",
+    "original": "Cyclone in Bay of Bengal kills some 40,000 south of Calcutta India",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 41
+  },
+  {
+    "id": 75,
+    "year": "1964",
+    "original": "China becomes world's 5th nuclear power",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 42
+  },
+  {
+    "id": 96,
+    "year": "1976",
+    "original": "Soyuz 23 returns to Earth",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 43
+  },
+  {
+    "id": 107,
+    "year": "1985",
+    "original": "Nobel prize for chemistry awarded to Herbert Hauptman & Jerome Karle",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 44
+  },
+  {
+    "id": 113,
+    "year": "1987",
+    "original": "Great Storm of 1987: 175-kph hurricane force winds hit London and much of the South of England killing 23 people and causing widespread blackouts",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 45
+  },
+  {
+    "id": 190,
+    "year": "1979",
+    "original": "Comedy sketch show \"Not the Nine O'Clock News\" debuts starringRowan Atkinson, Chris Langham, Pamela Stephenson and Mel Smith on BBC 2",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 47
+  },
+  {
+    "id": 197,
+    "year": "1987",
+    "original": "Defending championMike Tysonbeats Tyrell Biggs by TKO in round 7 at Convention Center, Atlantic City, New Jersey; retains unified heavyweight boxing title",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 48
+  },
+  {
+    "id": 202,
+    "year": "1995",
+    "original": "Brian Larascores 169 in Sharjah ODI versus Sri Lanka",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 49
+  },
+  {
+    "id": 265,
+    "year": "1884",
+    "original": "Rembrandt Bugatti, Italian sculptor known for bronze wildlife work, born in Milan, Italy- (d. 1916)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 50
+  },
+  {
+    "id": 269,
+    "year": "1890",
+    "original": "Maria Goretti, Italian saint who died aged 11, born in Corinaldo, Kingdom of Italy (d. 1902)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 51
+  },
+  {
+    "id": 279,
+    "year": "1903",
+    "original": "Cecile de Brunhoff, French storyteller who created the Barbar story, born in Paris (d. 2003)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 52
+  },
+  {
+    "id": 312,
+    "year": "1931",
+    "original": "John Ronayne, Irish classical and session violinist (Radio Éireann Symphony Orchestra; London Philharmonic; Royal Philharmonic; The Beatles - \"All You Need is Love. \"Yellow Submarine\"), born in Dublin, Ireland (d. 2009)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 53
+  },
+  {
+    "id": 322,
+    "year": "1937",
+    "original": "Emile Ford, St. Lucian pop singer (first Black male singer to top UK charts - \"What Do You Want to Make Those Eyes at Me For?\"), and sound engineer, born in Castries, St Lucia (d. 2016)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 54
+  },
+  {
+    "id": 360,
+    "year": "1956",
+    "original": "Marin Alsop, American conductor and 1st woman to head a major American orchestra (Baltimore Symphony, 2007-2021; Vienna RSO, 2019-present), born in New York City",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 55
+  },
+  {
+    "id": 373,
+    "year": "1962",
+    "original": "Flea [Michael Balzary], Australian-American bassist (Red Hot Chili Peppers), actor, and educator (Silverlake Conservatory of Music), born in Melbourne, Australia",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 56
+  },
+  {
+    "id": 375,
+    "year": "1962",
+    "original": "Manute Bol, Sudanese-American NBA basketball center, 1985-95 (Golden State Warriors, Philadelphia 76ers, and 3 other teams), political activist, and philanthropist, born in Turalei, Sudan (d. 2010)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 57
+  },
+  {
+    "id": 392,
+    "year": "1972",
+    "original": "Darius Kasparaitis, Lithuanian ice hockey defenseman (Olympic gold Unified Team 1992; silver 1998, bronze 2002 Russia; NY Islanders, Pittsburgh Penguins, NY Rangers), born in Elektrėnai, Lithuania",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 58
+  },
+  {
+    "id": 393,
+    "year": "1972",
+    "original": "Emily Doolittle, Canadian composer, and zoomusicologist (Social Sounds From Whales At Night; Dàn nan Ròn; A Short, Slow Life), born in Halifax, Nova Scotia",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 59
+  },
+  {
+    "id": 20,
+    "year": "1846",
+    "original": "Dentist William T Morton demonstrates effectiveness of ether",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 60
+  },
+  {
+    "id": 41,
+    "year": "1921",
+    "original": "Jim Conzelman takes over as coach of Rock Island Independents from Frank Coughlin-only mid-game coaching change in NFL history",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 61
+  },
+  {
+    "id": 43,
+    "year": "1923",
+    "original": "John Harwood patents self-winding watch (Switzerland)",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 62
+  },
+  {
+    "id": 72,
+    "year": "1963",
+    "original": "2 secret US military satellites launched from Cape Canaveral",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 63
+  },
+  {
+    "id": 93,
+    "year": "1973",
+    "original": "Maynard Jackson elected 1st black mayor of Atlanta",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 64
+  },
+  {
+    "id": 157,
+    "year": "1813",
+    "original": "Battle of Leipzig, the largest battle in Europe prior to World War I, seesNapoleon's forces defeated by Prussia, Austria, and Russia",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 65
+  }
+]

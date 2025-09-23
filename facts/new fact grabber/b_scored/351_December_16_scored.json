@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "original": "Beethoven's Birthday",
+    "score": 60,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "Posadas Navideñas begins",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "Day of Reconciliation (South Africa)",
+    "score": 55,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "Victory Day (Bangladesh)",
+    "score": 55,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 5,
+    "original": "Kazakh Independence Day",
+    "score": 45,
+    "is_kid_friendly": false
+  }
+]

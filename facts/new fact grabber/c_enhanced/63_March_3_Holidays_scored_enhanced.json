@@ -1,0 +1,102 @@
+[
+  {
+    "id": "901",
+    "title": "Wild About Wildlife Day!",
+    "story": "Every March 3, people around the world celebrate World Wildlife Day by sharing amazing photos of animals, visiting zoos and nature centers, and learning about endangered species. Schools organize special presentations about tigers, elephants, and sea turtles, while families watch wildlife documentaries together. Many people post their favorite animal pictures on social media with wildlife hashtags to spread awareness. Conservation groups use this day to teach kids how small actions like recycling and protecting habitats can help save animals. It's the perfect day to appreciate the incredible creatures we share our planet with!",
+    "activity_question": "What do many people post on social media during World Wildlife Day?",
+    "activity_choices": [
+      "Their favorite animal pictures",
+      "Photos of their breakfast",
+      "Pictures of their homework",
+      "Videos of themselves dancing"
+    ],
+    "activity_answer": "Their favorite animal pictures",
+    "follow_up_question": "What's one small action you could take to help protect wildlife in your area?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Stand Up and Sing Out Loud!",
+    "story": "Every March 3, Americans celebrate National Anthem Day by honoring \"The Star-Spangled Banner.\" Schools hold special assemblies where students sing together, while sports teams and radio stations play the anthem extra proudly. Many people share videos of themselves singing online or learn fun facts about Francis Scott Key's famous words. It's a day to celebrate the song that brings the whole country together!",
+    "activity_question": "What do schools often do on National Anthem Day?",
+    "activity_choices": [
+      "Hold special assemblies where students sing together",
+      "Give students extra homework about music",
+      "Cancel all classes for the day",
+      "Have students write their own anthems"
+    ],
+    "activity_answer": "Hold special assemblies where students sing together",
+    "follow_up_question": "What other songs make you feel proud of your community or family?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 50
+  },
+  {
+    "id": "903",
+    "title": "Dolls Take Center Stage in Japan",
+    "story": "Every March 3, Japanese families celebrate Hinamatsuri, also known as Girls' Day or the Doll Festival! Parents display beautiful sets of traditional dolls on red-carpeted platforms in their homes. These special dolls represent the ancient imperial court, with emperors, empresses, and attendants dressed in gorgeous silk robes. Families pray for their daughters' health and happiness while enjoying chirashizushi, clam soup, and sweet rice crackers shaped like diamonds. The dolls must be put away quickly after the festival ends, or legend says the daughter might marry late!",
+    "activity_question": "What do Japanese families display during Hinamatsuri?",
+    "activity_choices": [
+      "Traditional dolls in silk robes",
+      "Paper lanterns and flowers",
+      "Colorful kites and banners",
+      "Miniature cherry blossom trees"
+    ],
+    "activity_answer": "Traditional dolls in silk robes",
+    "bonus_fact": "Some doll sets are passed down through generations and can be worth thousands of dollars!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "904",
+    "title": "Listen Up for World Hearing Day!",
+    "story": "Every March 3, people around the world celebrate World Hearing Day by raising awareness about hearing health and prevention of hearing loss. Schools, hospitals, and communities host free hearing tests, educational workshops, and fun activities that teach kids how to protect their ears. Many people share tips on social media about keeping volume levels safe when using headphones or attending concerts. It's a day to appreciate the amazing gift of hearing!",
+    "activity_question": "What kind of free service do many places offer on World Hearing Day?",
+    "activity_choices": [
+      "Free hearing tests",
+      "Free ice cream",
+      "Free haircuts",
+      "Free movie tickets"
+    ],
+    "activity_answer": "Free hearing tests",
+    "follow_up_question": "What are some ways you can protect your hearing every day?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "905",
+    "title": "Ring Ring! It's Alexander Graham Bell Day",
+    "story": "Every March 3, people celebrate the genius who invented the telephone! Alexander Graham Bell changed how we talk to each other forever. Today, schools teach kids about his amazing invention, and some families even try making their own cup-and-string phones. Museums display old telephones, and tech companies post about how Bell's idea led to our modern smartphones and video calls.",
+    "activity_question": "What do some families make on Alexander Graham Bell Day to celebrate his invention?",
+    "activity_choices": [
+      "Cup-and-string phones",
+      "Paper airplanes",
+      "Wooden cars",
+      "Clay pots"
+    ],
+    "activity_answer": "Cup-and-string phones",
+    "follow_up_question": "How do you think communication might change in the next 100 years?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  }
+]

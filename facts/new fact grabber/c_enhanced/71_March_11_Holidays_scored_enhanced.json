@@ -1,0 +1,102 @@
+[
+  {
+    "id": "901",
+    "title": "Waffle Wonderful: Oatmeal Nut Waffle Day",
+    "story": "Every March 11, waffle lovers celebrate National Oatmeal Nut Waffles Day by making the crunchiest, nuttiest breakfast treat ever! People mix oats and chopped nuts like pecans or walnuts right into their waffle batter, creating golden squares packed with texture and flavor. Families gather around waffle makers, experimenting with different nuts and toppings like maple syrup, fresh berries, or whipped cream.",
+    "activity_question": "What do people mix into their waffle batter on this holiday?",
+    "activity_choices": [
+      "Oats and nuts",
+      "Chocolate chips and marshmallows",
+      "Pickles and cheese",
+      "Ice cream and sprinkles"
+    ],
+    "activity_answer": "Oats and nuts",
+    "bonus_fact": "Waffles get their square pockets from special grid patterns that trap syrup perfectly!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "902",
+    "title": "Johnny Appleseed's Amazing Apple Adventure",
+    "story": "Every March 11, people celebrate Johnny Appleseed Day to honor the legendary man who planted apple trees across America! Johnny Chapman, nicknamed Johnny Appleseed, walked thousands of miles in the early 1800s, carrying bags of apple seeds and planting orchards wherever he went. Today, schools teach kids about his incredible journey, families visit apple orchards, and some people even plant their own apple trees in his memory. Libraries host storytelling sessions about his adventures, and kids learn how one person's simple idea can grow into something amazing that feeds people for generations. It's the perfect day to appreciate apples and dream big!",
+    "activity_question": "What did Johnny Appleseed carry with him as he traveled across America?",
+    "activity_choices": [
+      "Bags of apple seeds",
+      "Buckets of apple juice",
+      "Baskets of ripe apples",
+      "Magic apple wands"
+    ],
+    "activity_answer": "Bags of apple seeds",
+    "bonus_fact": "Johnny Appleseed often slept outdoors under the stars and was known for his kindness to animals.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "903",
+    "title": "Pipes Get the Spotlight on World Plumbing Day",
+    "story": "Every March 11, plumbers around the world get a special shout-out on World Plumbing Day! People post thank-you messages on social media for the heroes who fix our toilets, unclog our drains, and keep clean water flowing to our homes. Schools teach kids how important plumbing is for staying healthy and safe. Some plumbers even offer free check-ups or visit classrooms to show off their cool tools and explain their important work.",
+    "activity_question": "What do people do on World Plumbing Day to show appreciation?",
+    "activity_choices": [
+      "Post thank-you messages on social media",
+      "Give plumbers free pizza",
+      "Turn off all the water in their house",
+      "Wear hard hats to school"
+    ],
+    "activity_answer": "Post thank-you messages on social media",
+    "follow_up_question": "What would happen if we didn't have plumbers to fix our water systems?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "904",
+    "title": "Dream Big on National Dream Day!",
+    "story": "Every March 11, people celebrate National Dream Day by focusing on their biggest hopes and wildest goals! Some write their dreams in colorful journals, create vision boards with magazine cutouts, or share inspiring posts on social media. Teachers encourage students to talk about what they want to become when they grow up. Families discuss dream vacations or adventures they'd love to take together. It's a day to believe that anything is possible and take small steps toward making dreams come true!",
+    "activity_question": "What do some people create on National Dream Day to visualize their goals?",
+    "activity_choices": [
+      "Vision boards with magazine cutouts",
+      "Paper airplanes with wishes",
+      "Dream catchers made of string",
+      "Magic wands from sticks"
+    ],
+    "activity_answer": "Vision boards with magazine cutouts",
+    "follow_up_question": "What's one dream you have that seems impossible but might actually come true someday?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "905",
+    "title": "Slurp It Up: National Noodle Day!",
+    "story": "Every March 11, noodle lovers everywhere celebrate National Eat Your Noodles Day by diving into their favorite pasta dishes! People slurp spaghetti, twirl fettuccine, and chomp on ramen noodles all day long. Restaurants offer special noodle deals, families cook together, and social media fills with photos of steaming bowls. Some people try new noodle recipes from around the world, while others stick to classic mac and cheese. The best part? There's no wrong way to celebrate – whether you use chopsticks, a fork, or even your fingers!",
+    "activity_question": "What do people often share on social media during National Eat Your Noodles Day?",
+    "activity_choices": [
+      "Photos of steaming noodle bowls",
+      "Pictures of their pets",
+      "Videos of dancing",
+      "Photos of giant rubber ducks"
+    ],
+    "activity_answer": "Photos of steaming noodle bowls",
+    "bonus_fact": "There are over 600 different pasta shapes made around the world!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  }
+]

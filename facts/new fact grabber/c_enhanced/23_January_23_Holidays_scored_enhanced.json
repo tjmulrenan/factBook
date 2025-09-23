@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Put Pen to Paper Day!",
+    "story": "Grab a pen and get ready to write! January 23 is National Handwriting Day, when people celebrate the art of writing by hand. Schools hold handwriting contests, families write letters to each other, and some people even try fancy calligraphy. It's a fun way to practice your penmanship!",
+    "activity_question": "What do schools often hold on National Handwriting Day?",
+    "activity_choices": [
+      "Handwriting contests",
+      "Spelling bees",
+      "Art shows",
+      "Dance competitions"
+    ],
+    "activity_answer": "Handwriting contests",
+    "follow_up_question": "What would you write in a handwritten letter to your future self?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 45
+  },
+  {
+    "id": "902",
+    "title": "National Pie Day: A Slice of Heaven",
+    "story": "Every January 23, pie lovers across America celebrate National Pie Day by baking, buying, and devouring their favorite pies! Bakeries offer special deals on everything from classic apple and pumpkin to creative flavors like key lime and chocolate silk. Families gather in kitchens to roll out dough and share secret recipes passed down through generations. Restaurants serve up fresh slices with extra whipped cream, while social media fills with photos of golden crusts and gooey fillings. Some people even host pie-eating contests or potluck parties where everyone brings a different flavor to share.",
+    "activity_question": "What do bakeries typically do on National Pie Day?",
+    "activity_choices": [
+      "Offer special deals on pies",
+      "Close early to eat pie",
+      "Only sell cake instead",
+      "Give away free rolling pins"
+    ],
+    "activity_answer": "Offer special deals on pies",
+    "follow_up_question": "What's the most unusual pie flavor you'd be brave enough to try?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "903",
+    "title": "Put Your Best Foot Forward Day",
+    "story": "Your feet are growing right now, and January 23 is the perfect day to find out by how much! Measure Your Feet Day encourages everyone to grab a ruler and check their shoe size. Kids often discover they've outgrown their sneakers, while adults might learn one foot is bigger than the other. Shoe stores love this holiday because it reminds families to buy properly fitting footwear for healthy, happy feet.",
+    "activity_question": "What might kids discover when they measure their feet on this day?",
+    "activity_choices": [
+      "They've outgrown their sneakers",
+      "Their feet are made of rubber",
+      "They have exactly 10 toes",
+      "Their shoes are the wrong color"
+    ],
+    "activity_answer": "They've outgrown their sneakers",
+    "bonus_fact": "Most people's feet are slightly different sizes from each other!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  }
+]

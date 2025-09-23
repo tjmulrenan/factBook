@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "original": "Tolkien Reading Day",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "Greek Independence Day",
+    "score": 43,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 3,
+    "original": "Maryland Day",
+    "score": 55,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "Feast of the Annunciation",
+    "score": 40,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 5,
+    "original": "International Day of Remembrance of the Victims of Slavery and the Transatlantic Slave Trade",
+    "score": 45,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 6,
+    "original": "Medal of Honor Day",
+    "score": 45,
+    "is_kid_friendly": false
+  }
+]

@@ -1,0 +1,542 @@
+[
+  {
+    "id": 92,
+    "year": "1904",
+    "original": "Stage play \"Peter Pan\" byJ. M. Barriepremieres at the Duke of York Theatre in London",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 1
+  },
+  {
+    "id": 123,
+    "year": "1831",
+    "original": "HMS Beagle withCharles Darwinon board departs England for a survey of South America, a voyage Darwin later said \"determined my whole career\"",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 2
+  },
+  {
+    "id": 89,
+    "year": "2012",
+    "original": "NASA unveils plans to capture a 500 ton asteroid in 2025",
+    "score": 89,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 3
+  },
+  {
+    "id": 221,
+    "year": "1936",
+    "original": "James Harrison, Australian blood and plasma donor known as 'the man with the golden arm' whose donations protected over 2 million babies, born in Junee, New South Wales (d. 2025)[1]",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 4
+  },
+  {
+    "id": 138,
+    "year": "1773",
+    "original": "George Cayley, English inventor who founded science of aerodynamics (built 1st glider to carry a person), born in Scarborough, England (d. 1854)",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 5
+  },
+  {
+    "id": 49,
+    "year": "1968",
+    "original": "Apollo 8 returns to Earth",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 6
+  },
+  {
+    "id": 86,
+    "year": "2004",
+    "original": "Radiation from an explosion on the magnetar SGR 1806-20 reaches Earth. It is the brightest extrasolar event known to have been witnessed on the planet.",
+    "score": 86,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 7
+  },
+  {
+    "id": 120,
+    "year": "2022",
+    "original": "Luka Dončićbecomes the first player to register a 60-21-10 triple-double in NBA history as the Dallas Mavericks beat the NY Knicks, 126-121; first 60-point game in Mavs franchise history",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 8
+  },
+  {
+    "id": 110,
+    "year": "1981",
+    "original": "Edmonton OilerWayne Gretzkybecomes fastest NHLer to get 100 point in a season (his 38th game), with 4 goals and an assist in 10-3 win over visiting Los Angeles Kings",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 9
+  },
+  {
+    "id": 116,
+    "year": "2000",
+    "original": "Pittsburgh Penguins center and part-ownerMario Lemieuxscores a goal and 2 assists in his return to the NHL after more than 3 years out with injury problems and lingering cancer issues; Penguins beat Toronto Maple Leafs, 5-0",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 10
+  },
+  {
+    "id": 43,
+    "year": "1947",
+    "original": "1st \"Howdy Doody Show\" (Puppet Playhouse), telecast on NBC",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 11
+  },
+  {
+    "id": 17,
+    "year": "1892",
+    "original": "Biddle University beats Livingstone College 5-0 in 1st black college football game, in Salisbury, North Carolina",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 12
+  },
+  {
+    "id": 35,
+    "year": "1939",
+    "original": "1st American skimobiles (North Conway, NH)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 13
+  },
+  {
+    "id": 32,
+    "year": "1932",
+    "original": "Radio City Music Hall, designed by Edward Durell Stone and Donald Deskey opens at Rockerfeller Center in Manhattan, New York City",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 14
+  },
+  {
+    "id": 259,
+    "year": "1957",
+    "original": "Daniel Levitin, American-Canadian cognitive psychologist, writer (This Is Your Brain on Music: The Science of a Human Obsession), record producer, and mnusician, born in San Francisco, California",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 15
+  },
+  {
+    "id": 317,
+    "year": "1998",
+    "original": "Briar Nolet, Canadian dancer and actress (The Next Step; Blood Hunters), born in Toronto, Ontario",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 16
+  },
+  {
+    "id": 316,
+    "year": "1997",
+    "original": "Bright Vachirawit [Vachirawit Chivaaree], Thai actor and singer (2gether franchise), born in Nakhon Chai Si, Thailand",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 17
+  },
+  {
+    "id": 104,
+    "year": "1964",
+    "original": "1st appearance ofThe Supremeson \"TheEd SullivanShow\", singing \"Come See About Me\"",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 18
+  },
+  {
+    "id": 72,
+    "year": "1986",
+    "original": "Musical \"Les Misérables\" opens in the US at the Kennedy Center, Washington, D.C.",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 19
+  },
+  {
+    "id": 111,
+    "year": "1983",
+    "original": "PopeJohn Paul IIpardons man who shot him (Mehmet Ali Agca)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 20
+  },
+  {
+    "id": 33,
+    "year": "1934",
+    "original": "1st youth hostel in US opens (Northfield, Mass)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 21
+  },
+  {
+    "id": 75,
+    "year": "1988",
+    "original": "Bulgaria stops jamming Radio Free Europe after more than 3 decades",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 22
+  },
+  {
+    "id": 205,
+    "year": "1920",
+    "original": "Bruce Hobbs, American jockey (youngest to ride winner of English Grand National on Battleship 1938), born on Long Island, New York (d. 2005)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 23
+  },
+  {
+    "id": 295,
+    "year": "1975",
+    "original": "Heather O'Rourke, American actress (Happy Days, Poltergeist), born in San Diego, California (d. 1988)",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 24
+  },
+  {
+    "id": 315,
+    "year": "1993",
+    "original": "Olivia Cooke, English actress (House of the Dragon, Ready Player One), born in Oldham, England",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 25
+  },
+  {
+    "id": 314,
+    "year": "1990",
+    "original": "Milos Raonic, Canadian tennis player (8 ATP titles), born in Titograd, Montenegro",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 26
+  },
+  {
+    "id": 300,
+    "year": "1981",
+    "original": "Emilie de Ravin, Australian actress (Once Upon A Time), born in Mount Eliza, Victoria, Australia",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 27
+  },
+  {
+    "id": 278,
+    "year": "1966",
+    "original": "Bill Goldberg, American pro wrestler (WCW Heavyweight C'ship 1998; WWE Heavyweight C'ship 2003; WWE HOF), born in Tulsa, Oklahoma",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 28
+  },
+  {
+    "id": 313,
+    "year": "1988",
+    "original": "Rick Porcello, American baseball pitcher (World Series 2018, AL Cy Young Award & MLB wins leader 2016 Boston Red Sox), born in Morristown, New Jersey",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 29
+  },
+  {
+    "id": 305,
+    "year": "1983",
+    "original": "Cole Hamels, American baseball pitcher (MLB All-Star 2007, 11, 12, 16; World Series MVP & NLCS MVP 2008 Philadelphia Phillies; pitched no-hitter 2015 Texas Rangers), born in San Diego, California",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 30
+  },
+  {
+    "id": 296,
+    "year": "1979",
+    "original": "Carson Palmer, American NFL quarterback (Heisman Trophy 2002, USC; Pro Bowl 2005, 06, 15; Cincinnati Bengals, Arizona Cardinals), born in Fresno, California",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 31
+  },
+  {
+    "id": 285,
+    "year": "1969",
+    "original": "Sarah Vowell, American author (Assassination Vacation), historian, journalist, and voice actress (Violet Parr in \"The Incredibles\"), born in Muskogee, Oklahoma[1][2]",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 32
+  },
+  {
+    "id": 232,
+    "year": "1942",
+    "original": "Charmian Carr, American actress (The Sound of Music), born in Chicago, Illinois (d. 2016)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 33
+  },
+  {
+    "id": 227,
+    "year": "1939",
+    "original": "John Amos, American actor (Good Times; Roots; Coming to America; The West Wing), born in Newark, New Jersey (d. 2024)[1]",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 34
+  },
+  {
+    "id": 302,
+    "year": "1981",
+    "original": "Jay Ellis, American actor (Insecure), born in Sumter, South Carolina",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 35
+  },
+  {
+    "id": 297,
+    "year": "1979",
+    "original": "Siobhán McSweeney, Irish actress and TV presenter (Derry Girls, The Great Pottery Thrown Down), born in Aherla, Ireland",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 36
+  },
+  {
+    "id": 298,
+    "year": "1979",
+    "original": "Walker Hayes, American country-pop singer-songwriter (\"Fancy Like\"), born in Mobile, Alabama",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 37
+  },
+  {
+    "id": 247,
+    "year": "1950",
+    "original": "Terry Bozzio, American drummer (Missing Persons; Frank Zappa), born in San Francisco, California",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 38
+  },
+  {
+    "id": 237,
+    "year": "1944",
+    "original": "Mick Jones, English rock guitarist (Foreigner - \"I Want to Know What Love Is\"), born in Portsmouth, Hampshire, England",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 39
+  },
+  {
+    "id": 290,
+    "year": "1972",
+    "original": "Matt Slocum, American rock guitarist, cello player, and songwriter (Sixpence None the Richer - \"Kiss Me\"), born in Bristol, Rhode Island",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 40
+  },
+  {
+    "id": 311,
+    "year": "1986",
+    "original": "Metrik [Tom Mundell], British electronic dance music producer and re-mixer (\"Freefall\"; \"Gravity\"; “Chasing Sunrise”), born in London, England",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 41
+  },
+  {
+    "id": 310,
+    "year": "1985",
+    "original": "Tivon Pennicott, Jamaican-American jazz saxophonist (Celery Juice), born in Marietta, Georgia",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 42
+  },
+  {
+    "id": 304,
+    "year": "1982",
+    "original": "Terji Skibenæs, Faroese folk-metal guitarist, (Týr, 2001-18), born in Skipanes, Faroe Islands",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 43
+  },
+  {
+    "id": 307,
+    "year": "1984",
+    "original": "Pleasure P. [Marcus Cooper], American R&B singer (Pretty Ricky), born in Miami, Florida",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 44
+  },
+  {
+    "id": 309,
+    "year": "1985",
+    "original": "Paul Stastny, Canadian ice hockey center (NHL All-Rookie 2007; NHL All-Star 2011; Colorado Avalanche, St. Louis Blues, Winnipeg Jets, LV Golden Knights), born in Quebec City, Quebec",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 45
+  },
+  {
+    "id": 306,
+    "year": "1984",
+    "original": "Gilles Simon, French tennis player (world #6 2009; Davis Cup 2017), born in Boulogne-Billancourt, France",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 46
+  },
+  {
+    "id": 286,
+    "year": "1970",
+    "original": "Lorenzo Neal, American football fullback (First-team All-Pro 2006, 07 SD Chargers; 4 × Pro Bowl), born in Hanford, California",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 47
+  },
+  {
+    "id": 294,
+    "year": "1973",
+    "original": "Wilson Cruz [Echevarría], American stage and screen actor (My So Called Life; Party of Five), born in Brooklyn, NYC",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 48
+  },
+  {
+    "id": 293,
+    "year": "1973",
+    "original": "Kristoffer Zegers, Dutch pianist and contemporary classical composer (Pianophasing), born in Breda, Netherlands",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 49
+  },
+  {
+    "id": 257,
+    "year": "1956",
+    "original": "Doina Melinte, Romanian athlete (Olympic gold 800m, silver 1500m 1984; World Indoor C'ship gold 1500m 1987, 89), born in Hudești, Romania",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 51
+  },
+  {
+    "id": 258,
+    "year": "1956",
+    "original": "Karl Denson, American funk and jazz saxophonist, flutist and vocalist (Lenny Kravitz; Tiny Universe), born in Santa Ana, California",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 52
+  },
+  {
+    "id": 245,
+    "year": "1949",
+    "original": "T.S. Monk [Thelonious Sphere Monk III], American jazz drummer, composer, and bandleader, born in New York City",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 53
+  },
+  {
+    "id": 242,
+    "year": "1947",
+    "original": "Kjeld Kirk Kristiansen, Danish businessman (CEO of Lego Group, 1979-2004), born in Billund, Denmark",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 54
+  },
+  {
+    "id": 206,
+    "year": "1922",
+    "original": "Larry Osborne, Trinidadian-British army officer and navigator air traffic controller (1st black man to reach rank of Group Captain rank), born in Trinidad (d. 1996)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 55
+  },
+  {
+    "id": 184,
+    "year": "1907",
+    "original": "Conrad L. Raiford, American athlete, goodwill ambassador, and one of the first African-American police officers, born in Greensboro, North Carolina (d. 2002)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 56
+  },
+  {
+    "id": 129,
+    "year": "1654",
+    "original": "Jacob Bernoulli, Swiss mathematician known for his contributions to calculus, born in Basel, Switzerland (d. 1705)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 57
+  },
+  {
+    "id": 140,
+    "year": "1796",
+    "original": "Mirza Ghalib [Mirza Asadullah Beg Khan], Indian poet known for his Urdu ghazals (Diwan-e-Ghalib / Collection of Poems), born in Agra, Mughal Empire (d. 1869)[1][2]",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 58
+  },
+  {
+    "id": 101,
+    "year": "1949",
+    "original": "Queen Julianaof the Netherlands grants independence to Indonesia",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 61
+  },
+  {
+    "id": 121,
+    "year": "537",
+    "original": "Hagia Sophia inaugurated by theEmperor Justinian Ias an Eastern Orthodox cathedral",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 62
+  },
+  {
+    "id": 36,
+    "year": "1939",
+    "original": "Between 20,000 and 40,000 die in magnitude 8 earthquake in Erzincam, Turkey",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 63
+  }
+]

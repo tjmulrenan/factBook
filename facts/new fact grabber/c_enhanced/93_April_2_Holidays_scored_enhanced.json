@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Blue Light Special for Autism Awareness",
+    "story": "Buildings around the world glow bright blue on April 2 for World Autism Awareness Day! People wear blue clothes, share blue hearts on social media, and light up famous landmarks like the Empire State Building. Families and schools host events to learn about autism and celebrate how everyone's brain works differently. Some people organize puzzle piece activities since that's a symbol many connect with autism awareness. The goal is simple: help everyone understand that people with autism have amazing talents and deserve kindness and acceptance every single day.",
+    "activity_question": "What color do buildings and landmarks light up with on World Autism Awareness Day?",
+    "activity_choices": [
+      "Blue",
+      "Purple",
+      "Green",
+      "Rainbow colors"
+    ],
+    "activity_answer": "Blue",
+    "bonus_fact": "The puzzle piece became a symbol because autism is complex and every person is unique.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "902",
+    "title": "Books Come Alive on Children's Day!",
+    "story": "Every April 2, kids around the world celebrate International Children's Book Day by diving into amazing stories! Libraries host special reading events where children dress up as their favorite book characters. Schools organize storytelling contests and book swaps where kids trade their beloved tales with friends. Many bookstores give away free books or host author visits where real writers share how they create magical worlds. Families curl up together for extra-long bedtime stories, and some communities even have outdoor reading picnics in parks. It's the perfect day to discover a new adventure between the pages of a book!",
+    "activity_question": "What do kids often dress up as during International Children's Book Day celebrations?",
+    "activity_choices": [
+      "Their favorite book characters",
+      "Superheroes only",
+      "Animals from the zoo",
+      "Famous scientists"
+    ],
+    "activity_answer": "Their favorite book characters",
+    "follow_up_question": "If you could meet any character from a book, who would it be and what would you ask them?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "903",
+    "title": "The Perfect Sandwich Gets Its Day",
+    "story": "Every April 2, people across America celebrate National Peanut Butter and Jelly Day by making their favorite sandwich combo! Kids pack PB&J lunches, families have sandwich-making contests, and restaurants create fancy versions with different nut butters and unique jams. Some people share photos of their creations on social media, while others try wild combinations like peanut butter with grape, strawberry, or even banana slices. Schools sometimes host PB&J parties where students vote on the best flavor mix. It's amazing how this simple sandwich brings people together - whether you're team crunchy or smooth peanut butter, there's a perfect PB&J waiting for you today!",
+    "activity_question": "What do some restaurants do to celebrate National Peanut Butter and Jelly Day?",
+    "activity_choices": [
+      "Create fancy versions with different nut butters and unique jams",
+      "Give away free peanuts to every customer",
+      "Only serve sandwiches cut into triangle shapes",
+      "Replace all their menu items with soup"
+    ],
+    "activity_answer": "Create fancy versions with different nut butters and unique jams",
+    "bonus_fact": "The average American eats over 2,000 PB&J sandwiches before graduating high school!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 92
+  }
+]

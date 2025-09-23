@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Boxing Day: More Than Empty Boxes!",
+    "story": "Boxing Day on December 26 isn't about cardboard boxes from Christmas morning! In countries like Canada, Australia, and the UK, people celebrate this holiday by giving gifts to service workers, donating to charity, and spending time with family. Many families box up extra food, clothes, or toys to share with people who need them. Stores have huge sales, and some people enjoy boxing matches or other sports on TV. It's a day for boxing up kindness and sharing it with others!",
+    "activity_question": "What do many people do with extra items on Boxing Day?",
+    "activity_choices": [
+      "Box them up to donate to charity",
+      "Hide them in secret boxes",
+      "Turn them into cardboard robots",
+      "Bury them in the backyard"
+    ],
+    "activity_answer": "Box them up to donate to charity",
+    "bonus_fact": "Boxing Day got its name from the tradition of giving Christmas boxes to servants.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "902",
+    "title": "St. Stephen's Day Surprises",
+    "story": "December 26 brings St. Stephen's Day, a special holiday celebrated right after Christmas! In Ireland, people go \"wren hunting\" - not to catch real birds, but to parade through neighborhoods with colorful costumes and music. Families also enjoy leftover Christmas dinner and spend quiet time together. Many countries use this day for boxing matches, parades, or visiting friends they didn't see on Christmas Day.",
+    "activity_question": "What do people in Ireland traditionally do on St. Stephen's Day?",
+    "activity_choices": [
+      "Go \"wren hunting\" with costumes and music",
+      "Hunt for real treasure",
+      "Build snowmen shaped like birds",
+      "Have breakfast for dinner"
+    ],
+    "activity_answer": "Go \"wren hunting\" with costumes and music",
+    "bonus_fact": "St. Stephen was the first Christian martyr, making this a meaningful religious holiday too.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 50
+  },
+  {
+    "id": "903",
+    "title": "Kwanzaa's Seven Days of Celebration Begin",
+    "story": "December 26 marks the start of Kwanzaa, a seven-day celebration that honors African American culture and values. Families light the kinara, a special candleholder with seven candles in red, black, and green. Each day focuses on a different principle like unity, creativity, and faith. People wear traditional African clothing, share stories about their heritage, and exchange handmade gifts. The celebration includes drumming, dancing, and feasting on foods that connect families to their roots and community.",
+    "activity_question": "What is the kinara used for during Kwanzaa?",
+    "activity_choices": [
+      "Holding seven special candles",
+      "Storing handmade gifts",
+      "Playing traditional music",
+      "Cooking festive meals"
+    ],
+    "activity_answer": "Holding seven special candles",
+    "follow_up_question": "What handmade gift would you create to celebrate your family's heritage?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  }
+]

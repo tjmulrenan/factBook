@@ -1,0 +1,102 @@
+[
+  {
+    "id": "901",
+    "title": "Healthy Habits Around the World",
+    "story": "Every April 7, people worldwide celebrate World Health Day by focusing on staying healthy and helping others feel their best. Schools organize fun runs, hospitals offer free check-ups, and communities share tips about eating nutritious foods and exercising regularly. Social media fills with photos of colorful fruits, yoga poses, and people drinking more water. Many countries use this day to talk about important health topics and remind everyone that small healthy choices can make a big difference in how we feel every day.",
+    "activity_question": "What do schools often organize on World Health Day?",
+    "activity_choices": [
+      "Fun runs",
+      "Pizza parties",
+      "Video game tournaments",
+      "Movie marathons"
+    ],
+    "activity_answer": "Fun runs",
+    "follow_up_question": "What's one healthy habit you could start doing every day?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "902",
+    "title": "Coffee Cake Day Gets Everyone Buzzing!",
+    "story": "Coffee cake doesn't actually contain coffee - it's just the perfect treat to eat WITH coffee! On April 7, bakers across America celebrate National Coffee Cake Day by making these sweet, crumbly delights. Coffee shops offer special flavors, families share homemade recipes, and social media fills with photos of cinnamon-swirled goodness. The best part? That crumbly streusel topping that makes every bite amazing!",
+    "activity_question": "What makes coffee cake special even though it doesn't contain coffee?",
+    "activity_choices": [
+      "It's the perfect treat to eat with coffee",
+      "It's shaped like a coffee bean",
+      "It tastes like espresso",
+      "It keeps you awake all night"
+    ],
+    "activity_answer": "It's the perfect treat to eat with coffee",
+    "bonus_fact": "The crumbly topping on coffee cake is called \"streusel\" - a German word!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "903",
+    "title": "Dust Bunnies Get a Day Off!",
+    "story": "Put down that vacuum and step away from the dishes! National No Housework Day on April 7 gives everyone permission to ignore chores completely. Families celebrate by leaving beds unmade, letting laundry pile up, and ordering takeout instead of cooking. Some people post funny photos of their messy rooms on social media with hashtags like #NoHouseworkDay. Parents and kids alike enjoy guilt-free relaxation, playing games, watching movies, or just lounging around. It's the one day when dust bunnies rule the house and nobody feels bad about it!",
+    "activity_question": "What do families often do instead of cooking on National No Housework Day?",
+    "activity_choices": [
+      "Order takeout",
+      "Plant a garden",
+      "Clean the kitchen",
+      "Bake cookies"
+    ],
+    "activity_answer": "Order takeout",
+    "follow_up_question": "What chores would you be most excited to skip on this holiday?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "904",
+    "title": "Dam Good Day for Beavers!",
+    "story": "Beavers get their own special day on April 7 when people around the world celebrate International Beaver Day! These amazing animals are nature's engineers, building dams that help entire ecosystems thrive. On this day, wildlife centers host beaver-watching events, schools teach kids about wetland conservation, and nature lovers share beaver photos online. Many people visit beaver habitats or donate to organizations that protect these hardworking creatures. It's the perfect time to appreciate how beavers create homes for fish, birds, and other animals just by doing what they do best!",
+    "activity_question": "What makes beavers special engineers in nature?",
+    "activity_choices": [
+      "They build dams that help ecosystems",
+      "They can fly between trees",
+      "They paint their fur different colors",
+      "They only work at night"
+    ],
+    "activity_answer": "They build dams that help ecosystems",
+    "bonus_fact": "A beaver's teeth never stop growing and stay sharp by constantly gnawing on wood!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "905",
+    "title": "Pop Goes the Caramel!",
+    "story": "Sweet, crunchy, and totally irresistible - that's what makes April 7 the perfect day to celebrate National Caramel Popcorn Day! People across the country grab bags of this golden treat from movie theaters, make homemade batches in their kitchens, or try fancy gourmet flavors from specialty shops. Some families turn it into a fun activity, melting caramel and drizzling it over freshly popped kernels while the sweet aroma fills their homes. Social media fills with photos of caramel-coated fingers and empty bowls. Whether you like it extra sweet or with a hint of salt, this sticky snack brings people together for a deliciously messy celebration!",
+    "activity_question": "Where do people commonly get caramel popcorn to celebrate this holiday?",
+    "activity_choices": [
+      "Movie theaters and specialty shops",
+      "Gas stations only",
+      "Ice cream trucks",
+      "School cafeterias"
+    ],
+    "activity_answer": "Movie theaters and specialty shops",
+    "bonus_fact": "Americans eat about 17 billion quarts of popcorn every year!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  }
+]

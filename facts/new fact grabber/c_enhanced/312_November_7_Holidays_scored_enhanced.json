@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Sweet Meets Nutty November Treat Day",
+    "story": "Chocolate lovers unite every November 7 for National Bittersweet Chocolate with Almonds Day! This tasty holiday celebrates the perfect combo of rich, slightly bitter chocolate mixed with crunchy almonds. People mark the day by buying their favorite chocolate-almond bars, baking homemade treats, or sharing photos of their sweet snacks online. Some families even have chocolate-tasting parties where they try different brands and vote on their favorites. It's the perfect excuse to indulge in this classic flavor combination that makes your taste buds dance!",
+    "activity_question": "What do people often do to celebrate this chocolate holiday?",
+    "activity_choices": [
+      "Buy chocolate-almond bars and bake treats",
+      "Plant almond trees in their backyard",
+      "Write poems about chocolate",
+      "Dress up like giant almonds"
+    ],
+    "activity_answer": "Buy chocolate-almond bars and bake treats",
+    "bonus_fact": "Bittersweet chocolate contains at least 35% cocoa, giving it that rich, complex flavor.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "902",
+    "title": "Bear Hugs for Everyone!",
+    "story": "Every November 7, people celebrate Hug a Bear Day by giving their favorite teddy bears the biggest, squishiest hugs ever! Kids dig out their oldest stuffed bears from toy boxes and closets, while adults often surprise themselves by how good it feels to hug their childhood companions again. Some families have bear-hugging contests to see who can hug the longest, and others take photos with their bears to share on social media. Libraries and toy stores sometimes host special bear hug events where kids bring their bears for story time. Even people without teddy bears join in by hugging stuffed animals at stores or borrowing a friend's bear for the day!",
+    "activity_question": "What do some families do on Hug a Bear Day to make it more fun?",
+    "activity_choices": [
+      "Have bear-hugging contests",
+      "Teach their bears to dance",
+      "Give their bears haircuts",
+      "Make their bears do homework"
+    ],
+    "activity_answer": "Have bear-hugging contests",
+    "follow_up_question": "What makes hugging a stuffed animal feel so comforting and special?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 92
+  },
+  {
+    "id": "903",
+    "title": "Buffalo Appreciation Day Gets Wild!",
+    "story": "Every November 7, Americans celebrate National Bison Day to honor these massive, shaggy creatures that once roamed the Great Plains in huge herds! Zoos across the country host special bison talks where visitors learn how these powerful animals can weigh as much as a small car. National parks like Yellowstone share amazing bison photos on social media, showing tourists how to safely watch these giants from far away. Many schools teach kids how bison were saved from disappearing forever and now live wild and free again.",
+    "activity_question": "According to the story, how much can a bison weigh?",
+    "activity_choices": [
+      "As much as a small car",
+      "As much as a bicycle",
+      "As much as a house cat",
+      "As much as a school bus"
+    ],
+    "activity_answer": "As much as a small car",
+    "bonus_fact": "Bison can run up to 35 miles per hour despite their huge size!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  }
+]

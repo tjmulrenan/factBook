@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "original": "Australia Day",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "Republic Day (India)",
+    "score": 60,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 3,
+    "original": "International Customs Day",
+    "score": 45,
+    "is_kid_friendly": false
+  }
+]

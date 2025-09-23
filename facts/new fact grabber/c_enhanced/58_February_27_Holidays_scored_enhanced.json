@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Polar Bear Day: Celebrating Arctic Giants",
+    "story": "Every February 27, people around the world celebrate International Polar Bear Day to help protect these amazing Arctic animals! Zoos host special polar bear events where visitors can watch these giant white bears swim and play. Schools organize polar bear facts contests and kids dress up in white fur coats. Many families donate money to polar bear conservation groups or adopt a polar bear online. Social media fills up with cute polar bear photos and videos. Some people even take polar plunges into freezing water to show support! This special day reminds everyone that polar bears need our help because climate change is melting their icy homes.",
+    "activity_question": "What do some people do in freezing water to show support for polar bears?",
+    "activity_choices": [
+      "Take polar plunges",
+      "Build ice sculptures",
+      "Go ice fishing",
+      "Make snow angels"
+    ],
+    "activity_answer": "Take polar plunges",
+    "bonus_fact": "A polar bear's skin is actually black underneath all that white fur!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Once Upon a Time on February 27",
+    "story": "Dragons, princesses, and magic spells take center stage every February 27 on National Tell a Fairy Tale Day! This enchanting holiday encourages people to share their favorite fairy tales with friends and family. Parents read classic stories like Cinderella and Little Red Riding Hood to their children, while teachers organize storytelling sessions at schools. Libraries host special fairy tale events where kids can dress up as their favorite characters. Many families create their own magical stories together, adding silly twists to old favorites. Social media fills with people sharing their most beloved fairy tale memories and photos of storybook costumes.",
+    "activity_question": "What do libraries often host on National Tell a Fairy Tale Day?",
+    "activity_choices": [
+      "Special fairy tale events with costumes",
+      "Dragon flying lessons",
+      "Princess cooking classes",
+      "Magic spell workshops"
+    ],
+    "activity_answer": "Special fairy tale events with costumes",
+    "follow_up_question": "What new fairy tale would you create if you could invent one today?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "903",
+    "title": "No Brainer Day: Easy Decisions Only!",
+    "story": "February 27 is National No Brainer Day, when people celebrate making super easy decisions without overthinking! On this fun holiday, families choose simple activities like picking their favorite ice cream flavor, wearing their most comfortable clothes, or watching a movie everyone already loves. Schools sometimes let kids vote on easy choices like which game to play at recess. The whole point is to take a break from tough decisions and enjoy the simple ones that make you smile right away!",
+    "activity_question": "What kind of decisions do people focus on during National No Brainer Day?",
+    "activity_choices": [
+      "Super easy decisions",
+      "Really hard math problems",
+      "Complicated life choices",
+      "Business decisions"
+    ],
+    "activity_answer": "Super easy decisions",
+    "follow_up_question": "What's the easiest decision you made today?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "904",
+    "title": "Power Up with Protein Day!",
+    "story": "Every February 27, people celebrate National Protein Day by showing love for the nutrients that help build strong muscles and bones! Fitness fans post pictures of their protein-packed meals on social media, while families cook up eggs, chicken, beans, and nuts together. Some gyms even host special workout classes to celebrate how protein helps our bodies grow and recover after exercise.",
+    "activity_question": "What do people often post on social media during National Protein Day?",
+    "activity_choices": [
+      "Pictures of their protein-packed meals",
+      "Photos of their pets doing yoga",
+      "Videos of dancing vegetables",
+      "Pictures of their favorite cartoons"
+    ],
+    "activity_answer": "Pictures of their protein-packed meals",
+    "follow_up_question": "What's your favorite protein-rich food that helps your body stay strong?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 50
+  }
+]

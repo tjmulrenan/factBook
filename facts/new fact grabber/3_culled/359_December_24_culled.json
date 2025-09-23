@@ -1,0 +1,542 @@
+[
+  {
+    "id": 101,
+    "year": "2024",
+    "original": "NASA's Parker Solar probe makes a record-breaking approach to the Sun, coming within 3.8 million miles (6 million kilometers) of the star",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 1
+  },
+  {
+    "id": 178,
+    "year": "1880",
+    "original": "Johnny Gruelle, American cartoonist, children's book writer and creator of Raggedy Ann, born in Arcola, Illinois (d. 1939)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 2
+  },
+  {
+    "id": 128,
+    "year": "1877",
+    "original": "Thomas Edisonfiles for a patent for the cylinder phonograph",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 3
+  },
+  {
+    "id": 105,
+    "year": "1893",
+    "original": "Henry Fordcompletes his first useful petrol / gasoline fuelled engine",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 4
+  },
+  {
+    "id": 80,
+    "year": "1970",
+    "original": "Walt Disney releases animated musical \"The Aristocats\" featuring voices of Phil Harris, Eva Gabor, Hermione Baddeley, Sterling Holloway, and Scatman Crothers",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 5
+  },
+  {
+    "id": 114,
+    "year": "1971",
+    "original": "Peruvian Airlines Electra crashes at headwaters of Amazon, killing all exceptJuliane Margaret Koepckefound 10 days later",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 6
+  },
+  {
+    "id": 13,
+    "year": "1818",
+    "original": "Christmas carol \"Silent Night\" composed by Franz Xaver Gruber is first sung at St Nicholas parish church in Oberndorf, Austria",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 7
+  },
+  {
+    "id": 87,
+    "year": "1982",
+    "original": "Chaminade, with a student body of only 850 students, defeats #1 ranked Virginia 77-72 in a Honolulu holiday basketball classic",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 8
+  },
+  {
+    "id": 57,
+    "year": "1948",
+    "original": "First US completely solar heated house is occupied (Dover, Mass)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 9
+  },
+  {
+    "id": 28,
+    "year": "1895",
+    "original": "George Vanderbilt opens Biltmore estate, the largest privately owned house in America at 178,926 square feet (16,622.8 m2) in Asheville, North Carolina",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 10
+  },
+  {
+    "id": 51,
+    "year": "1936",
+    "original": "First radioactive isotope medicine is administered in Berkeley, California",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 11
+  },
+  {
+    "id": 72,
+    "year": "1966",
+    "original": "Soviet spacecraft Luna 13 lands on Moon",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 12
+  },
+  {
+    "id": 160,
+    "year": "1818",
+    "original": "James Prescott Joule, Englishphysicist(the law of conservation of energy), born in Salford, United Kingdom (d. 1889)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 13
+  },
+  {
+    "id": 110,
+    "year": "1943",
+    "original": "US PresidentFDRappoints GeneralEisenhoweras Supreme Commander of the Allied Forces",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 14
+  },
+  {
+    "id": 338,
+    "year": "1997",
+    "original": "Neeraj Chopra, Indian athlete (Olympic gold javelin 2020; first-ever Indian Olympic track & field gold), born in Panipat, Haryana, India",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 15
+  },
+  {
+    "id": 76,
+    "year": "1968",
+    "original": "Apollo 8 astronauts read passages from Book of Genesis",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 16
+  },
+  {
+    "id": 100,
+    "year": "2023",
+    "original": "Beijing breaks its 1951 record for sub-zero December temperatures, recording more than 300 hours as a record cold spell affects the north and northeast of China",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 17
+  },
+  {
+    "id": 85,
+    "year": "1980",
+    "original": "Americans remember hostages held by Iran by shining lights for 417 seconds",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 18
+  },
+  {
+    "id": 103,
+    "year": "1777",
+    "original": "James Cookis first European to visit Kiritimati, also called Christmas Island",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 19
+  },
+  {
+    "id": 84,
+    "year": "1979",
+    "original": "1st Ariane rocket launched",
+    "score": 84,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 20
+  },
+  {
+    "id": 67,
+    "year": "1956",
+    "original": "\"I Love Lucy\" Christmas show airs, never put in syndication",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 21
+  },
+  {
+    "id": 75,
+    "year": "1967",
+    "original": "Pirate Radio Pegasus starts broadcasting off New Zealand",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 22
+  },
+  {
+    "id": 34,
+    "year": "1904",
+    "original": "German South West Africa abolishes the slavery of young children",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 23
+  },
+  {
+    "id": 127,
+    "year": "1814",
+    "original": "Treaty of Ghent signed, ending the War of 1812 between the United States, the United Kingdom and their allies",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 24
+  },
+  {
+    "id": 108,
+    "year": "1939",
+    "original": "PopePius XIImakes a Christmas Eve appeal for peace during World War II",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 25
+  },
+  {
+    "id": 126,
+    "year": "563",
+    "original": "Byzantine church Hagia Sophia in Constantinople is dedicated for the second time after being destroyed by earthquakes",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 26
+  },
+  {
+    "id": 35,
+    "year": "1906",
+    "original": "Reginald Fessenden becoomes 1st to broadcast music over radio (disputed)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 27
+  },
+  {
+    "id": 262,
+    "year": "1945",
+    "original": "Nicholas Meyer, American writer and director (Star Trek II Wrath of Khan), born in New York City",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 28
+  },
+  {
+    "id": 335,
+    "year": "1991",
+    "original": "Taylor Zakhar Perez, American actor (Red, White and Royal Blue), born in Chicago, Illinois",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 29
+  },
+  {
+    "id": 207,
+    "year": "1910",
+    "original": "William \"Bill\" Pickering, NASA scientist (JPL), born in Wellington, New Zealand (d. 2004)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 30
+  },
+  {
+    "id": 150,
+    "year": "1761",
+    "original": "Jean-Louis Pons, French astronomer (greatest visual comet discoverer of all time), born in Peyre, Hautes-Alpes (d. 1831)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 31
+  },
+  {
+    "id": 218,
+    "year": "1920",
+    "original": "Evgeniya Rudneva, Russian World War II heroine, born in Berdyansk, Ukraine (d. 1944)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 32
+  },
+  {
+    "id": 294,
+    "year": "1961",
+    "original": "Mary Barra, American CEO of General Motors (1st woman to head a global automotive company), born in Waterford, Michigan",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 33
+  },
+  {
+    "id": 295,
+    "year": "1962",
+    "original": "Kate Spade, American fashion designer, born in Kansas City, Missouri (d. 2018)",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 34
+  },
+  {
+    "id": 10,
+    "year": "1734",
+    "original": "Royal Alcázar of Madrid burns down in Madrid with the lost of many artworks, though paintings of Velázquez are saved",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 35
+  },
+  {
+    "id": 59,
+    "year": "1951",
+    "original": "First opera commissioned for television - \"Amahl and the Night Visitors\" by Gian Carlo Menotti premieres on NBC with the NBC Opera Theater",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 36
+  },
+  {
+    "id": 19,
+    "year": "1853",
+    "original": "William Henry Fry's \"Santa Claus: Christmas Symphony\" premiere performance by conductor Louis Antoine Jullien's orchestra at  Metropolitan Hall, NYC",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 37
+  },
+  {
+    "id": 23,
+    "year": "1871",
+    "original": "Giusseppi Verdi's \"Aida\" opera premieres in Cairo, Egypt",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 38
+  },
+  {
+    "id": 26,
+    "year": "1889",
+    "original": "Daniel Stover and William Hance patent a bicycle with a back-pedal brake",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 39
+  },
+  {
+    "id": 37,
+    "year": "1912",
+    "original": "Irving Fisher patents archiving system with index cards",
+    "score": 55,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 40
+  },
+  {
+    "id": 50,
+    "year": "1935",
+    "original": "National Council of Negro Women forms",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 41
+  },
+  {
+    "id": 65,
+    "year": "1954",
+    "original": "Council for the Protection of Children forms in Netherlands",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 42
+  },
+  {
+    "id": 16,
+    "year": "1832",
+    "original": "HMS Beagle anchors in Wigwam Bay at Cape Receiver",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 43
+  },
+  {
+    "id": 17,
+    "year": "1849",
+    "original": "First great fire of early San Francisco starts east side of the Plaza, first of great seven fires in 2 years",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 44
+  },
+  {
+    "id": 66,
+    "year": "1954",
+    "original": "Laos gains its independence from France",
+    "score": 55,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 45
+  },
+  {
+    "id": 60,
+    "year": "1951",
+    "original": "The United Kingdom of Libya gains independence from Italy through the United Nations",
+    "score": 52,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 46
+  },
+  {
+    "id": 36,
+    "year": "1910",
+    "original": "Luisa Tetrazzini sings to 250,000 people at Lotta's Fountain, San Francisco",
+    "score": 55,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 47
+  },
+  {
+    "id": 83,
+    "year": "1977",
+    "original": "\"Ghost to the Post\", Raiders tight end Dave Casper (\"The Ghost\") catches a 42-yard reception to set up the Raiders' tying field goal near the end of regulation (Raiders win in OT)",
+    "score": 83,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 48
+  },
+  {
+    "id": 39,
+    "year": "1921",
+    "original": "Ottawa’s Harry Broadbent scores in 10-0 Senators blowout of the Montreal Canadiens; first in 16-game NHL record goal-scoring streak; Charlie Simmer’s 13 game streak (1979) is considered modern-day record",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 49
+  },
+  {
+    "id": 93,
+    "year": "1995",
+    "original": "Ballon d'Or: PSG/Milan's Liberian striker George Weah is named Europe's best football player; first edition where players born outside Europe permitted to receive votes",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 50
+  },
+  {
+    "id": 77,
+    "year": "1968",
+    "original": "Ballon d'Or: Manchester United's winger George Best wins award for best European football player ahead of teammate Bobby Charlton and Red Star Belgrade winger Dragan Džajić; first Northern Irish national to win the award",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 51
+  },
+  {
+    "id": 117,
+    "year": "1985",
+    "original": "Ballon d'Or: Juventus' French midfielderMichel Platiniis named Europe's best football player for the 3rd consecutive time; beats Verona striker Preben Elkjær and Barcelona midfielder Bernd Schuster",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 52
+  },
+  {
+    "id": 91,
+    "year": "1991",
+    "original": "Ballon d'Or: Marseille forward Jean-Pierre Papin is named Europe's best football player; first from the French League to win the trophy",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 53
+  },
+  {
+    "id": 46,
+    "year": "1927",
+    "original": "Test cricket debut of Walter Hammond, who scores 51 and takes 5-36 against South Africa",
+    "score": 68,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 55
+  },
+  {
+    "id": 89,
+    "year": "1986",
+    "original": "French hostage Aurel Cornea, held in Lebanon for 9 months, released",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 56
+  },
+  {
+    "id": 257,
+    "year": "1944",
+    "original": "Barry Chuckle [Barry Patton Elliott], British entertainer, writer and actor (ChuckleVision, The Freddie Starr Showcase), born in Rotherham, England",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 57
+  },
+  {
+    "id": 326,
+    "year": "1980",
+    "original": "Tomas Kalnoky, American musician (Streetlight Manifesto), born in Prague, Czechoslovakia",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 58
+  },
+  {
+    "id": 249,
+    "year": "1940",
+    "original": "Grigory Kriss, Russian fencer (Olympic gold individual epée 1964; silver ind. & team epée 1968; bronze team epée 1972), born in Kiev, Ukraine",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 59
+  },
+  {
+    "id": 258,
+    "year": "1944",
+    "original": "Erhard Keller, German speed skater (Olympic gold 1968, 72 500m), born in Günzburg, Germany",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 60
+  },
+  {
+    "id": 322,
+    "year": "1973",
+    "original": "Eddie Pope, soccer defender (Olympic gold 1996), born in Greensboro, North Carolina",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 62
+  }
+]

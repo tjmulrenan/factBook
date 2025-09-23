@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Speaking Up for Every Language!",
+    "story": "People around the world celebrate International Mother Language Day on February 21 to honor all the different languages spoken by families everywhere! On this special day, schools teach students about languages from other countries, libraries display books written in many different scripts, and families share stories in their native tongues. Some people post videos online speaking their mother language, while others learn a few words in a new language just for fun!",
+    "activity_question": "What do schools often do on International Mother Language Day?",
+    "activity_choices": [
+      "Teach students about languages from other countries",
+      "Only speak English all day long",
+      "Have everyone whisper instead of talk",
+      "Ban all foreign language books"
+    ],
+    "activity_answer": "Teach students about languages from other countries",
+    "follow_up_question": "What language did your family speak when your parents or grandparents were growing up?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "902",
+    "title": "Cards Tell All on Card Reading Day",
+    "story": "Fortune tellers and card enthusiasts shuffle their decks with extra excitement on February 21 for Card Reading Day! People celebrate by getting tarot card readings, learning about different card meanings, or trying to read cards themselves. Some visit psychic shops, while others gather with friends to practice card spreads at home. Social media fills with photos of colorful card layouts and mysterious predictions. Whether you believe in the magic or just enjoy the pretty artwork, it's a day to explore the ancient art of card reading.",
+    "activity_question": "What do people often share on social media during Card Reading Day?",
+    "activity_choices": [
+      "Photos of colorful card layouts",
+      "Pictures of their breakfast",
+      "Videos of dancing cats",
+      "Screenshots of video games"
+    ],
+    "activity_answer": "Photos of colorful card layouts",
+    "follow_up_question": "What questions would you want to ask if you could read cards about your future?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  },
+  {
+    "id": "903",
+    "title": "Sweet and Sticky Fun Day!",
+    "story": "Gooey cinnamon rolls covered in nuts and caramel sauce take center stage every February 21 for National Sticky Bun Day! Bakeries across the country whip up extra batches of these messy treats, while families gather in kitchens to roll dough and drizzle sweet toppings. The stickier, the better! People share photos of their gooey creations on social media, often showing off caramel-covered fingers as proof of their delicious work. Some bakeries even host sticky bun eating contests where contestants try not to get too messy while devouring these sweet spirals as fast as possible.",
+    "activity_question": "What do people often show off in their social media photos on National Sticky Bun Day?",
+    "activity_choices": [
+      "Their caramel-covered fingers",
+      "Their clean aprons",
+      "Their empty plates",
+      "Their recipe books"
+    ],
+    "activity_answer": "Their caramel-covered fingers",
+    "bonus_fact": "The stickiest sticky buns need to be eaten with a fork and knife!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "904",
+    "title": "One Thing at a Time Day",
+    "story": "Put down that phone and close those extra browser tabs! National Single Tasking Day on February 21 challenges everyone to do just one thing at a time. People celebrate by turning off notifications, focusing on single activities, and giving their full attention to whatever they're doing. Some families play board games without any screens nearby, while students try homework with zero distractions. It's surprisingly hard but feels amazing!",
+    "activity_question": "What do people turn off on National Single Tasking Day to help them focus?",
+    "activity_choices": [
+      "Notifications",
+      "Light switches",
+      "Water faucets",
+      "Car engines"
+    ],
+    "activity_answer": "Notifications",
+    "follow_up_question": "What's the hardest thing for you to focus on without getting distracted?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  }
+]

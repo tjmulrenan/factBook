@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Spelling Out Fun on Scrabble Day",
+    "story": "Every April 13, word lovers everywhere celebrate National Scrabble Day by pulling out their letter tiles and creating amazing words! People gather around kitchen tables, play online matches, and compete in tournaments to see who can score the most points. Libraries and community centers often host special Scrabble events where kids and adults can learn new strategies and discover cool words they've never heard before. Some players even try to use all seven tiles in one turn to earn a bonus 50 points!",
+    "activity_question": "How many bonus points do players earn for using all seven tiles in one turn?",
+    "activity_choices": [
+      "25 points",
+      "50 points",
+      "75 points",
+      "100 points"
+    ],
+    "activity_answer": "50 points",
+    "follow_up_question": "What's the longest word you think you could make with random Scrabble tiles?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "902",
+    "title": "Peachy Keen Cobbler Day!",
+    "story": "Sweet, bubbly peach cobbler takes center stage every April 13 during National Peach Cobbler Day! Families across America fire up their ovens to bake this classic dessert with juicy peaches and golden, crumbly topping. Restaurants add special cobbler flavors to their menus, while home bakers share their secret family recipes online. Some people host cobbler contests to see who makes the best version, complete with vanilla ice cream on top!",
+    "activity_question": "What do some people host on National Peach Cobbler Day?",
+    "activity_choices": [
+      "Cobbler contests",
+      "Peach picking races",
+      "Ice cream eating competitions",
+      "Baking tool swaps"
+    ],
+    "activity_answer": "Cobbler contests",
+    "bonus_fact": "Peach cobbler got its name because the lumpy topping looks like cobblestones on old roads!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  },
+  {
+    "id": "903",
+    "title": "National Blame Someone Else Day",
+    "story": "Every April 13, people celebrate National Blame Someone Else Day by playfully pointing fingers at everyone but themselves! This silly holiday lets you blame your messy room on your pet, your late homework on aliens, or your missing socks on sock-stealing gnomes. People share funny blame posts on social media, create ridiculous excuses with friends, and enjoy a day of creative finger-pointing. Some families play blame games where they come up with the most outrageous reasons for everyday problems. It's all about having fun with silly excuses and laughing at how creative people can get when they don't want to take responsibility for something harmless!",
+    "activity_question": "What do people blame sock-stealing gnomes for on this holiday?",
+    "activity_choices": [
+      "Missing socks",
+      "Messy rooms",
+      "Late homework",
+      "Bad weather"
+    ],
+    "activity_answer": "Missing socks",
+    "follow_up_question": "What's the silliest excuse you've ever heard someone use?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 82
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Pawsome Fashion Show Day!",
+    "story": "Pets across the country become furry fashion models every January 14 during National Dress Up Your Pet Day! Dog owners slip tiny sweaters, superhero capes, and silly hats onto their pups, while cats reluctantly model tutus and bow ties. Pet stores sell costumes year-round, but this special day gives everyone permission to go completely overboard with accessories. Social media explodes with photos of dressed-up dogs, cats, rabbits, and even guinea pigs wearing everything from princess crowns to pirate outfits. The key is making sure pets stay comfortable and happy while looking absolutely adorable in their temporary costumes.",
+    "activity_question": "What should pet owners make sure of when dressing up their pets?",
+    "activity_choices": [
+      "That pets stay comfortable and happy",
+      "That the costume costs a lot of money",
+      "That the outfit matches their own clothes",
+      "That other pets wear the same costume"
+    ],
+    "activity_answer": "That pets stay comfortable and happy",
+    "follow_up_question": "What costume would your pet look funniest wearing?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Pastrami Paradise Day!",
+    "story": "Hot pastrami sandwiches get their own special day on January 14! This tasty holiday celebrates the amazing deli sandwich made with spiced, smoked beef called pastrami. People head to their favorite delis or make their own pastrami sandwiches at home, piling the tender meat high on rye bread with mustard and pickles. Food lovers share photos of their towering sandwiches on social media, and many restaurants offer special pastrami deals to mark the day.",
+    "activity_question": "What type of bread is traditionally used for pastrami sandwiches?",
+    "activity_choices": [
+      "Rye bread",
+      "White bread",
+      "Sourdough bread",
+      "Banana bread"
+    ],
+    "activity_answer": "Rye bread",
+    "bonus_fact": "Pastrami was originally created as a way to preserve meat before refrigerators existed!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  },
+  {
+    "id": "903",
+    "title": "Think Smart on World Logic Day!",
+    "story": "Every January 14, people around the world celebrate World Logic Day by flexing their brain muscles! Schools organize puzzle competitions, libraries host riddle contests, and families challenge each other with brain teasers at dinner. Math clubs solve tricky problems together, while online communities share their favorite logic games and mind-bending questions. It's the perfect day to prove your thinking skills are sharp!",
+    "activity_question": "What do schools often organize on World Logic Day?",
+    "activity_choices": [
+      "Puzzle competitions",
+      "Dance parties",
+      "Art contests",
+      "Cooking classes"
+    ],
+    "activity_answer": "Puzzle competitions",
+    "follow_up_question": "What's your favorite type of puzzle or brain teaser to solve?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  }
+]

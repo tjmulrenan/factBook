@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Oink-tastic National Pig Day Fun!",
+    "story": "Pigs get the spotlight they deserve every March 1 on National Pig Day! People celebrate these smart, adorable animals by visiting farms, petting zoos, and pig sanctuaries to meet real pigs up close. Many families cook bacon for breakfast or ham for dinner, while others prefer to honor pigs by learning amazing facts about them instead. Schools often teach kids that pigs are actually super intelligent and can learn tricks just like dogs. Social media fills up with cute pig photos and videos of piglets playing in mud. Some people even dress up like pigs or wear pink clothes to show their pig pride for the day!",
+    "activity_question": "What do many schools teach kids about pigs on National Pig Day?",
+    "activity_choices": [
+      "That pigs are super intelligent and can learn tricks",
+      "That pigs can fly if they try hard enough",
+      "That pigs only eat vegetables",
+      "That pigs sleep standing up"
+    ],
+    "activity_answer": "That pigs are super intelligent and can learn tricks",
+    "bonus_fact": "Pigs are cleaner than most people think and only roll in mud to cool down!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Zero Discrimination Day: Everyone Belongs",
+    "story": "People around the world celebrate Zero Discrimination Day on March 1 by wearing butterfly pins and sharing messages about treating everyone fairly. Schools host special assemblies where kids learn that differences make us stronger, not weaker. Communities organize events to show that everyone deserves respect, no matter what they look like or where they come from. Social media fills with colorful butterfly photos as people promise to stand up against bullying and unfairness.",
+    "activity_question": "What symbol do people wear on Zero Discrimination Day?",
+    "activity_choices": [
+      "Butterfly pins",
+      "Rainbow ribbons",
+      "Peace signs",
+      "Heart stickers"
+    ],
+    "activity_answer": "Butterfly pins",
+    "follow_up_question": "How can you help make your school a place where everyone feels welcome?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  }
+]

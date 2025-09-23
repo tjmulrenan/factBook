@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Sweet Architecture: Gingerbread House Day",
+    "story": "Builders grab frosting instead of cement every December 12 for National Gingerbread House Day! Families across the country turn their kitchens into candy construction sites, assembling edible houses from gingerbread walls and cookie roofs. The real fun begins with decorating - people stick gumdrops like colorful bricks, pipe white icing to look like snow, and add candy canes as fence posts. Some builders go wild with chocolate shingles, pretzel stick chimneys, and marshmallow snowmen in their yards. The best part? When you're done admiring your sweet masterpiece, you get to eat it!",
+    "activity_question": "What do people use instead of cement when building on National Gingerbread House Day?",
+    "activity_choices": [
+      "Frosting",
+      "Glue",
+      "Mud",
+      "Peanut butter"
+    ],
+    "activity_answer": "Frosting",
+    "bonus_fact": "Some gingerbread houses are so elaborate they include working LED lights and tiny furniture inside!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "902",
+    "title": "Pretty Poinsettia Power Day",
+    "story": "Bright red poinsettias take center stage on December 12 during National Poinsettia Day! These festive plants with their star-shaped leaves become the stars of holiday decorating. Families visit garden centers to pick out the perfect poinsettia for their homes, while stores display hundreds of them in red, white, and pink varieties. Many people give poinsettias as gifts to spread holiday cheer to neighbors and friends.",
+    "activity_question": "What colors do poinsettias come in besides red?",
+    "activity_choices": [
+      "White and pink",
+      "Blue and purple",
+      "Orange and yellow",
+      "Black and silver"
+    ],
+    "activity_answer": "White and pink",
+    "bonus_fact": "Poinsettias are actually native to Mexico and aren't really flowers at all!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "903",
+    "title": "Roses in December: A Miracle Celebration",
+    "story": "Every December 12, millions of people celebrate the Feast of Our Lady of Guadalupe with colorful parades, beautiful flowers, and special prayers. In Mexico and around the world, families gather to honor this important day with traditional dances, mariachi music, and delicious food. Many people bring roses to churches and create stunning flower carpets on the ground. The celebration often starts before sunrise with singing and continues all day long.",
+    "activity_question": "What type of flowers do people commonly bring to celebrate this feast day?",
+    "activity_choices": [
+      "Roses",
+      "Sunflowers",
+      "Tulips",
+      "Daisies"
+    ],
+    "activity_answer": "Roses",
+    "bonus_fact": "Some people create amazing pictures using only flower petals on church floors.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  }
+]

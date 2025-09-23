@@ -1,0 +1,542 @@
+[
+  {
+    "id": 194,
+    "year": "1990",
+    "original": "The World Wide Web is first proposed by CERN computer scientistsTim Berners-Leeand Robert Cailliau",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 1
+  },
+  {
+    "id": 144,
+    "year": "2014",
+    "original": "European Space Agency's Rosetta lands the Philae probe on the comet 67P/Churyumov-Gerasimenko",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 2
+  },
+  {
+    "id": 218,
+    "year": "1966",
+    "original": "Buzz Aldrintakes the first 'space selfie', a photo of himself performing extravehicular activity in space during the Gemini 12 mission",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 3
+  },
+  {
+    "id": 93,
+    "year": "1970",
+    "original": "Scientists perform 1st artificial synthesis of a live cell",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 4
+  },
+  {
+    "id": 209,
+    "year": "2019",
+    "original": "Space western TV series set in the Star Wars franchise \"TheMandalorian\" byJon Favreauis released on Disney+",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 5
+  },
+  {
+    "id": 74,
+    "year": "1955",
+    "original": "Doc and Marty McFly are sent \"Back to the Future\" when lightning strikes the Hill Valley clock tower, at exactly 10:04 p.m. generating the power to send the DeLorean and Marty back to 1985 [fictional]",
+    "score": 74,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 6
+  },
+  {
+    "id": 285,
+    "year": "1926",
+    "original": "Jack Ryan, American toy designer, inventor, and engineer at Mattel (Barbie Doll, Hot Wheels, Chatty Cathy), born in Yonkers, New York (d. 1991)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 7
+  },
+  {
+    "id": 291,
+    "year": "1929",
+    "original": "Michael Ende, German fantasy and children's writer (The Neverending Story), born in Garmisch-Partenkirchen, Bavaria (d. 1995)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 8
+  },
+  {
+    "id": 120,
+    "year": "1988",
+    "original": "First commercial bungy jumping company begins operating near Queenstown, New Zealand, run by A. J. Hackett",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 9
+  },
+  {
+    "id": 18,
+    "year": "1859",
+    "original": "Jules Leotard performs 1st Flying Trapeze circus act (Paris) He also designed garment that bears his name",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 10
+  },
+  {
+    "id": 115,
+    "year": "1984",
+    "original": "Space shuttle astronauts snared a satellite 1st space salvage",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 11
+  },
+  {
+    "id": 105,
+    "year": "1980",
+    "original": "US space probe Voyager I approaches 77,000-mi (124,000 km) of Saturn",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 12
+  },
+  {
+    "id": 140,
+    "year": "2003",
+    "original": "Shanghai Transrapid sets a new world record for commercial railway systems with a speed of 501 km/h (311 mph)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 13
+  },
+  {
+    "id": 16,
+    "year": "1833",
+    "original": "The great Leonid Meteor shower recorded",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 14
+  },
+  {
+    "id": 420,
+    "year": "1995",
+    "original": "xQc [Félix Lengyel], Canadian YouTuber and Twitch streamer, born in Laval, Quebec",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 15
+  },
+  {
+    "id": 417,
+    "year": "1991",
+    "original": "Kathleen Herles, American child voice actress (Dora the Explorer, and Go, Diego, Go! - \"Dora\"), born in Queens, New York",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 16
+  },
+  {
+    "id": 148,
+    "year": "2019",
+    "original": "Disney launches its film and television streaming service Disney+",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 17
+  },
+  {
+    "id": 106,
+    "year": "1981",
+    "original": "1st balloon crossing of Pacific is completed (Double Eagle V)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 18
+  },
+  {
+    "id": 107,
+    "year": "1981",
+    "original": "2nd shuttle mission-1st time spacecraft launched twice (Columbia 2)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 19
+  },
+  {
+    "id": 23,
+    "year": "1894",
+    "original": "Lawrence Hargrave, Australian aeronautical pioneer and inventor of the box kite, linked four huge box kites together and flew - but remained attached to the ground by piano wire",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 20
+  },
+  {
+    "id": 48,
+    "year": "1933",
+    "original": "First known photo of so-called Loch Ness monster is taken by Hugh Gray",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 21
+  },
+  {
+    "id": 75,
+    "year": "1956",
+    "original": "Largest observed iceberg, 208 by 60 miles, 1st sighted",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 22
+  },
+  {
+    "id": 79,
+    "year": "1964",
+    "original": "Paula Murphy sets female land speed record 226.37 MPH",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 23
+  },
+  {
+    "id": 97,
+    "year": "1974",
+    "original": "A salmon is discovered in the River Thames, England, for the first time since 1833",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 24
+  },
+  {
+    "id": 28,
+    "year": "1910",
+    "original": "First possible movie stunt: A man jumps into the Hudson River from a burning balloon",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 25
+  },
+  {
+    "id": 56,
+    "year": "1941",
+    "original": "Alma Heflin, 1st female test pilot for commercial aircraft - Piper Corporation, Lock Haven, Pennsylvania",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 26
+  },
+  {
+    "id": 155,
+    "year": "2023",
+    "original": "Unprecedented heatwave in Brazil affects more than 3,000 towns with Rio de Janeiro reaching 42.5C - very high humidity makes it feel like 58.5C",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 27
+  },
+  {
+    "id": 13,
+    "year": "1799",
+    "original": "Andrew Ellicott makes the first known record of a meteor shower observation in the U.S, from a ship off the coast of Florida Keys",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 28
+  },
+  {
+    "id": 82,
+    "year": "1965",
+    "original": "Venera 2 launched by Soviet Union toward Venus",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 29
+  },
+  {
+    "id": 167,
+    "year": "1912",
+    "original": "British explorerRobert Falcon Scott's diary and body are found in Antarctica",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 30
+  },
+  {
+    "id": 157,
+    "year": "2024",
+    "original": "\"Orbital\" by British writer Samantha Harvey, set on the International Space Station, wins the 2024 Booker Prize for fiction",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 31
+  },
+  {
+    "id": 17,
+    "year": "1847",
+    "original": "Sir James Young Simpson, a British physician, is the first to use chloroform as an anaesthetic",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 32
+  },
+  {
+    "id": 341,
+    "year": "1957",
+    "original": "Tim Samaras, American tornado chaser (Storm Chasers), born in Lakewood, Colorado (d. 2013)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 33
+  },
+  {
+    "id": 227,
+    "year": "1746",
+    "original": "Jacques Charles [Jacques-Alexandre-César Charles], French inventor and balloonist, (with Nicholas Robert, was the first to take flight in a hydrogen balloon), born in Beaugency, France (d. 1823)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 34
+  },
+  {
+    "id": 163,
+    "year": "1767",
+    "original": "Meeting of the Royal Society appointsJames Cookas head of an expedition to the Pacific Ocean to observe the transit of Venus on Tahiti in 1769 (will be Cook's 1st voyage aboard HMS Endeavour)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 35
+  },
+  {
+    "id": 34,
+    "year": "1919",
+    "original": "Ross & Keith Smith start a 1 month flight from London to Australia",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 36
+  },
+  {
+    "id": 88,
+    "year": "1968",
+    "original": "US Supreme Court: Epperson v. Arkansas declares unconstitutional the Arkansas law banning the teaching of evolution in public schools",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 37
+  },
+  {
+    "id": 25,
+    "year": "1900",
+    "original": "Exposition Universelle (World's Fair) in Paris closes after 50 million visitors - Art Nouveau style dominates",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 38
+  },
+  {
+    "id": 213,
+    "year": "2021",
+    "original": "Taylor Swiftreleases her directorial debut the short film \"All Too Well\" alongside her re-recorded album \"Red (Taylor's Version)\"",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 39
+  },
+  {
+    "id": 204,
+    "year": "2016",
+    "original": "Jackie Chanawarded honorary Oscar for his film achievements at 8th Annual Governors Awards ceremony",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 40
+  },
+  {
+    "id": 314,
+    "year": "1943",
+    "original": "Brian Hyland, American rocker (\"She Wore an Itsy Bitsy Teeny Weeny Yellow Polka-Dot Bikini\"), born in Queens, New York City",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 41
+  },
+  {
+    "id": 320,
+    "year": "1944",
+    "original": "Booker T. Jones, American soul and rock organist (Booker T & MGs - \"Green Onions\"), born in Memphis, Tennessee",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 42
+  },
+  {
+    "id": 217,
+    "year": "1880",
+    "original": "Best-selling American novel \"Ben-Hur: A Tale of The Christ\" by soldier Lew Wallace is published",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 43
+  },
+  {
+    "id": 142,
+    "year": "2011",
+    "original": "Opera \"Silent Night\" by Kevin Puts opens at the Ordway Theater, St. Paul sung in English, German, French, Italian and Latin (winner 2012 Pulitzer Prize for Music)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 44
+  },
+  {
+    "id": 152,
+    "year": "2022",
+    "original": "New Zealand's Black Ferns win Women's World Rugby Championship defeating England 34-31 at Eden Park in Auckland in front of a capacity crowd",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 45
+  },
+  {
+    "id": 418,
+    "year": "1994",
+    "original": "Guillaume Cizeron, French ice dancer (Olympic gold [Gabriella Papadakis] 2022; World C'ship gold 2015–16, 18–19, 22), born in Montbrison, Loire, France",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 46
+  },
+  {
+    "id": 367,
+    "year": "1968",
+    "original": "Irina Privalova, Russian athlete (Olympic gold 400m hurdles 2000; silver 4×100m, bronze 100m 1992), born in Malakhovka, Russia",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 50
+  },
+  {
+    "id": 110,
+    "year": "1982",
+    "original": "Aaron Pryor scores a 14th round KO of Alexis Argüello in Miami to retain his WBA super lightweight boxing title in the first of 2 meetings between the Hall of Famers; The Ring’s 'Fight of the Decade'",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 51
+  },
+  {
+    "id": 197,
+    "year": "1995",
+    "original": "German Benetton driverMichael Schumachercrashes in the season-ending Australian Grand Prix in Adelaide but claims second straight F1 World Drivers Championship by 33 points from Damon Hill",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 52
+  },
+  {
+    "id": 202,
+    "year": "2012",
+    "original": "Novak Đokovićof Serbia wins his second season-ending ATP World Tour Finals tennis title beating 6-time championRoger Federer7-6, 7-5 in the final in London. England",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 53
+  },
+  {
+    "id": 46,
+    "year": "1933",
+    "original": "1st NFL football game on a Sunday at Philadelphia's Baker Bowl - sporting events on Sunday had been illegal on Sundays; Eagles tie Chicago Bears, 3-3",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 54
+  },
+  {
+    "id": 129,
+    "year": "1995",
+    "original": "Marino breaks Tarkenton's NFL all-time passing yardage mark of 47,003",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 55
+  },
+  {
+    "id": 174,
+    "year": "1942",
+    "original": "The SS Robert E. Peary, a Liberty ship built in 4 days and 15.5 hours atHenry J. Kaiser's Richmond Shipyard #2, is launched, setting a new record",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 57
+  },
+  {
+    "id": 252,
+    "year": "1896",
+    "original": "Salim Ali, Indian ornithologist 'Birdman of India', born in Bombay, British India (d. 1987)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 58
+  },
+  {
+    "id": 251,
+    "year": "1891",
+    "original": "Seth Barnes Nicholson, American astronomer who discovered four satellites of Jupiter, born in Springfield, Illinois (d. 1963)",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 59
+  },
+  {
+    "id": 283,
+    "year": "1924",
+    "original": "Audouin Dollfus, French Astronomer (discovered Janus, a moon of Saturn), born in Paris, France (d. 2010)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 60
+  },
+  {
+    "id": 276,
+    "year": "1919",
+    "original": "Welton Taylor, American microbiologist, inventor and civil rights activist (developed tests for salmonella), born in Birmingham, Alabama (d. 2012)[1]",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 61
+  },
+  {
+    "id": 245,
+    "year": "1876",
+    "original": "Archibald \"Moonlight\" Graham, American MLB baseball outfielder (New York Giants - 1 game, 1905), medical doctor, and subject of \"Field of Dreams\" film, born in Fayetteville, North Carolina (d. 1965)",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 62
+  },
+  {
+    "id": 32,
+    "year": "1915",
+    "original": "Theodore W. Richards is 1st American to win Nobel Prize in Chemistry",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 63
+  },
+  {
+    "id": 9,
+    "year": "1723",
+    "original": "Ambrose Godfrey patents a gunpowder fueled fire extinguisher system in England",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 64
+  }
+]

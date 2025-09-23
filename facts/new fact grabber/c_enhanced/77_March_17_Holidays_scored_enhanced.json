@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Green Dreams and Shamrock Schemes",
+    "story": "Everyone wears green on March 17 for Saint Patrick's Day or risks getting pinched by friends! This Irish holiday fills streets with parades featuring bagpipes, dancing, and floats covered in shamrocks. People eat corned beef and cabbage, drink green milk, and even dye entire rivers green like Chicago does every year. Kids hunt for four-leaf clovers while adults tell stories about leprechauns hiding pots of gold at rainbow's end. Cities around the world light up famous buildings in bright green to honor Ireland's patron saint and celebrate Irish culture.",
+    "activity_question": "What happens if you don't wear green on Saint Patrick's Day?",
+    "activity_choices": [
+      "You get pinched by friends",
+      "You have to eat cabbage",
+      "You turn into a leprechaun",
+      "You can't see rainbows"
+    ],
+    "activity_answer": "You get pinched by friends",
+    "bonus_fact": "The original color associated with Saint Patrick was actually blue, not green!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "902",
+    "title": "Cabbage and Corned Beef Day Delight",
+    "story": "Every March 17, kitchens across America fill with the smell of salty corned beef and tender cabbage bubbling together in big pots. This hearty meal became a tradition when Irish immigrants discovered that corned beef was cheaper than bacon in America. Today, families gather to enjoy this comfort food, especially on St. Patrick's Day, making it a double celebration of Irish-American culture and delicious dinner!",
+    "activity_question": "Why did Irish immigrants in America start eating corned beef instead of bacon?",
+    "activity_choices": [
+      "Corned beef was cheaper than bacon",
+      "Bacon wasn't invented yet",
+      "Corned beef tasted like leprechaun magic",
+      "The government made bacon illegal"
+    ],
+    "activity_answer": "Corned beef was cheaper than bacon",
+    "bonus_fact": "The \"corn\" in corned beef refers to large salt crystals, not actual corn!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "903",
+    "title": "Dive Into Submarine Day!",
+    "story": "Every March 17, people around the world celebrate the amazing underwater vessels that explore the ocean's deepest secrets! Submarine Day honors these incredible machines that can dive thousands of feet below the surface. Today, submarine enthusiasts visit maritime museums, watch submarine documentaries, and share cool underwater photos on social media. Some aquariums host special submarine-themed events where kids can learn how these vessels work. Navy bases sometimes offer tours of real submarines, letting visitors peek inside the cramped quarters where sailors live and work underwater for months at a time. It's the perfect day to discover how these metal fish navigate the mysterious depths of our oceans!",
+    "activity_question": "What do some aquariums host on Submarine Day?",
+    "activity_choices": [
+      "Special submarine-themed events",
+      "Underwater dance parties",
+      "Free submarine rides",
+      "Submarine sandwich contests"
+    ],
+    "activity_answer": "Special submarine-themed events",
+    "follow_up_question": "What would be the most exciting part of touring a real submarine?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 82
+  },
+  {
+    "id": "904",
+    "title": "Evacuation Day: Boston's Freedom Celebration",
+    "story": "Every March 17, Boston celebrates Evacuation Day to remember when British troops finally left their city during the Revolutionary War! Schools and government offices close, and many people enjoy parades with marching bands and historical displays. Some folks dress up in colonial costumes or wave American flags to honor this important moment in history.",
+    "activity_question": "What do some people wear during Evacuation Day celebrations?",
+    "activity_choices": [
+      "Colonial costumes",
+      "Superhero outfits",
+      "Pajamas",
+      "Space suits"
+    ],
+    "activity_answer": "Colonial costumes",
+    "bonus_fact": "Evacuation Day happens to fall on the same day as St. Patrick's Day!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 50
+  }
+]

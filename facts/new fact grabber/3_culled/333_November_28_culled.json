@@ -1,0 +1,542 @@
+[
+  {
+    "id": 100,
+    "year": "1983",
+    "original": "9th NASA Space Shuttle Mission: Columbia 6 launches",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 1
+  },
+  {
+    "id": 102,
+    "year": "1986",
+    "original": "Hilbert van der Duim skates 1 hour world record 39.4928 km",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 2
+  },
+  {
+    "id": 129,
+    "year": "2022",
+    "original": "Canadian scientists announce discovery of two new minerals elaliite and elkinstantonite, never seen on earth before from 'Nightfall' meteorite found in Somalia",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 3
+  },
+  {
+    "id": 140,
+    "year": "1520",
+    "original": "Portuguese navigatorFerdinand Magellanbegins crossing the Pacific Ocean",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 4
+  },
+  {
+    "id": 90,
+    "year": "1973",
+    "original": "Baltimore Oriole Al Bumbry wins AL Rookie of Year",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 5
+  },
+  {
+    "id": 136,
+    "year": "2024",
+    "original": "Archaeologists reveal the first evidence, of two different early human species coexisting in the same place, Homo Erectus and Paranthropus boisei in footprints in Kenya",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 6
+  },
+  {
+    "id": 192,
+    "year": "2012",
+    "original": "\"The Hobbit: An Unexpected Journey\" 1st of the Hobbit film series, directed byPeter Jackson, starringMartin FreemanandIan McKellen, premieres in Wellington, New Zealand",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 7
+  },
+  {
+    "id": 143,
+    "year": "1717",
+    "original": "Blackbeardattacks and captures a French merchant slave ship, which he renames as his flagship the \"Queen Anne's Revenge\"",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 8
+  },
+  {
+    "id": 158,
+    "year": "1929",
+    "original": "Richard E. Byrdmakes his 1st South Pole flight",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 9
+  },
+  {
+    "id": 171,
+    "year": "1967",
+    "original": "First radio pulsars detected by British postgraduateJocelyn Bell Burnelland her supervisor Antony Hewish at Cambridge University",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 10
+  },
+  {
+    "id": 217,
+    "year": "1772",
+    "original": "Luke Howard, British manufacturing chemist and meteorologist (nomenclature system for clouds), born in London (d. 1864)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 11
+  },
+  {
+    "id": 273,
+    "year": "1920",
+    "original": "Cecilia Colledge, British figure skater (World C'ship gold ladies singles 1937; Olympic silver 1936; first female to land a two rotation jump), born in London, England (d. 2008)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 12
+  },
+  {
+    "id": 82,
+    "year": "1964",
+    "original": "Mariner 4 launched; 1st probe to fly by Mars",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 14
+  },
+  {
+    "id": 118,
+    "year": "2018",
+    "original": "Australian state Queensland raises its fire warning to \"catastrophic\" for the first time as 130 fires burn",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 15
+  },
+  {
+    "id": 13,
+    "year": "1843",
+    "original": "Ka Lahui: Hawaiian Independence Day - The Kingdom of Hawaii is officially recognized by the United Kingdom and France as an independent nation.",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 16
+  },
+  {
+    "id": 37,
+    "year": "1929",
+    "original": "Chicago fullback Ernie Nevers sets NFL record for most points scored in a single game with all 40 in the Cardinals' 40–6 rout of Chicago Bears; Nevers has NFL record 6 touchdowns and 4 extra points",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 17
+  },
+  {
+    "id": 80,
+    "year": "1964",
+    "original": "1965 NFL Draft: Tucker Frederickson from Auburn University first pick by New York Giants",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 18
+  },
+  {
+    "id": 94,
+    "year": "1975",
+    "original": "Test Cricket debut of Michael Anthony Holding, WI v Australia Brisbane",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 19
+  },
+  {
+    "id": 131,
+    "year": "2022",
+    "original": "London's Horniman Museum, becomes first UK museum to return items, including Benin Bronzes to Nigeria, originally looted from Benin City by British troops in 1897",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 20
+  },
+  {
+    "id": 176,
+    "year": "1978",
+    "original": "Atlantic Records releases \"Briefcase Full of Blues\", the debut album by The Blues Brothers (Dan AykroydandJohn Belushi); album tops the chart and becomes best-selling blues record of all-time",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 21
+  },
+  {
+    "id": 180,
+    "year": "1982",
+    "original": "Germany'sSylvia Hanikastages remarkable comeback to upset tennis iconMartina Navratilova1–6, 6–3, 6–4 and win her only WTA Tour Championship in NYC",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 22
+  },
+  {
+    "id": 200,
+    "year": "1893",
+    "original": "Women vote in a national election for the first time, in the New Zealand general election",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 23
+  },
+  {
+    "id": 317,
+    "year": "1946",
+    "original": "Joe Dante, American film director (Matinee; Twilight Zone:The Movie; Police Squad; Gremlins), born in Morristown, New Jersey",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 24
+  },
+  {
+    "id": 328,
+    "year": "1950",
+    "original": "Russell Alan Hulse, American astrophysicist (1993 Nobel Prize for Physics for the discovery of a new type of pulsar), born in New York City",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 25
+  },
+  {
+    "id": 366,
+    "year": "1970",
+    "original": "Julie Mehretu, Ethiopian-American artist whose \"Untitled\" broke auction record for an African artist in 2023, born in Addis Ababa, Ethiopia",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 27
+  },
+  {
+    "id": 394,
+    "year": "1984",
+    "original": "Marc-Andre Fleury, Canadian ice hockey goaltender (Stanley Cup 2009, 16, 17 Pittsburgh Penguins; Vezina Trophy 2021; 5 x NHL All-Star), born in Sorel-Tracy, Quebec",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 28
+  },
+  {
+    "id": 33,
+    "year": "1922",
+    "original": "RAF Captain Cyril Turner gives the first skywriting exhibition in NYC, spelling out \"Hello USA. Call Vanderbilt 7200,\" 47,000 people call",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 30
+  },
+  {
+    "id": 75,
+    "year": "1961",
+    "original": "General Meeting of UN debates New Guinea",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 31
+  },
+  {
+    "id": 78,
+    "year": "1963",
+    "original": "The Beatles \"She Loves You\" unusually, returns to #1 in UK record chart and reaches 1 million copies sold",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 32
+  },
+  {
+    "id": 112,
+    "year": "2004",
+    "original": "Male Poʻo-uli dies of Avian malaria in the Maui Bird Conservation Center in Olinda, Hawaii before it could breed, making the species in all probability extinct",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 33
+  },
+  {
+    "id": 135,
+    "year": "2023",
+    "original": "41 Indian construction workers successfully rescued after 41 days trapped in a collapsed tunnel in Uttarakhand",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 35
+  },
+  {
+    "id": 137,
+    "year": "2024",
+    "original": "Australia is the first country to pass legislation banning children under 16-years-old from social media",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 36
+  },
+  {
+    "id": 151,
+    "year": "1909",
+    "original": "Sergei Rachmaninoff's Piano Concerto No. 3, one of the genres most difficult, premieres at the New Theatre in New York City, with the composer as soloist and the New York Symphony Society conducted by Walter Damrosch",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 37
+  },
+  {
+    "id": 153,
+    "year": "1912",
+    "original": "Ismail Qemalideclares Albania independent  in Vlorë of the Ottoman Empire after 400 hundred years of rule",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 38
+  },
+  {
+    "id": 189,
+    "year": "1999",
+    "original": "In an all-American final,Pete SamprasbeatsAndre Agassi6–1, 7–5, 6–4 to win his 5th and final ATP Tour World Championship tennis title in Hanover, Germany",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 39
+  },
+  {
+    "id": 191,
+    "year": "2010",
+    "original": "In a classic matchup,Roger Federerwins his 5th season-ending ATP World Tour Finals tennis title with a 6–3, 3–6, 6–1 victory overRafael Nadalof Spain in the final in London, England",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 40
+  },
+  {
+    "id": 232,
+    "year": "1858",
+    "original": "William Stanley, American inventor of the induction coil (electricity transformer), born in Brooklyn, New York (d. 1916)[1]",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 42
+  },
+  {
+    "id": 238,
+    "year": "1868",
+    "original": "William H. Lewis, American College football center and coach (first African-American selected as an All-American; Harvard), born in Berkley, Virginia (d. 1949)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 43
+  },
+  {
+    "id": 312,
+    "year": "1943",
+    "original": "Randy Newman, American singer-songwriter (\"Short People\"; \"You've Got a Friend in Me\"; \"Louisiana 1927\") and film score composer (The Natural; Seabiscuit; Pixar films), born in New Orleans, Louisiana",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 44
+  },
+  {
+    "id": 372,
+    "year": "1974",
+    "original": "apl.de.ap [Allan Pineda Lindo], Filipino-American rapper and producer (Black Eyed Peas - \"I Gotta Feeling\"), born in Angeles City, Philippines",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 46
+  },
+  {
+    "id": 11,
+    "year": "1814",
+    "original": "The Times of London is first printed by automatic, steam-powered presses built by German inventors Friedrich Koenig and Andreas Friedrich Bauer, making newspapers available to a mass audience",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 47
+  },
+  {
+    "id": 91,
+    "year": "1974",
+    "original": "John Lennon's last concert appearance, as a guest of Elton John, Madison Square Garden, New York City NYC; they perform \"Whatever Gets You Thru the Night\"; \"Lucy In The Sky With Diamonds\"; and \"I Saw Her Standing There\"",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 48
+  },
+  {
+    "id": 144,
+    "year": "1720",
+    "original": "Anne BonnyandMary Readare tried, found guilty of pirating, and sentenced to death in Spanish Town, Jamaica, although their discovered pregnancies win them stays of execution",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 49
+  },
+  {
+    "id": 208,
+    "year": "1640",
+    "original": "Willem de Vlamingh, Dutch sea captain who explored the then \"New Holland\", the central west coast of Australia, born in Oost-Vlieland, Dutch Republic (d. c. 1698)",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 50
+  },
+  {
+    "id": 35,
+    "year": "1925",
+    "original": "Grand Ole Opry premieres as WSM Barn Dance on WSM Radio in Nashville, Tennessee",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 51
+  },
+  {
+    "id": 70,
+    "year": "1958",
+    "original": "Legendary cricket fast bowler Wes Hall makes his Test debut for West Indies v India in 1st Test at Bombay; Hall's match figures 4/107",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 52
+  },
+  {
+    "id": 149,
+    "year": "1906",
+    "original": "CanadianTommy Burnsretains his world heavyweight boxing title after being pushed to a 20-round draw byPhiladelphia Jack O'Brienin Los Angeles, California",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 54
+  },
+  {
+    "id": 160,
+    "year": "1932",
+    "original": "Groucho Marxperforms on radio for the first time",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 55
+  },
+  {
+    "id": 163,
+    "year": "1938",
+    "original": "Dmitri Shostakovich's Suite for Jazz Orchestra No. 2 premieres in Moscow, USSR",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 56
+  },
+  {
+    "id": 184,
+    "year": "1989",
+    "original": "Queen Latifahreleases her debut hip hop album \"All Hail the Queen\" featuring single \"Ladies First\"",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 57
+  },
+  {
+    "id": 190,
+    "year": "2005",
+    "original": "Ballon d'Or: FC Barcelona's Brazilian midfielderRonaldinhois named best football player in Europe ahead of Chelsea midfielder Frank Lampard and Liverpool's Steven Gerrard",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 58
+  },
+  {
+    "id": 193,
+    "year": "2015",
+    "original": "British boxerTyson Furybeats UkrainianWladimir Klitschkoby unanimous decision to win WBA, WBO, IBF, IBO, The Ring magazine and lineal heavyweight titles in Düsseldorf, Germany; ends Klitschko's 9 year reign as champion",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 59
+  },
+  {
+    "id": 195,
+    "year": "2016",
+    "original": "Musical \"Hamilton\" starringLin-Manuel MirandaandAnthony Ramossets new record for most money earned in a week on Broadway - $3.3 million",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 60
+  },
+  {
+    "id": 228,
+    "year": "1853",
+    "original": "Helen Magill White, American educator and 1st woman to earn a Ph.D. in the U.S., born in Providence, Rhode Island (d. 1944)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 62
+  },
+  {
+    "id": 268,
+    "year": "1914",
+    "original": "Gertrude Jeannette, African American taxi driver, playwright and film and stage actress (Shaft, Cotton Comes to Harlem), born in Urbana, Arkansas (d. 2018)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 63
+  },
+  {
+    "id": 352,
+    "year": "1964",
+    "original": "Jesse Cook, French Canadian jazz-flamenco guitarist (Free Fall), born in Paris, France",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 65
+  },
+  {
+    "id": 367,
+    "year": "1970",
+    "original": "Richard Osman, English TV presenter (Pointless), comedian and author (Thursday Murder Club), born in Billericay, England",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 66
+  },
+  {
+    "id": 390,
+    "year": "1983",
+    "original": "Rostam [Batmanglij], Iranian-American songwriter, keyboardist, composer, arranger, and record producer (Vampire Weekend, 2006-16 - \"A-Punk\"; \"Oxford Comma\"), born in Washington, D.C.",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 67
+  },
+  {
+    "id": 392,
+    "year": "1984",
+    "original": "Andrew Bogut, Australian basketball center (2005 NBA Draft #1 pick Milwaukee Bucks; NBA C'ship 2015 GS Warriors), born in Melbourne, Australia",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 68
+  },
+  {
+    "id": 2,
+    "year": "1443",
+    "original": "Albanian George Kastriotis Skanderbeg and his forces liberate Kruja in Middle Albania from the Ottomans and raise the Albanian flag.",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 69
+  }
+]

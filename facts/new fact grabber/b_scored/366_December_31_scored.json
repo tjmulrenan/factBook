@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "original": "New Year's Eve",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "National Champagne Day",
+    "score": 31,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 3,
+    "original": "Make Up Your Mind Day",
+    "score": 60,
+    "is_kid_friendly": true
+  }
+]

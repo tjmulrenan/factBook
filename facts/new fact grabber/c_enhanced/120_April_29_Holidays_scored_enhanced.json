@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Dance Your Heart Out Day!",
+    "story": "Every April 29, dancers around the world celebrate International Dance Day by moving to the beat! Professional dance companies put on special performances, while dance studios host open classes where anyone can try ballet, hip-hop, or salsa. Schools organize dance-offs in gymnasiums, and social media fills with videos of people showing off their best moves. Some cities even close streets for massive dance parties where hundreds of people groove together. Whether you're a trained dancer or someone who just loves to wiggle, this day encourages everyone to express themselves through movement and discover the joy that comes from dancing.",
+    "activity_question": "What do dance studios typically do on International Dance Day?",
+    "activity_choices": [
+      "Host open classes for anyone to try",
+      "Close for the entire day",
+      "Only teach robot dancing",
+      "Give away free dance shoes"
+    ],
+    "activity_answer": "Host open classes for anyone to try",
+    "follow_up_question": "What dance style would you most like to learn and why?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "902",
+    "title": "Shrimp Scampi Gets Its Special Day!",
+    "story": "Garlic sizzles in butter while shrimp dance around hot pans across America on April 29! National Shrimp Scampi Day celebrates this delicious Italian-American dish that makes kitchens smell amazing. Restaurants offer special scampi deals, and home cooks share their secret recipes online. The dish combines juicy shrimp with garlic, butter, white wine, and pasta for a meal that tastes fancy but is surprisingly easy to make.",
+    "activity_question": "What makes kitchens smell amazing when people cook shrimp scampi?",
+    "activity_choices": [
+      "Garlic sizzling in butter",
+      "Boiling pasta water",
+      "Fresh ocean breeze",
+      "Lemon juice and herbs"
+    ],
+    "activity_answer": "Garlic sizzling in butter",
+    "bonus_fact": "Scampi actually means \"little lobster\" in Italian!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "903",
+    "title": "Zip It Up for Zipper Day!",
+    "story": "Every zipper on your jacket, backpack, and jeans gets its moment to shine on April 29 during National Zipper Day! People celebrate this handy invention by sharing photos of their coolest zippers, from sparkly ones on boots to giant zippers on sleeping bags. Some folks even wear as many zippered items as possible or post zipper art online. It's amazing how this simple metal track keeps our stuff secure and our clothes closed every single day!",
+    "activity_question": "How do people celebrate National Zipper Day?",
+    "activity_choices": [
+      "By sharing photos of their coolest zippers",
+      "By never using zippers all day",
+      "By eating zipper-shaped cookies only",
+      "By zipping their mouths shut"
+    ],
+    "activity_answer": "By sharing photos of their coolest zippers",
+    "bonus_fact": "The zipper was originally called a \"clasp locker\" when it was first invented!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "904",
+    "title": "Making Dreams Come True Day",
+    "story": "Every April 29, people around the world celebrate World Wish Day by supporting kids with serious illnesses and their biggest dreams. This special day started when the Make-A-Wish Foundation was created to grant wishes for children facing tough medical challenges. Today, thousands of volunteers, donors, and supporters share stories on social media, raise money, and help make magical moments happen. Some kids wish to meet their favorite celebrities, visit amazing places, or even become superheroes for a day. Communities organize fundraising events, and people wear blue to show their support for wish kids everywhere.",
+    "activity_question": "What do people often wear on World Wish Day to show their support?",
+    "activity_choices": [
+      "Blue clothing",
+      "Superhero costumes",
+      "Wish bracelets",
+      "Magic hats"
+    ],
+    "activity_answer": "Blue clothing",
+    "bonus_fact": "The first wish ever granted was for a boy who wanted to be a police officer.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  }
+]

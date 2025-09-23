@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "International Men's Day Celebrates Dads and Dudes",
+    "story": "Every November 19, people around the world celebrate International Men's Day! This special day honors the positive contributions men make as fathers, brothers, teachers, and friends. People share appreciation posts on social media, schools talk about male role models, and families take time to thank the important men in their lives.",
+    "activity_question": "What do people commonly do on International Men's Day?",
+    "activity_choices": [
+      "Share appreciation posts on social media",
+      "Eat only blue-colored foods",
+      "Wear backwards baseball caps",
+      "Build treehouses together"
+    ],
+    "activity_answer": "Share appreciation posts on social media",
+    "follow_up_question": "Who is an important male role model in your life and why?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 45
+  },
+  {
+    "id": "902",
+    "title": "World Toilet Day: A Flush of Fun Facts",
+    "story": "Every November 19, people around the world celebrate World Toilet Day! This special day reminds everyone how important clean bathrooms are for staying healthy. Schools teach kids about handwashing, communities build new toilets in places that need them, and families talk about keeping bathrooms clean. It might sound silly, but toilets save lives by keeping germs away from our water and food!",
+    "activity_question": "What is the main purpose of World Toilet Day?",
+    "activity_choices": [
+      "To remind people how important clean bathrooms are for health",
+      "To have toilet paper decorating contests",
+      "To celebrate the invention of the first toilet",
+      "To teach people how to fix broken toilets"
+    ],
+    "activity_answer": "To remind people how important clean bathrooms are for health",
+    "follow_up_question": "What would happen if your community didn't have any clean toilets?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "903",
+    "title": "Fizz, Buzz, and Bubbles Galore!",
+    "story": "Pop open a can and celebrate National Carbonated Beverage With Caffeine Day on November 19! This bubbly holiday honors all those fizzy drinks that give people an extra boost of energy. From classic colas to sparkling energy drinks, caffeinated sodas have been keeping people alert and happy for over a century. Today, fans celebrate by trying new flavors, sharing their favorite fizzy drinks with friends, or even creating homemade sodas with caffeine. Some people post photos of their bubble-filled beverages on social media, while others organize taste tests to find the perfect fizzy combo. It's a day when that satisfying \"pop\" and energizing buzz come together for pure refreshment!",
+    "activity_question": "What do people often do on social media to celebrate this fizzy holiday?",
+    "activity_choices": [
+      "Post photos of their bubble-filled beverages",
+      "Share videos of themselves sleeping",
+      "Write poems about water",
+      "Draw pictures of flat drinks"
+    ],
+    "activity_answer": "Post photos of their bubble-filled beverages",
+    "bonus_fact": "The first caffeinated cola was invented in 1886 by a pharmacist!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "904",
+    "title": "Rolling in Dough on Monopoly Day",
+    "story": "Families across America break out their favorite board game on November 19 for National Play Monopoly Day! Players gather around kitchen tables and living room floors, ready to buy properties, collect rent, and hopefully avoid landing on Boardwalk with a hotel. Some people host Monopoly tournaments with friends, while others stick to the classic family game that might last for hours. Social media fills with photos of game boards and playful arguments about house rules. Whether you're the top hat, the dog, or the race car, this day celebrates one of the world's most beloved board games.",
+    "activity_question": "What do players try to avoid landing on during Monopoly?",
+    "activity_choices": [
+      "Boardwalk with a hotel",
+      "The starting square",
+      "Their own properties",
+      "The dice"
+    ],
+    "activity_answer": "Boardwalk with a hotel",
+    "follow_up_question": "What's your favorite Monopoly game piece and why?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  }
+]

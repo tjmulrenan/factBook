@@ -1,0 +1,542 @@
+[
+  {
+    "id": 45,
+    "year": "1954",
+    "original": "Plans to build Disneyland 1st announced [see Jan 26]",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 1
+  },
+  {
+    "id": 126,
+    "year": "2021",
+    "original": "New study suggests the asteroid that wiped out the dinosaurs 66 million years ago created South America's tropical rainforests",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 2
+  },
+  {
+    "id": 146,
+    "year": "1931",
+    "original": "17-year old girl Jackie Mitchell strikes out New York Yankees starsBabe RuthandLou Gehrigin an exhibition baseball game at Engel Stadium in Chattanooga, Tennessee",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 3
+  },
+  {
+    "id": 144,
+    "year": "1921",
+    "original": "Albert Einsteinlectures in New York City on his new \"Theory of Relativity\"",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 4
+  },
+  {
+    "id": 188,
+    "year": "1877",
+    "original": "1st human cannonball act performed by 14-year-old Rossa Matilda Richter known as Zazel at the Royal Aquarium in London",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 5
+  },
+  {
+    "id": 48,
+    "year": "1958",
+    "original": "Wind speed reaches a record 450 kph in tornado, Wichita Falls, Texas",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 6
+  },
+  {
+    "id": 128,
+    "year": "2023",
+    "original": "Footage of deepest living fish ever recorded, the snailfish, released caught on camera at depth of 27,349 feet (8,336 meters) in the Izu-Ogasawara Trench, south of Japan",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 7
+  },
+  {
+    "id": 147,
+    "year": "1932",
+    "original": "\"Tarzanthe Ape Man\" released starring Olympic swimmerJohnny Weissmullerin the first of his 12 Tarzan films",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 8
+  },
+  {
+    "id": 154,
+    "year": "1968",
+    "original": "\"2001A Space Odyssey\" directed byStanley Kubrickand starring Keir Dullea and Gary Lockwood, premieres at the Uptown Theater in Washington, D.C.",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 9
+  },
+  {
+    "id": 58,
+    "year": "1966",
+    "original": "Soviet Union's Luna 10 becomes 1st spacecraft to orbit Moon",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 10
+  },
+  {
+    "id": 149,
+    "year": "1935",
+    "original": "Scottish physicistRobert Watson-Wattreceives a British patents for RADAR",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 11
+  },
+  {
+    "id": 123,
+    "year": "2020",
+    "original": "New study shows western Antarctica once swampy with temperate forests 93-83 million years ago during Cretaceous period, according to Alfred Wegener Institute",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 12
+  },
+  {
+    "id": 129,
+    "year": "2023",
+    "original": "Lake Tulare, once the largest body of water west of the Mississippi, re-emerges after a series of storms in California's Central Valley to cover 160 square miles",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 13
+  },
+  {
+    "id": 121,
+    "year": "2019",
+    "original": "NASA states it wants to send astronauts to Mars by 2033, and land on the Moon again in 2024",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 14
+  },
+  {
+    "id": 104,
+    "year": "2005",
+    "original": "Bubba Stewart becomes first African-American to win a major motor sports event when he takes out the Monster Energy AMA Supercross C'ship event in Irving, Texas",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 15
+  },
+  {
+    "id": 75,
+    "year": "1978",
+    "original": "Georges de Mestral's patent for \"velvet type fabric\" expires, puts \"Velcro\" in the open market",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 16
+  },
+  {
+    "id": 53,
+    "year": "1962",
+    "original": "First official panda crossing opens outside Waterloo Station in London",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 17
+  },
+  {
+    "id": 164,
+    "year": "1980",
+    "original": "In his first full season in the NHL,Wayne Gretzkyscores for Edmonton in a 1-1 tie with Minnesota North Stars to become the youngest player to reach 50 goals at 19 years and 2 months of age",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 18
+  },
+  {
+    "id": 354,
+    "year": "1959",
+    "original": "Brian Goodell, American swimmer who won Olympic gold 400m WR 3:51.93, 1500m WR 15:02.40 1976, born in Stockton, California",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 57
+  },
+  {
+    "id": 12,
+    "year": "1845",
+    "original": "H L Fizeau & Leon Foucault take 1st photo of the Sun",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 20
+  },
+  {
+    "id": 141,
+    "year": "1912",
+    "original": "RMS Titanicundergoes sea trials under its own power",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 21
+  },
+  {
+    "id": 119,
+    "year": "2019",
+    "original": "Canada is warming at twice the speed of the rest of the world, according to a federal report, increasing 2.3% in northern Canada",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 22
+  },
+  {
+    "id": 21,
+    "year": "1877",
+    "original": "1st Easter egg roll held on White House lawn",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 23
+  },
+  {
+    "id": 51,
+    "year": "1960",
+    "original": "Mabry Harper catches a world record 25lb Walleye at Cedar Bluff on the Cumberland River in Tennessee",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 24
+  },
+  {
+    "id": 322,
+    "year": "1945",
+    "original": "Lord Skelmersdale [Roger Bootle-Wilbraham], British politician and horticulturalist who created Britain's first toad tunnel, born in England (d. 2018)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 26
+  },
+  {
+    "id": 150,
+    "year": "1942",
+    "original": "USS Hornet with Jimmy Doolittles B-25 departs from San Francisco",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 27
+  },
+  {
+    "id": 28,
+    "year": "1902",
+    "original": "Electric Theatre, the first full-time movie theater in the United States, opens in Los Angeles, California",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 28
+  },
+  {
+    "id": 20,
+    "year": "1872",
+    "original": "US engineer George Brayton patents an internal combustion engine (Brayton Cycle)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 29
+  },
+  {
+    "id": 272,
+    "year": "1926",
+    "original": "Jack Brabham, Australian auto racer and team owner (World F1 champion 1959, 60, 66 [only man to win F1 C'ship driving one of his own cars]), born in Sydney, Australia (d. 2014)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 30
+  },
+  {
+    "id": 277,
+    "year": "1927",
+    "original": "Ferenc Puskás, Hungarian soccer forward (Hungary 85 caps, Spain 4; Real Madrid, Budapest Honvéd) and manager (Panathinaikos), born in Budapest, Hungary (d. 2006)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 31
+  },
+  {
+    "id": 307,
+    "year": "1940",
+    "original": "Mike Hailwood, British motorcycle road racer (World C'ships: 250cc – 1961, 1966, 1967; 350cc – 1966, 1967; 500cc –1962-65; 76 Grand Prix wins), born in Great Milton, England (d. 1981)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 32
+  },
+  {
+    "id": 166,
+    "year": "1983",
+    "original": "New York Islanders right wingMike Bossyscores in a 6-3 win over the Pittsburgh Penguins to become the first player in NHL history to score 60 goals in 3 consecutive seasons",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 33
+  },
+  {
+    "id": 87,
+    "year": "1989",
+    "original": "Calgary Flames right wing Joe Mullen sets new NHL record for most points in a season by a American-born player, with a goal and 2 assists in a 4-2 win over Edmonton Oilers gives him 110 points",
+    "score": 87,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 46
+  },
+  {
+    "id": 122,
+    "year": "2019",
+    "original": "OKC guard Russell Westbrook becomes 2nd player in NBA history to have 20+ points, rebounds and assists in a game; records 20-20-21 in 119-103 win over LA Lakers",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 35
+  },
+  {
+    "id": 181,
+    "year": "2011",
+    "original": "ICC Men's Cricket ODI World Cup, Wankhede Stadium, Mumbai, India: India beats Sri Lanka by 6 wickets for their second title; Player of the Match:MS Dhoni(IND) 91 no (79)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 36
+  },
+  {
+    "id": 98,
+    "year": "1996",
+    "original": "Vancouver Grizzlies beat Minnesota Timberwolves, 105-103 at General Motors Place Arena to end their NBA single-season record 23-game consecutive loss streak",
+    "score": 98,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 48
+  },
+  {
+    "id": 174,
+    "year": "1996",
+    "original": "Sri Lankan cricket batsmanSanath Jayasuriyahits century in 48 balls (134 off 65), in 34 run win over Pakistan in Singapore; world ODI record",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 41
+  },
+  {
+    "id": 177,
+    "year": "2001",
+    "original": "Seattle outfielderIchiro Suzukihas 2 hits and becomes first Japanese position player to play in a regular season MLB game as Mariners beat Oakland A's, 5-4 at Safeco Field",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 42
+  },
+  {
+    "id": 178,
+    "year": "2003",
+    "original": "At 27 years, 249 days Texas Rangers infielderAlex Rodriguezbecomes the youngest MLB player to hit 300 home runs; homers off Ramon Ortiz in 5th inning of an 11-5 loss to the Angels in Anaheim",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 44
+  },
+  {
+    "id": 94,
+    "year": "1995",
+    "original": "Longest strike in American major league sports history (232 days) ends as MLB owners accept players’ offer to return to work without a contract; MLB is the first major pro sports league to lose an entire postseason due to a labor dispute",
+    "score": 94,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 51
+  },
+  {
+    "id": 92,
+    "year": "1993",
+    "original": "Cleveland Cavaliers guard Mark Price has his consecutive free throw streak end at 77, during a 114-113 loss at Charlotte; falls 1 short of Calvin Murphy’s NBA record of 78 straight free throws",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 47
+  },
+  {
+    "id": 100,
+    "year": "2000",
+    "original": "Adam Gilchrist takes his 10th catch in the 3rd cricket Test against New Zealand in Hamilton to create an Australian record for dismissals by a wicketkeeper; Australia wins by 6 wickets for 3-0 series sweep",
+    "score": 100,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 49
+  },
+  {
+    "id": 361,
+    "year": "1960",
+    "original": "Linford Christie, British athlete (Olympic gold men's 100m 1992), born in Saint Andrew, Jamaica",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 55
+  },
+  {
+    "id": 90,
+    "year": "1992",
+    "original": "Space Shuttle STS-45 (Atlantis 11) lands",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 58
+  },
+  {
+    "id": 52,
+    "year": "1962",
+    "original": "\"Eye of the Needle\", a revolving restaurant, opens atop the Space Needle at the Century 21 Exposition (World's Fair) in Seattle, Washington; designed by architect John Graham, Jr",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 59
+  },
+  {
+    "id": 140,
+    "year": "1881",
+    "original": "Sixth Impressionist Exhibition opens in Paris organized byEdgar Degasand showing his famous \"Little Dancer of Fourteen Years\", the only sculpture shown in his lifetime",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 61
+  },
+  {
+    "id": 132,
+    "year": "2025",
+    "original": "Powerful spring storms begin crossing the US Midwest and mid-South, killing at least 23 people in Kentucky, Arkansas, Tennessee and Missouri",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 63
+  },
+  {
+    "id": 276,
+    "year": "1927",
+    "original": "Des Bartlett [Norman Desmond Bartlett], Australian wildlife photographer and documentarian (The Flight of the Snow Geese, Survivors of the Skeleton Coast), born in Canungra, Australia (d. 2009)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 64
+  },
+  {
+    "id": 228,
+    "year": "1891",
+    "original": "Max Ernst, German-French surrealist painter and sculptor (founded surrealism), born in Brühl, German Empire (d. 1976)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 65
+  },
+  {
+    "id": 262,
+    "year": "1922",
+    "original": "Nicolay G. Basov, Soviet physicist who specialized in quantum electronics (laser, maser) and 1964 Nobel laureate, born in Usman, Russia (d. 2001)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 66
+  },
+  {
+    "id": 313,
+    "year": "1942",
+    "original": "Leon Russell [Claude Russell Bridges], American musician and singer-songwriter (\"Tight Rope\"; \"Delta Lady\"; \"Carney\"), born in Lawton, Oklahoma (d. 2016)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 67
+  },
+  {
+    "id": 312,
+    "year": "1942",
+    "original": "Hiroyuki Sakai, Japanese chef who specializes in French cuisine (Iron Chef), born in Izumi, Kagoshima, Japan",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 68
+  },
+  {
+    "id": 248,
+    "year": "1911",
+    "original": "Charles \"Honi\" Coles, American actor and tap dancer (Tito Suarez-Dirty Dancing), born in Philadelphia, Pennsylvania (d. 1992)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 69
+  },
+  {
+    "id": 249,
+    "year": "1912",
+    "original": "Herbert Mills, American jazz and pop singer and vocal trumpet (The Mills Brothers - \"Paper Doll\", \"Up A Lazy River\", \"The Glow-Worm\"), born in Piqua, Ohio (d. 1989)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 70
+  },
+  {
+    "id": 257,
+    "year": "1918",
+    "original": "Charles White, American artist (The Contribution of the Negro to American Democracy), born in Chicago, Illinois (d. 1979)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 71
+  },
+  {
+    "id": 365,
+    "year": "1962",
+    "original": "Mark Shulman, American children's author (Scrawl), born in Rochester, New York",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 72
+  },
+  {
+    "id": 371,
+    "year": "1966",
+    "original": "Garnett Silk [Garnet Smith], Jamaican reggae singer and songwriter (Hey Mama Africa; Greenline), born in Manchester, Jamaica (d. 1994)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 73
+  },
+  {
+    "id": 337,
+    "year": "1951",
+    "original": "Ayako Okamoto, Japanese golfer (US Open 1987 runner-up, 17 LPGA Tour titles), born in Hiroshima, Japan",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 74
+  },
+  {
+    "id": 357,
+    "year": "1959",
+    "original": "Gelindo Bordin, Italian athlete (Olympic gold marathon 1988), born in Vicenza, Italy",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 75
+  },
+  {
+    "id": 332,
+    "year": "1948",
+    "original": "Joan D. Vinge, American sci-fi author (2 Hugos, Dune), born in Baltimore, Maryland",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 79
+  }
+]

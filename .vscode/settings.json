@@ -22,10 +22,5 @@
   "editor.formatOnSave": true,
 
   // Tell VS Code not to validate mcp.json
-  "json.schemas": [
-    {
-      "fileMatch": ["mcp.json"],
-      "schema": {}
-    }
-  ]
-}
+  "json.schemas": [{ "fileMatch": ["mcp.json"], "schema": {} }],
+

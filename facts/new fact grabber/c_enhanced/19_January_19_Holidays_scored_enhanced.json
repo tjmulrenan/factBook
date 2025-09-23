@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Pop Goes the Holiday!",
+    "story": "Every kernel counts on National Popcorn Day, celebrated on January 19! People across America celebrate this crunchy holiday by popping their favorite flavors and sharing bowls of the fluffy snack. Movie theaters offer special deals, families host popcorn-tasting parties with flavors like caramel, cheese, and chocolate drizzle, and social media fills with photos of creative popcorn recipes. Some people try making popcorn from scratch on the stove, while others experiment with wild toppings like sriracha or cotton candy seasoning. It's amazing that this simple grain can puff up to 40 times its original size when heated!",
+    "activity_question": "According to the story, how many times its original size can popcorn puff up when heated?",
+    "activity_choices": [
+      "40 times",
+      "20 times",
+      "100 times",
+      "10 times"
+    ],
+    "activity_answer": "40 times",
+    "bonus_fact": "Americans eat about 17 billion quarts of popcorn every year!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "902",
+    "title": "Tin Can Day: Celebrating Metal Marvels",
+    "story": "Every January 19, people celebrate National Tin Can Day by appreciating one of the world's most useful inventions! Families clean out their pantries and count how many canned foods they have. Some people create fun art projects using empty cans, turning them into planters, pencil holders, or even musical instruments. Restaurants and food banks often highlight how canned goods help feed communities year-round. It's amazing that these simple metal containers keep our food fresh for years!",
+    "activity_question": "What do some people make with empty tin cans on this holiday?",
+    "activity_choices": [
+      "Art projects and useful items",
+      "Paper airplanes",
+      "Birthday cakes",
+      "Magic potions"
+    ],
+    "activity_answer": "Art projects and useful items",
+    "bonus_fact": "The first tin cans were so thick that soldiers used hammers and chisels to open them!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  }
+]

@@ -1,0 +1,542 @@
+[
+  {
+    "id": 100,
+    "year": "1973",
+    "original": "Pirates of Caribbean ride opens at Disneyland",
+    "score": 100,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 1
+  },
+  {
+    "id": 95,
+    "year": "1970",
+    "original": "Soviet Venera 7 is the first spacecraft to land on another planet (Venus)",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 2
+  },
+  {
+    "id": 144,
+    "year": "2013",
+    "original": "China successfully lands its moon rover on the moon",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 3
+  },
+  {
+    "id": 189,
+    "year": "1979",
+    "original": "Chris Haneyand Scott Abbott develop the board game Trivial Pursuit",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 4
+  },
+  {
+    "id": 78,
+    "year": "1954",
+    "original": "US Scientists involved in secret Project Superpressure at GE Research Labs realized they have synthesized diamonds for the first time",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 5
+  },
+  {
+    "id": 133,
+    "year": "2001",
+    "original": "The Leaning Tower of Pisa reopens after 11 years and $27,000,000 to fortify it, without fixing its famous lean",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 6
+  },
+  {
+    "id": 37,
+    "year": "1903",
+    "original": "NY Wall Street vendor Italo Marchiony [Marcioni] granted patent for a mound for making ice cream cones",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 7
+  },
+  {
+    "id": 86,
+    "year": "1965",
+    "original": "Gemini 6 launched; makes 1st rendezvous in space (with Gemini 7)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 8
+  },
+  {
+    "id": 153,
+    "year": "2018",
+    "original": "Egyptian Archaeologists announce discovery of 4,400 year old tomb of Fifth Dynasty priest in Saqqara pyramid complex near Cairo",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 9
+  },
+  {
+    "id": 141,
+    "year": "2009",
+    "original": "Boeing's new 787 Dreamliner makes its maiden flight from Seattle, Washington.",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 10
+  },
+  {
+    "id": 387,
+    "year": "1972",
+    "original": "Lee Jung-jae, South Korean actor (Squid Game), born in Seoul, South Korea",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 11
+  },
+  {
+    "id": 12,
+    "year": "1612",
+    "original": "German astronomer Simon Marius is the first to observe the Andromeda Galaxy through a telescope",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 12
+  },
+  {
+    "id": 118,
+    "year": "1984",
+    "original": "USSR launches Vega 1 for rendezvous with Halley's Comet",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 13
+  },
+  {
+    "id": 169,
+    "year": "1929",
+    "original": "Swiss pilotWalter Mittelholzeris the first to fly over Mt. Kilimanjaro",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 14
+  },
+  {
+    "id": 164,
+    "year": "1488",
+    "original": "Bartolomeu Diasreturns to Portugal after becoming 1st known European to sail round the Cape of Good Hope",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 15
+  },
+  {
+    "id": 87,
+    "year": "1966",
+    "original": "Audouin Dollfus discovers 10th satellite of Saturn, Janus",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 16
+  },
+  {
+    "id": 33,
+    "year": "1874",
+    "original": "Henry Bergh, Eldgridge Gerry, and philanthropist John D. Wright found the Society for the Prevention of Cruelty to Children in NYC, the world's first anti-child abuse agency. Later known as The New York Society for the Prevention of Cruelty to Children (NYSPCC).",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 17
+  },
+  {
+    "id": 216,
+    "year": "1791",
+    "original": "US Bill of Rights ratified when Virginia gives its approval, becomes amendments 1-10 of the US constitution",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 18
+  },
+  {
+    "id": 382,
+    "year": "1969",
+    "original": "Chantal Petitclerc, Canadian wheelchair athlete (14 x Olympic gold 1996, 2000, 04, 08) and politician (Senator for Grandville, Quebec), born in Saint-Marc-des-Carrières, Quebec",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 19
+  },
+  {
+    "id": 176,
+    "year": "1955",
+    "original": "\"Folsom Prison Blues\" single released byJohnny Cash(Billboard Song of the Year 1968)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 20
+  },
+  {
+    "id": 199,
+    "year": "1997",
+    "original": "\"Spice World\" movie directed by Bob Spiers and starring girl pop group theSpice Girlspremieres in the UK",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 21
+  },
+  {
+    "id": 271,
+    "year": "1899",
+    "original": "Harold Abrahams, British athlete (Olympic gold 100m, silver 4x100m 1924; depicted in film \"Chariots of Fire\"), born in Bedford, England (d. 1978)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 22
+  },
+  {
+    "id": 52,
+    "year": "1925",
+    "original": "1st hockey game at Madison Square Garden, NYC: Montreal Canadiens 3, NY Americans 1",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 23
+  },
+  {
+    "id": 57,
+    "year": "1935",
+    "original": "In major upset, Dutch grand master Max Euwe becomes World Chess Champion beating Russian Alexander Alekhine (9 wins, 13 draws, 8 losses) in Zandvoort, Netherlands",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 24
+  },
+  {
+    "id": 65,
+    "year": "1941",
+    "original": "USS Swordfish becomes 1st US sub to sink a Japanese ship",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 25
+  },
+  {
+    "id": 89,
+    "year": "1967",
+    "original": "The Beatles release fan-club single \"Christmas Time is Here Again\"",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 26
+  },
+  {
+    "id": 200,
+    "year": "1997",
+    "original": "SF 49ers retireJoe Montana's #16",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 27
+  },
+  {
+    "id": 202,
+    "year": "2006",
+    "original": "American blues legendB.B. Kingis awarded the Presidential Medal of Freedom by US PresidentGeorge W. Bush",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 28
+  },
+  {
+    "id": 409,
+    "year": "1983",
+    "original": "Wang Hao, Chinese table tennis player (World C'ship gold 2009; Olympic silver, 2004, 08, 12), born in Changchun, Jilin Province, China",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 29
+  },
+  {
+    "id": 413,
+    "year": "1986",
+    "original": "Keylor Navas, Costa Rican soccer goalkeeper (100 caps 2021; Lavante UD, Real Madrid, Paris Saint-Germain), born in Pérez Zeledón, Costa Rica",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 30
+  },
+  {
+    "id": 419,
+    "year": "1991",
+    "original": "Alana Haim, American singer (Haim) and actress (Licorice Pizza), born in Los Angeles, California",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 31
+  },
+  {
+    "id": 418,
+    "year": "1988",
+    "original": "Marc Rebillet [Loop Daddy], American musician and YouTuber, born in Dallas, Texas",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 32
+  },
+  {
+    "id": 355,
+    "year": "1952",
+    "original": "Julie Taymor, American film and stage director (The Lion Kong, Frida), born in Newton, Massachusetts",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 33
+  },
+  {
+    "id": 317,
+    "year": "1933",
+    "original": "(Thomas) \"Tim\" Conway, American Emmy Award-winning comic actor and screenwriter (McHale's Navy; The Carol Burnett Show, 1975-78; The Apple Dumpling Gang), born in Willoughby, Ohio (d. 2019)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 34
+  },
+  {
+    "id": 381,
+    "year": "1968",
+    "original": "Garrett Wang, American actor (Star Trek Voyager), born in Riverside, California",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 35
+  },
+  {
+    "id": 406,
+    "year": "1983",
+    "original": "Brooke Fraser (Ligertwood), New Zealand singer-songwriter (\"Something in the Water\"), born in Wellington, New Zealand",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 36
+  },
+  {
+    "id": 304,
+    "year": "1928",
+    "original": "Friedensreich Hundertwasser, Austrian-New Zealand artist and architect (Hundertwasserhaus) known for his work in environmental protection, born in Vienna, Austria (d. 2000)",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 37
+  },
+  {
+    "id": 170,
+    "year": "1934",
+    "original": "Dutch airplane the 'Snip' (Fokker F.XVIII) departs the Netherlands for the 1st flight to Paramaribo and Curacao, takes 55 hours 58 minutes",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 38
+  },
+  {
+    "id": 117,
+    "year": "1983",
+    "original": "Space shuttle Columbia flies to Kennedy Space Center via El Paso, Kelly AFB",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 39
+  },
+  {
+    "id": 168,
+    "year": "1893",
+    "original": "Preview performance ofAntonín Dvořák's Symphony No. 9 - \"New World Symphony\" draws a crowd to Carnegie Hall, New York City",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 40
+  },
+  {
+    "id": 188,
+    "year": "1979",
+    "original": "British rockerDavid Bowieperforms three songs on American television program Saturday Night Live - \"The Man Who Sold the World\", \"TVC-15\" and \"Boys Keep Swinging\"",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 41
+  },
+  {
+    "id": 184,
+    "year": "1969",
+    "original": "John LennonandYoko Ono's Plastic Ono Band, play their only European gig - appearing in UNICEF charity concert at London's Lyceum Ballroom, band is augmented by Bonnie & Delaney Bramlett, guitaristsGeorge HarrisonandEric Clapton, and keyboardistBilly Preston",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 42
+  },
+  {
+    "id": 296,
+    "year": "1923",
+    "original": "Freeman Dyson, American physicist (known for his work in quantum electrodynamics, solid-state physics, astronomy and nuclear engineering), born in Crowthorne, Berkshire, England (d. 2020)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 43
+  },
+  {
+    "id": 385,
+    "year": "1970",
+    "original": "Frankie Dettori, Italian jockey (20 x English classics; 3 x GB flat racing champion jockey; rode all 7 winners British Champions' Day Ascot 1996; 6 x Prix de l'Arc de Triomphe), born in Milan, Italy",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 44
+  },
+  {
+    "id": 394,
+    "year": "1977",
+    "original": "Catherine Fox, American swimmer (Olympic gold 4×100m freestyle, 4×100m medley 1996; World C'ships gold 4×100m freestyle 1998), born in Roeland Park, Kansas",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 45
+  },
+  {
+    "id": 328,
+    "year": "1938",
+    "original": "Fred Anton Maier, Norwegian speed skater (Olympic gold 5,000m 1968, bronze 1964; silver 10,000m 1964, 68; 11 x WRs), born in Nøtterøy, Norway (d. 2015)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 47
+  },
+  {
+    "id": 380,
+    "year": "1967",
+    "original": "Mo Vaughn, American baseball first baseman (MLB All-Star 1995, 96, 98; AL MVP 1995; Boston Red Sox), born in Norwalk, Connecticut",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 48
+  },
+  {
+    "id": 416,
+    "year": "1987",
+    "original": "Mikey Garcia, American boxer (lineal junior welterweight title 2018-20; WBO featherweight 2013; WBO junior lightweight 2013-14, WBC & IBF lightweight 2017-19), born in Oxnard, California",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 49
+  },
+  {
+    "id": 392,
+    "year": "1976",
+    "original": "Baichung Bhutia, Indian soccer striker (80 caps; SC East Bengal, AC Mohun Bagan), born in Tinkitam, India",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 50
+  },
+  {
+    "id": 411,
+    "year": "1984",
+    "original": "Martin Škrtel, Slovakian soccer defender and captain (104 caps; Liverpool FC 242 games), born in Handlová, Slovakia",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 51
+  },
+  {
+    "id": 421,
+    "year": "1997",
+    "original": "Maude Apatow, American actress (Euphoria), born in Los Banos, California",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 52
+  },
+  {
+    "id": 403,
+    "year": "1981",
+    "original": "Michelle Dockery, English actress (Downton Abbey), born in London, England",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 53
+  },
+  {
+    "id": 407,
+    "year": "1983",
+    "original": "Camilla Luddington, British-American actress (Grey's Anatomy - \"Dr. Jo Wilson\"), born in Ascot, England",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 54
+  },
+  {
+    "id": 360,
+    "year": "1955",
+    "original": "Paul Simonon, British rock bassist (The Clash; Havana 3 AM), and visual artist, born in Thornton Heath, Surrey, England",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 55
+  },
+  {
+    "id": 376,
+    "year": "1963",
+    "original": "Helen Slater, American actress (Supergirl, Billie Jean, Ruthless People), born in New York City",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 56
+  },
+  {
+    "id": 386,
+    "year": "1970",
+    "original": "Michael Shanks, Canadian actor and director (Stargate), born in Vancouver, British Columbia",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 57
+  },
+  {
+    "id": 383,
+    "year": "1969",
+    "original": "Ralph Ineson, English actor (Harry Potter films), born in Leeds, England",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 58
+  },
+  {
+    "id": 395,
+    "year": "1978",
+    "original": "Henrietta Nagyová, Slovakian tennis player (9 WTA, 9 ITF titles), born in Nové Zámky, Slovakia",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 60
+  },
+  {
+    "id": 378,
+    "year": "1966",
+    "original": "Carl Hooper, West Indian cricket all-rounder (102 Tests, 13 x 100s, HS 233, 114 wickets; \tDemerara, Guyana, Kent CCC, Lancashire CCC), born in Georgetown, Guyana",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 61
+  },
+  {
+    "id": 370,
+    "year": "1960",
+    "original": "Walter Werzowa, Austrian contemporary classical composer (Beethoven's 10th), and audio brander (Intel), born in Vienna, Austria",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 62
+  }
+]

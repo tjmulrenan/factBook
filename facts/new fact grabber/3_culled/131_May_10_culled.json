@@ -1,0 +1,542 @@
+[
+  {
+    "id": 31,
+    "year": "1879",
+    "original": "Meteor falls near Estherville, Iowa",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 1
+  },
+  {
+    "id": 108,
+    "year": "1983",
+    "original": "Lee Chin Yong performs 170 continuous chin-ups in Seoul",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 2
+  },
+  {
+    "id": 379,
+    "year": "1958",
+    "original": "Ellen Ochoa, PhD/Astronaut (STS 56, 66), born in Los Angeles, California",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 3
+  },
+  {
+    "id": 90,
+    "year": "1966",
+    "original": "25°F lowest temperature ever recorded in Cleveland in May",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 4
+  },
+  {
+    "id": 112,
+    "year": "1990",
+    "original": "French TGV-train hits record speed of 510.6 kph (317.3 mph)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 5
+  },
+  {
+    "id": 135,
+    "year": "2018",
+    "original": "China announces plans for the world's largest weather-control mechanism, rain-inducing machines for the Tibetan Plateau (area the size of Alaska)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 6
+  },
+  {
+    "id": 169,
+    "year": "1970",
+    "original": "Stanley Cup Final, Boston Garden, Boston, MA:Bobby Orrscores a famous OT winner as Boston beats the St. Louis Blues 4-3 for a 4-0 series sweep; Bruins win their first title since 1941",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 7
+  },
+  {
+    "id": 182,
+    "year": "1994",
+    "original": "Nelson Mandelais sworn in as South Africa's first Black president",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 8
+  },
+  {
+    "id": 89,
+    "year": "1960",
+    "original": "US atomic submarine USS Triton completes first submerged circumnavigation of the globe",
+    "score": 89,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 9
+  },
+  {
+    "id": 10,
+    "year": "1775",
+    "original": "American Revolution: Green Mountain Boys capture Fort Ticonderoga, New York",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 10
+  },
+  {
+    "id": 43,
+    "year": "1910",
+    "original": "Halley's Comet makes its closest approach to Earth in 1910 pass",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 11
+  },
+  {
+    "id": 56,
+    "year": "1930",
+    "original": "First US planetarium opens, the Adler Planetarium in Chicago",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 12
+  },
+  {
+    "id": 143,
+    "year": "1765",
+    "original": "British Longitude Act awards clockmakerJohn Harrison£10,000 for the invention of a naval longitude clock",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 13
+  },
+  {
+    "id": 199,
+    "year": "1869",
+    "original": "The Golden Spike is driven, completing the first US Transcontinental Railroad at Promontory Summit, Utah, connecting theCentral Pacific Railroadwith the Union Pacific",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 14
+  },
+  {
+    "id": 220,
+    "year": "1788",
+    "original": "Augustin-Jean Fresnel, French physicist and optics pioneer (proved wave theory of light correct, invented catadioptric Fresnel lens), born in Broglie, France (d. 1827)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 15
+  },
+  {
+    "id": 357,
+    "year": "1949",
+    "original": "Michael Larson, American \"Press Your Luck\" scandal big-winning contestant, born in Lebanon, Ohio (d. 1999)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 16
+  },
+  {
+    "id": 45,
+    "year": "1913",
+    "original": "Yanks commit 8 errors & still beat Tigers 10-9 in 10 innings",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 17
+  },
+  {
+    "id": 57,
+    "year": "1931",
+    "original": "Golf ball size hail falls in Burlington, New Jersey",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 18
+  },
+  {
+    "id": 76,
+    "year": "1946",
+    "original": "Red Sox win 15th straight beat Yanks 5-4, DiMaggio hits Grand Slam",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 19
+  },
+  {
+    "id": 82,
+    "year": "1954",
+    "original": "Bolshoi Ballet does not appear in Paris",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 20
+  },
+  {
+    "id": 80,
+    "year": "1951",
+    "original": "Z Alexander Looby elected to Nashville City Council",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 21
+  },
+  {
+    "id": 125,
+    "year": "2003",
+    "original": "Tornado outbreak sequence takes place across the Great Plains and Eastern United States",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 23
+  },
+  {
+    "id": 131,
+    "year": "2014",
+    "original": "Kara Walker's artwork \"The Subtlety\" opens - an installation of a sphinx made of sugar at the Domino Sugar factory in Brooklyn, NY",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 24
+  },
+  {
+    "id": 302,
+    "year": "1926",
+    "original": "Oliver Selfridge, English-American computer scientist and leading artificial intelligence researcher known as the \"father of machine perception\", born in London (d. 2008)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 25
+  },
+  {
+    "id": 308,
+    "year": "1930",
+    "original": "George E. Smith, American physicist and co-inventor of the charge-coupled device who was awarded the Nobel Prize in Physics (2009), born in White Plain, New York (d. 2025)[1]",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 26
+  },
+  {
+    "id": 343,
+    "year": "1943",
+    "original": "James E. Chaney, American civil rights activist who helped organize the Freedom Summer campaign, born in Meridian, Mississippi (d. 1964)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 27
+  },
+  {
+    "id": 344,
+    "year": "1943",
+    "original": "Judith Jamison, American dancer and choreographer (artistic director of the Alvin Ailey Dance Theater), born in Philadelphia, Pennsylvania (d. 2024)[1]",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 28
+  },
+  {
+    "id": 347,
+    "year": "1944",
+    "original": "Jim Abrahams, American comedy screenwriter and director (Airplane!; Hot Shots; Top Secret; The Naked Gun), born in Shorewood, Wisconsin (d. 2024)[1][2]",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 29
+  },
+  {
+    "id": 6,
+    "year": "1643",
+    "original": "Essex County, Massachusetts is founded, which contains the town of Salem in which the notorious witch-trials will occur in 1692",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 31
+  },
+  {
+    "id": 28,
+    "year": "1870",
+    "original": "Jem Mace defends his heavyweight crown against Irish champ Joe Coburn; the match lasts 1 hour and 17 minutes, and neither is struck by a punch",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 32
+  },
+  {
+    "id": 110,
+    "year": "1985",
+    "original": "Challenger transports back to Kennedy Space Center via Kelly AFB",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 36
+  },
+  {
+    "id": 117,
+    "year": "1994",
+    "original": "DGC Records releases \"Weezer\" (known as The Blue Album), the debut album of rock band Weezer",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 37
+  },
+  {
+    "id": 123,
+    "year": "2000",
+    "original": "India's population reaches 1 billion, baby girl Aastha born at Delhi's Safdarjung Hospital chosen as symbolic billionth",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 38
+  },
+  {
+    "id": 161,
+    "year": "1957",
+    "original": "Dmitri Shostakovich's 2nd Piano concerto premieres, played by his son Maxim at his graduation concert at Moscow's conservatory",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 40
+  },
+  {
+    "id": 163,
+    "year": "1961",
+    "original": "Alan Bennett, Peter Cook,Dudley Mooreand Jonathan Miller comedy revue \"Beyond the Fringe\" opens at the Fortune Theatre in London's West End",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 41
+  },
+  {
+    "id": 164,
+    "year": "1963",
+    "original": "Decca Records signsThe Rolling Stoneson the advice of Beatles guitaristGeorge Harrison",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 42
+  },
+  {
+    "id": 200,
+    "year": "2017",
+    "original": "USGS releases a report saying that some glaciers in Montana have receded by 85% in the last 50 years",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 45
+  },
+  {
+    "id": 291,
+    "year": "1918",
+    "original": "George Welch, American World War II flying ace (Medal of Honor nominee) and test pilot, born in Wawaset Park, Delaware (d. 1954)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 46
+  },
+  {
+    "id": 330,
+    "year": "1940",
+    "original": "Arthur Alexander, American singer-songwriter (\"Lonely Just Like Me\"), whose songs were covered by The Beatles (\"Anna\"), The Rolling Stones (\"You Better Move On\"), and Bob Dylan (\"Sally Sue Brown\"), born in Sheffield, Alabama (d. 1993)[1][2]",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 47
+  },
+  {
+    "id": 360,
+    "year": "1950",
+    "original": "Sally James [Cann], British children's TV-show presenter (Tiswas), born in Chiswick, London",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 48
+  },
+  {
+    "id": 366,
+    "year": "1952",
+    "original": "Sly Dunbar, Jamaican reggae drummer (Sly & Robbie), born in Kingston, Jamaica",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 49
+  },
+  {
+    "id": 375,
+    "year": "1956",
+    "original": "Bakithi Kumalo, South African session and touring bassist, and composer (Paul Simon - \"Graceland\"; \"Call Me Al\"; Mickey Hart's Planet Drum; Harry Belafonte), born in Alexandra, Johannesburg, South Africa",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 50
+  },
+  {
+    "id": 381,
+    "year": "1958",
+    "original": "Yu Suzuki, Japanese game designer and creator of Virtua Fighter series, born in Kamaishi, Japan",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 52
+  },
+  {
+    "id": 16,
+    "year": "1801",
+    "original": "First Barbary War: The Barbary pirates of Tripoli declare war on the United States of America (first US foreign war)",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 53
+  },
+  {
+    "id": 139,
+    "year": "1497",
+    "original": "Italian navigatorAmerigo Vespuccileaves for his first voyage to the New World (disputed)",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 54
+  },
+  {
+    "id": 147,
+    "year": "1796",
+    "original": "Napoleondefeats Austria in Battle of Lodi Bridge",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 55
+  },
+  {
+    "id": 18,
+    "year": "1823",
+    "original": "1st steamboat to navigate the Mississippi River arrives at Fort Snelling",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 56
+  },
+  {
+    "id": 70,
+    "year": "1941",
+    "original": "British House of Commons and Holborn Theatre in London damaged during German air raid",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 57
+  },
+  {
+    "id": 102,
+    "year": "1973",
+    "original": "Stanley Cup Final, Chicago Stadium, Chicago, IL: Yvan Cournoyer has a goal and 2 assists as Montreal Canadiens beat Chicago Blackhawks, 6-4 to take title, 4 games to 2",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 58
+  },
+  {
+    "id": 126,
+    "year": "2004",
+    "original": "Kate Gosselin gives birth to sextuplets in Hershey, Pennsylvania",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 60
+  },
+  {
+    "id": 179,
+    "year": "1993",
+    "original": "Bill Waltonis inducted into the Naismith Memorial Basketball Hall of Fame",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 61
+  },
+  {
+    "id": 184,
+    "year": "1996",
+    "original": "\"Twister\" disaster film written byMichael CrichtonstarringHelen Huntand Bill Paxton premieres",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 62
+  },
+  {
+    "id": 290,
+    "year": "1918",
+    "original": "Dr. T Berry Brazelton, American child development paediatrician, author, TV host (What Every Baby Knows), who developed the Neonatal Behavioral Assessment Scale (NBAS), born in Waco, Texas (d. 2018)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 63
+  },
+  {
+    "id": 321,
+    "year": "1935",
+    "original": "Larry Williams, American R&B singer-songwriter (\"Dizzy, Miss Lizzie\"; \"Slow Down\"), born in New Orleans, Louisiana (d. 1980)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 64
+  },
+  {
+    "id": 339,
+    "year": "1942",
+    "original": "Carl Douglas, Jamaican-British singer (\"Kung Fu Fighting\"), born in Kingston, Jamaica",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 66
+  },
+  {
+    "id": 353,
+    "year": "1947",
+    "original": "Jay Ferguson, American rocker (Spirit - \"I Got A Line on You\"; solo - \"Thunder Island\") and composer (theme for \"The Office\"), born in Burbank, California",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 67
+  },
+  {
+    "id": 364,
+    "year": "1952",
+    "original": "Kikki Danielsson, Swedish pop and country singer, yodeler, and accordion player, born in Osby, Sweden",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 68
+  },
+  {
+    "id": 9,
+    "year": "1676",
+    "original": "Bacon's Rebellion begins, frontiersmen vs Virginia government",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 71
+  },
+  {
+    "id": 15,
+    "year": "1797",
+    "original": "1st US Navy ship, the \"United States,\" is launched",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 72
+  },
+  {
+    "id": 30,
+    "year": "1876",
+    "original": "Centennial Fair opens in Philadelphia",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 73
+  }
+]

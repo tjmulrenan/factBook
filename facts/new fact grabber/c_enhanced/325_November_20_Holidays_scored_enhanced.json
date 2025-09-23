@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Every Kid Counts on Universal Children's Day",
+    "story": "Kids around the world get their own special spotlight on November 20 during Universal Children's Day! This amazing holiday celebrates children everywhere and reminds grown-ups that every kid deserves love, safety, and the chance to learn and play. Schools organize fun activities like art contests, storytelling sessions, and games that bring different cultures together. Many families use this day to talk about kids in other countries and how they live. Social media fills up with photos of children's artwork, videos of kids sharing their dreams, and messages about making the world better for young people. Some communities hold parades where children march with colorful signs about their rights and hopes for the future.",
+    "activity_question": "What do schools often organize on Universal Children's Day?",
+    "activity_choices": [
+      "Art contests and storytelling sessions",
+      "Math competitions only",
+      "Silent reading time",
+      "Extra homework assignments"
+    ],
+    "activity_answer": "Art contests and storytelling sessions",
+    "follow_up_question": "What would you want grown-ups to know about being a kid today?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "902",
+    "title": "Fudge-tastic Peanut Butter Paradise Day",
+    "story": "Sweet tooth alert! November 20 is National Peanut Butter Fudge Day, when candy lovers everywhere celebrate the perfect marriage of creamy peanut butter and rich, sugary fudge. People mark this delicious day by making homemade batches in their kitchens, sharing squares with friends and family, or hunting down the best fudge shops in town. Social media fills with drool-worthy photos of perfectly cut squares and messy kitchen adventures. Some folks get creative by adding chocolate chips, marshmallows, or even bacon bits to their recipes. It's the one day when having fudge for breakfast feels totally justified!",
+    "activity_question": "What do people often add to their peanut butter fudge to make it extra special?",
+    "activity_choices": [
+      "Chocolate chips and marshmallows",
+      "Pickles and mustard",
+      "Lettuce and tomatoes",
+      "Ice cubes and salt"
+    ],
+    "activity_answer": "Chocolate chips and marshmallows",
+    "follow_up_question": "What's the weirdest ingredient you'd be brave enough to try in fudge?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  }
+]

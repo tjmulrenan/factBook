@@ -1,0 +1,542 @@
+[
+  {
+    "id": 183,
+    "year": "2022",
+    "original": "SpaceX, launches its Crew Dragon capsule with four astronauts, including Jessica Watkins - becomes 1st black woman to serve extended mission on International Space Station",
+    "score": 98,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 1
+  },
+  {
+    "id": 129,
+    "year": "2020",
+    "original": "US Defense Department declassifies and releases videos of unidentified \"aerial phenomena\" from 2004 and 2015",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 2
+  },
+  {
+    "id": 100,
+    "year": "1986",
+    "original": "Captain Midnight (John R MacDougall) hacks into and interrupts HBO",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 3
+  },
+  {
+    "id": 96,
+    "year": "1981",
+    "original": "Xerox PARC introduces the computer mouse",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 4
+  },
+  {
+    "id": 116,
+    "year": "1999",
+    "original": "Nevada State Museum discovers the oldest mummy in North America - on the shelves of their own museum, after the Spirit Cave Mummy radiocarbon dates to over 9,400 years old",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 5
+  },
+  {
+    "id": 79,
+    "year": "1965",
+    "original": "Robert C. Duncan and Norma L. Baker are granted a patent for the \"Pampers\" disposable diaper on behalf of Procter & Gamble",
+    "score": 79,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 6
+  },
+  {
+    "id": 234,
+    "year": "1900",
+    "original": "Walter Lantz, American cartoonist (Woody Woodpecker's creator), born in New Rochelle, New York (d. 1994)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 7
+  },
+  {
+    "id": 118,
+    "year": "2005",
+    "original": "The superjumbo jet aircraft Airbus A380 makes its first flight from Toulouse, France",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 8
+  },
+  {
+    "id": 133,
+    "year": "2023",
+    "original": "Findings from the Zoonomia Project published  - where genomes of 240 mammals collected and compared. Reveals 10.7% of the human genome identical to almost all species.",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 9
+  },
+  {
+    "id": 233,
+    "year": "1896",
+    "original": "Wallace Hume Carothers, American chemist and inventor (nylon), born in Burlington, Iowa (d. 1937)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 10
+  },
+  {
+    "id": 80,
+    "year": "1967",
+    "original": "Expo 67 opens in Montreal, Canada, featuring a giant Biosphere designed by Buckminster Fuller",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 11
+  },
+  {
+    "id": 144,
+    "year": "1810",
+    "original": "Ludwig van Beethovencomposes his famous piano piece \"Für Elise\"",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 12
+  },
+  {
+    "id": 180,
+    "year": "2018",
+    "original": "Swedish bandABBAannounce they have recorded new songs for the first time since 1982",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 13
+  },
+  {
+    "id": 267,
+    "year": "1927",
+    "original": "Coretta Scott King, American activist and wife of Martin Luther King Jr., born in Heiberger, Alabama (d. 2006)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 14
+  },
+  {
+    "id": 323,
+    "year": "1953",
+    "original": "Ellen S. Baker, American physician and NASA astronaut (STS 34, 50, 71), born in Fayetteville, North Carolina",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 15
+  },
+  {
+    "id": 338,
+    "year": "1963",
+    "original": "Russell T. Davies, Welsh TV writer and executive producer (Doctor Who, Queer as Folk), born in Swansea, Wales",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 16
+  },
+  {
+    "id": 392,
+    "year": "1987",
+    "original": "William Moseley, British actor (The Chronicles of Narnia - Peter Pevensie), born in Sheepscombe, Gloucestershire, England",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 17
+  },
+  {
+    "id": 15,
+    "year": "1828",
+    "original": "Zoological Gardens at Regent's Park in London opens",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 18
+  },
+  {
+    "id": 23,
+    "year": "1865",
+    "original": "Steamboat \"SS Sultana\" explodes in the Mississippi River, killing up to 1,800 of the 2,427 passengers in the greatest maritime disaster in United States history; most are paroled Union POWs on their way home.",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 19
+  },
+  {
+    "id": 52,
+    "year": "1933",
+    "original": "Karl Jansky reports reception of cosmic radio signal in Washington, D.C.",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 20
+  },
+  {
+    "id": 73,
+    "year": "1961",
+    "original": "NASA launches Explorer 11 into Earth orbit to study gamma rays",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 21
+  },
+  {
+    "id": 85,
+    "year": "1972",
+    "original": "Apollo 16 returns to Earth after lunar exploration, splashing down in the Pacific Ocean 350 km (189 nmi) southeast of the island of Kiritimati",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 22
+  },
+  {
+    "id": 117,
+    "year": "2002",
+    "original": "The last successful telemetry from the NASA space probe Pioneer 10",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 23
+  },
+  {
+    "id": 119,
+    "year": "2006",
+    "original": "Construction begins on the Freedom Tower for the new World Trade Center in New York City",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 24
+  },
+  {
+    "id": 158,
+    "year": "1947",
+    "original": "Babe RuthDay celebrated at Yankee Stadium and throughout the US",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 25
+  },
+  {
+    "id": 285,
+    "year": "1936",
+    "original": "John Burningham, English author and illustrator of children's books (Mr Grumpy's Outing), born in Farnham, England (d. 2019)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 26
+  },
+  {
+    "id": 333,
+    "year": "1962",
+    "original": "Edvard Moser, Norwegian psychologist and neuroscientist (2014 Nobel Prize for Physiology for discovery of place cells), born in Ålesund, Norway",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 27
+  },
+  {
+    "id": 99,
+    "year": "1984",
+    "original": "Over 70 inches of snow falls on Red Lake Montana",
+    "score": 87,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 28
+  },
+  {
+    "id": 50,
+    "year": "1931",
+    "original": "100°F (38°C), Pahala, Hawaii (state record)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 29
+  },
+  {
+    "id": 179,
+    "year": "2018",
+    "original": "Historic Korean summit, the North'sKim Jong-unandMoon Jae-inof South Korea agree to officially end Korean war and rid peninsula of nuclear weapons",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 30
+  },
+  {
+    "id": 111,
+    "year": "1994",
+    "original": "Freedom Day: Day 2 of South Africa's first multi-racial elections and the day most people vote, with some queuing for 10 hours",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 31
+  },
+  {
+    "id": 130,
+    "year": "2021",
+    "original": "Pfizer announces it is working on a new antiviral therapy to treat COVID-19 at its onset and prevent hospitalization",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 32
+  },
+  {
+    "id": 132,
+    "year": "2022",
+    "original": "US CDC report finds that more than half of people (57.7%) had antibodies for COVID-19 by February 2022, with 75.2% of children and teenagers",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 33
+  },
+  {
+    "id": 193,
+    "year": "1593",
+    "original": "Mumtaz Mahal, Empress consort of Mughal Emperor Shah Jahan, who built the Taj Mahal as her mausoleum and symbol of his undying love, born in Agra, Mughal Empire (d. 1631)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 34
+  },
+  {
+    "id": 71,
+    "year": "1960",
+    "original": "1st atomic powered electric-drive submarine launched (Tullibee)",
+    "score": 71,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 35
+  },
+  {
+    "id": 25,
+    "year": "1875",
+    "original": "New York Society for the Prevention of Cruelty to Children (NYSPCC), the world's first such agency is incorporated",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 36
+  },
+  {
+    "id": 135,
+    "year": "2023",
+    "original": "Pakistani architect Yasmeen Lari  awarded Royal Institute of British Architects' Royal Gold Medal for her humanitarian work providing structures for Pakistanis' marginalized communities",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 37
+  },
+  {
+    "id": 131,
+    "year": "2022",
+    "original": "Italian women footballers finally turn professional after Italian Football Federation changes status of top division (takes effect 1 July) and ends capped amateur salaries",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 38
+  },
+  {
+    "id": 95,
+    "year": "1981",
+    "original": "First female soccer official is hired by the NASL",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 39
+  },
+  {
+    "id": 265,
+    "year": "1926",
+    "original": "Ernest McCulloch, Canadian stem cell research pioneer, born in Toronto, Ontario (d. 2011)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 40
+  },
+  {
+    "id": 75,
+    "year": "1961",
+    "original": "Sierra Leone declares independence from the United Kingdom",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 41
+  },
+  {
+    "id": 72,
+    "year": "1960",
+    "original": "Togo (formerly French Togo) declares independence from French administration",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 42
+  },
+  {
+    "id": 151,
+    "year": "1911",
+    "original": "Indian passive resistance in South Africa is suspended when GeneralJan Smutsenters into negotiations withMahatma Gandhi",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 43
+  },
+  {
+    "id": 157,
+    "year": "1945",
+    "original": "Italian partisans captureBenito Mussoliniin Dongo, near Lake Como",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 44
+  },
+  {
+    "id": 160,
+    "year": "1956",
+    "original": "Undefeated world heavyweight boxing championRocky Marcianoretires from the ring",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 45
+  },
+  {
+    "id": 164,
+    "year": "1964",
+    "original": "John Lennon's book of poetry and sketches \"In His Own Write\" is published in US",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 46
+  },
+  {
+    "id": 87,
+    "year": "1973",
+    "original": "KC Royals pitcher Steve Busby no-hits Detroit Tigers, 3-0",
+    "score": 87,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 53
+  },
+  {
+    "id": 212,
+    "year": "1840",
+    "original": "Edward Whymper, English mountaineer, 1st to climb Matterhorn (1865), born in London (d. 1911)",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 48
+  },
+  {
+    "id": 54,
+    "year": "1935",
+    "original": "Yanks pull a 1st inning triple-play & beat Philadelphia A's 9-8",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 49
+  },
+  {
+    "id": 112,
+    "year": "1994",
+    "original": "Graeme Obree bicycles world record time (52,713 km)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 50
+  },
+  {
+    "id": 134,
+    "year": "2023",
+    "original": "NFL Draft: Alabama quarterback Bryce Young first pick by the Carolina Panthers",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 51
+  },
+  {
+    "id": 137,
+    "year": "2025",
+    "original": "Liverpool wins the 2024/25 English Premier League title against Tottenham (5-1)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 52
+  },
+  {
+    "id": 110,
+    "year": "1994",
+    "original": "7th longest NHL game at 125 min 43 sec: Buffalo Sabres beat New Jersey Devils 1-0 on a goal by Dave Hannan",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 57
+  },
+  {
+    "id": 105,
+    "year": "1990",
+    "original": "Villanova's women set a 6,000 m relay world record of 17:18:10",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 61
+  },
+  {
+    "id": 174,
+    "year": "1998",
+    "original": "Rock for the Rainforest benefit concert held at Carnegie Hall, NYC; performers include:Sting,Elton John,James Taylor,Madonna,Billy Joel,Joe Cocker,Emmylou Harris,Roberta Flack,Wynonna Judd, and Tsidii Leloka",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 64
+  },
+  {
+    "id": 143,
+    "year": "1749",
+    "original": "First performance ofGeorge Frideric Handel's \"Music For The Royal Fireworks\" in Green Park, London",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 65
+  },
+  {
+    "id": 74,
+    "year": "1961",
+    "original": "NFL officially recognizes Hall of Fame in Canton, Ohio",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 66
+  },
+  {
+    "id": 396,
+    "year": "1995",
+    "original": "Nick Kyrgios, Australian tennis player (Australian Open doubles [Thanasi Kokkinakis] 2022; Wimbledon 2022 runner-up; Hopman Cup 2016), born in Canberra, Australia",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 68
+  },
+  {
+    "id": 315,
+    "year": "1948",
+    "original": "Kate Pierson, American vocalist and guitarist (B-52's - \"Rock Lobster\"; \"Love Shack\"), born in Weehawken, New Jersey",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 69
+  },
+  {
+    "id": 391,
+    "year": "1987",
+    "original": "Emma Taylor-Isherwood, Canadian actress (Mona the Vampire), born in Toronto, Ontario",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 70
+  }
+]

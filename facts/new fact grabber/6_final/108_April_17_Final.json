@@ -1,0 +1,1262 @@
+[
+  {
+    "id": "901",
+    "title": "Tiny Poems Pack a Big Punch",
+    "story": "Every April 17, poets and word-lovers celebrate National Haiku Poetry Day by writing tiny three-line poems! Haikus follow a special pattern: five syllables in the first line, seven in the second, and five in the third. People share their mini-masterpieces on social media, teachers host haiku contests in classrooms, and libraries hold poetry workshops where kids create verses about everything from pizza to puppies.",
+    "activity_question": "How many lines does a traditional haiku have?",
+    "activity_choices": [
+      "Three lines",
+      "Five lines",
+      "Seven lines",
+      "As many lines as a limerick about a pickle"
+    ],
+    "activity_answer": "Three lines",
+    "follow_up_question": "What would you write a haiku about today?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 51
+  },
+  {
+    "id": "902",
+    "title": "Going Batty for Our Flying Friends",
+    "story": "Bats get a bad reputation, but on April 17, people around the world celebrate Bat Appreciation Day to show love for these amazing flying mammals! Nature centers host bat walks where families learn cool facts like how bats eat thousands of mosquitoes every night. Zoos put on special bat programs, and kids make bat crafts or watch documentaries about these incredible creatures. Some people even build bat houses for their backyards! Social media fills up with bat photos and fun facts about how bats help pollinate plants and control pests. It's the perfect day to discover why bats are actually superheroes of the animal kingdom.",
+    "activity_question": "According to the story, what do bats eat thousands of every night?",
+    "activity_choices": [
+      "Mosquitoes",
+      "Pizza slices",
+      "Flower petals",
+      "Tree leaves"
+    ],
+    "activity_answer": "Mosquitoes",
+    "bonus_fact": "Some bats can live over 30 years and remember feeding spots for decades!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "903",
+    "title": "Mustang Mania: Galloping Into Car History",
+    "story": "Car lovers rev their engines and show off their shiny Ford Mustangs every April 17! This special day celebrates one of America's most famous sports cars. People organize car shows where hundreds of Mustangs line up in parking lots, from classic 1960s models to brand-new ones. Owners polish their cars until they sparkle, then cruise around town honking their horns. Some wear vintage racing jackets or cowboy hats to match their car's wild horse theme. Social media fills with photos of these beautiful machines, and car clubs host barbecues and contests for the coolest Mustang.",
+    "activity_question": "What do Ford Mustang owners often do to their cars before showing them off?",
+    "activity_choices": [
+      "Polish them until they sparkle",
+      "Paint racing stripes on them",
+      "Add extra horns for honking",
+      "Cover them with horse stickers"
+    ],
+    "activity_answer": "Polish them until they sparkle",
+    "bonus_fact": "The Ford Mustang was named after a World War II fighter plane, not a horse!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "115",
+    "title": "Tiny Heroes Beat 'Bubble Boy Disease'",
+    "story": "Doctors at St. Jude Children's Research Hospital in Memphis made an amazing breakthrough on April 17, 2019. They found a way to cure 'bubble boy disease' using a special treatment made from parts of HIV. Ten brave babies with this rare condition, which weakens the immune system, were successfully treated. The doctors used gene therapy to fix the babies' cells, helping them fight off germs like never before.",
+    "activity_question": "What did doctors use to create the treatment for 'bubble boy disease'?",
+    "activity_choices": [
+      "Parts of HIV",
+      "Bubble solution",
+      "Vitamin supplements",
+      "Robot nanobots"
+    ],
+    "activity_answer": "Parts of HIV",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think this discovery is important for children with rare diseases?",
+    "score": 95,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "113",
+    "title": "Giant Shipworm: The Living Pipe Monster",
+    "story": "Imagine a clam as long as a child! In 2017, scientists made a jaw-dropping discovery in the Philippines on April 17. They found the first living giant shipworm, measuring an incredible three feet long. Despite its name, this creature isn't a worm at all - it's actually a rare type of clam that looks like a slimy, black tube. This bizarre animal had only been known from fossils before, making its discovery a thrilling moment for marine biologists worldwide.",
+    "activity_question": "What type of animal is the giant shipworm actually?",
+    "activity_choices": [
+      "A worm",
+      "A clam",
+      "A fish",
+      "A snake"
+    ],
+    "activity_answer": "A clam",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it's called a shipworm if it's really a clam?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "110",
+    "title": "Century-Old Message in a Bottle Found",
+    "story": "A mysterious bottle washed up on a German beach, holding secrets from the past. In 2015, beachgoers on Amrum Island discovered a 108-year-old message in a bottle. The UK Marine Biological Association had tossed it into the sea on April 17, way back in 1907. Scientists used these floating time capsules to study ocean currents. This lucky find connected the present with history, showing how patient the sea can be in delivering its mail.",
+    "activity_question": "Where was the message in a bottle found?",
+    "activity_choices": [
+      "On a beach on Amrum Island",
+      "In the UK Marine Biological Association",
+      "At the bottom of the ocean",
+      "Inside a treasure chest"
+    ],
+    "activity_answer": "On a beach on Amrum Island",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think scientists used bottles to study ocean currents?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "The What Zone"
+    ]
+  },
+  {
+    "id": "112",
+    "title": "A Century-Old Message Washes Ashore",
+    "story": "Imagine finding a 108-year-old letter from the sea! On April 17, 2015, Marianne Winkler discovered an extraordinary bottle on a German island beach. Inside was a message from 1906, dropped by British scientist George Parker Bidder. This sea-mail journey lasted over a century, drifting in the North Sea before reaching land. It's a reminder that the ocean holds many surprises, connecting the past to the present in unexpected ways.",
+    "activity_question": "Where was the message in a bottle found?",
+    "activity_choices": [
+      "On a German island beach",
+      "In the middle of the ocean",
+      "On a British coastline",
+      "Inside a treasure chest"
+    ],
+    "activity_answer": "On a German island beach",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think scientists might put messages in bottles?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "The What Zone"
+    ]
+  },
+  {
+    "id": "116",
+    "title": "Pig Brains Revived: A Scientific Breakthrough",
+    "story": "Scientists at Yale University made a mind-boggling discovery in 2019. On April 17, they published research showing they had partially revived pig brains hours after death. This groundbreaking study, featured in the prestigious journal 'Nature', challenged our understanding of brain function and death. The team used a special solution to restore some cellular activity in the brains, opening new possibilities for studying the human brain and treating injuries.",
+    "activity_question": "Where was the research on partially reviving pig brains conducted?",
+    "activity_choices": [
+      "Yale University",
+      "Harvard University",
+      "Stanford University",
+      "Piggy Brain Institute"
+    ],
+    "activity_answer": "Yale University",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think scientists are interested in studying brain activity after death?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "68",
+    "title": "Apollo 13's Daring Return to Earth",
+    "story": "Houston, we've had a problem! On April 17, 1970, the Apollo 13 spacecraft splashed down safely in the Pacific Ocean after a nail-biting journey. An oxygen tank explosion had crippled the ship days earlier, forcing the crew to use the lunar module as a lifeboat. Despite the setback, NASA's team worked tirelessly to bring the astronauts home. Their safe return was a triumph of human ingenuity and teamwork in the face of danger.",
+    "activity_question": "What did the Apollo 13 crew use as a lifeboat?",
+    "activity_choices": [
+      "The lunar module",
+      "A space shuttle",
+      "An escape pod",
+      "A rubber dinghy"
+    ],
+    "activity_answer": "The lunar module",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think teamwork was so important for bringing Apollo 13 home safely?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "122",
+    "title": "Ocean Trash Becomes Unexpected Home",
+    "story": "Floating plastic waste in the ocean has created an unusual habitat. Scientists discovered tiny sea creatures making their home in the Great Pacific Garbage Patch. On April 17, 2023, researchers found jellyfish, sponges, and worms living and breeding among the trash. This surprising discovery raised worries about these animals spreading to new areas where they don't belong.",
+    "activity_question": "What types of sea creatures were found living in the Great Pacific Garbage Patch?",
+    "activity_choices": [
+      "Jellyfish, sponges, and worms",
+      "Sharks, turtles, and dolphins",
+      "Crabs, starfish, and seahorses",
+      "Octopuses, clams, and barnacles"
+    ],
+    "activity_answer": "Jellyfish, sponges, and worms",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why might scientists be concerned about creatures living in the garbage patch?",
+    "optional_type": "follow_up_question",
+    "score": 87,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "59",
+    "title": "Jerrie Mock's Sky-High Adventure",
+    "story": "Jerrie Mock soared into history in 1964. This brave American pilot flew her small plane, 'The Spirit of Columbus', all the way around the world by herself! On April 17, after nearly a month of flying, she landed back in Columbus, Ohio. At 38 years old, Mock became the first woman to circle the globe solo in an airplane. Her daring journey inspired girls everywhere to reach for the stars.",
+    "activity_question": "What was the name of Jerrie Mock's airplane?",
+    "activity_choices": [
+      "'The Spirit of Columbus'",
+      "'The Flying Buckeye'",
+      "'Ohio's Pride'",
+      "'The Solo Flyer'"
+    ],
+    "activity_answer": "'The Spirit of Columbus'",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think Jerrie Mock felt when she finally landed back home?",
+    "optional_type": "follow_up_question",
+    "score": 90,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "50",
+    "title": "Mickey's Mighty Moonshot",
+    "story": "Crack! The baseball soared through the air, launched by Mickey Mantle's powerful swing. On April 17, 1953, the young Yankees star crushed a mammoth home run at Griffith Stadium in Washington, D.C. The ball traveled an incredible distance, leaving fans and players in awe. Mantle's superhuman hit showcased his legendary strength and cemented his place as one of baseball's most exciting players.",
+    "activity_question": "Where did Mickey Mantle hit his incredible home run?",
+    "activity_choices": [
+      "Griffith Stadium",
+      "Yankee Stadium",
+      "Fenway Park",
+      "Wrigley Field"
+    ],
+    "activity_answer": "Griffith Stadium",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Mickey Mantle was only 21 years old when he hit this massive home run!",
+    "score": 85,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "156",
+    "title": "Epic Baseball Comeback: Phillies Shock Cubs",
+    "story": "Bam! Crack! Pow! The Philadelphia Phillies unleashed an incredible hitting display in 1976. Down by 11 runs, they staged a jaw-dropping comeback against the Chicago Cubs on April 17. The Phillies slugger Mike Schmidt became a hero, smashing four home runs in a row. This thrilling rally led to an 18-16 victory in extra innings, marking the biggest comeback ever in National League history.",
+    "activity_question": "Who hit four consecutive home runs for the Phillies in this game?",
+    "activity_choices": [
+      "Mike Schmidt",
+      "Babe Ruth",
+      "Hank Aaron",
+      "Willie Mays"
+    ],
+    "activity_answer": "Mike Schmidt",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How many innings did this exciting game last?",
+    "optional_type": "follow_up_question",
+    "score": 95,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "23",
+    "title": "Bored Officer Invents Snooker",
+    "story": "Boredom sparked creativity in 1875! Sir Neville Chamberlain, a British officer stationed in Jabalpur, India, found himself with too much free time. On April 17, he decided to spice up the existing billiards game. Chamberlain's tinkering led to the birth of modern snooker, a game that would captivate players worldwide for generations to come.",
+    "activity_question": "Where was Sir Neville Chamberlain when he invented snooker?",
+    "activity_choices": [
+      "Jabalpur, India",
+      "London, England",
+      "Cairo, Egypt",
+      "Sydney, Australia"
+    ],
+    "activity_answer": "Jabalpur, India",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What inspired Sir Neville Chamberlain to invent snooker?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "The What Zone"
+    ]
+  },
+  {
+    "id": "142",
+    "title": "Jackie Robinson's Historic First Hit",
+    "story": "Crack! The ball sailed off Jackie Robinson's bat, landing perfectly for a bunt single. It was April 17, 1947, and Robinson had just gotten his first hit in Major League Baseball. This wasn't just any hit - it marked a huge step forward. Robinson was breaking barriers as the first African American player in the modern MLB era, paving the way for others to follow.",
+    "activity_question": "What type of hit did Jackie Robinson get for his first in Major League Baseball?",
+    "activity_choices": [
+      "A bunt single",
+      "A home run",
+      "A double",
+      "A triple"
+    ],
+    "activity_answer": "A bunt single",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why was Jackie Robinson's first hit so important beyond just being his first?",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "33",
+    "title": "Stretchy Science: The Birth of Neoprene",
+    "story": "Imagine a world without wetsuits or laptop sleeves! On April 17, 1930, scientist Elmer K. Bolton made a rubbery breakthrough at DuPont. Using Julius Nieuwland's divinyl acetylene, Bolton created neoprene. This versatile synthetic rubber soon found its way into countless products. From diving gear to car parts, neoprene's flexibility and durability changed how we make things.",
+    "activity_question": "What did Elmer K. Bolton create in 1930?",
+    "activity_choices": [
+      "Neoprene",
+      "Wetsuits",
+      "Laptop sleeves",
+      "Rubber trees"
+    ],
+    "activity_answer": "Neoprene",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name something in your home that might use neoprene?",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "179",
+    "title": "Ancient Book Finds New Home",
+    "story": "A tiny treasure from long ago found a special place to live in 2012. The St. Cuthbert Gospel, Europe's oldest intact book from the 8th century, was bought by the British Library on April 17. This ancient book, smaller than a hand, cost a whopping 9 million pounds! Now, visitors can see this amazing piece of history up close.",
+    "activity_question": "What institution purchased the St. Cuthbert Gospel?",
+    "activity_choices": [
+      "The British Library",
+      "The Louvre",
+      "The Smithsonian",
+      "The Vatican Museum"
+    ],
+    "activity_answer": "The British Library",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think this small, old book was so expensive?",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "85",
+    "title": "India's Rocket Launch Reaches for the Stars",
+    "story": "Blast off! India soared into the space age on April 17, 1983, when it successfully launched the SLV-3 rocket. This powerful machine carried a satellite into orbit, marking a huge leap forward for Indian science and technology. The launch showed the world that India could design and build its own rockets, joining the elite group of spacefaring nations. It was a proud moment that inspired a new generation of Indian scientists and engineers to dream big.",
+    "activity_question": "What did India successfully launch in 1983?",
+    "activity_choices": [
+      "The SLV-3 rocket",
+      "A weather balloon",
+      "A space shuttle",
+      "A flying saucer"
+    ],
+    "activity_answer": "The SLV-3 rocket",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it's important for countries to develop their own space programs?",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "313",
+    "title": "Fiery Passion: The Birth of a Volcano Chaser",
+    "story": "Katia Krafft was born on April 17, 1942, in Guebwiller, France. She grew up to become a daring volcanologist, fearlessly filming erupting volcanoes up close. Krafft's groundbreaking work captured the raw power and beauty of these fiery giants, bringing their dramatic displays to screens worldwide. Her passion for studying volcanoes blazed a trail for future scientists, inspiring many to explore Earth's most explosive natural wonders.",
+    "activity_question": "What did Katia Krafft become famous for?",
+    "activity_choices": [
+      "Filming volcanic eruptions",
+      "Climbing mountains",
+      "Studying earthquakes",
+      "Inventing lava lamps"
+    ],
+    "activity_answer": "Filming volcanic eruptions",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think filming volcanoes might be dangerous?",
+    "optional_type": "follow_up_question",
+    "score": 90,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "138",
+    "title": "A Royal Decree Ends Slavery",
+    "story": "Emperor Haile Selassie made a bold move in 1932. On April 17, he officially abolished slavery in Ethiopia. This brave decision freed many people and changed the country forever. Selassie's action showed he wanted a more just and equal society for all Ethiopians. It was a big step forward in human rights for the nation.",
+    "activity_question": "What did Emperor Haile Selassie abolish in Ethiopia?",
+    "activity_choices": [
+      "Slavery",
+      "Taxes",
+      "Dancing",
+      "Homework"
+    ],
+    "activity_answer": "Slavery",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think ending slavery was an important decision for Ethiopia?",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "56",
+    "title": "Seattle's Space Needle Takes Root",
+    "story": "Trucks rumbled through Seattle in 1961, pouring the foundation for an icon. On April 17, a fleet of concrete mixers swarmed the site. Hour after hour, they poured tons of concrete to anchor the Space Needle. This futuristic tower would soon pierce the skyline, becoming a symbol of the city's forward-thinking spirit. The massive pour laid the groundwork for a structure that would inspire visitors for generations to come.",
+    "activity_question": "What was being built in Seattle in 1961?",
+    "activity_choices": [
+      "The Space Needle",
+      "A football stadium",
+      "An underground bunker",
+      "A giant ferris wheel"
+    ],
+    "activity_answer": "The Space Needle",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The Space Needle was built for the 1962 World's Fair in Seattle.",
+    "score": 82,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "234",
+    "title": "A Storyteller's African Adventure Begins",
+    "story": "A future storyteller took her first breath in Denmark. Isak Dinesen, born Karen Blixen-Finecke, arrived in Rungsted on April 17, 1885. She would grow up to become a baroness and famous writer. Her book Out of Africa shared tales of her life running a coffee farm in Kenya, inspiring readers with vivid stories of wildlife and adventure.",
+    "activity_question": "What famous book did Isak Dinesen write?",
+    "activity_choices": [
+      "Out of Africa",
+      "The Jungle Book",
+      "Danish Delights",
+      "Rungsted Rhymes"
+    ],
+    "activity_answer": "Out of Africa",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What country did Isak Dinesen write about in her famous book?",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "93",
+    "title": "Speedy Feet: A Marathon Marvel",
+    "story": "Lacing up his running shoes, Ethiopian athlete Belayneh Densimo prepared for the race of his life. On April 17, 1988, he sprinted into history, setting an incredible world record for the marathon. Densimo's lightning-fast time of 2 hours, 6 minutes, and 50 seconds left spectators in awe. His remarkable feat showcased the power of human endurance and inspired runners worldwide.",
+    "activity_question": "What was Belayneh Densimo's record-breaking marathon time?",
+    "activity_choices": [
+      "2 hours, 6 minutes, and 50 seconds",
+      "3 hours, 15 minutes, and 30 seconds",
+      "1 hour, 59 minutes, and 40 seconds",
+      "2 hours, 30 minutes, and 20 seconds"
+    ],
+    "activity_answer": "2 hours, 6 minutes, and 50 seconds",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How long is a marathon race?",
+    "optional_type": "follow_up_question",
+    "score": 90,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "83",
+    "title": "Grete's Swift Feet Set Marathon Record",
+    "story": "Grete Waltz laced up her running shoes and made history on April 17, 1983. The talented athlete sprinted her way into the record books, setting a new women's world record in the marathon. Grete's incredible time of 2 hours, 25 minutes, and 29 seconds showed just how fast human legs could carry us. Her amazing feat inspired runners everywhere to lace up and chase their dreams.",
+    "activity_question": "What was Grete Waltz's record-breaking marathon time?",
+    "activity_choices": [
+      "2 hours, 25 minutes, and 29 seconds",
+      "3 hours, 15 minutes, and 42 seconds",
+      "1 hour, 59 minutes, and 58 seconds",
+      "4 hours, 30 minutes, and 10 seconds"
+    ],
+    "activity_answer": "2 hours, 25 minutes, and 29 seconds",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think Grete trained for her record-breaking run?",
+    "score": 83,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "239",
+    "title": "The Hand Puppet Master",
+    "story": "A master of hand puppetry was born on April 17, 1896. Señor Wences, a Spanish ventriloquist and comedian, had a unique talent. He could turn his own hand into a talking puppet! With a few simple marks and clever finger movements, Wences brought characters to life right before people's eyes. His skill and humor delighted audiences for decades.",
+    "activity_question": "What was Señor Wences famous for?",
+    "activity_choices": [
+      "Turning his hand into a puppet",
+      "Juggling flaming torches",
+      "Tightrope walking",
+      "Baking giant cakes"
+    ],
+    "activity_answer": "Turning his hand into a puppet",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you think of a fun character you could create using just your hand?",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "111",
+    "title": "Cricket King: Anderson's Record-Breaking Feat",
+    "story": "Howzat! On April 17, 2015, James Anderson bowled his way into cricket history. The English fast bowler claimed his 384th test wicket, making him England's all-time leading wicket-taker in test matches. Anderson's incredible skill and dedication to the sport helped him surpass the previous record set by Ian Botham.",
+    "activity_question": "What record did James Anderson break in 2015?",
+    "activity_choices": [
+      "England's all-time leading wicket-taker in test matches",
+      "Fastest bowler in cricket history",
+      "Most runs scored in a single test match",
+      "Longest career as a cricket player"
+    ],
+    "activity_answer": "England's all-time leading wicket-taker in test matches",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What is a wicket in cricket?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "162",
+    "title": "Dr. J Soars to 30,000 Points",
+    "story": "Swoosh! On April 17, 1987, basketball legend Julius Erving, known as Dr. J, made history. He became only the third player ever to score 30,000 points in professional basketball. His high-flying dunks and smooth moves thrilled fans for years in both the NBA and ABA leagues. Dr. J's amazing achievement showed just how talented and consistent he was throughout his career.",
+    "activity_question": "What nickname was Julius Erving known by?",
+    "activity_choices": [
+      "Dr. J",
+      "The Professor",
+      "Air Julius",
+      "Slam Dunk King"
+    ],
+    "activity_answer": "Dr. J",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Dr. J was famous for his acrobatic dunks, often leaping from the free-throw line!",
+    "score": 70,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "326",
+    "title": "Swedish Hockey Star's Icy Journey",
+    "story": "Börje Salming skated into history on April 17, 1951. Born in Kiruna, Sweden, he became a legendary defenseman. Salming broke barriers as the first European-trained player to reach 1,000 NHL games. He dazzled fans with the Toronto Maple Leafs and Detroit Red Wings, earning NHL All-Star honors in 1977. Salming's skill and determination paved the way for future European players in North American hockey.",
+    "activity_question": "What team did Börje Salming play for besides the Detroit Red Wings?",
+    "activity_choices": [
+      "Toronto Maple Leafs",
+      "New York Rangers",
+      "Montreal Canadiens",
+      "Boston Bruins"
+    ],
+    "activity_answer": "Toronto Maple Leafs",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another famous Swedish hockey player?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "123",
+    "title": "Extreme Weather Strikes South Asia",
+    "story": "Powerful storms unleashed their fury across South Asia on April 17, 2024. After battering the UAE, the wild weather system marched eastward, bringing heavy rain and flooding to Pakistan and Afghanistan. Rivers overflowed, homes were damaged, and communities faced dangerous conditions. Despite the challenges, rescue teams worked tirelessly to help those in need and provide shelter to displaced families.",
+    "activity_question": "Which two countries were hit by heavy rain and flooding?",
+    "activity_choices": [
+      "Pakistan and Afghanistan",
+      "UAE and Pakistan",
+      "Afghanistan and UAE",
+      "India and Bangladesh"
+    ],
+    "activity_answer": "Pakistan and Afghanistan",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How can people prepare for extreme weather events?",
+    "score": 80,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "100",
+    "title": "Space Shuttle Discovery's Stellar Mission",
+    "story": "Whoosh! The Space Shuttle Discovery touched down safely on April 17, 1993, completing its thrilling STS-56 mission. For over a week, brave astronauts orbited Earth, conducting important experiments and releasing a satellite to study our planet's atmosphere. As the shuttle glided onto the runway, cheers erupted from mission control. Another successful journey into the cosmos had expanded our understanding of space and our home world.",
+    "activity_question": "What did the astronauts release during the STS-56 mission?",
+    "activity_choices": [
+      "A satellite",
+      "A space probe",
+      "A weather balloon",
+      "A space station module"
+    ],
+    "activity_answer": "A satellite",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What do you think scientists hoped to learn by studying Earth's atmosphere from space?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "63",
+    "title": "Robot Explorer's Lunar Adventure",
+    "story": "Blast off! On April 17, 1967, NASA launched Surveyor 3, a robotic spacecraft designed to explore the Moon's surface. This metal explorer rocketed through space on an incredible journey. Just days later, it achieved a soft landing on the lunar landscape, becoming one of the first human-made objects to touch down gently on another world.",
+    "activity_question": "What was Surveyor 3 designed to explore?",
+    "activity_choices": [
+      "The Moon's surface",
+      "Mars",
+      "The Sun",
+      "Jupiter's moons"
+    ],
+    "activity_answer": "The Moon's surface",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it's important for robots to explore space before humans?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "80",
+    "title": "Hockey History: A Rare Penalty Shot Goal",
+    "story": "Swoosh! The puck flew past the goalie as Anders Hedberg of the New York Rangers scored a thrilling penalty shot goal. This exciting moment happened during the Stanley Cup playoffs in 1981. Hedberg became only the second player ever to score on a penalty shot in the championship series. It was a rare and memorable feat in hockey history that took place on April 17.",
+    "activity_question": "What team did Anders Hedberg play for when he scored the penalty shot goal?",
+    "activity_choices": [
+      "New York Rangers",
+      "Boston Bruins",
+      "Montreal Canadiens",
+      "Toronto Maple Leafs"
+    ],
+    "activity_answer": "New York Rangers",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Do you know what a penalty shot in hockey is?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "86",
+    "title": "Hockey History: Islanders' Shorthanded Stunner",
+    "story": "The New York Islanders skated into the record books in 1983. On April 17, they tied an NHL playoff record by scoring three shorthanded goals against their rivals, the New York Rangers. Shorthanded goals happen when a team is down a player due to a penalty, making them extra challenging. The Islanders' feat showcased their skill and determination, even when outnumbered on the ice.",
+    "activity_question": "What type of goals did the Islanders score three of in this game?",
+    "activity_choices": [
+      "Shorthanded goals",
+      "Power play goals",
+      "Overtime goals",
+      "Penalty shot goals"
+    ],
+    "activity_answer": "Shorthanded goals",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why are shorthanded goals considered more difficult to score?",
+    "optional_type": "follow_up_question",
+    "score": 78,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "34",
+    "title": "Bears Roar to Victory in NFL Debut",
+    "story": "Touchdown! The Chicago Bears clawed their way to victory in their very first NFL game. On April 17, 1933, they faced off against the New York Giants in a thrilling match. The Bears showed their strength, outscoring their opponents 23-21. This exciting win marked the beginning of a long and successful journey for the team in professional football.",
+    "activity_question": "Who did the Chicago Bears defeat in their first NFL game?",
+    "activity_choices": [
+      "New York Giants",
+      "Green Bay Packers",
+      "Detroit Lions",
+      "Philadelphia Eagles"
+    ],
+    "activity_answer": "New York Giants",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "The Chicago Bears are one of the oldest teams in the NFL, founded in 1920.",
+    "optional_type": "bonus_fact",
+    "score": 70,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "329",
+    "title": "The Voice Behind Beloved Cartoon Characters",
+    "story": "Bugs Bunny and Daffy Duck got a new voice on April 17, 1952. That's when Joseph Alaskey was born in Troy, New York. He grew up to become a talented voice artist, bringing these famous cartoon characters to life. Alaskey's skills weren't limited to rabbits and ducks. He was also a comedian, actor, and impressionist who could mimic many different voices.",
+    "activity_question": "What two famous cartoon characters did Joseph Alaskey voice?",
+    "activity_choices": [
+      "Bugs Bunny and Daffy Duck",
+      "Mickey Mouse and Donald Duck",
+      "Tom and Jerry",
+      "Spongebob and Patrick"
+    ],
+    "activity_answer": "Bugs Bunny and Daffy Duck",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you do any cartoon character voices?",
+    "score": 80,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "343",
+    "title": "Sean Bean: From Yorkshire to Middle-earth",
+    "story": "Sean Bean, the rugged English actor famous for epic roles, entered the world in 1959. Born on April 17 in Handsworth, Yorkshire, Bean grew up to become a screen legend. He thrilled fans as Boromir in The Lord of the Rings trilogy and captured hearts as Ned Stark in Game of Thrones. Bean's talent for intense characters has made him a beloved star of both big and small screens.",
+    "activity_question": "In which trilogy did Sean Bean play Boromir?",
+    "activity_choices": [
+      "The Lord of the Rings",
+      "Game of Thrones",
+      "Star Wars",
+      "Harry Potter"
+    ],
+    "activity_answer": "The Lord of the Rings",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Sean Bean's birth name is actually spelled 'Shaun'.",
+    "score": 65,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "365",
+    "title": "Marquis Grissom: Baseball Star Born",
+    "story": "Speedy outfielder Marquis Grissom raced onto the baseball scene on April 17, 1967. Born in Atlanta, Georgia, he grew up to become a two-time MLB All-Star and four-time Gold Glove winner. Grissom's talent shone bright as he played for teams like the Montreal Expos and Atlanta Braves, even helping win a World Series in 1995.",
+    "activity_question": "What team did Marquis Grissom help win the World Series?",
+    "activity_choices": [
+      "Montreal Expos",
+      "Atlanta Braves",
+      "Cleveland Indians",
+      "Georgia Peaches"
+    ],
+    "activity_answer": "Atlanta Braves",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "A Gold Glove Award is given to the best defensive players in baseball.",
+    "score": 65,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "154",
+    "title": "Paul McCartney Goes Solo",
+    "story": "Beatles fans were in for a surprise in 1970. Paul McCartney, the famous singer and bassist, launched his first solo album on April 17. Called 'McCartney', it marked the start of his career away from the band. Paul played all the instruments himself, showing off his musical skills.",
+    "activity_question": "What was the name of Paul McCartney's first solo album?",
+    "activity_choices": [
+      "McCartney",
+      "Beatles Forever",
+      "Solo Flight",
+      "Paul's Tunes"
+    ],
+    "activity_answer": "McCartney",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Which famous band was Paul McCartney a member of before going solo?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "157",
+    "title": "Carl Sagan's Dragon Book Wins Big",
+    "story": "Stargazer Carl Sagan's mind-bending book about human intelligence soared to new heights. On April 17, 1978, his 'Dragons of Eden' won the prestigious Pulitzer Prize. Sagan's captivating writing explored how our brains evolved, comparing them to computers and even alien minds. The award recognized his talent for making complex science accessible and exciting to everyone.",
+    "activity_question": "What was the name of Carl Sagan's award-winning book?",
+    "activity_choices": [
+      "'Dragons of Eden'",
+      "'Cosmic Connection'",
+      "'Pale Blue Dot'",
+      "'Star Stuff'"
+    ],
+    "activity_answer": "'Dragons of Eden'",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What topic did Sagan explore in his prize-winning book?",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "158",
+    "title": "Ringo Starr's Prehistoric Comedy Adventure",
+    "story": "Grunts, groans, and giggles filled theaters in 1981 when 'Caveman' hit the big screen on April 17. This silly prehistoric comedy starred Ringo Starr, the famous Beatles drummer, alongside Shelley Long and Dennis Quaid. The movie used a made-up caveman language, relying on slapstick humor and goofy dinosaur encounters to tell its stone-age story.",
+    "activity_question": "Who was the famous Beatles member that starred in 'Caveman'?",
+    "activity_choices": [
+      "Ringo Starr",
+      "Paul McCartney",
+      "John Lennon",
+      "George Harrison"
+    ],
+    "activity_answer": "Ringo Starr",
+    "suitable_for_8_to_12_year_old": false,
+    "bonus_fact": "The movie 'Caveman' used a special language of grunts and gestures instead of real words.",
+    "optional_type": "bonus_fact",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "171",
+    "title": "Jazz Legend's Lasting Legacy",
+    "story": "Smooth saxophone notes echo through time. On April 17, 2015, jazz giant John Coltrane received a special honor. The Pulitzer Prize board awarded him a posthumous Special Citation. This recognition celebrated Coltrane's incredible impact on music, even years after his passing.",
+    "activity_question": "What award did John Coltrane receive in 2015?",
+    "activity_choices": [
+      "A Grammy Award",
+      "An Oscar",
+      "A posthumous Special Citation",
+      "A lifetime achievement award"
+    ],
+    "activity_answer": "A posthumous Special Citation",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Do you know what instrument John Coltrane was famous for playing?",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "90",
+    "title": "A Western Tale Wins Big",
+    "story": "Saddle up for a literary adventure! In 1986, author Larry McMurtry's epic Western novel 'Lonesome Dove' lassoed the prestigious Pulitzer Prize for fiction. This sweeping tale of retired Texas Rangers on a cattle drive captured readers' hearts with its vivid characters and rugged frontier spirit. McMurtry's masterpiece, honored on April 17, brought the Old West roaring back to life, proving that cowboy stories could still strike gold in modern times.",
+    "activity_question": "What prize did Larry McMurtry's novel 'Lonesome Dove' win?",
+    "activity_choices": [
+      "Pulitzer Prize",
+      "Nobel Prize",
+      "Booker Prize",
+      "Golden Spur Award"
+    ],
+    "activity_answer": "Pulitzer Prize",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "'Lonesome Dove' was later adapted into a popular TV miniseries, introducing even more people to its unforgettable story.",
+    "score": 90,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "145",
+    "title": "Mickey Mantle's Big League Swing",
+    "story": "Batter up! On April 17, 1951, a young baseball star named Mickey Mantle stepped onto the field for his first Major League game. Playing for the famous New York Yankees, Mantle swung his bat four times that day. He missed three times, but one mighty hit connected, giving him his first big league success.",
+    "activity_question": "What team did Mickey Mantle play for in his MLB debut?",
+    "activity_choices": [
+      "New York Yankees",
+      "Boston Red Sox",
+      "Chicago Cubs",
+      "Los Angeles Dodgers"
+    ],
+    "activity_answer": "New York Yankees",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How many times did Mickey Mantle successfully hit the ball in his first game?",
+    "score": 65,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "150",
+    "title": "A Friend's Touching Oscar Tribute",
+    "story": "Hollywood legend Jimmy Stewart stepped up for his pal Gary Cooper in 1961. On April 17, at the glitzy Academy Awards, Cooper was too sick to collect his honorary Oscar. So Stewart, with a lump in his throat, accepted the golden statue on Cooper's behalf. It was a heartwarming moment of friendship that touched everyone watching.",
+    "activity_question": "Who accepted the honorary Oscar for Gary Cooper?",
+    "activity_choices": [
+      "Jimmy Stewart",
+      "Gary Cooper himself",
+      "The Academy president",
+      "Cooper's wife"
+    ],
+    "activity_answer": "Jimmy Stewart",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it's important to help our friends when they can't do something themselves?",
+    "score": 65,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "155",
+    "title": "Tennis Triumph: Goolagong's Gritty Victory",
+    "story": "Rackets clashed and crowds cheered as Evonne Goolagong Cawley claimed her second WTA Tour Championship in 1976. The Australian tennis star faced off against Chris Evert in a nail-biting match at the Los Angeles Sports Arena on April 17. Goolagong Cawley's determination shone through as she battled to a 6-3, 5-7, 6-3 win, showcasing her skill and resilience on the court.",
+    "activity_question": "Where did Evonne Goolagong Cawley win her second WTA Tour Championship?",
+    "activity_choices": [
+      "Los Angeles Sports Arena",
+      "Melbourne Park",
+      "Wimbledon Centre Court",
+      "Roland Garros Stadium"
+    ],
+    "activity_answer": "Los Angeles Sports Arena",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What qualities do you think make a great tennis player?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "160",
+    "title": "Johnny Cash Rocks Saturday Night Live",
+    "story": "The Man in Black took center stage! Country music legend Johnny Cash hosted Saturday Night Live on April 17, 1982. He didn't just sing—Cash jumped into comedy skits, showing off his funny side. The audience went wild as he performed a medley of his greatest hits. As if that wasn't enough star power, Elton John joined the show as an extra musical guest.",
+    "activity_question": "What did Johnny Cash do besides sing on Saturday Night Live?",
+    "activity_choices": [
+      "Jumped into comedy skits",
+      "Played the piano",
+      "Directed the show",
+      "Cooked a meal"
+    ],
+    "activity_answer": "Jumped into comedy skits",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Johnny Cash was known as 'The Man in Black' because he often wore all-black outfits on stage.",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "164",
+    "title": "Stars Sing to Save the Rainforest",
+    "story": "Music legends united for a special cause on April 17, 1999. The Rock for the Rainforest concert at Carnegie Hall in New York City brought together famous singers to help protect the world's tropical forests. Sting, Elton John, and Billy Joel were just a few of the big names who lent their voices to this important event.",
+    "activity_question": "Where was the Rock for the Rainforest concert held?",
+    "activity_choices": [
+      "Carnegie Hall",
+      "Madison Square Garden",
+      "Central Park",
+      "Times Square"
+    ],
+    "activity_answer": "Carnegie Hall",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it's important to protect rainforests?",
+    "score": 80,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "170",
+    "title": "Stars Sing to Save the Rainforest",
+    "story": "Music superstars united for a special cause in 2014. On April 17, Carnegie Hall in New York City hosted the Rock for the Rainforest concert. Famous singers like Sting, Elton John, and Bruno Mars took the stage. They performed to raise money and awareness for protecting the world's rainforests. The event brought together different musical styles, from pop to classical, all for one important goal.",
+    "activity_question": "Where was the Rock for the Rainforest concert held?",
+    "activity_choices": [
+      "Carnegie Hall",
+      "Madison Square Garden",
+      "Central Park",
+      "Times Square"
+    ],
+    "activity_answer": "Carnegie Hall",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it's important to protect rainforests?",
+    "score": 82,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "322",
+    "title": "From Prague to Miami Vice",
+    "story": "Jan Hammer's musical journey began in Prague on April 17, 1948. Born with a talent for keys, he'd grow up to rock stages with the Mahavishnu Orchestra and Jeff Beck. But Hammer's biggest hit? The catchy 'Miami Vice Theme' that had everyone humming along to TV's coolest cops.",
+    "activity_question": "What famous TV show theme did Jan Hammer compose?",
+    "activity_choices": [
+      "Miami Vice Theme",
+      "Knight Rider Theme",
+      "Magnum P.I. Theme",
+      "The A-Team Theme"
+    ],
+    "activity_answer": "Miami Vice Theme",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Jan Hammer played multiple instruments, including the keytar, a keyboard shaped like a guitar!",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "348",
+    "title": "Touchdown for a Future Football Star",
+    "story": "A future football legend took his first breath in East Islip, New York. On April 17, 1961, Boomer Esiason entered the world, destined to become a star quarterback. He would go on to play for the New York Jets and Cincinnati Bengals, thrilling fans with his powerful left-handed throws and leadership on the field.",
+    "activity_question": "Which two NFL teams did Boomer Esiason play for?",
+    "activity_choices": [
+      "New York Jets and Cincinnati Bengals",
+      "Green Bay Packers and Dallas Cowboys",
+      "Miami Dolphins and New England Patriots",
+      "San Francisco 49ers and Chicago Bears"
+    ],
+    "activity_answer": "New York Jets and Cincinnati Bengals",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What made Boomer Esiason unique as a quarterback?",
+    "score": 55,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "359",
+    "title": "A Star is Born in Tamil Nadu",
+    "story": "In the bustling city of Madras, Tamil Nadu, a future Bollywood star took his first breath. Vikram, born Kennedy John Victor, entered the world on April 17, 1966. Little did anyone know that this baby boy would grow up to become one of India's most beloved actors, captivating audiences with his talent and charm on the big screen.",
+    "activity_question": "What was Vikram's birth name?",
+    "activity_choices": [
+      "Kennedy John Victor",
+      "Vikram Kumar",
+      "Rajinikanth",
+      "Amitabh Bachchan"
+    ],
+    "activity_answer": "Kennedy John Victor",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another famous actor from Tamil Nadu?",
+    "optional_type": "follow_up_question",
+    "score": 55,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "361",
+    "title": "Lost Star's Journey Begins",
+    "story": "Lights, camera, action! Henry Ian Cusick, the actor who'd later play Desmond Hume on the hit TV show Lost, took his first breath in Trujillo, Peru. Born on April 17, 1967, this future star had both Peruvian and Scottish roots, setting the stage for a truly international acting career.",
+    "activity_question": "What TV show is Henry Ian Cusick known for starring in?",
+    "activity_choices": [
+      "Lost",
+      "Friends",
+      "Breaking Bad",
+      "The Office"
+    ],
+    "activity_answer": "Lost",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another country where Henry Ian Cusick has roots besides Peru?",
+    "optional_type": "follow_up_question",
+    "score": 55,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "362",
+    "title": "A Star Is Born: Kimberly Elise",
+    "story": "Lights, camera, action! On April 17, 1967, a future star entered the world. Kimberly Elise, who would grow up to become a talented American actress, was born in Minneapolis, Minnesota. She later wowed audiences with her powerful performance in the movie 'Beloved', bringing characters to life on the big screen.",
+    "activity_question": "In which city was Kimberly Elise born?",
+    "activity_choices": [
+      "Minneapolis",
+      "Hollywood",
+      "New York City",
+      "Los Angeles"
+    ],
+    "activity_answer": "Minneapolis",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What famous movie did Kimberly Elise star in?",
+    "optional_type": "follow_up_question",
+    "score": 55,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "263",
+    "title": "From Fighter Ace to Football Chief",
+    "story": "Joe Foss soared into history on April 17, 1915. Born in Sioux Falls, South Dakota, he became a legendary fighter ace during World War II. His bravery earned him the Medal of Honor in 1943. After the war, Foss tackled a new challenge as the first commissioner of the American Football League. This high-flying hero later served in politics, proving he could lead in the air and on the ground.",
+    "activity_question": "What award did Joe Foss receive in 1943?",
+    "activity_choices": [
+      "Medal of Honor",
+      "Purple Heart",
+      "Silver Star",
+      "Distinguished Flying Cross"
+    ],
+    "activity_answer": "Medal of Honor",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Joe Foss was born in the same state where Mount Rushmore would later be carved.",
+    "score": 68,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "267",
+    "title": "A Voice That Crossed Borders",
+    "story": "Chavela Vargas, a powerful singer who bridged cultures, was born in Costa Rica in 1919. On April 17, she began a journey that would lead her to become a beloved Mexican music icon. Vargas captivated audiences with her deep, soulful voice and passionate performances of rancheras and other traditional songs.",
+    "activity_question": "Where was Chavela Vargas born?",
+    "activity_choices": [
+      "Costa Rica",
+      "Mexico",
+      "Spain",
+      "Argentina"
+    ],
+    "activity_answer": "Costa Rica",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "Chavela Vargas became a Mexican citizen later in life.",
+    "optional_type": "bonus_fact",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "277",
+    "title": "Althea Simmons: Champion for Human Rights",
+    "story": "Althea Simmons burst into the world on April 17, 1924, ready to make a difference. Born in Shreveport, Louisiana, she grew up to become a powerful voice for equality. Simmons dedicated her life to fighting for human rights, eventually becoming the chief lobbyist for the NAACP. Her tireless work helped shape laws and policies to create a fairer society for all Americans.",
+    "activity_question": "What organization did Althea Simmons become the chief lobbyist for?",
+    "activity_choices": [
+      "NAACP",
+      "UNICEF",
+      "Red Cross",
+      "Girl Scouts"
+    ],
+    "activity_answer": "NAACP",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What does NAACP stand for?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "295",
+    "title": "The Golden Ear of Rock & Roll",
+    "story": "A musical legend was born in the Bronx on April 17, 1934. Don Kirshner, nicknamed 'The Man With the Golden Ear', would grow up to shape the sound of rock and roll. He's credited with inventing 'bubblegum pop', a catchy style of music that kids and teens loved. Kirshner's talent for spotting hit songs made him one of the most influential producers in the music industry.",
+    "activity_question": "What nickname was Don Kirshner given?",
+    "activity_choices": [
+      "The Man With the Golden Ear",
+      "The King of Pop",
+      "The Music Magician",
+      "The Bubblegum Baron"
+    ],
+    "activity_answer": "The Man With the Golden Ear",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What kind of music did Don Kirshner invent?",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "307",
+    "title": "Rock 'n' Roll Star Born in Liverpool",
+    "story": "A future rock 'n' roll sensation entered the world in Liverpool, England on April 17, 1940. Ronald Wycherley, better known as Billy Fury, would grow up to become a British music icon. Fury's powerful voice and catchy tunes like 'When Will You Say I Love You' and 'Halfway To Paradise' made him a beloved star. He even tried his hand at acting, appearing in the film 'That'll Be The Day'.",
+    "activity_question": "What was Billy Fury's real name?",
+    "activity_choices": [
+      "Ronald Wycherley",
+      "William Fury",
+      "Robert Liverpool",
+      "Ringo Starr"
+    ],
+    "activity_answer": "Ronald Wycherley",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Billy Fury's hometown of Liverpool later became famous as the birthplace of The Beatles.",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "308",
+    "title": "A Cartoonist's Colorful Life Begins",
+    "story": "Pencils and paper were destined for greatness when Claire Bretécher was born in Nantes, France in 1940. On April 17 that year, the world welcomed a future master of comics. Bretécher would grow up to create Les Frustrés, a witty cartoon series that captured the essence of modern life with humor and insight.",
+    "activity_question": "What famous cartoon series did Claire Bretécher create?",
+    "activity_choices": [
+      "Les Frustrés",
+      "Le Petit Prince",
+      "Astérix",
+      "Tintin"
+    ],
+    "activity_answer": "Les Frustrés",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What do you think makes cartoons a powerful way to tell stories?",
+    "optional_type": "follow_up_question",
+    "score": 60,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "310",
+    "title": "Musical Maestro Born: Adolphus Hailstork",
+    "story": "Imagine a world filled with beautiful music! On April 17, 1941, Adolphus Hailstork was born in Rochester, New York. He grew up to become a famous American composer and teacher. Hailstork created amazing pieces like 'EarthRise (A Song of Healing)' and 'Ghosts in Grey and Blue'. His talent for making melodies has inspired many people.",
+    "activity_question": "What famous piece did Adolphus Hailstork compose?",
+    "activity_choices": [
+      "EarthRise (A Song of Healing)",
+      "Moonfall (A Dance of Joy)",
+      "Sunburst (A Tune of Laughter)",
+      "Starlight (A Melody of Dreams)"
+    ],
+    "activity_answer": "EarthRise (A Song of Healing)",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What other job did Adolphus Hailstork have besides being a composer?",
+    "optional_type": "follow_up_question",
+    "score": 60,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "312",
+    "title": "A Thrones Star Is Born",
+    "story": "Lights, camera, action! David Bradley, the actor who'd one day play the sinister Walder Frey in Game of Thrones, took his first bow in York, Yorkshire. Born on April 17, 1942, Bradley's journey from English roses to Westeros began. Little did anyone know this newborn would grow up to become one of TV's most memorable villains!",
+    "activity_question": "What character did David Bradley play in Game of Thrones?",
+    "activity_choices": [
+      "Walder Frey",
+      "Jon Snow",
+      "Tyrion Lannister",
+      "The Night King"
+    ],
+    "activity_answer": "Walder Frey",
+    "suitable_for_8_to_12_year_old": false,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Where was David Bradley born?",
+    "score": 65,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "318",
+    "title": "Clare Francis: Sailing Champion and Novelist",
+    "story": "Clare Francis made waves in more ways than one! Born in Thames Ditton, England in 1946, she grew up to become a trailblazing sailor. Francis carved her name in history on April 17 by becoming the first woman to captain a winning boat in the Whitbread Around the World Race. But her adventures didn't stop on the water. She also penned exciting novels like 'Come Hell or High Water', proving she could navigate both stormy seas and thrilling stories.",
+    "activity_question": "What race did Clare Francis win as the first female captain?",
+    "activity_choices": [
+      "Whitbread Around the World Race",
+      "America's Cup",
+      "Olympic Sailing",
+      "The Great Tea Race"
+    ],
+    "activity_answer": "Whitbread Around the World Race",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another famous female sailor or explorer?",
+    "optional_type": "follow_up_question",
+    "score": 82,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "324",
+    "title": "Dishing Out Assists: Kevin Porter's NBA Legacy",
+    "story": "Dribble, pass, score! Kevin Porter, born in Chicago on April 17, 1950, became a basketball wizard. This point guard mastered the art of assists, leading the NBA in this crucial skill four times. Porter's quick thinking and precise passes made him a valuable teammate, setting up countless baskets throughout his career.",
+    "activity_question": "What basketball skill did Kevin Porter excel at?",
+    "activity_choices": [
+      "Assists",
+      "Dunking",
+      "Three-pointers",
+      "Rebounding"
+    ],
+    "activity_answer": "Assists",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why are assists important in basketball?",
+    "optional_type": "follow_up_question",
+    "score": 60,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  }
+]

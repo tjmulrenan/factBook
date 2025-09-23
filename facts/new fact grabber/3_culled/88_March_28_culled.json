@@ -1,0 +1,542 @@
+[
+  {
+    "id": 111,
+    "year": "2017",
+    "original": "World's largest dinosaur footprint, measuring 1.7 meters, is found in Kimberley, Western Australia",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 1
+  },
+  {
+    "id": 134,
+    "year": "1944",
+    "original": "Astrid Lindgrensprains ankle and begins writing \"Pippi Longstocking\"",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 2
+  },
+  {
+    "id": 115,
+    "year": "2019",
+    "original": "Study of a 71 year-old British woman who has never felt pain, for the first time understood as due to a gene mutation, published in British Journal of Anaesthesia",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 3
+  },
+  {
+    "id": 126,
+    "year": "1881",
+    "original": "\"Greatest Show On Earth\" formed byP. T. BarnumandJames Anthony Bailey",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 4
+  },
+  {
+    "id": 147,
+    "year": "1990",
+    "original": "Michael Jordanscores 69 points, 4th time he scores 60 pts in a game",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 5
+  },
+  {
+    "id": 131,
+    "year": "1935",
+    "original": "Robert Goddarduses gyroscopes to control a rocket",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 6
+  },
+  {
+    "id": 159,
+    "year": "1910",
+    "original": "First seaplane takes off from water under its own power, piloted by Henri Fabre from the Étang de Berre lagoon in Martigues, France",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 7
+  },
+  {
+    "id": 47,
+    "year": "1949",
+    "original": "English astronomer Fred Hoyle coins the term \"Big Bang\" in a BBC radio talk while actually arguing for the alternative \"steady-state\" theory",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 8
+  },
+  {
+    "id": 114,
+    "year": "2019",
+    "original": "European parliament bans single-use plastics, including cutlery and straws by 2021",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 9
+  },
+  {
+    "id": 137,
+    "year": "1964",
+    "original": "Madame Tussaud's Wax Museum in London unveils figures of The Beatles; the waxworks later appear on the Sgt. Pepper album cover",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 10
+  },
+  {
+    "id": 100,
+    "year": "2005",
+    "original": "The 2005 Sumatran earthquake rocks Indonesia, and at magnitude 8.7 is the second strongest earthquake since 1960.",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 11
+  },
+  {
+    "id": 80,
+    "year": "1985",
+    "original": "International Cometary Explorer measures solar wind ahead of Halley",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 12
+  },
+  {
+    "id": 15,
+    "year": "1802",
+    "original": "Wilhelm Olbers discovers 2 Pallas, the second known asteroid",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 13
+  },
+  {
+    "id": 236,
+    "year": "1905",
+    "original": "Marlin Perkins, American TV host (Mutual of Omaha's Wild Kingdom), born in Carthage, Missouri (d. 1986)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 14
+  },
+  {
+    "id": 193,
+    "year": "1814",
+    "original": "Galen Clark, Canadian-born American naturalist and conservationist (discovered and helped preserve Mariposa's Grove of giant Sequoia trees), born in Shipton, Canada East (d. 1910)[1]",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 15
+  },
+  {
+    "id": 148,
+    "year": "1990",
+    "original": "US PresidentGeorge H. W. Bushposthumously awardsJesse Owensthe Congressional Gold Medal",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 16
+  },
+  {
+    "id": 161,
+    "year": "1989",
+    "original": "The Louvre Pyramid designed byI. M. Peiis inaugurated by French President François Mitterrand in Paris",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 17
+  },
+  {
+    "id": 14,
+    "year": "1797",
+    "original": "Nathaniel Briggs of New Hampshire patents a washing machine",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 18
+  },
+  {
+    "id": 24,
+    "year": "1866",
+    "original": "First ambulance goes into service",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 19
+  },
+  {
+    "id": 60,
+    "year": "1964",
+    "original": "Discovery of  Epstein-Barr virus, the first human tumor virus, identified by pathologists English Anthony Epstein and Yvonne Barr published in \"Lancet\"",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 20
+  },
+  {
+    "id": 156,
+    "year": "2023",
+    "original": "Chris Sharmacompletes the first redpoint of Sleeping Lion in Siurana, Spain, a 9b+ (5.15c) route",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 21
+  },
+  {
+    "id": 77,
+    "year": "1981",
+    "original": "Yevgeni Kulikov skates world record 500m (36.91 secs)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 22
+  },
+  {
+    "id": 102,
+    "year": "2007",
+    "original": "Sri Lankan cricket fast bowler Lasith Malinga produces unprecedented sequence of 4 wickets in 4 balls, as South Africa scrambles to a 1-wicket Super 8's ICC World Cup win in Guyana",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 24
+  },
+  {
+    "id": 91,
+    "year": "1993",
+    "original": "Type II supernova detected in M81 (NGC 3031)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 25
+  },
+  {
+    "id": 325,
+    "year": "1949",
+    "original": "Michael W. Young, American geneticist noted for work studying circadian rhythms (Nobel Prize in Physiology or Medicine, 2017), born in Miami, Florida",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 30
+  },
+  {
+    "id": 318,
+    "year": "1946",
+    "original": "Wubbo Ockels, Dutch physicist and astronaut, born in Almelo Netherlands, (d. 2014)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 31
+  },
+  {
+    "id": 258,
+    "year": "1915",
+    "original": "Selma Rubin, American environmental activist (Earth Day co-founder), born in Toledo, Ohio (d. 2012)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 32
+  },
+  {
+    "id": 109,
+    "year": "2017",
+    "original": "Cyclone Debbie strikes north east Queensland coast as a category 4 storm",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 33
+  },
+  {
+    "id": 108,
+    "year": "2017",
+    "original": "Britain introduces 1st new pound coin in 30 years with secret security feature inside to stop counterfeiting",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 34
+  },
+  {
+    "id": 142,
+    "year": "1972",
+    "original": "Wilt Chamberlainplays his last pro basketball game",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 35
+  },
+  {
+    "id": 67,
+    "year": "1975",
+    "original": "NHL Washington Capitals win 1st game on road after 37 straight road loses",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 36
+  },
+  {
+    "id": 53,
+    "year": "1955",
+    "original": "NZ cricket all out for 26 v England at Eden Park",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 37
+  },
+  {
+    "id": 90,
+    "year": "1993",
+    "original": "Nabisco Dinah Shore Women's Golf, Mission Hills CC: Helen Alfredsson of Sweden wins her only major title, 2 strokes ahead of 3 runners-up; first non-American to win the event as a major",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 40
+  },
+  {
+    "id": 343,
+    "year": "1957",
+    "original": "Harvey Glance, American athlete (Olympic gold 4x100m relay 1976; World C'ship gold 4x100m relay 1987), born in Phenix City, Alabama (d. 2023)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 42
+  },
+  {
+    "id": 327,
+    "year": "1949",
+    "original": "Ronnie Ray Smith, American athlete, 4 X 100m relay runner (Olympic gold 1968), born in Los Angeles, California (d. 2013)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 44
+  },
+  {
+    "id": 332,
+    "year": "1951",
+    "original": "Karen Kain, Canadian ballet dancer, 1973-97 (Moscow International Ballet Competition, 1973), and artistic director (National Ballet of Canada, 2005-21), born in Hamilton, Ontario",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 45
+  },
+  {
+    "id": 350,
+    "year": "1960",
+    "original": "Chris Barrie [Brown], British impressionist, comic, and actor (Red Dwarf - \"Arnold Rimmer\"; The Brittas Empire), born in Hanover, West Germany",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 46
+  },
+  {
+    "id": 61,
+    "year": "1964",
+    "original": "First true pirate radio station, England's Radio Caroline begins regular transmission at noon from the MV Caroline off the coast of Suffolk",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 47
+  },
+  {
+    "id": 144,
+    "year": "1981",
+    "original": "Martina Navratilovabeats 16-year-old American tennis prodigyAndrea Jaeger6-3, 7-6 in the final of the WTA Tour Championships at Madison Square Garden, NYC",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 48
+  },
+  {
+    "id": 11,
+    "year": "1794",
+    "original": "Louvre opens to the public (although officially opened since August)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 49
+  },
+  {
+    "id": 160,
+    "year": "1930",
+    "original": "Turkish cities Constantinople and Angora change their names to Istanbul and Ankara",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 50
+  },
+  {
+    "id": 151,
+    "year": "2013",
+    "original": "Pope Francisbecomes the first Pope to wash the feet of women in the Maundy Thursday service",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 51
+  },
+  {
+    "id": 141,
+    "year": "1972",
+    "original": "Elvis Presleyrecords his final Top Ten hit, a cover of \"Burning Love\", a song written by Dennis Linde, and first recorded by Arthur Alexander",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 52
+  },
+  {
+    "id": 125,
+    "year": "1859",
+    "original": "First orchestral performance ofJohannes Brahms' Serenade No. 1",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 53
+  },
+  {
+    "id": 256,
+    "year": "1915",
+    "original": "Jay Livingston, American Academy Award-winning composer and songwriter (chiefly with Ray Evans - \"Que Será, Será\", \"Silver Bells\"; \"Mona Lisa\"; \"Tammy\", theme to \"Mr. Ed\"), born in McDonald, Pennsylvania (d. 2001)[1]",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 54
+  },
+  {
+    "id": 247,
+    "year": "1910",
+    "original": "Jimmie Dodd, American actor (The Mickey Mouse Club; Thundering Trails; Riders of the Rio Grande), and singer-songwriter, born in Cincinnati, Ohio (d. 1964)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 55
+  },
+  {
+    "id": 269,
+    "year": "1922",
+    "original": "Neville Bonner, the first Indigenous Australian to become a member of the Parliament of Australia, born in Ukerebagh Island, New South Wales (d. 1999)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 56
+  },
+  {
+    "id": 270,
+    "year": "1923",
+    "original": "Thad Jones, American jazz saxophonist, flugelhorn player, arranger, bandleader, and composer (Count Basie; Thad Jones/Mel Lewis Orchestra), born in Pontiac, Michigan (d. 1986)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 57
+  },
+  {
+    "id": 272,
+    "year": "1924",
+    "original": "Frederick \"Freddie\" Bartholomew, British child actor (Anna Karenina, David Copperfield, Captains Courageous), born in London, England (d. 1992)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 58
+  },
+  {
+    "id": 184,
+    "year": "1760",
+    "original": "Thomas Clarkson, English abolitionist (Negro Emancipation), born in Wisbech, Cambridgeshire, England (d. 1846)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 59
+  },
+  {
+    "id": 34,
+    "year": "1920",
+    "original": "Palm Sunday tornado outbreak of 1920 affects the Great Lakes region and Deep South states",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 60
+  },
+  {
+    "id": 28,
+    "year": "1902",
+    "original": "27.9 cm precipitation at McMinnville, Tennessee (state record)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 62
+  },
+  {
+    "id": 36,
+    "year": "1922",
+    "original": "Stanley Cup Final, Mutual Street Arena, Toronto, ON: Toronto St Patricks (NHL) beat Vancouver Millionaires (PCHA), 5-1 for a 3-2 series win",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 63
+  },
+  {
+    "id": 68,
+    "year": "1976",
+    "original": "AIAW Women's Basketball Tournament, Delta States beat Immaculata, 69-64 at Pennsylvania State University",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 64
+  },
+  {
+    "id": 99,
+    "year": "2004",
+    "original": "Kraft Nabisco Championship Women's Golf, Mission Hills CC: Grace Park wins her only major title by 1 stroke, sinking a 6-foot birdie putt on the 72nd hole; fellow South Korean Aree Song is runner-up",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 65
+  },
+  {
+    "id": 84,
+    "year": "1987",
+    "original": "Stacking of Discovery's SRBs gets underway",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 67
+  },
+  {
+    "id": 38,
+    "year": "1927",
+    "original": "Majestic Theater opens at 245 W 44th St, NYC; designed with a modern Spanish exterior and French revival style interior by architect Herbert J. Krapp, it is largest of 3 theater and hotel development cuilt by Irving Chanin",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 68
+  },
+  {
+    "id": 56,
+    "year": "1960",
+    "original": "Pope John appoints the first Japanese, African & Filipino cardinals",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 69
+  },
+  {
+    "id": 9,
+    "year": "1776",
+    "original": "Juan Bautista de Anza finds the site for the Presidio of San Francisco",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 70
+  },
+  {
+    "id": 6,
+    "year": "1566",
+    "original": "Foundation stone laid for the new city of La Valletta in Malta by Knights Hospitaller Grand Master Jean de Valette",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 71
+  }
+]

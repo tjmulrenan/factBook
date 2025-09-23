@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Do-Si-Do Your Way to Fun!",
+    "story": "Grab your partner and get ready to swing! National Square Dance Day on November 29 brings people together for this toe-tapping American tradition. Dancers form squares of eight people and follow a caller who shouts out moves like \"do-si-do\" and \"allemande left.\" Communities host barn dances, schools teach basic steps, and families gather to twirl around dance floors. The best part? You don't need fancy moves to join the fun!",
+    "activity_question": "How many people form a square in square dancing?",
+    "activity_choices": [
+      "Four people",
+      "Six people",
+      "Eight people",
+      "Ten people"
+    ],
+    "activity_answer": "Eight people",
+    "follow_up_question": "What other traditional dances would you like to learn?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "902",
+    "title": "Pucker Up for Pie Day!",
+    "story": "Every November 29, dessert lovers across America celebrate National Lemon Cream Pie Day by indulging in this tangy-sweet treat! Bakeries showcase their fluffiest lemon cream pies, while home bakers whip up their own versions with zesty lemon filling and billowy whipped cream. Food bloggers share photos of their perfect golden slices, and restaurants often feature lemon cream pie as their daily special. Some families make it a tradition to bake together, squeezing fresh lemons and creating memories. The holiday gives everyone the perfect excuse to enjoy this classic dessert that perfectly balances tart and creamy flavors in every delicious bite.",
+    "activity_question": "What do food bloggers typically do on National Lemon Cream Pie Day?",
+    "activity_choices": [
+      "Share photos of their pie slices",
+      "Write poems about lemons",
+      "Host pie-eating contests",
+      "Make lemon sculptures"
+    ],
+    "activity_answer": "Share photos of their pie slices",
+    "bonus_fact": "Lemon cream pie became popular in America during the 1800s when lemons were considered exotic!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "903",
+    "title": "Digital Hugs and Virtual High-Fives Day",
+    "story": "Every November 29, people celebrate National Electronic Greetings Day by sending digital messages instead of paper cards! Families text funny GIFs to each other, friends share silly memes on social media, and kids email colorful e-cards to their grandparents. Some people send voice messages or record short videos to make their greetings extra special. It's amazing how a simple emoji or animated card can brighten someone's day instantly, no stamps required!",
+    "activity_question": "What do people send on National Electronic Greetings Day instead of paper cards?",
+    "activity_choices": [
+      "Digital messages and e-cards",
+      "Handwritten letters",
+      "Carrier pigeons",
+      "Smoke signals"
+    ],
+    "activity_answer": "Digital messages and e-cards",
+    "follow_up_question": "What's your favorite type of electronic greeting to send or receive?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  }
+]

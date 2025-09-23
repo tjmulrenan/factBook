@@ -1,0 +1,102 @@
+[
+  {
+    "id": "901",
+    "title": "Save the Day with World Backup Day!",
+    "story": "Every March 31, tech-savvy people around the world celebrate World Backup Day by copying their important computer files to safe places. Families back up their favorite photos, students save their school projects, and businesses protect their data. People share reminders on social media about backing up phones, tablets, and computers. It's like having a safety net for your digital memories and work!",
+    "activity_question": "What do people mainly do on World Backup Day?",
+    "activity_choices": [
+      "Copy important files to safe places",
+      "Delete old photos from their phones",
+      "Buy new computers and tablets",
+      "Play backup singing games"
+    ],
+    "activity_answer": "Copy important files to safe places",
+    "follow_up_question": "What would happen if you lost all your favorite photos and videos?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "902",
+    "title": "Shell Yeah! It's Clam Day",
+    "story": "Every March 31, seafood lovers celebrate National Clams on the Half Shell Day by slurping down fresh clams served right in their shells! Restaurants offer special clam deals, and coastal towns host clam festivals with live music and cooking contests. People gather at raw bars to enjoy these ocean treats with lemon juice, hot sauce, or cocktail sauce. Some brave kids try their first clam on this day, while others stick to clam chowder instead!",
+    "activity_question": "How are clams typically served on National Clams on the Half Shell Day?",
+    "activity_choices": [
+      "Right in their shells",
+      "Wrapped in seaweed",
+      "On pizza slices",
+      "Inside ice cream cones"
+    ],
+    "activity_answer": "Right in their shells",
+    "follow_up_question": "What other ocean foods would you want to try for the first time?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "903",
+    "title": "Bunsen Burner Day: Science Gets Fired Up!",
+    "story": "Scientists and students around the world celebrate Bunsen Burner Day on March 31 by honoring one of the most important tools in every science lab! Named after German scientist Robert Bunsen, this simple device creates a clean, hot flame perfect for heating chemicals and conducting experiments. Today, teachers use Bunsen Burner Day to demonstrate cool science experiments, showing how the blue flame can reach temperatures over 3,000 degrees Fahrenheit. Many schools hold special chemistry demonstrations, and science museums often feature hands-on activities about heat and combustion to get kids excited about scientific discovery.",
+    "activity_question": "What color is the flame that a Bunsen burner produces?",
+    "activity_choices": [
+      "Blue",
+      "Red",
+      "Green",
+      "Purple with sparkles"
+    ],
+    "activity_answer": "Blue",
+    "bonus_fact": "The Bunsen burner's flame is so hot it can melt copper!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "904",
+    "title": "Tower Power: Celebrating Paris's Iron Lady",
+    "story": "Every March 31, people around the world celebrate Eiffel Tower Day by honoring one of the most famous landmarks on Earth! Tourists flock to Paris to take selfies with the towering iron structure, while others share photos and fun facts about the 1,083-foot giant on social media. Many people learn surprising things about the tower, like how it was once considered an eyesore by Parisians or how it grows six inches taller in summer heat. Art classes draw the tower, restaurants serve French treats, and travel dreamers add Paris to their bucket lists on this special day.",
+    "activity_question": "How much taller does the Eiffel Tower grow in summer heat?",
+    "activity_choices": [
+      "Six inches",
+      "Two feet",
+      "One inch",
+      "It shrinks instead"
+    ],
+    "activity_answer": "Six inches",
+    "bonus_fact": "The Eiffel Tower was originally built as a temporary structure for the 1889 World's Fair!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "905",
+    "title": "A Day to Shine Bright and Proud",
+    "story": "March 31 is National Transgender Day of Visibility, when people celebrate and support transgender friends, family members, and community members. Transgender people are those whose gender identity is different from what they were assigned at birth. On this special day, people share stories, post supportive messages on social media, and wear light blue, pink, and white colors from the transgender pride flag. Schools, libraries, and community centers often host educational events to help everyone learn about acceptance and kindness.",
+    "activity_question": "What colors do people often wear on National Transgender Day of Visibility?",
+    "activity_choices": [
+      "Light blue, pink, and white",
+      "Red, white, and blue",
+      "Green, yellow, and purple",
+      "Orange, black, and silver"
+    ],
+    "activity_answer": "Light blue, pink, and white",
+    "follow_up_question": "How can you show kindness and support to all your classmates and friends?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  }
+]

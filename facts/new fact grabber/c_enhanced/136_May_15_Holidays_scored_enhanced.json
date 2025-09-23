@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Families Around the World Unite!",
+    "story": "Every May 15, families everywhere celebrate the International Day of Families! This special day brings attention to how important families are in every culture around the world. People share photos of their loved ones on social media, have big family dinners, and spend extra time together. Some communities organize fun family events like picnics, games, and storytelling sessions where grandparents share old tales with younger generations.",
+    "activity_question": "What do people commonly share on social media during International Day of Families?",
+    "activity_choices": [
+      "Photos of their loved ones",
+      "Pictures of their breakfast",
+      "Videos of dancing cats",
+      "Screenshots of video games"
+    ],
+    "activity_answer": "Photos of their loved ones",
+    "follow_up_question": "What makes your family special and unique?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "902",
+    "title": "Chips Ahoy! It's Chocolate Chip Day!",
+    "story": "Every May 15, chocolate chip lovers across America celebrate National Chocolate Chip Day by baking, buying, and devouring their favorite treats! People share photos of homemade chocolate chip cookies on social media, bakeries offer special deals, and families gather in kitchens to make fresh batches together. Some folks get creative by adding chocolate chips to pancakes, muffins, or even pizza! The tiny morsels that accidentally became famous when Ruth Wakefield chopped up a chocolate bar for her cookies in 1938 now have their very own holiday. It's the perfect excuse to indulge in America's favorite cookie ingredient!",
+    "activity_question": "What do people often add chocolate chips to besides cookies on this holiday?",
+    "activity_choices": [
+      "Pancakes and muffins",
+      "Ice cream and soup",
+      "Salad and sandwiches",
+      "Toothpaste and shampoo"
+    ],
+    "activity_answer": "Pancakes and muffins",
+    "bonus_fact": "Ruth Wakefield's chocolate chip invention happened completely by accident!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "903",
+    "title": "Top Off Your Day with Style!",
+    "story": "Every May 15, people celebrate Straw Hat Day by dusting off their favorite summer headwear! This fun holiday marks the perfect time to break out those breezy, woven hats that keep you cool and stylish. People wear straw hats to work, school, or just around town, showing off everything from classic sun hats to funky fedoras. Social media fills up with hat selfies and outfit posts featuring these timeless accessories.",
+    "activity_question": "What do people mainly do to celebrate Straw Hat Day?",
+    "activity_choices": [
+      "Wear their favorite straw hats",
+      "Make hats out of actual straw from farms",
+      "Drink smoothies through straw hats",
+      "Give away free hats at stores"
+    ],
+    "activity_answer": "Wear their favorite straw hats",
+    "follow_up_question": "What's the most creative straw hat design you can imagine?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  }
+]

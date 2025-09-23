@@ -1,0 +1,542 @@
+[
+  {
+    "id": 103,
+    "year": "2022",
+    "original": "New study of Pluto finds evidence of cryovolcanoes and ice lava from NASA's New Horizons footage 2015",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 1
+  },
+  {
+    "id": 164,
+    "year": "1974",
+    "original": "Chinese farmers discover the Terracotta Army near Xi'an, 8,000 clay warrior statues buried to guard the tomb of China's first emperor,Qin Shi Huang",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 2
+  },
+  {
+    "id": 161,
+    "year": "1848",
+    "original": "Niagara Falls stops flowing for 30 hours due to an ice jam in the river upstream",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 3
+  },
+  {
+    "id": 100,
+    "year": "2021",
+    "original": "Megaship Ever Given freed after nearly a week stuck in and blocking the Suez Canal, with at least 369 vessels waiting to pass though",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 4
+  },
+  {
+    "id": 93,
+    "year": "2013",
+    "original": "Soyuz TMA-08M sets a new record of 6 hours in orbit before docking with the International Space Station",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 5
+  },
+  {
+    "id": 106,
+    "year": "2023",
+    "original": "Researchers warn crucial deep Antarctic ocean currents could collapse by 42% by 2050, stopping nutrient-dense water from flowing north, accelerating ice melt and further warming the world's oceans",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 6
+  },
+  {
+    "id": 56,
+    "year": "1974",
+    "original": "Mariner 10's, 1st fly-by of Mercury, returns photos",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 7
+  },
+  {
+    "id": 115,
+    "year": "1912",
+    "original": "CaptainRobert Falcon Scott, storm-bound in a tent near the South Pole, makes the last entry in his diary \"the end cannot be far\"",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 8
+  },
+  {
+    "id": 136,
+    "year": "1985",
+    "original": "Wayne Gretzkybreaks own NHL season record with 126th assist",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 9
+  },
+  {
+    "id": 63,
+    "year": "1981",
+    "original": "Tiina Lehtola ski jumps female record 110m",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 10
+  },
+  {
+    "id": 128,
+    "year": "1966",
+    "original": "Muhammad Alibeats George Chuvalo in 15 for heavyweight boxing title",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 11
+  },
+  {
+    "id": 151,
+    "year": "2019",
+    "original": "American singer-songwriterBillie Eilish(17) releases her debut studio album \"When We All Fall Asleep, Where Do We Go?\"",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 12
+  },
+  {
+    "id": 54,
+    "year": "1971",
+    "original": "Development of a serum hepatitis vaccine for children announced",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 13
+  },
+  {
+    "id": 158,
+    "year": "2025",
+    "original": "New York Yankees Paul Goldschmidt, Cody Bellinger, andAaron Judgehit home runs on the first three pitches from Milwaukee Brewers Nester Cortes, the start of franchise record nine homers in 20-9 win at Yankee Stadium",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 14
+  },
+  {
+    "id": 244,
+    "year": "1917",
+    "original": "Man o' War, American thoroughbred racehorse (Preakness Stakes, Belmont Stakes 1920), foaled at Nursery Stud, Kentucky (d. 1947)",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 18
+  },
+  {
+    "id": 73,
+    "year": "1989",
+    "original": "1st US private commercial rocket makes suborbital test flight at White Sands Missile Range in New Mexico",
+    "score": 73,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 16
+  },
+  {
+    "id": 300,
+    "year": "1943",
+    "original": "Eric Idle, English comedian, writer, and actor (Monty Python; The Rutles; Nuns of The Run), born in South Shields, England",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 17
+  },
+  {
+    "id": 269,
+    "year": "1929",
+    "original": "Yayoi Kusama, Japanese artist and writer, born in Matsumoto, Japan",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 19
+  },
+  {
+    "id": 196,
+    "year": "1853",
+    "original": "Elihu Thomson, English-born American engineer who co-founded General Electric Company and inventor with 696 patents, born in Manchester, England (d. 1937)[1]",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 20
+  },
+  {
+    "id": 293,
+    "year": "1941",
+    "original": "Joseph Hooton Taylor Jr., American astrophysicist (1993 Nobel Prize in Physics for the discovery of a new type of pulsar), born in Philadelphia, Pennsylvania",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 21
+  },
+  {
+    "id": 328,
+    "year": "1952",
+    "original": "Teofilo Stevenson, Cuban boxer (Olympic gold heavyweight 1972, 76, 80), born in Puerto Padre, Cuba (d. 2012)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 22
+  },
+  {
+    "id": 265,
+    "year": "1929",
+    "original": "Olga Tass, Hungarian gymnast (Olympic gold, team portable apparatus 1956), born in Pécs, Hungary (d. 2020)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 24
+  },
+  {
+    "id": 332,
+    "year": "1955",
+    "original": "Earl Campbell, American College-Pro Football HOF running back (Heisman Trophy 1977, Uni of Texas; Pro Bowl 1978, 79, 80, 81, 83, Houston Oilers), born in Tyler, Texas",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 25
+  },
+  {
+    "id": 347,
+    "year": "1962",
+    "original": "Billy Beane, American baseball executive (GM Oakland Athletics 1997-2016; MLB Executive of the Year Award 2018; film 'Moneyball' based on Beane), born in Orlando, Florida",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 26
+  },
+  {
+    "id": 290,
+    "year": "1940",
+    "original": "Astrud Gilberto (née Weinert), Brazilian samba singer (\"The Girl From Ipanema\"), born in Salvador, Brazil (d. 2023)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 27
+  },
+  {
+    "id": 247,
+    "year": "1918",
+    "original": "Pearl Bailey, American Tony and Emmy Award-winning stage and screen actress, singer and dancer (Hello, Dolly!), born in Newport News, Virginia (d. 1990)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 28
+  },
+  {
+    "id": 170,
+    "year": "1561",
+    "original": "Santorio Sanctorius, Venetian physiologist and physician (invented thermometer), born in Venice (d. 1636)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 29
+  },
+  {
+    "id": 323,
+    "year": "1950",
+    "original": "Mory Kanté, Guinean singer and kora harp player (Yé ké yé ké), born in Albadaria, French Guinea (d. 2020)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 30
+  },
+  {
+    "id": 262,
+    "year": "1928",
+    "original": "Derek Simpson, British cellist (Aeolian String Quartet, 1956-81; Beatles - \"Strawberry Fields Forever), and teacher, born in Worksop, Nottinghamshire, England (d. 2007)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 31
+  },
+  {
+    "id": 159,
+    "year": "845",
+    "original": "Paris is sacked by Viking raiders, probably under Ragnar Lodbrok, who collects a huge ransom in exchange for leaving",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 32
+  },
+  {
+    "id": 165,
+    "year": "1989",
+    "original": "I. M. Pei's pyramidal entrance to the renovated Louvre Museum opens in Paris, France",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 33
+  },
+  {
+    "id": 72,
+    "year": "1989",
+    "original": "1st Soviet hockey players are permitted to play for the NHL",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 34
+  },
+  {
+    "id": 185,
+    "year": "1819",
+    "original": "Edwin Drake, American businessman who drilled 1st productive US oil well, born in Greenville, New York (d. 1881)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 35
+  },
+  {
+    "id": 191,
+    "year": "1829",
+    "original": "Ritta & Christina Parodi, Siamese twins, born in Sassare, Sardinia (d. 1829)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 36
+  },
+  {
+    "id": 110,
+    "year": "1795",
+    "original": "Ludwig van Beethoven(24) has his debut performance as a pianist at the Burgtheater in Vienna, Austria",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 37
+  },
+  {
+    "id": 129,
+    "year": "1968",
+    "original": "Teri Garrguest stars in \"Assignment: Earth\" episode of the original Star Trek TV series",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 38
+  },
+  {
+    "id": 118,
+    "year": "1940",
+    "original": "American boxerJoe LouisKOs Johnny Paycheck in 2 rounds to retain heavyweight boxing title",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 39
+  },
+  {
+    "id": 212,
+    "year": "1890",
+    "original": "Harold Spencer Jones, English astronomer and 10th astronomer royal of England whose work led to a more accurate determination of the distance between the Earth and the Sun, born in London (d. 1960)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 40
+  },
+  {
+    "id": 345,
+    "year": "1961",
+    "original": "Amy Sedaris, American actress and comedian, born in Endicott, New York",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 41
+  },
+  {
+    "id": 314,
+    "year": "1947",
+    "original": "Aleksandr Stepenovich Viktorenko, Soviet cosmonaut (Soyuz TM-3, 8, 14, 20), born in Olginka, Kazakh SSR, Soviet Union",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 42
+  },
+  {
+    "id": 86,
+    "year": "2004",
+    "original": "The Republic of Ireland becomes the first country in the world to ban smoking in all workplaces, including bars and restaurants",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 43
+  },
+  {
+    "id": 87,
+    "year": "2010",
+    "original": "Archaeological site of the Mayan city of Chichen Itza purchased by the Mexican state of Yucatán from a private landowner",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 44
+  },
+  {
+    "id": 83,
+    "year": "1998",
+    "original": "Vasco da Gama Road bridge opens in Lisbon, Portugal as the longest bridge in Europe",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 45
+  },
+  {
+    "id": 70,
+    "year": "1986",
+    "original": "Records by The Beatles officially go on sale in Russia more than two decades after their release in the West",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 46
+  },
+  {
+    "id": 254,
+    "year": "1924",
+    "original": "Andrew Frierson, pioneering African American opera singer, born in Columbia, Tennessee (d. 2018)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 47
+  },
+  {
+    "id": 301,
+    "year": "1943",
+    "original": "Vangelis [Evángelos Odysséas Papathanassíou], Greek composer, keyboardist, and Academy Award winner (Chariots of Fire), born in Agria, Greece (d. 2022)[1]",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 48
+  },
+  {
+    "id": 337,
+    "year": "1958",
+    "original": "Marc Silvestri, American comic book artist, publisher, and CEO of Top Cow Productions and Image Comics, born in Palm Beach, Florida",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 49
+  },
+  {
+    "id": 335,
+    "year": "1957",
+    "original": "Christopher Lambert, French-American actor (Highlander, Subway, Greystoke, Why Me), born in Great Neck, New York",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 50
+  },
+  {
+    "id": 256,
+    "year": "1925",
+    "original": "Emlen Tunnell, American Pro Football HOF safety (NFL C'ship 1956 NY Giants, 1961 GB Packers; 6 × First-team All-Pro; 9 × Pro Bowl), born in Bryn Mawr, Pennsylvania (d. 1975)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 51
+  },
+  {
+    "id": 334,
+    "year": "1956",
+    "original": "Patty Donahue, American new wave rock singer (The Waitresses - \"I Know What Boys Like\"; \"Christmas Wrapping), born in Akron, Ohio (d. 1996)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 52
+  },
+  {
+    "id": 226,
+    "year": "1905",
+    "original": "(Pil Lip) Philip Ahn, American actor (Kung Fu - as \"Master Kan\"; Thoroughly Modern Millie), born in Los Angeles, California (d. 1978)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 53
+  },
+  {
+    "id": 305,
+    "year": "1944",
+    "original": "Nana Akufo-Addo [William Addo Dankwa Akufo-Addo], Ghanaian politician, President of Ghana (2017-), born in Accra, Gold Coast",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 55
+  },
+  {
+    "id": 215,
+    "year": "1892",
+    "original": "Jozsef Mindszenty [József Pehm], Hungarian cardinal who opposed fascism and communism in Hungary, born in Csehimindszent, Hungary (d. 1975)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 57
+  },
+  {
+    "id": 245,
+    "year": "1917",
+    "original": "Tommy Holmes, American baseball outfielder (MLB All Star 1945, 48; NL HR leader 1945; Boston Braves) and manager (Boston Braves), born in Brooklyn, New York (d. 2008)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 59
+  },
+  {
+    "id": 180,
+    "year": "1780",
+    "original": "Jørgen Jørgensen, Danish explorer and adventurer (attempted to rule Iceland), born in Copenhagen, Denmark (d. 1841)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 60
+  },
+  {
+    "id": 113,
+    "year": "1871",
+    "original": "Royal Albert Hall opened byQueen Victoriain London",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 61
+  },
+  {
+    "id": 114,
+    "year": "1879",
+    "original": "Pyotr Ilyich Tchaikovsky.'s opera \"Jevgeni Onegin\", based on the novel by Alexander Pushkin, premieres Maly Theatre in Moscow, Russia",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 62
+  },
+  {
+    "id": 130,
+    "year": "1973",
+    "original": "Boston CelticDave Cowenswins NBA MVP",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 63
+  },
+  {
+    "id": 57,
+    "year": "1975",
+    "original": "\"Lady Marmalade\" by Labelle reaches #1 on US singles chart",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 65
+  },
+  {
+    "id": 10,
+    "year": "1806",
+    "original": "Construction is authorized of the Great National Pike, better known as the Cumberland Road, becoming the first United States federal highway",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 67
+  }
+]

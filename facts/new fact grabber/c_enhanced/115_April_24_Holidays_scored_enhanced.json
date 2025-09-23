@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Wrapped Up in Deliciousness Day",
+    "story": "Tiny sausages wrapped in cozy pastry blankets take center stage every April 24 on National Pigs in a Blanket Day! These bite-sized treats are party superstars that show up at birthday celebrations, game day gatherings, and family dinners across America. People love making them by wrapping cocktail sausages or hot dogs in crescent roll dough, then baking until golden brown. Some families get creative with different types of sausages, cheese-stuffed versions, or even veggie alternatives. The best part? They're perfect finger food that disappears from platters faster than you can say \"more please!\" Social media fills with photos of these adorable wrapped goodies every year on this tasty holiday.",
+    "activity_question": "What do people typically wrap around sausages to make pigs in a blanket?",
+    "activity_choices": [
+      "Crescent roll dough",
+      "Aluminum foil",
+      "Lettuce leaves",
+      "Paper towels"
+    ],
+    "activity_answer": "Crescent roll dough",
+    "bonus_fact": "Some people call them \"sausage rolls\" in other countries!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "902",
+    "title": "Fashion Revolution Day: Clothes with a Cause",
+    "story": "Every April 24, people around the world ask a simple but powerful question: \"Who made my clothes?\" Fashion Revolution Day encourages everyone to think about where their shirts, jeans, and sneakers come from. People post photos of their clothing tags on social media, research their favorite brands, and learn about the workers who sew their outfits. It's a day to celebrate ethical fashion and support companies that treat their workers fairly.",
+    "activity_question": "What question do people ask on Fashion Revolution Day?",
+    "activity_choices": [
+      "Who made my clothes?",
+      "What's my favorite color?",
+      "How much did this cost?",
+      "Where should I shop next?"
+    ],
+    "activity_answer": "Who made my clothes?",
+    "follow_up_question": "What would you want to know about how your favorite shirt was made?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  }
+]

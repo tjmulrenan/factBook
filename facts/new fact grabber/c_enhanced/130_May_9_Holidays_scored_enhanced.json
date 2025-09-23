@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "The Great Sock Mystery Memorial",
+    "story": "Every sock drawer has a mystery, and on May 9, people solve it with National Lost Sock Memorial Day! This silly holiday lets you finally say goodbye to all those lonely socks that lost their partners in the washing machine. People celebrate by digging through their sock drawers, finding all the single socks, and either throwing them a funny \"funeral\" or turning them into puppets and cleaning rags. Some families make it a game, counting how many orphaned socks they've collected over the year. It's the perfect excuse to buy new matching pairs and start fresh!",
+    "activity_question": "What do people do with their single socks on this holiday?",
+    "activity_choices": [
+      "Throw them a funny funeral or turn them into puppets",
+      "Mail them to the sock police",
+      "Plant them in the garden like seeds",
+      "Hide them under their pillows"
+    ],
+    "activity_answer": "Throw them a funny funeral or turn them into puppets",
+    "follow_up_question": "Where do you think all those missing socks really go?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "902",
+    "title": "Sweet Squares of Butterscotch Bliss",
+    "story": "Gooey brownies get a golden makeover every May 9 on National Butterscotch Brownie Day! Instead of plain chocolate, bakers across the country whip up brownies packed with butterscotch chips, swirls, or frosting. Some people make them from scratch, melting real butterscotch candies right into the batter. Others grab a box mix and toss in butterscotch morsels for an easy twist. Bakeries often feature special butterscotch brownie flavors just for this sweet holiday. Food bloggers love posting their fudgiest recipes online, and families gather in kitchens to create these caramel-colored treats that taste like liquid gold in dessert form.",
+    "activity_question": "What do bakers add to brownies to celebrate this holiday?",
+    "activity_choices": [
+      "Butterscotch chips or swirls",
+      "Extra chocolate frosting",
+      "Rainbow sprinkles",
+      "Marshmallow fluff"
+    ],
+    "activity_answer": "Butterscotch chips or swirls",
+    "bonus_fact": "Butterscotch gets its name from the process of 'scotching' or scoring the candy while it cools.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "903",
+    "title": "Goku Day: Power Up Your May 9!",
+    "story": "Every May 9, anime fans around the world celebrate Goku Day in honor of Dragon Ball's legendary hero! The date was chosen because in Japanese, \"Go\" sounds like 5 and \"Ku\" sounds like 9, making May 9 the perfect day to honor Goku. Fans celebrate by watching their favorite Dragon Ball episodes, sharing fan art online, and posting pictures of themselves doing Goku's famous poses. Some people even dye their hair blonde like Super Saiyan Goku or practice his signature moves like the Kamehameha wave. Cosplayers dress up as different versions of Goku, from his classic orange gi to his ultra-powerful transformations. It's a day when fans can power up their love for this iconic character who never gives up!",
+    "activity_question": "Why was May 9 chosen as Goku Day?",
+    "activity_choices": [
+      "Because \"Go\" sounds like 5 and \"Ku\" sounds like 9 in Japanese",
+      "Because Goku was born on May 9 in the anime",
+      "Because Dragon Ball first aired on May 9",
+      "Because Goku first transformed into a Super Saiyan on May 9"
+    ],
+    "activity_answer": "Because \"Go\" sounds like 5 and \"Ku\" sounds like 9 in Japanese",
+    "bonus_fact": "Goku's orange gi was inspired by martial arts uniforms worn by real kung fu masters!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 95
+  }
+]

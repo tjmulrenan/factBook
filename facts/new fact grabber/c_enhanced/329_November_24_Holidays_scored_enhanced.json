@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Tiny Fish, Big Day!",
+    "story": "November 24 is National Sardines Day, when people celebrate these tiny silver fish! Restaurants serve sardine pizzas and pasta dishes, while grocery stores promote canned sardines with special deals.",
+    "activity_question": "What do restaurants often serve on National Sardines Day?",
+    "activity_choices": [
+      "Sardine pizzas and pasta dishes",
+      "Chocolate sardine cookies",
+      "Sardine ice cream sundaes",
+      "Fried sardine donuts"
+    ],
+    "activity_answer": "Sardine pizzas and pasta dishes",
+    "bonus_fact": "Sardines are named after the island of Sardinia where they were first caught!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 35
+  },
+  {
+    "id": "902",
+    "title": "Show Off Your Super Special Skills!",
+    "story": "Everyone has something they're amazing at, and November 24 is the perfect day to show it off! Celebrate Your Unique Talent Day encourages people to share their special skills with the world. Some kids post videos of their weird talents online, like wiggling their ears or solving Rubik's cubes blindfolded. Others perform for family and friends, whether it's beatboxing, doing magic tricks, or creating incredible art. Schools sometimes hold talent shows on this day where students can shine.",
+    "activity_question": "What do some people do to celebrate their talents on this day?",
+    "activity_choices": [
+      "Post videos of their skills online",
+      "Hide their talents from everyone",
+      "Only practice in secret",
+      "Forget about their abilities"
+    ],
+    "activity_answer": "Post videos of their skills online",
+    "follow_up_question": "What unique talent would you love to show off to your friends and family?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "903",
+    "title": "Broken Seals, Bold Deals!",
+    "story": "November 24 is Use Even If Seal Is Broken Day, when people celebrate taking chances on products with damaged packaging! Shoppers hunt for discounted items with torn boxes, dented cans, or broken seals that are still perfectly good inside. Stores often mark down these products, making it a treasure hunt for bargain hunters. It's about reducing waste and finding hidden gems that others might pass by. Smart shoppers know that a crumpled cereal box doesn't make the cereal taste any different!",
+    "activity_question": "What do people look for on Use Even If Seal Is Broken Day?",
+    "activity_choices": [
+      "Products with damaged packaging at discounted prices",
+      "Actual broken seals swimming in the ocean",
+      "New items with perfect packaging",
+      "Expensive luxury goods"
+    ],
+    "activity_answer": "Products with damaged packaging at discounted prices",
+    "bonus_fact": "This holiday helps reduce waste by giving imperfect packaging a second chance!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "904",
+    "title": "D.B. Cooper Day: The Mystery Man",
+    "story": "Every November 24, mystery fans celebrate D.B. Cooper Day by remembering the world's most famous unsolved case! On this exact date decades ago, a man calling himself Dan Cooper (nicknamed D.B. by reporters) hijacked a plane, demanded money, then jumped out with a parachute and vanished forever. Today, people share Cooper theories online, visit museums with exhibits about the case, and even attend special events in the Pacific Northwest where he disappeared. Some fans dress up like the mysterious hijacker in his famous black suit and tie. Nobody knows if Cooper survived his daring leap or what happened to the stolen cash, making this the perfect day to celebrate unsolved mysteries!",
+    "activity_question": "What did D.B. Cooper do after getting the money he demanded?",
+    "activity_choices": [
+      "He jumped out of the plane with a parachute",
+      "He drove away in a getaway car",
+      "He hid in the airplane bathroom",
+      "He turned himself in to police"
+    ],
+    "activity_answer": "He jumped out of the plane with a parachute",
+    "bonus_fact": "D.B. Cooper is the only unsolved air piracy case in American history.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Frozen Yogurt Gets Its Cool Day",
+    "story": "Swirls of creamy frozen yogurt take center stage every February 6 on National Frozen Yogurt Day! This chilly treat became the perfect answer for people who wanted something healthier than ice cream but just as delicious. Today, frozen yogurt shops across the country celebrate by offering special deals, free samples, and crazy new flavor combinations. You can pile on toppings like fresh fruit, chocolate chips, or even gummy bears to create your perfect frozen masterpiece. Many places let you build your own creation and pay by weight, making it fun to experiment with wild combinations.",
+    "activity_question": "What makes frozen yogurt different from regular ice cream?",
+    "activity_choices": [
+      "It's considered a healthier option",
+      "It's always served upside down",
+      "It can only be eaten with chopsticks",
+      "It glows in the dark"
+    ],
+    "activity_answer": "It's considered a healthier option",
+    "bonus_fact": "Some frozen yogurt contains live cultures that can be good for your digestive system!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "902",
+    "title": "Sweet Words Make Everyone's Day Brighter",
+    "story": "People around the world celebrate Pay-a-Compliment Day every February 6 by sharing kind words with friends, family, and even strangers! On this special day, you might tell your teacher they're awesome, compliment a classmate's cool sneakers, or let your mom know she makes the best pancakes ever. Some people write compliment notes and leave them in library books or on car windshields. Others post nice comments on social media or send encouraging texts to friends. The goal is simple: make someone smile with genuine praise and watch how one kind word can brighten their whole day!",
+    "activity_question": "What is one way people celebrate Pay-a-Compliment Day?",
+    "activity_choices": [
+      "Writing kind notes and leaving them for others to find",
+      "Giving everyone high-fives at school",
+      "Wearing bright yellow shirts all day",
+      "Singing happy birthday songs to strangers"
+    ],
+    "activity_answer": "Writing kind notes and leaving them for others to find",
+    "follow_up_question": "What's the nicest compliment you've ever received or given to someone?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 78
+  }
+]

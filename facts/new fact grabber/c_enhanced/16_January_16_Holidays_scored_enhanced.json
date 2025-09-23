@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Fig-ure Out This Sweet Cookie Day!",
+    "story": "Every January 16, cookie lovers celebrate National Fig Newton Day by munching on these chewy, fruity treats! Fig Newtons are soft cookies filled with sweet fig jam that have been around for over 100 years. People enjoy them with milk, pack them in lunch boxes, or even use them in creative recipes like crumbles and ice cream toppings. Some folks share photos of their favorite Fig Newton moments on social media using special hashtags.",
+    "activity_question": "What do people often drink with Fig Newtons on this holiday?",
+    "activity_choices": [
+      "Milk",
+      "Orange juice",
+      "Hot chocolate",
+      "Pickle juice"
+    ],
+    "activity_answer": "Milk",
+    "follow_up_question": "What other fruits would make delicious cookie fillings like figs do?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "902",
+    "title": "Turn Up the Heat Day!",
+    "story": "Fire-breathing food lovers unite every January 16 for International Hot and Spicy Food Day! People celebrate by chomping on their spiciest favorites like jalapeño poppers, ghost pepper wings, and tongue-tingling curry. Restaurants offer special fiery menu items and hot sauce tastings. Social media fills with videos of brave souls attempting spicy food challenges, often followed by frantic milk-drinking! Some families host spicy cooking contests to see who can handle the heat. It's the perfect day to discover if you're a spice wimp or a chili champion!",
+    "activity_question": "What do people often drink after eating very spicy food on this holiday?",
+    "activity_choices": [
+      "Milk",
+      "Hot coffee",
+      "Lemon juice",
+      "Pickle juice"
+    ],
+    "activity_answer": "Milk",
+    "follow_up_question": "What's the spiciest food you've ever tried, and would you eat it again?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  }
+]

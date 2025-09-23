@@ -1,0 +1,542 @@
+[
+  {
+    "id": 157,
+    "year": "1905",
+    "original": "Albert Einsteinfinishes his scientific paper detailing his quantum theory of light, a foundation of modern physics",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 1
+  },
+  {
+    "id": 371,
+    "year": "1962",
+    "original": "Kalpana Chawla, Indian-American astronaut (1st woman of Indian origin into space, later died in Columbia disaster), born in Karnal, India (d. 2003)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 2
+  },
+  {
+    "id": 54,
+    "year": "1930",
+    "original": "Construction begins of the Empire State Building, the world's 1st skyscraper of 100+ stories, on 5th Avenue in New York City",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 3
+  },
+  {
+    "id": 154,
+    "year": "1898",
+    "original": "John Philip Hollandachieves a successful test run for the first modern submarine off Staten Island, submerging for 1 hour and 40 minutes",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 4
+  },
+  {
+    "id": 291,
+    "year": "1930",
+    "original": "James Irwin, American air force officer and NASA astronaut (Apollo 15, 8th person to walk on the moon), born in Pittsburgh, Pennsylvania (d. 1991)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 5
+  },
+  {
+    "id": 125,
+    "year": "2008",
+    "original": "The popular online game for children, Fantage, is launched",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 6
+  },
+  {
+    "id": 313,
+    "year": "1939",
+    "original": "Jim Gary, American sculptor known for whimsical monumental art and sculptors of large, colorful dinosaurs made from discarded automobile parts, born in Sebastian, Florida (d. 2006)",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 7
+  },
+  {
+    "id": 78,
+    "year": "1966",
+    "original": "US submarine locates missing hydrogen bomb on the Mediterranean sea floor",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 8
+  },
+  {
+    "id": 131,
+    "year": "2016",
+    "original": "Archaeologists announce the discovery of an 2,500 year old iron age warrior king burial ground, with 75 graves in Pocklington, Northern England",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 9
+  },
+  {
+    "id": 156,
+    "year": "1901",
+    "original": "At a show in Paris, 71 ofVincent van Gogh's paintings cause a sensation 11 years after his death",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 10
+  },
+  {
+    "id": 61,
+    "year": "1944",
+    "original": "Mount Vesuvius in Italy erupts after months of volcanic unrest, destroying several towns near the volcano",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 11
+  },
+  {
+    "id": 235,
+    "year": "1874",
+    "original": "Kincsem, Hungarian horse that never lost a race, born in Kisbér, Hungary (d. 1877)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 12
+  },
+  {
+    "id": 144,
+    "year": "2024",
+    "original": "Rio de Janeiro posts record heat index of 62.3 C (144.1 F) - i.e. taking into account humidity, highest in Brazil in a decade (actual temperature 42 C)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 13
+  },
+  {
+    "id": 117,
+    "year": "1995",
+    "original": "US approves 1st chicken pox vaccine, Varivax by Merck & Co",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 14
+  },
+  {
+    "id": 177,
+    "year": "1969",
+    "original": "Golda Meirbecomes Israel's 4th Prime Minister, the first and only female to hold the office",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 15
+  },
+  {
+    "id": 241,
+    "year": "1880",
+    "original": "Lawrence Oates, English army officer and Antarctic explorer who sacrificed his life on the Terra Nova Expedition, born in Putney, England (d. 1912)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 16
+  },
+  {
+    "id": 30,
+    "year": "1884",
+    "original": "John Joseph Montgomery makes 1st glider flight at Otay, California",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 17
+  },
+  {
+    "id": 70,
+    "year": "1958",
+    "original": "US Navy launches Vanguard 1 into orbit (2nd US), measures Earth shape",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 18
+  },
+  {
+    "id": 111,
+    "year": "1992",
+    "original": "Russian manned space craft TM-14, launches into orbit",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 19
+  },
+  {
+    "id": 127,
+    "year": "2012",
+    "original": "MESSENGER spacecraft begins its extended mission",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 20
+  },
+  {
+    "id": 63,
+    "year": "1950",
+    "original": "Element 98 (Californium) announced",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 21
+  },
+  {
+    "id": 75,
+    "year": "1963",
+    "original": "Eruptions of Mount Agung on Bali, kills 1,900 Balinese",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 22
+  },
+  {
+    "id": 137,
+    "year": "2019",
+    "original": "Zimbabwe declares a state of emergency after Cyclone Idai tears through eastern Zimbabwe killing at least 259",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 23
+  },
+  {
+    "id": 138,
+    "year": "2020",
+    "original": "Chad begins repaying a $100 million debt to Angola with cattle, as more than 1,000 cows arrive in Luanda",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 24
+  },
+  {
+    "id": 92,
+    "year": "1978",
+    "original": "Reds don green uniforms for St Patricks Day",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 25
+  },
+  {
+    "id": 126,
+    "year": "2012",
+    "original": "Bolton Wanderer footballer Fabrice Muamba collapses and is rushed to hospital during a live football match against Tottenham Hotspur",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 26
+  },
+  {
+    "id": 112,
+    "year": "1992",
+    "original": "South African referendum of white voters on an end to apartheid, over two-thirds vote for an end to the system",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 27
+  },
+  {
+    "id": 189,
+    "year": "2017",
+    "original": "Live-action remake \"Beauty and the Beast\" directed by Bill Condon and starringEmma Watsonopens",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 28
+  },
+  {
+    "id": 187,
+    "year": "2014",
+    "original": "Sia releases her single \"Chandelier\" with a music video featuringMaddie Ziegler",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 29
+  },
+  {
+    "id": 225,
+    "year": "1846",
+    "original": "Kate Greenaway, English artist known for her children's book illustrations (Under the Window), born in London (d. 1901)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 30
+  },
+  {
+    "id": 338,
+    "year": "1948",
+    "original": "William Gibson, American sci-fi author who  pioneered the subgenre cyberpunk (Neuromancer, Count Zero), born in Conway, South Carolina",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 31
+  },
+  {
+    "id": 343,
+    "year": "1951",
+    "original": "Bill Atkinson, American computer engineer who programmed the QuickDraw software layer, born in Ottumwa, Iowa (d. 2025)[1]",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 32
+  },
+  {
+    "id": 21,
+    "year": "1845",
+    "original": "The rubber band is patented by Stephen Perry of London",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 33
+  },
+  {
+    "id": 20,
+    "year": "1845",
+    "original": "Bristol man Henry Jones patents self-raising flour",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 34
+  },
+  {
+    "id": 76,
+    "year": "1965",
+    "original": "Beatles announce their second film is titled \"8 Arms to Hold You\" ; later changed to \"Help!\"",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 35
+  },
+  {
+    "id": 150,
+    "year": "1829",
+    "original": "Final performance by famous clownJoseph Grimaldiat a benefit performance at Sadler's Wells, London",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 36
+  },
+  {
+    "id": 155,
+    "year": "1900",
+    "original": "American modern dancerIsadora Duncangives her first Europen performance in London, England",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 37
+  },
+  {
+    "id": 311,
+    "year": "1938",
+    "original": "Rudolf Nureyev, Russian-Austrian ballet dancer and choreographer (Kirov Ballet, 1958-61; Royal Ballet, 1964-70; Paris Opera Ballet. 1983-89), born on a train near Irkutsk, Soviet Union (d. 1993)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 38
+  },
+  {
+    "id": 176,
+    "year": "1968",
+    "original": "Bee Geesmake their US TV debut on \"TheEd SullivanShow,\" performing \"To Love Somebody\" and \"Words\"",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 39
+  },
+  {
+    "id": 152,
+    "year": "1861",
+    "original": "Italy is unified into a single kingdom underVictor Emmanuel IIfollowing the campaigns led byGiuseppe Garibaldi",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 40
+  },
+  {
+    "id": 194,
+    "year": "432",
+    "original": "Saint Patrick, aged about 16, is captured by Irish pirates from his home in Great Britain and taken as a slave to Ireland (traditional date)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 41
+  },
+  {
+    "id": 6,
+    "year": "1600",
+    "original": "First recorded Saint Patrick's Day celebration in America is held in St. Augustine in Spanish Florida, with the first parade held in the same place in 1601. Both are organized by Catholic Irish vicar Ricardo Artur.",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 42
+  },
+  {
+    "id": 11,
+    "year": "1762",
+    "original": "First Saint Patrick's Day parade is held in NYC",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 43
+  },
+  {
+    "id": 9,
+    "year": "1756",
+    "original": "St. Patrick's Day is first celebrated in NYC at the Crown & Thistle Tavern",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 44
+  },
+  {
+    "id": 8,
+    "year": "1737",
+    "original": "Charitable Irish Society of Boston organizes the first observance of Saint Patrick's Day in the Thirteen Colonies",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 45
+  },
+  {
+    "id": 13,
+    "year": "1776",
+    "original": "British forces evacuate Boston to Nova Scotia during Revolutionary War",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 46
+  },
+  {
+    "id": 151,
+    "year": "1860",
+    "original": "Six years after the forcible ending of Japan's isolationist policy by US Navy CommodoreMatthew C. Perry, the Japanese Embassy arrives in San Francisco to sign a Treaty of Friendship",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 47
+  },
+  {
+    "id": 179,
+    "year": "1973",
+    "original": "Queen Elizabeth IIopens new London Bridge",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 48
+  },
+  {
+    "id": 140,
+    "year": "2020",
+    "original": "Golden Raspberry Film Awards (Razzies): Musical \"Cats\" wins six awards including worst film",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 49
+  },
+  {
+    "id": 33,
+    "year": "1893",
+    "original": "Dominion Hockey Challenge Cup (Stanley Cup): Montreal Hockey Club claim inaugural trophy after finishing top of final Amateur Hockey Association of Canada standings with a 7–1–0 record",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 50
+  },
+  {
+    "id": 182,
+    "year": "1985",
+    "original": "Matti Nykanen of Finland set a world ski jump record of 623'",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 51
+  },
+  {
+    "id": 103,
+    "year": "1988",
+    "original": "Then highest scoring NCAA basketball game to date; Loyola-Marymont 119, Wyoming 115",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 52
+  },
+  {
+    "id": 181,
+    "year": "1983",
+    "original": "70th hat trick in NHL New York Islander franchise history, scored byMike Bossy",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 53
+  },
+  {
+    "id": 191,
+    "year": "2021",
+    "original": "America's Cup, Auckland: EmiratesTeam New Zealandbeats Italian yacht Luna Rossa Prada Pirelli by 46s in race 10 for a 7-3 series victory and retain the cup",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 54
+  },
+  {
+    "id": 186,
+    "year": "2013",
+    "original": "Stacy Lewiswins the RR Donnelley LPGA Founders Cup and becomes the number one ranked woman golfer in the world",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 55
+  },
+  {
+    "id": 142,
+    "year": "2022",
+    "original": "Claude Giroux, NHL Philadelphia Flyers longest-serving captain, becomes only 2nd player in franchise history to play 1,000th game for the team, joining Bobby Clarke",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 56
+  },
+  {
+    "id": 90,
+    "year": "1977",
+    "original": "Australia wins cricket Centenary Test by 45 runs, same result as 1877",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 57
+  },
+  {
+    "id": 118,
+    "year": "1996",
+    "original": "ICC Men's Cricket ODI World Cup, Gaddafi Stadium, Lahore, Pakistan: Sri Lanka upsets Australia by 7 wickets for their first title; Player of the Match: Aravinda de Silva (SL) 107 no (124), 3/42 & 2 catches",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 58
+  },
+  {
+    "id": 145,
+    "year": "2024",
+    "original": "WPL Cricket Final, Arun Jaitley Stadium, New Delhi: Royal Challengers Bengaluru beat Delhi Capitals by 8 wickets; Player of the match: Sophie Molineux (RCB) 3/20",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 59
+  },
+  {
+    "id": 158,
+    "year": "1908",
+    "original": "Canadian championTommy BurnsKOs Irish challenger Jem Roche in 1:28s of the 1st round at the Theatre Royal, Dublin; then quickest world heavyweight boxing title fight",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 62
+  }
+]

@@ -1,0 +1,542 @@
+[
+  {
+    "id": 134,
+    "year": "2022",
+    "original": "First nuclear fusion reaction in a laboratory setting, replicating the same energy that powers the sun - announced by scientists at Lawrence Livermore National Laboratory, California",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 1
+  },
+  {
+    "id": 124,
+    "year": "2017",
+    "original": "Prehistoric bones of a penguin as tall as a human (1.77m) found on Otago beach, New Zealand, reported in \"Nature Communications\"",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 2
+  },
+  {
+    "id": 125,
+    "year": "2017",
+    "original": "Scientists begin checking interstellar asteroid Oumuamua for signs of alien technology through radio signals (later studies conclude it a piece of sliced off planet)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 3
+  },
+  {
+    "id": 109,
+    "year": "2006",
+    "original": "The Baiji, or Chinese River Dolphin, announced as extinct.",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 4
+  },
+  {
+    "id": 196,
+    "year": "1577",
+    "original": "Francis Drakesets sail from England on an epic three year circumnavigation of the world aboard the 'Pelican' (later renamed the 'Golden Hind')",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 5
+  },
+  {
+    "id": 143,
+    "year": "1642",
+    "original": "Dutch explorerAbel Tasmansights the South Island of present day New Zealand; initially he calls it Staten Landt and changes it a year later to Nieuw Zeeland",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 6
+  },
+  {
+    "id": 59,
+    "year": "1967",
+    "original": "San Diego, CA records snow at a zero elevation after temperatures plunge 19 degrees (F) in eight hours.",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 7
+  },
+  {
+    "id": 77,
+    "year": "1983",
+    "original": "9,655 see highest-scoring NBA game: Detroit 186, Denver 184 (3 OT)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 8
+  },
+  {
+    "id": 185,
+    "year": "2015",
+    "original": "IrishmanConor McGregorknocks out Brazilian Jose Aldo in 13 seconds to win his 1st featherweight title in Las Vegas",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 9
+  },
+  {
+    "id": 195,
+    "year": "2024",
+    "original": "British rock bandColdplayrelease a music video for their song \"All My Love\" featuring American entertainerDick Van Dyke, on his 99th birthday",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 10
+  },
+  {
+    "id": 27,
+    "year": "1920",
+    "original": "Hans Riegel founds sweet company HARIBO (HAns RIegel BOnn) in Bonn, Germany",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 11
+  },
+  {
+    "id": 192,
+    "year": "2021",
+    "original": "Marvel superhero film \"Spider-Man: No Way Home\" starringTom Holland,Zendaya, andBenedict Cumberbatch, directed by Jon Watts, premieres in Los Angeles",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 12
+  },
+  {
+    "id": 26,
+    "year": "1920",
+    "original": "Francis G. Pease's interferometer at Mount Wilson Observatory is the first to measure the diameter of a star - the Betelgeuse",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 13
+  },
+  {
+    "id": 3,
+    "year": "1355",
+    "original": "The greatest traveller of his age,Ibn Battutaof Tangier completes his work \"The Travels\" detailing his 29 years spent travelling the Islamic world and beyond, including to India, China and Indonesia",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 14
+  },
+  {
+    "id": 173,
+    "year": "1990",
+    "original": "South African PresidentF. W. de Klerkmeets withNelson Mandelato discuss the end of apartheid",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 15
+  },
+  {
+    "id": 194,
+    "year": "2022",
+    "original": "Washington Capitals left wingAlex Ovechkinscores a hat trick in 7-3 away win over Chicago Blackhawks to join Wayne Gretzky and Gordie Howe as the only players in NHL history to score 800 goals",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 16
+  },
+  {
+    "id": 69,
+    "year": "1976",
+    "original": "Longest non-stop passenger airflight (Sydney to San Francisco 13h 14m)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 17
+  },
+  {
+    "id": 99,
+    "year": "1993",
+    "original": "Space shuttle STS-61 (Endeavour 5) lands after 10 days and 19 hours in space",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 18
+  },
+  {
+    "id": 145,
+    "year": "1774",
+    "original": "Paul Revereand Wentworth Cheswell ride to warn Portsmouth of the approach of British warships",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 19
+  },
+  {
+    "id": 160,
+    "year": "1956",
+    "original": "Dodgers tradeJackie Robinsonto Giants for pitcher Dick Littlefield & $35,000. Robinson will retire rather than be traded.",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 20
+  },
+  {
+    "id": 271,
+    "year": "1915",
+    "original": "Yitzhak Zuckerman [Itzhak Zuckerman], Jewish resistance hero in World War II and one of the few survivors of the Warsaw Ghetto Uprising, born in Vilnius, Lithuania (d. 1981)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 21
+  },
+  {
+    "id": 116,
+    "year": "2014",
+    "original": "A civil rights protest march in Washington, D.C. takes place, against the police killing of unarmed black men",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 22
+  },
+  {
+    "id": 135,
+    "year": "2022",
+    "original": "New Zealand passes world's first tobacco ban, outlawing smoking for those born after 2009",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 23
+  },
+  {
+    "id": 82,
+    "year": "1985",
+    "original": "Test debut of cricketers Merv Hughes, Geoff Marsh and Bruce Reid (v India)",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 66
+  },
+  {
+    "id": 237,
+    "year": "1877",
+    "original": "Mykola Leontovych, Ukrainian composer (Carol of the Bells), born in Selevyntsi, Podolia, Russian Empire (d. 1921)",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 25
+  },
+  {
+    "id": 155,
+    "year": "1928",
+    "original": "George Gershwin's \"An American In Paris\" symphonic poem premieres at Carnegie Hall, NYC, performed by the New York Philharmonic conducted by Walter Damrosch",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 26
+  },
+  {
+    "id": 319,
+    "year": "1945",
+    "original": "Julio Palmaz, Argentine physician and inventor (intravascular stent), born in La Plata, Argentina[1]",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 27
+  },
+  {
+    "id": 230,
+    "year": "1867",
+    "original": "Kristian Birkeland, Norwegian explorer and scientist (nominated 7 times for Nobel Prize), born in Oslo, Norway (d. 1917)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 28
+  },
+  {
+    "id": 232,
+    "year": "1871",
+    "original": "Emily Carr, Canadian painter, born in Victoria, British Columbia, Canada (d. 1945)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 29
+  },
+  {
+    "id": 80,
+    "year": "1983",
+    "original": "Martha Layne Collins inaugurated as Kentucky's 1st female governor",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 30
+  },
+  {
+    "id": 189,
+    "year": "2020",
+    "original": "British Mercedes driverLewis Hamiltonfinishes 3rd in season-ending Abu Dhabi GP to claim record equalling 7th F1 World Drivers C'ship by 124 points from teammate Valtteri Bottas; Mercedes' 7th straight Constructors title",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 31
+  },
+  {
+    "id": 93,
+    "year": "1991",
+    "original": "Ricky Pierce (Seattle) ends NBA free throw streak of 75 games",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 59
+  },
+  {
+    "id": 166,
+    "year": "1970",
+    "original": "Greg Chappellscores 108 on Test debut v England at the WACA",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 33
+  },
+  {
+    "id": 67,
+    "year": "1975",
+    "original": "West Indian cricket opener Roy Fredericks smashes 169 in 2nd Test win v Australia in Perth; hundred in 71 balls",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 34
+  },
+  {
+    "id": 370,
+    "year": "1960",
+    "original": "Richard Dent, American football Hall of Fame defensive end, 1983-97 (MVP, Super Bowl XX - Chicago Bears; 3 other teams), born in Atlanta, Georgia",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 35
+  },
+  {
+    "id": 354,
+    "year": "1954",
+    "original": "Tamora Pierce, American author of fantasy fiction (The Song of the Lioness), born in South Connellsville, Fayette County, Pennsylvania",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 36
+  },
+  {
+    "id": 381,
+    "year": "1965",
+    "original": "Stacy Sunny, female pro baseball infielder (Colorado Silver Bullets), born in San Bernardino, California",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 37
+  },
+  {
+    "id": 383,
+    "year": "1966",
+    "original": "Gavin Andresen, American computer programmer and cryptocurrency entrepreneur who founded the Bitcoin Foundation, born in the United States[1]",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 38
+  },
+  {
+    "id": 361,
+    "year": "1957",
+    "original": "Morris Day, American funk-R&B singer (The Time), born in Minneapolis, Minnesota",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 39
+  },
+  {
+    "id": 379,
+    "year": "1964",
+    "original": "Hide [Hideto Matsumoto], Japanese rock guitarist, singer-songwriter and record producer (X Japan; Zilch), born in Midorigaoka, Japan (d. 1998)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 40
+  },
+  {
+    "id": 336,
+    "year": "1949",
+    "original": "Randy Owen, American country music star (Alabama - \"Mountain Music\"), born in Fort Payne, Alabama",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 41
+  },
+  {
+    "id": 377,
+    "year": "1964",
+    "original": "(Judge) \"Lucky\" Peterson, American contemporary blues, soul, and R&B musician (\"The Son of A Bluesman\"), born in Buffalo, New York (d. 2020)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 42
+  },
+  {
+    "id": 372,
+    "year": "1961",
+    "original": "Gary Zimmerman, American NFL tackle (Denver Broncos - Super Bowl XXXII), born in Fullerton, California",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 45
+  },
+  {
+    "id": 357,
+    "year": "1956",
+    "original": "Majida El Roumi, Lebanese singer, born in Kfarshima, Lebanon",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 46
+  },
+  {
+    "id": 287,
+    "year": "1926",
+    "original": "George Rhoden, Jamaican athlete (Olympic gold 400m, 4x400m relay 1952), born in Kingston, Jamaica (d. 2024)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 47
+  },
+  {
+    "id": 286,
+    "year": "1926",
+    "original": "Carl Erskine, American baseball pitcher (MLB All-Star 1954; World Series 1955; 2 x no-hitters; Brooklyn/LA Dodgers; Buck O'Neil Lifetime Achievement Award), born in Anderson, Indiana (d. 2024)[1]",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 48
+  },
+  {
+    "id": 88,
+    "year": "1989",
+    "original": "Walter Davis of the Denver Nuggets ends NBA free throw streak of 53 games",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 58
+  },
+  {
+    "id": 52,
+    "year": "1962",
+    "original": "Relay 1 communication satellite launched",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 60
+  },
+  {
+    "id": 91,
+    "year": "1991",
+    "original": "Both North and South Korea sign an accord calling for reconciliation",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 61
+  },
+  {
+    "id": 95,
+    "year": "1993",
+    "original": "\"I Swear\" single released by John Michael Montgomery (Billboard Song of the Year 1994)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 62
+  },
+  {
+    "id": 181,
+    "year": "2004",
+    "original": "Ballon d'Or: Milan's Ukrainian striker Andriy Shevchenko is named best football player in Europe ahead of Deco (Porto/FC Barcelona) and Barcelona midfielderRonaldinho",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 64
+  },
+  {
+    "id": 318,
+    "year": "1945",
+    "original": "Ann Syrdal, American psychologist and computer science researcher (developed female synthetic voices at AT&T), born in Minneapolis, Minnesota (d. 2020)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 67
+  },
+  {
+    "id": 321,
+    "year": "1945",
+    "original": "Robert Martinez, Mexican-American drummer (? and the Mysterians - \"96 Tears\"), born in Texas",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 68
+  },
+  {
+    "id": 292,
+    "year": "1928",
+    "original": "Jutta Müller, German figure skating coach (GDR 3 x Olympic gold, 10 x World C'ship gold), born in Chemnitz, Germany (d. 2023)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 69
+  },
+  {
+    "id": 317,
+    "year": "1943",
+    "original": "Maurice Hines, American tap-dancer, choreographer, actor, and theater director, born in New York City (d. 2023)[1]",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 70
+  },
+  {
+    "id": 333,
+    "year": "1949",
+    "original": "Nana Alexandria, Georgian International Woman's Chess Grandmaster (1976), born in Poti, Georgian Soviet Socialist Republic, Soviet Union",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 71
+  },
+  {
+    "id": 338,
+    "year": "1949",
+    "original": "Tom Verlaine [Miller], American rock guitarist, songwriter, and vocalist (Television - \"Marquee Moon\"), born in Denville, New Jersey (d. 2023)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 72
+  },
+  {
+    "id": 266,
+    "year": "1914",
+    "original": "George \"Tiger\" Haynes, American jazz guitarist (The Three Flames), and stage and screen actor (The Wiz; In the Heat of the Night), born in Frederiksted, St. Croix (d. 1994)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 74
+  },
+  {
+    "id": 217,
+    "year": "1835",
+    "original": "Phillips Brooks, American Episcopal bishop and composer (Little Town of Bethlehem), born in Boston, Massachusetts (d. 1893)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 75
+  },
+  {
+    "id": 234,
+    "year": "1871",
+    "original": "Russell W. Porter, American artist and explorer (Alaska), born in Springfield, Vermont (d. 1949)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 76
+  }
+]

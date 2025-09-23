@@ -1,0 +1,542 @@
+[
+  {
+    "id": 125,
+    "year": "2020",
+    "original": "Japanese space capsule Hayabusa-2 lands safely back on earth in Australia, carrying first significant rock samples from an asteroid, the Ryugu",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 1
+  },
+  {
+    "id": 116,
+    "year": "2017",
+    "original": "\"Supermassive\" most distant black hole discovery announced by astronomers in journal \"Nature\", 13 billion light-years away, 800 x bigger than the Sun",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 2
+  },
+  {
+    "id": 111,
+    "year": "2006",
+    "original": "NASA reveals photographs taken by Mars Global Surveyor that suggest the presence of liquid water on Mars",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 3
+  },
+  {
+    "id": 186,
+    "year": "1877",
+    "original": "Thomas Edisonenters the offices of Scientific American and turns the crank on his cylinder phonograph, astonishing those present with the recording, \"Good morning. How do you do? How do you like the phonograph?\"",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 4
+  },
+  {
+    "id": 143,
+    "year": "1849",
+    "original": "Harriet Tubmanescapes from slavery in Maryland for the second and final time",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 5
+  },
+  {
+    "id": 113,
+    "year": "2012",
+    "original": "A 243 million year old Nyasasaurus fossil is discovered in Tanzania",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 6
+  },
+  {
+    "id": 181,
+    "year": "2018",
+    "original": "Tennessee Titans running backDerrick Henryexplodes for franchise-record 238 yards & 4 touchdowns in 30-9 win v Jacksonville Jaguars in Nashville; 99-yard TD run ties Dallas Cowboys HOF RB Tony Dorsett's longest run in NFL history",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 7
+  },
+  {
+    "id": 64,
+    "year": "1964",
+    "original": "\"Rudolph The Red-Nosed Reindeer\" 1st airs on TV",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 8
+  },
+  {
+    "id": 359,
+    "year": "1958",
+    "original": "Nick Park, British filmmaker and animator (Wallace and Gromit), born in Preston, Lancashire, England",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 9
+  },
+  {
+    "id": 15,
+    "year": "1865",
+    "original": "13th Amendment of the United States Constitution is ratified, abolishing slavery except as a punishment for crime where the party has been duly convicted",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 10
+  },
+  {
+    "id": 131,
+    "year": "2022",
+    "original": "The 1,574th - and last - Boeing 747 jumbo jet rolls off of production line in Everett, Washington",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 11
+  },
+  {
+    "id": 122,
+    "year": "2018",
+    "original": "Luxembourg is the first country to make all public transport free",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 12
+  },
+  {
+    "id": 57,
+    "year": "1957",
+    "original": "First US attempt to launch a satellite fails when the Vanguard rocket explodes",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 13
+  },
+  {
+    "id": 132,
+    "year": "2023",
+    "original": "South Fork Wind, the first large-scale offshore wind farm begins supplying electricity to the US, 35 miles off Montauk",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 14
+  },
+  {
+    "id": 170,
+    "year": "1994",
+    "original": "\"Dumb & Dumber\", directed by the Farrelly brothers and starringJim Carreyand Jeff Daniels, premieres in Los Angeles",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 15
+  },
+  {
+    "id": 271,
+    "year": "1917",
+    "original": "Irv Robbins, Canadian-American entrepreneur (co-founded the Baskin-Robbins ice cream parlor chain), born in Winnipeg, Manitoba (d. 2008)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 16
+  },
+  {
+    "id": 22,
+    "year": "1884",
+    "original": "Aluminum capstone is set atop the Washington Monument in Washington, D.C., making it the tallest man-made structure in the world, overtaking Cologne Cathedral",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 17
+  },
+  {
+    "id": 51,
+    "year": "1956",
+    "original": "Against the background of the Soviet invasion of Hungary the nations square off at the Melbourne Olympics in a famous water polo match; game called off with Hungary leading 4-0 and near riot halted by police; Hungary goes on to win gold medal",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 18
+  },
+  {
+    "id": 24,
+    "year": "1897",
+    "original": "London becomes the world's first city to host licenced taxicabs",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 19
+  },
+  {
+    "id": 177,
+    "year": "2010",
+    "original": "Record price for a printed book when a first edition of \"The Birds of America\" byJohn James Audubonauctioned at Sotheby's, London, England, for £7,321,250",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 20
+  },
+  {
+    "id": 123,
+    "year": "2018",
+    "original": "Oldest-known plague sample is found in 4,900-year-old remains of a 20-year-old woman in Gökhem, southern Sweden, published in \"Cell\"",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 21
+  },
+  {
+    "id": 21,
+    "year": "1882",
+    "original": "Atmosphere of Venus detected during transit",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 22
+  },
+  {
+    "id": 136,
+    "year": "1631",
+    "original": "Johannes Kepleris the first to predict the transit of Venus, though no one observes it as it occurs after sunset in Europe",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 23
+  },
+  {
+    "id": 59,
+    "year": "1958",
+    "original": "US lunar probe Pioneer 3 reaches 107,269 km, falls back",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 24
+  },
+  {
+    "id": 278,
+    "year": "1920",
+    "original": "Dave Brubeck, American jazz pianist (\"Take Five\") and composer (Gates of Justice), born in Concord, California (d. 2012)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 25
+  },
+  {
+    "id": 155,
+    "year": "1956",
+    "original": "Australian women's 4 × 100m freestyle relay team ofDawn Fraser, Faith Leech, Sandra Morgan & Lorraine Crapp swim world record 4:17.1 and beat powerful US team to win the gold medal at the Melbourne Olympics",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 26
+  },
+  {
+    "id": 91,
+    "year": "1987",
+    "original": "Christa Rothenburger skates female world record 500m (39.39 sec)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 27
+  },
+  {
+    "id": 37,
+    "year": "1925",
+    "original": "Record 73,000 pay to watch Chicago Bears beat NY Giants 19-7",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 28
+  },
+  {
+    "id": 18,
+    "year": "1873",
+    "original": "1st international football game in US: Yale 2, Eton (England) 1 in New Haven, Connecticut",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 29
+  },
+  {
+    "id": 100,
+    "year": "1990",
+    "original": "Baseball player \"Shoeless\" Joe Jackson's signature sells, at auction, for $23,100",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 30
+  },
+  {
+    "id": 168,
+    "year": "1992",
+    "original": "San Francisco 49ers wide receiverJerry Ricecatches NFL record 101st touchdown in a 27-3 win over the Miami Dolphins at Candlestick Park",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 31
+  },
+  {
+    "id": 95,
+    "year": "1988",
+    "original": "Milwaukee Bucks win their 1,000th NBA game (2nd fastest)",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 32
+  },
+  {
+    "id": 54,
+    "year": "1956",
+    "original": "Randhir Singh Gentle scores the winner as India beats Pakistan, 1-0 in the Melbourne Olympics field hockey final to win it's 6th consecutive gold medal in the sport",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 33
+  },
+  {
+    "id": 52,
+    "year": "1956",
+    "original": "Australian swimmer David Theile sets world record 1:02.2 to win the 100m backstroke gold medal at the Melbourne Olympics",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 34
+  },
+  {
+    "id": 104,
+    "year": "1993",
+    "original": "Gunda Niemann skates ladies world record 5 km 7:13.29",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 35
+  },
+  {
+    "id": 83,
+    "year": "1981",
+    "original": "Rob de Castella of Australia sets Marathon record at 2:08:18",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 36
+  },
+  {
+    "id": 333,
+    "year": "1948",
+    "original": "Keke Rosberg, Finnish auto racer (World F1 Champion 1982), born in Solna, Sweden",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 38
+  },
+  {
+    "id": 356,
+    "year": "1956",
+    "original": "Peter Buck, American rock guitarist (R.E.M. - Murmur), born in Berkeley, California",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 39
+  },
+  {
+    "id": 357,
+    "year": "1956",
+    "original": "Randy Rhoads, American heavy metal guitarist (Quiet Riot), born in Santa Monica, California (d. 1982)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 40
+  },
+  {
+    "id": 339,
+    "year": "1950",
+    "original": "Joe Hisaishi, Japanese composer and music director, born in Nakano, Nagano, Japan",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 41
+  },
+  {
+    "id": 336,
+    "year": "1949",
+    "original": "Linda Creed, American singer and songwriter (\"The Greatest Love Of All\"; \"You Make Me Feel Brand New\"; \"Rubber Band Man\"), born in Philadelphia, Pennsylvania (d. 1986)[1][2]",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 42
+  },
+  {
+    "id": 354,
+    "year": "1955",
+    "original": "Steven Wright, American stand-up comedian (Steven Wright Live), born in Cambridge, Massachusetts",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 43
+  },
+  {
+    "id": 362,
+    "year": "1961",
+    "original": "David Lovering, American drummer (Pixies), born in Burlington, Massachusetts",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 44
+  },
+  {
+    "id": 63,
+    "year": "1963",
+    "original": "The Beatles begin a tradition of releasing a Christmas record for fan club members",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 45
+  },
+  {
+    "id": 161,
+    "year": "1968",
+    "original": "Decca Records releases Rolling Stones album \"Beggar's Banquet\" in UK, the last duringBrian Jones' lifetime  (US release the next day)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 46
+  },
+  {
+    "id": 183,
+    "year": "2022",
+    "original": "James Cameron's sci-fi film sequel \"Avatar: The Way of Water\" starringSam WorthingtonandZoe Saldañapremieres in London",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 47
+  },
+  {
+    "id": 102,
+    "year": "1991",
+    "original": "\"Star Trek VI-Undiscovered Country\" premieres",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 48
+  },
+  {
+    "id": 97,
+    "year": "1988",
+    "original": "STS-27 Atlantis lands in California after secret mission",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 49
+  },
+  {
+    "id": 82,
+    "year": "1980",
+    "original": "NASA launches Intelsat V satellite, no. 502",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 50
+  },
+  {
+    "id": 152,
+    "year": "1947",
+    "original": "The Everglades National Park in Florida is dedicated by PresidentHarry S. Truman",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 51
+  },
+  {
+    "id": 173,
+    "year": "2000",
+    "original": "Great Court of the British Museum redesigned with the largest covered courtyard in Europe by Foster & Partners opened byQueen Elizabeth II",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 52
+  },
+  {
+    "id": 124,
+    "year": "2018",
+    "original": "Senegal's new Museum of Black Civilisations is opened in Dakar by President Macky Sall",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 53
+  },
+  {
+    "id": 158,
+    "year": "1961",
+    "original": "27th Heisman Trophy Award:Ernie Davis, Syracuse RB; 1st African American to win)",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 54
+  },
+  {
+    "id": 60,
+    "year": "1960",
+    "original": "MLB American League grants American entertainer and businessman Gene Autry a franchise: Los Angeles Angels",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 55
+  },
+  {
+    "id": 50,
+    "year": "1955",
+    "original": "New York psychologist Joyce Brothers wins \"$64,000 Question\" with topic of boxing",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 56
+  },
+  {
+    "id": 39,
+    "year": "1929",
+    "original": "Turkey introduces female suffrage",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 57
+  },
+  {
+    "id": 140,
+    "year": "1825",
+    "original": "US PresidentJohn Quincy Adamssuggests establishment of a national observatory",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 58
+  },
+  {
+    "id": 135,
+    "year": "1527",
+    "original": "PopeClement VIIescapes imprisonment in the Castel Sant'Angelo in Rome, fleeing to Orvieto disguised as a peddler",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 59
+  },
+  {
+    "id": 45,
+    "year": "1941",
+    "original": "New York City Council agrees to build Idlewild Airport (now JFK) in Queens",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 60
+  },
+  {
+    "id": 73,
+    "year": "1970",
+    "original": "Cleveland Cavaliers 1st NBA home victory, beating Buffalo Braves 108-106",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 61
+  }
+]

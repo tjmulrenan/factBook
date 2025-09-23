@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Helpers Around the World Unite!",
+    "story": "December 5 brings together millions of volunteers from every corner of the planet! On International Volunteer Day, people celebrate those who give their time to help others without getting paid. Communities organize special events to thank volunteers who work at food banks, animal shelters, hospitals, and schools. Many organizations host appreciation ceremonies with certificates and thank-you parties. It's also a day when new volunteers sign up to start helping their neighborhoods, making it a perfect time to spread kindness everywhere.",
+    "activity_question": "What do communities often give volunteers on International Volunteer Day?",
+    "activity_choices": [
+      "Certificates and thank-you parties",
+      "Free pizza for a year",
+      "Golden shovels",
+      "Magic wands"
+    ],
+    "activity_answer": "Certificates and thank-you parties",
+    "follow_up_question": "What kind of volunteer work would you most like to try?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "902",
+    "title": "Dirt Day: Celebrating Our Underground Heroes",
+    "story": "Every December 5, people around the world celebrate World Soil Day by getting their hands dirty! Schools organize garden projects where kids plant seeds and learn how soil feeds plants. Farmers share photos of their rich, dark earth on social media. Environmental groups host \"soil safaris\" where families dig up samples to examine tiny creatures like earthworms and beetles that make soil healthy. It's a day to appreciate the amazing dirt beneath our feet!",
+    "activity_question": "What do schools often organize on World Soil Day?",
+    "activity_choices": [
+      "Garden projects where kids plant seeds",
+      "Cooking contests with vegetables",
+      "Rock collecting expeditions",
+      "Swimming competitions"
+    ],
+    "activity_answer": "Garden projects where kids plant seeds",
+    "follow_up_question": "What tiny creatures have you found when digging in dirt?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  }
+]

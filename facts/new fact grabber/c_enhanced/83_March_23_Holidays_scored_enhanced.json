@@ -1,0 +1,102 @@
+[
+  {
+    "id": "901",
+    "title": "Weather Watchers Unite!",
+    "story": "Weather forecasters around the world get extra recognition on March 23 during World Meteorological Day! This special day celebrates the amazing scientists who track storms, predict rain, and help us know whether to grab an umbrella or sunglasses. People share cool weather photos, visit meteorology museums, and learn how satellites and radar help predict tomorrow's forecast. It's the perfect day to appreciate the hardworking meteorologists who keep us prepared for whatever Mother Nature has planned!",
+    "activity_question": "What do meteorologists help us predict?",
+    "activity_choices": [
+      "Tomorrow's weather forecast",
+      "What we should eat for breakfast",
+      "How many birds will fly south",
+      "When our favorite TV show will air"
+    ],
+    "activity_answer": "Tomorrow's weather forecast",
+    "follow_up_question": "What's the most extreme weather you've ever experienced?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "902",
+    "title": "Paws and Celebrate National Puppy Day!",
+    "story": "Every March 23, dog lovers everywhere go absolutely puppy crazy for National Puppy Day! People flood social media with adorable photos of their furry friends, from tiny Chihuahuas to fluffy Golden Retriever pups. Animal shelters host special adoption events, hoping to find forever homes for homeless puppies. Pet stores offer puppy training classes and discounts on toys, treats, and supplies. Many families use this day to finally bring home that puppy they've been dreaming about. Dog parks become extra busy as people show off their playful pups doing tricks, playing fetch, and making new furry friends. It's the perfect excuse to spoil your four-legged buddy with extra belly rubs, new squeaky toys, and maybe even a puppuccino from the coffee shop!",
+    "activity_question": "What do animal shelters often do on National Puppy Day?",
+    "activity_choices": [
+      "Host special adoption events",
+      "Give puppies birthday parties",
+      "Teach puppies to read",
+      "Close for the day"
+    ],
+    "activity_answer": "Host special adoption events",
+    "bonus_fact": "Puppies are born deaf and blind, opening their eyes around 2 weeks old!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 98
+  },
+  {
+    "id": "903",
+    "title": "Dip Into the Ultimate Snack Holiday!",
+    "story": "Chips and dip lovers unite every March 23 for National Chip and Dip Day! People celebrate by creating epic snack spreads with their favorite combinations. Some go classic with tortilla chips and salsa, while others get creative with sweet potato chips and guacamole or pita chips with hummus. Families host dip-tasting parties where everyone brings a different flavor to share. Social media fills with photos of colorful dip bowls and perfectly arranged chip platters. Restaurants often offer special chip and dip deals on this crunchy holiday. It's the perfect excuse to double-dip without judgment!",
+    "activity_question": "What do families often host on National Chip and Dip Day?",
+    "activity_choices": [
+      "Dip-tasting parties",
+      "Chip-making contests",
+      "Salsa dancing lessons",
+      "Cooking competitions"
+    ],
+    "activity_answer": "Dip-tasting parties",
+    "bonus_fact": "The average American eats about 4 pounds of potato chips per year!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "904",
+    "title": "Close Calls and Lucky Escapes Day",
+    "story": "National Near Miss Day on March 23 celebrates all those heart-stopping moments when disaster almost struck but didn't! People share their wildest close-call stories online, from nearly missing flights that were delayed anyway to dodging falling objects by pure luck. Some folks even recreate their near misses in funny videos or drawings to show how they escaped trouble by just seconds or inches.",
+    "activity_question": "What do people share online during National Near Miss Day?",
+    "activity_choices": [
+      "Their wildest close-call stories",
+      "Photos of their breakfast",
+      "Videos of their pets sleeping",
+      "Lists of their favorite movies"
+    ],
+    "activity_answer": "Their wildest close-call stories",
+    "follow_up_question": "What's the closest you've ever come to missing something important?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "905",
+    "title": "Crunch Time for Crispy Toast!",
+    "story": "March 23 is National Melba Toast Day! People celebrate by munching on these super-thin, crispy slices of toasted bread. Melba toast is perfect for spreading jam, cheese, or just eating plain for that satisfying crunch!",
+    "activity_question": "What makes melba toast special compared to regular toast?",
+    "activity_choices": [
+      "It's super-thin and extra crispy",
+      "It's made from purple bread",
+      "It only comes in triangle shapes",
+      "It's always served cold"
+    ],
+    "activity_answer": "It's super-thin and extra crispy",
+    "bonus_fact": "Melba toast was named after a famous opera singer from Australia!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 38
+  }
+]

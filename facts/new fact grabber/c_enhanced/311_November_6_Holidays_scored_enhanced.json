@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Sax Appeal: National Saxophone Day",
+    "story": "Every November 6, music lovers celebrate National Saxophone Day by honoring one of the coolest instruments ever invented! Musicians everywhere dust off their saxophones and play jazzy tunes in parks, schools, and concert halls. Music teachers organize special saxophone performances, while students show off their skills with smooth melodies. Social media fills with videos of people playing everything from classical pieces to modern pop songs on their shiny brass instruments. Some cities even host saxophone flash mobs where dozens of players surprise crowds with spontaneous concerts!",
+    "activity_question": "What do music teachers often organize on National Saxophone Day?",
+    "activity_choices": [
+      "Special saxophone performances",
+      "Trumpet cleaning workshops",
+      "Piano tuning lessons",
+      "Drum circle competitions"
+    ],
+    "activity_answer": "Special saxophone performances",
+    "bonus_fact": "The saxophone was invented by Adolphe Sax in Belgium in the 1840s!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "902",
+    "title": "Red Hair, Don't Care Day!",
+    "story": "People with gorgeous red hair get their own special celebration on November 6! Love Your Red Hair Day encourages redheads everywhere to show off their fiery locks with pride. Many people post selfies on social media using hashtags like #RedHairDontCare and #GingerPride. Schools sometimes have \"wear red\" days to support their red-haired classmates. Friends and family give compliments and celebrate the unique beauty of natural red hair, which only about 2% of people have worldwide.",
+    "activity_question": "What percentage of people worldwide have natural red hair?",
+    "activity_choices": [
+      "About 2%",
+      "About 10%",
+      "About 25%",
+      "About 50%"
+    ],
+    "activity_answer": "About 2%",
+    "bonus_fact": "Scotland has the highest percentage of redheads in the world at 13%!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "903",
+    "title": "Lost and Found: Marooned Without a Compass Day",
+    "story": "Every November 6, people celebrate Marooned Without a Compass Day by embracing the art of getting wonderfully lost! This quirky holiday encourages everyone to put away their GPS devices, smartphones, and maps for a day. Instead of relying on technology, people try navigating using old-school methods like following the sun, reading street signs, or simply wandering around their neighborhoods. Some families turn it into a fun adventure by exploring new parks or taking mystery drives where they let chance decide their route. Others practice survival skills like finding north using shadows or landmarks. It's a perfect excuse to slow down, pay attention to your surroundings, and discover hidden gems in familiar places you might have missed while staring at a screen.",
+    "activity_question": "What do people put away on Marooned Without a Compass Day?",
+    "activity_choices": [
+      "GPS devices and smartphones",
+      "Their car keys",
+      "Their favorite snacks",
+      "Their winter coats"
+    ],
+    "activity_answer": "GPS devices and smartphones",
+    "follow_up_question": "What's the most interesting place you've discovered by accident while exploring?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  }
+]

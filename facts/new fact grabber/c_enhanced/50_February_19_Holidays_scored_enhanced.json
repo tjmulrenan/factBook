@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Minty Fresh Chocolate Dreams Day",
+    "story": "Every February 19, chocolate lovers get the perfect excuse to indulge in their favorite minty treats! National Chocolate Mint Day celebrates that amazing combo of rich chocolate and cool mint that makes your taste buds dance. People celebrate by munching on chocolate mint cookies, sipping peppermint hot chocolate, or treating themselves to mint chocolate chip ice cream. Bakeries often create special chocolate mint cupcakes and candies just for this day. Some families even have chocolate mint baking contests to see who can make the most creative treat. It's the one day when having mint chocolate for breakfast might just be acceptable!",
+    "activity_question": "What do bakeries often create specially for National Chocolate Mint Day?",
+    "activity_choices": [
+      "Chocolate mint cupcakes and candies",
+      "Vanilla birthday cakes",
+      "Plain chocolate bars",
+      "Strawberry milkshakes"
+    ],
+    "activity_answer": "Chocolate mint cupcakes and candies",
+    "follow_up_question": "What's your favorite way to combine chocolate and mint flavors?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Girls Get Gears Turning on Engineering Day",
+    "story": "Every February 19, engineers across the country open their doors to show girls how awesome their jobs really are! On National Introduce a Girl to Engineering Day, companies, schools, and museums host special events where girls can build robots, design bridges, code video games, and even launch rockets. Female engineers share stories about creating everything from smartphones to roller coasters. Girls get to use real engineering tools, work in teams to solve puzzles, and discover that engineering isn't just about math and science—it's about creativity and making the world better. Many participants say this day helps them realize they could become the engineers who design future spaceships or invent the next big thing!",
+    "activity_question": "What kind of activities do girls get to do on National Introduce a Girl to Engineering Day?",
+    "activity_choices": [
+      "Build robots and design bridges",
+      "Only watch videos about engineering",
+      "Take a test about math",
+      "Learn to cook engineering-themed snacks"
+    ],
+    "activity_answer": "Build robots and design bridges",
+    "follow_up_question": "What kind of engineering project would you most want to work on?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  }
+]

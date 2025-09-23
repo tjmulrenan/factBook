@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Flip Out for French Toast Day!",
+    "story": "Every November 28, kitchens across America smell amazing as people celebrate National French Toast Day! This sweet holiday encourages everyone to make the classic breakfast treat by dipping bread slices in beaten eggs and milk, then cooking them until golden brown. Restaurants offer special French toast creations with berries, whipped cream, or maple syrup. Home cooks get creative with different breads like brioche or cinnamon swirl. Social media fills with photos of towering stacks drizzled with syrup. It's the perfect excuse to have breakfast for dinner too!",
+    "activity_question": "What do people dip bread slices in to make French toast?",
+    "activity_choices": [
+      "Beaten eggs and milk",
+      "Orange juice and butter",
+      "Pancake batter and cream",
+      "Chocolate sauce and vanilla"
+    ],
+    "activity_answer": "Beaten eggs and milk",
+    "follow_up_question": "What creative toppings would you put on your perfect French toast stack?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "902",
+    "title": "Red Planet Day: Mars Mania!",
+    "story": "Every November 28, space fans celebrate Red Planet Day by turning their eyes to Mars! People visit planetariums, watch Mars documentaries, and share amazing photos of the red planet online. Kids build Mars rovers out of LEGOs, while families gaze through telescopes hoping to spot that rusty-colored dot in the night sky. Science museums host special Mars exhibits, and NASA often shares cool facts about their latest Mars missions. Some people even wear red clothes or eat red foods like strawberries and tomatoes to honor our planetary neighbor. It's the perfect day to dream about becoming an astronaut and exploring Mars someday!",
+    "activity_question": "What do kids often build on Red Planet Day?",
+    "activity_choices": [
+      "Mars rovers out of LEGOs",
+      "Rocket ships from cardboard",
+      "Moon bases with blocks",
+      "Alien costumes from foil"
+    ],
+    "activity_answer": "Mars rovers out of LEGOs",
+    "follow_up_question": "What would you pack for a trip to Mars?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "903",
+    "title": "Make Your Own Head Day: Get Creative!",
+    "story": "Every November 28, people celebrate Make Your Own Head Day by creating wild and wacky versions of themselves! This silly holiday encourages everyone to get crafty and make their own head using whatever materials they can find. Some people draw self-portraits with crazy hairstyles or funny expressions. Others build 3D heads from clay, paper bags, or even vegetables like pumpkins and potatoes. Kids love making heads from construction paper, adding googly eyes, yarn hair, and goofy smiles. Social media fills up with photos of people's creative head creations. It's a day to be artistic, laugh at yourself, and show off your imagination in the silliest way possible!",
+    "activity_question": "What materials do people commonly use to make heads on this holiday?",
+    "activity_choices": [
+      "Clay, paper bags, and vegetables",
+      "Only expensive art supplies",
+      "Just pencil and paper",
+      "Only professional sculpting tools"
+    ],
+    "activity_answer": "Clay, paper bags, and vegetables",
+    "follow_up_question": "What would your creative head look like if you made one today?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 95
+  },
+  {
+    "id": "904",
+    "title": "Bavarian Cream Pie Gets Its Day!",
+    "story": "Every November 28, dessert lovers across America celebrate National Bavarian Cream Pie Day by indulging in this dreamy treat! This special pie features a flaky crust filled with smooth, vanilla-flavored Bavarian cream and topped with fluffy whipped cream or meringue. Bakeries often create special displays of their fanciest cream pies, while home bakers try their hand at making this tricky dessert from scratch. The silky custard filling requires careful cooking to get just right, making it a fun challenge for adventurous cooks. Many families make it their tradition to visit their favorite bakery or restaurant to share a slice together on this sweet holiday!",
+    "activity_question": "What makes Bavarian cream pie tricky to make at home?",
+    "activity_choices": [
+      "The custard filling requires careful cooking",
+      "You need special purple ingredients",
+      "It must be baked upside down",
+      "The crust needs to be frozen first"
+    ],
+    "activity_answer": "The custard filling requires careful cooking",
+    "bonus_fact": "Bavarian cream was actually invented in France, not Bavaria!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  }
+]

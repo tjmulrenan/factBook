@@ -1,0 +1,542 @@
+[
+  {
+    "id": 132,
+    "year": "2020",
+    "original": "New coral reef 500m (1,640ft) high, taller than the Empire State Building, discovered north of Australia's Great Barrier Reef",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 1
+  },
+  {
+    "id": 189,
+    "year": "1831",
+    "original": "Michael Faradaydemonstrates his dynamo invention, an electrical generator",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 2
+  },
+  {
+    "id": 387,
+    "year": "1980",
+    "original": "Kanzi, Bonobo, most literate non-human, born at Georgia State University",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 3
+  },
+  {
+    "id": 121,
+    "year": "2016",
+    "original": "Ross Sea Region Marine Protected Area established off Antarctica - world's largest marine protected area at 598,000 square miles (2.06 million square-kilometers), larger than Mexico",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 4
+  },
+  {
+    "id": 137,
+    "year": "2021",
+    "original": "Researchers announce name of a new human ancestor, Homo bodoensis, from Africa during the Middle Pleistocene, about half a million years ago, the direct ancestor of modern humans",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 5
+  },
+  {
+    "id": 164,
+    "year": "1924",
+    "original": "Miner M.de Bruin discovers the infant fossil skull, \"Taung child\" in a lime quarry in Taung, South Africa. PaleoanthropologistRaymond Dartidentifies the fossil as a new hominin species, Australopithecus africanus.",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 6
+  },
+  {
+    "id": 79,
+    "year": "1965",
+    "original": "Gateway Arch (630' (190m) high) completed in St Louis, Missouri",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 7
+  },
+  {
+    "id": 190,
+    "year": "1886",
+    "original": "Statue of Liberty is dedicated by PresidentGrover Cleveland, celebrated by the first confetti (ticker tape) parade in New York City",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 8
+  },
+  {
+    "id": 100,
+    "year": "1986",
+    "original": "The centennial of the Statue of Liberty's dedication is celebrated in New York Harbor",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 9
+  },
+  {
+    "id": 138,
+    "year": "2022",
+    "original": "Swedish engineers in Linköping produce the world's first female crash dummy (previous female dummies just a scaled down version of the male figure)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 10
+  },
+  {
+    "id": 112,
+    "year": "2007",
+    "original": "\"Bee Movie\" premieres in the US and the UK",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 11
+  },
+  {
+    "id": 154,
+    "year": "1793",
+    "original": "Eli Whitneyapplies for a patent for his cotton gin machine, used to pull cotton fibers from the seed",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 12
+  },
+  {
+    "id": 152,
+    "year": "1726",
+    "original": "\"Gulliver's Travels\" byJonathan Swiftis published by Benjamin Motte in London",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 13
+  },
+  {
+    "id": 157,
+    "year": "1856",
+    "original": "French MagicianJean Eugène Robert-Houdinperforms for Algerian Marabouts in Algeria to convince them that French magic is the stronger",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 14
+  },
+  {
+    "id": 32,
+    "year": "1904",
+    "original": "St. Louis police try a new investigative method - fingerprints",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 15
+  },
+  {
+    "id": 118,
+    "year": "2015",
+    "original": "Research indicating the Plague dates back to the Bronze Age in skeletons 5,783 years old, published by a University of Copenhagen team in \"Cell\"",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 16
+  },
+  {
+    "id": 401,
+    "year": "1998",
+    "original": "Stephen Nedoroscik, American gymnast 'the pommel horse guy' (2021 Pommel World Champion, 2024 Olympic Team Bronze), born in Worcester, Massachusetts[1]",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 17
+  },
+  {
+    "id": 224,
+    "year": "1864",
+    "original": "Dmitry Ivanovsky, Russian botanist who discovered the organisms that came to be known as viruses, born in Gdov, Russia (d. 1920)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 18
+  },
+  {
+    "id": 222,
+    "year": "1860",
+    "original": "Kanō Jigorō, Japanese educator and the founder of Judo, born in Mikage, Japan (d. 1938)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 19
+  },
+  {
+    "id": 84,
+    "year": "1973",
+    "original": "Elmore Smith of Lakers blocks 17 shots in a game (NBA record)",
+    "score": 84,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 20
+  },
+  {
+    "id": 76,
+    "year": "1962",
+    "original": "NY Giant Y. A. Tittle passes for 7 touchdowns vs Wash Redskins (49-34)",
+    "score": 76,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 21
+  },
+  {
+    "id": 108,
+    "year": "1997",
+    "original": "NBA announces hiring of Dee Kantner & Violet Palmer as 1st women to officiate a major-league all-male sports league",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 22
+  },
+  {
+    "id": 191,
+    "year": "1962",
+    "original": "Cuban Missile Crisis: US President JFK receives letter from Soviet LeaderrKhrushchevsuggesting agreement",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 23
+  },
+  {
+    "id": 82,
+    "year": "1970",
+    "original": "US/USSR sign an agreement to discuss joint space efforts",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 24
+  },
+  {
+    "id": 114,
+    "year": "2009",
+    "original": "NASA successfully launches the Ares I-X mission, the only rocket launch for its later-cancelled Constellation program.",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 25
+  },
+  {
+    "id": 83,
+    "year": "1971",
+    "original": "United Kingdom becomes the 6th nation to have a satellite in orbit with the launch of Prospero",
+    "score": 83,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 26
+  },
+  {
+    "id": 86,
+    "year": "1974",
+    "original": "Luna 23 launched (landing on Moon)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 27
+  },
+  {
+    "id": 180,
+    "year": "1994",
+    "original": "Columbia Records releases \"Merry Christmas\", the fourth studio album by American singer-songwriterMariah Careyfeaturing a mix of new and traditional holiday songs; global smash features the hit single \"All I Want for Christmas is You\" goes on to sell 9 million units to date",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 28
+  },
+  {
+    "id": 183,
+    "year": "2016",
+    "original": "Disney Records releasesAlessia Cara's single \"How Far I'll Go\" from the film \"Moana\"",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 29
+  },
+  {
+    "id": 175,
+    "year": "1971",
+    "original": "John LennonandYoko Onorecord the single \"Happy Xmas (War is Over)\" in NYC",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 30
+  },
+  {
+    "id": 379,
+    "year": "1978",
+    "original": "Gwendoline Christie, English actress (Game of Thrones, Star Wars: The Force Awakens, The Last Jedi, Wednesday), born in Worthing, England",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 31
+  },
+  {
+    "id": 402,
+    "year": "2002",
+    "original": "Lola Tung, American actress (The Summer I Turned Pretty), born in  New York City",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 32
+  },
+  {
+    "id": 359,
+    "year": "1966",
+    "original": "Andy Richter, American actor, comedian and writer (Conan O'Brien's sidekick), born in Yorkville, Illinois",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 33
+  },
+  {
+    "id": 397,
+    "year": "1987",
+    "original": "Frank Ocean [Christopher Breaux], American singer-songwriter (\"Thinkin' 'Bout You\"), born in Long Beach, California",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 34
+  },
+  {
+    "id": 383,
+    "year": "1979",
+    "original": "Jawed Karim, Bangladeshi-German-American software engineer and Internet entrepreneur (co-founder of YouTube), born in Merseburg, East Germany",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 35
+  },
+  {
+    "id": 95,
+    "year": "1981",
+    "original": "Edward M McIntrye elected 1st black mayor of Augusta Georgia",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 36
+  },
+  {
+    "id": 136,
+    "year": "2021",
+    "original": "One of world's largest floor mosaics unveiled after restoration at Hisham's Palace (660-750 AD) by Palestinian authorities in Jericho, West Bank",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 37
+  },
+  {
+    "id": 156,
+    "year": "1828",
+    "original": "Clara Wieck, age 9, makes her official debut in a piano recital at the Gewandhaus concert hall in Leipzig, Germany",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 38
+  },
+  {
+    "id": 220,
+    "year": "1855",
+    "original": "Ivan Vladimirovich Michurin, Russian botanist (more than 300 new types of fruit), born in Vershino estate, Russia (d. 1935)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 39
+  },
+  {
+    "id": 281,
+    "year": "1929",
+    "original": "Franklin W. Stahl, American molecular biologist who helped prove DNA replicates semi-conservatively (The Meselson-Stahl Experiment), born in Needham, Massachusetts (d. 2025)[1]",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 40
+  },
+  {
+    "id": 373,
+    "year": "1972",
+    "original": "Terrell Davis, American Pro Football HOF running back (Super Bowl 1997 [MVP], 98; NFL MVP 1998; 3 × First-team All-Pro; 3 × Pro Bowl; Denver Broncos), born in San Diego, California",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 41
+  },
+  {
+    "id": 398,
+    "year": "1991",
+    "original": "Lucy Bronze, English football player (Barcelona, England), born in Berwick-upon-Tweed",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 42
+  },
+  {
+    "id": 287,
+    "year": "1933",
+    "original": "Garrincha, Brazilian soccer right wing (50 caps; World Cup winner 1958, 62; Botafogo 238 games), born in Pau Grande, Brazil (d. 1983)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 43
+  },
+  {
+    "id": 362,
+    "year": "1966",
+    "original": "Steve Atwater, American Pro Football HOF safety (Super Bowl 1998, 99 Denver Broncos; First-team All-Pro 1991, 92; 8× Pro Bowl), born in Chicago, Illinois",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 44
+  },
+  {
+    "id": 341,
+    "year": "1958",
+    "original": "Manzoor Hussain, Pakistani field hockey striker (Olympic gold 1986; World Cup gold 1978, 82; 175 caps, 86 goals), born in Sialkot, Pakistan (d. 2022)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 45
+  },
+  {
+    "id": 288,
+    "year": "1934",
+    "original": "Jim Beatty, American athlete (first to break 4-minute mile barrier on an indoor track 3:58.9 1962), born in New York City",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 46
+  },
+  {
+    "id": 391,
+    "year": "1984",
+    "original": "Obafemi Martins, Nigerian soccer forward (42 caps; Inter Milan, Newcastle United, Seattle Sounders FC), born in Lagos, Nigeria",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 47
+  },
+  {
+    "id": 396,
+    "year": "1987",
+    "original": "Choi Na-yeon, South Korean golfer (US Open 2012), born in Seoul, South Korea",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 48
+  },
+  {
+    "id": 395,
+    "year": "1986",
+    "original": "May El Calamawy, Egyptian-Palestinian actress (Ramy), born in Bahrain",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 49
+  },
+  {
+    "id": 293,
+    "year": "1936",
+    "original": "Charlie Daniels, American country-rock guitarist, fiddler, and singer (\"Devil Went Down to Georgia\"), born in Wilmington, North Carolina (d. 2020)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 50
+  },
+  {
+    "id": 393,
+    "year": "1985",
+    "original": "Nomcebo [Nkwanyana], South African singer-songwriter (\"Jerusalema\"), born in Hammarsdale, Republic of South Africa",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 51
+  },
+  {
+    "id": 140,
+    "year": "2023",
+    "original": "10th Rugby World Cup, Stade de France: South Africa become first to win 4 World Cups and second to go back-to-back, after gripping 12-11 win over New Zealand; MVP: Springboks flanker ﻿Pieter-Steph du Toit",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 52
+  },
+  {
+    "id": 182,
+    "year": "2012",
+    "original": "AmericanSerena Williamswins her 3rd season ending tennis title; beatsMaria Sharapovaof Russia 6–4, 6–3 in the WTA Championship decider in Istanbul, Turkey",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 53
+  },
+  {
+    "id": 125,
+    "year": "2018",
+    "original": "Ukrainian tennis star Elina Svitolina registers biggest win of her career when she rallies for a 3-6, 6-2, 6-2 triumph over American Sloane Stephens in a classic WTA Finals title decider in Singapore",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 54
+  },
+  {
+    "id": 169,
+    "year": "1951",
+    "original": "Juan Manuel Fangioof Argentina wins Formula 1 World Drivers Championship by taking out the Spanish Grand Prix at Pedralbes in an Alpha Romeo; wins by 6 points fromAlberto Ascariof Italy",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 55
+  },
+  {
+    "id": 178,
+    "year": "1978",
+    "original": "Bobby Orrscores his last career NHL goal (vs Detroit Red Wings)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 56
+  },
+  {
+    "id": 343,
+    "year": "1960",
+    "original": "Landon Curt Noll, American computer scientist and Mathematician: youngest to hold the world record for the largest known prime 3 times, born in Walnut Creek, California",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 57
+  },
+  {
+    "id": 92,
+    "year": "1978",
+    "original": "NBC's premiere of Kiss' acting debut, \"Kiss Meets The Phantom of the Park\" TV film",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 58
+  },
+  {
+    "id": 158,
+    "year": "1893",
+    "original": "Pyotr Ilyich Tchaikovskyconducts first performance of his Symphony Number Six in B minor, \"Pathetique\", in St. Petersburg, Russia, 9 days before his death",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 59
+  },
+  {
+    "id": 271,
+    "year": "1922",
+    "original": "Gershon Kingsley [Götz Ksinski], German-American composer, electronic music pioneer, and Moog synthesizer player (Popcorn), born in Bochum, Weimar Republic (d. 2019)",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 60
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "original": "National Eat What You Want Day",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "National Twilight Zone Day",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "National Technology Day",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "National Root Canal Appreciation Day",
+    "score": 12,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 5,
+    "original": "Donate a Day's Wages to Charity Day",
+    "score": 55,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 6,
+    "original": "National Foam Rolling Day",
+    "score": 45,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 7,
+    "original": "National Third Shift Workers Day",
+    "score": 45,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 8,
+    "original": "National Miniature Golf Day",
+    "score": 80,
+    "is_kid_friendly": true
+  }
+]

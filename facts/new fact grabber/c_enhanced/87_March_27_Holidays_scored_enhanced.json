@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "All the World's a Stage Day",
+    "story": "Curtains up for World Theatre Day on March 27! This special day celebrates actors, directors, and everyone who brings stories to life on stage. Theatre groups around the world put on free shows, schools perform plays, and actors share behind-the-scenes videos online. Some cities host street performances where you might stumble upon a surprise show while walking down the sidewalk. It's the perfect day to try acting yourself or watch a play!",
+    "activity_question": "What might you stumble upon while walking down the sidewalk on World Theatre Day?",
+    "activity_choices": [
+      "A surprise street performance",
+      "Free popcorn stands",
+      "Dancing elephants",
+      "Magic carpet rides"
+    ],
+    "activity_answer": "A surprise street performance",
+    "follow_up_question": "What story would you most want to see performed on stage?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "902",
+    "title": "Paella Party Time!",
+    "story": "Giant pans of golden rice sizzle over open flames as families gather to celebrate National Spanish Paella Day on March 27! This colorful dish mixes rice with seafood, chicken, vegetables, and bright yellow saffron spice. People host paella parties in their backyards, cooking the massive meals in special wide pans called paelleras. Spanish restaurants offer special deals, and food lovers share photos of their homemade creations online.",
+    "activity_question": "What spice gives paella its bright yellow color?",
+    "activity_choices": [
+      "Saffron",
+      "Paprika",
+      "Turmeric",
+      "Glitter powder"
+    ],
+    "activity_answer": "Saffron",
+    "follow_up_question": "What ingredients would you put in your dream paella recipe?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "903",
+    "title": "Quirky Country Music Song Titles Day",
+    "story": "Country music fans celebrate the weirdest song titles ever written on March 27! People share hilarious real country songs like \"How Can I Miss You If You Won't Go Away?\" and \"I'd Rather Pass a Kidney Stone Than Another Night With You.\" Fans post their favorites on social media, radio stations play the silliest ones all day, and some people even try writing their own goofy titles. Country musicians are famous for turning everyday problems into catchy, funny songs that make you laugh and cry at the same time. This day proves that country music doesn't take itself too seriously!",
+    "activity_question": "What do people do on Quirky Country Music Song Titles Day?",
+    "activity_choices": [
+      "Share funny song titles on social media",
+      "Only listen to sad country songs",
+      "Write serious poetry",
+      "Play classical music all day"
+    ],
+    "activity_answer": "Share funny song titles on social media",
+    "bonus_fact": "One real country song is called \"She Got the Ring and I Got the Finger.\"",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "904",
+    "title": "Scribble Your Way to Fun!",
+    "story": "Grab your crayons and let your imagination run wild because March 27 is National Scribble Day! This awesome holiday celebrates the joy of drawing without rules or worries about making it perfect. Kids and adults everywhere pick up pencils, markers, or even finger paints to create messy masterpieces. You can scribble on paper, sidewalks with chalk, or digital tablets. The best part? There's no wrong way to scribble! Some people draw squiggly monsters, others make abstract art that looks like colorful spaghetti. Teachers love this day because it reminds everyone that creativity starts with simple marks and lines.",
+    "activity_question": "What's the best part about scribbling on National Scribble Day?",
+    "activity_choices": [
+      "There's no wrong way to do it",
+      "You must use only blue crayons",
+      "It has to look like real animals",
+      "Adults aren't allowed to participate"
+    ],
+    "activity_answer": "There's no wrong way to do it",
+    "follow_up_question": "What would you scribble if you could draw on any surface in the world?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 82
+  }
+]

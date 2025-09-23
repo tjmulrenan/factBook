@@ -1,0 +1,542 @@
+[
+  {
+    "id": 120,
+    "year": "1996",
+    "original": "First appearance of Pokémon in the role-playing video game \"Pocket Monsters Red and Green\" for Game Boy in Japan",
+    "score": 100,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 1
+  },
+  {
+    "id": 154,
+    "year": "2020",
+    "original": "Biggest cosmic explosion ever detected from a supermassive black hole in Ophiuchus galaxy 390 million lights years away, (size of 15 Miky Ways), published in \"Astrophysical Journal\"",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 2
+  },
+  {
+    "id": 152,
+    "year": "2019",
+    "original": "Smallest baby boy ever born to be later successfully released, goes home, after original birth weight of 268g (9.45oz) from Tokyo hospital",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 3
+  },
+  {
+    "id": 92,
+    "year": "1981",
+    "original": "Greatest passenger load on a commercial airliner-610 on Boeing 747",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 4
+  },
+  {
+    "id": 149,
+    "year": "2019",
+    "original": "Doctors announce world's second known case of semi-identical twins, a boy and girl from Brisbane, Australia",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 5
+  },
+  {
+    "id": 73,
+    "year": "1964",
+    "original": "The government of Italy asks for help to keep the Leaning Tower of Pisa from toppling over.",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 6
+  },
+  {
+    "id": 282,
+    "year": "1899",
+    "original": "Charles Best, American-Canadian medicalscientistand co-discoverer of insulin, born in West Pembroke, Maine (d. 1978)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 7
+  },
+  {
+    "id": 56,
+    "year": "1940",
+    "original": "Martin Kamen and Sam Ruben discover carbon-14 (radiocarbon dating) at the University of California Radiation Laboratory in Berkeley, California",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 8
+  },
+  {
+    "id": 140,
+    "year": "2010",
+    "original": "8.8 magnitude earthquake rattles central Chile; epicenter just off the coast also triggers a tsunami",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 9
+  },
+  {
+    "id": 54,
+    "year": "1939",
+    "original": "Borley Rectory, \"the most haunted house in England\", destroyed in a fire",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 10
+  },
+  {
+    "id": 144,
+    "year": "2014",
+    "original": "Chaos erupts after the Swedish Public Employment Service mistakenly invites 61,000 people to a job interview in Stockholm",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 11
+  },
+  {
+    "id": 32,
+    "year": "1879",
+    "original": "Russian-American chemist Constantin Fahlberg discovers an artificial sweetener (later named 'saccharin'), while working on coal tar analysis at Johns Hopkins University in Baltimore, Maryland",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 12
+  },
+  {
+    "id": 301,
+    "year": "1910",
+    "original": "Kelly Johnson, American aircraft engineer (Lockheed Skunk Works, Lockheed U-2, SR-71 Blackbird), born in Ishpeming, Michigan (d. 1990)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 13
+  },
+  {
+    "id": 182,
+    "year": "1960",
+    "original": "US Olympic Ice Hockey Team beats USSR 3-2 en route to gold medal",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 14
+  },
+  {
+    "id": 125,
+    "year": "1998",
+    "original": "Britain's House of Lords agrees to end 1,000 years of male precedence by giving a monarch's first-born daughter the same claim to the throne as any first born son",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 15
+  },
+  {
+    "id": 20,
+    "year": "1827",
+    "original": "First Mardi Gras celebration in New Orleans",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 16
+  },
+  {
+    "id": 29,
+    "year": "1872",
+    "original": "Charlotte Ray, 1st African American woman lawyer in USA, graduates from Howard University",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 17
+  },
+  {
+    "id": 47,
+    "year": "1922",
+    "original": "US Supreme Court unanimously upholds 19th amendment to the US Constuituent - women's right to vote",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 18
+  },
+  {
+    "id": 197,
+    "year": "1988",
+    "original": "Bonnie Blair(US) wins Olympic 500m speed skating in record 39.1",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 19
+  },
+  {
+    "id": 196,
+    "year": "1984",
+    "original": "Carl Lewisjumps world record indoor (8.675 m)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 21
+  },
+  {
+    "id": 192,
+    "year": "1977",
+    "original": "Swedish pop groupABBAarrives in Australia for the first time, sparking \"ABBA-mania\"",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 23
+  },
+  {
+    "id": 379,
+    "year": "1946",
+    "original": "Mary-Claire King, American human geneticist (breast cancer genes), born in Evanston, Illinois",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 24
+  },
+  {
+    "id": 328,
+    "year": "1926",
+    "original": "David H. Hubel, Canadian neuroscientist, 1981 Nobel Prize for \"discoveries concerning information processing in the visual system\", born in Windsor, Ontario (d. 2013)[1]",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 25
+  },
+  {
+    "id": 319,
+    "year": "1923",
+    "original": "Alejandro Zaffaroni, Uruguayan-born biochemist, helped create birth control pill and nicotine patch, born in Montevideo, Uruguay (d. 2014)[1]",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 26
+  },
+  {
+    "id": 255,
+    "year": "1869",
+    "original": "Alice Hamilton, American physician, scientist and social advocate (workmen's compensation laws, occupational illnesses), born in Manhattan, New York (d. 1970)[1]",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 27
+  },
+  {
+    "id": 59,
+    "year": "1942",
+    "original": "Radio emissions from the Sun first detected by English physicist and radio astronomer James Stanley Hey, working on WWII radar anti-jamming  methods",
+    "score": 68,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 28
+  },
+  {
+    "id": 1,
+    "year": "837",
+    "original": "15th recorded perihelion passage of Halley's Comet",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 29
+  },
+  {
+    "id": 52,
+    "year": "1936",
+    "original": "Dutch swimmer Willy den Ouden sets new women's world 100m freestyle record (1:04.6) in Amsterdam; lasts 22 years until broken in 1956 by Dawn Fraser of Australia",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 31
+  },
+  {
+    "id": 181,
+    "year": "1959",
+    "original": "Boston CelticBob Cousysets NBA record with 28 assists Boston Celtics score 173 points against Minneapolis Lakers",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 33
+  },
+  {
+    "id": 176,
+    "year": "1937",
+    "original": "Australian cricketerDon Bradmanscores 169 in the 5th Test match against England in 223 minutes, ensuring Australia wins the Ashes 3-2",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 34
+  },
+  {
+    "id": 93,
+    "year": "1982",
+    "original": "Dan Issel (NBA-Nuggets), hits on 63rd consecutive free throw",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 35
+  },
+  {
+    "id": 194,
+    "year": "1981",
+    "original": "Paul McCartneyand Stevie Wonder record the single \"Ebony & Ivory\"",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 38
+  },
+  {
+    "id": 212,
+    "year": "2019",
+    "original": "\"Captain Marvel\" film directed by Anna Boden and Ryan Fleck, starringBrie LarsonandSamuel L. Jacksonpremieres",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 39
+  },
+  {
+    "id": 394,
+    "year": "1954",
+    "original": "Neal Schon, American rock guitarist and songwriter (Santana, 1971-72; Journey - \"Don't Stop Believin'\"; \"Any Way You Want It\"; Bad English, 1987-91), born in Tinker Air Force Base, Oklahoma",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 40
+  },
+  {
+    "id": 397,
+    "year": "1957",
+    "original": "Adrian Smith, English heavy metal guitarist (Iron Maiden - \"Aces High\"), born in London Borough of Hackney, London, England",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 41
+  },
+  {
+    "id": 42,
+    "year": "1919",
+    "original": "1st public performance of Holst's \"Planets\"",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 42
+  },
+  {
+    "id": 344,
+    "year": "1934",
+    "original": "N. Scott Momaday, Native American author (House Made of Dawn, Pulitzer Prize - 1969), born in Lawton, Oklahoma (d. 2024)[1]",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 43
+  },
+  {
+    "id": 321,
+    "year": "1923",
+    "original": "Dexter Gordon, American jazz tenor saxophonist (Go!; The Other Side of 'Round Midnight), and actor ('Round Midnight), born in Los Angeles, California (d. 1990)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 44
+  },
+  {
+    "id": 71,
+    "year": "1960",
+    "original": "Veikko Hakulinen of Finland wins his 3rd career Olympic cross country gold medal as part of Finland's 4 x 10k relay team at Squaw Valley, CA; winner: 50k (Oslo, 1952) and 30k (Cortina d’Ampezzo, 1956)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 46
+  },
+  {
+    "id": 184,
+    "year": "1963",
+    "original": "Mickey Mantleof the NY Yankees signs a baseball contract worth $100,000",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 49
+  },
+  {
+    "id": 173,
+    "year": "1925",
+    "original": "Test Cricket debut ofClarrie Grimmett, who took 5-45 & 6-37 v England",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 50
+  },
+  {
+    "id": 167,
+    "year": "1860",
+    "original": "Abraham Lincolnmakes a speech at Cooper Union in the city of New York that is largely responsible for his election to the Presidency",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 51
+  },
+  {
+    "id": 164,
+    "year": "1814",
+    "original": "Ludwig van Beethoven's Symphony No. 8 in F major premieres in Vienna",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 52
+  },
+  {
+    "id": 166,
+    "year": "1854",
+    "original": "German composerRobert Schumannsaved from suicide attempt in Rhine River",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 53
+  },
+  {
+    "id": 162,
+    "year": "1700",
+    "original": "English explorerWilliam Dampieris the first British person to visit the Pacific Island of New Britain, which he names",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 54
+  },
+  {
+    "id": 31,
+    "year": "1874",
+    "original": "Baseball 1st played in England at Lord's Cricket Ground",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 55
+  },
+  {
+    "id": 21,
+    "year": "1844",
+    "original": "Dominican Republic gains independence from Haiti (National Day)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 56
+  },
+  {
+    "id": 79,
+    "year": "1967",
+    "original": "Dominica gains independence from England",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 57
+  },
+  {
+    "id": 163,
+    "year": "1812",
+    "original": "The flag of Argentina, created byManuel Belgrano, is first raised at Rosario",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 58
+  },
+  {
+    "id": 161,
+    "year": "1594",
+    "original": "Henry IVcrowned King of France at Chartres Cathedral, only French monarch to be crowned there (Reins and Paris occupied by the Catholic League)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 59
+  },
+  {
+    "id": 90,
+    "year": "1980",
+    "original": "Israel & Egypt exchange ambassadors",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 60
+  },
+  {
+    "id": 80,
+    "year": "1967",
+    "original": "Rio de la Plata Treaty",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 61
+  },
+  {
+    "id": 70,
+    "year": "1960",
+    "original": "Oil pipe line from Rotterdam to Ruhrgebied opens",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 63
+  },
+  {
+    "id": 30,
+    "year": "1873",
+    "original": "Dutch socialist Samuel van Wooden demands law against child labor",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 64
+  },
+  {
+    "id": 278,
+    "year": "1897",
+    "original": "Bernard Lyot, French astronomer (Coronagraph, Lyot-filter), born in Paris (d. 1952)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 65
+  },
+  {
+    "id": 358,
+    "year": "1939",
+    "original": "Antoinette Sibley, British ballerina (Turning Point), born in Bromley, England",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 66
+  },
+  {
+    "id": 249,
+    "year": "1856",
+    "original": "Alfred Einhorn, German chemist (created Novocain), born in Hamburg, Germany (d. 1917)[1]",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 69
+  },
+  {
+    "id": 226,
+    "year": "1711",
+    "original": "Constantine Mavrocordatos, Greek reforming Prince of Wallachia and Prince of Moldavia who abolished serfdom, born in Constantinople, Ottoman Empire (d. 1769)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 70
+  },
+  {
+    "id": 262,
+    "year": "1880",
+    "original": "Angelina Weld Grimke, American journalist, teacher and playwright (Harlem Renaissance), born in Boston, Massachusetts (d. 1958)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 71
+  },
+  {
+    "id": 263,
+    "year": "1881",
+    "original": "Bertus Brouwers, Dutch mathematician and philosopher (founder of modern topology), born in Overschie, Netherlands (d. 1966)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 72
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Standing Up for Everyone's Rights",
+    "story": "December 10 marks Human Rights Day, when people around the world celebrate fairness and equality for everyone. Schools hold special assemblies about treating others with respect. Communities organize marches and events to remind everyone that all people deserve kindness, safety, and freedom no matter who they are.",
+    "activity_question": "What do schools often do on Human Rights Day?",
+    "activity_choices": [
+      "Hold special assemblies about treating others with respect",
+      "Give everyone extra homework",
+      "Cancel all classes for the day",
+      "Have pizza parties in every classroom"
+    ],
+    "activity_answer": "Hold special assemblies about treating others with respect",
+    "follow_up_question": "What's one way you can stand up for someone's rights at school?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 45
+  },
+  {
+    "id": "902",
+    "title": "Dewey's Decimal Day of Organization",
+    "story": "Libraries everywhere celebrate their secret weapon on December 10 — the Dewey Decimal System! This clever numbering trick helps librarians organize millions of books so you can find exactly what you need. Every book gets a special number based on its topic, making library adventures way easier and faster.",
+    "activity_question": "What does the Dewey Decimal System help organize?",
+    "activity_choices": [
+      "Books in libraries",
+      "Students in classrooms",
+      "Food in cafeterias",
+      "Pencils in desks"
+    ],
+    "activity_answer": "Books in libraries",
+    "follow_up_question": "What would happen if libraries didn't have any organization system at all?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 42
+  },
+  {
+    "id": "903",
+    "title": "Paws for a Cause Day",
+    "story": "Every December 10, people around the world celebrate International Animal Rights Day by standing up for creatures who can't speak for themselves. Activists organize peaceful marches, share photos of rescued animals on social media, and educate others about treating all animals with kindness and respect. Many families visit animal shelters to volunteer, donate supplies, or even adopt a furry friend. Schools often host special assemblies where kids learn about protecting wildlife and farm animals. Some people choose to eat plant-based meals for the day to show support for animal welfare, while others write letters to lawmakers asking for stronger animal protection laws.",
+    "activity_question": "What do many families do on International Animal Rights Day to help animals directly?",
+    "activity_choices": [
+      "Visit animal shelters to volunteer or adopt",
+      "Teach their pets to march in parades",
+      "Build tiny houses for squirrels",
+      "Host costume parties for their dogs"
+    ],
+    "activity_answer": "Visit animal shelters to volunteer or adopt",
+    "follow_up_question": "What's one simple way you could help animals in your own neighborhood?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "904",
+    "title": "Wyoming Day: Big Sky State Pride",
+    "story": "Wyoming shows off its state pride every December 10 on Wyoming Day! People across the cowboy state celebrate by sharing photos of beautiful mountains, vast plains, and famous landmarks like Yellowstone. Schools teach students about Wyoming's history, while families enjoy local foods and traditions that make their state special.",
+    "activity_question": "What do people share on social media during Wyoming Day?",
+    "activity_choices": [
+      "Photos of mountains and landmarks",
+      "Pictures of their pets in cowboy hats",
+      "Videos of themselves lassoing furniture",
+      "Recipes for pancakes shaped like Wyoming"
+    ],
+    "activity_answer": "Photos of mountains and landmarks",
+    "bonus_fact": "Wyoming was the first state to give women the right to vote!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 45
+  }
+]

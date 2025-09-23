@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "original": "Winnie the Pooh Day",
+    "score": 95,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "National Thesaurus Day",
+    "score": 55,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "National Peking Duck Day",
+    "score": 60,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "National Michigan Day",
+    "score": 35,
+    "is_kid_friendly": false
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "901",
+    "title": "Cinco de Mayo Fiesta Fun!",
+    "story": "Every May 5, people across America throw colorful Cinco de Mayo parties to celebrate Mexican culture and heritage! Streets fill with parades featuring mariachi bands, folk dancers in bright costumes, and delicious smells of tacos, guacamole, and churros. Families gather to make paper flowers, paint their faces, and learn traditional dances. Many cities host festivals where kids can try piñata games and taste authentic Mexican treats. This joyful holiday brings communities together to honor Mexico's rich traditions through music, food, and fun!",
+    "activity_question": "What type of music is commonly featured at Cinco de Mayo celebrations?",
+    "activity_choices": [
+      "Mariachi bands",
+      "Rock concerts",
+      "Classical orchestras",
+      "Jazz ensembles"
+    ],
+    "activity_answer": "Mariachi bands",
+    "bonus_fact": "Cinco de Mayo is actually celebrated more widely in the United States than in Mexico!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "902",
+    "title": "Drawing Laughs on National Cartoonists Day",
+    "story": "Every May 5, artists across the country celebrate National Cartoonists Day by honoring the creators who make us laugh, think, and dream through their drawings. Comic strip artists share behind-the-scenes sketches on social media, while cartoonists visit schools to teach kids how to draw their favorite characters. Many newspapers feature special editions highlighting their comic sections, and art museums host cartoon exhibitions. Fans celebrate by reading their favorite comics, trying to draw cartoon characters, or sharing funny comic strips online. Some cartoonists even release limited edition prints or host live drawing sessions where people can watch them create new characters right before their eyes. It's the perfect day to appreciate how a simple drawing can tell an amazing story.",
+    "activity_question": "How do cartoonists often celebrate this holiday with kids?",
+    "activity_choices": [
+      "By visiting schools to teach drawing",
+      "By giving away free comic books",
+      "By hosting cartoon movie marathons",
+      "By painting murals on playgrounds"
+    ],
+    "activity_answer": "By visiting schools to teach drawing",
+    "follow_up_question": "What cartoon character would you create if you were a cartoonist?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 92
+  },
+  {
+    "id": "903",
+    "title": "Clean Hands, Happy World!",
+    "story": "Doctors, nurses, and health workers around the globe scrub their hands extra carefully on May 5 for World Hand Hygiene Day! This special day reminds everyone how washing hands with soap saves lives by stopping germs from spreading. Hospitals hold hand-washing contests, schools teach proper scrubbing techniques, and families practice the 20-second rule together. It's amazing how something so simple can be so powerful!",
+    "activity_question": "How long should you scrub your hands according to the story?",
+    "activity_choices": [
+      "10 seconds",
+      "20 seconds",
+      "30 seconds",
+      "Until your hands turn purple"
+    ],
+    "activity_answer": "20 seconds",
+    "follow_up_question": "What's your favorite song to sing while washing your hands?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "904",
+    "title": "Orange You Glad It's Liberation Day?",
+    "story": "Every May 5, the Netherlands explodes in orange as people celebrate Liberation Day! Streets fill with parades, concerts, and festivals honoring freedom from World War II occupation. Families wear orange clothes, wave Dutch flags, and enjoy outdoor markets selling traditional treats. Kids participate in special school programs learning about peace and democracy. The whole country becomes one giant party celebrating the precious gift of liberty and remembering those who fought for it.",
+    "activity_question": "What color do people in the Netherlands wear on Liberation Day?",
+    "activity_choices": [
+      "Orange",
+      "Purple",
+      "Green",
+      "Pink with polka dots"
+    ],
+    "activity_answer": "Orange",
+    "follow_up_question": "How do you think your community could celebrate freedom and peace?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "905",
+    "title": "Carp Flags and Kid Power Day",
+    "story": "Giant colorful fish flags flutter in the wind across Japan every May 5 for Children's Day! Families hang these special carp streamers called koinobori outside their homes to celebrate their kids. The carp fish represents strength and determination because it can swim upstream against strong currents. Parents also display samurai helmets and dolls inside their houses to wish their children courage and success. Kids eat special rice cakes wrapped in oak leaves called kashiwa-mochi, and many families take baths with iris flowers for good health. It's a national holiday where the whole country celebrates how awesome kids are!",
+    "activity_question": "What do Japanese families hang outside their homes on Children's Day?",
+    "activity_choices": [
+      "Colorful carp fish flags",
+      "Paper lanterns",
+      "Wind chimes",
+      "Cherry blossom branches"
+    ],
+    "activity_answer": "Colorful carp fish flags",
+    "bonus_fact": "The biggest koinobori carp flag ever made was over 300 feet long!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  }
+]

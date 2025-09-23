@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "original": "Saint Joseph's Day",
+    "score": 40,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "National Poultry Day",
+    "score": 65,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "National Chocolate Caramel Day",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "National Let's Laugh Day",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 5,
+    "original": "National Certified Nurses Day",
+    "score": 50,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 6,
+    "original": "National Client's Day",
+    "score": 25,
+    "is_kid_friendly": false
+  }
+]

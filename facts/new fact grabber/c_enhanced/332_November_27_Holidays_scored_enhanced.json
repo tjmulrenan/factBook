@@ -1,0 +1,102 @@
+[
+  {
+    "id": "901",
+    "title": "Bavarian Cream Pie Gets Its Day!",
+    "story": "Every November 27, dessert lovers across America celebrate National Bavarian Cream Pie Day by indulging in this dreamy treat! This special pie features a flaky crust filled with smooth, vanilla-flavored Bavarian cream and topped with fluffy whipped cream or meringue. Bakeries often create special displays, and families gather to bake their own versions using recipes passed down through generations. Social media fills with photos of perfectly sliced pies showing off those gorgeous creamy layers. Some people even host pie-tasting parties where everyone brings a different flavor variation to share and compare!",
+    "activity_question": "What is Bavarian cream pie typically topped with?",
+    "activity_choices": [
+      "Whipped cream or meringue",
+      "Chocolate chips and sprinkles",
+      "Fresh strawberries only",
+      "Crushed cookies and candy"
+    ],
+    "activity_answer": "Whipped cream or meringue",
+    "follow_up_question": "What other cream-filled desserts do you think deserve their own special day?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "902",
+    "title": "Jerky Gets Crafty on November 27",
+    "story": "Every November 27, meat lovers celebrate National Craft Jerky Day by munching on fancy dried meats made by small companies instead of big factories. Craft jerky makers use special recipes with unique flavors like teriyaki pineapple, ghost pepper, or even chocolate cherry. People visit local butcher shops, browse online jerky stores, or make their own using dehydrators at home. Social media fills with photos of colorful jerky packages and taste-test videos. Some families even have jerky-tasting parties where everyone brings different flavors to share and vote on their favorites.",
+    "activity_question": "What makes craft jerky different from regular jerky?",
+    "activity_choices": [
+      "It's made by small companies with special recipes",
+      "It's always spicier than regular jerky",
+      "It's made from vegetables instead of meat",
+      "It comes in purple packages only"
+    ],
+    "activity_answer": "It's made by small companies with special recipes",
+    "bonus_fact": "Some craft jerky flavors include maple bacon, sriracha honey, and even birthday cake!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 78
+  },
+  {
+    "id": "903",
+    "title": "Rocking Out on Electric Guitar Day",
+    "story": "Every November 27, guitar lovers everywhere celebrate National Electric Guitar Day by cranking up their amps and showing off their skills! Musicians post videos of their favorite riffs online, music stores host special events, and guitar teachers give free lessons to beginners. Some people visit guitar museums or watch concerts featuring legendary electric guitar solos. Even if you don't play, you can celebrate by listening to your favorite rock songs and air-guitaring along. It's the perfect day to appreciate how this amazing instrument changed music forever!",
+    "activity_question": "What do guitar teachers sometimes offer on National Electric Guitar Day?",
+    "activity_choices": [
+      "Free lessons to beginners",
+      "Free guitars to everyone",
+      "Guitar-shaped cookies",
+      "Magic guitar picks"
+    ],
+    "activity_answer": "Free lessons to beginners",
+    "follow_up_question": "What's your favorite song that features an awesome electric guitar solo?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "904",
+    "title": "Sharp Celebration for Sewing Fans",
+    "story": "Every November 27, crafters and sewing enthusiasts celebrate National Pins and Needles Day! People share photos of their latest sewing projects on social media, from colorful quilts to handmade clothes. Many visit fabric stores for special sales or start new embroidery projects. Sewing circles meet up to work on group quilts together. Some people even organize pin cushion decorating contests or needle threading races for fun!",
+    "activity_question": "What do people often share on social media during National Pins and Needles Day?",
+    "activity_choices": [
+      "Photos of their sewing projects",
+      "Pictures of their breakfast",
+      "Videos of their pets dancing",
+      "Screenshots of video games"
+    ],
+    "activity_answer": "Photos of their sewing projects",
+    "bonus_fact": "The smallest sewing needle ever made is thinner than a human hair!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "905",
+    "title": "Weary Willie's Wonderful Day of Fun",
+    "story": "Every November 27, people celebrate Weary Willie Day by honoring the famous sad-faced clown character created by Emmett Kelly. Unlike happy clowns with big smiles, Weary Willie had a frown and wore raggedy clothes that made people laugh in a different way. Today, clown performers and circus fans remember this special character by sharing photos of sad clowns, watching old circus videos, and even dressing up like Weary Willie with torn clothes and a droopy face. Some people visit circus museums or attend clown shows to celebrate this unique day.",
+    "activity_question": "What made Weary Willie different from other clowns?",
+    "activity_choices": [
+      "He had a sad face and wore raggedy clothes",
+      "He could juggle 20 balls at once",
+      "He was the tallest clown ever",
+      "He only performed on unicycles"
+    ],
+    "activity_answer": "He had a sad face and wore raggedy clothes",
+    "bonus_fact": "Emmett Kelly's Weary Willie character became one of the most famous clowns in American circus history.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  }
+]

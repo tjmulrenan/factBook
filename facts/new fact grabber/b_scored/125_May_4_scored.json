@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "original": "Star Wars Day",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "International Firefighters' Day",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "National Orange Juice Day",
+    "score": 65,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "National Candied Orange Peel Day",
+    "score": 65,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 5,
+    "original": "National Weather Observers Day",
+    "score": 60,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 6,
+    "original": "National Day of Reason",
+    "score": 45,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 7,
+    "original": "National Respect for Chickens Day",
+    "score": 65,
+    "is_kid_friendly": true
+  }
+]

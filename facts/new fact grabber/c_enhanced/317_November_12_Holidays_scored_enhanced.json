@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Pizza Perfection (Hold the Fish!)",
+    "story": "Pizza lovers across America celebrate National Pizza with the Works Except Anchovies Day every November 12! This quirky holiday honors the classic \"everything pizza\" loaded with pepperoni, sausage, mushrooms, peppers, onions, and olives - but absolutely no tiny fish allowed. Pizza shops often create special deals on loaded pies, while families gather to build their own masterpiece pizzas at home. The holiday playfully acknowledges that while most people love a pizza packed with toppings, anchovies remain the most controversial ingredient that divides pizza fans everywhere.",
+    "activity_question": "What ingredient is specifically left OFF the pizza on this holiday?",
+    "activity_choices": [
+      "Anchovies",
+      "Pepperoni",
+      "Mushrooms",
+      "Pineapple"
+    ],
+    "activity_answer": "Anchovies",
+    "bonus_fact": "Anchovies are actually tiny fish that some people think taste too salty on pizza!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 92
+  },
+  {
+    "id": "902",
+    "title": "Fancy Rats Get Their Day to Shine",
+    "story": "Pet rats and mice get the spotlight they deserve on November 12 during National Fancy Rat and Mouse Day! These aren't wild rodents - fancy rats and mice are specially bred pets that come in different colors and patterns. On this day, proud pet owners share photos of their furry friends on social media, showing off their pets' tricks and cute personalities. Some people visit pet stores to learn about these smart animals, while others organize playdates for their rats to socialize. Many owners give their pets special treats or new toys to celebrate. It's the perfect day to discover why these tiny creatures make such amazing companions!",
+    "activity_question": "What makes fancy rats and mice different from wild ones?",
+    "activity_choices": [
+      "They are specially bred pets with different colors and patterns",
+      "They are much larger than regular rats and mice",
+      "They can only eat fancy food",
+      "They wear tiny top hats and bow ties"
+    ],
+    "activity_answer": "They are specially bred pets with different colors and patterns",
+    "bonus_fact": "Pet rats can actually learn their names and come when called!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "903",
+    "title": "Dip Into Something Delicious",
+    "story": "Sandwich lovers unite every November 12 for National French Dip Day! This tasty holiday celebrates the famous roast beef sandwich that's served with a side of warm, savory au jus for dipping. Restaurants across America offer special deals on French dip sandwiches, and home cooks fire up their slow cookers to make tender roast beef. The best part? Dunking each bite into that flavorful broth!",
+    "activity_question": "What makes a French dip sandwich special?",
+    "activity_choices": [
+      "It's served with au jus for dipping",
+      "It's made with French bread only",
+      "It must be eaten in France",
+      "It's shaped like the Eiffel Tower"
+    ],
+    "activity_answer": "It's served with au jus for dipping",
+    "bonus_fact": "Two Los Angeles restaurants both claim they invented the French dip sandwich!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  }
+]

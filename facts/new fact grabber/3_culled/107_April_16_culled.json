@@ -1,0 +1,542 @@
+[
+  {
+    "id": 128,
+    "year": "2025",
+    "original": "A juvenile colossal squid (11.8 inches long) is filmed in its natural environment at 1,968 feet deep for the first time since its discovery in 1925 near the South Sandwich Islands in the South Atlantic Ocean",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 1
+  },
+  {
+    "id": 92,
+    "year": "1986",
+    "original": "West Indies complete 5-0 demolition of England",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 2
+  },
+  {
+    "id": 123,
+    "year": "2023",
+    "original": "Spanish extreme athlete Beatriz Flamini exits a deep cave in Granada, Spain, after spending  500 days isolated underground in probable world record, as part of social isolation experiment",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 3
+  },
+  {
+    "id": 144,
+    "year": "1922",
+    "original": "Annie Oakleysets women's record by breaking 100 clay targets in a row",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 4
+  },
+  {
+    "id": 162,
+    "year": "1987",
+    "original": "Michael Jordanbecomes the second NBA player in history to score 3,000 points in a season",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 5
+  },
+  {
+    "id": 90,
+    "year": "1982",
+    "original": "Queen Elizabeth proclaims Canada's new constitution",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 7
+  },
+  {
+    "id": 172,
+    "year": "2018",
+    "original": "Kendrick Lamaris the first rapper and non-classical or jazz musician to win the Pulitzer Prize for music with his album \"Damn\"",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 8
+  },
+  {
+    "id": 1,
+    "year": "1178 BC",
+    "original": "A solar eclipse may have marked the return of Odysseus, legendary King of Ithaca, to his kingdom after the Trojan War",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 9
+  },
+  {
+    "id": 79,
+    "year": "1972",
+    "original": "Apollo 16 launched; 5th manned lunar landing (Decartes Highlands)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 10
+  },
+  {
+    "id": 99,
+    "year": "1989",
+    "original": "Zeleka Metaferia wins 3rd World Cup marathon (2:10:28)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 11
+  },
+  {
+    "id": 103,
+    "year": "1991",
+    "original": "St Louis Blues becomes 8th NHL team in Play-off to come back from a 3-1 deficit as they beat the Detroit Red Wings 3-2 in game 7",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 12
+  },
+  {
+    "id": 127,
+    "year": "2024",
+    "original": "Volcano Mount Ruang erupts in Indonesia in North Sulawesi province, its first eruption since 2002",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 13
+  },
+  {
+    "id": 129,
+    "year": "2025",
+    "original": "Chinese chess grandmaster Ju Wenjun wins her 5th consecutive Women's World Chess Championship with a score of 6.5–2.5, becoming the first Chinese player to win the championship five times",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 14
+  },
+  {
+    "id": 134,
+    "year": "1705",
+    "original": "Queen Anneof England knights scientistIsaac Newtonat Trinity College, Cambridge",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 15
+  },
+  {
+    "id": 142,
+    "year": "1912",
+    "original": "Harriet Quimbybecomes the 1st female pilot to fly across English Channel",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 16
+  },
+  {
+    "id": 148,
+    "year": "1940",
+    "original": "Cleveland Indians pitcherBob Fellerhurls the first and only Opening Day no-hitter in MLB history; beats Chicago WSWhite Sox, 1-0 at Comiskey Park",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 17
+  },
+  {
+    "id": 159,
+    "year": "1984",
+    "original": "Oakland A'sDave Kingmanhits 3 HRs including a grand slam",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 18
+  },
+  {
+    "id": 246,
+    "year": "1907",
+    "original": "Joseph-Armand Bombardier, French Canadian businessman and inventor of the Bombardier snowmobile, born in Valcourt, Canada (d. 1964)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 19
+  },
+  {
+    "id": 76,
+    "year": "1965",
+    "original": "Test flight of heavy Saturn S-1C-rocket",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 21
+  },
+  {
+    "id": 82,
+    "year": "1972",
+    "original": "Two giant pandas arrive in US from China",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 22
+  },
+  {
+    "id": 278,
+    "year": "1923",
+    "original": "Stewart Adams, English pharmacologist (developed Ibuprofen), born in Byfield, England (d. 2019)[1]",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 23
+  },
+  {
+    "id": 59,
+    "year": "1949",
+    "original": "Stanley Cup Final, Maple Leaf Gardens, Toronto, ON: 3-peat for Toronto Maple Leafs as they beat Detroit Red Wings, 3-1 for a 4 game series sweep",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 24
+  },
+  {
+    "id": 191,
+    "year": "1728",
+    "original": "Joseph Black, Scottish chemist and physicist known for his discoveries of magnesium, latent heat and carbon dioxide, born in Bordeaux, France (d. 1799)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 26
+  },
+  {
+    "id": 346,
+    "year": "1952",
+    "original": "Billy West, American voice actor (Ren and Stimpy; Futurama), born in Detroit, Michigan",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 27
+  },
+  {
+    "id": 361,
+    "year": "1959",
+    "original": "Michael Barratt, American physician and NASA astronaut (Expedition 19/20, STS-133, SpaceX Crew-8 mission), born in Vancouver, Washington[1]",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 28
+  },
+  {
+    "id": 28,
+    "year": "1908",
+    "original": "Natural Bridges National Monument forms (Lake Powell, Utah)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 29
+  },
+  {
+    "id": 62,
+    "year": "1953",
+    "original": "Stanley Cup Final, Montreal Forum, Montreal, Quebec: Montreal Canadiens beat Boston Bruins, 1-0 for a 4-1 series win",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 31
+  },
+  {
+    "id": 66,
+    "year": "1956",
+    "original": "1st solar powered radios go on sale",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 32
+  },
+  {
+    "id": 97,
+    "year": "1989",
+    "original": "Berendrechtsluis opens in Antwerp, biggest flood lock in world",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 33
+  },
+  {
+    "id": 98,
+    "year": "1989",
+    "original": "Costa Rica beats US 1-0, in 3rd round of 1990 world soccer cup",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 34
+  },
+  {
+    "id": 112,
+    "year": "2004",
+    "original": "The super liner Queen Mary 2 embarks on her first Transatlantic crossing, linking the golden age of ocean travel to the modern age of ocean travel.",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 35
+  },
+  {
+    "id": 143,
+    "year": "1917",
+    "original": "Leninarrives back from exile in Russia at Finland Station, Petrograd to join the Russian Revolution [OS Apr 3]",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 36
+  },
+  {
+    "id": 145,
+    "year": "1932",
+    "original": "Short film \"The Music Box\" is released in the US, starringStan LaurelandOliver Hardy(1932 Academy Award for Best Live Action Short Film)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 37
+  },
+  {
+    "id": 155,
+    "year": "1977",
+    "original": "Alex Haleyfinds his Roots in Juffure, Gambia",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 38
+  },
+  {
+    "id": 176,
+    "year": "1457 BC",
+    "original": "Battle of Megiddo: Egyptian forces of Thutmose III defeat a large Canaanite coalition under the King of Kadesh. First battle recorded with a reliable account.",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 39
+  },
+  {
+    "id": 214,
+    "year": "1861",
+    "original": "Isaac Murphy, American jockey (won 628 races), born in Clark County, Kentucky (d. 1896)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 40
+  },
+  {
+    "id": 257,
+    "year": "1912",
+    "original": "Garth Williams, American illustrator (Charlotte's Web), born in New York City (d. 1996)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 41
+  },
+  {
+    "id": 350,
+    "year": "1953",
+    "original": "Peter Garrett, Australian environmentalist, activist, former politician (Labour Party), and musician (Midnight Oil), born in Wahroonga, Sydney",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 42
+  },
+  {
+    "id": 23,
+    "year": "1869",
+    "original": "Ebenezer Bassett, 1st African American diplomat, begins service as Minister to Haiti",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 45
+  },
+  {
+    "id": 53,
+    "year": "1946",
+    "original": "1st US launch of captured V-2 rocket, White Sands, New Mexicao; reaches altitude of 8 km",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 46
+  },
+  {
+    "id": 5,
+    "year": "1245",
+    "original": "Franciscan envoys Giovanni da Pian del Carpine and Benedict to Pole depart Lyon on first Catholic mission to the Mongols. Carpine returns 1247 as first European with account of a Mongolian court",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 47
+  },
+  {
+    "id": 51,
+    "year": "1945",
+    "original": "World War II: Dutch town of Arnhem, site of failed Operation Market Garden, is freed by British and Canadian forces",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 49
+  },
+  {
+    "id": 70,
+    "year": "1959",
+    "original": "Datu Abdul Rozak inaugurated as premier of Malaysia federation",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 50
+  },
+  {
+    "id": 111,
+    "year": "2003",
+    "original": "Washington Wizards'Michael Jordanplays his final NBA game, in Philadelphia, where he receives a 3 minute standing ovation.",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 52
+  },
+  {
+    "id": 126,
+    "year": "2024",
+    "original": "United Arab Emirates records its largest rainfall in 75 years, flooding Dubai airport and killing at least 18 people in Oman",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 53
+  },
+  {
+    "id": 180,
+    "year": "1495",
+    "original": "Petrus Apianus [Peter Apian], German mathematician, astronomer and cartographer of \"Astronomicum Caesareum\", born in Leisnig, Saxony (d. 1552)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 54
+  },
+  {
+    "id": 194,
+    "year": "1786",
+    "original": "John Franklin, English rear admiral and explorer, who led and perished in expedition to find a Northwest Passage, born in Spilsby, Lincolnshire, England (d. 1847)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 55
+  },
+  {
+    "id": 258,
+    "year": "1912",
+    "original": "John Halas, Hungarian-American cartoonist and animator (Animal Farm), born in Budapest, Hungary (d. 1995)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 56
+  },
+  {
+    "id": 308,
+    "year": "1939",
+    "original": "Dusty Springfield [Mary O'Brien], British pop vocalist (\"I Only Want To Be With You\"; \"Son Of A Preacher Man\"), born in West Hampstead, London (d. 1999)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 58
+  },
+  {
+    "id": 332,
+    "year": "1947",
+    "original": "Gerry Rafferty, Scottish guitarist and vocalist (Stealers Wheel - \"Stuck In The Middle With You\"; solo -\"Baker Street\"), born in Paisley, Renfrewshire, Scotland (d. 2011)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 59
+  },
+  {
+    "id": 333,
+    "year": "1947",
+    "original": "Johnny Grier, American football official (1981-2004; first African-American referee in NFL history 1988), born in Charlotte, North Carolina (d. 2022)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 60
+  },
+  {
+    "id": 2,
+    "year": "73",
+    "original": "Masada, a Jewish fortress, falls to the Romans after several months of siege, ending the Jewish Revolt",
+    "score": 67,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 61
+  },
+  {
+    "id": 14,
+    "year": "1853",
+    "original": "First passenger railway opens in India from Bori Bunder (Bombay) to Thane (34 km)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 62
+  },
+  {
+    "id": 15,
+    "year": "1854",
+    "original": "San Salvador is destroyed by an earthquake",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 63
+  },
+  {
+    "id": 25,
+    "year": "1881",
+    "original": "In Dodge City, Kansas, Bat Masterson fights his last gun battle",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 64
+  },
+  {
+    "id": 50,
+    "year": "1945",
+    "original": "World War II: American troops liberate Colditz Castle, the high-security prisoner of war camp in Saxony, Germany",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 65
+  },
+  {
+    "id": 52,
+    "year": "1945",
+    "original": "World War II: German troops in Groningen, Netherlands surrender to Canadian and Dutch allied forces",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 66
+  },
+  {
+    "id": 57,
+    "year": "1947",
+    "original": "Lens to provide zoom effects demonstrated (NYC)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 67
+  },
+  {
+    "id": 122,
+    "year": "2020",
+    "original": "New study claims a multi-decade megadrought is already under way in the western US, published in journal \"Science\"",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 72
+  },
+  {
+    "id": 132,
+    "year": "1521",
+    "original": "Martin Lutherarrives at the Diet of Worms assembly",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 73
+  }
+]

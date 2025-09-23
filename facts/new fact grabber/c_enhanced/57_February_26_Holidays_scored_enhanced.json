@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Go Nuts for National Pistachio Day!",
+    "story": "Crack! Pop! Crunch! February 26 is National Pistachio Day, when people celebrate these tiny green treasures hiding inside their shells. Pistachio lovers everywhere munch on handfuls of the salty nuts, bake them into cookies and ice cream, or sprinkle them on salads and desserts. Some families have pistachio-cracking contests to see who can open the most shells the fastest. Bakeries sell special pistachio treats, and ice cream shops feature pistachio flavors all day long. Fun fact: pistachios that are slightly open are called \"smiling\" nuts because they look like tiny grins!",
+    "activity_question": "What are pistachios that are slightly open called?",
+    "activity_choices": [
+      "Smiling nuts",
+      "Happy shells",
+      "Giggling greens",
+      "Laughing legumes"
+    ],
+    "activity_answer": "Smiling nuts",
+    "bonus_fact": "It takes a pistachio tree about 7-10 years to start producing nuts!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "902",
+    "title": "Once Upon a Time It's Fairy Tale Day!",
+    "story": "Dragons, princesses, and magic spells take center stage every February 26 during National Tell a Fairy Tale Day! This enchanting holiday encourages people everywhere to share their favorite fairy tales with friends and family. Parents read classic stories like Cinderella and Jack and the Beanstalk to their children, while teachers organize storytelling circles in classrooms. Libraries host special fairy tale events where kids can dress up as their favorite characters. Many families create their own magical stories together, inventing new adventures with talking animals and brave heroes. Social media fills with people sharing their beloved childhood fairy tales and discovering new ones from different cultures around the world.",
+    "activity_question": "What do libraries often host on National Tell a Fairy Tale Day?",
+    "activity_choices": [
+      "Special fairy tale events where kids can dress up",
+      "Dragon flying lessons",
+      "Magic spell workshops",
+      "Princess crown making classes"
+    ],
+    "activity_answer": "Special fairy tale events where kids can dress up",
+    "follow_up_question": "What new fairy tale would you create with your favorite magical creature?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "903",
+    "title": "Your Own Kitchen Superhero Day!",
+    "story": "Personal chefs cook amazing meals right in your own kitchen just for you and your family! On February 26, people celebrate National Personal Chef Day by thanking these culinary heroes who create custom menus, shop for ingredients, and prepare delicious dishes tailored to your tastes. Some families hire personal chefs for special occasions, while others enjoy their services regularly to make dinnertime stress-free and extra tasty!",
+    "activity_question": "What do personal chefs do that makes them special?",
+    "activity_choices": [
+      "They cook meals customized just for your family",
+      "They only cook at fancy restaurants",
+      "They teach cooking classes at schools",
+      "They deliver pre-made frozen dinners"
+    ],
+    "activity_answer": "They cook meals customized just for your family",
+    "follow_up_question": "What would you ask a personal chef to cook for your dream meal?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "904",
+    "title": "For Pete's Sake, It's a Holiday!",
+    "story": "People throw their hands up and shout \"For Pete's Sake!\" extra loud on February 26 for National For Pete's Sake Day. This silly holiday celebrates one of the most popular expressions people use when they're frustrated, surprised, or just need to let off steam. Families compete to see who can say it in the funniest voice, while friends text each other the phrase all day long. Some people even make up crazy stories about who \"Pete\" might be and why we're doing things for his sake!",
+    "activity_question": "What do people do with the phrase \"For Pete's Sake\" on this holiday?",
+    "activity_choices": [
+      "Shout it extra loud and use funny voices",
+      "Write it backwards on their homework",
+      "Only whisper it to their pets",
+      "Translate it into different languages"
+    ],
+    "activity_answer": "Shout it extra loud and use funny voices",
+    "follow_up_question": "What other funny expressions do you and your family use when you're surprised?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  }
+]

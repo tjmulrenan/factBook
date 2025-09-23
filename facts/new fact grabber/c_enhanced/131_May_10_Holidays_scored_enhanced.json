@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Clean Up Your Room Day Chaos",
+    "story": "Parents everywhere celebrate National Clean Up Your Room Day on May 10 by reminding kids to tackle their messy bedrooms! This holiday encourages families to sort through clothes, organize toys, and find those missing socks under the bed. Many kids turn cleaning into a game by racing against the clock or playing upbeat music while they work.",
+    "activity_question": "What do many kids do to make cleaning their room more fun on this holiday?",
+    "activity_choices": [
+      "Turn it into a game with music or racing",
+      "Hide under their blankets instead",
+      "Ask their pets to help organize",
+      "Only clean one corner of the room"
+    ],
+    "activity_answer": "Turn it into a game with music or racing",
+    "follow_up_question": "What creative ways could you organize your room to keep it clean longer?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 50
+  },
+  {
+    "id": "902",
+    "title": "The Golden Spike That Connected America",
+    "story": "On May 10, people celebrate National Golden Spike Day to remember when the first railroad connected America from coast to coast! This special day honors the moment when workers hammered in a golden spike to complete the transcontinental railroad. Today, train fans visit museums, share railroad photos online, and some communities hold spike-driving contests to celebrate this amazing achievement that changed travel forever.",
+    "activity_question": "What do some communities hold to celebrate National Golden Spike Day?",
+    "activity_choices": [
+      "Spike-driving contests",
+      "Golden treasure hunts",
+      "Train racing competitions",
+      "Railroad building workshops"
+    ],
+    "activity_answer": "Spike-driving contests",
+    "bonus_fact": "The original golden spike was made of real gold and weighed about 14 ounces!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 50
+  },
+  {
+    "id": "903",
+    "title": "Spinning Into National Windmill Day",
+    "story": "Giant spinning blades catch the wind and turn it into power on National Windmill Day every May 10! People visit wind farms to see these towering white giants up close, learning how they create clean electricity without pollution. Some families take photos with old-fashioned wooden windmills at museums or parks. Kids often make pinwheel crafts that spin in the breeze, just like mini windmills. It's a perfect day to appreciate how wind energy helps our planet stay healthy and green.",
+    "activity_question": "What do people often make on National Windmill Day that spins like mini windmills?",
+    "activity_choices": [
+      "Pinwheel crafts",
+      "Paper airplanes",
+      "Spinning tops",
+      "Flying kites"
+    ],
+    "activity_answer": "Pinwheel crafts",
+    "follow_up_question": "What other ways could we use wind power in our daily lives?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 67
+  }
+]

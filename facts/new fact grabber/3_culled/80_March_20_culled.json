@@ -1,0 +1,542 @@
+[
+  {
+    "id": 120,
+    "year": "1999",
+    "original": "Legoland California, the first Legoland outside Europe, opens in Carlsbad, California",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 1
+  },
+  {
+    "id": 130,
+    "year": "2019",
+    "original": "A woman who can smell Parkinson's disease has helped researchers identify molecules on the skin of people with the disease in Manchester, England",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 2
+  },
+  {
+    "id": 297,
+    "year": "1925",
+    "original": "David Warren, Australian scientist and inventor (Flight Data Recorder; Cockpit Voice Recorder - \"the black box\"), born in Groote Eylandt, Australia (d. 2010)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 3
+  },
+  {
+    "id": 152,
+    "year": "1800",
+    "original": "Alessandro Voltareports his discovery of the electric battery in a letter toJoseph Banks, president of the Royal Society of London",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 4
+  },
+  {
+    "id": 96,
+    "year": "1985",
+    "original": "Libby Riddles is 1st woman to win Iditarod Trail Dog Sled Race",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 5
+  },
+  {
+    "id": 160,
+    "year": "1930",
+    "original": "American fast food restaurant chain Kentucky Fried Chicken (KFC) is founded as Sanders Court & Café byColonel Harland Sandersin North Corbin, Kentucky",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 6
+  },
+  {
+    "id": 359,
+    "year": "1954",
+    "original": "Louis Sachar, American Newberry Medal winning young-adult author (Holes; Wayside School; Marvin Redpost series), born in \r\nEast Meadow, New York",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 7
+  },
+  {
+    "id": 161,
+    "year": "1934",
+    "original": "American all-round female super athleteBabe Didrikson Zahariaspitches a hitless inning for Philadelphia A's in their exhibition pre-season baseball game against Brooklyn Dodgers",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 8
+  },
+  {
+    "id": 127,
+    "year": "2013",
+    "original": "First Breakthrough Prizes, world's most generous science prize worth $3 million, awarded in Mathematics, Life Sciences and Physics established by Julia and Yuri Milner",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 9
+  },
+  {
+    "id": 199,
+    "year": "1942",
+    "original": "GeneralDouglas MacArthurvows \"I came through and I shall return\" after escaping Japanese-occupied Philippines",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 10
+  },
+  {
+    "id": 150,
+    "year": "1648",
+    "original": "KingCharles Iof England first tries to escape captivity at Carisbrooke Castle on the Isle of Wight by climbing out of a window but gets stuck",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 11
+  },
+  {
+    "id": 53,
+    "year": "1944",
+    "original": "2,500 women trample guards and floorwalkers to purchase 1,500 alarm clocks announced for sale in a Chicago Illinois department store",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 12
+  },
+  {
+    "id": 198,
+    "year": "1852",
+    "original": "Harriet Beecher Stowe's anti-slavery novel \"Uncle Tom's Cabin\" is published in Boston",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 13
+  },
+  {
+    "id": 142,
+    "year": "2023",
+    "original": "UN's Intergovernmental Panel on Climate Change says world has less than a decade to stop catastrophic warming: must reduce greenhouse gases by half by 2030, and cease adding carbon dioxide to the atmosphere by early 2050s",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 14
+  },
+  {
+    "id": 44,
+    "year": "1932",
+    "original": "Legendary Australian race horse Phar Lap's last race, winning the Agua Caliente Handicap in Mexico in record time",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 15
+  },
+  {
+    "id": 170,
+    "year": "1973",
+    "original": "Pittsburgh Pirates right fielderRoberto Clementeis elected to Baseball's Hall of Fame 11 weeks after his death in a plane crash",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 16
+  },
+  {
+    "id": 276,
+    "year": "1915",
+    "original": "Sister Rosetta Tharpe [Nubin], American gospel and R&B singer, songwriter, and electric guitarist (\"This Train\"; \"Down By The Riverside\"), born in Cotton Plant, Arkansas, (d. 1973)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 17
+  },
+  {
+    "id": 346,
+    "year": "1948",
+    "original": "John de Lancie, American actor (Star Trek Next Generation - \"Q\"; Days of Our Lives), born in Philadelphia, Pennsylvania",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 18
+  },
+  {
+    "id": 417,
+    "year": "2000",
+    "original": "Hyunjin [Hwang Hyun-jin], South Korean dancer and K-pop rapper (Stray Kids - \"Grow Up\"), born in Seoul, South Korea",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 19
+  },
+  {
+    "id": 418,
+    "year": "2004",
+    "original": "Yunchan Lim, South Korean pianist (youngest winner, at 18, Van Cliburn International Piano Competition), born in Siheung, South Korea",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 20
+  },
+  {
+    "id": 182,
+    "year": "1993",
+    "original": "Dan Jansenskates world record 500m (36.02 sec)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 21
+  },
+  {
+    "id": 129,
+    "year": "2017",
+    "original": "Indian rivers Yamuna and Ganges are declared \"living entities\" by a court in the state of Uttarakhand",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 24
+  },
+  {
+    "id": 135,
+    "year": "2020",
+    "original": "Smoke from Australian bushfires killed more people than the fires - 417 vs 33 according to new study published in \"Medical Journal of Australia\"",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 25
+  },
+  {
+    "id": 140,
+    "year": "2023",
+    "original": "Somalian drought may have killed 43,000 people in 2022, half of them children under five, according to new research presented by UNICEF in Mogadishu",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 26
+  },
+  {
+    "id": 193,
+    "year": "2024",
+    "original": "New rule limiting tailpipe pollution aimed at greatly expanding electric vehicles in the US is announced by PresidentJoe Biden",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 27
+  },
+  {
+    "id": 202,
+    "year": "2016",
+    "original": "Barack Obamabecomes the first US President to visit Cuba since 1928, arriving for a three-day tour with First Lady Michelle",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 28
+  },
+  {
+    "id": 190,
+    "year": "2020",
+    "original": "After 20 years with the New England Patriots, six-time Super Bowl winning quarterbackTom Bradyofficially agrees to move to the Tampa Bay Buccaneers on a 2-year $50m guaranteed deal",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 29
+  },
+  {
+    "id": 414,
+    "year": "1993",
+    "original": "Sloane Stephens, American tennis player (US Open 2017), born in Plantation, Florida",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 30
+  },
+  {
+    "id": 415,
+    "year": "1996",
+    "original": "Charley Hull, British golfer (ANA Inspiration 2016, US Open 2023, British Open 2023, 25 runner-up), born in Kettering, England",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 31
+  },
+  {
+    "id": 416,
+    "year": "1998",
+    "original": "Allisen Corpuz, American golfer (US Open 2023), born in Honolulu, Hawaii",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 32
+  },
+  {
+    "id": 405,
+    "year": "1984",
+    "original": "Christy Carlson Romano, American actress (Even Stevens; Kim Possible), born in Milford, Connecticut",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 33
+  },
+  {
+    "id": 397,
+    "year": "1976",
+    "original": "Chester Bennington, American singer and songwriter (Linkin Park), born in Phoenix, Arizona (d. 2017)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 34
+  },
+  {
+    "id": 91,
+    "year": "1982",
+    "original": "Joan Jett & Blackhearts' \"I Love Rock 'n' Roll\" goes #1 for 7 weeks",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 35
+  },
+  {
+    "id": 1,
+    "year": "141",
+    "original": "6th recorded perihelion passage of Halley's Comet",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 36
+  },
+  {
+    "id": 21,
+    "year": "1883",
+    "original": "Jan Matzeliger receives his 1st patent (number 274,207) for shoe lasting machine which mechanized shoe production",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 37
+  },
+  {
+    "id": 34,
+    "year": "1920",
+    "original": "1st flight from London to South Africa lands (took 1½ months)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 38
+  },
+  {
+    "id": 36,
+    "year": "1922",
+    "original": "USS Langley is commissioned, US Navy's 1st aircraft carrier",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 39
+  },
+  {
+    "id": 97,
+    "year": "1986",
+    "original": "228 km/h gust of wind strikes Cairngorm (UK record)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 40
+  },
+  {
+    "id": 63,
+    "year": "1956",
+    "original": "Mount Bezymianny on Kamchatka Peninsula (USSR) erupts",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 41
+  },
+  {
+    "id": 68,
+    "year": "1958",
+    "original": "50 inches of snow falls across the Mason–Dixon line",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 42
+  },
+  {
+    "id": 124,
+    "year": "2006",
+    "original": "Cyclone Larry makes landfall in eastern Australia, destroying most of the country's banana crop",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 43
+  },
+  {
+    "id": 138,
+    "year": "2021",
+    "original": "Severe one-in-a-hundred-year flooding in Sydney and the surrounding state of New South Wales prompts evacuation orders",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 44
+  },
+  {
+    "id": 195,
+    "year": "1345",
+    "original": "Conjunction of Mars, Jupiter and Saturn, thought by scholars at the University of Paris to be the \"cause of the plague epidemic\" known as the Black Death. Actual cause was the bacterium yersinia pestis spread by fleas, rats and other animals.",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 45
+  },
+  {
+    "id": 153,
+    "year": "1815",
+    "original": "Napoleon Bonaparteenters Paris after his escape from Elba and begins his 100-day rule",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 46
+  },
+  {
+    "id": 174,
+    "year": "1983",
+    "original": "In a clash of tennis legends,Martina NavratilovaoutclassesChris EvertLloyd 6-2, 6-0 to win her first of 5 straight WTA Tour Championships at Madison Square Garden, NYC",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 47
+  },
+  {
+    "id": 176,
+    "year": "1988",
+    "original": "Defending championMike Tysonbeats Tony Tubbs by TKO in round 2 at the Tokyo Dome, Tokyo for the undisputed world heavyweight boxing title",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 48
+  },
+  {
+    "id": 178,
+    "year": "1990",
+    "original": "LA Lakers retiresKareem Abdul-Jabbar's #33",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 49
+  },
+  {
+    "id": 77,
+    "year": "1971",
+    "original": "Boston Bruins win 13th straight NHL game",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 53
+  },
+  {
+    "id": 131,
+    "year": "2019",
+    "original": "Finland is the world's happiest country, South Sudan is world's least happy, according to annual World Happiness Report",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 54
+  },
+  {
+    "id": 133,
+    "year": "2019",
+    "original": "Nebraska Governor Pete Ricketts calls the state's flooding \"the most widespread destruction we have ever seen in our state's history\"",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 55
+  },
+  {
+    "id": 123,
+    "year": "2005",
+    "original": "Magnitude 6.6 earthquake hits Fukuoka, Japan, in its first major quake in over 100 years. One person is killed, and hundreds are injured and evacuated",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 56
+  },
+  {
+    "id": 41,
+    "year": "1930",
+    "original": "American engine builder Clessie Cummins sets diesel engine speed record of 80.4 mph (129.39 kph)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 57
+  },
+  {
+    "id": 16,
+    "year": "1854",
+    "original": "Boston Public Library opens in Boston, Massachusetts as the first large free municipal library in the US",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 58
+  },
+  {
+    "id": 12,
+    "year": "1813",
+    "original": "Lady Hester Stanhope sets out for ancient city of Palmyra, the first western woman to visit",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 59
+  },
+  {
+    "id": 72,
+    "year": "1963",
+    "original": "1st \"Pop Art\" exhibition (NYC)",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 60
+  },
+  {
+    "id": 82,
+    "year": "1974",
+    "original": "\"The Super Cops\" directed by Gordon Parks premieres in NYC, New York",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 61
+  },
+  {
+    "id": 73,
+    "year": "1964",
+    "original": "European Space Research Organization (ESRO) is established",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 62
+  },
+  {
+    "id": 101,
+    "year": "1987",
+    "original": "NASA launches Palapa B2P",
+    "score": 68,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 63
+  },
+  {
+    "id": 166,
+    "year": "1965",
+    "original": "Civil and Women's Rights ActivistDorothy Heighthas her first column published in the weekly African-American newspaper called the \"New York Amsterdam News\"",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 64
+  },
+  {
+    "id": 184,
+    "year": "2000",
+    "original": "PopeJohn Paul IIvisits Holy Land - Jordan, Israel, Palestine",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 65
+  }
+]

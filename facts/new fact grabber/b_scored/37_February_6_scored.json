@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "original": "National Frozen Yogurt Day",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "Lame Duck Day",
+    "score": 32,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 3,
+    "original": "Ronald Reagan Day",
+    "score": 32,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 4,
+    "original": "Pay-a-Compliment Day",
+    "score": 78,
+    "is_kid_friendly": true
+  }
+]

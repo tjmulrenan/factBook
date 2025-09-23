@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "When Walls Come Tumbling Down",
+    "story": "Every November 9, people around the world remember one of history's most exciting moments - the fall of the Berlin Wall! In 1989, thousands of Germans grabbed hammers, pickaxes, and anything they could find to tear down the concrete wall that had divided their city for 28 years. Today, people celebrate this special day by sharing stories of freedom and unity. Many visit Berlin to see the colorful murals painted on remaining pieces of the wall, while others hold festivals celebrating how barriers between people can be broken down through hope and determination.",
+    "activity_question": "What did people use to tear down the Berlin Wall?",
+    "activity_choices": [
+      "Hammers and pickaxes",
+      "Giant robots",
+      "Magic spells",
+      "Bulldozers only"
+    ],
+    "activity_answer": "Hammers and pickaxes",
+    "bonus_fact": "Pieces of the Berlin Wall are now displayed in museums worldwide as symbols of freedom.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "902",
+    "title": "Cosmic Celebration for a Space Science Star",
+    "story": "Every November 9, science lovers celebrate National Carl Sagan Day to honor one of the most famous astronomers who ever lived! Carl Sagan made space science exciting for everyone by explaining the universe in ways that were easy to understand. He wrote books, hosted TV shows, and helped people fall in love with astronomy. Today, schools organize stargazing events, science museums host special exhibits, and families watch documentaries about planets and stars. Many people share their favorite space facts on social media or visit planetariums to learn about the cosmos, just like Sagan would have wanted!",
+    "activity_question": "How do people typically celebrate National Carl Sagan Day?",
+    "activity_choices": [
+      "By organizing stargazing events and visiting planetariums",
+      "By baking star-shaped cookies",
+      "By wearing astronaut costumes all day",
+      "By building rocket ships in their backyards"
+    ],
+    "activity_answer": "By organizing stargazing events and visiting planetariums",
+    "follow_up_question": "What's one thing about space that you'd love to learn more about?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  }
+]

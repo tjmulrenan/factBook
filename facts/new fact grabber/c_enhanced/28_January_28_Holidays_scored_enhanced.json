@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Stack Attack: National Blueberry Pancake Day",
+    "story": "Fluffy pancakes loaded with juicy blueberries take center stage every January 28 during National Blueberry Pancake Day! Families across America fire up their griddles and whip up towering stacks of these purple-spotted breakfast treats. Restaurants offer special blueberry pancake deals, while home cooks experiment with wild recipes like blueberry pancake muffins and even blueberry pancake ice cream. Social media fills with drool-worthy photos of syrup cascading down berry-packed stacks. Some people host pancake parties where everyone brings different toppings like whipped cream, chocolate chips, or extra berries. It's the perfect excuse to eat dessert for breakfast!",
+    "activity_question": "What do people often post on social media during National Blueberry Pancake Day?",
+    "activity_choices": [
+      "Photos of their pancake stacks",
+      "Pictures of their pets",
+      "Videos of dancing blueberries",
+      "Recipes for pizza"
+    ],
+    "activity_answer": "Photos of their pancake stacks",
+    "bonus_fact": "Maine produces about 90% of America's wild blueberries!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "902",
+    "title": "Kazoo Crazy: The Buzziest Day Ever!",
+    "story": "Every January 28, people across America grab their kazoos and make the most wonderfully weird buzzing sounds you've ever heard! National Kazoo Day celebrates this silly little instrument that anyone can play by just humming into it. Kids bring kazoos to school, families have kazoo concerts in their living rooms, and some towns even hold kazoo parades. You don't need music lessons or fancy skills - just hum your favorite song and the kazoo does the rest, creating that distinctive buzzing noise that makes everyone smile and laugh.",
+    "activity_question": "What do you need to do to play a kazoo?",
+    "activity_choices": [
+      "Blow air through it like a flute",
+      "Hum into it",
+      "Shake it like a maraca",
+      "Pluck strings like a guitar"
+    ],
+    "activity_answer": "Hum into it",
+    "follow_up_question": "What song would sound funniest played on a kazoo?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "903",
+    "title": "Building Blocks of Fun: National Lego Day",
+    "story": "Millions of colorful plastic bricks take center stage every January 28 when National Lego Day celebrates the world's most famous building toy! Kids and adults everywhere dig out their Lego collections to create amazing castles, spaceships, cities, and wild inventions. Some people host building contests with friends, while others share photos of their coolest creations online. Libraries and toy stores often organize special Lego building events where families can work together on giant projects. The best part? There are no rules on National Lego Day - you can build anything your imagination dreams up, from tiny robots to enormous dragons that take up the whole living room!",
+    "activity_question": "What do people often share online during National Lego Day?",
+    "activity_choices": [
+      "Photos of their Lego creations",
+      "Recipes for plastic bricks",
+      "Videos of themselves sleeping",
+      "Pictures of their homework"
+    ],
+    "activity_answer": "Photos of their Lego creations",
+    "follow_up_question": "What's the most creative thing you could build if you had unlimited Lego bricks?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 95
+  },
+  {
+    "id": "904",
+    "title": "Pop Goes the Bubble Wrap Day!",
+    "story": "Pop, pop, POP! Every January 28, people around the world celebrate Bubble Wrap Appreciation Day by doing what we all secretly love – popping those satisfying little air bubbles! Offices hold bubble wrap popping contests to see who can pop the most bubbles in one minute. Schools use it for art projects and stress relief activities. Some people even wear bubble wrap as pretend armor or use it to wrap themselves up like human packages. Social media fills with videos of people creating bubble wrap symphonies by popping bubbles to music. It's the one day when making that addictive popping sound is not just okay – it's encouraged!",
+    "activity_question": "What do offices sometimes hold on Bubble Wrap Appreciation Day?",
+    "activity_choices": [
+      "Bubble wrap popping contests",
+      "Bubble wrap fashion shows",
+      "Bubble wrap cooking classes",
+      "Bubble wrap building competitions"
+    ],
+    "activity_answer": "Bubble wrap popping contests",
+    "follow_up_question": "What creative ways could you use bubble wrap besides just popping it?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 92
+  }
+]

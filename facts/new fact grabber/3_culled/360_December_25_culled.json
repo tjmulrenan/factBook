@@ -1,0 +1,542 @@
+[
+  {
+    "id": 124,
+    "year": "2021",
+    "original": "NASA's James Webb Space Telescope launched in joint effort with ESA (European Space Agency) and the Canadian Space Agency on an Ariane 5 rocket from Europe’s Spaceport in French Guiana, South America",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 1
+  },
+  {
+    "id": 109,
+    "year": "1989",
+    "original": "Japanese scientist achieve -271.8°C, coldest temperature ever recorded",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 2
+  },
+  {
+    "id": 116,
+    "year": "2004",
+    "original": "Cassini orbiter releases Huygens probe which successfully landed on Saturn's moon Titan on January 14, 2005.",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 3
+  },
+  {
+    "id": 51,
+    "year": "1914",
+    "original": "Legendary \"Christmas Truce\" takes place on the battlefields of WWI between British and German troops. Instead of fighting, soldiers exchange gifts and play football",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 4
+  },
+  {
+    "id": 141,
+    "year": "1776",
+    "original": "American Revolutionary War:George Washingtoncrosses the Delaware River into New Jersey, surprises and defeats 1,400 Hessians",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 5
+  },
+  {
+    "id": 312,
+    "year": "1929",
+    "original": "Ed Smylie [Robert Smylie], American NASA engineer who led the team that saved the Apollo 13 mission, born in Lincoln County, Mississippi (d. 2025)[1]",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 6
+  },
+  {
+    "id": 125,
+    "year": "2022",
+    "original": "Rare polar rain aurora, stretching for 3,000 km, is visible across the North Pole, caused by charged particles flowing from the Sun",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 7
+  },
+  {
+    "id": 96,
+    "year": "1973",
+    "original": "1st pictures of a comet from space (Comet Kohoutek), taken by NASA astronauts Jerry Carr and William Pogue during a spacewalk from Skylab 4",
+    "score": 96,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 8
+  },
+  {
+    "id": 178,
+    "year": "1492",
+    "original": "Christopher Columbus' flagship the Santa María runs aground and sinks on the north coast of Hispaniola. The crew are left to found a colony as Columbus returns to Spain",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 9
+  },
+  {
+    "id": 100,
+    "year": "1974",
+    "original": "Cyclone Tracy virtually destroys Darwin, Australia",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 10
+  },
+  {
+    "id": 98,
+    "year": "1973",
+    "original": "The ARPANET crashes when a programming bug causes all ARPANET traffic to be routed through the server at Harvard University, causing the server to freeze",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 11
+  },
+  {
+    "id": 136,
+    "year": "1656",
+    "original": "Dutch astronomer and mathematicianChristiaan Huygenscreates the first pendulum clock",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 12
+  },
+  {
+    "id": 89,
+    "year": "1963",
+    "original": "Walt Disney's \"The Sword in the Stone\" is released",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 13
+  },
+  {
+    "id": 301,
+    "year": "1924",
+    "original": "Rod Serling, American screenwriter and TV host (The Twilight Zone; Night Gallery), born in Syracuse, New York (d. 1975)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 14
+  },
+  {
+    "id": 247,
+    "year": "1890",
+    "original": "Robert Ripley, collector of odd facts (Believe it or Not), born in Santa Rosa, California (d. 1949)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 15
+  },
+  {
+    "id": 139,
+    "year": "1741",
+    "original": "AstronomerAnders Celsiusintroduces Centigrade temperature scale",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 16
+  },
+  {
+    "id": 162,
+    "year": "1968",
+    "original": "NASA Apollo 8 crew broadcast while orbiting the moon amd read passages from the Bible to celebrate Christmas",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 17
+  },
+  {
+    "id": 31,
+    "year": "1758",
+    "original": "Return of Halley's comet 1st sighted by Johann Georg Palitzsch",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 18
+  },
+  {
+    "id": 158,
+    "year": "1962",
+    "original": "\"To Kill a Mockingbird\", a film adaptation of the novel byHarper Lee, directed by Robert Mulligan and starringGregory Peck, is released (Gregory Peck - Best Actor Academy Awards 1963)",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 19
+  },
+  {
+    "id": 99,
+    "year": "1973",
+    "original": "Tommy Chambers (Scotland) finishes 51 yr cycle tour (799,405 miles)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 20
+  },
+  {
+    "id": 176,
+    "year": "2024",
+    "original": "Baltimore RavensLamar Jacksonbreaks NFL career rushing record for quarterbacks in 31-2 win over the Texans in Houston; he runs for 87 yards, pushing his career rushing total to 6,110",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 21
+  },
+  {
+    "id": 123,
+    "year": "2020",
+    "original": "New Orleans running back Alvin Kamara equals Ernie Nevers 1929 NFL record of 6 touchdowns in a match in the Saints' 52-33 win over the Minnesota Vikings at the Mercedes-Benz Superdome",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 22
+  },
+  {
+    "id": 94,
+    "year": "1971",
+    "original": "Longest game in NFL history as Miami Dolphins beat KC Chiefs, 27-24 in 2OT in AFL playoff game; duration: 82 minutes and 40 seconds",
+    "score": 94,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 23
+  },
+  {
+    "id": 154,
+    "year": "1956",
+    "original": "Detroit's future Hockey Hall of Fame right wingGordie Howepicks up a Xmas hat-trick & 3 assists in Red Wings' 8-1 win over NY Rangers; most points he scores in a single game in entire 26-year NHL career",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 24
+  },
+  {
+    "id": 155,
+    "year": "1957",
+    "original": "17-year old Liverpudlian Richard Starkey (later known asRingo Starr) receives his first drum set as a Christmas gift from his stepfather",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 26
+  },
+  {
+    "id": 143,
+    "year": "1896",
+    "original": "Patriotic march \"Stars & Stripes Forever\" is written byJohn Philip Sousa",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 27
+  },
+  {
+    "id": 81,
+    "year": "1950",
+    "original": "Coronation Stone, taken from Scone in Scotland by Edward I in 1296, stolen from Westminster Abbey & smuggled back to Scotland",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 28
+  },
+  {
+    "id": 83,
+    "year": "1953",
+    "original": "Avalanche of lava kills 150 from Ruapehu volcano in New Zealand",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 29
+  },
+  {
+    "id": 115,
+    "year": "2003",
+    "original": "The ill-fated Beagle 2 probe which was released from the Mars Express Spacecraft on December 19, disappears shortly before its scheduled landing.",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 30
+  },
+  {
+    "id": 149,
+    "year": "1932",
+    "original": "During KingGeorge V's Christmas dinner speech his chair collapses",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 31
+  },
+  {
+    "id": 72,
+    "year": "1939",
+    "original": "Montgomery Ward introduces Rudolph the 9th red-nosed reindeer",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 32
+  },
+  {
+    "id": 36,
+    "year": "1818",
+    "original": "First known Christmas carol, \"Silent Night, Holy Night\" (Stille Nacht, Heilige Nacht'), is sung in Austria",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 33
+  },
+  {
+    "id": 131,
+    "year": "1223",
+    "original": "StFrancis of Assisiassembles 1st Nativity scene (Greccio, Italy)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 34
+  },
+  {
+    "id": 181,
+    "year": "1989",
+    "original": "Leonard Bernsteinconducts Beethoven's Symphony No. 9 in East Berlin's Schauspielhaus to celebrate fall of the Berlin Wall. Broadcast worldwide to audience of 100 million.",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 35
+  },
+  {
+    "id": 126,
+    "year": "2023",
+    "original": "Ncuti Gatwa makes his debut as the fifteenth incarnation of the Doctor in \"Doctor Who\", with Millie Gibson as his companion",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 36
+  },
+  {
+    "id": 56,
+    "year": "1930",
+    "original": "Mt, Van Hoevenberg bobsled run at Lake Placid, NY opens; first American bobsled run open to public",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 37
+  },
+  {
+    "id": 42,
+    "year": "1848",
+    "original": "William & Ellen Craft escape from slavery in Georgia, arriving in Philadelphia, Pennsylvania; later move to Boston where they become abolitionists",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 38
+  },
+  {
+    "id": 206,
+    "year": "1745",
+    "original": "Joseph Bologne, French violinist, conductor, composer, and champion fencer, born in Baillif, Guadeloupe, French West Indies (d. 1799)",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 39
+  },
+  {
+    "id": 277,
+    "year": "1908",
+    "original": "Zora Arkus-Duntov, Belgian-American automotive engineer, known as \"the Father of the Corevette\", born in Brussels, Belgium (d. 1996)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 40
+  },
+  {
+    "id": 107,
+    "year": "1984",
+    "original": "Knicks basketball forward Bernard King scores 60 points, but New York loses, 120-114 to the New Jersey Nets on Xmas Day at Madison Square Garden",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 42
+  },
+  {
+    "id": 82,
+    "year": "1951",
+    "original": "West Indies wrap up 6 wicket defeat of Australia on first Christmas Day of Test cricket, the 3rd day of 3rd Test at the Adelaide Oval",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 43
+  },
+  {
+    "id": 13,
+    "year": "1013",
+    "original": "English earls declare Danish king Sweyn Forkbeard the first Viking king of England, disposing Ethelred the Unready",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 44
+  },
+  {
+    "id": 177,
+    "year": "1066",
+    "original": "William the Conqueroris crowned King of England at Westminster Abbey, completing the Norman conquest of England",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 45
+  },
+  {
+    "id": 129,
+    "year": "800",
+    "original": "Pope Leo III crowns Charles the Great (Charlemagne), Roman Emperor",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 46
+  },
+  {
+    "id": 138,
+    "year": "1711",
+    "original": "St Paul's Cathedral, designed by SirChristopher Wren, is officially declared complete after 35 years construction, by the British parliament",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 47
+  },
+  {
+    "id": 180,
+    "year": "1952",
+    "original": "Queen Elizabeth IImakes her first Christmas Day broadcast, thanking her subjects for their \"loyalty and affection\" and promising to carry on the tradition, which she does every year of her reign except 1969",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 48
+  },
+  {
+    "id": 151,
+    "year": "1938",
+    "original": "George CukorannouncesVivien Leighwill play Scarlett O'Hara in \"Gone With The Wind\"",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 49
+  },
+  {
+    "id": 106,
+    "year": "1983",
+    "original": "1st live telecast of Christmas Parade at the EPCOT Centre, Disney World Florida",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 50
+  },
+  {
+    "id": 80,
+    "year": "1947",
+    "original": "Taiwan passes Human Rights laws (Day of Earth Law)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 51
+  },
+  {
+    "id": 157,
+    "year": "1959",
+    "original": "Bishop Karol Wojtyla (future PopeJohn Paul II) celebrates outdoor Mass at midnight of Christmas morning to demonstrate the need for a Catholic church in the community of Nowa Huta",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 52
+  },
+  {
+    "id": 32,
+    "year": "1760",
+    "original": "Jupiter Hammon, an African American slave, composes poetry broadside \"An Evening Thought\" (1st poetry published by an African American 1761)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 55
+  },
+  {
+    "id": 22,
+    "year": "1553",
+    "original": "Battle of Tucapel: Mapuche rebels under Lautaro defeats the Spanish conquistadors and executes the governor of Chile Pedro de Valdivia",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 56
+  },
+  {
+    "id": 152,
+    "year": "1949",
+    "original": "First television adaptation ofCharles Dickens' \"A Christmas Carol\" debuts in American syndication; low budget 30-minute production stars Taylor Holmes and is narrated by Vincent Price",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 57
+  },
+  {
+    "id": 61,
+    "year": "1931",
+    "original": "New York's Metropolitan Opera broadcasts an entire live opera performance for the first time - Englebert Humperdinck's \"Hänsel und Gretel\" over NBC radio",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 58
+  },
+  {
+    "id": 37,
+    "year": "1818",
+    "original": "Handel's \"Messiah\", premieres in the US in Boston, performed by The Handel & Haydn Society",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 59
+  },
+  {
+    "id": 132,
+    "year": "1482",
+    "original": "English KingEdward IVholds a lavish Christmas feast for 2,000 people at Eltham Palace",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 60
+  },
+  {
+    "id": 87,
+    "year": "1959",
+    "original": "Sony brings transistor TV 8-301 to the market",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 61
+  },
+  {
+    "id": 45,
+    "year": "1888",
+    "original": "First indoor baseball game played at fairgrounds in Philadelphia; 2,000 watch the Uptowners beat the Downtowners, 6-1",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 62
+  },
+  {
+    "id": 43,
+    "year": "1862",
+    "original": "40,000 watch Union army men play baseball at Hilton Head, South Carolina",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 64
+  },
+  {
+    "id": 38,
+    "year": "1831",
+    "original": "Louisiana & Arkansas are first states to observe Christmas as holiday",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 65
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Think Big on World Thinking Day!",
+    "story": "Girl Scouts and Girl Guides around the world put on their thinking caps every February 22 for World Thinking Day! This special day brings together millions of girls from different countries to learn about each other's cultures and tackle big problems together. Girls might wear traditional clothes from other nations, try foods from around the globe, or work on projects about friendship and peace. It's like having the world's biggest sleepover where everyone shares ideas!",
+    "activity_question": "What do Girl Scouts and Girl Guides do on World Thinking Day?",
+    "activity_choices": [
+      "Learn about different cultures and work on projects together",
+      "Only think about math problems all day long",
+      "Have a giant camping trip in the woods",
+      "Sell cookies door-to-door in every neighborhood"
+    ],
+    "activity_answer": "Learn about different cultures and work on projects together",
+    "bonus_fact": "Over 10 million Girl Scouts and Girl Guides celebrate this day worldwide!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "902",
+    "title": "Sweet Potato Power Day!",
+    "story": "Sweet potatoes get their own special day on February 22! People celebrate National Cook a Sweet Potato Day by trying new recipes with these orange powerhouses. Some bake them whole, others make sweet potato fries, pies, or even smoothies. Sweet potatoes are packed with vitamins and taste amazing roasted with a little butter and cinnamon. Food bloggers share their favorite sweet potato creations online, and families gather in kitchens to experiment with this healthy, delicious vegetable.",
+    "activity_question": "What are some ways people cook sweet potatoes on this holiday?",
+    "activity_choices": [
+      "Baking, making fries, and creating smoothies",
+      "Only eating them raw",
+      "Turning them into ice cream sandwiches",
+      "Using them as footballs"
+    ],
+    "activity_answer": "Baking, making fries, and creating smoothies",
+    "bonus_fact": "Sweet potatoes aren't actually related to regular potatoes at all!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "903",
+    "title": "Paws and Celebrate Walking Day!",
+    "story": "Dogs everywhere get extra excited on February 22 because it's National Walking the Dog Day! Pet owners lace up their sneakers and grab leashes for longer adventures than usual. Some people organize group dog walks in parks, while others explore new neighborhoods with their furry friends. Dog walkers share cute photos on social media using special hashtags. It's the perfect excuse to give your pup extra exercise and fresh air!",
+    "activity_question": "What do dog owners typically do more of on National Walking the Dog Day?",
+    "activity_choices": [
+      "Take longer walks than usual",
+      "Teach their dogs to skateboard",
+      "Give their dogs bubble baths",
+      "Buy new dog toys"
+    ],
+    "activity_answer": "Take longer walks than usual",
+    "follow_up_question": "What's the most interesting place you'd like to walk a dog?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  }
+]

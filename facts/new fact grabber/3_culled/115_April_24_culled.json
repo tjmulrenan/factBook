@@ -1,0 +1,542 @@
+[
+  {
+    "id": 2,
+    "year": "1184 BC",
+    "original": "The Greeks enter Troy using the Trojan Horse (traditional date)",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 1
+  },
+  {
+    "id": 109,
+    "year": "1990",
+    "original": "STS-31 launches, the 35th mission of the US Space Shuttle program, carrying the Hubble space telescope",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 2
+  },
+  {
+    "id": 315,
+    "year": "1945",
+    "original": "Larry Tesler, American computer scientist (invented copy, cut, paste), born in The Bronx, New York (d. 2020)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 3
+  },
+  {
+    "id": 229,
+    "year": "1880",
+    "original": "Gideon Sundback, Swedish-American inventor, perfected the zipper, born in Ödestugu Parish, Sweden (d. 1954)[1]",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 4
+  },
+  {
+    "id": 149,
+    "year": "1916",
+    "original": "Ernest Shackletonand five men of the Imperial Trans-Antarctic Expedition launch a lifeboat from uninhabited Elephant Island in the Southern Ocean to organise a rescue for ice-trapped ship Endurance",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 5
+  },
+  {
+    "id": 179,
+    "year": "1895",
+    "original": "Canadian-American adventurer Joshua Slocum sets sail from Boston, Massachusetts on a solo around-the-world voyage aboard 'Spray', an 11.2-m oyster sloop",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 6
+  },
+  {
+    "id": 22,
+    "year": "1872",
+    "original": "Mount Vesuvius erupts in Italy",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 7
+  },
+  {
+    "id": 31,
+    "year": "1908",
+    "original": "Mr & Mrs Jacob Murdock and their children depart Los Angeles in a Packard Thirty, endeavoring to become 1st family to travel across United States by car; arrive in NYC 32 days, 5 hours and 25 minutes later",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 8
+  },
+  {
+    "id": 32,
+    "year": "1909",
+    "original": "Harry Hillman and Lawson Robertson run a 100-yard three-legged race in 11 seconds",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 9
+  },
+  {
+    "id": 183,
+    "year": "1961",
+    "original": "17th century Swedish warship Vasa, which sunk on her maiden voyage in 1628, is salvaged",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 10
+  },
+  {
+    "id": 90,
+    "year": "1970",
+    "original": "People's Republic of China launches its 1st satellite transmitting song \"East is Red\"",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 11
+  },
+  {
+    "id": 138,
+    "year": "2025",
+    "original": "Sophie Lloyd, a female magician who tricked her way into British men-only Magic Circle in 1991, is granted membership 34 years after being expelled",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 12
+  },
+  {
+    "id": 181,
+    "year": "1913",
+    "original": "The Woolworth Building opened in New York City byFrank Winfield Woolworthat a cost of $13.5 million, at 792 feet then the world's tallest building",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 13
+  },
+  {
+    "id": 10,
+    "year": "1459",
+    "original": "Fra Mauro completes his Map of the World in Venice for King Alfonso V of Portugal - largest known world map from Medieval Europe and the first to show Africa as a free-standing continent",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 14
+  },
+  {
+    "id": 121,
+    "year": "1996",
+    "original": "Highest scoring MLB baseball game in 17 years - Minnesota Twins 24, Detroit Tigers 11",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 15
+  },
+  {
+    "id": 97,
+    "year": "1981",
+    "original": "San Antonio blocks 20 Golden State shots to set an NBA regular season game record",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 17
+  },
+  {
+    "id": 17,
+    "year": "1833",
+    "original": "Jacob Evert and George Dulty patent the first soda fountain",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 18
+  },
+  {
+    "id": 143,
+    "year": "1888",
+    "original": "Eastman Kodak founded byGeorge Eastman",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 19
+  },
+  {
+    "id": 75,
+    "year": "1962",
+    "original": "Massachusetts Institute of Technology sends a TV signal by satellite for the first time from California to Massachusetts",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 20
+  },
+  {
+    "id": 131,
+    "year": "2018",
+    "original": "Suffragist Millicent Fawcett is the first woman to have a statue erected in Parliament Square, London",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 21
+  },
+  {
+    "id": 103,
+    "year": "1986",
+    "original": "Film \"Crocodile Dundee\" starring Paul Hogan and Linda Kozlowski premieres in Australia (highest grossing film of the year in the US)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 22
+  },
+  {
+    "id": 108,
+    "year": "1990",
+    "original": "Gruinard Island, Scotland, is officially declared free of anthrax after 48 years of quarantine",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 23
+  },
+  {
+    "id": 47,
+    "year": "1928",
+    "original": "Fathometer, which measures underwater depth, is patented",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 24
+  },
+  {
+    "id": 135,
+    "year": "2023",
+    "original": "India surpasses China as the worlds most populous country according to UN estimates, with 1,425,775,850 people (estimated to reach 1.7 billion by 2064)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 25
+  },
+  {
+    "id": 48,
+    "year": "1929",
+    "original": "First non-stop flight from England to India takes off",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 26
+  },
+  {
+    "id": 168,
+    "year": "1994",
+    "original": "David Robinsonscores ties 7th highest total in the NBA - 71",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 28
+  },
+  {
+    "id": 137,
+    "year": "2025",
+    "original": "Amsterdam's Mayor Femke Halsema apologizes for the city’s role in the persecution of its Jewish residents during a Holocaust commemoration at the Hollandsche Schouwburg, a theater that the Nazis used as a deportation center; over 60,000 of the Dutch capital's pre-war Jewish population of 80,000 were deported and killed",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 30
+  },
+  {
+    "id": 158,
+    "year": "1964",
+    "original": "Gene Roddenberryregisters his Star Trek series with the Writers Guild of America",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 31
+  },
+  {
+    "id": 357,
+    "year": "1964",
+    "original": "Cedric the Entertainer, American comedian and actor, born in Jefferson City, Missouri",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 32
+  },
+  {
+    "id": 358,
+    "year": "1964",
+    "original": "Djimon Hounsou, Beninese actor (Blood Diamond), born in Cotonou, Dahomey",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 33
+  },
+  {
+    "id": 92,
+    "year": "1974",
+    "original": "Dutch women hockey team becomes world champion",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 34
+  },
+  {
+    "id": 264,
+    "year": "1923",
+    "original": "Gus Bodnar, Canadian NHL center (NHL record 3 assists in 21 seconds 1952), born in Fort William, Ontario (d. 2005)",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 36
+  },
+  {
+    "id": 111,
+    "year": "1991",
+    "original": "Freddie Stowers is awarded the posthumous Medal of Honor for which he had been recommended in 1918.",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 37
+  },
+  {
+    "id": 162,
+    "year": "1979",
+    "original": "US State of Georgia designatesRay Charles' rendition of \"Georgia On My Mind\" (written byHoagy Carmichaeland Stuart Gorrell) as official state song",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 38
+  },
+  {
+    "id": 154,
+    "year": "1953",
+    "original": "Winston Churchillknighted byQueen Elizabeth II",
+    "score": 55,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 39
+  },
+  {
+    "id": 178,
+    "year": "1503",
+    "original": "Michelangeloundertakes to carve 12 Apostles for the Cathedral of Florence, each four and a quarter braccia high (248.2cm), at the rate of at least one completed statue per year. He produced only one, of St. Matthew, and that remained unfinished.",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 40
+  },
+  {
+    "id": 15,
+    "year": "1800",
+    "original": "US Library of Congress is established with a $5,000 allocation",
+    "score": 55,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 41
+  },
+  {
+    "id": 46,
+    "year": "1925",
+    "original": "88°F highest temperature ever recorded in Cleveland in April",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 42
+  },
+  {
+    "id": 118,
+    "year": "1994",
+    "original": "NY Rangers sweep NY Islanders in NHL playoffs",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 43
+  },
+  {
+    "id": 157,
+    "year": "1963",
+    "original": "Future Basketball Hall of Fame point guardBob Cousyplays his last NBA game for Boston as Celtics beat LA Lakers, 112-109 in Game 6 for their 5th straight NBA C'ship",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 44
+  },
+  {
+    "id": 170,
+    "year": "2004",
+    "original": "NFL Draft: Ole Miss quarterbackEli Manningfirst pick by San Diego Chargers",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 46
+  },
+  {
+    "id": 93,
+    "year": "1974",
+    "original": "NFL grants franchise to Tampa Bay Buccaneers",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 47
+  },
+  {
+    "id": 148,
+    "year": "1905",
+    "original": "First-class cricket debut of SirJack Hobbs, \"The Master\" for Surrey v the \"Gentlemen of England\" (18 & 88)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 54
+  },
+  {
+    "id": 6,
+    "year": "1185",
+    "original": "Battle at Danoura: Yoshitsune Minamoto's fleet beats the Taira during Japan's Genpei War",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 55
+  },
+  {
+    "id": 91,
+    "year": "1971",
+    "original": "Soyuz 10 returns to Earth",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 56
+  },
+  {
+    "id": 110,
+    "year": "1990",
+    "original": "West Germany and East Germany agree to merge currencies and economies by July 1",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 57
+  },
+  {
+    "id": 62,
+    "year": "1955",
+    "original": "Conference of Bandung against colonialism and for self determination, ends",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 58
+  },
+  {
+    "id": 145,
+    "year": "1898",
+    "original": "US fleet under commodoreGeorge Deweysails from Hong Kong to Philippines",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 59
+  },
+  {
+    "id": 136,
+    "year": "2024",
+    "original": "Gustav Klimt's \"Portrait of Fräulein Lieser\", previously though lost, sells for a record Austrian auction price of 30 million euros",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 60
+  },
+  {
+    "id": 69,
+    "year": "1959",
+    "original": "Netherland Dance Theater opens (Rudi of Dantzig & Cut Flier)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 63
+  },
+  {
+    "id": 142,
+    "year": "1801",
+    "original": "1st performance ofJoseph Haydn's oratorio \"Die Jahreszeiten\" (The Seasons)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 64
+  },
+  {
+    "id": 153,
+    "year": "1946",
+    "original": "One-act ballet \"Symphonic Variations\" choreographed byFrederick Ashtonwith music by César Franck danced by Sandler's Wells Ballet debuts at Covent Garden, London",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 65
+  },
+  {
+    "id": 151,
+    "year": "1945",
+    "original": "Miles Davismakes recording debut with the Herbie Fields Orchestra, backing singer \"Rubberlegs\" Wilson, at Savoy Records Studio, Newark, New Jersey",
+    "score": 55,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 66
+  },
+  {
+    "id": 260,
+    "year": "1914",
+    "original": "William Castle, American film director, producer, and actor (Rosemary's Baby, House on Haunted Hill, 13 Ghosts), born in New York (d. 1977)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 67
+  },
+  {
+    "id": 310,
+    "year": "1944",
+    "original": "Tony Visconti, American music producer (David Bowie - Blackstar; Low; \"Heroes\"; Osibisa), and bassist, born in Brooklyn, New York City",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 68
+  },
+  {
+    "id": 342,
+    "year": "1957",
+    "original": "Boris Williams, French-English drummer (The Cure - \"Friday I'm In Love\"), born in Versailles, France",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 69
+  },
+  {
+    "id": 348,
+    "year": "1959",
+    "original": "Yvonne Cagle, American astronaut and physician, born in West Point, New York",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 70
+  },
+  {
+    "id": 323,
+    "year": "1948",
+    "original": "Eddie James Hart, American 4x100m relay runner (Olympic gold 1972), born in Martinez, California",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 71
+  },
+  {
+    "id": 346,
+    "year": "1958",
+    "original": "Valery Lantratov, Russian ballet dancer (Moscow Stanislavsky Ballet and Kremlin Ballet), born in Moscow, USSR",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 72
+  },
+  {
+    "id": 350,
+    "year": "1961",
+    "original": "Roger Mayweather, American boxer, (WBA & lineal super featherweight titles 1983-84, WBC light welterweight 1987-89; IBO light welterweight; IBO welterweight 1994-95), born in Grand Rapids, Michigan (d. 2020)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 73
+  }
+]

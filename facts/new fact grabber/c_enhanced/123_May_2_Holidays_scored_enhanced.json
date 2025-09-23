@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Tuna-rific World Tuna Day!",
+    "story": "Every May 2, fish lovers around the world celebrate World Tuna Day! People share amazing tuna facts on social media, visit aquariums to learn about these speedy swimmers, and enjoy tuna dishes at restaurants. Some folks post photos of their favorite tuna recipes, while others spread awareness about protecting tuna in our oceans. It's a day to appreciate these incredible fish that can swim up to 40 miles per hour!",
+    "activity_question": "How fast can tuna swim according to the story?",
+    "activity_choices": [
+      "Up to 40 miles per hour",
+      "Up to 20 miles per hour",
+      "Up to 60 miles per hour",
+      "Up to 100 miles per hour"
+    ],
+    "activity_answer": "Up to 40 miles per hour",
+    "bonus_fact": "Some tuna can weigh as much as a small car!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "902",
+    "title": "Truffle Shuffle: Chocolate's Fanciest Day",
+    "story": "Chocolate lovers go wild on May 2 for National Truffle Day! These fancy little chocolate balls are way more special than regular candy. People visit chocolate shops to buy expensive truffles filled with cream, fruit, or nuts. Some brave bakers try making their own at home, rolling chocolate ganache into messy but delicious spheres. Social media fills with drool-worthy truffle photos as everyone celebrates these bite-sized treasures.",
+    "activity_question": "What do people often fill truffles with?",
+    "activity_choices": [
+      "Cream, fruit, or nuts",
+      "Pickles and mustard",
+      "Only plain chocolate",
+      "Ice cubes and lettuce"
+    ],
+    "activity_answer": "Cream, fruit, or nuts",
+    "follow_up_question": "What's the weirdest truffle flavor you'd be brave enough to try?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "903",
+    "title": "Sibling Squad Goals Day",
+    "story": "Brothers and Sisters Day on May 2 is the perfect excuse to celebrate your siblings instead of arguing with them! Families use this day to do fun activities together like playing games, sharing favorite snacks, or creating silly videos. Some kids write thank-you notes to their brothers and sisters, listing all the reasons they're grateful for them (even if they borrowed your favorite shirt without asking). Others plan special outings like mini golf or ice cream trips. Social media fills up with throwback photos and funny sibling memories. It's a day when being annoying to your sibling is officially not allowed!",
+    "activity_question": "What do some kids write to their siblings on Brothers and Sisters Day?",
+    "activity_choices": [
+      "Thank-you notes listing reasons they're grateful",
+      "Grocery shopping lists",
+      "Math homework answers",
+      "Secret diary entries"
+    ],
+    "activity_answer": "Thank-you notes listing reasons they're grateful",
+    "follow_up_question": "What's the funniest memory you have with your sibling or cousin?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "904",
+    "title": "Fire Day: Sparking Safety and Fun!",
+    "story": "Every May 2, Fire Day lights up communities with exciting events that teach fire safety while having a blast! Fire departments open their doors for tours, letting kids climb on real fire trucks, try on heavy helmets, and spray water from giant hoses. Firefighters demonstrate how they rescue people and put out flames, showing off their amazing skills and brave work. Schools often invite firefighters to visit classrooms, where they share important tips like \"stop, drop, and roll\" and how to escape safely during emergencies. Many towns host parades with shiny red fire engines, complete with loud sirens and flashing lights that make everyone cheer.",
+    "activity_question": "What do kids get to do during Fire Day celebrations at fire stations?",
+    "activity_choices": [
+      "Climb on fire trucks and spray water hoses",
+      "Cook marshmallows over open flames",
+      "Race against firefighters in obstacle courses",
+      "Design new fire truck colors"
+    ],
+    "activity_answer": "Climb on fire trucks and spray water hoses",
+    "bonus_fact": "Some firefighters can climb a 100-foot ladder in under 30 seconds!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  }
+]

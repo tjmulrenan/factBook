@@ -1,0 +1,542 @@
+[
+  {
+    "id": 173,
+    "year": "1887",
+    "original": "Anne Sullivan begins teaching 6-year-old blind-deafHelen Keller",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 1
+  },
+  {
+    "id": 154,
+    "year": "1969",
+    "original": "Apollo 9 launched for 151 Earth orbits (10 days)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 2
+  },
+  {
+    "id": 90,
+    "year": "1915",
+    "original": "US National Advisory Committee for Aeronautics (NACA) created, the predecessor of NASA",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 3
+  },
+  {
+    "id": 285,
+    "year": "1920",
+    "original": "James Doohan, Canadian actor (Star Trek), born in Vancouver, British Columbia (d. 2005)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 4
+  },
+  {
+    "id": 180,
+    "year": "1934",
+    "original": "John Dillingerbreaks out of jail using a wooden pistol",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 5
+  },
+  {
+    "id": 367,
+    "year": "1968",
+    "original": "Brian Cox, English physicist, television presenter (BBC's Wonders of... series), and keyboardist (Dare; D:Ream), born in Oldham, England",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 6
+  },
+  {
+    "id": 269,
+    "year": "1909",
+    "original": "Jay Arena, American pediatrician (Duke Poison Center Director, inventor of the child-proof safety cap), born in Clarksburg, West Virginia (d. 1996)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 7
+  },
+  {
+    "id": 390,
+    "year": "2001",
+    "original": "Jvke [Jacob Lawson], American singer-songwriter and Tik Tok personality (Golden Hour), born in Providence, Rhode Island",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 8
+  },
+  {
+    "id": 389,
+    "year": "1998",
+    "original": "Jayson Tatum, American basketball forward (Boston Celtics; 6x NBA All-Star; NBA All-Star MVP 2023), born in St. Louis, Missouri",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 9
+  },
+  {
+    "id": 324,
+    "year": "1945",
+    "original": "George Miller, Australian screenwriter and director (Mad Max, Happy Feet), born in Queensland, Australia",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 10
+  },
+  {
+    "id": 208,
+    "year": "1678",
+    "original": "Madeleine de Verchères, French Canadian heroine (repelling a raid on Fort Verchères when she was 14 years old), born in Verchères, New France (d. 1747)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 11
+  },
+  {
+    "id": 136,
+    "year": "1959",
+    "original": "1st US probe to enter solar orbit, Pioneer 4, launched",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 12
+  },
+  {
+    "id": 163,
+    "year": "1980",
+    "original": "1st nuclear submarine, USS Nautilus is decommissioned",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 13
+  },
+  {
+    "id": 278,
+    "year": "1917",
+    "original": "Sameera Moussa, Egypt's first female nuclear scientist, born in El Gharbja, Egypt (d. 1952)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 14
+  },
+  {
+    "id": 332,
+    "year": "1949",
+    "original": "Bonnie J. Dunbar, American aerospace engineer and astronaut (STS 61-A, 32, 50, 71, 89), born in Sunnyside, Washington",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 15
+  },
+  {
+    "id": 280,
+    "year": "1918",
+    "original": "Arthur Kornberg, American biochemist (1959 Nobel Prize in Physiology or Medicine for discovery of DNA polymerase), born in New York City (d. 2007)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 16
+  },
+  {
+    "id": 219,
+    "year": "1838",
+    "original": "George William Hill, American astronomer (calculated Moon's orbit) and considered to be the greatest master of celestial mechanics of his time, born in New York (d. 1914)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 17
+  },
+  {
+    "id": 301,
+    "year": "1928",
+    "original": "Gudrun Pausewang, German children's and young adult literature writer (The Last Children of Schewenborn; Die Wolke), born in Wichstadtl, Eastern Bohemia (d. 2020)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 18
+  },
+  {
+    "id": 179,
+    "year": "1931",
+    "original": "Cab Callowayrecords \"Minnie the Moocher\" (Jazz's 1st million seller)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 19
+  },
+  {
+    "id": 200,
+    "year": "1913",
+    "original": "Woman suffrage procession through Washington, D.C. organized byAlice Pauland Lucy Burns and led by Inez Milholland. Ida B. Wells marched with her Illinois delegation despite blacks being told to march in a separate section.",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 20
+  },
+  {
+    "id": 62,
+    "year": "1875",
+    "original": "First recognized hockey game is played at the Victoria Skating Rink in Montreal, according to the International Ice Hockey Federation, though it likely occurred much earlier",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 21
+  },
+  {
+    "id": 108,
+    "year": "1931",
+    "original": "\"The Star-Spangled Banner\" officially becomes the US national anthem by congressional resolution; lyrics by Francis Scott Key in 1814 are set to John Stafford Smith's 18th-century tune \"The Anacreontic Song\"",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 22
+  },
+  {
+    "id": 186,
+    "year": "1956",
+    "original": "Elvis Presley's 1st hit in Billboard's top 10: \"Heartbreak Hotel\"",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 23
+  },
+  {
+    "id": 391,
+    "year": "2002",
+    "original": "Keely Hodgkinson, English middle-distance runner (2024 Olympic Gold 800m), born in Wigan, England",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 24
+  },
+  {
+    "id": 99,
+    "year": "1920",
+    "original": "Montreal Canadiens scores NHL record 16 goals beating Quebec Bulldogs",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 25
+  },
+  {
+    "id": 123,
+    "year": "1951",
+    "original": "Bill Mikvy of Temple University scores NCAA basketball record 73 points, including 54 straight, in 93-69 win on the road at Wilkes College",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 26
+  },
+  {
+    "id": 198,
+    "year": "1861",
+    "original": "Alexander IIof Russia signs the Emancipation Manifesto, freeing serfs and granting them full rights as free citizens [O.S. Feb 19]",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 27
+  },
+  {
+    "id": 56,
+    "year": "1869",
+    "original": "University of South Carolina opens to all races",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 28
+  },
+  {
+    "id": 92,
+    "year": "1917",
+    "original": "German Foreign Secretary Arthur Zimmermann publicly admits the \"Zimmermann Telegram\" is genuine; revelation generates support for the US declaration of war on Germany in April.",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 29
+  },
+  {
+    "id": 127,
+    "year": "1956",
+    "original": "Dutch swimmer Cockie Gastelaars breaks a 20-year-old world record for the 100m freestyle (1:04.2)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 30
+  },
+  {
+    "id": 354,
+    "year": "1962",
+    "original": "Jenni Evans, Australian climate scientist known for her work on tropical cyclones and hurricanes, born in Melbourne, Australia (d. 2025)",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 31
+  },
+  {
+    "id": 383,
+    "year": "1981",
+    "original": "Eugene [Kim Yoo-Jin], South Korean K-pop singer (S.E.S.) and actress (A Hundred Year Legacy), born in Seoul, South Korea",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 32
+  },
+  {
+    "id": 385,
+    "year": "1981",
+    "original": "Sung Yu Ri, South Korean K-pop singer (Fin.K.L.) and actress (Hong Gil-dong), born in Tübingen, West Germany",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 33
+  },
+  {
+    "id": 369,
+    "year": "1968",
+    "original": "Diann Roffe-Steinrotter, alpine skier (Olympic gold/silver-92), born in Warsaw, New York",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 34
+  },
+  {
+    "id": 353,
+    "year": "1962",
+    "original": "Herschel Walker, American College Football Hall of Fame running back (Heisman Trophy 1982, U of Georgia; Pro Bowl 1987, 88), Dallas Cowboys), born in Wrightsville, Georgia",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 35
+  },
+  {
+    "id": 387,
+    "year": "1984",
+    "original": "Santonio Holmes, American NFL wide receiver and Super Bowl XLIII MVP (Pittsburgh Steelers, New York Jets), born in Belle Glade, Florida",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 36
+  },
+  {
+    "id": 372,
+    "year": "1971",
+    "original": "Charlie Brooker, English television reviewer and writer of \"Black Mirror\", born in Reading, England",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 37
+  },
+  {
+    "id": 365,
+    "year": "1966",
+    "original": "Tone-Lōc [Anthony Terrell Smith], American rapper (\"Funky Cold Medina\"), born in Los Angeles, California",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 38
+  },
+  {
+    "id": 382,
+    "year": "1979",
+    "original": "Dwayne Dopsie [Rubin], American zydeco accordionist and vocalist (Zydeco Hellraisers), born in Lafayette, Louisiana",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 39
+  },
+  {
+    "id": 373,
+    "year": "1971",
+    "original": "Tyler Florence, American chef, Food Network personality and cookbook author, born in Greenville, South Carolina",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 40
+  },
+  {
+    "id": 339,
+    "year": "1952",
+    "original": "Randy Gradishar, American Pro Football HOF linebacker (Ohio State Uni; NFL Defensive Player of the Year 1978; First-team All-Pro 1977, 78; 7 x Pro Bowl, Denver Broncos), born in Warren, Ohio",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 41
+  },
+  {
+    "id": 333,
+    "year": "1949",
+    "original": "James S. Voss, American Army colonel and astronaut (STS 44, 53, 69), born in Cordova, Alabama",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 42
+  },
+  {
+    "id": 326,
+    "year": "1946",
+    "original": "James C Adamson, Lt Col USA/astronaut (STS 28, STS 43), born in Warsaw, New York",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 43
+  },
+  {
+    "id": 323,
+    "year": "1942",
+    "original": "Vladimir Kovolyonok, Russian cosmonaut (Soyuz 25, 29/31, T-4), born in Krupki district, Soviet Union",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 44
+  },
+  {
+    "id": 336,
+    "year": "1950",
+    "original": "Tim Kazurinsky, American comic actor and screenwriter (SNL, 1980-84; Police Academy 2, 3, 4), born in Johnstown, Pennsylvania",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 45
+  },
+  {
+    "id": 347,
+    "year": "1958",
+    "original": "Bob Bradley, soccer coach (Olympic gold 1996), born in Montclair, New Jersey",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 46
+  },
+  {
+    "id": 316,
+    "year": "1937",
+    "original": "Bobby Driscoll, American Academy Juvenile Award-winning actor (Song Of The South; The Window), born in Cedar Rapids, Iowa (d. 1968)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 47
+  },
+  {
+    "id": 314,
+    "year": "1935",
+    "original": "Gene Bess, American Basketball HOF coach (1,300-416 [.757 win %] all-time winningest college coach; Three Rivers Community College 1971-2020; National Junior C'ship 1979, 92), born in Oak Ridge, Missouri",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 48
+  },
+  {
+    "id": 318,
+    "year": "1938",
+    "original": "Willie Chambers, American rock guitarist, and songwriter (Chambers Brothers - \"Time Has Come Today\"), born in Flora, Mississippi",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 49
+  },
+  {
+    "id": 308,
+    "year": "1932",
+    "original": "Fred Storey, Canadian curler (World C'ship gold 1966, 68, 69), born in Empress, Alberta (d. 2019)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 50
+  },
+  {
+    "id": 295,
+    "year": "1926",
+    "original": "Lys Assia, Swiss singer who won the 1st Eurovision Song Contest in 1956, born in Rupperswil, Switzerland (d. 2018)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 51
+  },
+  {
+    "id": 291,
+    "year": "1923",
+    "original": "Barney Martin, American actor, comedy writer and NYPD detective (Seinfeld), born in Queens, New York (d. 2005)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 52
+  },
+  {
+    "id": 290,
+    "year": "1923",
+    "original": "(Arthel) \"Doc\" Watson, American Grammy Award-winning bluegrass, folk, and blues guitarist, songwriter, and singer, born in Deep Gap, North Carolina (d. 2012)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 53
+  },
+  {
+    "id": 275,
+    "year": "1913",
+    "original": "Margaret Allison Bonds, American composer (The Ballad of the Brown King), pianist, arranger, and teacher, born in Chicago, Illinois (d. 1972)[1]",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 54
+  },
+  {
+    "id": 233,
+    "year": "1872",
+    "original": "Willie Keeler, American Baseball Hall of Fame outfielder (highest career AB-per-strikeout ratio in MLB history; NL batting champion 1897, 98 Baltimore Orioles), born in Brooklyn, New York (d. 1923)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 55
+  },
+  {
+    "id": 226,
+    "year": "1860",
+    "original": "John Montgomery Ward, American Baseball HOF pitcher (perfect game 1880; NL ERA leader 1878; NL strikeout leader & NL wins leader 1879; Providence Grays), born in Bellefonte, Pennsylvania (d. 1925)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 56
+  },
+  {
+    "id": 221,
+    "year": "1841",
+    "original": "John Murray, Canadian-British oceanographer, marine biologist (Challenger Expedition, 1872-76), and writer (The Depths of the Ocean), born in Coburg, West Canada (now Ontario) (d. 1914)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 57
+  },
+  {
+    "id": 220,
+    "year": "1839",
+    "original": "Jamsetji Tata, Indian pioneer industrialist (Tata Group), born in Navsari, British India (d. 1904)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 58
+  },
+  {
+    "id": 338,
+    "year": "1951",
+    "original": "Rustee Allen, American funk and jazz fusion bass guitar player (Sly and the Family Stone, 1972-75; Robin Trower; Bobby Womack), born in Monroe, Louisiana",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 59
+  },
+  {
+    "id": 340,
+    "year": "1952",
+    "original": "Robyn Hitchcock, British rock and folk singer-songwriter (The Soft Boys - \"Balloon Man\"; solo - Moss Elixir), born in Paddington, London, England",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 60
+  }
+]

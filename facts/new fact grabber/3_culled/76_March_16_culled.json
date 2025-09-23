@@ -1,0 +1,542 @@
+[
+  {
+    "id": 132,
+    "year": "2023",
+    "original": "Houston Zoo announces their oldest resident Mr Pickles (90) is finally a father, with Mrs Pickles (53), the parents of three rare baby radiated tortoises, named Dill, Gherkin and Jalapeño",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 1
+  },
+  {
+    "id": 165,
+    "year": "1966",
+    "original": "Gemini 8 launched withNeil Armstrongand David R. Scott aboard, conducts the 1st docking of two spacecraft in orbit, flight aborted after critical system failure with the crew returned safely to Earth",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 2
+  },
+  {
+    "id": 53,
+    "year": "1939",
+    "original": "NHL record 10 goals in 1 period-NY Rangers (7), NY Americans (3) & a record 26 points in the 3rd period",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 3
+  },
+  {
+    "id": 63,
+    "year": "1952",
+    "original": "1870 mm rain in Cilaos, Island of Reunion (world record)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 4
+  },
+  {
+    "id": 102,
+    "year": "1995",
+    "original": "Mississippi House of Representatives formally abolishes slavery & ratifies 13th Amendment of US Constitution",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 5
+  },
+  {
+    "id": 115,
+    "year": "2013",
+    "original": "Wales routs England by a record 30-3 at Millennium Stadium, Cardiff to retain their Six Nation Rugby Championship; Welsh winger Alex Cuthbert scores 2 tries and fullback Leigh Halfpenny lands 4/4 penalties",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 6
+  },
+  {
+    "id": 176,
+    "year": "1991",
+    "original": "Worlds Ladies' Figure Skating Champ in Munich won byKristi Yamaguchi",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 7
+  },
+  {
+    "id": 188,
+    "year": "2022",
+    "original": "Ukrainian President VolodymyrZelenskyyaddresses US Congress remotely pleading for further aid against the Russian invasion",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 8
+  },
+  {
+    "id": 368,
+    "year": "1973",
+    "original": "Zef Eisenberg, British ultra-speed racer (world's fastest motorbike on sand 201.5mph; fastest wheel powered vehicle 210.33mph) and founder Maximuscle, born in London, England (d. 2020)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 9
+  },
+  {
+    "id": 76,
+    "year": "1969",
+    "original": "Boston Bruins scores a NHL record 8 goals in 1 period",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 10
+  },
+  {
+    "id": 99,
+    "year": "1991",
+    "original": "NY Lotto pays $33.3 million to one winner (#s are 18-21-32-33-35-38)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 11
+  },
+  {
+    "id": 127,
+    "year": "2021",
+    "original": "Israeli researchers reveal re-discovery of 2,000 year-old Dead Sea Scrolls, 1st found in 60 years, left by Jews fleeing Romans in \"Horror Cave\", Israel",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 12
+  },
+  {
+    "id": 153,
+    "year": "1926",
+    "original": "Robert H. Goddardlaunches the first liquid-fueled rocket, goes 184' (56 meters)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 13
+  },
+  {
+    "id": 208,
+    "year": "1750",
+    "original": "Caroline Herschel, German-British pioneering female astronomer (discovered comet 35P/Herschel-Rigolle) and first elected female Honorary Members of the Royal Astronomical Society, born in Hanover, Holy Roman Empire (d. 1848)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 14
+  },
+  {
+    "id": 380,
+    "year": "1985",
+    "original": "Colin O'Brady, American athlete and adventurer, first to cross Antarctica solo unassisted, born in Olympia, Washington",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 15
+  },
+  {
+    "id": 31,
+    "year": "1900",
+    "original": "Arthur Evans rediscovers the Bronze Age city of Knossos in Crete, home of the legendary Minotaur",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 16
+  },
+  {
+    "id": 17,
+    "year": "1827",
+    "original": "First US newspaper, \"Freedom's Journal\" owned and operated by African Americans begins publishing in New York City",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 17
+  },
+  {
+    "id": 29,
+    "year": "1876",
+    "original": "Nelly Saunders & Rose Harland fight 1st female boxing match (NY)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 18
+  },
+  {
+    "id": 119,
+    "year": "2019",
+    "original": "Beached dead whale found to have 88 pounds of plastic inside it, including 40 pounds of plastic bags, in Mabini, Philippines",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 20
+  },
+  {
+    "id": 137,
+    "year": "1521",
+    "original": "Portuguese navigatorFerdinand Magellanreaches the Philippines, landing on Homonhon Island after crossing the Pacific Ocean",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 21
+  },
+  {
+    "id": 312,
+    "year": "1936",
+    "original": "Raymond Damadian, American physician and inventor of the MRI scanning machine, born in New York City (d. 2022)[1]",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 22
+  },
+  {
+    "id": 337,
+    "year": "1952",
+    "original": "Philippe Kahn, French-American engineer, innovator and entrepreneur who created the first camera phone in 1997 (CEO Borland 1983-1995), born in Paris, France[1]",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 23
+  },
+  {
+    "id": 390,
+    "year": "1999",
+    "original": "Vladimir Guerrero Jr., Dominican-Canadian Major League baseball player (Toronto Blue Jays; 5x All-Star, 2x All-MLB First Team), born in Montreal, Quebec",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 24
+  },
+  {
+    "id": 84,
+    "year": "1975",
+    "original": "US Mariner 10 makes 3rd & final fly-by of Mercury",
+    "score": 84,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 25
+  },
+  {
+    "id": 83,
+    "year": "1974",
+    "original": "1st performance at new Grand Ole Opry House at Opryland in Nashville",
+    "score": 83,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 26
+  },
+  {
+    "id": 80,
+    "year": "1971",
+    "original": "13th Grammy Awards: \"Bridge Over Troubled Water\", Carpenters win",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 28
+  },
+  {
+    "id": 145,
+    "year": "1867",
+    "original": "Joseph Listerfirst outlines the discovery of antiseptic surgery in an article in \"The Lancet\"",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 29
+  },
+  {
+    "id": 221,
+    "year": "1822",
+    "original": "Marie-Rosalie \"Rosa\" Bonheur, French animalière painter (The Horse Fair; Buffalo Bill), and sculptor, born in Bordeaux, France (d. 1899)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 30
+  },
+  {
+    "id": 12,
+    "year": "1769",
+    "original": "Louis-Antoine de Bougainville's expedition of two ships completes  first French circumnavigation of the world arriving in Saint-Malo, France (also carried 1st woman to circumnavigate the world, Jeanne Baré)",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 32
+  },
+  {
+    "id": 6,
+    "year": "1345",
+    "original": "Holy Spirit glides above fire in \"The Miracle of Amsterdam\" (legend)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 33
+  },
+  {
+    "id": 46,
+    "year": "1930",
+    "original": "USS Constitution (Old Ironsides) floated out to become a national shrine",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 34
+  },
+  {
+    "id": 67,
+    "year": "1960",
+    "original": "Dedication of National Observatory at Kitt Peak, in the Quinlan Mountains of the Arizona-Sonoran Desert, Tohono O'odham Nation lands of Arizona dedicated",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 35
+  },
+  {
+    "id": 86,
+    "year": "1978",
+    "original": "Soyuz 26 returns to Earth",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 36
+  },
+  {
+    "id": 169,
+    "year": "1972",
+    "original": "SingerJames Brownperforms two shows for over 1,000 detainees awaiting trial at the Adolescent Remand Shelter on Rikers Island, NYC",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 37
+  },
+  {
+    "id": 178,
+    "year": "1996",
+    "original": "Mike TysonTKOsFrank Brunoin 3rd round to gain heavyweight title",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 38
+  },
+  {
+    "id": 225,
+    "year": "1836",
+    "original": "Andrew Smith Hallidie, American inventor of the cable car, born in London (d. 1900)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 39
+  },
+  {
+    "id": 231,
+    "year": "1851",
+    "original": "Martinus Beijerinck, Dutch microbiologist and botanist (1st to coin the name virus), born in Amsterdam, Netherlands (d. 1931)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 40
+  },
+  {
+    "id": 234,
+    "year": "1858",
+    "original": "Bud Fowler, American Baseball HOF executive (earliest known African-American player in organized pro baseball), born in Fort Plain, New York (d. 1913)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 41
+  },
+  {
+    "id": 235,
+    "year": "1859",
+    "original": "Alexander Popov, Russian physicist and one of the first inventors of a radio receiving device, born in Turyinskiye Rudniki, Russian Empire (d. 1906)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 42
+  },
+  {
+    "id": 306,
+    "year": "1932",
+    "original": "Walter Cunningham, American astronaut (Apollo 7), born in Creston, Iowa (d. 2023)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 44
+  },
+  {
+    "id": 353,
+    "year": "1959",
+    "original": "Michael J Bloomfield, American USAF Major USAF and NASA astronaut (STS 86), born in Flint, Michigan",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 45
+  },
+  {
+    "id": 386,
+    "year": "1991",
+    "original": "Chris Boswell, American NFL placekicker (Pittsburgh Steelers; 2x Pro Bowl), current most accurate field goal kicker in NFL history (50 yards or more), born in Fort Worth, Texas",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 46
+  },
+  {
+    "id": 142,
+    "year": "1834",
+    "original": "Charles Darwin, aboard HMS Beagle, anchors in the recently British-acquired Falklands Islands for the first time",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 47
+  },
+  {
+    "id": 70,
+    "year": "1964",
+    "original": "Green Bay Packers halfbackPaul Hornungand Detroit Lions defensive tackle Alex Karras are reinstated in NFL after 1 year suspension for betting on football games",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 48
+  },
+  {
+    "id": 146,
+    "year": "1870",
+    "original": "Hiram R. Revelsmakes 1st official speech by an African American in the US Senate",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 51
+  },
+  {
+    "id": 183,
+    "year": "2015",
+    "original": "Google commemorateAnna Atkins's 216th birthday with a Google Doodle image representing her cyanoprint work",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 52
+  },
+  {
+    "id": 240,
+    "year": "1878",
+    "original": "Clemens August Graaf von Galen, German Catholic Bishop of Münster (led opposition to Nazism, especially T4 extermination program), born in Drinklage, Germany (d. 1946)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 53
+  },
+  {
+    "id": 317,
+    "year": "1939",
+    "original": "Carlos Bilardo, Argentinian football player and manager for Argentina (1986 FIFA World Cup), born in Buenos Aires, Argentina",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 54
+  },
+  {
+    "id": 322,
+    "year": "1943",
+    "original": "Ursula Goodenough, American biologicst, Evolutionary Scholar, author and educator, born in New York City",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 55
+  },
+  {
+    "id": 345,
+    "year": "1954",
+    "original": "Nancy Wilson, rock guitarist (Heart - \"Baracuda\"; \"What About Love\"), born in San Francisco, California",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 56
+  },
+  {
+    "id": 361,
+    "year": "1966",
+    "original": "Catarina Pollini, Italian European and WNBA basketball forward (Houston Comets - 1997; 12 x Italian League Champion), born in Vicenza, Italy",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 57
+  },
+  {
+    "id": 383,
+    "year": "1989",
+    "original": "Blake Griffin, American basketball forward (6 x NBA All-Star; 5 x All-NBA: NBA Rookie of the Year 2011; LA Clippers, Detroit Pistons, Brooklyn Nets, Boston Celtics), born in Oklahoma City",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 58
+  },
+  {
+    "id": 213,
+    "year": "1794",
+    "original": "Ami Boué, French Huguenot geologist considered to be one of the first producers of a geological map of the world, born in Hamburg, Holy Roman Empire (d. 1881)",
+    "score": 68,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 59
+  },
+  {
+    "id": 7,
+    "year": "1621",
+    "original": "Native American chief visits colony of Plymouth, Massachusetts",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 60
+  },
+  {
+    "id": 14,
+    "year": "1802",
+    "original": "1st US Military Academy at West Point is established through Congressional act (opened July 4, 1802)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 61
+  },
+  {
+    "id": 19,
+    "year": "1830",
+    "original": "London's re-organised police force (Scotland Yard)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 62
+  },
+  {
+    "id": 30,
+    "year": "1883",
+    "original": "Susan Hayhurst becomes 1st US woman graduate of a pharmacy college",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 63
+  },
+  {
+    "id": 34,
+    "year": "1911",
+    "original": "Stanley Cup, Dey's Arena, Ottawa, ON: Ottawa Senators beat Port Arthur Bearcats (ON), 13-4",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 64
+  },
+  {
+    "id": 55,
+    "year": "1941",
+    "original": "Blizzard hits North Dakota & Minnesota killing 60",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 65
+  },
+  {
+    "id": 73,
+    "year": "1967",
+    "original": "Pirate Radio Station 333 (Radio Britain) ship breaks down",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 67
+  }
+]

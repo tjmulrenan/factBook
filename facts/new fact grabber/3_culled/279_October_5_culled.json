@@ -1,0 +1,542 @@
+[
+  {
+    "id": 147,
+    "year": "2021",
+    "original": "480 Otis wins Alaska's Fat Bear Week for pre-hibernation weight gain for the third year in a row",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 1
+  },
+  {
+    "id": 139,
+    "year": "2018",
+    "original": "Banksy work \"Girl With Balloon\" automatically shreds moments after being sold for 1 million pounds in London, renamed \"Love is in the Bin\"",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 2
+  },
+  {
+    "id": 150,
+    "year": "2021",
+    "original": "Russia launches an actor and director to the International Space Station to make the first film in orbit",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 3
+  },
+  {
+    "id": 168,
+    "year": "1905",
+    "original": "Orville andWilbur Wright's make a circling flight on \"Flyer III\" of 24.2 miles (38.9 kms) in 39 minutes and 23 seconds",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 4
+  },
+  {
+    "id": 170,
+    "year": "1923",
+    "original": "Edwin Hubbleidentifies Cepheid variable star",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 5
+  },
+  {
+    "id": 23,
+    "year": "1869",
+    "original": "A strong hurricane known as the Saxby Gale devastates the Bay of Fundy region in Maritime Canada. Incredibly, British naval officer Stephen Martin Saxby predicts the storm 10 months earlier in December 1868 through astronomy.",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 6
+  },
+  {
+    "id": 46,
+    "year": "1931",
+    "original": "1st nonstop transpacific flight, Japan to Wash (Herndon & Pangborn)",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 7
+  },
+  {
+    "id": 100,
+    "year": "1982",
+    "original": "Unmanned rocket sled reaches 9,851 kph at White Sands, NM",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 8
+  },
+  {
+    "id": 249,
+    "year": "1864",
+    "original": "Louis Lumière, French inventor, with brother Auguste made 1st motion picture in 1895, born in Besançon, France (d. 1948)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 9
+  },
+  {
+    "id": 74,
+    "year": "1962",
+    "original": "The Beatles release their first record, \"Love Me Do\"",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 10
+  },
+  {
+    "id": 181,
+    "year": "1962",
+    "original": "\"Dr. No,\" the first James Bond film based on the novel by Ian Fleming and starringSean Conneryand Ursula Andress, premieres in London",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 11
+  },
+  {
+    "id": 378,
+    "year": "1958",
+    "original": "Neil deGrasse Tyson, American astrophysicist, TV presenter and writer, born in New York City",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 12
+  },
+  {
+    "id": 380,
+    "year": "1959",
+    "original": "David Shannon, American Caldecott Medal-winning children's book writer and illustrator (No, David!), born in Washington, D.C.",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 13
+  },
+  {
+    "id": 381,
+    "year": "1959",
+    "original": "Maya Lin, American designer (Vietnam Veterans Memorial, Civil Rights Memorial), born in Athens, Ohio",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 14
+  },
+  {
+    "id": 376,
+    "year": "1958",
+    "original": "André Kuipers, Dutch astronaut and physician, born in Amsterdam, Netherlands",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 15
+  },
+  {
+    "id": 309,
+    "year": "1928",
+    "original": "Louise Fitzhugh, American author and illustrator (Harriet the Spy), born in Memphis, Tennessee (d. 1974)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 16
+  },
+  {
+    "id": 310,
+    "year": "1929",
+    "original": "Autherine Lucy, American educator and 1st African-American to enroll in University of Alabama at Tuscaloosa, born in Shiloh, Alabama (d. 2022)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 17
+  },
+  {
+    "id": 306,
+    "year": "1926",
+    "original": "Willi Unsoeld, American mountaineer (First ascent of the West Ridge of Mount Everest), born in Arcata, California (d. 1979)",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 18
+  },
+  {
+    "id": 214,
+    "year": "1274",
+    "original": "Around 1,000 soldiers of the Mongol army land on the Japanese island of Tsushima in the first attack ofKublai Khan's Mongol invasion of Japan",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 19
+  },
+  {
+    "id": 78,
+    "year": "1965",
+    "original": "Chuck Linster performs 6,006 consecutive push-ups",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 20
+  },
+  {
+    "id": 79,
+    "year": "1965",
+    "original": "Dick McInnes from Henderson, Kentucky stays aloft almost 12 hours in a kite pulled by a speedboat along the Ohio River",
+    "score": 79,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 21
+  },
+  {
+    "id": 184,
+    "year": "1969",
+    "original": "TV sketch comedy series \"Monty Python's Flying Circus\" premieres on BBC1",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 22
+  },
+  {
+    "id": 349,
+    "year": "1947",
+    "original": "Brian Johnson, British hard rock singer-songwriter (AC/DC - \"Back In Black\"), born in Dunston, Gateshead, England",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 23
+  },
+  {
+    "id": 373,
+    "year": "1957",
+    "original": "Bernie Mac, American comedian and actor known for \"Mr 3000\" and the Ocean's film series, born in Chicago, Illinois (d. 2008)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 25
+  },
+  {
+    "id": 111,
+    "year": "1991",
+    "original": "The first official version of the Linux kernel, version 0.02, is released.",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 26
+  },
+  {
+    "id": 188,
+    "year": "1983",
+    "original": "Edmonton super starWayne Gretzkyscores a goal and assist in 5-4 win over Toronto in the Oilers season opener; starts NHL record 51-game scoring streak; ends 28/1/84",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 27
+  },
+  {
+    "id": 190,
+    "year": "1984",
+    "original": "13th NASA Space Shuttle Mission (41G): Challenger 6 launches withMarc Garneau, the first Canadian in space, on board",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 28
+  },
+  {
+    "id": 125,
+    "year": "2003",
+    "original": "Chicago Cubs win their first MLB postseason series since the 1908 World Series with 5-1 win v Atlanta Braves in Game 5 NLDS at Turner Field",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 29
+  },
+  {
+    "id": 129,
+    "year": "2007",
+    "original": "African Burial Ground in Manhattan is the first National Monument, dedicated to the first Africans of early New York and Americans of African descent",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 30
+  },
+  {
+    "id": 135,
+    "year": "2015",
+    "original": "Nobel prize for Medicine awarded to William C. Campbell, Satoshi Ōmura (Roundworm) and Youyou Tu (Malaria)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 31
+  },
+  {
+    "id": 137,
+    "year": "2016",
+    "original": "Nobel Prize in Chemistry jointly awarded to Jean-Pierre Sauvage, Fraser Stoddart and Bernard Feringa \"for the design and synthesis of molecular machines\"",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 32
+  },
+  {
+    "id": 149,
+    "year": "2021",
+    "original": "Nobel Prize for Physics awarded to Syukuro Manabe, Klaus Hasselmann and Giorgio Parisi for pioneering work that warned of climate change",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 33
+  },
+  {
+    "id": 151,
+    "year": "2022",
+    "original": "Nobel Prize for Chemistry awarded to Carolyn Bertozzi, Morten Meldal and K. Barry Sharpless (his 2nd) for their work on Click Chemistry",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 34
+  },
+  {
+    "id": 403,
+    "year": "1966",
+    "original": "Thérèse Brisson, Canadian ice hockey defense & captain (Olympic gold 2002, silver 1998; 6 x World C'ship gold; Montreal Axion), born in Dollard-des-Ormeaux, Quebec",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 35
+  },
+  {
+    "id": 385,
+    "year": "1961",
+    "original": "David Kirk, New Zealand rugby union player, businessman and All Blacks captain who won the 1st Rugby World Cup in 1987, born in Wellington, New Zealand",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 36
+  },
+  {
+    "id": 271,
+    "year": "1902",
+    "original": "Larry Fine, American actor and comedian (3 Stooges), born in Philadelphia, Pennsylvania (d. 1975)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 37
+  },
+  {
+    "id": 175,
+    "year": "1950",
+    "original": "Boston Celtics owner Walter Brown & coachRed Auerbachdraw lots out of hat for 3 members of defunct Chicago Stags franchise; hit jackpot with future 6-time NBA champion,Bob Cousy",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 38
+  },
+  {
+    "id": 186,
+    "year": "1975",
+    "original": "AustrianNiki Laudawins the United States Grand Prix at Watkins Glen to claim his first Formula 1 World Drivers Championship; wins by 19.5 points fromEmerson Fittipaldiof Brazil",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 39
+  },
+  {
+    "id": 191,
+    "year": "1986",
+    "original": "Rams running backEric Dickersonruns for an NFL overtime record 42-yard touchdown as LA defeats Tampa Bay Buccaneers, 26-20 at Anaheim Stadium",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 40
+  },
+  {
+    "id": 314,
+    "year": "1930",
+    "original": "Pavel Popovich, Ukrainian cosmonaut (Vostok IV; Soyuz 14), born in Uzyn, Kiev Oblast, Soviet Union (d. 2009)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 41
+  },
+  {
+    "id": 311,
+    "year": "1929",
+    "original": "Richard F. Gordon, Jr., American naval officer and astronaut (Gemini 11; Apollo 12), born in Seattle, Washington (d. 2017)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 42
+  },
+  {
+    "id": 92,
+    "year": "1978",
+    "original": "Over 30 major nations ratify the Environmental Modification Convention, which prohibits weather warfare that has widespread, long-lasting or severe effects",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 43
+  },
+  {
+    "id": 126,
+    "year": "2003",
+    "original": "Kansas City wide receiver Dante Hall scores on game winning 93-yard punt return in Chiefs 24-23 victory v Denver Broncos at Arrowhead Stadium; returns for score in an NFL-record 4th straight game",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 44
+  },
+  {
+    "id": 109,
+    "year": "1991",
+    "original": "Fresno State ties NCAA football record with 49 points in a quarter (2nd), as they route New Mexico, 94-17 at Bulldog Stadium, Fresno",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 45
+  },
+  {
+    "id": 133,
+    "year": "2013",
+    "original": "New Zealand beats South Africa, 38-27 in Johannesburg to retain the Rugby Championship with an undefeated record; All Black flanker Liam Messam crosses for 2 tries",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 46
+  },
+  {
+    "id": 26,
+    "year": "1892",
+    "original": "The Dalton Gang ends in shoot-out in Coffeyville, Kansas bank holdup; 4 members killed, and a fifth captured",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 47
+  },
+  {
+    "id": 166,
+    "year": "1897",
+    "original": "Swedish explorerSalomon August Andrée's ill-fated balloon expedition to the North Pole reaches White Island",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 48
+  },
+  {
+    "id": 169,
+    "year": "1915",
+    "original": "Detroit Tigers speedsterTy Cobbsteals his 96th base of the season in 5-0 loss to Cleveland Indians; stands as MLB record until 1962 (Maury Wills, 104)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 49
+  },
+  {
+    "id": 196,
+    "year": "1994",
+    "original": "NBA shortens the 3-point distance to a uniform 22 feet in attempt to help offensive players score more;Michael Jordansets career highs in 3-point attempts & converted 3-point field goals, nearly double previous statistics",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 50
+  },
+  {
+    "id": 154,
+    "year": "2023",
+    "original": "Record 961 migrating birds die after hitting McCormick Place Lakeside Center building in Chicago during fall migration",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 51
+  },
+  {
+    "id": 48,
+    "year": "1932",
+    "original": "With new ownership Detroit Falcons officially change name to Detroit Red Wings, and the Winged Wheel is introduced; previous names Cougars (1926-30), Falcons (1930-32)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 52
+  },
+  {
+    "id": 75,
+    "year": "1963",
+    "original": "Hyde St Pier re-opens as State Historical Park",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 53
+  },
+  {
+    "id": 122,
+    "year": "2001",
+    "original": "MLB's Atlanta Braves become first pro sports team to win 10 straight division titles after mauling the Marlins, 20-3 to clinch the NL East title; NBA's Boston Celtics (1957-65) & LA Lakers (1982-90) both won 9 in a row",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 54
+  },
+  {
+    "id": 140,
+    "year": "2018",
+    "original": "Nobel Peace Prize awarded jointly to Congolese gynaecologist Denis Mukwege and Yazidi activist Nadia Murad for \"efforts to end the use of sexual violence as a weapon of war\"",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 55
+  },
+  {
+    "id": 143,
+    "year": "2020",
+    "original": "At least 14m tonnes of plastic pieces are at the bottom of the ocean, 30 times more than on the surface according to new research",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 56
+  },
+  {
+    "id": 370,
+    "year": "1953",
+    "original": "Sandra \"Puma\" Jones, American reggae singer (Black Uhuru, 1979-86), born in Columbia, South Carolina (d. 1990)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 58
+  },
+  {
+    "id": 374,
+    "year": "1957",
+    "original": "Lee \"Kix\" Thompson, saxophonist (Madness - \"Baggy Trousers\", \"Our House\"), born in St Pancras, London, England",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 59
+  },
+  {
+    "id": 377,
+    "year": "1958",
+    "original": "Brent W. Jett Jr, American naval officer and NASA astronaut (STS 72, sk:81), born in Pontiac, Michigan",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 60
+  },
+  {
+    "id": 286,
+    "year": "1919",
+    "original": "Allen Ludden [Ellsworth], American TV personality and gameshow host (Password), husband of Betty White, born in Mineral Point, Wisconsin (d. 1981)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 61
+  },
+  {
+    "id": 291,
+    "year": "1922",
+    "original": "Bil Keane, American cartoonist (The Family Circus), born in Philadelphia, Pennsylvania (d. 2011)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 62
+  }
+]

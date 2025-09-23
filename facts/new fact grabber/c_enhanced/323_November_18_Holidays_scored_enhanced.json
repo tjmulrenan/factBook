@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Sip, Sip, Hooray for Apple Cider Day!",
+    "story": "Every November 18, people across America celebrate National Apple Cider Day by warming up with this delicious fall drink! Families visit apple orchards, cider mills, and farmers markets to buy fresh-pressed cider made from crisp apples. Some people heat it up with cinnamon and spices to make it extra cozy, while others enjoy it cold and refreshing. Coffee shops and restaurants often feature special cider drinks on their menus today. Many families even make their own cider at home using apple juice and warm spices, filling their kitchens with amazing autumn smells!",
+    "activity_question": "What spice do people commonly add to warm apple cider?",
+    "activity_choices": [
+      "Cinnamon",
+      "Pepper",
+      "Salt",
+      "Mustard"
+    ],
+    "activity_answer": "Cinnamon",
+    "bonus_fact": "It takes about 36 apples to make one gallon of apple cider!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "902",
+    "title": "Soup-erb Cold Comfort on National Vichyssoise Day",
+    "story": "Slurp up something surprising on November 18 — National Vichyssoise Day celebrates a soup that's meant to be eaten cold! This creamy potato and leek soup sounds fancy, but it's basically cold mashed potatoes in liquid form. Restaurants and home cooks serve up bowls of this chilled French soup, often topped with fresh chives. Some people think eating cold soup is weird, but vichyssoise fans say it's refreshing and perfect for any season.",
+    "activity_question": "What makes vichyssoise different from most other soups?",
+    "activity_choices": [
+      "It's served cold instead of hot",
+      "It's made with ice cream",
+      "It glows in the dark",
+      "It's eaten with a fork"
+    ],
+    "activity_answer": "It's served cold instead of hot",
+    "bonus_fact": "Vichyssoise was actually invented in New York, not France!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "903",
+    "title": "Mickey Mouse Gets His Special Day!",
+    "story": "Every November 18, Disney fans around the world celebrate Mickey Mouse Day! People wear Mickey ears, watch classic cartoons, and share their favorite Mickey memories on social media. Disney parks throw extra-special parties with parades, character meet-and-greets, and Mickey-shaped treats like cookies and ice cream. Families gather to watch old Mickey cartoons together, from black-and-white classics to modern adventures. Kids draw pictures of the famous mouse, and some even dress up like him with big round ears and red shorts. Disney stores offer special Mickey merchandise, and movie theaters sometimes show vintage Mickey shorts. It's a day to celebrate the mouse who started it all and brought joy to millions of people for nearly a century!",
+    "activity_question": "What do people commonly wear to celebrate Mickey Mouse Day?",
+    "activity_choices": [
+      "Mickey ears",
+      "Princess crowns",
+      "Superhero capes",
+      "Cowboy hats"
+    ],
+    "activity_answer": "Mickey ears",
+    "follow_up_question": "What's your favorite Mickey Mouse cartoon or memory?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 95
+  }
+]

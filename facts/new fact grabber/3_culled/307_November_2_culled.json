@@ -1,0 +1,542 @@
+[
+  {
+    "id": 113,
+    "year": "2000",
+    "original": "The first crew arrives at the International Space Station",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 1
+  },
+  {
+    "id": 168,
+    "year": "1983",
+    "original": "\"Thriller\" single released worldwide byMichael Jackson",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 2
+  },
+  {
+    "id": 123,
+    "year": "2020",
+    "original": "Baby Shark by Pinkfong becomes the most-watched video on YouTube with over 7.04 billion views",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 3
+  },
+  {
+    "id": 297,
+    "year": "1927",
+    "original": "Steve Ditko, American comic artist and co-creator of Spider-Man and Doctor Strange, born in Johnstown, Pennsylvania (d. 2018)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 4
+  },
+  {
+    "id": 45,
+    "year": "1932",
+    "original": "The \"Great Emu War\" begins: Australian soldiers armed with Lewis Guns seek to cull the Emu population over crop destruction in Campion district, Western Australia",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 5
+  },
+  {
+    "id": 22,
+    "year": "1886",
+    "original": "German patent granted to inventor Carl Benz for \"vehicle with gas engine operation\", the first automobile (No. DE37435C)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 6
+  },
+  {
+    "id": 120,
+    "year": "2016",
+    "original": "Baseball World Series: Chicago Cubs beat Cleveland Indians, 8-7 in Game 7 at Progressive Field, Cleveland; first Cubs' title in 108 years; MVP: Chicago utility Ben Zobrist",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 7
+  },
+  {
+    "id": 148,
+    "year": "1947",
+    "original": "Howard Hughesflies \"Spruce Goose\", a huge wooden airplane for the first and last time",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 8
+  },
+  {
+    "id": 157,
+    "year": "1965",
+    "original": "Craig Breedlovedriving FIA-legal four-wheeler, Sonic I, breaks land speed record with a two-run average of 555.483 mph (893.963 km/h) at the Bonneville Salt Flats, Utah",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 9
+  },
+  {
+    "id": 287,
+    "year": "1921",
+    "original": "Bill Mosienko, Canadian Hockey Hall of Fame right wing (fastest hat trick in NHL history, 21 seconds 1952; 5-time All Star), born in Winnipeg, Manitoba (d. 1994)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 10
+  },
+  {
+    "id": 166,
+    "year": "1978",
+    "original": "Wayne Gretzkyis sold to the Edmonton Oilers after just 8 games with the Indianapolis Racers of the WHA (scoring 6 points); scores 104 points in 72 games (both teams combined) and is named WHA rookie of the year",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 11
+  },
+  {
+    "id": 169,
+    "year": "1983",
+    "original": "US PresidentRonald Reagansigns bill establishing DrMartin Luther King Jr.holiday",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 12
+  },
+  {
+    "id": 195,
+    "year": "2023",
+    "original": "Apple Records release the last Beatles song \"Now and Then\" as a double A-sided single, backed with their first \"From Me To You\"; the new song was built from an unfinished 1978John Lennondemo and 1995 attempt to complete it that had been abandoned due to technical issues, resolved by new technology",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 13
+  },
+  {
+    "id": 98,
+    "year": "1990",
+    "original": "Golden State Warriors register a 162-158 win over the Denver Nuggets at McNichols Arena, with the 320 total points setting an NBA record for most points scored by 2 teams in a non-overtime game",
+    "score": 98,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 14
+  },
+  {
+    "id": 101,
+    "year": "1991",
+    "original": "Nevada makes biggest comeback in NCAA football history, overcoming a 35 point 3rd quarter deficit to rally and beat Weber State, 55-49",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 15
+  },
+  {
+    "id": 134,
+    "year": "1783",
+    "original": "GeneralGeorge Washington, later 1st US President, bids farewell to his army after the American Revolutionary War",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 16
+  },
+  {
+    "id": 63,
+    "year": "1957",
+    "original": "The Levelland UFO Case in Levelland, Texas, generates national publicity, remains one of the most impressive UFO cases in American history",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 17
+  },
+  {
+    "id": 187,
+    "year": "2011",
+    "original": "Prodigious Portuguese strikerCristiano Ronaldoscores his 100th goal for Real Madrid in his 105th game for the club in a 2-0 Champions League win over Olympique Lyon",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 18
+  },
+  {
+    "id": 160,
+    "year": "1972",
+    "original": "Philadelphia Phillies pitcherSteve Carltonis unanimously selected National League Cy Young Award winner; wins 27 games for Phillies, who as a team win only 59 games",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 37
+  },
+  {
+    "id": 197,
+    "year": "1898",
+    "original": "Cheerleading begins in the United States as Johnny Campbell leads the crowd cheering on the football team at the University of Minnesota",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 20
+  },
+  {
+    "id": 111,
+    "year": "1997",
+    "original": "NFL  San Diego Chargers Eric Metcalf returns punts for touchdowns of 85 & 67 yards in 38-31 loss at Cincinnati; joins Hall of Famer Jack Christiansen as only players in NFL history to return punts for TDs twice in a game",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 21
+  },
+  {
+    "id": 92,
+    "year": "1985",
+    "original": "LA Kings score 5 goals in a span of 5:37, the fastest in NHL team history; rout Hartford Whalers, 8-1 at Hartford Civic Center",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 22
+  },
+  {
+    "id": 329,
+    "year": "1942",
+    "original": "(Roberta) \"Bobbi\" Gibb, American runner (unsanctioned era female winner of Boston Marathon, 1966-68), lawyer, writer, and sculptor, born in Cambridge, Massachusetts",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 23
+  },
+  {
+    "id": 301,
+    "year": "1929",
+    "original": "Amar Bose, American electrical engineer, academic (M.I.T.), sound engineer, inventor, and entrepreneur (Bose Corporation), born in Philadelphia, Pennsylvania (d. 2013)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 24
+  },
+  {
+    "id": 333,
+    "year": "1944",
+    "original": "Jeffrey Alan Hoffman, American NASA astronaut (STS 51-D, 35, 46, 61, 75) and MIT professor, born in Brooklyn, New York",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 25
+  },
+  {
+    "id": 179,
+    "year": "1997",
+    "original": "Rodgers & Hammerstein's television musical \"Cinderella\", starringBrandy Norwood,Whitney Houston, andBernadette Peterspremieres on ABC-TV",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 26
+  },
+  {
+    "id": 122,
+    "year": "2019",
+    "original": "9th Rugby World Cup, Yokohama: South African fly-half Handré Pollard lands 6 penalties and 2 conversions as Springboks beat favourites England, 32-12 for their 3rd title",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 27
+  },
+  {
+    "id": 185,
+    "year": "2008",
+    "original": "British McLaren driverLewis Hamiltonfinishes 4th in season-ending Brazilian Grand Prix at Autódromo José Carlos Pace to clinch his first F1 World Drivers Championship by 1 point from Felipe Massa",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 28
+  },
+  {
+    "id": 119,
+    "year": "2014",
+    "original": "New York City Marathon: Wilson Kipsang of Kenya wins in 2:10:59; compatriot Mary Keitany wins first of 3 straight women's titles in 2:25:07",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 29
+  },
+  {
+    "id": 114,
+    "year": "2003",
+    "original": "New York City Marathon: Margaret Okayo of Kenya wins in 2:22:31 to break her own record; her countryman Martin Lel wins men's race in 2:10:30",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 30
+  },
+  {
+    "id": 360,
+    "year": "1957",
+    "original": "Carter Beauford, American drummer (Dave Matthews Band), born in Charlottesville, Virginia",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 32
+  },
+  {
+    "id": 361,
+    "year": "1958",
+    "original": "Willie McGee, American baseball outfielder (MLB All Star 1983, 85, 87-88; NL MVP 1985; St Louis Cardinals), born in San Francisco, California",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 33
+  },
+  {
+    "id": 369,
+    "year": "1961",
+    "original": "k.d. lang [Kathryn Dawn Lang], Canadian Juno and Grammy Award-winning country-pop singer-songwriter (\"Constant Craving\"; \"Hallelujah\"), and human rights activist, born in Edmonton, Alberta",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 34
+  },
+  {
+    "id": 381,
+    "year": "1964",
+    "original": "Lynn Nottage, American playwright (first woman playwright to win two Pulitzer Prizes - \"Ruined\" 2009, \"Sweat\" 2017), born in Brooklyn, New York",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 35
+  },
+  {
+    "id": 146,
+    "year": "1934",
+    "original": "MLB All-Star team led byConnie Mackand includingBabe Ruth,Jimmie FoxxandLou Gehrigstarts 18-game tour against Japanese Big-Six University League",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 36
+  },
+  {
+    "id": 170,
+    "year": "1986",
+    "original": "German tennis starBoris Beckerwins his third tournament in 3 weeks in different continents; beats Sergio Casal of Spain 6-4, 6-3, 7-6 in the final of the Paris Open after victories in Japan and Australia",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 40
+  },
+  {
+    "id": 159,
+    "year": "1971",
+    "original": "Retired boxerJersey Joe WalcottKO's William Strang in election for Sheriff of Camden County, New Jersey; first African-American to be elected to the position",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 41
+  },
+  {
+    "id": 162,
+    "year": "1973",
+    "original": "Apple Records releases \"Ringo\",Ringo Starr's third studio album, in the US; his biggest commercial and critical success, featuring the singles \"Photograph\", \"You're Sixteen\", and \"Oh My My\"",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 42
+  },
+  {
+    "id": 174,
+    "year": "1989",
+    "original": "\"BlackadderGoes Forth\" final episode \"Goodbyeee\" airs on BBC-TV starringRowan Atkinsonand Tony Robinson, written by Richard Curtis and Ben Elton",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 43
+  },
+  {
+    "id": 196,
+    "year": "2023",
+    "original": "Bletchley Declaration to assess and manage risks of ‘frontier’ AI signed at AI Safety Summit hosted byRishi Sunakat Bletchley Park, UK",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 44
+  },
+  {
+    "id": 82,
+    "year": "1977",
+    "original": "Microbiologist Carl R. Woese and scientists from the University of Illinois announce the identification of methanogens, a form of microbial life (Archaea) dating back some 3.5 billion years",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 45
+  },
+  {
+    "id": 132,
+    "year": "2023",
+    "original": "Storm Ciarán batters Northern Europe and Southern England with hurricane force winds, leaving 1.2 million in France without power and at least four dead",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 46
+  },
+  {
+    "id": 116,
+    "year": "2012",
+    "original": "New York City Marathon: cancelled because of the effects of Hurricane Sandy in NYC the week before",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 47
+  },
+  {
+    "id": 175,
+    "year": "1991",
+    "original": "2nd Rugby World Cup Final,Twickenham: Australia beats England, 12-6 with Wallabies fly-half Michael Lynagh landing 2 penalties and a conversion",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 48
+  },
+  {
+    "id": 102,
+    "year": "1992",
+    "original": "First test flight of Airbus A330",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 49
+  },
+  {
+    "id": 97,
+    "year": "1990",
+    "original": "First regular season game played outside North America by any major professional sports league the NBA's Phoenix Suns beat the Utah Jazz, 119-96 at the Tokyo Metropolitan Gymnasium in Japan",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 50
+  },
+  {
+    "id": 173,
+    "year": "1988",
+    "original": "Mexican radio station erroneously reportsMike Tysonhad died in car crash",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 60
+  },
+  {
+    "id": 238,
+    "year": "1885",
+    "original": "Harlow Shapley, American astronomer (Sun's position in galaxy), born in Nashville, Missouri (d. 1972)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 61
+  },
+  {
+    "id": 309,
+    "year": "1932",
+    "original": "Melvin Schwartz, American Physicist and Nobel Laureate (neutrinos - subatomic particles with no electric charge and virtually no mass), born in New York City (d. 2006)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 62
+  },
+  {
+    "id": 260,
+    "year": "1906",
+    "original": "Bengt Edlén, Swedish Astrophysicist who specialized in spectroscopy and discovered the source of unidentified emission lines in solar spectrum, born in Gusum, Sweden (d. 2003)",
+    "score": 68,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 63
+  },
+  {
+    "id": 75,
+    "year": "1972",
+    "original": "Construction begins on Kingdome, Seattle",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 73
+  },
+  {
+    "id": 84,
+    "year": "1978",
+    "original": "Crew of Soyuz 29 returns to Earth aboard Soyuz 31",
+    "score": 84,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 75
+  },
+  {
+    "id": 46,
+    "year": "1936",
+    "original": "At 3pm the BBC begins the world's first regular high-definition TV broadcast service from specially constructed studios at Alexandra Palace, North London",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 76
+  },
+  {
+    "id": 70,
+    "year": "1966",
+    "original": "KHSD TV channel 11 in Lead, SD (ABC) begins broadcasting",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 77
+  },
+  {
+    "id": 150,
+    "year": "1954",
+    "original": "BBC radio comedy \"Hancock's Half Hour\" debuts starringTony Hancockand Sid James, written by Ray Galton and Alan Simpson",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 78
+  },
+  {
+    "id": 138,
+    "year": "1898",
+    "original": "Austro-Hungarian Jewish activistTheodor Herzlarrives in Jerusalem",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 79
+  },
+  {
+    "id": 145,
+    "year": "1930",
+    "original": "Coronation of Ras Tafari Makonnen asHaile SelassieI, the 225th Emperor of the Ethiopian Solomonic Dynasty",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 80
+  },
+  {
+    "id": 144,
+    "year": "1928",
+    "original": "Dmitri Shostakovich's 1st Symphony premieres in US with Leopold Stokowski leading the Philadelphia Orchestra at The Academy of Music, Philadelpha",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 81
+  },
+  {
+    "id": 60,
+    "year": "1954",
+    "original": "Charles Diggs Jr is elected Michigan's 1st black congressman to the House of Representatives",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 82
+  },
+  {
+    "id": 23,
+    "year": "1889",
+    "original": "North Dakota becomes 39th & South Dakota becomes 40th state in the United States",
+    "score": 55,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 83
+  }
+]

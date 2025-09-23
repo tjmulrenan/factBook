@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "original": "National Oreo Cookie Day",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "National White Chocolate Cheesecake Day",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "National Frozen Food Day",
+    "score": 70,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "National Dentist's Day",
+    "score": 40,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 5,
+    "original": "Ghana Independence Day",
+    "score": 65,
+    "is_kid_friendly": true
+  }
+]

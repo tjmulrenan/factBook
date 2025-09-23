@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Deep Dish Dreams Come True",
+    "story": "Pizza lovers across America celebrate National Deep Dish Pizza Day every April 5 by diving into thick, cheesy slices that look more like pizza pies than regular pizza! This special day honors the famous Chicago-style deep dish pizza, which has a thick crust that creates walls around the edges to hold tons of cheese, chunky tomato sauce, and toppings. Restaurants offer special deals on these massive slices, and families gather to share whole deep dish pies that can take 45 minutes to bake. Social media fills with photos of people showing off their cheese pulls and sauce-covered faces after tackling these pizza giants!",
+    "activity_question": "What makes deep dish pizza different from regular pizza?",
+    "activity_choices": [
+      "It has a thick crust that creates walls to hold more toppings",
+      "It's always served cold",
+      "It only comes in one flavor",
+      "It's shaped like a triangle"
+    ],
+    "activity_answer": "It has a thick crust that creates walls to hold more toppings",
+    "follow_up_question": "What's your favorite pizza topping combination?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 92
+  },
+  {
+    "id": "902",
+    "title": "Sweet Sticky Caramel Celebration Day",
+    "story": "Every April 5, candy lovers across America celebrate National Caramel Day by indulging in this golden, chewy treat! People visit candy shops to buy caramel apples, salted caramels, and caramel popcorn. Bakeries sell extra caramel brownies, cookies, and cakes. Many families make homemade caramel sauce by melting sugar until it turns that perfect amber color. Social media fills with photos of caramel desserts and sticky fingers! Some people even try making caramel from scratch, though it can be tricky to get just right. Whether soft and gooey or hard and crunchy, caramel makes this sweet holiday absolutely delicious.",
+    "activity_question": "What happens to sugar when people make homemade caramel sauce?",
+    "activity_choices": [
+      "It gets melted until it turns amber colored",
+      "It gets mixed with chocolate chips",
+      "It gets frozen into ice cubes",
+      "It gets painted with food coloring"
+    ],
+    "activity_answer": "It gets melted until it turns amber colored",
+    "follow_up_question": "What's your favorite way to eat caramel - soft and chewy or hard and crunchy?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "903",
+    "title": "Getting Lost? Not on Map Day!",
+    "story": "Paper road maps are making a comeback on April 5 during National Read a Road Map Day! While most people use GPS on their phones, map lovers spread out giant paper maps to plan road trips the old-fashioned way. Families practice reading map symbols, finding shortcuts, and tracing routes with their fingers. Some people even host map-reading contests to see who can find destinations fastest without using technology!",
+    "activity_question": "What do families practice doing with paper maps on this holiday?",
+    "activity_choices": [
+      "Reading map symbols and finding shortcuts",
+      "Making paper airplanes",
+      "Drawing new countries",
+      "Folding them into hats"
+    ],
+    "activity_answer": "Reading map symbols and finding shortcuts",
+    "follow_up_question": "What's the trickiest part about reading a paper map compared to using GPS?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "904",
+    "title": "First Contact Day: When Aliens Meet Earthlings",
+    "story": "Star Trek fans around the world celebrate First Contact Day every April 5 to honor the moment when humans first met aliens in the famous TV show. On this special day, Trekkies wear their Starfleet uniforms, watch classic episodes, and gather at conventions to discuss space exploration. Many fans post photos online showing off their Vulcan ear tips and giving the iconic Vulcan salute. Some even organize stargazing parties, hoping to spot real UFOs in the night sky. It's a day when science fiction becomes a celebration of friendship across the galaxy!",
+    "activity_question": "What do Star Trek fans often wear on First Contact Day?",
+    "activity_choices": [
+      "Starfleet uniforms",
+      "Superhero capes",
+      "Pirate costumes",
+      "Medieval armor"
+    ],
+    "activity_answer": "Starfleet uniforms",
+    "follow_up_question": "If you could meet an alien species, what would you want to ask them first?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  }
+]

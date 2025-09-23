@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "original": "National Dog Biscuit Day",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "National Banana Bread Day",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "Defender of the Fatherland Day",
+    "score": 32,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 4,
+    "original": "National Play Tennis Day",
+    "score": 65,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 5,
+    "original": "Curling Is Cool Day",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 6,
+    "original": "Diesel Engine Day",
+    "score": 60,
+    "is_kid_friendly": true
+  }
+]

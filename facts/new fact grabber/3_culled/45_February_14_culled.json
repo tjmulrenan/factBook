@@ -1,0 +1,542 @@
+[
+  {
+    "id": 113,
+    "year": "1990",
+    "original": "Space probe Voyager 1 takes a photograph of the entire solar system, the images transmitted in real-time with earth a 'pale blue dot'",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 1
+  },
+  {
+    "id": 115,
+    "year": "1992",
+    "original": "American sprinter Andre Cason runs world record 60m indoor (6.41s) in Madrid, Spain",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 2
+  },
+  {
+    "id": 177,
+    "year": "1984",
+    "original": "Britain'sJayne TorvillandChristopher Deanfamously dominate ice dancing at the Sarajevo Winter Olympics, performing toMaurice Ravel's \"Bolero\" in their free dance routine and recording 9-of-9 perfect scores for artistic impression",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 3
+  },
+  {
+    "id": 189,
+    "year": "2010",
+    "original": "Alexandre Bilodeauwins the gold medal in the freestyle skiing men's moguls event, becoming the first Canadian to win gold during an Olympic Games hosted in Canada",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 4
+  },
+  {
+    "id": 193,
+    "year": "2018",
+    "original": "American snowboarderShaun Whitewins an unprecedented 3rd Olympic halfpipe gold medal (previous 2006, 10) at the Pyeongchang Winter Games",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 5
+  },
+  {
+    "id": 96,
+    "year": "1972",
+    "original": "Luna 20 (Russia) launched to orbit & soft landing on Moon",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 6
+  },
+  {
+    "id": 109,
+    "year": "1989",
+    "original": "The first of 24 satellites of the Global Positioning System is placed in orbit",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 7
+  },
+  {
+    "id": 125,
+    "year": "2005",
+    "original": "Online video-sharing site YouTube is founded in San Mateo, California, by Steve Chen, Chad Hurley, and Jawed Karim",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 8
+  },
+  {
+    "id": 233,
+    "year": "1838",
+    "original": "Margaret E. Knight, American inventor (flat-bottomed paper bag), described as a \"female Thomas Edison\", born in York, Maine (d. 1914)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 10
+  },
+  {
+    "id": 241,
+    "year": "1859",
+    "original": "George Washington Gale Ferris Jr., American engineer and inventor (Ferris Wheel), born in Galesburg, Illinois (d. 1896)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 11
+  },
+  {
+    "id": 296,
+    "year": "1917",
+    "original": "Herbert A. Hauptman, American mathematician whose models for determining the chemical crystal structures vital for life revolutionized chemistry (Nobel 1985), born in New York City (d. 2011)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 12
+  },
+  {
+    "id": 26,
+    "year": "1894",
+    "original": "Venus is both a morning star & evening star",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 13
+  },
+  {
+    "id": 99,
+    "year": "1978",
+    "original": "First \"micro on a chip\" or microchip is patented by Texas Instruments",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 15
+  },
+  {
+    "id": 117,
+    "year": "1992",
+    "original": "Kieren John Perkins swims world record 800m freestyle (7:46.60)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 17
+  },
+  {
+    "id": 121,
+    "year": "2000",
+    "original": "Spacecraft NEAR Shoemaker enters orbit around asteroid 433 Eros, the first spacecraft to orbit an asteroid",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 18
+  },
+  {
+    "id": 170,
+    "year": "1967",
+    "original": "Aretha Franklinrecords her single \"Respect\" at Atlantic Studio in NYC; her rendition ofOtis Redding's tune becomes Billboard Song of the Year (1967)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 19
+  },
+  {
+    "id": 182,
+    "year": "1992",
+    "original": "Comedy film \"Wayne's World\" starringMike Myersand Dana Carvey, based on their Saturday Night Live sketch premieres",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 20
+  },
+  {
+    "id": 101,
+    "year": "1980",
+    "original": "US launches Solar Maximum Mission Observatory to study solar flares",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 25
+  },
+  {
+    "id": 134,
+    "year": "2013",
+    "original": "The Large Hadron Collider (LHC), the world's largest and highest-energy particle accelerator, will be switched off for two years for upgrading",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 26
+  },
+  {
+    "id": 149,
+    "year": "1747",
+    "original": "AstronomerJames Bradleypresents his discovery of the wobbling motion of the Earth on its axis to the Royal Society, London",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 29
+  },
+  {
+    "id": 160,
+    "year": "1931",
+    "original": "The original \"Dracula\" film starringBela Lugosias the titular vampire is released",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 31
+  },
+  {
+    "id": 169,
+    "year": "1966",
+    "original": "Wilt Chamberlainbreaks NBA career scoring record at 20,884 points",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 32
+  },
+  {
+    "id": 174,
+    "year": "1973",
+    "original": "Muhammad Alibeats British heavyweight boxing champion Joe Bugner by unanimous points decision in 12 rounds at Las Vegas Convention Centre",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 33
+  },
+  {
+    "id": 175,
+    "year": "1980",
+    "original": "Soviet cross-country skierNikolay Zimyatovwins first of 3 gold medals at the Lake Placid Winter Olympics when he takes out 30k event; also wins relay and 50k gold",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 34
+  },
+  {
+    "id": 250,
+    "year": "1878",
+    "original": "Julius Nieuwland, Belgian-American chemist (inventor of 1st synthetic rubber neoprene), born in Hansbeke, Belgium (d. 1936)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 35
+  },
+  {
+    "id": 280,
+    "year": "1911",
+    "original": "Willem J. Kolff, Dutch-American Physician and Biomedical Engineer (artificial kidney, hemodialysis), born in Leiden, Netherlands (d. 2009)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 36
+  },
+  {
+    "id": 339,
+    "year": "1936",
+    "original": "Takuo Aoyagi, Japanese engineer who invented the pulse oximeter, born in Niigata Prefecture, Japan (d. 2020)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 37
+  },
+  {
+    "id": 369,
+    "year": "1947",
+    "original": "Pham Tuan, Vietnamese fighter pilot and the first Vietnamese cosmonaut (Soyuz 37/36), born in Kiến Xương, Vietnam",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 38
+  },
+  {
+    "id": 84,
+    "year": "1963",
+    "original": "US launches communications satellite Syncom 1",
+    "score": 84,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 39
+  },
+  {
+    "id": 83,
+    "year": "1961",
+    "original": "Element 103, Lawrencium, is first produced in Berkeley, California, by bombarding a three-milligram target of three isotopes of californium with boron-10 and boron-11 nuclei from the Heavy Ion Linear Accelerator",
+    "score": 83,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 40
+  },
+  {
+    "id": 19,
+    "year": "1870",
+    "original": "Esther Morris appointed US' first female in Justice of the Peace in South Pass City, Wyoming, after previous justice, R.S. Barr, resigned to protest passage of Wyoming Territory's women's suffrage amendment in 1869",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 41
+  },
+  {
+    "id": 367,
+    "year": "1947",
+    "original": "Heidemarie Rosendahl, German athlete (Olympic gold FRG long jump, 4×100m relay, silver pentathlon 1972), born in Hückeswagen, Germany",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 43
+  },
+  {
+    "id": 152,
+    "year": "1844",
+    "original": "John C. Frémontand his party become the first Europeans to discover Lake Tahoe during his second expedition through the American West",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 44
+  },
+  {
+    "id": 223,
+    "year": "1804",
+    "original": "Otis Tufts, American machinist and inventor who built printing machines, steam engines, firefighting equipment and invented the steam pile driver, born in Cambridge, Massachusetts (d. 1869)",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 45
+  },
+  {
+    "id": 267,
+    "year": "1898",
+    "original": "Fritz Zwicky, Swiss astronomer (supernova, dark matter), born in Varna, Bulgaria (d. 1974)",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 46
+  },
+  {
+    "id": 20,
+    "year": "1870",
+    "original": "Seraph Young becomes the first woman to legally vote in the modern United States, two days after the Utah legislature passed a law allowing women the vote",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 47
+  },
+  {
+    "id": 41,
+    "year": "1921",
+    "original": "Fictional character Skeezix is discovered on the Wallet family's doorstep in Frank King's cartoon strip \"Gasoline Alley\"",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 48
+  },
+  {
+    "id": 89,
+    "year": "1968",
+    "original": "Norwegian 15k Olympic cross country champion Harald Grønningen wins his second gold medal of the Grenoble Winter Olympics in the 4 x 10k relay",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 51
+  },
+  {
+    "id": 145,
+    "year": "1556",
+    "original": "Akbar, aged 13, is crowned the 3rd Mughal Emperor, succeeding his late father Humayun at Kalanaur in the Punjab",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 54
+  },
+  {
+    "id": 165,
+    "year": "1957",
+    "original": "Southern Christian Leadership Conference organizes in New Orleans withMartin Luther King Jr.as its President",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 55
+  },
+  {
+    "id": 185,
+    "year": "1995",
+    "original": "Portland Trail Blazers tradeClyde Drexlerto the Houston Rockets, who end up winning the 1995 NBA Championship",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 56
+  },
+  {
+    "id": 282,
+    "year": "1912",
+    "original": "Juan Pujol Garcia, Spanish double agent (spied for Britain, codename Garbo, pretended to spy for Nazi Germany codename Arabel), born in Barcelona, Spain (d. 1988)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 58
+  },
+  {
+    "id": 318,
+    "year": "1932",
+    "original": "Banjo Matthews, American auto racing constructor (72% of winning cars in top NASCAR division 1974-85; 262 wins in 362 Cup races), born in Akron, Ohio (d. 1996)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 59
+  },
+  {
+    "id": 328,
+    "year": "1933",
+    "original": "Madhubala [Mumtaz Jehan Begum Dehlavi], Indian actress regarded as \"The Venus of Indian Cinema\", born in Delhi, India (d. 1969)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 60
+  },
+  {
+    "id": 352,
+    "year": "1942",
+    "original": "Ricardo Rodríguez, Mexican auto racer (youngest F1 driver ever to race for Ferrari), born in Mexico City (d. 1962)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 61
+  },
+  {
+    "id": 357,
+    "year": "1943",
+    "original": "Maceo Parker, American tenor saxophonist (James Brown; Parliament-Funkadelic, King's One, Mo' Roots), born in Kinston, North Carolina",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 62
+  },
+  {
+    "id": 360,
+    "year": "1945",
+    "original": "Gregory Hines, American actor and dancer (White Nights, Taps), born in New York City (d. 2003)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 63
+  },
+  {
+    "id": 68,
+    "year": "1950",
+    "original": "Moroney scores cricket twin centuries for Australia at Johannesburg",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 64
+  },
+  {
+    "id": 168,
+    "year": "1964",
+    "original": "British pop music duo Peter & Gordon release single \"A World Without Love\" (written byPaul McCartney, credited to Lennon-McCartney)",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 66
+  },
+  {
+    "id": 21,
+    "year": "1872",
+    "original": "1st US state bird refuge authorized (Lake Merritt, California)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 67
+  },
+  {
+    "id": 106,
+    "year": "1987",
+    "original": "Detroit Pistons-Philadelphia 76ers game draws crowd of 53,745 at Pontiac Silverdome, Pontiac; third largest crowd in NBA history; Pistons win, 125-107",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 69
+  },
+  {
+    "id": 178,
+    "year": "1985",
+    "original": "\"Whitney Houston\" debut album by Whitney Houston is released (Grammy Award Best Pop Vocal Performance, Female 1986, Billboard Album of Year 1986)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 72
+  },
+  {
+    "id": 196,
+    "year": "1797",
+    "original": "Battle of Cape St. Vincent: British fleet under Admiral Sir John Jervis defeats larger Spanish fleet under Admiral Don José de Córdoba y Ramos near Cape St. Vincent, Portugal. CaptainHoratio Nelsondistinguishes himself.",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 73
+  },
+  {
+    "id": 218,
+    "year": "1760",
+    "original": "Richard Allen, 1st African American ordained by Methodist-Episcopal church, born in Philadelphia, Pennsylvania (d. 1831)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 74
+  },
+  {
+    "id": 247,
+    "year": "1869",
+    "original": "Charles Wilson, Scottish physicist and meteorologist (Wilson cloud chamber-Nobel), born in Glencorse, Scotland (d. 1959)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 75
+  },
+  {
+    "id": 251,
+    "year": "1880",
+    "original": "Aida Overton Walker, African-American dancer and singer (In Dahomey; Salome), born in Richmond, Virginia (d. 1914)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 76
+  },
+  {
+    "id": 276,
+    "year": "1904",
+    "original": "Charles Oatley, English electrical engineer (developed scanning electron microscope), born in From, England (d. 1996)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 77
+  },
+  {
+    "id": 308,
+    "year": "1927",
+    "original": "Lois Maxwell [Hooker], Canadian actress (Goldfinger, Dr. No, Miss Moneypenny), born in Kitchener, Ontario (d. 2007)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 78
+  },
+  {
+    "id": 314,
+    "year": "1931",
+    "original": "Bernie \"Boom Boom\" Geoffrion, Canadian Hockey HOF right wing (11 x NHL All-star; 6 x Stanley Cup - Montreal Canadiens, New York Rangers) and coach (NY Rangers, Atlanta Flames, Montreal Canadiens), born in Montreal, Quebec (d. 2001)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 79
+  },
+  {
+    "id": 330,
+    "year": "1934",
+    "original": "Florence Henderson, American actress (The Brady Bunch - \"Carol\"), and singer, born in Dale, Indiana (d. 2016)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 80
+  }
+]

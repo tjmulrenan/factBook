@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "original": "May Day",
+    "score": 55,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "International Workers' Day",
+    "score": 30,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 3,
+    "original": "Labour Day",
+    "score": 55,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "National Purebred Dog Day",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 5,
+    "original": "National Mother Goose Day",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 6,
+    "original": "National Chocolate Parfait Day",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 7,
+    "original": "National Executive Coaching Day",
+    "score": 32,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 8,
+    "original": "National Loyalty Day",
+    "score": 38,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 9,
+    "original": "National Silver Star Service Banner Day",
+    "score": 32,
+    "is_kid_friendly": false
+  }
+]

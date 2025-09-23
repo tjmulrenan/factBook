@@ -1,0 +1,542 @@
+[
+  {
+    "id": 138,
+    "year": "2012",
+    "original": "Felix Baumgartner becomes the first skydiver to break the sound barrier, jumping from 24 miles above Earth",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 1
+  },
+  {
+    "id": 156,
+    "year": "2024",
+    "original": "NASA's Europa Clipper launches on a mission to investigate the subsurface ocean of Jupiter's moon Europa",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 2
+  },
+  {
+    "id": 172,
+    "year": "1947",
+    "original": "Chuck Yeagerin Bell XS-1 makes 1st supersonic flight (Mach 1.015)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 3
+  },
+  {
+    "id": 168,
+    "year": "1926",
+    "original": "A. A. Milne's book \"Winnie the Pooh\" released",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 4
+  },
+  {
+    "id": 184,
+    "year": "1964",
+    "original": "Martin Luther King Jr.announced as winner of the Nobel Peace Prize",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 5
+  },
+  {
+    "id": 165,
+    "year": "1892",
+    "original": "Arthur Conan Doylepublishes \"The Adventures of Sherlock Holmes\" collection of 12 stories originally published serially in \"The Strand Magazine\"",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 6
+  },
+  {
+    "id": 152,
+    "year": "2023",
+    "original": "Annular solar eclipse a 'ring of fire' visible across parts of the US, Mexico and South and Central America",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 7
+  },
+  {
+    "id": 148,
+    "year": "2020",
+    "original": "Details of the world's first room-temperature superconductor created by scientists at the University of Rochester, NY, published in \"Nature\"",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 8
+  },
+  {
+    "id": 124,
+    "year": "1987",
+    "original": "In Midland, Tx 1½-year-old Jessica McClure falls 22' (7m) down a well",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 9
+  },
+  {
+    "id": 199,
+    "year": "1986",
+    "original": "Nobel Peace Prize awarded to Auschwitz survivorElie Wiesel, for his efforts to ensure the Holocaust was remembered",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 10
+  },
+  {
+    "id": 92,
+    "year": "1968",
+    "original": "Viorica Viscopoleanu of Romania sets world record 6.82m to win the women's long jump at the Mexico City Olympics; beats Sheila Sherwood of Great Britain by 0.14m",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 32
+  },
+  {
+    "id": 195,
+    "year": "1979",
+    "original": "Edmonton OilersWayne Gretzkyscores his 1st NHL goal agsinst the Vancouver Canucks to tie the score at 4 with just over a minute remaining",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 12
+  },
+  {
+    "id": 84,
+    "year": "1965",
+    "original": "USAF test pilot Joe Engle in X-15 reaches altitude of 50.5 mi (81.3 km) and top speed of 3,554 mph (5,720 km/h) (Mach 5.08)",
+    "score": 84,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 13
+  },
+  {
+    "id": 157,
+    "year": "2024",
+    "original": "New largest-known prime number 2136279841-1. found by programmer Luke Durant, as part of the Great Internet Mersenne Prime Search",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 14
+  },
+  {
+    "id": 159,
+    "year": "2024",
+    "original": "Russian man rescued after 67 days adrift in an inflatable boat, after his brother and nephew died, in the Sea of Okhotsk in Russia's far east",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 15
+  },
+  {
+    "id": 26,
+    "year": "1912",
+    "original": "Bull Moose Teddy Roosevelt shot while campaigning in Milwaukee",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 16
+  },
+  {
+    "id": 130,
+    "year": "1994",
+    "original": "NASA Space probe Magellan burns up in atmosphere of Venus",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 17
+  },
+  {
+    "id": 164,
+    "year": "1884",
+    "original": "George Eastmanpatents paper strip photographic film",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 18
+  },
+  {
+    "id": 12,
+    "year": "1834",
+    "original": "First African-American granted a US patent, Henry Blair, for a corn planter",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 19
+  },
+  {
+    "id": 217,
+    "year": "1066",
+    "original": "Battle of Hastings: William, Duke of Normandy and his Norman army defeat the English forces of Harold II who is killed in the battle",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 20
+  },
+  {
+    "id": 294,
+    "year": "1910",
+    "original": "John Wooden, American basketball coach (UCLA-10 national championships), born in Hall, Indiana (d. 2010)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 21
+  },
+  {
+    "id": 308,
+    "year": "1925",
+    "original": "Lawrence Herkimer, \"Grandfather of Cheerleading\" (founded National Cheerleading Association, patented the pom-pom), born in Muskegon, Michigan (d. 2015)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 22
+  },
+  {
+    "id": 201,
+    "year": "1991",
+    "original": "Burmese opposition leaderAung San Suu Kyiwins Nobel Peace Prize",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 23
+  },
+  {
+    "id": 196,
+    "year": "1979",
+    "original": "TV adaptation ofHelen Keller's life story \"The Miracle Worker\" premieres on NBC, starring Melissa Gilbert in title role andPatty Duke, who played Keller in earlier stage and film productions, as teacher Anne Sullivan",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 24
+  },
+  {
+    "id": 343,
+    "year": "1946",
+    "original": "Craig Venter, American biotechnologist and geneticist (involved with the first draft sequence of the human genome), born in Salt Lake City, Utah",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 25
+  },
+  {
+    "id": 177,
+    "year": "1956",
+    "original": "Indian social reformerB.R. Ambedkarand 500,000 supporters convert to Buddhism in Nagpur",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 26
+  },
+  {
+    "id": 182,
+    "year": "1960",
+    "original": "Peace Corps 1st suggested byJohn F. Kennedyin a speech at the University of Michigan in Ann Arbor",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 27
+  },
+  {
+    "id": 88,
+    "year": "1968",
+    "original": "6.8 earthquake wrecks Australian town of Meckering, rupturing all nearby major roads and railways",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 28
+  },
+  {
+    "id": 81,
+    "year": "1964",
+    "original": "Mary Rand of Great Britain leaps a world record 6.76m to win the women's long jump gold medal at the Tokyo Olympics",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 31
+  },
+  {
+    "id": 149,
+    "year": "2021",
+    "original": "Record price for a Banksy artwork paid of 18.5 million pounds ($25.4 million) for \"Love is in the Bin\", that was famously shredded on purchase in 2018",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 30
+  },
+  {
+    "id": 188,
+    "year": "1968",
+    "original": "American sprinterJim Hinesruns a world record 9.95s to beat Lennox Miller of Jamaica and Charles Greene of the US, and win the 100m gold medal at the Mexico City Olympics",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 33
+  },
+  {
+    "id": 202,
+    "year": "1991",
+    "original": "NY Rangers right wingMike Gartnerbecomes 1st NHL player to score his 500th goal, 500th assist, and 1000th point all in the same season",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 34
+  },
+  {
+    "id": 143,
+    "year": "2018",
+    "original": "Afghan batsman Hazratullah Zazai becomes only the 6th player in cricket history (3rd in T20) to hit 6-sixes in an over; scores 62 in 17 balls in Kabul Zwanan loss v Balkh Legends in Afghanistan Premier League",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 35
+  },
+  {
+    "id": 91,
+    "year": "1968",
+    "original": "The Beatles finish recording their double album \"The Beatles\" more commonly known as \"The White Album\"",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 38
+  },
+  {
+    "id": 372,
+    "year": "1958",
+    "original": "Thomas Dolby [Robertson], British new-wave rock singer and musician (\"She Blinded Me With Science\"), born in London",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 41
+  },
+  {
+    "id": 421,
+    "year": "1988",
+    "original": "Ocean Vuong [Vương Quốc Vinh], Vietnamese-American poet (Night Sky with Exit Wounds), and novelist (On Earth We're Briefly Gorgeous), born in Hồ Chí Minh City, Vietnam",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 42
+  },
+  {
+    "id": 410,
+    "year": "1976",
+    "original": "Tillakaratne Dilshan, Sri Lankan cricket all-rounder (87 Tests, 16 x 100, HS 193, 39 wickets; 330 ODIs; 80 T20Is), born in Kalutara, Sri Lanka",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 44
+  },
+  {
+    "id": 204,
+    "year": "2001",
+    "original": "German Ferrari driverMichael Schumacherwins his 4th F1 World Drivers Championship by 58 points from David Coulthard; takes out Japanese GP at Suzuka for 9th win of the season",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 47
+  },
+  {
+    "id": 83,
+    "year": "1964",
+    "original": "US 4 x 100m freestyle relay team of Steve Clark, Mike Austin, Gary Ilman & Don Schollander swim world record 3:33.2 to beat Germany by 4.0s and win the gold medal at the Tokyo Olympics",
+    "score": 83,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 49
+  },
+  {
+    "id": 78,
+    "year": "1964",
+    "original": "American swimmer Cathy Ferguson sets world record 1:07.7 to beat Kiki Caron of France by 0.2s and win the women's 100m backstroke gold medal at the Tokyo Olympics",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 51
+  },
+  {
+    "id": 87,
+    "year": "1968",
+    "original": "1st live telecast from a manned US spacecraft (Apollo 7)",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 52
+  },
+  {
+    "id": 104,
+    "year": "1976",
+    "original": "Soyuz 23 carries 2 to Salyut 6, but returns without docking",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 54
+  },
+  {
+    "id": 160,
+    "year": "1322",
+    "original": "Robert the Bruceof Scotland defeats KingEdward IIof England at Byland, forcing Edward to accept Scotland's independence",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 58
+  },
+  {
+    "id": 95,
+    "year": "1969",
+    "original": "The United Kingdom introduces the 50p (fifty-pence) coin, replacing the ten-shilling note, in anticipation of currency decimalisation in 1971",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 59
+  },
+  {
+    "id": 90,
+    "year": "1968",
+    "original": "MLB National League expansion draft: San Diego Padres pick San Francisco Giants outfielder 'Downtown' Ollie Brown and Montreal Expos pick Pittsburgh Pirates outfielder Manny Mota 1st as they choose 30 players each",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 60
+  },
+  {
+    "id": 82,
+    "year": "1964",
+    "original": "Philips begins experimenting with color TV",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 61
+  },
+  {
+    "id": 126,
+    "year": "1988",
+    "original": "Naguib Mahfouz is the 1st Arabic writer to win the Nobel Prize in Literature",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 62
+  },
+  {
+    "id": 193,
+    "year": "1978",
+    "original": "1st TV movie from a TV series - \"Rescue fromGilligan's Island\" continues the story of shipwreck sitcom from1964–67; 6 of the 7 original castaways reprise their roles",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 63
+  },
+  {
+    "id": 170,
+    "year": "1930",
+    "original": "George GershwinandIra Gershwin's musical \"Girl Crazy\" starringGinger Rogersand featuring debut ofEthel Merman, opens at the Alvin Theater, NYC; runs for 272 performances",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 64
+  },
+  {
+    "id": 175,
+    "year": "1952",
+    "original": "One of the most influential of all Modernist buildings the Unité d’Habitation, designed byLe Corbusieris officially inaugurated in Marseille, France",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 65
+  },
+  {
+    "id": 178,
+    "year": "1957",
+    "original": "Canadian Secretary of State for External AffairsLester B. Pearsonwins Nobel Peace Prize, for his aid in resolving the Suez Crisis; the 1st Canadian to win the award",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 66
+  },
+  {
+    "id": 173,
+    "year": "1947",
+    "original": "DutchQueen Wilhelminagives golden award to generalEisenhower",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 67
+  },
+  {
+    "id": 190,
+    "year": "1975",
+    "original": "US PresidentGerald Fordescapes injury when his limousine is struck broadside",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 68
+  },
+  {
+    "id": 6,
+    "year": "1773",
+    "original": "American Revolutionary War: The United Kingdom's East India Company tea ships' cargo are burned at Annapolis, Maryland",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 69
+  },
+  {
+    "id": 8,
+    "year": "1774",
+    "original": "1st Continental Congress makes Declaration of Colonial Rights in Philadelphia",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 70
+  },
+  {
+    "id": 20,
+    "year": "1867",
+    "original": "15th and last Tokugawa Shogun, Tokugawa Yoshinobu resigns in Japan",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 71
+  },
+  {
+    "id": 25,
+    "year": "1911",
+    "original": "Largest baseball crowd ever 38,281 (Polo Grounds) see Giants beat A's, 2-1 (gate is record $77,379)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 72
+  },
+  {
+    "id": 58,
+    "year": "1951",
+    "original": "NFL Detroit Lions Jack Christiansen returns 2 punts for touchdowns vs Los Angeles Rams",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 73
+  },
+  {
+    "id": 111,
+    "year": "1979",
+    "original": "NHL Philadelphia Flyers beat Toronto Maple Leafs 4-3, starting what becomes a 35-game unbeaten streak",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 75
+  },
+  {
+    "id": 70,
+    "year": "1958",
+    "original": "The District of Columbia Bar Association votes to accept black Americans as members.",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 80
+  }
+]

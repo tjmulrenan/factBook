@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Heroes in Scrubs Get Their Day",
+    "story": "Every May 12, the world celebrates International Nurses Day to honor the amazing people who take care of us when we're sick or hurt. Hospitals hang special banners, patients write thank-you cards, and communities organize parades for their local nurses. Many people wear white or post heart emojis on social media to show appreciation. Some schools even invite nurses to speak about their important work saving lives every single day.",
+    "activity_question": "How do people commonly show appreciation for nurses on International Nurses Day?",
+    "activity_choices": [
+      "Write thank-you cards and hang banners",
+      "Give them free pizza for a year",
+      "Sing lullabies outside hospitals",
+      "Plant flowers in their honor"
+    ],
+    "activity_answer": "Write thank-you cards and hang banners",
+    "follow_up_question": "What would you write in a thank-you card to a nurse who helped you?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "902",
+    "title": "Silly Poems and Giggles Galore",
+    "story": "People celebrate National Limerick Day on May 12 by writing and sharing the silliest five-line poems you've ever heard! A limerick follows a special pattern where the first, second, and fifth lines rhyme, while the third and fourth lines rhyme with each other. Kids and adults post their funniest creations online, teachers hold limerick contests in classrooms, and families challenge each other to come up with the most ridiculous verses about everything from purple cats to dancing pickles. The goofier and more nonsensical, the better!",
+    "activity_question": "How many lines does a limerick have?",
+    "activity_choices": [
+      "Three lines",
+      "Five lines",
+      "Seven lines",
+      "As many lines as a giraffe has spots"
+    ],
+    "activity_answer": "Five lines",
+    "follow_up_question": "What's the silliest topic you could write a limerick about?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "903",
+    "title": "Fudge-tastic Fun on National Nutty Fudge Day",
+    "story": "Every May 12, candy lovers across America celebrate National Nutty Fudge Day by indulging in the sweetest, chewiest treat imaginable! People visit candy shops, bake homemade fudge with their favorite nuts like walnuts, pecans, or almonds, and share photos of their gooey creations on social media. Some families host fudge-making parties where everyone gets messy stirring chocolate and adding crunchy surprises. Bakeries often create special nutty fudge flavors just for this day, and many people gift boxes of fudge to friends and coworkers to spread the sugary joy around.",
+    "activity_question": "What do people commonly add to fudge on National Nutty Fudge Day?",
+    "activity_choices": [
+      "Nuts like walnuts and pecans",
+      "Pickles and mustard",
+      "Ice cubes",
+      "Glitter and stickers"
+    ],
+    "activity_answer": "Nuts like walnuts and pecans",
+    "bonus_fact": "Fudge was accidentally invented in the 1880s when a candy maker messed up a caramel recipe!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  }
+]

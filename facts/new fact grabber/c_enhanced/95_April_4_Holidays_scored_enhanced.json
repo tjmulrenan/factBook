@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Orange You Glad It's Vitamin C Day?",
+    "story": "Every April 4, people celebrate National Vitamin C Day by loading up on citrus fruits and healthy snacks! Families squeeze fresh orange juice, munch on strawberries, and share colorful fruit salads. Schools often serve extra oranges at lunch, while health enthusiasts post pictures of their vitamin-packed smoothies online. It's a delicious way to boost your immune system!",
+    "activity_question": "What do families commonly do to celebrate National Vitamin C Day?",
+    "activity_choices": [
+      "Squeeze fresh orange juice and eat fruit salads",
+      "Plant orange trees in their backyard",
+      "Write letters to vitamin companies",
+      "Wear orange clothing all day long"
+    ],
+    "activity_answer": "Squeeze fresh orange juice and eat fruit salads",
+    "bonus_fact": "One orange contains more than 100% of your daily vitamin C needs!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 50
+  },
+  {
+    "id": "902",
+    "title": "Fancy French Food Gets Its Day",
+    "story": "Chefs everywhere roll up their sleeves on April 4 for National Cordon Bleu Day! This special day celebrates the famous dish where chicken gets stuffed with ham and cheese, then breaded and fried until golden. Restaurants serve their best versions while home cooks try making this tricky French recipe themselves.",
+    "activity_question": "What gets stuffed inside the chicken in cordon bleu?",
+    "activity_choices": [
+      "Ham and cheese",
+      "Bacon and spinach",
+      "Turkey and lettuce",
+      "Pickles and mustard"
+    ],
+    "activity_answer": "Ham and cheese",
+    "bonus_fact": "\"Cordon bleu\" means \"blue ribbon\" in French, like a cooking prize!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 45
+  },
+  {
+    "id": "903",
+    "title": "National Walk Around Things Day Gets Silly",
+    "story": "Every April 4, people celebrate National Walk Around Things Day by doing exactly what it sounds like - walking around stuff instead of through it! Instead of cutting through the park, you stroll around its edges. Rather than walking through doorways normally, you might take the long way around furniture or trees. Some families make it a game, timing how long it takes to walk around their house, car, or even the grocery store. Social media fills with videos of people taking the scenic route around everything from puddles to playground equipment. It's a wonderfully weird way to slow down and notice your surroundings while getting extra steps in your day.",
+    "activity_question": "What do people do differently on National Walk Around Things Day?",
+    "activity_choices": [
+      "Walk around objects instead of through or past them",
+      "Walk backwards everywhere they go",
+      "Walk only in straight lines all day",
+      "Walk while wearing funny costumes"
+    ],
+    "activity_answer": "Walk around objects instead of through or past them",
+    "follow_up_question": "What's the biggest thing in your neighborhood you could walk around?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  }
+]

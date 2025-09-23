@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "St. Nicholas: The Original Gift-Giver",
+    "story": "Children across Europe wake up extra early on December 6 for St. Nicholas Day! They rush to check their shoes, which they left by the door the night before. If they've been good, St. Nicholas has filled them with candy, coins, and small toys. If they've been naughty, they might find coal or sticks instead. This special day honors the real Saint Nicholas, a generous man who secretly gave gifts to poor families long ago. Today, kids in countries like Germany, Netherlands, and Poland celebrate by singing songs, eating special cookies, and sharing treats with friends.",
+    "activity_question": "What do children leave by the door on St. Nicholas Day?",
+    "activity_choices": [
+      "Their shoes",
+      "Their backpacks",
+      "Their pillows",
+      "Their homework"
+    ],
+    "activity_answer": "Their shoes",
+    "bonus_fact": "Saint Nicholas is the inspiration for the modern Santa Claus we know today!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "902",
+    "title": "Finland's Freedom Day",
+    "story": "Every December 6, Finland celebrates its independence with a day full of pride and tradition! Finnish families light two blue and white candles in their windows to honor their country's colors. The President hosts a fancy reception where everyone dresses up and shakes hands for hours. Many people visit cemeteries to place candles on veterans' graves, creating a beautiful glow across the snowy landscape. It's a peaceful way to remember freedom.",
+    "activity_question": "What do Finnish families put in their windows on Independence Day?",
+    "activity_choices": [
+      "Two blue and white candles",
+      "Finnish flags",
+      "Pictures of the President",
+      "Snowflakes made of paper"
+    ],
+    "activity_answer": "Two blue and white candles",
+    "bonus_fact": "The President's handshake reception can last over 4 hours with thousands of guests!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  }
+]

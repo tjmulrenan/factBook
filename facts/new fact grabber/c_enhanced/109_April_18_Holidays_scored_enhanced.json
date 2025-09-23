@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Crackers That Roar and Soar!",
+    "story": "Tiny lions, elephants, and zebras march across kitchen tables everywhere on April 18 for National Animal Crackers Day! People celebrate by munching on these sweet, crunchy treats that have delighted kids for over a century. Families share boxes of the famous circus-themed cookies, play games like \"guess the animal before you bite,\" and post photos of their favorite shapes on social media. Some people even use animal crackers to build edible zoos or act out silly stories before gobbling them up. It's the perfect day to let your snacks run wild!",
+    "activity_question": "What do some families do with animal crackers to celebrate this holiday?",
+    "activity_choices": [
+      "Build edible zoos and act out stories",
+      "Paint them different colors",
+      "Plant them in gardens",
+      "Use them as bookmarks"
+    ],
+    "activity_answer": "Build edible zoos and act out stories",
+    "bonus_fact": "Animal crackers were first sold in circus wagon boxes with string handles like little suitcases!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Treasures Around the World Day",
+    "story": "Every April 18, people celebrate World Heritage Day to honor amazing places around the globe! This special day helps us remember incredible sites like the Great Wall of China, Machu Picchu, and the pyramids of Egypt. Schools organize virtual tours of famous landmarks, museums offer free visits, and families share photos of heritage sites they've visited. People post pictures online using special hashtags to spread awareness about protecting these treasures for future generations.",
+    "activity_question": "What do schools often organize on World Heritage Day?",
+    "activity_choices": [
+      "Virtual tours of famous landmarks",
+      "Cooking contests with ancient recipes",
+      "Treasure hunts in the playground",
+      "Dance parties with world music"
+    ],
+    "activity_answer": "Virtual tours of famous landmarks",
+    "follow_up_question": "Which heritage site would you most like to visit and why?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 62
+  }
+]

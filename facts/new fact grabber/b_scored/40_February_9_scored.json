@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "original": "National Pizza Day",
+    "score": 95,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "National Bagels and Lox Day",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "National Toothache Day",
+    "score": 42,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 4,
+    "original": "Read in the Bathtub Day",
+    "score": 80,
+    "is_kid_friendly": true
+  }
+]

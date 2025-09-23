@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "original": "Valentine's Day",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "National Ferris Wheel Day",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "National Organ Donor Day",
+    "score": 25,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 4,
+    "original": "National Cream-Filled Chocolates Day",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 5,
+    "original": "Library Lovers Day",
+    "score": 65,
+    "is_kid_friendly": true
+  }
+]

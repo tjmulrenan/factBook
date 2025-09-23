@@ -1,0 +1,542 @@
+[
+  {
+    "id": 135,
+    "year": "1968",
+    "original": "Frank Borman,Jim Lovell, and William Anders become the first people to orbit the Moon aboard Apollo 8",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 1
+  },
+  {
+    "id": 92,
+    "year": "1997",
+    "original": "A Channukah candle is officially lighted in Vatican City for the 1st time to celebrate Hanukkah and to reconcile Roman Catholics and Jews",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 2
+  },
+  {
+    "id": 107,
+    "year": "1690",
+    "original": "English astronomerJohn Flamsteedobserves Uranus without realizing it's undiscovered",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 3
+  },
+  {
+    "id": 143,
+    "year": "1978",
+    "original": "NY Islanders centerBryan Trottiersets NHL record scoring 6 points - 4 goals & 2 assists - in 2nd period of 9-4 win over rival NY Rangers; adds goal & assist for game total 8 points; Islanders undefeated home streak stands at 16 games",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 4
+  },
+  {
+    "id": 176,
+    "year": "1790",
+    "original": "Jean-François Champollion, French scolar who deciphered Egyptian hieroglyphics with Rosetta Stone, born in Figeac, France (d. 1832)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 5
+  },
+  {
+    "id": 4,
+    "year": "1672",
+    "original": "Giovanni Cassini discovers Rhea, a satellite of Saturn",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 6
+  },
+  {
+    "id": 35,
+    "year": "1938",
+    "original": "Discovery of the first modern coelacanth in South Africa",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 7
+  },
+  {
+    "id": 71,
+    "year": "1972",
+    "original": "\"Immaculate Reception\" Steelers turns around a 7-6 defeat with a last second touchdown reception against Raiders to win 13-7",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 8
+  },
+  {
+    "id": 131,
+    "year": "1947",
+    "original": "Transistor invented byJohn Bardeen,Walter H. BrattainandWilliam Shockleyis first publicly demonstrated at Bell Laboratories in Murray Hill, New Jersey",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 9
+  },
+  {
+    "id": 10,
+    "year": "1823",
+    "original": "\"Visit from St Nicholas\" by C Moore published in Troy (NY) Sentinel",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 10
+  },
+  {
+    "id": 85,
+    "year": "1986",
+    "original": "Experimental airplane Voyager, piloted by Dick Rutan & Jeana Yeager, complete 1st nonstop, round-the-world flight without refueling lands at Edwards Air Force Base in California's Mojave Desert, 9 days after taking off from the same location",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 11
+  },
+  {
+    "id": 119,
+    "year": "1912",
+    "original": "First \"KeystoneKops\" silent slapstick comedy film, entitled \"Hoffmeyer's Legacy\" is released",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 12
+  },
+  {
+    "id": 154,
+    "year": "1938",
+    "original": "Margaret Hamilton's costume catches fire while filming \"The Wizard of Oz\"",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 13
+  },
+  {
+    "id": 277,
+    "year": "1938",
+    "original": "Robert Kahn, American internet pioneer (Transmission Control Protocol/Internet Protocol), born in Brooklyn, New York",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 14
+  },
+  {
+    "id": 103,
+    "year": "2024",
+    "original": "Ugandan-English runner and human rights activist Deo Kato (37) completes trek from Cape Town, South Africa to London, England to highlight the story of human migration;  8,230-mile journey took 518 days",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 15
+  },
+  {
+    "id": 132,
+    "year": "1948",
+    "original": "\"Cinderella\" the first full-length ballet byFrederick Ashtonwith music bySergei Prokofievis first presented by Sadler's Wells Ballet at Covent Garden, London",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 16
+  },
+  {
+    "id": 170,
+    "year": "1722",
+    "original": "Axel Fredrik Cronstedt, Swedish Chemist who discovered nickel and tungsten, born in Turinge, Sweden (d. 1765)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 17
+  },
+  {
+    "id": 97,
+    "year": "2004",
+    "original": "Macquarie Island in the Southern Ocean is hit by an 8.1 magnitude earthquake",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 18
+  },
+  {
+    "id": 48,
+    "year": "1951",
+    "original": "National Football League Championship, LA Memorial Coliseum: Los Angeles Rams beat Cleveland Browns, 24-17; first coast-to-coast televised NFL title game",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 19
+  },
+  {
+    "id": 49,
+    "year": "1952",
+    "original": "Alain Bombard arrives in Barbados after 65 days at sea proving his theory that a shipwrecked person could survive with almost no provisions, despite having lost 25 kg (65 lbs) in weight",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 20
+  },
+  {
+    "id": 66,
+    "year": "1968",
+    "original": "First US case of space motion sickness",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 21
+  },
+  {
+    "id": 75,
+    "year": "1972",
+    "original": "New York Islanders end 15 games winless streak",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 22
+  },
+  {
+    "id": 91,
+    "year": "1996",
+    "original": "Four women are ordained as priests in Jamaica, the first in 330 years of Anglican history",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 23
+  },
+  {
+    "id": 148,
+    "year": "1997",
+    "original": "Colorado AvalancheJari Kurriis 8th NHLer to score 600 career goals",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 24
+  },
+  {
+    "id": 149,
+    "year": "2022",
+    "original": "Washington Capitals left wingAlex Ovechkinscores two goals to move pastGordie Howefor second place on most NHL career goals list in 4-1 win over visiting Winnipeg Jets",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 25
+  },
+  {
+    "id": 188,
+    "year": "1827",
+    "original": "Étienne Léopold Trouvelot, French-American artist and astronomer called “the Audubon of the Sky”, born in Aisne, France (d. 1895)[1]",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 26
+  },
+  {
+    "id": 215,
+    "year": "1903",
+    "original": "(Fredericka) \"Fredi\" Washington, American stage and screen actress (Black & Tan), writer, and civil rights activist, born in Savannah, Georgia (d. 1994)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 27
+  },
+  {
+    "id": 235,
+    "year": "1919",
+    "original": "Kenneth M. Taylor, American pilot and WWII flying ace at Pearl Harbor, born in Enid, Oklahoma (d. 2006)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 28
+  },
+  {
+    "id": 236,
+    "year": "1919",
+    "original": "Peggy Fortnum, British Illustrator (first to draw Paddington Bear), born in London (d. 2016)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 29
+  },
+  {
+    "id": 239,
+    "year": "1922",
+    "original": "Micheline Ostermeyer, French athlete (Olympic gold shot put, discus; bronze high jump 1948), born in Rang-du-Fliers, Pas-de-Calais, France (d. 2001)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 30
+  },
+  {
+    "id": 275,
+    "year": "1937",
+    "original": "Karol Joseph Bobko, American Col USAF/astronaut (STS 6, STS 51D, STS 51J), born in New York City",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 31
+  },
+  {
+    "id": 20,
+    "year": "1912",
+    "original": "Aswan Low Dam in Nile begins operation again, after being raised for the first time",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 33
+  },
+  {
+    "id": 52,
+    "year": "1954",
+    "original": "First human kidney transplant is performed by Dr. Joseph E. Murray at Peter Bent Brigham Hospital in Boston, Massachusetts",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 34
+  },
+  {
+    "id": 86,
+    "year": "1987",
+    "original": "Buffalo goaltender Tom Barrasso leads the Sabres to a 5-2 win over the Detroit Red Wings to record his 100th NHL victory; makes him the youngest player to reach milestone at just 22 years, 9 months",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 36
+  },
+  {
+    "id": 116,
+    "year": "1893",
+    "original": "Opera \"Hansel and Gretel\" by Engelbert Humperdinck and his sister Adelheid Wette premieres in Weimar, conducted byRichard Strauss",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 37
+  },
+  {
+    "id": 123,
+    "year": "1921",
+    "original": "Visva-Bharati University is inaugurated in Santiniketan, West Bengal, India, founded byRabindranath Tagore",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 38
+  },
+  {
+    "id": 136,
+    "year": "1969",
+    "original": "Ballon d'Or: Milan midfielder Gianni Rivera wins award for best European football player ahead of Cagliari forward Luigi Riva and Bayern Munich strikerGerd Müller",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 39
+  },
+  {
+    "id": 228,
+    "year": "1911",
+    "original": "Niels Jerne, Danish immunologist (1984 Nobel Prize for Medicine or Physiology), born in London, England (d. 1994)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 41
+  },
+  {
+    "id": 267,
+    "year": "1935",
+    "original": "Esther Phillips [Jones], American R&B singer (\"What A Diff'rence A Day Makes\"), born in Galveston, Texas (d. 1984)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 43
+  },
+  {
+    "id": 282,
+    "year": "1941",
+    "original": "Ken Hubbs, American baseball 2nd baseman (NL Rookie of the Year & Gold Glove Award 1962; Chicago Cubs), born in Riverside, California (d. 1964)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 44
+  },
+  {
+    "id": 289,
+    "year": "1943",
+    "original": "Harry Shearer, American screenwriter, actor (SNL, 1975-85; The Simpsons; This Is Spinal Tap), radio host (Le Show), and musician, born in Los Angeles, California",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 45
+  },
+  {
+    "id": 322,
+    "year": "1956",
+    "original": "Dave Murray, English heavy metal guitarist and songwriter (Iron Maiden), born in London, England",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 46
+  },
+  {
+    "id": 327,
+    "year": "1958",
+    "original": "Paula-Mae Weekes, Trinidadian politician and jurist (1st female President of Trinidad and Tobago 2018-), born in Port of Spain, Trinidad",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 47
+  },
+  {
+    "id": 12,
+    "year": "1852",
+    "original": "First Chinese theater opens in the US, the Celestial John in San Francisco",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 48
+  },
+  {
+    "id": 24,
+    "year": "1919",
+    "original": "Alice H. Parker patents a gas heating furnace",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 49
+  },
+  {
+    "id": 25,
+    "year": "1919",
+    "original": "First hospital ship built to transport wounded naval personnel is launched",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 50
+  },
+  {
+    "id": 43,
+    "year": "1944",
+    "original": "Beginning of 'the harsh winter', contributes to the famine that develops in the Netherlands",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 51
+  },
+  {
+    "id": 45,
+    "year": "1946",
+    "original": "Highest daily ridership in NYC subway history - 8.8 million fares",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 52
+  },
+  {
+    "id": 69,
+    "year": "1970",
+    "original": "NYC World Trade Center reaches highest point (411 m)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 54
+  },
+  {
+    "id": 133,
+    "year": "1957",
+    "original": "Test cricket debut for all-time great Australian wicketkeeperWally Groutand future captain and coach Bobby Simpson, 1st Test v South Africa in Johannesburg",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 55
+  },
+  {
+    "id": 151,
+    "year": "1834",
+    "original": "Joseph Hansom of London receives patent for Hansom cabs",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 56
+  },
+  {
+    "id": 183,
+    "year": "1815",
+    "original": "Henry Highland Garnet, American minister, abolitionist and diplomat, born in Maryland (d. 1882)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 57
+  },
+  {
+    "id": 257,
+    "year": "1928",
+    "original": "(Murrey) \"Buddy\" Harman, American country music session drummer (Grand Ole Opry; Elvis Presley; Patsy Cline; Brenda Lee; Ween), born in Nashville, Tennessee (d. 2008)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 58
+  },
+  {
+    "id": 268,
+    "year": "1935",
+    "original": "Johnny Kidd [Frederick Heath], British rock singer-songwriter (Johnny Kidd & Pirates - \"Shakin' All Over\"), born in Willesden, North London, England (d. 1966)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 59
+  },
+  {
+    "id": 287,
+    "year": "1943",
+    "original": "Derek Small, British fictional heavy metal bassist (Spinal Tap), born in Nilford-on-Null, West Midlands, England",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 60
+  },
+  {
+    "id": 292,
+    "year": "1943",
+    "original": "Ross Edwards, Australian composer (Dawn Mantras; Star Chant), born in Sydney, Australia",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 61
+  },
+  {
+    "id": 299,
+    "year": "1945",
+    "original": "Ron Bushy, American rock drummer (Iron Butterfly - “In-A-Gadda-Da-Vida”), born in Washington, D.C. (d. 2021)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 62
+  },
+  {
+    "id": 307,
+    "year": "1949",
+    "original": "[Steven] Adrian Belew, American new wave and progressive rock singer and guitarist (Frank Zappa; David Bowie; King Crimson, 1981-2009; The Bears), born in Covington, Kentucky",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 63
+  },
+  {
+    "id": 313,
+    "year": "1952",
+    "original": "Hans Abrahamsen, Danish classical music composer (Let Me Tell You; Left, Alone; Schnee), born in Kongens Lyngby, Denmark",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 64
+  },
+  {
+    "id": 323,
+    "year": "1956",
+    "original": "Michele Alboreto, Italian auto racer (F1 World C'ship 1985 runner-up Ferrari; 24 Hours of Le Mans 1997; 12 Hours of Sebring 2001), born in Milan, Italy (d. 2001)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 65
+  }
+]

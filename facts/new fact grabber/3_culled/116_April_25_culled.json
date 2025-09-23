@@ -1,0 +1,542 @@
+[
+  {
+    "id": 162,
+    "year": "2022",
+    "original": "First airport for electric flying cars and large drones, built by Urban-Air Port, begins operations in Coventry, England",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 1
+  },
+  {
+    "id": 181,
+    "year": "1953",
+    "original": "Francis CrickandJames Watson's discovery of the double helix structure of DNA is published in \"Nature\" magazine",
+    "score": 100,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 2
+  },
+  {
+    "id": 130,
+    "year": "1990",
+    "original": "Hubble space telescope is placed into orbit by space shuttle Discovery",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 3
+  },
+  {
+    "id": 43,
+    "year": "1928",
+    "original": "Buddy, a German Shepherd, becomes 1st guide dog for a US citizen Morris Frank",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 4
+  },
+  {
+    "id": 119,
+    "year": "1983",
+    "original": "NASA space probe Pioneer 10 travels beyond Pluto's orbit",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 5
+  },
+  {
+    "id": 163,
+    "year": "2023",
+    "original": "Japanese M1 spacecraft crashes on the moon, in its attempt to become the first privately-owned spacecraft to land on the Moon",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 6
+  },
+  {
+    "id": 202,
+    "year": "1954",
+    "original": "Bell labs announces the first solar battery made from silicon. It has about 6% efficiency.",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 7
+  },
+  {
+    "id": 35,
+    "year": "1901",
+    "original": "In last of 9th, Detroit Tigers, trailing by 13-4, score 10 runs to win one of greatest comebacks in baseball (1st game in Detroit)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 8
+  },
+  {
+    "id": 310,
+    "year": "1932",
+    "original": "(Meadow) \"Meadowlark\" Lemon, American basketball star (Harlem Globetrotters, 1955-80, 1990, and 3 other teams), and clergyman, born in Wilmington, North Carolina (d. 2015)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 9
+  },
+  {
+    "id": 92,
+    "year": "1972",
+    "original": "Hans-Werner Grosse glides 907.7 miles (1,461 km) in an AS-W-12",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 19
+  },
+  {
+    "id": 191,
+    "year": "1985",
+    "original": "Wayne Gretzkyscores 7 points in a Cup game for the second time (3 goals, 4 assists)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 11
+  },
+  {
+    "id": 128,
+    "year": "1989",
+    "original": "Penguin Mario Lemuix ties NHL playoff record of 4 goals in 1st period",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 12
+  },
+  {
+    "id": 100,
+    "year": "1976",
+    "original": "Cub centerfielder Rick Monday rescues US flag from 2 fans trying to set it on fire",
+    "score": 100,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 13
+  },
+  {
+    "id": 59,
+    "year": "1950",
+    "original": "Chuck Cooper becomes the 1st African American to be drafted into the NBA (for Boston Celtics)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 14
+  },
+  {
+    "id": 190,
+    "year": "1983",
+    "original": "Yuri Andropovinvites US schoolgirl Samantha Smith to the Soviet Union",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 15
+  },
+  {
+    "id": 77,
+    "year": "1962",
+    "original": "US Ranger spacecraft crash lands on Moon",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 16
+  },
+  {
+    "id": 82,
+    "year": "1966",
+    "original": "Rare daylight meteor observed from New Jersey, US to Quebec, Canada in the early evening",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 17
+  },
+  {
+    "id": 74,
+    "year": "1961",
+    "original": "Robert Noyce patents integrated circuit",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 18
+  },
+  {
+    "id": 170,
+    "year": "1719",
+    "original": "Daniel Defoepublishes \"Robinson Crusoe\", regarded as the 1st English novel",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 20
+  },
+  {
+    "id": 20,
+    "year": "1850",
+    "original": "Paul Julius Reuter sets up carrier-pigeon service, using 40 pigeons to carry stock market prices between Aachen and Brussels",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 21
+  },
+  {
+    "id": 70,
+    "year": "1960",
+    "original": "First submerged circumnavigation of Earth is completed by the USS submarine Triton in 60 days and 21 hours",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 22
+  },
+  {
+    "id": 136,
+    "year": "1994",
+    "original": "14 inches of snow falls in Southern California",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 23
+  },
+  {
+    "id": 5,
+    "year": "1507",
+    "original": "German cartographer Martin Waldseemüller is the first to use the name America on his world map \"Universalis Cosmographia\"",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 24
+  },
+  {
+    "id": 69,
+    "year": "1959",
+    "original": "St Lawrence Seaway linking Atlantic and the Great Lakes opens to shipping",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 25
+  },
+  {
+    "id": 127,
+    "year": "1988",
+    "original": "NASA launches space vehicle S-211",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 26
+  },
+  {
+    "id": 95,
+    "year": "1974",
+    "original": "NFL moves goal posts & adopts sudden-death playoff",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 30
+  },
+  {
+    "id": 75,
+    "year": "1962",
+    "original": "Cleveland sends Harry Chiti to the Mets for a player to be named later; on June 15, the Mets send Chiti back to Cleveland",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 31
+  },
+  {
+    "id": 72,
+    "year": "1961",
+    "original": "Mercury-Atlas 3 rocket lifts off with a robot electronic mannequin inside the capsule and goes straight up forcing NASA to destroy it 43 seconds into the mission",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 32
+  },
+  {
+    "id": 54,
+    "year": "1945",
+    "original": "Clandestine Radio 1212, used to hoax Nazi Germany's final transmission",
+    "score": 87,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 33
+  },
+  {
+    "id": 146,
+    "year": "2005",
+    "original": "Final piece of the Obelisk of Axum is returned to Ethiopia after being stolen by the invading Italian army in 1937",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 34
+  },
+  {
+    "id": 157,
+    "year": "2019",
+    "original": "Cyclone Kenneth strikes Mozambique with winds of 220km/h (140mph) killing at least38 people and damaging nearly 35,000 homes",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 35
+  },
+  {
+    "id": 164,
+    "year": "2023",
+    "original": "Record April temperatures continue across Thailand, Myanmar, Laos and Vietnam, as Myanmar city of Theinzayet registers record 43C (109.4F)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 36
+  },
+  {
+    "id": 241,
+    "year": "1868",
+    "original": "John Bevins Moisant, American pioneer aviator, first to cross English Channel with passenger and a cat, killed in New Orleans whose present day airport was originally name for him, born in Kankakee, Illinois (d. 1910)",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 37
+  },
+  {
+    "id": 337,
+    "year": "1945",
+    "original": "Jean Purdy, British embryologist and nurse (pioneer in developing IVF), born in Cambridge, England (d. 1985)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 38
+  },
+  {
+    "id": 258,
+    "year": "1900",
+    "original": "Wolfgang Pauli, Swiss-American theoretical physicist (Pauli inhibition, Nobel 1945), born in Vienna, Austria-Hungary (d. 1958)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 39
+  },
+  {
+    "id": 318,
+    "year": "1935",
+    "original": "James Peebles, Canadian American astrophysicist (Ostriker–Peebles criterion), 2019 Nobel Prize for Physics, born in Winnipeg, Manitoba",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 40
+  },
+  {
+    "id": 359,
+    "year": "1953",
+    "original": "Ron Clements, American animation director (Moana), born in Sioux City, Iowa",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 41
+  },
+  {
+    "id": 357,
+    "year": "1952",
+    "original": "Vladislav Tretiak, Russian hockey player (Olympic gold 1972, 76), born in Dmitrovsky District, Russia",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 42
+  },
+  {
+    "id": 160,
+    "year": "2019",
+    "original": "NFL Draft: Oklahoma quarterback Kyler Murray #1 pick by Arizona Cardinals",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 43
+  },
+  {
+    "id": 80,
+    "year": "1964",
+    "original": "Stanley Cup Final, Maple Leaf Gardens, Toronto, ON: 3-peat for the Toronto Maple Leafs with a 4-0 Game 7 win over Detroit Red Wings for a 4-3 series victory",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 44
+  },
+  {
+    "id": 109,
+    "year": "1979",
+    "original": "Peace treaty between Israel & Egypt goes into effect",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 45
+  },
+  {
+    "id": 131,
+    "year": "1990",
+    "original": "Violeta Chamorro begins a 6-year term as Nicaragua's 1st female president",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 46
+  },
+  {
+    "id": 197,
+    "year": "2022",
+    "original": "Charlotte Brontë’s \"A Book of Ryhmes\" written when she was 13, sells at auction in New York for $1.25 million to Friends of the National Libraries for theBrontëParsonage Museum",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 47
+  },
+  {
+    "id": 238,
+    "year": "1854",
+    "original": "Charles Sumner Tainter, American inventor of sound-recording instruments (graphophone, dictaphone), born in Watertown, Massachusetts (d. 1940)[1]",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 48
+  },
+  {
+    "id": 249,
+    "year": "1884",
+    "original": "John Henry \"Pop\" Lloyd, American Baseball HOF shortstop (career batting average: .349 NgLs) and manager (Lincoln Giants, Bacharach Giants), born in Palatka, Florida (d. 1964)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 49
+  },
+  {
+    "id": 361,
+    "year": "1954",
+    "original": "Randy Cross, American NFL player (San Francisco 49ers; 3x Super Bowl champion, 3x First-team All-pro, 3x Pro Bowl) and football analyst, born in Brooklyn, New York",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 50
+  },
+  {
+    "id": 385,
+    "year": "1967",
+    "original": "Angel Martino, American 50m/100m freestyle swimmer (Olympic gold/2 br-92, 96), born in Tuscaloosa, Alabama",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 52
+  },
+  {
+    "id": 55,
+    "year": "1945",
+    "original": "Last Boeing B-17 attack against Nazi Germany",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 54
+  },
+  {
+    "id": 76,
+    "year": "1962",
+    "original": "Lion & Tiger Veldt at Cleveland Metroparks Zoo is dedicated (Cleveland, Ohio)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 56
+  },
+  {
+    "id": 2,
+    "year": "1185",
+    "original": "Battle at Dan-no-ura: Major sea battle in Japan's Genpei War, Minamoto clan led by Minamoto no Yoshitsune defeats the Taira clan",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 58
+  },
+  {
+    "id": 21,
+    "year": "1858",
+    "original": "Fraser River Gold Rush begins in British Columbia as miners arrive from California",
+    "score": 68,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 59
+  },
+  {
+    "id": 22,
+    "year": "1859",
+    "original": "Ground broken for Suez Canal",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 60
+  },
+  {
+    "id": 15,
+    "year": "1792",
+    "original": "\"La Marseillaise\", later the national anthem of France, is composed by Claude Joseph Rouget de Lisle in Strasbourg",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 61
+  },
+  {
+    "id": 66,
+    "year": "1957",
+    "original": "1st experimental sodium nuclear reactor operated",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 62
+  },
+  {
+    "id": 34,
+    "year": "1901",
+    "original": "Erve Beck hits American League's 1st home run",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 63
+  },
+  {
+    "id": 46,
+    "year": "1933",
+    "original": "Philadelphia Phillies' Dick Bartell is 1st MLB player to get 4 consecutive doubles in 9 innings",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 66
+  },
+  {
+    "id": 179,
+    "year": "1947",
+    "original": "Lou Theszbeats Whipper Watson in St Louis, to win National Wrestling Association world heavyweight title",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 67
+  },
+  {
+    "id": 142,
+    "year": "1996",
+    "original": "\"Bring in Da Noise, Bring in Da Funk\" opens at Ambassador Theater NYC",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 72
+  },
+  {
+    "id": 87,
+    "year": "1970",
+    "original": "Holland-Dozier-Holland's Invictus Records releases Freda Payne's signature single \"Band of Gold\"",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 73
+  },
+  {
+    "id": 90,
+    "year": "1971",
+    "original": "US canal rights in Nicaragua and rights to Corn Islands expire",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 74
+  }
+]

@@ -1,0 +1,542 @@
+[
+  {
+    "id": 95,
+    "year": "1988",
+    "original": "Dallas Green replaces Lou Pinella as manager of NY Yankees",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 1
+  },
+  {
+    "id": 57,
+    "year": "1963",
+    "original": "The Beatles record \"I Want to Hold Your Hand\" at EMI Studios in London",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 2
+  },
+  {
+    "id": 121,
+    "year": "2019",
+    "original": "The 'Blob', mysterious yellow slime organism (physarum polycephalum) with 720 sexes, moves and can solve problems to go on display at the Paris Zoological Park",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 3
+  },
+  {
+    "id": 146,
+    "year": "1956",
+    "original": "Chess \"Game of the Century\": 13-year-oldBobby Fischerdefeats 1953 U.S. Champion Donald Byrne in the Rosenwald Memorial Tournament at the Marshall Chess Club in New York City",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 4
+  },
+  {
+    "id": 155,
+    "year": "1968",
+    "original": "US men's 4 x 100m freestyle relay team of Zac Zorn, Stephen Rerych, Ken Walsh &Mark Spitzswim world record 3:31.7 to outclass the Soviet Union & Australia and win the gold medal at the Mexico City Olympics",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 5
+  },
+  {
+    "id": 63,
+    "year": "1967",
+    "original": "William \"Pete\" Knight in X-15 reaches 85 km",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 6
+  },
+  {
+    "id": 90,
+    "year": "1984",
+    "original": "Nobel prize for chemistry awarded to Bruce Merrifield",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 7
+  },
+  {
+    "id": 108,
+    "year": "2008",
+    "original": "Iran's attempt to create the world's largest sandwich (1,500 metres) fails when crowds eat it before it can be measured",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 8
+  },
+  {
+    "id": 113,
+    "year": "2016",
+    "original": "Chinese spacecraft Shenzhou-11 launched from Jiuquan Satellite Launch Centre in northern China",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 9
+  },
+  {
+    "id": 117,
+    "year": "2018",
+    "original": "Big Bird and Oscar the Grouch puppeteer Caroll Spinney leaves \"Sesame Street\" after 50 years",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 10
+  },
+  {
+    "id": 150,
+    "year": "1961",
+    "original": "NASA civilian pilotJoseph A. Walkertakes X-15 to 33,100 m",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 11
+  },
+  {
+    "id": 151,
+    "year": "1964",
+    "original": "Australian athleteBetty Cuthberttakes her 4th career Olympic gold medal as she wins the women's 400m at the Tokyo Games in Olympic record 52.0",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 12
+  },
+  {
+    "id": 174,
+    "year": "2008",
+    "original": "Sachin Tendulkarbecomes the highest run-scorer ever in test cricket beatingBrian Lara's record and passing 12,000 runs against Australia in Mohali",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 13
+  },
+  {
+    "id": 137,
+    "year": "1888",
+    "original": "Thomas Edisonfiles a patent for the Optical Phonograph (the first movie)",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 14
+  },
+  {
+    "id": 17,
+    "year": "1814",
+    "original": "London Beer Flood: Bursting vat at Veux & Company Brewery floods city streets with over 300,000 gallons of porter ale, killing eight, plus a possible ninth later from alcohol poisoning",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 15
+  },
+  {
+    "id": 22,
+    "year": "1855",
+    "original": "Bessemer steelmaking process patented by Henry Bessemer - revolutionises manufacturing",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 16
+  },
+  {
+    "id": 56,
+    "year": "1962",
+    "original": "The Beatles make their live television debut, appearing on Manchester's local \"People And Places\" program, performing ‘Some Other Guy’ and their new single ‘Love Me Do’",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 17
+  },
+  {
+    "id": 59,
+    "year": "1964",
+    "original": "US swimmers go 1-2-3 in the women's 400m individual medley at the Tokyo Olympics; Donna de Varona wins gold in Olympic record 5:18.7 ahead of teammates Sharon Finneran and Martha Randall",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 18
+  },
+  {
+    "id": 110,
+    "year": "2012",
+    "original": "Exoplanet Alpha Centauri Bb discovered orbiting Alpha Centauri announced (later thought to be a false finding)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 19
+  },
+  {
+    "id": 169,
+    "year": "1991",
+    "original": "Pitts PenguinPaul Coffeysets NHL defenseman scoring record with 1,053 career points (309 goals & 744 assists)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 20
+  },
+  {
+    "id": 213,
+    "year": "1840",
+    "original": "Yaa Asantewaa, Ghanaian queen of Ashanti Empire, led fight against British colonialism, born in Besease, Ghana (d. 1921) appropriate date",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 21
+  },
+  {
+    "id": 225,
+    "year": "1884",
+    "original": "Floyd Smith, American aviator and inventor of the modern parachute, born in Geneseo, Illinois (d. 1956)[1]",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 22
+  },
+  {
+    "id": 251,
+    "year": "1914",
+    "original": "Jerry Siegel, American comic book writer (co-creator, with Joe Shuster, of \"Superman\"), born in Cleveland, Ohio (d. 1996)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 23
+  },
+  {
+    "id": 261,
+    "year": "1921",
+    "original": "Maria Gorokhovskaya, Russian gymnast (equal record 7 x Olympic medals, Soviet Union 1952; 2 x gold [team, all-round], 5 x silver), born in Yevpatoria, Russia (d. 2001)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 24
+  },
+  {
+    "id": 349,
+    "year": "1968",
+    "original": "(David) \"Ziggy\" Marley, Jamaican Grammy Award-winning reggae performer (The Melody Makers), philanthropist, and son of Bob Marley, born in Kingston, Jamaica",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 25
+  },
+  {
+    "id": 370,
+    "year": "1984",
+    "original": "Randall Munroe, American webcomic author of \"xkcd\", born in Easton, Pennsylvania",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 26
+  },
+  {
+    "id": 192,
+    "year": "1957",
+    "original": "Musical film \"Jailhouse Rock\" starringElvis Presleypremieres in Memphis, Tennessee",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 32
+  },
+  {
+    "id": 212,
+    "year": "1833",
+    "original": "Paul Bert, French Zoologist, Physiologist and pioneer of aerospace medicine whose study of the effects of air pressure on the body, such as altitude sickness and 'the bends', made possible space and ocean exploration, born in Auxerre, Burgundy (d. 1886)",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 33
+  },
+  {
+    "id": 76,
+    "year": "1975",
+    "original": "1st Space Shuttle main engine test at National Space Tech Labs, at Pearl River, Mississippi",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 34
+  },
+  {
+    "id": 142,
+    "year": "1933",
+    "original": "Albert Einsteinarrives in US as a refugee from Nazi Germany",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 35
+  },
+  {
+    "id": 238,
+    "year": "1898",
+    "original": "Shinichi Suzuki, Japanese music teacher (Suzuki Method), born in Nagoya, Japan (d. 1998)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 36
+  },
+  {
+    "id": 320,
+    "year": "1955",
+    "original": "Kerry James Marshall, American artist whose works seek to challenge the marginalization of African-Americans, born in Birmingham, Alabama",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 37
+  },
+  {
+    "id": 75,
+    "year": "1974",
+    "original": "NHL Washington Capitals 1st franchise home victory, beating Chicago Blackhawks, 4-3",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 40
+  },
+  {
+    "id": 106,
+    "year": "2003",
+    "original": "Pinnacle fitted on the roof of Taipei 101, a 101-floor skyscraper in Taipei, allowing it to surpass the Petronas Twin Towers in Kuala Lumpur by 50 meters (165 feet) to become World's tallest high-rise",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 41
+  },
+  {
+    "id": 109,
+    "year": "2010",
+    "original": "The Teshima Art Museum by architect Ryue Nishizawa and artist Rei Naito opens on the island of Teshima, Japan",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 42
+  },
+  {
+    "id": 126,
+    "year": "2024",
+    "original": "Teen smoking in the US falls to its lowest level in 25 years, decreasing 20% in a year from 2.8 million to 2.25 million, including e-cigarettes",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 43
+  },
+  {
+    "id": 135,
+    "year": "1876",
+    "original": "Henry Morton Stanleyreaches Lualaba River, headstream of the Congo River, goes on to travel down it proving  it is not the source of the Nile",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 44
+  },
+  {
+    "id": 140,
+    "year": "1907",
+    "original": "Guglielmo Marconi's company begins the first commercial transatlantic wireless service between Glace Bay, Nova Scotia, Canada and Clifden, Ireland",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 45
+  },
+  {
+    "id": 167,
+    "year": "1990",
+    "original": "Green Day singerBillie Joe Armstrongdrops out of school to pursue a career in music",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 46
+  },
+  {
+    "id": 216,
+    "year": "1848",
+    "original": "William \"Candy\" Cummings, American Baseball Hall of Fame pitcher (credited with creating the curveball), born in Ware, Massachusetts (d. 1924)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 47
+  },
+  {
+    "id": 234,
+    "year": "1893",
+    "original": "Jean Binet, Swiss composer, and educator (Jaques-Dalcroze method of experiencing music through movement), born in Geneva, Switzerland (d. 1960)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 48
+  },
+  {
+    "id": 271,
+    "year": "1926",
+    "original": "Karl Gordon Henize, American astronomer and NASA astronaut (STS-51-F), born in Cincinnati, Ohio (d. 1993)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 49
+  },
+  {
+    "id": 282,
+    "year": "1933",
+    "original": "Bill Anders, American USAF Major General, and NASA astronaut (Apollo 8), born in British Hong Kong (d. 2024)[1]",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 51
+  },
+  {
+    "id": 283,
+    "year": "1933",
+    "original": "Jeanine Deckers, Belgian singer-songwriter, and Dominican nun known as 'The Singing Nun' (\"Dominique\"), born in Laeken, Belgium (d. 1985)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 52
+  },
+  {
+    "id": 340,
+    "year": "1965",
+    "original": "Aravinda De Silva, Sri Lankan cricket batsman and captain (93 Tests, 20 x 100, HS 267; 308 ODIs; Kent CCC), born in Colombo, Sri Lanka",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 53
+  },
+  {
+    "id": 352,
+    "year": "1969",
+    "original": "Wyclef Jean, Haitian-American rapper and singer-songwriter The Fugees - \"Killing Me Softly\"), and music producer, born in Croix-des-Bouquets, Haiti",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 54
+  },
+  {
+    "id": 130,
+    "year": "1776",
+    "original": "CaptainJames Cookarrives in Cape Town with Resolution on his third trip to the Pacific Ocean",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 55
+  },
+  {
+    "id": 133,
+    "year": "1860",
+    "original": "1st British Open Men's Golf, Prestwick GC:Willie Park Sr.wins the inaugural event by two strokes over fellow Scot Tom Morris Sr.",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 56
+  },
+  {
+    "id": 86,
+    "year": "1982",
+    "original": "1st live orchestra on a US commercial network since 1954 (National Symphony)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 58
+  },
+  {
+    "id": 89,
+    "year": "1983",
+    "original": "STS-9 vehicle moves to Vehicle Assembly Building at Kennedy Space Center (Florida) due to SRB nozzle problem",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 59
+  },
+  {
+    "id": 98,
+    "year": "1991",
+    "original": "Blue Man Group's 1st performance in New York City",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 60
+  },
+  {
+    "id": 160,
+    "year": "1979",
+    "original": "Mother Teresaof Calcutta awarded Nobel Peace Prize",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 61
+  },
+  {
+    "id": 165,
+    "year": "1988",
+    "original": "Traveling Wilburys release debut album \"Volume 1\", featuring the single \"Handle With Care\"; pseudonymous band members includeRoy Orbison,Bob Dylan,George Harrison, Jeff Lynne, andTom Petty",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 62
+  },
+  {
+    "id": 173,
+    "year": "2007",
+    "original": "TheDalai Lamareceives the United States Congressional Gold Medal",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 63
+  },
+  {
+    "id": 270,
+    "year": "1926",
+    "original": "Julie Adams [Betty May Adams], American actress (Creature from the Black Lagoon; Code Red), born in Waterloo, Iowa (d. 2019)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 64
+  },
+  {
+    "id": 286,
+    "year": "1934",
+    "original": "Emmanuel \"Rico\" Rodriguez, Jamaican ska trombonist (The Specials), born in Kingston, Jamaica (d. 2015)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 65
+  },
+  {
+    "id": 289,
+    "year": "1936",
+    "original": "Hiroo Kanamori, Japanese seismologist known for his work on earthquakes, born in Japan",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 66
+  },
+  {
+    "id": 333,
+    "year": "1960",
+    "original": "Rob Marshall, American choreographer, stage and film director (Chicago; Mary Poppins Returns), born in Madison, Wisconsin",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 67
+  },
+  {
+    "id": 348,
+    "year": "1967",
+    "original": "René Dif, Algerian-Danish pop-dance singer-songwriter (Aqua - \"Barbie Girl\"), born in Copenhagen, Denmark",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 68
+  },
+  {
+    "id": 350,
+    "year": "1969",
+    "original": "Rick Mercer, Canadian comedian known for \"This Hour Has 22 Minutes\", born in St. Johns, Newfoundland",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 69
+  }
+]

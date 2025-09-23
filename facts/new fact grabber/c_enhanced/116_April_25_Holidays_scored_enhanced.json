@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "ANZAC Day: Remembering Heroes Down Under",
+    "story": "Every April 25, Australia and New Zealand pause to honor their brave soldiers who fought in wars. ANZAC Day started as a way to remember troops who landed at Gallipoli during World War I. Today, people wake up before dawn to attend special sunrise services at war memorials. They wear red poppies on their clothes and march in parades through city streets. Families gather to play a card game called Two-Up, which soldiers used to play during wartime.",
+    "activity_question": "What flower do people wear on ANZAC Day?",
+    "activity_choices": [
+      "Red poppies",
+      "Yellow daisies",
+      "Blue roses",
+      "Purple tulips"
+    ],
+    "activity_answer": "Red poppies",
+    "bonus_fact": "Two-Up is only legal to play in public on ANZAC Day in Australia.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "902",
+    "title": "DNA Day: Celebrating Your Amazing Code",
+    "story": "Every cell in your body contains a secret code called DNA that makes you uniquely you! On April 25, National DNA Day celebrates this incredible discovery. Schools host science fairs where kids extract DNA from strawberries using dish soap and salt. Museums offer special exhibits about genetics, and families share stories about traits they've inherited from grandparents. Scientists give talks about how DNA helps solve crimes and cure diseases. Some people even get their ancestry tested to learn where their families came from long ago. It's a day to marvel at the tiny instructions that built every living thing on Earth!",
+    "activity_question": "What do kids often extract DNA from on National DNA Day?",
+    "activity_choices": [
+      "Strawberries",
+      "Bananas",
+      "Pizza slices",
+      "Pencil erasers"
+    ],
+    "activity_answer": "Strawberries",
+    "bonus_fact": "Your DNA is 99.9% identical to every other human on the planet!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 78
+  },
+  {
+    "id": "903",
+    "title": "Waddle You Do for World Penguin Day?",
+    "story": "Penguins take center stage every April 25 during World Penguin Day! People around the world celebrate these tuxedo-wearing birds by visiting aquariums, watching penguin documentaries, and sharing adorable penguin photos online. Zoos host special penguin talks where visitors learn amazing facts about how penguins slide on their bellies and huddle together to stay warm. Kids dress up in black and white clothes, waddle like penguins, and even have penguin-themed parties. Many people donate to penguin conservation groups to help protect these incredible birds and their icy homes.",
+    "activity_question": "What do people often wear on World Penguin Day to look like penguins?",
+    "activity_choices": [
+      "Black and white clothes",
+      "Rainbow tutus",
+      "Superhero capes",
+      "Polka dot pajamas"
+    ],
+    "activity_answer": "Black and white clothes",
+    "bonus_fact": "Penguins can't fly in the air, but they \"fly\" underwater at speeds up to 22 mph!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  }
+]

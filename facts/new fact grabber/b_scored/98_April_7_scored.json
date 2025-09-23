@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "original": "World Health Day",
+    "score": 60,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "National Beer Day",
+    "score": 15,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 3,
+    "original": "National Coffee Cake Day",
+    "score": 60,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "National No Housework Day",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 5,
+    "original": "International Beaver Day",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 6,
+    "original": "National Caramel Popcorn Day",
+    "score": 90,
+    "is_kid_friendly": true
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Twist and Shout for Pretzel Day!",
+    "story": "Every April 26, pretzel lovers across America celebrate National Pretzel Day by munching on their favorite twisted treats! Bakeries and pretzel shops give away free samples, while families try making homemade pretzels in their kitchens. Some people prefer the classic salty kind, while others go crazy for cinnamon sugar or cheese-filled versions. Social media fills up with pretzel photos as people show off their twisty snacks. The best part? Many stores offer special deals and discounts all day long. Whether you like them soft and warm or crunchy and bite-sized, this holiday gives everyone a perfect excuse to enjoy these deliciously twisted snacks!",
+    "activity_question": "What do many bakeries and pretzel shops do on National Pretzel Day?",
+    "activity_choices": [
+      "Give away free samples",
+      "Close early for the day",
+      "Only sell chocolate pretzels",
+      "Teach pretzel-making classes"
+    ],
+    "activity_answer": "Give away free samples",
+    "bonus_fact": "Pretzels were originally created by monks over 1,400 years ago!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 82
+  },
+  {
+    "id": "902",
+    "title": "Shake Things Up on Richter Scale Day",
+    "story": "Scientists around the world celebrate National Richter Scale Day every April 26 by teaching people about earthquakes! The Richter Scale measures how strong earthquakes are, from tiny trembles you can't feel to massive shakes that move buildings. On this day, science museums host earthquake simulators where kids can experience safe mini-quakes. Schools often do fun experiments with Jell-O to show how seismic waves travel through the ground, and seismologists share cool facts about the Earth's movements on social media.",
+    "activity_question": "What do science museums often use on National Richter Scale Day to let people experience earthquakes safely?",
+    "activity_choices": [
+      "Earthquake simulators",
+      "Giant trampolines",
+      "Roller coasters",
+      "Magic carpets"
+    ],
+    "activity_answer": "Earthquake simulators",
+    "follow_up_question": "What other natural disasters do you think scientists have special scales to measure?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "903",
+    "title": "Alien Day: Out of This World Fun!",
+    "story": "Space fans go totally cosmic on April 26 for Alien Day! This fun holiday celebrates everything about extraterrestrial life and science fiction. People dress up as aliens with green face paint, silver costumes, and goofy antenna headbands. Movie theaters show classic alien films, while science museums host special space exhibits. Kids build model UFOs, draw pictures of imaginary alien worlds, and learn about real space exploration. Social media fills with alien memes, spaceship photos, and jokes about \"phone home\" messages. Some families even have alien-themed parties with green snacks and glowing decorations. It's the perfect day to let your imagination blast off into the galaxy!",
+    "activity_question": "What do people commonly wear to celebrate Alien Day?",
+    "activity_choices": [
+      "Green face paint and antenna headbands",
+      "Cowboy hats and boots",
+      "Formal suits and ties",
+      "Swimming goggles and flippers"
+    ],
+    "activity_answer": "Green face paint and antenna headbands",
+    "follow_up_question": "If you met a friendly alien, what would you want to show them about Earth?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  }
+]

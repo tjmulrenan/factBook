@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "original": "Pi Day",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "White Day",
+    "score": 65,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "International Day of Mathematics",
+    "score": 58,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "Albert Einstein's Birthday",
+    "score": 70,
+    "is_kid_friendly": true
+  }
+]

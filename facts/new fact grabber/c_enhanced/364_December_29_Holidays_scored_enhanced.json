@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Spice Up Your December with Pepper Pot!",
+    "story": "Hot, hearty pepper pot soup warms up kitchens across America every December 29! This spicy stew packed with meat, vegetables, and fiery peppers became a national food holiday because it's the perfect winter comfort food. Families gather to simmer their own versions, sharing recipes passed down for generations.",
+    "activity_question": "What makes pepper pot soup special for winter?",
+    "activity_choices": [
+      "It's served cold like ice cream",
+      "It's hot and hearty comfort food",
+      "It only has vegetables in it",
+      "It's made without any spices"
+    ],
+    "activity_answer": "It's hot and hearty comfort food",
+    "bonus_fact": "Some pepper pot recipes include unusual ingredients like tripe or pig's feet!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 45
+  },
+  {
+    "id": "902",
+    "title": "Tick Tock Day: Time's Almost Up!",
+    "story": "Clocks everywhere get extra attention on December 29 during Tick Tock Day! This quirky holiday reminds people that the year is almost over and time keeps moving forward. People celebrate by checking their clocks, fixing broken timepieces, and thinking about how they've spent their time. Some families gather to talk about their favorite memories from the past twelve months. Others make last-minute plans for the final days before the new year begins. It's the perfect day to appreciate every tick and tock!",
+    "activity_question": "What do people often do with their clocks on Tick Tock Day?",
+    "activity_choices": [
+      "Hide them under blankets",
+      "Check and fix them",
+      "Paint them bright colors",
+      "Throw them in the trash"
+    ],
+    "activity_answer": "Check and fix them",
+    "follow_up_question": "What would you do if you had one extra hour in your day?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  }
+]

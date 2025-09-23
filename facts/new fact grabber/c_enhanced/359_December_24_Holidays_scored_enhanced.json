@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Christmas Eve Magic Before the Big Day",
+    "story": "Families around the world gather on December 24 for one of the most magical nights of the year! Christmas Eve is when the excitement builds to its peak before Christmas morning. Many families attend special church services, light candles, and sing carols together. Kids hang stockings by the fireplace and leave cookies and milk for Santa Claus. Some families open one special present on this night, while others read Christmas stories or watch holiday movies. In many countries, Christmas Eve dinner is the main celebration, featuring special foods like ham, fish, or traditional holiday treats. Children go to bed extra early, hoping to catch a glimpse of Santa's sleigh flying across the December sky!",
+    "activity_question": "What do many children leave out for Santa Claus on Christmas Eve?",
+    "activity_choices": [
+      "Cookies and milk",
+      "Pizza and soda",
+      "Carrots and water",
+      "Candy and juice"
+    ],
+    "activity_answer": "Cookies and milk",
+    "follow_up_question": "What Christmas Eve tradition does your family enjoy most?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Sip and Celebrate Eggnog Day!",
+    "story": "Creamy, sweet, and spiced with nutmeg, eggnog fills glasses across America on December 24! This thick, custard-like drink tastes like liquid holiday magic. Families gather to sip store-bought cartons or homemade batches made with eggs, cream, sugar, and warm spices. Some adults add rum or bourbon, while kids enjoy the alcohol-free version that's just as delicious. Coffee shops serve eggnog lattes, and ice cream parlors scoop eggnog-flavored treats. Whether you love it or think it's too rich, this polarizing drink definitely makes the holidays feel extra festive!",
+    "activity_question": "What spice is commonly used to flavor eggnog?",
+    "activity_choices": [
+      "Cinnamon",
+      "Nutmeg",
+      "Paprika",
+      "Oregano"
+    ],
+    "activity_answer": "Nutmeg",
+    "bonus_fact": "Eggnog can last up to a week in the refrigerator when stored properly!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "903",
+    "title": "Nochebuena: The Night Before Magic",
+    "story": "Families across Latin America gather on December 24 for Nochebuena, which means \"Good Night\" in Spanish! This special celebration happens every year on the night before Christmas. People cook amazing feasts with traditional foods like tamales, roast pork, and sweet treats. Everyone stays up late together, sharing stories, dancing, and enjoying each other's company. Many families attend midnight mass together. The best part? Kids often get to open one present before bed, making Nochebuena just as exciting as Christmas morning!",
+    "activity_question": "What does \"Nochebuena\" mean in English?",
+    "activity_choices": [
+      "Good Night",
+      "Holy Evening",
+      "Family Time",
+      "Christmas Eve"
+    ],
+    "activity_answer": "Good Night",
+    "follow_up_question": "What special foods does your family make for holiday celebrations?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  }
+]

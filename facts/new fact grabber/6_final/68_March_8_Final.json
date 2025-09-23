@@ -1,0 +1,1242 @@
+[
+  {
+    "id": "901",
+    "title": "Women Power Day Around the World",
+    "story": "Purple fills the streets as millions celebrate International Women's Day on March 8! People wear purple ribbons, share stories of amazing women, and march together for equal rights. Schools teach about female scientists, leaders, and artists who changed history. Social media explodes with #WomenSupportingWomen posts. Many countries give women flowers or small gifts to show appreciation for their contributions to families and communities.",
+    "activity_question": "What color do people commonly wear to celebrate International Women's Day?",
+    "activity_choices": [
+      "Purple",
+      "Green",
+      "Orange",
+      "Pink"
+    ],
+    "activity_answer": "Purple",
+    "bonus_fact": "Over 100 countries officially recognize International Women's Day as a national holiday.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "902",
+    "title": "Nutty Clusters Get Their Crunchy Day",
+    "story": "Crunchy peanuts covered in sweet chocolate create the perfect treat on March 8 for National Peanut Cluster Day! These bumpy, delicious candies look like tiny chocolate mountains with nuts poking out everywhere. People celebrate by making homemade clusters in their kitchens, melting chocolate and stirring in roasted peanuts. Candy stores often put peanut clusters on sale, and families share recipes that have been passed down for years. Some folks even host cluster-making parties where everyone gets messy hands from dipping and rolling the treats.",
+    "activity_question": "What do peanut clusters look like according to the story?",
+    "activity_choices": [
+      "Tiny chocolate mountains with nuts poking out",
+      "Smooth chocolate balls",
+      "Square chocolate bars",
+      "Flat chocolate pancakes"
+    ],
+    "activity_answer": "Tiny chocolate mountains with nuts poking out",
+    "bonus_fact": "The first peanut clusters were accidentally created when nuts fell into melting chocolate!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "95",
+    "title": "Giant Space Rock Crashes to Earth",
+    "story": "Boom! The ground shook as a massive space rock plummeted from the sky. In 1976, on March 8, the largest stony meteorite ever observed crashed down in Jilin, China. This cosmic visitor weighed a whopping 1,774 kg - that's heavier than a car! Scientists were thrilled to study this rare find. It offered clues about the mysteries of our solar system and what's out there beyond Earth.",
+    "activity_question": "Where did the giant meteorite land?",
+    "activity_choices": [
+      "Jilin, China",
+      "New York, USA",
+      "Moscow, Russia",
+      "The Moon"
+    ],
+    "activity_answer": "Jilin, China",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think scientists were excited to study this meteorite?",
+    "score": 95,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "128",
+    "title": "The Greatest Comeback in Soccer History",
+    "story": "Soccer fans were stunned when FC Barcelona pulled off the impossible. Down 4-0 after their first match against Paris Saint-Germain, Barcelona needed a miracle. On March 8, 2017, they got one. In a thrilling game that had everyone on the edge of their seats, Barcelona scored six goals to win 6-5 overall. It was the first time any team had ever overcome such a huge deficit in the Champions League. The crowd went wild as Barcelona secured their spot in the quarter-finals.",
+    "activity_question": "What did FC Barcelona achieve for the first time in Champions League history?",
+    "activity_choices": [
+      "Overcame a 4-0 deficit",
+      "Scored six goals in one game",
+      "Won against Paris Saint-Germain",
+      "Reached the quarter-finals"
+    ],
+    "activity_answer": "Overcame a 4-0 deficit",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think the Barcelona players felt after winning such an incredible game?",
+    "optional_type": "follow_up_question",
+    "score": 95,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "253",
+    "title": "Sailor's Incredible Ocean Survival",
+    "story": "Imagine floating alone in the vast ocean for over four months! Poon Lim, born in Hainan, China in 1918, would later become famous for an amazing feat of survival. On March 8, his birthday, we remember the sailor who endured 133 days adrift at sea. Poon's incredible journey taught the world about human resilience and resourcefulness in the face of extreme challenges.",
+    "activity_question": "How long was Poon Lim adrift at sea?",
+    "activity_choices": [
+      "133 days",
+      "4 weeks",
+      "1 year",
+      "6 months"
+    ],
+    "activity_answer": "133 days",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What skills do you think would be most important for surviving at sea?",
+    "score": 95,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "98",
+    "title": "Fiery Discovery Beyond Earth",
+    "story": "Astronomers' jaws dropped in 1979 when they spotted something incredible: the first volcano outside Earth! This cosmic firework was found on Io, one of Jupiter's moons. On March 8, space explorers peering through powerful telescopes saw plumes of material shooting into space. It was proof that Io wasn't just a quiet ball of rock, but a world alive with fiery activity. This discovery changed how we think about our solar system's secrets.",
+    "activity_question": "Where was the first extraterrestrial volcano discovered?",
+    "activity_choices": [
+      "On Mars",
+      "On Io, Jupiter's moon",
+      "On Venus",
+      "On Saturn's rings"
+    ],
+    "activity_answer": "On Io, Jupiter's moon",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think finding volcanoes on other worlds is exciting for scientists?",
+    "score": 92,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "100",
+    "title": "Columbia's Epic Journey Begins",
+    "story": "Wheels rumbled as a massive white spacecraft inched along the road. On March 8, 1979, the space shuttle Columbia embarked on an unusual trip. Instead of soaring through the sky, it traveled 38 miles by land from Palmdale, California. This special delivery marked a big step toward America's dreams of reusable spaceships. Columbia would later blast off into orbit, opening a new chapter in space exploration.",
+    "activity_question": "How did the space shuttle Columbia travel on this day in 1979?",
+    "activity_choices": [
+      "By air",
+      "By sea",
+      "Overland",
+      "Through a tunnel"
+    ],
+    "activity_answer": "Overland",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think they moved the shuttle by land instead of flying it?",
+    "score": 92,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "154",
+    "title": "Hubble's Galaxy-Filled Photo Amazes",
+    "story": "Galaxies, galaxies everywhere! In 1934, astronomer Edwin Hubble captured a mind-blowing photograph on March 8. His image revealed countless galaxies scattered across space, as numerous as the stars in our own Milky Way. This groundbreaking picture expanded our understanding of the universe's vastness. Hubble's snapshot showed that our galaxy is just one of many in an unimaginably huge cosmos, forever changing how we view our place among the stars.",
+    "activity_question": "What did Edwin Hubble's photograph reveal?",
+    "activity_choices": [
+      "Countless galaxies scattered across space",
+      "A new planet in our solar system",
+      "The surface of Mars",
+      "A giant space banana"
+    ],
+    "activity_answer": "Countless galaxies scattered across space",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think this discovery might have changed people's view of Earth's importance?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "180",
+    "title": "Frazier Triumphs in Epic Boxing Clash",
+    "story": "Gloves up! In 1971, the boxing world held its breath as two titans clashed. Joe Frazier faced off against Muhammad Ali in a match dubbed the 'Fight of the Century'. On March 8, at New York's famous Madison Square Garden, Frazier emerged victorious. He retained his heavyweight title, ending Ali's impressive winning streak. The bout went the full 15 rounds, with Frazier winning by unanimous decision.",
+    "activity_question": "What was the nickname given to this famous boxing match?",
+    "activity_choices": [
+      "Fight of the Century",
+      "Clash of the Titans",
+      "Battle of the Champions",
+      "Rumble in the Garden"
+    ],
+    "activity_answer": "Fight of the Century",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think this match was so important to boxing fans?",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "246",
+    "title": "A Hero's Birth: Saving Lives in Secret",
+    "story": "In a bustling Amsterdam neighborhood, a baby boy named Jaap Musch entered the world. Little did anyone know that this child, born in 1913, would grow up to become a brave hero. During dark times, Jaap joined the Dutch resistance. He risked everything to rescue hundreds of Jewish children from danger. His courage on March 8 and every day reminds us that ordinary people can do extraordinary things to help others.",
+    "activity_question": "What did Jaap Musch do as part of the Dutch resistance?",
+    "activity_choices": [
+      "He rescued hundreds of Jewish children",
+      "He became a famous politician",
+      "He invented a new type of bicycle",
+      "He wrote a popular children's book"
+    ],
+    "activity_answer": "He rescued hundreds of Jewish children",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it was so brave for Jaap to help Jewish children during this time?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "73",
+    "title": "The Incredible Comeback of Silky Sullivan",
+    "story": "Hooves thundered and hearts raced as Silky Sullivan made horse racing history. Far behind the pack, this amazing horse seemed out of the race. But on March 8, 1958, Silky Sullivan shocked everyone at Santa Anita racetrack. In a thrilling burst of speed, he zoomed past the other horses, coming from way behind to win by an impressive margin. It was a comeback that left spectators cheering and became legendary in the world of horse racing.",
+    "activity_question": "Where did Silky Sullivan's incredible comeback take place?",
+    "activity_choices": [
+      "Santa Anita racetrack",
+      "Kentucky Derby",
+      "Belmont Park",
+      "Carrot Patch Farms"
+    ],
+    "activity_answer": "Santa Anita racetrack",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think the other jockeys felt when Silky Sullivan zoomed past them?",
+    "score": 90,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "83",
+    "title": "Tiny Golfer's Incredible Ace",
+    "story": "Swish! The ball sailed through the air and plopped right into the hole. In 1968, a young golfer named Tommy Moore achieved something amazing. At just 6 years old, Tommy scored a hole-in-one while playing in Hagerstown, Maryland. This rare feat, happening on March 8, stunned everyone at the course. Even adult golfers dream of getting a hole-in-one, but little Tommy did it before he could tie his own shoes!",
+    "activity_question": "How old was Tommy Moore when he scored his hole-in-one?",
+    "activity_choices": [
+      "6 years old",
+      "10 years old",
+      "16 years old",
+      "26 years old"
+    ],
+    "activity_answer": "6 years old",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Have you ever tried golfing? What's the youngest age you think someone could start learning?",
+    "score": 90,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "90",
+    "title": "Goodyear Blimp Takes to British Skies",
+    "story": "A giant silver balloon floated gracefully above Britain in 1972. The Goodyear blimp Europa made its maiden voyage on March 8, marking the first airship to fly over the country in two decades. This gentle giant of the skies, shaped like a massive floating sausage, captured imaginations and rekindled memories of earlier airship eras. The Europa's flight ushered in a new chapter of aerial advertising and aerial photography.",
+    "activity_question": "What was special about the Goodyear blimp Europa's flight?",
+    "activity_choices": [
+      "It was the first airship over Britain in 20 years",
+      "It was painted bright yellow",
+      "It carried passengers to France",
+      "It was powered by solar energy"
+    ],
+    "activity_answer": "It was the first airship over Britain in 20 years",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think people were excited to see an airship flying again after so long?",
+    "score": 90,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "127",
+    "title": "Ancient Roots: Australia's First People",
+    "story": "Scientists made an amazing discovery about Australia's Aboriginal people on March 8, 2017. DNA research at the University of Adelaide revealed that Aboriginal Australians have lived on the continent for an incredible 50,000 years! Even more fascinating, the study showed that all Aboriginal Australians today are descended from a single group that arrived in one migration long ago. This research helps us understand the deep history of Australia's first inhabitants.",
+    "activity_question": "What did the DNA study reveal about Aboriginal Australians?",
+    "activity_choices": [
+      "They have lived in Australia for 50,000 years",
+      "They came from multiple migrations",
+      "They arrived 5,000 years ago",
+      "They originated in Adelaide"
+    ],
+    "activity_answer": "They have lived in Australia for 50,000 years",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you imagine what life was like 50,000 years ago when the first Aboriginal people arrived in Australia?",
+    "score": 90,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "134",
+    "title": "Cricket Queens Reign Supreme",
+    "story": "Cheers erupted as Australia's women's cricket team clinched victory in the T20 World Cup final on March 8, 2020. The defending champions outplayed India, winning by 85 runs in Melbourne. Beth Mooney shone as Player of the Series, while Alyssa Healy's explosive batting earned her MVP honors. A massive crowd witnessed this thrilling match, showcasing the growing popularity of women's cricket.",
+    "activity_question": "Who was named Player of the Series in the 2020 Women's Cricket T20 World Cup?",
+    "activity_choices": [
+      "Beth Mooney",
+      "Alyssa Healy",
+      "A player from India",
+      "The entire Australian team"
+    ],
+    "activity_answer": "Beth Mooney",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The final match drew a huge crowd, showing how many fans love watching women's cricket.",
+    "score": 90,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "162",
+    "title": "Hitchhiker's Guide Blasts Off on Radio",
+    "story": "Zap! A quirky sci-fi adventure zoomed onto the airwaves in 1978. On March 8, BBC Radio 4 beamed out the very first episode of The Hitchhiker's Guide to the Galaxy. Created by Douglas Adams, this wacky tale of space travel and Earth's destruction quickly became a hit. Listeners tuned in, eager to follow Arthur Dent's cosmic journey with his alien friend Ford Prefect.",
+    "activity_question": "Who created The Hitchhiker's Guide to the Galaxy?",
+    "activity_choices": [
+      "Douglas Adams",
+      "Arthur Dent",
+      "Ford Prefect",
+      "BBC Radio 4"
+    ],
+    "activity_answer": "Douglas Adams",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The Hitchhiker's Guide to the Galaxy later became popular books, TV shows, and even a movie!",
+    "score": 90,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "208",
+    "title": "Washing Up Will Never Be the Same!",
+    "story": "Splish, splash! Josephine Cochrane had a brilliant idea that would change kitchens forever. Born in Ohio on March 8, 1839, she grew tired of washing dishes by hand. Cochrane put her inventive mind to work and created something amazing: the automatic dishwasher! Her clever machine made cleaning up after meals much easier and quicker for families everywhere.",
+    "activity_question": "What did Josephine Cochrane invent?",
+    "activity_choices": [
+      "The automatic dishwasher",
+      "The washing machine",
+      "The microwave oven",
+      "The electric kettle"
+    ],
+    "activity_answer": "The automatic dishwasher",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think the automatic dishwasher changed daily life for families?",
+    "score": 90,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "89",
+    "title": "Jimi Hendrix's Anthem Rocks Radio Hanoi",
+    "story": "Electric guitar wails filled the airwaves as Radio Hanoi made an unexpected choice in 1971. On March 8, the station broadcast Jimi Hendrix's famous version of 'The Star-Spangled Banner.' This wasn't your typical rendition of America's national anthem. Hendrix's electric guitar created wild sounds that some found patriotic, while others thought it was a protest. Either way, it was a surprising musical moment during a tense time.",
+    "activity_question": "What song did Radio Hanoi broadcast on March 8, 1971?",
+    "activity_choices": [
+      "The Star-Spangled Banner",
+      "Purple Haze",
+      "All Along the Watchtower",
+      "Foxy Lady"
+    ],
+    "activity_answer": "The Star-Spangled Banner",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How did Jimi Hendrix make his version of the anthem sound different from the usual?",
+    "score": 89,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "107",
+    "title": "Suisei's Close Encounter with Halley's Comet",
+    "story": "Zoom! A Japanese spacecraft named Suisei raced through space on a special mission. On March 8, 1986, it flew incredibly close to the famous Halley's Comet. Suisei passed within about a hundred thousand kilometers of the icy comet, snapping pictures and gathering data. This close encounter helped scientists learn more about comets and our solar system.",
+    "activity_question": "What was the name of the Japanese spacecraft that flew close to Halley's Comet?",
+    "activity_choices": [
+      "Suisei",
+      "Hayabusa",
+      "Akatsuki",
+      "Kaguya"
+    ],
+    "activity_answer": "Suisei",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think scientists want to study comets up close?",
+    "score": 88,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "179",
+    "title": "A Leader's Brave Words Echo Through Time",
+    "story": "Courage knows no borders. In 2022, Ukrainian President Volodymyr Zelenskyy spoke to the UK parliament, not in person, but through a video call on March 8. His words rang with determination as he channeled the spirit of Winston Churchill, declaring, 'We will not fail. We will fight till the end.' This powerful message showed the world Ukraine's resolve in the face of great challenges.",
+    "activity_question": "How did President Zelenskyy speak to the UK parliament?",
+    "activity_choices": [
+      "Through a video call",
+      "In person",
+      "By telephone",
+      "Using smoke signals"
+    ],
+    "activity_answer": "Through a video call",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think Zelenskyy chose to echo Winston Churchill's words?",
+    "score": 88,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "85",
+    "title": "Students Stand Up in Warsaw",
+    "story": "Voices echoed through Warsaw's streets as students took a bold stand. On March 8, 1968, young people in Poland's capital city joined together to demonstrate. They were speaking out against government censorship and demanding more freedom. The students showed great courage, facing challenges to make their voices heard. Their actions became an important moment in Poland's push for change.",
+    "activity_question": "What were the students demonstrating against?",
+    "activity_choices": [
+      "Government censorship",
+      "School uniforms",
+      "Longer school hours",
+      "Cafeteria food"
+    ],
+    "activity_answer": "Government censorship",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it's important for young people to speak up about things they believe in?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "140",
+    "title": "Plastic Pollution Swamps Our Oceans",
+    "story": "Imagine a sea of plastic stretching as far as the eye can see. In 2023, scientists from the Gyres Institute made a shocking discovery. They estimated that a staggering 171 trillion pieces of plastic now float in our oceans. This number has skyrocketed since 2005, when there were far fewer pieces. On March 8, researchers sounded the alarm about this growing problem, reminding us to reduce, reuse, and recycle to protect our blue planet.",
+    "activity_question": "According to the story, which organization estimated the amount of plastic in the oceans?",
+    "activity_choices": [
+      "Gyres Institute",
+      "Ocean Cleanup Foundation",
+      "Marine Conservation Society",
+      "Plastic Soup Foundation"
+    ],
+    "activity_answer": "Gyres Institute",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What are three ways you can help reduce plastic pollution in the oceans?",
+    "score": 85,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "34",
+    "title": "Soaring to New Heights",
+    "story": "Baroness Raymonde de Laroche spread her wings and made history. On March 8, 1910, this daring Parisian became the world's first licensed female pilot. She bravely took to the skies, proving that women could fly just as well as men. Her courage opened doors for countless other women in aviation, inspiring future generations to reach for the clouds.",
+    "activity_question": "Who became the world's first licensed female pilot?",
+    "activity_choices": [
+      "Baroness Raymonde de Laroche",
+      "Amelia Earhart",
+      "Bessie Coleman",
+      "The Flying Baroness"
+    ],
+    "activity_answer": "Baroness Raymonde de Laroche",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think getting her pilot's license changed Raymonde de Laroche's life?",
+    "score": 82,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "113",
+    "title": "Speedy Hurdler Breaks Indoor Record",
+    "story": "Zoom! Roger Kingdom raced over hurdles faster than anyone before. In 1989, he sprinted and leaped his way to a new indoor world record. Kingdom cleared the 60-meter hurdles in just 7.37 seconds on March 8. That's quicker than most people can tie their shoes! His lightning-fast performance showed the world what's possible when speed meets skill on the track.",
+    "activity_question": "What event did Roger Kingdom set a world record in?",
+    "activity_choices": [
+      "60-meter hurdles",
+      "100-meter dash",
+      "Long jump",
+      "Pole vault"
+    ],
+    "activity_answer": "60-meter hurdles",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How many seconds did it take Kingdom to complete the race?",
+    "optional_type": "follow_up_question",
+    "score": 82,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "160",
+    "title": "Mountain Tunnel Reaches New Heights",
+    "story": "Burrowing through the Rocky Mountains, a marvel of engineering opened its lanes in 1973. The Eisenhower Tunnel, carved 60km west of Denver, Colorado, became the highest vehicle tunnel in the world on March 8. It also claimed the title of longest in the United States. Drivers could now zip through the mountains instead of braving treacherous mountain passes.",
+    "activity_question": "What two records did the Eisenhower Tunnel set when it opened?",
+    "activity_choices": [
+      "Highest and longest in the world",
+      "Highest in the world and longest in the US",
+      "Longest and widest in Colorado",
+      "Deepest and most expensive in history"
+    ],
+    "activity_answer": "Highest in the world and longest in the US",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think building tunnels through mountains is challenging?",
+    "score": 82,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "212",
+    "title": "The Thrilling Birth of a Coaster King",
+    "story": "Hold on tight! LaMarcus Thompson, the future 'Father of the American roller coaster', zoomed into the world in 1848. Born on March 8 in Licking County, Ohio, Thompson would grow up to invent the Switchback Railway. His creation sent riders on a wild ride, sparking a revolution in amusement parks that still makes hearts race today!",
+    "activity_question": "What nickname was given to LaMarcus Thompson?",
+    "activity_choices": [
+      "Father of the American roller coaster",
+      "King of the Switchback",
+      "Ohio's Thrill Master",
+      "Licking County Inventor"
+    ],
+    "activity_answer": "Father of the American roller coaster",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What was the name of Thompson's famous roller coaster invention?",
+    "score": 82,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "17",
+    "title": "A Daring Journey Across the Niagara",
+    "story": "The ground rumbled as a locomotive chugged towards the misty gorge. In 1855, on March 8, the first train boldly crossed America's first railway suspension bridge at Niagara Falls. Passengers held their breath, gazing at the rushing waters far below. This engineering marvel connected two countries, allowing people and goods to travel between the United States and Canada like never before.",
+    "activity_question": "What type of bridge did the train cross at Niagara Falls?",
+    "activity_choices": [
+      "Railway suspension bridge",
+      "Stone arch bridge",
+      "Wooden trestle bridge",
+      "Floating pontoon bridge"
+    ],
+    "activity_answer": "Railway suspension bridge",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think building a bridge over Niagara Falls was challenging?",
+    "score": 80,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "74",
+    "title": "The Marx Brothers' Last TV Hurrah",
+    "story": "Laughter filled the airwaves as the legendary Marx Brothers made their final television appearance together. Groucho, Chico, and Harpo, known for their zany comedy, joined forces one last time in 1959. Their unique blend of wordplay, slapstick, and musical mayhem had entertained audiences for decades. On March 8, viewers tuned in to witness this historic moment, marking the end of an era in comedy.",
+    "activity_question": "What type of comedy were the Marx Brothers known for?",
+    "activity_choices": [
+      "Zany comedy",
+      "Serious drama",
+      "Romantic comedy",
+      "Science fiction"
+    ],
+    "activity_answer": "Zany comedy",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Harpo Marx never spoke during performances, communicating only through facial expressions, gestures, and his signature horn.",
+    "score": 80,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "88",
+    "title": "Bucks Stampede to Victory Streak",
+    "story": "Hooves thundered across the basketball court as the Milwaukee Bucks charged to an incredible victory. On March 8, 1971, they trampled their opponents, clinching their team's record-breaking 20th win in a row. Fans roared with excitement as the Bucks proved unstoppable, game after game. This remarkable streak showcased the team's talent, teamwork, and determination to dominate the NBA.",
+    "activity_question": "What did the Milwaukee Bucks achieve on March 8, 1971?",
+    "activity_choices": [
+      "Their team's record-breaking 20th win in a row",
+      "Their first NBA championship",
+      "Signed a famous player",
+      "Opened a new stadium"
+    ],
+    "activity_answer": "Their team's record-breaking 20th win in a row",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think the Bucks players felt after winning so many games in a row?",
+    "score": 80,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "112",
+    "title": "Speedy Nelli Zooms to Victory",
+    "story": "Zoom! Nelli Cooman raced to glory in 1987, becoming the world champion in the 60-meter indoor sprint. On March 8, this lightning-fast runner from the Netherlands showed off her incredible speed. Cooman dashed past her competitors, crossing the finish line in a blur of motion. Her victory proved that with hard work and determination, anyone can become a champion.",
+    "activity_question": "What event did Nelli Cooman become world champion in?",
+    "activity_choices": [
+      "60-meter indoor sprint",
+      "100-meter outdoor race",
+      "Marathon running",
+      "High jump"
+    ],
+    "activity_answer": "60-meter indoor sprint",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What country was Nelli Cooman from?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "138",
+    "title": "Sydney's Soggy Start: Record-Breaking Rainfall",
+    "story": "Splish, splash! Sydney was taking a massive bath in 2022. The Australian city experienced its wettest start to the year ever recorded. By March 8, a whopping 822 millimeters of rain had fallen. That's like filling a bathtub to the brim! The deluge caused widespread flooding, turning streets into rivers and parks into lakes. Despite the challenges, Sydneysiders showed their resilience, helping neighbors and adapting to the unusually wet conditions.",
+    "activity_question": "How much rain fell in Sydney by March 8, 2022?",
+    "activity_choices": [
+      "822 millimeters",
+      "228 millimeters",
+      "282 millimeters",
+      "A few puddles"
+    ],
+    "activity_answer": "822 millimeters",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How might people prepare for heavy rainfall and potential flooding?",
+    "score": 80,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "236",
+    "title": "A Computer Pioneer's Birthday",
+    "story": "Howard Aiken, a brilliant mind who helped shape the future of computers, was born on March 8, 1900. In Hoboken, New Jersey, a baby arrived who would grow up to create the Harvard Mark I. This massive machine, as big as a room, was one of the first automatic calculators. Aiken's work laid the groundwork for the computers we use every day!",
+    "activity_question": "What did Howard Aiken help create?",
+    "activity_choices": [
+      "The Harvard Mark I",
+      "The first smartphone",
+      "The internet",
+      "The electric typewriter"
+    ],
+    "activity_answer": "The Harvard Mark I",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The Harvard Mark I was so large it took up an entire room!",
+    "score": 80,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "262",
+    "title": "Shigeru Mizuki: From Soldier to Manga Master",
+    "story": "Pencils and paintbrushes became powerful weapons in Shigeru Mizuki's hands. Born on March 8, 1922, in Sakaiminato, Japan, Mizuki transformed from a soldier into a legendary manga artist. His most famous creation, GeGeGe no Kitarō, brought Japanese folklore to life, captivating readers with spooky yet lovable yokai monsters. Mizuki's art bridged the gap between traditional stories and modern comics, leaving a lasting mark on Japanese culture.",
+    "activity_question": "What was Shigeru Mizuki's most famous manga creation?",
+    "activity_choices": [
+      "GeGeGe no Kitarō",
+      "Doraemon",
+      "Astro Boy",
+      "Dragon Ball"
+    ],
+    "activity_answer": "GeGeGe no Kitarō",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Yokai are supernatural creatures from Japanese folklore, ranging from mischievous to terrifying.",
+    "score": 80,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "319",
+    "title": "Flipping into Olympic Glory",
+    "story": "Graceful and powerful, Natalia Kuchinskaya tumbled onto the world stage. Born in Saint Petersburg, Russia on March 8, 1949, she became a star Soviet gymnast. Kuchinskaya's hard work paid off in 1968 when she won Olympic gold with her team. She also claimed gold on the balance beam and bronze medals in floor exercise and all-around competition.",
+    "activity_question": "What medals did Natalia Kuchinskaya win at the Olympics?",
+    "activity_choices": [
+      "Gold with her team and on balance beam",
+      "Silver in all events",
+      "Bronze in every category",
+      "Gold in floor exercise only"
+    ],
+    "activity_answer": "Gold with her team and on balance beam",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another Olympic gymnastics event?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "141",
+    "title": "Ancient Gold Disc Reveals Norse God Odin",
+    "story": "Buried treasure led to an amazing discovery! Danish scientists found a gold disc in Western Denmark that mentions the Norse god Odin. This disc, part of the Vindelev hoard, is the oldest known reference to Odin. Revealed on March 8, 2023, it dates back to the fifth century. That's over 1,500 years old! The find gives us a glimpse into the beliefs of ancient Norse people.",
+    "activity_question": "What ancient Norse god was mentioned on the gold disc?",
+    "activity_choices": [
+      "Odin",
+      "Thor",
+      "Loki",
+      "Freya"
+    ],
+    "activity_answer": "Odin",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think finding ancient objects like this is important for understanding history?",
+    "score": 78,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "218",
+    "title": "The Man Who Made Playgrounds Fun",
+    "story": "Joseph Lee loved to see kids having fun. Born in Boston on March 8, 1862, he became known as the Father of Playgrounds. Lee believed all children should have safe places to play and learn. He worked hard to create playgrounds in cities across America. His ideas helped make outdoor play a normal part of growing up for many kids.",
+    "activity_question": "What was Joseph Lee known as?",
+    "activity_choices": [
+      "The Father of Playgrounds",
+      "The King of Boston",
+      "The Playground Inventor",
+      "The Fun Master"
+    ],
+    "activity_answer": "The Father of Playgrounds",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think playgrounds are important for kids?",
+    "optional_type": "follow_up_question",
+    "score": 78,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "26",
+    "title": "Fishing Rod Revolution",
+    "story": "Snap! A clever inventor named Everett Horton had a brilliant idea. On March 8, 1887, he patented a fishing rod made of telescoping steel tubes. This nifty design allowed the rod to collapse for easy carrying and extend for fishing. Horton's invention in Connecticut changed the game for anglers everywhere, making fishing more portable and fun.",
+    "activity_question": "What material did Everett Horton use for his new fishing rod?",
+    "activity_choices": [
+      "Bamboo",
+      "Plastic",
+      "Steel tubes",
+      "Rubber"
+    ],
+    "activity_answer": "Steel tubes",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How did Horton's rod design make fishing easier?",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "31",
+    "title": "Spin Wizard's Final Test Triumph",
+    "story": "Crowds roared as Hugh Trumble, Australia's cricket spin master, bowled his way into history. On March 8, 1904, in Melbourne, Trumble stunned England with an incredible hat-trick, dismissing three batsmen in a row. This wasn't just any match - it was Trumble's final Test, and he made it unforgettable by claiming his second Test hat-trick ever!",
+    "activity_question": "What special bowling feat did Hugh Trumble achieve in his final Test match?",
+    "activity_choices": [
+      "A hat-trick",
+      "A century",
+      "A golden duck",
+      "A banana split"
+    ],
+    "activity_answer": "A hat-trick",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Do you know what a hat-trick in cricket means?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "58",
+    "title": "Helicopters Take Flight in the Big Apple",
+    "story": "Whirling blades sliced through the air as history was made in New York City. On March 8, 1946, the first helicopter received a license for commercial use. This flying machine could hover, go backwards, and land in tight spots. It opened up new possibilities for rescue missions, traffic reports, and even pizza delivery!",
+    "activity_question": "What was special about the helicopter licensed on March 8, 1946?",
+    "activity_choices": [
+      "It was the first for commercial use",
+      "It could fly to the moon",
+      "It was made of chocolate",
+      "It had six rotors"
+    ],
+    "activity_answer": "It was the first for commercial use",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How might helicopters be useful in a big city like New York?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "75",
+    "title": "Tucson's TV Revolution Begins",
+    "story": "Lights, camera, action! In 1959, Tucson's living rooms came alive as KUAT TV channel 6 flickered to life. This new PBS station brought a world of educational shows and entertainment right into Arizona homes. On March 8, families gathered around their sets, eager to see what this groundbreaking channel would offer. It was the start of a new era in desert city broadcasting.",
+    "activity_question": "What type of station was KUAT TV channel 6?",
+    "activity_choices": [
+      "PBS",
+      "ABC",
+      "NBC",
+      "CBS"
+    ],
+    "activity_answer": "PBS",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "PBS stands for Public Broadcasting Service, offering programs without commercials.",
+    "optional_type": "bonus_fact",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "101",
+    "title": "Rock Rolls into the Soviet Union",
+    "story": "Guitar riffs echoed through Moscow as the Soviet Union's first-ever rock music festival kicked off in 1980. On March 8, fans gathered to hear homegrown bands play tunes that were once considered too Western. This groundbreaking event marked a shift in Soviet culture, allowing young people to express themselves through music that was previously frowned upon.",
+    "activity_question": "What type of music was featured at this groundbreaking festival?",
+    "activity_choices": [
+      "Classical",
+      "Folk",
+      "Rock",
+      "Jazz"
+    ],
+    "activity_answer": "Rock",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think rock music was once considered 'too Western' in the Soviet Union?",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "146",
+    "title": "Ancient Maya City Discovered!",
+    "story": "Hidden in the jungle, a lost city waited. In 1576, Spanish explorer Diego Garcia de Palacio stumbled upon the ruins of Copan, a magnificent Maya site. Excited by his discovery, he wrote to King Philip II of Spain, becoming the first non-Indian to visit and report on a major Maya city. His letter opened the world's eyes to the wonders of this ancient civilization on March 8.",
+    "activity_question": "Who did Diego Garcia de Palacio write to about his discovery?",
+    "activity_choices": [
+      "King Philip II of Spain",
+      "The Maya emperor",
+      "Christopher Columbus",
+      "His pet llama"
+    ],
+    "activity_answer": "King Philip II of Spain",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What do you think archaeologists might find if they explored Copan today?",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "200",
+    "title": "Stargazer Supreme: Alvan Clark's Birth",
+    "story": "Peering through the stars, a future telescope genius was born. Alvan Clark entered the world in Ashfield, Massachusetts on March 8, 1804. This American astronomer would go on to create the Dearborn Observatory telescope, the largest of its kind when built. Clark's passion for the cosmos led him to craft instruments that brought the heavens closer to Earth.",
+    "activity_question": "What did Alvan Clark create?",
+    "activity_choices": [
+      "The Dearborn Observatory telescope",
+      "The Hubble Space Telescope",
+      "The first rocket ship",
+      "A magical star map"
+    ],
+    "activity_answer": "The Dearborn Observatory telescope",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think having a bigger telescope might be important for astronomers?",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "260",
+    "title": "Dancing Queen: Cyd Charisse Takes the Stage",
+    "story": "Twirling into the spotlight, Cyd Charisse began her journey to stardom in 1922. Born on March 8 in Amarillo, Texas, this future dancing sensation would captivate audiences with her graceful moves. Charisse dazzled in films like 'Singin' in the Rain,' becoming one of Hollywood's most beloved performers. Her talent and elegance continue to inspire dancers today.",
+    "activity_question": "In which famous movie did Cyd Charisse perform?",
+    "activity_choices": [
+      "Singin' in the Rain",
+      "Dancing in the Dark",
+      "Tap Dancing Dreams",
+      "Twirling Through Time"
+    ],
+    "activity_answer": "Singin' in the Rain",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What other talents might help someone become a great dancer like Cyd Charisse?",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "303",
+    "title": "A Christmas Wish for a Hippo",
+    "story": "Gayla Peevey, the voice behind the quirky holiday hit 'I Want a Hippopotamus for Christmas,' was born in Oklahoma City in 1943. Her playful song about wanting an unusual pet for the holidays became a beloved classic. On March 8, we celebrate the birthday of this American singer and songwriter who brought joy to countless children with her whimsical tune.",
+    "activity_question": "What unusual pet did Gayla Peevey sing about wanting for Christmas?",
+    "activity_choices": [
+      "A hippopotamus",
+      "An elephant",
+      "A giraffe",
+      "A penguin"
+    ],
+    "activity_answer": "A hippopotamus",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you think of another animal that would be funny to ask for as a Christmas gift?",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "328",
+    "title": "Swimming Star Born in Sri Lanka",
+    "story": "Splash! A future swimming champion entered the world in Colombo, Sri Lanka on March 8, 1954. David Wilkie, born that day, would grow up to become a Scottish swimming sensation. He glided through the water to win Olympic gold in the 200-meter breaststroke in 1976. Wilkie also snagged world championship titles, proving himself a true master of the pool.",
+    "activity_question": "In which swimming event did David Wilkie win an Olympic gold medal?",
+    "activity_choices": [
+      "200-meter breaststroke",
+      "100-meter freestyle",
+      "400-meter individual medley",
+      "50-meter butterfly"
+    ],
+    "activity_answer": "200-meter breaststroke",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name another famous athlete who was born outside the country they represented?",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "22",
+    "title": "Ironclad Showdown: A Naval Revolution",
+    "story": "Cannon fire echoed across Hampton Roads, Virginia as a historic naval battle unfolded. On March 8, 1862, the Confederate ironclad CSS Virginia clashed with Union wooden ships. The next day, the USS Monitor arrived, sparking the first-ever battle between ironclad warships. This revolutionary encounter changed naval warfare forever, ushering in a new era of armored ships.",
+    "activity_question": "What type of ships fought in this historic battle?",
+    "activity_choices": [
+      "Ironclad warships",
+      "Wooden sailboats",
+      "Submarines",
+      "Aircraft carriers"
+    ],
+    "activity_answer": "Ironclad warships",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The USS Monitor was nicknamed the 'cheese box on a raft' due to its unusual design.",
+    "score": 72,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "55",
+    "title": "Women Unite: A Global Celebration Begins",
+    "story": "Cheers erupted as women around the world joined hands in solidarity. The year was 1945, and for the first time ever, people celebrated International Women's Day on March 8. This special day honored the achievements of women and called for gender equality. It marked a powerful moment in history, sparking hope for a fairer future.",
+    "activity_question": "What did International Women's Day celebrate?",
+    "activity_choices": [
+      "The achievements of women",
+      "The end of World War II",
+      "A new fashion trend",
+      "The invention of computers"
+    ],
+    "activity_answer": "The achievements of women",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it's important to have a day that celebrates women?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "57",
+    "title": "Breaking Barriers in Navy Blue",
+    "story": "Phyllis M Daley made history in 1945. She became the first black nurse to be sworn in as a US Navy ensign. On March 8, Daley took her oath, opening doors for future generations. Her bravery and skill helped pave the way for more diversity in the military. Daley's achievement showed that talent knows no color.",
+    "activity_question": "What rank did Phyllis M Daley achieve in the US Navy?",
+    "activity_choices": [
+      "Ensign",
+      "Captain",
+      "Admiral",
+      "Lieutenant"
+    ],
+    "activity_answer": "Ensign",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it's important to have diversity in the military?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "70",
+    "title": "Suez Canal Flows Again",
+    "story": "Ships honked their horns in celebration! The vital Suez Canal reopened in 1957, connecting the Mediterranean and Red Seas once more. For months, the waterway had been closed due to conflict. On March 8, Egypt welcomed the first boats through, marking a return to normal trade. Sailors cheered as their vessels glided along the historic channel.",
+    "activity_question": "What two bodies of water does the Suez Canal connect?",
+    "activity_choices": [
+      "Mediterranean and Red Seas",
+      "Atlantic and Pacific Oceans",
+      "Black Sea and Caspian Sea",
+      "Indian Ocean and Persian Gulf"
+    ],
+    "activity_answer": "Mediterranean and Red Seas",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "The Suez Canal is about 120 miles long!",
+    "optional_type": "bonus_fact",
+    "score": 70,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "139",
+    "title": "Slow-Burn Hit Sizzles to the Top",
+    "story": "Glass Animals' song 'Heat Waves' finally reached number one on the US Billboard Top 100 chart in 2022. But this wasn't just any climb to the top. The British band's catchy tune took an incredible journey, setting a new record. It spent nearly 59 weeks slowly rising through the ranks before claiming the coveted top spot on March 8.",
+    "activity_question": "What chart did 'Heat Waves' reach number one on?",
+    "activity_choices": [
+      "US Billboard Top 100",
+      "UK Singles Chart",
+      "Global Streaming Chart",
+      "Radio Airplay List"
+    ],
+    "activity_answer": "US Billboard Top 100",
+    "suitable_for_8_to_12_year_old": false,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How long did it take 'Heat Waves' to reach number one?",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "144",
+    "title": "Cyclone Alfred Swirls into Australia",
+    "story": "Swirling winds and heavy rain batter the islands off Brisbane's coast as Cyclone Alfred arrives. This category one storm touches down on March 8, 2025, drenching Queensland's offshore areas. While not the strongest cyclone, Alfred still packs a punch, reminding us of nature's power. Residents hunker down, staying safe as the storm passes through.",
+    "activity_question": "What category of storm was Cyclone Alfred?",
+    "activity_choices": [
+      "Category one",
+      "Category two",
+      "Category three",
+      "Category four"
+    ],
+    "activity_answer": "Category one",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What are some ways people can prepare for a tropical cyclone?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "157",
+    "title": "The Beatles' Radio Debut Rocks the Airwaves",
+    "story": "Imagine turning on the radio and hearing The Beatles for the first time! That's what happened on March 8, 1962, when the Fab Four made their BBC radio debut. The band, which included Pete Best at the time, performed a cover of Roy Orbison's 'Dream Baby (How Long Must I Dream)'. They had recorded it live the night before at Manchester's Playhouse Theatre. This exciting moment marked the beginning of The Beatles' journey to becoming music legends.",
+    "activity_question": "What song did The Beatles perform for their BBC radio debut?",
+    "activity_choices": [
+      "Dream Baby (How Long Must I Dream)",
+      "Love Me Do",
+      "Please Please Me",
+      "Twist and Shout"
+    ],
+    "activity_answer": "Dream Baby (How Long Must I Dream)",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Who was the original artist of the song The Beatles covered for their radio debut?",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "227",
+    "title": "The Scientist Who Discovered Cortisone",
+    "story": "Edward Calvin Kendall was born in 1886, destined to change medicine forever. This brilliant American chemist would go on to isolate cortisone, a powerful anti-inflammatory drug. His groundbreaking work earned him the Nobel Prize in 1950. Kendall's discovery on March 8 opened new doors for treating arthritis and other conditions, bringing relief to millions.",
+    "activity_question": "What important substance did Edward Calvin Kendall isolate?",
+    "activity_choices": [
+      "Cortisone",
+      "Penicillin",
+      "Insulin",
+      "Vitamin C"
+    ],
+    "activity_answer": "Cortisone",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why is cortisone important in medicine?",
+    "score": 70,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "325",
+    "title": "Slugger Jim Rice Swings into the World",
+    "story": "Batter up! A future baseball legend entered the game on March 8, 1953. Jim Rice was born in Anderson, South Carolina, destined to become a powerhouse hitter. This slugger would go on to smash home runs for the Boston Red Sox, earning eight All-Star selections and even an MVP award in his stellar career.",
+    "activity_question": "What team did Jim Rice play for?",
+    "activity_choices": [
+      "Boston Red Sox",
+      "New York Yankees",
+      "Chicago Cubs",
+      "Los Angeles Dodgers"
+    ],
+    "activity_answer": "Boston Red Sox",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Jim Rice was inducted into the Baseball Hall of Fame, honoring his incredible achievements in the sport.",
+    "score": 70,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "336",
+    "title": "The Birth of a New Wave Icon",
+    "story": "Beep beep! A future music star entered the world on March 8, 1958. Gary Webb, better known as Gary Numan, was born in Hammersmith, England. This British musician would grow up to become a pioneer of new wave rock. Numan's hit song 'Cars' zoomed to the top of the charts, making him famous worldwide.",
+    "activity_question": "What was Gary Numan's birth name?",
+    "activity_choices": [
+      "Gary Webb",
+      "Gary Numan",
+      "Gary Cars",
+      "Gary England"
+    ],
+    "activity_answer": "Gary Webb",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "Gary Numan is known for his distinctive electronic sound and robot-like stage persona.",
+    "optional_type": "bonus_fact",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "362",
+    "title": "Tobe Nwigwe: From Houston to Hip-Hop Star",
+    "story": "Tobe Nwigwe burst onto the music scene with his unique style and powerful lyrics. Born in Houston, Texas in 1987, this talented artist would grow up to become a singer, rapper, and actor. On March 8, the same date years earlier, baby Tobe entered the world, destined to make waves in the entertainment industry with hits like 'I'm Dope'.",
+    "activity_question": "What type of artist is Tobe Nwigwe?",
+    "activity_choices": [
+      "A singer, rapper, and actor",
+      "A painter and sculptor",
+      "A chef and food critic",
+      "A professional athlete"
+    ],
+    "activity_answer": "A singer, rapper, and actor",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name another famous musician from Houston, Texas?",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "1",
+    "title": "The Last King of Palenque",
+    "story": "A new leader rose to power in the ancient Maya world. K'inich K'uk' Bahlum became king of Palenque in 764. This grand city, with its towering pyramids and intricate carvings, was about to face big changes. K'inich K'uk' Bahlum would be the last known ruler before Palenque's mysterious decline. His coronation on March 8 marked the end of an era for this once-mighty Maya kingdom.",
+    "activity_question": "What happened to Palenque after K'inich K'uk' Bahlum's rule?",
+    "activity_choices": [
+      "It faced mysterious decline",
+      "It became more powerful",
+      "It joined another kingdom",
+      "It moved to a new location"
+    ],
+    "activity_answer": "It faced mysterious decline",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think ancient cities like Palenque sometimes collapsed?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "10",
+    "title": "Soldiers Rebel: A Revolutionary Twist",
+    "story": "Soldiers don't always follow orders! In 1777, German troops meant to help Britain in the American Revolutionary War had other ideas. On March 8, regiments from Ansbach and Bayreuth staged a mutiny in Ochsenfurt. These soldiers were supposed to cross the ocean to fight, but they decided to stand up for themselves instead.",
+    "activity_question": "Where did the mutiny take place?",
+    "activity_choices": [
+      "Ochsenfurt",
+      "Ansbach",
+      "Bayreuth",
+      "Britain"
+    ],
+    "activity_answer": "Ochsenfurt",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think the soldiers might not have wanted to fight in America?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "32",
+    "title": "Hockey Heroes Triumph in Ottawa",
+    "story": "Cheers erupted at Dey's Arena as Ottawa HC skated to victory! In 1906, on March 8, the team clinched the Stanley Cup with an impressive 8-2 win over Smiths Falls. This thrilling match completed a clean sweep of the challenge series, cementing Ottawa's place in hockey history.",
+    "activity_question": "Where did the Stanley Cup match take place?",
+    "activity_choices": [
+      "Dey's Arena",
+      "Smiths Falls",
+      "Stanley Stadium",
+      "Ottawa Coliseum"
+    ],
+    "activity_answer": "Dey's Arena",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The Stanley Cup is the oldest trophy in North American professional sports.",
+    "score": 65,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "59",
+    "title": "Supreme Court Separates Church and School",
+    "story": "The US Supreme Court made a big decision in 1948. They said it wasn't okay to teach religion in public schools. This ruling came from a case called McCollum v. Board of Education on March 8. It helped keep the government separate from religion, which is an important idea in America.",
+    "activity_question": "What did the Supreme Court decide wasn't okay in public schools?",
+    "activity_choices": [
+      "To teach religion",
+      "To play sports",
+      "To have lunch",
+      "To learn math"
+    ],
+    "activity_answer": "To teach religion",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it's important to keep religion separate from public schools?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "62",
+    "title": "Breaking Waves in Naval Medicine",
+    "story": "Dr. Beatrice Rose Walters made a splash in naval history. In 1950, she became the first woman medical officer assigned to a naval vessel. This groundbreaking appointment on March 8 opened new doors for women in military medicine. Dr. Walters' achievement paved the way for future generations of female doctors to serve at sea.",
+    "activity_question": "What did Dr. Beatrice Rose Walters become in 1950?",
+    "activity_choices": [
+      "The first woman medical officer on a naval vessel",
+      "The captain of a naval ship",
+      "The head of the Navy's medical school",
+      "The inventor of a new life jacket"
+    ],
+    "activity_answer": "The first woman medical officer on a naval vessel",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it took until 1950 for a woman to become a medical officer on a naval vessel?",
+    "score": 65,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  }
+]

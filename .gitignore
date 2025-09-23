@@ -1,9 +1,4 @@
 books/
-facts/new fact grabber/1_raw/
-facts/new fact grabber/2_scored/
-facts/new fact grabber/3_culled/
-facts/new fact grabber/4_enhanced/
-facts/new fact grabber/5_categorised/
 facts/new fact grabber/scored/
 facts/new fact grabber/old/
 facts/new fact grabber/retry_log.txt
@@ -12,5 +7,4 @@ facts/old/
 oldResources/
 cover/complete/
 FINAL/
-facts/new fact grabber/facts
 publisher-bot/node_modules/

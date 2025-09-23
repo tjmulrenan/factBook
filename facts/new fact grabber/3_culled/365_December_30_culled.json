@@ -1,0 +1,542 @@
+[
+  {
+    "id": 16,
+    "year": "1853",
+    "original": "Dinner party held inside life-sized model of an Iguanodon (ornithopod dinosaur), created by Benjamin Waterhouse Hawkins and Sir Richard Owen in South London",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 1
+  },
+  {
+    "id": 135,
+    "year": "1924",
+    "original": "AstronomerEdwin Hubbleformally announces the existence of other galactic systems at a meeting of the American Astronomical Society",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 2
+  },
+  {
+    "id": 182,
+    "year": "1850",
+    "original": "John Milne, British geologist (developed the first modern seismograph), born in Liverpool, England (d. 1913)",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 3
+  },
+  {
+    "id": 371,
+    "year": "1989",
+    "original": "Ryan Sheckler, American skateboarder (Summer X Games gold Park, Street 2003, 08; Street 2010; \"Life of Ryan\" 2007-09), born in San Clemente, California",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 4
+  },
+  {
+    "id": 152,
+    "year": "1981",
+    "original": "Wayne Gretzkyscores 5 goals and an assist in Edmonton's 7-5 win over Philadelphia; gives Gretzky 50 goals in 39 games, the fastest 50 in 50 in NHL history; also sets NHL record with 15-game assist streak",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 5
+  },
+  {
+    "id": 97,
+    "year": "1992",
+    "original": "Washington defenseman Al Iafrate becomes first player in NHL history to have his shot officially break 100 miles per hour; records 101.4 mph during the Capitals Superskills competition",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 6
+  },
+  {
+    "id": 120,
+    "year": "2020",
+    "original": "San Antonio assistant Becky Hammon becomes first female to coach an NBA team after Spurs head coach Gregg Popovich is ejected in a 121-107 loss to the LA Lakers",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 7
+  },
+  {
+    "id": 161,
+    "year": "1941",
+    "original": "In an emotional speech to the Canadian ParliamentWinston Churchillstates Britain will never surrender to \"Hitler and his Nazi gang\" and that \"they have asked for total war. Let us make sure they get it\". Afterwards Yousef Karsh captures him in his famous photograph, \"The Roaring Lion\".",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 8
+  },
+  {
+    "id": 212,
+    "year": "1899",
+    "original": "Helge Ingstad, Norwegian explorer who discovered the Viking settlement at L'Anse aux Meadows in Newfoundland from around 1000 AD, born in Meråker, Norway (d. 2001)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 9
+  },
+  {
+    "id": 157,
+    "year": "2018",
+    "original": "Patrick Mahomesbecomes only the 2nd quarterback in NFL history to throw for 5,000 yards and 50 touchdowns during KC Chiefs' 35-3 win over Oakland Raiders; achieves both marks with 3rd quarter 89-yard TD pass to Demarcus Robinson",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 10
+  },
+  {
+    "id": 158,
+    "year": "2022",
+    "original": "\"Queen\" guitarist and astrophysicistBrian May(75) receives a British knighthood for his service to music and charity",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 11
+  },
+  {
+    "id": 121,
+    "year": "2021",
+    "original": "Rare winter wildfire destroys nearly 1000 homes at the base of the Rocky Mountains, Colorado, in suburban neighborhoods between Boulder and Denver",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 12
+  },
+  {
+    "id": 369,
+    "year": "1988",
+    "original": "James Asquith, British founder of Holiday Swap and youngest male person to travel to every sovereign country, born in Cuckfield, England",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 13
+  },
+  {
+    "id": 224,
+    "year": "1913",
+    "original": "Elyne Mitchell (née Chauvel) Australian nonfiction and children's literature author (Silver Brumby series), and skier (Canadian Womens Downhill Champion, 1938), born in Melbourne, Australia (d. 2002)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 14
+  },
+  {
+    "id": 310,
+    "year": "1953",
+    "original": "Bill Kazmaier, American powerlifter and world's strongest man (1980-82), born in Burlington, Wisconsin[1]",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 15
+  },
+  {
+    "id": 350,
+    "year": "1973",
+    "original": "Ato Boldon, Trinidadian athlete (World C'ship gold 200m 1997; Olympic silver 100m 2000; bronze x 3), born in Port of Spain, Trinidad & Tobago",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 16
+  },
+  {
+    "id": 363,
+    "year": "1984",
+    "original": "Andra Day [Cassandra Batie], American singer-songwriter (\"Rise Up\"), and actress (The United States vs. Billie Holiday), born in Edmonds, Washington",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 17
+  },
+  {
+    "id": 354,
+    "year": "1977",
+    "original": "Laila Ali, American boxer (WBC, WIBA, IWBF, IBA female super middleweight titles, IWBF light heavyweight title) and TV personality, born in Miami Beach, Florida",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 18
+  },
+  {
+    "id": 296,
+    "year": "1947",
+    "original": "Jeff Lynne, British rock singer-songwriter and record producer (ELO - \"Livin' Thing\"; Traveling Wilburys - \"Handle With Care\"; Beatles - \"Free As A Bird\"), born in Shard End, Birmingham, England",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 19
+  },
+  {
+    "id": 294,
+    "year": "1946",
+    "original": "Patti Smith, American poet and punk rock vocalist (Horses; \"Because The Night\"), born in Chicago, Illinois",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 20
+  },
+  {
+    "id": 285,
+    "year": "1942",
+    "original": "Michael Nesmith, American rock guitarist (The Monkees; First National Band), singer-songwriter (\"Different Drum\"), and music video pioneer, born in Houston, Texas (d. 2021)[1]",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 21
+  },
+  {
+    "id": 344,
+    "year": "1969",
+    "original": "Anthuan Maybank, American athlete (Olympic gold 4x400m relay), born in Georgetown, South Carolina",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 22
+  },
+  {
+    "id": 106,
+    "year": "2005",
+    "original": "Tropical Storm Zeta forms in the open Atlantic Ocean, tying the record for the latest tropical cyclone ever to form in the North Atlantic basin",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 23
+  },
+  {
+    "id": 110,
+    "year": "2012",
+    "original": "The opening of Line 6 of the Beijing subway makes it the longest metro network in the world at 442km",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 24
+  },
+  {
+    "id": 128,
+    "year": "1879",
+    "original": "W. S. GilbertandArthur Sullivan's comic opera \"The Pirates of Penzance\" premieres in Paignton, England and at Fifth Avenue Theatre NYC the next day",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 25
+  },
+  {
+    "id": 141,
+    "year": "1953",
+    "original": "Queen Elizabeth IIvisits the Tūrangawaewae marae in New Zealand, home of the Maori Kīngitanga movement",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 26
+  },
+  {
+    "id": 90,
+    "year": "1987",
+    "original": "Australia hang on for draw v New Zealand at MCG, 1 wkt left 17 runs short",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 47
+  },
+  {
+    "id": 70,
+    "year": "1968",
+    "original": "Frank Sinatrafirst records \"My Way\" with lyrics were written by Paul Anka and based on the French song \"Comme d'habitude\"",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 28
+  },
+  {
+    "id": 267,
+    "year": "1937",
+    "original": "Gordon Banks, English soccer goalkeeper (World Cup 1966, 73 England caps), born in Sheffield, England (d. 2019)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 29
+  },
+  {
+    "id": 269,
+    "year": "1937",
+    "original": "John Hartford [Harford] American country and bluegrass banjo player, fiddler, and singer-songwriter (\"Gentle on My Mind\"), born in New York City (d. 2001)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 30
+  },
+  {
+    "id": 346,
+    "year": "1969",
+    "original": "Jay Kay [Jason Cheetham], English jazz-funk singer-songwriter (Jamiroquai), born in Stretford, Lancashire, England",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 31
+  },
+  {
+    "id": 375,
+    "year": "1996",
+    "original": "Vivian Oparah, English actress and musician (Rye Lane), born in London",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 32
+  },
+  {
+    "id": 318,
+    "year": "1956",
+    "original": "Sheryl Lee Ralph, American actress on stage (Dreamgirls) in film (To Sleep with Anger); and television (Abbott Elementary), born in Waterbury, Connecticut",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 33
+  },
+  {
+    "id": 358,
+    "year": "1979",
+    "original": "Flávio, Angolan soccer striker (86 caps; Petro Atlético 176 games), born in Luanda, Angola",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 35
+  },
+  {
+    "id": 353,
+    "year": "1977",
+    "original": "Kenyon Martin, American basketball forward (NBA Draft #1 pick NJ Nets; NBA All Star 2004 Denver Nuggets; NCAA Player of the Year 2000 Cincinnati), born in Saginaw, Michigan",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 36
+  },
+  {
+    "id": 372,
+    "year": "1990",
+    "original": "Joe Root, English cricket batsman and captain (Test HS 262; Yorkshire CCC), born in Sheffield, England",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 37
+  },
+  {
+    "id": 89,
+    "year": "1986",
+    "original": "Ballon d'Or: Dynamo Kyiv's Ukrainian forward Igor Belanov is named best football player in Europe ahead of Barcelona striker Gary Lineker and Real Madrid forward Emilio Butragueño",
+    "score": 89,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 43
+  },
+  {
+    "id": 80,
+    "year": "1978",
+    "original": "Ohio State dismisses Woody Hayes as its football coach",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 42
+  },
+  {
+    "id": 46,
+    "year": "1934",
+    "original": "New York Rangers and Boston Bruins battle out a 0-0 tie; first of a 37-game overtime undefeated streak for the Bruins, the longest in NHL history; streak spans over 4 years and includes 27 ties",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 46
+  },
+  {
+    "id": 85,
+    "year": "1982",
+    "original": "England defeat Australia by three runs at cricket MCG",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 48
+  },
+  {
+    "id": 96,
+    "year": "1992",
+    "original": "Last day of Test Cricket for Michael Whitney",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 52
+  },
+  {
+    "id": 67,
+    "year": "1967",
+    "original": "Beatles' \"Hello Goodbye\" single goes #1 & stays #1 for 3 weeks",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 53
+  },
+  {
+    "id": 76,
+    "year": "1974",
+    "original": "Beatles are legally disbanded (4 years after suit was brought)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 54
+  },
+  {
+    "id": 139,
+    "year": "1942",
+    "original": "NYC's Times Square greetsFrank Sinatraat Paramount Theater, initiating the term \"Sinatramania\"",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 55
+  },
+  {
+    "id": 63,
+    "year": "1953",
+    "original": "The first NTSC color television sets go on sale for about $1,175 from RCA",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 56
+  },
+  {
+    "id": 48,
+    "year": "1936",
+    "original": "United Auto Workers stage 1st sit-down strike, at Fisher Body Plant",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 57
+  },
+  {
+    "id": 22,
+    "year": "1892",
+    "original": "Dr Miles V Lynk, physician, publishes 1st Black medical journal",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 58
+  },
+  {
+    "id": 59,
+    "year": "1950",
+    "original": "\"Sixty Minute Man\" record single released by The Dominoes (Billboard Song of the Year 1951)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 59
+  },
+  {
+    "id": 94,
+    "year": "1989",
+    "original": "10th United Negro College Fund raises $12,000,000",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 60
+  },
+  {
+    "id": 95,
+    "year": "1990",
+    "original": "11th United Negro College Fund raises $10,000,000",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 61
+  },
+  {
+    "id": 99,
+    "year": "1995",
+    "original": "Lowest ever UK temperature recorded of -27.2°C iat Altnaharra in the Scottish Highlands, equaling the record set at Braemar, Aberdeenshire on February 11, 1895 and January 10, 1982",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 62
+  },
+  {
+    "id": 35,
+    "year": "1917",
+    "original": "-32°F (-36°C) in Mountain City, Tennessee (state record)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 63
+  },
+  {
+    "id": 36,
+    "year": "1917",
+    "original": "-37°F (-38°C) in Lewisburg, WV (state record)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 64
+  },
+  {
+    "id": 43,
+    "year": "1933",
+    "original": "-50°F (-46°C) in Bloomfield, Vermont (state record)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 65
+  },
+  {
+    "id": 69,
+    "year": "1968",
+    "original": "-48°F (-44°C), Mazama & Winthrop, Washington (state record)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 66
+  },
+  {
+    "id": 84,
+    "year": "1982",
+    "original": "Anthony Shaffer's \"Whodunnit\" premieres in NYC",
+    "score": 84,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 67
+  },
+  {
+    "id": 309,
+    "year": "1952",
+    "original": "Somtow Sucharitkul [S. P. Somtow], Thai composer and sci-fi author (Utopia Hunters), born in Bangkok, Thailand",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 68
+  },
+  {
+    "id": 311,
+    "year": "1953",
+    "original": "Daniel T. Barry, American engineer and NASA astronaut (STS 72), born in Norwalk, Connecticut",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 69
+  },
+  {
+    "id": 323,
+    "year": "1958",
+    "original": "Steven L Smith, astronaut (STS 68, 82), born in Phoenix, Arizona",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 70
+  },
+  {
+    "id": 330,
+    "year": "1962",
+    "original": "Henry Cho, Korean-American comedian, born in Knoxville, Tennessee",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 71
+  }
+]

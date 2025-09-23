@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Day of the Dead: A Colorful Celebration",
+    "story": "Families across Mexico and many other places gather on November 1 to celebrate Day of the Dead, or Día de los Muertos. This isn't a scary holiday at all! People create beautiful altars called ofrendas in their homes, decorated with bright orange marigold flowers, photos of loved ones who have died, and their favorite foods. Families visit cemeteries to clean graves and share stories about people they miss. They believe spirits return to visit on this special day. Everyone eats sugar skulls, pan de muerto bread, and other treats while remembering happy memories together.",
+    "activity_question": "What are the special altars called that families create for Day of the Dead?",
+    "activity_choices": [
+      "Ofrendas",
+      "Piñatas",
+      "Tamales",
+      "Dancing skeletons"
+    ],
+    "activity_answer": "Ofrendas",
+    "bonus_fact": "The marigold flowers are called \"flor de muerto\" and their smell guides spirits home.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "902",
+    "title": "Plants on Your Plate Day!",
+    "story": "Every November 1, people around the world celebrate World Vegan Day by eating only foods that come from plants! Vegans skip all animal products like meat, dairy, and eggs. On this special day, restaurants create amazing plant-based menus with colorful veggie burgers, creamy oat milk ice cream, and delicious cashew cheese. People share their favorite vegan recipes online and try cooking new plant-powered meals at home.",
+    "activity_question": "What do vegans avoid eating?",
+    "activity_choices": [
+      "All animal products like meat, dairy, and eggs",
+      "Only red meat",
+      "Just fish and chicken",
+      "Purple vegetables and singing carrots"
+    ],
+    "activity_answer": "All animal products like meat, dairy, and eggs",
+    "follow_up_question": "What plant-based food would you be most excited to try?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "903",
+    "title": "Celebrate Your Favorite Storytellers Today!",
+    "story": "Every November 1, bookworms across America celebrate National Authors' Day by honoring the writers who create their favorite stories! Libraries host special reading events, bookstores display author spotlights, and schools encourage kids to write thank-you letters to their beloved authors. Many people share their favorite book quotes on social media or start reading a new book by an author they've never tried before.",
+    "activity_question": "What do schools encourage kids to do on National Authors' Day?",
+    "activity_choices": [
+      "Write thank-you letters to their favorite authors",
+      "Dress up like book characters",
+      "Build blanket forts for reading",
+      "Create their own bookmarks"
+    ],
+    "activity_answer": "Write thank-you letters to their favorite authors",
+    "bonus_fact": "Some authors actually write back to kids who send them letters!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 50
+  },
+  {
+    "id": "904",
+    "title": "Zero Degrees of Fun: Prime Meridian Day",
+    "story": "Every November 1, geography lovers celebrate Prime Meridian Day by honoring the invisible line that splits our planet into Eastern and Western hemispheres! This imaginary line runs straight through Greenwich, England, and marks zero degrees longitude on every map and globe. People celebrate by sharing cool facts about time zones, posting photos from Greenwich Observatory, and teaching others how this special line helps sailors, pilots, and GPS systems navigate around the world.",
+    "activity_question": "What does the Prime Meridian help divide the Earth into?",
+    "activity_choices": [
+      "Eastern and Western hemispheres",
+      "Hot and cold regions",
+      "Land and water areas",
+      "Big and small continents"
+    ],
+    "activity_answer": "Eastern and Western hemispheres",
+    "bonus_fact": "The Prime Meridian also determines when each new day officially begins around the world!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 58
+  }
+]

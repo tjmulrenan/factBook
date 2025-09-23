@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Storm Chasers and Weather Watchers Day",
+    "story": "Every February 5, people celebrate National Weatherperson's Day to honor the meteorologists who predict our daily weather! Kids and families thank their local TV weather forecasters by sending cards, drawings, and messages. Many schools invite meteorologists to visit and explain how they track storms and predict sunny days. Weather stations often host special tours where visitors can see the cool technology used to forecast rain, snow, and sunshine.",
+    "activity_question": "What do kids often send to weather forecasters on National Weatherperson's Day?",
+    "activity_choices": [
+      "Cards and drawings",
+      "Umbrellas and raincoats",
+      "Weather balloons",
+      "Storm clouds in jars"
+    ],
+    "activity_answer": "Cards and drawings",
+    "follow_up_question": "What kind of weather would you most want to predict if you were a meteorologist?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "902",
+    "title": "Dip Into Deliciousness Day",
+    "story": "Every February 5, chocolate lovers celebrate National Chocolate Fondue Day by melting their favorite chocolate into warm, gooey perfection! Families and friends gather around fondue pots, dipping strawberries, marshmallows, pretzels, and chunks of cake into the silky chocolate. Restaurants offer special fondue menus, while home cooks experiment with different chocolate types - from milk chocolate to dark chocolate with a hint of peppermint. Social media fills with photos of people's creative dipping adventures. Some brave souls even try dipping potato chips or bacon! It's the perfect excuse to make any day sweeter and bring people together over shared treats.",
+    "activity_question": "What are some popular foods people dip into chocolate fondue?",
+    "activity_choices": [
+      "Strawberries, marshmallows, and cake",
+      "Pizza, hamburgers, and hot dogs",
+      "Carrots, celery, and broccoli",
+      "Ice cubes, rocks, and pencils"
+    ],
+    "activity_answer": "Strawberries, marshmallows, and cake",
+    "bonus_fact": "Some people even dip unexpected foods like potato chips or bacon into chocolate fondue!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "903",
+    "title": "Sweet Treats for Finland's Favorite Poet",
+    "story": "Every February 5, people across Finland celebrate Runeberg Day by eating special pastries called Runeberg tortes! These small, round cakes are flavored with almonds and rum, then topped with raspberry jam and white icing. The holiday honors Johan Ludvig Runeberg, Finland's national poet who wrote their unofficial national anthem. Bakeries fill their windows with these delicious treats, and families gather to share them with coffee or milk. It's a sweet way to remember the man whose words helped shape Finnish culture!",
+    "activity_question": "What special pastry do people eat on Runeberg Day?",
+    "activity_choices": [
+      "Runeberg tortes",
+      "Cinnamon rolls",
+      "Chocolate donuts",
+      "Blueberry muffins"
+    ],
+    "activity_answer": "Runeberg tortes",
+    "bonus_fact": "The tortes are traditionally served in paper cups, just like cupcakes!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  }
+]

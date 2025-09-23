@@ -1,0 +1,1282 @@
+[
+  {
+    "id": "901",
+    "title": "Trash to Treasure Day!",
+    "story": "Every November 15, America celebrates America Recycles Day by turning trash into treasure! People across the country sort their bottles, cans, and paper to give them new life. Schools host recycling drives where kids compete to collect the most recyclables. Families clean out their recycling bins and learn fun facts about how their old soda bottles might become new playground equipment or fleece jackets!",
+    "activity_question": "What might an old soda bottle become after being recycled?",
+    "activity_choices": [
+      "A new playground equipment or fleece jacket",
+      "A birthday cake",
+      "A live goldfish",
+      "A math textbook"
+    ],
+    "activity_answer": "A new playground equipment or fleece jacket",
+    "follow_up_question": "What's the coolest thing you could make from recycled materials?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "902",
+    "title": "Fridge Cleaning Frenzy Day",
+    "story": "Every November 15, people across the country open their refrigerators and get ready to clean! National Clean Out Your Refrigerator Day encourages families to toss expired food, wipe down shelves, and organize everything neatly. Kids help by checking dates on milk cartons and yogurt cups. Some families make it a game by seeing who can find the oldest item hiding in the back corners!",
+    "activity_question": "What do families check on food items during this holiday?",
+    "activity_choices": [
+      "Expiration dates",
+      "The color of the packaging",
+      "How much it weighs",
+      "Whether it glows in the dark"
+    ],
+    "activity_answer": "Expiration dates",
+    "follow_up_question": "What's the weirdest thing you've ever found forgotten in your fridge?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "903",
+    "title": "Spicy Hermit Cookies Heat Up November",
+    "story": "Bakers across America fire up their ovens on November 15 for National Spicy Hermit Cookie Day! These chewy, old-fashioned cookies pack a punch with warm spices like cinnamon, nutmeg, and ginger. Unlike regular cookies, hermit cookies actually taste better after sitting for a day or two – that's how they got their \"hermit\" name, because they hide away and improve with time. Families love making big batches together, filling their kitchens with amazing smells. Many people share photos of their homemade hermit cookies on social media, showing off different spice combinations and secret family recipes.",
+    "activity_question": "Why are these cookies called \"hermit\" cookies?",
+    "activity_choices": [
+      "Because they taste better after hiding away for a day or two",
+      "Because they're shaped like tiny caves",
+      "Because hermits invented the recipe",
+      "Because you eat them alone in your room"
+    ],
+    "activity_answer": "Because they taste better after hiding away for a day or two",
+    "bonus_fact": "Some hermit cookie recipes are over 150 years old and passed down through generations!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "904",
+    "title": "Pen Your Passion on I Love to Write Day",
+    "story": "Writers everywhere grab their favorite pens, pencils, and keyboards on November 15 for I Love to Write Day! This special holiday celebrates the joy of putting words on paper, whether you're writing stories, poems, letters, or even grocery lists. Schools often host writing contests where kids create amazing tales about dragons, space adventures, or their pet hamsters. Libraries set up cozy writing corners with special notebooks and colorful pens. Many people share their favorite writing tips online or post pictures of their messy, ink-stained fingers. Some families write thank-you notes together or start journals they promise to keep all year long.",
+    "activity_question": "What do schools often host on I Love to Write Day?",
+    "activity_choices": [
+      "Writing contests",
+      "Spelling bees",
+      "Book fairs",
+      "Pizza parties"
+    ],
+    "activity_answer": "Writing contests",
+    "follow_up_question": "What kind of story would you write if you entered a writing contest today?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 82
+  },
+  {
+    "id": "135",
+    "title": "PlayStation 4: A Gaming Revolution Begins",
+    "story": "Gamers, get ready! In 2013, Sony unleashed its newest creation: the PlayStation 4. This powerful gaming console took the world by storm when it hit shelves on November 15. Excitement reached fever pitch as players rushed to get their hands on the cutting-edge system. The launch was a massive success, with a whopping one million PS4s flying off shelves in just the first day!",
+    "activity_question": "How many PlayStation 4 consoles were sold on the first day of its launch?",
+    "activity_choices": [
+      "One million",
+      "One thousand",
+      "One hundred thousand",
+      "Ten million"
+    ],
+    "activity_answer": "One million",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What do you think made the PlayStation 4 so popular on its launch day?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "94",
+    "title": "Wild West Thrills Come to Disney World",
+    "story": "Hold on to your hats! In 1980, Disney World in Florida unveiled an exciting new attraction. Big Thunder Mountain Railroad, a thrilling rollercoaster, opened its tracks on November 15. This runaway mine train takes riders on a wild journey through the Old West. Twisting and turning, the coaster zooms past rocky peaks, abandoned gold mines, and even a dinosaur fossil. It quickly became a favorite among park visitors seeking adventure.",
+    "activity_question": "What type of attraction opened at Disney World in 1980?",
+    "activity_choices": [
+      "A thrilling rollercoaster",
+      "A water slide",
+      "A Ferris wheel",
+      "A petting zoo"
+    ],
+    "activity_answer": "A thrilling rollercoaster",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What's the theme of the Big Thunder Mountain Railroad ride?",
+    "score": 94,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "121",
+    "title": "Atlantis Meets Mir: A Space Handshake",
+    "story": "High above Earth, two giants of space exploration came together. In 1995, the American space shuttle Atlantis gracefully approached the Russian space station Mir. With careful precision, Atlantis docked with Mir on November 15, creating a cosmic connection between these orbiting marvels. This historic meetup marked a new era of international cooperation in space, as astronauts and cosmonauts worked side by side among the stars.",
+    "activity_question": "What two spacecraft docked together in this historic event?",
+    "activity_choices": [
+      "Atlantis and Mir",
+      "Apollo and Soyuz",
+      "Discovery and ISS",
+      "Endeavour and Skylab"
+    ],
+    "activity_answer": "Atlantis and Mir",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it's important for different countries to work together in space?",
+    "score": 92,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "172",
+    "title": "Space Heroes Splash Down",
+    "story": "Splash! Two brave astronauts plunged into the Atlantic Ocean as their spacecraft returned from an incredible journey. Jim Lovell and Buzz Aldrin had just completed the Gemini 12 mission on November 15, 1966. For days, they orbited Earth, testing important skills for future Moon landings. Their successful splashdown marked the end of NASA's Gemini program, paving the way for the famous Apollo missions that would soon follow.",
+    "activity_question": "What program did the Gemini 12 mission mark the end of?",
+    "activity_choices": [
+      "NASA's Gemini program",
+      "The Apollo missions",
+      "The Atlantic Ocean program",
+      "The Moon landing tests"
+    ],
+    "activity_answer": "NASA's Gemini program",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name one of the two astronauts who completed the Gemini 12 mission?",
+    "score": 92,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "171",
+    "title": "Zooming into the Record Books",
+    "story": "Vroom! On November 15, 1965, Craig Breedlove rocketed into history. He pushed his jet-powered car, Spirit of America, to an incredible speed of 600.601 miles per hour. That's faster than a commercial airplane! Breedlove's daring run on Utah's Bonneville Salt Flats set a new land speed record. It showed how far technology and human courage could go. Remember, kids: leave the speed records to the pros!",
+    "activity_question": "What was the name of Craig Breedlove's record-breaking car?",
+    "activity_choices": [
+      "Spirit of America",
+      "Rocket Runner",
+      "Salt Flat Speeder",
+      "Jet Jumper"
+    ],
+    "activity_answer": "Spirit of America",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The Bonneville Salt Flats where Breedlove set his record are so flat you can see the curve of the Earth!",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "125",
+    "title": "Xbox Blasts onto the Gaming Scene",
+    "story": "Gamers, get ready! Microsoft's first Xbox console roared to life in the US on November 15, 2001. This powerful machine brought jaw-dropping graphics and thrilling new games to living rooms across the country. With its sleek black design and iconic green logo, the Xbox quickly became a favorite among players young and old.",
+    "activity_question": "What company released the first Xbox?",
+    "activity_choices": [
+      "Microsoft",
+      "Nintendo",
+      "Sony",
+      "Sega"
+    ],
+    "activity_answer": "Microsoft",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The Xbox's controller was nicknamed 'The Duke' because of its large size.",
+    "score": 80,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "105",
+    "title": "Soviet Space Shuttle Takes Flight",
+    "story": "Blast off! On November 15, 1988, the Soviet Union's space shuttle soared into the sky for the first time. This amazing spacecraft, called Buran, completed two orbits around Earth without any humans on board. It was a huge achievement for Soviet space technology, showing they could build and fly their own shuttle. The successful flight opened up new possibilities for space exploration.",
+    "activity_question": "What was the name of the Soviet space shuttle?",
+    "activity_choices": [
+      "Buran",
+      "Sputnik",
+      "Mir",
+      "Vostok"
+    ],
+    "activity_answer": "Buran",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think the first flight was unmanned?",
+    "score": 85,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "41",
+    "title": "Mickey's Art School Opens Its Doors",
+    "story": "Pencils sharpened and paintbrushes ready! In 1932, the Walt Disney Art School sprang to life. On November 15, aspiring artists flocked to learn the secrets of bringing cartoon characters to life. This special school taught the magic of animation, helping create the lively characters we know and love today. It was a dream come true for many young artists!",
+    "activity_question": "What did the Walt Disney Art School teach?",
+    "activity_choices": [
+      "The magic of animation",
+      "How to build theme parks",
+      "Cooking Mickey-shaped pancakes",
+      "Writing movie scripts"
+    ],
+    "activity_answer": "The magic of animation",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name a famous Disney character that might have been drawn by students at this school?",
+    "score": 82,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "80",
+    "title": "Wendy's Serves Up Its First Square Burger",
+    "story": "Sizzling patties hit the grill as Wendy's Hamburgers opened its doors in Columbus, Ohio on November 15, 1969. Founded by Dave Thomas, this new fast food joint had a unique twist - square burgers that peeked out from round buns! Thomas named the restaurant after his daughter and focused on fresh, made-to-order food. Little did he know, Wendy's would grow into one of America's favorite burger chains.",
+    "activity_question": "What shape were Wendy's burgers when the restaurant first opened?",
+    "activity_choices": [
+      "Square",
+      "Round",
+      "Triangle",
+      "Oval"
+    ],
+    "activity_answer": "Square",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Wendy's famous Frosty dessert was part of the original menu in 1969.",
+    "score": 80,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "147",
+    "title": "Darwin's Coral Reef Discovery Voyage",
+    "story": "Waves crashed against HMS Beagle as Charles Darwin stepped onto Tahiti's shores on November 15, 1835. The young naturalist's eyes sparkled with excitement. This tropical paradise would inspire his groundbreaking ideas about coral reefs. Darwin carefully observed the colorful underwater structures, pondering their formation. His Tahiti adventure laid the foundation for his book The Structure and Distribution of Coral Reefs.",
+    "activity_question": "What did Darwin observe in Tahiti that inspired his ideas?",
+    "activity_choices": [
+      "Coral reefs",
+      "Tropical birds",
+      "Volcanic mountains",
+      "Ancient artifacts"
+    ],
+    "activity_answer": "Coral reefs",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think studying coral reefs is important for understanding our oceans?",
+    "score": 82,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "386",
+    "title": "A Young Voice for Climate Action",
+    "story": "Vanessa Nakate took her first breath in Uganda, ready to change the world. Born in 1996 on November 15, she grew up to become a powerful voice for climate action. Nakate saw how global warming was hurting her country and decided to speak up. She leads protests, talks to world leaders, and inspires young people everywhere to protect our planet. Her passion proves that one person can make a big difference.",
+    "activity_question": "What cause does Vanessa Nakate fight for?",
+    "activity_choices": [
+      "Climate action",
+      "Animal rights",
+      "Education reform",
+      "Space exploration"
+    ],
+    "activity_answer": "Climate action",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think young people can help protect the environment?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "325",
+    "title": "Inventor's Bright Idea Brings Clean Water",
+    "story": "A brilliant mind was born in Mumbai, India on November 15, 1950. Ashok Gadgil would grow up to become a scientist and inventor who changed lives. His most famous creation? A clever device that cleans water in developing countries. Gadgil's invention helps keep people healthy by making dirty water safe to drink. His work shows how science can solve real-world problems and make a big difference.",
+    "activity_question": "What did Ashok Gadgil invent?",
+    "activity_choices": [
+      "A device that cleans water",
+      "A new type of computer",
+      "A flying car",
+      "A robot chef"
+    ],
+    "activity_answer": "A device that cleans water",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why is clean water so important for people's health?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "76",
+    "title": "Tragedy Strikes X-15 Space Program",
+    "story": "Soaring to the edge of space, the X-15 aircraft pushed the limits of flight. But in 1967, on November 15, tragedy struck. During the 191st mission, Air Force test pilot Michael J. Adams lost control while descending from an incredible height. His aircraft broke apart high above the Mojave Desert. Sadly, Adams became the only fatality in the daring X-15 program. His sacrifice reminds us of the risks brave pilots take to advance our understanding of flight.",
+    "activity_question": "What happened to Michael J. Adams' aircraft during the X-15 mission?",
+    "activity_choices": [
+      "It broke apart",
+      "It landed safely",
+      "It ran out of fuel",
+      "It turned into a banana"
+    ],
+    "activity_answer": "It broke apart",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think test pilots take such big risks in experimental aircraft?",
+    "score": 76,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "227",
+    "title": "The Artist Who Painted a Giant Canvas",
+    "story": "John Banvard, born in New York City in 1815, became famous for creating an enormous masterpiece. This talented artist painted a canvas so large it stretched for miles! Banvard's incredible work, often called the world's largest painting, amazed people with its sheer size and detail. On November 15, his birthday, we remember this ambitious painter who thought bigger than anyone else.",
+    "activity_question": "What was special about John Banvard's painting?",
+    "activity_choices": [
+      "It was the world's largest painting",
+      "It was made of gold",
+      "It could talk",
+      "It was invisible"
+    ],
+    "activity_answer": "It was the world's largest painting",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How long was Banvard's giant canvas?",
+    "score": 80,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "31",
+    "title": "Egypt's Treasure Trove Opens Its Doors",
+    "story": "Mummies, golden masks, and ancient secrets! In 1902, the Egyptian Museum unlocked its new home in Cairo. This special place became the first national museum in the Middle East. On November 15, curious visitors stepped into a world of pharaohs and pyramids. The museum's grand building on Ismailia Square (now Tahrir Square) welcomed everyone to explore Egypt's amazing history.",
+    "activity_question": "Where did the Egyptian Museum open its new home?",
+    "activity_choices": [
+      "Cairo",
+      "Alexandria",
+      "Luxor",
+      "Giza"
+    ],
+    "activity_answer": "Cairo",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What kinds of ancient treasures might you see in the Egyptian Museum?",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "14",
+    "title": "A Mountain Fit for a Pike",
+    "story": "Zebulon Pike's eyes widened as he gazed at the towering peak before him. On November 15, 1806, this American explorer became the first to spot the majestic mountain that would later bear his name. Pike's expedition team was mapping the southwestern edge of the Louisiana Purchase when they stumbled upon the snow-capped giant in present-day Colorado.",
+    "activity_question": "What was Zebulon Pike doing when he spotted the mountain?",
+    "activity_choices": [
+      "Mapping the Louisiana Purchase",
+      "Climbing the highest peaks",
+      "Hunting for gold",
+      "Building a log cabin"
+    ],
+    "activity_answer": "Mapping the Louisiana Purchase",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "Pikes Peak stands at 14,115 feet tall!",
+    "optional_type": "bonus_fact",
+    "score": 75,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "153",
+    "title": "A Sharp Idea Shaves the World",
+    "story": "Shaving got a whole lot safer in 1904! King C. Gillette had a brilliant idea that would change morning routines forever. On November 15, he patented the safety razor, known as the Gillette razor blade. This clever invention made shaving easier and less risky than using old-fashioned straight razors.",
+    "activity_question": "What did King C. Gillette patent on November 15, 1904?",
+    "activity_choices": [
+      "The safety razor",
+      "The electric toothbrush",
+      "The hair dryer",
+      "The mustache comb"
+    ],
+    "activity_answer": "The safety razor",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "Gillette's invention is still used by millions of people around the world today!",
+    "optional_type": "bonus_fact",
+    "score": 57,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "167",
+    "title": "Elgin Baylor's Incredible Basketball Feat",
+    "story": "Swish! The crowd went wild as Elgin Baylor of the Los Angeles Lakers sank shot after shot. On November 15, 1960, Baylor amazed everyone with his incredible scoring ability. He racked up an astounding 71 points in a single game against the New York Knicks. Baylor's performance showcased his exceptional talent and left fans in awe of his basketball skills.",
+    "activity_question": "Who did Elgin Baylor score 71 points against?",
+    "activity_choices": [
+      "The New York Knicks",
+      "The Boston Celtics",
+      "The Chicago Bulls",
+      "The Golden State Warriors"
+    ],
+    "activity_answer": "The New York Knicks",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What team did Elgin Baylor play for when he scored 71 points?",
+    "score": 85,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "388",
+    "title": "A Real-Life Kim Possible Is Born",
+    "story": "Sadie Stanley leaped into the world on November 15, 2001, in Columbia, South Carolina. This future actress would grow up to bring beloved cartoon character Kim Possible to life in a live-action movie. Stanley also starred in The Sleepover and joined the cast of The Goldbergs from 2020 to 2022, showcasing her talent on both big and small screens.",
+    "activity_question": "What cartoon character did Sadie Stanley bring to life in a movie?",
+    "activity_choices": [
+      "Kim Possible",
+      "The Sleepover",
+      "The Goldbergs",
+      "Wonder Woman"
+    ],
+    "activity_answer": "Kim Possible",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Have you ever watched Kim Possible? What do you like about cartoon heroes?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "380",
+    "title": "From Tobago to Wakanda: Winston Duke's Journey",
+    "story": "Winston Duke roared onto the big screen as M'Baku in Black Panther, but his story began far from Wakanda. Born on November 15, 1986, in the small village of Argyle, Tobago, Duke's path to stardom was just beginning. He would go on to captivate audiences in films like Us, bringing his Tobagonian spirit to Hollywood. Duke's powerful presence and talent have made him a rising star in the film world.",
+    "activity_question": "In which country was Winston Duke born?",
+    "activity_choices": [
+      "Wakanda",
+      "Tobago",
+      "Hollywood",
+      "United States"
+    ],
+    "activity_answer": "Tobago",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What other famous movie did Winston Duke star in besides Black Panther?",
+    "optional_type": "follow_up_question",
+    "score": 90,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "237",
+    "title": "Birsa Munda: Tribal Hero's Brave Stand",
+    "story": "A champion for his people was born on November 15, 1875. Birsa Munda entered the world in Ulihatu, a village in British-ruled India. He grew up to become a fearless freedom fighter, inspiring leader, and folk hero for the Munda tribe. Birsa bravely stood up against British control, leading a powerful uprising in Bengal. His courage and dedication to justice made him a legendary figure in Indian history.",
+    "activity_question": "What did Birsa Munda lead against the British Raj?",
+    "activity_choices": [
+      "A powerful uprising",
+      "A peaceful protest",
+      "A hunger strike",
+      "A dance competition"
+    ],
+    "activity_answer": "A powerful uprising",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think Birsa Munda is considered a hero by his people?",
+    "optional_type": "follow_up_question",
+    "score": 78,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "111",
+    "title": "Lip-Sync Scandal Rocks the Music World",
+    "story": "The music world was stunned when producers revealed a shocking secret. On November 15, 1990, they confirmed that pop duo Milli Vanilli hadn't actually sung on their own album. The news exposed one of the biggest lip-syncing scandals in music history. Fans were surprised to learn their favorite songs were performed by other singers behind the scenes.",
+    "activity_question": "What did producers confirm about Milli Vanilli?",
+    "activity_choices": [
+      "They hadn't sung on their album",
+      "They were breaking up",
+      "They were changing their name",
+      "They were aliens in disguise"
+    ],
+    "activity_answer": "They hadn't sung on their album",
+    "suitable_for_8_to_12_year_old": false,
+    "follow_up_question": "How do you think fans felt when they learned the truth?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "187",
+    "title": "Beastie Boys Shake Up the Music World",
+    "story": "Hip-hop history was made in 1986 when the Beastie Boys dropped their first album, 'Licensed to Ill.' Released on November 15, this groundbreaking record became the first rap album to top the Billboard charts. The trio's unique blend of rap and rock caught fire, introducing a whole new sound to eager listeners across America.",
+    "activity_question": "What was special about the Beastie Boys' album 'Licensed to Ill'?",
+    "activity_choices": [
+      "It was the first rap album to top the Billboard charts",
+      "It was recorded in just one day",
+      "It featured only rock songs",
+      "It was performed entirely in pig Latin"
+    ],
+    "activity_answer": "It was the first rap album to top the Billboard charts",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The Beastie Boys started as a punk rock band before switching to hip-hop.",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "165",
+    "title": "Elvis Rocks the Silver Screen",
+    "story": "Elvis Presley shook up more than just music in 1956. On November 15, the King of Rock 'n' Roll made his big-screen debut in 'Love Me Tender'. Fans flocked to theaters, eager to see their idol act as well as sing. The movie's success launched Elvis into a whole new world of stardom, proving he could conquer both stage and screen.",
+    "activity_question": "What was the name of Elvis Presley's first movie?",
+    "activity_choices": [
+      "Love Me Tender",
+      "Jailhouse Rock",
+      "Blue Suede Shoes",
+      "Hound Dog"
+    ],
+    "activity_answer": "Love Me Tender",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The movie's title song 'Love Me Tender' became Elvis's first ballad to hit #1 on the charts.",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "78",
+    "title": "The Jackson 5's Groovy Debut Hit",
+    "story": "Funky beats and soulful harmonies burst onto the music scene in 1969. The Jackson 5, led by young Michael Jackson, released their catchy tune 'I Want You Back'. On November 15, it became their first song to enter the top 100 charts. This groovy track kicked off the group's incredible journey to stardom.",
+    "activity_question": "What was the name of the Jackson 5's first hit song to enter the top 100 charts?",
+    "activity_choices": [
+      "I Want You Back",
+      "ABC",
+      "Dancing Machine",
+      "Boogie Woogie"
+    ],
+    "activity_answer": "I Want You Back",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "Michael Jackson was only 11 years old when this song was released!",
+    "optional_type": "bonus_fact",
+    "score": 78,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "385",
+    "title": "Rugby Star Antoine Dupont's Birthday",
+    "story": "Imagine a tiny baby growing up to become a rugby giant! That's exactly what happened with Antoine Dupont. Born in Lannemezan, France in 1996, he entered the world on November 15. Little did anyone know this newborn would transform into a powerhouse on the rugby field. Today, Dupont is a superstar, leading France's national team as their captain. He's known for his quick thinking and lightning-fast moves that leave opponents in awe.",
+    "activity_question": "Where was Antoine Dupont born?",
+    "activity_choices": [
+      "Lannemezan, France",
+      "Paris, France",
+      "Marseille, France",
+      "Rugby Town, France"
+    ],
+    "activity_answer": "Lannemezan, France",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What position do you think Antoine Dupont plays on the rugby field?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "160",
+    "title": "Poet's Words Win World's Top Prize",
+    "story": "Words have power! In 1945, Gabriela Mistral's poetry touched hearts around the globe. On November 15, this talented Chilean writer made history. She became the first person from Latin America to win the Nobel Prize in Literature. Mistral's beautiful verses about nature, love, and her homeland earned her this incredible honor.",
+    "activity_question": "What did Gabriela Mistral win?",
+    "activity_choices": [
+      "The Nobel Prize in Literature",
+      "A poetry contest",
+      "The Pulitzer Prize",
+      "An Olympic gold medal"
+    ],
+    "activity_answer": "The Nobel Prize in Literature",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What country was Gabriela Mistral from?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "73",
+    "title": "Soccer Star's Dazzling Debut",
+    "story": "Cleats laced tight, a young Johan Cruijff stepped onto the field for Ajax, ready to change soccer forever. On November 15, 1964, this Dutch dynamo made his professional debut against GVAV. Little did anyone know that Cruijff would become one of the greatest players in history, revolutionizing the beautiful game with his skill and vision.",
+    "activity_question": "Which team did Johan Cruijff make his debut against?",
+    "activity_choices": [
+      "GVAV",
+      "Barcelona",
+      "Real Madrid",
+      "Manchester United"
+    ],
+    "activity_answer": "GVAV",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Cruijff later invented a famous move called the 'Cruijff Turn' that players still use today.",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "170",
+    "title": "Mickey Wright's Golfing Magic",
+    "story": "Swish! The golf ball soared through the air, landing perfectly on the green. In 1964, Mickey Wright amazed everyone with her incredible skill. On November 15, she scored an astonishing 62 at the Tall City Open in Midland, Texas. This wasn't just any good game - it was the lowest score ever recorded by a female pro golfer at the time!",
+    "activity_question": "What was Mickey Wright's record-breaking golf score?",
+    "activity_choices": [
+      "62",
+      "64",
+      "60",
+      "Hole-in-one"
+    ],
+    "activity_answer": "62",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it's challenging to score low in golf?",
+    "score": 85,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "387",
+    "title": "Swinging into Stardom: Hinako Shibuno's Birth",
+    "story": "A future golf champion took her first swing at life on November 15, 1998. Hinako Shibuno was born in Okayama Prefecture, Japan, destined to become a golfing sensation. Little did anyone know that this newborn would grow up to conquer the Women's British Open in 2019, making waves in the world of professional golf.",
+    "activity_question": "Where was Hinako Shibuno born?",
+    "activity_choices": [
+      "Okayama Prefecture, Japan",
+      "Tokyo, Japan",
+      "Osaka, Japan",
+      "Kyoto, Japan"
+    ],
+    "activity_answer": "Okayama Prefecture, Japan",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What major golf tournament did Hinako Shibuno win in 2019?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "136",
+    "title": "Shaking Seas: Indonesia's Powerful Quake",
+    "story": "The ocean floor rumbled and shook as a massive earthquake struck beneath the Molucca Sea in eastern Indonesia. On November 15, 2014, the powerful 7.3 magnitude quake sent waves of concern across the region. Officials quickly issued a tsunami warning, urging coastal communities to be on high alert. The event reminded everyone of nature's awesome power and the importance of earthquake preparedness.",
+    "activity_question": "Where did the earthquake occur?",
+    "activity_choices": [
+      "Under the Molucca Sea",
+      "In western Indonesia",
+      "On the ocean surface",
+      "Near Australia"
+    ],
+    "activity_answer": "Under the Molucca Sea",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it's important for coastal areas to have tsunami warning systems?",
+    "score": 75,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "144",
+    "title": "Pirate Crew's Daring Adventure Ends",
+    "story": "Ahoy, mateys! The high-seas adventure of three famous pirates came to a sudden halt in 1720. Anne Bonny, Mary Read, and Calico Jack found themselves in hot water on November 15. Captain Jonathan Barnet caught the daring trio and hauled them to Spanish Town, Jamaica. There, the swashbuckling crew faced a trial for their pirate escapades.",
+    "activity_question": "Where were the pirates taken for trial?",
+    "activity_choices": [
+      "Spanish Town, Jamaica",
+      "Treasure Island",
+      "Port Royal",
+      "Tortuga"
+    ],
+    "activity_answer": "Spanish Town, Jamaica",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name the three pirates who were captured?",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "90",
+    "title": "A Mind-Bending Film Shocks Viewers",
+    "story": "In 1978, a daring documentary called 'Heartbeat in the Brain' made its debut at the Suydam Gallery on November 15. Created by and starring Amanda Feilding, this unusual film explored the inner workings of the human mind. The screening caused quite a stir, with several viewers actually fainting during the show! It's a reminder of how powerful and thought-provoking art can be.",
+    "activity_question": "What was the name of the documentary that caused viewers to faint?",
+    "activity_choices": [
+      "Heartbeat in the Brain",
+      "Mind Over Matter",
+      "The Fainting Spell",
+      "Gallery Shockers"
+    ],
+    "activity_answer": "Heartbeat in the Brain",
+    "suitable_for_8_to_12_year_old": false,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think some people fainted while watching this film?",
+    "score": 90,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "42",
+    "title": "Scientist Wins Nobel for Discovering Heavy Water",
+    "story": "Harold C. Urey made a splash in the world of chemistry. On November 15, 1934, he was awarded the Nobel Prize for his groundbreaking discovery of deuterium. This special form of hydrogen, found in 'heavy water,' opened up new possibilities for scientific research. Urey's work helped scientists better understand atoms and paved the way for important advances in physics and chemistry.",
+    "activity_question": "What did Harold C. Urey discover that earned him the Nobel Prize?",
+    "activity_choices": [
+      "Deuterium",
+      "Helium",
+      "Oxygen",
+      "Uranium"
+    ],
+    "activity_answer": "Deuterium",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you think of other scientists who have won Nobel Prizes for their discoveries?",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "83",
+    "title": "Gamma Ray Detective Blasts Off",
+    "story": "A space detective took flight on November 15, 1972! The Small Astronomy Satellite Explorer 48 rocketed into orbit. Its mission? To uncover the mysteries of gamma rays, the most energetic light in the universe. This cosmic sleuth would help scientists peek into the hearts of distant galaxies and explosive stars.",
+    "activity_question": "What was the mission of the Small Astronomy Satellite Explorer 48?",
+    "activity_choices": [
+      "To study gamma rays",
+      "To take photos of Earth",
+      "To collect space rocks",
+      "To search for aliens"
+    ],
+    "activity_answer": "To study gamma rays",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think scientists are interested in studying gamma rays from space?",
+    "score": 75,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "61",
+    "title": "Breaking the Ice: A Hockey Pioneer",
+    "story": "Skates sliced through barriers as Arthur Dorrington made history. In 1950, he became the first Black man to sign with an organized hockey team. The Atlantic City Seagulls welcomed him to their roster on November 15, opening doors for future players of all backgrounds. Dorrington's courage and skill on the ice helped pave the way for diversity in the sport.",
+    "activity_question": "Which team signed Arthur Dorrington?",
+    "activity_choices": [
+      "Atlantic City Seagulls",
+      "New York Rangers",
+      "Boston Bruins",
+      "Ice Cream Scoopers"
+    ],
+    "activity_answer": "Atlantic City Seagulls",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think Dorrington's signing changed hockey for future players?",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "103",
+    "title": "Giant Radio Ear Tumbles Down",
+    "story": "Crash! The enormous radio telescope at Green Bank, West Virginia, suddenly collapsed. On November 15, 1988, this massive dish - as big as a football field - crumpled without warning. Scientists used it like a giant ear to listen for signals from space. Though the fall was a shock, it led to building an even better telescope. Astronomers learned valuable lessons about safety and design.",
+    "activity_question": "What did scientists use the radio telescope like?",
+    "activity_choices": [
+      "A giant ear",
+      "A football",
+      "A space signal",
+      "A crumpled dish"
+    ],
+    "activity_answer": "A giant ear",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think astronomers build such large telescopes?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "79",
+    "title": "Peas Make TV History",
+    "story": "Frozen peas made a splash on British screens in 1969! The first-ever color TV commercial in the UK aired on November 15, featuring Birds Eye peas. It popped up during an episode of the popular show Thunderbirds on ATV in the Midlands. This colorful ad marked a big change from the old black-and-white commercials, bringing a whole new world of vibrant visuals to TV viewers.",
+    "activity_question": "What product was featured in the UK's first color TV commercial?",
+    "activity_choices": [
+      "Birds Eye peas",
+      "Thunderbirds toys",
+      "ATV televisions",
+      "Colorful crayons"
+    ],
+    "activity_answer": "Birds Eye peas",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think color commercials changed the way products were advertised on TV?",
+    "score": 79,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "247",
+    "title": "Richmal Crompton: Creator of Mischievous William",
+    "story": "A mischievous boy named William was born from the imagination of Richmal Crompton. This talented British author came into the world on November 15, 1890, in Bury, England. Crompton went on to create the beloved 'Just William' stories, delighting readers with tales of an unruly schoolboy and his adventures.",
+    "activity_question": "What type of stories was Richmal Crompton known for?",
+    "activity_choices": [
+      "The 'Just William' stories",
+      "The 'Naughty Nancy' stories",
+      "The 'Clever Cathy' stories",
+      "The 'Silly Sally' stories"
+    ],
+    "activity_answer": "The 'Just William' stories",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you imagine what kind of trouble William might get into at school?",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Swiss Surprise: Victory at Morgarten",
+    "story": "Swords clashed and arrows flew as Swiss fighters faced a mighty army. In 1315, on November 15, the Battle of Morgarten unfolded. The Swiss, outnumbered but clever, used their knowledge of the land to their advantage. They ambushed Duke Leopold I of Austria's forces, rolling boulders and launching surprise attacks. Against all odds, the Swiss emerged victorious, securing a legendary win that would be remembered for centuries.",
+    "activity_question": "Who did the Swiss defeat in the Battle of Morgarten?",
+    "activity_choices": [
+      "Duke Leopold I of Austria",
+      "King Henry V of England",
+      "Emperor Napoleon of France",
+      "Prince Ivan of Russia"
+    ],
+    "activity_answer": "Duke Leopold I of Austria",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How did the Swiss use the landscape to their advantage in the battle?",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "122",
+    "title": "Mercury's Rare Dance Across the Sun",
+    "story": "Stargazers in North America got a special treat in 1999. On November 15, the tiny planet Mercury passed directly between Earth and the Sun. This rare event, called a transit, made Mercury look like a small black dot moving across the Sun's bright face. Astronomers and space enthusiasts watched in awe as our solar system's smallest planet took center stage.",
+    "activity_question": "What did Mercury look like during its transit across the Sun?",
+    "activity_choices": [
+      "A small black dot",
+      "A bright star",
+      "A red circle",
+      "A glowing ring"
+    ],
+    "activity_answer": "A small black dot",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think transits of Mercury are so rare?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "194",
+    "title": "Sharapova Aces Tennis Championship",
+    "story": "Smashing serves and powerful volleys filled the air as Maria Sharapova made history. In 2004, the talented Russian player became her country's first champion at the prestigious WTA Tour Championship. On November 15, she battled American star Serena Williams in an epic match at the Staples Center in Los Angeles, winning 4-6, 6-2, 6-4.",
+    "activity_question": "Where did Sharapova win the WTA Tour Championship?",
+    "activity_choices": [
+      "Staples Center",
+      "Wimbledon",
+      "Roland Garros",
+      "Madison Square Garden"
+    ],
+    "activity_answer": "Staples Center",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name another famous Russian tennis player?",
+    "score": 70,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "189",
+    "title": "Cricket Legends Begin Their Journey",
+    "story": "Two cricket superstars stepped onto the field for the first time in Test matches. On November 15, 1989, Waqar Younis and Sachin Tendulkar made their debuts in Karachi. These young players would go on to become some of the greatest cricketers in history, thrilling fans with their incredible skills and sportsmanship for years to come.",
+    "activity_question": "Where did Waqar Younis and Sachin Tendulkar make their Test Cricket debuts?",
+    "activity_choices": [
+      "Karachi",
+      "Mumbai",
+      "London",
+      "Sydney"
+    ],
+    "activity_answer": "Karachi",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another famous cricket player?",
+    "optional_type": "follow_up_question",
+    "score": 82,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "235",
+    "title": "The Plant Detective Who Cracked a Code",
+    "story": "A curious boy named Erich was born in Vienna, Austria in 1871. He grew up to become a plant detective, studying how different flowers and vegetables passed on their traits. In a twist of fate, Erich and two other scientists stumbled upon the same hidden treasure on November 15 - the forgotten work of Gregor Mendel that explained the secret rules of inheritance!",
+    "activity_question": "What did Erich and the other scientists rediscover?",
+    "activity_choices": [
+      "The forgotten work of Gregor Mendel",
+      "A rare flower in Vienna",
+      "A new type of vegetable",
+      "The secret recipe for Austrian strudel"
+    ],
+    "activity_answer": "The forgotten work of Gregor Mendel",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What do you think Erich studied as a plant detective?",
+    "optional_type": "follow_up_question",
+    "score": 82,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "112",
+    "title": "Secret Space Mission Takes Flight",
+    "story": "Whoosh! On November 15, 1990, a powerful rocket blasted off, carrying the space shuttle Atlantis into orbit. This wasn't just any mission - it was the top-secret STS-38 flight. As Atlantis soared high above Earth, its crew worked on hush-hush tasks for the US military. The exact details? Still a mystery!",
+    "activity_question": "What was the name of the space shuttle launched on this secret mission?",
+    "activity_choices": [
+      "Atlantis",
+      "Discovery",
+      "Endeavour",
+      "Columbia"
+    ],
+    "activity_answer": "Atlantis",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think some space missions are kept secret?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "116",
+    "title": "A Cricketing Debut to Remember",
+    "story": "Bat meets ball with a resounding crack! In 1992, Praveen Amre stepped onto the cricket pitch for his first-ever Test match. On November 15, he stunned everyone by scoring a century against South Africa in Durban. Amre's impressive 103 runs showed he was ready for the big leagues. His remarkable debut proved that with skill and determination, newcomers can shine on the world stage.",
+    "activity_question": "What did Praveen Amre achieve in his first Test cricket match?",
+    "activity_choices": [
+      "He scored a century",
+      "He took 10 wickets",
+      "He became team captain",
+      "He won a golden bat"
+    ],
+    "activity_answer": "He scored a century",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another sport where players can score over 100 points?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "117",
+    "title": "Daring Escape: Crop-Duster Flight to Freedom",
+    "story": "In 1993, a group of Cuban refugees made a bold escape. On November 15, thirteen people stole a crop-dusting plane and flew it across the dangerous waters between Cuba and Florida. Against all odds, they landed safely on American soil, completing their risky journey to freedom. Their courage and determination captured the world's attention.",
+    "activity_question": "What type of aircraft did the Cuban refugees use for their escape?",
+    "activity_choices": [
+      "A crop-duster",
+      "A passenger jet",
+      "A helicopter",
+      "A hot air balloon"
+    ],
+    "activity_answer": "A crop-duster",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think the refugees chose a crop-duster for their escape?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "148",
+    "title": "Sherman's Daring March Begins",
+    "story": "General Sherman led his Union army on a bold journey in 1864. On November 15, he left Atlanta, starting his famous 'March to the Sea'. This risky move aimed to weaken the Confederate forces. Sherman's troops marched across Georgia, cutting off supplies to the enemy. It was a turning point in the American Civil War.",
+    "activity_question": "What was the name of Sherman's famous military operation?",
+    "activity_choices": [
+      "March to the Sea",
+      "Atlanta Campaign",
+      "Georgia Expedition",
+      "Southern Stroll"
+    ],
+    "activity_answer": "March to the Sea",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think Sherman's march was considered risky?",
+    "score": 65,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "150",
+    "title": "Young Churchill's Daring Escape",
+    "story": "Winston Churchill, a brave reporter, found himself in a tight spot in 1899. On November 15, Boer soldiers captured him during a battle in South Africa. But Churchill wasn't one to give up easily. He hatched a clever plan and managed to escape, sneaking away under cover of darkness. This adventure helped launch his long career in politics.",
+    "activity_question": "What was Winston Churchill's job when he was captured?",
+    "activity_choices": [
+      "Reporter",
+      "Soldier",
+      "Politician",
+      "Spy"
+    ],
+    "activity_answer": "Reporter",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think Churchill's escape might have influenced his later life?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "156",
+    "title": "Hero Pilot Foils German Attack",
+    "story": "High above the Ancre River, Canadian pilot William George Barker spotted danger. On November 15, 1916, he noticed German troops gathering for a surprise attack on Beaumont Hamel. Quick-thinking Barker sent an emergency Zone Call, alerting Allied forces. His actions broke up the German infantry, saving countless lives. For his bravery, Barker later received the Military Cross.",
+    "activity_question": "What did William George Barker spot from his plane?",
+    "activity_choices": [
+      "German troops gathering",
+      "Allied forces retreating",
+      "A damaged bridge",
+      "Flying saucers"
+    ],
+    "activity_answer": "German troops gathering",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think pilots like Barker were important in World War I?",
+    "score": 72,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "151",
+    "title": "A Knockout Victory in the Ring",
+    "story": "Pow! Bam! The crowd roared as James J. Jeffries landed the final blow. In 1901, on November 15, Jeffries defended his heavyweight boxing title against Gus Ruhlin. The match took place in San Francisco, where Jeffries showed his strength. After six intense rounds, Jeffries won by TKO (Technical Knockout). It was a thrilling fight that boxing fans still talk about today!",
+    "activity_question": "How did James J. Jeffries win the boxing match?",
+    "activity_choices": [
+      "By TKO (Technical Knockout)",
+      "By unanimous decision",
+      "With a single punch",
+      "By disqualification"
+    ],
+    "activity_answer": "By TKO (Technical Knockout)",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What does TKO stand for in boxing?",
+    "optional_type": "follow_up_question",
+    "score": 72,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "184",
+    "title": "Hockey Hero Scores Three Times",
+    "story": "Swish! The puck flew into the net. Mike Bossy had just scored his third goal of the game for the New York Islanders. On November 15, 1983, Bossy achieved the 75th hat trick in Islanders history. A hat trick means scoring three goals in one game - a rare and exciting feat in hockey!",
+    "activity_question": "What does a hat trick mean in hockey?",
+    "activity_choices": [
+      "Scoring three goals in one game",
+      "Wearing three different hats",
+      "Winning three games in a row",
+      "Making three saves as a goalie"
+    ],
+    "activity_answer": "Scoring three goals in one game",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think its called a hat trick?",
+    "optional_type": "follow_up_question",
+    "score": 78,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "100",
+    "title": "A Crown for Black Beauty",
+    "story": "Cheers erupted as Leile McBridge of Denver stepped into the spotlight. Her radiant smile and graceful poise captivated the audience. On November 15, 1987, Leile achieved her dream, earning the prestigious title of Miss Black America. This pageant celebrated the beauty, talent, and intelligence of African American women, inspiring girls across the nation to embrace their unique qualities and chase their goals.",
+    "activity_question": "What title did Leile McBridge win?",
+    "activity_choices": [
+      "Miss Black America",
+      "Miss Universe",
+      "Miss Colorado",
+      "Miss Congeniality"
+    ],
+    "activity_answer": "Miss Black America",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think pageants like Miss Black America are important?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "99",
+    "title": "Speedy Carla Sets Dutch Marathon Record",
+    "story": "Zoom! Carla Beurskens raced into the history books on November 15, 1987. This lightning-fast runner set a new Dutch female record for the marathon. Carla's incredible time was 2 hours, 26 minutes, and 34 seconds. That's like running non-stop for about as long as a feature-length movie! Her amazing feat inspired many young athletes to lace up their running shoes.",
+    "activity_question": "What was Carla Beurskens' record-setting marathon time?",
+    "activity_choices": [
+      "2 hours, 26 minutes, and 34 seconds",
+      "3 hours, 15 minutes, and 42 seconds",
+      "2 hours, 34 minutes, and 26 seconds",
+      "4 hours, 5 minutes, and 10 seconds"
+    ],
+    "activity_answer": "2 hours, 26 minutes, and 34 seconds",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How long is a marathon race?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "110",
+    "title": "Swish! The Free Throw Wizard",
+    "story": "Swoosh! The basketball sailed through the hoop without touching the rim. In 1989, Walter Davis of the Denver Nuggets began an incredible streak of free throw perfection. On November 15, he sank his first shot in a series that would stretch across 53 games. Davis's steady hand and laser focus at the line made him a free throw wizard, inspiring young players to practice this crucial skill.",
+    "activity_question": "What team did Walter Davis play for when he started his free throw streak?",
+    "activity_choices": [
+      "Denver Nuggets",
+      "Chicago Bulls",
+      "Los Angeles Lakers",
+      "Boston Celtics"
+    ],
+    "activity_answer": "Denver Nuggets",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why are free throws important in basketball?",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "82",
+    "title": "Slugger Dick Allen Smashes His Way to MVP",
+    "story": "Crack! The sound of bat meeting ball echoed through stadiums as Dick Allen dominated baseball in 1972. The Chicago White Sox slugger's powerful swings and impressive stats earned him the American League's Most Valuable Player award on November 15. Allen's stellar performance helped his team and thrilled fans throughout the season.",
+    "activity_question": "What award did Dick Allen win in 1972?",
+    "activity_choices": [
+      "Most Valuable Player",
+      "Rookie of the Year",
+      "Golden Glove",
+      "Best Bat Breaker"
+    ],
+    "activity_answer": "Most Valuable Player",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "Dick Allen was known for using one of the heaviest bats in baseball history.",
+    "optional_type": "bonus_fact",
+    "score": 70,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "114",
+    "title": "Ricky Pierce's Free Throw Frenzy",
+    "story": "Swish! On November 15, 1991, Ricky Pierce of the Seattle SuperSonics started an incredible basketball streak. He began sinking free throws in game after game, showing off his amazing accuracy from the foul line. Pierce's steady hand would carry him through a remarkable run of free throw success in the NBA.",
+    "activity_question": "What did Ricky Pierce start on November 15, 1991?",
+    "activity_choices": [
+      "An incredible basketball streak",
+      "A new basketball team",
+      "A coaching career",
+      "A slam dunk contest"
+    ],
+    "activity_answer": "An incredible basketball streak",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What's a free throw in basketball?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "70",
+    "title": "A Cosmic Visitor Zooms Past Earth",
+    "story": "Stargazers got a thrilling sight in 1961! A comet named Seki swooped close to Earth on November 15. This icy space traveler came within a cosmic whisker of our planet. Scientists were excited to study the comet up close as it raced by. Its visit reminded us how vast and mysterious our universe can be.",
+    "activity_question": "What was the name of the comet that came close to Earth?",
+    "activity_choices": [
+      "Seki",
+      "Halley",
+      "Hale-Bopp",
+      "Neowise"
+    ],
+    "activity_answer": "Seki",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think scientists get excited when comets come close to Earth?",
+    "score": 70,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "126",
+    "title": "Ringo Starr Drums His Way to Fame",
+    "story": "Ringo Starr, the famous Beatles drummer, hit a new high note in 2002. On November 15, he was inducted into the Percussive Arts Society Hall of Fame. This honor recognized Ringo's incredible talent and influence on drumming. His unique style and catchy beats helped shape the sound of rock music for generations.",
+    "activity_question": "What honor did Ringo Starr receive in 2002?",
+    "activity_choices": [
+      "Inducted into the Percussive Arts Society Hall of Fame",
+      "Won a Grammy Award for Best Drummer",
+      "Received a star on the Hollywood Walk of Fame",
+      "Awarded the Golden Drumstick"
+    ],
+    "activity_answer": "Inducted into the Percussive Arts Society Hall of Fame",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What famous band was Ringo Starr a member of?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "195",
+    "title": "Carrie Underwood's Debut Album Hits High Notes",
+    "story": "Country music sensation Carrie Underwood burst onto the scene in 2005. On November 15 that year, she released her debut album 'Some Hearts'. The record struck a chord with fans, becoming a massive hit. It later won Billboard's Album of the Year in 2006. Carrie's talent shone so brightly that she snagged the Grammy for Best New Artist in 2007.",
+    "activity_question": "What was the name of Carrie Underwood's debut album?",
+    "activity_choices": [
+      "Some Hearts",
+      "Country Queen",
+      "American Idol",
+      "Grammy Winner"
+    ],
+    "activity_answer": "Some Hearts",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another famous country music star?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  }
+]

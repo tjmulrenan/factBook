@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Going Bananas for National Monkey Day!",
+    "story": "Every December 14, people across the world celebrate National Monkey Day by going absolutely bananas for our primate cousins! Zoos host special monkey-themed events where visitors can watch feeding demonstrations and learn amazing facts about different monkey species. Schools organize fun activities like monkey costume contests and banana-eating competitions. Many people share their favorite monkey videos and photos on social media, while others donate to organizations that protect monkeys in the wild. Some families even have monkey-themed movie nights, watching classics about these playful creatures. It's a day to appreciate how smart, social, and silly monkeys can be while learning about conservation efforts to keep them safe.",
+    "activity_question": "What kind of competitions do schools sometimes organize on National Monkey Day?",
+    "activity_choices": [
+      "Banana-eating competitions",
+      "Tree-climbing races",
+      "Coconut-throwing contests",
+      "Jungle maze challenges"
+    ],
+    "activity_answer": "Banana-eating competitions",
+    "bonus_fact": "There are over 260 different species of monkeys living around the world today!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Power Down for the Planet Day",
+    "story": "December 14 is National Energy Conservation Day, when people across the country focus on saving electricity and fuel! Families turn off extra lights, unplug devices they're not using, and try walking or biking instead of driving. Schools often host energy-saving challenges to see which classroom can use the least power.",
+    "activity_question": "What do families typically do on National Energy Conservation Day?",
+    "activity_choices": [
+      "Turn off extra lights and unplug unused devices",
+      "Leave all electronics running to test them",
+      "Buy new appliances",
+      "Have a big barbecue party"
+    ],
+    "activity_answer": "Turn off extra lights and unplug unused devices",
+    "follow_up_question": "What's one simple way you could save energy at home today?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 45
+  }
+]

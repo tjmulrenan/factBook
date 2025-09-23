@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Fighting for Free Internet Day",
+    "story": "Every March 12, people around the world celebrate World Day Against Cyber Censorship by standing up for internet freedom! This special day reminds everyone that information should be shared freely online. People post messages about digital rights, share articles that might be blocked in some countries, and learn about internet safety. Schools teach kids how to spot fake news and use the internet responsibly. It's like a global reminder that the web should be open for everyone to learn and connect safely.",
+    "activity_question": "What do people learn about on World Day Against Cyber Censorship?",
+    "activity_choices": [
+      "Internet safety and digital rights",
+      "How to build computers",
+      "Video game strategies",
+      "Social media dance trends"
+    ],
+    "activity_answer": "Internet safety and digital rights",
+    "follow_up_question": "What would you do if your favorite website was suddenly blocked?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "902",
+    "title": "Bloom Where You're Planted Day!",
+    "story": "Grab your gardening gloves because March 12 is National Plant a Flower Day! People across the country head to garden centers, pick out colorful seeds or small plants, and get their hands dirty planting beautiful flowers. Some families plant sunflowers in their backyards, while others fill window boxes with petunias or marigolds. Schools often organize planting activities where kids learn about different flowers and how they grow. It's the perfect way to welcome spring and add some bright colors to the world!",
+    "activity_question": "What do people typically do on National Plant a Flower Day?",
+    "activity_choices": [
+      "Plant flowers in gardens or containers",
+      "Pick wildflowers from fields",
+      "Make flower crowns from paper",
+      "Paint pictures of dancing daisies"
+    ],
+    "activity_answer": "Plant flowers in gardens or containers",
+    "follow_up_question": "What kind of flower would you most like to plant and watch grow?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  },
+  {
+    "id": "903",
+    "title": "The Master of Movie Suspense Day",
+    "story": "Every March 12, movie fans celebrate National Alfred Hitchcock Day! Alfred Hitchcock was a famous filmmaker who made scary and suspenseful movies that kept audiences on the edge of their seats. Today, people watch his classic films, share movie clips online, and even try making their own suspenseful short videos. Film schools often host special screenings of his most famous movies like \"The Birds\" and \"Psycho.\"",
+    "activity_question": "What was Alfred Hitchcock famous for making?",
+    "activity_choices": [
+      "Suspenseful movies",
+      "Cooking shows",
+      "Comedy cartoons",
+      "Nature documentaries"
+    ],
+    "activity_answer": "Suspenseful movies",
+    "bonus_fact": "Hitchcock appeared briefly in almost every movie he made!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  }
+]

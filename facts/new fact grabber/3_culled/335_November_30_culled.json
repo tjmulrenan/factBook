@@ -1,0 +1,542 @@
+[
+  {
+    "id": 64,
+    "year": "1954",
+    "original": "Ann Hodges is bruised by a meteor at Sylacauga, Alabama, in the first modern instance of a meteorite striking a human",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 1
+  },
+  {
+    "id": 142,
+    "year": "2017",
+    "original": "World's longest recorded rainbow lasts for 8 hours and 58 minutes in Taipei's Yangmingshan mountain range",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 2
+  },
+  {
+    "id": 153,
+    "year": "2022",
+    "original": "Artificial intelligence Chatbot ChatGPT prototype released by A.I. lab OpenAI, able to answer complex questions, write poetry and mimic some human emotions",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 3
+  },
+  {
+    "id": 100,
+    "year": "1982",
+    "original": "Ottumwa, Iowa, declared \"Video Game Capital of the World\" by mayor Jerry Parker",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 4
+  },
+  {
+    "id": 151,
+    "year": "2020",
+    "original": "Newly discovered rock art announced found in the Serranía La Lindosa, Colombian Amazon, dated 12,600 and 11,800 years ago with thousands of paintings of now extinct Ice Age animals",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 5
+  },
+  {
+    "id": 210,
+    "year": "1876",
+    "original": "ArchaeologistHeinrich Schliemanndiscovers the gold Mask of Agamemnon at Mycenae in modern Greece, known as \"the Mona Lisa of prehistory\"",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 6
+  },
+  {
+    "id": 188,
+    "year": "1982",
+    "original": "\"Thriller,\" the sixth studio album byMichael Jacksonis released (Grammy Award Album of the Year 1984, best-selling album of all time, Billboard Album of the Year 1983)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 7
+  },
+  {
+    "id": 310,
+    "year": "1929",
+    "original": "Joan Ganz Cooney, American educational television writer and producer (co-founder of the Children's Television Workshop; Sesame Street), born in Phoenix, Arizona",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 8
+  },
+  {
+    "id": 163,
+    "year": "1753",
+    "original": "Benjamin Franklinreceives the Godfrey Copley medal \"on account of his curious Experiments and Observations on Electricity\"",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 9
+  },
+  {
+    "id": 148,
+    "year": "2020",
+    "original": "Alphafold's DeepMind AI program announces it has achieved scientific breakthrough by being able to predict how proteins fold into 3D shapes",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 10
+  },
+  {
+    "id": 206,
+    "year": "2021",
+    "original": "Josephine Bakerbecomes the first black woman to be honored at Paris’ Panthéon, France's highest honor",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 11
+  },
+  {
+    "id": 175,
+    "year": "1956",
+    "original": "At 21 years, 10 months, 3 weeks, 5 daysFloyd Pattersonbecomes youngest world heavyweight boxing champion; KOsArchie Moorein 5th round in Chicago; first Olympic gold medalist to win a professional heavyweight title",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 12
+  },
+  {
+    "id": 141,
+    "year": "2017",
+    "original": "Disney announces it has cast Chinese actress Liu Yifei to play Mulan in up-coming live action film",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 13
+  },
+  {
+    "id": 364,
+    "year": "1955",
+    "original": "Billy Idol [William Broad], British-American pop-punk singer (\"White Wedding\"; \"Dancing With Myself\"), born in Stanmore, England",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 14
+  },
+  {
+    "id": 26,
+    "year": "1872",
+    "original": "First international soccer game, Scotland draws with England (0-0) in Glasgow",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 15
+  },
+  {
+    "id": 209,
+    "year": "1487",
+    "original": "The first German Beer Purity Law (Reinheitsgebot) is promulgated in Munich by Albert IV, Duke of Bavaria, stating beer should be brewed from only three ingredients – water, malt and hops",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 16
+  },
+  {
+    "id": 139,
+    "year": "2016",
+    "original": "UNESCO adds Belgian beer to its Cultural Heritage List",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 17
+  },
+  {
+    "id": 44,
+    "year": "1936",
+    "original": "London's Crystal Palace (built 1851) destroyed by fire",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 18
+  },
+  {
+    "id": 156,
+    "year": "2022",
+    "original": "UNESCO announces new additions to its Intangible Cultural Heritage list, including the French Baguette, oral traditions of calling camels in the Middle East, and tea practices in China",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 19
+  },
+  {
+    "id": 202,
+    "year": "2015",
+    "original": "NBA starKobe Bryant(LA Lakers) announces his intention to retire at the end of the season",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 20
+  },
+  {
+    "id": 196,
+    "year": "2004",
+    "original": "Longtime \"Jeopardy!\" championKen Jenningsof Salt Lake City, Utah finally loses, leaving him with $2,520,700 USD, television's all-time biggest game show haul",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 21
+  },
+  {
+    "id": 185,
+    "year": "1979",
+    "original": "Pink Floyd's album \"The Wall\" is released, sells 6 million copies in 2 weeks",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 22
+  },
+  {
+    "id": 174,
+    "year": "1952",
+    "original": "Jackie Robinsonaccuses the NY Yankees of racial bias on national television",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 23
+  },
+  {
+    "id": 116,
+    "year": "1991",
+    "original": "FIFA Women's World Cup Final, Tianhe Stadium, Guangzhou, China: Michelle Akers scores twice as US beats Norway, 2-1",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 24
+  },
+  {
+    "id": 143,
+    "year": "2018",
+    "original": "7.0 magnitude earthquake near Anchorage, Alaska",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 25
+  },
+  {
+    "id": 110,
+    "year": "1988",
+    "original": "Cyclone lashes Bangladesh, Eastern India; 317 killed",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 26
+  },
+  {
+    "id": 34,
+    "year": "1907",
+    "original": "Pike Place Market dedicated in Seattle",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 27
+  },
+  {
+    "id": 28,
+    "year": "1886",
+    "original": "First commercially successful AC electric power plant opens, Buffalo, NY",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 28
+  },
+  {
+    "id": 31,
+    "year": "1900",
+    "original": "A German engineer patents front-wheel drive for automobiles",
+    "score": 68,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 29
+  },
+  {
+    "id": 105,
+    "year": "1983",
+    "original": "Police free kidnapped beer magnate Alfred Heineken in Amsterdam",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 30
+  },
+  {
+    "id": 122,
+    "year": "1994",
+    "original": "First Beatles album in 25 years, \"Live at the BBC,\" is released in Britain",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 31
+  },
+  {
+    "id": 205,
+    "year": "2021",
+    "original": "Barbados becomes a Republic, removingQueen Elizabeth IIas head of state in a ceremony with Sandra Mason sworn in as the first President, withRihannadeclared a national hero",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 32
+  },
+  {
+    "id": 132,
+    "year": "2005",
+    "original": "John Sentamu becomes the first black archbishop in the Church of England with his enthronement as the 97th Archbishop of York",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 33
+  },
+  {
+    "id": 286,
+    "year": "1912",
+    "original": "Gordon Parks, American film pioneering black director, photographer and author (Learning Tree), born in Fort Scott, Kansas (d. 2006)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 34
+  },
+  {
+    "id": 368,
+    "year": "1957",
+    "original": "Colin Mochrie, Canadian improvisational comedian and producer (Whose Line is it Anyway?), born in Kilmarnock, Scotland",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 35
+  },
+  {
+    "id": 379,
+    "year": "1960",
+    "original": "Gary Lineker, English soccer striker (80 caps; Leicester City, Everton, Tottenham Hotspur) and broadcaster (BBC, BT Sport, ITV), born in Leicester, England",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 36
+  },
+  {
+    "id": 302,
+    "year": "1924",
+    "original": "Allan Sherman, American parody singer and songwriter (\"Hello Muddah, Hello Faddah\"), born in Chicago, Illinois (d. 1973)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 37
+  },
+  {
+    "id": 306,
+    "year": "1927",
+    "original": "Robert Guillaume [Williams], American actor (Rafiki in \"The Lion King\"; Soap; Benson; Sports Night), born in St Louis, Missouri (d. 2017)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 38
+  },
+  {
+    "id": 361,
+    "year": "1954",
+    "original": "June Pointer, American pop and R&B singer (The Pointer Sisters - \"Fire\"; \"He's So Shy\"; \"Jump (For My Love)'; \"Slow Hand\"), born in Oakland, California (d. 2006)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 39
+  },
+  {
+    "id": 355,
+    "year": "1950",
+    "original": "Paul Westphal, American Basketball Hall of Fame guard (NBA C'ship 1974; NBA All-Star 1977–81; Boston Celtics, Phoenix Suns) and coach (Phoenix Suns, Seattle SuperSonics, Sacramento Kings), born in Torrance, California (d. 2021)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 40
+  },
+  {
+    "id": 383,
+    "year": "1964",
+    "original": "Emmanuel Lubezki, Mexican cinematographer (Children of Men, Gravity), born in Mexico City",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 41
+  },
+  {
+    "id": 358,
+    "year": "1953",
+    "original": "(Johnny) \"Shuggie\" Otis [Veliotes], American rock singer-songwriter and multi-instrumentalist (\"Strawberry Letter 23\"; \"Inspiration Information\"), born in Los Angeles California",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 42
+  },
+  {
+    "id": 356,
+    "year": "1952",
+    "original": "Keith Giffen, American comic book writer and artist (Legion of Super-Heroes, Justice League), born in Queens, New York (d. 2023)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 43
+  },
+  {
+    "id": 11,
+    "year": "1782",
+    "original": "Britain signs agreement recognizing US independence",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 44
+  },
+  {
+    "id": 80,
+    "year": "1966",
+    "original": "Barbados gains independence from Great Britain (National Day)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 45
+  },
+  {
+    "id": 19,
+    "year": "1854",
+    "original": "Rebellion of miners at Eureka Stockade at Ballarat in Victoria who swear allegiance to the Southern Cross Flag, angry at the colonial government - landmark event in Australian labor relations",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 46
+  },
+  {
+    "id": 159,
+    "year": "1016",
+    "original": "King of DenmarkCnut the Great[Canute] claims the English throne after the death of Edmund Ironside",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 47
+  },
+  {
+    "id": 162,
+    "year": "1700",
+    "original": "Battle at Narva: Swedish forces of KingCharles XIIdefeat Russian army [NS]",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 48
+  },
+  {
+    "id": 169,
+    "year": "1928",
+    "original": "Vladimir K. Zworykinreceives patent on Iconoscope TV system",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 49
+  },
+  {
+    "id": 179,
+    "year": "1959",
+    "original": "1960 NFL Draft:Billy Cannonfrom LSU first pick by Los Angeles Rams",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 50
+  },
+  {
+    "id": 203,
+    "year": "2015",
+    "original": "Pope Francisurges peace while visiting controversial mosque in Bangui's PK5 district in Central African Republic",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 51
+  },
+  {
+    "id": 136,
+    "year": "2014",
+    "original": "Australia experiences its hottest spring and second-hottest November recorded",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 52
+  },
+  {
+    "id": 295,
+    "year": "1918",
+    "original": "Johnnie Jones, American attorney, civil rights activist (1953 Baton Rouge Bus Boycott), and US Army veteran (Normandy Invasion - Purple Heart; Battle of the Bulge), born in Laurel Hill, Louisiana (d. 2022)[1]",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 53
+  },
+  {
+    "id": 184,
+    "year": "1971",
+    "original": "Emmy and Peabody Award-winning TV movie \"Brian's Song\", about the friendship of Chicago Bears football teammates Brian Piccolo andGale Sayers(based on Sayers' autobiography) premieres on ABC, starringJames Caanand Billie Dee Williams",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 54
+  },
+  {
+    "id": 195,
+    "year": "2002",
+    "original": "Ina Garten's cooking TV show \"Barefoot Contessa\" premieres on the Food Network",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 55
+  },
+  {
+    "id": 197,
+    "year": "2004",
+    "original": "RCA releases \"Breakaway\",Kelly Clarkson's 2nd studio album; wins 2 Grammy Awards and becomes her best selling album to date with over 12 million units sold",
+    "score": 55,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 56
+  },
+  {
+    "id": 199,
+    "year": "2006",
+    "original": "American folk artist \"Grandma\" Moses' 1943 painting \"Sugaring Off\" sells for a record $1.3 million for the artist, by Christie's in New York",
+    "score": 55,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 57
+  },
+  {
+    "id": 30,
+    "year": "1887",
+    "original": "1st indoor softball game in Chicago",
+    "score": 55,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 58
+  },
+  {
+    "id": 40,
+    "year": "1924",
+    "original": "First photo facsimile is transmitted across the Atlantic by radio (London to NYC)",
+    "score": 55,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 59
+  },
+  {
+    "id": 24,
+    "year": "1866",
+    "original": "Work begins on 1st US underwater highway tunnel in Chicago",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 60
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "original": "Make Up Your Own Holiday Day",
+    "score": 92,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "Spinach Day",
+    "score": 45,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "Purple Day",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "Bangladesh Independence Day",
+    "score": 33,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 5,
+    "original": "Prince Kuhio Day",
+    "score": 35,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 6,
+    "original": "Nougat Day",
+    "score": 78,
+    "is_kid_friendly": true
+  }
+]

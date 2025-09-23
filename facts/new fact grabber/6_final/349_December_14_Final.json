@@ -1,0 +1,1242 @@
+[
+  {
+    "id": "901",
+    "title": "Going Bananas for National Monkey Day!",
+    "story": "Every December 14, people across the world celebrate National Monkey Day by going absolutely bananas for our primate cousins! Zoos host special monkey-themed events where visitors can watch feeding demonstrations and learn amazing facts about different monkey species. Schools organize fun activities like monkey costume contests and banana-eating competitions. Many people share their favorite monkey videos and photos on social media, while others donate to organizations that protect monkeys in the wild. Some families even have monkey-themed movie nights, watching classics about these playful creatures. It's a day to appreciate how smart, social, and silly monkeys can be while learning about conservation efforts to keep them safe.",
+    "activity_question": "What kind of competitions do schools sometimes organize on National Monkey Day?",
+    "activity_choices": [
+      "Banana-eating competitions",
+      "Tree-climbing races",
+      "Coconut-throwing contests",
+      "Jungle maze challenges"
+    ],
+    "activity_answer": "Banana-eating competitions",
+    "bonus_fact": "There are over 260 different species of monkeys living around the world today!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Power Down for the Planet Day",
+    "story": "December 14 is National Energy Conservation Day, when people across the country focus on saving electricity and fuel! Families turn off extra lights, unplug devices they're not using, and try walking or biking instead of driving. Schools often host energy-saving challenges to see which classroom can use the least power.",
+    "activity_question": "What do families typically do on National Energy Conservation Day?",
+    "activity_choices": [
+      "Turn off extra lights and unplug unused devices",
+      "Leave all electronics running to test them",
+      "Buy new appliances",
+      "Have a big barbecue party"
+    ],
+    "activity_answer": "Turn off extra lights and unplug unused devices",
+    "follow_up_question": "What's one simple way you could save energy at home today?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 45
+  },
+  {
+    "id": "31",
+    "title": "Taking Flight: The Wright Brothers' Dream",
+    "story": "Bicycles soared into history when two brothers dared to dream of flying. Wilbur and Orville Wright, bicycle shop owners, built a strange machine with wings. On December 14, 1903, they dragged their creation, the Wright Flyer, to a windy beach in Kitty Hawk, North Carolina. Hearts pounding, they prepared for their first attempt to fly. Though this try didn't succeed, their persistence would soon change the world forever.",
+    "activity_question": "What was the name of the flying machine the Wright brothers built?",
+    "activity_choices": [
+      "Wright Flyer",
+      "Sky Bicycle",
+      "Wind Rider",
+      "Beach Glider"
+    ],
+    "activity_answer": "Wright Flyer",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think the Wright brothers chose a windy beach for their flight attempt?",
+    "score": 95,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "195",
+    "title": "Race to the Bottom of the World",
+    "story": "Roald Amundsen and his team braved icy winds and treacherous terrain. The Norwegian explorer led the first expedition to reach the South Pole in 1911. On December 14, after months of grueling travel across Antarctica, they planted their country's flag at Earth's southernmost point. Amundsen's careful planning and use of sled dogs helped his team win the race to this frozen frontier.",
+    "activity_question": "What did Amundsen's team plant at the South Pole?",
+    "activity_choices": [
+      "Their country's flag",
+      "A weather station",
+      "A time capsule",
+      "A giant snowman"
+    ],
+    "activity_answer": "Their country's flag",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think reaching the South Pole was such a big deal in 1911?",
+    "score": 92,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "127",
+    "title": "Amazon's Flying Delivery Takes Off",
+    "story": "Packages zooming through the air? In 2016, Amazon made it happen! On December 14, the company successfully completed its first-ever drone delivery. The small flying robot carried a package for about two kilometers from an Amazon warehouse in the United Kingdom. This test flight showed how technology could change the way we get our orders in the future. It was a big step towards making super-fast, flying deliveries a reality for customers.",
+    "activity_question": "Where did Amazon's first drone delivery take place?",
+    "activity_choices": [
+      "In the United Kingdom",
+      "In the United States",
+      "In Germany",
+      "In Japan"
+    ],
+    "activity_answer": "In the United Kingdom",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What do you think might be challenging about delivering packages by drone?",
+    "optional_type": "follow_up_question",
+    "score": 90,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "128",
+    "title": "Ancient Water Discovery Stuns Scientists",
+    "story": "Deep beneath the Earth's surface, a remarkable discovery bubbled up in 2016. Scientists from the University of Toronto found the world's oldest water in a Canadian mine. This ancient liquid had been hidden away for an astounding 2 billion years! On December 14, researchers shared their groundbreaking findings, giving us a glimpse into Earth's distant past. The water, older than many life forms, holds secrets about our planet's early days.",
+    "activity_question": "Where was the world's oldest water discovered?",
+    "activity_choices": [
+      "In a Canadian mine",
+      "In an ocean trench",
+      "In a glacier",
+      "In a desert oasis"
+    ],
+    "activity_answer": "In a Canadian mine",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How might studying ancient water help scientists learn about Earth's history?",
+    "score": 92,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "81",
+    "title": "Scientists Cook Up Life's Recipe",
+    "story": "Imagine a cookbook for life itself! In 1967, on December 14, scientists achieved something incredible. They created DNA, the blueprint of all living things, in a test tube for the very first time. This groundbreaking experiment showed that the building blocks of life could be made outside of cells. It opened up a whole new world of possibilities for understanding and even manipulating the code of life.",
+    "activity_question": "What did scientists create in a test tube for the first time?",
+    "activity_choices": [
+      "DNA",
+      "A living cell",
+      "A new vitamin",
+      "Artificial blood"
+    ],
+    "activity_answer": "DNA",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you think of ways this discovery might help scientists today?",
+    "optional_type": "follow_up_question",
+    "score": 90,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "77",
+    "title": "Mariner 2's Daring Dance with Venus",
+    "story": "Zoom! A space robot named Mariner 2 raced through the stars on December 14, 1962. Its mission? To visit Earth's mysterious neighbor, Venus. As it whooshed past the cloudy planet, Mariner 2 became the first American spacecraft to fly by another world. This brave little explorer sent back valuable clues about Venus, helping scientists unravel the secrets of our solar system.",
+    "activity_question": "What was Mariner 2's mission?",
+    "activity_choices": [
+      "To visit Earth's mysterious neighbor, Venus",
+      "To land on Mars",
+      "To study the Sun",
+      "To take pictures of Jupiter"
+    ],
+    "activity_answer": "To visit Earth's mysterious neighbor, Venus",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think scientists were so curious about Venus?",
+    "score": 90,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "104",
+    "title": "Voyager's Epic Global Flight",
+    "story": "The sky was the limit for pilots Dick Rutan and Jeana Yeager on December 14, 1986. They took off in Voyager, a special airplane designed to fly non-stop around the world without refueling. This daring duo soared from Edwards Air Force Base in California, embarking on an incredible journey that would last nine days. Their flight pushed the boundaries of aviation and proved what determination could achieve.",
+    "activity_question": "What was special about the Voyager's flight?",
+    "activity_choices": [
+      "It was non-stop and non-refueled around the world",
+      "It was the fastest flight ever recorded",
+      "It carried the most passengers",
+      "It flew to the moon and back"
+    ],
+    "activity_answer": "It was non-stop and non-refueled around the world",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think the pilots felt after nine days in the air?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "87",
+    "title": "Last Footprints on the Moon",
+    "story": "Astronauts Eugene Cernan and Harrison Schmitt made history as they stepped off the lunar surface on December 14, 1972. They were the last humans to walk on the Moon, closing the Apollo missions with a bang. Cernan's final words before leaving were hopeful: 'We leave as we came and, God willing, as we shall return, with peace and hope for all mankind.'",
+    "activity_question": "What were Cernan's final words before leaving the Moon?",
+    "activity_choices": [
+      "We leave as we came and, God willing, as we shall return, with peace and hope for all mankind.",
+      "One small step for man, one giant leap for mankind.",
+      "Houston, we've had a problem.",
+      "The Eagle has landed."
+    ],
+    "activity_answer": "We leave as we came and, God willing, as we shall return, with peace and hope for all mankind.",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How many years has it been since humans last walked on the Moon?",
+    "score": 90,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "140",
+    "title": "The Sun Vanishes in South America",
+    "story": "Darkness fell in the middle of the day as the moon blocked out the sun. On December 14, 2020, a total solar eclipse swept across southern Chile and Argentina. For a few magical minutes, the sky turned dark, stars appeared, and a glowing ring of light surrounded the black disk of the moon. People gazed up in wonder, wearing special glasses to protect their eyes.",
+    "activity_question": "What kind of eclipse happened in South America?",
+    "activity_choices": [
+      "Total solar eclipse",
+      "Partial lunar eclipse",
+      "Annular solar eclipse",
+      "Blue moon eclipse"
+    ],
+    "activity_answer": "Total solar eclipse",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you need special glasses to look at a solar eclipse?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "315",
+    "title": "All Aboard for Thomas the Tank Engine!",
+    "story": "Choo-choo! The creator of a beloved children's TV show chugged into the world on December 14, 1943. Britt Allcroft, born in Worthing, England, would grow up to bring Thomas the Tank Engine to life. This British producer and writer turned a classic book series into a magical TV adventure, delighting kids with talking trains and their island adventures.",
+    "activity_question": "What famous children's TV show did Britt Allcroft create?",
+    "activity_choices": [
+      "Thomas the Tank Engine & Friends",
+      "Bob the Builder",
+      "Peppa Pig",
+      "Teletubbies"
+    ],
+    "activity_answer": "Thomas the Tank Engine & Friends",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name any other characters from Thomas the Tank Engine & Friends?",
+    "score": 95,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "144",
+    "title": "Steph Curry's Three-Point Triumph",
+    "story": "Swish! The crowd erupted as Steph Curry sank a historic shot. On December 14, 2021, the Golden State Warriors' superstar made his 2,974th three-pointer during a game against the New York Knicks. This incredible feat crowned Curry as the NBA's all-time leader in three-point shots, surpassing the previous record held by Ray Allen. Curry's precision from beyond the arc has revolutionized basketball, inspiring a new generation of sharp-shooters.",
+    "activity_question": "What record did Steph Curry break?",
+    "activity_choices": [
+      "NBA's all-time leader in three-point shots",
+      "Most points scored in a single game",
+      "Longest winning streak for the Warriors",
+      "Fastest player to reach 30,000 career points"
+    ],
+    "activity_answer": "NBA's all-time leader in three-point shots",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think Curry's achievement has changed the way basketball is played?",
+    "score": 90,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "121",
+    "title": "Reaching New Heights: The Millau Viaduct",
+    "story": "Soaring above the clouds, the world's highest bridge opened on December 14, 2004. The Millau Viaduct in France is an engineering marvel that looks like it's touching the sky. Designed by architect Norman Foster and engineer Michel Virlogeux, this stunning structure stretches across a valley near the town of Millau. It's so tall that on foggy days, cars seem to float above the mist!",
+    "activity_question": "Who designed the Millau Viaduct?",
+    "activity_choices": [
+      "Norman Foster and Michel Virlogeux",
+      "Gustave Eiffel",
+      "Frank Lloyd Wright",
+      "The Millau town council"
+    ],
+    "activity_answer": "Norman Foster and Michel Virlogeux",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why might building such a tall bridge be challenging?",
+    "score": 80,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "260",
+    "title": "The Boy Who Dreamed of Jet Engines",
+    "story": "Hans von Ohain had his head in the clouds from an early age. Born in 1911 in Dessau, Germany, he grew up to become a brilliant aerospace engineer. His childhood fascination with flight led him to create something extraordinary. On December 14, in his birth year, the future inventor of the first turbojet engine entered the world. Von Ohain's groundbreaking work would revolutionize air travel, making planes faster and more efficient than ever before.",
+    "activity_question": "What did Hans von Ohain invent?",
+    "activity_choices": [
+      "The first turbojet engine",
+      "The airplane",
+      "The hot air balloon",
+      "The rocket ship"
+    ],
+    "activity_answer": "The first turbojet engine",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think jet engines changed air travel?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "27",
+    "title": "Max Planck's Quantum Leap",
+    "story": "A scientific revolution began in 1900 when Max Planck unveiled a groundbreaking idea. The German physicist presented his theory about black-body radiation on December 14. This moment marked the birth of quantum physics, a field that explores the tiniest particles of energy. Planck's work changed how we understand the universe, paving the way for modern technology like computers and lasers.",
+    "activity_question": "What field of science did Max Planck's theory help create?",
+    "activity_choices": [
+      "Quantum physics",
+      "Astronomy",
+      "Biology",
+      "Chemistry"
+    ],
+    "activity_answer": "Quantum physics",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you think of any devices we use today that might rely on quantum physics?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "189",
+    "title": "Lost Raphael Paintings Found in Vatican",
+    "story": "Hidden treasures came to light in 2017! The Vatican Museum made an exciting announcement on December 14. They had rediscovered the lost final paintings of Raphael, a famous Renaissance artist. These masterpieces, painted in 1520, had been missing for centuries. Art lovers around the world celebrated this incredible find in the heart of Vatican City.",
+    "activity_question": "Where were Raphael's lost paintings found?",
+    "activity_choices": [
+      "Vatican Museum",
+      "Louvre",
+      "British Museum",
+      "Raphael's old studio"
+    ],
+    "activity_answer": "Vatican Museum",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think these paintings were 'lost' for so long?",
+    "score": 80,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "132",
+    "title": "Mickey Mouse Meets the X-Men",
+    "story": "Imagine your favorite superheroes joining forces with Mickey Mouse! That's what happened when Disney bought most of 21st Century Fox on December 14, 2017. This huge deal brought together famous movie characters and TV shows under one roof. It meant Disney could now make stories with X-Men, the Simpsons, and more!",
+    "activity_question": "What company did Disney buy in this deal?",
+    "activity_choices": [
+      "21st Century Fox",
+      "Pixar",
+      "Marvel",
+      "Nickelodeon"
+    ],
+    "activity_answer": "21st Century Fox",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name a superhero team that Disney got in this deal?",
+    "score": 65,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "187",
+    "title": "The Force Awakens: A New Star Wars Era",
+    "story": "Lightsabers ignited and fans cheered as Star Wars roared back to life in 2015. The Force Awakens, a new chapter in the epic saga, had its dazzling world premiere on December 14. At the famous TCL Chinese Theatre in Los Angeles, stars like Daisy Ridley, John Boyega, and Harrison Ford walked the red carpet. Director J.J. Abrams brought fresh energy to the beloved galaxy far, far away.",
+    "activity_question": "Where did The Force Awakens have its world premiere?",
+    "activity_choices": [
+      "TCL Chinese Theatre",
+      "Hollywood Bowl",
+      "Grauman's Egyptian Theatre",
+      "Dolby Theatre"
+    ],
+    "activity_answer": "TCL Chinese Theatre",
+    "suitable_for_8_to_12_year_old": false,
+    "follow_up_question": "Which original Star Wars actor returned for The Force Awakens?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "115",
+    "title": "A Massive Dam Rises in China",
+    "story": "Bulldozers roared to life as construction began on the Three Gorges Dam in 1994. This enormous project on China's Yangtze River would become the world's largest power station. Engineers faced the challenge of taming a mighty river while creating clean energy for millions. The dam's completion years later sparked both excitement and concerns about its impact on the environment.",
+    "activity_question": "What river was the Three Gorges Dam built on?",
+    "activity_choices": [
+      "Yangtze River",
+      "Yellow River",
+      "Pearl River",
+      "Mekong River"
+    ],
+    "activity_answer": "Yangtze River",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think building such a large dam might have both benefits and drawbacks?",
+    "score": 70,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "10",
+    "title": "Shimmering Secrets: Fake Pearls Debut",
+    "story": "A Parisian inventor named M. Jacquin had a brilliant idea. In 1656, he created the first artificial pearls. These clever fakes were made from tiny gypsum balls coated with shiny fish scales. Jacquin's creation sparkled just like real pearls, but at a fraction of the cost. On December 14, his shimmering invention dazzled the fashion world.",
+    "activity_question": "What were Jacquin's artificial pearls made from?",
+    "activity_choices": [
+      "Gypsum pellets covered with fish scales",
+      "Plastic beads coated with paint",
+      "Glass marbles dipped in glitter",
+      "Seashells filled with sand"
+    ],
+    "activity_answer": "Gypsum pellets covered with fish scales",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think people wanted artificial pearls?",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "11",
+    "title": "Samurai Revenge: The Tale of 47 Ronin",
+    "story": "Swords clashed in the night as the Forty-seven Ronin carried out their daring plan. These masterless samurai, led by Ōishi Kuranosuke, had waited patiently to avenge their fallen lord. On December 14, 1702, they struck, proving their unwavering loyalty and becoming legends in Japanese history. Their tale of honor and sacrifice continues to inspire people today.",
+    "activity_question": "Who led the Forty-seven Ronin in their mission?",
+    "activity_choices": [
+      "Ōishi Kuranosuke",
+      "The fallen lord",
+      "A Japanese emperor",
+      "The shogun"
+    ],
+    "activity_answer": "Ōishi Kuranosuke",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think the ronin waited to carry out their plan instead of acting right away?",
+    "score": 72,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "170",
+    "title": "The Jackson 5's TV Debut",
+    "story": "Lights, camera, action! The Jackson 5 burst onto television screens across America in 1969. On December 14, these talented brothers wowed audiences with their first appearance on 'The Ed Sullivan Show'. Their catchy tunes and smooth dance moves instantly captured hearts. This performance marked the beginning of an incredible musical journey for the young group.",
+    "activity_question": "On which TV show did the Jackson 5 make their first appearance?",
+    "activity_choices": [
+      "'The Ed Sullivan Show'",
+      "'American Bandstand'",
+      "'Soul Train'",
+      "'The Mickey Mouse Club'"
+    ],
+    "activity_answer": "'The Ed Sullivan Show'",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name any of the Jackson 5 brothers?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "356",
+    "title": "Astronaut Catherine Coleman Blasts Off",
+    "story": "Catherine Coleman dreamed of floating among the stars. Born in Charleston, South Carolina in 1960, she grew up to become a United States Air Force officer and an astronaut. On December 14, her birthday, she celebrated knowing she'd one day soar into space. Coleman's determination led her to join NASA and fly on the Space Shuttle Columbia mission STS-73, fulfilling her childhood dream of exploring the cosmos.",
+    "activity_question": "What did Catherine Coleman become besides an astronaut?",
+    "activity_choices": [
+      "A United States Air Force officer",
+      "A pilot",
+      "A scientist",
+      "A teacher"
+    ],
+    "activity_answer": "A United States Air Force officer",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What skills do you think are important for becoming an astronaut?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "302",
+    "title": "Slam Dunk Inventor Born",
+    "story": "Bouncing into the world on December 14, 1936, Carl Scheer would change basketball forever. This Springfield, Massachusetts native grew up to become a top basketball executive. Scheer managed teams like the Denver Nuggets and Charlotte Hornets. But his most exciting creation? The NBA Slam Dunk Contest! This high-flying showdown became a fan favorite, letting players soar and score with style.",
+    "activity_question": "What did Carl Scheer invent that became a fan favorite?",
+    "activity_choices": [
+      "The NBA Slam Dunk Contest",
+      "The three-point line",
+      "Basketball shoes",
+      "The halftime show"
+    ],
+    "activity_answer": "The NBA Slam Dunk Contest",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name one team Carl Scheer managed?",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "234",
+    "title": "The Birth of Aikido's Founder",
+    "story": "A martial arts legend was born on December 14, 1883. Morihei Ueshiba entered the world in Tanabe, Japan. He grew up to create aikido, a unique Japanese fighting style. Ueshiba's aikido teaches people to use an attacker's energy against them, promoting peace and harmony. His techniques continue to inspire martial artists around the globe today.",
+    "activity_question": "What martial art did Morihei Ueshiba create?",
+    "activity_choices": [
+      "Aikido",
+      "Karate",
+      "Judo",
+      "Taekwondo"
+    ],
+    "activity_answer": "Aikido",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Aikido means 'the way of harmonious spirit' in Japanese.",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "71",
+    "title": "Starfighter Soars to New Heights",
+    "story": "Zoom! On December 14, 1959, pilot Joe B. Jordan rocketed into the sky in his F-104C Starfighter jet. He pushed the aircraft higher and higher until he reached an incredible altitude of 31,513 meters. This daring flight set a new world record, showing just how far planes could go. Jordan's amazing feat proved that humans could explore the edge of space in aircraft.",
+    "activity_question": "What type of aircraft did Joe B. Jordan fly to set the altitude record?",
+    "activity_choices": [
+      "F-104C Starfighter",
+      "Boeing 747",
+      "Hot air balloon",
+      "Helicopter"
+    ],
+    "activity_answer": "F-104C Starfighter",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it's important for pilots to set altitude records?",
+    "score": 75,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "73",
+    "title": "Cricket's Nail-Biting Tie at the Gabba",
+    "story": "Fans held their breath as the cricket ball soared through the air. It was 1960, and Australia faced the West Indies in a thrilling Test match at the Gabba. On December 14, after days of intense play, something incredible happened. The match ended in a tie - a super rare result in Test cricket! Both teams had fought hard, showing amazing skill and sportsmanship.",
+    "activity_question": "What was the result of the cricket match between Australia and the West Indies?",
+    "activity_choices": [
+      "A tie",
+      "Australia won",
+      "West Indies won",
+      "The match was canceled"
+    ],
+    "activity_answer": "A tie",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think a tie is so rare in Test cricket?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "137",
+    "title": "Beauty Queens Make History",
+    "story": "Toni-Ann Singh from Jamaica dazzled the world on December 14, 2019. She won the Miss World crown in London, creating a historic moment. For the first time ever, all five major beauty pageant titles were held by black women. Singh's victory celebrated diversity and representation on the global stage.",
+    "activity_question": "What country did Toni-Ann Singh represent when she won Miss World?",
+    "activity_choices": [
+      "Jamaica",
+      "London",
+      "England",
+      "United States"
+    ],
+    "activity_answer": "Jamaica",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why was Toni-Ann Singh's win considered historic?",
+    "score": 70,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "145",
+    "title": "Big Bank Takes Climate Action",
+    "story": "Europe's largest bank made a bold move for the planet. HSBC announced it would no longer fund new oil and gas projects. This decision aimed to help reduce harmful gases warming our Earth. The bank hoped to inspire others to protect the environment on December 14, 2022.",
+    "activity_question": "What did HSBC decide to stop financing?",
+    "activity_choices": [
+      "New oil and gas fields",
+      "Wind farms",
+      "Solar panels",
+      "Electric cars"
+    ],
+    "activity_answer": "New oil and gas fields",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think a bank's decision about funding can affect climate change?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "150",
+    "title": "Cyclone Chido Strikes Island and Mainland",
+    "story": "Powerful winds whipped across Mayotte as Cyclone Chido slammed into the French island on December 14, 2024. The storm's fury didn't stop there. After battering Mayotte off Africa's east coast, Chido continued its rampage, making landfall in northern Mozambique. Weather experts tracked the cyclone's path as it brought heavy rains and strong gusts to both locations.",
+    "activity_question": "Where did Cyclone Chido hit after Mayotte?",
+    "activity_choices": [
+      "Northern Mozambique",
+      "Southern Madagascar",
+      "Eastern Tanzania",
+      "Western Comoros"
+    ],
+    "activity_answer": "Northern Mozambique",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What do you think people might do to prepare for a cyclone?",
+    "optional_type": "follow_up_question",
+    "score": 72,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "14",
+    "title": "Daring Raid Sparks American Revolution",
+    "story": "Boom! The American Revolution's first spark ignited in 1774. On December 14, brave New Hampshire militiamen stormed Fort William and Mary. About 400 colonists launched a surprise attack, catching the British off guard. They seized gunpowder and weapons, fueling the fight for independence. This bold action marked the beginning of a revolution that would change history forever.",
+    "activity_question": "What did the New Hampshire militiamen seize during their attack on the fort?",
+    "activity_choices": [
+      "Gunpowder and weapons",
+      "Gold and silver",
+      "Tea and spices",
+      "Maps and documents"
+    ],
+    "activity_answer": "Gunpowder and weapons",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think seizing gunpowder and weapons was important for the colonists?",
+    "optional_type": "follow_up_question",
+    "score": 82,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "92",
+    "title": "Peace Talks Begin in Cairo",
+    "story": "Handshakes and hope filled the air as Egyptian and Israeli representatives gathered in Cairo. It was December 14, 1977, and these former enemies were sitting down for their first formal peace conference. After years of conflict, both sides were ready to talk. They met in Egypt's capital to find ways to end their long-standing disputes and build a more peaceful future for their people.",
+    "activity_question": "Where did the peace conference take place?",
+    "activity_choices": [
+      "Cairo",
+      "Jerusalem",
+      "Tel Aviv",
+      "Alexandria"
+    ],
+    "activity_answer": "Cairo",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it's important for countries to have peace talks?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "62",
+    "title": "Helping Refugees: A Nobel Mission Begins",
+    "story": "Imagine a superhero team for people fleeing danger. In 1950, the United Nations created just that! On December 14, they formed the High Commission for Refugees. This special group helps millions find safety and new homes. Their amazing work was so important, they even won a Nobel Peace Prize a few years later!",
+    "activity_question": "What did the UN create to help refugees?",
+    "activity_choices": [
+      "The High Commission for Refugees",
+      "A superhero team",
+      "The Nobel Peace Prize",
+      "A new country"
+    ],
+    "activity_answer": "The High Commission for Refugees",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think helping refugees is important?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "219",
+    "title": "Breaking Barriers: John Mercer Langston",
+    "story": "A trailblazer was born on December 14, 1829. John Mercer Langston entered the world in Louisa County, Virginia, destined to make history. He grew up to become the first African-American to hold a U.S. political office, paving the way for future generations. Langston's groundbreaking achievement opened doors and inspired others to dream big.",
+    "activity_question": "What state was John Mercer Langston born in?",
+    "activity_choices": [
+      "Virginia",
+      "Maryland",
+      "North Carolina",
+      "Georgia"
+    ],
+    "activity_answer": "Virginia",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think Langston's achievement was important for other African-Americans?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "361",
+    "title": "A Champion in the Fight Against HIV",
+    "story": "In a small town called Boksburg, South Africa, a future hero was born. Glenda E. Gray entered the world on December 14, 1962. She grew up to become a brilliant scientist, dedicating her life to studying HIV. Her work has helped countless people affected by this challenging virus.",
+    "activity_question": "What field of science did Glenda E. Gray specialize in?",
+    "activity_choices": [
+      "HIV research",
+      "Astronomy",
+      "Marine biology",
+      "Geology"
+    ],
+    "activity_answer": "HIV research",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think HIV research is important?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "303",
+    "title": "Astronaut Takes Flight from NYC to Space",
+    "story": "Robert Alan Ridley Parker blasted off into an amazing life journey on December 14, 1936. Born in the bustling heart of New York City, Parker would grow up to become not just a brilliant scientist, but a real-life space explorer! With a PhD under his belt, he joined NASA and flew on two space shuttle missions, STS-9 and STS-35, soaring high above Earth's atmosphere.",
+    "activity_question": "What two space shuttle missions did Robert Alan Ridley Parker fly on?",
+    "activity_choices": [
+      "STS-9 and STS-35",
+      "Apollo 11 and Gemini 4",
+      "Soyuz 1 and Vostok 1",
+      "Mercury 7 and Skylab 2"
+    ],
+    "activity_answer": "STS-9 and STS-35",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What do you think would be the most exciting part of being an astronaut?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "346",
+    "title": "A Canadian Astronaut Takes Flight",
+    "story": "Reaching for the stars began early for Steve MacLean. Born in Ottawa, Ontario in 1954, he grew up to become a celebrated Canadian astronaut. On December 14, 1992, MacLean blasted off into space aboard the Space Shuttle Columbia as part of mission STS-52. His journey from Earth to orbit showed that with hard work and determination, even the sky isn't the limit!",
+    "activity_question": "What space vehicle did Steve MacLean fly on?",
+    "activity_choices": [
+      "Space Shuttle Columbia",
+      "Soyuz Rocket",
+      "Apollo Capsule",
+      "Maple Leaf Flyer"
+    ],
+    "activity_answer": "Space Shuttle Columbia",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What other jobs do you think astronauts might do when they're not in space?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "258",
+    "title": "A Nobel Scientist's Birthday",
+    "story": "Edward L Tatum, a brilliant scientist, was born in Boulder, Colorado in 1909. He grew up to become a molecular geneticist and biochemist, studying the tiniest parts of living things. Tatum's groundbreaking work earned him the Nobel Prize in 1958. His research on December 14, his birthday, helped us understand how genes work in organisms.",
+    "activity_question": "What kind of scientist was Edward L Tatum?",
+    "activity_choices": [
+      "A molecular geneticist and biochemist",
+      "A physicist",
+      "A botanist",
+      "An astronomer"
+    ],
+    "activity_answer": "A molecular geneticist and biochemist",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What prize did Edward L Tatum win for his scientific work?",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "262",
+    "title": "Spike Jones: Master of Musical Mayhem",
+    "story": "Spike Jones, the king of wacky music, was born in 1911. This bandleader from Long Beach, California, made people laugh with his silly songs and crazy sound effects. On December 14, he entered the world ready to shake up the music scene. Jones became famous for tunes like 'Der Fueher's Face' and 'Cocktails For Two', turning ordinary songs into hilarious musical adventures.",
+    "activity_question": "What kind of music was Spike Jones known for?",
+    "activity_choices": [
+      "Wacky music",
+      "Classical music",
+      "Jazz music",
+      "Country music"
+    ],
+    "activity_answer": "Wacky music",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Spike Jones used unusual instruments like cowbells, car horns, and even pots and pans in his music!",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "364",
+    "title": "Baseball Star Craig Biggio Hits the Scene",
+    "story": "Batter up! Craig Biggio stepped into the world on December 14, 1965, in Smithtown, New York. This future baseball superstar would go on to become a seven-time MLB All-Star. Biggio's talent shone bright as he earned four Gold Glove Awards and five Silver Slugger Awards. His incredible career with the Houston Astros led him straight into the Baseball Hall of Fame.",
+    "activity_question": "What team did Craig Biggio play for during his career?",
+    "activity_choices": [
+      "Houston Astros",
+      "New York Yankees",
+      "Boston Red Sox",
+      "Los Angeles Dodgers"
+    ],
+    "activity_answer": "Houston Astros",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What position did Craig Biggio play as an infielder?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "330",
+    "title": "From Batting Champ to Unforgettable Error",
+    "story": "Bill Buckner swung into baseball history with both triumph and heartbreak. Born in 1949 on December 14, this talented first baseman won the National League batting title in 1980. But Buckner's name became forever linked to a single moment in the 1986 World Series when a ground ball slipped through his legs. Despite the error, he remained a respected player throughout his career.",
+    "activity_question": "What achievement did Bill Buckner earn in 1980?",
+    "activity_choices": [
+      "National League batting title",
+      "World Series MVP",
+      "Rookie of the Year",
+      "Golden Glove Award"
+    ],
+    "activity_answer": "National League batting title",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think athletes handle mistakes in big games?",
+    "score": 70,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "365",
+    "title": "Hockey Hero Born: Bill Ranford",
+    "story": "Skates and pucks were in Bill Ranford's future from the start. Born in Brandon, Manitoba in 1966, he grew up to become a star ice hockey goaltender. Ranford's talent shone bright as he helped the Edmonton Oilers win the Stanley Cup twice. His amazing saves even earned him the Conn Smythe Trophy as the most valuable player in 1990.",
+    "activity_question": "What team did Bill Ranford help win the Stanley Cup?",
+    "activity_choices": [
+      "Edmonton Oilers",
+      "Toronto Maple Leafs",
+      "Montreal Canadiens",
+      "Winnipeg Jets"
+    ],
+    "activity_answer": "Edmonton Oilers",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What position did Bill Ranford play in ice hockey?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "168",
+    "title": "Bobby Orr's Hat Trick Magic",
+    "story": "Skates flashed and the crowd roared as Bobby Orr, the legendary hockey player, achieved something amazing in 1968. On December 14, he scored his first career hat trick against the Chicago Blackhawks. A hat trick means scoring three goals in one game - quite a feat! Orr's incredible skill on the ice was already becoming clear, and this performance showed everyone he was destined for greatness.",
+    "activity_question": "What did Bobby Orr achieve for the first time in this game?",
+    "activity_choices": [
+      "His first career hat trick",
+      "His first goal",
+      "His first assist",
+      "His first penalty"
+    ],
+    "activity_answer": "His first career hat trick",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "In hockey, fans often throw their hats onto the ice to celebrate a player scoring three goals.",
+    "score": 85,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "175",
+    "title": "Hockey Hero Hits 500-Goal Milestone",
+    "story": "Swish! The puck flew into the net, and the crowd erupted. On December 14, 1982, Marcel Dionne of the LA Kings became a hockey legend. He scored his 500th goal, joining an elite group of only eight other players to reach this amazing milestone in the National Hockey League. Dionne's lightning-fast shots and clever plays made him a fan favorite.",
+    "activity_question": "What team did Marcel Dionne play for when he scored his 500th goal?",
+    "activity_choices": [
+      "LA Kings",
+      "NY Rangers",
+      "Montreal Canadiens",
+      "Toronto Maple Leafs"
+    ],
+    "activity_answer": "LA Kings",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How many NHL players had scored 500 goals before Marcel Dionne?",
+    "score": 70,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "324",
+    "title": "Olympic Javelin Star Born",
+    "story": "A future Olympic champion entered the world in 1946. Ruth Fuchs, born in Egeln, Germany, would grow up to become a legendary javelin thrower. Her powerful arm and precise technique led her to Olympic glory. Fuchs claimed gold medals in the 1972 and 1976 Games, cementing her place in sports history on December 14.",
+    "activity_question": "In which Olympic events did Ruth Fuchs win gold medals?",
+    "activity_choices": [
+      "Javelin throw",
+      "Shot put",
+      "Discus throw",
+      "Long jump"
+    ],
+    "activity_answer": "Javelin throw",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What country was Ruth Fuchs from?",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "283",
+    "title": "Siiri Rantanen: Finland's Skiing Star",
+    "story": "Swoosh! Siiri Rantanen glided into the world on December 14, 1924, in Tohmajärvi, Finland. This future skiing champion would go on to win Olympic gold in the 3 × 5k relay in 1956. Rantanen's talent on snow also earned her bronze medals in 1952 and 1960. Her speedy skis and determination made her a Finnish sports legend.",
+    "activity_question": "What Olympic medal did Siiri Rantanen win in the 3 × 5k relay?",
+    "activity_choices": [
+      "Gold",
+      "Silver",
+      "Bronze",
+      "Platinum"
+    ],
+    "activity_answer": "Gold",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Cross-country skiing is Finland's national sport, perfect for their snowy winters!",
+    "score": 70,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "331",
+    "title": "Rock 'n' Roll Thunder: AC/DC's Bass Hero",
+    "story": "Lightning struck the world of rock music on December 14, 1949. Cliff Williams, the thunderous bassist of AC/DC, was born in Romford, England. His powerful bass lines would later shake stadiums and become the heartbeat of one of the greatest rock bands ever. Williams' steady rhythm helped AC/DC rock the world for decades.",
+    "activity_question": "What famous rock band is Cliff Williams known for playing in?",
+    "activity_choices": [
+      "AC/DC",
+      "The Beatles",
+      "Rolling Stones",
+      "Led Zeppelin"
+    ],
+    "activity_answer": "AC/DC",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "AC/DC's name stands for 'Alternating Current/Direct Current,' inspired by electricity.",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "379",
+    "title": "Beth Orton: Folk-Electronica's Melodic Voice",
+    "story": "Imagine a voice that blends folk melodies with electronic beats. That's Beth Orton, born in 1970 on December 14 in East Dereham, Norfolk. This English singer-songwriter pioneered a unique sound called folk-electronica. Her album 'Central Reservation' showcases her talent for mixing acoustic guitar with modern rhythms, creating music that feels both timeless and fresh.",
+    "activity_question": "What unique style of music is Beth Orton known for?",
+    "activity_choices": [
+      "Folk-electronica",
+      "Heavy metal",
+      "Classical opera",
+      "Reggae"
+    ],
+    "activity_answer": "Folk-electronica",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you think of other instruments that might blend well with electronic beats?",
+    "optional_type": "follow_up_question",
+    "score": 60,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "351",
+    "title": "A Whistle-Blowing Rock Star is Born",
+    "story": "In a seaside town, a future rock star took his first breath. Peter Tracy, later known as 'Spider', was born in Eastbourne, England in 1958. On December 14, this talented musician entered the world. He would grow up to play the tin whistle and sing for the famous band The Pogues, helping create their beloved holiday hit 'Fairy Tale of New York'.",
+    "activity_question": "What instrument did Peter Tracy play in The Pogues?",
+    "activity_choices": [
+      "Tin whistle",
+      "Guitar",
+      "Drums",
+      "Piano"
+    ],
+    "activity_answer": "Tin whistle",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The tin whistle is a simple wind instrument popular in Irish folk music.",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "335",
+    "title": "Jazz Maestro John Lurie Takes the Stage",
+    "story": "Saxophones wailed and jazz filled the air when John Lurie was born in 1952. This musical maverick from Minneapolis grew up to lead the Lounge Lizards, a quirky jazz band. Lurie didnt stop at music, though. He jumped into acting, starring in cool indie films like Down By Law. On December 14, fans celebrate this multi-talented artist who keeps surprising us.",
+    "activity_question": "What instrument is John Lurie known for playing?",
+    "activity_choices": [
+      "Saxophone",
+      "Guitar",
+      "Drums",
+      "Piano"
+    ],
+    "activity_answer": "Saxophone",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "John Lurie is also a painter, creating colorful artwork that has been shown in galleries.",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "316",
+    "title": "Reggae Star Born in Jamaica",
+    "story": "Dandy Livingstone burst onto the music scene with his catchy reggae tunes. Born in Kingston, Jamaica on December 14, 1943, he later moved to Britain. Livingstone became famous for hit songs like 'Suzanne Beware of the Devil' and 'Rudy, A Message to You'. His music helped spread the joyful sounds of reggae around the world.",
+    "activity_question": "What type of music was Dandy Livingstone known for?",
+    "activity_choices": [
+      "Reggae",
+      "Jazz",
+      "Rock",
+      "Classical"
+    ],
+    "activity_answer": "Reggae",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name one of Dandy Livingstone's famous songs mentioned in the story?",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "282",
+    "title": "Bollywood's Greatest Showman Born",
+    "story": "Lights, camera, action! In 1924, a star was born who would change Indian cinema forever. Raj Kapoor, later known as 'the greatest showman of Hindi cinema', took his first breath on December 14 in Peshawar. He grew up to dazzle audiences with unforgettable performances in films like Awaara and Boot Polish.",
+    "activity_question": "What was Raj Kapoor known as in Hindi cinema?",
+    "activity_choices": [
+      "The greatest showman",
+      "The dancing king",
+      "The romantic hero",
+      "The comedy master"
+    ],
+    "activity_answer": "The greatest showman",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name one of Raj Kapoor's famous films mentioned in the story?",
+    "score": 70,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "275",
+    "title": "Jazz Legend's First Note",
+    "story": "A musical star was born in St. Louis, Missouri. Clark Terry, who would become a famous jazz trumpeter, took his first breath in 1920. On December 14, the world welcomed a boy whose trumpet would one day make toes tap and hearts soar. Terry's talent and passion for jazz would inspire musicians for generations to come.",
+    "activity_question": "What instrument did Clark Terry play?",
+    "activity_choices": [
+      "Trumpet",
+      "Piano",
+      "Saxophone",
+      "Drums"
+    ],
+    "activity_answer": "Trumpet",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another famous jazz instrument?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "341",
+    "title": "Tennis Star Serves Up a Hollywood Twist",
+    "story": "Vijay Amritraj bounced onto the scene in 1953, born in Chennai, India on December 14. This ace tennis player later surprised fans by swapping his racket for a role in the James Bond movie Octopussy. Talk about a double threat! Amritraj proved he could volley between sports stardom and the silver screen.",
+    "activity_question": "What James Bond movie did Vijay Amritraj appear in?",
+    "activity_choices": [
+      "Octopussy",
+      "Thunderball",
+      "Goldfinger",
+      "Moonraker"
+    ],
+    "activity_answer": "Octopussy",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another sport where athletes have become actors?",
+    "optional_type": "follow_up_question",
+    "score": 60,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "328",
+    "title": "E.T.'s Movie Mom Enters the Spotlight",
+    "story": "Lights, camera, action! A future star was born in Kansas City, Kansas. Dee Wallace Stone, known for her roles in movies like E.T. and Critters, took her first breath in 1948. Little did anyone know on December 14 that this baby girl would grow up to become a beloved actress, touching hearts across America with her performances.",
+    "activity_question": "What famous movie did Dee Wallace Stone act in?",
+    "activity_choices": [
+      "E.T.",
+      "Star Wars",
+      "Jurassic Park",
+      "The Wizard of Oz"
+    ],
+    "activity_answer": "E.T.",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Have you ever seen E.T.? What's your favorite movie with friendly aliens?",
+    "score": 65,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "201",
+    "title": "Aphra Behn: A Literary Pioneer",
+    "story": "In 1640, a baby girl was baptized in Canterbury, England. She grew up to be Aphra Behn, a trailblazing writer. Behn became one of the first English women to earn a living through her pen. Her novel Oroonoko, published years later, is considered one of the earliest English novels. Behn's work on December 14 paved the way for future female authors.",
+    "activity_question": "What is Aphra Behn's novel Oroonoko considered to be?",
+    "activity_choices": [
+      "One of the earliest English novels",
+      "A book about Canterbury",
+      "A story about her baptism",
+      "A guide for female writers"
+    ],
+    "activity_answer": "One of the earliest English novels",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another early English novelist?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "244",
+    "title": "Spark of Genius: Helen Blair Bartlett",
+    "story": "Helen Blair Bartlett sparked a revolution in car engines! Born in Sharpsville, Pennsylvania on December 14, 1901, this brilliant geologist would change transportation forever. Bartlett invented the special insulation for spark plugs, a tiny but crucial part that helps cars run smoothly. Her clever creation made engines more reliable and efficient, powering the growth of the automobile age.",
+    "activity_question": "What did Helen Blair Bartlett invent?",
+    "activity_choices": [
+      "The insulation for spark plugs",
+      "The first car engine",
+      "The automobile",
+      "The steering wheel"
+    ],
+    "activity_answer": "The insulation for spark plugs",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why are spark plugs important in car engines?",
+    "score": 65,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "272",
+    "title": "Yoga Master's Journey Begins",
+    "story": "A tiny baby born in Bellur, India, would grow up to change how millions practice yoga. B.K.S. Iyengar took his first breath on December 14, 1918. He developed a unique style of yoga that focused on precise body alignment and using props. Iyengar's teachings spread worldwide, helping people of all ages improve their health and flexibility.",
+    "activity_question": "What did B.K.S. Iyengar's yoga style focus on?",
+    "activity_choices": [
+      "Precise body alignment",
+      "Fast-paced movements",
+      "Chanting mantras",
+      "Underwater poses"
+    ],
+    "activity_answer": "Precise body alignment",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you think of a prop that might help someone balance better in a yoga pose?",
+    "score": 65,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "284",
+    "title": "Sam Jones: Baseball's Pitching Powerhouse",
+    "story": "Sam Jones threw heat on the baseball diamond! Born in Stewartsville, Ohio in 1925, he grew up to become a star pitcher. Jones amazed fans with his skills, earning spots on the MLB All-Star team in 1955 and 1959. His most jaw-dropping feat? Pitching a no-hitter in 1955, leaving batters scratching their heads.",
+    "activity_question": "What was Sam Jones's most impressive achievement as a pitcher?",
+    "activity_choices": [
+      "Pitching a no-hitter",
+      "Winning the World Series",
+      "Striking out 20 batters in one game",
+      "Throwing the fastest pitch ever"
+    ],
+    "activity_answer": "Pitching a no-hitter",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What team did Sam Jones play for during his career?",
+    "score": 65,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "291",
+    "title": "A Poet's Pen Awakens",
+    "story": "In 1931, a literary star was born. Jaun Elia, destined to become a renowned Pakistani scholar, poet, and philosopher, took his first breath on December 14. His journey began in Amroha, a city in Uttar Pradesh, which was then part of British India. Elia's words would later captivate readers, weaving magic with his pen across borders and time.",
+    "activity_question": "Where was Jaun Elia born?",
+    "activity_choices": [
+      "Amroha, Uttar Pradesh",
+      "Lahore, Pakistan",
+      "Delhi, India",
+      "Karachi, Pakistan"
+    ],
+    "activity_answer": "Amroha, Uttar Pradesh",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What three roles did Jaun Elia become famous for?",
+    "score": 65,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "296",
+    "title": "Jazz Maestro's First Note",
+    "story": "A musical star was born in Wichita Falls, Texas in 1933. Leo Wright, who would become a jazz sensation, took his first breath on December 14. This talented musician mastered both the saxophone and flute, playing alongside the legendary Dizzy Gillespie. Wright's soulful sounds graced albums like 'Blues Shout' and the iconic 'I Left My Heart In San Francisco'.",
+    "activity_question": "What two instruments did Leo Wright play?",
+    "activity_choices": [
+      "Saxophone and flute",
+      "Piano and drums",
+      "Guitar and trumpet",
+      "Violin and clarinet"
+    ],
+    "activity_answer": "Saxophone and flute",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another famous jazz musician?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  }
+]

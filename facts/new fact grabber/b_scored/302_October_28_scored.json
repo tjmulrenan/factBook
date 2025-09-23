@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "original": "International Animation Day",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "Czech Independence Day",
+    "score": 45,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 3,
+    "original": "Greek National Day (Ohi Day)",
+    "score": 65,
+    "is_kid_friendly": true
+  }
+]

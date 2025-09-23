@@ -1,0 +1,542 @@
+[
+  {
+    "id": 244,
+    "year": "1891",
+    "original": "Ole Kirk Christiansen, Danish carpenter, inventor, and toy maker (Lego Group), born in Filskov, Denmark (d. 1958)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 1
+  },
+  {
+    "id": 119,
+    "year": "2016",
+    "original": "Longest-ever captured python found on Penang Island in Malaysia (26ft/8m)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 2
+  },
+  {
+    "id": 82,
+    "year": "1981",
+    "original": "Willem Klein mentally extracts 13th root of a 100-digit # in 29 sec",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 3
+  },
+  {
+    "id": 114,
+    "year": "2001",
+    "original": "Mars Odyssey is launched",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 4
+  },
+  {
+    "id": 85,
+    "year": "1983",
+    "original": "STS-6 specialist Story Musgrave & Don Peterson perform the 1st STS spacewalk",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 5
+  },
+  {
+    "id": 64,
+    "year": "1966",
+    "original": "US recovers a lost hydrogen bomb from the Mediterranean sea floor (whoops)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 6
+  },
+  {
+    "id": 320,
+    "year": "1946",
+    "original": "Bob Metcalfe, American electrical engineer (co-inventor of Ethernet, 3Com), born in Brooklyn, New York",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 7
+  },
+  {
+    "id": 137,
+    "year": "2024",
+    "original": "British charity fundraiser Russ Cook the \"Hardest Geezer\" runs the length of Africa, arriving at Ras Angela, Tunisia, almost a year after setting off from Cape Agulhas, South Africa",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 8
+  },
+  {
+    "id": 149,
+    "year": "1805",
+    "original": "Lewis and ClarkExpedition leaves Fort Mandan (on the Missouri River near what is now Washburn, North Dakota), beginning their journey to the Pacific Ocean",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 9
+  },
+  {
+    "id": 156,
+    "year": "1895",
+    "original": "Polar explorerFridtjof Nansenreaches record 86°13.6′N latitude north, expedition closest to the North pole",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 10
+  },
+  {
+    "id": 95,
+    "year": "1989",
+    "original": "NY Supreme Court takes America's Cup away from SD Yacht Club for using a catamaran against NZ. Appeals court eventually overrules",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 31
+  },
+  {
+    "id": 84,
+    "year": "1983",
+    "original": "Oldest human skeleton, aged 80,000 years, discovered in Egypt",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 12
+  },
+  {
+    "id": 129,
+    "year": "2020",
+    "original": "China ends its lockdown of Wuhan, the city at the center of the COVID-19 pandemic after 76 days as the country reports no new deaths for the 1st time",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 13
+  },
+  {
+    "id": 58,
+    "year": "1959",
+    "original": "Radar 1st bounced off Sun, Stanford Calif",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 14
+  },
+  {
+    "id": 154,
+    "year": "1853",
+    "original": "Queen VictoriaasksJohn Snowto administer chloroform during the delivery of her eighth child, Leopold, leads to wider acceptance of obstetrical anesthesia",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 15
+  },
+  {
+    "id": 230,
+    "year": "1869",
+    "original": "David Fairchild, American botanist and explorer (introduced over 200,000 plants to US), born in Lansing, Michigan (d. 1954)",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 16
+  },
+  {
+    "id": 242,
+    "year": "1890",
+    "original": "Marjory Stoneman Douglas, American journalist, conservationist (1st Lady of the Everglades) and women's suffrage advocate, born in Minneapolis, Minnesota (d. 1998)",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 17
+  },
+  {
+    "id": 133,
+    "year": "2022",
+    "original": "Ketanji Brown Jackson becomes the first black woman to be confirmed by the US Senate to the Supreme Court in 53-47 vote",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 18
+  },
+  {
+    "id": 152,
+    "year": "1827",
+    "original": "English chemistJohn Walkersells the world's first friction matches, for 1s 2d (6 new pence) per 100 matches in a tin case with a piece of sandpaper",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 19
+  },
+  {
+    "id": 3,
+    "year": "1348",
+    "original": "Prague University, first university in central Europe, formed by Charles IV",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 20
+  },
+  {
+    "id": 31,
+    "year": "1928",
+    "original": "44-year old NY Rangers GM Lester Patrick replaces his injured goaltender in a Stanley Cup game and beats Montreal Maroons, 2-1 in OT; Rangers go on to win series, 3-2",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 21
+  },
+  {
+    "id": 42,
+    "year": "1945",
+    "original": "Battle of Okinawa: US planes intercept Japanese fleet heading for Okinawa on a suicide mission, super battleship Yamato and four destroyers are sunk",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 22
+  },
+  {
+    "id": 261,
+    "year": "1911",
+    "original": "Kenneth Oakley, English Anthropologist, paleontologist and geologist whose method for the relative dating of fossils using fluorine content was instrumental in exposing the Piltdown Man hoax, born in Amersham, England (d. 1981)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 23
+  },
+  {
+    "id": 178,
+    "year": "1979",
+    "original": "NHL New York IslandersMike Bossyscores 4 goals on his first 4 shots in 9-2 win over visiting Philadelphia Flyers",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 24
+  },
+  {
+    "id": 157,
+    "year": "1896",
+    "original": "Australian athleteEdwin Flackwins gold in the first Olympic 1500m final at inaugural modern Games in Athens; goes on to win 800m two days later",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 25
+  },
+  {
+    "id": 349,
+    "year": "1960",
+    "original": "James 'Buster' Douglas, American boxer (undisputed world heavyweight champion 1990), born in Columbus, Ohio",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 27
+  },
+  {
+    "id": 229,
+    "year": "1859",
+    "original": "Walter Camp, father of American football (Yale), born in New Britain, Connecticut (d. 1925)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 29
+  },
+  {
+    "id": 188,
+    "year": "2019",
+    "original": "Retiring NBA legends Dirk Nowitzki (Dallas) andDwyane Wade(Miami) play their final home games, both victories;Magic Johnsonsensationally quits as LA Lakers president of basketball operations; Houston Rockets convert NBA record 27 three-point field goals in 149-113 win over Phoenix",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 30
+  },
+  {
+    "id": 177,
+    "year": "1979",
+    "original": "Houston Astro Ken Forsch no-hits Atlanta Braves, 6-0, becoming with his brotherBob Forschthe only MLB siblings to accomplish the feat",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 32
+  },
+  {
+    "id": 2,
+    "year": "611",
+    "original": "Forces from Maya city Calakmul invade and conquer the neighbouring city of Palenque, holding it as a vassal state for five years",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 33
+  },
+  {
+    "id": 209,
+    "year": "1756",
+    "original": "Thomas Linley the younger, English violinist and composer known as the \"English Mozart\", born in Bath, England (d. 1778)",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 34
+  },
+  {
+    "id": 150,
+    "year": "1805",
+    "original": "Premiere ofLudwig van Beethoven's \"Eroica\"  (Symphony No. 3),  at the Theater an der Wien, Vienna, conducted by the composer; contemporary reviews were mixed",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 35
+  },
+  {
+    "id": 123,
+    "year": "2018",
+    "original": "Vegas Golden Knights suffer a 7-1 end of regular season defeat at Calgary but finish with an NHL expansion team record 51 victories; previous record 33 by Anaheim Ducks & Florida Panthers 1993-94",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 37
+  },
+  {
+    "id": 78,
+    "year": "1977",
+    "original": "MLB Toronto Blue Jays 1st game, they beat Chicago 9-5",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 38
+  },
+  {
+    "id": 70,
+    "year": "1970",
+    "original": "MLB Milwaukee Brewers (former Seattle Pilots) 1st game, lose to Angels 12-0",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 39
+  },
+  {
+    "id": 375,
+    "year": "1975",
+    "original": "Ronde Barber, Pro Football HOF cornerback (Super Bowl XXXVII; First-team All-Pro 2001, 04, 05; 5 × Pro Bowl; Tampa Bay Buccaneers), born in Roanoke, Virginia",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 41
+  },
+  {
+    "id": 364,
+    "year": "1968",
+    "original": "Duncan Armstrong, Australian swimmer (Olympic gold 200m freestyle 1988), born in Rockhampton, Queensland",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 44
+  },
+  {
+    "id": 382,
+    "year": "1987",
+    "original": "Ismael Cruz Córdova, Puerto Rican actor (The Lord of the Rings: The Rings of Power), born in Aguas Buenas, Puerto Rico",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 45
+  },
+  {
+    "id": 120,
+    "year": "2017",
+    "original": "Smurfs: The Lost Village is released in the United States",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 46
+  },
+  {
+    "id": 110,
+    "year": "1996",
+    "original": "Pakistan beats Sri Lanka to win Cricket's Singer Cup in Singapore",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 48
+  },
+  {
+    "id": 124,
+    "year": "2019",
+    "original": "ANA Inspiration Women's Golf, Mission Hills CC: Ko Jin-young wins her first major title by 3 strokes over fellow South Korean Lee Mi-hyang",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 49
+  },
+  {
+    "id": 97,
+    "year": "1990",
+    "original": "BPAA US Open by Ron Palombi Jr",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 50
+  },
+  {
+    "id": 132,
+    "year": "2021",
+    "original": "UK COVID-19 variant B.1.1.7 (Alpha) now the dominant variant in the US according to the CDC, as 108 million Americans have received at least one vaccine dose",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 51
+  },
+  {
+    "id": 51,
+    "year": "1953",
+    "original": "1st west-to-east jet transatlantic nonstop flight",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 52
+  },
+  {
+    "id": 62,
+    "year": "1964",
+    "original": "IBM announces the System/360 mainframe computer",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 53
+  },
+  {
+    "id": 101,
+    "year": "1991",
+    "original": "Compton Gamma Ray Observatory orbits Earth",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 54
+  },
+  {
+    "id": 28,
+    "year": "1923",
+    "original": "1st brain tumor operation under local anesthetic performed (Beth Israel Hospital in NYC) by Dr K Winfield Ney",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 55
+  },
+  {
+    "id": 142,
+    "year": "1521",
+    "original": "Portuguese navigatorFerdinand Magellan's fleet reaches Cebu",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 57
+  },
+  {
+    "id": 153,
+    "year": "1831",
+    "original": "DomPedro I, Emperor of Brazil, passes the throne to his five-year old son Dom Pedro II, so that he can return to Portugal to support his daughter,Maria II, against the usurperMiguel I",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 58
+  },
+  {
+    "id": 139,
+    "year": "451",
+    "original": "Attila the Hunplunders Metz in Northeastern France",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 59
+  },
+  {
+    "id": 163,
+    "year": "1934",
+    "original": "In India,Mahatma Gandhisuspends his campaign of civil disobedience",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 60
+  },
+  {
+    "id": 164,
+    "year": "1940",
+    "original": "US Post Office issues first postage stamp of African American educatorBooker T. Washington",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 61
+  },
+  {
+    "id": 146,
+    "year": "1724",
+    "original": "Johann Sebastian Bach's \"St John Passion\" premieres on Good Friday at St. Nicholas Church in Leipzig, Electorate of Saxony (now Germany)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 62
+  },
+  {
+    "id": 108,
+    "year": "1994",
+    "original": "Vatican commemorates The Holocaust for the first time with an orchestral concert in the Sala Nervi",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 68
+  },
+  {
+    "id": 91,
+    "year": "1987",
+    "original": "National Museum of Female Physicians opens in Washington, D.C.",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 69
+  },
+  {
+    "id": 76,
+    "year": "1977",
+    "original": "Consumer Product Safety Commission bans \"TRIS\" flame-retardant",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 70
+  },
+  {
+    "id": 27,
+    "year": "1919",
+    "original": "First parcel of land is purchased for Cleveland Metroparks",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 71
+  },
+  {
+    "id": 13,
+    "year": "1788",
+    "original": "First settlement in Ohio is established at Marietta",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 72
+  },
+  {
+    "id": 20,
+    "year": "1890",
+    "original": "Completion of the first Lake Biwa Canal, Japan",
+    "score": 55,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 73
+  },
+  {
+    "id": 14,
+    "year": "1798",
+    "original": "Mississippi Territory is organized",
+    "score": 55,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 74
+  }
+]

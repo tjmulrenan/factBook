@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Creamy Dreams and Cheesy Schemes",
+    "story": "Twirl your fork and get ready for the creamiest celebration of the year! National Fettuccine Alfredo Day happens every February 7, when pasta lovers everywhere dig into bowls of silky noodles covered in rich, buttery cheese sauce. Restaurants offer special alfredo dishes, families cook their favorite recipes, and social media fills with photos of perfectly twirled forks. Some people add chicken or shrimp to make it extra fancy, while others keep it simple with just the classic butter, cream, and parmesan cheese combo that makes this Italian-American dish so irresistible.",
+    "activity_question": "What are the main ingredients in classic alfredo sauce?",
+    "activity_choices": [
+      "Butter, cream, and parmesan cheese",
+      "Tomatoes, basil, and garlic",
+      "Olive oil, lemon, and herbs",
+      "Chocolate, marshmallows, and sprinkles"
+    ],
+    "activity_answer": "Butter, cream, and parmesan cheese",
+    "bonus_fact": "The original alfredo sauce was invented in Rome and only had butter and cheese!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "902",
+    "title": "Wave All Your Fingers at Your Neighbors Day",
+    "story": "Every February 7, people celebrate Wave All Your Fingers at Your Neighbors Day by doing exactly what it sounds like - waving enthusiastically at everyone nearby! This silly holiday encourages folks to step outside, smile big, and give their neighbors the friendliest wave possible using all ten fingers. Some people wave from their front porches, others wave while walking their dogs, and kids love waving from car windows. Social media fills up with photos of people mid-wave, and neighborhoods become extra cheerful as everyone spreads good vibes through simple gestures. It's amazing how something as basic as waving can make entire communities feel more connected and happy.",
+    "activity_question": "What do people use to wave at their neighbors on this holiday?",
+    "activity_choices": [
+      "All ten fingers",
+      "Only their thumbs",
+      "Magic wands",
+      "Their elbows"
+    ],
+    "activity_answer": "All ten fingers",
+    "follow_up_question": "What other simple gestures could bring neighbors together?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "903",
+    "title": "Mail Magic: Send a Card to a Friend Day",
+    "story": "Every February 7, people celebrate National Send a Card to a Friend Day by picking up actual pens and writing real cards! Friends surprise each other with funny greeting cards, handmade notes, or postcards covered in stickers and doodles. Some kids make their own cards using construction paper and markers, while others hunt for the perfect store-bought card that matches their friend's personality. It's like texting, but way more special because someone took time to write, decorate, and mail something just for you!",
+    "activity_question": "What makes sending a card more special than texting according to the story?",
+    "activity_choices": [
+      "Someone took time to write, decorate, and mail it just for you",
+      "Cards are always more expensive than texts",
+      "You can only send cards to people far away",
+      "Cards make funny sounds when you open them"
+    ],
+    "activity_answer": "Someone took time to write, decorate, and mail it just for you",
+    "follow_up_question": "What would you draw or write on a homemade card for your best friend?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  }
+]

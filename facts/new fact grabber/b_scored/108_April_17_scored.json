@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "original": "World Hemophilia Day",
+    "score": 30,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 2,
+    "original": "National Haiku Poetry Day",
+    "score": 51,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "Bat Appreciation Day",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "Blah Blah Blah Day",
+    "score": 15,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 5,
+    "original": "Ford Mustang Day",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 6,
+    "original": "Malbec World Day",
+    "score": 45,
+    "is_kid_friendly": false
+  }
+]

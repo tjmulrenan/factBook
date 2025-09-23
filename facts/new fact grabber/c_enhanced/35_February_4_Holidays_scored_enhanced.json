@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Soup's On for National Homemade Soup Day!",
+    "story": "Every February 4, kitchens across America fill with the amazing smells of National Homemade Soup Day! Families gather to make their favorite recipes from scratch, whether it's chicken noodle, tomato, or wild creations with whatever's in the fridge. People share photos of their bubbling pots on social media and swap secret family recipes with friends. Some folks try making soup for the very first time, while others stick to grandma's tried-and-true methods.",
+    "activity_question": "What do people often share on social media during National Homemade Soup Day?",
+    "activity_choices": [
+      "Photos of their bubbling soup pots",
+      "Pictures of empty bowls",
+      "Videos of dancing vegetables",
+      "Screenshots of restaurant menus"
+    ],
+    "activity_answer": "Photos of their bubbling soup pots",
+    "bonus_fact": "Soup has been around for about 20,000 years!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  },
+  {
+    "id": "902",
+    "title": "Mushrooms Get the Royal Stuffing Treatment",
+    "story": "Chefs and home cooks go wild for National Stuffed Mushroom Day every February 4! People celebrate by filling mushroom caps with delicious mixtures like cheese, breadcrumbs, herbs, and sometimes even crab or sausage. Restaurants create special stuffed mushroom appetizers, while families gather in kitchens to experiment with their own creative recipes. Social media fills with photos of these bite-sized treasures baked to golden perfection.",
+    "activity_question": "What do people typically fill mushroom caps with on this holiday?",
+    "activity_choices": [
+      "Cheese, breadcrumbs, and herbs",
+      "Ice cream and sprinkles",
+      "Only plain rice",
+      "Nothing at all"
+    ],
+    "activity_answer": "Cheese, breadcrumbs, and herbs",
+    "bonus_fact": "Button mushrooms and portobello caps are the most popular choices for stuffing!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  },
+  {
+    "id": "903",
+    "title": "Special Delivery of Thanks!",
+    "story": "Mail carriers brave snow, rain, and blazing heat to bring letters and packages right to your door! On February 4, people across the country celebrate National Thank a Mailman Day by showing appreciation for these hardworking heroes. Kids leave thank-you notes in their mailboxes, families offer cold drinks or snacks, and some people even give small gifts or gift cards. It's a perfect way to brighten a mail carrier's day and say thanks for all they do year-round!",
+    "activity_question": "How do people commonly show appreciation to mail carriers on this holiday?",
+    "activity_choices": [
+      "Leave thank-you notes and offer snacks",
+      "Send them birthday cards",
+      "Hide from them when they deliver mail",
+      "Ask them to deliver pizza instead"
+    ],
+    "activity_answer": "Leave thank-you notes and offer snacks",
+    "follow_up_question": "What would you write in a thank-you note to your mail carrier?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  }
+]

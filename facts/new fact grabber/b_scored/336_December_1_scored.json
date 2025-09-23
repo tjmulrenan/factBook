@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "original": "World AIDS Day",
+    "score": 45,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 2,
+    "original": "Eat a Red Apple Day",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "Rosa Parks Day",
+    "score": 55,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "National Day Without Art",
+    "score": 34,
+    "is_kid_friendly": false
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "901",
+    "title": "Eat What You Want Day: No Rules!",
+    "story": "Pizza for breakfast, ice cream for lunch, and cookies for dinner? On May 11, National Eat What You Want Day gives you permission to throw healthy eating rules out the window! People celebrate by indulging in their favorite guilty pleasures without any judgment. Some folks start their morning with cake, while others have dessert first at every meal. Restaurants often join the fun by offering special \"anything goes\" menus or backwards meals. Social media fills up with photos of people's wildest food combinations and dream meals. It's the one day when \"because I want to\" is the perfect reason to eat that extra slice of pizza or have candy before vegetables!",
+    "activity_question": "What do people often do on social media during National Eat What You Want Day?",
+    "activity_choices": [
+      "Post photos of their wildest food combinations",
+      "Share healthy recipe videos",
+      "Count their daily calories",
+      "Write food safety tips"
+    ],
+    "activity_answer": "Post photos of their wildest food combinations",
+    "follow_up_question": "What would be your perfect \"eat what you want\" meal for breakfast, lunch, and dinner?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Enter the Twilight Zone Day",
+    "story": "Picture this: on May 11, fans celebrate National Twilight Zone Day by diving into one of TV's most mind-bending shows! The Twilight Zone was a famous series that told strange stories about mysterious worlds and unexpected twists. Today, people watch classic episodes, share their favorite spooky moments online, and discuss the show's weird plot twists with friends. Some fans even dress up as characters or create their own mysterious stories inspired by the show. Libraries and schools sometimes host special events where kids can write their own twilight zone tales with surprise endings that make you go \"whoa!\"",
+    "activity_question": "What do fans often do on National Twilight Zone Day?",
+    "activity_choices": [
+      "Watch episodes and share favorite moments",
+      "Build time machines in their backyards",
+      "Only eat black and white food",
+      "Refuse to look in mirrors all day"
+    ],
+    "activity_answer": "Watch episodes and share favorite moments",
+    "follow_up_question": "What kind of mysterious story with a twist ending would you create?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "903",
+    "title": "Tech It Out on National Technology Day!",
+    "story": "Every May 11, people celebrate National Technology Day by showing off the coolest gadgets and inventions that make our lives amazing! Schools host coding workshops where kids learn to program robots and create their own apps. Tech companies open their doors for special tours, letting visitors see how smartphones, video games, and computers are made. Families share photos of their favorite devices on social media, from smart watches to virtual reality headsets. Some people even try to go a whole day using only the newest technology they can find, while others compare how different their lives are from people who lived before smartphones existed!",
+    "activity_question": "What do schools often host on National Technology Day?",
+    "activity_choices": [
+      "Cooking workshops",
+      "Coding workshops",
+      "Dance competitions",
+      "Art contests"
+    ],
+    "activity_answer": "Coding workshops",
+    "bonus_fact": "The first computer was as big as an entire room!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "904",
+    "title": "Give It All Away Day!",
+    "story": "People around the world do something amazing on May 11 — they donate an entire day's pay to charity! Workers, students, and families pick their favorite causes and give away what they would normally earn in one full day. Some donate to animal shelters, food banks, or schools. Others help with disaster relief or medical research. It's a powerful way to make a real difference in just 24 hours.",
+    "activity_question": "What do people donate on this special day?",
+    "activity_choices": [
+      "A day's wages to charity",
+      "Their favorite books",
+      "Old clothes and toys",
+      "Homemade cookies"
+    ],
+    "activity_answer": "A day's wages to charity",
+    "follow_up_question": "What charity would you choose to support with your allowance money?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "905",
+    "title": "Roll Away Your Aches and Pains!",
+    "story": "Grab a foam roller and get ready to roll! National Foam Rolling Day happens every May 11, when athletes and fitness fans celebrate this amazing recovery tool. People roll out their sore muscles after workouts, sharing videos of their favorite techniques online. It's like giving yourself a massage!",
+    "activity_question": "What do people use foam rollers for on this holiday?",
+    "activity_choices": [
+      "To roll out sore muscles",
+      "To paint walls",
+      "To make foam art",
+      "To play bowling"
+    ],
+    "activity_answer": "To roll out sore muscles",
+    "bonus_fact": "Foam rolling can help you feel less sore the day after exercising!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 45
+  },
+  {
+    "id": "906",
+    "title": "Tiny Clubs, Big Fun!",
+    "story": "Windmills spin, dinosaurs roar, and castles block your path as golfers grab their putters for National Miniature Golf Day on May 11! Families flock to colorful courses filled with crazy obstacles, trying to sink their balls through loop-de-loops and around giant shoes. Some courses glow in the dark, while others feature pirate ships or jungle themes. Players of all ages compete to get a hole-in-one, celebrating with high-fives and victory dances. It's the perfect day to putt your way through wacky adventures!",
+    "activity_question": "What do miniature golf courses often feature to make the game more challenging?",
+    "activity_choices": [
+      "Crazy obstacles like windmills and castles",
+      "Real dinosaurs that chase the ball",
+      "Professional golf caddies",
+      "Sand traps filled with actual sand"
+    ],
+    "activity_answer": "Crazy obstacles like windmills and castles",
+    "bonus_fact": "The first miniature golf course opened in 1916 in North Carolina!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  }
+]

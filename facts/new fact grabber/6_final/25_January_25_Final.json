@@ -1,0 +1,1322 @@
+[
+  {
+    "id": "901",
+    "title": "Burns Night: Poetry, Haggis, and Highland Fun!",
+    "story": "Every January 25, people celebrate Burns Night to honor Robert Burns, Scotland's famous poet! Families gather for special dinners featuring haggis, a traditional Scottish dish made with meat and oats. Someone reads Burns' poems aloud, especially his funny verses about haggis. People wear kilts, play bagpipes, and toast with Scottish drinks while sharing stories and laughter.",
+    "activity_question": "What traditional Scottish dish is featured at Burns Night dinners?",
+    "activity_choices": [
+      "Haggis",
+      "Fish and chips",
+      "Shortbread cookies",
+      "Porridge"
+    ],
+    "activity_answer": "Haggis",
+    "bonus_fact": "Robert Burns wrote a famous poem called \"Address to a Haggis\" that people still recite today!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "902",
+    "title": "Wake Up and Smell the Irish Coffee!",
+    "story": "Coffee gets a fancy Irish makeover every January 25 on National Irish Coffee Day! This warm drink mixes hot coffee with Irish whiskey, sugar, and fluffy whipped cream on top. Since kids can't have the whiskey part, many cafes make special \"Irish-style\" coffee drinks with caramel or vanilla flavoring instead. Families celebrate by trying new coffee shop treats or making their own creamy coffee drinks at home. Some people even learn about Irish culture while sipping their special beverages!",
+    "activity_question": "What ingredient makes regular coffee into Irish coffee for adults?",
+    "activity_choices": [
+      "Irish whiskey",
+      "Green food coloring",
+      "Chocolate syrup",
+      "Orange juice"
+    ],
+    "activity_answer": "Irish whiskey",
+    "follow_up_question": "What other countries might have their own special coffee traditions?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "903",
+    "title": "Pop Till You Drop Day!",
+    "story": "Pop, pop, POP! Every January 25, people across the country celebrate National Bubble Wrap Day by doing exactly what you're thinking – popping those amazing little air bubbles! This squishy packaging material that protects our online orders has become a stress-busting superstar. People host bubble wrap stomping parties, create bubble wrap art, and even have popping contests to see who can pop the most bubbles in one minute. Some folks save up bubble wrap all year just for this day! Schools use it for science experiments, and offices let workers take \"bubble breaks\" to pop away their worries. It's the one day when playing with your packaging is totally encouraged!",
+    "activity_question": "What do people often do with bubble wrap on National Bubble Wrap Day to relieve stress?",
+    "activity_choices": [
+      "Pop the air bubbles",
+      "Use it as a blanket",
+      "Make paper airplanes with it",
+      "Paint pictures on it"
+    ],
+    "activity_answer": "Pop the air bubbles",
+    "bonus_fact": "Some people wrap themselves in bubble wrap and roll down hills for extra fun!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "904",
+    "title": "Put Pen to Paper Day!",
+    "story": "Grab a pen and get ready to write! National Handwriting Day happens every January 25, celebrating the lost art of writing by hand. People share photos of their prettiest cursive, practice their signatures, and write thank-you notes instead of typing them. Teachers organize handwriting contests while students show off their neatest letters and coolest doodles.",
+    "activity_question": "What do people often share photos of on National Handwriting Day?",
+    "activity_choices": [
+      "Their prettiest cursive writing",
+      "Their favorite pens",
+      "Their computer keyboards",
+      "Their homework assignments"
+    ],
+    "activity_answer": "Their prettiest cursive writing",
+    "bonus_fact": "Your handwriting is as unique as your fingerprint!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 50
+  },
+  {
+    "id": "905",
+    "title": "Tatiana Day: Russia's Student Holiday",
+    "story": "Russian students throw the biggest party of the year on January 25 for Tatiana Day! This special holiday honors Saint Tatiana, the patron saint of students and universities. College kids across Russia celebrate by skipping classes, having huge parties, and giving gifts to their teachers. Many universities host concerts, festivals, and special meals. Students believe celebrating Tatiana Day brings good luck for their exams and studies throughout the year.",
+    "activity_question": "What do Russian students traditionally do on Tatiana Day?",
+    "activity_choices": [
+      "Skip classes and have parties",
+      "Take extra exams",
+      "Clean their dormitories",
+      "Write thank-you letters to parents"
+    ],
+    "activity_answer": "Skip classes and have parties",
+    "bonus_fact": "Many Russian universities were actually founded on January 25th because of this holiday!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "906",
+    "title": "Going Nuts for Macadamias!",
+    "story": "Crack open something special because January 25 is National Macadamia Nut Day! These creamy, buttery nuts get their moment to shine as people munch them straight from the bag, bake them into cookies, or drizzle them with chocolate. Restaurants add macadamias to salads and desserts, while social media fills with photos of macadamia treats. Originally from Australia, these nuts are now grown in Hawaii and loved worldwide for their rich, smooth taste.",
+    "activity_question": "Where did macadamia nuts originally come from?",
+    "activity_choices": [
+      "Australia",
+      "Hawaii",
+      "California",
+      "New Zealand"
+    ],
+    "activity_answer": "Australia",
+    "bonus_fact": "Macadamia nuts have the hardest shells of any nut in the world!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "197",
+    "title": "Opportunity Knocks on Mars' Door",
+    "story": "Beep, beep! A robotic explorer named Opportunity touched down on the Red Planet. In 2004, NASA's plucky rover began its Martian adventure on January 25. Opportunity was designed to search for signs of ancient water on Mars. The little robot far exceeded expectations, roaming the dusty landscape for nearly 15 years! It sent back stunning photos and made groundbreaking discoveries about Mars' watery past.",
+    "activity_question": "What was Opportunity designed to search for on Mars?",
+    "activity_choices": [
+      "Signs of ancient water",
+      "Martian life forms",
+      "Valuable minerals",
+      "A good parking spot"
+    ],
+    "activity_answer": "Signs of ancient water",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think scientists are so interested in finding evidence of water on Mars?",
+    "score": 95,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "323",
+    "title": "The Birth of a Tiny Toy Legend",
+    "story": "A tiny toy hero was born on January 25, 1942. Jens Nygaard Knudsen entered the world in Denmark, destined to create something special. He grew up to become a toy designer for Lego, the famous building block company. Knudsen's greatest invention? The beloved Lego mini-figure! These small, yellow characters with movable arms and legs have sparked imagination in playrooms around the globe.",
+    "activity_question": "What was Jens Nygaard Knudsen's most famous creation?",
+    "activity_choices": [
+      "The Lego mini-figure",
+      "The Lego building block",
+      "A Danish toy company",
+      "Yellow plastic bricks"
+    ],
+    "activity_answer": "The Lego mini-figure",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you think of a fun adventure for a Lego mini-figure to go on?",
+    "score": 90,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "167",
+    "title": "Spots, Spots Everywhere!",
+    "story": "Paws and spots took over movie screens in 1961! On January 25, Walt Disney's animated film 101 Dalmatians bounded into theaters. Based on Dodie Smith's novel, this tail-wagging adventure followed the journey of Pongo, Perdita, and their adorable puppies. Directors Clyde Geronimi and Hamilton Luske brought the black-and-white pups to colorful life, delighting audiences with their canine capers.",
+    "activity_question": "What was the name of the animated film released on January 25, 1961?",
+    "activity_choices": [
+      "101 Dalmatians",
+      "Pongo and Perdita",
+      "Spot the Dog",
+      "Puppy Paradise"
+    ],
+    "activity_answer": "101 Dalmatians",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "101 Dalmatians was one of the first Disney films to use xerography, a new animation technique at the time.",
+    "score": 85,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "151",
+    "title": "Nellie Bly's Incredible Race Around the World",
+    "story": "Nellie Bly, a daring journalist, set out to beat the fictional journey of Phileas Fogg from Jules Verne's famous book. On January 25, 1890, she triumphantly completed her real-life race around the globe in just 72 days. Bly's adventurous spirit and determination allowed her to outpace the book's hero by 8 whole days, proving that truth can be even more exciting than fiction!",
+    "activity_question": "How long did Nellie Bly's journey around the world take?",
+    "activity_choices": [
+      "72 days",
+      "80 days",
+      "64 days",
+      "365 days"
+    ],
+    "activity_answer": "72 days",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What famous book character did Nellie Bly beat in her race around the world?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "157",
+    "title": "The Birth of Robots in Theater",
+    "story": "Imagine a world without robots! In 1921, Czech writer Karel Čapek changed that forever. His groundbreaking play R.U.R. hit the stage in Prague on January 25. This wasn't just any show - it introduced the word 'robot' to the world. Čapek's artificial workers sparked our imagination about what machines could do. Little did he know how his creation would shape our future!",
+    "activity_question": "What word did Karel Čapek's play introduce to the world?",
+    "activity_choices": [
+      "Robot",
+      "Machine",
+      "Android",
+      "Automaton"
+    ],
+    "activity_answer": "Robot",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What do you think robots will be able to do in the future?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "158",
+    "title": "Atom-Splitting Breakthrough in a Basement",
+    "story": "Boom! In 1939, scientists made history by splitting a tiny uranium atom. This groundbreaking experiment happened in the basement of Columbia University on January 25. Led by Enrico Fermi, the team achieved the first nuclear fission in the United States. Their work unlocked powerful new energy sources, changing science forever. But remember, kids: real experiments need expert supervision!",
+    "activity_question": "Where did this groundbreaking experiment take place?",
+    "activity_choices": [
+      "In the basement of Columbia University",
+      "On the roof of a skyscraper",
+      "In a secret underground lab",
+      "At a public science fair"
+    ],
+    "activity_answer": "In the basement of Columbia University",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think they conducted the experiment in a basement?",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "195",
+    "title": "Snowy Spectacle: Winter Olympics Begin",
+    "story": "Skis swooshed and skates glided as athletes from around the world gathered in Chamonix, France. The year was 1924, and something magical was happening. For the first time ever, the Winter Olympic Games were kicking off on January 25. This snowy celebration of sports brought together competitors in events like skiing, figure skating, and ice hockey. It marked the beginning of a new tradition that would captivate millions for years to come.",
+    "activity_question": "Where were the first Winter Olympic Games held?",
+    "activity_choices": [
+      "Chamonix, France",
+      "Paris, France",
+      "London, England",
+      "Snowville, Antarctica"
+    ],
+    "activity_answer": "Chamonix, France",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What are some winter sports you'd like to try or watch in the Olympics?",
+    "score": 90,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "145",
+    "title": "Icy Discovery: A New Continent Revealed",
+    "story": "Braving icy waters and treacherous conditions, an American naval expedition made a chilling discovery. Led by explorer Charles Wilkes, the team became the first to identify Antarctica as a new continent on January 25, 1840. Their daring voyage through frigid seas unveiled a vast, frozen land, opening up a world of possibilities for future polar exploration and scientific research.",
+    "activity_question": "Who led the American naval expedition that identified Antarctica as a new continent?",
+    "activity_choices": [
+      "Charles Wilkes",
+      "Robert Falcon Scott",
+      "Ernest Shackleton",
+      "Roald Amundsen"
+    ],
+    "activity_answer": "Charles Wilkes",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What challenges do you think explorers faced when traveling to Antarctica?",
+    "score": 85,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "61",
+    "title": "Hawaii's Rainy Day Record",
+    "story": "Splash! Hawaii got soaked in 1956 when Kilauea Plantation experienced an incredible downpour. On January 25, a staggering 96.5 centimeters of rain fell in just one day. That's like filling a bathtub with rainwater! This deluge set Hawaii's rainfall record, which stood for over 60 years until 2018. Imagine the rushing streams and overflowing puddles as nature put on this spectacular water show.",
+    "activity_question": "How much rain fell at Kilauea Plantation in one day?",
+    "activity_choices": [
+      "96.5 centimeters",
+      "38.0 inches",
+      "60 years",
+      "2018 liters"
+    ],
+    "activity_answer": "96.5 centimeters",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What everyday object could you fill with that much rainwater?",
+    "score": 92,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "67",
+    "title": "The Beatles Rock America",
+    "story": "Screaming fans and catchy tunes swept across America as The Beatles scored their first US number one hit. Their song 'I Want to Hold Your Hand' topped the Cashbox charts on January 25, 1964. This infectious melody kicked off the British Invasion, bringing a fresh sound that would change music forever. Teens couldn't get enough of the Fab Four's mop-top haircuts and charming accents.",
+    "activity_question": "What was the name of The Beatles' first US number one hit?",
+    "activity_choices": [
+      "I Want to Hold Your Hand",
+      "Love Me Do",
+      "She Loves You",
+      "Twist and Shout"
+    ],
+    "activity_answer": "I Want to Hold Your Hand",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The Beatles wrote 'I Want to Hold Your Hand' on a piano in the basement of Jane Asher's house.",
+    "score": 85,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "112",
+    "title": "Alien World Spotted: A Cosmic Breakthrough",
+    "story": "Astronomers made a thrilling discovery in 2006! On January 25, they announced finding OGLE-2005-BLG-390Lb, a planet beyond our solar system. This cosmic gem was the first cool rocky or icy world spotted orbiting a regular star like our Sun. The planet's hiding spot was revealed through a clever trick called gravitational microlensing, where space itself acts like a giant magnifying glass.",
+    "activity_question": "What special technique helped astronomers find this new planet?",
+    "activity_choices": [
+      "Gravitational microlensing",
+      "Telescope photography",
+      "Radio wave detection",
+      "Alien communication"
+    ],
+    "activity_answer": "Gravitational microlensing",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think finding planets outside our solar system is important for scientists?",
+    "score": 92,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "93",
+    "title": "Hubble's Cosmic Eye Spies a Galaxy",
+    "story": "Peering deep into space, the Hubble telescope made an exciting discovery on January 25. In 1992, its powerful optics spotted a distant galaxy known as NGC3862, also called 3C264. This cosmic find was like uncovering hidden treasure in the vast universe. Hubble's sharp 'eyes' allowed scientists to see farther and clearer than ever before, opening up new wonders of space for us to explore.",
+    "activity_question": "What did the Hubble telescope discover?",
+    "activity_choices": [
+      "A distant galaxy",
+      "A new planet",
+      "An alien spaceship",
+      "A black hole"
+    ],
+    "activity_answer": "A distant galaxy",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think scientists use telescopes like Hubble to study space?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "66",
+    "title": "From Track to Triumph: Nike's Humble Start",
+    "story": "Laces tied and ready to run, Phil Knight had no idea his passion for athletics would change the world. In 1964, this University of Oregon track star teamed up with his coach, Bill Bowerman. Together on January 25, they founded Blue Ribbon Sports in Oregon. This small company would later become the global giant we know as Nike.",
+    "activity_question": "What was Nike's original name when it was founded?",
+    "activity_choices": [
+      "Blue Ribbon Sports",
+      "Oregon Athletics",
+      "Knight & Bowerman Co.",
+      "Track Star Shoes"
+    ],
+    "activity_answer": "Blue Ribbon Sports",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "Nike's famous 'swoosh' logo was designed by a student for just $35!",
+    "optional_type": "bonus_fact",
+    "score": 80,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "183",
+    "title": "Michael Jordan's Slam Dunk Milestone",
+    "story": "Swish! The crowd roared as Michael Jordan sank the shot that marked his 10,000th NBA point. On January 25, 1989, the basketball superstar reached this incredible milestone during his fifth season with the Chicago Bulls. Jordan's lightning-fast moves and gravity-defying leaps had already made him a fan favorite. This achievement proved he was on his way to becoming one of the greatest players in basketball history.",
+    "activity_question": "In which season of Jordan's NBA career did he score his 10,000th point?",
+    "activity_choices": [
+      "Third season",
+      "Fourth season",
+      "Fifth season",
+      "Sixth season"
+    ],
+    "activity_answer": "Fifth season",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What team was Michael Jordan playing for when he reached this milestone?",
+    "score": 90,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "165",
+    "title": "Wilt's Rookie Rampage on the Court",
+    "story": "Swoosh! The basketball sailed through the hoop again and again. On January 25, 1960, Wilt Chamberlain was unstoppable. Playing for the Philadelphia Warriors, the towering rookie amazed fans by scoring an incredible 58 points in a single game. The Warriors defeated the Detroit Pistons 127-117 in Bethlehem, Pennsylvania. Chamberlain's performance set a new record for the most points scored by a first-year player in NBA history.",
+    "activity_question": "What team did Wilt Chamberlain play for when he set this rookie scoring record?",
+    "activity_choices": [
+      "Philadelphia Warriors",
+      "Detroit Pistons",
+      "Bethlehem Ballers",
+      "Pennsylvania Punchers"
+    ],
+    "activity_answer": "Philadelphia Warriors",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think other players felt competing against such a talented rookie?",
+    "score": 90,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "186",
+    "title": "Brett Hull's Lightning-Fast Goal Streak",
+    "story": "Hockey fans were buzzing on January 25, 1991. Brett Hull, the St. Louis Blues' star right wing, lit up the ice in Detroit. He scored twice, helping his team crush the Red Wings 9-4. But that wasn't the real excitement. Those two goals pushed Hull to an incredible 50 goals in just 49 games!",
+    "activity_question": "What milestone did Brett Hull achieve in this game?",
+    "activity_choices": [
+      "50 goals in 49 games",
+      "100 points in a season",
+      "Most goals in Blues history",
+      "Fastest hat trick ever"
+    ],
+    "activity_answer": "50 goals in 49 games",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Hull became only the third player in NHL history to score 50 goals in fewer than 50 games.",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "182",
+    "title": "Mario Lemieux's Unstoppable Streak",
+    "story": "Hockey superstar Mario Lemieux was on fire! In 1989, he set an incredible NHL record by scoring points in 14 games in a row. On January 25, Lemieux led his Pittsburgh Penguins to victory against Winnipeg. He netted a goal and helped his teammates score three more times. This amazing performance sealed his place in hockey history. Lemieux's record stood strong for a whole decade, showing just how talented he truly was.",
+    "activity_question": "What did Mario Lemieux achieve in 14 consecutive games?",
+    "activity_choices": [
+      "Scoring points",
+      "Winning matches",
+      "Blocking shots",
+      "Eating hot dogs"
+    ],
+    "activity_answer": "Scoring points",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How long did Lemieux's record last before someone broke it?",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "122",
+    "title": "Rowing Queens Conquer the Pacific",
+    "story": "Four fearless women made waves in 2016! On January 25, a British rowing team became ocean-crossing champions. These brave ladies were the first all-female crew to row across the vast Pacific. They journeyed from San Francisco to Cairns, battling wind and waves for an incredible 257 days. Their epic adventure proved that with teamwork and determination, even the mightiest oceans can be conquered.",
+    "activity_question": "What ocean did the British rowing team cross?",
+    "activity_choices": [
+      "Pacific",
+      "Atlantic",
+      "Indian",
+      "Arctic"
+    ],
+    "activity_answer": "Pacific",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think the team stayed motivated during their long journey?",
+    "optional_type": "follow_up_question",
+    "score": 90,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "33",
+    "title": "Kids Plant Seeds of Change in Jerusalem",
+    "story": "A group of children sparked a green revolution in Jerusalem. In 1910, on January 25, these young visionaries came up with a brilliant idea: to plant trees all around their city. Their enthusiasm caught on quickly, inspiring adults to join in. Soon, the barren hills surrounding Jerusalem began to transform into lush, green spaces. This simple act of planting trees not only beautified the area but also helped improve the environment for generations to come.",
+    "activity_question": "What did the children suggest doing in Jerusalem?",
+    "activity_choices": [
+      "Planting trees",
+      "Building playgrounds",
+      "Painting murals",
+      "Cleaning streets"
+    ],
+    "activity_answer": "Planting trees",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think planting trees can help a city?",
+    "score": 90,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "250",
+    "title": "The Sleepy Scientist's Big Discovery",
+    "story": "A baby boy named Donalee Tabern opened his eyes for the first time in Bowling Green, Ohio on January 25, 1900. Little did anyone know, he'd grow up to help millions close their eyes safely! Tabern became a brilliant scientist and inventor. His most famous creation? Pentothal, a medicine that became the world's most widely used anesthetic. Thanks to Tabern's work, doctors could help patients sleep peacefully during surgeries.",
+    "activity_question": "What was Donalee Tabern's most famous invention?",
+    "activity_choices": [
+      "Pentothal",
+      "Aspirin",
+      "Penicillin",
+      "Sleeping pills"
+    ],
+    "activity_answer": "Pentothal",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think anesthetics are important for surgeries?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "228",
+    "title": "The Pearl Pioneer's Shining Legacy",
+    "story": "A tiny grain of sand became a gleaming treasure, thanks to Kōkichi Mikimoto. Born in Toba, Japan in 1858, Mikimoto grew up to revolutionize the pearl industry. On January 25, we celebrate the birthday of this clever inventor who cracked the code of culturing pearls. His discovery transformed these rare gems from ocean secrets into beautiful jewelry accessible to many, leaving a lasting mark on both fashion and science.",
+    "activity_question": "What did Kōkichi Mikimoto invent?",
+    "activity_choices": [
+      "Cultured pearls",
+      "Pearl necklaces",
+      "Oyster farms",
+      "Underwater cameras"
+    ],
+    "activity_answer": "Cultured pearls",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think Mikimoto's invention changed the jewelry industry?",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "58",
+    "title": "Tick Tock: The Super-Precise Atomic Clock",
+    "story": "Scientists at Columbia University made a breakthrough in timekeeping. They created an atomic clock so accurate it would only lose one second in 300 years! This amazing invention happened in 1955 on January 25. Atomic clocks use the vibrations of atoms to measure time with incredible precision. They help with GPS, internet connections, and even space exploration.",
+    "activity_question": "What did the Columbia University scientists develop?",
+    "activity_choices": [
+      "An atomic clock",
+      "A space rocket",
+      "A new computer",
+      "A time machine"
+    ],
+    "activity_answer": "An atomic clock",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you think of ways super-accurate time might be important in your daily life?",
+    "score": 82,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "98",
+    "title": "Moon-Mapping Mission Takes Flight",
+    "story": "Blast off! On January 25, 1994, a small but mighty space probe named Clementine rocketed into the sky. Its mission? To map the Moon like never before. Launched from California, this robotic explorer carried special cameras to take detailed pictures of our lunar neighbor. Clementine's journey marked an exciting new chapter in space exploration, helping scientists learn more about the Moon's surface and what lies beneath.",
+    "activity_question": "What was Clementine's main mission?",
+    "activity_choices": [
+      "To map the Moon",
+      "To visit Mars",
+      "To study the Sun",
+      "To collect Moon rocks"
+    ],
+    "activity_answer": "To map the Moon",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think scientists want to map the Moon?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "82",
+    "title": "Space Eyes: A New Way to See Stars",
+    "story": "Zoom! A special telescope blasted off into space on January 25, 1983. This wasn't just any telescope - it could see heat instead of light! Called an infrared telescope, it circled Earth from pole to pole, giving scientists a whole new view of the universe. It spotted cool stars, dusty galaxies, and even helped find planets outside our solar system.",
+    "activity_question": "What kind of telescope was launched into space?",
+    "activity_choices": [
+      "An infrared telescope",
+      "A regular telescope",
+      "A microscope",
+      "A kaleidoscope"
+    ],
+    "activity_answer": "An infrared telescope",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How is an infrared telescope different from a regular telescope?",
+    "score": 82,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "56",
+    "title": "Lightning on Ice: Yuri Sergejev's Speedy Skate",
+    "story": "Blades flashed and ice flew as Yuri Sergejev zoomed across the rink. The Russian speed skater pushed his limits, racing to set a new world record. On January 25, 1953, Sergejev's determination paid off. He completed the 500-meter race in a blazing 40.9 seconds, faster than anyone before him. His incredible feat showed what humans could achieve with practice, skill, and a dash of courage.",
+    "activity_question": "What distance did Yuri Sergejev skate for his world record?",
+    "activity_choices": [
+      "500 meters",
+      "100 meters",
+      "1000 meters",
+      "A full mile"
+    ],
+    "activity_answer": "500 meters",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What sport do you think requires the most speed?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "173",
+    "title": "A Heart-Stopping Medical Breakthrough",
+    "story": "Imagine having two hearts beating in your chest! In 1974, Dr. Christiaan Barnard made this a reality. On January 25, he performed the first heterotopic heart transplant. This groundbreaking surgery added a donor heart alongside the patient's original heart. It was a huge leap forward in medical science, offering hope to those with severe heart problems.",
+    "activity_question": "What type of heart transplant did Dr. Barnard perform?",
+    "activity_choices": [
+      "Heterotopic heart transplant",
+      "Homogeneous heart transplant",
+      "Holographic heart transplant",
+      "Hydraulic heart transplant"
+    ],
+    "activity_answer": "Heterotopic heart transplant",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why might keeping the original heart be helpful in some cases?",
+    "score": 82,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "47",
+    "title": "A Splash of Health in Grand Rapids",
+    "story": "Smiles got brighter in Grand Rapids, Michigan! In 1945, this city made a big splash by becoming the first in the United States to add fluoride to its water supply. On January 25, officials turned on the taps, starting a new era in dental health. This simple change aimed to fight tooth decay and give everyone stronger, healthier teeth.",
+    "activity_question": "What did Grand Rapids add to its water supply?",
+    "activity_choices": [
+      "Fluoride",
+      "Chlorine",
+      "Vitamins",
+      "Bubbles"
+    ],
+    "activity_answer": "Fluoride",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think adding fluoride to water helps protect teeth?",
+    "score": 65,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "142",
+    "title": "Cinderella Sings on Stage",
+    "story": "Fairy tales came to life through music in 1817! On January 25, composer Gioachino Rossini's opera La Cenerentola debuted at Rome's Teatro Valle. This magical show retold the beloved Cinderella story with beautiful singing instead of spoken words. Audiences were enchanted by the tale of a kind girl, her mean stepsisters, and a prince searching for true love.",
+    "activity_question": "What was the name of Rossini's opera that premiered?",
+    "activity_choices": [
+      "La Cenerentola",
+      "Snow White",
+      "Sleeping Beauty",
+      "The Little Mermaid"
+    ],
+    "activity_answer": "La Cenerentola",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Do you know what La Cenerentola means in English?",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "147",
+    "title": "A Royal Wedding's Musical Surprise",
+    "story": "Trumpets blared and guests gasped as a new song filled the air. It was 1858, and Princess Victoria of England was marrying Prussia's Crown Prince. The melody? Felix Mendelssohn's 'Wedding March,' played for the very first time on January 25. This beautiful piece quickly became a wedding tradition, still loved by couples on their special day.",
+    "activity_question": "What song was played for the first time at the royal wedding?",
+    "activity_choices": [
+      "Wedding March",
+      "Here Comes the Bride",
+      "Royal Fanfare",
+      "Princess Waltz"
+    ],
+    "activity_answer": "Wedding March",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Do you think the 'Wedding March' is still popular at weddings today?",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "34",
+    "title": "Hello? Can You Hear Me Now?",
+    "story": "Ring, ring! Alexander Graham Bell made history in 1915. On January 25, he placed the first coast-to-coast phone call in the United States. Bell spoke from New York City to his assistant Thomas Watson in San Francisco. This amazing feat happened during a big fair called the Panama-Pacific International Exposition. It marked the start of transcontinental telephone service, connecting people across America like never before.",
+    "activity_question": "Who did Alexander Graham Bell call in San Francisco?",
+    "activity_choices": [
+      "Thomas Watson",
+      "Thomas Edison",
+      "Alexander Hamilton",
+      "His pet parrot"
+    ],
+    "activity_answer": "Thomas Watson",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think people communicated across long distances before telephones?",
+    "score": 65,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "20",
+    "title": "Fizzy Fun: The Soda Fountain's Birth",
+    "story": "Bubbles, flavors, and icy cold drinks! In 1870, Gustavus Dows sparked a refreshing revolution when he patented the soda fountain on January 25. This clever invention mixed carbonated water with sweet syrups, creating delicious fizzy drinks that would soon become a favorite treat in drugstores and ice cream parlors across America.",
+    "activity_question": "What did Gustavus Dows patent?",
+    "activity_choices": [
+      "The soda fountain",
+      "The ice cream maker",
+      "The milkshake blender",
+      "The root beer barrel"
+    ],
+    "activity_answer": "The soda fountain",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What two main ingredients did soda fountains mix to create fizzy drinks?",
+    "score": 65,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "106",
+    "title": "Broncos Stampede to Super Bowl Victory",
+    "story": "Touchdown! The Denver Broncos charged to victory in Super Bowl XXXII on January 25, 1998. In a thrilling game at Qualcomm Stadium in San Diego, the Broncos outplayed the Green Bay Packers with a score of 31-24. The star of the show? Running back Terrell Davis, who earned the coveted Most Valuable Player award for his outstanding performance on the field.",
+    "activity_question": "Who was named Most Valuable Player in this Super Bowl?",
+    "activity_choices": [
+      "Terrell Davis",
+      "John Elway",
+      "Brett Favre",
+      "The Bronco mascot"
+    ],
+    "activity_answer": "Terrell Davis",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What position did the MVP Terrell Davis play for the Denver Broncos?",
+    "score": 85,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "180",
+    "title": "Giants Triumph in Super Bowl Showdown",
+    "story": "Touchdown excitement filled the air as the New York Giants clashed with the Denver Broncos in Super Bowl XXI. On January 25, 1987, fans packed the Rose Bowl in Pasadena, California to witness an epic battle. The Giants emerged victorious with a score of 39-20, led by their star quarterback Phil Simms. His stellar performance earned him the coveted Most Valuable Player award, cementing his place in football history.",
+    "activity_question": "Where was Super Bowl XXI played?",
+    "activity_choices": [
+      "Rose Bowl",
+      "Giants Stadium",
+      "Mile High Stadium",
+      "Candlestick Park"
+    ],
+    "activity_answer": "Rose Bowl",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What position did MVP Phil Simms play for the New York Giants?",
+    "score": 80,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "80",
+    "title": "Raiders Triumph in Super Bowl XV",
+    "story": "Touchdown excitement filled the Louisiana Superdome as the Oakland Raiders faced off against the Philadelphia Eagles in Super Bowl XV. On January 25, 1981, football fans watched in awe as the Raiders dominated the game. Led by their star quarterback Jim Plunkett, Oakland secured a decisive 27-10 victory. Plunkett's stellar performance earned him the coveted Most Valuable Player award, cementing his place in football history.",
+    "activity_question": "Who was named Most Valuable Player of Super Bowl XV?",
+    "activity_choices": [
+      "Jim Plunkett",
+      "Oakland Raiders",
+      "Philadelphia Eagles",
+      "Louisiana Superdome"
+    ],
+    "activity_answer": "Jim Plunkett",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The Superdome in New Orleans is one of the largest indoor sports arenas in the United States.",
+    "score": 80,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "365",
+    "title": "Hockey Legend Chris Chelios Skates into Life",
+    "story": "Ice skates ready! Chris Chelios, a future hockey superstar, was born in Chicago on January 25, 1962. He grew up to become one of the best defensemen ever, winning three Stanley Cups and three James Norris Trophies. Chelios played for 26 amazing seasons, showing incredible skill and toughness on the ice. His talent earned him spots in both the Hockey Hall of Fame and the International Ice Hockey Federation Hall of Fame.",
+    "activity_question": "What position did Chris Chelios play in hockey?",
+    "activity_choices": [
+      "Goalie",
+      "Forward",
+      "Defenseman",
+      "Coach"
+    ],
+    "activity_answer": "Defenseman",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How many Stanley Cups did Chris Chelios win in his career?",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "322",
+    "title": "Soccer Legend Eusébio: The Black Panther Roars",
+    "story": "A soccer star was born on January 25, 1942. Eusébio, nicknamed 'The Black Panther' for his speed and power, would become one of Portugal's greatest players. He dazzled fans with his incredible scoring ability, netting 317 goals in 301 games for Benfica. Eusébio's talent shone brightest at the 1966 FIFA World Cup, where he finished as the top goalscorer.",
+    "activity_question": "What was Eusébio's nickname?",
+    "activity_choices": [
+      "The Black Panther",
+      "The Golden Boot",
+      "The Portuguese Pele",
+      "The Scoring Machine"
+    ],
+    "activity_answer": "The Black Panther",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Eusébio was born in Mozambique, which was a Portuguese colony at the time.",
+    "score": 80,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "331",
+    "title": "Ángel Nieto: Spain's Motorcycle Racing Legend",
+    "story": "Vroom! The roar of motorcycles filled the air as Ángel Nieto zoomed into the world on January 25, 1947. Born in Zamora, Spain, Nieto would become a racing superstar. He won an amazing 13 World Championships in different motorcycle classes and raced to victory in 90 Grand Prix events. Nieto's skill and determination made him a true hero of Spanish motorsports.",
+    "activity_question": "In which country was Ángel Nieto born?",
+    "activity_choices": [
+      "Spain",
+      "Italy",
+      "France",
+      "Portugal"
+    ],
+    "activity_answer": "Spain",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How many World Championships did Ángel Nieto win in his career?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "336",
+    "title": "Sheila Johnson: Trailblazing Billionaire",
+    "story": "Sheila Johnson blazed a trail to success! Born in 1949 on January 25, she became the first African American woman to reach billionaire status. Johnson's business savvy led her to co-found BET (Black Entertainment Television) and later create Salamander Hotels and Resorts. Her journey from McKeesport, Pennsylvania to the top of the business world inspires young entrepreneurs everywhere.",
+    "activity_question": "What did Sheila Johnson co-found?",
+    "activity_choices": [
+      "BET (Black Entertainment Television)",
+      "Salamander Hotels and Resorts",
+      "McKeesport Business Association",
+      "Billionaire Club for Women"
+    ],
+    "activity_answer": "BET (Black Entertainment Television)",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another successful business started by Sheila Johnson?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "407",
+    "title": "A Star is Born: Ariana DeBose",
+    "story": "Lights, camera, action! On January 25, 1991, a future star took her first bow. Ariana DeBose, destined to dazzle in West Side Story, was born in North Carolina. This talented American actress and singer would grow up to captivate audiences with her powerful performances on stage and screen.",
+    "activity_question": "What famous movie is Ariana DeBose known for?",
+    "activity_choices": [
+      "West Side Story",
+      "The Sound of Music",
+      "Grease",
+      "Singin' in the Rain"
+    ],
+    "activity_answer": "West Side Story",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another famous musical movie?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "279",
+    "title": "The Brain Doctor Who Changed Lives",
+    "story": "A brilliant scientist was born in Uppsala, Sweden in 1923. Arvid Carlsson grew up to become a brain doctor who made an amazing discovery. He found out how a chemical called dopamine could help people with Parkinson's disease. His work was so important that in 2000, he won a Nobel Prize! Carlsson's research on January 25 has helped many people live better lives.",
+    "activity_question": "What disease did Arvid Carlsson's work help treat?",
+    "activity_choices": [
+      "Parkinson's disease",
+      "Heart disease",
+      "Diabetes",
+      "Common cold"
+    ],
+    "activity_answer": "Parkinson's disease",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Do you know what a Nobel Prize is given for?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "314",
+    "title": "Space Captain of Anime Born",
+    "story": "Blast off into the world of anime! On January 25, 1938, a star was born in Kurume, Japan. Leiji Matsumoto entered the galaxy, destined to become a legendary creator of Japanese animation. His imagination would launch spaceships, pirates, and grand adventures across the cosmos, inspiring generations of fans to dream big and explore the universe.",
+    "activity_question": "Where was Leiji Matsumoto born?",
+    "activity_choices": [
+      "Kurume, Japan",
+      "Tokyo, Japan",
+      "Osaka, Japan",
+      "Space Station Yamato"
+    ],
+    "activity_answer": "Kurume, Japan",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Matsumoto's most famous work, Space Battleship Yamato, features a spaceship built from an old Earth battleship.",
+    "score": 80,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "90",
+    "title": "Fierce Winds Sweep Across Europe",
+    "story": "Howling winds roared across northwestern Europe on January 25, 1990. This powerful storm, known as the Burns' Day windstorm, unleashed its fury with incredible force. Trees toppled, roofs flew off buildings, and transportation ground to a halt. Despite the chaos, communities banded together, helping neighbors and showing remarkable resilience in the face of nature's might.",
+    "activity_question": "What was the name given to this powerful windstorm?",
+    "activity_choices": [
+      "The Burns' Day windstorm",
+      "The January Gale",
+      "The European Cyclone",
+      "The Roaring Ninety"
+    ],
+    "activity_answer": "The Burns' Day windstorm",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think people prepared for such a strong storm?",
+    "score": 90,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "121",
+    "title": "Cyclone Oswald Unleashes Watery Chaos",
+    "story": "Roaring winds and torrential rain pounded Queensland, Australia as Tropical Cyclone Oswald crashed ashore on January 25, 2013. The powerful storm triggered massive flooding, turning streets into rivers and forcing many to flee their homes. Despite the destruction, Australians banded together, rescuing neighbors and rebuilding their communities in the cyclone's wake.",
+    "activity_question": "What natural disaster hit Queensland, Australia in 2013?",
+    "activity_choices": [
+      "Tropical Cyclone Oswald",
+      "Earthquake",
+      "Volcanic eruption",
+      "Tsunami"
+    ],
+    "activity_answer": "Tropical Cyclone Oswald",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think people prepare for cyclones in areas where they often occur?",
+    "score": 75,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "129",
+    "title": "Nature's Fury Strikes Brazil",
+    "story": "Torrential rains pounded Brazil's Minas Gerais state in 2020, unleashing nature's fury. On January 25, powerful storms triggered devastating landslides and floods. The relentless downpour turned streets into rivers and hillsides into muddy avalanches. Communities rallied together, rescuing neighbors and providing shelter. This event reminded everyone about the importance of disaster preparedness and environmental protection.",
+    "activity_question": "What natural disasters occurred in Brazil's Minas Gerais state?",
+    "activity_choices": [
+      "Landslides and floods",
+      "Earthquakes and tsunamis",
+      "Volcanoes and hurricanes",
+      "Tornadoes and blizzards"
+    ],
+    "activity_answer": "Landslides and floods",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How can communities prepare for extreme weather events?",
+    "score": 65,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "159",
+    "title": "Lightning-Fast Victory in the Ring",
+    "story": "Pow! The crowd gasped as Joe Louis landed a knockout punch on John Henry Lewis. This lightning-fast boxing match took place at Madison Square Garden in New York City in 1939. It was only the second time two Black boxers faced off for the World Heavyweight Championship. Louis claimed victory in just one round on January 25, showcasing his incredible skill and power.",
+    "activity_question": "Where did this famous boxing match take place?",
+    "activity_choices": [
+      "Madison Square Garden",
+      "Yankee Stadium",
+      "Central Park",
+      "The White House"
+    ],
+    "activity_answer": "Madison Square Garden",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think this match was so important for Black athletes in boxing?",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "75",
+    "title": "Japan's Mountain-Piercing Marvel",
+    "story": "Deep beneath Japan's mountains, a remarkable feat of engineering was achieved. In 1979, workers finally broke through the last rock of the Oshimizu railroad tunnel. This massive project carved a path over 22 kilometers long through the heart of central Honshu, Japan's largest island. On January 25, cheers echoed as the two sides met, connecting distant regions and showcasing human determination.",
+    "activity_question": "What was completed in Japan on January 25, 1979?",
+    "activity_choices": [
+      "The Oshimizu railroad tunnel",
+      "A new bullet train line",
+      "The world's tallest skyscraper",
+      "An underwater research station"
+    ],
+    "activity_answer": "The Oshimizu railroad tunnel",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think building such a long tunnel through mountains would be challenging?",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Cannons Roar on Greate Gunn Hill",
+    "story": "Boom! Cannons thundered as American rebels fought for freedom in 1777. On January 25, patriots hauled a heavy cannon up a steep hill in the Bronx, New York. This brave act gave new meaning to the area's old name: Greate Gunn Hill. The road there was later renamed Gun Hill Road, forever remembering this bold stand against the British.",
+    "activity_question": "What did American rebels drag up the hill?",
+    "activity_choices": [
+      "A cannon",
+      "A flag",
+      "A horse",
+      "A wagon"
+    ],
+    "activity_answer": "A cannon",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think the rebels chose a hill to place their cannon?",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "136",
+    "title": "A Young King's Unexpected Rise",
+    "story": "Imagine being crowned king at just 14 years old! That's exactly what happened to Edward III in 1327. On January 25, he became King of England after a dramatic turn of events. His mother, Isabella of France, and her partner Roger Mortimer had removed Edward's father from power. Young Edward faced a huge challenge, but he was determined to rule wisely and make his mark on history.",
+    "activity_question": "How old was Edward III when he became king?",
+    "activity_choices": [
+      "14 years old",
+      "10 years old",
+      "18 years old",
+      "21 years old"
+    ],
+    "activity_answer": "14 years old",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What qualities do you think a young ruler would need to be successful?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "137",
+    "title": "Samurai Showdown: The Battle of Mikatagahara",
+    "story": "Swords clashed and armor clanked as two legendary samurai faced off in feudal Japan. On January 25, 1573, Takeda Shingen and Tokugawa Ieyasu led their armies into the fierce Battle of Mikatagahara. Shingen's clever tactics and powerful cavalry overwhelmed Ieyasu's forces, securing a decisive victory. This clash of warlords shaped the future of Japan's leadership.",
+    "activity_question": "Who won the Battle of Mikatagahara?",
+    "activity_choices": [
+      "Takeda Shingen",
+      "Tokugawa Ieyasu",
+      "Emperor of Japan",
+      "Ninja warriors"
+    ],
+    "activity_answer": "Takeda Shingen",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What weapons do you think samurai used in battle?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "13",
+    "title": "A School for Future Inventors",
+    "story": "Imagine a place where young minds could learn to build amazing things! In 1825, Rensselaer Polytechnic opened its doors in Troy, New York. It was the first engineering college in the United States. On January 25, students began learning how to design bridges, machines, and solve tricky problems. This special school helped shape the future of technology in America.",
+    "activity_question": "What type of college was Rensselaer Polytechnic?",
+    "activity_choices": [
+      "An engineering college",
+      "A medical school",
+      "An art academy",
+      "A cooking institute"
+    ],
+    "activity_answer": "An engineering college",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What kinds of things do you think engineering students might learn to design?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "143",
+    "title": "Jefferson's Dream School Takes Shape",
+    "story": "Quills scratched on parchment as the University of Virginia was born in 1819. On January 25, the Commonwealth of Virginia officially chartered this new place of learning. Thomas Jefferson, a founding father and former president, helped create the school. He wanted a university that would teach practical skills alongside classic subjects.",
+    "activity_question": "Who helped create the University of Virginia?",
+    "activity_choices": [
+      "Thomas Jefferson",
+      "George Washington",
+      "Benjamin Franklin",
+      "John Adams"
+    ],
+    "activity_answer": "Thomas Jefferson",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What was Jefferson's role in American history before founding the university?",
+    "score": 65,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "152",
+    "title": "A Bold Step for Civil Rights",
+    "story": "Timothy Thomas Fortune took a brave stand for equality on January 25, 1890. He founded the National Afro-American League in Chicago, one of America's earliest civil rights organizations. Fortune's group aimed to fight unfair treatment and push for better lives for Black Americans. Their work laid important groundwork for future civil rights movements.",
+    "activity_question": "What did Timothy Thomas Fortune found in 1890?",
+    "activity_choices": [
+      "The National Afro-American League",
+      "The Chicago Civil Rights Union",
+      "The American Equality Association",
+      "The Black Citizens' Alliance"
+    ],
+    "activity_answer": "The National Afro-American League",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think organizations like this were important for civil rights?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "153",
+    "title": "Knockout Victory for the Gentleman Boxer",
+    "story": "Pow! James J. Corbett, known as 'Gentleman Jim,' packed a powerful punch on January 25, 1894. The world heavyweight boxing champion defended his title in Jacksonville, Florida. Corbett faced English challenger Charley Mitchell. The fight was short but intense. In just three rounds, Corbett knocked out Mitchell, keeping his championship belt.",
+    "activity_question": "What was James J. Corbett's nickname?",
+    "activity_choices": [
+      "Gentleman Jim",
+      "Mighty Mitch",
+      "Knockout King",
+      "Florida Fury"
+    ],
+    "activity_answer": "Gentleman Jim",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think a boxer might be called 'Gentleman Jim'?",
+    "score": 65,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "163",
+    "title": "Cricket Legend's First Test Match",
+    "story": "Howzat! On January 25, 1952, a future cricket superstar stepped onto the field for his first big game. Richie Benaud made his Test debut for Australia against the West Indies at the Sydney Cricket Ground. Little did anyone know, this talented player would go on to captain his country in many matches and later become a beloved sports broadcaster.",
+    "activity_question": "Where did Richie Benaud make his Test cricket debut?",
+    "activity_choices": [
+      "Sydney Cricket Ground",
+      "Melbourne Cricket Ground",
+      "Lords Cricket Ground",
+      "Banana Cricket Ground"
+    ],
+    "activity_answer": "Sydney Cricket Ground",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What other career did Richie Benaud have after playing cricket?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "190",
+    "title": "Royal Hip Hop: Queen Mum's Surprise Surgery",
+    "story": "Ouch! In 1998, Britain's beloved Queen Mother faced an unexpected challenge. At the impressive age of 97, she needed an emergency hip replacement on January 25. Despite her age, the Queen Mum showed incredible strength. She bounced back quickly, amazing doctors with her speedy recovery. This royal grandmother proved that it's never too late to get a new spring in your step!",
+    "activity_question": "How old was the Queen Mother when she had her hip replacement?",
+    "activity_choices": [
+      "97",
+      "87",
+      "77",
+      "107"
+    ],
+    "activity_answer": "97",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why might a hip replacement be necessary for older people?",
+    "score": 65,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "205",
+    "title": "The Father of Modern Chemistry",
+    "story": "A scientific superstar was born on January 25, 1627. Robert Boyle, known as the Father of Modern Chemistry, entered the world in Lismore, Ireland. This curious kid grew up to shake up science! Boyle's experiments with air pressure and gases led to big discoveries. He showed that air has weight and takes up space, ideas that changed how we understand our world.",
+    "activity_question": "What is Robert Boyle known as?",
+    "activity_choices": [
+      "The Father of Modern Chemistry",
+      "The King of Ireland",
+      "The Air Pressure Pioneer",
+      "The Curious Kid"
+    ],
+    "activity_answer": "The Father of Modern Chemistry",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Boyle's Law, named after Robert, describes how gas pressure and volume are related.",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "210",
+    "title": "A Math Genius Is Born",
+    "story": "A brilliant mind entered the world on January 25, 1736. Joseph-Louis Lagrange, born in Turin, Italy, would grow up to become a math superstar. He loved solving puzzles with numbers and figuring out how planets move in space. Lagrange's clever ideas in number theory and celestial mechanics still help scientists today!",
+    "activity_question": "What two areas of study did Lagrange excel in?",
+    "activity_choices": [
+      "Number theory and celestial mechanics",
+      "Art and music",
+      "Cooking and gardening",
+      "Sports and dance"
+    ],
+    "activity_answer": "Number theory and celestial mechanics",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you think of a job today that might use Lagrange's ideas about how planets move?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "240",
+    "title": "A Poet's Pen for Young Hearts",
+    "story": "Imagine a world where words dance and stories come alive! On January 25, 1885, Kitahara Hakushū was born in Nankan, Japan. This talented writer grew up to become a beloved poet and children's author. Hakushū had a special gift for crafting verses that captured the wonder of childhood and the beauty of nature. His playful poems and tales continue to inspire young readers in Japan to this day.",
+    "activity_question": "What two types of writing was Kitahara Hakushū known for?",
+    "activity_choices": [
+      "Poetry and children's stories",
+      "Novels and plays",
+      "Newspapers and magazines",
+      "Cookbooks and travel guides"
+    ],
+    "activity_answer": "Poetry and children's stories",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you think of a poem or story you've read that made you feel happy or excited?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "246",
+    "title": "Florence Mills: The Queen of Happiness",
+    "story": "Florence Mills burst onto the stage with a dazzling smile in 1896. Born on January 25 in Washington, D.C., she grew up to become a shining star of American entertainment. Known as 'the Queen of Happiness', Florence wowed audiences with her singing, dancing, and comedy. Her joyful performances lit up cabarets and brought laughter to many.",
+    "activity_question": "What was Florence Mills' nickname?",
+    "activity_choices": [
+      "The Queen of Happiness",
+      "The Cabaret Princess",
+      "The Dancing Diva",
+      "The Smiling Songbird"
+    ],
+    "activity_answer": "The Queen of Happiness",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What three talents made Florence Mills famous?",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "288",
+    "title": "The Birth of a Bossa Nova Legend",
+    "story": "A musical genius entered the world in Rio de Janeiro, Brazil. Antônio Carlos Jobim, later known as Tom Jobim, was born in 1927 on January 25. This talented singer-songwriter would grow up to create the smooth, jazzy sounds of bossa nova music. Jobim's famous album Getz/Gilberto helped bring Brazilian rhythms to listeners around the globe.",
+    "activity_question": "What type of music did Antônio Carlos Jobim help create?",
+    "activity_choices": [
+      "Bossa nova",
+      "Rock and roll",
+      "Classical",
+      "Country"
+    ],
+    "activity_answer": "Bossa nova",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Bossa nova means 'new trend' or 'new wave' in Portuguese.",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  }
+]

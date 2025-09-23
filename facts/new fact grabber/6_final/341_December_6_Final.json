@@ -1,0 +1,1242 @@
+[
+  {
+    "id": "901",
+    "title": "St. Nicholas: The Original Gift-Giver",
+    "story": "Children across Europe wake up extra early on December 6 for St. Nicholas Day! They rush to check their shoes, which they left by the door the night before. If they've been good, St. Nicholas has filled them with candy, coins, and small toys. If they've been naughty, they might find coal or sticks instead. This special day honors the real Saint Nicholas, a generous man who secretly gave gifts to poor families long ago. Today, kids in countries like Germany, Netherlands, and Poland celebrate by singing songs, eating special cookies, and sharing treats with friends.",
+    "activity_question": "What do children leave by the door on St. Nicholas Day?",
+    "activity_choices": [
+      "Their shoes",
+      "Their backpacks",
+      "Their pillows",
+      "Their homework"
+    ],
+    "activity_answer": "Their shoes",
+    "bonus_fact": "Saint Nicholas is the inspiration for the modern Santa Claus we know today!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "902",
+    "title": "Finland's Freedom Day",
+    "story": "Every December 6, Finland celebrates its independence with a day full of pride and tradition! Finnish families light two blue and white candles in their windows to honor their country's colors. The President hosts a fancy reception where everyone dresses up and shakes hands for hours. Many people visit cemeteries to place candles on veterans' graves, creating a beautiful glow across the snowy landscape. It's a peaceful way to remember freedom.",
+    "activity_question": "What do Finnish families put in their windows on Independence Day?",
+    "activity_choices": [
+      "Two blue and white candles",
+      "Finnish flags",
+      "Pictures of the President",
+      "Snowflakes made of paper"
+    ],
+    "activity_answer": "Two blue and white candles",
+    "bonus_fact": "The President's handshake reception can last over 4 hours with thousands of guests!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "125",
+    "title": "Space Rocks: Asteroid Samples Return to Earth",
+    "story": "Zoom! A space capsule streaked across the sky, landing safely in Australia. It was Hayabusa-2, returning from an incredible journey. This Japanese spacecraft had visited an asteroid called Ryugu, scooped up rock samples, and brought them back to Earth. On December 6, 2020, scientists eagerly collected these precious space rocks - the first significant samples ever returned from an asteroid!",
+    "activity_question": "What was the name of the spacecraft that brought asteroid samples to Earth?",
+    "activity_choices": [
+      "Hayabusa-2",
+      "Apollo",
+      "Sputnik",
+      "Curiosity"
+    ],
+    "activity_answer": "Hayabusa-2",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think scientists were so excited to study these asteroid samples?",
+    "score": 95,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "116",
+    "title": "Cosmic Giant: A Supermassive Discovery",
+    "story": "Astronomers made a jaw-dropping discovery in 2017! They spotted a colossal black hole lurking in the far reaches of space. This cosmic giant is a whopping 800 times bigger than our Sun and sits an incredible 13 billion light-years away. Scientists shared their exciting find on December 6, announcing it in the journal Nature. It's the most distant supermassive black hole ever found, giving us a peek into the early universe!",
+    "activity_question": "How much bigger is the discovered black hole compared to our Sun?",
+    "activity_choices": [
+      "800 times bigger",
+      "13 billion times bigger",
+      "100 times bigger",
+      "As big as a galaxy"
+    ],
+    "activity_answer": "800 times bigger",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think scientists are excited about finding such distant objects in space?",
+    "optional_type": "follow_up_question",
+    "score": 95,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "111",
+    "title": "Water on Mars? NASA's Exciting Discovery",
+    "story": "Imagine finding water on another planet! In 2006, NASA shared amazing photos that hinted at just that. The Mars Global Surveyor, a spacecraft orbiting the Red Planet, captured images suggesting liquid water might exist on Mars. This discovery on December 6 thrilled scientists and space enthusiasts alike. It opened up new possibilities about life beyond Earth and future Mars exploration.",
+    "activity_question": "What did the Mars Global Surveyor's photos suggest the presence of on Mars?",
+    "activity_choices": [
+      "Liquid water",
+      "Ancient buildings",
+      "Alien life forms",
+      "Frozen volcanoes"
+    ],
+    "activity_answer": "Liquid water",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why is finding water on Mars so exciting for scientists?",
+    "score": 95,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "186",
+    "title": "Edison's Voice Machine Amazes All",
+    "story": "Imagine the shock when Thomas Edison walked into Scientific American's office with a strange device. On December 6, 1877, he cranked his new invention - the phonograph. Suddenly, a voice spoke from the machine: 'Good morning. How do you do? How do you like the phonograph?' Jaws dropped. For the first time ever, people heard recorded sound played back. Edison's creation would change music and communication forever.",
+    "activity_question": "What did Edison's phonograph say when he demonstrated it?",
+    "activity_choices": [
+      "Good morning. How do you do? How do you like the phonograph?",
+      "Hello, can you hear me?",
+      "This is Thomas Edison speaking.",
+      "Welcome to the future of sound!"
+    ],
+    "activity_answer": "Good morning. How do you do? How do you like the phonograph?",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think people reacted when they first heard a recorded voice?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "143",
+    "title": "Harriet Tubman's Brave Journey to Freedom",
+    "story": "Harriet Tubman took a daring step towards freedom on December 6, 1849. After escaping slavery once before, she bravely fled again - this time for good. Tubman left behind everything she knew in Maryland, following the North Star to guide her way. Her courage and determination would later inspire her to help many others escape through the Underground Railroad.",
+    "activity_question": "What did Harriet Tubman use to guide her way when she escaped?",
+    "activity_choices": [
+      "The North Star",
+      "A compass",
+      "A map",
+      "A friendly guide"
+    ],
+    "activity_answer": "The North Star",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think Harriet Tubman risked so much to escape slavery?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "113",
+    "title": "Ancient Dinosaur Ancestor Unearthed",
+    "story": "Paleontologists made a thrilling discovery in Tanzania on December 6, 2012. They unearthed a fossil of Nyasasaurus, an ancient reptile that lived a staggering 243 million years ago! This creature might be the earliest known dinosaur ancestor. About the size of a Labrador dog, Nyasasaurus roamed the Earth long before the famous T. rex. The find helps scientists understand how dinosaurs evolved over millions of years.",
+    "activity_question": "What kind of animal fossil was discovered in Tanzania?",
+    "activity_choices": [
+      "Nyasasaurus",
+      "Tyrannosaurus rex",
+      "Labrador dog",
+      "Woolly mammoth"
+    ],
+    "activity_answer": "Nyasasaurus",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How old was the Nyasasaurus fossil when it was discovered?",
+    "score": 92,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "181",
+    "title": "Derrick Henry's Unstoppable Run",
+    "story": "Derrick Henry thundered across the field like a freight train in 2018. The Tennessee Titans running back smashed records, racking up an incredible 238 yards and 4 touchdowns against the Jacksonville Jaguars on December 6. Henry's jaw-dropping 99-yard touchdown run tied the NFL record for the longest ever, matching a feat set by Dallas Cowboys legend Tony Dorsett.",
+    "activity_question": "What NFL record did Derrick Henry tie with his 99-yard touchdown run?",
+    "activity_choices": [
+      "Longest run in NFL history",
+      "Most touchdowns in a game",
+      "Most yards in a season",
+      "Fastest player on the field"
+    ],
+    "activity_answer": "Longest run in NFL history",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you imagine running the entire length of a football field without being tackled?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "64",
+    "title": "Rudolph Lights Up TV Screens",
+    "story": "Noses glowed and hearts warmed as 'Rudolph the Red-Nosed Reindeer' made its television debut in 1964. This beloved Christmas special brought the story of a misfit reindeer to life with charming stop-motion animation. Families gathered around their sets on December 6 to watch Rudolph's journey from outcast to hero. The show's catchy songs and endearing characters quickly made it a holiday tradition that continues to delight viewers today.",
+    "activity_question": "What type of animation was used in the Rudolph TV special?",
+    "activity_choices": [
+      "Stop-motion",
+      "Hand-drawn",
+      "Computer-generated",
+      "Claymation"
+    ],
+    "activity_answer": "Stop-motion",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name another character from the Rudolph TV special besides Rudolph?",
+    "score": 90,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "359",
+    "title": "Clay Comes to Life: Nick Park's Birth",
+    "story": "Lights, camera, clay-mation! On December 6, 1958, a creative genius was born in Preston, England. Nick Park, the brilliant mind behind Wallace and Gromit, entered the world ready to mold his imagination into reality. Little did anyone know that this baby boy would grow up to revolutionize stop-motion animation, bringing lovable characters to life one frame at a time.",
+    "activity_question": "What famous animated characters did Nick Park create?",
+    "activity_choices": [
+      "Wallace and Gromit",
+      "Mickey Mouse",
+      "SpongeBob SquarePants",
+      "Peppa Pig"
+    ],
+    "activity_answer": "Wallace and Gromit",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Have you ever tried making your own stop-motion animation? What would you create?",
+    "score": 90,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "15",
+    "title": "Freedom's Triumph: Slavery Abolished in America",
+    "story": "A historic victory for human rights unfolded in 1865. On December 6, the 13th Amendment to the U.S. Constitution was ratified, officially abolishing slavery across the nation. This momentous change marked a turning point, declaring that no person could be held as property. It was a crucial step towards equality, though the journey was far from over.",
+    "activity_question": "What did the 13th Amendment abolish?",
+    "activity_choices": [
+      "Slavery",
+      "Taxes",
+      "Voting",
+      "Schools"
+    ],
+    "activity_answer": "Slavery",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it took until 1865 for slavery to be abolished in the United States?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "131",
+    "title": "The Queen of the Skies Takes Final Bow",
+    "story": "The iconic Boeing 747, nicknamed 'Queen of the Skies', made its final appearance on December 6, 2022. After over half a century of production, the 1,574th jumbo jet rolled off the assembly line in Everett, Washington. This massive plane revolutionized air travel, making long-distance flights more affordable and connecting the world like never before.",
+    "activity_question": "What was the Boeing 747's nickname?",
+    "activity_choices": [
+      "Queen of the Skies",
+      "King of the Air",
+      "Flying Giant",
+      "Sky Ruler"
+    ],
+    "activity_answer": "Queen of the Skies",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The Boeing 747 is so big that 400 people can fit inside!",
+    "score": 65,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "122",
+    "title": "Luxembourg's Free Ride Revolution",
+    "story": "Hop on board! Luxembourg made a groundbreaking move in 2018. This tiny European country became the first nation to offer completely free public transport. On December 6, the government announced their plan to eliminate fares on trains, buses, and trams. This bold decision aimed to reduce traffic jams and help the environment. Now, everyone in Luxembourg can travel without worrying about ticket costs!",
+    "activity_question": "What type of transport did Luxembourg make free?",
+    "activity_choices": [
+      "Public transport",
+      "Private cars",
+      "Bicycles",
+      "Airplanes"
+    ],
+    "activity_answer": "Public transport",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think free public transport might help reduce traffic jams?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "57",
+    "title": "Rocket Mishap: A Fiery Setback",
+    "story": "Boom! The Vanguard rocket erupted in flames, dashing hopes of launching America's first satellite in 1957. On December 6, eager scientists watched their hard work go up in smoke. But this explosive setback didn't stop the space race. It fueled determination to reach for the stars and sparked improvements in rocket technology.",
+    "activity_question": "What happened to the Vanguard rocket?",
+    "activity_choices": [
+      "It exploded",
+      "It reached orbit",
+      "It landed safely",
+      "It disappeared"
+    ],
+    "activity_answer": "It exploded",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think scientists didn't give up after this failure?",
+    "score": 70,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "132",
+    "title": "Wind Power Makes a Splash",
+    "story": "Whoosh! A giant wind farm started spinning its blades in the ocean, bringing clean energy to American homes. South Fork Wind, located miles off the coast of Montauk, began supplying electricity on December 6, 2023. This massive project marks the first large-scale offshore wind farm in the United States. It's like a forest of towering turbines, harnessing the power of sea breezes to light up cities and towns.",
+    "activity_question": "Where is South Fork Wind located?",
+    "activity_choices": [
+      "In a forest",
+      "On a mountain",
+      "Off the coast of Montauk",
+      "In a desert"
+    ],
+    "activity_answer": "Off the coast of Montauk",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think offshore wind farms might affect sea life?",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "170",
+    "title": "Laughs Unleashed: Dumb & Dumber Hits Screens",
+    "story": "Giggles erupted across Los Angeles as 'Dumb & Dumber' made its hilarious debut on December 6, 1994. This wacky comedy, starring Jim Carrey and Jeff Daniels as two not-so-bright friends, had audiences rolling in the aisles. Directed by the Farrelly brothers, the film's zany humor and outrageous antics quickly became legendary in the world of comedy.",
+    "activity_question": "Who directed the movie 'Dumb & Dumber'?",
+    "activity_choices": [
+      "The Farrelly brothers",
+      "Jim Carrey",
+      "Jeff Daniels",
+      "The Giggle Guys"
+    ],
+    "activity_answer": "The Farrelly brothers",
+    "suitable_for_8_to_12_year_old": false,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "'Dumb & Dumber' became a huge hit, spawning sequels and cementing Jim Carrey's status as a comedy superstar.",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "271",
+    "title": "The Ice Cream King's Sweet Beginning",
+    "story": "Irv Robbins, the future ice cream mogul, took his first lick of life in Winnipeg, Manitoba on December 6, 1917. This Canadian-born entrepreneur would go on to co-found the famous Baskin-Robbins ice cream parlor chain, delighting taste buds across America with a rainbow of flavors. Robbins' sweet journey from baby to business tycoon proves that sometimes the best ideas start with a scoop of imagination!",
+    "activity_question": "Where was Irv Robbins born?",
+    "activity_choices": [
+      "Winnipeg, Manitoba",
+      "New York City",
+      "Los Angeles",
+      "Ice Cream Land"
+    ],
+    "activity_answer": "Winnipeg, Manitoba",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you guess how many flavors Baskin-Robbins is famous for offering?",
+    "score": 70,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "22",
+    "title": "Reaching New Heights: The Washington Monument",
+    "story": "A shiny aluminum cap crowned the Washington Monument in 1884, making it the world's tallest structure. On December 6, workers carefully placed this special top on the towering obelisk in Washington, D.C. The monument soared past the previous record-holder, Cologne Cathedral. This gleaming pyramid cap completed the tribute to America's first president.",
+    "activity_question": "What material was used for the capstone of the Washington Monument?",
+    "activity_choices": [
+      "Aluminum",
+      "Gold",
+      "Marble",
+      "Steel"
+    ],
+    "activity_answer": "Aluminum",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The Washington Monument stands at 555 feet tall, about as high as 55 elephants stacked on top of each other!",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "51",
+    "title": "Splash and Clash: Olympic Water Polo Drama",
+    "story": "Tensions boiled over in the pool during the 1956 Melbourne Olympics. As Soviet tanks rolled into Hungary, the two nations faced off in a fierce water polo match on December 6. Splashing and tempers flaring, Hungary took a 4-0 lead. But before the final whistle, chaos erupted. Police had to step in as a near-riot threatened to spill into the stands. The game was called off, but Hungary's team went on to capture gold, their athletic triumph a bright spot amid troubled times.",
+    "activity_question": "What happened before the water polo match could finish?",
+    "activity_choices": [
+      "A near-riot threatened to spill into the stands",
+      "Hungary scored their fifth goal",
+      "The pool water turned green",
+      "Both teams agreed to a tie"
+    ],
+    "activity_answer": "A near-riot threatened to spill into the stands",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think emotions were running so high during this Olympic match?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "24",
+    "title": "London's Taxi Revolution",
+    "story": "Hailing a cab became official business in London. On December 6, 1897, the city introduced the world's first licensed taxicabs. These horse-drawn carriages, called 'hackney carriages,' had to meet strict standards. Drivers needed special permits to operate. This system made rides safer and more reliable for Londoners and visitors alike.",
+    "activity_question": "What were the first licensed taxicabs in London called?",
+    "activity_choices": [
+      "Hackney carriages",
+      "London cabs",
+      "Horse taxis",
+      "Royal rides"
+    ],
+    "activity_answer": "Hackney carriages",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The word 'taxi' comes from 'taximeter,' a device that calculates the fare based on distance traveled.",
+    "score": 60,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "177",
+    "title": "Feathered Fortune: Audubon's Book Breaks Records",
+    "story": "Birdwatchers weren't the only ones flocking to Sotheby's auction house in London on December 6, 2010. A rare first edition of 'The Birds of America' by John James Audubon soared to new heights, fetching an astounding £7,321,250. This lavishly illustrated tome became the most expensive printed book ever sold at auction, proving that some paper birds are worth their weight in gold!",
+    "activity_question": "What book sold for a record price at Sotheby's auction?",
+    "activity_choices": [
+      "'The Birds of America'",
+      "'Birdwatchers Guide'",
+      "'Feathered Friends'",
+      "'Golden Birds'"
+    ],
+    "activity_answer": "'The Birds of America'",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Audubon's book features life-size paintings of North American birds in their natural habitats.",
+    "score": 80,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "123",
+    "title": "Ancient Plague Discovery Shocks Scientists",
+    "story": "Buried secrets from long ago came to light in 2018. Scientists found the oldest-known plague sample in the remains of a young woman who lived 4,900 years ago. This groundbreaking discovery happened in Gökhem, southern Sweden. Researchers shared their findings in the science journal 'Cell' on December 6.",
+    "activity_question": "Where were the ancient remains found?",
+    "activity_choices": [
+      "Gökhem, southern Sweden",
+      "Northern Norway",
+      "Eastern Finland",
+      "Western Denmark"
+    ],
+    "activity_answer": "Gökhem, southern Sweden",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think studying ancient diseases is important for scientists today?",
+    "score": 65,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "21",
+    "title": "Venus Reveals Its Hidden Secrets",
+    "story": "Stargazers got a thrilling surprise in 1882! As Venus passed in front of the Sun on December 6, scientists made an amazing discovery. They detected the planet's atmosphere for the first time. This rare event, called a transit, allowed researchers to study Venus like never before. By carefully observing the planet's silhouette against the bright Sun, they uncovered new clues about our mysterious neighbor in space.",
+    "activity_question": "What did scientists detect during the transit of Venus?",
+    "activity_choices": [
+      "The planet's atmosphere",
+      "A new moon of Venus",
+      "Alien life forms",
+      "Venus's magnetic field"
+    ],
+    "activity_answer": "The planet's atmosphere",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it's challenging to study Venus's atmosphere from Earth?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "136",
+    "title": "Kepler's Starry Prediction",
+    "story": "Stargazer alert! In 1631, Johannes Kepler made a cosmic forecast. He predicted Venus would pass directly between Earth and the Sun - a rare event called a transit. Kepler's brilliant mind saw it coming on December 6, but Europe missed the show. The transit happened after sunset, leaving sky-watchers in the dark. Still, Kepler's prediction proved he understood the dance of planets.",
+    "activity_question": "What did Johannes Kepler predict would happen?",
+    "activity_choices": [
+      "A transit of Venus",
+      "A solar eclipse",
+      "A meteor shower",
+      "A comet appearance"
+    ],
+    "activity_answer": "A transit of Venus",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why couldn't Europeans see the transit Kepler predicted?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "59",
+    "title": "Pioneer 3's Daring Moon Mission",
+    "story": "Zoom! In 1958, a brave little spacecraft named Pioneer 3 blasted off, aiming for the moon. It soared higher and higher, reaching an incredible 107,269 kilometers above Earth on December 6. That's over a quarter of the way to the moon! Sadly, Pioneer 3 didn't quite make it all the way and fell back to Earth. But its journey taught scientists valuable lessons for future space missions.",
+    "activity_question": "How high did Pioneer 3 reach above Earth?",
+    "activity_choices": [
+      "107,269 kilometers",
+      "100,000 kilometers",
+      "1,000,000 kilometers",
+      "To the moon"
+    ],
+    "activity_answer": "107,269 kilometers",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What was Pioneer 3 trying to reach?",
+    "score": 75,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "278",
+    "title": "Jazz Legend Dave Brubeck's Musical Journey",
+    "story": "Dave Brubeck, the famous American jazz pianist, began his musical journey in 1920. Born on December 6 in Concord, California, Brubeck would go on to create unforgettable tunes like 'Take Five' and compose powerful works such as 'Gates of Justice'. His innovative style and catchy melodies helped shape the world of jazz for decades to come.",
+    "activity_question": "What famous jazz tune did Dave Brubeck create?",
+    "activity_choices": [
+      "'Take Five'",
+      "'Jingle Bells'",
+      "'Smooth Operator'",
+      "'The Twist'"
+    ],
+    "activity_answer": "'Take Five'",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you hum or tap out the rhythm of 'Take Five'? It's in an unusual 5/4 time signature!",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "155",
+    "title": "Aussie Swimmers Make a Splash",
+    "story": "Cheers erupted as four Australian women dove into the pool. Dawn Fraser, Faith Leech, Sandra Morgan, and Lorraine Crapp formed a dream team in the 4 × 100m freestyle relay. On December 6, 1956, they swam their hearts out at the Melbourne Olympics. Not only did they win gold, but they also set a new world record of 4:17.1, beating the strong US team. Their teamwork and speed made a big splash in Olympic history!",
+    "activity_question": "What event did the Australian women's team win?",
+    "activity_choices": [
+      "4 × 100m freestyle relay",
+      "100m butterfly",
+      "200m backstroke",
+      "Synchronized swimming"
+    ],
+    "activity_answer": "4 × 100m freestyle relay",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name two of the four Australian swimmers mentioned in the story?",
+    "optional_type": "follow_up_question",
+    "score": 90,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "91",
+    "title": "Speed Queen Shatters Ice Record",
+    "story": "Blades flashed and ice flew as Christa Rothenburger zoomed across the rink. On December 6, 1987, this East German speed skating sensation shattered the women's world record for the 500-meter race. Her lightning-fast time of 39.39 seconds left spectators in awe. Rothenburger's incredible skill and determination pushed the boundaries of what was possible on ice, inspiring a new generation of skaters to chase their dreams.",
+    "activity_question": "What was Christa Rothenburger's record-breaking time for the 500-meter race?",
+    "activity_choices": [
+      "39.39 seconds",
+      "40.40 seconds",
+      "38.38 seconds",
+      "41.41 seconds"
+    ],
+    "activity_answer": "39.39 seconds",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What qualities do you think are important for a speed skater to break world records?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "37",
+    "title": "Bears Roar to Victory in Packed Stadium",
+    "story": "Roaring crowds filled the stadium as the Chicago Bears faced off against the New York Giants in 1925. On December 6, a record-breaking crowd of fans packed the stands to witness this thrilling football showdown. The Bears dominated the game, clawing their way to a 19-7 victory over the Giants. It was a day that would go down in sports history, showing just how popular football had become.",
+    "activity_question": "Which team won the football game?",
+    "activity_choices": [
+      "Chicago Bears",
+      "New York Giants",
+      "Chicago Cubs",
+      "New York Jets"
+    ],
+    "activity_answer": "Chicago Bears",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think so many people wanted to watch this game?",
+    "score": 82,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "18",
+    "title": "Soccer Kicks Off in America",
+    "story": "Cheers erupted as Yale scored the winning goal against England's Eton College in 1873. This wasn't just any game - it was the first international soccer match played on American soil! The exciting face-off took place in New Haven, Connecticut on December 6. Yale's team emerged victorious with a close 2-1 win, marking a historic moment for the sport in the United States.",
+    "activity_question": "Which team did Yale play against in this historic match?",
+    "activity_choices": [
+      "Eton College",
+      "Oxford University",
+      "Cambridge University",
+      "Harvard University"
+    ],
+    "activity_answer": "Eton College",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why was this soccer game special for the United States?",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "100",
+    "title": "A Pricey Signature Hits a Home Run",
+    "story": "Batter up! In 1990, a piece of baseball history made a grand slam at auction. The signature of legendary player 'Shoeless' Joe Jackson sold for a whopping $23,100 on December 6. Despite being banned from baseball, Jackson's autograph proved to be a rare treasure, fetching a price that would make any fan's jaw drop.",
+    "activity_question": "What item related to 'Shoeless' Joe Jackson sold at auction?",
+    "activity_choices": [
+      "His signature",
+      "His baseball bat",
+      "His baseball card",
+      "His lucky socks"
+    ],
+    "activity_answer": "His signature",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think someone would pay so much for a signature?",
+    "score": 70,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "168",
+    "title": "Jerry Rice's Touchdown Triumph",
+    "story": "Zoom! Jerry Rice raced across the field, snagging a pass from the air. The crowd roared as he scored his 101st touchdown, setting a new NFL record. On December 6, 1992, the San Francisco 49ers' star receiver achieved this amazing feat during a game against the Miami Dolphins. The 49ers won 27-3, but Rice's catch became the day's unforgettable highlight.",
+    "activity_question": "What team did Jerry Rice play for when he set the touchdown record?",
+    "activity_choices": [
+      "San Francisco 49ers",
+      "Miami Dolphins",
+      "New York Giants",
+      "Green Bay Packers"
+    ],
+    "activity_answer": "San Francisco 49ers",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What sport do the San Francisco 49ers play?",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "95",
+    "title": "Bucks Bounce to Basketball Milestone",
+    "story": "Swish! The Milwaukee Bucks scored big in 1988, not just on the court, but in the history books too. On December 6 that year, the team clinched their 1,000th NBA victory. This wasn't just any win - it marked the Bucks as one of the quickest teams to reach this impressive milestone. Fans cheered as their beloved team proved they were true champions of the game, racking up wins faster than most other NBA squads.",
+    "activity_question": "What milestone did the Milwaukee Bucks achieve in 1988?",
+    "activity_choices": [
+      "Their 1,000th NBA victory",
+      "Their first championship",
+      "Their 500th home game",
+      "Their longest winning streak"
+    ],
+    "activity_answer": "Their 1,000th NBA victory",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The Bucks' team colors are green, cream, and blue, representing the forests, dairy, and lakes of Wisconsin.",
+    "score": 95,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "54",
+    "title": "India's Golden Hockey Streak Continues",
+    "story": "Sticks clashed and crowds roared as India faced Pakistan in an epic field hockey showdown. It was December 6, 1956, at the Melbourne Olympics. The match was intense, with both teams giving their all. Then, Randhir Singh Gentle became a hero. He scored the winning goal, securing India's victory with a nail-biting 1-0 score. This wasn't just any win - it marked India's sixth gold medal in a row for field hockey!",
+    "activity_question": "Who scored the winning goal for India in the 1956 Olympic field hockey final?",
+    "activity_choices": [
+      "Randhir Singh Gentle",
+      "Pakistan's captain",
+      "India's coach",
+      "The team mascot"
+    ],
+    "activity_answer": "Randhir Singh Gentle",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How many consecutive gold medals had India won in Olympic field hockey after this victory?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "52",
+    "title": "Aussie Swimmer Makes a Splash",
+    "story": "Splash! David Theile dove into the pool and swam like a rocket. The Australian athlete amazed everyone at the 1956 Melbourne Olympics. On December 6, he zoomed through the water in the 100-meter backstroke. Theile not only won the gold medal but also set a new world record. His incredible time of 1 minute and 2.2 seconds had the crowd cheering wildly.",
+    "activity_question": "What event did David Theile compete in at the 1956 Olympics?",
+    "activity_choices": [
+      "100-meter backstroke",
+      "200-meter freestyle",
+      "50-meter butterfly",
+      "400-meter medley"
+    ],
+    "activity_answer": "100-meter backstroke",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think swimming fast on your back might be challenging?",
+    "score": 85,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "104",
+    "title": "Speed Queen Shatters Ice Record",
+    "story": "Blades flashed and ice flew as Gunda Niemann raced into history. On December 6, 1993, this German speed skating sensation shattered the women's 5 km world record. Niemann's incredible time of 7 minutes and 13.29 seconds left spectators in awe. Her lightning-fast performance showcased the perfect blend of power, technique, and determination on the ice.",
+    "activity_question": "What was Gunda Niemann's record-breaking time for the 5 km speed skating event?",
+    "activity_choices": [
+      "7 minutes and 13.29 seconds",
+      "6 minutes and 13.29 seconds",
+      "7 minutes and 31.29 seconds",
+      "8 minutes flat"
+    ],
+    "activity_answer": "7 minutes and 13.29 seconds",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What country was Gunda Niemann from?",
+    "score": 85,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "83",
+    "title": "Running into the Record Books",
+    "story": "Sneakers pounding the pavement, Rob de Castella raced towards history. The Australian runner's legs pumped like pistons as he flew through the streets. On December 6, 1981, de Castella's determination paid off. He crossed the finish line of the marathon in an incredible time of 2 hours, 8 minutes, and 18 seconds. This blazing speed set a new world record, cementing de Castella's place among running legends.",
+    "activity_question": "What was Rob de Castella's record-setting marathon time?",
+    "activity_choices": [
+      "2 hours, 8 minutes, and 18 seconds",
+      "3 hours, 10 minutes, and 20 seconds",
+      "1 hour, 58 minutes, and 45 seconds",
+      "2 hours, 18 minutes, and 8 seconds"
+    ],
+    "activity_answer": "2 hours, 8 minutes, and 18 seconds",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think runners train to achieve such fast times in marathons?",
+    "score": 82,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "333",
+    "title": "From Finland to Formula 1 Fame",
+    "story": "Vroom! A future racing champion zoomed into the world on December 6, 1948. Keke Rosberg, born in Solna, Sweden, would grow up to become a Finnish racing legend. His lightning-fast reflexes and daring driving style led him to the pinnacle of motorsports. In 1982, Rosberg achieved his dream, clinching the Formula 1 World Championship title.",
+    "activity_question": "What major title did Keke Rosberg win in 1982?",
+    "activity_choices": [
+      "Formula 1 World Championship",
+      "NASCAR Cup Series",
+      "IndyCar Championship",
+      "World Rally Championship"
+    ],
+    "activity_answer": "Formula 1 World Championship",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name another famous Finnish Formula 1 driver?",
+    "score": 65,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "356",
+    "title": "R.E.M.'s Guitar Hero Born",
+    "story": "Rock and roll got a new star when Peter Buck was born in Berkeley, California in 1956. On December 6 that year, the future guitarist of R.E.M. entered the world. Buck would go on to help create the band's unique sound, especially on their album 'Murmur'. His guitar skills became a key part of R.E.M.'s success in rock music.",
+    "activity_question": "What famous rock band did Peter Buck play guitar for?",
+    "activity_choices": [
+      "R.E.M.",
+      "The Beatles",
+      "Pink Floyd",
+      "The Rolling Stones"
+    ],
+    "activity_answer": "R.E.M.",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "R.E.M. stands for 'Rapid Eye Movement', a stage of sleep when we dream.",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "357",
+    "title": "Guitar Hero's Birthday Rocks On",
+    "story": "Shredding guitar riffs echoed through Santa Monica as Randy Rhoads entered the world in 1956. Born on December 6, this future rock star would electrify audiences with his lightning-fast fretwork. Rhoads became famous playing for Quiet Riot and later joined Ozzy Osbourne's band, leaving a lasting mark on heavy metal music.",
+    "activity_question": "What band did Randy Rhoads become famous playing for?",
+    "activity_choices": [
+      "Quiet Riot",
+      "The Beatles",
+      "KISS",
+      "Led Zeppelin"
+    ],
+    "activity_answer": "Quiet Riot",
+    "suitable_for_8_to_12_year_old": false,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Randy Rhoads was known for his classical music influences in heavy metal guitar playing.",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "339",
+    "title": "Musical Maestro Born in Japan",
+    "story": "A musical genius entered the world on December 6, 1950. Joe Hisaishi, the renowned Japanese composer and music director, was born in Nakano, Nagano. His melodies have touched hearts worldwide, bringing magic to countless films and concerts. Hisaishi's talent for creating unforgettable soundtracks has made him a true maestro of music.",
+    "activity_question": "Where was Joe Hisaishi born?",
+    "activity_choices": [
+      "Nakano, Nagano",
+      "Tokyo",
+      "Kyoto",
+      "Osaka"
+    ],
+    "activity_answer": "Nakano, Nagano",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What kind of music do you think Joe Hisaishi composes?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "336",
+    "title": "A Songwriting Star Is Born",
+    "story": "Linda Creed, the musical genius behind hit songs like 'The Greatest Love Of All', was born in Philadelphia in 1949. On December 6, this talented songwriter entered the world, ready to create melodies that would touch hearts for generations. Creed's gift for crafting unforgettable tunes led to classics like 'You Make Me Feel Brand New' and the funky 'Rubber Band Man'.",
+    "activity_question": "What famous song did Linda Creed write?",
+    "activity_choices": [
+      "The Greatest Love Of All",
+      "Jingle Bells",
+      "Happy Birthday",
+      "Twinkle Twinkle Little Star"
+    ],
+    "activity_answer": "The Greatest Love Of All",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name another hit song Linda Creed wrote?",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "354",
+    "title": "The King of Deadpan Comedy",
+    "story": "Laughter filled the air as Steven Wright entered the world on December 6, 1955. Born in Cambridge, Massachusetts, this future comedy legend would become famous for his unique style. Wright's deadpan delivery and clever one-liners would make him a stand-up superstar. His show 'Steven Wright Live' showcased his brilliantly dry humor.",
+    "activity_question": "What is Steven Wright famous for in comedy?",
+    "activity_choices": [
+      "His deadpan delivery",
+      "His slapstick routines",
+      "His musical performances",
+      "His magic tricks"
+    ],
+    "activity_answer": "His deadpan delivery",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you think of a funny one-liner in Steven Wright's style?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "362",
+    "title": "Pixies Drummer Rocks into the World",
+    "story": "Boom! Crash! The rhythm of rock was born on December 6, 1961, when David Lovering entered the world. This future drumming sensation would go on to keep the beat for the famous alternative rock band Pixies. Lovering's powerful percussion helped shape the unique sound that made Pixies a musical force.",
+    "activity_question": "What famous band did David Lovering drum for?",
+    "activity_choices": [
+      "Pixies",
+      "The Beatles",
+      "Nirvana",
+      "The Rolling Stones"
+    ],
+    "activity_answer": "Pixies",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What instrument does David Lovering play?",
+    "optional_type": "follow_up_question",
+    "score": 60,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "63",
+    "title": "The Beatles' Merry Musical Gift",
+    "story": "Jingle bells and guitar strums! The Beatles started a jolly tradition in 1963. On December 6, they recorded a special Christmas message just for their fan club members. These yearly records became a much-anticipated treat, filled with silly jokes, holiday wishes, and snippets of songs. It was the Fab Four's way of saying thanks to their most devoted followers during the festive season.",
+    "activity_question": "What did The Beatles record for their fan club members?",
+    "activity_choices": [
+      "A special Christmas message",
+      "A new hit single",
+      "A full-length album",
+      "A rock opera"
+    ],
+    "activity_answer": "A special Christmas message",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "The Beatles continued this tradition for seven years, until they broke up in 1970.",
+    "optional_type": "bonus_fact",
+    "score": 85,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "161",
+    "title": "Rolling Stones Rock with Beggars Banquet",
+    "story": "The Rolling Stones unleashed their gritty rock masterpiece, Beggars Banquet, in 1968. Released on December 6 in the UK, this album marked a return to the band's bluesy roots. It featured classic tracks like Sympathy for the Devil and Street Fighting Man. Sadly, it was the last Stones album released while founding member Brian Jones was still alive.",
+    "activity_question": "What was the name of the Rolling Stones album released in 1968?",
+    "activity_choices": [
+      "Beggars Banquet",
+      "Sticky Fingers",
+      "Let It Bleed",
+      "Rockin Feast"
+    ],
+    "activity_answer": "Beggars Banquet",
+    "suitable_for_8_to_12_year_old": false,
+    "bonus_fact": "The album cover sparked controversy, leading to a plain white design for its initial release.",
+    "optional_type": "bonus_fact",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "183",
+    "title": "Avatar Sequel Makes a Splash",
+    "story": "Lights, camera, action! The long-awaited sequel to the blockbuster Avatar hit theaters in 2022. Avatar: The Way of Water premiered in London on December 6, bringing audiences back to the lush world of Pandora. Director James Cameron's sci-fi spectacle promised stunning visuals and underwater adventures, with stars Sam Worthington and Zoe Saldaña returning to their roles.",
+    "activity_question": "Where did Avatar: The Way of Water premiere?",
+    "activity_choices": [
+      "London",
+      "New York",
+      "Los Angeles",
+      "Pandora"
+    ],
+    "activity_answer": "London",
+    "suitable_for_8_to_12_year_old": false,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What was special about the setting of this Avatar sequel?",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "102",
+    "title": "Star Trek's Final Frontier",
+    "story": "Trekkies, set phasers to excitement! The starship Enterprise blasted onto screens for its last big-screen adventure with the original crew. 'Star Trek VI: The Undiscovered Country' premiered on December 6, 1991, thrilling fans with a space mystery and a message of peace.",
+    "activity_question": "What was the subtitle of the Star Trek movie that premiered?",
+    "activity_choices": [
+      "The Undiscovered Country",
+      "The Final Frontier",
+      "The Voyage Home",
+      "The Wrath of Khan"
+    ],
+    "activity_answer": "The Undiscovered Country",
+    "suitable_for_8_to_12_year_old": false,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "This movie marked the last time the entire original Star Trek TV cast appeared together on film.",
+    "score": 60,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "97",
+    "title": "Secret Space Mission Lands Safely",
+    "story": "Whoosh! The space shuttle Atlantis touched down in California, completing a hush-hush mission. On December 6, 1988, STS-27 Atlantis returned from its secret journey through the stars. The crew's exact activities remain a mystery, but we know they bravely explored the cosmos for our country. Space missions like this one push the boundaries of human knowledge and inspire future astronauts.",
+    "activity_question": "Where did the space shuttle Atlantis land after its secret mission?",
+    "activity_choices": [
+      "California",
+      "Florida",
+      "Texas",
+      "New Mexico"
+    ],
+    "activity_answer": "California",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think some space missions are kept secret?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "82",
+    "title": "Satellite Soars into Space",
+    "story": "Zoom! A powerful rocket blasted off, carrying a special passenger. On December 6, 1980, NASA launched the Intelsat V satellite into orbit. This high-tech marvel, known as number 502, joined a fleet of satellites circling Earth. These space travelers help beam TV shows, phone calls, and internet data across the globe, connecting people everywhere.",
+    "activity_question": "What did NASA launch in 1980?",
+    "activity_choices": [
+      "The Intelsat V satellite",
+      "A space shuttle",
+      "A weather balloon",
+      "A flying saucer"
+    ],
+    "activity_answer": "The Intelsat V satellite",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do satellites help people on Earth?",
+    "score": 82,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "152",
+    "title": "Saving Florida's Watery Wilderness",
+    "story": "Splash! A gator dives into the murky waters of the Everglades. In 1947, President Harry S. Truman recognized the importance of this unique ecosystem. On December 6, he dedicated the Everglades National Park in Florida, protecting its diverse wildlife and lush wetlands for future generations to explore and enjoy.",
+    "activity_question": "Who dedicated the Everglades National Park?",
+    "activity_choices": [
+      "President Harry S. Truman",
+      "A Florida park ranger",
+      "An alligator",
+      "The mayor of Miami"
+    ],
+    "activity_answer": "President Harry S. Truman",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The Everglades is the only place where alligators and crocodiles live together in the wild!",
+    "score": 65,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "173",
+    "title": "A Royal Unveiling at the British Museum",
+    "story": "The British Museum got a stunning makeover in 2000. On December 6, Queen Elizabeth II unveiled the newly redesigned Great Court. This amazing space became Europe's largest covered courtyard. The brilliant architects at Foster & Partners created a breathtaking glass roof, flooding the area with light. Visitors can now enjoy this beautiful blend of history and modern design.",
+    "activity_question": "Who unveiled the redesigned Great Court at the British Museum?",
+    "activity_choices": [
+      "Queen Elizabeth II",
+      "The Prime Minister",
+      "The Museum Director",
+      "A famous archaeologist"
+    ],
+    "activity_answer": "Queen Elizabeth II",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The glass roof of the Great Court is made up of nearly pieces of glass, each uniquely shaped.",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "124",
+    "title": "A New Home for African History",
+    "story": "Drums echoed through Dakar as a grand new museum opened its doors. In 2018, Senegal's President Macky Sall unveiled the Museum of Black Civilisations on December 6. This amazing building celebrates the rich history and culture of Africa. Visitors can explore ancient artifacts, colorful art, and stories that span thousands of years.",
+    "activity_question": "What did President Macky Sall unveil in Dakar?",
+    "activity_choices": [
+      "The Museum of Black Civilisations",
+      "A new soccer stadium",
+      "An underwater aquarium",
+      "A giant statue of a baobab tree"
+    ],
+    "activity_answer": "The Museum of Black Civilisations",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What kinds of things might you see in this museum?",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "158",
+    "title": "Breaking Barriers on the Football Field",
+    "story": "Ernie Davis made history in 1961. The talented running back from Syracuse University became the first African American to win the Heisman Trophy. This prestigious award honors the best player in college football. Davis's groundbreaking achievement on December 6 paved the way for future generations of athletes.",
+    "activity_question": "What award did Ernie Davis win in 1961?",
+    "activity_choices": [
+      "The Heisman Trophy",
+      "The Golden Cleat",
+      "The Touchdown Titan",
+      "The Gridiron Globe"
+    ],
+    "activity_answer": "The Heisman Trophy",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why was Ernie Davis's win significant?",
+    "score": 60,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "60",
+    "title": "Singing Cowboy Brings Baseball to LA",
+    "story": "Yee-haw! Gene Autry, the famous 'Singing Cowboy' of movies and TV, saddled up for a new adventure in 1960. On December 6, the American League gave Autry the green light to create a new baseball team in Los Angeles. The Los Angeles Angels were born, bringing more big-league action to the City of Angels.",
+    "activity_question": "What was Gene Autry's nickname?",
+    "activity_choices": [
+      "Singing Cowboy",
+      "Baseball Baron",
+      "Hollywood Hero",
+      "Angel Wrangler"
+    ],
+    "activity_answer": "Singing Cowboy",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Gene Autry was the only person ever inducted into five categories of the Hollywood Walk of Fame!",
+    "score": 60,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "50",
+    "title": "Brainy Psychologist Knocks Out Boxing Quiz",
+    "story": "Brains beat brawn when psychologist Joyce Brothers aced a tough boxing quiz on TV. In 1955, she became the first woman to win the top prize on the popular game show '$64,000 Question'. Brothers wowed audiences with her knockout knowledge of boxing trivia on December 6, proving that anyone can become an expert on any subject with enough study.",
+    "activity_question": "What subject did Joyce Brothers master to win the game show?",
+    "activity_choices": [
+      "Boxing",
+      "Psychology",
+      "Television",
+      "Cooking"
+    ],
+    "activity_answer": "Boxing",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think Joyce Brothers chose to study boxing?",
+    "optional_type": "follow_up_question",
+    "score": 60,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "39",
+    "title": "Turkish Women Win the Right to Vote",
+    "story": "Cheers erupted across Turkey as women gained a powerful new voice. In 1929, on December 6, the country took a giant leap forward. Turkish women were granted the right to vote in local elections. This change marked a significant milestone in the fight for equality. It paved the way for full voting rights in national elections a few years later.",
+    "activity_question": "What right did Turkish women gain in 1929?",
+    "activity_choices": [
+      "The right to vote in local elections",
+      "The right to own property",
+      "The right to attend university",
+      "The right to become president"
+    ],
+    "activity_answer": "The right to vote in local elections",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why is the right to vote important in a democracy?",
+    "optional_type": "follow_up_question",
+    "score": 60,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "140",
+    "title": "A President's Starry Vision",
+    "story": "Gazing at the night sky, President John Quincy Adams had a brilliant idea. In 1825, on December 6, he proposed creating a national observatory. Adams believed studying the stars could help America grow as a nation. His suggestion sparked interest in astronomy across the country.",
+    "activity_question": "What did President John Quincy Adams propose?",
+    "activity_choices": [
+      "Creating a national observatory",
+      "Building a new White House",
+      "Starting a space program",
+      "Inventing a telescope"
+    ],
+    "activity_answer": "Creating a national observatory",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think studying stars might be important for a country?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "135",
+    "title": "Pope's Daring Disguise Escape",
+    "story": "Imagine a pope dressed as a peddler! In 1527, Pope Clement VII pulled off a daring escape from the Castel Sant'Angelo in Rome. On December 6, he disguised himself as a humble street seller and slipped away from his captors. The pope's clever costume allowed him to flee to the safety of Orvieto, outwitting those who had imprisoned him.",
+    "activity_question": "How did Pope Clement VII disguise himself to escape?",
+    "activity_choices": [
+      "As a peddler",
+      "As a soldier",
+      "As a monk",
+      "As a chef"
+    ],
+    "activity_answer": "As a peddler",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think the pope chose a peddler as his disguise?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "45",
+    "title": "From Idlewild to JFK: An Airport's Birth",
+    "story": "Planes soar over Queens today, but in 1941, it was just a dream. On December 6 that year, New York City Council gave the green light to build Idlewild Airport. This decision launched what would become one of the world's busiest travel hubs. Years later, Idlewild got a new name: John F. Kennedy International Airport, or JFK for short.",
+    "activity_question": "What was the original name of the airport before it became JFK?",
+    "activity_choices": [
+      "Idlewild Airport",
+      "Queens Airport",
+      "New York City Airport",
+      "Kennedy Airport"
+    ],
+    "activity_answer": "Idlewild Airport",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think airports are important for a big city like New York?",
+    "score": 65,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "73",
+    "title": "Cavaliers Triumph in Thrilling Home Debut",
+    "story": "Cheers erupted as the Cleveland Cavaliers clinched their first NBA home victory in 1970. On December 6, fans packed the arena to witness history. The Cavaliers faced off against the Buffalo Braves in a nail-biting showdown. With hearts racing, the home team emerged victorious, edging out their opponents 108-106. It was a moment that ignited basketball passion in Cleveland.",
+    "activity_question": "Who did the Cleveland Cavaliers defeat in their first NBA home victory?",
+    "activity_choices": [
+      "Buffalo Braves",
+      "Boston Celtics",
+      "Los Angeles Lakers",
+      "Chicago Bulls"
+    ],
+    "activity_answer": "Buffalo Braves",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think the fans reacted when the Cavaliers won their first home game?",
+    "score": 65,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Frothy Fun on National Cappuccino Day",
+    "story": "Coffee shops everywhere get extra busy on November 8 for National Cappuccino Day! This creamy Italian drink is made with espresso, steamed milk, and fluffy foam on top. Baristas show off their skills by creating cool designs in the foam - hearts, leaves, even cats! Many cafes offer special deals or teach kids how to make hot chocolate cappuccino-style. People post photos of their fancy foam art online and try new flavors like vanilla or caramel.",
+    "activity_question": "What three main ingredients make a cappuccino?",
+    "activity_choices": [
+      "Espresso, steamed milk, and foam",
+      "Coffee, cream, and sugar",
+      "Hot chocolate, marshmallows, and whipped cream",
+      "Tea, honey, and cinnamon"
+    ],
+    "activity_answer": "Espresso, steamed milk, and foam",
+    "bonus_fact": "The word 'cappuccino' comes from Italian monks whose brown robes matched the coffee's color!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "902",
+    "title": "Harvey's Wacky Wallbanger Day",
+    "story": "Every November 8, people celebrate National Harvey Wallbanger Day by honoring one of the goofiest drink names ever invented! The Harvey Wallbanger is a bright orange cocktail that became super popular in the 1970s. Today, bartenders and drink enthusiasts share photos of this colorful beverage on social media, often joking about its silly name. Some restaurants offer special Harvey Wallbanger mocktails for families to enjoy together. The drink gets its funny name from a cartoon character who supposedly drank so many that he kept bumping into walls!",
+    "activity_question": "What color is a Harvey Wallbanger cocktail?",
+    "activity_choices": [
+      "Bright orange",
+      "Deep purple",
+      "Neon green",
+      "Hot pink"
+    ],
+    "activity_answer": "Bright orange",
+    "bonus_fact": "The Harvey Wallbanger was named after a surfer character in funny advertisements!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "903",
+    "title": "X-Ray Vision Day for Real!",
+    "story": "Every November 8, doctors and medical workers around the world celebrate World Radiography Day! This special day honors the amazing people who take X-rays and other medical pictures that help doctors see inside our bodies. Hospitals post cool X-ray images on social media, and radiographers share stories about how they help patients every day. Some medical schools even host fun events where kids can learn how X-ray machines work and see pictures of broken bones that have healed.",
+    "activity_question": "What do radiographers do to help patients?",
+    "activity_choices": [
+      "They take X-rays and medical pictures",
+      "They perform surgery on broken bones",
+      "They give patients medicine",
+      "They teach people how to exercise"
+    ],
+    "activity_answer": "They take X-rays and medical pictures",
+    "bonus_fact": "X-rays were discovered by accident in 1895 when a scientist noticed glowing crystals!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "904",
+    "title": "Spice Up Your Kitchen Adventure Day!",
+    "story": "Every November 8, brave cooks everywhere celebrate National Cook Something Bold Day by trying recipes that make them nervous or excited! People attempt dishes from countries they've never visited, experiment with super spicy peppers, or finally tackle that complicated dessert they bookmarked months ago. Social media fills with photos of colorful curries, towering layer cakes, and sometimes hilarious kitchen disasters. The whole point is stepping out of your cooking comfort zone and having fun with food, even if it doesn't turn out perfect!",
+    "activity_question": "What do people do on National Cook Something Bold Day?",
+    "activity_choices": [
+      "Try recipes that challenge them or make them nervous",
+      "Only cook their favorite familiar dishes",
+      "Order takeout from restaurants instead",
+      "Eat nothing but bold-flavored potato chips"
+    ],
+    "activity_answer": "Try recipes that challenge them or make them nervous",
+    "follow_up_question": "What's the boldest dish you'd want to try making?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 78
+  }
+]

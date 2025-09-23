@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "original": "Human Rights Day",
+    "score": 45,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "Nobel Prize Day",
+    "score": 35,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 3,
+    "original": "Dewey Decimal System Day",
+    "score": 42,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "International Animal Rights Day",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 5,
+    "original": "Wyoming Day",
+    "score": 45,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 6,
+    "original": "Constitution Day (Thailand)",
+    "score": 52,
+    "is_kid_friendly": false
+  }
+]

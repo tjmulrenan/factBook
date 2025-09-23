@@ -1,0 +1,102 @@
+[
+  {
+    "id": "901",
+    "title": "The Tooth Fairy's Special Day",
+    "story": "Kids across America celebrate National Tooth Fairy Day on February 28 by sharing their most magical tooth-losing stories! Some families leave extra special notes under pillows, while others create tiny fairy doors or sprinkle glitter around the house. Many parents post adorable photos of their gap-toothed kids online, and dentists often give out special Tooth Fairy certificates. Libraries host story times about the famous fairy, and craft stores see a rush for tiny pillows and fairy dust. It's the perfect day to wiggle a loose tooth or remember your first visit from the Tooth Fairy!",
+    "activity_question": "What do some families create on National Tooth Fairy Day?",
+    "activity_choices": [
+      "Tiny fairy doors",
+      "Giant tooth sculptures",
+      "Fairy costume parades",
+      "Tooth-shaped cookies"
+    ],
+    "activity_answer": "Tiny fairy doors",
+    "follow_up_question": "What's the most creative thing you could leave for the Tooth Fairy?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "902",
+    "title": "Fluffy Chocolate Cloud Day",
+    "story": "Every February 28, chocolate lovers celebrate National Chocolate Souffle Day by making the fluffiest, most magical dessert ever! A souffle is like a chocolate cloud that puffs up in the oven, creating a light and airy treat that melts in your mouth. Bakers around the country spend this day whipping egg whites, folding in rich chocolate, and carefully watching their ovens as these delicate desserts rise like balloons. The tricky part is eating them quickly before they deflate!",
+    "activity_question": "What makes a chocolate souffle so light and fluffy?",
+    "activity_choices": [
+      "Whipped egg whites",
+      "Baking soda bubbles",
+      "Tiny chocolate chips",
+      "Magic fairy dust"
+    ],
+    "activity_answer": "Whipped egg whites",
+    "bonus_fact": "Souffles can collapse if you open the oven door too early while baking!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "903",
+    "title": "Flower Power Design Day",
+    "story": "Florists and flower lovers everywhere celebrate National Floral Design Day on February 28 by creating stunning bouquets, wreaths, and arrangements! People share photos of their colorful creations on social media, take flower arranging classes, and visit local flower shops to admire the artistic displays. Many florists offer special workshops where kids and adults can learn to make their own beautiful arrangements using fresh flowers, greenery, and creative containers.",
+    "activity_question": "What do people often do on National Floral Design Day?",
+    "activity_choices": [
+      "Take flower arranging classes",
+      "Plant vegetables in gardens",
+      "Make paper airplanes",
+      "Bake flower-shaped cookies"
+    ],
+    "activity_answer": "Take flower arranging classes",
+    "follow_up_question": "What flowers would you choose to create your dream bouquet?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "904",
+    "title": "Spice Up Your Life on Chili Day!",
+    "story": "Every February 28, chili lovers across America celebrate National Chili Day by cooking up steaming bowls of their favorite recipes! Restaurants offer special chili deals, families host chili cook-offs in their backyards, and friends compete to see who can handle the spiciest peppers. Some people make classic beef chili, while others try wild combinations like chocolate chili or white bean chicken chili. Social media fills with photos of bubbling pots and brave taste-testers. The best part? Everyone argues about the \"right\" way to make chili!",
+    "activity_question": "What do families often host in their backyards on National Chili Day?",
+    "activity_choices": [
+      "Chili cook-offs",
+      "Ice cream parties",
+      "Dance competitions",
+      "Movie marathons"
+    ],
+    "activity_answer": "Chili cook-offs",
+    "follow_up_question": "What weird ingredient would you add to chili to make it totally unique?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "905",
+    "title": "Science Takes Center Stage Day",
+    "story": "Test tubes bubble, rockets zoom, and microscopes reveal tiny worlds on National Science Day every February 28! This awesome holiday celebrates all the amazing discoveries that make our lives better. Schools host science fairs where kids show off volcano experiments and robot creations. Museums open special exhibits about space exploration and dinosaurs. Scientists visit classrooms to demonstrate cool experiments like making slime glow or creating mini tornadoes in bottles. Many people share their favorite science facts on social media, from how butterflies taste with their feet to why the sky looks blue. It's the perfect day to ask \"why\" and \"how\" about everything around you!",
+    "activity_question": "What do scientists often demonstrate in classrooms on National Science Day?",
+    "activity_choices": [
+      "Cool experiments like glowing slime",
+      "How to bake the perfect cake",
+      "Magic tricks with disappearing coins",
+      "Dance moves from different countries"
+    ],
+    "activity_answer": "Cool experiments like glowing slime",
+    "follow_up_question": "What science experiment would you most want to try at home?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 92
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Celebrating Everyone's Amazing Abilities",
+    "story": "December 3 is International Day of Persons with Disabilities, when people around the world celebrate the incredible talents and achievements of people with disabilities. Schools host special assemblies where students learn about famous athletes, artists, and inventors who have disabilities. Communities organize wheelchair basketball games, sign language workshops, and art shows featuring amazing artwork. Many people share inspiring stories on social media using special hashtags to spread awareness and kindness.",
+    "activity_question": "What type of workshops might communities organize on this day?",
+    "activity_choices": [
+      "Sign language workshops",
+      "Cookie decorating classes",
+      "Magic trick lessons",
+      "Dance competitions"
+    ],
+    "activity_answer": "Sign language workshops",
+    "follow_up_question": "What amazing talent or skill would you like to learn from someone with a disability?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  },
+  {
+    "id": "902",
+    "title": "Home Sweet Home Appreciation Day",
+    "story": "Every December 3, people celebrate National Roof Over Your Head Day by appreciating their homes and helping others who need shelter. Families take time to feel grateful for having a warm, safe place to sleep and live. Many people donate blankets, food, or money to homeless shelters on this special day. Some families even volunteer together at local shelters to serve meals or help organize donations.",
+    "activity_question": "What do many people donate to homeless shelters on National Roof Over Your Head Day?",
+    "activity_choices": [
+      "Blankets, food, or money",
+      "Video games and toys",
+      "Old homework assignments",
+      "Birthday party decorations"
+    ],
+    "activity_answer": "Blankets, food, or money",
+    "follow_up_question": "What makes your home feel most special and comfortable to you?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "903",
+    "title": "Make a Gift Day: Crafty Christmas Magic",
+    "story": "December 3 is Make a Gift Day, when people ditch the shopping mall and create homemade presents instead! Families gather around kitchen tables with glue, scissors, and colorful paper to craft personalized gifts. Kids might paint picture frames, bake cookies in fun shapes, or sew simple pouches for their friends. Parents help make photo albums, knit scarves, or build wooden toys. The best part? These handmade treasures often mean more than store-bought items because they're made with love and creativity. Social media fills with photos of messy craft stations and proud creators showing off their unique creations.",
+    "activity_question": "What do people avoid doing on Make a Gift Day?",
+    "activity_choices": [
+      "Shopping at the mall",
+      "Using glue and scissors",
+      "Making photo albums",
+      "Riding unicorns to the moon"
+    ],
+    "activity_answer": "Shopping at the mall",
+    "follow_up_question": "What's the most creative homemade gift you could make for someone special?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 92
+  }
+]

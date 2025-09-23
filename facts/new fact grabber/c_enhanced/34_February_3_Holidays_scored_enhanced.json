@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Carrot Cake Gets Its Day!",
+    "story": "Every February 3, people across America celebrate National Carrot Cake Day by baking and eating this surprisingly delicious dessert! Carrot cake might sound weird at first - vegetables in cake? - but the carrots make it super moist and sweet. Bakeries sell extra slices, families share their secret recipes, and social media fills with photos of towering cakes covered in cream cheese frosting. Many people try making carrot cake for the first time on this special day, discovering that grated carrots, warm spices like cinnamon, and sometimes nuts or raisins create the perfect treat that's almost healthy!",
+    "activity_question": "What makes carrot cake moist and sweet?",
+    "activity_choices": [
+      "The carrots",
+      "Extra sugar",
+      "Special flour",
+      "Magic sprinkles"
+    ],
+    "activity_answer": "The carrots",
+    "follow_up_question": "What other vegetables do you think could work in desserts?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "902",
+    "title": "The Day the Music Died",
+    "story": "February 3 marks a sad but important day in music history called \"The Day the Music Died.\" On this date in 1959, three young rock and roll stars - Buddy Holly, Ritchie Valens, and J.P. \"The Big Bopper\" Richardson - died in a plane crash. Today, music fans remember these talented musicians by playing their hit songs, sharing their stories online, and visiting memorials. Radio stations often play special tributes featuring classics like \"Peggy Sue\" and \"La Bamba.\" It's a day to celebrate how these artists changed music forever, even though their careers were cut short.",
+    "activity_question": "Which song mentioned in the story was a hit by one of the musicians remembered on this day?",
+    "activity_choices": [
+      "La Bamba",
+      "Happy Birthday",
+      "Twinkle Twinkle Little Star",
+      "The Alphabet Song"
+    ],
+    "activity_answer": "La Bamba",
+    "follow_up_question": "How do you think music might be different today if these musicians had lived longer?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "903",
+    "title": "All Aboard for Adventure Day!",
+    "story": "Cruise ships become floating cities of fun on February 3 for National Take a Cruise Day! People celebrate by booking their dream vacations, sharing cruise photos on social media, and planning which destinations to visit next. Travel agencies offer special deals, and cruise lovers post videos of buffet spreads, pool decks, and ocean views. Some families gather to look through old cruise albums and pick their next adventure. It's the perfect day to dream about sailing to tropical islands, exploring new ports, and enjoying endless entertainment on the high seas!",
+    "activity_question": "What do people often share on social media during National Take a Cruise Day?",
+    "activity_choices": [
+      "Cruise photos and ocean views",
+      "Pictures of their pets",
+      "Homework assignments",
+      "Weather reports"
+    ],
+    "activity_answer": "Cruise photos and ocean views",
+    "bonus_fact": "The world's largest cruise ships can hold over 6,000 passengers at once!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  },
+  {
+    "id": "904",
+    "title": "Heroes Who Gave Their Life Jackets",
+    "story": "Four brave military chaplains are remembered every February 3 for their incredible sacrifice during World War II. When their ship was sinking, these four men of different faiths gave away their own life jackets to save other soldiers. People honor Four Chaplains Day by attending special ceremonies, visiting memorials, and learning about how these heroes put others first even in the most dangerous moments.",
+    "activity_question": "What did the four chaplains give away to save others?",
+    "activity_choices": [
+      "Their life jackets",
+      "Their food rations",
+      "Their warm coats",
+      "Their boots"
+    ],
+    "activity_answer": "Their life jackets",
+    "bonus_fact": "The four chaplains were from different religions but worked together as friends.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  }
+]

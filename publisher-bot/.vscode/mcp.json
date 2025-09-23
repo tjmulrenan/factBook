@@ -1,13 +1,9 @@
 {
-  "mcpServers": {
-    "filesystem": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-filesystem", "--root", "."]
-    },
+  "servers": {
     "playwright": {
       "command": "npx",
       "args": ["-y", "@playwright/mcp"],
-      "env": { "PW_CHANNEL": "chrome", "HEADLESS": "0" }
+      "env": { "PW_CHANNEL": "chrome", "HEADLESS": "0", "PWDEBUG": "1" }
     }
   }
 }

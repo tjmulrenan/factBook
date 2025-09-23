@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Hearts, Hugs, and Chocolate Galore!",
+    "story": "Red hearts cover store windows and chocolate boxes fill the shelves because February 14 is Valentine's Day! People celebrate love and friendship by giving cards, flowers, and sweet treats to the special people in their lives. Kids exchange colorful valentines at school parties, while grown-ups surprise each other with roses and romantic dinners. Some people wear red or pink clothes to show their Valentine's spirit. Social media fills up with heart emojis and love messages all day long. Whether it's a handmade card for mom or a box of chocolates for a crush, Valentine's Day is all about spreading kindness and showing people you care about them.",
+    "activity_question": "What do people commonly give each other on Valentine's Day?",
+    "activity_choices": [
+      "Cards, flowers, and chocolate",
+      "Pumpkins and scary masks",
+      "Fireworks and hot dogs",
+      "Easter eggs and bunny ears"
+    ],
+    "activity_answer": "Cards, flowers, and chocolate",
+    "follow_up_question": "Who would you want to give a special valentine to and why?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "902",
+    "title": "Going in Circles for Fun!",
+    "story": "Every February 14, people celebrate National Ferris Wheel Day by riding these giant spinning wheels that lift you high into the sky! Amusement parks across the country offer special deals and discounts on Ferris wheel rides. Families pack into colorful gondolas and slowly rotate up, up, up to see amazing views of their city or park below. Some people propose marriage at the top, while others just enjoy the peaceful ride and take selfies with the scenery. Many parks decorate their Ferris wheels with extra lights and music for the day. It's the perfect way to see the world from a bird's-eye view!",
+    "activity_question": "What do some people do at the top of a Ferris wheel on this holiday?",
+    "activity_choices": [
+      "Propose marriage",
+      "Jump off with parachutes",
+      "Have a picnic",
+      "Play loud music"
+    ],
+    "activity_answer": "Propose marriage",
+    "bonus_fact": "The first Ferris wheel was built in 1893 and was 264 feet tall!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "903",
+    "title": "Cream-Filled Chocolate Heaven Day",
+    "story": "February 14 isn't just Valentine's Day - it's also National Cream-Filled Chocolates Day! People celebrate by biting into their favorite cream-filled treats like chocolate truffles, bonbons, and candy-filled hearts. Chocolate shops display fancy boxes of assorted creams, from vanilla and strawberry to exotic flavors like lavender or salted caramel. Many families make it a tradition to share a box together, playing the guessing game of what flavor they'll get next. Social media fills with photos of people's chocolate hauls and messy cream-filled bites. It's the perfect excuse to indulge in these sweet, gooey treasures!",
+    "activity_question": "What do people often do when sharing cream-filled chocolates on this day?",
+    "activity_choices": [
+      "Play a guessing game about the flavors",
+      "Count how many they can eat in one minute",
+      "Melt them into hot chocolate",
+      "Use them as pizza toppings"
+    ],
+    "activity_answer": "Play a guessing game about the flavors",
+    "bonus_fact": "Some chocolate boxes include flavor maps so you know exactly what you're getting!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "904",
+    "title": "Shh! It's Library Lovers Day!",
+    "story": "Every February 14, book fans celebrate Library Lovers Day by showing extra appreciation for their local libraries! People visit to check out new books, attend special story times, or simply enjoy the quiet reading spaces. Many libraries host fun events like book swaps, author visits, or reading challenges. Some visitors bring thank-you cards for librarians or donate books to share with others. It's the perfect day to discover a new favorite book or rediscover why libraries are such magical places in every community.",
+    "activity_question": "What do some people bring to libraries on Library Lovers Day?",
+    "activity_choices": [
+      "Thank-you cards for librarians",
+      "Birthday cakes for books",
+      "Sleeping bags for sleepovers",
+      "Microphones for singing"
+    ],
+    "activity_answer": "Thank-you cards for librarians",
+    "bonus_fact": "The first public library in America opened in 1833 in New Hampshire!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  }
+]

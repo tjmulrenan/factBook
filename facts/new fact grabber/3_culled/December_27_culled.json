@@ -1,0 +1,702 @@
+[
+  {
+    "id": 98,
+    "year": "1942",
+    "original": "Dmitri Shostakovich completes his 7th Symphony in Siberia",
+    "score": 98,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 49,
+    "year": "1968",
+    "original": "Apollo 8 returns to Earth",
+    "score": 95,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 95,
+    "year": "1934",
+    "original": "Musical revue \"Thumbs Up\", including music and lyrics by Vernon Duke, James Hanley, and Ira Gershwin(among others), premieres at the St. James Theatre, NYC; runs for 156 performance",
+    "score": 95,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 110,
+    "year": "1981",
+    "original": "Edmonton OilerWayne Gretzkybecomes fastest NHLer to get 100 point in a season (his 38th game), with 4 goals and an assist in 10-3 win over visiting Los Angeles Kings",
+    "score": 95,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 93,
+    "year": "1920",
+    "original": "Red Sox owner Harry Frazee announces they will deal any player except Harry Hooper, Hooper is sent to the White Sox after 1920 season",
+    "score": 93,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 92,
+    "year": "1904",
+    "original": "Stage play \"Peter Pan\" by J. M. Barrie premieres at the Duke of York Theatre in London",
+    "score": 92,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 123,
+    "year": "1831",
+    "original": "HMS Beagle with Charles Darwin on board departs England for a survey of South America, a voyage Darwin later said \"determined my whole career\"",
+    "score": 92,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 104,
+    "year": "1964",
+    "original": "1st appearance ofThe Supremeson \"TheEd SullivanShow\", singing \"Come See About Me\"",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 116,
+    "year": "1993",
+    "original": "Pittsburgh Penguins center and part-ownerMario Lemieuxscores a goal and 2 assists in his return to the NHL after more than 3 years out with injury problems and lingering cancer issues; Penguins beat Toronto Maple Leafs, 5-0",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 120,
+    "year": "2022",
+    "original": "Luka Dončićbecomes the first player to register a 60-21-10 triple-double in NBA history as the Dallas Mavericks beat the NY Knicks, 126-121; first 60-point game in Mavs franchise history",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 138,
+    "year": "1773",
+    "original": "George Cayley, English inventor who founded science of aerodynamics (built 1st glider to carry a person), born in Scarborough, England (d. 1854)",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 220,
+    "year": "2025",
+    "original": "James Harrison, Australian blood and plasma donor known as 'the man with the golden arm' whose donations protected over 2 million babies, born in Junee, New South Wales (d. 2025)",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 303,
+    "year": "1969",
+    "original": "Cole Hamels, American baseball pitcher (MLB All-Star 2007, 11, 12, 16; World Series MVP & NLCS MVP 2008 Philadelphia Phillies; pitched no-hitter 2015 Texas Rangers), born in San Diego, California",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 314,
+    "year": "1996",
+    "original": "Bright Vachirawit [Vachirawit Chivaaree], Thai actor and singer (2gether franchise), born in Nakhon Chai Si, Thailand",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 89,
+    "year": "2025",
+    "original": "NASA unveils plans to capture a 500 ton asteroid in 2025",
+    "score": 89,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 35,
+    "year": "1935",
+    "original": "1st American skimobiles (North Conway, NH)",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 117,
+    "year": "2003",
+    "original": "\"Chicago\" (Best Picture 2003), film based on John Kander and Fred Ebb's musical, directed by Rob Marshall, starring Renée Zellweger, Richard Gere, and Catherine Zeta-Jones is released in NYC, Los Angeles, and select North American cities",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 215,
+    "year": "2016",
+    "original": "(Winfield) Scotty Moore, American guitarist (Elvis Presley; Roy Orbison), born in Gadsden, Tennessee (d. 2016)",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 256,
+    "year": "1956",
+    "original": "Doina Melinte, Romanian athlete (Olympic gold 800m, silver 1500m 1984; World Indoor C'ship gold 1500m 1987, 89), born in Hudești, Romania",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 261,
+    "year": "1982",
+    "original": "Andre Tippett, American NFL Hall of Fame linebacker, 1982-93, 5X Pro Bowl (New England Patriots), born in Birmingham, Alabama",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 271,
+    "year": "1962",
+    "original": "Dana Chladek, Czech-American slalom kayaker (Olympic bronze 1992, silver 1996), born in Děčín, Czech Republic",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 276,
+    "year": "1966",
+    "original": "Bill Goldberg, American pro wrestler (WCW Heavyweight C'ship 1998; WWE Heavyweight C'ship 2003; WWE HOF), born in Tulsa, Oklahoma",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 281,
+    "year": "1969",
+    "original": "Chyna [Joanie Laurer], American professional wrestler and reality TV star, born in Rochester, New York (d. 2016)",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 293,
+    "year": "1975",
+    "original": "Heather O'Rourke, American actress (Happy Days, Poltergeist), born in San Diego, California (d. 1988)",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 17,
+    "year": "1892",
+    "original": "Biddle University beats Livingstone College 5-0 in 1st black college football game, in Salisbury, North Carolina",
+    "score": 82,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 21,
+    "year": "1903",
+    "original": "\"Sweet Adeline\", a barbershop quartet favorite, with lyrics by Richard Husch Gerard and music by Harry Armstrong, is first sung",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 32,
+    "year": "1932",
+    "original": "Radio City Music Hall, designed by Edward Durell Stone and Donald Deskey opens at Rockerfeller Center in Manhattan, New York City",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 43,
+    "year": "1947",
+    "original": "1st \"Howdy Doody Show\" (Puppet Playhouse), telecast on NBC",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 80,
+    "year": "1995",
+    "original": "Dow Jones Industrial Average hits record 3792.93",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 102,
+    "year": "1954",
+    "original": "Bill Sharman(Boston) ends NBA free throw streak of 55 games",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 106,
+    "year": "1977",
+    "original": "Ballon d'Or: Borussia Mönchengladbach's Danish forward Allan Simonsen is named Europe's best football player ahead of Hamburg forward Kevin Keegan and Nancy midfielderMichel Platini",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 115,
+    "year": "1998",
+    "original": "Joe Sakicrecords his 1,000th career point, an assist against the St. Louis Blues",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 119,
+    "year": "2021",
+    "original": "Raheem Sterling scores to give Manchester City 1-0 win over Newcastle United at St. James' Park; EPL record 18th consecutive win; streak ends with 0-0 draw at Crystal Palace 31/12",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 161,
+    "year": "1889",
+    "original": "(Willie) \"Bunk\" Johnson, American trumpeter, traditional jazz revivalist, and raconteur, born in New Orleans, Louisiana (d. 1949) [he claimed year of birth was 1889]",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 205,
+    "year": "1996",
+    "original": "Larry Osborne, Trinidadian-British army officer and navigator air traffic controller (1st black man to reach rank of Group Captain rank), born in Trinidad (d. 1996)",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 231,
+    "year": "1942",
+    "original": "Charmian Carr, American actress (The Sound of Music), born in Chicago, Illinois (d. 2016)",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 241,
+    "year": "1941",
+    "original": "Kjeld Kirk Kristiansen, Danish businessman (CEO of Lego Group, 1979-2004), born in Billund, Denmark",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 246,
+    "year": "1956",
+    "original": "Terry Bozzio, American drummer (Missing Persons; Frank Zappa), born in San Francisco, California",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 257,
+    "year": "1957",
+    "original": "Karl Denson, American funk and jazz saxophonist, flutist and vocalist (Lenny Kravitz; Tiny Universe), born in Santa Ana, California",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 258,
+    "year": "1958",
+    "original": "Daniel Levitin, American-Canadian cognitive psychologist, writer (This Is Your Brain on Music: The Science of a Human Obsession), record producer, and musician, born in San Francisco, California",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 292,
+    "year": "1972",
+    "original": "Wilson Cruz [Echevarría], American stage and screen actor (My So Called Life; Party of Five), born in Brooklyn, NYC",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 310,
+    "year": "1988",
+    "original": "Lily Cole, English model and actress, born in Torquay, England",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 311,
+    "year": "1988",
+    "original": "Rick Porcello, American baseball pitcher (World Series 2018, AL Cy Young Award & MLB wins leader 2016 Boston Red Sox), born in Morristown, New Jersey",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 313,
+    "year": "313",
+    "original": "Olivia Cooke, English actress (House of the Dragon, Ready Player One), born in Oldham, England",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 315,
+    "year": "2001",
+    "original": "Briar Nolet, Canadian dancer and actress (The Next Step; Blood Hunters), born in Toronto, Ontario",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 79,
+    "year": "1972",
+    "original": "13th United Negro College Fund raises $11,000,000",
+    "score": 79,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 78,
+    "year": "1991",
+    "original": "Bengals hire Dave Shula as youngest NFL coach (32)",
+    "score": 78,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 77,
+    "year": "1983",
+    "original": "Edmonton Oilers beat the Calgary Flames, 4-1 to record their 500th all-time NHL victory; set in just 915 games for a record of 500-295-120, good for a winning % of .612; best in history upon reaching milestone",
+    "score": 77,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 11,
+    "year": "1842",
+    "original": "Ether 1st used in childbirth in US in Jefferson, Georgia",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 12,
+    "year": "1910",
+    "original": "Hawaiian Fire Department established",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 33,
+    "year": "1934",
+    "original": "1st youth hostel in US opens (Northfield, Mass)",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 75,
+    "year": "1990",
+    "original": "Bulgaria stops jamming Radio Free Europe after more than 3 decades",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 101,
+    "year": "1949",
+    "original": "Queen Julianaof the Netherlands grants independence to Indonesia",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 109,
+    "year": "1983",
+    "original": "Australian Dennis Lillee becomes the leading wicket-taker in test cricket with 310 wickets",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 113,
+    "year": "1987",
+    "original": "Ballon d'Or: Milan 1-2-3; Dutch striker Marco van Basten wins his 1st of 3 best football player in Europe awards ahead of Ruud Gullit and Frank Rijkaard",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 165,
+    "year": "1968",
+    "original": "Sir John Layton Jarvis, English thoroughbred race horse trainer (9 x British Classic Races; 3 x British flat racing Champion Trainer), born in Newmarket, England (d. 1968)",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 181,
+    "year": "1906",
+    "original": "Oscar Levant, American pianist, composer, and actor (An American in Paris; Dance of Life), born in Pittsburgh, Pennsylvania (d. 1972)",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 203,
+    "year": "1987",
+    "original": "(Mitchell) \"Booty\" Wood, American jazz trombonist (Lionel Hampton, Erskine Hawkins, Count Basie, Duke Ellington), born in Wedowee, Alabama (d. 1987)",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 204,
+    "year": "1938",
+    "original": "Bruce Hobbs, American jockey (youngest to ride winner of English Grand National on Battleship 1938), born on Long Island, New York (d. 2005)",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 212,
+    "year": "1963",
+    "original": "Jacqueline Fontyn, Belgian pianist, contemporary classical composer (Vent d'Est for Accordion and Strings; Halo for Harp), and music educator (1963-90), born in Antwerp, Belgium",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 226,
+    "year": "2024",
+    "original": "John Amos, American actor (Good Times; Roots; Coming to America; The West Wing), born in Newark, New Jersey (d. 2024)",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 232,
+    "year": "1941",
+    "original": "Mike Heron, Scottish folk-rock singer-songwriter (Incredible String Band, 1965-74, 1999-2006), born in Edinburgh, Scotland",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 234,
+    "year": "1943",
+    "original": "Joan Manuel Serrat, Spanish pop, rock and nueva canción singer-songwriter, born in Barcelona, Spain",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 236,
+    "year": "1952",
+    "original": "Mick Jones, English rock guitarist (Foreigner - \"I Want to Know What Love Is\"), born in Portsmouth, Hampshire, England",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 244,
+    "year": "1949",
+    "original": "T.S. Monk [Thelonious Sphere Monk III], American jazz drummer, composer, and bandleader, born in New York City",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 248,
+    "year": "1948",
+    "original": "Karla Bonoff, American rock singer-songwriter (Restless Nights; \"Someone To Lay Down Beside Me\"), born in Santa Monica, California",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 273,
+    "year": "1964",
+    "original": "Ian Gomez, American actor (Cougar Town), born in New York City",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 282,
+    "year": "1994",
+    "original": "Jean-Christophe Boullion, French auto racer (International Formula 3000 Series 1994; European Le Mans Series 2005, 06), born in Saint-Brieuc, France",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 294,
+    "year": "1977",
+    "original": "Carson Palmer, American NFL quarterback (Heisman Trophy 2002, USC; Pro Bowl 2005, 06, 15; Cincinnati Bengals, Arizona Cardinals), born in Fresno, California",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 295,
+    "year": "1985",
+    "original": "Siobhán McSweeney, Irish actress and TV presenter (Derry Girls, The Great Pottery Thrown Down), born in Aherla, Ireland",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 309,
+    "year": "1980",
+    "original": "Metrik [Tom Mundell], British electronic dance music producer and re-mixer (\"Freefall\"; \"Gravity\"; \"Chasing Sunrise\"), born in London, England",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 312,
+    "year": "1988",
+    "original": "Milos Raonic, Canadian tennis player (8 ATP titles), born in Titograd, Montenegro",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 73,
+    "year": "1989",
+    "original": "Steve Largent sets all-time NFL record for career catches when he catches his 752nd pass",
+    "score": 73,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 72,
+    "year": "1987",
+    "original": "Musical \"Les Misérables\" opens in the US at the Kennedy Center, Washington, D.C.",
+    "score": 72,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 18,
+    "year": "1892",
+    "original": "Foundation Stone of Cathedral of St John laid (NYC)",
+    "score": 70,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 48,
+    "year": "1966",
+    "original": "Ballon d'Or: Manchester United midfielder Bobby Charlton wins award for best European football player; claims award by a single point ahead of Benfica striker Eusébio",
+    "score": 70,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 105,
+    "year": "1967",
+    "original": "Columbia Records releases Leonard Cohen's debut album \"Songs of Leonard Cohen\"",
+    "score": 70,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 146,
+    "year": "1826",
+    "original": "Jane Wilde, Irish poet, nationalist and mother of Oscar Wilde, born in Wexford (d. 1896)",
+    "score": 70,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 151,
+    "year": "1832",
+    "original": "Pavel Tretyakov, Russian businessman and patron of art, born in Moscow (d. 1897)",
+    "score": 70,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 157,
+    "year": "1952",
+    "original": "Joseph Lauber, Swiss concert pianist and composer, born in Ruswil, Switzerland (d. 1952)",
+    "score": 70,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 171,
+    "year": "1920",
+    "original": "Paul Costello, American rower (Olympic gold double sculls 1920, 24, 28), born in Philadelphia, Pennsylvania (d. 1986)",
+    "score": 70,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 173,
+    "year": "1955",
+    "original": "Arch Ward, American sportswriter (Chicago Tribune - proposed baseball's all-star game), born in Chicago, Illinois (d. 1955)",
+    "score": 70,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 183,
+    "year": "2002",
+    "original": "Conrad L. Raiford, Goodwill Ambassador (d. 2002)",
+    "score": 70,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 184,
+    "year": "1905",
+    "original": "Eddie Wilcox, American jazz pianist, arranger, and bandleader (Jimmie Lunceford Orchestra), born in Method, North Carolina (d. 1968)",
+    "score": 70,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 197,
+    "year": "1910",
+    "original": "Mary Kornman, American actress (Desert Trail, Queen of the Jungle, Swing it Professor), born in Idaho Falls (d. 1973)",
+    "score": 70,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 222,
+    "year": "2020",
+    "original": "Lee Grosscup, American football quarterback (NY Jets, NY Titans) and sportscaster (college football analyst ABC; Cal Berkeley), born in Santa Monica, California (d. 2020)",
+    "score": 70,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 233,
+    "year": "2019",
+    "original": "Corrine \"Cokie\" Roberts, American journalist, pioneering newscaster (ABC; NPR; PBS), and author, born in New Orleans, Louisiana (d. 2019)",
+    "score": 70,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 237,
+    "year": "1945",
+    "original": "Tracy Nelson, American blues rock singer (Mother Earth), born in Madison, Wisconsin",
+    "score": 70,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 239,
+    "year": "1953",
+    "original": "(Alan) \"Albhy\" Galuten, American Grammy Award-winning record producer, composer, and arranger (Bee Gees), born in Hartsdale, New York",
+    "score": 70,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 242,
+    "year": "1969",
+    "original": "Larry Byrom, American rock guitarist (Steppenwolf, 1969-71), born in Huntsville, Alabama",
+    "score": 70,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 243,
+    "year": "2020",
+    "original": "Martin Birch, British sound engineer (Fleetwood Mac; Deep Purple ) and record producer (Whitesnake; Iron Maiden), born in Woking, Surrey, England (d. 2020)",
+    "score": 70,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 245,
+    "year": "1957",
+    "original": "Roberto Bettega, Italian soccer forward (42 caps; Juventus 326 games, 129 goals), born in Turin, Italy",
+    "score": 70,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 249,
+    "year": "1978",
+    "original": "Craig Reynolds, American baseball shortstop who was MLB All Star 1978, 79; Seattle Mariners, Houston Astros, born in Houston, Texas",
+    "score": 70,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 252,
+    "year": "1952",
+    "original": "Tovah Feldshuh, American actress (Idolmaker, Terror out of the Sky), born in New York City",
+    "score": 70,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 253,
+    "year": "1969",
+    "original": "Arthur Kent [The Scud Stud], American newscaster (prominent Gulf War coverage for NBC), born in Alberta, Canada",
+    "score": 70,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 260,
+    "year": "1996",
+    "original": "Steve Jones, American golfer (US Open 1996, 8 PGA Tour titles), born in Artesia, New Mexico",
+    "score": 70,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 264,
+    "year": "1965",
+    "original": "Maryam D'Abo, actress (Living Daylights, Xtro, Until Sept), born in London, England",
+    "score": 70,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 268,
+    "year": "1999",
+    "original": "Mark Few, American basketball coach (Gonzaga University 1999-present; AP Coach of the Year 2017; Naismith Coach of the Year 2017, 21), born in Creswell, Oregon",
+    "score": 70,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 269,
+    "year": "1969",
+    "original": "Sherri Steinhauer, American golfer (du Maurier Classic 1992, British Open 2006), born in Madison, Wisconsin",
+    "score": 70,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 270,
+    "year": "2000",
+    "original": "Timothy Hacker, 10k runner, born in Milwaukee, Wisconsin",
+    "score": 70,
+    "is_kid_friendly": true
+  }
+]

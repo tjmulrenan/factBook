@@ -1,0 +1,22 @@
+[
+  {
+    "id": "901",
+    "title": "Spreading Smiles Around the World",
+    "story": "People all over the planet celebrate World Kindness Day on November 13 by doing extra nice things for others! Kids might help a classmate with homework, hold doors open for strangers, or leave encouraging notes in library books. Adults pay for someone's coffee, donate clothes, or simply give more hugs. Schools organize kindness challenges where students try to complete acts of kindness throughout the day. Social media fills up with #WorldKindnessDay posts showing people's good deeds and inspiring others to join in.",
+    "activity_question": "What might kids do to celebrate World Kindness Day?",
+    "activity_choices": [
+      "Help a classmate with homework",
+      "Eat extra candy",
+      "Stay inside all day",
+      "Ignore their friends"
+    ],
+    "activity_answer": "Help a classmate with homework",
+    "follow_up_question": "What's the kindest thing someone has ever done for you?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  }
+]

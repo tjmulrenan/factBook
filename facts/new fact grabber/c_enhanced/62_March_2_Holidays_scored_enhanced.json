@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Cat in the Hat Day Madness!",
+    "story": "Red and white striped hats pop up everywhere on March 2 as kids and grown-ups celebrate Dr. Seuss Day! Schools transform into Whoville with crazy hat contests, green eggs and ham for lunch, and students reading favorite Seuss books aloud. Libraries host Thing One and Thing Two costume parades, while teachers speak in rhymes all day long. Some classrooms even have backwards day where kids wear clothes inside-out like the Wocket in their Pocket! Bookstores give away free Cat in the Hat stickers, and families snuggle up to read \"One Fish, Two Fish\" together. It's the perfect day to discover that reading is pure magic and silliness rolled into one fantastic adventure!",
+    "activity_question": "What do schools often serve for lunch on Dr. Seuss Day?",
+    "activity_choices": [
+      "Green eggs and ham",
+      "Purple pancakes and bacon",
+      "Blue cookies and milk",
+      "Rainbow sandwiches"
+    ],
+    "activity_answer": "Green eggs and ham",
+    "follow_up_question": "What's your favorite Dr. Seuss book and why does it make you smile?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 95
+  },
+  {
+    "id": "902",
+    "title": "Books Take Over America!",
+    "story": "Every March 2, schools across America turn into reading wonderlands for Read Across America Day! Teachers dress up as favorite book characters, from the Cat in the Hat to Harry Potter. Students bring blankets and stuffed animals for cozy reading time. Libraries host special story hours with silly voices and dramatic readings. Many classrooms have reading marathons where kids try to read as many books as possible in one day. It's like a giant book party that celebrates how awesome reading can be!",
+    "activity_question": "What do teachers often do on Read Across America Day?",
+    "activity_choices": [
+      "Dress up as book characters",
+      "Give extra homework",
+      "Cancel all classes",
+      "Only teach math"
+    ],
+    "activity_answer": "Dress up as book characters",
+    "follow_up_question": "Which book character would you most want your teacher to dress up as?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  },
+  {
+    "id": "903",
+    "title": "National Old Stuff Day: Treasures and Trash",
+    "story": "Every March 2, people celebrate National Old Stuff Day by digging through attics, basements, and closets to rediscover forgotten treasures! Some families spend the day sorting through old photo albums, vintage toys, and grandparents' keepsakes. Others visit antique shops, flea markets, or garage sales hunting for cool old items. Many people share pictures of their oldest possessions on social media, from ancient family recipes to worn-out teddy bears that have been loved for decades.",
+    "activity_question": "Where do people typically look for old stuff on this holiday?",
+    "activity_choices": [
+      "Attics, basements, and closets",
+      "Swimming pools and playgrounds",
+      "New shopping malls",
+      "School cafeterias"
+    ],
+    "activity_answer": "Attics, basements, and closets",
+    "follow_up_question": "What's the oldest thing you own, and what makes it special to you?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "904",
+    "title": "Oink-tastic National Pig Day Fun!",
+    "story": "Pigs get the spotlight they deserve every March 2 on National Pig Day! People celebrate these smart, adorable animals by visiting farms, petting zoos, and pig sanctuaries to meet real pigs up close. Many families cook bacon or ham for breakfast, while others prefer to honor pigs by sharing cute pig photos on social media instead. Schools often read books about pigs, and some kids even dress up like their favorite pig characters. Pig lovers post videos of pigs doing tricks, since pigs are actually smarter than dogs and can learn their names, play games, and solve puzzles. It's a day to appreciate these amazing animals!",
+    "activity_question": "According to the story, pigs are smarter than which common pet?",
+    "activity_choices": [
+      "Dogs",
+      "Cats",
+      "Hamsters",
+      "Flying unicorns"
+    ],
+    "activity_answer": "Dogs",
+    "bonus_fact": "Pigs can't actually sweat, so they roll in mud to stay cool!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  }
+]

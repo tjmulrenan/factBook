@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "original": "Universal Children's Day",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "Transgender Day of Remembrance",
+    "score": 30,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 3,
+    "original": "National Peanut Butter Fudge Day",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "Africa Industrialization Day",
+    "score": 44,
+    "is_kid_friendly": false
+  }
+]

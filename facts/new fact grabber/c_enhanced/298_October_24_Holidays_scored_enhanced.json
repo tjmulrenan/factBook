@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Bologna Gets Its Big Day!",
+    "story": "Every October 24, bologna lovers across America celebrate National Bologna Day by honoring this classic lunch meat! People share their favorite bologna sandwich recipes on social media, with some getting creative by adding pickles, cheese, or even potato chips for extra crunch. Delis and grocery stores often put bologna on sale, and families pack bologna sandwiches for school lunches to join the fun. Some people fry their bologna until the edges curl up, creating little bologna cups that kids think look hilarious. It's a simple way to celebrate a food that's been filling lunch boxes for generations!",
+    "activity_question": "What do some people add to their bologna sandwiches for extra crunch?",
+    "activity_choices": [
+      "Potato chips",
+      "Ice cubes",
+      "Rubber bands",
+      "Glitter"
+    ],
+    "activity_answer": "Potato chips",
+    "bonus_fact": "Bologna is named after the Italian city of Bologna, where a similar sausage was first made!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "902",
+    "title": "Tiny Drops, Big Protection Day",
+    "story": "Every October 24, people around the world celebrate World Polio Day by remembering how vaccines protect us from a scary disease called polio. Doctors, nurses, and volunteers share stories about giving tiny drops of vaccine to children everywhere. Schools teach kids how vaccines work like superhero shields for our bodies. Many people wear purple ribbons and post photos online to spread awareness about staying healthy and safe.",
+    "activity_question": "What do vaccines do for our bodies according to the story?",
+    "activity_choices": [
+      "Work like superhero shields",
+      "Make us grow taller",
+      "Change our eye color",
+      "Help us run faster"
+    ],
+    "activity_answer": "Work like superhero shields",
+    "follow_up_question": "What other vaccines have you received to keep you healthy?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  }
+]

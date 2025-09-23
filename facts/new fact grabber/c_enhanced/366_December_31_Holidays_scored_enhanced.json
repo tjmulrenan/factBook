@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Countdown to Confetti and Chaos!",
+    "story": "Millions of people around the world throw the biggest party of the year on December 31! New Year's Eve celebrations kick off with fancy dinners, sparkly outfits, and countdown parties that last all night. At exactly midnight, fireworks explode across the sky while people cheer, kiss, hug, and make wishes for the coming year. In Times Square, over a million people gather to watch a giant glittering ball drop as they count down the final seconds together. Party hats, noisemakers, and confetti fill the air as everyone shouts \"Happy New Year!\" Social media explodes with celebration photos and midnight selfies from every time zone around the globe.",
+    "activity_question": "What happens at exactly midnight on New Year's Eve?",
+    "activity_choices": [
+      "People eat birthday cake and sing songs",
+      "Fireworks explode and people cheer for the new year",
+      "Everyone goes to sleep early",
+      "People exchange Halloween candy"
+    ],
+    "activity_answer": "Fireworks explode and people cheer for the new year",
+    "follow_up_question": "What special wish or goal would you make for your new year?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Make Up Your Mind Day Magic",
+    "story": "December 31 is Make Up Your Mind Day, when people finally tackle all those decisions they've been putting off! Some folks choose what book to read next, pick a new hobby, or decide on their favorite pizza topping once and for all. Others make bigger choices about goals or changes they want in their lives. It's the perfect day to stop saying \"maybe later\" and start saying \"yes\" or \"no\" instead!",
+    "activity_question": "What do people do on Make Up Your Mind Day?",
+    "activity_choices": [
+      "Make decisions they've been avoiding",
+      "Change their hairstyle only",
+      "Eat only indecisive foods",
+      "Flip coins all day long"
+    ],
+    "activity_answer": "Make decisions they've been avoiding",
+    "follow_up_question": "What's one decision you've been putting off that you could make today?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  }
+]

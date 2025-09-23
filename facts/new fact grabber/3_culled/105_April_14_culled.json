@@ -1,0 +1,542 @@
+[
+  {
+    "id": 218,
+    "year": "1912",
+    "original": "RMS Titanic, the world's largest ocean liner, hits an iceberg at 11:40pm off Newfoundland and sinks in the early hours of April 15",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 1
+  },
+  {
+    "id": 108,
+    "year": "1981",
+    "original": "The first Space Shuttle, Columbia, returns to Earth after 2 days and 6 hours in space",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 2
+  },
+  {
+    "id": 134,
+    "year": "2003",
+    "original": "The Human Genome Project is completed with 99% of the human genome sequenced to an accuracy of 99.99%",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 3
+  },
+  {
+    "id": 196,
+    "year": "1993",
+    "original": "\"Bill Nyethe Science Guy\" starring Bill Nye debuts on KCTS-TV in the US",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 4
+  },
+  {
+    "id": 168,
+    "year": "1894",
+    "original": "First public showing ofThomas Edison's Kinetoscope (moving pictures)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 5
+  },
+  {
+    "id": 142,
+    "year": "2015",
+    "original": "Archaeologists announce they have found 3.3 million-year-old stone tools at Lomekwi in Kenya, the oldest ever discovered and predating the earliest humans",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 6
+  },
+  {
+    "id": 137,
+    "year": "2010",
+    "original": "Icelandic Volcano Eyjafjallajökull begins erupting from the top crater in the centre of the glacier",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 7
+  },
+  {
+    "id": 158,
+    "year": "2023",
+    "original": "European Space Agency's mission to Jupiter's moons, the Juice satellite launches on an Ariane-5 rocket from the Kourou spaceport in French Guiana",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 8
+  },
+  {
+    "id": 252,
+    "year": "1866",
+    "original": "Anne Sullivan [Johanna Macy], American teacher who educated Helen Keller, born in Feeding Hills, Massachusetts (d. 1936)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 9
+  },
+  {
+    "id": 219,
+    "year": "1958",
+    "original": "Soviet spacecraft Sputnik 2 with space dog Laika aboard burns up during reentry into Earth's atmosphere",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 10
+  },
+  {
+    "id": 155,
+    "year": "2021",
+    "original": "Human cells grown in monkey cells for 20 days reported by US-Chinese team at the Salk Institute in \"Cell\"",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 11
+  },
+  {
+    "id": 324,
+    "year": "1929",
+    "original": "Gerry Anderson, English television producer (Thunderbirds; Space:1999), born in Bloomsbury, London (d. 2012)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 12
+  },
+  {
+    "id": 373,
+    "year": "1950",
+    "original": "Francis Collins, American scientist who led the Human Genome Project, born in Staunton, Virginia",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 13
+  },
+  {
+    "id": 88,
+    "year": "1961",
+    "original": "Element 103, Lawrencium, is added to the periodic table",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 14
+  },
+  {
+    "id": 55,
+    "year": "1932",
+    "original": "World's first particle accelerator built by Ernest Walton and John Cockcroft performs the first artificial nuclear fission with Lithium at Cambridge University",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 15
+  },
+  {
+    "id": 56,
+    "year": "1935",
+    "original": "Black Sunday dust storm ravages the US Midwest, leading to the region being named the \"Dust Bowl\"",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 16
+  },
+  {
+    "id": 23,
+    "year": "1831",
+    "original": "Soldiers marching on a bridge in Manchester, England, cause it to collapse.",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 17
+  },
+  {
+    "id": 36,
+    "year": "1896",
+    "original": "US Patent Office issues Patent No. 558,393 to Dr John Harvey Kellogg of Battle Creek, Michigan for \"flaked cereal, and process of making same\"",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 18
+  },
+  {
+    "id": 165,
+    "year": "1841",
+    "original": "First detective story is published,Edgar Allan Poe's \"The Murders in the Rue Morgue\" [April 1841]",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 19
+  },
+  {
+    "id": 147,
+    "year": "2019",
+    "original": "Seychelles President Danny Faure makes first-ever live speech from a submersible pleading for better marine protection",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 20
+  },
+  {
+    "id": 342,
+    "year": "1935",
+    "original": "Ioannis V. Yannas, Greek-American physical chemist and co-inventor of artificial skin, born in Athens, Greece[1]",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 21
+  },
+  {
+    "id": 357,
+    "year": "1944",
+    "original": "Arogyaswami Paulraj, Indian engineer and inventor (MIMO Wireless Technology), born in Pollachi, Tamil Nadu, British India[1]",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 22
+  },
+  {
+    "id": 375,
+    "year": "1951",
+    "original": "Gregory \"Greg\" Winter, British biochemist (Nobel Prize in Chemistry 2018) known for the therapeutic use of antibodies, born in Leicester, England",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 23
+  },
+  {
+    "id": 388,
+    "year": "1957",
+    "original": "Henrik Stiesdal, Danish inventor and engineer (1st off shore wind farm), born in Hørsholm, Denmark",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 24
+  },
+  {
+    "id": 85,
+    "year": "1960",
+    "original": "1st underwater launching of Polaris missile",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 25
+  },
+  {
+    "id": 208,
+    "year": "2018",
+    "original": "Beyoncéis the first black woman to headline the Coachella Music Festival, her performance on this day the most-watched performance ever on YouTube",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 26
+  },
+  {
+    "id": 206,
+    "year": "2017",
+    "original": "Kendrick Lamarreleases his fourth studio album \"DAMN.\" (2018 Pulitzer Prize for Music)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 27
+  },
+  {
+    "id": 192,
+    "year": "1983",
+    "original": "EMI America Records releasesDavid Bowie's 15th studio album, \"Let's Dance\"; co-produced by Bowie and Nile Rodgers, it becomes his biggest commercial success with sales of nearly 11 million units, topping the charts in 9 countries, and introduces guitaristStevie Ray Vaughanto a larger audience",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 28
+  },
+  {
+    "id": 185,
+    "year": "1963",
+    "original": "Quiet BeatleGeorge Harrisonis impressed by unsigned British blues band \"Rolling Stones\"",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 29
+  },
+  {
+    "id": 384,
+    "year": "1954",
+    "original": "Katsuhiro Otomo, Japanese manga artist and animator, \"Akira\", born in Tome, Japan",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 30
+  },
+  {
+    "id": 69,
+    "year": "1948",
+    "original": "A flash of light is observed in crater Plato on Moon",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 31
+  },
+  {
+    "id": 49,
+    "year": "1923",
+    "original": "Etienne Oehmichen sets helicopter distance record of 358 meters",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 32
+  },
+  {
+    "id": 166,
+    "year": "1858",
+    "original": "AbolitionistJohn BrownmeetsHarriet Tubmanat a Constitutional Convention convened in Chatham, Ontario",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 33
+  },
+  {
+    "id": 214,
+    "year": "1828",
+    "original": "Noah Websterregisters the copyright for the publication of the first American dictionary titled \"An American Dictionary of the English Language\"",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 34
+  },
+  {
+    "id": 215,
+    "year": "1860",
+    "original": "1st Pony Express rider arrives in San Francisco from St Joseph, Missouri",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 35
+  },
+  {
+    "id": 160,
+    "year": "2024",
+    "original": "British Columbia signs historic Gaayhllxid • Gíhlagalgang “Rising Tide” agreement recognizing Haida Gwaii's Aboriginal title over more than 200 islands off Canada’s west coast",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 36
+  },
+  {
+    "id": 15,
+    "year": "1611",
+    "original": "Word \"telescope\" is 1st used by Prince Federico Cesi",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 37
+  },
+  {
+    "id": 41,
+    "year": "1914",
+    "original": "Dr. Harry Plotz isolates the bacteria that causes typhus fever at Mount Sinai Hospital in NYC",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 38
+  },
+  {
+    "id": 58,
+    "year": "1940",
+    "original": "RCA demonstrated its new electron microscope in Philadelphia",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 39
+  },
+  {
+    "id": 81,
+    "year": "1956",
+    "original": "Ampex Corp demonstrates 1st commercial videotape recorder",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 40
+  },
+  {
+    "id": 172,
+    "year": "1910",
+    "original": "US PresidentWilliam Howard Taftbegins tradition of throwing ceremonial first pitch on Opening Day of baseball season",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 41
+  },
+  {
+    "id": 173,
+    "year": "1914",
+    "original": "US head ofFirestoneTire and Rubber Company Stacy G. Carkhuff patents non-skid tire pattern",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 42
+  },
+  {
+    "id": 194,
+    "year": "1986",
+    "original": "Desmond Tutuelected Anglican Archbishop of Capetown, South Africa",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 43
+  },
+  {
+    "id": 199,
+    "year": "2002",
+    "original": "66th US Masters Tournament:Tiger Woodsbecomes the third player to claim back-to-back Masters, three strokes ahead of Retief Goosen of South Africa",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 44
+  },
+  {
+    "id": 186,
+    "year": "1964",
+    "original": "LA Dodgers' future Baseball Hall of Fame pitcherSandy Koufaxthrows his 9th complete game without allowing a walk in 4-0 Opening Day win over St. Louis Cardinals",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 45
+  },
+  {
+    "id": 152,
+    "year": "2021",
+    "original": "Chicago White Sox pitcher Carlos Rodón no-hits the Cleveland Indians, 8-0 at Guaranteed Rate Field, Chicago",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 46
+  },
+  {
+    "id": 93,
+    "year": "1969",
+    "original": "First regular-season MLB game played outside the United States; Montreal Expos beat St. Louis Cardinals, 8-7 at Parc Jarry, Montreal",
+    "score": 93,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 47
+  },
+  {
+    "id": 92,
+    "year": "1968",
+    "original": "First NBA game at New York's iconic Madison Square Garden; NY Knicks beat San Diego Rockets, 114-102",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 48
+  },
+  {
+    "id": 131,
+    "year": "1996",
+    "original": "Detroit Red Wings win NHL record 62 games",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 49
+  },
+  {
+    "id": 82,
+    "year": "1957",
+    "original": "Leah Neuberger wins her 8th women's singles ping pong championship",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 56
+  },
+  {
+    "id": 86,
+    "year": "1960",
+    "original": "Stanley Cup Final, Maple Leaf Gardens, Toronto, ON: Montreal Canadiens beat Toronto Maple Leafs, 4-0 for a 4 game sweep; 5th consecutive title",
+    "score": 86,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 51
+  },
+  {
+    "id": 182,
+    "year": "1955",
+    "original": "26-year-old catcher/outfielderElston Howardbecomes first African-American to play for NY Yankees; hits single with 1 RBI in 8-4 loss to Boston Red Sox",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 52
+  },
+  {
+    "id": 183,
+    "year": "1960",
+    "original": "American record company Motown, founded byBerry GordyJr, is incorporated as Motown Record Corporation in Detroit. Michigan",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 53
+  },
+  {
+    "id": 132,
+    "year": "1999",
+    "original": "A severe hailstorm strikes Sydney, Australia causing A$1.7 billion in insured damages, the most costly natural disaster in Australian history",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 54
+  },
+  {
+    "id": 112,
+    "year": "1985",
+    "original": "Ahmed Salah wins 1st World Cup marathon (2:08:09)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 55
+  },
+  {
+    "id": 130,
+    "year": "1995",
+    "original": "India beats Sri Lanka to win the Asia Cricket Cup final in Sharjah",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 57
+  },
+  {
+    "id": 259,
+    "year": "1876",
+    "original": "Cecil Chubb, English barrister, gifted Stonehenge to the British nation, born in Shrewton (d. 1934)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 58
+  },
+  {
+    "id": 307,
+    "year": "1922",
+    "original": "Ali Akbar Khan, Indian classical sarod player, composer, and music educator, born in Shibpur, Bengal Presidency, British India (d. 2009)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 59
+  },
+  {
+    "id": 354,
+    "year": "1942",
+    "original": "Valentin Lebedev, Soviet cosmonaut (Soyuz 13, 35, T-5), born in Moscow, Russia",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 60
+  },
+  {
+    "id": 355,
+    "year": "1943",
+    "original": "Clarice Elaine Gaylord, American environmentalist and the first director of the Office of Environmental Justice, born in Los Angeles, California",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 61
+  }
+]

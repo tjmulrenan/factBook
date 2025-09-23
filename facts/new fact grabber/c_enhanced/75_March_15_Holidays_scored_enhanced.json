@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Pears Helene: The Fancy Dessert Day",
+    "story": "Every March 15, dessert lovers celebrate National Pears Helene Day by enjoying this elegant French treat! Pears Helene features poached pears served with vanilla ice cream and warm chocolate sauce. Restaurants often put this classic dessert on special menus, while home cooks try making their own versions using canned or fresh pears.",
+    "activity_question": "What are the main ingredients in Pears Helene?",
+    "activity_choices": [
+      "Poached pears, vanilla ice cream, and chocolate sauce",
+      "Apple slices, whipped cream, and caramel",
+      "Peach halves, sherbet, and strawberry syrup",
+      "Pear juice, frozen yogurt, and sprinkles"
+    ],
+    "activity_answer": "Poached pears, vanilla ice cream, and chocolate sauce",
+    "bonus_fact": "This dessert was named after a famous French opera called 'La Belle Hélène.'",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 48
+  },
+  {
+    "id": "902",
+    "title": "National Everything You Think Is Wrong Day",
+    "story": "Every March 15, people celebrate National Everything You Think Is Wrong Day by questioning all their assumptions and beliefs! This quirky holiday encourages everyone to consider that maybe, just maybe, they might be wrong about something. People share surprising facts that challenge common beliefs, like how goldfish actually have great memories or that lightning can strike the same place twice. Schools use this day to teach critical thinking, while families play games where they guess which \"facts\" are actually myths. Social media fills with mind-blowing posts that make people say \"Wait, really?\" It's the perfect day to stay curious, ask questions, and remember that learning new things means admitting we don't know everything.",
+    "activity_question": "What do people often share on social media during this holiday?",
+    "activity_choices": [
+      "Surprising facts that challenge common beliefs",
+      "Photos of their breakfast",
+      "Complaints about the weather",
+      "Pictures of their pets sleeping"
+    ],
+    "activity_answer": "Surprising facts that challenge common beliefs",
+    "follow_up_question": "What's one thing you're absolutely sure about that might actually be wrong?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 92
+  },
+  {
+    "id": "903",
+    "title": "Spill the Beans Day!",
+    "story": "Every March 15, people celebrate National True Confessions Day by sharing secrets they've been keeping inside! Some folks confess silly things like eating the last cookie or forgetting to feed the fish. Others admit bigger truths to friends and family. Social media fills up with honest posts about embarrassing moments, hidden talents, or funny mistakes. The idea is that telling the truth feels good and brings people closer together. It's like a giant game of honesty where everyone gets to clear their conscience and maybe laugh about their goofy secrets!",
+    "activity_question": "What do people often share on National True Confessions Day?",
+    "activity_choices": [
+      "Secrets they've been keeping inside",
+      "Their favorite pizza toppings",
+      "Tomorrow's weather forecast",
+      "Math homework answers"
+    ],
+    "activity_answer": "Secrets they've been keeping inside",
+    "follow_up_question": "What's a harmless secret you might feel good about sharing?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  }
+]

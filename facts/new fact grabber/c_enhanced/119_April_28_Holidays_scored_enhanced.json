@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Berry Delicious Pie Day!",
+    "story": "Purple-stained fingers and happy faces fill kitchens across America on April 28 for National Blueberry Pie Day! Families roll out pie crusts, mix fresh or frozen blueberries with sugar and spices, then bake golden masterpieces that smell absolutely amazing. Bakeries showcase their best blueberry creations, while home bakers share photos of their flaky-crusted pies on social media. Some people host pie-eating contests or potluck parties where everyone brings a different berry dessert. The day celebrates one of America's most beloved fruit pies, and many families use it as an excuse to pick fresh blueberries or visit local farms that grow these tiny purple gems.",
+    "activity_question": "What do families typically do with blueberries on National Blueberry Pie Day?",
+    "activity_choices": [
+      "Mix them with sugar and spices to bake pies",
+      "Paint their faces purple with them",
+      "Use them as tiny bowling balls",
+      "Plant them in their shoes"
+    ],
+    "activity_answer": "Mix them with sugar and spices to bake pies",
+    "bonus_fact": "Blueberries are one of the few foods that are naturally blue in color!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "902",
+    "title": "Great Poetry Reading Day Gets Voices Moving",
+    "story": "Poets everywhere grab their favorite verses and start reading aloud on April 28 for Great Poetry Reading Day! Libraries host poetry slams where kids share funny rhymes about pizza or pets. Schools organize reading circles where students discover poems about dragons and friendship. Some families even read silly limericks at dinner, making everyone giggle between bites.",
+    "activity_question": "Where do kids often share funny rhymes on Great Poetry Reading Day?",
+    "activity_choices": [
+      "At poetry slams in libraries",
+      "In swimming pools",
+      "At the grocery store",
+      "During math class only"
+    ],
+    "activity_answer": "At poetry slams in libraries",
+    "follow_up_question": "What kind of poem would you write about your favorite food?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 42
+  },
+  {
+    "id": "903",
+    "title": "Hairball Awareness Day Gets Fuzzy",
+    "story": "Cats everywhere get extra attention on April 28 during National Hairball Awareness Day! This quirky holiday reminds pet owners to help their furry friends deal with those gross but natural hairballs. People share tips online about special brushes, hairball-control cat food, and grooming tricks. Veterinarians post helpful advice about when hairballs become serious health problems. Cat lovers flood social media with funny hairball stories and photos of their well-groomed pets. It's a day that turns an icky cat problem into something people actually talk about and learn from!",
+    "activity_question": "What do people share online during National Hairball Awareness Day?",
+    "activity_choices": [
+      "Tips about brushes and grooming tricks",
+      "Recipes for homemade cat treats",
+      "Videos of cats doing backflips",
+      "Instructions for building cat houses"
+    ],
+    "activity_answer": "Tips about brushes and grooming tricks",
+    "bonus_fact": "Cats spend up to 50% of their day grooming themselves!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  }
+]

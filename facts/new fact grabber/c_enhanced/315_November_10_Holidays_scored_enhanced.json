@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Science Saves the Day Every November!",
+    "story": "Scientists around the world get extra recognition on November 10 during World Science Day for Peace and Development! This special day celebrates how science helps solve big problems like climate change, diseases, and hunger. Schools organize fun experiments, science museums host special exhibits, and kids everywhere try cool projects at home. Social media fills up with amazing science facts and videos of bubbling volcanoes or dancing robots. The day reminds everyone that science isn't just about textbooks—it's about making life better for people everywhere and keeping our planet healthy for the future.",
+    "activity_question": "What do schools typically organize on World Science Day for Peace and Development?",
+    "activity_choices": [
+      "Fun experiments",
+      "Dance competitions",
+      "Spelling bees",
+      "Art contests"
+    ],
+    "activity_answer": "Fun experiments",
+    "follow_up_question": "What science experiment would you want to try on World Science Day?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "902",
+    "title": "Sunny Days on Sesame Street Day",
+    "story": "Every November 10, fans celebrate Sesame Street Day by honoring the beloved TV show that has taught kids for generations! People share their favorite Sesame Street memories on social media, post pictures with Big Bird and Cookie Monster, and sing along to classic songs like \"Sunny Days.\" Libraries and schools often host special Sesame Street story times, while families watch episodes together and practice counting with The Count or learning letters with Elmo. Some fans even bake chocolate chip cookies to honor Cookie Monster's famous snacking style. It's a day to remember how this amazing street has helped millions of children learn about friendship, kindness, and the alphabet while having tons of fun!",
+    "activity_question": "What do Cookie Monster fans sometimes bake on Sesame Street Day?",
+    "activity_choices": [
+      "Chocolate chip cookies",
+      "Birthday cake",
+      "Apple pie",
+      "Banana bread"
+    ],
+    "activity_answer": "Chocolate chip cookies",
+    "follow_up_question": "Which Sesame Street character taught you something important when you were younger?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 95
+  },
+  {
+    "id": "903",
+    "title": "Dialing Up Fun on Area Code Day",
+    "story": "Every November 10, people celebrate Area Code Day by sharing their phone number's first three digits! Area codes help connect calls across different regions. Some folks post fun facts about their area code online, while others learn about codes from places they've visited. It's a quirky way to appreciate how technology keeps us connected.",
+    "activity_question": "What do area codes help us do with phone calls?",
+    "activity_choices": [
+      "Connect calls across different regions",
+      "Make phones ring louder",
+      "Change the color of phone screens",
+      "Send text messages faster"
+    ],
+    "activity_answer": "Connect calls across different regions",
+    "bonus_fact": "The first area code ever created was 201 for northern New Jersey!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 50
+  }
+]

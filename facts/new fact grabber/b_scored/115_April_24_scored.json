@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "original": "National Pigs in a Blanket Day",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "World Day for Laboratory Animals",
+    "score": 25,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 3,
+    "original": "Armenian Genocide Remembrance Day",
+    "score": 25,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 4,
+    "original": "Fashion Revolution Day",
+    "score": 65,
+    "is_kid_friendly": true
+  }
+]

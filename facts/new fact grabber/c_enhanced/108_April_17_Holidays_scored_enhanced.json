@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Tiny Poems Pack a Big Punch",
+    "story": "Every April 17, poets and word-lovers celebrate National Haiku Poetry Day by writing tiny three-line poems! Haikus follow a special pattern: five syllables in the first line, seven in the second, and five in the third. People share their mini-masterpieces on social media, teachers host haiku contests in classrooms, and libraries hold poetry workshops where kids create verses about everything from pizza to puppies.",
+    "activity_question": "How many lines does a traditional haiku have?",
+    "activity_choices": [
+      "Three lines",
+      "Five lines",
+      "Seven lines",
+      "As many lines as a limerick about a pickle"
+    ],
+    "activity_answer": "Three lines",
+    "follow_up_question": "What would you write a haiku about today?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 51
+  },
+  {
+    "id": "902",
+    "title": "Going Batty for Our Flying Friends",
+    "story": "Bats get a bad reputation, but on April 17, people around the world celebrate Bat Appreciation Day to show love for these amazing flying mammals! Nature centers host bat walks where families learn cool facts like how bats eat thousands of mosquitoes every night. Zoos put on special bat programs, and kids make bat crafts or watch documentaries about these incredible creatures. Some people even build bat houses for their backyards! Social media fills up with bat photos and fun facts about how bats help pollinate plants and control pests. It's the perfect day to discover why bats are actually superheroes of the animal kingdom.",
+    "activity_question": "According to the story, what do bats eat thousands of every night?",
+    "activity_choices": [
+      "Mosquitoes",
+      "Pizza slices",
+      "Flower petals",
+      "Tree leaves"
+    ],
+    "activity_answer": "Mosquitoes",
+    "bonus_fact": "Some bats can live over 30 years and remember feeding spots for decades!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "903",
+    "title": "Mustang Mania: Galloping Into Car History",
+    "story": "Car lovers rev their engines and show off their shiny Ford Mustangs every April 17! This special day celebrates one of America's most famous sports cars. People organize car shows where hundreds of Mustangs line up in parking lots, from classic 1960s models to brand-new ones. Owners polish their cars until they sparkle, then cruise around town honking their horns. Some wear vintage racing jackets or cowboy hats to match their car's wild horse theme. Social media fills with photos of these beautiful machines, and car clubs host barbecues and contests for the coolest Mustang.",
+    "activity_question": "What do Ford Mustang owners often do to their cars before showing them off?",
+    "activity_choices": [
+      "Polish them until they sparkle",
+      "Paint racing stripes on them",
+      "Add extra horns for honking",
+      "Cover them with horse stickers"
+    ],
+    "activity_answer": "Polish them until they sparkle",
+    "bonus_fact": "The Ford Mustang was named after a World War II fighter plane, not a horse!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  }
+]

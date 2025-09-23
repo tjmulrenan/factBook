@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Jazz It Up Day!",
+    "story": "Saxophones wail, trumpets blare, and drums keep the beat as the world celebrates International Jazz Day on April 30! Musicians in cities everywhere host concerts, jam sessions, and street performances to honor this amazing music style. Schools teach kids about jazz legends like Louis Armstrong and Duke Ellington. Radio stations play nothing but jazz all day long. People share their favorite jazz songs online and discover new artists from around the globe.",
+    "activity_question": "What do radio stations do on International Jazz Day?",
+    "activity_choices": [
+      "Play only jazz music all day",
+      "Interview famous rock stars",
+      "Play backwards music only",
+      "Stay completely silent"
+    ],
+    "activity_answer": "Play only jazz music all day",
+    "follow_up_question": "What jazz instrument would you most like to learn to play?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "902",
+    "title": "Truth Time: National Honesty Day",
+    "story": "Every April 30, people across the country celebrate National Honesty Day by telling the truth all day long! This special holiday encourages everyone to be completely honest in their conversations, relationships, and daily interactions. Some families make it a game by sharing honest compliments or admitting funny mistakes they've made. Schools might hold honesty challenges where students practice being truthful in kind ways. Social media fills with posts about people being genuine and authentic. It's the perfect day to clear the air, apologize for small fibs, or simply practice saying exactly what you mean with kindness.",
+    "activity_question": "What do some families do to celebrate National Honesty Day?",
+    "activity_choices": [
+      "Make it a game by sharing honest compliments",
+      "Tell jokes all day long",
+      "Write secret letters to each other",
+      "Have a backwards talking contest"
+    ],
+    "activity_answer": "Make it a game by sharing honest compliments",
+    "follow_up_question": "What's one honest compliment you could give someone today?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "903",
+    "title": "Walpurgis Night: Witches Welcome Spring!",
+    "story": "Every April 30, people across Northern Europe celebrate Walpurgis Night by lighting huge bonfires to welcome spring! In Sweden, Germany, and other countries, families gather to sing songs, eat sausages, and watch flames dance against the night sky. This magical evening marks the end of winter's grip and celebrates the return of warmer days. Some people even dress up like witches and tell spooky stories around the crackling fires!",
+    "activity_question": "What do people light on Walpurgis Night to celebrate spring?",
+    "activity_choices": [
+      "Huge bonfires",
+      "Birthday candles",
+      "Christmas lights",
+      "Sparklers only"
+    ],
+    "activity_answer": "Huge bonfires",
+    "bonus_fact": "In some places, people bang pots and pans to scare away evil spirits!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  }
+]

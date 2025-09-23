@@ -1,0 +1,102 @@
+[
+  {
+    "id": "901",
+    "title": "Cookie Monsters Unite on National Cookie Day!",
+    "story": "Every December 4, cookie lovers across America celebrate National Cookie Day by baking, buying, and devouring their favorite sweet treats! Bakeries offer special deals on chocolate chip, sugar, and oatmeal cookies, while families gather in kitchens to roll dough and decorate festive shapes. Schools often host cookie exchanges where kids swap homemade goodies with friends. Social media fills with photos of perfectly frosted cookies and epic cookie fails that still taste amazing. Some people even have cookie decorating contests or try to recreate viral cookie recipes they found online. It's the sweetest day of the year!",
+    "activity_question": "What do families often do together on National Cookie Day?",
+    "activity_choices": [
+      "Gather in kitchens to bake cookies",
+      "Plant cookie trees in their yards",
+      "Write letters to cookie companies",
+      "Build cookie-shaped snowmen"
+    ],
+    "activity_answer": "Gather in kitchens to bake cookies",
+    "bonus_fact": "Americans eat over 7 billion cookies during the holiday season!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Sock It to Me Day!",
+    "story": "Your feet get their own special celebration every December 4 on National Sock Day! People show off their wildest, wackiest, and most colorful socks by posting photos online and wearing mismatched pairs to work or school. Some folks donate new socks to homeless shelters since socks are one of the most needed but least donated items. Others hunt for the perfect holiday socks with reindeer, snowflakes, or funny sayings to wear all season long.",
+    "activity_question": "What do people often do with their socks on National Sock Day?",
+    "activity_choices": [
+      "Wear mismatched pairs and show them off",
+      "Throw them in the washing machine",
+      "Hide them under their shoes",
+      "Turn them into puppets for dinner"
+    ],
+    "activity_answer": "Wear mismatched pairs and show them off",
+    "follow_up_question": "What's the most unusual pair of socks you own or have ever seen?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "903",
+    "title": "Step Into Style with Brown Shoes Day",
+    "story": "Brown shoes get their moment to shine every December 4 on Wear Brown Shoes Day! People everywhere dig through their closets to find their favorite brown boots, loafers, or sneakers to show off. Social media fills with photos of fancy leather shoes, muddy hiking boots, and even chocolate-colored high-tops. It's a simple way to celebrate one of the most versatile shoe colors around!",
+    "activity_question": "What do people post on social media during Wear Brown Shoes Day?",
+    "activity_choices": [
+      "Photos of their brown shoes",
+      "Pictures of their breakfast",
+      "Videos of dancing cats",
+      "Drawings of blue socks"
+    ],
+    "activity_answer": "Photos of their brown shoes",
+    "bonus_fact": "Brown shoes can be made from over 20 different types of leather and fabric materials!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "904",
+    "title": "Wild About Wildlife Day!",
+    "story": "December 4 brings people together worldwide to celebrate and protect amazing animals! On World Wildlife Conservation Day, families visit zoos and wildlife parks to learn about endangered species like pandas, tigers, and sea turtles. Schools organize special presentations about protecting animal habitats. Many kids create colorful posters showing their favorite wild animals and share them online with conservation messages. Wildlife organizations host virtual tours of national parks and sanctuaries. Some families adopt animals through conservation programs or donate to wildlife rescue centers. It's a perfect day to discover how small actions can help save incredible creatures around the globe!",
+    "activity_question": "What do many kids create and share online on World Wildlife Conservation Day?",
+    "activity_choices": [
+      "Colorful posters of their favorite wild animals",
+      "Videos of their pets doing tricks",
+      "Pictures of their lunch",
+      "Maps of their neighborhood"
+    ],
+    "activity_answer": "Colorful posters of their favorite wild animals",
+    "follow_up_question": "What wild animal would you most like to help protect and why?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "905",
+    "title": "Santa's List Day: Check It Twice!",
+    "story": "Santa's elves are working overtime because December 4 is Santa's List Day! This is when kids everywhere think about whether they've been naughty or nice this year. Families use this special day to talk about good deeds, kindness, and helping others. Some children write letters to Santa, while others make their own \"nice\" lists of good things they've done. Parents love this holiday because it encourages kids to reflect on their behavior before Christmas arrives. Many families create countdown calendars or start holiday traditions on this day. It's the perfect time to do extra chores, help a neighbor, or donate toys to make sure you're definitely on the \"nice\" list!",
+    "activity_question": "What do families often talk about on Santa's List Day?",
+    "activity_choices": [
+      "Whether they've been naughty or nice",
+      "What cookies to bake for Santa",
+      "How to decorate the Christmas tree",
+      "Which reindeer is the fastest"
+    ],
+    "activity_answer": "Whether they've been naughty or nice",
+    "follow_up_question": "What good deed could you do today to make sure you're on Santa's nice list?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 95
+  }
+]

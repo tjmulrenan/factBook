@@ -1,0 +1,102 @@
+[
+  {
+    "id": "901",
+    "title": "Brothers, Sisters, and April Shenanigans",
+    "story": "Every April 10, families across America celebrate National Siblings Day by honoring their brothers and sisters. People post throwback photos on social media, showing embarrassing baby pictures and funny childhood memories. Some siblings surprise each other with small gifts or favorite snacks. Others call or text to say thanks for all the times they helped out. Families might plan special activities together like movie nights or trips to the park. Even siblings who usually argue take a break from teasing to share what they love about each other. It's a day to remember that having a sibling means always having a built-in best friend and partner in crime.",
+    "activity_question": "What do people commonly share on social media for National Siblings Day?",
+    "activity_choices": [
+      "Throwback photos and childhood memories",
+      "Pictures of their pets",
+      "Their favorite recipes",
+      "Photos of their homework"
+    ],
+    "activity_answer": "Throwback photos and childhood memories",
+    "follow_up_question": "What's your favorite memory with a sibling or close friend?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "902",
+    "title": "Pen Pals and Paper Dreams Day",
+    "story": "Writers everywhere grab their pencils and keyboards on April 10 for National Encourage a Young Writer Day! This special day celebrates kids who love creating stories, poems, and wild adventures on paper. Teachers organize writing contests, libraries host storytelling events, and families encourage young authors to share their imagination. Some schools invite published authors to visit classrooms and inspire budding writers. Kids post their favorite poems online, start new journals, or finally finish that comic book they've been working on. It's the perfect day to remind young storytellers that their words matter and their creativity can change the world!",
+    "activity_question": "What do some schools do to inspire young writers on this day?",
+    "activity_choices": [
+      "Invite published authors to visit classrooms",
+      "Give away free ice cream to writers",
+      "Make students write with invisible ink",
+      "Ban all pencils for the day"
+    ],
+    "activity_answer": "Invite published authors to visit classrooms",
+    "follow_up_question": "What kind of story would you write if you could create any adventure?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "903",
+    "title": "Pin It to Win It Day!",
+    "story": "Every April 10, people celebrate the tiny hero that saves us from wardrobe disasters - the safety pin! National Safety Pin Day honors this simple invention that keeps our clothes together when buttons pop or hems fall down. People share stories about emergency fashion fixes and creative safety pin uses on social media.",
+    "activity_question": "What does the safety pin help us with according to the story?",
+    "activity_choices": [
+      "Fixing wardrobe disasters",
+      "Opening cans of food",
+      "Drawing perfect circles",
+      "Measuring distances"
+    ],
+    "activity_answer": "Fixing wardrobe disasters",
+    "bonus_fact": "Safety pins were invented in 1849 and the design hasn't changed much since!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 50
+  },
+  {
+    "id": "904",
+    "title": "Hands Do All the Talking!",
+    "story": "Every April 10, people across America celebrate National ASL Day to honor American Sign Language! ASL is a beautiful visual language that uses hand shapes, movements, and facial expressions instead of spoken words. On this special day, schools teach basic signs like \"hello\" and \"thank you,\" libraries host storytelling sessions in ASL, and social media fills with people sharing their favorite signs. Many communities organize ASL classes where hearing and deaf people learn together. It's amazing how much you can say without making a sound!",
+    "activity_question": "What does ASL use instead of spoken words to communicate?",
+    "activity_choices": [
+      "Hand shapes, movements, and facial expressions",
+      "Written notes and drawings",
+      "Musical instruments and sounds",
+      "Colorful flags and banners"
+    ],
+    "activity_answer": "Hand shapes, movements, and facial expressions",
+    "follow_up_question": "What would be the first sign you'd want to learn in ASL?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "905",
+    "title": "Going Deep for National Submarine Day",
+    "story": "Every April 10, National Submarine Day celebrates these amazing underwater vessels that can dive thousands of feet below the ocean surface! People visit submarine museums, watch submarine movies, and share cool photos of these incredible machines online. Some lucky folks even get to tour real submarines that have been turned into floating museums. Submarine crews around the world use this day to show off their high-tech homes beneath the waves. It's the perfect time to learn how these metal giants help explore the deep sea and keep our waters safe!",
+    "activity_question": "What do people often visit on National Submarine Day?",
+    "activity_choices": [
+      "Submarine museums",
+      "Pizza restaurants",
+      "Shopping malls",
+      "Dog parks"
+    ],
+    "activity_answer": "Submarine museums",
+    "bonus_fact": "Some submarines can stay underwater for months without coming up for air!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  }
+]

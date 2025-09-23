@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Words Around the World Day",
+    "story": "Every April 23, people celebrate English Language Day to honor one of the world's most spoken languages! Schools organize spelling bees, poetry readings, and fun word games. Libraries host storytelling sessions featuring classic English literature. Social media fills with clever wordplay, puns, and favorite English phrases from around the globe. It's the perfect day to appreciate how English connects millions of people worldwide through books, movies, songs, and conversations.",
+    "activity_question": "What type of competitions do schools often organize on English Language Day?",
+    "activity_choices": [
+      "Spelling bees",
+      "Dance contests",
+      "Art exhibitions",
+      "Science fairs"
+    ],
+    "activity_answer": "Spelling bees",
+    "follow_up_question": "What's your favorite English word and why does it sound cool to you?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "902",
+    "title": "Turkey's Double Celebration Day",
+    "story": "Turkey throws the ultimate party on April 23 with National Sovereignty and Children's Day! Kids take over important jobs like mayor, judge, and even president for the day. Schools host special performances where children sing, dance, and march in colorful parades. The whole country celebrates both their independence and the amazing potential of young people.",
+    "activity_question": "What special thing do children get to do in Turkey on this holiday?",
+    "activity_choices": [
+      "Take over important jobs like mayor and president",
+      "Stay home from school all day",
+      "Eat only candy and ice cream",
+      "Wear pajamas to school"
+    ],
+    "activity_answer": "Take over important jobs like mayor and president",
+    "bonus_fact": "Children from around the world are invited to join Turkey's celebrations!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 50
+  },
+  {
+    "id": "903",
+    "title": "Thou Shall Speak Like The Bard!",
+    "story": "Every April 23, people around the world celebrate National Talk Like Shakespeare Day by speaking in fancy old English just like the famous playwright! You might hear friends saying \"thou art awesome\" instead of \"you're cool\" or \"prithee, pass the pizza\" at lunch. Schools often host Shakespeare costume contests where kids dress up in ruffs and velvet. Social media fills with posts written in Shakespearean style, and theaters perform special shows. Libraries hold workshops teaching people how to insult each other using Shakespeare's creative language. It's a day when everyone can feel like royalty from long ago while having tons of fun with words!",
+    "activity_question": "What might someone say on National Talk Like Shakespeare Day instead of \"you're cool\"?",
+    "activity_choices": [
+      "Thou art awesome",
+      "You are totally rad",
+      "That's super neat",
+      "Cool beans, dude"
+    ],
+    "activity_answer": "Thou art awesome",
+    "bonus_fact": "Shakespeare actually invented over 1,700 words we still use today!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "904",
+    "title": "Zucchini Bread Gets Its Day!",
+    "story": "Kitchens across America smell amazing on April 23 when people celebrate National Zucchini Bread Day! This sneaky holiday turns a green vegetable into sweet, moist bread that even picky eaters love. Families bake loaves together, sharing recipes passed down for generations. Some add chocolate chips or nuts for extra yumminess. It's the perfect way to use up garden zucchini!",
+    "activity_question": "What do people often add to zucchini bread for extra flavor?",
+    "activity_choices": [
+      "Chocolate chips or nuts",
+      "Pickles and mustard",
+      "Ice cream and sprinkles",
+      "Cheese and crackers"
+    ],
+    "activity_answer": "Chocolate chips or nuts",
+    "bonus_fact": "One medium zucchini can make two whole loaves of bread!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  }
+]

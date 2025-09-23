@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "original": "National Apple Cider Day",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "National Vichyssoise Day",
+    "score": 55,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "Mickey Mouse Day",
+    "score": 95,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "National Occult Day",
+    "score": 65,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 5,
+    "original": "National Married to a Scorpio Support Day",
+    "score": 45,
+    "is_kid_friendly": false
+  }
+]

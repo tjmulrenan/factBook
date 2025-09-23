@@ -139,7 +139,7 @@ test('publish paperback from DOY', async ({ page }) => {
   page.on('response', (res) => log('RESPONSE ←', res.status(), res.url()));
 
   // ---- read DOY and derive title/paths/keywords ----
-  const doyRaw = process.env.DOY ?? '292'; // use env var if set, else "284"
+  const doyRaw = process.env.DOY ?? '308'; // use env var if set, else "308"
   const doy = Number(doyRaw);
   log(`DOY: ${doy} (source: ${process.env.DOY ? 'ENV' : 'DEFAULT'})`);
   if (!Number.isInteger(doy) || doy < 1 || doy > 366) {
@@ -170,41 +170,62 @@ test('publish paperback from DOY', async ({ page }) => {
   await page.goto('https://kdp.amazon.com/en_US/bookshelf', { waitUntil: 'networkidle' });
   await waitCalm(page);
 
-  //   // Create new title → paperback
-  //   await clickWhenReady(page, page.getByRole('link', { name: '+ Create new title or series' }), 'Create new title');
-  //   await clickWhenReady(page, page.getByRole('button', { name: 'Create paperback' }), 'Create paperback');
+  // Create new title → paperback
+  await clickWhenReady(
+    page,
+    page.getByRole('link', { name: '+ Create new title or series' }),
+    'Create new title',
+  );
+  await clickWhenReady(
+    page,
+    page.getByRole('button', { name: 'Create paperback' }),
+    'Create paperback',
+  );
 
-  //   // Title & subtitle
-  //   await fillWhenReady(page, page.locator('#data-print-book-title'), title, 'Book title');
-  //   await fillWhenReady(
-  //     page,
-  //     page.locator('#data-print-book-subtitle'),
-  //     'Amazing stories and brain-teasing puzzles from one unforgettable day in history — perfect for curious minds of all ages.',
-  //     'Subtitle'
-  //   );
+  // Title & subtitle
+  await fillWhenReady(page, page.locator('#data-print-book-title'), title, 'Book title');
+  await fillWhenReady(
+    page,
+    page.locator('#data-print-book-subtitle'),
+    'Amazing stories and brain-teasing puzzles from one unforgettable day in history — perfect for curious minds of all ages.',
+    'Subtitle',
+  );
 
-  //   // Rights / age etc.
-  //   await clickWhenReady(page, page.getByRole('radio', { name: 'I own the copyright and I' }), 'Rights: I own');
-  //   await clickWhenReady(page, page.locator('#data-print-book-is-adult-content label:has-text("No")'), 'Adult content: No');
+  // Rights / age etc.
+  await clickWhenReady(
+    page,
+    page.getByRole('radio', { name: 'I own the copyright and I' }),
+    'Rights: I own',
+  );
+  await clickWhenReady(
+    page,
+    page.locator('#data-print-book-is-adult-content label:has-text("No")'),
+    'Adult content: No',
+  );
 
-  //   // Keywords (slot 0 comes from the DOY; fill the rest with your preferred tags)
-  //   const moreKeywords = [
-  //     'daily history facts',
-  //     'brain teasers',
-  //     'fun facts book',
-  //     'puzzle book for adults',
-  //     'facts for kids 8-12',
-  //     'today in history'
-  //   ];
+  // Keywords (slot 0 comes from the DOY; fill the rest with your preferred tags)
+  const moreKeywords = [
+    'on this day for kids this day in history',
+    'fun facts for kids ages 8 12 general knowledge',
+    'inventions for kids explorers for kids',
+    'word search for kids crossword puzzles for kids',
+    'activity book for kids puzzles',
+    'hidden picture find the character puzzle',
+  ];
 
-  //   const kwAll = [keywords0, ...moreKeywords].slice(0, 7);
-  //   for (let i = 0; i < kwAll.length; i++) {
-  //     await fillWhenReady(page, page.locator(`#data-print-book-keywords-${i}`), kwAll[i], `Keywords slot ${i}`);
-  // }
+  const kwAll = [keywords0, ...moreKeywords].slice(0, 7);
+  for (let i = 0; i < kwAll.length; i++) {
+    await fillWhenReady(
+      page,
+      page.locator(`#data-print-book-keywords-${i}`),
+      kwAll[i],
+      `Keywords slot ${i}`,
+    );
+  }
 
-  await page.goto('https://kdp.amazon.com/en_US/title-setup/paperback/07PM9X7BJJG/details', {
-    waitUntil: 'networkidle',
-  });
+  // await page.goto('https://kdp.amazon.com/en_US/title-setup/paperback/07PM9X7BJJG/details', {
+  //   waitUntil: 'networkidle',
+  // });
 
   // Open the series modal
   await clickWhenReady(
@@ -221,29 +242,251 @@ test('publish paperback from DOY', async ({ page }) => {
   const selectExisting = seriesDialog.getByRole('button', { name: /^Select series$/ });
   await clickWhenReady(page, selectExisting, 'Select series');
 
-  // 🔎 Pick the first available series row instead of a hard-coded ID
-  const seriesRow = seriesDialog.locator('[data-test-id^="series-search-result"]').first();
-  await expect(seriesRow).toBeVisible();
-  await clickWhenReady(page, seriesRow, 'First series row');
+  // Click the first available series result button (keep it simple)
+  const firstSeriesRow = page.locator('[data-test-id^="series-search-result"]').first();
+  await firstSeriesRow.scrollIntoViewIfNeeded();
+  await firstSeriesRow.click();
 
   // Choose relation
-  const relationDialog = page.getByRole('dialog', { name: /How is this title related/i });
+  const relationDialog = page.getByRole('dialog');
   await relationDialog.waitFor({ state: 'visible' });
 
-  const mainBtn = relationDialog.locator('[data-test-id="modal-button-main"]');
-  await clickWhenReady(page, mainBtn, 'Main content');
+  // Assert and click "Main content"
+  const mainBtn = relationDialog.getByRole('button', { name: /Main content/i });
+  await expect(mainBtn).toBeVisible();
+  await mainBtn.click();
 
-  // Confirm/continue (some accounts show an extra confirm)
-  const publishBtn = relationDialog.locator('[data-test-id="modal-button-publish"]');
-  if (await publishBtn.isVisible().catch(() => false)) {
-    await clickWhenReady(page, publishBtn, 'Confirm and continue');
+  // Assert and click "Confirm and continue" (if shown)
+  const confirmBtn = relationDialog.getByRole('button', { name: /Confirm and continue/i });
+  if (await confirmBtn.isVisible().catch(() => false)) {
+    await expect(confirmBtn).toBeVisible();
+    await confirmBtn.click();
   }
 
-  // Final submit if present
-  const submitBtn = page.getByRole('button', { name: /^Submit$/ });
-  if (await submitBtn.isVisible().catch(() => false)) {
-    await clickWhenReady(page, submitBtn, 'Submit');
+  // Final submit: prefer closing the "saved" popover if it appears;
+  // otherwise click the SECOND "Submit", then close the popover.
+
+  // Match the Amazon popover
+  const savedDialog = page.getByRole('dialog', { name: /Your changes have been saved/i });
+  // Defensive selector(s) for the Done button in the popover footer
+  const doneBtn = page
+    .locator(
+      '[data-test-id="modal-confirm-button"], .a-popover-footer [type="submit"], .a-popover-footer .a-button-text:has-text("Done")',
+    )
+    .first();
+
+  const submitBtns = page.getByRole('button', { name: /^Submit$/ });
+
+  // Try for up to ~30s total, checking for the saved dialog first each cycle.
+  const deadline = Date.now() + 30_000;
+  let clickedSubmit = false;
+
+  while (Date.now() < deadline) {
+    // 1) If the saved dialog is already visible, click Done and finish.
+    if (await savedDialog.isVisible().catch(() => false)) {
+      await clickWhenReady(page, doneBtn, 'Saved dialog: Done');
+      await savedDialog.waitFor({ state: 'hidden', timeout: 10_000 }).catch(() => {});
+      break;
+    }
+
+    // 2) Otherwise, if we haven't clicked Submit yet and there are 2+, click the SECOND one.
+    if (!clickedSubmit && (await submitBtns.count()) > 1) {
+      const secondSubmit = submitBtns.nth(1);
+      if (await secondSubmit.isVisible().catch(() => false)) {
+        await expect(secondSubmit).toBeEnabled();
+        await secondSubmit.scrollIntoViewIfNeeded();
+        await secondSubmit.click();
+        clickedSubmit = true;
+        // after clicking, loop back to wait for the saved dialog
+        await page.waitForTimeout(300);
+        continue;
+      }
+    }
+
+    // 3) Short sleep before re-checking
+    await page.waitForTimeout(200);
   }
+
+  // Final safety: if the dialog popped after the loop, close it.
+  if (await savedDialog.isVisible().catch(() => false)) {
+    await clickWhenReady(page, doneBtn, 'Saved dialog: Done (post-loop)');
+    await savedDialog.waitFor({ state: 'hidden', timeout: 10_000 }).catch(() => {});
+  }
+
+  // Click the "Source" button in the Description toolbar
+  await clickWhenReady(page, page.getByRole('button', { name: 'Source' }), 'Description Source');
+
+  // Wait 1s for the editor to switch
+  await page.waitForTimeout(1000);
+
+  // Paste the description HTML directly into the textarea
+  const sourceBox = page.locator('textarea.cke_source');
+
+  await fillWhenReady(
+    page,
+    sourceBox,
+    `
+  <p><b>ONE DATE. ONE BOOK. BIG FUN.</b></p>
+   
+  <p>Each title in the <b>What Happened On…</b> series spotlights a single calendar day—no filler—mixing bite-size facts, wild moments from history and nature, and puzzles that make learning feel like play. Every book has its own set of themed categories based on what happened on that date, so the vibe changes from title to title.</p>
+   
+  <p><b>What's inside</b></p>
+  <ul>
+      <li>Short, high-impact facts across day-specific themes (e.g., <i>History's Mic Drop Moments</i>, <i>Creature Feature</i>, <i>Big Brain Energy</i>, <i>The What Zone</i>)</li>
+      <li>Bonus snippets: jokes, quotes, and follow-up questions</li>
+      <li><b>Grid Gauntlet</b> crossword and <b>Letter Quest</b> word search</li>
+      <li><b>Find TJ:</b> I am the author—hidden in the art. Can you spot me?</li>
+  </ul>
+   
+  <p><b>Who it's for</b><br>
+  <br>
+  Perfect for ages 8–12 (independent reading or classrooms), with plenty for older readers too.</p>
+   
+  <p><b>Make it a challenge</b><br>
+  <br>
+  Pick birthdays or any date you like and compare with friends—whose day had the coolest discoveries, biggest breakthroughs, or wildest animal feats? Build a set of dates you care about most.</p>
+  `,
+  );
+
+  // Wait 1s for the editor to switch
+  await page.waitForTimeout(1000);
+
+  // Click the "Source" button in the Description toolbar
+  await clickWhenReady(page, page.getByRole('button', { name: 'Source' }), 'Description Source');
+
+  // await expect(page.getByRole('heading', { level: 4, name: '2785' })).toBeVisible();
+
+  await page.waitForTimeout(1000);
+  // Open the Categories modal
+  await expect(page.getByRole('button', { name: 'Choose categories' })).toBeVisible();
+  await page.getByRole('button', { name: 'Choose categories' }).click();
+
+  const categoriesModal = page.getByLabel('Categories');
+  await expect(categoriesModal).toBeVisible();
+  await expect(categoriesModal.getByText('Categories', { exact: true })).toBeVisible();
+
+  /**
+   * Clicks the *last* "Select one" dropdown (safer than hard-coded nths),
+   * then walks the path of category labels, verifying each step.
+   *
+   * Examples:
+   *  pickCategoryPath(["Children's Books", "History", "Exploration & Discovery"])
+   *  pickCategoryPath(["Children's Books", "Science, Nature & How It Works", "Inventions & Inventors"])
+   *  pickCategoryPath(["Children's Books", "Education & Reference", "Reference", "Almanacs"])
+   */
+  async function pickCategoryPath(path) {
+    // helper: count visible "Select one" in the modal
+    const selectOnes = () => categoriesModal.locator('span', { hasText: /^Select one$/ });
+
+    for (let i = 0; i < path.length; i++) {
+      const label = path[i];
+      const isLeaf = i === path.length - 1;
+
+      // 1) Open the newest dropdown for this depth
+      const beforeCount = await selectOnes().count();
+      const dropdown = selectOnes().last();
+
+      await expect(dropdown).toBeVisible();
+      await dropdown.scrollIntoViewIfNeeded();
+      // trial click to flush overlay issues
+      await dropdown.click({ trial: true }).catch(() => {});
+      await dropdown.click();
+
+      // 2) Choose the label inside the modal (scope to avoid hidden duplicates)
+      // Try an option-like role first; fall back to exact text in the modal
+      const optionByRole = categoriesModal.getByRole('option', { name: label }).first();
+      const optionByText = categoriesModal.getByText(label, { exact: true }).first();
+
+      const target = (await optionByRole.isVisible().catch(() => false))
+        ? optionByRole
+        : optionByText;
+
+      await expect(target).toBeVisible();
+      await target.scrollIntoViewIfNeeded();
+      await target.click();
+
+      if (isLeaf) {
+        // 3) On leaf, tick the checkbox icon for that label
+        const leafCheck = categoriesModal.locator('label', { hasText: label }).locator('i').first();
+        await expect(leafCheck).toBeVisible();
+        await leafCheck.click();
+
+        // Optional: best-effort breadcrumb verify (scoped to modal)
+        try {
+          await expect(
+            categoriesModal
+              .locator('div')
+              .filter({ hasText: new RegExp(`^${escapeRegExp(label)}$`) })
+              .locator('span'),
+          ).toBeVisible({ timeout: 5000 });
+        } catch {}
+      } else {
+        // 4) After a non-leaf pick, wait for a NEW "Select one" to appear for the next level
+        await expect.poll(async () => await selectOnes().count()).toBeGreaterThan(beforeCount);
+        // brief settle
+        await categoriesModal.page().waitForTimeout(100);
+      }
+    }
+  }
+
+  /** Adds another category row and waits for the row count to increase. */
+  async function addAnotherCategoryRow() {
+    const rowsBefore = await categoriesModal
+      .locator('div:has-text("Books")')
+      .count()
+      .catch(() => 0);
+    await expect(page.getByRole('button', { name: 'Add another category' })).toBeVisible();
+    await page.getByRole('button', { name: 'Add another category' }).click();
+
+    // Wait for a new "Select one" to appear (more robust than DOM nths)
+    await expect
+      .poll(async () => {
+        return await categoriesModal.locator('span', { hasText: /^Select one$/ }).count();
+      })
+      .toBeGreaterThan(0);
+
+    // Also try to ensure a new row appeared (best-effort; structure can vary)
+    await expect
+      .poll(async () => {
+        return await categoriesModal
+          .locator('div:has-text("Books")')
+          .count()
+          .catch(() => rowsBefore);
+      })
+      .toBeGreaterThan(rowsBefore);
+  }
+
+  // Small utility for safe regex construction
+  function escapeRegExp(s) {
+    return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+
+  /* -------------------------
+   Your three category picks
+   ------------------------- */
+
+  // 1) Children's Books > History > Exploration & Discovery
+  await pickCategoryPath(["Children's Books", 'History', 'Exploration & Discovery']);
+
+  // Add another category
+  await addAnotherCategoryRow();
+
+  // 2) Children's Books > Science, Nature & How It Works > Inventions & Inventors
+  await pickCategoryPath([
+    "Children's Books",
+    'Science, Nature & How It Works',
+    'Inventions & Inventors',
+  ]);
+
+  // Add another category
+  await addAnotherCategoryRow();
+
+  // 3) Children's Books > Education & Reference > Reference > Almanacs
+  await pickCategoryPath(["Children's Books", 'Education & Reference', 'Reference', 'Almanacs']);
+
+  // Save
+  await expect(page.getByRole('button', { name: 'Save categories' })).toBeVisible();
+  await page.getByRole('button', { name: 'Save categories' }).click();
 
   // Continue to Content
   await clickWhenReady(
@@ -344,7 +587,7 @@ test('publish paperback from DOY', async ({ page }) => {
   // (Optional) publish…
   // await clickWhenReady(page, page.getByRole('button', { name: 'Publish Your Paperback Book' }), 'Publish');
 
-  page, 'role=link[name="Approve"]', 'Approve link visible';
+  await waitVisible(page, 'role=link[name="Approve"]', 'Approve link visible');
   await clickWhenReady(page, page.getByRole('link', { name: 'Approve' }), 'Approve preview');
 
   // (Optional) publish…

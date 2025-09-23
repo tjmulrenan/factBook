@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "original": "World Science Day for Peace and Development",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "Sesame Street Day",
+    "score": 95,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "Marine Corps Birthday",
+    "score": 55,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 4,
+    "original": "Area Code Day",
+    "score": 50,
+    "is_kid_friendly": true
+  }
+]

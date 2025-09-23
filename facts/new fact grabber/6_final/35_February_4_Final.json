@@ -1,0 +1,1262 @@
+[
+  {
+    "id": "901",
+    "title": "Soup's On for National Homemade Soup Day!",
+    "story": "Every February 4, kitchens across America fill with the amazing smells of National Homemade Soup Day! Families gather to make their favorite recipes from scratch, whether it's chicken noodle, tomato, or wild creations with whatever's in the fridge. People share photos of their bubbling pots on social media and swap secret family recipes with friends. Some folks try making soup for the very first time, while others stick to grandma's tried-and-true methods.",
+    "activity_question": "What do people often share on social media during National Homemade Soup Day?",
+    "activity_choices": [
+      "Photos of their bubbling soup pots",
+      "Pictures of empty bowls",
+      "Videos of dancing vegetables",
+      "Screenshots of restaurant menus"
+    ],
+    "activity_answer": "Photos of their bubbling soup pots",
+    "bonus_fact": "Soup has been around for about 20,000 years!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  },
+  {
+    "id": "902",
+    "title": "Mushrooms Get the Royal Stuffing Treatment",
+    "story": "Chefs and home cooks go wild for National Stuffed Mushroom Day every February 4! People celebrate by filling mushroom caps with delicious mixtures like cheese, breadcrumbs, herbs, and sometimes even crab or sausage. Restaurants create special stuffed mushroom appetizers, while families gather in kitchens to experiment with their own creative recipes. Social media fills with photos of these bite-sized treasures baked to golden perfection.",
+    "activity_question": "What do people typically fill mushroom caps with on this holiday?",
+    "activity_choices": [
+      "Cheese, breadcrumbs, and herbs",
+      "Ice cream and sprinkles",
+      "Only plain rice",
+      "Nothing at all"
+    ],
+    "activity_answer": "Cheese, breadcrumbs, and herbs",
+    "bonus_fact": "Button mushrooms and portobello caps are the most popular choices for stuffing!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  },
+  {
+    "id": "903",
+    "title": "Special Delivery of Thanks!",
+    "story": "Mail carriers brave snow, rain, and blazing heat to bring letters and packages right to your door! On February 4, people across the country celebrate National Thank a Mailman Day by showing appreciation for these hardworking heroes. Kids leave thank-you notes in their mailboxes, families offer cold drinks or snacks, and some people even give small gifts or gift cards. It's a perfect way to brighten a mail carrier's day and say thanks for all they do year-round!",
+    "activity_question": "How do people commonly show appreciation to mail carriers on this holiday?",
+    "activity_choices": [
+      "Leave thank-you notes and offer snacks",
+      "Send them birthday cards",
+      "Hide from them when they deliver mail",
+      "Ask them to deliver pizza instead"
+    ],
+    "activity_answer": "Leave thank-you notes and offer snacks",
+    "follow_up_question": "What would you write in a thank-you note to your mail carrier?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "4",
+    "title": "Lizard Helps Hero Recapture Fort",
+    "story": "A brave commander named Tanaji Malusare had a clever plan to win back a fort. On February 4, 1670, he and his soldiers used ropes to climb the steep walls of Sinhagad fort. But they had a secret weapon - Tanaji's pet monitor lizard! The lizard helped them find good spots to attach their ropes. Thanks to this unusual helper, Tanaji's team surprised the enemy and took back the fort for their leader, Shivaji.",
+    "activity_question": "What unusual animal helped Tanaji's team climb the fort walls?",
+    "activity_choices": [
+      "A monitor lizard",
+      "A trained monkey",
+      "A mountain goat",
+      "A giant eagle"
+    ],
+    "activity_answer": "A monitor lizard",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think a lizard was helpful for climbing walls?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "93",
+    "title": "Nim Chimsky's First Sign",
+    "story": "A tiny hand moved with purpose. On February 4, 1974, a young chimpanzee named Nim Chimsky made history. At just two and a half months old, Nim signed his very first word. This special chimp was part of a groundbreaking study to see if apes could learn human language. Scientists watched in amazement as Nim began to communicate, opening up new questions about animal intelligence.",
+    "activity_question": "How old was Nim Chimsky when he signed his first word?",
+    "activity_choices": [
+      "Two and a half months old",
+      "Two and a half years old",
+      "Six months old",
+      "One year old"
+    ],
+    "activity_answer": "Two and a half months old",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What do you think Nim's first signed word might have been?",
+    "score": 90,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "163",
+    "title": "Ocean Rower Makes Waves",
+    "story": "Zara Lachlan dips her oars into the Atlantic, embarking on an epic journey. On February 4, 2025, she becomes the first woman and youngest person to slow row from Europe to South America. For nearly 100 days, Zara battles waves, wind, and loneliness. She covers a vast distance, showing incredible strength and determination. Her amazing feat inspires people around the world to chase their dreams, no matter how big.",
+    "activity_question": "What did Zara Lachlan become the first woman and youngest person to do?",
+    "activity_choices": [
+      "Slow row from Europe to South America",
+      "Swim across the Atlantic Ocean",
+      "Sail around the world solo",
+      "Fly a hot air balloon across continents"
+    ],
+    "activity_answer": "Slow row from Europe to South America",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What qualities do you think Zara needed to complete this challenging journey?",
+    "optional_type": "follow_up_question",
+    "score": 95,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "155",
+    "title": "Medical Marvel: A New Face and Hands",
+    "story": "Doctors made history with an incredible surgery. On February 4, 2021, they announced the first successful face and double hand transplant. The patient, Joe DiMeo, was just 22 years old. This groundbreaking operation took place in New York. It gave Joe a chance at a new life with a transformed appearance and the ability to use his hands again. The surgery was a huge step forward in medical science.",
+    "activity_question": "What type of transplant was successfully performed?",
+    "activity_choices": [
+      "Face and double hand transplant",
+      "Heart and lung transplant",
+      "Brain transplant",
+      "Liver and kidney transplant"
+    ],
+    "activity_answer": "Face and double hand transplant",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think this surgery might change Joe's life?",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "159",
+    "title": "Sky-High Spy Drama",
+    "story": "A strange balloon drifted across America, causing quite a stir. It wasn't just any balloon, but a Chinese surveillance device! After floating for days, US fighter jets swooped in on February 4, 2023. They popped the intruder over the ocean, ending its mysterious journey and sparking discussions about sky-high spying.",
+    "activity_question": "What kind of aircraft dealt with the balloon?",
+    "activity_choices": [
+      "US fighter jets",
+      "Passenger planes",
+      "Weather balloons",
+      "Flying saucers"
+    ],
+    "activity_answer": "US fighter jets",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think countries might use balloons for surveillance instead of satellites?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "126",
+    "title": "Giant Mirror Lights Up the Sky",
+    "story": "A dazzling experiment lit up the night sky on February 4, 1993. The Russian space agency unfurled an enormous mirror in orbit, stretching 82 feet across. This shiny disc, as wide as a basketball court, reflected sunlight down to Earth. For a brief moment, it created a bright spot visible to people on the ground. Scientists hoped this test could lead to ways of lighting up dark areas on our planet.",
+    "activity_question": "How big was the space mirror tested by the Russian space agency?",
+    "activity_choices": [
+      "82 feet wide",
+      "100 feet wide",
+      "50 feet wide",
+      "As big as a house"
+    ],
+    "activity_answer": "82 feet wide",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why might scientists want to light up dark areas on Earth?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "139",
+    "title": "The Sims: A Virtual Life Adventure",
+    "story": "Imagine controlling tiny digital people in their own miniature world! That's exactly what gamers could do when The Sims hit North American shelves on February 4, 2000. This groundbreaking simulation game let players build houses, create families, and guide their virtual characters through daily life. From cooking meals to finding jobs, The Sims offered a unique peek into the ups and downs of everyday existence.",
+    "activity_question": "What could players do in The Sims game?",
+    "activity_choices": [
+      "Build houses",
+      "Race cars",
+      "Fight dragons",
+      "Explore space"
+    ],
+    "activity_answer": "Build houses",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What other activities do you think would be fun to include in a life simulation game?",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "162",
+    "title": "Pig Kidneys for Human Transplants?",
+    "story": "Scientists made a breakthrough in organ transplants on February 4, 2025. The US Food and Drug Administration approved the first clinical trial to put genetically modified pig kidneys into humans. This exciting step could help many people waiting for kidney transplants. Researchers had worked for years to make animal organs safe for humans. While it sounds strange, this discovery might save lives in the future!",
+    "activity_question": "What type of animal organ was approved for human transplant trials?",
+    "activity_choices": [
+      "Pig kidneys",
+      "Dog hearts",
+      "Cow livers",
+      "Sheep lungs"
+    ],
+    "activity_answer": "Pig kidneys",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think scientists chose pig organs for this research?",
+    "optional_type": "follow_up_question",
+    "score": 90,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "193",
+    "title": "Skating to Triple Gold Glory",
+    "story": "Blades flashed across the ice as Dutch speed skater Ard Schenk raced to victory. On February 4, 1972, Schenk clinched gold in the 5,000-meter event at the Sapporo Winter Olympics. But he wasn't done yet! Schenk's lightning-fast skates carried him to two more triumphs, securing gold medals in both the 1,500-meter and 10,000-meter races. His incredible performance made him a true Olympic hero.",
+    "activity_question": "In which Olympic event did Ard Schenk win his first gold medal?",
+    "activity_choices": [
+      "5,000-meter",
+      "1,500-meter",
+      "10,000-meter",
+      "Figure skating"
+    ],
+    "activity_answer": "5,000-meter",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How many gold medals did Ard Schenk win in total at the Sapporo Winter Olympics?",
+    "score": 95,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "111",
+    "title": "Frisbee Flies to New Heights",
+    "story": "Whoosh! A frisbee soared through the air, breaking records as it flew. On February 4, 1984, Frank Aquilera amazed onlookers in Las Vegas, Nevada. He launched a flying disc an incredible 551.2 feet - that's longer than one and a half football fields! This throw set a new world record, showing just how far a skilled player could send a frisbee sailing. Remember, practice makes perfect, but always play safely!",
+    "activity_question": "How far did Frank Aquilera throw the frisbee?",
+    "activity_choices": [
+      "551.2 feet",
+      "168 meters",
+      "One football field",
+      "Across Las Vegas"
+    ],
+    "activity_answer": "551.2 feet",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What sport uses a flying disc similar to the one in this record?",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "291",
+    "title": "Pluto's Discoverer Born on Starry Night",
+    "story": "On a chilly February 4 night in 1906, a future star-gazer entered the world. Clyde Tombaugh was born in Streator, Illinois, destined to make astronomical history. As a young astronomer, Tombaugh's keen eye and dedication led him to an amazing discovery. He spotted a mysterious object in the night sky, which turned out to be Pluto, expanding our understanding of the solar system.",
+    "activity_question": "What did Clyde Tombaugh discover?",
+    "activity_choices": [
+      "Pluto",
+      "Mars",
+      "A new star",
+      "A flying saucer"
+    ],
+    "activity_answer": "Pluto",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think discovering new objects in space is important?",
+    "optional_type": "follow_up_question",
+    "score": 90,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "130",
+    "title": "Hidden Treasures in Ancient Egypt",
+    "story": "Crawling through a narrow passage, archaeologist Kent R. Weeks made an incredible discovery in 1995. He entered KV5, a tomb hidden in Egypt's Valley of the Kings. This wasn't just any tomb - it belonged to the sons of Pharaoh Ramases II and turned out to be the largest ever found in the valley! On February 4, Weeks unveiled a maze of rooms filled with ancient secrets, opening a new chapter in our understanding of Egyptian history.",
+    "activity_question": "What did Kent R. Weeks discover in the Valley of the Kings?",
+    "activity_choices": [
+      "The largest tomb ever found",
+      "A collection of gold coins",
+      "A mummy of Ramases II",
+      "An ancient Egyptian spaceship"
+    ],
+    "activity_answer": "The largest tomb ever found",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Who did the tomb KV5 belong to?",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "49",
+    "title": "Glowing Discovery in the Lab",
+    "story": "Scientists made history in 1936 when they created the first artificial radioactive substance. On February 4, researchers successfully produced radium E in a laboratory. This breakthrough opened up new possibilities for studying atoms and developing medical treatments. It marked a big step forward in our understanding of radioactivity and its potential uses.",
+    "activity_question": "What was the name of the first artificial radioactive substance?",
+    "activity_choices": [
+      "Radium E",
+      "Uranium X",
+      "Plutonium Z",
+      "Glow-in-the-dark juice"
+    ],
+    "activity_answer": "Radium E",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you think of any ways radioactive materials might be helpful in medicine?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "360",
+    "title": "The Birth of a Computer Pioneer",
+    "story": "A tiny baby born in New Orleans would grow up to change the world of computers forever. Ken Thompson took his first breath on February 4, 1943. This future computer scientist went on to develop UNIX, a powerful operating system that became the foundation for many of today's technologies.",
+    "activity_question": "What did Ken Thompson develop?",
+    "activity_choices": [
+      "UNIX",
+      "Windows",
+      "MacOS",
+      "Linux"
+    ],
+    "activity_answer": "UNIX",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you think of any devices that might use UNIX or systems based on it?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "152",
+    "title": "Sun Power Lights Up Morocco",
+    "story": "The desert sands of Morocco sparkled with a new kind of energy on February 4, 2016. King Mohammed VI flipped the switch on a massive solar plant near the city of Ouarzazate. This wasn't just any power station - it was set to become the world's largest! When finished, the sprawling sea of mirrors would capture enough sunlight to power about a million homes across Morocco.",
+    "activity_question": "What type of power plant did King Mohammed VI activate in Morocco?",
+    "activity_choices": [
+      "A solar plant",
+      "A wind farm",
+      "A coal factory",
+      "A nuclear reactor"
+    ],
+    "activity_answer": "A solar plant",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How might using solar energy help protect the environment?",
+    "score": 88,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "154",
+    "title": "Denmark's Groundbreaking Energy Island Plan",
+    "story": "Imagine a giant power station floating in the sea! On February 4, 2021, Denmark gave the green light to build the world's first energy island. This massive project in the North Sea will harness wind power to provide clean electricity for 3 million Europeans. It's like a huge, eco-friendly battery in the ocean, helping fight climate change and powering homes across the continent.",
+    "activity_question": "What type of power will the energy island harness?",
+    "activity_choices": [
+      "Wind power",
+      "Solar power",
+      "Wave power",
+      "Tidal power"
+    ],
+    "activity_answer": "Wind power",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How might an energy island help protect the environment?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "208",
+    "title": "Sweet Surprise for Tech Titan",
+    "story": "Splat! A creamy pie smacked Bill Gates right in the face. The Microsoft founder was in Brussels, Belgium when a prankster caught him off guard. This sticky surprise happened on February 4, 1998. Gates, known for his serious tech work, suddenly found himself in a messy situation. But he handled it with grace, wiping off the pie and continuing his day.",
+    "activity_question": "Where was Bill Gates when he got a pie in the face?",
+    "activity_choices": [
+      "Brussels, Belgium",
+      "Seattle, Washington",
+      "Silicon Valley",
+      "New York City"
+    ],
+    "activity_answer": "Brussels, Belgium",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think Bill Gates reacted after getting hit with the pie?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "148",
+    "title": "Pants for All in Paris!",
+    "story": "Imagine not being allowed to wear pants just because you're a girl! That's how it was in Paris, France, for over 200 years. But in 2013, on February 4, the city finally said goodbye to this silly old rule. The law from way back in 1800 said women had to ask permission to 'dress like men' in pants. Now, everyone can wear what they want!",
+    "activity_question": "What did the old law in Paris say about women wearing pants?",
+    "activity_choices": [
+      "Women had to ask permission",
+      "Women could never wear pants",
+      "Women had to pay a fine",
+      "Women had to wear funny hats"
+    ],
+    "activity_answer": "Women had to ask permission",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it took so long to change this old law?",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "257",
+    "title": "The Father of Aerodynamics Takes Flight",
+    "story": "Ludwig Prandtl soared into the world on February 4, 1875, in Freising, Germany. This brilliant mind would revolutionize our understanding of flight. Prandtl discovered the boundary layer, a thin sheet of air that clings to a plane's wings. This breakthrough earned him the title 'father of aerodynamics.' His work helped explain how planes stay aloft, paving the way for safer and more efficient aircraft.",
+    "activity_question": "What did Ludwig Prandtl discover that was important for understanding flight?",
+    "activity_choices": [
+      "The boundary layer",
+      "The jet engine",
+      "The propeller",
+      "The airplane wing"
+    ],
+    "activity_answer": "The boundary layer",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How might understanding the boundary layer help make planes safer?",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "185",
+    "title": "Astro Boy Blasts Off in Japan",
+    "story": "Zoom! A robot boy with rocket boots took flight in Japan. On February 4, 1952, the manga series Tetsuwan Atom debuted in Weekly Shonen Magazine. Created by Osamu Tezuka, this futuristic tale captivated readers with its blend of science fiction and heart. The series, later known as Astro Boy in English, became a cornerstone of Japanese comics and animation, inspiring generations of artists and fans worldwide.",
+    "activity_question": "What was the original Japanese name of the manga series that debuted on February 4, 1952?",
+    "activity_choices": [
+      "Tetsuwan Atom",
+      "Astro Boy",
+      "Weekly Shonen",
+      "Rocket Boots"
+    ],
+    "activity_answer": "Tetsuwan Atom",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Osamu Tezuka is often called the 'God of Manga' for his influential work in Japanese comics.",
+    "score": 90,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "215",
+    "title": "Caitlin Clark's Incredible Basketball Feat",
+    "story": "Swish! The basketball sailed through the hoop again and again. On February 4, 2019, Caitlin Clark was unstoppable on the court. Playing for Dowling Catholic High School, she racked up an amazing 60 points in a single game against Mason City High School. Her performance became the second-highest scoring game ever in Iowa's five-on-five girls' basketball history. Clark's talent and determination shone brightly that day, inspiring young athletes everywhere.",
+    "activity_question": "What team was Caitlin Clark playing for when she scored 60 points?",
+    "activity_choices": [
+      "Dowling Catholic High School",
+      "Mason City High School",
+      "Iowa State University",
+      "The Swish Sisters"
+    ],
+    "activity_answer": "Dowling Catholic High School",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think Caitlin felt after scoring so many points in one game?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "214",
+    "title": "Eagles Soar to Super Bowl Victory",
+    "story": "Touchdown! The Philadelphia Eagles clinched their first-ever Super Bowl win in 2018. On February 4, they faced off against the New England Patriots in a thrilling game. The Eagles' quarterback, Nick Foles, led his team to a nail-biting 41-33 victory. Foles' stellar performance earned him the coveted Most Valuable Player award. Fans in Minneapolis erupted with joy as the Eagles finally captured the championship trophy.",
+    "activity_question": "Who was named Most Valuable Player in this Super Bowl?",
+    "activity_choices": [
+      "Nick Foles",
+      "Tom Brady",
+      "Carson Wentz",
+      "Bill Belichick"
+    ],
+    "activity_answer": "Nick Foles",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What team did the Philadelphia Eagles defeat in this Super Bowl?",
+    "optional_type": "follow_up_question",
+    "score": 90,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "188",
+    "title": "A Hospital of Hope Opens Its Doors",
+    "story": "Lights flickered on as St. Jude Children's Research Hospital welcomed its first patients in Memphis, Tennessee. On February 4, 1962, this special place began its mission to fight childhood cancer. Entertainer Danny Thomas led the charge, rallying support to build a hospital where no family would be turned away. St. Jude quickly became a beacon of hope, offering free treatment and groundbreaking research to help kids battling serious illnesses.",
+    "activity_question": "Who led the funding efforts for St. Jude Children's Research Hospital?",
+    "activity_choices": [
+      "Danny Thomas",
+      "A group of doctors",
+      "The mayor of Memphis",
+      "A famous scientist"
+    ],
+    "activity_answer": "Danny Thomas",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "St. Jude was named after the patron saint of hopeless causes, reflecting its mission to tackle the toughest childhood diseases.",
+    "score": 90,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "153",
+    "title": "Tuskegee Airman Soars to New Heights",
+    "story": "Charles McGee, a brave Tuskegee Airman, reached new heights in 2020. On February 4, this heroic fighter pilot from World War II was promoted to brigadier general. McGee's incredible journey with the US Air Force spanned decades. His promotion honored the skill and courage of the Tuskegee Airmen, African American pilots who broke barriers in the sky.",
+    "activity_question": "What rank was Charles McGee promoted to?",
+    "activity_choices": [
+      "Brigadier general",
+      "Colonel",
+      "Captain",
+      "Major"
+    ],
+    "activity_answer": "Brigadier general",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What famous group of pilots was Charles McGee part of?",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "399",
+    "title": "A Musical Genius Is Born",
+    "story": "A baby boy named Jonathan Larson cried his first notes in White Plains, New York. Born on February 4, 1960, he would grow up to become a brilliant theater composer. Larson's most famous work, the musical Rent, took Broadway by storm. His music touched hearts and changed lives, inspiring a new generation of theater lovers.",
+    "activity_question": "What was Jonathan Larson's most famous work?",
+    "activity_choices": [
+      "Rent",
+      "Cats",
+      "Hamilton",
+      "The Lion King"
+    ],
+    "activity_answer": "Rent",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think music in theater can inspire people?",
+    "score": 88,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "120",
+    "title": "Swimming Sensation Makes a Splash",
+    "story": "Splash! Anders Holmertz dove into the pool and emerged a champion. On February 4, 1990, this Swedish swimmer glided through the water like a fish, setting a new world record in the 400-meter freestyle. Holmertz's incredible time of 3 minutes and 40.81 seconds left spectators and fellow athletes in awe. His powerful strokes and determination showcased the amazing feats humans can achieve in the water.",
+    "activity_question": "What swimming event did Anders Holmertz set a world record in?",
+    "activity_choices": [
+      "400-meter freestyle",
+      "200-meter butterfly",
+      "100-meter backstroke",
+      "1500-meter freestyle"
+    ],
+    "activity_answer": "400-meter freestyle",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think swimmers train to improve their speed?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "132",
+    "title": "Sandra Volker's Splashing Success",
+    "story": "Splash! Sandra Volker rocketed through the water like a torpedo on February 4, 1995. The German swimmer set a new European record in the 50-meter backstroke. Her lightning-fast time of 27.77 seconds amazed spectators and fellow athletes alike. Volker's incredible speed and technique showcased the results of years of hard work and dedication to her sport.",
+    "activity_question": "What swimming event did Sandra Volker set a record in?",
+    "activity_choices": [
+      "50-meter backstroke",
+      "100-meter freestyle",
+      "200-meter butterfly",
+      "25-meter doggy paddle"
+    ],
+    "activity_answer": "50-meter backstroke",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think swimmers train to improve their speed in the water?",
+    "score": 80,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "61",
+    "title": "Soviet Skaters Shock on Olympic Ice",
+    "story": "Skates flashed and sticks clashed as the Soviet Union stunned the hockey world. In 1956, they outskated Canada 2-0 at Cortina d'Ampezzo, Italy. This victory on February 4 clinched their first-ever Olympic ice hockey gold medal. The United States claimed silver, while Canada, long considered hockey kings, had to settle for bronze.",
+    "activity_question": "Where did the Soviet Union win their first Olympic ice hockey gold medal?",
+    "activity_choices": [
+      "Cortina d'Ampezzo, Italy",
+      "Moscow, Russia",
+      "Lake Placid, USA",
+      "Calgary, Canada"
+    ],
+    "activity_answer": "Cortina d'Ampezzo, Italy",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think Canadian fans felt after their team won bronze instead of gold?",
+    "score": 80,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "198",
+    "title": "Rookie's Hat Trick Dazzles Hockey Fans",
+    "story": "Hockey fans cheered as Mike Bossy, a rookie for the New York Islanders, scored his first career hat trick in 1978. On February 4, Bossy's incredible performance led his team to a 6-1 victory over the Washington Capitals. The exciting game took place at Nassau Veterans Memorial Coliseum in Uniondale, New York. Bossy's three-goal feat showed he was a rising star in the NHL.",
+    "activity_question": "Where did Mike Bossy's hat trick game take place?",
+    "activity_choices": [
+      "Nassau Veterans Memorial Coliseum",
+      "Madison Square Garden",
+      "Boston Garden",
+      "The Ice Palace"
+    ],
+    "activity_answer": "Nassau Veterans Memorial Coliseum",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Do you know what a 'hat trick' means in hockey?",
+    "optional_type": "follow_up_question",
+    "score": 82,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "80",
+    "title": "Baseball's Hall of Fame Honors Black Stars",
+    "story": "Baseball stepped up to the plate for equality in 1971. On February 4, the sport announced a special wing in its Hall of Fame to celebrate black players and coaches. This move recognized the amazing talents who had been unfairly kept out of the major leagues for decades. It was a home run for diversity, shining a spotlight on legends like Satchel Paige and Josh Gibson.",
+    "activity_question": "What did baseball announce on February 4, 1971?",
+    "activity_choices": [
+      "A special wing in its Hall of Fame for black players and coaches",
+      "A new baseball stadium",
+      "The creation of a new team",
+      "Free tickets for everyone"
+    ],
+    "activity_answer": "A special wing in its Hall of Fame for black players and coaches",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why was this announcement important for baseball history?",
+    "score": 80,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "133",
+    "title": "Zimbabwe's Cricket Triumph",
+    "story": "Cheers erupted as Zimbabwe's cricket team scored their first-ever Test victory in 1995. On February 4, they defeated Pakistan by a whopping margin - an entire innings! This historic win marked a major milestone for Zimbabwe's cricket program. Players and fans celebrated the team's skill, determination, and breakthrough performance on the international stage.",
+    "activity_question": "Who did Zimbabwe defeat in their first Test cricket victory?",
+    "activity_choices": [
+      "Pakistan",
+      "England",
+      "Australia",
+      "India"
+    ],
+    "activity_answer": "Pakistan",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What sport is a Test match played in?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "123",
+    "title": "Pelicans Soar in Senior Baseball Victory",
+    "story": "Feathers flew as the St Petersburg Pelicans swooped to victory! In 1990, these seasoned players proved age is just a number. On February 4, they clinched the first-ever Senior Professional Baseball Association Championship. The Pelicans outplayed the West Palm Beach Tropics, showing that baseball skills can shine at any age. It was a home run for senior athletes everywhere!",
+    "activity_question": "Which team did the St Petersburg Pelicans defeat in the championship?",
+    "activity_choices": [
+      "West Palm Beach Tropics",
+      "Miami Flamingos",
+      "Tampa Bay Seagulls",
+      "Orlando Sandpipers"
+    ],
+    "activity_answer": "West Palm Beach Tropics",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it's important to have sports leagues for older athletes?",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "344",
+    "title": "Olympic Swimmer Makes a Splash",
+    "story": "Splash! A future swimming champion entered the world on February 4, 1937. John Devitt was born in Sydney, Australia, and would go on to make waves in Olympic pools. He won gold medals in freestyle events and earned a spot in the International Swimming Hall of Fame. Devitt's powerful strokes and determination inspired many young swimmers to chase their dreams.",
+    "activity_question": "Where was John Devitt born?",
+    "activity_choices": [
+      "Sydney, Australia",
+      "Melbourne, Australia",
+      "London, England",
+      "New York, USA"
+    ],
+    "activity_answer": "Sydney, Australia",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What sport did John Devitt excel in?",
+    "score": 70,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "68",
+    "title": "The Mysterious Journey of Sputnik 7",
+    "story": "A metal sphere soared into the sky, carrying secrets and dreams. Sputnik 7 blasted off in 1961, aiming to explore the mysteries of Venus. But something went wrong. The spacecraft reached Earth's orbit on February 4, yet never continued its planned journey to our cloudy neighbor. Scientists believe it was meant to be a Venus probe, but its true mission remains a puzzle to this day.",
+    "activity_question": "What was Sputnik 7's intended destination?",
+    "activity_choices": [
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "The Moon"
+    ],
+    "activity_answer": "Venus",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think exploring other planets is important?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "74",
+    "title": "Moon Mapping Mission Takes Flight",
+    "story": "Cameras zoomed in on the moon as Lunar Orbiter 3 blasted off on February 4, 1967. This robotic spacecraft was part of NASA's mission to map the lunar surface. Its powerful lenses captured detailed photos, helping scientists choose safe landing spots for future Apollo astronauts. The orbiter circled the moon, snapping pictures and beaming them back to Earth.",
+    "activity_question": "What was the main purpose of Lunar Orbiter 3?",
+    "activity_choices": [
+      "To map the lunar surface",
+      "To collect moon rocks",
+      "To test rocket engines",
+      "To search for alien life"
+    ],
+    "activity_answer": "To map the lunar surface",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why was it important to find safe landing spots on the moon?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "169",
+    "title": "A Starry Meeting of Great Minds",
+    "story": "Two brilliant stargazers crossed paths in 1600, changing astronomy forever. Near Prague, Tycho Brahe and Johannes Kepler met for the first time on February 4. Brahe, known for his precise observations, and Kepler, a mathematical genius, joined forces to unravel the mysteries of the night sky. Their teamwork would soon lead to groundbreaking discoveries about planetary motion.",
+    "activity_question": "Who were the two astronomers that met near Prague?",
+    "activity_choices": [
+      "Tycho Brahe and Johannes Kepler",
+      "Galileo and Copernicus",
+      "Newton and Einstein",
+      "Hubble and Hawking"
+    ],
+    "activity_answer": "Tycho Brahe and Johannes Kepler",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What were Tycho Brahe and Johannes Kepler trying to understand together?",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "172",
+    "title": "America's First Presidential Pick",
+    "story": "Cheers erupted as George Washington became America's first president in 1789. The Electoral College, a special group of voters, chose him to lead the new nation on February 4. They also picked John Adams as vice president. Washington hadn't even campaigned - his leadership during the Revolution made him the clear choice to guide the country.",
+    "activity_question": "Who did the Electoral College choose as the first US president?",
+    "activity_choices": [
+      "George Washington",
+      "John Adams",
+      "Thomas Jefferson",
+      "Benjamin Franklin"
+    ],
+    "activity_answer": "George Washington",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think George Washington was chosen without even campaigning?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "173",
+    "title": "Freedom's Call: Slavery Abolished in France",
+    "story": "Chains shattered as France took a bold step toward equality. The French National Convention declared slavery abolished in 1794. This groundbreaking decision on February 4 marked a turning point in human rights. It freed enslaved people in French colonies and inspired hope for change worldwide.",
+    "activity_question": "What did the French National Convention declare abolished?",
+    "activity_choices": [
+      "Slavery",
+      "Monarchy",
+      "Taxes",
+      "Dueling"
+    ],
+    "activity_answer": "Slavery",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think abolishing slavery was such an important decision?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "157",
+    "title": "Cyclone Batsirai Batters Madagascar",
+    "story": "Fierce winds howled as Cyclone Batsirai slammed into Madagascar in 2022. The powerful storm struck on February 4, causing widespread destruction. It toppled buildings, flooded villages, and uprooted trees. Sadly, many lives were lost. Thousands of people had to leave their homes to stay safe. Brave rescue teams worked tirelessly to help those in need.",
+    "activity_question": "What did Cyclone Batsirai do to Madagascar?",
+    "activity_choices": [
+      "Caused widespread destruction",
+      "Brought heavy snowfall",
+      "Created a rainbow",
+      "Made the weather sunny"
+    ],
+    "activity_answer": "Caused widespread destruction",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How can people prepare for cyclones?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "135",
+    "title": "Shaken Earth: Afghanistan's Powerful Quake",
+    "story": "The ground rumbled and shook violently in northeast Afghanistan. A powerful earthquake struck on February 4, 1998, measuring 6.1 on the Richter Scale. The tremors were so strong they toppled buildings and triggered landslides. Communities banded together to rescue survivors and rebuild. This event reminded everyone about the importance of earthquake-safe construction.",
+    "activity_question": "What was the strength of the earthquake on the Richter Scale?",
+    "activity_choices": [
+      "5.1",
+      "6.1",
+      "7.1",
+      "8.1"
+    ],
+    "activity_answer": "6.1",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why is it important to build earthquake-resistant structures in areas prone to tremors?",
+    "score": 65,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "142",
+    "title": "Aussie Floods: Communities Band Together",
+    "story": "Raging waters swept across eastern Australia in 2012. On February 4, tens of thousands found themselves stranded as floods engulfed parts of New South Wales and Queensland. But Aussies are tough! Neighbors helped neighbors, rescuers worked tirelessly, and communities pulled together to weather the storm.",
+    "activity_question": "Which two Australian states were affected by the floods?",
+    "activity_choices": [
+      "New South Wales and Queensland",
+      "Victoria and Tasmania",
+      "Western Australia and South Australia",
+      "Northern Territory and Australian Capital Territory"
+    ],
+    "activity_answer": "New South Wales and Queensland",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think people helped each other during the floods?",
+    "score": 65,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "70",
+    "title": "Sonic Booms Shake Up Oklahoma City",
+    "story": "Boom! In 1964, the skies over Oklahoma City became a testing ground. The Federal Aviation Administration started a six-month experiment on February 4. They wanted to see how people reacted to sonic booms from supersonic planes. These loud, sudden noises startled residents and sparked debates about the future of air travel.",
+    "activity_question": "What did the Federal Aviation Administration test in Oklahoma City?",
+    "activity_choices": [
+      "Reactions to sonic booms",
+      "New airplane designs",
+      "Weather patterns",
+      "Flying saucer sightings"
+    ],
+    "activity_answer": "Reactions to sonic booms",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What causes a sonic boom?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "89",
+    "title": "Hagar The Horrible Storms the Comics",
+    "story": "Vikings invaded the funny pages in 1973! On February 4, cartoonist Dik Browne unleashed Hagar The Horrible, a lovable, bumbling Norse warrior. This new comic strip quickly conquered readers' hearts with its mix of historical humor and family antics. Hagar's misadventures with his wife Helga, kids, and fellow Vikings became a daily dose of laughter for millions.",
+    "activity_question": "What type of character is Hagar The Horrible?",
+    "activity_choices": [
+      "A Viking warrior",
+      "A pirate captain",
+      "A medieval knight",
+      "A Roman gladiator"
+    ],
+    "activity_answer": "A Viking warrior",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Hagar The Horrible is still published today, drawn by Dik Browne's son Chris since 1988.",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "212",
+    "title": "Post Malone's Breakout Song Takes Flight",
+    "story": "A young musician's dream soared to new heights. On February 4, 2015, Post Malone shared his song 'White Iverson' online. The catchy tune quickly caught fire, spreading across the internet like wildfire. Fans couldn't get enough of its unique sound, blending hip-hop with melodic vocals. This moment marked the beginning of Post Malone's journey to stardom.",
+    "activity_question": "Where did Post Malone first share his song 'White Iverson'?",
+    "activity_choices": [
+      "Online",
+      "On the radio",
+      "At a concert",
+      "In a music store"
+    ],
+    "activity_answer": "Online",
+    "suitable_for_8_to_12_year_old": false,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think sharing music online can help new artists get discovered?",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "197",
+    "title": "Fleetwood Mac's Legendary Album Takes Flight",
+    "story": "Rock history was made when Fleetwood Mac unleashed 'Rumours' in 1977. This groundbreaking album soared to the top of the charts, captivating listeners with its raw emotions and unforgettable melodies. Released on February 4, 'Rumours' became a cultural phenomenon, earning the band a Grammy for Album of the Year.",
+    "activity_question": "What award did 'Rumours' win?",
+    "activity_choices": [
+      "Grammy for Album of the Year",
+      "Oscar for Best Soundtrack",
+      "MTV Video Music Award",
+      "Golden Globe for Best Album"
+    ],
+    "activity_answer": "Grammy for Album of the Year",
+    "suitable_for_8_to_12_year_old": false,
+    "bonus_fact": "'Rumours' remains one of the best-selling albums of all time.",
+    "optional_type": "bonus_fact",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "205",
+    "title": "Hockey Hero Hits Incredible Goal Milestone",
+    "story": "Swish! The puck flew into the net. Mario Lemieux had just scored his 600th goal in 1997, joining an elite group of hockey legends. This amazing feat made him only the seventh player in National Hockey League history to reach this milestone. Lemieux's skill on the ice thrilled fans on February 4 and throughout his career.",
+    "activity_question": "What milestone did Mario Lemieux achieve?",
+    "activity_choices": [
+      "Scoring 600 goals",
+      "Winning 600 games",
+      "Playing 600 matches",
+      "Making 600 assists"
+    ],
+    "activity_answer": "Scoring 600 goals",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another famous ice hockey player?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "207",
+    "title": "Madeleine Albright's Surprising Family Discovery",
+    "story": "Madeleine Albright, the US Secretary of State, made a startling discovery about her family history in 1997. On February 4, she announced that she had just learned her grandparents were Jewish. Sadly, three of them had lost their lives in the Holocaust. This revelation shed new light on Albright's background and connection to a tragic chapter in world history.",
+    "activity_question": "What did Madeleine Albright discover about her grandparents?",
+    "activity_choices": [
+      "They were Jewish",
+      "They were politicians",
+      "They were artists",
+      "They were scientists"
+    ],
+    "activity_answer": "They were Jewish",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think this discovery was important to Madeleine Albright?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "186",
+    "title": "Jackie Robinson Breaks Another Barrier",
+    "story": "Baseball legend Jackie Robinson stepped up to the plate in a whole new way in 1952. On February 4, he became the first African American executive of a major US TV and radio station. Robinson took on the role of Director of Community Activities at WNBC radio and WNBT television in New York. This groundbreaking move showed his leadership extended far beyond the baseball diamond.",
+    "activity_question": "What role did Jackie Robinson take on at the TV and radio stations?",
+    "activity_choices": [
+      "Director of Community Activities",
+      "Head of Sports Broadcasting",
+      "Station Manager",
+      "Chief Baseball Commentator"
+    ],
+    "activity_answer": "Director of Community Activities",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What other barriers did Jackie Robinson break in his career?",
+    "score": 65,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "351",
+    "title": "The Doctor Who Made Medicine Sweet",
+    "story": "A baby boy named Theodore 'Ted' Stanley was born in Manhattan, New York in 1940. He grew up to become a doctor who changed medicine in a surprising way. Ted invented a special lollipop that helps people in pain. This candy wasn't for fun—it contained a strong medicine to quickly ease suffering. Ted's clever idea showed that sometimes, helping others can be as simple as a sweet treat.",
+    "activity_question": "What did Ted Stanley invent?",
+    "activity_choices": [
+      "A special lollipop",
+      "A new type of candy",
+      "A pain medicine",
+      "A giant lollipop machine"
+    ],
+    "activity_answer": "A special lollipop",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think Ted chose a lollipop shape for his medicine?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "391",
+    "title": "Musical Maestro of The Matrix",
+    "story": "Trombone player turned film composer Don Davis entered the world on February 4, 1957. Born in Anaheim, California, Davis grew up to create unforgettable music for movies and TV. His talent shines in the mind-bending sci-fi film The Matrix and the enchanting TV series Beauty & The Beast. Davis's unique sound brings stories to life, making us feel every moment on screen.",
+    "activity_question": "What famous sci-fi film did Don Davis compose music for?",
+    "activity_choices": [
+      "The Matrix",
+      "Star Wars",
+      "Avatar",
+      "E.T."
+    ],
+    "activity_answer": "The Matrix",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What instrument did Don Davis play before becoming a composer?",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "354",
+    "title": "A Voice That Soared to New Heights",
+    "story": "Florence LaRue's voice would soon take her up, up, and away! Born in Plainfield, New Jersey in 1942, she grew up to become a star vocalist with The 5th Dimension. The group's soulful blend of pop and R&B created unforgettable hits. On February 4, music fans celebrate the birth of this talented singer who helped bring sunshine to the airwaves.",
+    "activity_question": "What type of music did Florence LaRue perform with The 5th Dimension?",
+    "activity_choices": [
+      "Pop and R&B",
+      "Classical and jazz",
+      "Country and western",
+      "Rock and roll"
+    ],
+    "activity_answer": "Pop and R&B",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The 5th Dimension's hit 'Up, Up, And Away' is about a hot air balloon adventure!",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "362",
+    "title": "Turning Trash into Treasure",
+    "story": "A master of transforming everyday objects into art was born on February 4, 1944. El Anatsui, a Ghanaian sculptor, came into the world in Anyako, Ghana. He's famous for his stunning bottle-top installations. These massive, shimmering creations look like colorful metal tapestries from afar. Up close, you'd see they're made from thousands of discarded bottle caps!",
+    "activity_question": "What material is El Anatsui famous for using in his art installations?",
+    "activity_choices": [
+      "Bottle tops",
+      "Plastic bags",
+      "Old shoes",
+      "Broken glass"
+    ],
+    "activity_answer": "Bottle tops",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think El Anatsui's art helps the environment?",
+    "score": 85,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "398",
+    "title": "A Mandela's Daughter Enters the World",
+    "story": "Soweto, South Africa welcomed a special baby in 1959. Zenani Mandela, daughter of famous freedom fighters Nelson and Winnie Mandela, took her first breath on February 4. Growing up during challenging times, she'd later become a respected diplomat, carrying on her family's legacy of service to their nation.",
+    "activity_question": "What profession did Zenani Mandela pursue as an adult?",
+    "activity_choices": [
+      "Diplomat",
+      "Doctor",
+      "Teacher",
+      "Athlete"
+    ],
+    "activity_answer": "Diplomat",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another famous person who was born in South Africa?",
+    "optional_type": "follow_up_question",
+    "score": 82,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "401",
+    "title": "From Child Star to Animal Champion",
+    "story": "Pamelyn Ferdin's journey began in Los Angeles on February 4, 1960. Born to shine on screen, she became a beloved child actress, starring in shows like The Odd Couple. But Pamelyn's story didn't end when the cameras stopped rolling. She traded scripts for scrubs, becoming a registered nurse. Today, she's a passionate animal rights activist, using her voice to help furry friends everywhere.",
+    "activity_question": "What profession did Pamelyn Ferdin pursue after her acting career?",
+    "activity_choices": [
+      "Registered nurse",
+      "Veterinarian",
+      "Teacher",
+      "Chef"
+    ],
+    "activity_answer": "Registered nurse",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think Pamelyn's experience as an actress might help her as an animal rights activist?",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "377",
+    "title": "Soul Singer James Dunn's Melodic Journey",
+    "story": "James Dunn's soulful voice first echoed in Philadelphia in 1950. Born on February 4, this American singer would later make hearts swoon as part of The Stylistics. The group's smooth harmonies and Dunn's rich tones created unforgettable hits that still make people smile and sway today.",
+    "activity_question": "Which famous group did James Dunn sing with?",
+    "activity_choices": [
+      "The Stylistics",
+      "The Temptations",
+      "The Supremes",
+      "The Melodic Muffins"
+    ],
+    "activity_answer": "The Stylistics",
+    "suitable_for_8_to_12_year_old": false,
+    "bonus_fact": "The Stylistics' music often featured falsetto vocals and lush orchestrations.",
+    "optional_type": "bonus_fact",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "397",
+    "title": "A Voice for Zimbabwe's Stories",
+    "story": "Tsitsi Dangarembga, a powerful storyteller, was born on February 4, 1959, in Mutoko, Southern Rhodesia (now Zimbabwe). She grew up to become a celebrated writer and playwright, giving voice to her country's experiences. Dangarembga's novel 'Nervous Conditions' captivated readers worldwide, shining a light on life in Zimbabwe.",
+    "activity_question": "What famous work did Tsitsi Dangarembga create?",
+    "activity_choices": [
+      "'Nervous Conditions'",
+      "'Zimbabwe Tales'",
+      "'Southern Stories'",
+      "'Mutoko Memories'"
+    ],
+    "activity_answer": "'Nervous Conditions'",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another African country that was once called by a different name?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "404",
+    "title": "Hockey Hero Born: Denis Savard",
+    "story": "Skates ready? On February 4, 1961, a future ice hockey superstar entered the world. Denis Savard was born in Pointe Gatineau, Canada. He grew up to become an incredible centre for the Chicago Blackhawks. Savard's amazing skills on the ice earned him a spot among the 100 Greatest NHL Players in history!",
+    "activity_question": "What team did Denis Savard play for in the NHL?",
+    "activity_choices": [
+      "Chicago Blackhawks",
+      "Montreal Canadiens",
+      "Toronto Maple Leafs",
+      "Ice Cream Sundaes"
+    ],
+    "activity_answer": "Chicago Blackhawks",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What position did Denis Savard play?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "352",
+    "title": "Drumming Up a Storm: John Steel's Birth",
+    "story": "Rock and roll got a powerful beat when John Steel was born in 1941. This future drummer would help create the iconic sound of The Animals. Steel's rhythms drove hits like 'House of the Rising Sun', making music history. His February 4 birthday in Gateshead, England, marked the start of a legendary career.",
+    "activity_question": "What famous song did John Steel play drums on with The Animals?",
+    "activity_choices": [
+      "'House of the Rising Sun'",
+      "'Twist and Shout'",
+      "'Paint It Black'",
+      "'Jumping Jack Flash'"
+    ],
+    "activity_answer": "'House of the Rising Sun'",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Drums aren't just for music - they've been used for centuries to send messages over long distances!",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "367",
+    "title": "Marge Ganser: A Pop Star's Beginning",
+    "story": "A future pop sensation took her first breath in Queens, New York City. Marguerite Ganser, known as Marge, was born on February 4, 1948. She would grow up to become a beloved member of the girl group The Shangri-Las. Their hit song 'Leader of the Pack' would later make waves in the music world.",
+    "activity_question": "What famous girl group did Marge Ganser join?",
+    "activity_choices": [
+      "The Shangri-Las",
+      "The Supremes",
+      "The Ronettes",
+      "The Spice Girls"
+    ],
+    "activity_answer": "The Shangri-Las",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The Shangri-Las were known for their 'tough girl' image, which was unusual for female singers at the time.",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "368",
+    "title": "A Shangri-La Star is Born",
+    "story": "Imagine the sound of doo-wop filling the air! Mary Ann Ganser, who would become a pop sensation, took her first breath in Queens, New York City in 1948. Born on February 4, she grew up to join The Shangri-Las, the girl group that rocked the 1960s with their hit 'Leader of the Pack'.",
+    "activity_question": "What famous song did Mary Ann Ganser's group The Shangri-Las perform?",
+    "activity_choices": [
+      "'Leader of the Pack'",
+      "'Twist and Shout'",
+      "'Be My Baby'",
+      "'Dancing Queen'"
+    ],
+    "activity_answer": "'Leader of the Pack'",
+    "suitable_for_8_to_12_year_old": false,
+    "follow_up_question": "Can you name another famous girl group from the 1960s?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  }
+]

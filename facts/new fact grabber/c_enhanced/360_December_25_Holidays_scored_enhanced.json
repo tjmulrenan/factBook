@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Christmas Magic Around the World",
+    "story": "Families around the globe wake up extra early on December 25 to celebrate Christmas Day! Kids rush to see what Santa left under the Christmas tree, while parents start cooking special holiday meals. Some families open presents in the morning, others wait until after dinner. Churches hold special services, and many people sing Christmas carols together. In some countries, people eat turkey and ham, while others enjoy fish or special holiday cookies. Neighborhoods light up with colorful decorations, and friends exchange gifts and warm wishes. Whether it's snowing or sunny, December 25 brings joy, family time, and the spirit of giving to millions of people celebrating this magical holiday.",
+    "activity_question": "What do kids typically rush to see on Christmas morning?",
+    "activity_choices": [
+      "What Santa left under the tree",
+      "The sunrise",
+      "Their homework",
+      "The mailman"
+    ],
+    "activity_answer": "What Santa left under the tree",
+    "bonus_fact": "Some families leave cookies and milk for Santa and carrots for his reindeer!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 95
+  },
+  {
+    "id": "902",
+    "title": "Pie-Perfect Pumpkin Paradise Day",
+    "story": "Orange slices of heaven fill kitchens across America on December 25 as families celebrate National Pumpkin Pie Day! This delicious holiday honors the creamy, spiced dessert that's become a fall and winter favorite. People bake homemade pies using pumpkin puree, cinnamon, nutmeg, and other warm spices, then top them with whipped cream or vanilla ice cream. Bakeries sell thousands of pies, and social media fills with photos of golden-orange masterpieces. Some families host pie-baking contests or try creative twists like pumpkin cheesecake or mini pumpkin tarts. It's the perfect excuse to enjoy this classic comfort food!",
+    "activity_question": "What spices are commonly used in pumpkin pie according to the story?",
+    "activity_choices": [
+      "Cinnamon and nutmeg",
+      "Salt and pepper",
+      "Chocolate and vanilla",
+      "Garlic and oregano"
+    ],
+    "activity_answer": "Cinnamon and nutmeg",
+    "bonus_fact": "Americans eat over 50 million pumpkin pies every year during the holiday season!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  }
+]

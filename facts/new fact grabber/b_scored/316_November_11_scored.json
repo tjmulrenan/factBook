@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "original": "Veterans Day",
+    "score": 65,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "Armistice Day",
+    "score": 35,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 3,
+    "original": "Remembrance Day",
+    "score": 45,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 4,
+    "original": "Singles' Day",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 5,
+    "original": "National Sundae Day",
+    "score": 92,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 6,
+    "original": "National Metal Day",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 7,
+    "original": "National Origami Day",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 8,
+    "original": "National Pocky Day",
+    "score": 80,
+    "is_kid_friendly": true
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Pranks and Giggles on April Fools' Day",
+    "story": "Every April 1, people around the world become sneaky pranksters for one hilarious day! April Fools' Day is when friends, families, and even news stations play harmless tricks on each other. Kids might put plastic wrap over the toilet seat or tell their parents there's a spider in their coffee. Adults join the fun too - some companies announce fake products, and newspapers print silly fake stories. The key rule is that pranks should be funny, not mean or hurtful. When someone falls for a trick, the prankster shouts \"April Fools!\" and everyone laughs together. It's a day when being a little mischievous is totally allowed!",
+    "activity_question": "What should people shout after successfully playing a prank on April Fools' Day?",
+    "activity_choices": [
+      "April Fools!",
+      "Gotcha!",
+      "Surprise!",
+      "Banana pancakes!"
+    ],
+    "activity_answer": "April Fools!",
+    "follow_up_question": "What harmless prank would you want to play on your friends or family?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Rise and Shine, Sourdough Time!",
+    "story": "Bakers across the country fire up their ovens on April 1 to celebrate National Sourdough Bread Day! This tangy, chewy bread gets its special flavor from wild yeast that bubbles and grows in a \"starter\" - basically a living dough mixture that some families have kept alive for years. People share photos of their homemade loaves online, visit local bakeries for fresh sourdough, and even swap starter recipes with friends.",
+    "activity_question": "What gives sourdough bread its special tangy flavor?",
+    "activity_choices": [
+      "Wild yeast in a starter",
+      "Extra salt",
+      "Lemon juice",
+      "Magic bread dust"
+    ],
+    "activity_answer": "Wild yeast in a starter",
+    "bonus_fact": "Some sourdough starters are over 100 years old and passed down through generations!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "903",
+    "title": "Fun at Work Day Makes Jobs Awesome",
+    "story": "Every April 1, offices around the world transform into playgrounds for International Fun at Work Day! Employees wear silly costumes, decorate their desks with colorful streamers, and organize games like office chair races or desk decorating contests. Some companies host pizza parties, talent shows, or even bring in therapy dogs for cuddles. Bosses might join in by wearing funny hats or letting workers have extra break time. The goal is simple: make work feel less like work and more like play. Many people share photos of their fun workplace activities on social media, showing off creative team-building games and laughing coworkers.",
+    "activity_question": "What might employees do to celebrate International Fun at Work Day?",
+    "activity_choices": [
+      "Organize office chair races and desk decorating contests",
+      "Work extra hours without any breaks",
+      "Wear only black and white clothing",
+      "Hold silent meetings all day long"
+    ],
+    "activity_answer": "Organize office chair races and desk decorating contests",
+    "follow_up_question": "What fun activity would you organize if you were the boss for a day?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  }
+]

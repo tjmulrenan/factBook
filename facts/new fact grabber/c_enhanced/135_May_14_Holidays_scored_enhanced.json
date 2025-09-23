@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Flap Your Wings and Shake Your Tail!",
+    "story": "Every May 14, people across the country celebrate National Dance Like a Chicken Day by doing exactly what it sounds like - dancing like chickens! You flap your arms like wings, bob your head back and forth, and strut around making clucking sounds. Schools often have chicken dance contests where kids compete to see who can do the silliest chicken moves. Some people wear feathers or yellow clothes to really get into character. Dance studios teach special chicken choreography, and social media fills up with hilarious videos of families doing the chicken dance together. It's a day when being goofy and silly is not just okay - it's encouraged!",
+    "activity_question": "What do people wear to get into character on National Dance Like a Chicken Day?",
+    "activity_choices": [
+      "Feathers or yellow clothes",
+      "Red cowboy hats",
+      "Blue swimming goggles",
+      "Purple superhero capes"
+    ],
+    "activity_answer": "Feathers or yellow clothes",
+    "follow_up_question": "What other animal dances do you think would be fun to celebrate?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Biscuits Get Their Big Day!",
+    "story": "Fluffy, buttery biscuits take center stage every May 14 on National Buttermilk Biscuit Day! People across the country celebrate by baking fresh batches of these golden treats from scratch. Restaurants offer special biscuit deals, and families gather in kitchens to mix buttermilk into dough. Some folks pile on honey, jam, or gravy, while others eat them plain and warm. Social media fills with photos of perfectly risen biscuits straight from the oven!",
+    "activity_question": "What do people commonly put on their biscuits during this celebration?",
+    "activity_choices": [
+      "Honey, jam, or gravy",
+      "Ice cream and sprinkles",
+      "Peanut butter and pickles",
+      "Ketchup and mustard"
+    ],
+    "activity_answer": "Honey, jam, or gravy",
+    "bonus_fact": "Buttermilk makes biscuits extra fluffy because it reacts with baking soda to create air bubbles!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  },
+  {
+    "id": "903",
+    "title": "Going Underground on May 14!",
+    "story": "Every May 14, Underground America Day celebrates all the amazing hidden spaces beneath our feet! People visit subway tunnels, underground caves, basement museums, and even storm drains to explore what's below ground level. Some folks share photos of cool underground spots they've discovered, while others learn about the workers who built subway systems and underground utilities. Cities sometimes offer special tours of their hidden tunnels and underground history. It's the perfect day to appreciate the secret world that exists right under our noses!",
+    "activity_question": "What kinds of underground spaces do people explore on Underground America Day?",
+    "activity_choices": [
+      "Subway tunnels and caves",
+      "Swimming pools and gardens",
+      "Rooftops and balconies",
+      "Parking lots and driveways"
+    ],
+    "activity_answer": "Subway tunnels and caves",
+    "follow_up_question": "What underground space in your town would you most want to explore?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "904",
+    "title": "Heroes in Scrubs Get Their Day",
+    "story": "Nurses around the world get a special shout-out every May 14 on International Nurses Day! Hospitals hang thank-you banners, patients write heartfelt cards, and communities organize parades to honor these healthcare heroes. Many nurses receive flowers, free meals, or small gifts from grateful families. Social media fills with #ThankANurse posts sharing stories of kindness and care. It's a day to celebrate the people who work around the clock to keep us healthy and safe.",
+    "activity_question": "What do people commonly give nurses on International Nurses Day?",
+    "activity_choices": [
+      "Flowers and free meals",
+      "Stethoscopes and bandages",
+      "Homework assignments",
+      "Magic wands"
+    ],
+    "activity_answer": "Flowers and free meals",
+    "follow_up_question": "How could you thank a nurse or healthcare worker in your community?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  }
+]

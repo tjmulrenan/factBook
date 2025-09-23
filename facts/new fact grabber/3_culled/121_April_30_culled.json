@@ -1,0 +1,542 @@
+[
+  {
+    "id": 123,
+    "year": "1993",
+    "original": "The source code of the World Wide Web is released by CERN, making it freely available to all",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 1
+  },
+  {
+    "id": 80,
+    "year": "1952",
+    "original": "Mr. Potato Head is the first toy advertised on television",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 2
+  },
+  {
+    "id": 118,
+    "year": "1988",
+    "original": "The then largest banana split ever, at 4.5 miles long, is made along Market Street in Selinsgrove, Pennsylvania",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 3
+  },
+  {
+    "id": 113,
+    "year": "1986",
+    "original": "Ashrita Furman performs 8,341 somersaults over 12 miles",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 4
+  },
+  {
+    "id": 277,
+    "year": "1921",
+    "original": "Roger L. Easton, American scientist and inventor (GPS), born in Craftsbury, Vermont (d. 2014)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 5
+  },
+  {
+    "id": 46,
+    "year": "1904",
+    "original": "Ice cream cone makes its debut at St. Louis World's Fair invented by Ernest A. Hamwi (independently of other claimant Italo Marchiony in NY)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 6
+  },
+  {
+    "id": 89,
+    "year": "1968",
+    "original": "3 Oriole pitchers walk 14 NY Yankees in a 9 inning game",
+    "score": 89,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 52
+  },
+  {
+    "id": 194,
+    "year": "2004",
+    "original": "\"Mean Girls\", teen comedy film released starringLindsay LohanandRachel McAdamsand written byTina Fey",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 8
+  },
+  {
+    "id": 362,
+    "year": "1976",
+    "original": "Victor Glover, American astronaut (Artemis II), born in Pomona, California[1]",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 9
+  },
+  {
+    "id": 275,
+    "year": "1920",
+    "original": "Tom Moore, English Captain knighted for raising £32 million for the NHS, born in Keighley, England (d. 2021)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 10
+  },
+  {
+    "id": 144,
+    "year": "2012",
+    "original": "The unfinished One World Trade Center overtakes the Empire State building to become the tallest building in New York",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 11
+  },
+  {
+    "id": 200,
+    "year": "1967",
+    "original": "Ostankino Tower, the then highest free-standing structure in the world at 540m is finished in Moscow, Russia",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 12
+  },
+  {
+    "id": 7,
+    "year": "1483",
+    "original": "Orbital calculations suggest that on this day, Pluto moved inside Neptune's orbit until July 23, 1503",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 13
+  },
+  {
+    "id": 150,
+    "year": "1803",
+    "original": "Chancellor Robert Livingston andJames Monroesign Louisiana Purchase Treaty in Paris at a cost of 15 million dollars, doubles the size of the USA",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 14
+  },
+  {
+    "id": 157,
+    "year": "1897",
+    "original": "English physicist and head of the Cavendish laboratoryJ. J. Thomsonannounces his discovery of the electron in a lecture to the Royal Institution",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 15
+  },
+  {
+    "id": 376,
+    "year": "1988",
+    "original": "Molloko, 1st California condor chick conceived in captivity, born in San Diego Zoo (San Diego, California)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 16
+  },
+  {
+    "id": 174,
+    "year": "1961",
+    "original": "MLB San Francisco Giants outfielderWillie Maysbecomes just the 9th player in MLB history to hit 4 homers in one game in 14-4 win against the Braves in Milwaukee",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 17
+  },
+  {
+    "id": 381,
+    "year": "2003",
+    "original": "Emily Carey, English actor (House of the Dragon, Wonder Woman, Geek Girl), born in London",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 18
+  },
+  {
+    "id": 367,
+    "year": "1981",
+    "original": "Kunal Nayyar, British-Indian actor and writer (Dr. Raj Koothrappali - The Big Bang Theory), born in London, England",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 19
+  },
+  {
+    "id": 317,
+    "year": "1945",
+    "original": "Michael J. Smith, American astronaut (51L-Challenger disaster), born in Beaufort, North Carolina (d. 1986)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 20
+  },
+  {
+    "id": 82,
+    "year": "1955",
+    "original": "Element atomic number 101, Mendelevium, announced",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 21
+  },
+  {
+    "id": 176,
+    "year": "1962",
+    "original": "NASA civilian pilotJoseph A. Walkertakes X-15 to 75,190 m",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 22
+  },
+  {
+    "id": 40,
+    "year": "1888",
+    "original": "Hailstones allegedly as big as oranges kill 246 people and some 1,600 sheep and cattle in Moradabad, India",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 23
+  },
+  {
+    "id": 43,
+    "year": "1900",
+    "original": "Casey Jones dies heroically in a train wreck at Vaughn, Mississippi, while driving Cannonball Express, immortalized in \"Ballad of Casey Jones\"",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 24
+  },
+  {
+    "id": 184,
+    "year": "1986",
+    "original": "Bill Elliottsets all-time NASCAR qualifying record, winning pole for the Winston 500 at Talladega Superspeedway; 212.809 mph (342.483 km/h; 44.998 seconds)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 25
+  },
+  {
+    "id": 180,
+    "year": "1976",
+    "original": "Muhammad Alibeats Jimmy Young in 15 for heavyweight boxing title",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 26
+  },
+  {
+    "id": 356,
+    "year": "1971",
+    "original": "John Boyne, Irish novelist (The Boy in the Striped Pyjamas), born in Dublin, Ireland",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 27
+  },
+  {
+    "id": 375,
+    "year": "1988",
+    "original": "Ana de Armas, Cuban-Spanish actress (Knives Out; Blonde), born in Santa Cruz del Norte, Cuba",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 28
+  },
+  {
+    "id": 369,
+    "year": "1982",
+    "original": "Drew Seeley, Canadian actor, dancer, songwriter and singer (High School Musical), born in Ottawa, Ontario",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 29
+  },
+  {
+    "id": 11,
+    "year": "1573",
+    "original": "The spire of Beauvais Cathedral, France, which made it the tallest human-made monument in the world at the time, collapses (never rebuilt)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 30
+  },
+  {
+    "id": 90,
+    "year": "1969",
+    "original": "Cincinnati Reds pitcher Jim Maloney records his second MLB no-hitter in 10-0 rout of Houston Astros",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 51
+  },
+  {
+    "id": 170,
+    "year": "1946",
+    "original": "Cleveland Indians pitcherBob Feller's 2nd career MLB no-hitter; beats New York Yankees, 1-0",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 32
+  },
+  {
+    "id": 158,
+    "year": "1900",
+    "original": "Weighing in at 170 lbs British former world heavyweight boxing championBob FitzsimmonsKOs 270 lb American Ed Dunkhost in round 2 of a lop-sided bout in Brooklyn, New York",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 33
+  },
+  {
+    "id": 374,
+    "year": "1987",
+    "original": "Rohit Sharma, Indian cricket batsman (38 Tests, 7 x 100s, TS 212; 227 ODIs; Deccan Chargers, Mumbai Indians), born in Nagpur, India",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 34
+  },
+  {
+    "id": 360,
+    "year": "1975",
+    "original": "Elliott Sadler, American race car driver and 1 of 31 drivers to have a victory in NASCAR's three top racing series, born in Emporia, Virginia",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 35
+  },
+  {
+    "id": 365,
+    "year": "1980",
+    "original": "Luis Scola, Argentine basketball player (2x All-EuroLeague First Team, 3x Spanish Cup winner, 3x Spanish Supercup winner, 4x FIBA AmeriCup MVP) and chief executive officer for the Italian Lega Basket Serie A, born in Buenos Aires, Argentina",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 37
+  },
+  {
+    "id": 366,
+    "year": "1980",
+    "original": "Sam Heughan, Scottish actor (Outlander), born in Balmaclellan, Scotland",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 38
+  },
+  {
+    "id": 372,
+    "year": "1986",
+    "original": "Dianna Agron, American Actress (Quinn Fabray-Glee), born in Savannah, Georgia",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 39
+  },
+  {
+    "id": 377,
+    "year": "1990",
+    "original": "(McBriare) \"Mac\" DeMarco, Canadian rock singer-songwriter (Salad Days), born in Duncan, British Columbia",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 40
+  },
+  {
+    "id": 75,
+    "year": "1945",
+    "original": "Soviet Army frees Ravensbruck concentration camp",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 41
+  },
+  {
+    "id": 70,
+    "year": "1943",
+    "original": "Dutch strike against forced labor in Nazi Germany's war industry",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 42
+  },
+  {
+    "id": 141,
+    "year": "2012",
+    "original": "Manchester City defeats Manchester United 1-0 in what is claimed to be the biggest match in English Premier League history",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 43
+  },
+  {
+    "id": 198,
+    "year": "1789",
+    "original": "George Washingtonis inaugurated as the first President of the United States of America at Federal Hall in NYC",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 44
+  },
+  {
+    "id": 26,
+    "year": "1808",
+    "original": "First practical typewriter is finished by Italian Pellegrino Turri",
+    "score": 55,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 45
+  },
+  {
+    "id": 129,
+    "year": "1997",
+    "original": "Big Ben stops at 12:11 PM for 54 minutes",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 46
+  },
+  {
+    "id": 66,
+    "year": "1940",
+    "original": "Air New Zealand then known as TEAL makes its inaugural flight with a flight from Auckland to Sydney. Later becomes 1st airline in the world to boil hot water in-flight to offer customers hot tea and coffee.",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 47
+  },
+  {
+    "id": 195,
+    "year": "2007",
+    "original": "German ChancellorAngela Merkelofficially hands over the Waldseemüller Map (oldest known document to name America) to the US Library of Congress",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 48
+  },
+  {
+    "id": 47,
+    "year": "1905",
+    "original": "First official soccer game between neighboring countries Belgium and the Netherlands; the Dutch win 4-1 at Olympic Stadium, Antwerp",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 62
+  },
+  {
+    "id": 112,
+    "year": "1985",
+    "original": "NFL Draft: Virginia Tech defensive end Bruce Smith first pick by Buffalo Bills",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 64
+  },
+  {
+    "id": 117,
+    "year": "1988",
+    "original": "NY Knights 1st arena football game beats Cobras 60-52 (10,157 in LA)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 65
+  },
+  {
+    "id": 320,
+    "year": "1946",
+    "original": "Bill Plympton, American animator (Your Face), born in Portland Oregon",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 67
+  },
+  {
+    "id": 301,
+    "year": "1939",
+    "original": "Ellen Taaffe Zwilich, American composer (1st woman composer to win Pulitzer Prize for Music, 1983), born in Miami, Florida",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 69
+  },
+  {
+    "id": 336,
+    "year": "1957",
+    "original": "Duane G Carey, American major USAF/astronaut, born in Saint Paul, Minnesota",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 71
+  },
+  {
+    "id": 279,
+    "year": "1923",
+    "original": "Al Lewis [Alexander Meister], American actor (The Munsters, Used Cars), born in Brooklyn, New York (d. 2006)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 72
+  },
+  {
+    "id": 290,
+    "year": "1930",
+    "original": "Jackie McLeod, Canadian ice hockey right wing (World C'ship gold 1961; New York Rangers) and coach (Canada 1966-69, Olympic bronze 1968), born in Regina, Saskatchewan (d. 2022)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 73
+  },
+  {
+    "id": 296,
+    "year": "1936",
+    "original": "Bernie Clifton [Quinn], British comedian (Oswald the Ostrich), born in St Helens, Lancashire, England",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 74
+  },
+  {
+    "id": 300,
+    "year": "1938",
+    "original": "Larry Niven, American sci-fi author (5 Hugo, Neutron Star), born in Los Angeles, California",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 75
+  },
+  {
+    "id": 310,
+    "year": "1943",
+    "original": "David King, British graphic designer (album cover art for Jimi Hendrix and The Who), photographer (I Am King), and historian (The Commissar Vanishes), born in Isleworth, England (d. 2016)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 76
+  },
+  {
+    "id": 331,
+    "year": "1953",
+    "original": "Merrill Osmond, American pop singer, and songwriter (Osmond Brothers - \"One Bad Apple\"; \"Down by the Lazy River\"), born in Ogden, Utah",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 77
+  },
+  {
+    "id": 344,
+    "year": "1964",
+    "original": "Barrington Levy, Jamaican reggae and dancehall singer (\"Englishman\"), born in Clarendon, Jamaica",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 79
+  }
+]

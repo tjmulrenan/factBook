@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "original": "Cinco de Mayo",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "National Cartoonists Day",
+    "score": 92,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "World Hand Hygiene Day",
+    "score": 55,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "Liberation Day (Netherlands)",
+    "score": 55,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 5,
+    "original": "Children's Day (Japan)",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 6,
+    "original": "Europe Day",
+    "score": 35,
+    "is_kid_friendly": false
+  }
+]

@@ -1,0 +1,1282 @@
+[
+  {
+    "id": "901",
+    "title": "Tiny Fish, Big Day!",
+    "story": "November 24 is National Sardines Day, when people celebrate these tiny silver fish! Restaurants serve sardine pizzas and pasta dishes, while grocery stores promote canned sardines with special deals.",
+    "activity_question": "What do restaurants often serve on National Sardines Day?",
+    "activity_choices": [
+      "Sardine pizzas and pasta dishes",
+      "Chocolate sardine cookies",
+      "Sardine ice cream sundaes",
+      "Fried sardine donuts"
+    ],
+    "activity_answer": "Sardine pizzas and pasta dishes",
+    "bonus_fact": "Sardines are named after the island of Sardinia where they were first caught!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 35
+  },
+  {
+    "id": "902",
+    "title": "Show Off Your Super Special Skills!",
+    "story": "Everyone has something they're amazing at, and November 24 is the perfect day to show it off! Celebrate Your Unique Talent Day encourages people to share their special skills with the world. Some kids post videos of their weird talents online, like wiggling their ears or solving Rubik's cubes blindfolded. Others perform for family and friends, whether it's beatboxing, doing magic tricks, or creating incredible art. Schools sometimes hold talent shows on this day where students can shine.",
+    "activity_question": "What do some people do to celebrate their talents on this day?",
+    "activity_choices": [
+      "Post videos of their skills online",
+      "Hide their talents from everyone",
+      "Only practice in secret",
+      "Forget about their abilities"
+    ],
+    "activity_answer": "Post videos of their skills online",
+    "follow_up_question": "What unique talent would you love to show off to your friends and family?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "903",
+    "title": "Broken Seals, Bold Deals!",
+    "story": "November 24 is Use Even If Seal Is Broken Day, when people celebrate taking chances on products with damaged packaging! Shoppers hunt for discounted items with torn boxes, dented cans, or broken seals that are still perfectly good inside. Stores often mark down these products, making it a treasure hunt for bargain hunters. It's about reducing waste and finding hidden gems that others might pass by. Smart shoppers know that a crumpled cereal box doesn't make the cereal taste any different!",
+    "activity_question": "What do people look for on Use Even If Seal Is Broken Day?",
+    "activity_choices": [
+      "Products with damaged packaging at discounted prices",
+      "Actual broken seals swimming in the ocean",
+      "New items with perfect packaging",
+      "Expensive luxury goods"
+    ],
+    "activity_answer": "Products with damaged packaging at discounted prices",
+    "bonus_fact": "This holiday helps reduce waste by giving imperfect packaging a second chance!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "904",
+    "title": "D.B. Cooper Day: The Mystery Man",
+    "story": "Every November 24, mystery fans celebrate D.B. Cooper Day by remembering the world's most famous unsolved case! On this exact date decades ago, a man calling himself Dan Cooper (nicknamed D.B. by reporters) hijacked a plane, demanded money, then jumped out with a parachute and vanished forever. Today, people share Cooper theories online, visit museums with exhibits about the case, and even attend special events in the Pacific Northwest where he disappeared. Some fans dress up like the mysterious hijacker in his famous black suit and tie. Nobody knows if Cooper survived his daring leap or what happened to the stolen cash, making this the perfect day to celebrate unsolved mysteries!",
+    "activity_question": "What did D.B. Cooper do after getting the money he demanded?",
+    "activity_choices": [
+      "He jumped out of the plane with a parachute",
+      "He drove away in a getaway car",
+      "He hid in the airplane bathroom",
+      "He turned himself in to police"
+    ],
+    "activity_answer": "He jumped out of the plane with a parachute",
+    "bonus_fact": "D.B. Cooper is the only unsolved air piracy case in American history.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "143",
+    "title": "Giant Iceberg Breaks Free After 30 Years",
+    "story": "A colossal chunk of ice the size of a small country started drifting again in 2023. Named A23a, this massive iceberg had been stuck in the Weddell Sea for over three decades. On November 24, scientists spotted it on the move once more. At about 1,500 square miles, it's the world's largest iceberg - imagine an ice cube as big as a city floating in the ocean!",
+    "activity_question": "What is the name of the world's largest iceberg?",
+    "activity_choices": [
+      "A23a",
+      "B52b",
+      "C64c",
+      "D99d"
+    ],
+    "activity_answer": "A23a",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How long had the iceberg been stuck before it started moving again?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "141",
+    "title": "Flossie: The Feline Record-Breaker",
+    "story": "Whiskers twitching with excitement, Flossie purred her way into history in 2022. This British-born cat, nearly 27 years old, claimed the title of world's oldest living feline on November 24. The Guinness Book of Records officially crowned Flossie, recognizing her incredible longevity. Despite her advanced age, Flossie remained playful and loving, proving that cats truly have nine lives – or maybe even more!",
+    "activity_question": "What title did Flossie claim in 2022?",
+    "activity_choices": [
+      "World's oldest living feline",
+      "Longest whiskers",
+      "Most playful senior cat",
+      "Loudest purr"
+    ],
+    "activity_answer": "World's oldest living feline",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "One human year equals about 15 cat years for the first two years of a cat's life.",
+    "score": 100,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "230",
+    "title": "The Colorful Creator of Crayola",
+    "story": "Edwin Binney, the man who would bring color to children's lives, was born in 1866. This creative inventor dreamed up the famous Crayola crayon, giving kids everywhere a rainbow of possibilities. Binney didn't stop there - he also created the first dustless white chalk, making classrooms cleaner and teachers happier. His inventions on November 24 sparked a colorful revolution in art and education.",
+    "activity_question": "What famous product did Edwin Binney invent?",
+    "activity_choices": [
+      "Crayola crayon",
+      "Colored pencil",
+      "Paint brush",
+      "Magic marker"
+    ],
+    "activity_answer": "Crayola crayon",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How might dustless chalk have made classrooms better?",
+    "score": 90,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "117",
+    "title": "Gangnam Style Gallops to YouTube Glory",
+    "story": "Psy's catchy dance hit Gangnam Style took the internet by storm. In 2012, on November 24, it became the most-watched YouTube video ever. The quirky K-pop sensation galloped past 808 million views, dethroning the previous record holder. With its addictive beat and horse-riding dance moves, Gangnam Style had people everywhere mimicking Psy's signature steps. The viral phenomenon showed the growing global reach of Korean pop culture.",
+    "activity_question": "What dance move is associated with Gangnam Style?",
+    "activity_choices": [
+      "Horse-riding",
+      "Moonwalking",
+      "Breakdancing",
+      "The robot"
+    ],
+    "activity_answer": "Horse-riding",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you try doing the Gangnam Style dance?",
+    "score": 92,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "87",
+    "title": "Lucy: A Glimpse into Human Origins",
+    "story": "Bones can tell amazing stories! In 1974, scientists made a groundbreaking discovery in Ethiopia. They unearthed Lucy, the most complete early human skeleton ever found. This ancient ancestor, from a species called Australopithecus, lived over 3 million years ago. On November 24, researchers carefully dug up Lucy's fossilized remains, giving us incredible clues about how humans evolved.",
+    "activity_question": "What was Lucy?",
+    "activity_choices": [
+      "The most complete early human skeleton",
+      "A new species of dinosaur",
+      "An ancient Egyptian mummy",
+      "A fossilized tree"
+    ],
+    "activity_answer": "The most complete early human skeleton",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think scientists named the skeleton Lucy?",
+    "score": 87,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "154",
+    "title": "Darwin's Groundbreaking Book Shakes Science",
+    "story": "Charles Darwin unleashed a scientific revolution in 1859. The English naturalist published his book 'On the Origin of Species' on November 24, forever changing how we understand life on Earth. Darwin's work explained how living things evolve over time through a process he called natural selection. His ideas were controversial but laid the foundation for modern biology and our grasp of evolution.",
+    "activity_question": "What did Charles Darwin call the process by which living things evolve?",
+    "activity_choices": [
+      "Natural selection",
+      "Artificial selection",
+      "Genetic mutation",
+      "Spontaneous generation"
+    ],
+    "activity_answer": "Natural selection",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you think of an animal that has evolved to suit its environment?",
+    "score": 95,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "76",
+    "title": "Splashdown! Apollo 12's Watery Homecoming",
+    "story": "Splash! The Apollo 12 spacecraft plunged into the Pacific Ocean on November 24, 1969, completing its incredible journey to the Moon and back. Astronauts Pete Conrad, Alan Bean, and Richard Gordon had spent days exploring our celestial neighbor. Now, bobbing in the waves, they waited for Navy ships to scoop them up. Their mission proved humans could land precisely on the Moon and conduct detailed scientific experiments. What an out-of-this-world adventure!",
+    "activity_question": "Where did the Apollo 12 spacecraft land when it returned to Earth?",
+    "activity_choices": [
+      "Pacific Ocean",
+      "Atlantic Ocean",
+      "Gulf of Mexico",
+      "Mediterranean Sea"
+    ],
+    "activity_answer": "Pacific Ocean",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What do you think was the first thing the astronauts wanted to do back on Earth?",
+    "score": 88,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "168",
+    "title": "Wilt's Rebound Rampage",
+    "story": "Wilt Chamberlain was a basketball giant, and in 1960, he proved it. On November 24, the Philadelphia Warriors' center grabbed an incredible 55 rebounds in a single game! Even though his team lost to the Boston Celtics, Wilt's feat still stands as an NBA record today. Imagine snatching that many basketballs - it's like catching rain in a thunderstorm!",
+    "activity_question": "What team did Wilt Chamberlain play for when he set the rebound record?",
+    "activity_choices": [
+      "Philadelphia Warriors",
+      "Boston Celtics",
+      "Chicago Bulls",
+      "Los Angeles Lakers"
+    ],
+    "activity_answer": "Philadelphia Warriors",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it's so hard to break Wilt's rebound record?",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "381",
+    "title": "Moaning Myrtle's Real-Life Actress Born",
+    "story": "Shirley Henderson, the voice behind Hogwarts' ghostly Moaning Myrtle, came into the world on November 24, 1965. Born in Forres, Scotland, this talented actress would grow up to bewitch Harry Potter fans with her portrayal of the spooky bathroom-dwelling student. Henderson's unique voice brought Myrtle to life, making her a memorable character in the magical film series.",
+    "activity_question": "Which Harry Potter character did Shirley Henderson play?",
+    "activity_choices": [
+      "Moaning Myrtle",
+      "Hermione Granger",
+      "Luna Lovegood",
+      "Professor McGonagall"
+    ],
+    "activity_answer": "Moaning Myrtle",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Moaning Myrtle is a ghost who haunts a girls' bathroom at Hogwarts School of Witchcraft and Wizardry.",
+    "score": 70,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "176",
+    "title": "A Magical World on a Disc",
+    "story": "Imagine a world shaped like a giant disc, balanced on the backs of four elephants standing on a turtle! In 1983, Terry Pratchett brought this wild idea to life in The Colour of Magic. Published on November 24, it was the first book in the Discworld series. Pratchett's fantastical story mixed humor and adventure, sparking readers imaginations and launching a beloved fantasy world that would grow through many more books.",
+    "activity_question": "What shape is the world in Terry Pratchett's book?",
+    "activity_choices": [
+      "A giant disc",
+      "A perfect sphere",
+      "A massive cube",
+      "A floating donut"
+    ],
+    "activity_answer": "A giant disc",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What animals does Pratchett imagine holding up the Discworld?",
+    "score": 90,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "135",
+    "title": "Scotland's Groundbreaking Period Product Law",
+    "story": "Scotland made history in 2020! On November 24, the Scottish Parliament unanimously passed a law making period products free for all who need them. This groundbreaking decision aimed to end 'period poverty' and ensure everyone has access to essential hygiene items. Scotland became the first country in the world to take this bold step, setting an inspiring example for others to follow.",
+    "activity_question": "What did Scotland's parliament vote to make free for all who need them?",
+    "activity_choices": [
+      "Period products",
+      "School lunches",
+      "Public transportation",
+      "Dental checkups"
+    ],
+    "activity_answer": "Period products",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think access to free period products is important?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "10",
+    "title": "Frozen Thames: London's Icy Surprise",
+    "story": "Brrr! Londoners woke up to an incredible sight in 1715. The mighty Thames River had turned into a giant ice rink! On November 24, the water froze solid enough for people to walk across. Imagine skating where boats usually sail! This rare freeze was part of the Little Ice Age, a period of unusually cold winters. Vendors set up stalls on the ice, selling hot drinks to chilly visitors enjoying this frosty spectacle.",
+    "activity_question": "What unusual event happened to the Thames River in 1715?",
+    "activity_choices": [
+      "It turned into a giant ice rink",
+      "It caught on fire",
+      "It changed color to bright blue",
+      "It flowed backwards"
+    ],
+    "activity_answer": "It turned into a giant ice rink",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What do you think people might have done for fun on the frozen river?",
+    "score": 85,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "217",
+    "title": "The Boy Who Invented Rugby",
+    "story": "Legend has it that a young student named William Webb Ellis changed sports history forever. Born in Salford, England on November 24, 1806, Ellis would later attend Rugby School. There, during a football match, he supposedly did something unheard of - he picked up the ball and ran with it! This bold move is said to have inspired the creation of rugby, a game loved by millions today.",
+    "activity_question": "Where was William Webb Ellis born?",
+    "activity_choices": [
+      "Salford, England",
+      "Rugby School",
+      "London, England",
+      "Manchester, England"
+    ],
+    "activity_answer": "Salford, England",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What sport did William Webb Ellis's actions inspire?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "20",
+    "title": "A Horse's Tale Gallops into History",
+    "story": "Hooves thundered across the pages as Anna Sewell finished her masterpiece. In 1877, the English author sold her manuscript Black Beauty to a Norwich publisher for £40. This heartwarming tale, told from a horse's perspective, would soon become a beloved classic. Sewell completed the book on November 24, just months before it hit shelves, touching readers with its message of kindness to animals.",
+    "activity_question": "What was the title of Anna Sewell's famous book?",
+    "activity_choices": [
+      "Black Beauty",
+      "White Stallion",
+      "Midnight Rider",
+      "Chestnut Mare"
+    ],
+    "activity_answer": "Black Beauty",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Black Beauty was the only book Anna Sewell ever wrote.",
+    "score": 85,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "124",
+    "title": "Tiny Creatures, Big Discoveries",
+    "story": "Creepy crawlies hide amazing secrets! On November 24, 2016, scientists announced they'd found a whopping 1,500 new viruses living inside invertebrates. These tiny creatures without backbones, like insects and worms, were full of surprises. The international team of researchers uncovered a hidden world of viruses we never knew existed before. Their discovery opened up exciting new paths to understand how viruses work and evolve.",
+    "activity_question": "What type of animals did scientists find new viruses in?",
+    "activity_choices": [
+      "Invertebrates",
+      "Mammals",
+      "Fish",
+      "Birds"
+    ],
+    "activity_answer": "Invertebrates",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name three examples of invertebrates?",
+    "score": 80,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "188",
+    "title": "Stargazers Spot Venus Crossing the Sun",
+    "story": "Two English astronomers made a groundbreaking discovery in 1639. Jeremiah Horrocks and William Crabtree became the first to observe Venus passing in front of the Sun. This rare event, called a transit, happened on November 24. Using methods from the famous astronomer Johannes Kepler, they predicted when Venus would cross the Sun's face. Their observation helped scientists better understand how big our solar system really is.",
+    "activity_question": "What did Horrocks and Crabtree observe for the first time?",
+    "activity_choices": [
+      "Venus passing in front of the Sun",
+      "A solar eclipse",
+      "A new comet",
+      "Mars orbiting Earth"
+    ],
+    "activity_answer": "Venus passing in front of the Sun",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why was observing Venus's transit important for understanding our solar system?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "190",
+    "title": "The Beatles Cook Up Musical Magic",
+    "story": "Imagine a musical kitchen where four chefs mix up sounds instead of food. That's what happened in 1966 when The Beatles started cooking up their album 'Sgt. Pepper's Lonely Hearts Club Band'. On November 24, they entered the studio, ready to stir new ideas into their musical pot. This wasn't just another record—it was a feast for the ears that would change how people thought about music forever!",
+    "activity_question": "What did The Beatles start working on in the studio?",
+    "activity_choices": [
+      "Their album 'Sgt. Pepper's Lonely Hearts Club Band'",
+      "A new recipe for apple pie",
+      "A movie soundtrack",
+      "Their first live concert"
+    ],
+    "activity_answer": "Their album 'Sgt. Pepper's Lonely Hearts Club Band'",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think The Beatles chose such a long and unusual name for their album?",
+    "score": 92,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "92",
+    "title": "Missiles Take Flight in Groundbreaking Test",
+    "story": "Zoom! A new era of military technology soared into the skies in 1981. On November 24, the first air-launched cruise missile was successfully tested. This sleek, pilotless aircraft could fly long distances and deliver its payload with pinpoint accuracy. The test marked a major leap in aviation and defense capabilities, changing the way countries thought about air power and strategy.",
+    "activity_question": "What type of missile was tested for the first time?",
+    "activity_choices": [
+      "Air-launched cruise missile",
+      "Ground-based ballistic missile",
+      "Submarine-launched torpedo",
+      "Space-based laser beam"
+    ],
+    "activity_answer": "Air-launched cruise missile",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How might this technology have changed military strategies?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "67",
+    "title": "Robots on the Brain",
+    "story": "Beep boop! In 1958, scientists gathered to talk about thinking machines. The Mechanisation of Thought Processes symposium kicked off on November 24 in Teddington, England. It was the first big international meeting about artificial intelligence. Experts from around the world shared ideas on how to make computers 'think' like humans. This event helped spark the AI revolution we're living in today!",
+    "activity_question": "Where did the symposium about artificial intelligence take place?",
+    "activity_choices": [
+      "Teddington, England",
+      "London, England",
+      "Oxford, England",
+      "Robot Town, USA"
+    ],
+    "activity_answer": "Teddington, England",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What do you think computers might be able to do in the future?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "220",
+    "title": "Grace Darling: Lighthouse Hero",
+    "story": "A brave girl named Grace Darling was born in Bamburgh, England on November 24, 1815. She grew up in a lighthouse, where her father was the keeper. Grace became famous for her courage when she helped save people from a sinking ship. Using a small boat in rough seas, she and her father rescued survivors clinging to rocks. Grace's bravery made her a hero across England.",
+    "activity_question": "Where was Grace Darling born?",
+    "activity_choices": [
+      "Bamburgh, England",
+      "London, England",
+      "Edinburgh, Scotland",
+      "Dublin, Ireland"
+    ],
+    "activity_answer": "Bamburgh, England",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Grace lived in the lighthouse on Longstone Island, part of the Farne Islands off the coast of England.",
+    "score": 92,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "42",
+    "title": "Ruth Nichols Soars Across America",
+    "story": "Zoom! In 1930, Ruth Nichols blazed a trail across the sky. This daring pilot hopped into her Lockheed-Vega airplane and took off from Mineola, New York. Her destination? California! On November 24, Nichols landed, setting a new women's record for flying coast-to-coast. Her speedy journey inspired girls everywhere to reach for the stars and chase their dreams.",
+    "activity_question": "What type of airplane did Ruth Nichols fly for her record-setting journey?",
+    "activity_choices": [
+      "Lockheed-Vega",
+      "Boeing 747",
+      "Wright Flyer",
+      "Paper airplane"
+    ],
+    "activity_answer": "Lockheed-Vega",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think Ruth Nichols felt after completing her record-breaking flight?",
+    "score": 88,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "151",
+    "title": "Abel Tasman's Surprise Island Discovery",
+    "story": "Sailing through uncharted waters, Dutch explorer Abel Tasman stumbled upon a mysterious island in 1642. On November 24, his crew spotted land they'd never seen before. This rugged, beautiful place would later be named Tasmania, after Tasman himself. It was a thrilling moment of discovery that expanded European knowledge of the world.",
+    "activity_question": "What was the name of the explorer who discovered Tasmania?",
+    "activity_choices": [
+      "Abel Tasman",
+      "Christopher Columbus",
+      "James Cook",
+      "Ferdinand Magellan"
+    ],
+    "activity_answer": "Abel Tasman",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think the island was later named after Tasman?",
+    "score": 70,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "19",
+    "title": "Sharp Idea: The Birth of Barbed Wire",
+    "story": "Fences were about to get a lot pricklier! In 1874, Joseph Glidden had a clever idea that would change farms forever. On November 24, this American inventor patented barbed wire. His design twisted two wires together to hold sharp barbs in place. This simple but effective invention helped farmers protect their crops and control their livestock more easily.",
+    "activity_question": "What did Joseph Glidden invent?",
+    "activity_choices": [
+      "Barbed wire",
+      "Electric fences",
+      "Wooden gates",
+      "Cow bells"
+    ],
+    "activity_answer": "Barbed wire",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Glidden's barbed wire was nicknamed 'The Winner' because it was so successful.",
+    "score": 65,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "278",
+    "title": "The Man Who Coined 'Sci-Fi'",
+    "story": "Forrest J. Ackerman, a word wizard, was born in Los Angeles in 1916. This creative mind would grow up to invent the term 'sci-fi' that we all use today! Ackerman became a famous literary agent and writer, known for his work on 'Famous Monsters of Filmland' magazine. His November 24 birthday marked the start of a life that would shape how we talk about science fiction.",
+    "activity_question": "What term did Forrest J. Ackerman invent?",
+    "activity_choices": [
+      "sci-fi",
+      "fantasy",
+      "horror",
+      "space opera"
+    ],
+    "activity_answer": "sci-fi",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you think of your favorite sci-fi story or movie?",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "288",
+    "title": "The Battery Genius Who Changed Our World",
+    "story": "A brilliant mind sparked to life in Akron, Ohio. Stanford Ovshinsky was born in 1922, destined to revolutionize technology. This inventive wizard would go on to create the nickel-metal hydride battery. His clever design powers countless gadgets we use every day, from phones to electric cars. Ovshinsky's November 24 birthday marks the start of a journey that energized our modern world.",
+    "activity_question": "What type of battery did Stanford Ovshinsky invent?",
+    "activity_choices": [
+      "Nickel-metal hydride battery",
+      "Lithium-ion battery",
+      "Lead-acid battery",
+      "Solar-powered battery"
+    ],
+    "activity_answer": "Nickel-metal hydride battery",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name a device that might use the type of battery Ovshinsky invented?",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "62",
+    "title": "The President Takes to the Skies",
+    "story": "Zoom! The leader of the United States soared into a new era of travel in 1954. On November 24, the very first Air Force One was christened. This special airplane became the flying office and home away from home for the President. It allowed the country's top leader to jet around the world, meeting important people and representing America in far-off places.",
+    "activity_question": "What was christened on November 24, 1954?",
+    "activity_choices": [
+      "Air Force One",
+      "The White House",
+      "The President's car",
+      "A giant eagle"
+    ],
+    "activity_answer": "Air Force One",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it's important for the President to have a special airplane?",
+    "score": 65,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "43",
+    "title": "FBI Crime Lab Cracks Open",
+    "story": "Fingerprints, fibers, and forensics! The FBI Crime Lab burst onto the scene in 1932, ready to solve mysteries. On November 24, this high-tech hub of crime-fighting gadgets opened its doors in Washington, D.C. Scientists armed with microscopes and test tubes joined forces with detectives to crack tough cases using cutting-edge methods.",
+    "activity_question": "Where did the FBI Crime Lab open?",
+    "activity_choices": [
+      "Washington, D.C.",
+      "New York City",
+      "Chicago",
+      "Los Angeles"
+    ],
+    "activity_answer": "Washington, D.C.",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What tools might scientists use in a crime lab?",
+    "score": 65,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "314",
+    "title": "Special Delivery: Mr. McFeely's Birthday",
+    "story": "Speedy delivery! David Newell, the actor behind Mr. McFeely on Mister Rogers' Neighborhood, was born in 1938. Hailing from O'Hara Township, Pennsylvania, Newell would grow up to become a beloved figure on children's television. His cheerful catchphrase and swift appearances delighted young viewers for decades on November 24 and throughout the year.",
+    "activity_question": "What was David Newell's character known for on Mister Rogers' Neighborhood?",
+    "activity_choices": [
+      "Speedy delivery",
+      "Baking cookies",
+      "Playing music",
+      "Teaching science"
+    ],
+    "activity_answer": "Speedy delivery",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Mr. McFeely's full name on the show was Mr. McFeely Speedy Delivery!",
+    "score": 85,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "178",
+    "title": "Cricket's Youngest Star Shines Bright",
+    "story": "Bats cracked and crowds roared as a teenage sensation took the cricket world by storm. On November 24, 1989, Sachin Tendulkar, just a few months past his 16th birthday, achieved an incredible feat. He scored a Test cricket fifty, becoming the youngest player ever to reach this milestone. Tendulkar's talent and determination at such a young age hinted at the legendary career that would follow.",
+    "activity_question": "What did Sachin Tendulkar achieve in 1989?",
+    "activity_choices": [
+      "He scored a Test cricket fifty",
+      "He won the World Cup",
+      "He became team captain",
+      "He retired from cricket"
+    ],
+    "activity_answer": "He scored a Test cricket fifty",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another sport where young athletes often compete at a professional level?",
+    "optional_type": "follow_up_question",
+    "score": 90,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "147",
+    "title": "Saquon Barkley's Unstoppable Rush",
+    "story": "Saquon Barkley sprinted into the record books on November 24, 2024. The Philadelphia Eagles running back blazed past defenders, racking up an incredible 255 yards rushing. His lightning-fast feet and unbreakable determination led the Eagles to a 37-20 victory over the Los Angeles Rams. Barkley's performance set a new franchise game record, thrilling fans at SoFi Stadium in Inglewood, California.",
+    "activity_question": "What team did Saquon Barkley play for when he set the rushing record?",
+    "activity_choices": [
+      "Philadelphia Eagles",
+      "Los Angeles Rams",
+      "New York Giants",
+      "California Condors"
+    ],
+    "activity_answer": "Philadelphia Eagles",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How many yards did Barkley rush for in this record-setting game?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "185",
+    "title": "Racing Legend's Incredible Winning Streak",
+    "story": "Zoom! Sebastian Vettel raced into history on November 24, 2013. The German driver for Red Bull won the Brazilian Grand Prix, capping off an amazing season. It was his ninth victory in a row, a feat never before achieved in Formula One racing. Vettel also secured his fourth World Drivers Championship in a row, proving he was truly in a league of his own on the track.",
+    "activity_question": "What team did Sebastian Vettel drive for when he achieved his incredible winning streak?",
+    "activity_choices": [
+      "Red Bull",
+      "Ferrari",
+      "Mercedes",
+      "McLaren"
+    ],
+    "activity_answer": "Red Bull",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How many World Drivers Championships in a row did Vettel win?",
+    "score": 80,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "167",
+    "title": "Jim Brown's Record-Breaking Rush",
+    "story": "Zoom! Jim Brown raced across the football field like a rocket. On November 24, 1957, this Cleveland Browns fullback set an amazing club record. He rushed for 237 yards in a single game! Brown's incredible speed and strength helped him dodge tackles and sprint past defenders. His performance thrilled fans and showed why he would become one of the greatest players in NFL history.",
+    "activity_question": "What position did Jim Brown play for the Cleveland Browns?",
+    "activity_choices": [
+      "Quarterback",
+      "Fullback",
+      "Wide receiver",
+      "Linebacker"
+    ],
+    "activity_answer": "Fullback",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What skills do you think made Jim Brown such a great football player?",
+    "optional_type": "follow_up_question",
+    "score": 82,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "90",
+    "title": "Griese's Gridiron Greatness",
+    "story": "Touchdown passes flew through the air as Miami Dolphins quarterback Bob Griese put on a spectacular show. In 1977, on November 24, Griese threw an amazing six touchdown passes in a single game. His incredible performance led the Dolphins to a decisive 55-14 victory over the Cardinals in St. Louis. Fans watched in awe as Griese's precision and skill lit up the scoreboard, cementing his place in football history.",
+    "activity_question": "How many touchdown passes did Bob Griese throw in this memorable game?",
+    "activity_choices": [
+      "Six",
+      "Four",
+      "Five",
+      "Seven"
+    ],
+    "activity_answer": "Six",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What team did Bob Griese play for?",
+    "optional_type": "follow_up_question",
+    "score": 90,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "180",
+    "title": "Pete Sampras Triumphs in Epic Tennis Battle",
+    "story": "Ace serves and thrilling rallies filled the air as Pete Sampras clinched his third ATP Tour World Championship. On November 24, 1996, the American tennis star faced off against defending champ Boris Becker in Hanover, Germany. The match was a nail-biter, with Sampras eventually emerging victorious in a classic five-set duel: 3-6, 7-6, 7-6, 6-7, 6-4. Fans were on the edge of their seats throughout this unforgettable tennis showdown.",
+    "activity_question": "Who did Pete Sampras defeat in this championship match?",
+    "activity_choices": [
+      "Boris Becker",
+      "Andre Agassi",
+      "Roger Federer",
+      "Steffi Graf"
+    ],
+    "activity_answer": "Boris Becker",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How many sets did the match last?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "181",
+    "title": "Tennis Titans Clash in Epic Match",
+    "story": "Steffi Graf's lightning-fast serves lit up Madison Square Garden in 1996. The German tennis star faced off against Martina Hingis in a thrilling WTA Tour Championship. On November 24, Graf's determination shone through as she clinched victory in a rollercoaster five-set battle. The final score? A dizzying 6-3, 4-6, 6-0, 4-6, 6-0!",
+    "activity_question": "Where did this exciting tennis match take place?",
+    "activity_choices": [
+      "Madison Square Garden",
+      "Wimbledon",
+      "Roland Garros",
+      "Central Park"
+    ],
+    "activity_answer": "Madison Square Garden",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another famous sport played at Madison Square Garden?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "179",
+    "title": "Monica's Smashing Tennis Payday",
+    "story": "Ace! In 1991, tennis star Monica Seles hit a powerful serve to the record books. On November 24, she finished the year with an incredible $2,457,758 in prize money. That's more than any woman had ever won playing tennis in a single year! Seles' lightning-fast returns and fierce determination helped her dominate the court and her bank account.",
+    "activity_question": "What did Monica Seles set a record for in 1991?",
+    "activity_choices": [
+      "Most tennis matches won",
+      "Fastest serve speed",
+      "Most prize money won in a year",
+      "Longest winning streak"
+    ],
+    "activity_answer": "Most prize money won in a year",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you think of other sports where players can win prize money?",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "94",
+    "title": "Cricket Star's Debut: Richie Richardson Shines",
+    "story": "Crack! The sound of bat meeting ball echoed across the cricket pitch in Bombay. On November 24, 1983, a new star was born in the world of Test Cricket. Richie Richardson, a talented young player from the West Indies, stepped onto the field for his international debut against India. With his stylish batting and confident demeanor, Richardson quickly showed why he would become one of cricket's greats. Fans cheered as he faced off against India's best bowlers, marking the start of an incredible career.",
+    "activity_question": "Where did Richie Richardson make his Test Cricket debut?",
+    "activity_choices": [
+      "Bombay",
+      "London",
+      "Kingston",
+      "Melbourne"
+    ],
+    "activity_answer": "Bombay",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What team did Richie Richardson play for in his debut match?",
+    "optional_type": "follow_up_question",
+    "score": 94,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "114",
+    "title": "Cricket Star's Dazzling Debut",
+    "story": "Bats cracked and crowds cheered as Mohammad Wasim made cricket history. On November 24, 1996, this talented Pakistani player stepped onto the field for his first-ever Test match. Facing New Zealand in Lahore, Wasim didn't just play well—he soared! He smashed an incredible 109 runs, proving himself a true cricket sensation from day one. Wasim's century on debut showed the world a new star had arrived in Pakistan's cricket galaxy.",
+    "activity_question": "What score did Mohammad Wasim achieve in his first Test match?",
+    "activity_choices": [
+      "109 runs",
+      "96 runs",
+      "100 runs",
+      "A cricket ball"
+    ],
+    "activity_answer": "109 runs",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name the two countries that played in this cricket match?",
+    "score": 90,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "106",
+    "title": "Atlantis Soars: Space Shuttle's Daring Mission",
+    "story": "Whoosh! The space shuttle Atlantis blasted off, carrying brave astronauts into the starry sky. This exciting launch on November 24, 1991, marked the 75th time humans rocketed into space for the United States. Named STS-44, the mission showed how far space exploration had come. Atlantis and its crew were ready to unlock more cosmic secrets!",
+    "activity_question": "What was the name of the space shuttle that launched in this mission?",
+    "activity_choices": [
+      "Atlantis",
+      "Discovery",
+      "Endeavour",
+      "Columbia"
+    ],
+    "activity_answer": "Atlantis",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think space missions are important for science?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "The Thames Turns to Ice",
+    "story": "Icy winds howled through London as the River Thames froze solid in 1434. On November 24, people marveled at the unusual sight. The mighty river had turned into a giant skating rink! Brave souls ventured onto the thick ice, sliding and gliding where boats usually sailed. It was a rare and chilly adventure that Londoners would remember for generations.",
+    "activity_question": "What did the River Thames turn into when it froze?",
+    "activity_choices": [
+      "A giant skating rink",
+      "A snow-covered field",
+      "A frozen waterfall",
+      "An ice sculpture garden"
+    ],
+    "activity_answer": "A giant skating rink",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it was unusual for the River Thames to freeze over?",
+    "score": 75,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "149",
+    "title": "Genghis Khan's Mighty Victory",
+    "story": "Clash of titans! In 1221, Genghis Khan's fearsome Mongol army faced off against the powerful Shah's forces. The epic Battle of the Indus unfolded on November 24, with the Mongols emerging victorious. This battle showcased Genghis Khan's brilliant military tactics and helped expand his vast empire across Asia.",
+    "activity_question": "Who won the Battle of the Indus?",
+    "activity_choices": [
+      "Genghis Khan's Mongol force",
+      "The Shah's army",
+      "A Roman legion",
+      "Ninja warriors"
+    ],
+    "activity_answer": "Genghis Khan's Mongol force",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What made Genghis Khan such a successful military leader?",
+    "score": 78,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "153",
+    "title": "Explorers Set Sail for Cuban Adventure",
+    "story": "Two brave naturalists, Alexander von Humboldt and Aimé Bonpland, embarked on an exciting journey in 1800. On November 24, they left Caracas, Venezuela, bound for Cuba. Their goal? To meet fellow plant expert John Fraser. This trip was part of a grand five-year adventure exploring Spanish America, where they discovered new plants and animals.",
+    "activity_question": "What was the destination of Humboldt and Bonpland's journey?",
+    "activity_choices": [
+      "Cuba",
+      "Venezuela",
+      "Spain",
+      "America"
+    ],
+    "activity_answer": "Cuba",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think explorers like Humboldt and Bonpland were interested in studying plants and animals?",
+    "score": 78,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "293",
+    "title": "A Nobel Mind from Shanghai",
+    "story": "In Shanghai, a brilliant mind was born. Tsung-Dao Lee entered the world in 1926, destined to change physics forever. His groundbreaking work on parity laws would later earn him the Nobel Prize. On November 24, the same date years later, Lee's legacy as a Chinese-American scientist continued to inspire young minds in both countries.",
+    "activity_question": "What did Tsung-Dao Lee receive the Nobel Prize for?",
+    "activity_choices": [
+      "Work on parity laws",
+      "Discoveries in chemistry",
+      "Advancements in medicine",
+      "Inventions in technology"
+    ],
+    "activity_answer": "Work on parity laws",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name another famous scientist born in China?",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "291",
+    "title": "A Nobel Mind Begins Its Journey",
+    "story": "In 1925, a brilliant mind sparked to life. Simon van der Meer, born on November 24 in The Hague, Netherlands, would grow up to revolutionize physics. His groundbreaking work alongside Carlo Rubbia led to a shared Nobel Prize in Physics in 1984. Van der Meer's discoveries helped unlock secrets of the universe's tiniest particles.",
+    "activity_question": "Where was Simon van der Meer born?",
+    "activity_choices": [
+      "The Hague, Netherlands",
+      "Amsterdam, Netherlands",
+      "Brussels, Belgium",
+      "Paris, France"
+    ],
+    "activity_answer": "The Hague, Netherlands",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What prestigious award did Simon van der Meer win in 1984?",
+    "score": 70,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "213",
+    "title": "Explorer Uncovers Ancient Wonders",
+    "story": "Johann Ludwig Burckhardt was born in Switzerland in 1784. This adventurous traveler became famous for discovering two incredible ancient sites. He was the first European to find the hidden city of Petra in Jordan and the massive Abu Simbel temples in Egypt. Burckhardt's exciting discoveries on November 24 helped unlock secrets of long-lost civilizations.",
+    "activity_question": "What two ancient sites did Johann Ludwig Burckhardt discover?",
+    "activity_choices": [
+      "Petra and Abu Simbel",
+      "Machu Picchu and Angkor Wat",
+      "Stonehenge and Easter Island",
+      "The Great Wall and Taj Mahal"
+    ],
+    "activity_answer": "Petra and Abu Simbel",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "In which country would you find Petra?",
+    "optional_type": "follow_up_question",
+    "score": 72,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "235",
+    "title": "Architect Who Shaped a Nation's Capital",
+    "story": "Walter Burley Griffin was born in 1876, destined to leave his mark on the world. This talented architect from Illinois would go on to design Australia's capital city, Canberra. Griffin's innovative ideas, like the L-shaped floor plan and carport, changed how we think about buildings. On November 24, his birthday, we remember the man who shaped not just a city, but a nation's identity.",
+    "activity_question": "What did Walter Burley Griffin design in Australia?",
+    "activity_choices": [
+      "Australia's capital city, Canberra",
+      "The Sydney Opera House",
+      "The Great Barrier Reef",
+      "A giant kangaroo statue"
+    ],
+    "activity_answer": "Australia's capital city, Canberra",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Griffin also designed two towns in New South Wales: Griffith and Leeton.",
+    "score": 65,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "374",
+    "title": "A Powerful Voice Is Born",
+    "story": "A tiny baby girl opened her eyes in Shillong, India, unaware she would grow up to shake the world with her words. Arundhati Roy was born on November 24, 1961. This future activist and writer would go on to pen The God of Small Things, a book that captured hearts around the globe.",
+    "activity_question": "What famous book did Arundhati Roy write?",
+    "activity_choices": [
+      "The God of Small Things",
+      "The Little Prince",
+      "The Cat in the Hat",
+      "The Hungry Caterpillar"
+    ],
+    "activity_answer": "The God of Small Things",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What do you think makes a book powerful enough to capture hearts around the world?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "320",
+    "title": "A Storyteller's Journey Begins",
+    "story": "In a cozy Ottawa home, a future master of words took his first breath. Eric Wilson, destined to captivate young readers, was born in 1940. This Canadian children's author would go on to weave tales that sparked imagination in kids across the country. His November 24 birthday marked the start of a literary adventure that would inspire generations.",
+    "activity_question": "Where was Eric Wilson born?",
+    "activity_choices": [
+      "Ottawa",
+      "Toronto",
+      "Vancouver",
+      "Montreal"
+    ],
+    "activity_answer": "Ottawa",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What kind of books did Eric Wilson become famous for writing?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "266",
+    "title": "A Colorful Writer Is Born",
+    "story": "In 1909, a special author came into the world. Hotze de Roos was born in Friesland, Netherlands on November 24. He grew up to write exciting stories for kids. De Roos became famous for creating 'Chameleon', a beloved character in Dutch children's books. His tales brought joy to young readers across the country.",
+    "activity_question": "What famous character did Hotze de Roos create?",
+    "activity_choices": [
+      "Chameleon",
+      "Dragon",
+      "Unicorn",
+      "Mermaid"
+    ],
+    "activity_answer": "Chameleon",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think the author might have chosen a chameleon as a character for children's books?",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "253",
+    "title": "A Pioneer in Children's Books",
+    "story": "Paul Faucher, a French author who changed children's books forever, was born in 1898. He created the famous Père Castor series, which brought colorful, fun stories to kids across France. Faucher believed learning should be an adventure, and his books made reading exciting for little ones on November 24 and every day after.",
+    "activity_question": "What famous book series did Paul Faucher create?",
+    "activity_choices": [
+      "Père Castor",
+      "Little Prince",
+      "Madeline",
+      "Tintin"
+    ],
+    "activity_answer": "Père Castor",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Père Castor means 'Father Beaver' in English, a friendly name for young readers!",
+    "score": 65,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "248",
+    "title": "A Dutch Storyteller's Birthday",
+    "story": "Cissy van Marxfield, a beloved Dutch children's author, was born in 1889 in Oranjewoud, Netherlands. Her real name was Setske Beek-de Haan, but she wrote under a pen name. Van Marxfield's stories captured the hearts of young readers, creating magical worlds for children to explore. Her legacy lives on through her books, even though she passed away in 1948.",
+    "activity_question": "What was Cissy van Marxfield's real name?",
+    "activity_choices": [
+      "Setske Beek-de Haan",
+      "Oranjewoud Netherlands",
+      "Cissy van Marxfield",
+      "Dutch Storyteller"
+    ],
+    "activity_answer": "Setske Beek-de Haan",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think some authors choose to write under pen names?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "163",
+    "title": "A Shimmering Tale of Hope and Greed",
+    "story": "A fisherman's life changed forever when John Steinbeck's novella 'The Pearl' hit bookstores in 1947. On November 24, readers dove into the story of Kino, who discovers a magnificent pearl. This treasure brings both dreams and danger, teaching us about the power of hope and the perils of greed.",
+    "activity_question": "What did Kino discover in the story?",
+    "activity_choices": [
+      "A magnificent pearl",
+      "A sunken ship",
+      "A hidden treasure map",
+      "A magical seashell"
+    ],
+    "activity_answer": "A magnificent pearl",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Have you ever found something special that changed your life?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "160",
+    "title": "Fred Astaire's Dazzling Film Debut",
+    "story": "Tap shoes clicked and audiences cheered as Fred Astaire twirled onto the silver screen for the first time. The movie 'Dancing Lady' hit theaters on November 24, 1933, introducing the world to Astaire's incredible footwork. This musical comedy marked the beginning of a legendary career that would change dance in Hollywood forever.",
+    "activity_question": "What was the name of Fred Astaire's first film?",
+    "activity_choices": [
+      "Dancing Lady",
+      "Singing Gentleman",
+      "Tapping Toes",
+      "Hollywood Shuffle"
+    ],
+    "activity_answer": "Dancing Lady",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Fred Astaire went on to star in over 30 musical films during his career.",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "70",
+    "title": "The Who Rocks London's Marquee Club",
+    "story": "Rock and roll history was made in 1964 when The Who took the stage at London's Marquee Club. On November 24, the British band kicked off an exciting residency, playing every Tuesday night for nearly half a year. The Marquee Club was a hotspot for up-and-coming musicians, and The Who's energetic performances there helped launch their legendary career.",
+    "activity_question": "How long did The Who's residency at the Marquee Club last?",
+    "activity_choices": [
+      "Nearly half a year",
+      "One month",
+      "A full year",
+      "Just one night"
+    ],
+    "activity_answer": "Nearly half a year",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The Who became famous for smashing their instruments on stage during performances.",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "328",
+    "title": "Laughter Born in Glasgow",
+    "story": "A comedy legend took his first breath in Anderston, Glasgow. Billy Connolly, the Scottish funnyman who'd make millions laugh, was born on November 24, 1942. From humble beginnings, he grew into a beloved comedian and actor. Connolly's wit and charm would later shine in shows like 'Blue Money', bringing joy to audiences worldwide.",
+    "activity_question": "Where was Billy Connolly born?",
+    "activity_choices": [
+      "Anderston, Glasgow",
+      "Edinburgh",
+      "London",
+      "New York"
+    ],
+    "activity_answer": "Anderston, Glasgow",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What talent is Billy Connolly most famous for?",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "348",
+    "title": "A Star is Born: Dwight Schultz",
+    "story": "Lights, camera, action! Dwight Schultz burst onto the scene in 1947, born in Baltimore, Maryland. This future star would go on to capture hearts as the lovable Murdock in The A-Team and as the quirky Barclay in Star Trek: The Next Generation. Little did anyone know on November 24 that this newborn would grow up to become a beloved actor on two iconic TV shows!",
+    "activity_question": "What two famous TV shows did Dwight Schultz star in?",
+    "activity_choices": [
+      "The A-Team and Star Trek: The Next Generation",
+      "Friends and Seinfeld",
+      "MacGyver and Knight Rider",
+      "Miami Vice and Magnum P.I."
+    ],
+    "activity_answer": "The A-Team and Star Trek: The Next Generation",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another famous actor born in Baltimore?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "377",
+    "title": "Rock Star's Artistic Double Life",
+    "story": "Guitar riffs and paintbrushes! John Squire, born in 1962 on November 24, isn't just a rock star. This talented musician from Altrincham, England, rocks out with bands like Stone Roses and The Seahorses. But when he's not strumming hit songs, Squire swaps his guitar for a canvas, creating colorful paintings that are as cool as his music.",
+    "activity_question": "What other artistic talent does John Squire have besides music?",
+    "activity_choices": [
+      "Painting",
+      "Dancing",
+      "Acting",
+      "Sculpting"
+    ],
+    "activity_answer": "Painting",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you think of other musicians who are also visual artists?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "367",
+    "title": "Rocking with Huey Lewis & The News",
+    "story": "Guitar strings hummed as Chris Hayes strummed his first chord. Born in Sacramento, California in 1957, Hayes would grow up to become a rock star. On November 24, he entered the world, destined for musical greatness. Hayes joined Huey Lewis & The News in 1980, helping create hit songs that got toes tapping across America.",
+    "activity_question": "What band did Chris Hayes join in 1980?",
+    "activity_choices": [
+      "Huey Lewis & The News",
+      "The Rolling Stones",
+      "The Beatles",
+      "The Rockin' Raccoons"
+    ],
+    "activity_answer": "Huey Lewis & The News",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Chris Hayes played guitar on the popular song 'I Want A New Drug' by Huey Lewis & The News.",
+    "score": 60,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "373",
+    "title": "A Musical Maestro Is Born",
+    "story": "Plucking strings and blending genres, Edgar Meyer entered the world on November 24, 1960. Born in Oak Ridge, Tennessee, this musical prodigy would grow up to become a renowned bassist and composer. Meyer's talent spans classical, jazz, and bluegrass, creating a unique sound that bridges musical worlds.",
+    "activity_question": "What three musical genres is Edgar Meyer known for?",
+    "activity_choices": [
+      "Classical, jazz, and bluegrass",
+      "Rock, pop, and country",
+      "Folk, reggae, and hip-hop",
+      "Opera, techno, and metal"
+    ],
+    "activity_answer": "Classical, jazz, and bluegrass",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another instrument in the same family as the bass?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "364",
+    "title": "A Filmmaker's Punk Rock Surprise",
+    "story": "Lights, camera, action... and punk rock? Emir Kusturica, born in Sarajevo on November 24, 1954, grew up to become a famous filmmaker. But here's the twist - he's also a punk rock bassist! Kusturica directed award-winning movies like 'When Father Was Away on Business' and 'Black Cat, White Cat.' His band? Fittingly named 'No Smoking.'",
+    "activity_question": "What instrument does Emir Kusturica play in his punk rock band?",
+    "activity_choices": [
+      "Guitar",
+      "Drums",
+      "Bass",
+      "Keyboard"
+    ],
+    "activity_answer": "Bass",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name one of Kusturica's famous films mentioned in the story?",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  }
+]

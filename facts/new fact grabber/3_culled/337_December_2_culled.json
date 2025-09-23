@@ -1,0 +1,542 @@
+[
+  {
+    "id": 110,
+    "year": "1990",
+    "original": "First time 12 people in space at the same time",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 1
+  },
+  {
+    "id": 133,
+    "year": "2013",
+    "original": "China launches its first moon rover mission",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 2
+  },
+  {
+    "id": 91,
+    "year": "1982",
+    "original": "American track and field record holder Steve Scott sets record for fastest round of golf played on a regulation course; posts a 95, completing 18 holes in 29:33.05s at Miller Golf Club in Anaheim, California; he used only two clubs, and ran between holes",
+    "score": 91,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 3
+  },
+  {
+    "id": 197,
+    "year": "2014",
+    "original": "Stephen Hawkingclaims that Artificial Intelligence could be a \"threat to mankind\" and spell the end of the human race",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 4
+  },
+  {
+    "id": 170,
+    "year": "1942",
+    "original": "World’s 1st self-sustaining nuclear chain reaction occurs inChicago Pile-1(world's 1st nuclear reactor) at the University of Chicago, overseen byEnrico FermiandLeó Szilárd",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 5
+  },
+  {
+    "id": 90,
+    "year": "1982",
+    "original": "1st permanent artificial heart successfully implanted in retired dentist Barney Clark (61) of Seattle at the University of Utah Hospital by cardiothoracic surgeon William DeVries; Clark lived 112 days with Jarvik-7 heart",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 6
+  },
+  {
+    "id": 144,
+    "year": "2020",
+    "original": "The UK becomes the first western country to authorize a vaccine for COVID-19, the Pfizer/BioNTech vaccine",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 7
+  },
+  {
+    "id": 74,
+    "year": "1972",
+    "original": "\"December Giant\" largest sinkhole in US collapses (Alabama)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 8
+  },
+  {
+    "id": 34,
+    "year": "1929",
+    "original": "First skull of Peking man found in the caves of Zhoukoudian, 50 km outside of Peking, China. Later dated roughly 750,000 years old.",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 9
+  },
+  {
+    "id": 72,
+    "year": "1971",
+    "original": "Soviet space probe Mars 3 is first to soft land on Mars",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 10
+  },
+  {
+    "id": 173,
+    "year": "1950",
+    "original": "\"I Robot\" collection of sci-fi short stories byIsaac Asimovpublished by Gnome Press in the US",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 11
+  },
+  {
+    "id": 194,
+    "year": "2013",
+    "original": "\"The Hobbit: The Desolation of Smaug\", 2nd film in the Hobbit series, directed byPeter Jackson, starringMartin FreemanandIan McKellen, premieres in Los Angeles",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 12
+  },
+  {
+    "id": 38,
+    "year": "1938",
+    "original": "The first 'Kindertransport' carrying Jewish refugee children from Nazi Germany arrives in Britain",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 13
+  },
+  {
+    "id": 320,
+    "year": "1943",
+    "original": "William Wegman, American artist, photographer, and videographer noted for his work with costumed Weimaraner dogs, born in Holyoke, Massachusetts",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 14
+  },
+  {
+    "id": 147,
+    "year": "2023",
+    "original": "American rock band KISS concludes farewell \"End of the Road\" tour at Madison Square Garden, NYC; the encore is performed by the premiere of digital avatars of the group",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 15
+  },
+  {
+    "id": 166,
+    "year": "1927",
+    "original": "PaleoanthropologistDavidson Blackannounces to the Geological Society of China that ancient human fossils from Zhoukoudian, China are a new species which he names 'Sinanthropus Pekinensis' (Peking Man), now known as Homo Erectus",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 16
+  },
+  {
+    "id": 177,
+    "year": "1960",
+    "original": "PaleoanthropologistLouis Leakeydiscovers 1.4 million year old Homo erectus (Olduvai Hominid 9) in Olduvai Gorge, Tanzania",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 17
+  },
+  {
+    "id": 37,
+    "year": "1934",
+    "original": "5.08-m (200\") Mt Palomar Observatory mirror is cast",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 18
+  },
+  {
+    "id": 25,
+    "year": "1908",
+    "original": "Child Emperor Pu Yi ascends the Chinese throne at the age of two",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 19
+  },
+  {
+    "id": 40,
+    "year": "1939",
+    "original": "NY's La Guardia Airport began operations as an airliner from Chicago lands, 1 minute after midnight",
+    "score": 68,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 20
+  },
+  {
+    "id": 68,
+    "year": "1969",
+    "original": "Boeing 747 jumbo jet 1st public preview (Seattle to NYC)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 21
+  },
+  {
+    "id": 33,
+    "year": "1927",
+    "original": "1st Model A Ford sold, for only $385",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 22
+  },
+  {
+    "id": 55,
+    "year": "1957",
+    "original": "1st US large scale nuclear power plant for peacetime use opens, Shippingport, Pennsylvania",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 23
+  },
+  {
+    "id": 71,
+    "year": "1970",
+    "original": "Environmental Protection Agency begins in the US under Director William Ruckelshaus",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 24
+  },
+  {
+    "id": 73,
+    "year": "1971",
+    "original": "Trucial States Abu Dhabi, Ajman, Dubai, Fujairah, Sharjah and Umm Al Quwain form the United Arab Emirates and declare independence from the United Kingdom",
+    "score": 73,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 25
+  },
+  {
+    "id": 206,
+    "year": "1804",
+    "original": "GeneralNapoleon Bonaparteis crowned Emperor of the French at the Notre Dame de Paris in a ceremony officiated by Pope Pius VII",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 26
+  },
+  {
+    "id": 8,
+    "year": "1805",
+    "original": "Napoleon defeats Russians & Austrians at Austerlitz",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 27
+  },
+  {
+    "id": 14,
+    "year": "1882",
+    "original": "Amsterdam Artis Zoo opens its aquarium",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 28
+  },
+  {
+    "id": 396,
+    "year": "1978",
+    "original": "Jason Collins, American NBA basketball center, 2001-14 (first openly gay athlete to play in any major North American pro sports league; New Jersey Nets, Atlanta Hawks, and 5 other teams), born in Northridge, California",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 29
+  },
+  {
+    "id": 376,
+    "year": "1968",
+    "original": "Lucy Liu, American actress (Ally McBeal), born in Jackson Heights, Queens, New York",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 30
+  },
+  {
+    "id": 127,
+    "year": "2002",
+    "original": "New climate-controlled vault to conserve and display the Sarajevo Haggadah illuminated manuscript (c. 1350) dedicated in Sarajevo’s National Museum",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 31
+  },
+  {
+    "id": 152,
+    "year": "1823",
+    "original": "US PresidentJames Monroedeclares the \"Monroe Doctrine\" opposing European colonialism in the Americas, arguing any European political intervention in the New World would be a hostile act against the United States",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 32
+  },
+  {
+    "id": 150,
+    "year": "1697",
+    "original": "St Paul's Cathedral, designed by SirChristopher Wrenis consecrated for use (previous building destroyed in the Great Fire of London)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 33
+  },
+  {
+    "id": 163,
+    "year": "1901",
+    "original": "American businessmanKing C. Gillettebegins selling safety razor blades",
+    "score": 55,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 34
+  },
+  {
+    "id": 3,
+    "year": "1755",
+    "original": "The second Eddystone Lighthouse on Eddystone Rocks off English southern coast is destroyed by fire",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 35
+  },
+  {
+    "id": 4,
+    "year": "1763",
+    "original": "Touro shul of Newport, Rhode Island dedicated (oldest existing US synagogue)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 36
+  },
+  {
+    "id": 118,
+    "year": "1993",
+    "original": "Space shuttle STS-61 (Endeavour 5) launches",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 37
+  },
+  {
+    "id": 111,
+    "year": "1990",
+    "original": "US 69th manned space mission STS 35 (Columbia 11) launches into orbit",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 38
+  },
+  {
+    "id": 78,
+    "year": "1974",
+    "original": "Soyuz 16 launched into Earth orbit for 6 days",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 39
+  },
+  {
+    "id": 94,
+    "year": "1985",
+    "original": "NFL quarterback legendsDan Marinoand John Elway (Denver Broncos) face each other for the first time, a 30-26 win for Marino's Miami Dolphins (390 yards and 3 TDs)",
+    "score": 94,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 40
+  },
+  {
+    "id": 187,
+    "year": "1984",
+    "original": "Miami quarterbackDan Marinobreaks NFL single-season touchdown pass record when he throws his 37th in the Dolphins' 45-34 loss to the Raiders; finishes season with 48 TD passes",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 41
+  },
+  {
+    "id": 190,
+    "year": "1995",
+    "original": "Montreal Canadiens coach Mario Tremblay leaves goaltenderPatrick Royin the game too long, allowing an embarrassing 9 goals in 11-1 rout by Detroit Red Wings; Roy demands trade; moves to Colorado Avalanche and wins Stanley Cup that season",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 42
+  },
+  {
+    "id": 204,
+    "year": "2019",
+    "original": "FIFA Ballon d'Or: Barcelona forwardLionel Messiwins his record 6th award from Liverpool's Dutch defender Virgil van Dijk; American midfielderMegan Rapinoeis Women's World Player of the Year",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 43
+  },
+  {
+    "id": 193,
+    "year": "2008",
+    "original": "Ballon d'Or: Manchester United's Portuguese forwardCristiano Ronaldowins his first award as best football player in the world; Barcelona forwardLionel Messi2nd, Liverpool striker Fernando Torres 3rd",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 44
+  },
+  {
+    "id": 142,
+    "year": "2019",
+    "original": "Hawaiian Carissa Moore earns her 4th World Surf League Women’s Championship Tour title with a third placing at the season-ending Maui Pro event at Honolua Bay",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 45
+  },
+  {
+    "id": 48,
+    "year": "1950",
+    "original": "South African world bantamweight boxing champion Vic Toweel sets a record for knockdowns in a title fight against Englishman Danny Sullivan in Johannesburg; Sullivan floored 14 times in 10 rounds before fight stopped",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 46
+  },
+  {
+    "id": 75,
+    "year": "1972",
+    "original": "USC tailback Anthony Davis becomes first to score 6 touchdowns against Notre Dame; in a 45-23 victory over the Fighting Irish Davis at the LA Coliseum he scores on runs of 1, 4, 5 & 8 yards and 2 kickoff returns",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 47
+  },
+  {
+    "id": 93,
+    "year": "1985",
+    "original": "Chicago Bears' head coachMike Ditkaand defensive coordinator Buddy Ryan almost come to blows at halftime in a 38-24 loss to the Miami Dolphins at the Orange Bowl, Miami; Chicago's only loss of the NFL season",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 48
+  },
+  {
+    "id": 172,
+    "year": "1948",
+    "original": "After one of the best seasons in baseball history, St Louis Cardinals utilityStan Musialis named NL MVP; leads NL in batting average (.365), runs (135), RBI (131), hits (230), doubles (46), triples (18) & slugging (.702), with 39 HRs",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 49
+  },
+  {
+    "id": 97,
+    "year": "1987",
+    "original": "\"334\" club forms as 334 brave Devil fans journey through 20\" of snow to attend New Jersey Devils 7-5 NHL victory over Calgary at Meadowlands",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 51
+  },
+  {
+    "id": 85,
+    "year": "1979",
+    "original": "Foots Walker becomes 1st Cleveland Cavalier to score a triple-double",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 52
+  },
+  {
+    "id": 69,
+    "year": "1969",
+    "original": "Two years after doubling its size from six to 12, the NHL announces 2 new teams would be joining the League the following year; Buffalo Sabres and Vancouver Canucks",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 53
+  },
+  {
+    "id": 188,
+    "year": "1993",
+    "original": "Houston Rockets score a 94-85 win over the Knicks at New York’s Madison Square Garden, recording their 15th straight win to start the season; tie Washington Capitols' all-time NBA record 1948-49; streak ends next game",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 54
+  },
+  {
+    "id": 112,
+    "year": "1991",
+    "original": "Australia routs India by 10 wickets in the 1st cricket Test in Brisbane; first Test to be officiated by a match referee; former England captain MJK Smith does the honours",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 55
+  },
+  {
+    "id": 125,
+    "year": "2000",
+    "original": "England holds off a determined comeback by South Africa to notch up their 3rd Southern Hemisphere rugby scalp of the autumn with a 25-17 win at Twickenham; previously beat Australia, 22-19 and Argentina, 19-0",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 56
+  },
+  {
+    "id": 140,
+    "year": "2016",
+    "original": "For 6th time in 7 years, Cincinnati Reds 1st baseman Joey Votto wins Tip O'Neill Award as best Canadian MLB player; hit .326 with NL-leading .434 OBP, 29 HRs & 97 RBIs in an outstanding all-around season for last-place club",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 57
+  },
+  {
+    "id": 184,
+    "year": "1975",
+    "original": "Greg Chappellin his debut as Australian cricket captain completes a fine double in 8 wicket win in 1st Test v West Indies in Brisbane; scores 109no in 2nd innings to follow his 1st innings 123",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 59
+  },
+  {
+    "id": 164,
+    "year": "1907",
+    "original": "Canadian world heavyweight boxing championTommy Burnsretains his title; KOs Englishman Gunner Moir in 10th round at the National Sporting Club, Covent Garden, London",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 61
+  },
+  {
+    "id": 36,
+    "year": "1932",
+    "original": "Australia ends Day 1 of controversial 'Bodyline' cricket series v England at 290/6 in Sydney; Stan McCabe 127no (finishes at 187no); notorious England fast bowler Harold Larwood takes 4 wickets; England wins by 10 wickets",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 62
+  },
+  {
+    "id": 66,
+    "year": "1963",
+    "original": "First Dutch rocket launched, reaches height of 10 km",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 72
+  }
+]

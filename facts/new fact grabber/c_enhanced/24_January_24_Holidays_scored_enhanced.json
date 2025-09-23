@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Sweet Words Make Everyone's Day Brighter",
+    "story": "People across the country spread kindness on January 24 by giving compliments to everyone they meet! National Compliment Day encourages folks to notice the good things about others and actually say them out loud. Kids tell their friends they like their shoes, parents praise their children's artwork, and strangers might compliment someone's smile at the grocery store. Social media fills up with positive posts about family and friends. The best part? Compliments are totally free but make people feel like a million bucks!",
+    "activity_question": "What do people fill social media with on National Compliment Day?",
+    "activity_choices": [
+      "Positive posts about family and friends",
+      "Pictures of their breakfast",
+      "Complaints about the weather",
+      "Videos of dancing cats"
+    ],
+    "activity_answer": "Positive posts about family and friends",
+    "follow_up_question": "What's the best compliment you've ever received or given to someone?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "902",
+    "title": "Spread the Love: Peanut Butter Day!",
+    "story": "Americans eat enough peanut butter every January 24 to cover the entire state of Rhode Island! National Peanut Butter Day celebrates this creamy, crunchy obsession that's stuck around for over a century. People mark this nutty holiday by making their favorite PB sandwiches, baking peanut butter cookies, and sharing photos of their wildest peanut butter creations online. Some brave souls even try bizarre combinations like peanut butter and pickle sandwiches or peanut butter pizza. Restaurants join the fun with special peanut butter menu items, while families have peanut butter taste tests comparing different brands.",
+    "activity_question": "What do some people try on National Peanut Butter Day?",
+    "activity_choices": [
+      "Peanut butter and pickle sandwiches",
+      "Peanut butter ice cream sundaes",
+      "Peanut butter smoothie bowls",
+      "Peanut butter pancake stacks"
+    ],
+    "activity_answer": "Peanut butter and pickle sandwiches",
+    "bonus_fact": "The average American eats about 6 pounds of peanut butter every year!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "903",
+    "title": "Can You Believe This Holiday Exists?",
+    "story": "Every January 24, people across America celebrate National Beer Can Appreciation Day by learning about one of the most important inventions in packaging history! This quirky holiday honors the aluminum can that changed how drinks are stored and sold. Families visit recycling centers to see how cans get turned into new products. Some people collect vintage soda and juice cans as a fun hobby. Museums sometimes host special exhibits about can-making technology. Kids learn cool facts about how cans keep drinks fresh and why they're better for the environment than many other containers. It's a surprisingly educational day that makes people think twice about something they see every day!",
+    "activity_question": "What do some people collect as a hobby related to this holiday?",
+    "activity_choices": [
+      "Vintage soda and juice cans",
+      "Bottle caps from around the world",
+      "Old glass bottles",
+      "Plastic containers"
+    ],
+    "activity_answer": "Vintage soda and juice cans",
+    "bonus_fact": "The first canned beverages were sold in 1935, but they needed a special opener!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "904",
+    "title": "Learning Day Goes Global!",
+    "story": "Every January 24, countries around the world celebrate International Day of Education! Schools host special events, teachers share inspiring stories, and students create projects about learning. Many kids post photos of their favorite books or classroom moments on social media. Some schools invite guest speakers or organize fun educational games to show how awesome learning can be for everyone.",
+    "activity_question": "What do many kids post on social media during International Day of Education?",
+    "activity_choices": [
+      "Photos of their favorite books or classroom moments",
+      "Pictures of their breakfast",
+      "Videos of their pets dancing",
+      "Screenshots of video games"
+    ],
+    "activity_answer": "Photos of their favorite books or classroom moments",
+    "follow_up_question": "What would you create for a special project about learning?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 50
+  }
+]

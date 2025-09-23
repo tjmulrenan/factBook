@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Fritter Fun on December 2!",
+    "story": "Every December 2, people across America celebrate National Fritters Day by making and eating these crispy, golden treats! Fritters are small pieces of dough that get deep-fried until they're perfectly crunchy on the outside and soft inside. Bakeries sell apple fritters, corn fritters, and banana fritters, while home cooks experiment with everything from zucchini to pineapple. Social media fills up with photos of homemade creations and favorite recipes passed down through families.",
+    "activity_question": "What happens to fritters when they're cooked?",
+    "activity_choices": [
+      "They get deep-fried until crispy and golden",
+      "They're baked in the oven like cookies",
+      "They turn purple and start dancing",
+      "They're eaten raw like fruit"
+    ],
+    "activity_answer": "They get deep-fried until crispy and golden",
+    "follow_up_question": "What unusual ingredient would you put in a fritter?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "902",
+    "title": "Clean Air, Clean Future Day",
+    "story": "December 2 is National Pollution Control Day, when people across the country focus on protecting our planet from harmful pollution. Schools organize clean-up drives where kids pick up trash in parks and neighborhoods. Families plant trees, ride bikes instead of driving, and learn about recycling. Many people share tips on social media about reducing waste and saving energy. It's a day to remember that small actions can make a big difference for cleaner air and water!",
+    "activity_question": "What do schools often organize on National Pollution Control Day?",
+    "activity_choices": [
+      "Clean-up drives in parks and neighborhoods",
+      "Pizza parties for students",
+      "Video game tournaments",
+      "Magic shows in the cafeteria"
+    ],
+    "activity_answer": "Clean-up drives in parks and neighborhoods",
+    "follow_up_question": "What's one thing your family could do to help reduce pollution?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  }
+]

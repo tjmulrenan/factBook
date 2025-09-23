@@ -1,0 +1,542 @@
+[
+  {
+    "id": 95,
+    "year": "1989",
+    "original": "Cleveland's Chris Dudley misses 5 free throws during 1 foul attempt",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 1
+  },
+  {
+    "id": 175,
+    "year": "2012",
+    "original": "American snowboarderShaun Whiteachieves the first ever SuperPipe perfect score (100) in Winter X Games history",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 2
+  },
+  {
+    "id": 94,
+    "year": "1988",
+    "original": "United Airlines Boeing 747SP, circles world in 36h54m15s",
+    "score": 94,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 3
+  },
+  {
+    "id": 59,
+    "year": "1959",
+    "original": "Walt Disney's \"Sleeping Beauty\" released",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 5
+  },
+  {
+    "id": 92,
+    "year": "1988",
+    "original": "Detroit Pistons draw a then record NBA regular season crowd of 61,983 fans to the Pontiac Silverdome for a 125-108 win over the Boston Celtics",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 7
+  },
+  {
+    "id": 100,
+    "year": "1989",
+    "original": "USSR's Phobos II enters Martian orbit",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 8
+  },
+  {
+    "id": 119,
+    "year": "2014",
+    "original": "Scientists discover how to convert normal cells into stem cells in mice",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 9
+  },
+  {
+    "id": 136,
+    "year": "2024",
+    "original": "Elmo the Muppet posts  \"Elmo is just checking in! How is everybody doing?\" on X - receives thousands of brutally honest replies",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 10
+  },
+  {
+    "id": 146,
+    "year": "1886",
+    "original": "Karl Benzpatents the \"Benz Patent-Motorwagen\" in Karlsruhe, Germany, the world's first automobile with an internal combustion engine",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 11
+  },
+  {
+    "id": 279,
+    "year": "1926",
+    "original": "Abdus Salam, Pakistani theoretical physicist (1979 Noble Prize for Physics - electroweak unification theory), born in Jhand, British India (d. 1996)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 12
+  },
+  {
+    "id": 62,
+    "year": "1964",
+    "original": "Most lopsided high-school basketball score 211-29 (Louisiana)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 13
+  },
+  {
+    "id": 131,
+    "year": "2021",
+    "original": "Johnson & Johnson's Janssen single-dose vaccine shown to be 66% effective in trials, with complete protection against hospitalization and death",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 14
+  },
+  {
+    "id": 133,
+    "year": "2021",
+    "original": "Novavax vaccine shows 89% efficacy in UK trials, including against UK variant",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 15
+  },
+  {
+    "id": 179,
+    "year": "2018",
+    "original": "Marvelfilm \"Black Panther\" directed by Ryan Coogler and starringChadwick Bosemanpremieres in Los Angeles",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 16
+  },
+  {
+    "id": 39,
+    "year": "1929",
+    "original": "Seeing Eye Guide Dog organization forms in USA",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 17
+  },
+  {
+    "id": 64,
+    "year": "1964",
+    "original": "The Beatles record German language versions of their hits \"Komm, Gib Mir Deine Hand\" (\"I Want to Hold Your Hand\") and \"Sie Liebt Dich\" (\"She Loves You\") at EMI's Pathé Marconi Studios in Paris, France",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 18
+  },
+  {
+    "id": 103,
+    "year": "1994",
+    "original": "Frankie Randall beats Mexican boxing legend Julio César Chávez by split decision to win WBC super lightweight title at MGM Grand, Las Vegas; Chavez's 1st knockdown of career in 11th and 1st loss in 91 pro fights",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 19
+  },
+  {
+    "id": 108,
+    "year": "1998",
+    "original": "Soyuz TM-27 launches to MIR",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 20
+  },
+  {
+    "id": 115,
+    "year": "2006",
+    "original": "Irfan Pathan becomes first bowler to take a Test cricket hat-trick in the opening over of a match",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 21
+  },
+  {
+    "id": 126,
+    "year": "2019",
+    "original": "Norwegian government proposes building a floating road tunnel as part of a new roadway between Kristiansand and Trondheim",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 22
+  },
+  {
+    "id": 298,
+    "year": "1935",
+    "original": "Roger Payne American biologist, environmentalist, and whale conservationist (Songs of the Humpback Whale), born in Manhattan, New York (d. 2023)[1]",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 24
+  },
+  {
+    "id": 311,
+    "year": "1942",
+    "original": "Arnaldo Tamayo-Méndez, Cuban cosmonaut, first Latin-American in space (Soyuz 38, 1980), born in Baracoa, Guantánamo, Cuba",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 25
+  },
+  {
+    "id": 328,
+    "year": "1947",
+    "original": "Linda B. Buck, American scientist, (2004 Nobel Prize for Physiology or Medicine - olfactory receptor), born in Seattle, Washington",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 26
+  },
+  {
+    "id": 83,
+    "year": "1980",
+    "original": "6 Iranian-held US hostages escape with help of Canadians",
+    "score": 83,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 28
+  },
+  {
+    "id": 34,
+    "year": "1921",
+    "original": "Great Olympic Blowdown: Hurricane force winds hit US Pacific Northwest states of Washington and Oregon",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 29
+  },
+  {
+    "id": 74,
+    "year": "1973",
+    "original": "International agreement to pay for and conserve 9th century Borobudur Temple in Indonesia, world's largest Buddhist temple (completed 1982). Beginnings of the World Heritage Convention.",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 30
+  },
+  {
+    "id": 82,
+    "year": "1979",
+    "original": "English progressive rock trio Emerson, Lake & Palmer disband after 10 years together",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 31
+  },
+  {
+    "id": 80,
+    "year": "1976",
+    "original": "Zeiss planetarium in the Hague destroyed by fire",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 32
+  },
+  {
+    "id": 144,
+    "year": "1845",
+    "original": "American writerEdgar Allan Poe's poem \"The Raven\" 1st published in The Evening Mirror newspaper (New York City)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 33
+  },
+  {
+    "id": 151,
+    "year": "1936",
+    "original": "First players elected to the Baseball Hall of Fame:Ty Cobb,Babe Ruth,Honus Wagner,Christy MathewsonandWalter Johnson",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 34
+  },
+  {
+    "id": 288,
+    "year": "1931",
+    "original": "Leslie Bricusse, British stage and film composer and lyricist (Doctor Dolittle; Goodbye, Mr. Chips; \"Goldfinger\"; Willy Wonka & the Chocolate Factory - \"The Candy Man\"; \"Pure Imagination\"), born in Pinner, Middlesex, England (d. 2021)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 35
+  },
+  {
+    "id": 370,
+    "year": "1965",
+    "original": "Dominik Hašek, Czech Hockey Hall of Fame goalie (Olympic gold 1998; NHL MVP 1997, 98; 6 x Vezina Trophy; 6 x NHL All Star; Buffalo Sabres), born in Pardubice, Czech Republic",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 36
+  },
+  {
+    "id": 20,
+    "year": "1891",
+    "original": "Liliuokalani is proclaimed Queen of Hawaii, its last monarch",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 38
+  },
+  {
+    "id": 23,
+    "year": "1896",
+    "original": "American Emile Grubbe is the first doctor to use radiation treatment for breast cancer",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 39
+  },
+  {
+    "id": 36,
+    "year": "1923",
+    "original": "1st flight of autogiro (Juan de la Cierva, Madrid Spain)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 40
+  },
+  {
+    "id": 37,
+    "year": "1924",
+    "original": "Ice cream cone rolling machine patented by Carl Taylor, Cleveland",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 41
+  },
+  {
+    "id": 75,
+    "year": "1974",
+    "original": "1974 NFL Draft: Ed Jones from Tennessee State first pick by Dallas Cowboys",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 44
+  },
+  {
+    "id": 86,
+    "year": "1982",
+    "original": "Old Dominion ends Louisiana Tech's women's basketball record 54-game winning streak",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 45
+  },
+  {
+    "id": 113,
+    "year": "2003",
+    "original": "Sally Clark cleared of murdering her 2 sons after more than 3 years of prison in what was a life sentence",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 47
+  },
+  {
+    "id": 165,
+    "year": "1991",
+    "original": "Nelson Mandelaand anti-Apartheid leader and Zulu prince Mangosuthu Buthelezi meet after 28 years",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 49
+  },
+  {
+    "id": 198,
+    "year": "1773",
+    "original": "Friedrich Mohs, German mineralogist and creator of the Mohs scale of mineral hardness, born in Gernrode, Germany (d. 1839)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 51
+  },
+  {
+    "id": 211,
+    "year": "1846",
+    "original": "Karol Olszewski, Polish scientist, mathematician, and first person along with Zygmunt Wróblewski to liquify oxygen and nitrogen, born in Broniszów, Galicia (d. 1915)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 52
+  },
+  {
+    "id": 233,
+    "year": "1890",
+    "original": "Marguerite Canal, French conductor and composer (1st woman in France to conduct an orchestra), born in Toulouse, France (d. 1978)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 54
+  },
+  {
+    "id": 244,
+    "year": "1901",
+    "original": "Allen B. DuMont, American engineer and inventor (perfected commercial practical cathode ray tube), born in Brooklyn, New York (d. 1965)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 55
+  },
+  {
+    "id": 258,
+    "year": "1915",
+    "original": "Halfdan Rasmussen, Danish poet (wrote about social issues and nonsense verse for children), born in Copenhagen, Denmark (d. 2002)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 56
+  },
+  {
+    "id": 305,
+    "year": "1938",
+    "original": "Bill Christian, American ice hockey center (Olympic gold 1960, captain), born in Warroad, Minnesota",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 57
+  },
+  {
+    "id": 333,
+    "year": "1949",
+    "original": "Tommy Ramone [Tamás Erdélyi], Hungarian-American rock drummer and bassist (Ramones), born in Budapest, Hungary (d. 2014)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 58
+  },
+  {
+    "id": 346,
+    "year": "1953",
+    "original": "Teresa Teng [Li-chun], Taiwanese pop singer(\"Aijin\"; The Power Of Love\"; \"Airport\"), and actress, born in Baozhong Township, Yunlin, Taiwan",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 59
+  },
+  {
+    "id": 373,
+    "year": "1966",
+    "original": "Romário, Brazilian soccer striker (70 caps; Vasco da Gama, PSV Eindhoven, Fluminense) and politician, born in Rio de Janeiro, Brazil",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 60
+  },
+  {
+    "id": 213,
+    "year": "1850",
+    "original": "Lawrence Hargrave, English-born aviation pioneer and inventor (box kite), born in London (d. 1915)",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 61
+  },
+  {
+    "id": 222,
+    "year": "1873",
+    "original": "Prince Luigi Amedeo, Duke of the Abruzzi, Italian navy officer, explorer and mountaineer (Ruwenzori Range, Uganda; Mount Saint Alias, Yukon), born in Madrid, Spain (d. 1933)",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 62
+  },
+  {
+    "id": 70,
+    "year": "1968",
+    "original": "Nauru (formerly Pleasant Island) adopts constitution",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 65
+  },
+  {
+    "id": 117,
+    "year": "2014",
+    "original": "Archaeologists discover the oldest Roman Temple (6th C BC) at Sant’Omobono",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 66
+  },
+  {
+    "id": 139,
+    "year": "1595",
+    "original": "William Shakespeare's play \"Romeo and Juliet\" is thought to have been first performed. Officially published early 1597.",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 67
+  },
+  {
+    "id": 141,
+    "year": "1781",
+    "original": "WolfgangMozart's dramatic opera \"Idomeneo\" premieres at the Cuvilliés Theatre in Munich, Germany",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 68
+  },
+  {
+    "id": 149,
+    "year": "1920",
+    "original": "Walt Disneystarts work as an artist with KC Slide Co for $40 a week",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 69
+  },
+  {
+    "id": 155,
+    "year": "1963",
+    "original": "Jim Thorpe,Red Grange&George Halaselected to football Hall of Fame",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 70
+  },
+  {
+    "id": 167,
+    "year": "1995",
+    "original": "Super Bowl XXIX, Joe Robbie Stadium, Miami, FL: San Francisco 49ers beat San Diego Chargers, 49-26; MVP:Steve Young, SF, QB",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 71
+  },
+  {
+    "id": 281,
+    "year": "1927",
+    "original": "Edward Abbey, American author and environmentalist (Desert Solitaire), born in Indiana, Pennsylvania (d. 1989)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 74
+  },
+  {
+    "id": 299,
+    "year": "1936",
+    "original": "James Jamerson, American session pop and R&B bass guitarist (Motown Records), born in Edisto, South Carolina (d. 1983)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 75
+  }
+]

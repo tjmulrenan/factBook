@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Drawing Life Into Motion Magic",
+    "story": "Every October 28, animators and cartoon lovers around the world celebrate International Animation Day! This special day honors the amazing art of making drawings, clay figures, and computer graphics come to life. Animation studios share behind-the-scenes videos showing how their favorite characters are created frame by frame. Schools host cartoon drawing contests where kids sketch their own moving stories. Movie theaters play classic animated films, while streaming services feature special animation collections. Social media fills up with people sharing their favorite animated moments, from Disney classics to modern superhero cartoons. Some animation schools even offer free workshops where visitors can try making their own simple flip-book animations and learn the secrets behind bringing still pictures to life!",
+    "activity_question": "What do animation studios often share on International Animation Day?",
+    "activity_choices": [
+      "Behind-the-scenes videos",
+      "Free movie tickets",
+      "Animation equipment",
+      "Character costumes"
+    ],
+    "activity_answer": "Behind-the-scenes videos",
+    "follow_up_question": "What animated character would you most like to bring to life?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Greece Says 'No!' on Ohi Day",
+    "story": "Every October 28, Greece celebrates one of its proudest moments with parades, flag-waving, and the word \"Ohi!\" (pronounced \"OH-hee\"). This special day remembers when Greece bravely said \"No!\" to invaders during World War II. Students march in school parades wearing traditional Greek costumes, while military bands play patriotic songs through the streets. Families gather to watch the celebrations and eat special foods together. The Greek flag flies high everywhere you look, and people feel proud of their country's courage and strength.",
+    "activity_question": "What does the Greek word 'Ohi' mean?",
+    "activity_choices": [
+      "No",
+      "Yes",
+      "Hello",
+      "Goodbye"
+    ],
+    "activity_answer": "No",
+    "bonus_fact": "The Greek prime minister's answer was so short it changed history forever.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Cranberry Relish Gets the Royal Treatment",
+    "story": "Cranberry relish takes center stage every November 22 on National Cranberry Relish Day! This tangy, sweet side dish gets its moment to shine as families across America whip up their favorite recipes. Some people make it chunky with whole berries, while others blend it smooth. Many add oranges, nuts, or even jalapeños for extra kick. Food bloggers share their secret family recipes online, and restaurants feature special cranberry creations on their menus today.",
+    "activity_question": "What do some people add to cranberry relish for extra kick?",
+    "activity_choices": [
+      "Jalapeños",
+      "Ice cream",
+      "Chocolate chips",
+      "Marshmallows"
+    ],
+    "activity_answer": "Jalapeños",
+    "bonus_fact": "Cranberries bounce when they're fresh - that's how farmers test their quality!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "902",
+    "title": "Go for a Ride Day: Adventure Awaits!",
+    "story": "Every November 22, people celebrate Go for a Ride Day by hopping on their favorite wheels and hitting the road! Families pile into cars for scenic drives, kids grab their bikes for neighborhood adventures, and some brave souls even try skateboards or scooters. The whole point is simple: get moving and explore somewhere new, even if it's just around the block. Social media fills with photos of road trips, bike rides, and fun family outings as everyone shares their riding adventures.",
+    "activity_question": "What do people do to celebrate Go for a Ride Day?",
+    "activity_choices": [
+      "Take scenic drives and bike rides",
+      "Stay inside and watch TV",
+      "Only ride horses",
+      "Build new roads"
+    ],
+    "activity_answer": "Take scenic drives and bike rides",
+    "follow_up_question": "What's the most interesting place you could ride to from your house?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  },
+  {
+    "id": "903",
+    "title": "Start Your Own Country Day: Rule Your World!",
+    "story": "Every November 22, dreamers everywhere celebrate Start Your Own Country Day by imagining what their perfect nation would look like! Some kids draw maps of islands filled with candy forests and pizza rivers. Others write silly laws like \"Everyone must wear pajamas on Tuesdays\" or \"Ice cream for breakfast is mandatory.\" Creative people design flags, make up national anthems, and even create their own money. Social media fills with posts about imaginary countries with names like \"Puppyland\" or \"The Kingdom of No Homework.\" It's the perfect day to let your imagination run wild and think about what makes a place special to live in!",
+    "activity_question": "What do people often create when celebrating Start Your Own Country Day?",
+    "activity_choices": [
+      "Maps and flags for their imaginary nations",
+      "Real passports for traveling",
+      "Actual buildings and roads",
+      "Professional government documents"
+    ],
+    "activity_answer": "Maps and flags for their imaginary nations",
+    "follow_up_question": "What would be the first law you'd make in your own country?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 92
+  }
+]

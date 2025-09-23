@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Taking Flight on Wright Brothers Day",
+    "story": "Every December 17, people celebrate Wright Brothers Day to honor Orville and Wilbur Wright's first airplane flight! On this day in 1903, their plane stayed in the air for just 12 seconds, but it changed the world forever. Today, aviation museums host special events with flight demonstrations and paper airplane contests. Schools teach kids about the brothers' amazing invention, and many families visit air shows or build model planes together. Some people even try to break paper airplane distance records! Social media fills with photos of vintage aircraft and flight facts. It's the perfect day to look up at the sky and remember how two bicycle mechanics from Ohio made human flight possible, inspiring millions to reach for the clouds.",
+    "activity_question": "How long did the Wright Brothers' first flight last?",
+    "activity_choices": [
+      "12 seconds",
+      "2 minutes",
+      "30 seconds",
+      "5 minutes"
+    ],
+    "activity_answer": "12 seconds",
+    "bonus_fact": "The Wright Brothers were bicycle mechanics before they became famous inventors!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 92
+  },
+  {
+    "id": "902",
+    "title": "Sky-High Celebration: Pan American Aviation Day",
+    "story": "Pilots, flight attendants, and aviation fans celebrate Pan American Aviation Day every December 17! This special day honors the amazing world of flight and the connections between countries across the Americas. People visit aviation museums, watch air shows, and share photos of cool planes on social media. Some schools organize paper airplane contests or invite pilots to speak about their adventures in the sky. Aviation clubs host events where kids can learn about different aircraft and maybe even sit in a cockpit! It's the perfect day to look up and appreciate all those jets soaring overhead.",
+    "activity_question": "What do some schools organize on Pan American Aviation Day?",
+    "activity_choices": [
+      "Paper airplane contests",
+      "Hot air balloon races",
+      "Rocket building workshops",
+      "Helicopter flying lessons"
+    ],
+    "activity_answer": "Paper airplane contests",
+    "bonus_fact": "The Wright brothers made their first flight on December 17, 1903!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  }
+]

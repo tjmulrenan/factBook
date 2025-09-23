@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Happiness Day: Smiles Around the World",
+    "story": "Every March 20, people across the globe celebrate the International Day of Happiness by spreading joy and kindness! Countries host festivals, communities organize fun activities, and families share what makes them grateful. Social media fills with happy photos and positive messages. Schools might have special assemblies about well-being, while some cities throw parades or concerts. The day reminds everyone that happiness matters just as much as health and success.",
+    "activity_question": "What do people share on social media during International Day of Happiness?",
+    "activity_choices": [
+      "Happy photos and positive messages",
+      "Scary stories and complaints",
+      "Shopping lists and homework",
+      "Weather reports and news"
+    ],
+    "activity_answer": "Happy photos and positive messages",
+    "follow_up_question": "What small act of kindness could you do to spread happiness today?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "902",
+    "title": "Smile Wide for World Oral Health Day!",
+    "story": "Dentists and health experts around the globe celebrate World Oral Health Day every March 20 by reminding everyone to brush, floss, and smile! Schools host tooth-brushing contests, dental offices give out free checkups, and social media fills with sparkling smiles and healthy teeth tips.",
+    "activity_question": "What do schools often host on World Oral Health Day?",
+    "activity_choices": [
+      "Tooth-brushing contests",
+      "Cookie-eating competitions",
+      "Singing competitions",
+      "Art contests"
+    ],
+    "activity_answer": "Tooth-brushing contests",
+    "follow_up_question": "What's your favorite way to keep your teeth healthy and strong?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 45
+  },
+  {
+    "id": "903",
+    "title": "Chirp Up for World Sparrow Day!",
+    "story": "Tiny sparrows get their own special day on March 20! World Sparrow Day celebrates these small brown birds that hop around our neighborhoods, parks, and backyards. People mark this day by watching for sparrows, putting out bird feeders filled with seeds, and learning about how to help these feathered friends. Some families build simple birdhouses or leave shallow dishes of water outside. It's amazing how much joy these little chirping creatures bring to our world!",
+    "activity_question": "What do people put out to help sparrows on World Sparrow Day?",
+    "activity_choices": [
+      "Bird feeders with seeds",
+      "Tiny umbrellas",
+      "Miniature trampolines",
+      "Sparrow sunglasses"
+    ],
+    "activity_answer": "Bird feeders with seeds",
+    "follow_up_question": "What other small animals in your neighborhood deserve their own special day?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  }
+]

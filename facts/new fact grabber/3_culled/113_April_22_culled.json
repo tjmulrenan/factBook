@@ -1,0 +1,542 @@
+[
+  {
+    "id": 152,
+    "year": "2025",
+    "original": "Earth Day: National Geographic releases a new documentary, \"Secrets of the Penguins,\" featuring the first drone footage in the world of penguin chicks jumping off a 50-foot cliff to take their first swim",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 1
+  },
+  {
+    "id": 94,
+    "year": "1972",
+    "original": "NASA Apollo 16 astronauts John Young and Charles Duke ride the Lunar Rover on the Moon",
+    "score": 94,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 2
+  },
+  {
+    "id": 124,
+    "year": "1994",
+    "original": "World's largest lollipop, weighing 3,011 pounds, made by BonBon, a candy factory in Home-Olstrup, Denmark; record later broken",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 3
+  },
+  {
+    "id": 185,
+    "year": "2019",
+    "original": "Marvel film \"Avengers: Endgame\" directed by Anthony and Joe Russo starringRobert Downey Jr.,Chris Evansand an ensemble cast, premieres in Los Angeles, California",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 4
+  },
+  {
+    "id": 129,
+    "year": "1998",
+    "original": "Disney's Animal Kingdom opens at Walt Disney World near Orlando, Florida",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 5
+  },
+  {
+    "id": 3,
+    "year": "1056",
+    "original": "Supernova Crab nebula last seen by the naked eye",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 6
+  },
+  {
+    "id": 169,
+    "year": "1969",
+    "original": "Robin Knox-Johnstonends 312 days of non-stop sailing to become the 1st person to perform a single-handed non-stop circumnavigation of the globe",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 7
+  },
+  {
+    "id": 122,
+    "year": "1994",
+    "original": "Børge Ousland is the first person on a solo and unsupported journey to reach the North Pole",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 8
+  },
+  {
+    "id": 90,
+    "year": "1970",
+    "original": "NY Met Jerry Grote sets record of 20 put outs by a catcher",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 60
+  },
+  {
+    "id": 24,
+    "year": "1823",
+    "original": "British inventor Robert John Tyers patents an in-line roller skate he calls the \"Volito\", with a single row of 5 wooden wheels, a wooden sole, and a curved iron bar at the front as a rudimentary brake.",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 10
+  },
+  {
+    "id": 92,
+    "year": "1971",
+    "original": "Soyuz 10 launches as the world's first mission to the first-ever space station (the Salyut 1) however the docking was unsuccessful and the cosmonauts returned to Earth",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 11
+  },
+  {
+    "id": 89,
+    "year": "1970",
+    "original": "First Earth Day celebrated, founded by Gaylord Nelson",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 13
+  },
+  {
+    "id": 141,
+    "year": "2016",
+    "original": "Paris Agreement on climate change is signed in New York, binding 195 nations to limit the increase in the global average temperature to less than 2°C above pre-industrial levels and to pursue efforts to limit the increase to 1.5°C",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 14
+  },
+  {
+    "id": 325,
+    "year": "1944",
+    "original": "Steve Fossett, American adventurer (1st person to fly solo nonstop around the world in a balloon), born in Jackson, Tennessee (disappeared 2007)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 15
+  },
+  {
+    "id": 120,
+    "year": "1993",
+    "original": "Web browser Mosaic version 1.0 is released",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 16
+  },
+  {
+    "id": 158,
+    "year": "1876",
+    "original": "Pyotr Ilyich Tchaikovskycompletes his ballet \"Swan Lake\"",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 17
+  },
+  {
+    "id": 22,
+    "year": "1817",
+    "original": "Curaçao prohibits the use of white paint due to intense sunlight",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 18
+  },
+  {
+    "id": 8,
+    "year": "1453",
+    "original": "Ottoman Turks transport their first ships overland into the Golden Horn, bypassing the chain barrier protecting Constantinople",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 19
+  },
+  {
+    "id": 25,
+    "year": "1838",
+    "original": "English steamship \"Sirius\" docks in NYC after crossing the Atlantic, first transatlantic steam passenger service",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 20
+  },
+  {
+    "id": 171,
+    "year": "1976",
+    "original": "Barbara Waltersbecomes the first female US nightly network news anchor (ABC News)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 21
+  },
+  {
+    "id": 72,
+    "year": "1954",
+    "original": "NBA adopts 24-second shot clock and six-team foul rule",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 22
+  },
+  {
+    "id": 82,
+    "year": "1964",
+    "original": "World's Fair at Flushing Meadow, Corona Park, NY opens",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 23
+  },
+  {
+    "id": 5,
+    "year": "1145",
+    "original": "19th recorded perihelion passage of Halley's Comet",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 24
+  },
+  {
+    "id": 107,
+    "year": "1988",
+    "original": "NJ Devil Patrik Sundstrom sets NHL playoff record of 8 pts in a playoff game (hat trick & 5 assists) in 10-4 rout over the Capitals",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 26
+  },
+  {
+    "id": 175,
+    "year": "1981",
+    "original": "MLB Los Angeles Dodgers rookie pitcherFernando Valenzuelatosses his 3rd shutout in 4 starts",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 27
+  },
+  {
+    "id": 341,
+    "year": "1950",
+    "original": "Peter Frampton, British rock guitarist and vocalist (Humble Pie; Frampton Comes Alive - \"Show Me The Way\"), born in Kent, England",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 30
+  },
+  {
+    "id": 277,
+    "year": "1922",
+    "original": "Charles Mingus, American jazz bassist (Pithecanthropus Erectus), born in Nogales, Arizona (d. 1979)",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 31
+  },
+  {
+    "id": 265,
+    "year": "1916",
+    "original": "Yehudi Menuhin, American-British violinist, (Béla Bartók's Sonata), conductor and teacher, born in New York City (d. 1999)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 32
+  },
+  {
+    "id": 346,
+    "year": "1955",
+    "original": "Arthur Baker, American music producer (Afrika Banbaataa; Planet Rock; New Order), born in Boston, Massachusetts",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 33
+  },
+  {
+    "id": 343,
+    "year": "1951",
+    "original": "Paul Carrack, English rock singer (Ace - \"How Long\"; Mike + The Mechanics - \"The Living Years\"; Squeeze - \"Tempted\"), born in Sheffield, England",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 34
+  },
+  {
+    "id": 353,
+    "year": "1959",
+    "original": "Ryan Stiles, American actor (Lewis-Drew Carey Show), born in Seattle, Washington",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 35
+  },
+  {
+    "id": 368,
+    "year": "1967",
+    "original": "Sheryl Lee, American stage and screen actress (Twin Peaks; Love, Lies, and Murder), born in Boulder, Colorado",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 36
+  },
+  {
+    "id": 320,
+    "year": "1943",
+    "original": "Louise Glück, American poet and 12th US Poet Laureate (2020 Nobel Prize for Literature), born in New York City",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 37
+  },
+  {
+    "id": 338,
+    "year": "1949",
+    "original": "Spencer Haywood, American Basketball Hall of Fame forward (Olympic gold 1968; NBA C'ship 1980 LA Lakers; NBA All-Star 1972–75; ABA All-Star Game MVP 1970), born in Silver City, Mississippi",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 38
+  },
+  {
+    "id": 373,
+    "year": "1970",
+    "original": "Regine Velasquez, Filipina pop singer and actress, born in Tondo, Philippines",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 39
+  },
+  {
+    "id": 378,
+    "year": "1974",
+    "original": "Shavo Odadjian, Armenian-American heavy metal bassist (System of a Down), born in Yerevan, Armenian SSR, Soviet Union",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 40
+  },
+  {
+    "id": 150,
+    "year": "2024",
+    "original": "Widespread flooding across southern China forces the evacuation of 110,000 people with warning of a \"once in a century\" flood on the Bei River",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 41
+  },
+  {
+    "id": 151,
+    "year": "2025",
+    "original": "At least 5,000 residents are evacuated as wildfire burns across 12,500 acres in Pine Barrens, New Jersey",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 42
+  },
+  {
+    "id": 186,
+    "year": "2021",
+    "original": "US PresidentJoe Bidenpledges to cut US carbon emissions by 50-52% below 2005 levels by 2030 at a virtual climate summit",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 43
+  },
+  {
+    "id": 145,
+    "year": "2020",
+    "original": "Sudan bans female genital mutilation and makes it a criminal offense",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 44
+  },
+  {
+    "id": 76,
+    "year": "1957",
+    "original": "All NL baseball teams integrate, John Irwin Kennedy becomes the 1st Black player for the Philadelphia Phillies",
+    "score": 76,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 45
+  },
+  {
+    "id": 188,
+    "year": "1500",
+    "original": "Pedro Álvares Cabralis the first European to discover Brazil, landing near Monte Pascoal and claiming it for Portugal",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 46
+  },
+  {
+    "id": 67,
+    "year": "1945",
+    "original": "Stanley Cup Final, Olympia Stadium, Detroit, MI: Toronto Maple Leafs beat Detroit Red Wings, 2-1 for a 4-3 series win; Leafs lead series 3-0, but Wings recover to 3-3 to force a decider",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 47
+  },
+  {
+    "id": 180,
+    "year": "1994",
+    "original": "Michael MoorerbeatsEvander Holyfieldin 12 for heavyweight boxing title",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 48
+  },
+  {
+    "id": 181,
+    "year": "1995",
+    "original": "George Foremanbeats Axel Schulz in 12 for heavyweight boxing title in Las Vegas, Nevada",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 49
+  },
+  {
+    "id": 168,
+    "year": "1969",
+    "original": "AmericanJoe FrazierKOs American Dave Zyglewick in 1st round to retain heavyweight boxing title, in Houston, Texas",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 50
+  },
+  {
+    "id": 77,
+    "year": "1959",
+    "original": "Chicago White Sox beat KC Athletics 20-6, in 1 inning Sox score 11 runs on 1 hit, 10 walks, & 3 errors",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 53
+  },
+  {
+    "id": 29,
+    "year": "1876",
+    "original": "First official National League baseball game is played; Boston Red Caps beat Philadelphia Athletics, 6-5 at the Jefferson Street Grounds, Philadelphia",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 55
+  },
+  {
+    "id": 81,
+    "year": "1962",
+    "original": "Stanley Cup Final, Chicago Stadium, Chicago, IL: Dick Duff scores the winner as Toronto Maple Leafs beat Chicago Blackhawks, 2-1 for a 4-2 series victory",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 56
+  },
+  {
+    "id": 84,
+    "year": "1966",
+    "original": "The Troggs second single \"Wild Thing\" released; tops the charts in July",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 61
+  },
+  {
+    "id": 126,
+    "year": "1995",
+    "original": "NFL Draft: Penn State running back Ki-Jana Carter first pick by Cincinnati Bengals",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 63
+  },
+  {
+    "id": 184,
+    "year": "2018",
+    "original": "Liverpool's Egyptian soccer forwardMohamed Salahis named Professional Footballers' Association Player of the Year",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 64
+  },
+  {
+    "id": 103,
+    "year": "1983",
+    "original": "Start of 1st Sri Lanka-Australia Test Cricket match (at Kandy)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 65
+  },
+  {
+    "id": 36,
+    "year": "1898",
+    "original": "1st Spanish–American War action sees the USS Nashville capture a Spanish ship",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 66
+  },
+  {
+    "id": 21,
+    "year": "1793",
+    "original": "President Washington attends opening of Rickett's, 1st circus in US",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 69
+  },
+  {
+    "id": 46,
+    "year": "1908",
+    "original": "Queensland beat NSW by 171 runs for their 1st cricket win at Gabba",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 70
+  },
+  {
+    "id": 102,
+    "year": "1983",
+    "original": "Soyuz T-8 returns to Earth",
+    "score": 58,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 72
+  },
+  {
+    "id": 34,
+    "year": "1894",
+    "original": "The very first Venice Biennale opens in Venice, Italy, as a biennial exhibition of Italian art",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 73
+  },
+  {
+    "id": 132,
+    "year": "2000",
+    "original": "The Big Number Change takes place in the United Kingdom",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 74
+  },
+  {
+    "id": 43,
+    "year": "1905",
+    "original": "Operations begin uniting the Conservatory of Nature Monument Amsterdam",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 75
+  }
+]

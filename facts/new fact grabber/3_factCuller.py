@@ -265,102 +265,167 @@ def primary_counts_with_overrides(facts, overrides):
     return Counter(primary_top_category(f, overrides) for f in facts)
 
 def interactive_reassign_post_selection(sorted_all, final_selected, overrides):
-    def trunc(text, n=120):
-        text = (text or "").replace("\n", " ").strip()
-        return text if len(text) <= n else text[: n - 1] + "…"
+    """
+    Auto-fix only categories that have exactly 1 primary, without changing WHICH 60 facts
+    are selected. We lock the membership to the current final_selected IDs and only
+    update their primary categories via overrides.
 
+    Dynamic protection: as soon as any category reaches >= 2 primaries during the process,
+    it becomes protected and will never be reduced below 2 later in the run.
+    """
+    MIN_PROTECT = 2
     ov = dict(overrides)
+    tried = set()  # (fact_id, dest_cat) attempts we already tried
+    max_passes = 50
 
-    while True:
-        current_final = rebuild_with_overrides(sorted_all, ov)
-        primary_counts = primary_counts_with_overrides(current_final, ov)
-        if not primary_counts:
+    # ---- Lock the membership to the current 60 facts ----
+    selected_ids = [f.get("id") for f in final_selected]
+    by_id = {f.get("id"): f for f in sorted_all}  # to fetch full objects by id
+
+    # Build the locked list in the same order as final_selected
+    def _locked_list():
+        return [by_id[fid] for fid in selected_ids if fid in by_id]
+
+    # Compute primary counts under current overrides for the locked set
+    def _locked_counts():
+        locked = _locked_list()
+        return Counter(primary_top_category(f, ov) for f in locked)
+
+    # Per-fact alternative categories in preference order (by cat score desc, then name)
+    def _ordered_alternatives(fact, current_cat):
+        cats = fact.get("categories") or []
+        ordered = sorted(
+            [c for c in cats if c.get("category")],
+            key=lambda c: (-(c.get("score") or 0.0), c.get("category").lower())
+        )
+        return [c["category"] for c in ordered if c["category"] != current_cat]
+
+    # === Initial protections: anything already at >= 2 is protected
+    baseline_counts = _locked_counts()
+    protected_cats = {cat for cat, n in baseline_counts.items() if n >= MIN_PROTECT}
+
+    print("\n================ REASSIGN (LOCKED 60) ================")
+    print("🔒 Initially protected (≥2 at snapshot):")
+    if protected_cats:
+        for c in sorted(protected_cats):
+            print(f"  • {c}: {baseline_counts.get(c, 0)}")
+    else:
+        print("  • (none)")
+
+    print("\n📌 Snapshot primary counts:")
+    for name, count in sorted(baseline_counts.items(), key=lambda kv: (-kv[1], kv[0].lower())):
+        print(f"  • {name}: {count}")
+
+    for pass_idx in range(1, max_passes + 1):
+        counts = _locked_counts()
+        print(f"\n—— Pass {pass_idx} — Current locked primary counts ——")
+        for name, count in sorted(counts.items(), key=lambda kv: (-kv[1], kv[0].lower())):
+            prot = " 🔒" if name in protected_cats else ""
+            print(f"  • {name}: {count}{prot}")
+
+        # only singletons are allowed to change
+        singles = [cat for cat, n in counts.items() if n == 1]
+        if not singles:
+            print("\n✅ No singletons remain. Reassignment done.")
             return ov
 
-        print("\n🔁 Post-selection reassignment — categories present:")
-        cat_list = sorted(primary_counts.items(), key=lambda kv: (-kv[1], kv[0].lower()))
-        for i, (name, count) in enumerate(cat_list, 1):
-            print(f"{i}. {name}: {count}")
+        moved_any = False
+        locked_now = _locked_list()
 
-        raw = input(
-            "Enter the numbers of categories to reassign (comma-separated), or 'q' to finish: "
-        ).strip().lower()
-        if raw == "q":
+        for cur_cat in singles:
+            # cur_cat will never be in protected_cats because protected means >=2
+            items = [f for f in locked_now if primary_top_category(f, ov) == cur_cat]
+            if not items:
+                print(f"⚠️  No item found for singleton '{cur_cat}' (unexpected).")
+                continue
+            fact = items[0]
+            fid = fact.get("id")
+
+            # alternatives in per-fact preference order
+            alts = _ordered_alternatives(fact, cur_cat)
+            print(f"\n🔎 Singleton: '{cur_cat}' — ID {fid}")
+            print("   Alternatives by per-fact catScore (best→worst):")
+            cat_scores = {c.get("category"): (c.get("score") or 0.0) for c in (fact.get("categories") or [])}
+            for nm in alts:
+                print(f"     - {nm} (score {cat_scores.get(nm, 0.0):.2f})")
+
+            if not alts:
+                print("   ↪️  No alternatives available. Leaving as-is.")
+                continue
+
+            # prefer destinations already present (>0), largest first; then empties
+            existing = [
+                d for d in alts
+                if counts.get(d, 0) > 0 and counts.get(d, 0) < CATEGORY_CAP and (fid, d) not in tried
+            ]
+            existing.sort(key=lambda d: counts.get(d, 0), reverse=True)
+            empties  = [
+                d for d in alts
+                if counts.get(d, 0) == 0 and counts.get(d, 0) < CATEGORY_CAP and (fid, d) not in tried
+            ]
+            candidates = existing + empties
+
+            if not candidates:
+                print("   ↪️  No viable destinations (hit cap or already tried). Leaving as-is.")
+                for d in alts:
+                    tried.add((fid, d))
+                continue
+
+            chosen = None
+            for dest in candidates:
+                # Tentatively move this fact's primary to dest
+                ov[fid] = dest
+                after = _locked_counts()
+
+                # Constraint A: source singleton must stop being 1 (becomes 0 or ≥2)
+                source_fixed = (after.get(cur_cat, 0) != 1)
+
+                # Constraint B: we must not reduce any currently protected category below 2
+                # (note: protected_cats is dynamic and can grow during the loop)
+                reduces_protected = any(after.get(pc, 0) < MIN_PROTECT for pc in protected_cats)
+
+                print(
+                    f"   • Try '{cur_cat}' → '{dest}': "
+                    f"after[{cur_cat}]={after.get(cur_cat,0)}; "
+                    f"after[{dest}]={after.get(dest,0)}; "
+                    f"protected_ok={not reduces_protected}"
+                )
+
+                if source_fixed and not reduces_protected:
+                    # Commit the move
+                    print(f"   ✅ CHOSEN: ID {fid} '{cur_cat}' → '{dest}'")
+                    moved_any = True
+                    chosen = dest
+
+                    # 🔒 Dynamic protection: any category that now has >= 2 becomes protected
+                    newly_protected = {c for c, n in after.items() if n >= MIN_PROTECT} - protected_cats
+                    if newly_protected:
+                        for np in sorted(newly_protected):
+                            print(f"   🔒 Now protecting '{np}' (reached {after.get(np,0)})")
+                        protected_cats |= newly_protected
+                    break
+                else:
+                    # Roll back and mark tried
+                    ov.pop(fid, None)
+                    tried.add((fid, dest))
+                    why = []
+                    if not source_fixed:
+                        why.append("source still singleton")
+                    if reduces_protected:
+                        why.append("would reduce a protected category < 2")
+                    print(f"   ⛔ SKIP '{dest}' — {', '.join(why)}")
+
+            if not chosen:
+                print("   ↪️  No destination passed constraints. Leaving as singleton for now.")
+                for d in alts:
+                    tried.add((fid, d))
+
+        if not moved_any:
+            print("\n🛑 No safe moves possible this pass. Stopping.")
             return ov
-        if not raw:
-            continue
 
-        try:
-            idxs = {int(s) for s in re.split(r"[ ,;]+", raw) if s}
-        except ValueError:
-            print("Invalid input; please enter numbers or 'q'.")
-            continue
-
-        target_cats = [cat_list[i - 1][0] for i in idxs if 1 <= i <= len(cat_list)]
-        if not target_cats:
-            print("No valid categories selected.")
-            continue
-
-        while True:
-            current_final = rebuild_with_overrides(sorted_all, ov)
-            pc = primary_counts_with_overrides(current_final, ov)
-
-            print("\n📦 Current primary counts in final selection:")
-            for name, count in sorted(pc.items(), key=lambda kv: (-kv[1], kv[0].lower())):
-                print(f"• {name}: {count}")
-
-            unresolved = [c for c in target_cats if 0 < pc.get(c, 0) < 3]
-            if not unresolved:
-                break
-
-            cur_cat = unresolved[0]
-            cur_items = [f for f in current_final if primary_top_category(f, ov) == cur_cat]
-            if not cur_items:
-                target_cats = [c for c in target_cats if c != cur_cat]
-                continue
-
-            print(f"\n➡️ Reassigning category: {cur_cat} (has {len(cur_items)}; need 0 or ≥3)")
-            for idx, f in enumerate(cur_items, 1):
-                print(f"  {idx}. ID {f.get('id')} | Rank {f.get('rank')} | {trunc(f.get('original'))}")
-
-            sel = input(f"Pick an item 1..{len(cur_items)} to reassign (or 'q' to stop reassigning now): ").strip().lower()
-            if sel == 'q':
-                break
-            try:
-                i_sel = int(sel)
-                if not (1 <= i_sel <= len(cur_items)):
-                    continue
-            except ValueError:
-                continue
-
-            fact = cur_items[i_sel - 1]
-            fid = fact.get('id')
-
-            fact_cats = fact.get('categories') or []
-            fact_cats_sorted = sorted(
-                [c for c in fact_cats if c.get('category')],
-                key=lambda c: (-(c.get('score') or 0.0), c.get('category').lower())
-            )
-            options = [c['category'] for c in fact_cats_sorted if c.get('category') != cur_cat]
-            for name in sorted(ALL_CATEGORIES, key=str.lower):
-                if name != cur_cat and name not in options:
-                    options.append(name)
-
-            print("Choose new category (0 to cancel):")
-            for i, name in enumerate(options, 1):
-                sc = next((c.get('score') for c in fact_cats_sorted if c.get('category') == name), None)
-                score_str = f" — catScore {sc:.2f}" if isinstance(sc, (int, float)) else ""
-                print(f"  {i}. {name}{score_str}")
-
-            choice = input(f"Your choice [0..{len(options)}]: ").strip()
-            if choice == "" or choice == "0":
-                continue
-            try:
-                idx = int(choice)
-                if 1 <= idx <= len(options):
-                    ov[fid] = options[idx - 1]
-            except ValueError:
-                continue
+    print("\n🛑 Hit max passes without resolving all singletons. Returning best-effort overrides.")
+    return ov
 
 def rebuild_with_overrides(sorted_all_ranked, overrides):
     """

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "original": "National Eggs Benedict Day",
+    "score": 50,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "World Voice Day",
+    "score": 50,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "National Wear Your Pajamas to Work Day",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "National Bean Counter Day",
+    "score": 25,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 5,
+    "original": "Foursquare Day",
+    "score": 65,
+    "is_kid_friendly": true
+  }
+]

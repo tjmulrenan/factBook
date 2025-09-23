@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Crunch Time for Red Apple Fans!",
+    "story": "Red apples get their moment to shine every December 1 on Eat a Red Apple Day! People celebrate by biting into crispy red varieties like Gala, Fuji, or Red Delicious apples. Some families pack red apples in lunch boxes, while others bake apple pies or make fresh apple juice. Teachers love this holiday because kids actually get excited about eating healthy snacks. Many people share photos of their favorite red apples on social media, showing off the perfect crunch. It's a simple way to celebrate one of nature's sweetest treats!",
+    "activity_question": "What do some families do with red apples on this holiday?",
+    "activity_choices": [
+      "Pack them in lunch boxes",
+      "Paint them blue",
+      "Use them as footballs",
+      "Hide them under beds"
+    ],
+    "activity_answer": "Pack them in lunch boxes",
+    "follow_up_question": "What's your favorite way to eat a red apple?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "902",
+    "title": "Rosa Parks Day: Honoring a Hero",
+    "story": "Every December 1, people across America honor Rosa Parks, the brave woman who changed history by refusing to give up her bus seat. Schools teach students about her courage, libraries host special programs about civil rights, and communities hold ceremonies to remember her important stand for equality. Many people share her inspiring story on social media and talk about how one person's bravery can make a huge difference in the world.",
+    "activity_question": "What did Rosa Parks refuse to do that made her famous?",
+    "activity_choices": [
+      "Give up her bus seat",
+      "Pay for her bus ticket",
+      "Get off the bus early",
+      "Sit in the front row"
+    ],
+    "activity_answer": "Give up her bus seat",
+    "bonus_fact": "Rosa Parks was called the 'Mother of the Civil Rights Movement.'",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  }
+]

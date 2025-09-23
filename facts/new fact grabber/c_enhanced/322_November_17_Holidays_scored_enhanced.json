@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Tiny Heroes Get Their Special Day",
+    "story": "Purple lights shine on buildings around the world every November 17 for World Prematurity Day! This special day honors babies born too early and celebrates how strong they are. Families share photos of their premature babies who grew up healthy and happy. Hospitals hold events to thank the doctors and nurses who care for tiny newborns. People wear purple clothes and post purple hearts online to show support for preemie families everywhere.",
+    "activity_question": "What color do people wear and display on World Prematurity Day?",
+    "activity_choices": [
+      "Purple",
+      "Pink",
+      "Blue",
+      "Rainbow stripes"
+    ],
+    "activity_answer": "Purple",
+    "bonus_fact": "Some preemie babies are so small they can fit in their parent's hand!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "902",
+    "title": "Rise and Shine, Bread Time!",
+    "story": "The smell of fresh bread fills kitchens everywhere on November 17 during National Homemade Bread Day! Families roll up their sleeves to knead dough, watch it rise, and bake golden loaves from scratch. Some people try simple recipes like banana bread or dinner rolls, while others tackle fancy braided challah or crusty sourdough. Baking enthusiasts share photos of their creations online, and many give warm loaves to neighbors as sweet surprises. It's the perfect day to learn this ancient skill and fill your home with the most amazing smell ever!",
+    "activity_question": "What do many people do with their homemade bread on this holiday?",
+    "activity_choices": [
+      "Give warm loaves to neighbors",
+      "Bury it in their backyard",
+      "Use it as a pillow",
+      "Paint pictures on it"
+    ],
+    "activity_answer": "Give warm loaves to neighbors",
+    "bonus_fact": "Kneading bread dough for 10 minutes is like a mini workout for your arms!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "903",
+    "title": "Students Around the World Unite!",
+    "story": "Students everywhere get their own special day on November 17! International Students Day celebrates kids and teens who are learning in countries far from home. Schools host cultural festivals where international students share food, music, and traditions from their homelands. Many universities organize friendship events and study groups to help students from different countries connect. Social media fills with photos of students waving flags and wearing traditional clothes. It's a day to celebrate how learning brings people together across the globe!",
+    "activity_question": "What do schools often host on International Students Day?",
+    "activity_choices": [
+      "Cultural festivals",
+      "Math competitions",
+      "Silent reading time",
+      "Pajama parties"
+    ],
+    "activity_answer": "Cultural festivals",
+    "follow_up_question": "What would you share about your culture if you were studying in another country?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "904",
+    "title": "Sweet Layers of November Joy",
+    "story": "Crispy, flaky pastry filled with nuts and drizzled with honey makes November 17 absolutely delicious! National Baklava Day celebrates this amazing Middle Eastern dessert that takes forever to make but disappears in seconds. Bakeries across America offer special deals on baklava today, while families share recipes passed down for generations. Some people try making their own baklava, carefully layering dozens of paper-thin pastry sheets with chopped pistachios, walnuts, or almonds before baking it golden brown.",
+    "activity_question": "What makes baklava so special to prepare?",
+    "activity_choices": [
+      "It requires dozens of thin pastry layers",
+      "It's made with magical ingredients",
+      "It can only be baked at midnight",
+      "It needs to be stirred for hours"
+    ],
+    "activity_answer": "It requires dozens of thin pastry layers",
+    "bonus_fact": "Traditional baklava uses phyllo dough so thin you can read through it!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  }
+]

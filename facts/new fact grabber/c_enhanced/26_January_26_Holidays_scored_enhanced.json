@@ -1,0 +1,22 @@
+[
+  {
+    "id": "901",
+    "title": "G'day Australia Day!",
+    "story": "Every January 26, Australia throws the biggest party of the year called Australia Day! Aussies fire up barbecues in backyards and parks, grilling sausages and prawns while friends and families gather together. People wave Australian flags, wear green and gold clothes, and many get temporary tattoos of the Southern Cross. Cities host huge festivals with live music, fireworks, and citizenship ceremonies welcoming new Australians. Beach parties are super popular since it's summer Down Under, and everyone enjoys lamingtons and meat pies while celebrating their country.",
+    "activity_question": "What colors do Australians typically wear on Australia Day?",
+    "activity_choices": [
+      "Green and gold",
+      "Red and blue",
+      "Purple and orange",
+      "Black and white"
+    ],
+    "activity_answer": "Green and gold",
+    "bonus_fact": "Australia Day happens during summer because Australia is in the Southern Hemisphere!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Peak Performance: International Mountain Day",
+    "story": "Mountains get their own special day every December 11! International Mountain Day celebrates these towering giants and reminds us why they're so important. People around the world share stunning mountain photos on social media, organize hiking trips, and learn about mountain wildlife. Schools teach students about how mountains provide fresh water to billions of people and are home to amazing animals like snow leopards and mountain goats. Many families plan winter mountain adventures or simply appreciate the peaks they can see from their windows.",
+    "activity_question": "What do people commonly share on social media for International Mountain Day?",
+    "activity_choices": [
+      "Stunning mountain photos",
+      "Pictures of their breakfast",
+      "Videos of dancing cats",
+      "Screenshots of video games"
+    ],
+    "activity_answer": "Stunning mountain photos",
+    "follow_up_question": "What's the tallest mountain you've ever seen or would like to visit?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "902",
+    "title": "UNICEF's Birthday Bash for Kids Everywhere",
+    "story": "Every December 11, people around the world celebrate UNICEF's birthday! UNICEF is a special organization that helps children everywhere get food, clean water, medicine, and education. On this day, schools often hold fundraisers where kids collect coins in orange boxes. Families might donate toys or clothes to help other children. Some people share stories on social media about how UNICEF has helped kids in their communities. It's amazing how one organization's birthday can bring so much hope to children across the globe!",
+    "activity_question": "What do schools often use to collect donations for UNICEF?",
+    "activity_choices": [
+      "Orange boxes",
+      "Blue buckets",
+      "Red backpacks",
+      "Purple piggy banks"
+    ],
+    "activity_answer": "Orange boxes",
+    "follow_up_question": "What would you put in a care package for kids around the world?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "903",
+    "title": "Hoosier Hooray for Indiana Day!",
+    "story": "Every December 11, people across Indiana celebrate their state's special day with pride and fun! Hoosiers wear red, white, and blue to honor their state colors and share photos of famous Indiana landmarks like the Indianapolis Motor Speedway. Schools teach students about Indiana's history, from covered bridges to basketball legends. Many families visit state parks or local museums to learn cool facts about their home state. It's a perfect day to show off your Hoosier spirit!",
+    "activity_question": "What do people in Indiana often wear on Indiana Day?",
+    "activity_choices": [
+      "Red, white, and blue",
+      "Orange and purple",
+      "Green and yellow",
+      "Polka dots and stripes"
+    ],
+    "activity_answer": "Red, white, and blue",
+    "follow_up_question": "What makes your state special and worth celebrating?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  }
+]

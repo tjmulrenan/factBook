@@ -1,0 +1,542 @@
+[
+  {
+    "id": 110,
+    "year": "1992",
+    "original": "Nicole Stevenson swims world record 200m backstroke (2:06.78)",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 1
+  },
+  {
+    "id": 117,
+    "year": "1996",
+    "original": "First surface photos of Pluto are taken by the Hubble Space Telescope",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 2
+  },
+  {
+    "id": 94,
+    "year": "1979",
+    "original": "Baseball exhibition season opens with semi-pro & amateur umpires",
+    "score": 94,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 3
+  },
+  {
+    "id": 92,
+    "year": "1978",
+    "original": "Canuck's Ron Sedlbauer fails on 5th penalty shot against Islanders",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 4
+  },
+  {
+    "id": 105,
+    "year": "1988",
+    "original": "Jim Abbott, 1-handed pitcher, wins 58th James E Sullivan Award as the top amateur athlete in the US, becoming 1st baseball player to win the award",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 5
+  },
+  {
+    "id": 149,
+    "year": "1912",
+    "original": "Norwegian explorerRoald Amundsenannounces his team was the first to reach the South Pole on December 14, 1911, 34 days before British explorerRobert Falcon Scott",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 6
+  },
+  {
+    "id": 154,
+    "year": "1935",
+    "original": "Malcolm Campbellsets world land speed record speed of 276.71 mph driving his famous Blue Bird car; last record set at Daytona Beach, Florida",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 7
+  },
+  {
+    "id": 183,
+    "year": "2009",
+    "original": "Despite being only 17 years old, Brazilian soccer starNeymarmakes his professional debut for Santos",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 8
+  },
+  {
+    "id": 195,
+    "year": "2025",
+    "original": "Nikola Jokićmakes NBA history recording the league's first ever 30-point, 20-rebound, 20-assist game as his Denver Nuggets beat the Phoenix Suns 149-141 OT",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 9
+  },
+  {
+    "id": 301,
+    "year": "1930",
+    "original": "Stanley Miller, American chemist (created 'primordial soup' experiment to show how life might have originated on earth), born in Oakland, California (d. 2007)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 10
+  },
+  {
+    "id": 316,
+    "year": "1938",
+    "original": "Janet Guthrie, American auto racer (1st woman to race in Indianapolis 500 & Daytona 500; first woman to lead a lap in NASCAR Winston Cup Series), born in Iowa City",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 11
+  },
+  {
+    "id": 96,
+    "year": "1982",
+    "original": "Jarmilla Kratochvilova run world record 400 m indoor (49.59 sec)",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 12
+  },
+  {
+    "id": 85,
+    "year": "1974",
+    "original": "\"USS Monitor\", Union Ship sunk in 1862 during US Civil War, restored at Cape Hatteras",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 13
+  },
+  {
+    "id": 103,
+    "year": "1987",
+    "original": "Gavaskar becomes 1st cricket batsman to score 10,000 Test runs",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 14
+  },
+  {
+    "id": 106,
+    "year": "1989",
+    "original": "Partial eclipse of the Sun (Hawaii, NW North America, Greenland)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 15
+  },
+  {
+    "id": 129,
+    "year": "2017",
+    "original": "Malta's famous landmark the Azure Window collapses into the sea after a storm",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 16
+  },
+  {
+    "id": 153,
+    "year": "1929",
+    "original": "First nonstop flight made from America to Asia across the Bering Strait (Nome to North Cape) byNoel Wienand Calvin Cripe for Wien Air Alaska",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 17
+  },
+  {
+    "id": 175,
+    "year": "1986",
+    "original": "Wayne Gretzkybreaks own NHL season record with 136th assist",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 19
+  },
+  {
+    "id": 148,
+    "year": "1905",
+    "original": "Arthur Conan Doylepublishes \"The Return of Sherlock Holmes\" collection in London after public pressure to revive his famous detective (Feb New York)",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 20
+  },
+  {
+    "id": 10,
+    "year": "1799",
+    "original": "The Royal Institution of Great Britain founded; dedicated to scientific research and education.",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 21
+  },
+  {
+    "id": 56,
+    "year": "1942",
+    "original": "1st cadets graduated from flying school at Tuskegee, Alabama",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 22
+  },
+  {
+    "id": 176,
+    "year": "1987",
+    "original": "Mike Tysonbeats James 'Bonecrusher' Smith by unanimous decision in 12 rounds in Las Vegas for WBC / WBA heavyweight boxing titles",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 24
+  },
+  {
+    "id": 198,
+    "year": "1876",
+    "original": "Alexander Graham Bellreceives a patent for the telephone in the US",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 26
+  },
+  {
+    "id": 289,
+    "year": "1923",
+    "original": "Bobo Holloman, American baseball pitcher (no-hitter on MLB debut 1953; St. Louis Browns), born in Thomaston, Georgia (d. 1987)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 27
+  },
+  {
+    "id": 337,
+    "year": "1944",
+    "original": "Michael Rosbash, American geneticist (Nobel Prize 2017, Drosophila period gene), born in Kansas City, Missouri",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 28
+  },
+  {
+    "id": 38,
+    "year": "1917",
+    "original": "First jazz record is released on a 78 by the Original Dixieland Jass Band for the Victor Talking Machine Company (\"Dixie Jazz Band One Step\" on one side, \"Livery Stable Blues\" on the other)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 30
+  },
+  {
+    "id": 43,
+    "year": "1927",
+    "original": "Earthquake measuring 8 on Richter scale strikes Tango, Japan",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 31
+  },
+  {
+    "id": 65,
+    "year": "1953",
+    "original": "South African cricket opening batsman Jackie McGlew scores an unbeaten 255 in 1st Test win against New Zealand in Wellington",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 32
+  },
+  {
+    "id": 66,
+    "year": "1954",
+    "original": "Russia wins their 1st international ice hockey competition",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 33
+  },
+  {
+    "id": 71,
+    "year": "1962",
+    "original": "Launch of OSO 1, 1st astronomy satellite (solar flare data)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 35
+  },
+  {
+    "id": 122,
+    "year": "2005",
+    "original": "Mass protest outside the National Assembly of Kuwait building for women's voting rights in Kuwait",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 38
+  },
+  {
+    "id": 161,
+    "year": "1951",
+    "original": "Ezzard CharlesbeatsJersey Joe Walcottin 15 for 2nd time to win National Boxing Association world heavyweight title, at the Olympia in Detroit, Michigan",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 39
+  },
+  {
+    "id": 165,
+    "year": "1955",
+    "original": "Musical \"Peter Pan\", starringMary Martinbroadcast live on NBC as part of \"Producers' Showcase\" series; attracts a then record 65 million viewers",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 40
+  },
+  {
+    "id": 172,
+    "year": "1975",
+    "original": "RCA releases \"Young Americans\",David Bowie's 9th studio album, recorded in Philadelphia, Pennsylvania, and New York City; featuring appearances byJohn Lennonon two tracks, it peaks in the U.S. charts at No. 9, and No. 2 in the U.K.",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 41
+  },
+  {
+    "id": 237,
+    "year": "1846",
+    "original": "Whitcomb Judson, American inventor (zipper), born in Chicago, Illinois (d. 1909)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 42
+  },
+  {
+    "id": 295,
+    "year": "1927",
+    "original": "Henri Landwirth, Belgian-American hotel owner and philanthropist (Give Kids the World), born in Antwerp, Belgium (d. 2018)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 43
+  },
+  {
+    "id": 323,
+    "year": "1940",
+    "original": "Viktor Savinykh, Soviet-Russian cosmonaut (Soyuz T-4, T-13, TM-5), born in Berezkiny, Kirov, Russia",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 44
+  },
+  {
+    "id": 352,
+    "year": "1950",
+    "original": "J.R. Richard, American baseball pitcher (MLB All Star 1980; NL ERA leader 1979; NL strikeout leader 1978, 79; Houston Astros), born in Vienna, Louisiana (d. 2021)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 46
+  },
+  {
+    "id": 26,
+    "year": "1870",
+    "original": "Cincinnati Red Stockings, 1st pro BB team, begin 8-mo tour of Midwest & East",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 47
+  },
+  {
+    "id": 28,
+    "year": "1876",
+    "original": "Battle at Gura: Ethiopian emperor Yohannes beats Egyptians",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 48
+  },
+  {
+    "id": 72,
+    "year": "1962",
+    "original": "The Beatles made their broadcasting debut on BBC radio",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 49
+  },
+  {
+    "id": 144,
+    "year": "1778",
+    "original": "CaptainJames Cook1st sights Oregon coast at Yaquina Bay",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 50
+  },
+  {
+    "id": 248,
+    "year": "1876",
+    "original": "Edgar Evans, Welsh explorer (part of Robert Scott's Terra Nova Expedition to Antarctica), born in Rhossili, Wales (d. 1912)",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 51
+  },
+  {
+    "id": 306,
+    "year": "1933",
+    "original": "Jackie Blanchflower, Irish soccer midfielder (12 caps Northern Ireland; Manchester United 105 games; survived Munich air disaster), born in Belfast, Northern Ireland (d. 1998)",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 52
+  },
+  {
+    "id": 52,
+    "year": "1941",
+    "original": "3rd largest snowfall then in NYC history (18.1\")",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 53
+  },
+  {
+    "id": 77,
+    "year": "1968",
+    "original": "The BBC broadcasts the news for the first time in color on television",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 55
+  },
+  {
+    "id": 141,
+    "year": "161",
+    "original": "Roman EmperorAntoninus Piusdies and is succeeded by co-EmperorsMarcus AureliusandLucius Verus, an unprecedented political arrangement in the Roman Empire",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 56
+  },
+  {
+    "id": 156,
+    "year": "1940",
+    "original": "Peter Saur, fighting as Ray Steele, beatsBronko Nagurskiin St Louis, to become National Wrestling Association Heavyweight Champion",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 57
+  },
+  {
+    "id": 182,
+    "year": "1996",
+    "original": "Magic Johnsonbecomes the second NBA player to reach 10,000 career assists",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 58
+  },
+  {
+    "id": 188,
+    "year": "2016",
+    "original": "Peyton Manningannounces his retirement from the Denver Broncos and the NFL",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 59
+  },
+  {
+    "id": 224,
+    "year": "1807",
+    "original": "Franz Graf von Pocci, German founding director of the Munich Marionette Theatre (Punch and Judy), poet, and illustrator of children's literature (Viola Tricolor: In Picture and Rhyme), born in Munich, Germany (d. 1876)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 60
+  },
+  {
+    "id": 266,
+    "year": "1903",
+    "original": "Maud Lewis (née Dowley), Canadian folk artist and painter, born in South Ohio, Nova Scotia (d. 1970)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 61
+  },
+  {
+    "id": 281,
+    "year": "1917",
+    "original": "Janet Collins, American ballerina, choreographer, and teacher, born in New Orleans, Louisiana (d. 2003)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 63
+  },
+  {
+    "id": 287,
+    "year": "1922",
+    "original": "Olga Aleksandrovna Ladyzhenskaya, Russian mathematician (fluid dynamics), born in Kologriv, Soviet Russia (d. 2004)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 64
+  },
+  {
+    "id": 288,
+    "year": "1922",
+    "original": "Patrick \"Paddy\" Clancy, Irish folk singer, harmonic player, and songwriter (The Clancy Brothers and Tommy Makem - \"Carrickfergus\"), born in Carrick-on-Suir, County Tipperary, Ireland (d. 1998)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 65
+  },
+  {
+    "id": 293,
+    "year": "1925",
+    "original": "Rene Gagnon, US Marine shown in photograph of the Raising the Flag on Iwo Jima, born in Manchester, New Hampshire (d. 1979)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 66
+  },
+  {
+    "id": 298,
+    "year": "1929",
+    "original": "Yvonne Chouteau, Native American dancer (one of the \"five Moons\" of Oklahoma), born in Fort Worth, Texas (d. 2016)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 67
+  },
+  {
+    "id": 314,
+    "year": "1938",
+    "original": "David Baltimore, American biologist (1975 Nobel laureate in Physiology or Medicine), born in New York City",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 68
+  },
+  {
+    "id": 332,
+    "year": "1943",
+    "original": "Chris White, British rock singer-songwriter, musician, and record producer (The Zombies - \"She's Not There\"; \"Time Of The Season\"), born in Barnet, Hertfordshire, England",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 69
+  },
+  {
+    "id": 355,
+    "year": "1952",
+    "original": "Ernie Isley, American vocalist and guitarist (The Isley Brothers,1969-84 & 1991-present - \"It's Your Thing\"; \"Heat is On\"), born in Cincinnati, Ohio",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 70
+  }
+]

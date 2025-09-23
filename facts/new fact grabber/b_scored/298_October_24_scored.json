@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "original": "United Nations Day",
+    "score": 50,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 2,
+    "original": "World Development Information Day",
+    "score": 45,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 3,
+    "original": "National Bologna Day",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "World Polio Day",
+    "score": 55,
+    "is_kid_friendly": true
+  }
+]
