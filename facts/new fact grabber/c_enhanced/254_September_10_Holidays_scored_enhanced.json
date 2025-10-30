@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Trading Thoughts on National Swap Ideas Day",
+    "story": "People love sharing their coolest thoughts and creative solutions on National Swap Ideas Day every September 10! This fun holiday encourages everyone to trade their best ideas with friends, family, and even strangers. Kids might swap art techniques, science project ideas, or fun game rules at school. Adults share cooking tips, work solutions, or hobby tricks with their neighbors and coworkers. Some people post their favorite life hacks on social media using special hashtags. Others organize idea-swapping parties where everyone brings one great tip to share. The whole point is that when we trade ideas, everyone wins because knowledge grows when it's shared!",
+    "activity_question": "What might kids swap ideas about on this holiday?",
+    "activity_choices": [
+      "Art techniques and science projects",
+      "Their favorite pizza toppings",
+      "How to train pet dinosaurs",
+      "The best places to hide vegetables"
+    ],
+    "activity_answer": "Art techniques and science projects",
+    "follow_up_question": "What's the best idea you've ever shared with someone else?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Microwave Magic: TV Dinner Day!",
+    "story": "Pop goes the microwave as families across America celebrate National TV Dinner Day on September 10! This quirky holiday honors those convenient frozen meals that come in divided trays. People mark the day by heating up their favorite TV dinners and eating them while binge-watching shows, just like the original idea intended. Some families make it a fun tradition by trying weird flavor combinations or competing to see who can finish their meal fastest during commercial breaks. Social media fills with photos of steaming trays and nostalgic memories of childhood dinners eaten in front of the television.",
+    "activity_question": "What do people typically do while eating TV dinners on this holiday?",
+    "activity_choices": [
+      "Watch television shows",
+      "Play board games",
+      "Read books silently",
+      "Practice musical instruments"
+    ],
+    "activity_answer": "Watch television shows",
+    "bonus_fact": "TV dinners were invented because of leftover Thanksgiving turkey in 1953!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "903",
+    "title": "Stitching Up Fun on Sewing Machine Day",
+    "story": "Every September 10, crafters celebrate National Sewing Machine Day by firing up their trusty machines! People share photos of their latest quilts, clothes, and creative projects online. Many sewing shops offer special classes where kids and adults learn to make simple items like pillowcases or tote bags.",
+    "activity_question": "What do people commonly make during National Sewing Machine Day celebrations?",
+    "activity_choices": [
+      "Pillowcases and tote bags",
+      "Paper airplanes",
+      "Sandwiches",
+      "Snow angels"
+    ],
+    "activity_answer": "Pillowcases and tote bags",
+    "bonus_fact": "The first sewing machine was invented in 1790, but early versions were banned for putting tailors out of work!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 45
+  }
+]

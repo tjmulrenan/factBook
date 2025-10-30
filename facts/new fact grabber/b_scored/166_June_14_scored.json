@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "original": "Flag Day",
+    "score": 60,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "World Blood Donor Day",
+    "score": 55,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "National Bourbon Day",
+    "score": 55,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 4,
+    "original": "National Strawberry Shortcake Day",
+    "score": 90,
+    "is_kid_friendly": true
+  }
+]

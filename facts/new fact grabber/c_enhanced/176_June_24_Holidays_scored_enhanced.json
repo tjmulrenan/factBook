@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Saint John's Day: Fire, Fun, and Fortune!",
+    "story": "People light huge bonfires and jump over flames on Saint John's Day every June 24! This magical night celebrates the summer solstice with dancing, singing, and making wishes. Families gather herbs and flowers, believing they have special powers today. In some places, people write their problems on paper and toss them into the fire to burn away bad luck.",
+    "activity_question": "What do people jump over on Saint John's Day?",
+    "activity_choices": [
+      "Flames from bonfires",
+      "Rainbow puddles",
+      "Sleeping dragons",
+      "Garden fences"
+    ],
+    "activity_answer": "Flames from bonfires",
+    "follow_up_question": "What wish would you make if you jumped over a Saint John's Day bonfire?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 50
+  },
+  {
+    "id": "902",
+    "title": "Sweet Southern Treats Take the Spotlight",
+    "story": "Candy lovers across America celebrate National Pralines Day every June 24 by indulging in these sweet, creamy confections! Pralines are sugary treats made with nuts, cream, and butter that melt in your mouth. Originally from France but perfected in New Orleans, these candies come in different styles depending on where you live. Southern pralines are soft and creamy, while other regions make them crunchy. Candy shops offer special deals, families share old recipes, and food bloggers post photos of their homemade batches to celebrate this deliciously nutty holiday.",
+    "activity_question": "What are the main ingredients used to make pralines?",
+    "activity_choices": [
+      "Nuts, cream, and butter",
+      "Chocolate, marshmallows, and cookies",
+      "Flour, eggs, and vanilla",
+      "Peanut butter, jelly, and bread"
+    ],
+    "activity_answer": "Nuts, cream, and butter",
+    "bonus_fact": "New Orleans pralines are pronounced \"PRAH-leens\" instead of \"PRAY-leens\" like elsewhere!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  }
+]

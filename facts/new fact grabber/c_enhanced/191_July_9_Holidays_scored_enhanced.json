@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Nunavut Day: Canada's Newest Territory Celebrates",
+    "story": "Every July 9, Canada's youngest territory throws a huge birthday party! Nunavut Day celebrates when this Arctic territory officially became part of Canada. People gather for traditional Inuit games, feast on local foods like Arctic char, and share stories passed down through generations. It's a day to honor Inuit culture and the beautiful frozen homeland they call home.",
+    "activity_question": "What type of traditional activities do people enjoy on Nunavut Day?",
+    "activity_choices": [
+      "Inuit games and storytelling",
+      "Beach volleyball tournaments",
+      "Hot air balloon rides",
+      "Desert camping trips"
+    ],
+    "activity_answer": "Inuit games and storytelling",
+    "bonus_fact": "Nunavut means \"our land\" in the Inuktitut language!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 45
+  },
+  {
+    "id": "902",
+    "title": "Argentina's Freedom Fiesta",
+    "story": "Every July 9, Argentina throws a massive birthday party for their entire country! Streets fill with blue and white flags as people celebrate Argentina Independence Day with parades, folk dancing, and delicious empanadas. Families gather to watch traditional gaucho performances and sing patriotic songs. The celebration honors the day Argentina declared freedom from Spain, and today millions of Argentinians proudly wave their flag and share mate tea to mark this special national holiday.",
+    "activity_question": "What colors are featured on Argentina's flag during Independence Day celebrations?",
+    "activity_choices": [
+      "Blue and white",
+      "Red and yellow",
+      "Green and orange",
+      "Purple and gold"
+    ],
+    "activity_answer": "Blue and white",
+    "follow_up_question": "What traditions does your family have for celebrating your country's independence?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  }
+]

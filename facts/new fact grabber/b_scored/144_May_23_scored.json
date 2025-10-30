@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "original": "World Turtle Day",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "National Taffy Day",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "Declaration of the Báb",
+    "score": 33,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 4,
+    "original": "Constitution Day (Germany)",
+    "score": 35,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 5,
+    "original": "Labour Day (Jamaica)",
+    "score": 55,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 6,
+    "original": "National Maritime Day",
+    "score": 55,
+    "is_kid_friendly": true
+  }
+]

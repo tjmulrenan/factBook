@@ -1,0 +1,542 @@
+[
+  {
+    "id": 137,
+    "year": "2018",
+    "original": "Japan's space agency is the first to place two robotic explorers on an asteroid - Ryugu, from its Hayabusa-2 spacecraft",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 1
+  },
+  {
+    "id": 144,
+    "year": "2021",
+    "original": "Fossilized footprints 23,000-21,000 years old from White Sands, New Mexico indicate settlement by humans of North and South America earlier than previous thought",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 2
+  },
+  {
+    "id": 204,
+    "year": "2019",
+    "original": "Climate activistGreta Thunbergscolds world leaders \"How Dare You\" for not addressing climate change at the UN Climate Action Summit in New York",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 3
+  },
+  {
+    "id": 172,
+    "year": "1962",
+    "original": "ABC's first color TV series \"The Jetsons\" premieres, created byHanna-Barbera",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 4
+  },
+  {
+    "id": 213,
+    "year": "1957",
+    "original": "PresidentDwight D. Eisenhowerorders US troops to support the integration of nine Black students at Little Rock Central High School in Arkansas",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 5
+  },
+  {
+    "id": 121,
+    "year": "1992",
+    "original": "Manon Rheaume becomes the first female to play in an NHL exhibition game when she plays goalie for the Tampa Bay Lightning, allowing 2 goals on 9 attempts in 1 period",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 6
+  },
+  {
+    "id": 51,
+    "year": "1938",
+    "original": "Time capsule to be opened in the year 6939 is buried at the World's Fair in NYC; it contains a woman's hat, a man's pipe, and 1,100 feet of microfilm",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 7
+  },
+  {
+    "id": 14,
+    "year": "1846",
+    "original": "Johann Gottfried Galle & Heinrich d'Arrest find Neptune",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 8
+  },
+  {
+    "id": 27,
+    "year": "1889",
+    "original": "Nintendo Koppai (later Nintendo Company, Limited) is founded by Fusajiro Yamauchi to produce and market the playing card game Hanafuda",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 9
+  },
+  {
+    "id": 138,
+    "year": "2018",
+    "original": "Mud volcano, the Otman-Bozdag, erupts 300m (980ft) high, near Baku, Azerbaijan",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 10
+  },
+  {
+    "id": 11,
+    "year": "1835",
+    "original": "HMS Beagle sails to Charles Island in Galapagos archipelago",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 11
+  },
+  {
+    "id": 134,
+    "year": "2012",
+    "original": "Scientists discover four genetically distinct types of breast cancer",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 12
+  },
+  {
+    "id": 155,
+    "year": "1875",
+    "original": "Billy the Kidis arrested for the 1st time and jailed after receiving clothing stolen from a Chinese laundry. Escapes two days later.",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 13
+  },
+  {
+    "id": 175,
+    "year": "1969",
+    "original": "\"Butch Cassidyand the Sundance Kid\" directed by George Roy Hill and starringPaul NewmanandRobert Redfordpremieres at the Roger Sherman Theater in New Haven, Connecticut",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 14
+  },
+  {
+    "id": 209,
+    "year": "2022",
+    "original": "St. Louis Cardinals sluggerAlbert Pujolshits 2 home runs with 5 RBI in 11-0 win over Dodgers in LA; becomes fourth player in MLB history to hit 700 career HRs",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 15
+  },
+  {
+    "id": 210,
+    "year": "2022",
+    "original": "Tennis greatRoger Federerplays his final professional match during Laver Cup in London; teams with friend and rivalRafael Nadalbut loses 6–4, 6–7 [9–11] to Americans Jack Sock and Frances Tiafoe",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 16
+  },
+  {
+    "id": 212,
+    "year": "1779",
+    "original": "John Paul Jones aboard the USS Bonhomme Richard defeats the British frigate HMS Serepis and becomes the United States first well-known naval hero",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 17
+  },
+  {
+    "id": 16,
+    "year": "1862",
+    "original": "US President Lincoln's Emancipation Proclamation is published in northern newspapers",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 18
+  },
+  {
+    "id": 25,
+    "year": "1884",
+    "original": "American Herman Hollerith patents his mechanical tabulating machine, the beginning of data processing",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 19
+  },
+  {
+    "id": 123,
+    "year": "1993",
+    "original": "Paul Chu group reports super conduction at -123°C (record high)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 20
+  },
+  {
+    "id": 101,
+    "year": "1977",
+    "original": "3rd test of Space Shuttle Enterprise",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 21
+  },
+  {
+    "id": 95,
+    "year": "1973",
+    "original": "Largest known prime number, 2 ^ 132,049-1, is found with computer aid by David Slowinski; holds as largest until 1985",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 22
+  },
+  {
+    "id": 40,
+    "year": "1913",
+    "original": "Women protests take place in the Free State, South Africa, led by Charlotte Maxeke, resisting government attempts to impose passes on women; passes are burnt in front of the municipal offices",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 23
+  },
+  {
+    "id": 173,
+    "year": "1962",
+    "original": "LA Dodgers shortstopMaury Willsbreaks Ty Cobb's 1915 MLB steals record, recording #97 on his way to 104",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 37
+  },
+  {
+    "id": 23,
+    "year": "1879",
+    "original": "Richard Rhodes invented a hearing aid called the Audiophone",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 25
+  },
+  {
+    "id": 168,
+    "year": "1952",
+    "original": "UndefeatedRocky MarcianoKOs defending championJersey Joe Walcottin the 13th round at Municipal Stadium, Philadelphia for the world heavyweight boxing title",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 26
+  },
+  {
+    "id": 148,
+    "year": "1387",
+    "original": "One of the most extravagant medieval English feasts ever recorded held forRichard IIandJohn of Gauntin London. Included 14 salted oxen, 120 sheep, 1200 pigeons and 11,000 eggs",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 27
+  },
+  {
+    "id": 152,
+    "year": "1780",
+    "original": "British Major John Andre revealsBenedict Arnold's plot to betray West Point",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 28
+  },
+  {
+    "id": 166,
+    "year": "1950",
+    "original": "Nobel peace prize awarded toRalph Bunchefor mediation in Israel - 1st African American winner",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 29
+  },
+  {
+    "id": 202,
+    "year": "2018",
+    "original": "Indian Prime MinisterNarendra Modilaunches \"Modicare,\" a free healthcare program for 500 million people, the world's largest healthcare initiative",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 30
+  },
+  {
+    "id": 207,
+    "year": "2021",
+    "original": "Bidenadministration and EPA introduce first regulation against greenhouse gases, reduction of hydrofluorocarbons by 85% in 15 years",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 31
+  },
+  {
+    "id": 26,
+    "year": "1887",
+    "original": "Tongariro National Park formed in New Zealand after proposal by local chief Ngāti Tūwharetoa - fourth national park in the world",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 32
+  },
+  {
+    "id": 182,
+    "year": "1978",
+    "original": "100,000 cheering Egyptians welcomeAnwar Sadathome from Camp David peace summit",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 33
+  },
+  {
+    "id": 171,
+    "year": "1957",
+    "original": "\"That'll Be the Day\" single byBuddy Hollyand The Crickets reaches #1 in the US",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 34
+  },
+  {
+    "id": 201,
+    "year": "2018",
+    "original": "39-year-old New Orleans Saints quarterbackDrew Breesthrows 17 yard pass to Michael Thomas to become NFL career pass leader, breakingBrett Favre's record of 6,300 completions; Saints beat Falcons 43-37",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 35
+  },
+  {
+    "id": 192,
+    "year": "1988",
+    "original": "JoseCansecois baseball's 1st to steal 40 bases & hit 40 HRs",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 36
+  },
+  {
+    "id": 157,
+    "year": "1926",
+    "original": "\"Upset of the Decade\" - Gene Tunney beats defending championJack Dempseyby 10-round unanimous decision at Sesquicentennial Stadium (later known as JFK Stadium), Philadelphia, Pennsylvania for world heavyweight boxing title",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 38
+  },
+  {
+    "id": 125,
+    "year": "1997",
+    "original": "Seattle Mariners break record for most HRs in a year (258)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 39
+  },
+  {
+    "id": 191,
+    "year": "1988",
+    "original": "Americans Christopher Jacobs, Troy Dalbey, Tom Hunter &Matt Biondiswim world record 3:16.53 to win 4 x 100m freestyle relay at the Seoul Olympics",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 41
+  },
+  {
+    "id": 193,
+    "year": "1988",
+    "original": "Portuguese world championRosa Motaruns 2:25:40 to score a famous Olympic marathon win over Australian Lisa Martin at the Seoul Games",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 42
+  },
+  {
+    "id": 113,
+    "year": "1988",
+    "original": "East German swimmer Uwe Dassler sets world record 3:46.95 to win 400m freestyle gold medal at the Seoul Olympics; edges Australian Duncan Armstrong by 0.2s",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 43
+  },
+  {
+    "id": 28,
+    "year": "1890",
+    "original": "Ed Cartwright bats in 7 RBIs in 1 inning",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 44
+  },
+  {
+    "id": 35,
+    "year": "1908",
+    "original": "Giant Fred (Bonehead) Merkle fails to touch second, causing the third out in the ninth and disallowing the winning run (game ends tied, Cubs win replay and pennant)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 45
+  },
+  {
+    "id": 163,
+    "year": "1945",
+    "original": "First Cavalcade of Jazz outdoor concert held at Wrigley Field, Los Angeles withCount Basie, Valaida Snow and others",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 48
+  },
+  {
+    "id": 153,
+    "year": "1806",
+    "original": "Lewis and Clarkreturn to St Louis from Pacific Northwest",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 49
+  },
+  {
+    "id": 75,
+    "year": "1959",
+    "original": "Australia's first passenger roll on/roll off diesel ferry, the MS Princess of Tasmania makes her maiden voyage across Bass Strait",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 51
+  },
+  {
+    "id": 107,
+    "year": "1983",
+    "original": "Columbia moves to Vehicle Assembly Building at Kennedy Space Center (Florida), for mating in preparation of STS-9",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 52
+  },
+  {
+    "id": 126,
+    "year": "1999",
+    "original": "NASA announces that it has lost contact with the Mars Climate Orbiter",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 53
+  },
+  {
+    "id": 136,
+    "year": "2017",
+    "original": "Women are allowed in King Fahd International Stadium in Riyadh for the first time during Saudi Arabia's 87th anniversary celebrations",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 54
+  },
+  {
+    "id": 117,
+    "year": "1990",
+    "original": "PBS begins an 11-hour miniseries on the Civil War",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 55
+  },
+  {
+    "id": 128,
+    "year": "2002",
+    "original": "First version of the web browser Mozilla Firefox dubbed Phoenix 0.1 is released to the public",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 56
+  },
+  {
+    "id": 38,
+    "year": "1913",
+    "original": "French aviator Roland Garros (24) is 1st to fly over Mediterranean Sea",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 57
+  },
+  {
+    "id": 62,
+    "year": "1950",
+    "original": "Canada's first mountain rescue by helicopter of a forestry worker from a Wells Gray Park forestry lookout",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 58
+  },
+  {
+    "id": 37,
+    "year": "1911",
+    "original": "United States Post Office Department designates Earl Ovington \"Official Air Mail Pilot #1\"",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 59
+  },
+  {
+    "id": 98,
+    "year": "1976",
+    "original": "South Africa decides to allow multi-racial teams to represent them",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 60
+  },
+  {
+    "id": 99,
+    "year": "1976",
+    "original": "Soyuz 22 returns to Earth",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 61
+  },
+  {
+    "id": 100,
+    "year": "1977",
+    "original": "\"I Just Fall in Love Again\" single released by The Carpenters",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 62
+  },
+  {
+    "id": 185,
+    "year": "1980",
+    "original": "Reggae legendBob Marley's final concert at Stanley Theatre in Pittsburgh, Pennsylvania",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 63
+  },
+  {
+    "id": 158,
+    "year": "1927",
+    "original": "\"Sunrise: A Song of Two Humans\", directed by F. W. Murnau, starring George O'Brien andJanet Gaynor, is released (Academy Awards Unique and Artistic Picture 1927)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 64
+  },
+  {
+    "id": 161,
+    "year": "1940",
+    "original": "Dutch artistPiet Mondrianleaves Europe for New York, where he lives for the rest of his life",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 65
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Ahoy There, Matey! Pirate Talk Day",
+    "story": "Every September 19, people around the world suddenly start saying \"Ahoy matey!\" and \"Shiver me timbers!\" because it's International Talk Like a Pirate Day! This silly holiday began when two friends decided everyone should spend one day speaking like swashbuckling pirates. Now millions of people join the fun by greeting each other with \"Arrr!\" instead of \"Hello.\" Kids wear eye patches to school, restaurants serve \"pirate grub,\" and social media fills with posts written in pirate speak. Some people even change their names to Captain Redbeard or Salty Sarah for the day. It's the perfect excuse to be goofy and channel your inner seafaring adventurer!",
+    "activity_question": "What do people say instead of \"Hello\" on International Talk Like a Pirate Day?",
+    "activity_choices": [
+      "Arrr!",
+      "Howdy partner!",
+      "Bonjour!",
+      "Meow!"
+    ],
+    "activity_answer": "Arrr!",
+    "follow_up_question": "What pirate name would you choose for yourself on this fun holiday?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Sweet September Spoon-Licking Fun!",
+    "story": "Every September 19, pudding lovers across America grab their spoons for National Butterscotch Pudding Day! This creamy, golden treat gets its sweet, buttery flavor from brown sugar and butter cooked together until they're perfectly caramelized. People celebrate by making homemade pudding from scratch, buying their favorite store brands, or ordering butterscotch desserts at restaurants. Some families turn it into a fun kitchen adventure, letting kids help stir the pudding while it thickens on the stove. Social media fills with photos of pudding cups, parfaits, and creative butterscotch desserts as everyone shares their sweet celebrations.",
+    "activity_question": "What gives butterscotch pudding its sweet, buttery flavor?",
+    "activity_choices": [
+      "Brown sugar and butter cooked together",
+      "Vanilla extract and cream",
+      "Chocolate chips and milk",
+      "Magical pudding fairies"
+    ],
+    "activity_answer": "Brown sugar and butter cooked together",
+    "bonus_fact": "Butterscotch was invented in Scotland, which is how it got its name!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  }
+]

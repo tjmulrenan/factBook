@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Pack Your Bags for World Tourism Day!",
+    "story": "Every September 27, people around the world celebrate World Tourism Day by sharing their favorite travel memories and dream destinations! Families post vacation photos on social media, travel agencies offer special deals, and schools teach kids about different countries and cultures. Some people plan future trips, while others explore local attractions they've never visited before. It's the perfect day to appreciate how travel connects us all!",
+    "activity_question": "What do families often do on World Tourism Day to celebrate?",
+    "activity_choices": [
+      "Post vacation photos on social media",
+      "Build sandcastles in their backyard",
+      "Only eat food from their own country",
+      "Hide their passports for the day"
+    ],
+    "activity_answer": "Post vacation photos on social media",
+    "follow_up_question": "What's one place you've never been that you'd love to visit someday?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "902",
+    "title": "Chocolate Milk Gets Its Special Day!",
+    "story": "Every September 27, chocolate milk lovers across America celebrate National Chocolate Milk Day by raising their glasses high! Schools serve extra cartons in cafeterias, while families whip up homemade versions using cocoa powder or chocolate syrup. Many people share photos of their favorite chocolate milk brands on social media, from classic Nesquik to fancy organic varieties. Some restaurants offer special chocolate milk floats or milkshakes to mark the occasion. Kids especially love this sweet holiday because it gives them a perfect excuse to choose chocolate milk over regular milk at lunch. Whether you stir it yourself or buy it ready-made, this creamy treat gets its moment to shine!",
+    "activity_question": "Where do many kids enjoy extra chocolate milk on National Chocolate Milk Day?",
+    "activity_choices": [
+      "In school cafeterias",
+      "At the library",
+      "In swimming pools",
+      "At the dentist's office"
+    ],
+    "activity_answer": "In school cafeterias",
+    "follow_up_question": "What's your favorite way to make chocolate milk at home?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "903",
+    "title": "Hash It Out on National Day!",
+    "story": "Crispy potatoes mixed with chunks of corned beef create the perfect comfort food combo! National Corned Beef Hash Day happens every September 27, when diners and home cooks celebrate this hearty dish. People fry up golden hash in cast iron skillets, often topping it with a fried egg for extra deliciousness. Some add onions, peppers, or cheese to make their hash extra special.",
+    "activity_question": "What do people often put on top of corned beef hash to make it extra delicious?",
+    "activity_choices": [
+      "A fried egg",
+      "Ice cream",
+      "Chocolate sauce",
+      "Marshmallows"
+    ],
+    "activity_answer": "A fried egg",
+    "bonus_fact": "Hash comes from the French word \"hacher,\" which means \"to chop.\"",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "904",
+    "title": "Crush a Can Day: Smash for Cash!",
+    "story": "Get ready to stomp, squeeze, and smash because September 27 is National Crush a Can Day! This fun holiday encourages people to flatten aluminum cans before recycling them. Families gather their empty soda and juice cans, then take turns crushing them with their feet, hands, or special can crushers. Some people make it a competition to see who can flatten the most cans in one minute. Schools and community groups often host can-crushing events where kids bring cans from home. The flattened cans take up less space in recycling bins and trucks, making it easier to transport them to recycling centers. It's a simple way to help the environment while having a blast on September 27!",
+    "activity_question": "What happens to crushed cans after people flatten them?",
+    "activity_choices": [
+      "They get recycled at recycling centers",
+      "They get buried in the backyard",
+      "They get turned into pizza toppings",
+      "They get sent to outer space"
+    ],
+    "activity_answer": "They get recycled at recycling centers",
+    "bonus_fact": "One aluminum can takes about 90 years to break down naturally in a landfill!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  }
+]

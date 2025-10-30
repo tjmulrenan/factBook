@@ -1,0 +1,542 @@
+[
+  {
+    "id": 178,
+    "year": "2023",
+    "original": "India's Chandrayaan-3 lunar mission is the first to land at the Moon's southern pole successfully and makes India the fourth country to ever land on the Moon",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 1
+  },
+  {
+    "id": 98,
+    "year": "1966",
+    "original": "Lunar Orbiter 1 takes the first photograph of Earth from the Moon",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 2
+  },
+  {
+    "id": 174,
+    "year": "2021",
+    "original": "Video evidence of a Seychelles giant tortoise hunting and eating a bird is revealed for the first time; tortoises were previously thought to be herbivores",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 3
+  },
+  {
+    "id": 216,
+    "year": "79",
+    "original": "Mount Vesuvius begins stirring on the feast day of Vulcan, the Roman god of fire, and goes on to destroy Pompeii [approximate date]",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 4
+  },
+  {
+    "id": 91,
+    "year": "1960",
+    "original": "World's largest frog, a Goliath frog weighing 3.3 kg, is found in Equatorial Guinea",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 5
+  },
+  {
+    "id": 170,
+    "year": "2017",
+    "original": "World's driest place, the Atacama Desert in Chile, blooms after unexpected rainfall",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 6
+  },
+  {
+    "id": 51,
+    "year": "1924",
+    "original": "Mars makes its closest approach to Earth since the 10th century",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 7
+  },
+  {
+    "id": 179,
+    "year": "2024",
+    "original": "Shohei Ohtaniof the Los Angeles Angels steals a base and hits a grand slam in a 7-3 win at home over Tampa Bay, becoming just the sixth MLB player to have 40 home runs and 40 stolen bases in a season; he does so in the fewest number of games, 126",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 8
+  },
+  {
+    "id": 152,
+    "year": "2008",
+    "original": "Australian diver Matthew Mitcham wins the men's 10 m platform gold medal with a final dive at the Beijing Olympics, preventing the Chinese from winning every diving event and achieving the highest score for an individual dive in Olympic history (112.10)",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 9
+  },
+  {
+    "id": 163,
+    "year": "2015",
+    "original": "A 12-year-old boy trips and rips the 17th-century painting \"Flowers\" by Paolo Porpora, worth $1.5 million, at an exhibition in Taiwan",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 10
+  },
+  {
+    "id": 58,
+    "year": "1939",
+    "original": "British motorist John Cobb breaks the land speed record, reaching 365.85 mph (589.74 kph) on the Bonneville Salt Flats",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 11
+  },
+  {
+    "id": 117,
+    "year": "1977",
+    "original": "First human-powered flight over a mile by Bryan Allen in the Gossamer Condor, designed by Paul MacCready, wins the first Kremer Prize",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 12
+  },
+  {
+    "id": 134,
+    "year": "1989",
+    "original": "Two million people form a human chain across Latvia, Estonia, and Lithuania in a peaceful pro-independence demonstration against Soviet occupation",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 13
+  },
+  {
+    "id": 202,
+    "year": "1974",
+    "original": "John Lennonreports seeing a UFO in New York City",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 14
+  },
+  {
+    "id": 147,
+    "year": "2004",
+    "original": "Outstanding British athlete Kelly Holmes wins the first leg of her 800/1,500m double at the Athens Olympics, taking the gold medal in 1:56.38",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 19
+  },
+  {
+    "id": 151,
+    "year": "2007",
+    "original": "The #hashtag is invented and first used in a tweet by US product designer Chris Messina",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 16
+  },
+  {
+    "id": 171,
+    "year": "2019",
+    "original": "Russia launches the first floating nuclear power station, the Akademik Lomonosov, from the port of Murmansk",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 17
+  },
+  {
+    "id": 95,
+    "year": "1962",
+    "original": "First Europe-US live TV program via Telstar",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 18
+  },
+  {
+    "id": 208,
+    "year": "2008",
+    "original": "The star-studded American women's basketball team, led by Lisa Leslie, Sue Bird, andDiana Taurasi, wins the gold medal at the Beijing Olympics with a convincing 92-65 victory over Australia",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 23
+  },
+  {
+    "id": 85,
+    "year": "1953",
+    "original": "Phil Grate sets a record for throwing a baseball 443 ft 3 in (135.1 m)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 24
+  },
+  {
+    "id": 190,
+    "year": "1936",
+    "original": "17-year-old Cleveland Indians future Baseball Hall of Fame pitcherBob Fellerplays his first MLB game as a starter and strikes out 15 St. Louis Browns in a 4-1 win at League Park, Cleveland",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 26
+  },
+  {
+    "id": 156,
+    "year": "2011",
+    "original": "A 5.8 earthquake occurs in Mineral, Virginia, and is felt as far north as Ontario and as far south as Atlanta, Georgia",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 29
+  },
+  {
+    "id": 116,
+    "year": "1976",
+    "original": "A 6.4-magnitude earthquake strikes China, killing thousands",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 30
+  },
+  {
+    "id": 136,
+    "year": "1990",
+    "original": "East and West Germany announce they will reunite on October 3",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 31
+  },
+  {
+    "id": 218,
+    "year": "2005",
+    "original": "Hurricane Katrina forms over the Bahamas and later becomes a Category 5 hurricane",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 32
+  },
+  {
+    "id": 173,
+    "year": "2021",
+    "original": "US Food and Drug Administration grants full approval to Pfizer-BioNTech COVID-19 vaccine for people 16 and over, the first vaccine to move past emergency-use status in the US",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 33
+  },
+  {
+    "id": 358,
+    "year": "1948",
+    "original": "Daniel Ruettiger, American college football legend known as \"Rudy\" (University of Notre Dame), born in Joliet, Illinois",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 34
+  },
+  {
+    "id": 96,
+    "year": "1963",
+    "original": "Beatles release single \"She Loves You\" in the UK",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 35
+  },
+  {
+    "id": 100,
+    "year": "1968",
+    "original": "Ringo temporarily quits The Beatles over a disagreement and rejoins the group after a holiday in Sardinia",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 36
+  },
+  {
+    "id": 99,
+    "year": "1966",
+    "original": "The Beatles' last New York City concert takes place in Queens, at Shea Stadium before a crowd of 45,000 with 11,000 unsold seats",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 37
+  },
+  {
+    "id": 189,
+    "year": "1933",
+    "original": "Mahatma Gandhireleased from Indian jail following another hunger strike",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 38
+  },
+  {
+    "id": 185,
+    "year": "1799",
+    "original": "Napoleonleaves Egypt for France en route to seizing power",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 39
+  },
+  {
+    "id": 63,
+    "year": "1942",
+    "original": "Last cavalry charge in history takes place during World War II at Isbuschenskij, Russia, when the Italian Savoia Cavalleria charges Soviet infantry",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 40
+  },
+  {
+    "id": 102,
+    "year": "1969",
+    "original": "American Audrey McElmory wins the World Cycling Championships in Brno, Czechoslovakia",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 47
+  },
+  {
+    "id": 198,
+    "year": "1953",
+    "original": "Italian Ferrari driverAlberto Ascariwins the Swiss Grand Prix at Bremgarten, clinching his second Formula 1 World Drivers' Championship",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 48
+  },
+  {
+    "id": 46,
+    "year": "1920",
+    "original": "American swimmer Warren Kealoha wins his first of two consecutive Olympic gold medals in the 100 m backstroke, beating teammate Ray Kegeris at the Antwerp Games",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 49
+  },
+  {
+    "id": 380,
+    "year": "1956",
+    "original": "David Wolf, American astronaut (STS 58, sk: 89/91), born in Indianapolis, Indiana",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 52
+  },
+  {
+    "id": 401,
+    "year": "1967",
+    "original": "Jon Cooper, Canadian ice hockey coach (Stanley Cup 2020, 21 Tampa Bay Lightning), born in Prince George, British Columbia",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 53
+  },
+  {
+    "id": 306,
+    "year": "1927",
+    "original": "Dick Bruna, Dutch illustrator (Miffy books), born in Utrecht (d. 2017)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 54
+  },
+  {
+    "id": 365,
+    "year": "1949",
+    "original": "Rick Springfield [Springthorpe], Australian singer (\"Speak to the Sky\"; \"Jessie's Girl\") and actor (General Hospital, 1981-83 and 2004-08 - \"Noah Drake\"), born in Balmain, New South Wales",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 55
+  },
+  {
+    "id": 80,
+    "year": "1952",
+    "original": "Kitty Wells becomes the first woman to reach #1 on the Billboard Country chart with \"It Wasn't God Who Made Honky Tonk Angels\" and stays at the top for 15 weeks",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 56
+  },
+  {
+    "id": 200,
+    "year": "1963",
+    "original": "DrummerRingo Starrreveals he wrote a song titled \"Don't Pass Me By\" in an interview, the Beatles don' t record it until 1968",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 57
+  },
+  {
+    "id": 89,
+    "year": "1958",
+    "original": "\"Musical Marie\" Ashton completes a 133-hour piano marathon at the Plaza-Central cinema in England, setting a female record for continuous piano playing",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 58
+  },
+  {
+    "id": 153,
+    "year": "2008",
+    "original": "Midfielder Ángel Di María scores a 58th-minute winner as Argentina beats Nigeria 1-0 to win the men's football gold medal at the Beijing Olympics; 89,102 attend at the National Stadium",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 59
+  },
+  {
+    "id": 66,
+    "year": "1944",
+    "original": "94.5°F (34.7°C) in De Bilt, Netherlands, and 101.5°F (38.6°C) in Warnsveld",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 60
+  },
+  {
+    "id": 94,
+    "year": "1961",
+    "original": "Ranger 1, a US test flight, fails to reach its intended high Earth orbit and re-enters and burns up on August 30, 1961",
+    "score": 94,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 61
+  },
+  {
+    "id": 108,
+    "year": "1973",
+    "original": "Intelsat communications satellite is launched",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 62
+  },
+  {
+    "id": 183,
+    "year": "1541",
+    "original": "French explorerJacques Cartierlands near Quebec City on his third voyage to Canada accompanied by five ships and 1500 people to establish a colony (colony fails after two years)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 63
+  },
+  {
+    "id": 196,
+    "year": "1944",
+    "original": "Free FrenchGeneral Leclerc's 2nd Armored Division advances towards Paris",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 64
+  },
+  {
+    "id": 135,
+    "year": "1990",
+    "original": "Armenia declares independence from the Soviet Union",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 65
+  },
+  {
+    "id": 83,
+    "year": "1953",
+    "original": "Former Boston Braves pitcher Phil Paine becomes the first major leaguer to play in Japan while on military service with the U.S. Air Force, playing the first of nine games for the Nishitetsu Lions",
+    "score": 83,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 71
+  },
+  {
+    "id": 72,
+    "year": "1946",
+    "original": "13th NFL Chicago All-Star Game: All-Stars 16, Los Angeles 0 (97,380 attendees)",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 75
+  },
+  {
+    "id": 103,
+    "year": "1969",
+    "original": "France's Une De Mai wins the International Trot at Roosevelt Raceway, becoming the first non-American since 1912 to win a cycling race title",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 76
+  },
+  {
+    "id": 27,
+    "year": "1872",
+    "original": "First Japanese commercial ship visits San Francisco carrying tea",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 81
+  },
+  {
+    "id": 31,
+    "year": "1889",
+    "original": "First ship-to-shore wireless message (\"Sherman is sighted\") is received in the US from Lightship No. 70 to a coastal receiving station at Cliff House in San Francisco",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 82
+  },
+  {
+    "id": 62,
+    "year": "1942",
+    "original": "First US flights land on Guadalcanal",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 83
+  },
+  {
+    "id": 70,
+    "year": "1944",
+    "original": "US 20th Army Corps enters Fontainebleau and Melun de Seine",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 84
+  },
+  {
+    "id": 21,
+    "year": "1838",
+    "original": "Mount Holyoke Female Seminary in South Hadley, Massachusetts, graduates its first class",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 85
+  },
+  {
+    "id": 12,
+    "year": "1595",
+    "original": "Michael the Brave confronts the Ottoman army in the Battle of Calugareni",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 86
+  },
+  {
+    "id": 74,
+    "year": "1947",
+    "original": "US President Truman's daughter, Margaret, gives her first public singing concert",
+    "score": 55,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 87
+  }
+]

@@ -1,0 +1,1262 @@
+[
+  {
+    "id": "901",
+    "title": "Trading Thoughts on National Swap Ideas Day",
+    "story": "People love sharing their coolest thoughts and creative solutions on National Swap Ideas Day every September 10! This fun holiday encourages everyone to trade their best ideas with friends, family, and even strangers. Kids might swap art techniques, science project ideas, or fun game rules at school. Adults share cooking tips, work solutions, or hobby tricks with their neighbors and coworkers. Some people post their favorite life hacks on social media using special hashtags. Others organize idea-swapping parties where everyone brings one great tip to share. The whole point is that when we trade ideas, everyone wins because knowledge grows when it's shared!",
+    "activity_question": "What might kids swap ideas about on this holiday?",
+    "activity_choices": [
+      "Art techniques and science projects",
+      "Their favorite pizza toppings",
+      "How to train pet dinosaurs",
+      "The best places to hide vegetables"
+    ],
+    "activity_answer": "Art techniques and science projects",
+    "follow_up_question": "What's the best idea you've ever shared with someone else?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Microwave Magic: TV Dinner Day!",
+    "story": "Pop goes the microwave as families across America celebrate National TV Dinner Day on September 10! This quirky holiday honors those convenient frozen meals that come in divided trays. People mark the day by heating up their favorite TV dinners and eating them while binge-watching shows, just like the original idea intended. Some families make it a fun tradition by trying weird flavor combinations or competing to see who can finish their meal fastest during commercial breaks. Social media fills with photos of steaming trays and nostalgic memories of childhood dinners eaten in front of the television.",
+    "activity_question": "What do people typically do while eating TV dinners on this holiday?",
+    "activity_choices": [
+      "Watch television shows",
+      "Play board games",
+      "Read books silently",
+      "Practice musical instruments"
+    ],
+    "activity_answer": "Watch television shows",
+    "bonus_fact": "TV dinners were invented because of leftover Thanksgiving turkey in 1953!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "903",
+    "title": "Stitching Up Fun on Sewing Machine Day",
+    "story": "Every September 10, crafters celebrate National Sewing Machine Day by firing up their trusty machines! People share photos of their latest quilts, clothes, and creative projects online. Many sewing shops offer special classes where kids and adults learn to make simple items like pillowcases or tote bags.",
+    "activity_question": "What do people commonly make during National Sewing Machine Day celebrations?",
+    "activity_choices": [
+      "Pillowcases and tote bags",
+      "Paper airplanes",
+      "Sandwiches",
+      "Snow angels"
+    ],
+    "activity_answer": "Pillowcases and tote bags",
+    "bonus_fact": "The first sewing machine was invented in 1790, but early versions were banned for putting tailors out of work!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 45
+  },
+  {
+    "id": "219",
+    "title": "The Chicken That Lived Without a Head",
+    "story": "Cluck, cluck... wait, where's the head? In 1945, a farmer in Fruita, Colorado, tried to chop off a chicken's head for dinner. Amazingly, the bird survived! Nicknamed Mike the Headless Chicken, he lived for another year and a half. Mike became a local wonder, touring in sideshows. Sadly, on September 10, his unusual life ended when he choked. Mike's story reminds us how surprisingly tough animals can be!",
+    "activity_question": "How long did Mike the Headless Chicken live after losing his head?",
+    "activity_choices": [
+      "Another year and a half",
+      "A few days",
+      "One month",
+      "Until dinner time"
+    ],
+    "activity_answer": "Another year and a half",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think Mike was able to eat and drink without a head?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Creature Feature"
+    ]
+  },
+  {
+    "id": "141",
+    "title": "Powering Up the Universe's Biggest Microscope",
+    "story": "Scientists flipped the switch on a massive machine in 2008. The Large Hadron Collider, built deep underground near Geneva, Switzerland, roared to life on September 10. This enormous scientific marvel stretches for miles in a giant circle. It smashes tiny particles together at incredible speeds, helping researchers unlock secrets of the universe. It's like a gigantic microscope peering into the building blocks of everything around us!",
+    "activity_question": "What does the Large Hadron Collider do?",
+    "activity_choices": [
+      "It smashes tiny particles together",
+      "It generates electricity for Geneva",
+      "It predicts the weather",
+      "It makes ice cream really fast"
+    ],
+    "activity_answer": "It smashes tiny particles together",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think scientists want to study such tiny particles?",
+    "optional_type": "follow_up_question",
+    "score": 95,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "188",
+    "title": "Barefoot Runner Sprints to Olympic Glory",
+    "story": "Imagine racing 26 miles without shoes! In 1960, Abebe Bikila of Ethiopia did just that. On September 10, he amazed the world by winning the Olympic marathon in Rome - barefoot! Bikila set a new world record time and became the first African athlete to win an Olympic gold medal. His incredible feat inspired runners everywhere and showed that determination can overcome any obstacle.",
+    "activity_question": "What was special about how Abebe Bikila ran the Olympic marathon?",
+    "activity_choices": [
+      "He ran barefoot",
+      "He ran backwards",
+      "He ran with a broken leg",
+      "He ran while juggling"
+    ],
+    "activity_answer": "He ran barefoot",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think running barefoot might be challenging in a marathon?",
+    "score": 95,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "150",
+    "title": "Hidden Ancestors Discovered in South Africa",
+    "story": "Deep in South African caves, a team of female archaeologists unearthed an amazing secret. They found bones belonging to a new human-like species! On September 10, 2015, scientists announced this incredible discovery to the world. They named the ancient relatives Homo naledi. These bones tell us fascinating stories about our long-lost family tree and how humans evolved over time.",
+    "activity_question": "What did the team of archaeologists discover in South African caves?",
+    "activity_choices": [
+      "A new human-like species",
+      "Ancient cave paintings",
+      "Dinosaur fossils",
+      "Hidden treasure"
+    ],
+    "activity_answer": "A new human-like species",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think scientists were so excited about this discovery?",
+    "score": 90,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "99",
+    "title": "Astronaut Prank Fools Mission Control",
+    "story": "Laughter echoed through space as Skylab 3 astronauts pulled off an out-of-this-world joke. On September 10, 1973, the crew answered their morning call from Mission Control using secret recordings of Helen Garriott, wife of astronaut Owen Garriott. Imagine the surprise when a woman's voice responded from the orbiting station! The playful prank left Houston scratching their heads before the astronauts revealed their cosmic comedy.",
+    "activity_question": "What did the Skylab 3 astronauts use to prank Mission Control?",
+    "activity_choices": [
+      "Recordings of Helen Garriott",
+      "Alien sound effects",
+      "A talking robot",
+      "Space music"
+    ],
+    "activity_answer": "Recordings of Helen Garriott",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think the astronauts decided to play this prank?",
+    "optional_type": "follow_up_question",
+    "score": 90,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "212",
+    "title": "Young Climber Reaches New Heights",
+    "story": "Scaling walls like a superhero, Ai Mori showed the world her incredible climbing skills on September 10, 2017. At the IFSC Youth World Championships in Innsbruck, Austria, this young athlete conquered the lead climbing event. With determination and agility, Ai reached the top, securing a shiny gold medal. Her victory inspired young climbers everywhere to dream big and reach for the stars.",
+    "activity_question": "Where did Ai Mori win her gold medal in lead climbing?",
+    "activity_choices": [
+      "IFSC Youth World Championships",
+      "Olympic Games",
+      "European Climbing Cup",
+      "National Junior Competition"
+    ],
+    "activity_answer": "IFSC Youth World Championships",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What sport did Ai Mori excel in?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "345",
+    "title": "The Genius Behind Game Boy",
+    "story": "Gunpei Yokoi, the brilliant mind who would revolutionize handheld gaming, entered the world on September 10, 1941. Born in Kyoto, Japan, Yokoi grew up to become a legendary inventor and video game designer. His creative spark would later ignite the development of the iconic Game Boy, changing how millions of kids and adults played games on the go.",
+    "activity_question": "What famous handheld gaming device did Gunpei Yokoi help develop?",
+    "activity_choices": [
+      "Game Boy",
+      "PlayStation",
+      "Nintendo Switch",
+      "Tamagotchi"
+    ],
+    "activity_answer": "Game Boy",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Yokoi also invented the Nintendo Game & Watch, a series of handheld electronic games in the 1980s.",
+    "score": 90,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "191",
+    "title": "Mickey Mantle's Mammoth Home Run",
+    "story": "Crack! The crowd gasped as Mickey Mantle's bat connected with the ball. On September 10, 1960, the New York Yankees slugger unleashed a monster home run at Tiger Stadium in Detroit. The ball soared over the right field roof, traveling an incredible distance. Fans and players alike were amazed by Mantle's display of power. It was one of the longest home runs ever recorded, cementing Mantle's reputation as a baseball legend.",
+    "activity_question": "Where did Mickey Mantle hit his incredible home run?",
+    "activity_choices": [
+      "Yankee Stadium",
+      "Tiger Stadium",
+      "Fenway Park",
+      "Wrigley Field"
+    ],
+    "activity_answer": "Tiger Stadium",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Mickey Mantle was known as 'The Commerce Comet' because of his incredible speed on the bases.",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "87",
+    "title": "Grappling for Gold: Dan Gable's Perfect Victory",
+    "story": "Muscles tensed and sweat dripping, Dan Gable stepped onto the wrestling mat in Munich. It was September 10, 1972, and the American freestyle wrestler was about to make history. Gable dominated every match, winning gold in the 68kg division. But here's the jaw-dropping part: not a single opponent scored even one point against him! This flawless performance made Gable the only Olympic wrestler to achieve such a feat.",
+    "activity_question": "What made Dan Gable's Olympic victory so special?",
+    "activity_choices": [
+      "He won the gold medal",
+      "He competed in Munich",
+      "He was an American wrestler",
+      "Not a single point was scored against him"
+    ],
+    "activity_answer": "Not a single point was scored against him",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you think of another sport where a perfect score or performance would be impressive?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "201",
+    "title": "Deion Sanders: Two-Sport Superstar",
+    "story": "Deion Sanders amazed sports fans in 1989 with his incredible talent in both baseball and football. Just five days after smashing a home run for the New York Yankees, Sanders showed off his football skills. On September 10, he caught a punt and raced 68 yards to score his first NFL touchdown. This remarkable feat proved Sanders could excel in two major sports at the highest level.",
+    "activity_question": "What two sports did Deion Sanders excel in?",
+    "activity_choices": [
+      "Baseball and football",
+      "Basketball and soccer",
+      "Tennis and golf",
+      "Hockey and lacrosse"
+    ],
+    "activity_answer": "Baseball and football",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How rare is it for an athlete to play professionally in two major sports?",
+    "score": 85,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "111",
+    "title": "Arlyne Rhode's Amazing Footbow Shot",
+    "story": "Whoosh! The arrow soared through the air, flying farther than any woman had ever shot before. On September 10, 1978, Arlyne Rhode amazed everyone with her incredible footbow skills. Using this special bow operated by her feet, she launched an arrow an astonishing distance. Her record-breaking shot traveled over a thousand yards, showing just how powerful and precise a footbow could be in expert hands... or rather, feet!",
+    "activity_question": "What special equipment did Arlyne Rhode use to set her record?",
+    "activity_choices": [
+      "A footbow",
+      "A longbow",
+      "A crossbow",
+      "A slingshot"
+    ],
+    "activity_answer": "A footbow",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you think of other sports where athletes use their feet instead of their hands?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "162",
+    "title": "Oregon's Fiery Fury Forces Mass Exodus",
+    "story": "Flames roared across Oregon's landscape in 2020, devouring nearly 900,000 acres of land. The inferno grew so intense that on September 10, a staggering 500,000 people had to flee their homes. That's about one in every ten Oregonians! Firefighters battled tirelessly against the blaze, while communities banded together to support those displaced. Remember, always follow evacuation orders and have a safety plan ready.",
+    "activity_question": "How many people had to evacuate due to the Oregon wildfires?",
+    "activity_choices": [
+      "500,000",
+      "900,000",
+      "100,000",
+      "50,000"
+    ],
+    "activity_answer": "500,000",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What can families do to prepare for potential natural disasters in their area?",
+    "optional_type": "follow_up_question",
+    "score": 90,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "214",
+    "title": "Climate Change: A Race Against Time",
+    "story": "The Earth's climate was changing faster than our efforts to stop it. In 2018, UN leader Antonio Guterres sounded the alarm. He called for an urgent meeting of world leaders on September 10. Guterres warned that we needed to act quickly to protect our planet. His message was clear: we must work together to slow down climate change before it's too late.",
+    "activity_question": "Who called for an urgent climate change conference?",
+    "activity_choices": [
+      "Antonio Guterres",
+      "World leaders",
+      "Climate scientists",
+      "Penguin protesters"
+    ],
+    "activity_answer": "Antonio Guterres",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What can you do at home to help fight climate change?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "116",
+    "title": "Beatles' Rejected Audition Tape Released",
+    "story": "Oops! The record label that said no to the Beatles had a change of heart. In 1982, Decca released the Beatles' old audition tape on an album. This was the same tape they'd turned down years ago, thinking guitar bands were going out of style. On September 10, fans could finally hear what Decca missed out on. It just goes to show that even experts can make big mistakes!",
+    "activity_question": "What did Decca think about guitar bands when they first rejected the Beatles?",
+    "activity_choices": [
+      "They were going out of style",
+      "They were too expensive",
+      "They were too loud",
+      "They were too popular"
+    ],
+    "activity_answer": "They were going out of style",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another famous band that plays guitars?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "299",
+    "title": "Rin Tin Tin: From War Pup to Movie Star",
+    "story": "A tiny German shepherd puppy was born in a war-torn French village. Little did anyone know, this pup would become a Hollywood legend! Rin Tin Tin, born on September 10, 1918, was rescued from a bombed-out kennel by an American soldier. Brought to the United States, Rin Tin Tin's intelligence and agility caught the eye of movie makers. He starred in silent films, becoming famous for his role in 'Where the North Begins'. This canine actor paved the way for animal stars in cinema.",
+    "activity_question": "What breed of dog was Rin Tin Tin?",
+    "activity_choices": [
+      "German shepherd",
+      "Labrador retriever",
+      "Golden retriever",
+      "Siberian husky"
+    ],
+    "activity_answer": "German shepherd",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Rin Tin Tin's descendants continued to appear in movies and TV shows for generations.",
+    "score": 90,
+    "categories": [
+      "Creature Feature"
+    ]
+  },
+  {
+    "id": "428",
+    "title": "Soccer Star Sam Kerr Kicks Off Her Journey",
+    "story": "In a small town called East Fremantle, Australia, a future soccer superstar took her first breath on September 10, 1993. Sam Kerr would grow up to become a fierce striker and captain for her country's team. With lightning-fast feet and a knack for scoring goals, Sam has played for top clubs like Perth Glory, Chicago Red Stars, and Chelsea. She's proudly worn her national jersey nearly a hundred times!",
+    "activity_question": "Which professional soccer teams has Sam Kerr played for?",
+    "activity_choices": [
+      "Perth Glory, Chicago Red Stars, and Chelsea",
+      "Manchester United, Barcelona, and Lyon",
+      "Arsenal, Paris Saint-Germain, and Juventus",
+      "Real Madrid, Bayern Munich, and AC Milan"
+    ],
+    "activity_answer": "Perth Glory, Chicago Red Stars, and Chelsea",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What position does Sam Kerr play in soccer?",
+    "optional_type": "follow_up_question",
+    "score": 90,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "207",
+    "title": "Pedro's Pitching Perfection Nearly Achieved",
+    "story": "Baseball fans held their breath as Pedro Martínez took the mound in 1999. The ace pitcher for the Boston Red Sox was on fire, mowing down batter after batter from the rival New York Yankees. For eight thrilling innings on September 10, Pedro was perfect. Then, with just one out to go, Chili Davis smacked a home run. Despite missing perfection by a hair, Pedro's performance dazzled the crowd and secured his place in baseball lore.",
+    "activity_question": "What prevented Pedro Martínez from achieving a perfect game?",
+    "activity_choices": [
+      "A solo home run by Chili Davis",
+      "A walk in the ninth inning",
+      "A fielding error by the Red Sox",
+      "A bunt single in the eighth inning"
+    ],
+    "activity_answer": "A solo home run by Chili Davis",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What's the difference between a perfect game and a no-hitter in baseball?",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "395",
+    "title": "The Big Unit: A Pitching Legend Born",
+    "story": "Randy Johnson, a towering figure in baseball, entered the world on September 10, 1963. This future Hall of Famer would become known as 'The Big Unit' for his imposing 6'10\" frame and fierce fastballs. Johnson's incredible career included ten All-Star selections and an astounding five Cy Young Awards, marking him as one of the greatest pitchers in Major League history.",
+    "activity_question": "What nickname was Randy Johnson known by?",
+    "activity_choices": [
+      "The Big Unit",
+      "The Tall Thrower",
+      "The Fastball King",
+      "The Strikeout Machine"
+    ],
+    "activity_answer": "The Big Unit",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you guess why Randy Johnson was called 'The Big Unit'?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "415",
+    "title": "Taskmaster Creator's Comedy Journey Begins",
+    "story": "Laughter echoed through Chichester, England as Alex Horne entered the world on September 10, 1978. This future comedy mastermind would grow up to become a beloved British comedian and TV personality. Horne's creative genius sparked the hit series Taskmaster, delighting audiences with its wacky challenges and hilarious antics.",
+    "activity_question": "What television series did Alex Horne create?",
+    "activity_choices": [
+      "Taskmaster",
+      "Laughmaster",
+      "Jokemaster",
+      "Funnymaster"
+    ],
+    "activity_answer": "Taskmaster",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What kind of show do you think Taskmaster is based on its name?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "204",
+    "title": "Nirvana's Anthem Rocks the World",
+    "story": "Boom! The music scene exploded when Nirvana unleashed Smells Like Teen Spirit in 1991. This grunge anthem hit the airwaves on September 10, capturing the spirit of a whole generation. With its raw energy and catchy hooks, the song quickly became the voice of young people everywhere, defining the sound of the 90s.",
+    "activity_question": "What did Nirvana release on September 10, 1991?",
+    "activity_choices": [
+      "Smells Like Teen Spirit",
+      "Teen Dream",
+      "Rock Anthem",
+      "Generation X Song"
+    ],
+    "activity_answer": "Smells Like Teen Spirit",
+    "suitable_for_8_to_12_year_old": false,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Nirvana's song title was inspired by a deodorant brand popular with teenagers at the time.",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "115",
+    "title": "Picasso's Masterpiece Comes Home",
+    "story": "A famous painting finally returned home! On September 10, 1981, Pablo Picasso's powerful artwork 'Guernica' arrived back in Spain. This huge canvas shows the horror of war. Picasso created it after a terrible bombing during the Spanish Civil War. For years, the painting stayed in New York because Picasso didn't want it in Spain while the country wasn't free. Its homecoming was a big moment for Spanish art and history.",
+    "activity_question": "What is the name of the famous Picasso painting that returned to Spain?",
+    "activity_choices": [
+      "Guernica",
+      "Starry Night",
+      "The Scream",
+      "Mona Lisa"
+    ],
+    "activity_answer": "Guernica",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why did Picasso keep the painting away from Spain for so long?",
+    "score": 82,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "173",
+    "title": "A Brave Volunteer for a Secret Mission",
+    "story": "The American Revolution was in full swing. General George Washington needed someone for a dangerous job. He asked for a spy to gather information about the enemy. A young soldier named Nathan Hale stepped forward. On September 10, 1776, Hale bravely volunteered for this risky mission, knowing he might not come back.",
+    "activity_question": "Who volunteered to be a spy for George Washington?",
+    "activity_choices": [
+      "Nathan Hale",
+      "Benjamin Franklin",
+      "Paul Revere",
+      "Thomas Jefferson"
+    ],
+    "activity_answer": "Nathan Hale",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think being a spy during wartime is so dangerous?",
+    "optional_type": "follow_up_question",
+    "score": 82,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Naval Hero's Daring Victory",
+    "story": "Cannons boomed across Lake Erie as American ships clashed with the British fleet. Commander Oliver Hazard Perry led his sailors to a stunning triumph in 1813. Despite his flagship being badly damaged, Perry refused to give up. He bravely rowed to another ship and kept fighting. His determination on September 10 turned the tide of the war, securing American control of the Great Lakes.",
+    "activity_question": "What body of water was the battle fought on?",
+    "activity_choices": [
+      "Lake Erie",
+      "Lake Ontario",
+      "Lake Michigan",
+      "Lake Superior"
+    ],
+    "activity_answer": "Lake Erie",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Perry's victory message became famous: 'We have met the enemy and they are ours.'",
+    "score": 78,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "325",
+    "title": "Soaring Dreams of a Balloon Pioneer",
+    "story": "High above the clouds, Maxie Anderson's dreams took flight. Born in Sayre, Oklahoma on September 10, 1934, he became a legendary hot air balloonist. Anderson's daring spirit led him to achieve incredible feats. He soared across the Atlantic Ocean, North America, and even the vast Pacific. His adventures inspired many to look up and imagine the possibilities floating in the sky.",
+    "activity_question": "What state was Maxie Anderson born in?",
+    "activity_choices": [
+      "Oklahoma",
+      "Texas",
+      "Kansas",
+      "Cloudland"
+    ],
+    "activity_answer": "Oklahoma",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What do you think would be the most exciting part of riding in a hot air balloon?",
+    "score": 82,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "194",
+    "title": "Ali's Powerful Punch Wins the Day",
+    "story": "Pow! Jab! Hook! The boxing ring was alive with action as Muhammad Ali faced off against Karl Mildenberger. On September 10, 1966, Ali's lightning-fast fists proved too much for his opponent. After a grueling 12 rounds, Ali emerged victorious with a technical knockout. This thrilling match secured Ali's heavyweight boxing title, cementing his status as one of the greatest boxers in history.",
+    "activity_question": "How did Muhammad Ali win the match against Karl Mildenberger?",
+    "activity_choices": [
+      "With a technical knockout",
+      "By unanimous decision",
+      "With a knockout punch",
+      "By disqualification"
+    ],
+    "activity_answer": "With a technical knockout",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What does TKO stand for in boxing?",
+    "score": 88,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "137",
+    "title": "Double Victory for Cleveland Sports Fans",
+    "story": "Cleveland sports fans had double the excitement in 1995! On September 10, both the NFL Browns and MLB Indians played home games at the same time—a rare treat. The city buzzed with energy as fans cheered for their favorite teams. In a thrilling coincidence, both Cleveland teams emerged victorious. The Browns triumphed over Tampa 22-6, while the Indians defeated the Orioles 5-3. It was a day of celebration for Cleveland's passionate sports community.",
+    "activity_question": "Which two Cleveland teams played on the same day?",
+    "activity_choices": [
+      "Browns and Indians",
+      "Cavaliers and Browns",
+      "Indians and Cavaliers",
+      "Browns and Blue Jackets"
+    ],
+    "activity_answer": "Browns and Indians",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think fans decided which game to attend?",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "135",
+    "title": "Chong Hey's Double Splash of Success",
+    "story": "Splash! The pool erupted with cheers as Chong Hey glided through the water like a torpedo. On September 10, 1994, this swimming sensation made waves by setting not one, but two incredible records. Hey powered through the female 400-meter medley in a blazing 4:01.67. But she wasn't done yet! She also conquered the 100-meter backstroke, proving herself a true aquatic champion. Her determination and skill left spectators in awe.",
+    "activity_question": "What two swimming events did Chong Hey set records in?",
+    "activity_choices": [
+      "400-meter medley and 100-meter backstroke",
+      "200-meter freestyle and 100-meter butterfly",
+      "100-meter breaststroke and 50-meter freestyle",
+      "800-meter relay and 200-meter individual medley"
+    ],
+    "activity_answer": "400-meter medley and 100-meter backstroke",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What qualities do you think make a great swimmer?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "92",
+    "title": "Olympic Relay Showdown: East vs. West",
+    "story": "Sprinters raced at lightning speed in a thrilling Olympic showdown. On September 10, 1972, the women's 4x100m relay at the Munich Games pitted East Germany against West Germany. The crowd roared as the runners flew around the track. In a nail-biting finish, West Germany snatched the gold medal by a whisker—just 0.13 seconds ahead of their East German rivals. This razor-thin victory showcased the incredible skill and determination of these world-class athletes.",
+    "activity_question": "Which team won the gold medal in the women's 4x100m relay?",
+    "activity_choices": [
+      "West Germany",
+      "East Germany",
+      "United States",
+      "Soviet Union"
+    ],
+    "activity_answer": "West Germany",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How many runners are typically in a 4x100m relay team?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "91",
+    "title": "Boxing Glory: Teófilo Stevenson's Golden Triumph",
+    "story": "Teófilo Stevenson packed a powerful punch in Olympic history. The Cuban boxer clinched his first heavyweight gold medal on September 10, 1972, at the Munich Games. His opponent, Romania's Ion Alexe, had to bow out of the final due to a broken thumb. This victory marked the start of Stevenson's incredible Olympic journey, as he went on to win two more consecutive gold medals in his career.",
+    "activity_question": "What happened to Stevenson's opponent in the 1972 Olympic final?",
+    "activity_choices": [
+      "He broke his thumb",
+      "He was disqualified",
+      "He won silver",
+      "He got knocked out"
+    ],
+    "activity_answer": "He broke his thumb",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How many Olympic gold medals did Teófilo Stevenson win in total?",
+    "score": 80,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "103",
+    "title": "Pedal Power: A Cycling Marathon",
+    "story": "Wheels spinning, legs pumping, Teuvo Louhivouri pushed himself to the limit. On September 10, 1974, this determined cyclist set an incredible record. He rode his bike for a full day, covering a jaw-dropping distance. Louhivouri's feat showed what human endurance could achieve. His record inspired other cyclists to test their own limits on two wheels.",
+    "activity_question": "What did Teuvo Louhivouri do in 1974?",
+    "activity_choices": [
+      "Set a cycling distance record",
+      "Won the Tour de France",
+      "Invented a new type of bicycle",
+      "Opened a bike repair shop"
+    ],
+    "activity_answer": "Set a cycling distance record",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How long did Louhivouri cycle to set this record?",
+    "optional_type": "follow_up_question",
+    "score": 90,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "94",
+    "title": "Poland's Golden Soccer Triumph",
+    "story": "Cheers erupted as Kazimierz Deyna became a soccer hero! On September 10, 1972, he scored not one, but two goals, leading Poland to victory in the Olympic football gold medal match. The crowd went wild as Poland defeated Hungary 2-1 in an intense game. The Munich Olympic Stadium was packed with fans, all eager to witness this thrilling moment in sports history.",
+    "activity_question": "Who scored twice for Poland in the Olympic football gold medal match?",
+    "activity_choices": [
+      "Kazimierz Deyna",
+      "Hungary's goalkeeper",
+      "The Polish team captain",
+      "A surprise substitute player"
+    ],
+    "activity_answer": "Kazimierz Deyna",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think the Polish team celebrated after winning the gold medal?",
+    "score": 94,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "43",
+    "title": "Baseball Stars Shine in Historic Game",
+    "story": "Cheers erupted at Comiskey Park as the best players from the Negro Leagues took the field. It was 1933, and fans were thrilled to see their heroes compete in the very first Negro League All-Star Game on September 10. The West team emerged victorious, outscoring the East 11-7 in an exciting display of talent. This groundbreaking event celebrated the incredible skill of African American baseball players during a time of segregation in professional sports.",
+    "activity_question": "Where was the first Negro League All-Star Game played?",
+    "activity_choices": [
+      "Comiskey Park",
+      "Wrigley Field",
+      "Yankee Stadium",
+      "Fenway Park"
+    ],
+    "activity_answer": "Comiskey Park",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why was this All-Star Game considered historic?",
+    "score": 92,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "168",
+    "title": "Kyle Schwarber Smashes Baseball History",
+    "story": "Crack! The ball soared over the fence as Kyle Schwarber of the Philadelphia Phillies made history. On September 10, 2024, Schwarber hit his 14th lead-off home run of the season, breaking the Major League Baseball record. The powerful swing came during a game against the Tampa Rays at Citizens Bank Park, helping the Phillies secure a 9-4 victory. Fans cheered as Schwarber rounded the bases, knowing they had witnessed a special moment in baseball.",
+    "activity_question": "What team does Kyle Schwarber play for?",
+    "activity_choices": [
+      "Philadelphia Phillies",
+      "Tampa Rays",
+      "New York Yankees",
+      "Boston Red Sox"
+    ],
+    "activity_answer": "Philadelphia Phillies",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What is a lead-off home run in baseball?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "98",
+    "title": "Ali's Thrilling Victory in the Ring",
+    "story": "The crowd roared as Muhammad Ali's hand was raised in victory. On September 10, 1973, the legendary boxer faced off against Ken Norton at the Forum in Inglewood, California. After 12 intense rounds, Ali clinched the NABF heavyweight boxing title in a nail-biting split decision. This thrilling match showcased Ali's skill and determination in the ring.",
+    "activity_question": "What title did Muhammad Ali win in this match?",
+    "activity_choices": [
+      "NABF heavyweight boxing title",
+      "World heavyweight championship",
+      "Olympic gold medal",
+      "Boxer of the Year award"
+    ],
+    "activity_answer": "NABF heavyweight boxing title",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Muhammad Ali was known for his quick footwork and famous 'float like a butterfly, sting like a bee' boxing style.",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "176",
+    "title": "A Star Is Born on Stage",
+    "story": "Edwin Booth stepped into the spotlight for the first time in 1849. At just 15 years old, this young American actor took the stage in Boston, playing a role in the Shakespeare play Richard III. Little did anyone know that September 10 would mark the beginning of a legendary career in theater.",
+    "activity_question": "What play did Edwin Booth make his stage debut in?",
+    "activity_choices": [
+      "Richard III",
+      "Hamlet",
+      "Romeo and Juliet",
+      "The Wizard of Oz"
+    ],
+    "activity_answer": "Richard III",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How old was Edwin Booth when he made his stage debut?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "189",
+    "title": "Basketball Gold: USA Slam-Dunks Brazil",
+    "story": "Swish! The basketball soared through the hoop as Jerry Lucas led Team USA to victory. On September 10, 1960, the American men's basketball team clinched their fifth consecutive Olympic gold medal in Rome. Lucas, a future Hall of Famer, scored an impressive 23 points. The USA squad dominated Brazil with a final score of 90-63, showcasing their skills on the international stage.",
+    "activity_question": "Who was the star player mentioned in the story?",
+    "activity_choices": [
+      "Jerry Lucas",
+      "Michael Jordan",
+      "LeBron James",
+      "Kobe Bryant"
+    ],
+    "activity_answer": "Jerry Lucas",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Basketball was first included as an Olympic sport in 1936.",
+    "score": 70,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "198",
+    "title": "Mario Andretti's Racing Triumph",
+    "story": "Zoom! Mario Andretti raced his way into history on September 10, 1978. The American Lotus driver sped to a sixth-place finish at the Italian Grand Prix in Monza. That single point was all he needed to clinch his first Formula 1 World Drivers Championship. Andretti's skill and determination had finally paid off, making him a true racing legend.",
+    "activity_question": "Where did the Italian Grand Prix take place?",
+    "activity_choices": [
+      "Monza",
+      "Rome",
+      "Venice",
+      "Milan"
+    ],
+    "activity_answer": "Monza",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What type of car did Mario Andretti drive in this race?",
+    "score": 70,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "156",
+    "title": "Flames Ravage Bolivia's Precious Wilderness",
+    "story": "Fierce wildfires raged through Bolivia's lush forests and grasslands in 2019. By September 10, the flames had devoured a staggering amount of land. Experts from the College of Biologists in La Paz reported that two million hectares of precious wilderness had been destroyed. That's nearly five million acres of habitat for countless plants and animals, gone in just weeks.",
+    "activity_question": "How much land did the Bolivian wildfires destroy?",
+    "activity_choices": [
+      "Two million hectares",
+      "Five million hectares",
+      "One million acres",
+      "Ten million acres"
+    ],
+    "activity_answer": "Two million hectares",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why are forests and grasslands important for the environment?",
+    "score": 80,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "220",
+    "title": "Irma's Fury Strikes the Florida Keys",
+    "story": "Winds howled and waves crashed as Hurricane Irma slammed into the Florida Keys on September 10, 2017. This powerful storm, a category 3 hurricane, brought fierce winds and heavy rain. Residents had prepared, boarding up windows and stocking up on supplies. Emergency teams stood ready to help. While Irma caused damage, the Keys' strong community spirit shone through as neighbors helped each other rebuild.",
+    "activity_question": "What category was Hurricane Irma when it hit the Florida Keys?",
+    "activity_choices": [
+      "Category 1",
+      "Category 2",
+      "Category 3",
+      "Category 4"
+    ],
+    "activity_answer": "Category 3",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think people in the Florida Keys prepared for the hurricane?",
+    "score": 80,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "152",
+    "title": "A Monument of Banned Books",
+    "story": "Books once silenced found their voice again. On September 10, 2017, artist Marta Minujin began giving away books from her powerful art installation. The Parthenon of Banned Books stood tall in Kassel, Germany, built entirely from texts once forbidden by Nazis. This temple of words honored the freedom to read and think freely.",
+    "activity_question": "What was the name of Marta Minujin's art installation?",
+    "activity_choices": [
+      "Parthenon of Banned Books",
+      "Library of Forbidden Texts",
+      "Nazi Book Memorial",
+      "Freedom Reading Tower"
+    ],
+    "activity_answer": "Parthenon of Banned Books",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it's important to remember books that were once banned?",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "170",
+    "title": "Ancient Bible Blends Cultures, Fetches Millions",
+    "story": "A rare treasure from long ago sold for a fortune! The Shem Tov Bible, finished in 1312, recently went to auction. This special book combines Jewish, Christian, and Islamic art styles. Rabbi Shem Tov Ibn Gaon created it in Soria, Spain. On September 10, 2024, someone paid nearly seven million dollars for this unique piece of history.",
+    "activity_question": "What three artistic traditions does the Shem Tov Bible combine?",
+    "activity_choices": [
+      "Jewish, Christian, and Islamic",
+      "Greek, Roman, and Egyptian",
+      "Chinese, Japanese, and Korean",
+      "French, German, and Italian"
+    ],
+    "activity_answer": "Jewish, Christian, and Islamic",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think this Bible is considered so valuable?",
+    "score": 80,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "272",
+    "title": "A Nobel-Winning Discovery is Born",
+    "story": "Baby Arthur arrived in Wooster, Ohio, in 1892. Little did anyone know this newborn would grow up to change our understanding of light! Arthur Compton became a brilliant physicist who made a groundbreaking discovery about how light behaves. His work, called the Compton Effect, was so important that on September 10, 1927, he was awarded the Nobel Prize in Physics.",
+    "activity_question": "What discovery did Arthur Compton win the Nobel Prize for?",
+    "activity_choices": [
+      "The Compton Effect",
+      "The Ohio Effect",
+      "The Light Effect",
+      "The Wooster Effect"
+    ],
+    "activity_answer": "The Compton Effect",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you think of other ways light behaves, like reflection or refraction?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "314",
+    "title": "A Scientist's Gift to Organ Transplants",
+    "story": "Paul Terasaki's birth in 1929 marked the start of a remarkable journey. This American scientist would go on to revolutionize organ transplants. Born in Los Angeles on September 10, Terasaki invented a crucial method called tissue typing. His work made it possible to match donors and recipients more accurately. He also created the first kidney transplant registry, helping save countless lives.",
+    "activity_question": "What did Paul Terasaki invent that was crucial for organ transplants?",
+    "activity_choices": [
+      "Tissue typing",
+      "Kidney dialysis",
+      "Surgical robots",
+      "X-ray machines"
+    ],
+    "activity_answer": "Tissue typing",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think a kidney transplant registry is important?",
+    "score": 80,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "334",
+    "title": "A Scientist's Journey Begins",
+    "story": "Jared Diamond took his first breath in Boston, Massachusetts in 1937. Born on September 10, this future scientist would grow up to explore big questions about human history. Diamond became a famous biologist and author, writing books that help us understand how societies develop. His most well-known work, 'Guns, Germs and Steel', explains why some cultures thrived while others struggled.",
+    "activity_question": "What is Jared Diamond's most well-known book?",
+    "activity_choices": [
+      "Guns, Germs and Steel",
+      "The Boston Story",
+      "Biology for Beginners",
+      "American Scientists"
+    ],
+    "activity_answer": "Guns, Germs and Steel",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it's important to study how different societies develop?",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "295",
+    "title": "A Director's Stellar Career Begins",
+    "story": "Lights, camera, action! Robert Wise, the mastermind behind beloved films like West Side Story and The Sound of Music, took his first bow in 1914. Born on September 10 in Winchester, Indiana, Wise would go on to become a legendary director, earning multiple Academy Awards for his cinematic magic.",
+    "activity_question": "Which famous musical did Robert Wise direct?",
+    "activity_choices": [
+      "The Sound of Music",
+      "Grease",
+      "Singin' in the Rain",
+      "Cats"
+    ],
+    "activity_answer": "The Sound of Music",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Robert Wise also directed the sci-fi classic The Day the Earth Stood Still.",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "329",
+    "title": "A Poet's Nature-Inspired Journey Begins",
+    "story": "In a small Ohio town, a future Pulitzer Prize winner took her first breath. Mary Oliver was born in 1935, destined to become one of America's most beloved poets. Her words would paint vivid pictures of the natural world, inspiring readers to see the beauty in everyday moments. Oliver's keen eye for nature's wonders started right there in Maple Heights on September 10.",
+    "activity_question": "What prestigious award did Mary Oliver win?",
+    "activity_choices": [
+      "Pulitzer Prize",
+      "Nobel Prize",
+      "Grammy Award",
+      "Olympic Medal"
+    ],
+    "activity_answer": "Pulitzer Prize",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How might growing up in a small town influence a poet's writing?",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "354",
+    "title": "A Musical Star Is Born",
+    "story": "José Feliciano, the talented Puerto Rican singer-songwriter, entered the world in 1945. Born in Lares on September 10, he would go on to create unforgettable tunes. Feliciano's soulful voice and guitar skills led to hits like 'Light My Fire' and the holiday favorite 'Feliz Navidad'. He also penned the theme for the TV show 'Chico and the Man'.",
+    "activity_question": "What holiday song did José Feliciano create?",
+    "activity_choices": [
+      "Feliz Navidad",
+      "Light My Fire",
+      "Chico and the Man",
+      "Jingle Bells"
+    ],
+    "activity_answer": "Feliz Navidad",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "José Feliciano was born blind but learned to play guitar at a young age.",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "391",
+    "title": "Drawing Life: Alison Bechdel's Artistic Journey",
+    "story": "Pencils and paper became magical tools for Alison Bechdel, born in Beech Creek, Pennsylvania on September 10, 1960. This talented artist grew up to create amazing cartoons and graphic novels. Her most famous work, 'Fun Home', tells her own life story through pictures and words, inspiring readers around the world with its honesty and creativity.",
+    "activity_question": "What is Alison Bechdel's most famous work?",
+    "activity_choices": [
+      "Fun Home",
+      "Beech Creek Stories",
+      "Pencil Magic",
+      "Pennsylvania Tales"
+    ],
+    "activity_answer": "Fun Home",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What do you think makes graphic novels special compared to regular books?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "401",
+    "title": "Rap Legend Big Daddy Kane Born",
+    "story": "A hip-hop star was born! In 1968, Antonio Hardy entered the world in Brooklyn, New York. He'd grow up to become Big Daddy Kane, a legendary rapper known for his smooth flow and clever wordplay. September 10 marks the birthday of this influential artist who helped shape the sound of rap music in the 1980s and beyond.",
+    "activity_question": "What is Big Daddy Kane's real name?",
+    "activity_choices": [
+      "Antonio Hardy",
+      "Brooklyn Kane",
+      "Big Daddy",
+      "New York Hardy"
+    ],
+    "activity_answer": "Antonio Hardy",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What city was Big Daddy Kane born in?",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "346",
+    "title": "A Star is Born: Cosmonaut Pyotr Klimuk",
+    "story": "Reaching for the stars began early for Pyotr Klimuk. Born in 1941 in the Brest region of the Soviet Union, Klimuk would grow up to become a celebrated Belarusian-Soviet cosmonaut. His journey through space included missions on Soyuz 13, 18B, and 30. Klimuk's birth on September 10 marked the beginning of a life that would take him far beyond Earth's atmosphere.",
+    "activity_question": "What type of space traveler was Pyotr Klimuk?",
+    "activity_choices": [
+      "Astronaut",
+      "Cosmonaut",
+      "Pilot",
+      "Space tourist"
+    ],
+    "activity_answer": "Cosmonaut",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name one of the Soyuz missions Klimuk flew on?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "358",
+    "title": "Astronaut Mike Mullane Blasts Off into Life",
+    "story": "Zoom! A future space explorer entered Earth's atmosphere in 1945. Richard Mike Mullane was born in Wichita Falls, Texas on September 10. This baby boy would grow up to become an American astronaut, soaring through the stars on three exciting Space Shuttle missions: STS 41-D, STS-27, and STS-36. Mullane's journey from Texas to the cosmos shows that big dreams can lead to incredible adventures!",
+    "activity_question": "What type of missions did Mike Mullane participate in?",
+    "activity_choices": [
+      "Space Shuttle missions",
+      "Submarine expeditions",
+      "Mountain climbing trips",
+      "Arctic explorations"
+    ],
+    "activity_answer": "Space Shuttle missions",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name one of the Space Shuttle missions Mullane flew on?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "369",
+    "title": "Freddy Marks: A Star is Born",
+    "story": "Lights, camera, action! On September 10, 1949, a future star entered the world. Freddy Marks was born in Smethwick, England, destined to become a beloved entertainer. He would grow up to delight children as part of the famous trio Rod, Jane and Freddy. Marks sang, acted, and brought smiles to faces across the country.",
+    "activity_question": "Where was Freddy Marks born?",
+    "activity_choices": [
+      "Smethwick, England",
+      "London, England",
+      "Birmingham, England",
+      "Manchester, England"
+    ],
+    "activity_answer": "Smethwick, England",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What talents did Freddy Marks have as an entertainer?",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "342",
+    "title": "A Trailblazer in Heels",
+    "story": "Jack Doroshow, better known as Mother Flawless Sabrina, burst onto the scene in 1939. Born on September 10 in Philadelphia, this fierce advocate would become a legendary figure. Mother Flawless Sabrina championed rights for LGBT people, especially drag queens and transgender individuals. Her bold spirit and fabulous style inspired many to embrace their true selves.",
+    "activity_question": "What group did Mother Flawless Sabrina especially champion?",
+    "activity_choices": [
+      "Drag queens and transgender individuals",
+      "Ballet dancers",
+      "Opera singers",
+      "Circus performers"
+    ],
+    "activity_answer": "Drag queens and transgender individuals",
+    "suitable_for_8_to_12_year_old": false,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Mother Flawless Sabrina organized drag pageants in the 1960s, helping create safe spaces for self-expression.",
+    "score": 70,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "344",
+    "title": "Roy Ayers: Jazzy Vibes and Sunny Tunes",
+    "story": "Roy Ayers brought sunshine to the world through music. Born in Los Angeles in 1940, he became a master of the vibraphone. Ayers blended jazz, funk, and world music to create unique sounds. His band Ubiquity and hit song 'Everybody Loves the Sunshine' made people groove. On September 10, we celebrate this talented composer and record producer.",
+    "activity_question": "What instrument was Roy Ayers known for playing?",
+    "activity_choices": [
+      "Vibraphone",
+      "Guitar",
+      "Piano",
+      "Saxophone"
+    ],
+    "activity_answer": "Vibraphone",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The vibraphone is like a xylophone with metal bars and spinning discs that create a vibrating sound.",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "310",
+    "title": "A Champion for People with Disabilities",
+    "story": "Jean Vanier, a kind-hearted Canadian, came into the world in Geneva, Switzerland in 1928. Born on September 10, he grew up to become a philosopher who cared deeply about others. Vanier dedicated his life to helping people with disabilities. He believed everyone deserves love and respect, no matter their abilities.",
+    "activity_question": "Where was Jean Vanier born?",
+    "activity_choices": [
+      "Geneva, Switzerland",
+      "Ottawa, Canada",
+      "Paris, France",
+      "New York, USA"
+    ],
+    "activity_answer": "Geneva, Switzerland",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think we can make the world more inclusive for people with disabilities?",
+    "score": 70,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "249",
+    "title": "A Trailblazing Seminole Leader",
+    "story": "Alice Brown Davis broke barriers in 1922. Born in Park Hill, Indian Territory on September 10, 1852, she became the first female Principal Chief of the Seminole Tribe of Oklahoma. Davis led her people for over a decade, serving until 1935. Her groundbreaking role paved the way for future generations of Native American women in leadership.",
+    "activity_question": "What historic role did Alice Brown Davis hold?",
+    "activity_choices": [
+      "First female Principal Chief of the Seminole Tribe of Oklahoma",
+      "First female governor of Oklahoma",
+      "First Native American woman in Congress",
+      "First Seminole to write a book"
+    ],
+    "activity_answer": "First female Principal Chief of the Seminole Tribe of Oklahoma",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it was important for a woman to become a tribal leader?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "251",
+    "title": "Stargazer's Birth: Unraveling Saturn's Secrets",
+    "story": "James Edward Keeler, a curious boy who grew up to unlock cosmic mysteries, was born in 1857. His passion for the stars led him to become a famous astronomer. Keeler made an amazing discovery about Saturn's rings, revealing their true nature. His work on September 10 and throughout his life helped us understand our solar system better.",
+    "activity_question": "What did James Edward Keeler discover?",
+    "activity_choices": [
+      "Saturn's rings",
+      "A new planet",
+      "A distant galaxy",
+      "A falling star"
+    ],
+    "activity_answer": "Saturn's rings",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What other planets in our solar system have rings?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "274",
+    "title": "A Life Spanning Three Centuries",
+    "story": "Maria de Jesus entered the world in Olival, Portugal, in 1893. Little did anyone know she'd become a supercentenarian! Born when horse-drawn carriages ruled the streets, Maria lived to see the age of smartphones. She witnessed incredible changes, from the first airplane flight to humans walking on the moon. On September 10, 2008, she celebrated her 115th birthday, making her the oldest person in Portuguese history.",
+    "activity_question": "Where was Maria de Jesus born?",
+    "activity_choices": [
+      "Olival, Portugal",
+      "Lisbon, Portugal",
+      "Madrid, Spain",
+      "Paris, France"
+    ],
+    "activity_answer": "Olival, Portugal",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you imagine living through three different centuries? What changes do you think you'd see?",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "80",
+    "title": "Gibraltar's Overwhelming Choice",
+    "story": "Tiny Gibraltar made a big decision! In 1967, this rocky peninsula held a vote about its future. The people had to choose: stay with Britain or join Spain? When the votes were counted on September 10, the result was clear. An enormous majority picked Britain, with only a handful preferring Spain. It was a landslide victory for keeping things as they were.",
+    "activity_question": "What did the people of Gibraltar vote about?",
+    "activity_choices": [
+      "Whether to stay with Britain or join Spain",
+      "Whether to build a new airport",
+      "Whether to change their flag",
+      "Whether to host the Olympics"
+    ],
+    "activity_answer": "Whether to stay with Britain or join Spain",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think so many people in Gibraltar wanted to stay British?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "117",
+    "title": "Space Shuttle's Epic Journey Home",
+    "story": "Soaring through the skies, the Space Shuttle Discovery made its triumphant return in 1984. After an incredible mission, the massive spacecraft didn't head straight to Florida. Instead, it took a detour, landing at Altus Air Force Base in Oklahoma on September 10. From there, the shuttle continued its journey back to its launch site at Kennedy Space Center in Florida.",
+    "activity_question": "Where did the Space Shuttle Discovery land before returning to Kennedy Space Center?",
+    "activity_choices": [
+      "Altus Air Force Base",
+      "Houston Space Center",
+      "Edwards Air Force Base",
+      "Cape Canaveral"
+    ],
+    "activity_answer": "Altus Air Force Base",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think the shuttle might have needed to make a stop before reaching its final destination?",
+    "score": 80,
+    "categories": [
+      "Beyond Earth"
+    ]
+  }
+]

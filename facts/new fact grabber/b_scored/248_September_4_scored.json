@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "original": "National Wildlife Day",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "National Macadamia Nut Day",
+    "score": 60,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "World Sexual Health Day",
+    "score": 20,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 4,
+    "original": "National Spice Blend Day",
+    "score": 75,
+    "is_kid_friendly": true
+  }
+]

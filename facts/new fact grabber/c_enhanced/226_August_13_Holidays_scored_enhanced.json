@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Left-Handed and Proud Day!",
+    "story": "Every August 13, left-handed people around the world celebrate International Left-Handers Day! This special day helps everyone understand the daily challenges lefties face in a right-handed world. Schools might set up left-handed desks, and some stores offer discounts on left-handed scissors, notebooks, and can openers. Friends and family often try writing or eating with their non-dominant hand to see how tricky it can be. Social media fills with lefties sharing funny stories about smudged ink and backwards spiral notebooks. It's a day to appreciate the roughly 10% of people who do everything a little differently!",
+    "activity_question": "What percentage of people are left-handed?",
+    "activity_choices": [
+      "About 10%",
+      "About 25%",
+      "About 50%",
+      "About 3%"
+    ],
+    "activity_answer": "About 10%",
+    "bonus_fact": "Famous lefties include Albert Einstein, Leonardo da Vinci, and Barack Obama!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "902",
+    "title": "Bubbly Fun for Grown-Ups Only",
+    "story": "Adults across the country pop open bottles of prosecco, a fizzy Italian wine, every August 13 for National Prosecco Day! Restaurants offer special prosecco cocktails and wine tastings. Many people host fancy dinner parties or brunch gatherings where they toast with sparkling glasses. Social media fills with photos of elegant bubbles catching the light. While kids can't join the wine fun, families often celebrate with sparkling grape juice or fancy sodas in wine glasses to feel included in the bubbly tradition!",
+    "activity_question": "What type of drink is prosecco?",
+    "activity_choices": [
+      "A fizzy Italian wine",
+      "A type of coffee",
+      "A fruit smoothie",
+      "A hot chocolate drink"
+    ],
+    "activity_answer": "A fizzy Italian wine",
+    "follow_up_question": "What other sparkling drinks could kids use to join in bubbly celebrations?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "903",
+    "title": "It's Not My Fault Day!",
+    "story": "Every August 13, people celebrate National Blame Someone Else Day by playfully pointing fingers at everyone but themselves! This silly holiday lets you blame your messy room on your pet, your late homework on aliens, or your missing socks on invisible sock monsters. People share funny blame posts on social media, create ridiculous excuses with friends, and enjoy a day of creative finger-pointing. It's all about having fun with wild explanations and giving yourself a break from taking responsibility for one whole day!",
+    "activity_question": "What do people blame on invisible sock monsters during this holiday?",
+    "activity_choices": [
+      "Missing socks",
+      "Messy rooms",
+      "Late homework",
+      "Bad weather"
+    ],
+    "activity_answer": "Missing socks",
+    "follow_up_question": "What's the silliest excuse you could make up for forgetting to brush your teeth?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  }
+]

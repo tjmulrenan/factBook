@@ -1,0 +1,1242 @@
+[
+  {
+    "id": "901",
+    "title": "Social Media Day: Share the Fun!",
+    "story": "Every June 30, people around the world celebrate Social Media Day by posting their favorite memories, sharing funny memes, and connecting with friends online! This special day honors all the apps and websites that help us stay in touch, from Instagram photos to TikTok videos. People create special hashtags, post throwback pictures, and even meet up with online friends in real life. It's a day to appreciate how technology brings us together!",
+    "activity_question": "What do people commonly share on Social Media Day?",
+    "activity_choices": [
+      "Favorite memories and funny memes",
+      "Only serious news articles",
+      "Their grocery shopping lists",
+      "Secret diary entries"
+    ],
+    "activity_answer": "Favorite memories and funny memes",
+    "follow_up_question": "What's your favorite way to connect with friends online?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  },
+  {
+    "id": "902",
+    "title": "Space Rocks Get Their Special Day!",
+    "story": "Every June 30, people around the world celebrate International Asteroid Day by looking up at the sky and learning about space rocks! Scientists host special events where kids can touch real meteorites, build asteroid models, and watch cool videos about these flying chunks of rock and metal. Museums open their doors for asteroid exhibits, and astronomers set up telescopes so families can stargaze together. The day helps everyone understand how asteroids have shaped our planet and continue to zoom through space. Some people even throw \"asteroid parties\" where they eat round snacks and play space-themed games to honor these cosmic travelers!",
+    "activity_question": "What do scientists let kids do on International Asteroid Day?",
+    "activity_choices": [
+      "Touch real meteorites",
+      "Ride on rockets",
+      "Paint the moon",
+      "Feed space aliens"
+    ],
+    "activity_answer": "Touch real meteorites",
+    "follow_up_question": "What would you want to learn most about asteroids if you visited a space museum?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "199",
+    "title": "The Day the Sky Fell in Siberia",
+    "story": "BOOM! A massive explosion rocked Siberia in 1908, flattening trees for miles around. On June 30, a giant fireball lit up the sky near the Stony Tunguska River. Scientists believe it was caused by a huge space rock - either a meteoroid or comet - bursting apart in Earth's atmosphere. The blast was so powerful it knocked down about 80 million trees! It remains the largest impact event ever recorded in human history.",
+    "activity_question": "What do scientists think caused the Tunguska explosion?",
+    "activity_choices": [
+      "A giant fireball",
+      "A volcanic eruption",
+      "An earthquake",
+      "A nuclear bomb"
+    ],
+    "activity_answer": "A giant fireball",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it's important for scientists to study events like the Tunguska explosion?",
+    "score": 95,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "170",
+    "title": "Einstein's Brilliant Idea Changes Science Forever",
+    "story": "A young clerk named Albert Einstein had a revolutionary idea. In 1905, at just 27 years old, he published his theory of special relativity on June 30. This groundbreaking work explored the relationship between space and time, introducing the famous equation E=mc2. Einstein's brilliant insight would transform our understanding of the universe and make him one of history's most celebrated scientists.",
+    "activity_question": "What famous equation did Einstein introduce in his theory?",
+    "activity_choices": [
+      "E=mc2",
+      "F=ma",
+      "A=πr2",
+      "H2O"
+    ],
+    "activity_answer": "E=mc2",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you think of other jobs where people might come up with big ideas, like Einstein did as a clerk?",
+    "score": 92,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "28",
+    "title": "Daredevil Dances Across Niagara Falls",
+    "story": "Imagine walking on a thin rope high above roaring waters! In 1859, French acrobat Charles Blondin amazed the world by crossing Niagara Falls on a tightrope. On June 30, he carefully stepped his way across the misty gorge, balancing on a rope just inches wide. Thousands watched in awe as Blondin conquered the falls, proving that with skill and courage, even the impossible can become possible.",
+    "activity_question": "What did Charles Blondin use to cross Niagara Falls?",
+    "activity_choices": [
+      "A tightrope",
+      "A zipline",
+      "A hang glider",
+      "A barrel"
+    ],
+    "activity_answer": "A tightrope",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think so many people came to watch Blondin's daring feat?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "323",
+    "title": "Ocean Explorer's Incredible Journey Begins",
+    "story": "A future ocean explorer took his first breath on June 30, 1942. Robert Ballard was born in Wichita, Kansas, far from the seas he'd later explore. Little did anyone know this baby would grow up to make one of the most famous underwater discoveries ever. In 1985, Ballard and his team found the long-lost wreck of the Titanic, solving a mystery that had puzzled the world for decades.",
+    "activity_question": "What famous shipwreck did Robert Ballard discover?",
+    "activity_choices": [
+      "The Titanic",
+      "The Lusitania",
+      "The Bismarck",
+      "The Andrea Doria"
+    ],
+    "activity_answer": "The Titanic",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How many years passed between Ballard's birth and his discovery of the Titanic?",
+    "score": 85,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "90",
+    "title": "Tiny Tech Revolution Begins",
+    "story": "Zap! A tiny electronic marvel sparked a huge change on June 30, 1948. Scientists at Bell Labs unveiled the transistor, a tiny device that would replace bulky vacuum tubes in electronics. This pea-sized wonder could amplify electrical signals just like its bigger cousins, but it was smaller, tougher, and used way less power. The transistor's invention paved the way for smaller radios, TVs, and eventually, the computers and smartphones we use today!",
+    "activity_question": "What did the transistor replace in electronics?",
+    "activity_choices": [
+      "Vacuum tubes",
+      "Batteries",
+      "Wires",
+      "Light bulbs"
+    ],
+    "activity_answer": "Vacuum tubes",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "A modern computer chip can contain billions of tiny transistors, each smaller than a virus!",
+    "score": 90,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "360",
+    "title": "The Wiggles' Red Rocker Arrives",
+    "story": "Wiggle your way back to 1960! On June 30, Murray Cook burst onto the scene in Cowra, New South Wales. This Aussie lad would grow up to become the red-shirted guitar hero of The Wiggles, delighting kids worldwide with catchy tunes and colorful performances. Murray's musical journey began right here, setting the stage for wiggly, giggly fun!",
+    "activity_question": "Where was Murray Cook born?",
+    "activity_choices": [
+      "Cowra, New South Wales",
+      "Sydney, Australia",
+      "Melbourne, Victoria",
+      "Wiggle Town, Imagination Land"
+    ],
+    "activity_answer": "Cowra, New South Wales",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The Wiggles began as a college project, blending early childhood education with music!",
+    "score": 90,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "132",
+    "title": "Chasing the Sun at Supersonic Speed",
+    "story": "Imagine flying faster than sound to catch up with a vanishing sun! On June 30, 1973, a Concorde jet soared through the skies with a special mission. Scientists and observers on board witnessed an incredible 72-minute solar eclipse. This supersonic plane's speed allowed them to follow the moon's shadow, extending their view of this celestial spectacle far longer than anyone on the ground could see.",
+    "activity_question": "What type of aircraft allowed observers to see an extended solar eclipse?",
+    "activity_choices": [
+      "Concorde jet",
+      "Hot air balloon",
+      "Helicopter",
+      "Propeller plane"
+    ],
+    "activity_answer": "Concorde jet",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think flying at supersonic speed helped extend the view of the eclipse?",
+    "score": 92,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "96",
+    "title": "America's Sports Car Roars to Life",
+    "story": "Vroom! The sleek, fiberglass body gleamed as the first Chevrolet Corvette rolled off the assembly line on June 30, 1953. This two-seater sports car, with its powerful engine and stylish design, was unlike anything America had seen before. The Corvette quickly became a symbol of speed and freedom on the open road. It captured the imagination of car enthusiasts and has remained a beloved American icon for generations.",
+    "activity_question": "What material was used for the body of the first Corvette?",
+    "activity_choices": [
+      "Fiberglass",
+      "Steel",
+      "Aluminum",
+      "Plastic"
+    ],
+    "activity_answer": "Fiberglass",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "The Corvette is nicknamed 'America's Sports Car.'",
+    "optional_type": "bonus_fact",
+    "score": 96,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "153",
+    "title": "Soaring to New Heights",
+    "story": "Whoosh! On June 30, 1987, Patrik Sjöberg of Sweden leaped into the history books. At a track meet in Stockholm, he soared over the high jump bar, setting a new world record. Sjöberg cleared an incredible 2.42 meters - that's about as tall as a door! His amazing jump showed what humans can achieve with dedication and practice. Sjöberg's gravity-defying feat inspired a generation of athletes to reach for the sky.",
+    "activity_question": "What height did Patrik Sjöberg clear to set the new world record?",
+    "activity_choices": [
+      "2.42 meters",
+      "2.24 meters",
+      "2.40 meters",
+      "3.42 meters"
+    ],
+    "activity_answer": "2.42 meters",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "High jumpers land on a soft mat called a 'pit' to cushion their fall after clearing the bar.",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "40",
+    "title": "A Dazzling Diamond Discovery",
+    "story": "Deep in a South African mine, a breathtaking treasure was unearthed. On June 30, 1893, miners at Jagersfontein struck blue-white brilliance. They had found the Excelsior diamond, a stunning gem weighing 995 carats. This sparkling giant claimed the title of the world's largest diamond at the time. Its discovery sent ripples of excitement through the mining world and beyond.",
+    "activity_question": "What was special about the Excelsior diamond when it was discovered?",
+    "activity_choices": [
+      "It was the world's largest diamond at the time",
+      "It was the smallest diamond ever found",
+      "It was made of pure gold",
+      "It could glow in the dark"
+    ],
+    "activity_answer": "It was the world's largest diamond at the time",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The Excelsior's blue-white color is considered very rare and valuable in diamonds.",
+    "score": 90,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "268",
+    "title": "Floating Dreams: The Balloon Pioneer",
+    "story": "Up, up, and away! Ed Yost, the brilliant mind behind the modern hot air balloon, took his first breath in Bristow, Iowa on June 30, 1919. Known as the 'Father of the Modern Day Hot-Air Balloon', Yost's inventions would later allow people to soar peacefully through the skies. His creative spirit and love for flight sparked a new era of aerial adventure, inspiring generations to look up and dream big.",
+    "activity_question": "What was Ed Yost known as?",
+    "activity_choices": [
+      "The Balloon Wizard",
+      "Father of the Modern Day Hot-Air Balloon",
+      "The Sky Captain",
+      "Iowa's Flying Ace"
+    ],
+    "activity_answer": "Father of the Modern Day Hot-Air Balloon",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think hot air balloons stay up in the air?",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "118",
+    "title": "The Beatles Rock Japan One Last Time",
+    "story": "Screaming fans greeted The Beatles as they touched down in Tokyo on June 30, 1966. The Fab Four were there for their final concert tour in Japan. Over three exciting days, they rocked the Budokan Hall with five electrifying shows. Between performances, the band got creative, working together on a colorful painting. It was a memorable last hurrah for The Beatles in the Land of the Rising Sun.",
+    "activity_question": "What venue did The Beatles perform at during their final Japan tour?",
+    "activity_choices": [
+      "Budokan Hall",
+      "Tokyo Dome",
+      "Nippon Budokan",
+      "Saitama Super Arena"
+    ],
+    "activity_answer": "Budokan Hall",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The Beatles were more than musicians - they also enjoyed creating art together!",
+    "score": 85,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "145",
+    "title": "Hockey Team Named After Spooky Legend",
+    "story": "Fans got to choose the name for a new hockey team in New Jersey. They picked Devils, inspired by a spooky local legend! The Jersey Devil was said to be a strange creature living in the Pine Barrens forests. On June 30, 1982, the team officially became the New Jersey Devils. The name has stuck ever since, giving the NHL a touch of mystery on the ice.",
+    "activity_question": "What inspired the name of the New Jersey hockey team?",
+    "activity_choices": [
+      "A spooky local legend",
+      "The state flower",
+      "A famous hockey player",
+      "The governor's pet"
+    ],
+    "activity_answer": "A spooky local legend",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Where was the Jersey Devil said to live?",
+    "score": 85,
+    "categories": [
+      "The What Zone"
+    ]
+  },
+  {
+    "id": "169",
+    "title": "Yosemite: America's First State Park",
+    "story": "Towering sequoias and majestic waterfalls found a forever home in 1864. President Abraham Lincoln signed the Yosemite Grant Act on June 30, protecting 200,000 acres of California's breathtaking wilderness. This historic decision created America's first state-controlled park, paving the way for future conservation efforts. Yosemite's awe-inspiring landscapes would inspire generations to come, reminding us of nature's power and beauty.",
+    "activity_question": "What did President Abraham Lincoln sign on June 30, 1864?",
+    "activity_choices": [
+      "The Yosemite Grant Act",
+      "The Emancipation Proclamation",
+      "The Homestead Act",
+      "The National Park Bill"
+    ],
+    "activity_answer": "The Yosemite Grant Act",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Yosemite became a National Park in 1890, further protecting its natural wonders.",
+    "score": 85,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "185",
+    "title": "Breaking Barriers in Space",
+    "story": "Dreams of space exploration soared to new heights in 1967. On June 30 that year, Robert Henry Lawrence, Jr. made history as the first African American selected to be an astronaut. This groundbreaking achievement opened doors for future generations of diverse space explorers. Lawrence's selection marked a significant step towards making space missions more inclusive and representative of all Americans.",
+    "activity_question": "Who was selected as the first African American astronaut?",
+    "activity_choices": [
+      "Robert Henry Lawrence, Jr.",
+      "Neil Armstrong",
+      "Sally Ride",
+      "Buzz Aldrin"
+    ],
+    "activity_answer": "Robert Henry Lawrence, Jr.",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it's important to have diversity in space exploration?",
+    "score": 85,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "71",
+    "title": "999: The Call That Saves Lives",
+    "story": "Ring, ring! In 1937, London became a safer place with a groundbreaking new service. On June 30, the world's first emergency telephone number, 999, was launched. Now, anyone in danger could quickly call for help. This simple idea would soon spread, making cities everywhere safer for everyone.",
+    "activity_question": "What was special about the 999 telephone service launched in London?",
+    "activity_choices": [
+      "It was the world's first emergency call service",
+      "It was only for fire emergencies",
+      "It cost 999 pounds to use",
+      "It played music while you waited"
+    ],
+    "activity_answer": "It was the world's first emergency call service",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think they chose the number 999 for emergencies?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "42",
+    "title": "A Bridge Fit for a Queen",
+    "story": "Crowds cheered as London's majestic Tower Bridge opened its arms across the River Thames in 1894. This iconic landmark, with its two tall towers and movable roadway, took eight years to build. On June 30, it welcomed its first travelers, connecting the city like never before. The bridge's unique design allowed tall ships to pass while keeping road traffic flowing.",
+    "activity_question": "What is special about Tower Bridge's design?",
+    "activity_choices": [
+      "It has two tall towers",
+      "It has a movable roadway",
+      "It crosses the River Thames",
+      "It has a unique design"
+    ],
+    "activity_answer": "It has a movable roadway",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "Tower Bridge is often mistakenly called 'London Bridge,' which is actually a different bridge nearby.",
+    "optional_type": "bonus_fact",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "59",
+    "title": "The Birth of Television",
+    "story": "Zap! In 1925, a groundbreaking invention sparked to life. Charles Jenkins received a U.S. patent for 'Transmitting Pictures over Wireless' on June 30. This early form of television allowed moving images to travel through the air, just like radio waves. Jenkins' invention paved the way for the TV sets we know today, bringing visual stories into homes across the world.",
+    "activity_question": "What did Charles Jenkins receive a patent for?",
+    "activity_choices": [
+      "Transmitting Pictures over Wireless",
+      "Building radio towers",
+      "Creating movie theaters",
+      "Inventing popcorn machines"
+    ],
+    "activity_answer": "Transmitting Pictures over Wireless",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think TV has changed since Jenkins' early invention?",
+    "score": 80,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "167",
+    "title": "A Heated Clash of Ideas",
+    "story": "Sparks flew at Oxford University Museum in 1860! On June 30, a famous debate erupted over Charles Darwin's new theory of evolution. Two brilliant minds went head-to-head: Thomas Henry Huxley, a scientist, and Bishop Samuel Wilberforce, a religious leader. Their passionate arguments captivated the audience, marking a pivotal moment in the discussion of how life on Earth changes over time.",
+    "activity_question": "Who were the two main figures arguing in this famous debate?",
+    "activity_choices": [
+      "Thomas Henry Huxley and Bishop Samuel Wilberforce",
+      "Charles Darwin and Bishop Samuel Wilberforce",
+      "Thomas Henry Huxley and Charles Darwin",
+      "Bishop Samuel Wilberforce and Isaac Newton"
+    ],
+    "activity_answer": "Thomas Henry Huxley and Bishop Samuel Wilberforce",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What was the main topic of this heated debate?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "135",
+    "title": "A Dancer's Leap to Freedom",
+    "story": "Mikhail Baryshnikov, a brilliant Soviet ballet dancer, made a daring move on June 30, 1974. After a performance in Toronto, Canada, he suddenly decided not to return to the USSR. Instead, he chose to stay in the West, seeking artistic freedom. This brave act, known as defection, allowed Baryshnikov to pursue his passion for dance without political restrictions.",
+    "activity_question": "Where did Mikhail Baryshnikov perform before his defection?",
+    "activity_choices": [
+      "Toronto, Canada",
+      "Moscow, Russia",
+      "New York City, USA",
+      "Paris, France"
+    ],
+    "activity_answer": "Toronto, Canada",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think Baryshnikov wanted artistic freedom?",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "74",
+    "title": "Brenda Starr: A Trailblazing Comic Strip",
+    "story": "Brenda Starr burst onto the scene in 1940, changing the world of comics forever. This fearless reporter, created by Dale Messick, became the first cartoon strip by a woman to grace the pages of newspapers. Debuting on June 30 as a supplement to the Chicago Sunday Tribune, Brenda Starr paved the way for female cartoonists and strong heroines in comics.",
+    "activity_question": "Who created the Brenda Starr comic strip?",
+    "activity_choices": [
+      "Dale Messick",
+      "Brenda Starr",
+      "Chicago Tribune",
+      "Sunday Funnies"
+    ],
+    "activity_answer": "Dale Messick",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Dale Messick's real first name was Dalia, but she used Dale to avoid gender bias in the male-dominated comics industry.",
+    "score": 74,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "188",
+    "title": "Rock Stars Leap into Comic Book Pages",
+    "story": "Pow! Zap! Rock! In 1977, the world of music and comics collided in an epic way. On June 30, Marvel Comics released a special comic book starring the rock band Kiss. These face-painted superstars traded their guitars for superhero capes, thrilling fans with colorful adventures on the page. It was a wild mix of rock 'n' roll attitude and comic book action!",
+    "activity_question": "What did Marvel Comics release featuring the band Kiss?",
+    "activity_choices": [
+      "A special comic book",
+      "A new album",
+      "A movie",
+      "A video game"
+    ],
+    "activity_answer": "A special comic book",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "Kiss was known for their elaborate face paint and costumes during performances.",
+    "optional_type": "bonus_fact",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "407",
+    "title": "A Star Is Born: Fantasia Barrino",
+    "story": "Fantasia Barrino burst onto the music scene with her powerful voice. Born on June 30, 1984, in High Point, North Carolina, she would go on to win American Idol and release hit songs like Back to Me. Her soulful performances and unique style have made her a favorite among music fans of all ages.",
+    "activity_question": "What TV show did Fantasia Barrino win?",
+    "activity_choices": [
+      "American Idol",
+      "The Voice",
+      "Americas Got Talent",
+      "X Factor"
+    ],
+    "activity_answer": "American Idol",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What other talents might help someone succeed on a singing competition show?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "350",
+    "title": "A Comedy Star Is Born",
+    "story": "Laughter filled the air in Detroit on June 30, 1956. David Alan Grier, future comedy legend, entered the world. He'd grow up to tickle funny bones across America on the hit TV show In Living Color and in movies like Boomerang. Grier's quick wit and hilarious characters would make him a beloved figure in entertainment.",
+    "activity_question": "What TV show did David Alan Grier become famous for?",
+    "activity_choices": [
+      "In Living Color",
+      "Saturday Night Live",
+      "The Carol Burnett Show",
+      "Laugh-In"
+    ],
+    "activity_answer": "In Living Color",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another famous comedian from Detroit?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "400",
+    "title": "Mean Girls Star Enters the World",
+    "story": "Lights, camera, action! A future star was born on June 30, 1982. Lizzy Caplan, the talented American actress, made her grand entrance in Los Angeles, California. Little did anyone know that this baby girl would grow up to dazzle audiences in hit movies like Mean Girls and Cloverfield.",
+    "activity_question": "In which city was Lizzy Caplan born?",
+    "activity_choices": [
+      "Los Angeles",
+      "New York",
+      "Chicago",
+      "Miami"
+    ],
+    "activity_answer": "Los Angeles",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What famous teen comedy movie did Lizzy Caplan star in?",
+    "score": 70,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "154",
+    "title": "The Loonie Takes Flight",
+    "story": "Coins jingled in pockets across Canada as a new dollar made its debut. On June 30, 1987, the Royal Canadian Mint unveiled a shiny golden coin featuring a loon. This bird-adorned money quickly earned the nickname 'Loonie'. It replaced paper dollar bills, becoming a symbol of Canadian currency that's still used today.",
+    "activity_question": "What animal is featured on the Canadian dollar coin?",
+    "activity_choices": [
+      "Loon",
+      "Beaver",
+      "Moose",
+      "Maple leaf"
+    ],
+    "activity_answer": "Loon",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think Canada chose a loon for their dollar coin?",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "137",
+    "title": "Stargazers Spot a Cosmic Giant",
+    "story": "Astronomers at the University of California made a jaw-dropping discovery in 1975. They spotted a galaxy so far away, it boggled the mind! Named 3C123, this cosmic giant was about 8 billion light-years from Earth. That's so far, the light we see from it today left the galaxy long before humans even existed. On June 30, scientists announced this find, expanding our view of the vast universe.",
+    "activity_question": "What did astronomers at the University of California discover?",
+    "activity_choices": [
+      "A galaxy named 3C123",
+      "A new planet",
+      "A black hole",
+      "An alien spaceship"
+    ],
+    "activity_answer": "A galaxy named 3C123",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How long does it take light from galaxy 3C123 to reach Earth?",
+    "score": 75,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "172",
+    "title": "Cleaning Up America's Food",
+    "story": "Yuck! In 1906, people were eating some pretty gross stuff without knowing it. But on June 30, that changed. Congress passed two important laws to make sure food and medicine were safe. These laws came after a book called 'The Jungle' showed how yucky meat factories were. Now, the government would check that food was clean and medicine was real. It was a big win for everyone's health!",
+    "activity_question": "What type of book helped inspire these new food safety laws?",
+    "activity_choices": [
+      "A cookbook",
+      "A science textbook",
+      "'The Jungle'",
+      "A medical journal"
+    ],
+    "activity_answer": "'The Jungle'",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it's important for the government to check our food?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "187",
+    "title": "Ali's Knockout Victory in Malaysia",
+    "story": "Pow! Jab! Duck! The boxing ring in Kuala Lumpur, Malaysia, was on fire as Muhammad Ali faced Joe Bugner on June 30, 1975. Ali, the reigning world heavyweight champion, danced and dodged with his famous butterfly grace. After 15 intense rounds, the judges agreed: Ali kept his crown with a unanimous decision. The champ's quick fists and fancy footwork proved too much for the English challenger.",
+    "activity_question": "Where did the boxing match between Muhammad Ali and Joe Bugner take place?",
+    "activity_choices": [
+      "Kuala Lumpur, Malaysia",
+      "New York City, USA",
+      "London, England",
+      "Cairo, Egypt"
+    ],
+    "activity_answer": "Kuala Lumpur, Malaysia",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Muhammad Ali was known as 'The Greatest' and famous for his catchphrase, 'Float like a butterfly, sting like a bee.'",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "107",
+    "title": "Sandy Koufax's Pitching Perfection",
+    "story": "Baseball fans cheered as Sandy Koufax threw a masterpiece on June 30, 1962. The Los Angeles Dodgers' star pitcher baffled the New York Mets, not allowing a single hit in a 5-0 victory. Koufax's arm was on fire that day, striking out batters left and right. This amazing performance was just the beginning for the future Hall of Famer. It marked the first of four no-hitters Koufax would throw in his legendary career.",
+    "activity_question": "What team did Sandy Koufax pitch for when he threw his first no-hitter?",
+    "activity_choices": [
+      "Los Angeles Dodgers",
+      "New York Mets",
+      "Chicago Cubs",
+      "San Francisco Giants"
+    ],
+    "activity_answer": "Los Angeles Dodgers",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What does it mean when a pitcher throws a 'no-hitter' in baseball?",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "173",
+    "title": "Cy Young's Pitching Miracle at 41",
+    "story": "Cy Young proved age is just a number on June 30, 1908. At 41 years old, the legendary pitcher threw his third career no-hitter, becoming the oldest player to achieve this feat. Young's masterful performance led the Boston Red Sox to an 8-0 victory over the New York Highlanders. His incredible skill and endurance would later earn him a place in the Baseball Hall of Fame.",
+    "activity_question": "What team did Cy Young pitch for when he threw his third no-hitter?",
+    "activity_choices": [
+      "Boston Red Sox",
+      "New York Highlanders",
+      "Baseball Hall of Fame",
+      "Boston Braves"
+    ],
+    "activity_answer": "Boston Red Sox",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "A no-hitter means the pitcher doesn't allow any hits from the opposing team throughout the entire game.",
+    "score": 82,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "88",
+    "title": "Bob Lemon's Pitching Perfection",
+    "story": "Batter after batter stepped up to the plate, but none could get a hit. On June 30, 1948, Bob Lemon of the Cleveland Indians was unstoppable. The talented pitcher threw a no-hitter against the Detroit Tigers, leading his team to a 2-0 victory. Lemon's incredible performance that day was just one highlight in a career that would eventually land him in the Baseball Hall of Fame.",
+    "activity_question": "What special achievement did Bob Lemon accomplish in this game?",
+    "activity_choices": [
+      "He threw a no-hitter",
+      "He hit a home run",
+      "He struck out 20 batters",
+      "He pitched a perfect game"
+    ],
+    "activity_answer": "He threw a no-hitter",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What's the difference between a no-hitter and a perfect game in baseball?",
+    "score": 88,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "149",
+    "title": "Football Marathon: The Game That Wouldn't End",
+    "story": "Fans were on the edge of their seats during an epic football showdown in 1984. On June 30, the Los Angeles Express faced the Michigan Panthers in a USFL playoff game that seemed to go on forever. The clock kept ticking as neither team would give up. Finally, after nearly an hour and a half of play, the Express emerged victorious with a score of 27-21. It became the longest professional football game ever played!",
+    "activity_question": "Which team won this record-breaking football game?",
+    "activity_choices": [
+      "Los Angeles Express",
+      "Michigan Panthers",
+      "LA Lakers",
+      "Detroit Lions"
+    ],
+    "activity_answer": "Los Angeles Express",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How long did this marathon football game last?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "300",
+    "title": "Magic in the Making: Harry Blackstone Jr.",
+    "story": "Abracadabra! A future master of illusion appeared in Three Rivers, Michigan. Harry Blackstone Jr., destined to become a famous American stage magician, was born on June 30, 1934. He would go on to dazzle audiences with his spellbinding tricks and even write 'The Blackstone Book of Magic & Illusion', sharing the secrets of his magical craft with aspiring wizards everywhere.",
+    "activity_question": "What book did Harry Blackstone Jr. write?",
+    "activity_choices": [
+      "The Blackstone Book of Magic & Illusion",
+      "Tricks of the Trade",
+      "Magical Mysteries Revealed",
+      "The Magician's Handbook"
+    ],
+    "activity_answer": "The Blackstone Book of Magic & Illusion",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What kind of magic tricks do you think Harry Blackstone Jr. performed on stage?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "265",
+    "title": "Lena Horne: A Star is Born",
+    "story": "A voice that would captivate generations first rang out on June 30, 1917. Lena Horne, destined to become a dazzling actress and Grammy Award-winning singer, was born in Brooklyn, New York. Her talent shone in films like Cabin in the Sky and Stormy Weather. Later, she even graced The Wiz with her presence. Horne's powerful performances and trailblazing career inspired many, leaving a lasting legacy in entertainment.",
+    "activity_question": "In which New York borough was Lena Horne born?",
+    "activity_choices": [
+      "Manhattan",
+      "Queens",
+      "Brooklyn",
+      "The Bronx"
+    ],
+    "activity_answer": "Brooklyn",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Lena Horne continued performing well into her 80s, showcasing her enduring talent and passion for music.",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "324",
+    "title": "A Supreme Voice Enters the World",
+    "story": "A star was born in Detroit! Florence Ballard, the powerful voice behind The Supremes, came into the world on June 30, 1943. She would grow up to help create some of the catchiest tunes of the 1960s. Ballard's rich vocals shone on hits like 'Where Did Our Love Go', making The Supremes one of the most beloved girl groups ever.",
+    "activity_question": "What famous girl group did Florence Ballard sing with?",
+    "activity_choices": [
+      "The Supremes",
+      "The Ronettes",
+      "The Shirelles",
+      "The Marvelettes"
+    ],
+    "activity_answer": "The Supremes",
+    "suitable_for_8_to_12_year_old": false,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The Supremes started as a quartet called The Primettes before becoming a famous trio.",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "342",
+    "title": "Bass Master Stanley Clarke Rocks On",
+    "story": "Stanley Clarke strummed his way into music history on June 30, 1951. Born in Philadelphia, this jazz-fusion bassist would go on to win Grammy Awards and play with the band Return To Forever. Clarke's solo album 'School Days' became a hit, showcasing his incredible skill on the bass guitar.",
+    "activity_question": "What instrument is Stanley Clarke known for playing?",
+    "activity_choices": [
+      "Bass guitar",
+      "Drums",
+      "Piano",
+      "Saxophone"
+    ],
+    "activity_answer": "Bass guitar",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another famous instrument in a jazz band?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "413",
+    "title": "From Player to Coach: Joe Mazzulla's Journey",
+    "story": "Joe Mazzulla's basketball journey began when he was born in Johnston, Rhode Island in 1988. Little did anyone know that the baby born on June 30 would grow up to become a successful NBA coach. Mazzulla's passion for the game led him from player to coach, eventually landing him a spot with the Boston Celtics. His hard work paid off when he guided the team to an NBA Championship in 2024.",
+    "activity_question": "Where was Joe Mazzulla born?",
+    "activity_choices": [
+      "Johnston, Rhode Island",
+      "Boston, Massachusetts",
+      "New York City",
+      "Chicago, Illinois"
+    ],
+    "activity_answer": "Johnston, Rhode Island",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What position did Joe Mazzulla hold when the Celtics won the NBA Championship in 2024?",
+    "score": 70,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "369",
+    "title": "Slam Dunk Birthday: NBA Star Mitch Richmond",
+    "story": "Mitch Richmond bounced into the world on June 30, 1965, in Fort Lauderdale, Florida. This future basketball sensation would go on to become a star guard for the Sacramento Kings. Richmond's talent shone bright on the world stage too, helping Team USA clinch Olympic gold medals in 1988 and 1996.",
+    "activity_question": "Which NBA team did Mitch Richmond play for as a guard?",
+    "activity_choices": [
+      "Sacramento Kings",
+      "Miami Heat",
+      "Golden State Warriors",
+      "Orlando Magic"
+    ],
+    "activity_answer": "Sacramento Kings",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Mitch Richmond's nickname was 'The Rock' because of his solid, dependable playing style.",
+    "score": 60,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "392",
+    "title": "Reggae's Hasidic Star Is Born",
+    "story": "A unique voice in music emerged when Matisyahu was born on June 30, 1979. This Hasidic Jewish reggae singer and rapper, born Matthew Miller in West Chester, Pennsylvania, would later blend his faith with Caribbean rhythms. His hit song 'One Day' spread a message of hope and unity, showing how music can bring different worlds together.",
+    "activity_question": "What is Matisyahu's birth name?",
+    "activity_choices": [
+      "Matthew Miller",
+      "Mark Morrison",
+      "Michael Matisyahu",
+      "Marvin Hasidic"
+    ],
+    "activity_answer": "Matthew Miller",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How does Matisyahu's music blend different cultures?",
+    "score": 82,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "403",
+    "title": "Pop Star Cheryl's Birthday Surprise",
+    "story": "Cheryl, the British pop sensation, entered the world on June 30, 1983. Born in Newcastle upon Tyne, England, she would grow up to become a shining star in the girl group Girls Aloud. Her powerful voice and dazzling performances have thrilled fans across the UK and beyond.",
+    "activity_question": "Which famous girl group did Cheryl become a part of?",
+    "activity_choices": [
+      "Girls Aloud",
+      "Spice Girls",
+      "Little Mix",
+      "The Saturdays"
+    ],
+    "activity_answer": "Girls Aloud",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What city in England was Cheryl born in?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "142",
+    "title": "Chic's Disco Smash Hit",
+    "story": "Disco fever swept the nation when Chic released their funky single 'Good Times' in 1979. The catchy tune had everyone dancing with its groovy bass line and upbeat lyrics. It became so popular that Billboard named it the Song of the Year. Released on June 30, this disco anthem still gets people moving on dance floors today.",
+    "activity_question": "What was the name of Chic's hit single released in 1979?",
+    "activity_choices": [
+      "Good Times",
+      "Disco Fever",
+      "Dance Floor",
+      "Funky Tune"
+    ],
+    "activity_answer": "Good Times",
+    "suitable_for_8_to_12_year_old": false,
+    "bonus_fact": "The bass line from 'Good Times' inspired many other songs, including the first hip-hop hit.",
+    "optional_type": "bonus_fact",
+    "score": 55,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "7",
+    "title": "A Church's Epic 500-Year Journey",
+    "story": "Hammers rang out as workers laid the foundation stone for Ulm Minster in 1377. This massive church in the Holy Roman Empire city of Ulm took an incredible amount of time to build. Construction stretched on for centuries, finally finishing on June 30, 1890. When complete, Ulm Minster stood as the tallest church in the world!",
+    "activity_question": "How long did it take to build Ulm Minster?",
+    "activity_choices": [
+      "Centuries",
+      "A few years",
+      "One decade",
+      "About a month"
+    ],
+    "activity_answer": "Centuries",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it took so long to build this church?",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "179",
+    "title": "A Whirlwind of Words Hits Bookstores",
+    "story": "Bookstores buzzed with excitement as Margaret Mitchell's epic novel hit the shelves in 1936. 'Gone With the Wind' swept readers into a tale of love and loss set in the American South. On June 30, this hefty book began its journey to becoming one of the best-selling novels of all time.",
+    "activity_question": "What was the title of Margaret Mitchell's epic novel?",
+    "activity_choices": [
+      "'Gone With the Wind'",
+      "'Whirlwind of Words'",
+      "'Love and Loss'",
+      "'American South'"
+    ],
+    "activity_answer": "'Gone With the Wind'",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The book was so popular it was made into a famous movie just three years later.",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "44",
+    "title": "Horseless Carriage Makes a Bold Claim",
+    "story": "Imagine a world without cars! In 1898, Winton Motor Carriage Company shook things up. They placed the first-ever automobile ad in Scientific American magazine on June 30. The bold headline? 'Dispense with a horse.' This daring message marked a turning point, as cars began to challenge the reign of horse-drawn carriages on city streets.",
+    "activity_question": "What magazine featured the first automobile advertisement?",
+    "activity_choices": [
+      "Scientific American",
+      "Popular Mechanics",
+      "National Geographic",
+      "Horse and Buggy Weekly"
+    ],
+    "activity_answer": "Scientific American",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think people reacted to the idea of replacing horses with cars?",
+    "score": 65,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "97",
+    "title": "The Biggest Check Ever Written",
+    "story": "Imagine a check so big it could buy millions of toys! In 1954, on June 30, the US Treasury wrote the largest check in history. It was for more than four billion dollars! This enormous sum wasn't for shopping, though. It was part of a special government process to manage money between different departments.",
+    "activity_question": "What was the purpose of the largest check ever written?",
+    "activity_choices": [
+      "To buy millions of toys",
+      "To manage money between government departments",
+      "To set a world record",
+      "To build a giant playground"
+    ],
+    "activity_answer": "To manage money between government departments",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think the government needs to move such large amounts of money?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "The What Zone"
+    ]
+  },
+  {
+    "id": "70",
+    "title": "A Victory for Workers' Rights",
+    "story": "Tired workers cheered as a big change swept across America. In 1936, the government approved a new law for its employees. This rule set the work week at 40 hours, giving people more time to rest and enjoy life. It happened on June 30, marking a step forward for workers' rights. The decision would influence many other jobs in the years to come.",
+    "activity_question": "What did the new law set for government workers?",
+    "activity_choices": [
+      "A 40 hour work week",
+      "A 50 hour work week",
+      "A 30 hour work week",
+      "Free ice cream Fridays"
+    ],
+    "activity_answer": "A 40 hour work week",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How might a shorter work week help people?",
+    "score": 70,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "35",
+    "title": "Ada Kepley: Trailblazing Legal Eagle",
+    "story": "Ada Kepley soared into history on June 30, 1870. She became the first American woman to graduate from law school! Kepley earned her degree from the Old University of Chicago (now part of Northwestern). Her groundbreaking achievement opened doors for countless women in the legal field. Kepley's determination paved the way for future generations of female lawyers and judges.",
+    "activity_question": "What did Ada Kepley become the first American woman to do?",
+    "activity_choices": [
+      "Graduate from law school",
+      "Become a judge",
+      "Win a court case",
+      "Write a legal textbook"
+    ],
+    "activity_answer": "Graduate from law school",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it was important for women to be able to study law?",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "51",
+    "title": "A Trailblazer in Education",
+    "story": "John Hope made history in 1906 when he became the first Black president of Atlanta Baptist College. This groundbreaking appointment happened on June 30, marking a significant step forward in education. The college, later renamed Morehouse College, would go on to become a renowned institution for African American men. Hope's leadership paved the way for future generations of students and educators.",
+    "activity_question": "What was the original name of the college John Hope became president of?",
+    "activity_choices": [
+      "Atlanta Baptist College",
+      "Morehouse College",
+      "Hope University",
+      "Georgia Education Center"
+    ],
+    "activity_answer": "Atlanta Baptist College",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think John Hope's appointment was important for education?",
+    "score": 80,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "93",
+    "title": "NAACP Takes a Stand for Equality",
+    "story": "The fight for fairness in schools kicked into high gear! On June 30, 1951, the NAACP launched a powerful campaign to end unfair treatment in education. They wanted all kids, no matter their skin color, to have the same chances to learn and grow. This bold move helped pave the way for big changes in how schools work, making classrooms more welcoming for everyone.",
+    "activity_question": "What did the NAACP campaign aim to end?",
+    "activity_choices": [
+      "Unfair treatment in education",
+      "Homework assignments",
+      "School uniforms",
+      "Summer vacation"
+    ],
+    "activity_answer": "Unfair treatment in education",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it's important for all kids to have equal opportunities in school?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "85",
+    "title": "Copenhagen's Brave Stand Against Nazi Terror",
+    "story": "Sirens wailed across Copenhagen as workers walked out of factories and shops. On June 30, 1944, the Danish capital erupted in a massive strike against Nazi occupation. People refused to work, trams stopped running, and streets emptied. This bold act of resistance showed the world that even under harsh rule, the spirit of freedom couldn't be crushed. The Danes' courage inspired others fighting oppression during World War II.",
+    "activity_question": "What did the people of Copenhagen do to resist Nazi occupation?",
+    "activity_choices": [
+      "They refused to work",
+      "They held a parade",
+      "They sang songs",
+      "They planted flowers"
+    ],
+    "activity_answer": "They refused to work",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think strikes can be a powerful form of peaceful protest?",
+    "score": 85,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "147",
+    "title": "TV Show Reunites Families Torn Apart",
+    "story": "Imagine not seeing your family for decades! In 1983, a special TV show in Korea began helping people find their long-lost relatives. Starting June 30, 'Finding Dispersed Families' aired every day, showing emotional reunions between family members separated by the Cold War. The program became so important that UNESCO later recognized it as part of world history.",
+    "activity_question": "What did the TV show 'Finding Dispersed Families' help people do?",
+    "activity_choices": [
+      "Find their long-lost relatives",
+      "Learn to cook Korean food",
+      "Explore famous landmarks",
+      "Win prizes and money"
+    ],
+    "activity_answer": "Find their long-lost relatives",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think reuniting families is so important?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "166",
+    "title": "A Clockmaker's Timely Triumph",
+    "story": "Tick-tock! John Harrison's ingenious clock changed the world of navigation. This self-taught clockmaker created a special timepiece to help sailors find their position at sea. On June 30, 1737, Harrison's hard work paid off. The British Commissioners of Longitude were so impressed by his first longitude clock that they awarded him £500. This breakthrough would eventually revolutionize maritime travel, making long sea journeys much safer.",
+    "activity_question": "What did John Harrison create that impressed the British Commissioners?",
+    "activity_choices": [
+      "A longitude clock",
+      "A pocket watch",
+      "A sundial",
+      "A water clock"
+    ],
+    "activity_answer": "A longitude clock",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why was Harrison's clock so important for sailors?",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "102",
+    "title": "Congo Breaks Free from Belgian Rule",
+    "story": "Cheers erupted across the land as the Democratic Republic of the Congo declared its independence on June 30, 1960. After years under Belgian control, the African nation finally gained the freedom to chart its own course. The momentous occasion marked the birth of a new country, ready to face the challenges and opportunities that lay ahead.",
+    "activity_question": "What did the Democratic Republic of the Congo declare on June 30, 1960?",
+    "activity_choices": [
+      "Its independence",
+      "A new king",
+      "A national holiday",
+      "Its first election"
+    ],
+    "activity_answer": "Its independence",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What was the country called before it became the Democratic Republic of the Congo?",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "109",
+    "title": "Two African Nations Break Free",
+    "story": "Freedom rang out across Africa as Rwanda and Burundi declared their independence on June 30, 1962. After years under Belgian rule, these two neighboring countries finally took control of their own destinies. Celebrations erupted in the streets as people danced, sang, and waved their new national flags. It was a day of joy and hope for a brighter future.",
+    "activity_question": "What two countries gained independence in this story?",
+    "activity_choices": [
+      "Rwanda and Burundi",
+      "Belgium and France",
+      "Kenya and Tanzania",
+      "Egypt and Libya"
+    ],
+    "activity_answer": "Rwanda and Burundi",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think independence was important to the people of Rwanda and Burundi?",
+    "score": 65,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "128",
+    "title": "The Clock That Needed an Extra Second",
+    "story": "Tick tock, tick tock... wait, add one more tick! On June 30, 1972, clocks around the world got a bonus second. Scientists added this tiny extra time, called a leap second, to keep our clocks in sync with Earth's slightly slowing rotation. It's like giving time itself a quick breather to catch up!",
+    "activity_question": "What did scientists add to clocks in 1972?",
+    "activity_choices": [
+      "A leap second",
+      "A leap minute",
+      "A leap hour",
+      "A leap day"
+    ],
+    "activity_answer": "A leap second",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Leap seconds were also added on June 30 in 1981, 1982, 1983, and 1985.",
+    "score": 70,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "275",
+    "title": "DNA Pioneer Born on June 30",
+    "story": "A future DNA detective entered the world on June 30, 1926. Paul Berg was born in New York City, destined to unravel genetic mysteries. This brilliant biochemist would go on to develop groundbreaking techniques for studying and modifying DNA. His work was so important that in 1980, Berg received the Nobel Prize in Chemistry for his contributions to understanding the building blocks of life.",
+    "activity_question": "What prize did Paul Berg receive for his work?",
+    "activity_choices": [
+      "The Nobel Prize in Chemistry",
+      "The Pulitzer Prize",
+      "An Olympic gold medal",
+      "The Fields Medal"
+    ],
+    "activity_answer": "The Nobel Prize in Chemistry",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you think of ways studying DNA might help solve problems in the world?",
+    "score": 90,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "343",
+    "title": "Space Dreams Take Flight",
+    "story": "A future space explorer took his first breath on June 30, 1951. Stephen S. Oswald was born in Seattle, Washington, destined for the stars. He grew up to become a NASA astronaut, soaring into orbit on three exciting space shuttle missions. Oswald's adventures in space inspired countless kids to reach for their own dreams.",
+    "activity_question": "What did Stephen S. Oswald become?",
+    "activity_choices": [
+      "A NASA astronaut",
+      "A Seattle firefighter",
+      "A famous chef",
+      "A professional skydiver"
+    ],
+    "activity_answer": "A NASA astronaut",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How many space shuttle missions did Oswald fly on?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "334",
+    "title": "A Vietnamese Space Pioneer",
+    "story": "Bùi Thanh Liêm, born on June 30, 1949, in Hanoi, Vietnam, dreamed of touching the stars. He grew up to become Vietnam's first cosmonaut, bravely venturing into the vast unknown of space. Liêm's journey inspired a generation of young Vietnamese to look up at the night sky and imagine the possibilities beyond Earth's atmosphere.",
+    "activity_question": "Where was Bùi Thanh Liêm born?",
+    "activity_choices": [
+      "Hanoi, Vietnam",
+      "Ho Chi Minh City",
+      "Bangkok, Thailand",
+      "Mars Colony"
+    ],
+    "activity_answer": "Hanoi, Vietnam",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What do you think it would be like to be the first person from your country to go to space?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "306",
+    "title": "Climbing Pioneer Born: Tom Frost",
+    "story": "Tom Frost, a legendary rock climber, entered the world on June 30, 1936. Born in Los Angeles, California, Frost would go on to scale new heights in more ways than one. He not only conquered challenging cliffs but also founded Patagonia, a famous outdoor gear and apparel company that adventurers love today.",
+    "activity_question": "What company did Tom Frost found?",
+    "activity_choices": [
+      "Patagonia",
+      "North Face",
+      "REI",
+      "Columbia"
+    ],
+    "activity_answer": "Patagonia",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think a rock climber would start a company that makes outdoor gear?",
+    "score": 70,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  }
+]

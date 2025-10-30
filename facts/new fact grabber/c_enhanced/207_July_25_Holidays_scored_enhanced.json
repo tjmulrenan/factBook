@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Sundae Funday Gets Extra Sweet",
+    "story": "Ice cream shops across America get extra busy on July 25 because it's National Hot Fudge Sundae Day! People line up to order towering scoops of vanilla ice cream drowning in warm, gooey chocolate fudge. The best part? You get to pile on whipped cream, nuts, sprinkles, and a bright red cherry on top. Some ice cream parlors offer special deals or create giant sundaes meant for sharing. Families make it a tradition to visit their favorite shop together, while others try making homemade hot fudge at home. Social media fills with photos of these messy, delicious treats as everyone celebrates this sweet holiday on July 25th.",
+    "activity_question": "What do people typically put on top of a hot fudge sundae?",
+    "activity_choices": [
+      "Whipped cream, nuts, and a cherry",
+      "Pickles and mustard",
+      "Cheese and crackers",
+      "Only more ice cream"
+    ],
+    "activity_answer": "Whipped cream, nuts, and a cherry",
+    "bonus_fact": "The hot fudge sundae was invented in 1906 at a soda fountain!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 95
+  },
+  {
+    "id": "902",
+    "title": "Making Waves for Water Safety",
+    "story": "Every July 25, people around the world focus on keeping swimmers safe with World Drowning Prevention Day. Swimming instructors teach extra classes, lifeguards share safety tips, and families practice important water rules together. Communities post reminders about wearing life jackets, swimming with buddies, and learning to float. It's a day that saves lives by teaching everyone how to stay safe around water!",
+    "activity_question": "What do families practice together on World Drowning Prevention Day?",
+    "activity_choices": [
+      "Important water safety rules",
+      "Synchronized swimming routines",
+      "Underwater treasure hunting",
+      "Pool party planning"
+    ],
+    "activity_answer": "Important water safety rules",
+    "follow_up_question": "What water safety rule do you think is most important to remember?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 50
+  }
+]

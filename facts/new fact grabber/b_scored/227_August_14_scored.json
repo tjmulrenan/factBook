@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "original": "National Creamsicle Day",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "National Navajo Code Talkers Day",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "National Financial Awareness Day",
+    "score": 35,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 4,
+    "original": "World Lizard Day",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 5,
+    "original": "National Social Security Day",
+    "score": 22,
+    "is_kid_friendly": false
+  }
+]

@@ -1,0 +1,1322 @@
+[
+  {
+    "id": "901",
+    "title": "Bean There, Done That Day!",
+    "story": "Every July 3, bean lovers across America celebrate National Eat Beans Day by loading up on their favorite legumes! People enjoy black beans in tacos, kidney beans in chili, and green beans as healthy sides. Restaurants offer special bean dishes, while families share recipes passed down through generations. Some folks even host bean cook-offs to see who makes the tastiest creation!",
+    "activity_question": "What do some people host on National Eat Beans Day to see who makes the best dish?",
+    "activity_choices": [
+      "Bean cook-offs",
+      "Dancing contests",
+      "Art shows",
+      "Spelling bees"
+    ],
+    "activity_answer": "Bean cook-offs",
+    "bonus_fact": "There are over 400 types of beans grown around the world!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "902",
+    "title": "Hide and Seek from the Sun",
+    "story": "July 3 is National Stay Out of the Sun Day! People celebrate by finding shade, wearing hats, and staying indoors during the hottest hours to protect their skin.",
+    "activity_question": "What do people wear on National Stay Out of the Sun Day to protect themselves?",
+    "activity_choices": [
+      "Hats",
+      "Sunglasses made of ice",
+      "Invisible cloaks",
+      "Nothing special"
+    ],
+    "activity_answer": "Hats",
+    "bonus_fact": "Your shadow is shortest when the sun's rays are strongest!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 25
+  },
+  {
+    "id": "903",
+    "title": "Cool Down and Celebrate AC Day!",
+    "story": "Every July 3, people across America celebrate National Air Conditioning Appreciation Day by cranking up their AC units and enjoying the cool breeze indoors! Families gather in their chilliest rooms, restaurants advertise their \"arctic\" dining experiences, and social media fills with photos of people hugging their air conditioners. It's the perfect summer holiday to beat the heat and thank the amazing invention that keeps us comfortable during scorching weather.",
+    "activity_question": "How do people typically celebrate National Air Conditioning Appreciation Day?",
+    "activity_choices": [
+      "By staying in cool, air-conditioned spaces",
+      "By turning off all their electronics",
+      "By having outdoor barbecues in the sun",
+      "By taking hot baths"
+    ],
+    "activity_answer": "By staying in cool, air-conditioned spaces",
+    "bonus_fact": "The first modern air conditioner was invented in 1902 by Willis Carrier!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "904",
+    "title": "Wafer-ly Wonderful Chocolate Day!",
+    "story": "Crispy, crunchy chocolate wafers get their own special day on July 3! These thin, layered cookies are perfect for dunking in milk, crushing up for ice cream toppings, or just munching straight from the package. Bakeries and candy shops celebrate by creating special wafer treats and sharing recipes online. Some families have wafer-eating contests to see who can bite through the most layers without breaking them. Others use chocolate wafers to build edible towers or make homemade ice cream sandwiches. Social media fills with photos of creative wafer creations and childhood memories of these beloved treats.",
+    "activity_question": "What do some families do with chocolate wafers to make the day more fun?",
+    "activity_choices": [
+      "Have wafer-eating contests",
+      "Use them as frisbees",
+      "Plant them in gardens",
+      "Turn them into hats"
+    ],
+    "activity_answer": "Have wafer-eating contests",
+    "bonus_fact": "Chocolate wafers were first made in the 1800s as a fancy dessert for wealthy families.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "905",
+    "title": "Stuffed Guardians Get Their Day",
+    "story": "Every July 3, families across the country celebrate Build a Scarecrow Day by creating their own stuffed garden guardians! People gather old clothes, straw, newspapers, and anything soft to stuff their scarecrows. Some make traditional farm-style protectors with overalls and floppy hats, while others get creative with colorful outfits and funny faces. Kids love drawing silly expressions and adding wild accessories like sunglasses or bow ties. Many families display their finished scarecrows in gardens, front yards, or porches to show off their handiwork. It's the perfect summer activity that combines creativity with a bit of old-fashioned farm tradition!",
+    "activity_question": "What do people commonly use to stuff their scarecrows on Build a Scarecrow Day?",
+    "activity_choices": [
+      "Straw and newspapers",
+      "Rocks and sand",
+      "Ice cubes and snow",
+      "Balloons and bubbles"
+    ],
+    "activity_answer": "Straw and newspapers",
+    "follow_up_question": "What creative accessories would you add to make your scarecrow unique?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "906",
+    "title": "Clam Up and Chow Down Day!",
+    "story": "Crispy, golden fried clams sizzle in restaurants across America every July 3 for National Fried Clam Day! These chewy ocean treats get dunked in batter and deep-fried until they're crunchy on the outside and tender inside. Seafood lovers head to coastal diners and clam shacks to munch on whole belly clams or clam strips with tartar sauce. Some people make them at home, while others post photos of their clam platters on social media. It's the perfect summer celebration for anyone who loves the taste of the sea!",
+    "activity_question": "What do people dip fried clams in when they eat them?",
+    "activity_choices": [
+      "Tartar sauce",
+      "Chocolate syrup",
+      "Peanut butter",
+      "Ketchup only"
+    ],
+    "activity_answer": "Tartar sauce",
+    "bonus_fact": "Whole belly clams include the soft, sweet belly part that many people consider the best bite!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "98",
+    "title": "Pitcher's Surprise Steal on the Diamond",
+    "story": "Batter up! In 1988, baseball fans witnessed an unexpected play. Gene Nelson, a pitcher for the Oakland A's, shocked everyone when he stole a base during a game against the Toronto Blue Jays on July 3. This wasn't just any steal - it was the first time an American League pitcher had swiped a base in years! Nelson's sneaky move helped his team clinch a thrilling 9-8 victory. Talk about stepping up to the plate in more ways than one!",
+    "activity_question": "What unexpected move did Gene Nelson make during the game?",
+    "activity_choices": [
+      "He stole a base",
+      "He hit a home run",
+      "He pitched a no-hitter",
+      "He caught a fly ball"
+    ],
+    "activity_answer": "He stole a base",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it's unusual for pitchers to steal bases?",
+    "optional_type": "follow_up_question",
+    "score": 98,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "95",
+    "title": "Tinker Bell's Magical Flight Debut",
+    "story": "Pixie dust sprinkled over Walt Disney World Resort as Tinker Bell took her first nightly flight in 1985. On July 3, the beloved fairy from Peter Pan's world soared high above the Magic Kingdom, captivating guests with her twinkling trail. This enchanting spectacle quickly became a cherished tradition, bringing storybook magic to life and delighting families from around the globe.",
+    "activity_question": "What did Tinker Bell's flight leave behind?",
+    "activity_choices": [
+      "A twinkling trail",
+      "Colorful balloons",
+      "Floating bubbles",
+      "Glowing fireflies"
+    ],
+    "activity_answer": "A twinkling trail",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think Tinker Bell's flight became such a popular part of the Disney experience?",
+    "score": 95,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "172",
+    "title": "Time-Traveling Adventure Hits the Big Screen",
+    "story": "Marty McFly and Doc Brown zoomed into theaters on July 3, 1985, in the sci-fi comedy 'Back to the Future'. This wild ride through time captivated audiences with its clever plot and amazing special effects. Michael J. Fox starred as Marty, a teenager who accidentally travels to the past in a souped-up DeLorean car. Christopher Lloyd played the wacky scientist who invented the time machine. The movie became an instant classic, sparking a love for time travel stories in a whole new generation.",
+    "activity_question": "What kind of vehicle did Marty use to travel through time?",
+    "activity_choices": [
+      "A DeLorean car",
+      "A hot air balloon",
+      "A magical telephone booth",
+      "A flying skateboard"
+    ],
+    "activity_answer": "A DeLorean car",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "If you could travel in time like Marty, would you rather visit the past or the future?",
+    "score": 95,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "92",
+    "title": "Cricketer's Surprise Century After 22 Years",
+    "story": "Spin bowler Derek Underwood shocked the cricket world on July 3, 1984. After playing for 22 years, he finally scored his first century in a first-class match. Underwood, known for his bowling skills, hit an impressive 111 runs for Kent against Sussex at Hastings. This unexpected batting performance showed that even seasoned players can surprise fans with hidden talents.",
+    "activity_question": "What was Derek Underwood primarily known for in cricket before his century?",
+    "activity_choices": [
+      "His bowling skills",
+      "His batting average",
+      "His fielding ability",
+      "His team leadership"
+    ],
+    "activity_answer": "His bowling skills",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another sport where players specialize in different skills?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "97",
+    "title": "Daring Duo Floats Across the Atlantic",
+    "story": "Floating high above the waves, two adventurers made history on July 3, 1987. Richard Branson and Per Lindstrand became the first people to cross the Atlantic Ocean in a hot-air balloon! Their colorful craft, named Virgin Atlantic Flyer, soared through the sky for three days. Despite facing fierce winds and icy temperatures, the brave pair completed their incredible journey from Maine to Ireland.",
+    "activity_question": "What was the name of the hot-air balloon that crossed the Atlantic?",
+    "activity_choices": [
+      "Virgin Atlantic Flyer",
+      "Ocean Soarer",
+      "Atlantic Voyager",
+      "Sky Cruiser"
+    ],
+    "activity_answer": "Virgin Atlantic Flyer",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How many days did the balloon journey take?",
+    "score": 92,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "101",
+    "title": "Kenyan Runner Leaps into History",
+    "story": "Splash! Peter Koech's feet hit the water pit as he raced towards glory. The Kenyan runner was about to make history. On July 3, 1989, Koech flew over hurdles and water jumps in Stockholm, Sweden. His incredible speed and stamina shattered the world record for the 3,000-meter steeplechase. Koech's time of 8 minutes and 5.39 seconds left spectators in awe. His feat showcased the amazing abilities of human athletes.",
+    "activity_question": "What event did Peter Koech set a world record in?",
+    "activity_choices": [
+      "3,000-meter steeplechase",
+      "Marathon",
+      "100-meter sprint",
+      "High jump"
+    ],
+    "activity_answer": "3,000-meter steeplechase",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What obstacles do runners face in a steeplechase race?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "49",
+    "title": "Mallard: The Fastest Steam Locomotive",
+    "story": "Zoom! In 1938, a sleek blue steam locomotive named Mallard raced down the tracks. On July 3, this British marvel hit an incredible speed of 202.6 km/h. That's faster than many cars today! Mallard's record-breaking run proved just how powerful steam engines could be. Its streamlined design helped it slice through the air like a bullet, setting a new world record for steam-powered trains that still stands.",
+    "activity_question": "What was the name of the record-breaking locomotive?",
+    "activity_choices": [
+      "Mallard",
+      "Bullet",
+      "Zoom",
+      "Speedy"
+    ],
+    "activity_answer": "Mallard",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Mallard's record has never been beaten by another steam locomotive.",
+    "score": 90,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "124",
+    "title": "Cricket Fireworks: Finch's Record-Breaking Innings",
+    "story": "Bam! The cricket ball soared over the boundary again. On July 3, 2018, Australian batsman Aaron Finch was on fire. Playing against Zimbabwe in Harare, he smashed an incredible 172 runs off just 76 balls in a T20 International match. Finch broke his own previous record, hitting sixes and fours with ease. He and teammate D'Arcy Short also set a new record for their opening partnership, scoring 223 runs together.",
+    "activity_question": "What type of cricket match was Aaron Finch playing in when he broke the record?",
+    "activity_choices": [
+      "Test match",
+      "One Day International",
+      "T20 International",
+      "County cricket"
+    ],
+    "activity_answer": "T20 International",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name another famous Australian cricket player?",
+    "score": 90,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "144",
+    "title": "Hippos Take Flight in Surprising Study",
+    "story": "Hippos can fly? Well, not quite, but they can become airborne! In a fascinating UK study on July 3, 2024, researchers discovered something unexpected about these hefty creatures. By examining hippos' footfall patterns, scientists found that when trotting at high speeds, all four feet actually leave the ground at once. It's like a brief moment of flight for these river giants!",
+    "activity_question": "What did the UK study reveal about hippos?",
+    "activity_choices": [
+      "They can become airborne",
+      "They can swim underwater",
+      "They can climb trees",
+      "They can run backwards"
+    ],
+    "activity_answer": "They can become airborne",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think this discovery might change our understanding of hippo movement?",
+    "score": 90,
+    "categories": [
+      "Creature Feature"
+    ]
+  },
+  {
+    "id": "171",
+    "title": "Sprinting into History: Calvin Smith's Record",
+    "story": "Zoom! American sprinter Calvin Smith raced into the record books on July 3, 1983. In Colorado Springs, he blazed down the track, completing the 100-meter dash in just 9.93 seconds. This lightning-fast run shattered the previous world record by two-hundredths of a second. Smith's incredible speed showed just how far human athleticism had come since the last record was set years earlier.",
+    "activity_question": "How fast did Calvin Smith run the 100-meter dash?",
+    "activity_choices": [
+      "9.93 seconds",
+      "10.93 seconds",
+      "8.93 seconds",
+      "11.93 seconds"
+    ],
+    "activity_answer": "9.93 seconds",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you think of other sports where fractions of a second matter?",
+    "optional_type": "follow_up_question",
+    "score": 90,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "107",
+    "title": "Soccer Shocker: Romania Stuns Argentina",
+    "story": "Jaws dropped at the Rose Bowl in Pasadena, California. On July 3, 1994, Romania pulled off a massive upset in the FIFA World Cup. They knocked out soccer powerhouse Argentina with a thrilling 3-2 victory. Fans watched in disbelief as the underdogs triumphed, sending shockwaves through the tournament. This unexpected win proved that in soccer, anything can happen!",
+    "activity_question": "Where did this surprising soccer match take place?",
+    "activity_choices": [
+      "Rose Bowl",
+      "Wembley Stadium",
+      "Maracanã",
+      "Camp Nou"
+    ],
+    "activity_answer": "Rose Bowl",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another famous sporting event that takes place at the Rose Bowl?",
+    "optional_type": "follow_up_question",
+    "score": 88,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "116",
+    "title": "Close Call with a Space Rock",
+    "story": "Whoosh! A massive space rock zoomed past Earth in 2006. On July 3, an asteroid named 2004 XP14 flew by our planet. It came within about 432,308 kilometers of Earth. That's close in space terms, but still far enough to keep us safe. Scientists tracked its path carefully, making sure it posed no danger. It was an exciting day for astronomers!",
+    "activity_question": "How close did the asteroid come to Earth?",
+    "activity_choices": [
+      "432,308 kilometers",
+      "268,624 kilometers",
+      "1 million kilometers",
+      "50,000 kilometers"
+    ],
+    "activity_answer": "432,308 kilometers",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think scientists carefully track asteroids that come close to Earth?",
+    "score": 88,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "165",
+    "title": "Jazz Legends Rock Newport",
+    "story": "The sounds of saxophones and trumpets filled the air as the Newport Jazz Festival kicked off in Rhode Island. It was 1969, and music lovers flocked to hear incredible performers. Miles Davis blew his cool trumpet, while Sly & The Family Stone got the crowd grooving. James Brown brought the funk, and Dave Brubeck tickled the ivories. For four days, Newport became the hottest spot for jazz, rock, and soul on July 3.",
+    "activity_question": "Which of these artists performed at the 1969 Newport Jazz Festival?",
+    "activity_choices": [
+      "Miles Davis",
+      "Elvis Presley",
+      "The Beatles",
+      "Bob Dylan"
+    ],
+    "activity_answer": "Miles Davis",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "The Newport Jazz Festival is still held annually, showcasing both new talent and jazz legends.",
+    "optional_type": "bonus_fact",
+    "score": 88,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "93",
+    "title": "Dolphin Rocket Takes to the Sky",
+    "story": "Whoosh! A sleek rocket named Dolphin soared into the air on July 3, 1984. It blasted off from San Clemente Island, leaving a trail of smoke behind. This wasn't just any rocket launch. The Dolphin was special because it could be launched from the sea, making it very useful for scientists and explorers studying our oceans and skies.",
+    "activity_question": "What was special about the Dolphin rocket?",
+    "activity_choices": [
+      "It could be launched from the sea",
+      "It was shaped like a dolphin",
+      "It could swim underwater",
+      "It was made of seashells"
+    ],
+    "activity_answer": "It could be launched from the sea",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why might launching rockets from the sea be useful?",
+    "optional_type": "follow_up_question",
+    "score": 87,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "37",
+    "title": "Tiny Tern's Epic Journey",
+    "story": "A small seabird made history with its wings! In 1913, scientists in Maine put a special band on a Common Tern. Years later, on July 3, 1919, the same bird was found in Africa. This discovery proved that these lightweight birds could fly all the way across the Atlantic Ocean. It was the first time anyone knew for sure that birds could make such an incredible journey between continents.",
+    "activity_question": "What kind of bird made the historic flight across the Atlantic?",
+    "activity_choices": [
+      "Common Tern",
+      "Bald Eagle",
+      "Penguin",
+      "Hummingbird"
+    ],
+    "activity_answer": "Common Tern",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think scientists put bands on birds?",
+    "score": 85,
+    "categories": [
+      "Creature Feature"
+    ]
+  },
+  {
+    "id": "64",
+    "title": "Karen the Bongo: A Zoo Star is Born",
+    "story": "Excitement filled the air at Cleveland Zoo in Ohio as visitors flocked to see a new star. On July 3, 1959, Karen the bongo antelope made her grand debut. This beautiful creature, with striking stripes and twisted horns, captivated everyone who saw her. Karen's arrival marked the first time many people had ever seen a bongo, sparking curiosity about these rare forest antelopes from Africa.",
+    "activity_question": "What type of animal was Karen?",
+    "activity_choices": [
+      "Bongo antelope",
+      "Giraffe",
+      "Elephant",
+      "Penguin"
+    ],
+    "activity_answer": "Bongo antelope",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Bongos are the largest forest antelopes and both males and females have horns.",
+    "score": 85,
+    "categories": [
+      "Creature Feature"
+    ]
+  },
+  {
+    "id": "69",
+    "title": "Pitcher's Powerful Surprise at the Plate",
+    "story": "Batter up! In 1966, Atlanta Braves pitcher Tony Cloninger shocked everyone on July 3. He wasn't just throwing strikes; he was smashing them! Cloninger became the first National League player and the only pitcher ever to hit two grand slams in a single Major League Baseball game. His incredible batting helped the Braves crush the San Francisco Giants 17-3.",
+    "activity_question": "What unique achievement did Tony Cloninger accomplish in this game?",
+    "activity_choices": [
+      "He pitched a no-hitter",
+      "He hit two grand slams",
+      "He struck out 20 batters",
+      "He stole four bases"
+    ],
+    "activity_answer": "He hit two grand slams",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Do you think it's common for pitchers to be good hitters?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "83",
+    "title": "Cosmonauts Blast Off to Space Station",
+    "story": "Zoom! Two brave cosmonauts rocketed into the stars aboard Soyuz 14 in 1974. Their mission? To dock with Salyut 3, a Soviet space station floating high above Earth. On July 3, these space explorers began their journey to live and work in orbit. They conducted experiments and gazed at our beautiful blue planet from their temporary home among the stars.",
+    "activity_question": "What was the name of the spacecraft that carried the cosmonauts?",
+    "activity_choices": [
+      "Soyuz 14",
+      "Apollo 11",
+      "Salyut 3",
+      "Sputnik"
+    ],
+    "activity_answer": "Soyuz 14",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What do you think would be the most exciting part of living on a space station?",
+    "score": 85,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "91",
+    "title": "Rangers Blast Off in Extra Innings",
+    "story": "Boom! The Texas Rangers lit up the scoreboard like fireworks in 1983. On July 3, they shattered a Major League Baseball record. In a wild game against Oakland, the teams were tied after nine innings. Then came the 15th inning. The Rangers' bats caught fire, scoring an incredible number of runs. They won the game in spectacular fashion, leaving fans amazed at the offensive explosion.",
+    "activity_question": "What team set the record for most runs in an extra inning?",
+    "activity_choices": [
+      "Texas Rangers",
+      "Oakland Athletics",
+      "New York Yankees",
+      "Los Angeles Dodgers"
+    ],
+    "activity_answer": "Texas Rangers",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How many innings are usually played in a regular baseball game?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "131",
+    "title": "Kyushu's Rainy Day Escape",
+    "story": "Rain poured down on Kyushu, Japan's southern island. It wasn't just a drizzle - a whopping amount of rain fell from the sky! In 2019, on July 3, over a million people had to leave their homes. Why? The ground was so wet that officials worried about dangerous mudslides. Everyone had to work together to stay safe during this very wet weather emergency.",
+    "activity_question": "Why did over a million people have to leave their homes on Kyushu?",
+    "activity_choices": [
+      "Officials worried about dangerous mudslides",
+      "A volcano was about to erupt",
+      "There was a big earthquake",
+      "To attend a giant festival"
+    ],
+    "activity_answer": "Officials worried about dangerous mudslides",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What could you pack in an emergency bag if you had to leave your home quickly?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "138",
+    "title": "Earth's Fever: A New Heat Record",
+    "story": "Our planet broke a sweat on July 3! Scientists measured Earth's average temperature and found it hit a sizzling new high. The global thermometer climbed to 17.01 degrees Celsius in 2023, hotter than ever before. It's like the whole world had a slight fever, reminding us to take care of our home. This toasty record shows why it's super important to keep our planet cool and healthy.",
+    "activity_question": "What was Earth's record-breaking average temperature in 2023?",
+    "activity_choices": [
+      "17.01 degrees Celsius",
+      "16.92 degrees Celsius",
+      "18.5 degrees Celsius",
+      "15.5 degrees Celsius"
+    ],
+    "activity_answer": "17.01 degrees Celsius",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it's important to keep track of Earth's temperature?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "141",
+    "title": "Ancient Cave Art Tells a Hunting Tale",
+    "story": "Deep in Indonesian caves, a thrilling discovery was made. Scientists found the oldest known story-telling cave art, dating back 51,200 years! The ancient paintings, located in Maros-Pangkep, South Sulawesi, show people hunting a pig. This exciting find, announced on July 3, 2024, gives us a glimpse into the lives of our early ancestors and how they shared their experiences through art.",
+    "activity_question": "What animal is depicted being hunted in the ancient cave paintings?",
+    "activity_choices": [
+      "A pig",
+      "A mammoth",
+      "A fish",
+      "A bird"
+    ],
+    "activity_answer": "A pig",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think early humans created cave paintings?",
+    "score": 85,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "145",
+    "title": "Ancient City Unearthed in Peru",
+    "story": "Buried secrets come to light! In 2025, archaeologists uncover a hidden treasure in Peru. They discover Peñico, an ancient city that had been lost for 3,500 years. On July 3, the team announces their incredible find to the world. This long-lost settlement offers a glimpse into the lives of people who lived thousands of years ago. Peñico holds clues about ancient cultures, waiting for curious explorers to unravel its mysteries.",
+    "activity_question": "What is the name of the ancient city discovered in Peru?",
+    "activity_choices": [
+      "Peñico",
+      "Lima",
+      "Machu Picchu",
+      "El Dorado"
+    ],
+    "activity_answer": "Peñico",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How old is the ancient city of Peñico?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "169",
+    "title": "Borg's Wimbledon Reign Begins",
+    "story": "Ace! Swedish tennis star Björn Borg smashed his way to victory on July 3, 1976. He defeated Romania's Ilie Năstase in an exciting match, winning 6-4, 6-2, 9-7. This wasn't just any win - it marked the start of Borg's incredible Wimbledon streak. He went on to claim the championship title five years in a row, becoming a true tennis legend.",
+    "activity_question": "Who did Björn Borg defeat in this Wimbledon match?",
+    "activity_choices": [
+      "Ilie Năstase",
+      "John McEnroe",
+      "Jimmy Connors",
+      "Roger Federer"
+    ],
+    "activity_answer": "Ilie Năstase",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How many Wimbledon titles did Borg win in a row after this victory?",
+    "score": 85,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "191",
+    "title": "A Legendary Doctor's Birth",
+    "story": "A baby boy named Li Shi-zhen opened his eyes for the first time in Qizhou, China. Born in 1518, he would grow up to become a famous doctor and write an important book about medicine. Li's work, called the Compendium of Materia Medica, helped people understand how to use plants and other natural things to heal sickness. His birthday on July 3 marks the start of a life that changed Chinese medicine forever.",
+    "activity_question": "What important book did Li Shi-zhen write?",
+    "activity_choices": [
+      "Compendium of Materia Medica",
+      "The Art of Healing",
+      "Chinese Medical Secrets",
+      "Nature's Cures"
+    ],
+    "activity_answer": "Compendium of Materia Medica",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What do you think Li Shi-zhen might have used to treat a common cold?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "232",
+    "title": "The Birth of a Paralympic Pioneer",
+    "story": "A champion for disabled athletes was born on July 3, 1899. Ludwig Guttmann entered the world in Tost, Prussia (now Toszek, Poland). This German-British neurologist would go on to change countless lives. Guttmann founded the Stoke Mandeville Games, which later became the Paralympics. His vision created a global stage where athletes with disabilities could showcase their incredible talents and determination.",
+    "activity_question": "What did Ludwig Guttmann found that later became the Paralympics?",
+    "activity_choices": [
+      "The Stoke Mandeville Games",
+      "The Olympic Games",
+      "The World Cup",
+      "The X Games"
+    ],
+    "activity_answer": "The Stoke Mandeville Games",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think the Paralympics inspire people around the world?",
+    "score": 85,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "293",
+    "title": "From Rocks to Rockets: Harrison Schmitt's Journey",
+    "story": "Imagine studying rocks on Earth, then walking on the Moon! Harrison Schmitt's amazing journey began when he was born in Santa Rita, New Mexico in 1935. This future geologist and astronaut would grow up to join the Apollo 17 mission. On July 3, in his birth year, no one knew this baby boy would one day leave footprints on lunar soil and bring Moon rocks back to Earth for scientists to study.",
+    "activity_question": "What was Harrison Schmitt's profession before becoming an astronaut?",
+    "activity_choices": [
+      "Geologist",
+      "Pilot",
+      "Teacher",
+      "Engineer"
+    ],
+    "activity_answer": "Geologist",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What do you think would be the most exciting part of walking on the Moon?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "372",
+    "title": "The Voice Behind Lisa Simpson",
+    "story": "Yeardley Smith, the actress who brings Lisa Simpson to life, entered the world in Paris on July 3, 1964. Though born in France, she grew up to become an American star. Her unique voice has been delighting fans of The Simpsons for years, making the brainy and passionate Lisa a beloved character on the long-running animated show.",
+    "activity_question": "Where was Yeardley Smith born?",
+    "activity_choices": [
+      "Paris",
+      "New York",
+      "Los Angeles",
+      "Springfield"
+    ],
+    "activity_answer": "Paris",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another character from The Simpsons?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "316",
+    "title": "From Florida to the Stars",
+    "story": "Blast off with Norman Thagard! Born in Marianna, Florida on July 3, 1943, this American scientist reached for the stars. Thagard became an astronaut and soared into space on five thrilling shuttle missions. He even lived aboard the Russian space station Mir, proving that science knows no borders. His journey shows that with hard work, you can turn childhood dreams into cosmic adventures!",
+    "activity_question": "What type of missions did Norman Thagard participate in?",
+    "activity_choices": [
+      "Shuttle missions",
+      "Submarine expeditions",
+      "Mountain climbs",
+      "Desert treks"
+    ],
+    "activity_answer": "Shuttle missions",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another famous astronaut?",
+    "optional_type": "follow_up_question",
+    "score": 82,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "14",
+    "title": "The Hunt for Neptune Begins",
+    "story": "A cosmic detective story started on July 3, 1841. John Couch Adams, a brilliant mathematician, set out to solve a celestial mystery. He decided to find an unknown planet by studying how it affected Uranus's orbit. Like a space sleuth, Adams used math to track down clues about this hidden world. His work eventually led to the discovery of Neptune!",
+    "activity_question": "What did John Couch Adams use to find clues about the unknown planet?",
+    "activity_choices": [
+      "Math",
+      "Telescopes",
+      "Star charts",
+      "Space probes"
+    ],
+    "activity_answer": "Math",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name the planet Adams was trying to find clues about?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "142",
+    "title": "Beryl's Fury: A Powerful Hurricane",
+    "story": "Winds howled at 140 mph as Hurricane Beryl churned through the Caribbean. In 2024, this monster storm reached Category 4 strength, passing just 45 miles south of Kingston, Jamaica on July 3. While the island avoided a direct hit, Beryl's massive size and power sent huge waves crashing ashore. Jamaicans battened down the hatches, staying safe indoors until the danger passed.",
+    "activity_question": "How fast were Hurricane Beryl's winds?",
+    "activity_choices": [
+      "140 mph",
+      "100 mph",
+      "80 mph",
+      "200 mph"
+    ],
+    "activity_answer": "140 mph",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What safety precautions should people take during a hurricane?",
+    "score": 80,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "157",
+    "title": "A Colorful Breakthrough in Television",
+    "story": "Imagine watching TV in black and white. That's how it used to be! But on July 3, 1928, John Logie Baird changed everything. In London, he amazed people by showing the first color television transmission. This Scottish inventor brought a rainbow of hues to the small screen, paving the way for the vibrant TV shows we enjoy today.",
+    "activity_question": "What did John Logie Baird demonstrate in London?",
+    "activity_choices": [
+      "The first color television transmission",
+      "The first radio broadcast",
+      "The first telephone call",
+      "The first flying car"
+    ],
+    "activity_answer": "The first color television transmission",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think TV would be different if we still only had black and white?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "166",
+    "title": "Rock Legends Gather for Epic Festival",
+    "story": "Music fans flocked to Georgia in 1970 for an unforgettable experience. The Atlanta International Pop Festival kicked off on July 3, drawing huge crowds over three days. Guitar hero Jimi Hendrix, blues master B.B. King, and rising stars like the Allman Brothers Band took the stage. The air buzzed with excitement as nearly two hundred thousand people came together to celebrate rock and roll.",
+    "activity_question": "Which famous guitarist performed at the festival?",
+    "activity_choices": [
+      "Jimi Hendrix",
+      "Eric Clapton",
+      "Jimmy Page",
+      "Carlos Santana"
+    ],
+    "activity_answer": "Jimi Hendrix",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The festival was so big, it was sometimes called the 'Southern Woodstock'.",
+    "score": 80,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "175",
+    "title": "A Bridge Between Continents",
+    "story": "Spanning the mighty Bosphorus, a new link between Europe and Asia opened in 1988. The Fatih Sultan Mehmet Bridge in Istanbul, Turkey, became the second crossing to join these two vast continents. On July 3, this engineering marvel stretched across the waters, connecting cultures and opening new paths for travelers and trade.",
+    "activity_question": "What two continents does the Fatih Sultan Mehmet Bridge connect?",
+    "activity_choices": [
+      "Europe and Asia",
+      "Africa and Europe",
+      "Asia and Australia",
+      "North America and South America"
+    ],
+    "activity_answer": "Europe and Asia",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you think of other famous bridges that connect important places?",
+    "score": 80,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "167",
+    "title": "Mike Marshall's Pitching Marathon",
+    "story": "Imagine throwing a baseball so well you set a record! That's what Mike Marshall did for the LA Dodgers in 1974. On July 3, he pitched in his 13th game in a row - something no one in Major League Baseball had ever done before. Marshall helped his team win 4-1 against the Cincinnati Reds, saving the game for his teammate Tommy John.",
+    "activity_question": "What team did Mike Marshall play for when he set this record?",
+    "activity_choices": [
+      "LA Dodgers",
+      "Cincinnati Reds",
+      "New York Yankees",
+      "Boston Red Sox"
+    ],
+    "activity_answer": "LA Dodgers",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Do you think it's hard on a pitcher's arm to play in so many games in a row?",
+    "optional_type": "follow_up_question",
+    "score": 78,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Washington Steps Up to Lead",
+    "story": "Soldiers stood at attention as a tall figure approached. It was George Washington, ready to take charge of the Continental Army. On July 3, 1775, in Cambridge, Massachusetts, he officially became the commander. This moment marked a turning point in America's fight for independence from Britain. Washington's leadership would prove crucial in the years ahead.",
+    "activity_question": "Where did George Washington take command of the Continental Army?",
+    "activity_choices": [
+      "Cambridge, Massachusetts",
+      "Philadelphia, Pennsylvania",
+      "New York City, New York",
+      "Boston, Massachusetts"
+    ],
+    "activity_answer": "Cambridge, Massachusetts",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think George Washington was chosen to lead the Continental Army?",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "10",
+    "title": "Strawberry Surprise: A Juicy Discovery",
+    "story": "Imagine biting into a strawberry as big as your fist! In 1806, Michael Keens amazed everyone on July 3 with his giant strawberry creation. He called it the Keen Seedling, and it was the first large-scale cultivated strawberry ever shown. This juicy breakthrough changed how we grow and enjoy these sweet red fruits today.",
+    "activity_question": "What was the name of Michael Keens strawberry creation?",
+    "activity_choices": [
+      "Keen Seedling",
+      "Giant Berry",
+      "Juicy Red",
+      "Fist Fruit"
+    ],
+    "activity_answer": "Keen Seedling",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think strawberries were different before Keens discovery?",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "62",
+    "title": "Speedy Ship Sails the Atlantic",
+    "story": "Zoom! The SS United States raced across the Atlantic Ocean in 1952. This massive American ocean liner left New York Harbor on July 3, waving goodbye to the Statue of Liberty. Passengers enjoyed a thrilling journey as the ship sliced through waves at incredible speeds. In just over three days, the vessel reached Europe, setting a new record for the fastest Atlantic crossing.",
+    "activity_question": "What did the SS United States set a record for?",
+    "activity_choices": [
+      "Fastest Atlantic crossing",
+      "Most passengers carried",
+      "Longest time at sea",
+      "Biggest waves surfed"
+    ],
+    "activity_answer": "Fastest Atlantic crossing",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think passengers spent their time during the quick journey?",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "75",
+    "title": "Rocket Mishap Shakes the Earth",
+    "story": "A massive boom rocked the Baikonur Cosmodrome in 1969. The Soviet N1 rocket, meant for space exploration, exploded seconds after liftoff on July 3. This unplanned fireworks show became one of the biggest non-nuclear blasts ever caused by humans. Pieces of the rocket scattered across a huge area. Luckily, no one was hurt, but it was a stark reminder of the risks in reaching for the stars.",
+    "activity_question": "What kind of explosion was the N1 rocket blast described as?",
+    "activity_choices": [
+      "One of the largest-ever non-nuclear human-made explosions",
+      "A small firecracker-like pop",
+      "An underwater detonation",
+      "A controlled demolition"
+    ],
+    "activity_answer": "One of the largest-ever non-nuclear human-made explosions",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think space agencies still take risks with rockets despite accidents like this?",
+    "score": 75,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "109",
+    "title": "Royal Stone Returns Home",
+    "story": "A legendary rock rolled back to Scotland in 1996! The Stone of Scone, used to crown kings and queens for centuries, had been in England for 700 years. On July 3, the UK government announced this special stone would finally return to its Scottish homeland. Also called the Stone of Destiny, it carried royal dreams across borders and time.",
+    "activity_question": "What other name is given to the Stone of Scone in the story?",
+    "activity_choices": [
+      "Stone of Destiny",
+      "Rock of Ages",
+      "Royal Boulder",
+      "Kingly Pebble"
+    ],
+    "activity_answer": "Stone of Destiny",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think the stone was important enough to announce its return after so long?",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "140",
+    "title": "Siberian Forests Ablaze",
+    "story": "Flames engulfed vast stretches of Siberian wilderness in 2023. On July 3, officials in Yakutia declared a State of Emergency as over 110 forest fires raged. The inferno spread across an area larger than many small countries. Brave firefighters battled the blaze, working tirelessly to protect nature and nearby communities.",
+    "activity_question": "What was declared in Yakutia?",
+    "activity_choices": [
+      "State of Emergency",
+      "National Holiday",
+      "New Forest Reserve",
+      "Winter Festival"
+    ],
+    "activity_answer": "State of Emergency",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why are forest fires dangerous for both nature and people?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "149",
+    "title": "Champlain's Bold New World Adventure",
+    "story": "Adventurer Samuel de Champlain stepped onto the shores of a new land. With determination in his eyes, he planted a flag and declared the founding of Quebec City. It was July 3, 1608, and Champlain's dream of establishing a French settlement in North America had come true. This moment marked the birth of one of Canada's oldest and most historic cities.",
+    "activity_question": "What did Samuel de Champlain found on July 3, 1608?",
+    "activity_choices": [
+      "Quebec City",
+      "Montreal",
+      "Toronto",
+      "A maple syrup factory"
+    ],
+    "activity_answer": "Quebec City",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think Champlain chose that specific location to found Quebec City?",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "151",
+    "title": "The Magic Begins: A Wizard's Theater",
+    "story": "Abracadabra! In 1845, Jean Eugène Robert-Houdin waved his wand and made magic happen. This French wizard opened a special theater in Paris on July 3. It wasn't for plays or music, but for mind-bending illusions! Robert-Houdin amazed crowds with tricks that seemed impossible. He paved the way for future magicians to dazzle audiences worldwide.",
+    "activity_question": "What did Jean Eugène Robert-Houdin open in Paris?",
+    "activity_choices": [
+      "A magic theater",
+      "A puppet show",
+      "A circus tent",
+      "A candy shop"
+    ],
+    "activity_answer": "A magic theater",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think people enjoy watching magic shows?",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "152",
+    "title": "Karl Benz's Groundbreaking Ride",
+    "story": "Vroom! Karl Benz made history when he took the world's first automobile for a spin. In 1886, on July 3, this German inventor drove his creation through the streets of Mannheim. The car reached a top speed of 16 km/h, about as fast as a quick jog. This pioneering ride marked the birth of the modern automobile.",
+    "activity_question": "What was the top speed of Karl Benz's automobile?",
+    "activity_choices": [
+      "16 km/h",
+      "20 km/h",
+      "10 km/h",
+      "5 km/h"
+    ],
+    "activity_answer": "16 km/h",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think people reacted when they saw the first car on the streets?",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "158",
+    "title": "Radio Brings Boxing to the Nation",
+    "story": "Fists flew as German boxer Max Schmeling defended his heavyweight title against American Young Stribling in Cleveland. The 1931 match made history as the first major fight broadcast live on national radio. Fans across the country tuned in on July 3 to hear the blow-by-blow action. After 15 intense rounds, Schmeling won by technical knockout, keeping his championship belt.",
+    "activity_question": "What made this 1931 boxing match historic?",
+    "activity_choices": [
+      "It was the first major fight broadcast live on national radio",
+      "It was the longest boxing match ever",
+      "It was the first time a German fought an American",
+      "It was held underwater"
+    ],
+    "activity_answer": "It was the first major fight broadcast live on national radio",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think listening to a boxing match on the radio compares to watching it on TV?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "168",
+    "title": "Beach Boys Reunite with Brian Wilson",
+    "story": "Surf's up! The Beach Boys made waves in 1976 when Brian Wilson rejoined them on stage. After staying away for years, Wilson finally returned to perform with the band. Fans at Anaheim Stadium in California went wild as the group's harmonies once again filled the air on July 3. It was a triumphant comeback for the musical genius behind their biggest hits.",
+    "activity_question": "Where did Brian Wilson reunite with the Beach Boys?",
+    "activity_choices": [
+      "Anaheim Stadium",
+      "Hollywood Bowl",
+      "Santa Monica Pier",
+      "Waikiki Beach"
+    ],
+    "activity_answer": "Anaheim Stadium",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think Brian Wilson stayed away from performing for so long?",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "176",
+    "title": "Hockey Hero Hangs Up His Skates",
+    "story": "Steve Yzerman, a hockey legend, skated into retirement on July 3, 2006. The Detroit Red Wings star amazed fans for years with his incredible skills on the ice. When he finally hung up his skates, Yzerman had scored an impressive 692 goals and racked up 1,755 points in his career. His dedication and talent made him a true icon of the sport.",
+    "activity_question": "What team did Steve Yzerman play for?",
+    "activity_choices": [
+      "Detroit Red Wings",
+      "Chicago Blackhawks",
+      "Toronto Maple Leafs",
+      "Montreal Canadiens"
+    ],
+    "activity_answer": "Detroit Red Wings",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Yzerman's jersey number, 19, was retired by the Red Wings to honor his amazing career.",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "186",
+    "title": "Speedy Letters Race Across America",
+    "story": "Galloping hooves thundered into San Francisco on July 3, 1861. The Pony Express had arrived! Brave riders and swift horses carried letters all the way from New York, racing across the wild frontier. This daring mail service connected East and West, bringing news and greetings to eager families and businesses.",
+    "activity_question": "What did the Pony Express deliver to San Francisco?",
+    "activity_choices": [
+      "Overland letters",
+      "Gold nuggets",
+      "Fresh fruit",
+      "Cowboy hats"
+    ],
+    "activity_answer": "Overland letters",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Pony Express riders changed horses every 10-15 miles to keep up their incredible speed.",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "187",
+    "title": "Turning Point at Gettysburg",
+    "story": "Cannons boomed and soldiers clashed in the fields of Pennsylvania. The Battle of Gettysburg, the largest ever fought in North America, reached its climax on July 3, 1863. After three days of fierce fighting, Union forces emerged victorious. This pivotal moment in the US Civil War shifted the tide in favor of the North, marking a turning point in the conflict.",
+    "activity_question": "What was the outcome of the Battle of Gettysburg?",
+    "activity_choices": [
+      "A major victory for the Union",
+      "A stalemate between both sides",
+      "A narrow defeat for the North",
+      "A surprise win for the dinosaurs"
+    ],
+    "activity_answer": "A major victory for the Union",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think this battle was so important for the Union?",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "220",
+    "title": "A Champion for Māori Culture",
+    "story": "Āpirana Ngata, a remarkable Māori leader, was born in Te Araroa, New Zealand in 1874. On July 3 that year, a future champion of Māori culture and language entered the world. Ngata grew up to become a skilled politician and lawyer. He dedicated his life to protecting and promoting the rich traditions of his people, ensuring their heritage would thrive for generations to come.",
+    "activity_question": "What did Āpirana Ngata dedicate his life to?",
+    "activity_choices": [
+      "Protecting and promoting Māori culture",
+      "Building skyscrapers in New Zealand",
+      "Studying volcanoes",
+      "Writing children's books"
+    ],
+    "activity_answer": "Protecting and promoting Māori culture",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another culture that has special traditions?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "241",
+    "title": "A Giant Among Men",
+    "story": "Jack Earle towered over everyone he met. Born in Denver, Colorado on July 3, 1906, he grew to an astounding height. Earle became famous as a sideshow performer and actor, captivating audiences with his incredible stature. People called him 'The World's Tallest Man' as he traveled the country, amazing folks wherever he went.",
+    "activity_question": "Where was Jack Earle born?",
+    "activity_choices": [
+      "Denver, Colorado",
+      "New York City",
+      "Los Angeles",
+      "Chicago"
+    ],
+    "activity_answer": "Denver, Colorado",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think people were so fascinated by Jack Earle's height?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Creature Feature"
+    ]
+  },
+  {
+    "id": "303",
+    "title": "The Voice Behind 'Rescue Me'",
+    "story": "A powerful voice was born in St. Louis, Missouri on July 3, 1940. Fontella Bass, the future R&B and soul sensation, entered the world with music in her veins. She would grow up to create unforgettable tunes, including her most famous hit 'Rescue Me'. Bass's soulful sound and heartfelt lyrics touched listeners around the globe, leaving a lasting mark on the music world.",
+    "activity_question": "What was Fontella Bass's most famous hit song?",
+    "activity_choices": [
+      "'Rescue Me'",
+      "'Save Me'",
+      "'Help Me'",
+      "'Find Me'"
+    ],
+    "activity_answer": "'Rescue Me'",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Fontella Bass was not just a singer, but also a talented songwriter who helped create her own music.",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "306",
+    "title": "Swimming Star Born: Lance Larson",
+    "story": "Splash! A future swimming champion entered the world on July 3, 1940. Lance Larson, born in Monterey Park, California, would grow up to make waves in the pool. He swam his way to Olympic glory, winning gold in the 4x100m freestyle relay. Larson also clinched silver in the 100m freestyle and set a world record in the 100m butterfly.",
+    "activity_question": "What Olympic medal did Lance Larson win in the 4x100m freestyle relay?",
+    "activity_choices": [
+      "Gold",
+      "Silver",
+      "Bronze",
+      "Platinum"
+    ],
+    "activity_answer": "Gold",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "In which swimming stroke did Lance Larson set a world record?",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "16",
+    "title": "Freedom Rings in the Caribbean",
+    "story": "Cheers erupted across the Danish West Indies as slavery came to an end in 1848. On July 3, thousands of people celebrated their newfound freedom on these Caribbean islands. The Danish governor made the bold decision to abolish slavery, years before many other places. Today, we know these islands as the U.S. Virgin Islands.",
+    "activity_question": "What are the former Danish West Indies known as today?",
+    "activity_choices": [
+      "U.S. Virgin Islands",
+      "British Virgin Islands",
+      "Bahamas",
+      "Jamaica"
+    ],
+    "activity_answer": "U.S. Virgin Islands",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think ending slavery was such an important moment for the islands?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "33",
+    "title": "A Knockout Victory for the Heavyweight Crown",
+    "story": "Fists flew in Reno, Nevada as Marvin Hart battled Jack Root for boxing's biggest prize. On July 3, 1905, Hart unleashed a powerful punch in the 12th round, sending Root to the canvas. The knockout victory earned Hart the vacant world heavyweight title, cementing his place in boxing history.",
+    "activity_question": "What did Marvin Hart win in this boxing match?",
+    "activity_choices": [
+      "The vacant world heavyweight title",
+      "A gold medal",
+      "A million-dollar prize",
+      "A fancy championship belt"
+    ],
+    "activity_answer": "The vacant world heavyweight title",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think boxing was so popular in the early 1900s?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "135",
+    "title": "Nature's Fury Strikes Atami",
+    "story": "Torrential rain unleashed a devastating force in Atami, Japan. Powerful mudslides crashed through the town on July 3, 2021, catching residents off guard. The rushing mud and debris swept away homes and cars, leaving a trail of destruction. While many people were initially unaccounted for, brave rescue teams worked tirelessly to find survivors and help the community recover from this natural disaster.",
+    "activity_question": "What natural disaster struck Atami, Japan?",
+    "activity_choices": [
+      "Mudslides",
+      "Earthquake",
+      "Tsunami",
+      "Volcano eruption"
+    ],
+    "activity_answer": "Mudslides",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How can communities prepare for natural disasters like mudslides?",
+    "score": 70,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "160",
+    "title": "A Flame for Peace at Gettysburg",
+    "story": "Flames danced atop a towering monument at Gettysburg Battlefield. On July 3, 1938, President Franklin Roosevelt lit the Eternal Light Peace Memorial. This special flame honors soldiers who fought in the Civil War. Roosevelt dedicated the memorial to peace and unity, hoping it would inspire future generations to work together.",
+    "activity_question": "What did President Roosevelt light at Gettysburg Battlefield?",
+    "activity_choices": [
+      "The Eternal Light Peace Memorial",
+      "A giant bonfire",
+      "Fireworks",
+      "A birthday cake"
+    ],
+    "activity_answer": "The Eternal Light Peace Memorial",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think they chose an eternal flame as a symbol for peace?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "181",
+    "title": "Cardi B Tops the Charts Twice",
+    "story": "Cardi B made music history on July 3, 2018. The talented rapper became the first woman in her genre to score two number-one hits on the US Billboard chart. Her catchy song 'I Like It', featuring Bad Bunny and J Balvin, climbed to the top spot. This achievement proved Cardi B was a force to be reckoned with in the music world.",
+    "activity_question": "What song helped Cardi B make history?",
+    "activity_choices": [
+      "I Like It",
+      "Bad and Boujee",
+      "Bodak Yellow",
+      "Up"
+    ],
+    "activity_answer": "I Like It",
+    "suitable_for_8_to_12_year_old": false,
+    "follow_up_question": "Can you name another female rapper who has topped the charts?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "235",
+    "title": "A Musical Pioneer's Birthday",
+    "story": "Ruth Crawford Seeger burst onto the music scene with a unique sound. Born in East Liverpool, Ohio on July 3, 1901, she became a trailblazing composer. Seeger blended classical and folk styles, creating pieces like her famous String Quartet in 1931. Her work 'Rissolty, Rossolty' showcased her talent for mixing traditional tunes with modern twists.",
+    "activity_question": "What type of music did Ruth Crawford Seeger compose?",
+    "activity_choices": [
+      "Classical and folk",
+      "Jazz and blues",
+      "Rock and roll",
+      "Opera and ballet"
+    ],
+    "activity_answer": "Classical and folk",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name one of Ruth Crawford Seeger's famous compositions mentioned in the story?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "292",
+    "title": "A Salsa Star is Born",
+    "story": "Cheo Feliciano, a musical legend, entered the world on July 3, 1935. Born in Ponce, Puerto Rico, he grew up to become a celebrated salsa and bolero singer. Cheo's powerful voice graced famous bands like the Joe Cuba Sextet and Eddie Palmieri Orchestra. Beyond music, he used his fame to speak out against drugs, inspiring many.",
+    "activity_question": "What type of music was Cheo Feliciano known for?",
+    "activity_choices": [
+      "Rock and roll",
+      "Salsa and bolero",
+      "Jazz and blues",
+      "Country and western"
+    ],
+    "activity_answer": "Salsa and bolero",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Cheo means 'Joe' in Puerto Rican slang, so his stage name was like saying 'Joe Feliciano'!",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  }
+]

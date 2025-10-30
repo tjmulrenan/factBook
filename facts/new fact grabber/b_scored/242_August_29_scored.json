@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "original": "National Chop Suey Day",
+    "score": 70,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "Individual Rights Day",
+    "score": 48,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 3,
+    "original": "National Lemon Juice Day",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "More Herbs, Less Salt Day",
+    "score": 45,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 5,
+    "original": "International Day Against Nuclear Tests",
+    "score": 55,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 6,
+    "original": "National Sports Day (India)",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 7,
+    "original": "Slovak National Uprising Day",
+    "score": 25,
+    "is_kid_friendly": false
+  }
+]

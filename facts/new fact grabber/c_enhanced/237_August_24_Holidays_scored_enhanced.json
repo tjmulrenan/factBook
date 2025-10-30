@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Ukraine's Big Freedom Day",
+    "story": "Every August 24, Ukraine celebrates its Independence Day with parades, concerts, and bright blue and yellow decorations everywhere! People wear their national colors, wave flags from windows, and gather in city squares to watch military displays and folk dancing. Families enjoy traditional foods like borscht and varenyky dumplings while musicians play patriotic songs. It's a day when Ukrainians around the world proudly share their culture and remember their freedom.",
+    "activity_question": "What are Ukraine's national colors that people wear on Independence Day?",
+    "activity_choices": [
+      "Blue and yellow",
+      "Red and white",
+      "Green and orange",
+      "Purple and silver"
+    ],
+    "activity_answer": "Blue and yellow",
+    "follow_up_question": "How do you think people in other countries celebrate Ukraine Independence Day?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "902",
+    "title": "Vesuvius Day: When Mountains Make History",
+    "story": "Every August 24, people around the world remember one of history's most famous volcanic eruptions! Vesuvius Day marks when Mount Vesuvius in Italy buried the ancient city of Pompeii in ash and rock way back in 79 AD. Today, schools teach students about this incredible disaster that preserved an entire Roman city like a time capsule. Museums display artifacts found in Pompeii's ruins, and documentaries air on TV showing how archaeologists discovered frozen-in-time bakeries, homes, and even loaves of bread! Many people visit Pompeii itself, walking through streets where Romans lived nearly 2,000 years ago. It's a day to learn how volcanoes work and appreciate how this tragedy became an amazing window into ancient life.",
+    "activity_question": "What happened to the city of Pompeii when Mount Vesuvius erupted?",
+    "activity_choices": [
+      "It was buried in ash and rock",
+      "It floated away on lava",
+      "It turned into a giant pizza",
+      "It moved to another country"
+    ],
+    "activity_answer": "It was buried in ash and rock",
+    "bonus_fact": "Archaeologists found perfectly preserved loaves of bread that were baking when Vesuvius erupted!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 92
+  }
+]

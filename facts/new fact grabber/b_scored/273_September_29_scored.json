@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "original": "National Coffee Day",
+    "score": 45,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 2,
+    "original": "National Mocha Day",
+    "score": 65,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "National Biscotti Day",
+    "score": 55,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "VFW Day",
+    "score": 35,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 5,
+    "original": "Michaelmas",
+    "score": 50,
+    "is_kid_friendly": true
+  }
+]

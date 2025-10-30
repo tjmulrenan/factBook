@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "original": "National HIV Testing Day",
+    "score": 30,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 2,
+    "original": "National Orange Blossom Day",
+    "score": 50,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "National Pineapple Day",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "National Sunglasses Day",
+    "score": 70,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 5,
+    "original": "Happy Birthday to You Day",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 6,
+    "original": "National Ice Cream Cake Day",
+    "score": 92,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 7,
+    "original": "National Decide to Be Married Day",
+    "score": 35,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 8,
+    "original": "National Post-Traumatic Stress Disorder Awareness Day",
+    "score": 45,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 9,
+    "original": "National Mixed Nuts Day",
+    "score": 65,
+    "is_kid_friendly": true
+  }
+]

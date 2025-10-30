@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "original": "Canada Day",
+    "score": 70,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "International Joke Day",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "National Postal Worker Day",
+    "score": 55,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "National Creative Ice Cream Flavors Day",
+    "score": 92,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 5,
+    "original": "National Gingersnap Day",
+    "score": 65,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 6,
+    "original": "National Second Half of the Year Day",
+    "score": 35,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 7,
+    "original": "National Build a Scarecrow Day",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 8,
+    "original": "National Zip Code Day",
+    "score": 65,
+    "is_kid_friendly": true
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "901",
+    "title": "Celebrating Indigenous Peoples Around the World",
+    "story": "Every August 9, people worldwide celebrate International Day of the World's Indigenous Peoples! This special day honors the amazing cultures, languages, and traditions of indigenous communities everywhere. Schools teach about native art and stories. Museums host cultural events with traditional music and dancing. People share indigenous recipes and learn about their connection to nature. It's a day to respect and celebrate the wisdom of the world's first peoples.",
+    "activity_question": "What do people learn about on International Day of the World's Indigenous Peoples?",
+    "activity_choices": [
+      "Amazing cultures and traditions of indigenous communities",
+      "How to build rocket ships",
+      "The history of video games",
+      "Different types of pizza"
+    ],
+    "activity_answer": "Amazing cultures and traditions of indigenous communities",
+    "follow_up_question": "What indigenous traditions from your area would you like to learn more about?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 50
+  },
+  {
+    "id": "902",
+    "title": "Bookworms Unite on Book Lovers Day!",
+    "story": "Book lovers everywhere celebrate their favorite hobby on August 9 with National Book Lovers Day! People share photos of their current reads on social media, visit bookstores and libraries, and curl up in cozy reading spots. Many bookworms start new novels, join online book clubs, or trade recommendations with friends. Some libraries host special reading events and book swaps to mark the day.",
+    "activity_question": "What do people commonly share on social media during National Book Lovers Day?",
+    "activity_choices": [
+      "Photos of their current reads",
+      "Pictures of their breakfast",
+      "Videos of their pets dancing",
+      "Screenshots of video games"
+    ],
+    "activity_answer": "Photos of their current reads",
+    "follow_up_question": "What's the most unusual place you've ever seen someone reading a book?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  },
+  {
+    "id": "903",
+    "title": "Rice Pudding Gets Its Sweet Day",
+    "story": "Creamy, sweet rice pudding gets its own special celebration every August 9! On National Rice Pudding Day, families across America pull out their favorite recipes and start cooking. Some people make it the old-fashioned way on the stovetop, stirring milk, rice, and sugar until it's perfectly thick. Others try fun new flavors like chocolate chip or coconut. Restaurants often feature rice pudding specials, and food bloggers share their secret ingredients online. It's the perfect excuse to enjoy this comforting dessert that tastes like a warm hug in a bowl!",
+    "activity_question": "What are some popular ways people make rice pudding on this holiday?",
+    "activity_choices": [
+      "On the stovetop with milk, rice, and sugar",
+      "Only in the microwave with instant mix",
+      "By freezing it like ice cream",
+      "With chocolate chips or coconut flavors"
+    ],
+    "activity_answer": "On the stovetop with milk, rice, and sugar",
+    "bonus_fact": "Rice pudding is one of the oldest desserts in the world!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "904",
+    "title": "Smokey's Special Birthday Bash",
+    "story": "America's most famous bear blows out his candles every August 9! Smokey Bear, the forest fire prevention hero, celebrates his birthday with special events at national parks and forests across the country. Park rangers dress up as Smokey, teaching kids his famous message: \"Only YOU can prevent forest fires!\" Families join campfire safety demonstrations, nature walks, and photo ops with the beloved bear mascot. Schools and scout groups often plan outdoor activities to honor Smokey's mission of protecting our wilderness. Social media fills with Smokey birthday posts and fire safety reminders. It's amazing how one cartoon bear became such an important teacher for keeping our forests safe!",
+    "activity_question": "What is Smokey Bear's famous message about preventing forest fires?",
+    "activity_choices": [
+      "Only YOU can prevent forest fires!",
+      "Bears know best about fire safety!",
+      "Stop, drop, and roll in the forest!",
+      "Don't play with matches, kids!"
+    ],
+    "activity_answer": "Only YOU can prevent forest fires!",
+    "bonus_fact": "Smokey Bear has his own ZIP code for receiving fan mail!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "905",
+    "title": "South Africa's Amazing Women's Day",
+    "story": "Every August 9, South Africa celebrates National Women's Day to honor the brave women who fought for equality and freedom. People across the country hold parades, give speeches, and share stories about inspiring women leaders. Schools teach students about women's history, while families gather to celebrate the strong women in their lives. Many South Africans wear traditional clothing and attend community festivals filled with music, dancing, and delicious food to mark this special day.",
+    "activity_question": "How do South Africans typically celebrate National Women's Day?",
+    "activity_choices": [
+      "With parades, speeches, and community festivals",
+      "By building snowmen and drinking hot chocolate",
+      "With fireworks and barbecues on the beach",
+      "By staying home and watching movies all day"
+    ],
+    "activity_answer": "With parades, speeches, and community festivals",
+    "follow_up_question": "What inspiring women in your life would you want to celebrate on this day?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  }
+]

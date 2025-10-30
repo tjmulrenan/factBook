@@ -1,0 +1,542 @@
+[
+  {
+    "id": 383,
+    "year": "1964",
+    "original": "Rick Riordan, American author (Percy Jackson & the Olympians), born in San Antonio, Texas",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 1
+  },
+  {
+    "id": 155,
+    "year": "2024",
+    "original": "World's only surviving wild horse, the Przewalski's Horse, is returned to the Golden Steppe of Kazakhstan for the first time in over 200 years",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 2
+  },
+  {
+    "id": 321,
+    "year": "1938",
+    "original": "Marion Chapman, British \"miracle baby\", smallest known premature infant to survive (280 g) at the time, born in South Shields, England (d. 1983)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 3
+  },
+  {
+    "id": 113,
+    "year": "1988",
+    "original": "Kay Cottee sails into Sydney as the first woman to circle the globe alone",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 4
+  },
+  {
+    "id": 287,
+    "year": "1919",
+    "original": "Richard Scarry, American children's author and illustrator (What Do People Do All Day?), born in Boston, Massachusetts (d. 1994)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 5
+  },
+  {
+    "id": 173,
+    "year": "1949",
+    "original": "Enid Blyton's wooden toy character Noddy first appears in the \"Sunday Graphic\"",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 6
+  },
+  {
+    "id": 160,
+    "year": "1833",
+    "original": "Future 1st computer programmerAda Lovelacemeets mathematician and inventorCharles Babbage",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 7
+  },
+  {
+    "id": 122,
+    "year": "1995",
+    "original": "The Bose-Einstein condensate is first created",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 8
+  },
+  {
+    "id": 29,
+    "year": "1876",
+    "original": "Bananas become popular in the US at the Centennial Exposition in Philadelphia",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 9
+  },
+  {
+    "id": 185,
+    "year": "1977",
+    "original": "National Council of Women of Kenya led byWangari Maathaimarch to Kamukunji Park, Nairobi, and plant seven trees - beginning of the Green Belt Movement",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 10
+  },
+  {
+    "id": 318,
+    "year": "1938",
+    "original": "Allan Ahlberg, British children's author with his wife Janet (The Jolly Postman, Each Peach Pear Plum, Funnybones), born in Croydon, England (d. 2025)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 11
+  },
+  {
+    "id": 114,
+    "year": "1988",
+    "original": "Longest champagne cork flight is 177 feet 9 inches in New York",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 12
+  },
+  {
+    "id": 95,
+    "year": "1975",
+    "original": "48th US National Spelling Bee: Hugh Tosteson wins spelling incisor",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 15
+  },
+  {
+    "id": 10,
+    "year": "1805",
+    "original": "First recorded tornado in \"Tornado Alley\" (Southern Illinois)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 14
+  },
+  {
+    "id": 153,
+    "year": "2024",
+    "original": "Boeing Starliner's Crew Flight Test mission launches aboard an Atlas V rocket from Cape Canaveral with NASA astronauts Butch Wilmore and Suni Williams",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 16
+  },
+  {
+    "id": 159,
+    "year": "1799",
+    "original": "NaturalistsAlexander von HumboldtandAimé Bonplandset sail in the Pizarro from A Coruña, Spain, beginning their 5 year expedition to Latin American",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 17
+  },
+  {
+    "id": 328,
+    "year": "1941",
+    "original": "Martha Argerich, Argentine-Swiss classical piano prodigy (concert debut at age 8; Chopin Competition winner, 1964), born in Buenos Aires, Argentina",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 18
+  },
+  {
+    "id": 148,
+    "year": "2019",
+    "original": "On average, people ingest 50,000 pieces of microplastic a year and breathe in similar amount, according to first-ever such study published in journal \"Environmental Science and Technology\"",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 19
+  },
+  {
+    "id": 243,
+    "year": "1853",
+    "original": "William E. Upjohn, American physician who invented dissolvable pills (Upjohn Pharmaceutical Company), born in Richland, Michigan (d. 1932)[1]",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 20
+  },
+  {
+    "id": 151,
+    "year": "2023",
+    "original": "Australian woman Kathleen Folbigg is pardoned after 20 years in prison for the murder of her four children, after new genetic research found evidence of gene disorders in the children",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 21
+  },
+  {
+    "id": 208,
+    "year": "1851",
+    "original": "Anti-slavery novel \"Uncle Tom's Cabin\" byHarriet Beecher Stowefirst published in serial form in \"The National Era\"",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 22
+  },
+  {
+    "id": 27,
+    "year": "1873",
+    "original": "Sultan Barghash bin Said, under British pressure, closes the infamous slave market of Zanzibar in present-day Tanzania",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 23
+  },
+  {
+    "id": 209,
+    "year": "1944",
+    "original": "After receiving favorable weather reports, GeneralEisenhowerdecides to proceed with the D-Day invasion on June 6",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 24
+  },
+  {
+    "id": 93,
+    "year": "1972",
+    "original": "\"If You Had Wings\" ride opens at Walt Disney World",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 26
+  },
+  {
+    "id": 118,
+    "year": "1991",
+    "original": "Space Shuttle STS 40 (Columbia 12) launched",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 27
+  },
+  {
+    "id": 104,
+    "year": "1980",
+    "original": "Soyuz T-2 carries 2 cosmonauts to Salyut 6 space station",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 28
+  },
+  {
+    "id": 132,
+    "year": "2007",
+    "original": "MESSENGER spacecraft performs a second flyby of Venus",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 29
+  },
+  {
+    "id": 127,
+    "year": "2001",
+    "original": "Tropical Storm Allison makes landfall on the upper Texas coastline as a strong tropical storm and dumps large amounts of rain over Houston, causing $5.5 billion in damages, the then costliest tropical storm in US history",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 30
+  },
+  {
+    "id": 129,
+    "year": "2003",
+    "original": "A severe heat wave across Pakistan and India reaches its peak, as temperatures exceed 50°C (122°F) in the region",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 31
+  },
+  {
+    "id": 183,
+    "year": "1975",
+    "original": "Egyptian presidentAnwar Sadatreopens Suez Canal (closed since 1967)",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 32
+  },
+  {
+    "id": 166,
+    "year": "1937",
+    "original": "Henry Fordinitiates a 32 hour work week",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 33
+  },
+  {
+    "id": 158,
+    "year": "1661",
+    "original": "Isaac Newtonadmitted as a student to Trinity College, Cambridge",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 34
+  },
+  {
+    "id": 174,
+    "year": "1952",
+    "original": "First nationally televised sporting event,Jersey Joe WalcottdefeatsEzzard Charlesin 15 rounds for the heavyweight boxing title at Municipal Stadium in Philadelphia, Pennsylvania",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 35
+  },
+  {
+    "id": 180,
+    "year": "1964",
+    "original": "Davie Jones & King Bees release debut single \"I Can't Help Thinking About Me\"; group disbands but Davie Jones goes on to success asDavid Bowie",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 36
+  },
+  {
+    "id": 360,
+    "year": "1954",
+    "original": "Michael \"Nicko\" McBrain, English heavy metal drummer (Iron Maiden - \"Bring Your Daughter To The Slaughter\"), born in London, England",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 37
+  },
+  {
+    "id": 308,
+    "year": "1932",
+    "original": "Christy Brown, Irish painter and autobiography writer (My Left Foot; Down All the Days), born in Dublin, Ireland (d. 1981)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 38
+  },
+  {
+    "id": 44,
+    "year": "1926",
+    "original": "Clevelands Indians baseball team triple-play NY Yankees & win 15-3",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 41
+  },
+  {
+    "id": 80,
+    "year": "1964",
+    "original": "Rolling Stones 1st US concert tour (with Bobby Goldsboro & Bobby Vee) debuts in San Bernadino, California",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 42
+  },
+  {
+    "id": 196,
+    "year": "1998",
+    "original": "\"The Truman Show\" is released starringJim Carrey, Laura Linney, andEd Harris",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 43
+  },
+  {
+    "id": 112,
+    "year": "1988",
+    "original": "1st Children's Miracle Network Telethon raises $590,000",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 44
+  },
+  {
+    "id": 48,
+    "year": "1934",
+    "original": "1st formal meeting of Baker Street Irregulars (NYC)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 45
+  },
+  {
+    "id": 64,
+    "year": "1944",
+    "original": "As part of Operation Tonga, the 1st British gliders touch down on French soil to prepare for the D-Day invasion",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 46
+  },
+  {
+    "id": 139,
+    "year": "2015",
+    "original": "6.0 magnitude earthquake (strongest to affect Malaysia since 1978) strikes Ranau, Sabah, Malaysia, killing 18 people on Mount Kinabalu",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 47
+  },
+  {
+    "id": 152,
+    "year": "2023",
+    "original": "In western Haiti heavy rain and flooding leaves at least 42 people dead and thousands displaced",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 48
+  },
+  {
+    "id": 204,
+    "year": "2021",
+    "original": "Turkish President Recep TayyipErdoganpromises to save the country's shores from a build-up of 'sea snot' (marine mucilage) due to pollution and climate change",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 49
+  },
+  {
+    "id": 138,
+    "year": "2014",
+    "original": "MLB Draft: Cathedral Catholic HS (CA) pitcher Brady Aiken first pick by Houston Astros",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 51
+  },
+  {
+    "id": 197,
+    "year": "2011",
+    "original": "American actressChloë Grace Moretzwins three MTV Movie & TV Awards: Best Breakthrough Performance, Best Hero, and Biggest Badass Star",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 52
+  },
+  {
+    "id": 186,
+    "year": "1981",
+    "original": "George Harrisonreleases \"Somewhere in England\", his ninth studio album, includesJohn Lennontribute \"All Those Years Ago\" (Featuring Paul and Ringo)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 53
+  },
+  {
+    "id": 81,
+    "year": "1965",
+    "original": "\"Wooly Bully\" by Sam the Sham & Pharaohs hits #2",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 54
+  },
+  {
+    "id": 68,
+    "year": "1948",
+    "original": "\"(Ghost) Riders in the Sky: A Cowboy Legend\" single released by Stan Jones",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 55
+  },
+  {
+    "id": 189,
+    "year": "1986",
+    "original": "San Diego PadreSteve Garveyejected for 1st time in his 16 year MLB career for arguing about Atlanta's triple play",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 56
+  },
+  {
+    "id": 70,
+    "year": "1952",
+    "original": "Test Cricket debut of Freddie Trueman v India at Headingley",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 61
+  },
+  {
+    "id": 106,
+    "year": "1981",
+    "original": "World's first today in history program with editable data \"TODAY\", invented by Michael Butler runs for the first time on a mainframe computer",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 62
+  },
+  {
+    "id": 69,
+    "year": "1950",
+    "original": "US Supreme Court undermines legal foundations of segregation",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 63
+  },
+  {
+    "id": 74,
+    "year": "1956",
+    "original": "US Federal court rules racial segregation on Montgomery buses anti-Constitutional",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 64
+  },
+  {
+    "id": 32,
+    "year": "1888",
+    "original": "Unusual Rio de la Plata Earthquake measures magnitude 5.5",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 65
+  },
+  {
+    "id": 66,
+    "year": "1946",
+    "original": "Dutch comic strip \"Eric de Noorman\" by Hans G. Kresse is launched",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 66
+  },
+  {
+    "id": 85,
+    "year": "1967",
+    "original": "Royal Canadian Mint is ordered to start converting 10-cent and 25-cent coins to pure nickel as soon as possible",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 67
+  },
+  {
+    "id": 90,
+    "year": "1970",
+    "original": "Chile becomes a member of the Berne Convention copyright treaty",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 68
+  },
+  {
+    "id": 227,
+    "year": "1760",
+    "original": "Johan Gadolin, Finnish chemist (discovered yttrium), born in Turku, Finland (d. 1852)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 69
+  }
+]

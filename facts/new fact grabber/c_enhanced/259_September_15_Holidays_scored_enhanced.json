@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Twirl and Swirl Linguine Day!",
+    "story": "Every September 15, pasta lovers celebrate National Linguine Day by twirling their forks in bowls of delicious flat noodles! Linguine means \"little tongues\" in Italian, and people mark this tasty holiday by cooking their favorite linguine recipes. Restaurants offer special linguine dishes, families share pasta dinners, and food bloggers post photos of their creamy, saucy creations online.",
+    "activity_question": "What does the word 'linguine' mean in Italian?",
+    "activity_choices": [
+      "Little tongues",
+      "Flat ribbons",
+      "Twisted ropes",
+      "Dancing noodles"
+    ],
+    "activity_answer": "Little tongues",
+    "follow_up_question": "What's your favorite sauce to eat with linguine noodles?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "902",
+    "title": "Hats Off to Felt Hat Day!",
+    "story": "Every September 15, hat lovers everywhere tip their caps for National Felt Hat Day! People dig out their favorite felt fedoras, bowlers, and berets to show off these classic accessories. Hat shops offer special deals, and social media fills with photos of people wearing everything from vintage detective hats to colorful winter beanies. It's the perfect day to channel your inner movie star or detective!",
+    "activity_question": "What do hat shops typically do on National Felt Hat Day?",
+    "activity_choices": [
+      "Offer special deals",
+      "Close early for the day",
+      "Only sell baseball caps",
+      "Give away free pizza"
+    ],
+    "activity_answer": "Offer special deals",
+    "bonus_fact": "Felt is made by pressing wool fibers together without weaving them!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "903",
+    "title": "Double the Cheese, Double the Fun!",
+    "story": "Cheeseburger lovers everywhere get extra excited on September 15 because it's National Double Cheeseburger Day! This delicious holiday celebrates the ultimate comfort food - a juicy burger stacked with not one, but two slices of melted cheese. Restaurants across the country offer special deals on double cheeseburgers, and many people make their own at home with their favorite cheese combinations. Some brave eaters even try triple or quadruple cheese versions! Food bloggers share photos of their cheesiest creations on social media, making everyone's mouth water. It's the perfect day to indulge in this gooey, satisfying treat that makes any regular burger seem boring.",
+    "activity_question": "What do restaurants often offer on National Double Cheeseburger Day?",
+    "activity_choices": [
+      "Special deals on double cheeseburgers",
+      "Free cooking classes",
+      "Cheese-making demonstrations",
+      "Dancing cheese mascots"
+    ],
+    "activity_answer": "Special deals on double cheeseburgers",
+    "follow_up_question": "What's the weirdest cheese combination you'd try on a double cheeseburger?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "904",
+    "title": "Click, Learn, and Level Up Online!",
+    "story": "Students across the country fire up their computers and tablets on September 15 for National Online Learning Day! This special day celebrates all the amazing ways kids can learn through the internet. Schools host virtual field trips to museums and zoos, while families try new educational apps and online courses together. Kids might take a coding class, learn a new language, or even attend a live science experiment streamed from a laboratory. It's the perfect time to discover that learning can happen anywhere with just a click!",
+    "activity_question": "What do schools often host on National Online Learning Day?",
+    "activity_choices": [
+      "Virtual field trips to museums and zoos",
+      "Pizza parties in the cafeteria",
+      "Outdoor camping adventures",
+      "Traditional paper book readings"
+    ],
+    "activity_answer": "Virtual field trips to museums and zoos",
+    "follow_up_question": "What would be the coolest place you'd want to visit on a virtual field trip?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  }
+]

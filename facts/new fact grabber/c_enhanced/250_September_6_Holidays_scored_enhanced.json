@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Stop Putting Off Fight Procrastination Day!",
+    "story": "People who love putting things off until tomorrow get a wake-up call on September 6 with Fight Procrastination Day! This holiday encourages everyone to tackle those tasks they've been avoiding forever. People make lists of things they've been postponing, set timers to work in short bursts, and actually clean their messy rooms or finish homework early. Some folks joke that they'll celebrate this holiday \"tomorrow\" - but that defeats the whole point!",
+    "activity_question": "What do people do on Fight Procrastination Day?",
+    "activity_choices": [
+      "Take extra long naps",
+      "Tackle tasks they've been avoiding",
+      "Make excuses for being late",
+      "Plan to start things next week"
+    ],
+    "activity_answer": "Tackle tasks they've been avoiding",
+    "follow_up_question": "What's one thing you've been putting off that you could do today?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "902",
+    "title": "Page-Turning Fun on National Read a Book Day",
+    "story": "Bookworms everywhere celebrate National Read a Book Day on September 6 by diving into their favorite stories! Libraries host special reading marathons where kids compete to see who can read the most pages. Bookstores give away free bookmarks and host storytelling sessions. Many families start new traditions like reading together under blankets or swapping favorite books with friends. Teachers often let students bring pillows to school for cozy reading time, making this the perfect day to discover your next great adventure between the pages.",
+    "activity_question": "What do libraries often host on National Read a Book Day?",
+    "activity_choices": [
+      "Reading marathons",
+      "Pizza parties",
+      "Dance contests",
+      "Art classes"
+    ],
+    "activity_answer": "Reading marathons",
+    "follow_up_question": "What's the most interesting place you've ever read a book?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  }
+]

@@ -1,0 +1,542 @@
+[
+  {
+    "id": 125,
+    "year": "2018",
+    "original": "Raccoon climbs 23 story office building in St Paul, Minnesota, becoming an internet sensation",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 1
+  },
+  {
+    "id": 135,
+    "year": "2022",
+    "original": "World's largest freshwater fish, a stingray 3.98m x 2.2m caught in the Mekong river, Cambodia (tagged and released)",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 2
+  },
+  {
+    "id": 94,
+    "year": "1983",
+    "original": "NASA's Pioneer 10 becomes the 1st man-made object to leave the solar system",
+    "score": 94,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 3
+  },
+  {
+    "id": 119,
+    "year": "2015",
+    "original": "Philae, 1st spacecraft to land on a comet in European Space Agency’s Rosetta mission re-awakes after 7 months",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 4
+  },
+  {
+    "id": 36,
+    "year": "1922",
+    "original": "Longest recorded attack of hiccups begins when Charles Osborne gets the hiccups and continues for 68 years; he dies 11 months after they stop",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 5
+  },
+  {
+    "id": 308,
+    "year": "1929",
+    "original": "Ralph McQuarrie, American conceptual designer (Star Wars, E.T.), born in Gary, Indiana (d. 2012)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 6
+  },
+  {
+    "id": 133,
+    "year": "2022",
+    "original": "MIT researchers propose creating raft of \"space bubbles\" floating above the earth to reflect the sun's rays and help fight climate change",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 7
+  },
+  {
+    "id": 25,
+    "year": "1895",
+    "original": "Émile Levassor wins the first automobile race in history, the Paris-Bordeaux-Paris, taking 48 hours and 48 minutes (1,178 km)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 8
+  },
+  {
+    "id": 118,
+    "year": "2015",
+    "original": "Floods in Tbilisi, Georgia, kill 12 people and free animals from the city's zoo, including bears and hippos, to roam the city",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 9
+  },
+  {
+    "id": 96,
+    "year": "1987",
+    "original": "Daniel Buettner, Bret Anderson, Martin Engel & Anne Knabe complete cycling journey of 15,266 mi from Prudhoe Bay, Alaska to Argentina",
+    "score": 96,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 10
+  },
+  {
+    "id": 123,
+    "year": "2018",
+    "original": "Antarctica is melting at an accelerating rate - 200 billion tonnes a year, 3 trillion tonnes in 25 years, in report published in \"Nature\" journal",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 11
+  },
+  {
+    "id": 313,
+    "year": "1932",
+    "original": "Bob McGrath, American musician, singer (Sing Along With Mitch), and actor (Sesame Street, 1969-2017), born in Ottawa, Illinois (d. 2022)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 12
+  },
+  {
+    "id": 128,
+    "year": "2019",
+    "original": "Archaeologists announce Scottish crannogs (fortified settlements on artificial islands in lochs) far older than first thought, radiocarbon dated to 3640-3360 BC, older than Stonehenge",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 13
+  },
+  {
+    "id": 102,
+    "year": "1990",
+    "original": "Boeing 767-200ER sets a non-stop commercial flight record, flying 9,253 miles nonstop from Seattle to Nairobi, Kenya",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 14
+  },
+  {
+    "id": 29,
+    "year": "1907",
+    "original": "Lowest temperature ever in 48 US states for June, 2°F in Tamarack, California",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 15
+  },
+  {
+    "id": 9,
+    "year": "1777",
+    "original": "Leonard Norcross patents a submarine diving suit",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 16
+  },
+  {
+    "id": 41,
+    "year": "1925",
+    "original": "Charles Jenkins demonstrates the transmission of synchronized pictures and sound (early television)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 17
+  },
+  {
+    "id": 219,
+    "year": "1792",
+    "original": "William Austin Burt, American scientist, surveyor and inventor who patented America's first typographer (typewriter) and the equatorial sextant, born in Petersham, Massachusetts (d. 1858)",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 18
+  },
+  {
+    "id": 85,
+    "year": "1973",
+    "original": "Garvey, Lopes, Cey & Russell play together for 1st time, set record of staying together as an infield for 8½ years (LA Dodgers)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 44
+  },
+  {
+    "id": 250,
+    "year": "1879",
+    "original": "Lois Weber, American film director who became the first woman to direct a full feature-length film (The Merchant of Venice) and the first to own her own studio, born in Allegheny City, Pennsylvania (d. 1939)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 20
+  },
+  {
+    "id": 160,
+    "year": "1967",
+    "original": "Thurgood Marshallnominated as 1st African American Supreme Court justice",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 21
+  },
+  {
+    "id": 167,
+    "year": "1980",
+    "original": "UN Security Council calls for South Africa to freeNelson Mandela",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 22
+  },
+  {
+    "id": 188,
+    "year": "2007",
+    "original": "First large-scale exhibition of Mexican artistFrida Kahlo's work in Mexico opens at Palacio de Bellas Artes on the 100th anniversary of her birth",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 23
+  },
+  {
+    "id": 260,
+    "year": "1894",
+    "original": "Leo Kanner, Austrian-American psychiatrist and social activist known for his work related to autism, born in Klekotów, Austria-Hungary (d. 1981)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 24
+  },
+  {
+    "id": 215,
+    "year": "1773",
+    "original": "Thomas Young, British physician and physicist (light interference), born in Milverton, Somerset, England (d. 1829)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 25
+  },
+  {
+    "id": 299,
+    "year": "1926",
+    "original": "Jerome Lejeune, French physician and geneticist (discovered chromosome responsible for Downs Syndrome), born in Montrouge, France (d. 1994)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 26
+  },
+  {
+    "id": 280,
+    "year": "1911",
+    "original": "Luis Alvarez, American physicist (subatomic particles, Nobel 1968), born in San Francisco, California (d. 1988)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 27
+  },
+  {
+    "id": 12,
+    "year": "1854",
+    "original": "Anthony Faas, of Philadelphia, Pennsylvania, patents the 1st US accordion, having made improvements to both the keyboard, and to enhance the sound (Patent No. 11,062)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 28
+  },
+  {
+    "id": 20,
+    "year": "1881",
+    "original": "The USS Jeannette, under the command of George Washington De Long, sinks in the Arctic circle following 21 months of drifting after becoming trapped in the ice",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 29
+  },
+  {
+    "id": 233,
+    "year": "1854",
+    "original": "Charles Algernon Parsons, British inventor (steam turbine), born in London (d. 1931)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 30
+  },
+  {
+    "id": 51,
+    "year": "1942",
+    "original": "1st V-2 rocket launch, Peenemunde, Germany; reached 1.3 km",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 31
+  },
+  {
+    "id": 137,
+    "year": "2023",
+    "original": "Stanley Cup Final, T-Mobile Arena, Las Vegas, NV: Vegas Golden Knights rout Florida Panthers 9-3 to clinch 4-1 series win; franchise's first title in only 6th year in the NHL; MVP: Jonathan Marchessault (VGK forward)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 32
+  },
+  {
+    "id": 90,
+    "year": "1979",
+    "original": "Sioux nation receives $100 million in compensation for Black Hills, South Dakota",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 33
+  },
+  {
+    "id": 321,
+    "year": "1935",
+    "original": "Christo [Javacheff], Bulgarian artist and wrapper (Running Fence, Wrapped Reichstag), born in Gabrovo, Kingdom of Bulgaria (d. 2020)",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 34
+  },
+  {
+    "id": 327,
+    "year": "1939",
+    "original": "Siegfried Fischbacher, German American entertainer and magician (Siegfried and Roy), born in Rosenheim, Germany (d. 2021)[1][2]",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 35
+  },
+  {
+    "id": 74,
+    "year": "1964",
+    "original": "Basil Heatley runs world record marathon (2:13:55)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 36
+  },
+  {
+    "id": 156,
+    "year": "1953",
+    "original": "Jim Petersruns world record marathon (2:18:40.2)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 37
+  },
+  {
+    "id": 88,
+    "year": "1976",
+    "original": "German sprinter Inge Helten runs female WR 100m (11.04) at Fürth, West Germany",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 38
+  },
+  {
+    "id": 180,
+    "year": "1995",
+    "original": "MLB Cleveland Indians'Dennis Martínezno-hits Baltimore Orioles 11-0,",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 39
+  },
+  {
+    "id": 190,
+    "year": "2012",
+    "original": "San Francisco Giants' Matt Cain pitches first perfect game in the franchise's history against the Houston Astros",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 40
+  },
+  {
+    "id": 153,
+    "year": "1935",
+    "original": "10-to-1 underdogJames J. Braddockupsets defending championMax Baerin a 15 round unanimous points decision at Madison Square Garden, NYC for the world heavyweight boxing title",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 41
+  },
+  {
+    "id": 148,
+    "year": "1905",
+    "original": "New York Giants future Baseball Hall of Fame pitcherChristy Mathewsonthrows his 2nd no-hitter, beating Chicago Cubs, 1-0 at West Side Grounds, Chicago",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 43
+  },
+  {
+    "id": 301,
+    "year": "1927",
+    "original": "Angela Alvarez (née Portilla), Cuban-American Latin jazz singer-songwriter who won a Latin Grammy Award at 95, born in Camagüey, Cuba (d. 2024)[1]",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 45
+  },
+  {
+    "id": 294,
+    "year": "1922",
+    "original": "Ed Shames, US Army paratrooper (WWII), and last surviving officer of the Band of Brothers (101st Airborne-Easy Company 506th Regiment), born in Norfolk, Virginia (d. 2021)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 46
+  },
+  {
+    "id": 151,
+    "year": "1927",
+    "original": "Ticker-tape parade welcomes aviatorCharles Lindberghto NYC",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 47
+  },
+  {
+    "id": 186,
+    "year": "2002",
+    "original": "Stanley Cup Final, Joe Louis Arena, Detroit, MI: Detroit Red Wings beat Carolina Hurricanes, 3-1 for a 4-1 series win; Red Wings' 10th title; coachScotty Bowmanretires with record 9th title",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 48
+  },
+  {
+    "id": 184,
+    "year": "2000",
+    "original": "South Korean PresidentKim Dae-jungmeets North Korean dictatorKim Jong-ilfor the beginning of the first-ever inter-Korean summit in the northern capital of Pyongyang",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 49
+  },
+  {
+    "id": 142,
+    "year": "1777",
+    "original": "Marquis de Lafayettelands in the US",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 50
+  },
+  {
+    "id": 16,
+    "year": "1866",
+    "original": "US House of Representatives passes the 14th Amendment (Civil Rights)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 51
+  },
+  {
+    "id": 17,
+    "year": "1868",
+    "original": "Oscar Dunn becomes first African American to be elected a Lieutenant Governor, of Louisiana",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 52
+  },
+  {
+    "id": 8,
+    "year": "1774",
+    "original": "Rhode Island becomes first colony to prohibit importation of slaves",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 53
+  },
+  {
+    "id": 21,
+    "year": "1886",
+    "original": "Fire destroys nearly 1,000 buildings in Vancouver, British Columbia",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 54
+  },
+  {
+    "id": 23,
+    "year": "1889",
+    "original": "Two feet of snow accumulates in Rawlins, Wyoming",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 55
+  },
+  {
+    "id": 18,
+    "year": "1871",
+    "original": "Hurricane kills 300 in Labrador",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 56
+  },
+  {
+    "id": 69,
+    "year": "1957",
+    "original": "Mayflower II from Plymouth, England, reaches Plymouth, Massachusetts",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 57
+  },
+  {
+    "id": 59,
+    "year": "1946",
+    "original": "First transcontinental round-trip flight in one day, from California to Maryland",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 58
+  },
+  {
+    "id": 30,
+    "year": "1910",
+    "original": "Pilot Charles Hamilton makes 1st 1-day round-trip from NY to Philadelphia",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 59
+  },
+  {
+    "id": 45,
+    "year": "1933",
+    "original": "First sodium vapor lamps installed in the US in Schenectady, NY",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 60
+  },
+  {
+    "id": 240,
+    "year": "1868",
+    "original": "Wallace Sabine, American physicist (father of architectural acoustics), born in Richwood, Ohio (d. 1919)[1]",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 61
+  },
+  {
+    "id": 245,
+    "year": "1875",
+    "original": "Miriam (Ma) Ferguson, US politician, 1st US elected woman governor, Governor of Texas (1925-27, 1933-35), born in Bell County, Texas (d. 1961)",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 62
+  }
+]

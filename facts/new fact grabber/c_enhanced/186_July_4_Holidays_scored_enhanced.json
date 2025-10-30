@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Fireworks, Freedom, and Fun!",
+    "story": "Red, white, and blue decorations cover every street as Americans celebrate their country's birthday on July 4! Families fire up grills for backyard barbecues, munching on hot dogs and hamburgers while kids wave tiny flags. Parades march through towns with marching bands, fire trucks, and people dressed as Uncle Sam. As the sun sets, everyone gathers in parks and backyards to watch spectacular fireworks light up the night sky. It's the ultimate summer celebration of freedom and independence!",
+    "activity_question": "What do families typically cook at Independence Day celebrations?",
+    "activity_choices": [
+      "Hot dogs and hamburgers",
+      "Thanksgiving turkey",
+      "Birthday cake and ice cream",
+      "Pizza and spaghetti"
+    ],
+    "activity_answer": "Hot dogs and hamburgers",
+    "follow_up_question": "What would you add to make the perfect Independence Day celebration?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "902",
+    "title": "Boots, Banjos, and Big Country Hearts",
+    "story": "Every July 4, country music fans celebrate National Country Music Day by cranking up their favorite tunes about trucks, heartbreak, and small-town life. People wear cowboy boots and hats, attend outdoor concerts, and share videos of themselves line dancing or playing guitar. Radio stations play classic hits from legends like Johnny Cash and Dolly Parton alongside today's biggest stars. Many fans post photos with their guitars or sing along to their favorite country songs on social media. It's the perfect day to appreciate music that tells stories about real life, family, and following your dreams.",
+    "activity_question": "What do country music fans often wear when celebrating National Country Music Day?",
+    "activity_choices": [
+      "Cowboy boots and hats",
+      "Superhero costumes",
+      "Formal tuxedos",
+      "Swimming suits"
+    ],
+    "activity_answer": "Cowboy boots and hats",
+    "bonus_fact": "Nashville, Tennessee is known as the country music capital of the world.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "903",
+    "title": "Lettuce Celebrate Caesar Salad Day!",
+    "story": "Crispy romaine lettuce gets tossed with creamy dressing and crunchy croutons every July 4 for National Caesar Salad Day! This famous salad was actually invented by a chef named Caesar Cardini, not the Roman emperor. Today, restaurants serve millions of Caesar salads, and families make their own versions at home. Some people add grilled chicken or shrimp to make it a full meal!",
+    "activity_question": "Who was Caesar salad named after?",
+    "activity_choices": [
+      "A Roman emperor",
+      "A chef named Caesar Cardini",
+      "A talking lettuce head",
+      "Julius Caesar"
+    ],
+    "activity_answer": "A chef named Caesar Cardini",
+    "bonus_fact": "The original Caesar salad was mixed right at your table by the waiter!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "904",
+    "title": "Sizzling Sidewalk Egg Frying Fun",
+    "story": "People across America grab eggs and head outside on July 4 to see if they can actually cook breakfast on hot pavement! National Sidewalk Egg Frying Day challenges everyone to test whether sidewalks get hot enough to fry an egg. Families spread out on driveways, parking lots, and sidewalks with raw eggs, timers, and cameras ready. Some crack eggs directly onto the concrete, while others use pans or aluminum foil to avoid the mess. The goal is to cook the egg using only heat from the sun-baked ground. Most eggs don't fully cook since sidewalks rarely reach the 160 degrees needed, but that doesn't stop people from trying! Social media fills with photos of gooey experiments and occasional success stories from the hottest places.",
+    "activity_question": "What temperature do sidewalks need to reach to properly fry an egg?",
+    "activity_choices": [
+      "160 degrees",
+      "100 degrees",
+      "200 degrees",
+      "75 degrees"
+    ],
+    "activity_answer": "160 degrees",
+    "bonus_fact": "Phoenix, Arizona holds the record for most successful sidewalk egg frying attempts!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 92
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "original": "World Tourism Day",
+    "score": 55,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "National Chocolate Milk Day",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "National Corned Beef Hash Day",
+    "score": 60,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "National Crush a Can Day",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 5,
+    "original": "National Gay Men's HIV/AIDS Awareness Day",
+    "score": 40,
+    "is_kid_friendly": false
+  }
+]

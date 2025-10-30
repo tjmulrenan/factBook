@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Cracking Up for National Egg Day",
+    "story": "Every June 3, people across the country celebrate National Egg Day by whipping up their favorite egg dishes! Restaurants offer special egg-themed menus, from fluffy omelets to perfectly poached eggs Benedict. Home cooks get creative with scrambled eggs, deviled eggs, and egg salad sandwiches. Social media fills with photos of colorful breakfast plates and fancy egg recipes. Some families even host egg-cooking contests to see who can make the most delicious dish!",
+    "activity_question": "What do restaurants often offer on National Egg Day?",
+    "activity_choices": [
+      "Special egg-themed menus",
+      "Free ice cream sundaes",
+      "Pizza cooking classes",
+      "Vegetable smoothies only"
+    ],
+    "activity_answer": "Special egg-themed menus",
+    "bonus_fact": "Americans eat about 280 eggs per person every year!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "902",
+    "title": "Macaroon Madness Takes Over Kitchens",
+    "story": "Sweet coconut clouds are taking over kitchens everywhere on June 3! National Chocolate Macaroon Day celebrates these chewy, chocolatey treats that look like little haystacks. People bake batches of macaroons using shredded coconut, egg whites, and chocolate chips, then share photos of their creations online. Bakeries offer special flavors like double chocolate or chocolate-dipped varieties. Some families make it a tradition to let kids help roll the sticky mixture into balls before baking.",
+    "activity_question": "What main ingredient gives macaroons their chewy texture?",
+    "activity_choices": [
+      "Shredded coconut",
+      "Chocolate chips",
+      "Vanilla extract",
+      "Rainbow sprinkles"
+    ],
+    "activity_answer": "Shredded coconut",
+    "bonus_fact": "Macaroons are naturally gluten-free, making them perfect for everyone to enjoy!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "903",
+    "title": "Say It Again: National Repeat Day",
+    "story": "On June 3, people celebrate National Repeat Day by saying things twice, twice! This quirky holiday encourages everyone to repeat their words, actions, or favorite activities. Some folks tell the same joke twice in a row, while others eat their favorite meal for both lunch and dinner. Social media fills with duplicate posts, and friends playfully echo each other's sentences. Teachers might read the same story twice, and kids love playing games where they have to copy everything their partner does. It's a fun way to emphasize the things we really enjoy!",
+    "activity_question": "What do people often do on social media during National Repeat Day?",
+    "activity_choices": [
+      "Post duplicate content",
+      "Delete all their photos",
+      "Change their usernames twice",
+      "Only post pictures of mirrors"
+    ],
+    "activity_answer": "Post duplicate content",
+    "follow_up_question": "What's your favorite thing that you'd want to repeat twice in one day?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "904",
+    "title": "Bug Off Day!",
+    "story": "Every June 3, people celebrate Insect Repellent Awareness Day by learning how to keep pesky bugs away! Families stock up on sprays, lotions, and citronella candles before summer camping trips and backyard barbecues. Some people test out natural bug repellents made from peppermint oil or lemon grass, while others stick to store-bought sprays that smell like chemicals but work like magic against mosquitoes and ticks.",
+    "activity_question": "What are some ways people repel insects on this day?",
+    "activity_choices": [
+      "Sprays, lotions, and citronella candles",
+      "Loud music and bright lights",
+      "Dancing and singing",
+      "Wearing polka-dot clothes"
+    ],
+    "activity_answer": "Sprays, lotions, and citronella candles",
+    "bonus_fact": "Citronella candles can keep bugs away up to 6 feet around them!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  }
+]

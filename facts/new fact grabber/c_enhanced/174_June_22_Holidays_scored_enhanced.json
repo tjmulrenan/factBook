@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Eclair Excitement Day!",
+    "story": "Pastry lovers unite every June 22 for National Chocolate Eclair Day! These delicious French treats are long, cream-filled pastries topped with rich chocolate glaze. Bakeries across the country celebrate by creating special eclair flavors like vanilla, coffee, or even strawberry cream. Many cafes offer buy-one-get-one deals or eclair decorating contests for kids. Food bloggers share photos of towering eclair displays, while home bakers try making their own using choux pastry dough. Some restaurants even serve giant eclairs meant for sharing! It's the perfect excuse to indulge in this elegant dessert that's both fancy and fun to eat.",
+    "activity_question": "What type of pastry dough is used to make eclairs?",
+    "activity_choices": [
+      "Choux pastry dough",
+      "Pizza dough",
+      "Cookie dough",
+      "Pie crust dough"
+    ],
+    "activity_answer": "Choux pastry dough",
+    "bonus_fact": "The word 'eclair' means 'lightning' in French because they're eaten so quickly!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Ring in the Crispy Goodness!",
+    "story": "Golden circles of crunchy perfection take center stage every June 22 on National Onion Rings Day! Restaurants across the country celebrate by offering special deals on these beloved fried treats. Food lovers post mouth-watering photos of towering onion ring stacks on social media, while diners debate the ultimate question: thick-cut or thin, beer batter or breadcrumb coating? Some brave souls even attempt homemade versions, turning their kitchens into sizzling onion ring factories. Fast food chains join the fun with limited-time flavors and extra-large portions that could double as golden bracelets!",
+    "activity_question": "What do restaurants often do to celebrate National Onion Rings Day?",
+    "activity_choices": [
+      "Offer special deals on onion rings",
+      "Give away free onion ring jewelry",
+      "Host onion peeling contests",
+      "Only serve rings shaped like hearts"
+    ],
+    "activity_answer": "Offer special deals on onion rings",
+    "follow_up_question": "What's your favorite dipping sauce for onion rings?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "903",
+    "title": "Trees Get Their Own Party Day!",
+    "story": "Every June 22, people around the world celebrate World Rainforest Day by learning about these amazing green giants! Rainforests are like nature's supermarkets, filled with colorful birds, sneaky jaguars, and millions of insects. On this special day, schools organize tree-planting events, families watch nature documentaries about tropical animals, and kids create rainforest dioramas with toy monkeys and paper leaves. Many people share photos of lush forests on social media to spread awareness. Some communities even host \"rainforest walks\" in local parks, pretending they're explorers discovering new species. It's a day to remember that these incredible forests need our protection!",
+    "activity_question": "What do schools often organize on World Rainforest Day?",
+    "activity_choices": [
+      "Tree-planting events",
+      "Pizza parties",
+      "Math competitions",
+      "Dance recitals"
+    ],
+    "activity_answer": "Tree-planting events",
+    "follow_up_question": "What's one thing you could do to help protect rainforests?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "904",
+    "title": "Standing Up for What's Right Day",
+    "story": "Anti-Fascism Day on June 22 brings people together to celebrate freedom and fairness for everyone. Communities organize peaceful marches, educational events, and discussions about treating all people with respect and kindness. Schools might host special assemblies where students learn about heroes who stood up against bullies and unfair leaders throughout history. Many families use this day to talk about the importance of speaking up when someone is being treated badly. People share stories of courage on social media and wear symbols of unity like rainbow pins or peace signs.",
+    "activity_question": "What do communities often organize on Anti-Fascism Day?",
+    "activity_choices": [
+      "Peaceful marches and educational events",
+      "Giant food fights",
+      "Video game tournaments",
+      "Pet costume contests"
+    ],
+    "activity_answer": "Peaceful marches and educational events",
+    "follow_up_question": "How can kids your age stand up for fairness in their everyday lives?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  }
+]

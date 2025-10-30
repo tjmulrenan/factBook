@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Celebrating Our Colorful World Together",
+    "story": "People around the globe celebrate World Day for Cultural Diversity for Dialogue and Development every May 21! On this special day, communities organize festivals showcasing different foods, music, dances, and traditions from various cultures. Schools might host international potluck lunches where students bring dishes from their family's heritage. Museums offer free cultural exhibits, and social media fills with photos of traditional clothing and celebrations from every corner of the world.",
+    "activity_question": "What might schools do to celebrate this cultural holiday?",
+    "activity_choices": [
+      "Host international potluck lunches",
+      "Cancel all classes for the day",
+      "Only serve pizza in the cafeteria",
+      "Ban all cultural decorations"
+    ],
+    "activity_answer": "Host international potluck lunches",
+    "follow_up_question": "What tradition from your family's culture would you most want to share with friends?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "902",
+    "title": "Berry Delicious Strawberries and Cream Day",
+    "story": "Sweet red strawberries get dunked in fluffy whipped cream every May 21 for National Strawberries and Cream Day! People celebrate by making this classic combo at home, ordering it at restaurants, or sharing photos of their creamy creations online. Some families pick fresh strawberries at farms, then rush home to whip up cream for the perfect pairing. Tennis fans especially love this day since strawberries and cream is the famous snack at Wimbledon tournaments. Whether you dip, drizzle, or dollop, this fruity holiday makes everyone smile with its simple sweetness.",
+    "activity_question": "What do tennis fans connect with strawberries and cream?",
+    "activity_choices": [
+      "Wimbledon tournaments",
+      "Basketball games",
+      "Swimming meets",
+      "Soccer matches"
+    ],
+    "activity_answer": "Wimbledon tournaments",
+    "bonus_fact": "Americans eat about 8 pounds of strawberries per person each year!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "903",
+    "title": "Serving Up Some Appreciation!",
+    "story": "Servers everywhere get extra smiles and thank-yous on May 21 during National Waiters and Waitresses Day! People celebrate by being extra kind to restaurant staff, leaving bigger tips, and posting appreciation messages online. Some restaurants even throw special parties for their hardworking teams who bring food, refill drinks, and make dining out fun every single day.",
+    "activity_question": "How do people celebrate National Waiters and Waitresses Day?",
+    "activity_choices": [
+      "By being extra kind and leaving bigger tips",
+      "By cooking all their meals at home",
+      "By opening new restaurants",
+      "By wearing special uniforms"
+    ],
+    "activity_answer": "By being extra kind and leaving bigger tips",
+    "bonus_fact": "Some servers can carry up to 10 plates at once!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 50
+  },
+  {
+    "id": "904",
+    "title": "Heroes in Red Cross Action",
+    "story": "Every May 21, people honor American Red Cross Founder's Day by celebrating the amazing work of Red Cross volunteers. Communities organize blood drives, first aid training sessions, and disaster preparedness workshops. Many people share stories on social media about how the Red Cross helped their families during emergencies or natural disasters.",
+    "activity_question": "What do communities often organize on American Red Cross Founder's Day?",
+    "activity_choices": [
+      "Blood drives and first aid training",
+      "Pizza parties and movie nights",
+      "Dance competitions and talent shows",
+      "Video game tournaments"
+    ],
+    "activity_answer": "Blood drives and first aid training",
+    "bonus_fact": "The Red Cross symbol is recognized worldwide as a sign of help and safety.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 45
+  }
+]

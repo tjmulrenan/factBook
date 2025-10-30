@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "original": "National S'mores Day",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "World Lion Day",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "National Shapewear Day",
+    "score": 35,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 4,
+    "original": "Spoil Your Dog Day",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 5,
+    "original": "World Biodiesel Day",
+    "score": 55,
+    "is_kid_friendly": true
+  }
+]

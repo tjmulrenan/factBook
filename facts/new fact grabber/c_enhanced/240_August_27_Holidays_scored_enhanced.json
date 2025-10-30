@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Just Because Day: No Reason Required!",
+    "story": "Every August 27, people celebrate National Just Because Day by doing random acts of kindness and fun things for absolutely no reason at all! You might surprise your mom with flowers, call a friend to say hi, or treat yourself to ice cream before dinner. The whole point is doing nice things without needing a special occasion or excuse. Some families have dance parties in their living rooms, while others bake cookies for neighbors they barely know. It's the perfect day to be spontaneous and spread joy just because you feel like it!",
+    "activity_question": "What is the main idea behind National Just Because Day?",
+    "activity_choices": [
+      "Doing nice things for no special reason",
+      "Celebrating your birthday twice a year",
+      "Only eating dessert all day long",
+      "Writing thank you notes to teachers"
+    ],
+    "activity_answer": "Doing nice things for no special reason",
+    "follow_up_question": "What random act of kindness would you do just because you wanted to?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "902",
+    "title": "Creamy Dreams in Tiny Cups",
+    "story": "Spoons clink against tiny cups across America every August 27 as people celebrate National Pots De Creme Day! This fancy French dessert is like pudding's elegant cousin - super creamy, rich, and served in adorable little cups or ramekins. Restaurants add special pots de creme to their menus, while home bakers whip up chocolate, vanilla, or caramel versions in their kitchens. The name means \"pots of cream\" in French, and that's exactly what you get - silky smooth custard that melts on your tongue. Food bloggers share their favorite recipes online, making this classy treat accessible to everyone.",
+    "activity_question": "What does \"pots de creme\" mean in English?",
+    "activity_choices": [
+      "Pots of cream",
+      "Sweet dreams",
+      "Tiny treasures",
+      "French pudding"
+    ],
+    "activity_answer": "Pots of cream",
+    "bonus_fact": "Pots de creme is traditionally baked in a water bath to keep the texture perfectly smooth.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "903",
+    "title": "Going Bananas for Banana Lovers Day!",
+    "story": "Banana fans everywhere celebrate National Banana Lovers Day on August 27 by eating their favorite yellow fruit in every way possible! People share banana recipes online, from classic banana bread and smoothies to creative banana pizza and ice cream sundaes. Grocery stores often put bananas on sale, and some restaurants create special banana-themed menu items just for the day. Social media fills up with photos of banana splits, funny banana jokes, and even people dressed in yellow to honor their favorite fruit. It's the perfect excuse to go bananas and enjoy this potassium-packed snack that monkeys and humans both love!",
+    "activity_question": "What do people often share online during National Banana Lovers Day?",
+    "activity_choices": [
+      "Banana recipes and photos",
+      "Pictures of their pets",
+      "Math homework answers",
+      "Weather reports"
+    ],
+    "activity_answer": "Banana recipes and photos",
+    "bonus_fact": "Bananas are actually berries, but strawberries aren't!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  }
+]

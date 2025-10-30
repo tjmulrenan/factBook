@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "original": "National Wine Day",
+    "score": 25,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 2,
+    "original": "National Tap Dance Day",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "Towel Day",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "Geek Pride Day",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 5,
+    "original": "National Missing Children's Day",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 6,
+    "original": "World Thyroid Day",
+    "score": 35,
+    "is_kid_friendly": false
+  }
+]

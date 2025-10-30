@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Chill Out with National Iced Tea Day",
+    "story": "Every June 10, people across America celebrate National Iced Tea Day by sipping their favorite cold tea blends! Restaurants offer special iced tea flavors, from classic sweet tea to fruity peach and raspberry mixes. Families host backyard tea parties with pitchers of refreshing drinks, while cafes create Instagram-worthy iced tea creations with colorful layers and fun toppings. Some people even try making their own unique flavors at home, mixing different teas with fresh fruits and herbs.",
+    "activity_question": "What do cafes create on National Iced Tea Day that people love to photograph?",
+    "activity_choices": [
+      "Instagram-worthy iced tea creations with colorful layers",
+      "Giant ice cubes shaped like tea leaves",
+      "Hot tea served in frozen mugs",
+      "Tea bags that change colors"
+    ],
+    "activity_answer": "Instagram-worthy iced tea creations with colorful layers",
+    "follow_up_question": "What unusual ingredients would you add to create your own signature iced tea flavor?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  },
+  {
+    "id": "902",
+    "title": "Click, Write, Celebrate Pen Power!",
+    "story": "Every June 10, people celebrate the amazing ballpoint pen that changed writing forever! Schools, offices, and artists honor this simple tool that makes writing smooth and easy. Some people share photos of their favorite pens online, while others try writing with fancy or colorful ballpoint pens they've been saving. It's the perfect day to appreciate how this clever invention helps us write letters, take notes, and create art without messy ink spills!",
+    "activity_question": "What do people often share online on National Ballpoint Pen Day?",
+    "activity_choices": [
+      "Photos of their favorite pens",
+      "Pictures of their breakfast",
+      "Videos of dancing cats",
+      "Screenshots of video games"
+    ],
+    "activity_answer": "Photos of their favorite pens",
+    "bonus_fact": "The ballpoint pen was invented in 1938 but didn't become popular until the 1950s!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  }
+]

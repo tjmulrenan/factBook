@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Horn-y for Rhinos Day!",
+    "story": "Every September 22, people around the world celebrate World Rhino Day to help save these amazing horned giants! Zoos host special rhino talks where kids learn that rhinos can weigh as much as a small car but are surprisingly fast runners. Schools organize fundraisers by selling rhino-themed crafts and cookies. Social media fills with rhino photos and facts as people share why these prehistoric-looking animals need our protection. Some brave supporters even dress up in gray costumes with cardboard horns! The day reminds everyone that rhinos have been around for millions of years, but now only five species remain in the wild.",
+    "activity_question": "According to the story, what do some people wear to celebrate World Rhino Day?",
+    "activity_choices": [
+      "Gray costumes with cardboard horns",
+      "Real rhino horns from museums",
+      "Purple tutus and fairy wings",
+      "Safari hats and binoculars"
+    ],
+    "activity_answer": "Gray costumes with cardboard horns",
+    "bonus_fact": "A rhino's horn is made of keratin, the same stuff as your fingernails!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "902",
+    "title": "Hobbit Day: Second Breakfast and Hairy Feet",
+    "story": "Every September 22, fans around the world celebrate Hobbit Day by living like the cozy creatures from J.R.R. Tolkien's famous books! People eat multiple meals throughout the day, just like hobbits do - first breakfast, second breakfast, elevenses, lunch, afternoon tea, dinner, and supper. Some fans go barefoot to mimic hobbit feet, bake seed cakes and honey cakes, or even build tiny hobbit doors for their gardens. Libraries host reading parties where kids can learn about Middle-earth adventures. The date matches the birthday of both Bilbo and Frodo Baggins, making it the perfect day to embrace the simple hobbit life of good food, cozy homes, and grand adventures.",
+    "activity_question": "According to the story, how many meals do hobbits typically eat in a day?",
+    "activity_choices": [
+      "Three meals",
+      "Five meals",
+      "Seven meals",
+      "Twelve meals"
+    ],
+    "activity_answer": "Seven meals",
+    "follow_up_question": "What hobbit tradition would you most want to try - multiple meals or going barefoot?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "903",
+    "title": "Dear Diary Day: Secret Stories Everywhere!",
+    "story": "People around the world grab their journals and pour their hearts onto paper every September 22 for Dear Diary Day! Some write about their crushes, others share funny moments or big dreams. Kids decorate diary covers with stickers and ribbons, while teens post aesthetic journal spreads online. Libraries host writing workshops where everyone learns cool ways to keep memories alive on paper.",
+    "activity_question": "What do people commonly write about in their diaries on Dear Diary Day?",
+    "activity_choices": [
+      "Crushes, funny moments, and big dreams",
+      "Only homework assignments",
+      "Shopping lists and chores",
+      "Weather reports"
+    ],
+    "activity_answer": "Crushes, funny moments, and big dreams",
+    "follow_up_question": "What would you write about if you started keeping a diary today?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "904",
+    "title": "Streets Without Cars Day",
+    "story": "On September 22, cities around the world celebrate World Car-Free Day by closing streets to cars and opening them to people! Families walk, bike, skateboard, and roller-skate down roads that are usually packed with traffic. Some cities set up street festivals with music, food trucks, and games right in the middle of busy avenues. People discover how quiet and clean their neighborhoods can be without car engines rumbling everywhere. It's a day to try new ways of getting around while having fun with friends and neighbors on car-free streets.",
+    "activity_question": "What do cities do with their streets on World Car-Free Day?",
+    "activity_choices": [
+      "Close them to cars and open them to people",
+      "Paint them bright rainbow colors",
+      "Fill them with bouncy castles",
+      "Turn them into giant swimming pools"
+    ],
+    "activity_answer": "Close them to cars and open them to people",
+    "follow_up_question": "What would you do if your street was car-free for a whole day?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  }
+]

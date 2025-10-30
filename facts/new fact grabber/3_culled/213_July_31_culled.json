@@ -1,0 +1,542 @@
+[
+  {
+    "id": 303,
+    "year": "1923",
+    "original": "Stephanie Kwolek, American chemist and inventor (Kevlar), born in New Kensington, Pennsylvania (d. 2014)[1]",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 1
+  },
+  {
+    "id": 82,
+    "year": "1971",
+    "original": "Apollo 15 astronauts take a 6½-hour electric car ride on the Moon",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 2
+  },
+  {
+    "id": 73,
+    "year": "1964",
+    "original": "Ranger 7 takes 4,316 pictures before crashing on the Moon",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 3
+  },
+  {
+    "id": 137,
+    "year": "1999",
+    "original": "Discovery Program: Lunar Prospector - NASA intentionally crashes the spacecraft into the Moon, ending its mission to detect frozen water on the Moon's surface",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 4
+  },
+  {
+    "id": 97,
+    "year": "1980",
+    "original": "Hurricane Allen forms in the Atlantic Ocean and becomes the strongest hurricane recorded in the Atlantic Basin with winds of 190 mph (305 km/h)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 5
+  },
+  {
+    "id": 201,
+    "year": "2016",
+    "original": "“Harry Potter and the Cursed Child,\" a play by Jack Thorne with contributions byJ. K. Rowling, premieres at the Palace Theatre in London",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 6
+  },
+  {
+    "id": 199,
+    "year": "2012",
+    "original": "Michael Phelpsbecomes the greatest medal winner in Olympic history as part of the winning American 4 x 200 m freestyle relay team in London, earning his 19th career Olympic medal and 15th overall gold",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 7
+  },
+  {
+    "id": 167,
+    "year": "2024",
+    "original": "French swim sensation Léon Marchand wins two gold medals on the same day, claiming the 200 m breaststroke and 200 m butterfly at the Paris Olympics",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 8
+  },
+  {
+    "id": 206,
+    "year": "2021",
+    "original": "American swimming superstarKatie Ledeckywins the women's 800 m gold for an unprecedented third consecutive Olympics in Tokyo and claims the distance 800/1500 m double",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 9
+  },
+  {
+    "id": 157,
+    "year": "2021",
+    "original": "American swimmer Caeleb Dressel wins the 100 m butterfly in a world record time of 49.45 seconds at the Tokyo Olympics and completes the 100 m freestyle/butterfly double",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 10
+  },
+  {
+    "id": 208,
+    "year": "2021",
+    "original": "Jamaican sprintersElaine Thompson-Herah,Shelly-Ann Fraser-Pryce, and Shericka Jackson achieve a trifecta in the women's 100 m final at the Tokyo Olympics; Thompson-Herah retains her title",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 12
+  },
+  {
+    "id": 207,
+    "year": "2021",
+    "original": "First mixed-gender event to feature in Olympic swim program; Great Britain team of Kathleen Dawson,Adam Peaty, James Guy, and Anna Hopkin wins mixed 4 × 100 m medley relay in a world record 3:37.58 in Tokyo",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 13
+  },
+  {
+    "id": 108,
+    "year": "1984",
+    "original": "US men's gymnastics team scores an emotional upset win over the world champion Chinese team in the combined event to take the gold medal at the Los Angeles Olympics",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 14
+  },
+  {
+    "id": 150,
+    "year": "2018",
+    "original": "Aeroméxico flight 2431 crash-lands in Durango, Mexico; all 103 on board survive",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 15
+  },
+  {
+    "id": 132,
+    "year": "1994",
+    "original": "Ukrainian Sergey Bubka pole vaults 6.14 meters, setting his 35th world record",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 25
+  },
+  {
+    "id": 3,
+    "year": "781",
+    "original": "The oldest recorded eruption of Mt. Fuji (Traditional Japanese date: July 6, 781)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 17
+  },
+  {
+    "id": 51,
+    "year": "1938",
+    "original": "Archaeologists discover engraved gold and silver plates from King Darius I in Persepolis",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 18
+  },
+  {
+    "id": 77,
+    "year": "1969",
+    "original": "Mariner 6 makes its closest approach to planet Mars at 3,410 km",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 19
+  },
+  {
+    "id": 62,
+    "year": "1954",
+    "original": "First ascent of K2 by an Italian expedition led by Ardito Desio",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 20
+  },
+  {
+    "id": 63,
+    "year": "1954",
+    "original": "Milwaukee first baseman Joe Adcock becomes only the third player in the 20th century to hit four home runs in a nine-inning game, joining Lou Gehrig and Gil Hodges, in a 15-7 Braves' win over the Brooklyn Dodgers at Ebbets Field; MLB record 18 total bases",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 26
+  },
+  {
+    "id": 71,
+    "year": "1963",
+    "original": "MLB Cleveland Indians tie record of 4 consecutive home runs to beat California Angels 9-5; Woodie Held, Pedro Ramos, Tito Francona, and Larry Brown all go deep off Paul Foytack in the sixth inning",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 27
+  },
+  {
+    "id": 86,
+    "year": "1972",
+    "original": "MLB Chicago White Sox slugger Dick Allen becomes only the seventh player in MLB history to hit two inside-the-park home runs in a game, both off Bert Blyleven, in an 8-1 White Sox win over the Minnesota Twins",
+    "score": 86,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 28
+  },
+  {
+    "id": 174,
+    "year": "1777",
+    "original": "Marquis de Lafayette, aged just 19, is appointed a major general of the Continental Army",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 29
+  },
+  {
+    "id": 350,
+    "year": "1947",
+    "original": "Ian Beck, British children's illustrator and author, who illustrated Elton John's \"Goodbye Yellow Brick Road\" album cover, born in Brighton, East Sussex",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 30
+  },
+  {
+    "id": 386,
+    "year": "1962",
+    "original": "Sandra Hodge, American basketball player (one of 1st four women to join Harlem Globetrotters), born in Clinton, Mississippi",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 31
+  },
+  {
+    "id": 347,
+    "year": "1945",
+    "original": "Charlotte Diamond, Canadian Juno Award-winning children's singer-songwriter (\"I Am A Pizza\"), born in Richmond, British Columbia",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 32
+  },
+  {
+    "id": 312,
+    "year": "1929",
+    "original": "Lynne Reid Banks, British author (The Indian in the Cupboard), born in London (d. 2024)[1]",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 33
+  },
+  {
+    "id": 92,
+    "year": "1976",
+    "original": "East German runner Waldemar Cierpinski beats American Frank Shorter by 50 seconds to win the Olympic Games marathon in 2:09:55 in Montréal",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 49
+  },
+  {
+    "id": 205,
+    "year": "2019",
+    "original": "Russian PresidentVladimir Putinorders the Russian army to help put out huge wildfires in Siberia covering 3 million hectares (7.4 million acres) after 700,000 people sign a petition",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 38
+  },
+  {
+    "id": 159,
+    "year": "2022",
+    "original": "McKinney Fire at Klamath National Forest becomes California's largest fire of the year at 51,000 acres, fueled by high temperatures and strong winds, forcing evacuations",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 39
+  },
+  {
+    "id": 161,
+    "year": "2023",
+    "original": "City of Phoenix, Arizona, experiences a high temperature of 108°F (42.2°C), ending a heat record of 31 consecutive days of temperatures at or above 110°F (43.3°C)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 40
+  },
+  {
+    "id": 25,
+    "year": "1861",
+    "original": "Cherrapunji in Meghalaya, India, receives 9,300 mm of rainfall in July, setting a world record",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 41
+  },
+  {
+    "id": 363,
+    "year": "1952",
+    "original": "Pratiwi Sudarmono, Indonesian scientist selected as a NASA astronaut for the cancelled STS-61-H, born in Bandung, West Java, Indonesia",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 42
+  },
+  {
+    "id": 388,
+    "year": "1963",
+    "original": "Brian Skrudland, Canadian NHL center (fastest goal in playoff OT-0:09 seconds Game 2 1986), born in Peace River, Alberta",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 43
+  },
+  {
+    "id": 238,
+    "year": "1835",
+    "original": "Paul du Chaillu, French-American explorer who the 1st modern explorer to confirm existence of gorillas and pygmies [birth year disputed], born in St. Petersburg, Russia (d. 1903)",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 44
+  },
+  {
+    "id": 46,
+    "year": "1930",
+    "original": "NY Yankees first basemanLou Gehrigdrives in 8 runs with a grand slam and 2 doubles in a 14-13 win over the rival Boston Red Sox",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 45
+  },
+  {
+    "id": 149,
+    "year": "2017",
+    "original": "England cricket spin bowler Moeen Ali takes a hat-trick in a 239-run third Test win over South Africa in the 100th Test match played at The Oval, London",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 48
+  },
+  {
+    "id": 96,
+    "year": "1980",
+    "original": "Crew of Soyuz 37 returns to Earth aboard Soyuz 36",
+    "score": 96,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 50
+  },
+  {
+    "id": 32,
+    "year": "1899",
+    "original": "Albert Trott hits a ball from Monty Noble over the pavilion at Lord's Cricket Ground",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 51
+  },
+  {
+    "id": 75,
+    "year": "1968",
+    "original": "The Beatles close Apple Boutique in London, giving away clothes for free",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 54
+  },
+  {
+    "id": 89,
+    "year": "1973",
+    "original": "England cricket batsman Frank Hayes scores an unbeaten 106 in his Test debut in the first Test against the West Indies at The Oval, London; the tourists win by 158 runs",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 55
+  },
+  {
+    "id": 188,
+    "year": "1969",
+    "original": "Elvis Presleyreturns to the concert stage for the first time in over 8 years, starting a 4-week, 57-show run at the newly opened International Hotel in Las Vegas, Nevada",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 57
+  },
+  {
+    "id": 286,
+    "year": "1916",
+    "original": "Louise Smith, American auto racer (tied for 2nd woman to race in top level NASCAR), born in Barnesville, Georgia (d. 2006)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 58
+  },
+  {
+    "id": 299,
+    "year": "1921",
+    "original": "Whitney Young Jr, American civil rights leader, head of the Urban League, born in Shelby County, Kentucky (d. 1971)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 59
+  },
+  {
+    "id": 314,
+    "year": "1930",
+    "original": "Oleg Popov, Russian clown and circus artist, born in Vyrubovo, Moscow (d. 2016)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 60
+  },
+  {
+    "id": 385,
+    "year": "1962",
+    "original": "Kevin Greene, American Pro Football Hall of Fame linebacker (5 x Pro Bowl; First-team All-Pro 1989, 94, 96; LA Rams, Pittsburgh Steelers, Carolina Panthers), born in Schenectady, New York (d. 2020)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 61
+  },
+  {
+    "id": 11,
+    "year": "1667",
+    "original": "Peace of Breda: Second Anglo-Dutch War ends with Suriname exchanged for New Netherland (New York, New Jersey, and parts of Connecticut and Delaware)",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 62
+  },
+  {
+    "id": 217,
+    "year": "1618",
+    "original": "Médard Chouart Des Groseilliers, French trader and explorer in New France (1st to recognise significance of Hudson Bay fur trade), baptized at Charly-sur-Marne (d. 1695-98)",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 63
+  },
+  {
+    "id": 176,
+    "year": "1853",
+    "original": "First nighttime surgery performed at Lychakiv Hospital in Lemberg (now Lviv, Ukraine) using new kerosene oil lamps invented byIgnacy Łukasiewicz",
+    "score": 68,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 64
+  },
+  {
+    "id": 163,
+    "year": "2024",
+    "original": "5,000-year-old large-scale farming settlement is discovered at Oued Beht in Morocco, confirming North Africa's significance during the Neolithic",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 65
+  },
+  {
+    "id": 26,
+    "year": "1865",
+    "original": "The first narrow gauge mainline railway in the world opens at Grandchester, Australia",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 66
+  },
+  {
+    "id": 113,
+    "year": "1987",
+    "original": "Rockwell International is awarded a contract to build a fifth space shuttle, STS-5",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 68
+  },
+  {
+    "id": 121,
+    "year": "1991",
+    "original": "US Senate votes to allow women to fly combat aircraft",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 70
+  },
+  {
+    "id": 139,
+    "year": "2004",
+    "original": "Paul Simonand Art Garfunkel close their second reunion tour with a free concert in front of the Colosseum in Rome; an estimated 600,000 fans attend, making it their largest crowd",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 72
+  },
+  {
+    "id": 191,
+    "year": "1983",
+    "original": "Brooks Robinson,Juan Marichal, George Kell, andWalter Alstonare inducted into the Baseball Hall of Fame in Cooperstown, New York",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 73
+  },
+  {
+    "id": 291,
+    "year": "1918",
+    "original": "Paul D. Boyer, American biochemist and Nobel Prize Laureate for research on the \"enzymatic mechanism underlying the biosynthesis of adenosine triphosphate (ATP)\" (1997), born in Provo, Utah (d. 2018)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 74
+  },
+  {
+    "id": 380,
+    "year": "1959",
+    "original": "Stanley Jordan, American jazz guitarist (Magic Touch), born in Chicago, Illinois",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 75
+  },
+  {
+    "id": 395,
+    "year": "1967",
+    "original": "CoLD SToRAGE [Tim Wright], Welsh video game music composer (Wipeout 2097), born in Cymau, Wrexham, Wales",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 76
+  },
+  {
+    "id": 79,
+    "year": "1970",
+    "original": "37th NFL Chicago All-Star Game: Kansas City 24, All-Stars 3 (69,940 attendees)",
+    "score": 69,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 77
+  },
+  {
+    "id": 8,
+    "year": "1646",
+    "original": "Royalist supporters besieged at Goodrich Castle surrender to Parliamentarian forces during the English Civil War after the castle is partially destroyed by \"Roaring Meg,\" an enormous mortar",
+    "score": 68,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 78
+  }
+]

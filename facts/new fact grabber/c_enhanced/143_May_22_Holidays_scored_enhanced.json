@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Biodiversity Day: Nature's Amazing Party!",
+    "story": "Every creature on Earth gets a special shout-out on May 22 during the International Day for Biological Diversity! This day celebrates all the amazing plants, animals, and tiny organisms that make our planet so incredible. People around the world share photos of cool bugs, colorful birds, and weird plants they find in their backyards. Schools organize nature walks, zoos host special events, and families go on scavenger hunts to spot different species. It's like a giant celebration of how awesome and diverse life on Earth really is!",
+    "activity_question": "What do people commonly do to celebrate this day?",
+    "activity_choices": [
+      "Share photos of plants and animals they find",
+      "Bake cakes shaped like dinosaurs",
+      "Wear only green clothing all day",
+      "Send postcards to their pets"
+    ],
+    "activity_answer": "Share photos of plants and animals they find",
+    "follow_up_question": "What's the most unusual plant or animal you've ever seen in your neighborhood?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "902",
+    "title": "Ships Ahoy for Maritime Day!",
+    "story": "Every May 22, America celebrates National Maritime Day to honor the brave sailors and amazing ships that keep our oceans busy! People visit maritime museums, tour historic ships, and learn about life at sea. Some coastal cities throw festivals with boat parades and seafood feasts. It's the perfect day to appreciate how ships bring us everything from toys to bananas from faraway places!",
+    "activity_question": "What do people often visit on National Maritime Day?",
+    "activity_choices": [
+      "Maritime museums and historic ships",
+      "Space centers and rockets",
+      "Mountain hiking trails",
+      "Desert camping sites"
+    ],
+    "activity_answer": "Maritime museums and historic ships",
+    "bonus_fact": "The first steamship crossed the Atlantic Ocean in 1819, taking 29 days!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  }
+]

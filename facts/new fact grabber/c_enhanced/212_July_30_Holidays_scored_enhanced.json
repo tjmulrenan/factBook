@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Sweet Dreams Are Made of Cheese(cake)",
+    "story": "Bakeries across America pile their display cases high with creamy, dreamy cheesecakes every July 30 for National Cheesecake Day! Restaurants offer special deals on classic New York style, chocolate swirl, and berry-topped varieties. Home bakers whip up their own versions using cream cheese, eggs, and graham cracker crusts. Social media fills with drool-worthy photos of perfect slices. Some people host cheesecake parties where everyone brings a different flavor to share. Whether you prefer it plain, fruity, or loaded with toppings, this sweet holiday gives everyone the perfect excuse to indulge in one of America's most beloved desserts.",
+    "activity_question": "What do bakeries typically do on National Cheesecake Day?",
+    "activity_choices": [
+      "Hide all their cheesecakes in secret locations",
+      "Pile their display cases high with cheesecakes",
+      "Only sell chocolate cake instead",
+      "Close early to eat cheesecake themselves"
+    ],
+    "activity_answer": "Pile their display cases high with cheesecakes",
+    "bonus_fact": "New York cheesecake uses cream cheese, while Italian cheesecake traditionally uses ricotta cheese.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Pocket-Sized Reading Revolution Day",
+    "story": "Every July 30, book lovers celebrate National Paperback Book Day by diving into their favorite soft-cover stories! Paperback books changed everything because they're cheaper, lighter, and fit perfectly in backpacks and purses. Today, people share photos of their paperback collections on social media, visit bookstores for special sales, and start new adventures between those bendable covers. Libraries often host reading marathons where kids can trade paperbacks with friends. The best part? You can take these books anywhere without worrying about damaging expensive hardcovers!",
+    "activity_question": "What makes paperback books special for readers?",
+    "activity_choices": [
+      "They're cheaper and lighter than hardcover books",
+      "They're always written by famous authors",
+      "They glow in the dark",
+      "They can only be read once"
+    ],
+    "activity_answer": "They're cheaper and lighter than hardcover books",
+    "bonus_fact": "The first paperback books were sold for just 25 cents in 1935!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Whipple-Scrumptious Roald Dahl Day!",
+    "story": "Every September 13, kids and grown-ups around the world celebrate the birthday of Roald Dahl, the author who gave us Charlie and the Chocolate Factory, Matilda, and The BFG! Libraries host special story times where they read his books out loud. Schools organize fun activities like creating their own Wonka candy bars or writing silly poems like Dahl did. Some people dress up as their favorite characters - you might see a Matilda with curly hair or someone wearing a golden ticket! Bookstores display his colorful books and host reading contests. Teachers encourage students to invent new words the way Dahl created \"scrumdiddlyumptious\" and \"whangdoodle.\" It's a day to celebrate imagination and the magic of storytelling!",
+    "activity_question": "What do some people dress up as on Roald Dahl Day?",
+    "activity_choices": [
+      "Their favorite Roald Dahl characters",
+      "Famous scientists",
+      "Purple elephants only",
+      "Medieval knights"
+    ],
+    "activity_answer": "Their favorite Roald Dahl characters",
+    "bonus_fact": "Roald Dahl invented over 500 new words in his books!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 95
+  },
+  {
+    "id": "902",
+    "title": "Think Happy Thoughts Day!",
+    "story": "Every September 13, people around the world celebrate Positive Thinking Day by focusing on good thoughts and happy feelings! On this special day, families share compliments at breakfast, friends post uplifting messages on social media, and teachers encourage students to write down three things that make them smile. Some people wear bright yellow clothes to match their sunny attitudes, while others create colorful vision boards showing their dreams and goals. It's amazing how choosing positive thoughts can actually make you feel better and spread joy to everyone around you!",
+    "activity_question": "What do some people wear on Positive Thinking Day to match their sunny attitudes?",
+    "activity_choices": [
+      "Bright yellow clothes",
+      "Rainbow socks",
+      "Funny hats",
+      "Superhero capes"
+    ],
+    "activity_answer": "Bright yellow clothes",
+    "follow_up_question": "What positive thought would you want to share with someone today?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  }
+]

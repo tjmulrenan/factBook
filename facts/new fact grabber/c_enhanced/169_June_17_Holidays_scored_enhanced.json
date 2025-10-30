@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Iceland's Freedom Day Celebration",
+    "story": "Every June 17, Iceland throws the biggest party of the year to celebrate their independence! People dress up in traditional Icelandic clothes with colorful patterns and march in parades through every town and city. Kids wave tiny Icelandic flags while marching bands play cheerful music. Families gather for outdoor picnics featuring lamb, fish, and sweet pastries. The celebration lasts all day with speeches, dancing, and fireworks lighting up the bright summer sky.",
+    "activity_question": "What do Icelandic kids wave during Independence Day parades?",
+    "activity_choices": [
+      "Tiny Icelandic flags",
+      "Colorful ribbons",
+      "Magic wands",
+      "Paper airplanes"
+    ],
+    "activity_answer": "Tiny Icelandic flags",
+    "bonus_fact": "Iceland has almost 24 hours of daylight during their June celebration!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "902",
+    "title": "Bunker Hill Day: Revolutionary Remembrance",
+    "story": "Every June 17, Massachusetts celebrates Bunker Hill Day to honor a famous Revolutionary War battle. People visit the Bunker Hill Monument in Boston, watch parades with colonial costumes, and learn about brave soldiers who fought for American independence in 1775.",
+    "activity_question": "What do people wear during Bunker Hill Day parades?",
+    "activity_choices": [
+      "Colonial costumes",
+      "Superhero outfits",
+      "Beach clothes",
+      "Space suits"
+    ],
+    "activity_answer": "Colonial costumes",
+    "bonus_fact": "The Bunker Hill Monument has 294 steps to climb to the top!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 45
+  }
+]

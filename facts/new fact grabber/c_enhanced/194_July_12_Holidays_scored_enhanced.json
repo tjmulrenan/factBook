@@ -1,0 +1,102 @@
+[
+  {
+    "id": "901",
+    "title": "Keep It Simple on Simplicity Day!",
+    "story": "People around the world celebrate Simplicity Day every July 12 by doing less instead of more! On this special day, families turn off their phones, cook basic meals with just a few ingredients, and enjoy simple activities like reading or taking walks. Some people clean out their closets and donate things they don't need. Others spend the day outside without any gadgets or screens. It's all about slowing down and appreciating the simple things that make us happy.",
+    "activity_question": "What do people typically do on Simplicity Day?",
+    "activity_choices": [
+      "Turn off phones and enjoy simple activities",
+      "Buy as many new things as possible",
+      "Cook the most complicated meals they can",
+      "Stay indoors and play video games all day"
+    ],
+    "activity_answer": "Turn off phones and enjoy simple activities",
+    "follow_up_question": "What simple activity would make you happiest on this day?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "902",
+    "title": "Paper Bag Day: Crinkle and Celebrate!",
+    "story": "Every July 12, people celebrate the humble paper bag that carries our groceries, lunches, and treasures! Paper Bag Day honors this simple invention that changed how we shop and pack things. People celebrate by decorating paper bags with colorful drawings, turning them into fun puppets, or using them for creative crafts. Some families have paper bag puppet shows or make masks from lunch bags. Teachers love using this day to talk about recycling and being kind to the environment since paper bags break down naturally.",
+    "activity_question": "What are some ways people celebrate Paper Bag Day?",
+    "activity_choices": [
+      "Making puppets and decorating bags",
+      "Eating only bag-shaped foods",
+      "Wearing paper bag hats all day",
+      "Trading bags like baseball cards"
+    ],
+    "activity_answer": "Making puppets and decorating bags",
+    "follow_up_question": "What creative things could you make using just a paper bag?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "903",
+    "title": "Malala Day: Standing Up for School",
+    "story": "Every July 12, people around the world celebrate Malala Day by supporting education for all children. This special day honors Malala Yousafzai, who bravely fought for girls' right to go to school. On this day, schools host reading events, students share stories about their dreams, and communities raise money to build classrooms in places where kids can't attend school. People post pictures of their favorite books online and use hashtags to spread awareness. It's a day to remember that education is powerful and every child deserves to learn.",
+    "activity_question": "What do people do on Malala Day to support education?",
+    "activity_choices": [
+      "Host reading events and share stories about dreams",
+      "Have pizza parties at school",
+      "Play video games all day",
+      "Go to the beach with friends"
+    ],
+    "activity_answer": "Host reading events and share stories about dreams",
+    "bonus_fact": "Malala became the youngest person ever to win the Nobel Peace Prize.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "904",
+    "title": "Island Nation's Freedom Day",
+    "story": "Every July 12, the Pacific island nation of Kiribati celebrates its independence with colorful parades and traditional dancing. People wear flower crowns and bright clothing while performing ancient dances on the beach. Families gather for huge feasts featuring fresh fish and coconut dishes, celebrating their freedom as an island paradise.",
+    "activity_question": "How do people in Kiribati typically celebrate their Independence Day?",
+    "activity_choices": [
+      "With parades and traditional dancing",
+      "By building sandcastles all day",
+      "With snowball fights",
+      "By staying inside and reading"
+    ],
+    "activity_answer": "With parades and traditional dancing",
+    "bonus_fact": "Kiribati is made up of 33 tiny coral islands scattered across the Pacific Ocean.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 45
+  },
+  {
+    "id": "905",
+    "title": "Eyes That Don't Match Are Amazing!",
+    "story": "People with two different colored eyes get their own special day on July 12! This cool condition is called heterochromia, and it makes each eye a totally different color - like one brown and one blue. On Different Colored Eyes Day, people celebrate this unique trait by sharing photos of their mismatched eyes on social media. Some wear different colored contact lenses to experience what it's like. Famous actors, musicians, and even some dogs have heterochromia too! It's nature's way of making someone extra special and memorable.",
+    "activity_question": "What is the scientific name for having two different colored eyes?",
+    "activity_choices": [
+      "Heterochromia",
+      "Bicoloria",
+      "Eyevariation",
+      "Chromadifference"
+    ],
+    "activity_answer": "Heterochromia",
+    "bonus_fact": "Only about 1% of people worldwide are born with naturally different colored eyes!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Bubble Up for Tapioca Day!",
+    "story": "Those chewy little pearls in your bubble tea get their own special day on June 28! National Tapioca Day celebrates the squishy, bouncy balls made from cassava root that make drinks extra fun to sip.",
+    "activity_question": "What are tapioca pearls made from?",
+    "activity_choices": [
+      "Cassava root",
+      "Rice flour",
+      "Tiny fish eggs",
+      "Coconut milk"
+    ],
+    "activity_answer": "Cassava root",
+    "bonus_fact": "Tapioca pearls are also called \"boba\" and can be flavored with different colors!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 40
+  },
+  {
+    "id": "902",
+    "title": "Giant Tales and Tall Tales Day",
+    "story": "Every June 28, Americans celebrate National Paul Bunyan Day to honor the legendary giant lumberjack who could supposedly chop down entire forests with his mighty blue ox, Babe! People share tall tales about Paul's incredible feats, like digging the Grand Canyon with his axe or creating the Great Lakes as water bowls for Babe. Libraries host storytelling events where kids compete to tell the most outrageous Paul Bunyan stories they can imagine. Some towns even hold lumberjack contests with log rolling and tree climbing to celebrate this mythical hero of American folklore.",
+    "activity_question": "What was the name of Paul Bunyan's famous companion?",
+    "activity_choices": [
+      "Babe the Blue Ox",
+      "Max the Red Horse",
+      "Sam the Green Bear",
+      "Jake the Purple Wolf"
+    ],
+    "activity_answer": "Babe the Blue Ox",
+    "bonus_fact": "Paul Bunyan was so tall that birds built nests in his beard!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "903",
+    "title": "Log Cabin Day: Building Memories!",
+    "story": "Every June 28, people celebrate Log Cabin Day by honoring these amazing wooden homes that helped build America! Families visit historic log cabins at museums and parks, learning how pioneers lived without electricity or running water. Some people build mini log cabins from Lincoln Logs or craft sticks, while others share photos of real log cabins they've visited. It's the perfect day to appreciate how tough and creative early settlers were when they chopped down trees and stacked logs to make cozy homes in the wilderness.",
+    "activity_question": "What do families often visit on Log Cabin Day?",
+    "activity_choices": [
+      "Historic log cabins at museums and parks",
+      "Modern skyscrapers in the city",
+      "Underground caves",
+      "Space stations"
+    ],
+    "activity_answer": "Historic log cabins at museums and parks",
+    "follow_up_question": "What would be the hardest part about living in a log cabin without modern conveniences?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "904",
+    "title": "Tau Day: When Math Gets Twice as Nice!",
+    "story": "Math lovers around the world celebrate Tau Day every June 28 by embracing a different way to think about circles! Instead of using pi (3.14), tau fans believe the number tau (6.28) makes math simpler and more beautiful. On this day, people bake circular pies, draw perfect circles, and share tau facts online. Some schools host math parties where students learn why tau equals two times pi. Math teachers wear shirts with the tau symbol, and bakeries sell special \"tau pies\" with double the filling. It's the day when numbers get twice as exciting!",
+    "activity_question": "What number does tau equal?",
+    "activity_choices": [
+      "3.14",
+      "6.28",
+      "2.71",
+      "9.42"
+    ],
+    "activity_answer": "6.28",
+    "follow_up_question": "What other subjects could have their own special celebration days like math does?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  }
+]

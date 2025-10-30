@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Going Green for Guacamole Day!",
+    "story": "Every July 31, avocado lovers across America celebrate National Avocado Day by eating tons of this creamy green fruit! Restaurants offer special guacamole deals, people share avocado toast photos on social media, and grocery stores pile up displays of perfectly ripe avocados. Some families have avocado-eating contests or try making new recipes like avocado smoothies and ice cream. It's the perfect excuse to go totally green with your food choices!",
+    "activity_question": "What do restaurants often offer on National Avocado Day?",
+    "activity_choices": [
+      "Special guacamole deals",
+      "Free avocado trees",
+      "Green clothing discounts",
+      "Cooking classes only"
+    ],
+    "activity_answer": "Special guacamole deals",
+    "follow_up_question": "What's the weirdest avocado recipe you'd be brave enough to try?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  },
+  {
+    "id": "902",
+    "title": "Rangers to the Rescue!",
+    "story": "Park rangers around the world get extra recognition every July 31 on World Ranger Day! These brave protectors work in national parks, forests, and wildlife reserves to keep animals safe and nature healthy. People celebrate by sharing photos of rangers on social media, visiting local parks, and learning about conservation. Some parks offer special ranger-led tours where kids can see what these nature heroes do every day. Rangers track animals, fight poachers, rescue injured wildlife, and teach visitors about protecting our planet. It's the perfect day to thank these environmental superheroes!",
+    "activity_question": "What are some jobs that park rangers do?",
+    "activity_choices": [
+      "Track animals and fight poachers",
+      "Deliver pizza to campers",
+      "Teach magic tricks to tourists",
+      "Build roller coasters in parks"
+    ],
+    "activity_answer": "Track animals and fight poachers",
+    "follow_up_question": "What would you want to learn from a park ranger if you met one?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "903",
+    "title": "The Boy Who Lived's Birthday Bash",
+    "story": "Wizards and muggles around the world celebrate Harry Potter's birthday on July 31! Fans throw magical parties with butterbeer, chocolate frogs, and golden snitch decorations. Libraries host reading marathons, bookstores create Hogwarts displays, and people dress up as their favorite characters. Social media fills with lightning bolt selfies and Hogwarts house pride posts. Some fans bake birthday cakes shaped like spell books or the Hogwarts castle. Movie marathons are popular, and many people reread their favorite Harry Potter books to honor the famous wizard. It's like having a magical friend whose birthday everyone remembers!",
+    "activity_question": "What do Harry Potter fans commonly drink at birthday parties for the famous wizard?",
+    "activity_choices": [
+      "Butterbeer",
+      "Pumpkin juice",
+      "Chocolate milk",
+      "Magic potion smoothies"
+    ],
+    "activity_answer": "Butterbeer",
+    "follow_up_question": "If you could celebrate at Hogwarts, what magical birthday surprise would you want?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "904",
+    "title": "Making Music with Weird and Wonderful Instruments",
+    "story": "Every July 31, musicians and music lovers celebrate National Uncommon Instrument Awareness Day by showcasing the world's most unusual musical instruments! People share videos online playing everything from glass harmonicas and singing bowls to didgeridoos and kalimbas. Music stores host special demonstrations where you can try instruments you've probably never heard of before. Schools organize concerts featuring students playing uncommon instruments from around the world. Some people even make their own weird instruments using household items like spoons, bottles, or rubber bands. It's a day to discover that music can come from the most unexpected places and sounds!",
+    "activity_question": "What do people do on National Uncommon Instrument Awareness Day?",
+    "activity_choices": [
+      "Share videos of unusual instruments online",
+      "Only play piano and guitar",
+      "Throw away old instruments",
+      "Listen to the same songs all day"
+    ],
+    "activity_answer": "Share videos of unusual instruments online",
+    "follow_up_question": "What unusual household item could you turn into a musical instrument?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  }
+]

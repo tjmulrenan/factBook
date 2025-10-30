@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Chips Ahoy! It's Cookie Day!",
+    "story": "Every August 4, cookie lovers across America celebrate National Chocolate Chip Cookie Day by baking, buying, and munching on these sweet treats! Bakeries offer special deals, families gather in kitchens to mix dough, and the smell of fresh cookies fills homes everywhere. Some people host cookie exchanges where everyone brings a different batch to share. Others try making giant cookies or experimenting with fun mix-ins like marshmallows or pretzels. Social media gets flooded with photos of perfectly golden cookies straight from the oven. Whether you prefer them soft and chewy or crispy and crunchy, this delicious holiday gives everyone the perfect excuse to indulge in America's favorite cookie!",
+    "activity_question": "What do some people do to celebrate this cookie holiday?",
+    "activity_choices": [
+      "Host cookie exchanges to share different batches",
+      "Build cookie houses like gingerbread homes",
+      "Have cookie-eating contests at the beach",
+      "Send cookies through the mail to strangers"
+    ],
+    "activity_answer": "Host cookie exchanges to share different batches",
+    "bonus_fact": "The chocolate chip cookie was invented by accident in 1938!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 95
+  },
+  {
+    "id": "902",
+    "title": "Heroes of the High Seas Day",
+    "story": "Every August 4, Americans celebrate National Coast Guard Day to honor the brave men and women who protect our waters! The Coast Guard rescues people from sinking boats, stops smugglers, and keeps our coastlines safe. On this special day, Coast Guard stations open their doors for tours where families can climb aboard rescue boats and helicopters. People share thank-you messages on social media and some coastal towns hold parades with Coast Guard members marching proudly in their crisp uniforms.",
+    "activity_question": "What can families do at Coast Guard stations on National Coast Guard Day?",
+    "activity_choices": [
+      "Take tours and climb aboard rescue boats",
+      "Learn to drive the helicopters",
+      "Go fishing with Coast Guard officers",
+      "Sleep overnight on the ships"
+    ],
+    "activity_answer": "Take tours and climb aboard rescue boats",
+    "bonus_fact": "The Coast Guard rescues about 4,000 people every year!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 62
+  }
+]

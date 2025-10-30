@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "original": "International Children's Day",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "World Milk Day",
+    "score": 60,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "Global Day of Parents",
+    "score": 45,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "National Nail Polish Day",
+    "score": 65,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 5,
+    "original": "Say Something Nice Day",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 6,
+    "original": "National Go Barefoot Day",
+    "score": 70,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 7,
+    "original": "World Reef Day",
+    "score": 80,
+    "is_kid_friendly": true
+  }
+]

@@ -1,0 +1,542 @@
+[
+  {
+    "id": 68,
+    "year": "1954",
+    "original": "Construction of Disneyland commences in Anaheim, California",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 1
+  },
+  {
+    "id": 212,
+    "year": "1948",
+    "original": "US Air Force pilot Gail Halvorsen encounters children in at Templehof Airport in Berlin during the Berlin Blockade, giving him the idea to drop candy in 'Operation Little Vittles'",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 2
+  },
+  {
+    "id": 183,
+    "year": "1975",
+    "original": "NASA's Apollo 18 and SovietSoyuz 19make 1st US/USSR linkup in space",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 3
+  },
+  {
+    "id": 90,
+    "year": "1968",
+    "original": "The Beatles' animated film \"Yellow Submarine\" premieres in London",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 4
+  },
+  {
+    "id": 191,
+    "year": "1988",
+    "original": "Florence Griffith Joynerof the USA sets 100 m woman's record (10.49)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 5
+  },
+  {
+    "id": 139,
+    "year": "2018",
+    "original": "Oldest evidence of bread made from wild grains is discovered by archaeologists in a 14,000-year-old dig in the Black Desert, Jordan",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 6
+  },
+  {
+    "id": 179,
+    "year": "1959",
+    "original": "PaleoanthropologistMary Leakeydiscovers the partial skull of a new species of early human ancestor, Zinjanthropus boisei or \"Zinj\" (now called Paranthropus boisei), which lived in Africa almost 2 million years ago",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 7
+  },
+  {
+    "id": 78,
+    "year": "1962",
+    "original": "Robert White in X-15 sets an altitude record of 108 km (354,300 ft)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 8
+  },
+  {
+    "id": 92,
+    "year": "1972",
+    "original": "First two women begin training as FBI agents at Quantico",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 9
+  },
+  {
+    "id": 148,
+    "year": "2024",
+    "original": "Cavan Sullivan of the Philadelphia Union becomes the youngest player in a Major League Soccer match and the youngest to debut in any major North American professional sports league at 14 years and 293 days old in a 5-1 win over the New England Revolution at Subaru Park in Chester, Pennsylvania",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 10
+  },
+  {
+    "id": 134,
+    "year": "2015",
+    "original": "Scientists solve mystery of sleeping sickness in two villages in northern Kazakhstan - uranium mining had caused increase in carbon monoxide",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 11
+  },
+  {
+    "id": 82,
+    "year": "1964",
+    "original": "Don Campbell sets a record for a turbine vehicle at 690.91 kph (429.31 mph)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 12
+  },
+  {
+    "id": 55,
+    "year": "1938",
+    "original": "Douglas \"Wrong Way\" Corrigan leaves New York flying for Los Angeles and winds up in Ireland supposedly by mistake",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 13
+  },
+  {
+    "id": 123,
+    "year": "1994",
+    "original": "A French 4-year-old boy becomes Buddhist Lama Tulku Kalou Rinpoche",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 14
+  },
+  {
+    "id": 54,
+    "year": "1937",
+    "original": "Elmer Fudd, originally Egghead, is a Warner Bros. cartoon character created by Tex Avery and Chuck Jones for the Looney Tunes and Merrie Melodies series, first debuting as Egghead in \"Egghead Rides Again\"",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 15
+  },
+  {
+    "id": 71,
+    "year": "1955",
+    "original": "Disneyland televises its grand opening in Anaheim, California",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 16
+  },
+  {
+    "id": 204,
+    "year": "2015",
+    "original": "Marvel's \"Ant-Man\", starringPaul Ruddas the titular character, is released",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 17
+  },
+  {
+    "id": 137,
+    "year": "2018",
+    "original": "Australian basketball center Liz Cambage scores 53 points as the Dallas Wings beat the NY Liberty 104-87 to set new WNBA single game scoring record",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 18
+  },
+  {
+    "id": 278,
+    "year": "1920",
+    "original": "Nils Bohlin, Swedish mechanical engineer and inventor of the three-point seat belt, born in Härnösand, Sweden (d. 2002)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 19
+  },
+  {
+    "id": 307,
+    "year": "1934",
+    "original": "Willie Ito, American animator for Disney Studios (\"Lady and the Tramp\" spaghetti kiss); Warner Brothers; Hanna-Barbara), born in San Francisco, California",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 20
+  },
+  {
+    "id": 94,
+    "year": "1974",
+    "original": "Bob Gibson becomes second pitcher to strike out 3,000 batters (Cesar Geronimo)",
+    "score": 94,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 40
+  },
+  {
+    "id": 201,
+    "year": "2011",
+    "original": "FIFA Women's World Cup Final, Commerzbank-Arena, Frankfurt, Germany: Japan beats US, 3-1 on penalties; 2-2 after extra time",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 23
+  },
+  {
+    "id": 122,
+    "year": "1993",
+    "original": "Graeme Obree breaks the world hour cycling record, riding 51.596km on Old Faithful at the Hamar velodrome in Norway",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 25
+  },
+  {
+    "id": 242,
+    "year": "1894",
+    "original": "Georges Lemaître, Belgian Catholic Priest, astronomer and physics professor, who initially proposed the universe expansion and big-bang theories, born in Charleroi, Belgium (d. 1966)",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 26
+  },
+  {
+    "id": 87,
+    "year": "1967",
+    "original": "Jimi Hendrix quits as opening act of the Monkees' tour, after playing 7 of a planned 29 shows",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 27
+  },
+  {
+    "id": 197,
+    "year": "1998",
+    "original": "\"The Mask of Zorro\" directed by Martin Campbell, starringAntonio Banderas,Catherine Zeta-JonesandAnthony Hopkinsis released",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 28
+  },
+  {
+    "id": 285,
+    "year": "1923",
+    "original": "John Cooper, English race car designer (Cooper Car Company; developed the \"Mini\"), born in Surbiton, England (d. 2000)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 29
+  },
+  {
+    "id": 70,
+    "year": "1955",
+    "original": "Arco, Idaho, becomes 1st US city lit by nuclear power",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 30
+  },
+  {
+    "id": 117,
+    "year": "1989",
+    "original": "1st test flight of US stealth bomber",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 31
+  },
+  {
+    "id": 104,
+    "year": "1981",
+    "original": "Humber Estuary Bridge in the UK opens as the world's longest span (1.4 km)",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 32
+  },
+  {
+    "id": 22,
+    "year": "1850",
+    "original": "Harvard Observatory takes 1st photograph of a star (Vega)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 33
+  },
+  {
+    "id": 67,
+    "year": "1954",
+    "original": "1st major league game where majority of team is black (Dodgers)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 35
+  },
+  {
+    "id": 172,
+    "year": "1936",
+    "original": "NY Giants future Baseball Hall of Fame pitcherCarl Hubbellbegins MLB record 24 game winning streak, beating Pittsburgh Pirates, 6-0 at Forbes Field in Pittsburgh",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 37
+  },
+  {
+    "id": 110,
+    "year": "1984",
+    "original": "Soyuz T-12 carries 3 cosmonauts to space station Salyut 7",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 39
+  },
+  {
+    "id": 162,
+    "year": "1814",
+    "original": "Matthew Flinderspublishes \"A Voyage to Terra Australis,\" detailing his circumnavigation of Australia, and is the first to name the continent Australia. He dies a day later.",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 41
+  },
+  {
+    "id": 38,
+    "year": "1897",
+    "original": "1st ship arrives in Seattle carrying gold from Yukon",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 42
+  },
+  {
+    "id": 74,
+    "year": "1959",
+    "original": "2,000 ft long by 1,300 foot wide section of ridge falls into Madis",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 45
+  },
+  {
+    "id": 75,
+    "year": "1959",
+    "original": "River Canyon extending man-made Lake Hebgen by 5 miles. (Montana)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 46
+  },
+  {
+    "id": 147,
+    "year": "2023",
+    "original": "Typhoon Talim, makes landfall on China's Guandong coast with winds of nearly 140km/h (87mph), forcing the evacuation of nearly 230,000 people",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 47
+  },
+  {
+    "id": 225,
+    "year": "1839",
+    "original": "Ephraim Shay, American inventor of Shay type of geared steam locomotive, born in Huron, Ohio (d. 1916)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 48
+  },
+  {
+    "id": 244,
+    "year": "1898",
+    "original": "Berenice Abbott, American photographer (The World of Atget; Changing New York), born in Springfield, Ohio (d. 1991)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 49
+  },
+  {
+    "id": 299,
+    "year": "1932",
+    "original": "Quino [Joaquín Salvador Lavado Tejón], Argentine cartoonist (Mafalda), born in Mendoza, Argentina (d. 2020)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 51
+  },
+  {
+    "id": 310,
+    "year": "1935",
+    "original": "Peter Schickele (aka P.D.Q. Bach), American bassoonist, Grammy Award-winning composer, classical music parodist (No-No Nonette; Concerto for Horn & Hardart; Silent Running), and broadcaster, born in Ames, Iowa (d. 2024)[1]",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 52
+  },
+  {
+    "id": 359,
+    "year": "1955",
+    "original": "Paul Stamets, American mycologist and environmentalist, born in Columbiana, Ohio",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 53
+  },
+  {
+    "id": 364,
+    "year": "1959",
+    "original": "Janet Lynn Kavandi, American scientist and NASA astronaut (sk:STS 91), born in Carthage, Missouri",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 54
+  },
+  {
+    "id": 158,
+    "year": "1717",
+    "original": "George Frideric Handel's \"Water Music\" premieres repeatedly on a barge cruising the River Thames in London",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 56
+  },
+  {
+    "id": 328,
+    "year": "1944",
+    "original": "Carlos Alberto Torres, Brazilian footballer, Captain of winning World Cup team (1970), born in Rio de Janeiro (d. 2016)",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 57
+  },
+  {
+    "id": 290,
+    "year": "1928",
+    "original": "Vince Guaraldi, American jazz pianist and composer (\"Cast Your Fate to the Wind\"; Peanuts TV specials), born in San Francisco, California (d. 1976)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 59
+  },
+  {
+    "id": 10,
+    "year": "1453",
+    "original": "Battle of Castillon: French army beats English force under John Talbot, turning point of the Hundred Years' War",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 60
+  },
+  {
+    "id": 98,
+    "year": "1976",
+    "original": "21st modern Olympic games open in Montreal: 25 African teams (later rising to 33 nations) boycott the games due to New Zealand playing rugby in apartheid South Africa",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 61
+  },
+  {
+    "id": 126,
+    "year": "2004",
+    "original": "Former South African PresidentNelson Mandelacalls for commitment by the world to take action against AIDS",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 62
+  },
+  {
+    "id": 181,
+    "year": "1964",
+    "original": "ANC leaderNelson Mandela, recently sentenced to life imprisonment, is awarded the Joliot Curie Gold Medal for Peace",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 63
+  },
+  {
+    "id": 233,
+    "year": "1876",
+    "original": "Rosa Jackson Lumpkin, lived to be 115 years old, born in Flint, Georgia (d. 1991)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 64
+  },
+  {
+    "id": 289,
+    "year": "1928",
+    "original": "Joe Morello, American jazz drummer (Dave Brubeck Quartet - \"Blue Rondo à la Turk\"), born in Springfield, Massachussets (d. 2011)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 65
+  },
+  {
+    "id": 318,
+    "year": "1939",
+    "original": "Warwick Hutton, British artist and illustrator of children's books, born in England (d. 1994)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 66
+  },
+  {
+    "id": 324,
+    "year": "1942",
+    "original": "Connie Hawkins, American professional basketball player, 1961-76 ABA MVP-1968 (Harlem Globetrotters, 1963-66; Phoenix Suns, L.A. Lakers), born in Bedford-Stuyvesant, Brooklyn, New York (d. 2017)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 67
+  },
+  {
+    "id": 342,
+    "year": "1948",
+    "original": "Cathy Ferguson, 100m backstroke swimmer (Olympic gold 1964), born in Stockton, California",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 68
+  },
+  {
+    "id": 352,
+    "year": "1950",
+    "original": "Phoebe Snow [Laub], American singer-songwriter (\"Poetry Man\"), born in New York City (d. 2011)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 69
+  },
+  {
+    "id": 358,
+    "year": "1954",
+    "original": "J. Michael Straczynski, American television screenwriter, producer, comic book writer and director (Babylon 5; Jeremiah; Changeling), born in Paterson, New Jersey",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 70
+  },
+  {
+    "id": 377,
+    "year": "1963",
+    "original": "Regina Belle, American pop, and R&B singer-songwriter, and Grammy Award winner (with Peabo Bryson - \"A Whole New World\"), born in Engelwood, New Jersey",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 72
+  }
+]

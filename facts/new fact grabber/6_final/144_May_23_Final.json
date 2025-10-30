@@ -1,0 +1,1282 @@
+[
+  {
+    "id": "901",
+    "title": "Shell-ebrating Our Slow and Steady Friends",
+    "story": "Turtles get their own special day on May 23 when people around the world celebrate World Turtle Day! This awesome holiday helps everyone learn about these amazing shelled creatures and how to protect them. People visit turtle rescue centers, share turtle photos on social media, and learn cool turtle facts. Some folks even dress up like turtles or eat turtle-shaped cookies. Schools often have special turtle lessons, and aquariums host turtle-themed events. It's the perfect day to appreciate these incredible animals that have been around since dinosaur times and remind everyone why we need to keep their homes safe!",
+    "activity_question": "What do people often visit on World Turtle Day to learn about turtles?",
+    "activity_choices": [
+      "Turtle rescue centers",
+      "Pizza restaurants",
+      "Space museums",
+      "Ice cream shops"
+    ],
+    "activity_answer": "Turtle rescue centers",
+    "bonus_fact": "Some turtles can live over 100 years old!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Sweet and Stretchy Taffy Day!",
+    "story": "Every May 23, candy lovers celebrate National Taffy Day by enjoying this chewy, stretchy treat! Taffy shops across the country offer special flavors and discounts, while families make homemade taffy by pulling and stretching the sugary mixture until it becomes perfectly chewy. Many people share photos of colorful taffy collections on social media, showing off flavors like strawberry, vanilla, and chocolate. Some candy stores even host taffy-pulling demonstrations where kids can watch the magical process of turning liquid sugar into delicious, bite-sized pieces of joy.",
+    "activity_question": "What do people do to make homemade taffy?",
+    "activity_choices": [
+      "Pull and stretch the sugary mixture",
+      "Freeze it in ice cube trays",
+      "Bake it in the oven for an hour",
+      "Mix it with pickle juice"
+    ],
+    "activity_answer": "Pull and stretch the sugary mixture",
+    "bonus_fact": "Salt water taffy doesn't actually contain salt water - it's just a name!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "903",
+    "title": "Jamaica's May Work Party Day",
+    "story": "Every May 23, Jamaica celebrates Labour Day with a twist that makes work feel like a party! Instead of staying home, thousands of Jamaicans grab tools, paintbrushes, and cleaning supplies to spruce up their communities together. Schools get fresh coats of paint, parks become spotless, and neighborhoods shine brighter. It's called \"beautification day\" because everyone works side by side to make their island even more beautiful.",
+    "activity_question": "What do Jamaicans typically do on Labour Day?",
+    "activity_choices": [
+      "Work together to clean and improve their communities",
+      "Have a big barbecue and stay home",
+      "Go to the beach and relax",
+      "Watch parades from their porches"
+    ],
+    "activity_answer": "Work together to clean and improve their communities",
+    "bonus_fact": "Some Jamaican schools compete to see who can make their campus look the most amazing!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "904",
+    "title": "Ships Ahoy for Maritime Day!",
+    "story": "Every May 23, America celebrates National Maritime Day to honor the brave sailors and amazing ships that keep our oceans busy! People visit maritime museums, tour historic ships, and learn about life at sea. Some coastal cities throw festivals with boat parades and seafood feasts. It's the perfect day to appreciate how ships bring us everything from toys to bananas from faraway places!",
+    "activity_question": "What do people often visit on National Maritime Day?",
+    "activity_choices": [
+      "Maritime museums and historic ships",
+      "Space centers and rockets",
+      "Mountain hiking trails",
+      "Desert camping sites"
+    ],
+    "activity_answer": "Maritime museums and historic ships",
+    "bonus_fact": "The first steamship crossed the Atlantic Ocean in 1838, taking 15 days!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "143",
+    "title": "China's Floating Train Zooms into the Future",
+    "story": "Imagine a train that floats! On May 23, 2019, China unveiled a futuristic high-speed train prototype in Qingdao. This amazing machine doesn't just run on tracks - it hovers above them! The Chinese Railway Rolling Stock Corporation designed this speedy wonder to zoom at an incredible 600 kilometers per hour. That's as fast as an airplane! This floating train could revolutionize travel, whisking passengers between cities in record time.",
+    "activity_question": "How fast can the new Chinese train prototype travel?",
+    "activity_choices": [
+      "600 kilometers per hour",
+      "100 kilometers per hour",
+      "300 kilometers per hour",
+      "1000 kilometers per hour"
+    ],
+    "activity_answer": "600 kilometers per hour",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think floating trains might change the way we travel in the future?",
+    "score": 95,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "126",
+    "title": "Snowboarding Down Earth's Highest Peak",
+    "story": "Imagine carving through snow on the world's tallest mountain! In 2001, Marco Siffredi achieved an incredible feat on May 23. He became the first person to snowboard down Mount Everest using a challenging route called the Norton Couloir. This daring adventure combined extreme sports with conquering Earth's highest peak. Siffredi's bold ride down Everest's icy slopes opened up new possibilities for adventure seekers, but remember - climbing Everest requires intense training and preparation!",
+    "activity_question": "What route did Marco Siffredi use to snowboard down Mount Everest?",
+    "activity_choices": [
+      "The Norton Couloir",
+      "The Snowy Ridge",
+      "The Icy Chute",
+      "The Frosty Path"
+    ],
+    "activity_answer": "The Norton Couloir",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think snowboarding down Mount Everest is so challenging?",
+    "optional_type": "follow_up_question",
+    "score": 95,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "167",
+    "title": "Franklin's Double Vision Solution",
+    "story": "Squinting at both near and far objects? Not anymore! Benjamin Franklin had a bright idea in 1785. On May 23, he announced his invention of bifocals. These clever glasses have two parts: one for seeing things up close, and another for distant views. Franklin's creation helped people see clearly at all distances without switching specs!",
+    "activity_question": "What did Benjamin Franklin invent?",
+    "activity_choices": [
+      "Bifocals",
+      "Telescopes",
+      "Microscopes",
+      "Sunglasses"
+    ],
+    "activity_answer": "Bifocals",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "Franklin was also a writer, scientist, and one of America's Founding Fathers.",
+    "optional_type": "bonus_fact",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "246",
+    "title": "The Glider Pioneer Takes Flight",
+    "story": "Soaring dreams began with Otto Lilienthal, born on May 23, 1848, in Anklam, Prussia. This German aviator became known as the 'Glider King' for his groundbreaking work with winged flight. Lilienthal built and flew gliders, paving the way for powered aircraft. His experiments inspired future inventors, showing that humans could indeed conquer the skies. Though his life was cut short, Lilienthal's legacy in aviation continues to inspire.",
+    "activity_question": "What was Otto Lilienthal's nickname?",
+    "activity_choices": [
+      "The Glider King",
+      "The Sky Conqueror",
+      "The Wing Wizard",
+      "The Prussian Pilot"
+    ],
+    "activity_answer": "The Glider King",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think Lilienthal's work with gliders helped in the development of airplanes?",
+    "score": 90,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "100",
+    "title": "Surfing Across the Sea",
+    "story": "Waves crashed as Colin Wilson embarked on an epic surfing journey in 1982. On May 23, he set out to ride his surfboard an incredible 294 miles across open water. This daring adventure pushed the limits of what surfers thought possible. Wilson's determination and skill allowed him to conquer the sea in a way few had ever attempted before.",
+    "activity_question": "What did Colin Wilson do on May 23, 1982?",
+    "activity_choices": [
+      "Rode a surfboard 294 miles",
+      "Invented a new type of surfboard",
+      "Won a surfing competition",
+      "Opened a surf shop"
+    ],
+    "activity_answer": "Rode a surfboard 294 miles",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What qualities do you think a surfer needs to attempt such a long-distance ride?",
+    "score": 95,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "164",
+    "title": "The Pirate's Last Stand",
+    "story": "Crowds gathered to witness the end of a notorious pirate. Captain William Kidd stood on the gallows in London, convicted of piracy and murder. On May 23, 1701, the infamous sailor met his fate. Kidd had once been a respected privateer, hunting enemy ships. But greed led him to cross the line into piracy, sealing his doom.",
+    "activity_question": "What was Captain William Kidd convicted of?",
+    "activity_choices": [
+      "Piracy and murder",
+      "Stealing treasure",
+      "Mutiny on a ship",
+      "Impersonating a naval officer"
+    ],
+    "activity_answer": "Piracy and murder",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What's the difference between a pirate and a privateer?",
+    "score": 72,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "34",
+    "title": "Airship Adventure Ends in Splash",
+    "story": "Passengers got an unexpected thrill in 1908 when a dirigible airship burst into flames over San Francisco Bay. As the craft plummeted, all sixteen people on board tumbled out. Amazingly, everyone survived the fall on May 23. Quick-thinking rescuers in boats plucked the soggy but safe passengers from the water. It was a lucky escape that made headlines!",
+    "activity_question": "What happened to the dirigible over San Francisco Bay?",
+    "activity_choices": [
+      "It burst into flames",
+      "It ran out of fuel",
+      "It got lost in fog",
+      "It landed on a beach"
+    ],
+    "activity_answer": "It burst into flames",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think rescuers knew to be ready with boats?",
+    "score": 75,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "7",
+    "title": "The Miraculous Window Toss",
+    "story": "Imagine falling from a tall building and walking away unharmed! In 1618, three men were thrown out of a castle window in Prague. They plummeted about 70 feet, yet miraculously survived with only minor injuries. This shocking event on May 23 sparked the Thirty Years' War, a major conflict in European history.",
+    "activity_question": "What event did this window toss spark?",
+    "activity_choices": [
+      "The Thirty Years' War",
+      "The Great Fire of Prague",
+      "The Castle Renovation Project",
+      "The Window Makers' Strike"
+    ],
+    "activity_answer": "The Thirty Years' War",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think the men survived such a long fall?",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "283",
+    "title": "The Birth of a Beloved Bedtime Storyteller",
+    "story": "A magical voice in children's literature was born on May 23, 1910. Margaret Wise Brown entered the world in Brooklyn, New York City. She would grow up to create timeless bedtime classics like 'Goodnight Moon' and 'The Runaway Bunny'. Brown's soothing words have lulled countless little ones to sleep, painting cozy scenes of bunnies and quiet rooms. Her stories continue to enchant young readers, even though she left us too soon in 1952.",
+    "activity_question": "What famous bedtime story did Margaret Wise Brown write?",
+    "activity_choices": [
+      "Goodnight Moon",
+      "The Cat in the Hat",
+      "Where the Wild Things Are",
+      "The Very Hungry Caterpillar"
+    ],
+    "activity_answer": "Goodnight Moon",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Have you ever read 'Goodnight Moon'? What's your favorite bedtime story?",
+    "score": 90,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "185",
+    "title": "Monty Python Takes Flight",
+    "story": "Laughter was about to take a wild turn! On May 23, 1969, the BBC made a decision that would change comedy forever. They ordered 13 episodes of a new show called Monty Python's Flying Circus. This quirky British comedy group was ready to unleash their zany sketches and silly songs on the world. Little did anyone know, they were about to create a comedy revolution!",
+    "activity_question": "What did the BBC order 13 episodes of?",
+    "activity_choices": [
+      "Monty Python's Flying Circus",
+      "The Silly Walk Show",
+      "British Comedy Hour",
+      "Laugh-a-Lot Circus"
+    ],
+    "activity_answer": "Monty Python's Flying Circus",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "The name 'Monty Python' was chosen because it sounded like a really bad theatrical agent.",
+    "optional_type": "bonus_fact",
+    "score": 90,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "332",
+    "title": "The Man Behind the Musical Magic",
+    "story": "Beep, boop, whirr! Strange new sounds filled the air when Robert Moog was born in 1934. This future musical genius arrived in New York City on May 23, destined to change music forever. Moog grew up to invent the Moog synthesizer, an electronic instrument that could create almost any sound imaginable. His invention sparked a revolution in music, influencing countless artists and shaping the sound of pop, rock, and electronic music for generations to come.",
+    "activity_question": "What did Robert Moog invent that changed music?",
+    "activity_choices": [
+      "The Moog synthesizer",
+      "The electric guitar",
+      "The drum machine",
+      "The musical triangle"
+    ],
+    "activity_answer": "The Moog synthesizer",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name a type of music that might use a synthesizer?",
+    "score": 92,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "63",
+    "title": "Explorer 1: America's Space Pioneer Signs Off",
+    "story": "Beep... beep... silence. Explorer 1, America's first satellite, fell silent on May 23, 1958. Launched earlier that year, this pioneering spacecraft had circled Earth for months, sending back valuable data about our planet and space. Its mission helped kick off the exciting Space Age and showed the world that the United States was ready to reach for the stars.",
+    "activity_question": "What did Explorer 1 do for months after its launch?",
+    "activity_choices": [
+      "Circled Earth",
+      "Landed on the Moon",
+      "Took pictures of Mars",
+      "Floated in the ocean"
+    ],
+    "activity_answer": "Circled Earth",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Explorer 1 was about the size of a kitchen rolling pin!",
+    "score": 80,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "173",
+    "title": "Walt Disney's First Cartoon Company",
+    "story": "Walt Disney had big dreams of making people laugh. In 1922, he took a bold step and started his very first cartoon company. He called it Laugh-O-Gram Films. On May 23, Disney officially created the business, hoping to bring joy through animation. This small start would lead to much bigger things in the world of entertainment.",
+    "activity_question": "What was the name of Walt Disney's first cartoon company?",
+    "activity_choices": [
+      "Laugh-O-Gram Films",
+      "Disney Studios",
+      "Mickey Mouse Productions",
+      "Cartoon Chuckles Inc."
+    ],
+    "activity_answer": "Laugh-O-Gram Films",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name a famous cartoon character Walt Disney created later?",
+    "score": 70,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "31",
+    "title": "Coast-to-Coast Car Adventure Begins!",
+    "story": "Vroom! In 1903, a daring journey began as the first automobile trip across America set off from San Francisco on May 23. The brave drivers pointed their car east, aiming for New York City. This wasn't a quick road trip - it took over two months to reach their destination! Imagine bouncing along dusty trails and rough roads, paving the way for future cross-country travelers.",
+    "activity_question": "Where did the first automobile trip across America begin?",
+    "activity_choices": [
+      "San Francisco",
+      "New York City",
+      "Chicago",
+      "Los Angeles"
+    ],
+    "activity_answer": "San Francisco",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think cars and roads have changed since 1903?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "359",
+    "title": "Alien Hunter Born: H. Paul Shuch",
+    "story": "Imagine searching the stars for alien signals! H. Paul Shuch was born in Chicago on May 23, 1946. He grew up to become a scientist who got radio hobbyists excited about listening for messages from space. Shuch coordinated amateur radio operators to join the search for extraterrestrial intelligence, or SETI. His work helped everyday people join the quest to find life beyond Earth.",
+    "activity_question": "What did H. Paul Shuch coordinate radio amateurs to search for?",
+    "activity_choices": [
+      "Extraterrestrial intelligence",
+      "Weather patterns",
+      "Lost radio signals",
+      "Alien spaceships"
+    ],
+    "activity_answer": "Extraterrestrial intelligence",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think scientists are interested in searching for signals from space?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "134",
+    "title": "Ancient Chinese Beer Discovery",
+    "story": "Archaeologists in China made a frothy discovery in 2016! They found evidence of the oldest beer-making in the country, dating back over 5,000 years. In Shaanxi Province, traces of barley used for brewing were uncovered from between 3400 and 2900 BC. This ancient ale recipe shows that China's love for beer has deep historical roots. On May 23, scientists announced this exciting find, giving us a taste of prehistoric party drinks!",
+    "activity_question": "What ingredient did archaeologists find evidence of in ancient Chinese beer-making?",
+    "activity_choices": [
+      "Barley",
+      "Hops",
+      "Rice",
+      "Wheat"
+    ],
+    "activity_answer": "Barley",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think people started making beer so long ago?",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "135",
+    "title": "Ancient Library Gets a Fresh Start",
+    "story": "Books got a big boost in 2017! The Library of Al-Qarawiyyin in Fez, Morocco, reopened its doors on May 23 after a major makeover. This special place is the worlds oldest library that has never stopped running. King Mohammed VI helped bring new life to the ancient building. Now, curious readers can explore its treasures in a beautifully restored space.",
+    "activity_question": "Where is the Library of Al-Qarawiyyin located?",
+    "activity_choices": [
+      "Fez, Morocco",
+      "Cairo, Egypt",
+      "Marrakech, Morocco",
+      "Alexandria, Egypt"
+    ],
+    "activity_answer": "Fez, Morocco",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think its important to preserve old libraries like this one?",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "29",
+    "title": "A Hero's Bravery Honored at Last",
+    "story": "Bullets flew as William Harvey Carney clutched the American flag, refusing to let it fall. His incredible bravery during the Civil War's Battle of Fort Wagner finally received recognition on May 23, 1900. That's when Carney became the first African-American soldier awarded the Medal of Honor, the nation's highest military decoration. Though the battle happened years earlier, Carney's unwavering courage in protecting the flag under fire was at last celebrated.",
+    "activity_question": "What did William Harvey Carney refuse to let fall during the battle?",
+    "activity_choices": [
+      "The American flag",
+      "His weapon",
+      "A secret message",
+      "His commander's hat"
+    ],
+    "activity_answer": "The American flag",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it's important to honor acts of bravery, even if it's many years later?",
+    "score": 90,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "248",
+    "title": "Deaf Baseball Star Steals the Show",
+    "story": "William Hoy slid into baseball history in 1862. Born on May 23 in Ohio, he became known as 'Dummy' Hoy. Despite being deaf, Hoy proved unstoppable on the field. He raced around bases for teams like the Washington Senators and Cincinnati Reds. Hoy even led the National League in stolen bases, showing that determination can overcome any obstacle.",
+    "activity_question": "What team did William Hoy play for?",
+    "activity_choices": [
+      "Washington Senators",
+      "New York Yankees",
+      "Boston Red Sox",
+      "Chicago Cubs"
+    ],
+    "activity_answer": "Washington Senators",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think being deaf might have affected Hoy's playing style?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "142",
+    "title": "Tornado Outbreak Sweeps Across US States",
+    "story": "Fierce winds roared through Missouri, Oklahoma, and Iowa in 2019. Over the course of a week, more than 170 tornadoes were reported on May 23 and the days surrounding it. These powerful twisters caused widespread damage, tearing through homes and buildings. While the storms were destructive, communities came together to support each other and rebuild in the aftermath.",
+    "activity_question": "Which three US states were affected by the tornado outbreak?",
+    "activity_choices": [
+      "Missouri, Oklahoma, and Iowa",
+      "Kansas, Nebraska, and Texas",
+      "Illinois, Indiana, and Ohio",
+      "Arkansas, Louisiana, and Mississippi"
+    ],
+    "activity_answer": "Missouri, Oklahoma, and Iowa",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What can families do to stay safe during tornado warnings?",
+    "score": 85,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "191",
+    "title": "Boxing Prodigy Makes History",
+    "story": "Wilfred Benítez packed a powerful punch in the boxing world on May 23, 1981. At just 22 years old, the Puerto Rican fighter knocked out Maurice Hope in Las Vegas, claiming the WBC World Super Welterweight title. This victory made Benítez the youngest boxer ever to win world championships in three different weight divisions, a remarkable feat that showcased his incredible skill and determination.",
+    "activity_question": "What title did Wilfred Benítez win in Las Vegas?",
+    "activity_choices": [
+      "WBC World Super Welterweight",
+      "WBA Heavyweight",
+      "IBF Lightweight",
+      "WBO Featherweight"
+    ],
+    "activity_answer": "WBC World Super Welterweight",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How old was Wilfred Benítez when he achieved this record-breaking victory?",
+    "score": 90,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "46",
+    "title": "Pedaling to Glory: Hubert's Record Ride",
+    "story": "Wheels spinning, legs pumping, Hubert Opperman raced against time. On May 23, 1932, this Australian cyclist pushed his limits at Melbourne Motordrome. In just one day, he pedaled an incredible 1,384km. But Hubert wasn't done! He kept going, reaching 1,609km in less than 29 hours. These amazing distances set new world records for paced cycling, showing what determination and endurance could achieve.",
+    "activity_question": "Where did Hubert Opperman set his cycling records?",
+    "activity_choices": [
+      "Melbourne Motordrome",
+      "Sydney Opera House",
+      "Great Barrier Reef",
+      "Outback Desert"
+    ],
+    "activity_answer": "Melbourne Motordrome",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How many kilometers did Hubert cycle in 24 hours?",
+    "score": 85,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "162",
+    "title": "A Royal Gift for Stargazing",
+    "story": "Imagine getting an entire island as a gift! In 1576, King Frederick of Denmark did just that. He offered the island of Hveen to Tycho Brahe, a nobleman with a passion for astronomy. This generous gift on May 23 wasn't just for fun - it had a special purpose. The king wanted Brahe to build an observatory there, creating a perfect spot for studying the stars and planets.",
+    "activity_question": "What did King Frederick offer to Tycho Brahe?",
+    "activity_choices": [
+      "The island of Hveen",
+      "A new telescope",
+      "A royal title",
+      "A castle in Denmark"
+    ],
+    "activity_answer": "The island of Hveen",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think an island would be a good place for an observatory?",
+    "score": 92,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "168",
+    "title": "Simón Bolívar: The Liberator Arrives",
+    "story": "Simón Bolívar rode into the city of Mérida, leading a brave army to free Venezuela. The people cheered as he entered on May 23, 1813. They gave him a special name: El Libertador, which means The Liberator. Bolívar was fighting to make South American countries independent from Spain. His arrival in Mérida was a big step toward freedom for many nations.",
+    "activity_question": "What special name did the people give Simón Bolívar?",
+    "activity_choices": [
+      "El Libertador",
+      "El Capitán",
+      "El Presidente",
+      "El Conquistador"
+    ],
+    "activity_answer": "El Libertador",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What does El Libertador mean in English?",
+    "score": 82,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "73",
+    "title": "Speedy Strides: A Marathon Milestone",
+    "story": "Lace up those running shoes! On May 23, 1964, Dale Greig raced into history. This swift Scottish runner dashed through a marathon in an incredible time. Greig's feet flew as she completed the long distance in just 3 hours, 27 minutes, and 45 seconds. Her amazing run set a new world record for women in the marathon!",
+    "activity_question": "What was Dale Greig's record-setting marathon time?",
+    "activity_choices": [
+      "3 hours, 27 minutes, and 45 seconds",
+      "2 hours, 45 minutes, and 37 seconds",
+      "4 hours, 15 minutes, and 30 seconds",
+      "3 hours, 45 minutes, and 27 seconds"
+    ],
+    "activity_answer": "3 hours, 27 minutes, and 45 seconds",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How long is a marathon race?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "177",
+    "title": "Lightning Fists: Joe Louis Strikes Fast",
+    "story": "Pow! In 1941, boxing fans witnessed a lightning-fast knockout. Joe Louis, the legendary heavyweight champion, faced Buddy Baer on May 23. At New York's Madison Square Garden, Louis unleashed his famous power. The fight ended in a flash - Baer hit the canvas in the very first round! It was Louis's 20th defense of his World Heavyweight title, cementing his place in boxing history.",
+    "activity_question": "Where did this famous boxing match take place?",
+    "activity_choices": [
+      "Madison Square Garden",
+      "Yankee Stadium",
+      "Wembley Arena",
+      "The Colosseum"
+    ],
+    "activity_answer": "Madison Square Garden",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think Joe Louis was called the 'Brown Bomber'?",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "174",
+    "title": "Hack Wilson's Mighty Swing at Wrigley",
+    "story": "Crack! The crowd gasped as Hack Wilson's powerful hit soared through the air. In 1926, this Chicago Cubs slugger became the first player to smack a home run off the Wrigley Field scoreboard. On May 23, Wilson's incredible feat left fans amazed. His mighty swing showed why he was one of baseball's most feared hitters of his time.",
+    "activity_question": "What did Hack Wilson hit in this story?",
+    "activity_choices": [
+      "A home run",
+      "A foul ball",
+      "A double",
+      "A grand slam"
+    ],
+    "activity_answer": "A home run",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Wrigley Field, home of the Chicago Cubs, is one of the oldest ballparks still in use today.",
+    "score": 78,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "181",
+    "title": "DiMaggio's Triple Home Run Triumph",
+    "story": "Crack! Crack! Crack! The crowd at Cleveland Stadium watched in awe as Joe DiMaggio smashed three home runs in a row. On May 23, 1948, the legendary New York Yankees center fielder put on a spectacular show. His powerful hits helped the Yankees narrowly defeat the Cleveland Indians 6-5. DiMaggio's incredible performance that day foreshadowed his future induction into the Baseball Hall of Fame.",
+    "activity_question": "What did Joe DiMaggio hit three times in a row during the game?",
+    "activity_choices": [
+      "Home runs",
+      "Doubles",
+      "Triples",
+      "Foul balls"
+    ],
+    "activity_answer": "Home runs",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think hitting three home runs in one game is considered so impressive?",
+    "score": 90,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "81",
+    "title": "The Who's Rock Opera Takes the Stage",
+    "story": "Rock music hit a new high note in 1969. The Who, a famous British band, released their groundbreaking album 'Tommy' on May 23. This wasn't just any record - it was a double album and a rock opera! 'Tommy' told a story through its songs, following a deaf, dumb, and blind boy who becomes a pinball champion.",
+    "activity_question": "What kind of album was 'Tommy'?",
+    "activity_choices": [
+      "A rock opera",
+      "A country album",
+      "A jazz collection",
+      "A classical symphony"
+    ],
+    "activity_answer": "A rock opera",
+    "suitable_for_8_to_12_year_old": false,
+    "bonus_fact": "The Who performed songs from 'Tommy' at the famous Woodstock festival later that year.",
+    "optional_type": "bonus_fact",
+    "score": 82,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "398",
+    "title": "Reggae-Rock Drummer's Rhythmic Roots",
+    "story": "Freddie 'Junior' Waite drummed his way into the world on May 23, 1967, in Birmingham, England. He'd grow up to keep the beat for Musical Youth, a reggae-rock band that got toes tapping worldwide. Their catchy tune 'Pass the Dutchie' had everyone singing along and made Waite's rhythms famous across the globe.",
+    "activity_question": "What famous song did Freddie 'Junior' Waite play drums for?",
+    "activity_choices": [
+      "'Pass the Dutchie'",
+      "'Reggae Nights'",
+      "'Birmingham Beat'",
+      "'Youth Groove'"
+    ],
+    "activity_answer": "'Pass the Dutchie'",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Reggae music often features a strong drum beat and offbeat rhythms that make people want to dance!",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "76",
+    "title": "A Queen for the Maori People",
+    "story": "In 1966, a historic moment unfolded for the Maori people of New Zealand. Te Arikinui, Dame Te Atairangikaahu, became the first Maori queen on May 23. She stepped into this important role after her father, King Koroki, passed away. As queen, she would lead and represent her people, carrying on ancient traditions while facing modern challenges.",
+    "activity_question": "Who did Te Arikinui, Dame Te Atairangikaahu succeed as the Maori monarch?",
+    "activity_choices": [
+      "Her father, King Koroki",
+      "Her mother, Queen Marama",
+      "Her brother, Prince Tane",
+      "Her cousin, Princess Aroha"
+    ],
+    "activity_answer": "Her father, King Koroki",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it was significant for the Maori people to have their first queen?",
+    "optional_type": "follow_up_question",
+    "score": 76,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "51",
+    "title": "Spitfires vs. Luftwaffe: Sky Battle Begins",
+    "story": "Roaring engines filled the air as British Spitfires clashed with German Luftwaffe planes in 1940. This fierce aerial combat on May 23 marked the first major dogfight between these rival forces. Pilots swooped and dove, their planes dancing a dangerous sky ballet. It was a turning point in World War II, showcasing the bravery of pilots on both sides.",
+    "activity_question": "What type of British planes fought against the Luftwaffe?",
+    "activity_choices": [
+      "Spitfires",
+      "Hurricanes",
+      "Lancasters",
+      "Mosquitos"
+    ],
+    "activity_answer": "Spitfires",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think aerial combat is called a 'dogfight'?",
+    "score": 65,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "15",
+    "title": "Daring Escape to Freedom",
+    "story": "Three brave men made a bold move for liberty in 1861. Frank Baker, Shepard Mallory, and James Townsend, enslaved in Virginia, rowed across Hampton Roads to Fort Monroe on May 23. Their courageous action led to them being declared the first 'contraband of war' the very next day, marking a significant step towards freedom.",
+    "activity_question": "Where did the three men row to escape?",
+    "activity_choices": [
+      "Fort Monroe",
+      "Hampton Roads",
+      "Virginia Beach",
+      "Freedom Island"
+    ],
+    "activity_answer": "Fort Monroe",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What does 'contraband of war' mean in this context?",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "82",
+    "title": "Fiery Disaster Strikes Welsh Bridge",
+    "story": "Flames engulfed the Britannia Bridge in north Wales on May 23, 1970. The fire raged across the structure spanning the Menai Straits, causing extensive damage. Firefighters battled the blaze, but parts of the bridge were destroyed. The incident led to major repairs and safety improvements. Today, the rebuilt Britannia Bridge stands as a testament to engineering resilience.",
+    "activity_question": "What body of water does the Britannia Bridge cross?",
+    "activity_choices": [
+      "Menai Straits",
+      "River Thames",
+      "English Channel",
+      "Loch Ness"
+    ],
+    "activity_answer": "Menai Straits",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think engineers made the bridge safer after the fire?",
+    "score": 82,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "293",
+    "title": "Clyde Wiegand: Particle Pioneer",
+    "story": "Clyde Wiegand, born in 1915 in Long Beach, Washington, grew up to become a brilliant physicist. On May 23 of that year, a future scientific star entered the world. Wiegand's claim to fame? He helped discover the antiproton, a tiny particle that's like the evil twin of the proton. This breakthrough changed how we understand the building blocks of our universe!",
+    "activity_question": "What did Clyde Wiegand help discover?",
+    "activity_choices": [
+      "The antiproton",
+      "The electron",
+      "The neutron",
+      "The photon"
+    ],
+    "activity_answer": "The antiproton",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you imagine what an 'evil twin' of a normal particle might be like?",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "313",
+    "title": "A Nobel Mind Is Born",
+    "story": "Tiny baby Joshua Lederberg arrived in Montclair, New Jersey on May 23, 1925. Little did anyone know he'd grow up to become a brilliant scientist! Lederberg's curious mind led him to study tiny living things called microbes. His groundbreaking work earned him a Nobel Prize in 1958 for discoveries about how bacteria swap genetic information.",
+    "activity_question": "What did Joshua Lederberg study?",
+    "activity_choices": [
+      "Tiny living things called microbes",
+      "Large animals in New Jersey",
+      "The history of Montclair",
+      "How to win prizes"
+    ],
+    "activity_answer": "Tiny living things called microbes",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name another scientist who won a Nobel Prize?",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "387",
+    "title": "A Space Explorer's Earthly Beginning",
+    "story": "Blast off into adventure! Thomas Reiter, future astronaut and space explorer, took his first breath on May 23, 1958. Born in Frankfurt, West Germany, Reiter would grow up to join the European Space Agency. His journey from Earth to the stars began on this day, setting the stage for an out-of-this-world career.",
+    "activity_question": "Where was Thomas Reiter born?",
+    "activity_choices": [
+      "Frankfurt, West Germany",
+      "Berlin, East Germany",
+      "Munich, Bavaria",
+      "Hamburg, North Germany"
+    ],
+    "activity_answer": "Frankfurt, West Germany",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What space agency did Thomas Reiter join?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "279",
+    "title": "Scatman Crothers: A Musical Marvel Born",
+    "story": "Scatman Crothers burst onto the scene on May 23, 1910, in Terre Haute, Indiana. This talented performer would become a triple threat as a singer, musician, and actor. Crothers' unique voice brought life to songs like 'I'd Rather Be a Hummingbird' and characters like Louie on the TV show 'Chico and the Man'. He even appeared in the famous movie 'The Shining', leaving his mark on both music and film.",
+    "activity_question": "What TV show did Scatman Crothers appear in?",
+    "activity_choices": [
+      "Chico and the Man",
+      "The Shining",
+      "I'd Rather Be a Hummingbird",
+      "Terre Haute Tonight"
+    ],
+    "activity_answer": "Chico and the Man",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Scatman got his nickname from his talent for 'scat singing', a jazz style using nonsense syllables.",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "353",
+    "title": "Funk Drummer Tiki Fulwood Enters the World",
+    "story": "Boom! Crash! The rhythm of funk was born with Ramon Fulwood on May 23, 1944. Known as 'Tiki', this talented drummer from Philadelphia would go on to create groovy beats for famous bands like Parliament-Funkadelic. He even played with jazz legend Miles Davis! Tiki's drumsticks helped shape the funky sound of the 1970s.",
+    "activity_question": "What nickname was Ramon Fulwood known by?",
+    "activity_choices": [
+      "Tiki",
+      "Boom",
+      "Crash",
+      "Funky"
+    ],
+    "activity_answer": "Tiki",
+    "suitable_for_8_to_12_year_old": false,
+    "bonus_fact": "Drummers often use special sticks called brushes to create softer sounds.",
+    "optional_type": "bonus_fact",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "320",
+    "title": "A Star is Born: Rosemary Clooney",
+    "story": "Rosemary Clooney, a talented singer and actress, entered the world in Maysville, Kentucky in 1928. Born on May 23, she would grow up to charm audiences with her beautiful voice. Clooney became famous for songs like 'Come On-a My House' and starred in the beloved movie 'White Christmas'.",
+    "activity_question": "What famous holiday movie did Rosemary Clooney star in?",
+    "activity_choices": [
+      "White Christmas",
+      "Jingle Bells",
+      "Frosty the Snowman",
+      "Rudolph's Adventure"
+    ],
+    "activity_answer": "White Christmas",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Rosemary Clooney is the aunt of famous actor George Clooney.",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "341",
+    "title": "Johnny Ball: Math's TV Star is Born",
+    "story": "Lights, camera, math! On May 23, 1938, Graham 'Johnny' Ball entered the world in Bristol, England. Little did anyone know this bouncing baby would grow up to become a beloved TV personality and math whiz. Johnny made learning fun on shows like 'Play School', turning numbers into adventures and sparking curiosity in countless young minds across Britain.",
+    "activity_question": "What TV show did Johnny Ball appear on?",
+    "activity_choices": [
+      "Play School",
+      "Number Crunch",
+      "Math Mania",
+      "Counting Capers"
+    ],
+    "activity_answer": "Play School",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think Johnny Ball made math exciting on TV?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "280",
+    "title": "Artie Shaw: Jazz Clarinet King",
+    "story": "Swing into the world of Artie Shaw! Born on May 23, 1910, this New York City kid grew up to become a jazz legend. Shaw's clarinet skills and big band leadership made him a superstar. His hit song 'Begin the Beguine' had everyone dancing. Shaw wasn't just about music - he also tried his hand at acting!",
+    "activity_question": "What instrument did Artie Shaw play?",
+    "activity_choices": [
+      "Clarinet",
+      "Trumpet",
+      "Piano",
+      "Saxophone"
+    ],
+    "activity_answer": "Clarinet",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Artie Shaw's real name was Arthur Arshawsky.",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "390",
+    "title": "Bob Mortimer: Comedy's Quirky Genius",
+    "story": "Laughter echoed through Acklam, England as Robert 'Bob' Mortimer entered the world on May 23, 1959. This future comedy star would grow up to tickle funny bones across Britain. Known for his zany humor and wild imagination, Bob became a beloved comedian, actor, and podcast host. His unique style of comedy has kept audiences giggling for decades.",
+    "activity_question": "What profession is Bob Mortimer known for?",
+    "activity_choices": [
+      "Comedian",
+      "Chef",
+      "Astronaut",
+      "Librarian"
+    ],
+    "activity_answer": "Comedian",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Bob Mortimer studied law before becoming a comedian!",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "41",
+    "title": "Boxing Legend's Only Defeat",
+    "story": "Pow! In the boxing ring, even champions face tough battles. Gene Tunney, a future World Heavyweight champ, met his match on May 23, 1922. At Madison Square Garden in New York, Harry Greb outboxed Tunney for 15 grueling rounds. The judges all agreed: Greb won. It was the only time Tunney lost in his entire pro career!",
+    "activity_question": "Where did this famous boxing match take place?",
+    "activity_choices": [
+      "Madison Square Garden",
+      "Yankee Stadium",
+      "Central Park",
+      "The White House"
+    ],
+    "activity_answer": "Madison Square Garden",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How many rounds did the boxing match last?",
+    "score": 65,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "375",
+    "title": "A Trailblazing Leader in Rwanda",
+    "story": "Agathe Uwilingiyimana blazed a trail for women in African politics. Born in Nyaruhengeri, Rwanda on May 23, 1953, she would go on to become one of the first female political figures on the continent. Uwilingiyimana's determination led her to the role of Prime Minister of Rwanda, a position she held from 1993 to 1994.",
+    "activity_question": "What position did Agathe Uwilingiyimana hold in Rwanda?",
+    "activity_choices": [
+      "Prime Minister",
+      "President",
+      "Minister of Education",
+      "Chief Justice"
+    ],
+    "activity_answer": "Prime Minister",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why was Uwilingiyimana's role significant for women in Africa?",
+    "score": 70,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "396",
+    "title": "Cricket Star Born in Zimbabwe",
+    "story": "Graeme Hick swung his first bat in Harare, Zimbabwe, where he was born in 1966 on May 23. This talented cricket player would go on to become a powerhouse for England. Hick's impressive career included smashing six centuries in Test matches and playing in many One Day Internationals. He also became a key player for Worcestershire, leaving a lasting mark on English cricket.",
+    "activity_question": "Where was Graeme Hick born?",
+    "activity_choices": [
+      "Harare, Zimbabwe",
+      "London, England",
+      "Sydney, Australia",
+      "Mumbai, India"
+    ],
+    "activity_answer": "Harare, Zimbabwe",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What is a century in cricket?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "26",
+    "title": "The Iron Horse Reaches the Pacific",
+    "story": "Whistles blew and crowds cheered as the first transcontinental train chugged into Vancouver on May 23, 1887. This historic journey linked Canada's east and west coasts by rail for the first time. The train's arrival marked a new era of faster travel and trade across the vast country. It was a proud moment for the young nation, connecting people and places like never before.",
+    "activity_question": "What did the train's arrival in Vancouver mark?",
+    "activity_choices": [
+      "A new era of faster travel and trade",
+      "The end of horse-drawn carriages",
+      "The invention of the steam engine",
+      "A world speed record for trains"
+    ],
+    "activity_answer": "A new era of faster travel and trade",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think this train changed life for people living in western Canada?",
+    "score": 70,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "45",
+    "title": "A Wild Adventure Begins",
+    "story": "Lions roared and monkeys chattered as Whipsnade Zoo opened its gates in 1931. This sprawling animal park in Bedfordshire, England, welcomed visitors on May 23 for the first time. Unlike city zoos, Whipsnade gave animals huge spaces to roam. Families could drive through exhibits, getting up close to exotic creatures from around the world.",
+    "activity_question": "Where is Whipsnade Zoo located?",
+    "activity_choices": [
+      "Bedfordshire, England",
+      "London, England",
+      "Scotland",
+      "Wales"
+    ],
+    "activity_answer": "Bedfordshire, England",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Whipsnade Zoo is so big, it's visible from space!",
+    "score": 65,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "83",
+    "title": "Grateful Dead's British Invasion",
+    "story": "The Grateful Dead rocked across the pond in 1970! On May 23, these American music legends played their first-ever show outside the United States. Fans in Newcastle under Lyme, England, grooved to the Dead's psychedelic tunes at The Hollywood Rock Music Festival. It was a groundbreaking moment for the band and their international followers.",
+    "activity_question": "Where did the Grateful Dead play their first show outside the US?",
+    "activity_choices": [
+      "Newcastle under Lyme, England",
+      "Liverpool, England",
+      "Dublin, Ireland",
+      "Paris, France"
+    ],
+    "activity_answer": "Newcastle under Lyme, England",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The Grateful Dead were known for their long, improvised live performances and devoted fan base called 'Deadheads'.",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "78",
+    "title": "Beatles' Groovy Apple Boutique Opens",
+    "story": "Flower power was in full bloom when the Beatles opened their second Apple Boutique in London. On May 23, 1968, the Fab Four launched a colorful shop at 161 New Kings Road. It was a psychedelic paradise, selling hip clothes and accessories. The store's wild, painted exterior turned heads and sparked creativity in the swinging sixties.",
+    "activity_question": "What did the Beatles' Apple Boutique sell?",
+    "activity_choices": [
+      "Hip clothes and accessories",
+      "Musical instruments",
+      "Apple computers",
+      "Vinyl records"
+    ],
+    "activity_answer": "Hip clothes and accessories",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The Beatles' first Apple Boutique had opened on Baker Street in December 1967.",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "98",
+    "title": "Satellite Soars into Space",
+    "story": "Zoom! A powerful rocket blasted off, carrying a special passenger. On May 23, 1981, NASA launched the Intelsat V satellite into orbit. This high-tech marvel, known as number 501, joined a fleet of satellites helping people communicate across the globe. Like a space mailman, it would relay messages, phone calls, and even TV shows between continents.",
+    "activity_question": "What did NASA launch in 1981?",
+    "activity_choices": [
+      "The Intelsat V satellite",
+      "A space shuttle",
+      "A weather balloon",
+      "A flying saucer"
+    ],
+    "activity_answer": "The Intelsat V satellite",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do satellites help people communicate?",
+    "score": 70,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "80",
+    "title": "Taming the Sea: Holland's Mighty Dike",
+    "story": "Water rushed and waves crashed, but not for long! On May 23, 1969, the Lauwerszee Dike in Holland sealed off a section of the North Sea. This massive project transformed the landscape, creating new land and protecting homes from floods. Engineers and workers celebrated as the final gap closed, marking a triumph of human ingenuity over nature's power.",
+    "activity_question": "What did the Lauwerszee Dike do in Holland?",
+    "activity_choices": [
+      "Sealed off a section of the North Sea",
+      "Created a new shipping canal",
+      "Built a bridge to Germany",
+      "Opened a underwater tunnel"
+    ],
+    "activity_answer": "Sealed off a section of the North Sea",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think building dikes is important for a country like Holland?",
+    "score": 80,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "90",
+    "title": "Benin's Big Step Towards Democracy",
+    "story": "A new chapter began for the West African nation of Benin in 1977. On May 23, the country adopted its constitution, laying the groundwork for a more democratic future. This important document outlined the rights of citizens and how the government would work. It was a significant moment for Benin, marking its progress from colonial rule to an independent nation shaping its own destiny.",
+    "activity_question": "What did Benin adopt on May 23, 1977?",
+    "activity_choices": [
+      "Its constitution",
+      "A new flag",
+      "Its national anthem",
+      "A royal decree"
+    ],
+    "activity_answer": "Its constitution",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why is a constitution important for a country?",
+    "score": 90,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "255",
+    "title": "Soaring Dreams: A Portuguese Aviation Pioneer",
+    "story": "Artur de Sacadura Freire Cabral spread his wings on May 23, 1881. Born in Celorico da Beira, Portugal, he grew up to become a daring aviator. Cabral's greatest achievement? He led the first-ever flight across the South Atlantic Ocean. This brave explorer pushed the boundaries of what was possible in the air, inspiring future generations of pilots.",
+    "activity_question": "What was Cabral's greatest achievement?",
+    "activity_choices": [
+      "He led the first-ever flight across the South Atlantic Ocean",
+      "He invented a new type of airplane",
+      "He flew around the world in 80 days",
+      "He discovered a new island from the air"
+    ],
+    "activity_answer": "He led the first-ever flight across the South Atlantic Ocean",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think flying across an ocean was such a big deal back then?",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "306",
+    "title": "A Sci-Fi Star Is Born",
+    "story": "Blast off to 1921! On May 23, James Blish rocketed into the world in East Orange, New Jersey. This future sci-fi superstar would go on to win a Hugo Award and write thrilling Star Trek stories. Blish even used a secret identity, penning works as William Atheling, Jr. His imagination took readers on cosmic adventures across the galaxy.",
+    "activity_question": "What award did James Blish win?",
+    "activity_choices": [
+      "Hugo Award",
+      "Pulitzer Prize",
+      "Oscar",
+      "Nobel Prize"
+    ],
+    "activity_answer": "Hugo Award",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think some authors use pseudonyms (fake names) when they write?",
+    "score": 70,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "196",
+    "title": "Jimmy Stewart: Actor and Military Hero",
+    "story": "Hollywood legend Jimmy Stewart received a special honor in 1985. On May 23, President Ronald Reagan awarded him the Presidential Medal of Freedom, America's highest civilian award. Reagan also promoted Stewart to Major General on the Retired List, recognizing his military service alongside his acting career.",
+    "activity_question": "What award did Jimmy Stewart receive from President Reagan?",
+    "activity_choices": [
+      "Presidential Medal of Freedom",
+      "Oscar for Lifetime Achievement",
+      "Congressional Gold Medal",
+      "Purple Heart"
+    ],
+    "activity_answer": "Presidential Medal of Freedom",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Jimmy Stewart flew combat missions as a bomber pilot during World War II.",
+    "score": 60,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "207",
+    "title": "Apple Music Crowns Hip-Hop Queen",
+    "story": "Hip-hop history was made when Apple Music declared Lauryn Hill's 'The Miseducation of Lauryn Hill' the greatest album ever. This groundbreaking announcement on May 23, 2024, celebrated the iconic artist's blend of rap, soul, and R&B. Hill's masterpiece, first released years earlier, continues to inspire music lovers worldwide.",
+    "activity_question": "What album did Apple Music name as the best ever made?",
+    "activity_choices": [
+      "'The Miseducation of Lauryn Hill'",
+      "'Thriller' by Michael Jackson",
+      "'Abbey Road' by The Beatles",
+      "'Purple Rain' by Prince"
+    ],
+    "activity_answer": "'The Miseducation of Lauryn Hill'",
+    "suitable_for_8_to_12_year_old": false,
+    "bonus_fact": "Lauryn Hill was part of the famous hip-hop group The Fugees before her solo career.",
+    "optional_type": "bonus_fact",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "148",
+    "title": "Farewell to the Payphone",
+    "story": "Ring, ring! The last public payphones in New York City said goodbye on May 23, 2022. Workers removed these iconic street-corner booths from bustling Midtown Manhattan. But don't worry - these communication relics won't be forgotten. They're heading to a museum where visitors can see how people made calls before everyone had cell phones in their pockets.",
+    "activity_question": "Where were the last public payphones removed from?",
+    "activity_choices": [
+      "Midtown Manhattan",
+      "Central Park",
+      "Times Square",
+      "Brooklyn Bridge"
+    ],
+    "activity_answer": "Midtown Manhattan",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think payphones became less common over time?",
+    "score": 55,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "13",
+    "title": "NYPD: From Night Watch to City Guardians",
+    "story": "Criminals beware! In 1845, the Big Apple got a big upgrade to its law enforcement. The New York City Police Department (NYPD) was born, replacing an outdated night watch system. This change on May 23 marked a new era of protection for the bustling city. Now, trained officers patrolled day and night, ready to keep New Yorkers safe and sound.",
+    "activity_question": "What did the NYPD replace when it was formed?",
+    "activity_choices": [
+      "An old night watch system",
+      "A volunteer fire brigade",
+      "A group of private detectives",
+      "A team of superhero vigilantes"
+    ],
+    "activity_answer": "An old night watch system",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think a professional police force might be more effective than a night watch system?",
+    "score": 55,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "22",
+    "title": "Mounties Ride into History",
+    "story": "Saddle up! In 1873, Canada's famous red-coated police force galloped onto the scene. The North West Mounted Police, later known as the Mounties, formed on May 23 to bring law and order to the wild Canadian frontier. These brave officers patrolled vast territories on horseback, becoming symbols of justice and adventure in the Great White North.",
+    "activity_question": "What was the original name of Canada's famous police force?",
+    "activity_choices": [
+      "North West Mounted Police",
+      "Royal Canadian Mounted Police",
+      "Canadian Frontier Force",
+      "Maple Leaf Patrol"
+    ],
+    "activity_answer": "North West Mounted Police",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "The force received its 'Royal' title in 1904, becoming the Royal Canadian Mounted Police.",
+    "optional_type": "bonus_fact",
+    "score": 55,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  }
+]

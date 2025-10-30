@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Swing Into National Hammock Day!",
+    "story": "Every July 22, people across the country celebrate National Hammock Day by doing absolutely nothing – and loving every minute of it! This relaxing holiday encourages everyone to slow down, grab a good book or cold drink, and spend time swaying gently in a hammock. Some folks string up hammocks between trees in their backyard, while others head to parks or beaches to find the perfect spot. Social media fills with photos of people's feet dangling from colorful hammocks, and many families make it a tradition to have lazy picnics outdoors. It's the one day when being a couch potato is totally encouraged!",
+    "activity_question": "What do people often bring with them when celebrating in a hammock?",
+    "activity_choices": [
+      "A book or cold drink",
+      "A vacuum cleaner",
+      "Their homework",
+      "A ladder"
+    ],
+    "activity_answer": "A book or cold drink",
+    "follow_up_question": "What's your ideal spot to hang a hammock for the perfect lazy day?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "902",
+    "title": "Ratcatcher's Day: Heroes with Traps",
+    "story": "Every July 22, people celebrate the brave pest controllers who keep our homes and cities clean! Ratcatcher's Day honors the workers who catch rats, mice, and other unwanted critters. Some towns throw parades for their local exterminators, while others share funny stories about clever traps. Kids might learn about different ways to catch pests without hurting them. Many people post pictures of their cats being \"honorary ratcatchers\" for the day. It's a quirky holiday that reminds us to appreciate the people who do important but often forgotten jobs!",
+    "activity_question": "What do some towns do to celebrate their local exterminators on Ratcatcher's Day?",
+    "activity_choices": [
+      "Throw parades for them",
+      "Give them free pizza",
+      "Make them wear funny hats",
+      "Have them race against cats"
+    ],
+    "activity_answer": "Throw parades for them",
+    "bonus_fact": "The most famous ratcatcher was the Pied Piper of Hamelin from the old fairy tale!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "903",
+    "title": "Pi Approximation Day: Math Gets Delicious!",
+    "story": "Every July 22, math lovers around the world celebrate Pi Approximation Day because the fraction 22/7 gives us a close estimate of the famous number pi! Teachers organize pie-eating contests and pizza parties to make math more delicious. Students compete in pi recitation challenges, trying to memorize as many digits as possible. Bakeries join the fun by offering special deals on circular treats. Math clubs host geometry games and create pi-themed art projects. It's the perfect day to prove that math can be both educational and tasty!",
+    "activity_question": "What fraction gives us a close estimate of pi on this holiday?",
+    "activity_choices": [
+      "22/7",
+      "15/3",
+      "100/50",
+      "Pi/2"
+    ],
+    "activity_answer": "22/7",
+    "follow_up_question": "What other circular foods could make math more fun to learn?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "904",
+    "title": "Your Amazing Brain Gets Its Own Day!",
+    "story": "Your brain controls everything you do, and on July 22, people around the world celebrate World Brain Day! Doctors, teachers, and families share fun facts about how your brain works and why keeping it healthy matters. Schools might host brain games, puzzle contests, or memory challenges. Some people try learning something completely new, like juggling or a different language, to give their brains a workout. It's the perfect day to appreciate the amazing computer inside your head!",
+    "activity_question": "What kinds of activities might people do on World Brain Day to exercise their brains?",
+    "activity_choices": [
+      "Brain games and puzzle contests",
+      "Running marathons",
+      "Painting their houses",
+      "Washing their cars"
+    ],
+    "activity_answer": "Brain games and puzzle contests",
+    "follow_up_question": "What's the most interesting thing you know about how your brain works?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  }
+]

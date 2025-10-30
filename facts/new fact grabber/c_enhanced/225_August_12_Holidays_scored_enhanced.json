@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Young Voices, Big Changes on Youth Day",
+    "story": "Every August 12, young people around the world celebrate International Youth Day by speaking up about issues they care about! Kids and teens organize rallies, post on social media, and share their ideas for making the world better. Schools host special assemblies where students talk about climate change, equality, and other important topics. Many young activists give speeches or create art projects to show their passion for change. Communities listen to what youth have to say and celebrate their energy and fresh ideas. It's a day when being young means having a powerful voice that adults actually want to hear!",
+    "activity_question": "What do young people often do on International Youth Day to share their ideas?",
+    "activity_choices": [
+      "Organize rallies and post on social media",
+      "Have pizza parties and play games",
+      "Stay home and watch movies",
+      "Only talk to their friends"
+    ],
+    "activity_answer": "Organize rallies and post on social media",
+    "follow_up_question": "What important issue would you want to speak up about if you organized your own youth event?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "902",
+    "title": "Trunk-ful of Fun: World Elephant Day",
+    "story": "Every August 12, people around the world celebrate the biggest land animals on Earth during World Elephant Day! Zoos host special elephant shows where visitors learn amazing facts about these gentle giants. Wildlife organizations share photos and videos of elephants playing, splashing in water, and caring for their babies. Many people donate money to help protect elephants in Africa and Asia. Schools often have elephant-themed activities where kids learn about elephant families and their incredible memories. Social media fills up with elephant pictures and facts. Some people even wear gray clothes to honor these magnificent creatures and spread awareness about keeping elephants safe in the wild.",
+    "activity_question": "What do zoos typically do on World Elephant Day?",
+    "activity_choices": [
+      "Host special elephant shows",
+      "Paint elephants different colors",
+      "Teach elephants to dance",
+      "Give elephants birthday cakes"
+    ],
+    "activity_answer": "Host special elephant shows",
+    "bonus_fact": "An elephant's trunk has over 40,000 muscles in it!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "903",
+    "title": "Middle Kids Get Their Moment!",
+    "story": "Middle children finally get their spotlight on August 12 during National Middle Child Day! These kids often feel squeezed between their older and younger siblings, so this special day celebrates everything awesome about being in the middle. Families post photos of their middle kids on social media, give them extra attention, and let them pick the family activities. Some middle children get special treats or gifts just for them. It's a day to remind middle kids that being stuck in the middle actually makes them pretty special!",
+    "activity_question": "What do families often let middle children do on National Middle Child Day?",
+    "activity_choices": [
+      "Pick the family activities",
+      "Stay up all night",
+      "Skip school forever",
+      "Eat only candy"
+    ],
+    "activity_answer": "Pick the family activities",
+    "follow_up_question": "What do you think are the best and worst parts about being a middle child?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "904",
+    "title": "Skinny Fries Get Their Special Day",
+    "story": "Those super-thin, matchstick-sized French fries have their own holiday on August 12! Julienne fries are cut extra skinny and cook up incredibly crispy on the outside while staying fluffy inside. Fast food restaurants, diners, and home cooks celebrate by making these pencil-thin potatoes the star of their meals. Many people share photos of their crispiest julienne fries on social media, and some restaurants offer special deals on these skinny spuds. The thinner the fry, the more surface area gets golden and crunchy!",
+    "activity_question": "What makes julienne fries different from regular French fries?",
+    "activity_choices": [
+      "They are cut extra thin like matchsticks",
+      "They are made from sweet potatoes",
+      "They are baked instead of fried",
+      "They are shaped like tiny donuts"
+    ],
+    "activity_answer": "They are cut extra thin like matchsticks",
+    "bonus_fact": "The word 'julienne' comes from a French cooking technique for cutting vegetables into thin strips.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  }
+]

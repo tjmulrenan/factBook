@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Sweet Dreams Are Made of Chocolate",
+    "story": "Chocolate lovers around the world unite every July 7 for World Chocolate Day! People celebrate by indulging in their favorite chocolate treats, from creamy milk chocolate bars to rich dark chocolate truffles. Bakeries and candy shops offer special deals, while families bake chocolate chip cookies and brownies together. Social media fills with mouth-watering photos of chocolate desserts, and many people try new chocolate flavors they've never tasted before. Some chocolate factories even offer special tours on this sweet day. Whether you prefer white, milk, or dark chocolate, this delicious holiday gives everyone the perfect excuse to satisfy their sweet tooth guilt-free!",
+    "activity_question": "What do bakeries and candy shops often do on World Chocolate Day?",
+    "activity_choices": [
+      "Offer special deals",
+      "Close early for the day",
+      "Only sell vanilla treats",
+      "Give away free vegetables"
+    ],
+    "activity_answer": "Offer special deals",
+    "bonus_fact": "Americans eat about 2.8 billion pounds of chocolate every year!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 95
+  },
+  {
+    "id": "902",
+    "title": "Wishing Upon Paper Stars",
+    "story": "Every July 7, people across Japan celebrate Tanabata, the magical Star Festival! This special day honors two star-crossed lovers who can only meet once a year when stars align perfectly in the sky. Families write their biggest wishes and dreams on colorful strips of paper called tanzaku, then tie them to bamboo branches that sway in the summer breeze. Streets fill with beautiful decorations made from paper streamers, lanterns, and origami creations that flutter like butterflies. Many people dress in bright yukatas (summer kimonos) and join parades or visit festivals with games, food stalls, and fireworks that light up the night sky.",
+    "activity_question": "What do people write their wishes on during Tanabata?",
+    "activity_choices": [
+      "Colorful paper strips called tanzaku",
+      "Magic star cookies",
+      "Bamboo leaves",
+      "Origami cranes"
+    ],
+    "activity_answer": "Colorful paper strips called tanzaku",
+    "follow_up_question": "What would you wish for if you could tie it to a bamboo tree?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "903",
+    "title": "Bulls, Runners, and Wild July Fun!",
+    "story": "Every July 7, brave runners dash through narrow streets while bulls charge behind them in the famous Running of the Bulls! This wild tradition happens in Spain, where people wear white clothes with red bandanas and run as fast as they can to stay ahead of the powerful bulls. The event lasts only a few minutes, but thousands of people come from around the world to watch or participate. Runners need to be super quick and careful as they race through the cobblestone streets. After the run, everyone celebrates with music, dancing, and delicious Spanish food. It's one of the most exciting and dangerous festivals on Earth!",
+    "activity_question": "What colors do people traditionally wear during the Running of the Bulls?",
+    "activity_choices": [
+      "White clothes with red bandanas",
+      "Blue shirts with yellow hats",
+      "Green pants with purple socks",
+      "Black clothes with orange scarves"
+    ],
+    "activity_answer": "White clothes with red bandanas",
+    "bonus_fact": "The bulls run about 875 meters, which is less than half a mile!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 82
+  }
+]

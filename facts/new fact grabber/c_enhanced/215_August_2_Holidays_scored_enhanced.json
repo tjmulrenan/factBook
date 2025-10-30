@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Sandwich Your Sweet Tooth Day!",
+    "story": "Two soft cookies hug a scoop of creamy ice cream right in the middle – that's the magic combo people celebrate every August 2 on National Ice Cream Sandwich Day! Families head to ice cream trucks, grocery stores, and parlors to grab their favorite frozen treats. Some people make their own by squishing vanilla ice cream between chocolate wafer cookies, while others get creative with different flavors like strawberry or mint chip. Ice cream shops often offer special deals and new flavors just for this sweet holiday. Social media fills up with photos of people taking that perfect first bite, trying not to let the ice cream squish out the sides!",
+    "activity_question": "What do people often try to avoid when eating ice cream sandwiches?",
+    "activity_choices": [
+      "Letting the ice cream squish out the sides",
+      "Eating them too slowly",
+      "Sharing with friends",
+      "Taking photos first"
+    ],
+    "activity_answer": "Letting the ice cream squish out the sides",
+    "bonus_fact": "The first ice cream sandwich was sold in New York City in 1899!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Color Your World Day!",
+    "story": "Grab your crayons and get ready to color outside the lines! National Coloring Book Day happens every August 2, celebrating one of the most relaxing and creative activities around. People of all ages pull out their favorite coloring books, from intricate mandalas to cartoon characters, and spend hours filling pages with bright colors. Libraries host coloring parties, coffee shops set up coloring stations, and families gather around kitchen tables with boxes of colored pencils. Social media fills with photos of finished masterpieces and work-in-progress pages. It's amazing how something so simple can bring such joy and calm to busy lives!",
+    "activity_question": "What do libraries often do to celebrate National Coloring Book Day?",
+    "activity_choices": [
+      "Host coloring parties",
+      "Give away free books",
+      "Have storytelling contests",
+      "Organize crayon races"
+    ],
+    "activity_answer": "Host coloring parties",
+    "follow_up_question": "What's your favorite thing to color when you want to relax?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  }
+]

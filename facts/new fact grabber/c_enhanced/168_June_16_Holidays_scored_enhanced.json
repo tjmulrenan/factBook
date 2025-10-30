@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Youth Day: South Africa's Day of Hope",
+    "story": "Every June 16, South Africa celebrates Youth Day to honor young people and their power to change the world. This special day remembers brave students who stood up for their rights and education. Today, schools hold assemblies, communities organize parades, and families gather to talk about dreams and goals. Young South Africans share stories, perform traditional dances, and participate in sports events. It's a day when everyone celebrates the energy and ideas that youth bring to their country.",
+    "activity_question": "What do South African schools typically do on Youth Day?",
+    "activity_choices": [
+      "Hold assemblies",
+      "Close for the entire week",
+      "Only serve ice cream for lunch",
+      "Ban all homework forever"
+    ],
+    "activity_answer": "Hold assemblies",
+    "follow_up_question": "What dreams do you have for making your community better?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  },
+  {
+    "id": "902",
+    "title": "Celebrating Africa's Amazing Kids",
+    "story": "Every June 16, people around the world celebrate the International Day of the African Child! This special day honors the courage and dreams of young people across Africa. Schools, communities, and organizations host events with music, dancing, storytelling, and art projects that showcase African culture. Kids learn about different African countries, try traditional foods, and hear inspiring stories about young African leaders making a difference in their communities today.",
+    "activity_question": "What types of activities do people do to celebrate the International Day of the African Child?",
+    "activity_choices": [
+      "Music, dancing, and storytelling",
+      "Only reading books silently",
+      "Playing video games all day",
+      "Sleeping until noon"
+    ],
+    "activity_answer": "Music, dancing, and storytelling",
+    "follow_up_question": "What would you want to learn most about African cultures and traditions?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  }
+]

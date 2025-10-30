@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "original": "Simplicity Day",
+    "score": 65,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "Paper Bag Day",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "Malala Day",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "Kiribati Independence Day",
+    "score": 45,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 5,
+    "original": "São Tomé and Príncipe Independence Day",
+    "score": 45,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 6,
+    "original": "Different Colored Eyes Day",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 7,
+    "original": "Orangemen's Day",
+    "score": 45,
+    "is_kid_friendly": false
+  }
+]

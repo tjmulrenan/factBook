@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Shake It Up on Chocolate Milkshake Day!",
+    "story": "Every September 12, chocolate lovers across America celebrate National Chocolate Milkshake Day by slurping their favorite creamy treats! Ice cream shops and diners see long lines of customers ordering thick, frosty chocolate milkshakes made with vanilla ice cream, chocolate syrup, and cold milk. Many families make their own at home, blending ingredients in blenders and competing to see who can make the thickest shake. Some people add whipped cream, chocolate chips, or even cookies on top. Social media fills with photos of towering milkshakes and messy chocolate mustaches. The best part? You get to decide if you drink it with a straw or grab a spoon when it's too thick to sip!",
+    "activity_question": "What do many families do at home to celebrate this holiday?",
+    "activity_choices": [
+      "Make their own chocolate milkshakes in blenders",
+      "Bake chocolate cookies shaped like straws",
+      "Paint pictures of ice cream shops",
+      "Write letters to dairy farmers"
+    ],
+    "activity_answer": "Make their own chocolate milkshakes in blenders",
+    "bonus_fact": "The thickest milkshakes are sometimes called \"concrete\" because they're so thick!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 95
+  },
+  {
+    "id": "902",
+    "title": "Spread Some Sunshine on Encouragement Day!",
+    "story": "Every September 12, people across the country celebrate National Day of Encouragement by lifting each other up with kind words and positive messages. Friends text compliments, teachers give extra praise, and families share what they love about each other. Some people write encouraging notes and leave them in library books or on car windshields for strangers to find. Social media fills with uplifting posts and motivational quotes. It's amazing how a simple \"You've got this!\" can brighten someone's entire day.",
+    "activity_question": "What do some people do with encouraging notes on this holiday?",
+    "activity_choices": [
+      "Leave them in library books for strangers",
+      "Fold them into paper airplanes",
+      "Hide them under their pillows",
+      "Mail them to the president"
+    ],
+    "activity_answer": "Leave them in library books for strangers",
+    "follow_up_question": "What encouraging message would you want to share with someone today?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  }
+]

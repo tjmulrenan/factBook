@@ -1,0 +1,542 @@
+[
+  {
+    "id": 201,
+    "year": "1999",
+    "original": "Tony Hawkis the first skateboarder to land a \"900\" (a 2½-revolution aerial spin) at the X Games in San Francisco, California",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 1
+  },
+  {
+    "id": 148,
+    "year": "2018",
+    "original": "Complex carbon-based molecules found by Cassini spacecraft on Saturn moon Enceladus, previously only ever found on earth and meteorites in research published in \"Nature\"",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 2
+  },
+  {
+    "id": 188,
+    "year": "1972",
+    "original": "Legendary video game and home computer Atari, Inc. founded byNolan Bushnelland Ted Dabney in Sunnyvale, California",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 3
+  },
+  {
+    "id": 195,
+    "year": "1986",
+    "original": "Jim Henson's fantasy film \"Labyrinth\" written by Terry Jones, and starringDavid BowieandJennifer Connelly, is released in the US",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 4
+  },
+  {
+    "id": 163,
+    "year": "2023",
+    "original": "Archaeologists in Roman city of Pompeii uncover a \"pizza\" painting in a fresco from house next to a bakery (more likely flatbread as lacks essential ingredients tomatoes and mozzarella)",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 5
+  },
+  {
+    "id": 76,
+    "year": "1967",
+    "original": "World's first ATM is installed by Barclays Bank in Enfield, London",
+    "score": 76,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 6
+  },
+  {
+    "id": 100,
+    "year": "1982",
+    "original": "4th NASA Space Shuttle Mission: Columbia 4 (STS-4) launches",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 7
+  },
+  {
+    "id": 25,
+    "year": "1894",
+    "original": "American Annie Londonderry [Annie Kopchovsky] sets out from Boston to become first woman to bicycle around the world (completes journey September 1895)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 8
+  },
+  {
+    "id": 216,
+    "year": "1898",
+    "original": "Canadian-American adventurer Joshua Slocum arrives in Newport, Rhode Island, completing the 1st solo circumnavigation of the globe",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 9
+  },
+  {
+    "id": 150,
+    "year": "2018",
+    "original": "Japanese spacecraft Hayabusa 2 arrives at diamond-shaped asteroid Ryugu",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 10
+  },
+  {
+    "id": 161,
+    "year": "2022",
+    "original": "First rocket launch in Australia for 25 years and NASA's first commercial spaceport outside the US for sub-orbital rocket from Arnhem Space Centre, Northern Territory",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 11
+  },
+  {
+    "id": 156,
+    "year": "2020",
+    "original": "Locust invasion labelled 'Swarmageddon' by The Times of India as it reaches Delhi",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 12
+  },
+  {
+    "id": 170,
+    "year": "1746",
+    "original": "Flora MacDonald helpsBonnie Prince Charlie, disguised as Betty Burke an Irish maid, evade capture by landing him on the Isle of Skye",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 13
+  },
+  {
+    "id": 94,
+    "year": "1980",
+    "original": "1st female state police graduates (NJ)",
+    "score": 94,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 14
+  },
+  {
+    "id": 217,
+    "year": "1923",
+    "original": "Capt. Lowell H. Smith and Lt. John P. Richter perform the first-ever aerial refueling in a DH-4B biplane",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 15
+  },
+  {
+    "id": 183,
+    "year": "1962",
+    "original": "NASA civilian pilotJoseph A. Walkertakes X-15 to 6,606 kph, 37,700 m",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 16
+  },
+  {
+    "id": 158,
+    "year": "2021",
+    "original": "Heat dome envelops the Pacific Northwest with Portland posting highest temperature since records began of 112 F (broken the next day)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 17
+  },
+  {
+    "id": 159,
+    "year": "2021",
+    "original": "Hottest temperature ever recorded in Canada at 46.6 C (116 F) in Lytton, British Columbia (breaks record 2 days later with 49.6 C)",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 18
+  },
+  {
+    "id": 30,
+    "year": "1915",
+    "original": "100°F (38°C), Fort Yukon, Alaska (state record)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 19
+  },
+  {
+    "id": 124,
+    "year": "1994",
+    "original": "118°F (47.8°C) at Lakewood, New Mexico a state record",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 20
+  },
+  {
+    "id": 129,
+    "year": "1995",
+    "original": "Space shuttle STS-71 (Atlantis 14), launches",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 21
+  },
+  {
+    "id": 104,
+    "year": "1983",
+    "original": "NASA launches space vehicle S-205",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 22
+  },
+  {
+    "id": 92,
+    "year": "1978",
+    "original": "US Seasat 1, 1st oceanographic satellite, launched into polar orbit",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 23
+  },
+  {
+    "id": 91,
+    "year": "1978",
+    "original": "Soyuz 30 carries 2 cosmonauts (1 Polish) to Salyut 6 space station",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 24
+  },
+  {
+    "id": 105,
+    "year": "1983",
+    "original": "Soyuz T-9 carries 2 cosmonauts to Salyut 7 space station",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 25
+  },
+  {
+    "id": 72,
+    "year": "1963",
+    "original": "USAF Major Robert A Rushworth, flying in X-15 rocket powered aircraft, reaches altitude 285,000 feet (86,868 meters)",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 26
+  },
+  {
+    "id": 111,
+    "year": "1986",
+    "original": "American tennis player Anne White shocks Wimbledon by wearing a white, one-piece, lycra body suit in 1st round match against Pam Shriver; wears regular outfit after rain break",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 27
+  },
+  {
+    "id": 59,
+    "year": "1956",
+    "original": "MLB Cleveland Indians trailing Baltimore Orioles 9-1, come back to win 12-11 in 11 innings",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 28
+  },
+  {
+    "id": 95,
+    "year": "1980",
+    "original": "Dodgers' Jerry Reuss no-hits SF Giants 8-0",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 29
+  },
+  {
+    "id": 90,
+    "year": "1978",
+    "original": "Henry Rono of Kenya sets record for 3,000 m, 7:32.1",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 55
+  },
+  {
+    "id": 71,
+    "year": "1963",
+    "original": "MLB Philadelphia Phillies Johnny Callison hits for cycle, but teammate centerfielder Tony Gonzalez's error ends his record 205 consecutive errorless games",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 31
+  },
+  {
+    "id": 103,
+    "year": "1983",
+    "original": "MLB Seattle Mariners bat out of order against Chicago White Sox in 2nd inning",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 34
+  },
+  {
+    "id": 186,
+    "year": "1969",
+    "original": "Denver Pop Festival opens; 50,000 attend;Frank Zappa,Creedence Clearwater Revival, andJimi Hendrixheadline; other performers include Three Dog Night, Tim Buckley, Big Mama Thornton, Johnny Winter,Joe Cocker, and Poco",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 35
+  },
+  {
+    "id": 187,
+    "year": "1970",
+    "original": "Festival Express opens in Toronto, Canada - The Grateful Dead, The Band,Janis Joplin, Flying Burrito Bros, Buddy Guy, Great Speckled Bird, and Delaney & Bonnie & Friends cross Canada together by train, for 5 shows in 3 cities",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 36
+  },
+  {
+    "id": 9,
+    "year": "1652",
+    "original": "New Amsterdam (now New York City) enacts first speed limit law in North America",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 37
+  },
+  {
+    "id": 34,
+    "year": "1929",
+    "original": "First color television demonstration is performed by Bell Laboratories in NYC",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 38
+  },
+  {
+    "id": 51,
+    "year": "1949",
+    "original": "\"Captain Video & His Video Rangers\" debut on DUMONT-TV - Television's first sci-fi series",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 39
+  },
+  {
+    "id": 65,
+    "year": "1960",
+    "original": "Chlorophyll \"A\" synthesized in Cambridge, Massachusetts",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 40
+  },
+  {
+    "id": 61,
+    "year": "1957",
+    "original": "The British Medical Research Council publishes a report suggesting a direct link between smoking and lung cancer.",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 41
+  },
+  {
+    "id": 55,
+    "year": "1954",
+    "original": "First nuclear power station opens in Obninsk near Moscow, Russia",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 42
+  },
+  {
+    "id": 23,
+    "year": "1890",
+    "original": "Canadian boxer George Dixon becomes the first Black world champion when he stops English bantamweight champion Edwin \"Nunc\" Wallace in 18 rounds in London",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 43
+  },
+  {
+    "id": 27,
+    "year": "1905",
+    "original": "Russian sailors mutiny aboard the battleship \"Potemkin\" and sail for Odessa",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 44
+  },
+  {
+    "id": 43,
+    "year": "1942",
+    "original": "FBI captures 8 Nazi saboteurs from a sub off NY's Long Island",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 45
+  },
+  {
+    "id": 15,
+    "year": "1847",
+    "original": "New York and Boston are linked by telegraph wires",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 46
+  },
+  {
+    "id": 33,
+    "year": "1922",
+    "original": "Newberry Medal 1st presented for kids literature (Hendrik Van Loon)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 47
+  },
+  {
+    "id": 140,
+    "year": "2009",
+    "original": "The Tower of Hercules in northern Spain - only preserved Roman lighthouse still in use is inscribed as a World Heritage Site",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 48
+  },
+  {
+    "id": 168,
+    "year": "1542",
+    "original": "Juan Rodríguez Cabrillosets sail from the Mexican port of Navidad on the first European voyage to explore the west coast of North America for the Spanish Empire",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 49
+  },
+  {
+    "id": 178,
+    "year": "1914",
+    "original": "Defending championJack Johnsonbeats fellow American Frank Moran on points in 20 rounds in Paris, France to retain his lineal heavyweight boxing title",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 50
+  },
+  {
+    "id": 215,
+    "year": "1778",
+    "original": "Liberty Bell returns home to Philadelphia after the British departure",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 52
+  },
+  {
+    "id": 49,
+    "year": "1947",
+    "original": "98°F (36.8°C) in De Bilt, Netherlands",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 54
+  },
+  {
+    "id": 46,
+    "year": "1943",
+    "original": "Fanny Blankers-Koen runs Dutch record 200m (24.5)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 57
+  },
+  {
+    "id": 21,
+    "year": "1876",
+    "original": "1st NLer to get 6 hits in 9 inn game (Dave Force, Philadelphia Athletics)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 58
+  },
+  {
+    "id": 80,
+    "year": "1971",
+    "original": "Bill Graham's New York rock venue Fillmore East closes down, to be succeeded by Fillmore West in San Francisco",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 60
+  },
+  {
+    "id": 83,
+    "year": "1974",
+    "original": "American TV variety program \"The Flip Wilson Show\" last airs on NBC-TV, after 4 seasons, winning 2 Emmy Awards",
+    "score": 83,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 61
+  },
+  {
+    "id": 70,
+    "year": "1963",
+    "original": "Billy J Kramer & Dakotas record Lennon-McCartney song \"I Call Your Name\"",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 62
+  },
+  {
+    "id": 73,
+    "year": "1964",
+    "original": "\"Sie Liebt Dich (She Loves You)\" by The Beatles, singing in German, peaks at #97",
+    "score": 68,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 63
+  },
+  {
+    "id": 68,
+    "year": "1962",
+    "original": "Dutch soccer clubs Rapid JC and Roda Sports merge to form Roda JC Kerkrade; KNVB Cup winners 1996–97, 1999–2000",
+    "score": 68,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 64
+  },
+  {
+    "id": 78,
+    "year": "1969",
+    "original": "Honduras/El Salvador breaks diplomatic relations due to soccer match",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 65
+  },
+  {
+    "id": 14,
+    "year": "1833",
+    "original": "Prudence Crandall, a white woman, arrested for conducting an academy for black females at Canterbury, Connecticut",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 66
+  },
+  {
+    "id": 89,
+    "year": "1977",
+    "original": "Djibouti (Afars & Issas) claims Independence from France",
+    "score": 67,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 67
+  }
+]

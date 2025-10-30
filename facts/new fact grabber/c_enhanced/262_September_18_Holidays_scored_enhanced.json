@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Cheeseburger Champions Unite!",
+    "story": "Every September 18, burger lovers across America celebrate National Cheeseburger Day by biting into their favorite cheesy creations! Restaurants offer special deals and discounts on cheeseburgers, while families fire up their grills for backyard cookouts. Food trucks join the fun with creative toppings like bacon, avocado, and even pineapple. Social media fills with mouth-watering photos of towering cheeseburgers as people share their ultimate burger combinations. Some brave eaters attempt cheeseburger challenges at local diners, trying to finish massive multi-patty monsters. It's the perfect day to appreciate this classic American comfort food that brings people together!",
+    "activity_question": "What do restaurants typically offer on National Cheeseburger Day?",
+    "activity_choices": [
+      "Special deals and discounts on cheeseburgers",
+      "Free ice cream with every meal",
+      "Dancing lessons in the dining room",
+      "Cooking classes for kids only"
+    ],
+    "activity_answer": "Special deals and discounts on cheeseburgers",
+    "bonus_fact": "The cheeseburger was invented in the 1920s when someone first added cheese to a hamburger!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Rice, Rice Baby!",
+    "story": "Every grain counts on September 18 when people celebrate National Rice Day! Families cook their favorite rice dishes from around the world - sticky sushi rice, creamy risotto, spicy fried rice, and fluffy basmati. Restaurants offer special rice bowls and discounts on rice-based meals. Food bloggers share their best rice recipes online, while some people try cooking rice in totally new ways they've never attempted before.",
+    "activity_question": "What are some ways people celebrate National Rice Day?",
+    "activity_choices": [
+      "Cook different rice dishes from around the world",
+      "Only eat rice cereal for breakfast",
+      "Plant rice in their backyard gardens",
+      "Write poems about rice grains"
+    ],
+    "activity_answer": "Cook different rice dishes from around the world",
+    "bonus_fact": "Rice feeds more than half the world's population every single day!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "903",
+    "title": "Chile's Freedom Fiesta",
+    "story": "Every September 18, Chile throws the biggest party of the year to celebrate their independence! Streets fill with red, white, and blue decorations as families gather for traditional dances called cueca. People feast on empanadas and drink chicha while folk music plays everywhere. It's like the entire country becomes one giant festival!",
+    "activity_question": "What traditional dance do people perform during Chile's Independence Day celebration?",
+    "activity_choices": [
+      "Cueca",
+      "Salsa",
+      "Tango",
+      "The chicken dance"
+    ],
+    "activity_answer": "Cueca",
+    "bonus_fact": "Some celebrations last for over a week with rodeos and kite flying contests!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 48
+  },
+  {
+    "id": "904",
+    "title": "National Respect Day: Kindness Counts!",
+    "story": "Every September 18, people across America celebrate National Respect Day by showing extra kindness to everyone they meet. Schools organize special assemblies where kids practice saying \"please\" and \"thank you,\" while families make it a point to listen carefully to each other during dinner conversations. Many people post respectful messages on social media or write thank-you notes to teachers, parents, or friends who make a difference in their lives.",
+    "activity_question": "What do many people write on National Respect Day?",
+    "activity_choices": [
+      "Thank-you notes to people who make a difference",
+      "Shopping lists for the grocery store",
+      "Complaints about their homework",
+      "Secret codes to their friends"
+    ],
+    "activity_answer": "Thank-you notes to people who make a difference",
+    "follow_up_question": "Who in your life deserves a special thank-you note for being kind to you?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Making Waves for World Oceans Day",
+    "story": "Every June 8, people around the world celebrate World Oceans Day by diving into ocean protection! Schools organize beach cleanups where kids collect plastic bottles and trash. Aquariums host special events with dolphin shows and shark talks. Families visit tide pools to spot crabs and sea stars. Social media fills with stunning underwater photos and videos of colorful coral reefs. Many people pledge to use less plastic or eat sustainable seafood. Some communities hold \"blue\" parties where everyone wears ocean colors. It's a day to remember that our oceans need our help to stay healthy and beautiful!",
+    "activity_question": "What do schools often organize on World Oceans Day?",
+    "activity_choices": [
+      "Beach cleanups",
+      "Pizza parties",
+      "Math contests",
+      "Dance competitions"
+    ],
+    "activity_answer": "Beach cleanups",
+    "follow_up_question": "What's one thing you could do to help protect the oceans?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "902",
+    "title": "Best Friends Day: Celebrating Your Ultimate Squad",
+    "story": "Every June 8, friends everywhere celebrate Best Friends Day by showing their closest pals just how much they mean to them! People text their bestie funny memes, plan surprise hangouts, or simply spend quality time together doing their favorite activities. Some friends exchange small gifts like friendship bracelets, matching keychains, or homemade treats. Social media explodes with throwback photos and heartfelt posts tagged with #BestFriendsDay. Many people use this special day to reconnect with old friends they haven't talked to in a while, sending messages that say \"thinking of you!\" The holiday reminds everyone that true friendship is one of life's greatest treasures worth celebrating.",
+    "activity_question": "What do many people exchange on Best Friends Day?",
+    "activity_choices": [
+      "Friendship bracelets and matching keychains",
+      "Wedding rings and fancy jewelry",
+      "Business cards and resumes",
+      "Homework assignments and textbooks"
+    ],
+    "activity_answer": "Friendship bracelets and matching keychains",
+    "follow_up_question": "What makes someone your very best friend instead of just a regular friend?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  }
+]

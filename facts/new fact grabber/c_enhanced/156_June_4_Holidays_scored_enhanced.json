@@ -1,0 +1,102 @@
+[
+  {
+    "id": "901",
+    "title": "Say Cheese for National Cheese Day!",
+    "story": "Every June 4, cheese lovers across America celebrate National Cheese Day by indulging in their favorite dairy delight! People host cheese-tasting parties, trying everything from sharp cheddar to creamy brie. Restaurants offer special cheese-focused menus, while grocery stores set up sampling stations with dozens of varieties. Social media fills with photos of gooey grilled cheese sandwiches, towering cheeseburgers, and fancy cheese boards. Some families even visit local cheese farms or take cheese-making classes to learn how milk transforms into their beloved snack. It's the perfect excuse to be extra cheesy!",
+    "activity_question": "What do people commonly share on social media during National Cheese Day?",
+    "activity_choices": [
+      "Photos of cheese dishes and cheese boards",
+      "Pictures of their pets wearing cheese hats",
+      "Videos of themselves singing cheese songs",
+      "Drawings of cartoon cheese characters"
+    ],
+    "activity_answer": "Photos of cheese dishes and cheese boards",
+    "bonus_fact": "Americans eat about 33 pounds of cheese per person every year!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "902",
+    "title": "Purr-fect Hugs for Your Furry Friend",
+    "story": "Cat owners everywhere celebrate June 4 as Hug Your Cat Day by giving their feline friends extra snuggles and affection! On this special day, people share adorable photos of themselves cuddling their cats on social media, using hashtags like #HugYourCatDay. Some cats love the attention and purr loudly during their hugs, while others might give you a look that says \"I'll allow this... for now.\" Pet stores often run special promotions on cat treats and toys. Many cat cafes host special events where visitors can hug adoptable cats. It's the perfect excuse to spoil your kitty with extra love, treats, and maybe a new catnip toy!",
+    "activity_question": "What do many cat cafes do on Hug Your Cat Day?",
+    "activity_choices": [
+      "Host special events with adoptable cats",
+      "Give free haircuts to all cats",
+      "Teach cats how to dance",
+      "Only serve fish-flavored coffee"
+    ],
+    "activity_answer": "Host special events with adoptable cats",
+    "follow_up_question": "What do you think your cat's favorite type of hug would be?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "903",
+    "title": "Rolling Into Shopping Cart Day!",
+    "story": "Every June 4, stores and shoppers celebrate Shopping Cart Day by appreciating those wheeled helpers that make grocery trips so much easier! Some supermarkets decorate their carts with ribbons or balloons, while others offer special discounts to customers who snap photos with their carts. Kids love racing empty carts through parking lots, and families share funny stories about wobbly wheels or carts that seem to have minds of their own.",
+    "activity_question": "How do some supermarkets celebrate Shopping Cart Day?",
+    "activity_choices": [
+      "They decorate carts with ribbons or balloons",
+      "They give away free shopping carts",
+      "They hold cart-building contests",
+      "They paint all carts bright purple"
+    ],
+    "activity_answer": "They decorate carts with ribbons or balloons",
+    "bonus_fact": "The first shopping cart was invented in 1937 by a grocery store owner in Oklahoma!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "904",
+    "title": "Old Maid's Day: Single and Proud!",
+    "story": "June 4 is Old Maid's Day, when single women celebrate being independent and happy on their own! People throw parties, treat themselves to something special, or hang out with friends who make them laugh.",
+    "activity_question": "What do people do on Old Maid's Day?",
+    "activity_choices": [
+      "Celebrate being single and independent",
+      "Play only card games",
+      "Clean their houses extra well",
+      "Adopt cats from shelters"
+    ],
+    "activity_answer": "Celebrate being single and independent",
+    "follow_up_question": "What are some fun ways to celebrate being independent?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 35
+  },
+  {
+    "id": "905",
+    "title": "Sweet Applesauce Cake Day Celebration",
+    "story": "Bakers everywhere pull out their mixing bowls on June 4 for Applesauce Cake Day! This sweet holiday celebrates one of the most deliciously moist cakes ever invented. People bake homemade applesauce cakes using their favorite family recipes, often adding cinnamon, nutmeg, or even chocolate chips. Many families share photos of their creations on social media, while bakeries offer special applesauce cake treats. The best part? You get to eat cake and feel a little healthier since applesauce makes it extra moist!",
+    "activity_question": "What ingredient makes applesauce cake extra moist?",
+    "activity_choices": [
+      "Applesauce",
+      "Extra butter",
+      "Vanilla extract",
+      "Magic sprinkles"
+    ],
+    "activity_answer": "Applesauce",
+    "bonus_fact": "Applesauce was first used in cakes during wartime when butter and eggs were scarce!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  }
+]

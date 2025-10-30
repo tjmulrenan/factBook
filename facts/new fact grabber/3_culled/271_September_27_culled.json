@@ -1,0 +1,542 @@
+[
+  {
+    "id": 142,
+    "year": "2008",
+    "original": "Astronaut Zhai Zhigang becomes the first Chinese person to perform a spacewalk while flying on Shenzhou 7",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 1
+  },
+  {
+    "id": 144,
+    "year": "2012",
+    "original": "The Mars Curiosity rover discovers what evidence of a fast-moving streambed-in Mars",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 2
+  },
+  {
+    "id": 158,
+    "year": "1905",
+    "original": "Physics journal Annalen der Physik publishesAlbert Einstein's paper \"Does the Inertia of a Body Depend Upon Its Energy Content?\", introducing the equation E=mc².",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 3
+  },
+  {
+    "id": 17,
+    "year": "1865",
+    "original": "Circus performer James Cooke walks a 150 yard tightrope from Cliff House to Seal Rocks in San Francisco",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 4
+  },
+  {
+    "id": 43,
+    "year": "1937",
+    "original": "1st Santa Claus Training School opens (Albion NY)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 5
+  },
+  {
+    "id": 92,
+    "year": "1972",
+    "original": "1st NHL exhibition game at Nassau Coliseum; NY Rangers beat NY Islanders, 6-4",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 6
+  },
+  {
+    "id": 116,
+    "year": "1988",
+    "original": "Canadian Finn class sailor Lawrence Lemieux abandons race 5 to assist injured competitor after being in 2nd place; selfless act is awarded with the Pierre de Coubertin medal",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 7
+  },
+  {
+    "id": 139,
+    "year": "2003",
+    "original": "Smart 1 satellite is launched by the European Space Agency from the Guiana Space Centre in Kourou, French Guiana, for a moon orbit.",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 8
+  },
+  {
+    "id": 180,
+    "year": "1973",
+    "original": "Nolan Ryanstrikes out 16 in 11 innings, for record 383 of season",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 9
+  },
+  {
+    "id": 197,
+    "year": "1822",
+    "original": "French scholar Jean-François Champollion announces he has deciphered Egyptian hieroglyphs using the Rosetta Stone",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 10
+  },
+  {
+    "id": 387,
+    "year": "1966",
+    "original": "Stephanie D. Wilson, American NASA astronaut (STS-121, STS-120, STS-131), born in Boston, Massachusetts",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 11
+  },
+  {
+    "id": 155,
+    "year": "1825",
+    "original": "George Stephenson's \"Locomotion No. 1\" becomes the first steam locomotive to carry passengers on a public rail line, the Stockton and Darlington Railway in England",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 12
+  },
+  {
+    "id": 185,
+    "year": "1988",
+    "original": "American diverGreg Louganiswins the 10m platform gold medal at the Seoul Olympics; wraps up diving double after also taking out the 3m springboard gold",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 13
+  },
+  {
+    "id": 313,
+    "year": "1935",
+    "original": "Mamie \"Peanut\" Johnson, American baseball pitcher (1st female pitcher to play in the Negro Leagues), born in Ridgeway, South Carolina (d. 2017)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 14
+  },
+  {
+    "id": 28,
+    "year": "1916",
+    "original": "1st Native American Day celebrated, honoring American Indians",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 16
+  },
+  {
+    "id": 34,
+    "year": "1921",
+    "original": "American swimmer Johnny Weismuller sets his first 2 world records in the 100m and 150yd freestyle events the A.A.U. Nationals meet in Brighton Beach, NY",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 17
+  },
+  {
+    "id": 160,
+    "year": "1912",
+    "original": "W. C. Handypublishes \"Memphis Blues,\" considered the first blues song",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 18
+  },
+  {
+    "id": 176,
+    "year": "1962",
+    "original": "Rachel Carsonpublishes \"Silent Spring\" about the deleterious impacts of pesticide use in the US on the environment",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 19
+  },
+  {
+    "id": 192,
+    "year": "2000",
+    "original": "United States baseball team, managed byTommy Lasorda, wins Olympic Gold Medal in Sydney, Australia",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 20
+  },
+  {
+    "id": 93,
+    "year": "1973",
+    "original": "Soyuz 12 carries 2 cosmonauts into Earth orbit (2 days)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 21
+  },
+  {
+    "id": 112,
+    "year": "1985",
+    "original": "Hurricane Gloria's 130 MPH wind hits Atlantic coast",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 22
+  },
+  {
+    "id": 143,
+    "year": "2012",
+    "original": "The 2004 Japanese discovery of the 133th element has been confirmed",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 23
+  },
+  {
+    "id": 199,
+    "year": "1908",
+    "original": "Henry Ford's first Ford Model T automobile leaves the Piquette Plant in Detroit, Michigan",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 24
+  },
+  {
+    "id": 279,
+    "year": "1924",
+    "original": "Bernard Waber, American children's book author (\"The House on East 88th Street\"; \"Lyle, Lyle, Crocodile\"), born in Philadelphia, Pennsylvania (d. 2013)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 25
+  },
+  {
+    "id": 282,
+    "year": "1925",
+    "original": "Robert Edwards, English physiologist, 1st IVF program, Nobel Prize 2010, born in Batley, Yorkshire (d. 2013)[1]",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 26
+  },
+  {
+    "id": 384,
+    "year": "1965",
+    "original": "Steve Kerr, American basketball guard, head coach (5 NBA titles as player Chicago Bulls, SA Spurs - 3 as coach GS Warriors), born in Beirut, Lebanon",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 27
+  },
+  {
+    "id": 68,
+    "year": "1953",
+    "original": "Typhoon destroys one third of Nagoya, Japan",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 28
+  },
+  {
+    "id": 196,
+    "year": "1066",
+    "original": "William the Conqueror's troops set sail from Normandy to conquer England",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 30
+  },
+  {
+    "id": 7,
+    "year": "1601",
+    "original": "Dutch Moluccan fleet of the Fifth Expedition, under command of Wolfert Harmensz, land on Mauritius suffering from scurvy, where they hunt and document the dodo",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 31
+  },
+  {
+    "id": 22,
+    "year": "1896",
+    "original": "Elephantine Colossus, a vacant seven-story building in the shape of an elephant built in 1885, burns to the ground in Coney Island, New York",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 32
+  },
+  {
+    "id": 75,
+    "year": "1957",
+    "original": "American MLB San Francisco Giants rent Pacific Coast League San Francisco Seals Stadium until Candlestick Park is built in 1960",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 35
+  },
+  {
+    "id": 151,
+    "year": "1779",
+    "original": "John Adamsis appointed to negotiate Revolutionary War peace terms with Great Britain",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 37
+  },
+  {
+    "id": 161,
+    "year": "1919",
+    "original": "Boston Red Sox sluggerBabe Ruthtakes his MLB home run record to 29 with a 3rd inning blast in a 7-5 defeat at the Washington Senators' Griffith Stadium",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 38
+  },
+  {
+    "id": 168,
+    "year": "1940",
+    "original": "MLB Detroit Tigers rookie pitcher Floyd Giebells throws 2-0 shut-out over Cleveland IndiansBob Fellerto clinch the AL pennant at League Park in Cleveland, Ohio",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 41
+  },
+  {
+    "id": 200,
+    "year": "1945",
+    "original": "WWII: US General and head of the Allied occupation of Japan,Douglas MacArthur, meets Emperor Hirohito in Tokyo for the first time",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 43
+  },
+  {
+    "id": 240,
+    "year": "1885",
+    "original": "Harry Blackstone Sr., American magician, born in Chicago, Illinois (d. 1965)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 44
+  },
+  {
+    "id": 269,
+    "year": "1918",
+    "original": "Martin Ryle, English radio astronomer (Astronomer Royal 1972-82, Nobel Prize for Physics 1974), born in Brighton, England (d. 1984)[1]",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 45
+  },
+  {
+    "id": 304,
+    "year": "1933",
+    "original": "Will Sampson, American-Muscogee rodeo performer, actor (One Flew Over the Cuckoo's Nest: The Yellow Rose; The White Buffalo), and painter, born in Okmulgee, Oklahoma (d. 1987)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 46
+  },
+  {
+    "id": 366,
+    "year": "1953",
+    "original": "Robbie Shakespeare, Jamaican reggae bassist (Sly & Robbie - \"DJ Riot\"), born in Kingston, Jamaica (d. 2021)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 48
+  },
+  {
+    "id": 72,
+    "year": "1954",
+    "original": "1st African American Supreme Court page is CV Bush",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 50
+  },
+  {
+    "id": 26,
+    "year": "1910",
+    "original": "1st test flight of a twin-engined airplane (France)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 51
+  },
+  {
+    "id": 44,
+    "year": "1937",
+    "original": "Balinese Tiger declared extinct",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 52
+  },
+  {
+    "id": 70,
+    "year": "1953",
+    "original": "WMAZ TV channel 13 in Macon, GA (CBS/ABC) begins broadcasting",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 53
+  },
+  {
+    "id": 73,
+    "year": "1954",
+    "original": "School integration begins in Washington, D.C. & Baltimore Md public schools",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 54
+  },
+  {
+    "id": 204,
+    "year": "1507",
+    "original": "Guillaume Rondelet, French naturalist famous for his study of marine animals, born in Montpellier, France (d. 1566)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 55
+  },
+  {
+    "id": 278,
+    "year": "1924",
+    "original": "(Earl) \"Bud\" Powell, American jazz pianist and composer, born in Harlem, New York City (d. 1966)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 56
+  },
+  {
+    "id": 292,
+    "year": "1928",
+    "original": "Margaret Rule, British archaeologist (Mary Rose Tudor warship), born in Buckinghamshire, England (d. 2015)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 57
+  },
+  {
+    "id": 338,
+    "year": "1946",
+    "original": "T.C. Cannon, Native American artist (Kiowa/Caddo), born in Lawton, Oklahoma (d. 1978)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 58
+  },
+  {
+    "id": 362,
+    "year": "1953",
+    "original": "Diane Abbott, British politician (L) 1st black woman elected to UK parliament, born in London",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 59
+  },
+  {
+    "id": 24,
+    "year": "1903",
+    "original": "Wreck of the Old 97, a train crash made famous by the song of the same name.",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 60
+  },
+  {
+    "id": 45,
+    "year": "1938",
+    "original": "British ocean liner \"Queen Elizabeth\" launches at Clydebank, Scotland",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 62
+  },
+  {
+    "id": 51,
+    "year": "1940",
+    "original": "Black leaders protest discrimination in US armed forces",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 63
+  },
+  {
+    "id": 77,
+    "year": "1960",
+    "original": "Europe's 1st \"moving pavement\" (travelator), opens at Bank station on the London Underground",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 64
+  },
+  {
+    "id": 150,
+    "year": "2014",
+    "original": "57 people are killed after Mount Ontake erupts in Japan",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 67
+  },
+  {
+    "id": 159,
+    "year": "1909",
+    "original": "US PresidentWilliam Howard Taftsets aside some 3 million acres of oil-rich public land (including Teapot Dome, Wyoming) for conservation purposes",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 68
+  },
+  {
+    "id": 170,
+    "year": "1941",
+    "original": "US President Roosevelt launches the 1st Liberty ship, freighter SSPatrick Henry",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 69
+  },
+  {
+    "id": 172,
+    "year": "1950",
+    "original": "Heavyweight championEzzard CharlesdefeatsJoe Louisin 15 in Yankee Stadium, Bronx, New York",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 70
+  },
+  {
+    "id": 182,
+    "year": "1982",
+    "original": "Filming begins on \"Never Say Never Again\" withSean Conneryplaying James Bond for the final time",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 71
+  },
+  {
+    "id": 195,
+    "year": "2013",
+    "original": "Lordereleases her debut studio album \"Pure Heroine\"",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 73
+  },
+  {
+    "id": 198,
+    "year": "1852",
+    "original": "George Aiken's play \"Uncle Tom's Cabin\" an adaptation ofHarriet Beecher Stowe's famous anti-slavery novel premieres in Troy, New York",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 74
+  }
+]

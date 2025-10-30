@@ -1,0 +1,542 @@
+[
+  {
+    "id": 100,
+    "year": "1983",
+    "original": "Mario Bros. is first released by Nintendo in Japan as an arcade game featuring an Italian-American plumber",
+    "score": 100,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 1
+  },
+  {
+    "id": 141,
+    "year": "2020",
+    "original": "New study shows Andean condor, world's heaviest bird, can fly for 5 hours without flapping its wings (Proceedings of the National Academy of Sciences)",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 2
+  },
+  {
+    "id": 143,
+    "year": "2023",
+    "original": "India launches its Chandrayaan-3 spacecraft from the Sriharikota Space Centre on the country's third moon mission",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 3
+  },
+  {
+    "id": 155,
+    "year": "1914",
+    "original": "American engineerRobert Goddardis granted the first patent for liquid-fueled rocket design",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 4
+  },
+  {
+    "id": 78,
+    "year": "1965",
+    "original": "US Mariner IV, the first Mars probe, passes at 6,100 miles (9,800 km)",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 5
+  },
+  {
+    "id": 135,
+    "year": "2015",
+    "original": "Scientists from the Large Hadron Collider announce the discovery of a new particle called the pentaquark",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 6
+  },
+  {
+    "id": 193,
+    "year": "2025",
+    "original": "World Chimpanzee Day:Jane Goodallreleases \"Dr. Jane's Dream, The Goodall Centre of Hope\" in Tanzania, an immersive experience of pivotal moments from Dr. Goodall's life and the evolution of her work",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 7
+  },
+  {
+    "id": 162,
+    "year": "1953",
+    "original": "First US national monument dedicated to a black American to preserve the boyhood home of agricultural scientist and inventorGeorge Washington Carverin Newton County, Missouri",
+    "score": 87,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 8
+  },
+  {
+    "id": 194,
+    "year": "1789",
+    "original": "Bastille Day - the French Revolution begins with the storming of the Bastille prison in Paris, now celebrated as France's National Day",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 9
+  },
+  {
+    "id": 93,
+    "year": "1975",
+    "original": "Plans are announced for EPCOT Center at Disney World in Orlando, Florida",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 10
+  },
+  {
+    "id": 180,
+    "year": "1992",
+    "original": "386BSD is released by Lynne Jolitz and William Jolitz, starting the open source operating system revolution.Linus Torvaldsreleases Linux soon afterwards.",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 11
+  },
+  {
+    "id": 138,
+    "year": "2018",
+    "original": "Huge iceberg looming over Innaarsuit village, western Greenland prompts evacations in case it calves",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 12
+  },
+  {
+    "id": 265,
+    "year": "1918",
+    "original": "Jay Forrester, Engineer, invented random-access magnetic core memory, born near Anselmo, Nebraska (d. 2016)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 13
+  },
+  {
+    "id": 17,
+    "year": "1850",
+    "original": "First public demonstration of ice made via refrigeration by Florida physician John Gorrie",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 14
+  },
+  {
+    "id": 46,
+    "year": "1936",
+    "original": "116°F (47°C) recorded in Collegeville, Indiana (state record)",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 15
+  },
+  {
+    "id": 82,
+    "year": "1968",
+    "original": "Hank Aaronhits his 500th home run off San Francisco Giant Mike McCormick",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 16
+  },
+  {
+    "id": 80,
+    "year": "1967",
+    "original": "Houston Astro Eddie Mathews hits his 500th home run off SF GiantJuan Marichal",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 17
+  },
+  {
+    "id": 83,
+    "year": "1968",
+    "original": "Houston Astro Don Wilson strikes out 18, beats Reds 6-1 at Crosley Field in Cincinnati",
+    "score": 83,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 34
+  },
+  {
+    "id": 176,
+    "year": "1987",
+    "original": "Rookie of the Year Award is renamed to honorJackie Robinson",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 19
+  },
+  {
+    "id": 372,
+    "year": "1966",
+    "original": "Brian Selznick, American author and illustrator (The Invention of Hugo Cabret), born in East Brunswick Township, New Jersey",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 20
+  },
+  {
+    "id": 25,
+    "year": "1865",
+    "original": "English mountaineer Edward Whymper leads the first expedition to climb the Matterhorn; four die on the descent",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 21
+  },
+  {
+    "id": 327,
+    "year": "1947",
+    "original": "Claudia Kennedy, U.S. Army officer (first female three star general in US army), born in Frankfurt, Germany",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 22
+  },
+  {
+    "id": 315,
+    "year": "1941",
+    "original": "Tatyana Kuznetsova, Soviet cosmonaut (youngest person selected for space training at 20 but never flew), born in Moscow, Soviet Union (d. 2018)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 23
+  },
+  {
+    "id": 295,
+    "year": "1934",
+    "original": "Lee Elder, American golfer (first African-American to play in the US Masters; 4 PGA Tour titles), born in Dallas, Texas (d. 2021)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 24
+  },
+  {
+    "id": 224,
+    "year": "1862",
+    "original": "Florence Bascom, American geologist and 1st woman hired by the US Geological Survey, born in Williamstown, Massachusetts (d. 1945)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 25
+  },
+  {
+    "id": 27,
+    "year": "1868",
+    "original": "Alvin J. Fellows of New Haven, Connecticut, patents the tape measure",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 26
+  },
+  {
+    "id": 31,
+    "year": "1891",
+    "original": "American John T. Smith patents corkboard",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 27
+  },
+  {
+    "id": 67,
+    "year": "1956",
+    "original": "Boston Red Sox pitcher Mel Parnell no-hits Chicago White Sox, 4-0 at Fenway Park, Boston",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 32
+  },
+  {
+    "id": 90,
+    "year": "1972",
+    "original": "Plate umpire and catcher in a game are brothers; Bill Haller is umpire and Tom Haller is Detroit Tigers catcher; Kansas City Royals win, 1-0",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 29
+  },
+  {
+    "id": 189,
+    "year": "2019",
+    "original": "ICC Men's Cricket ODI World Cup, Lord's, London: After the first super over in an ODI, which is also tied, New Zealand and England are separated by a boundary countback, awarding England their first title; Player of the Match:Ben Stokes(ENG) 84 not out (98)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 30
+  },
+  {
+    "id": 34,
+    "year": "1912",
+    "original": "Kenneth McArthur runs an Olympic record marathon in 2:36:54.8",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 31
+  },
+  {
+    "id": 171,
+    "year": "1982",
+    "original": "Musical film adaptation of \"Pink Floyd- The Wall,\" directed by Alan Parker, starringBob Geldof, and written byRoger Waters, premieres at the Empire, Leicester Square in London",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 37
+  },
+  {
+    "id": 359,
+    "year": "1960",
+    "original": "Angélique Kidjo, Beninese singer-songwriter (\"Djin, Djin\"; \"Eve\"; \"IFÉ\"), and human rights activist, born in Ouidah, Republic of Dahomey",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 38
+  },
+  {
+    "id": 225,
+    "year": "1862",
+    "original": "Gustav Klimt, Austrian Symbolist painter (The Kiss), born in Baumgarten, Austria-Hungary (d. 1918)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 39
+  },
+  {
+    "id": 156,
+    "year": "1934",
+    "original": "The New York Times erroneously declaresBabe Ruth's 700 home run record to stand for all time",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 40
+  },
+  {
+    "id": 184,
+    "year": "2009",
+    "original": "Owl City (Adam Young) debuts major-label album Ocean Eyes, now a two-time certified Platinum album with \"Fireflies\" being certified Diamond (2023)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 41
+  },
+  {
+    "id": 188,
+    "year": "2019",
+    "original": "English Mercedes driverLewis Hamiltonwins a record sixth British Formula 1 Grand Prix at Silverstone, moving him one win clear ofJim ClarkandAlain Prost(5)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 42
+  },
+  {
+    "id": 104,
+    "year": "1985",
+    "original": "Columbia returns to Kennedy Space Center via Offutt AFB, Neb",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 43
+  },
+  {
+    "id": 70,
+    "year": "1959",
+    "original": "USS Long Beach, first nuclear powered cruiser launched at Quincy, Massachusetts",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 44
+  },
+  {
+    "id": 128,
+    "year": "2012",
+    "original": "Floods on the Japanese island of Kyushu kill 20 and displace 250,000",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 46
+  },
+  {
+    "id": 64,
+    "year": "1954",
+    "original": "117°F (47°C) recorded in East St. Louis, Illinois (state record)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 47
+  },
+  {
+    "id": 75,
+    "year": "1964",
+    "original": "MLB Baltimore Oriole Bob Johnson's 6th straight hit as a pinch hitter",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 48
+  },
+  {
+    "id": 178,
+    "year": "1989",
+    "original": "Jessye Normansings French national anthem, La Marseillaise at the Place de la Concorde, Paris, to celebrate 200th anniversary of the French Revolution",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 50
+  },
+  {
+    "id": 269,
+    "year": "1921",
+    "original": "Leon Garfield, English children's author (Devil-in-the-Fog), born in Brighton, England (d. 1996)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 51
+  },
+  {
+    "id": 274,
+    "year": "1922",
+    "original": "Robin Olds, American fighter pilot, flying ace in WWII and the Vietnam War, born in Honolulu, Hawaii (d. 2007)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 52
+  },
+  {
+    "id": 330,
+    "year": "1948",
+    "original": "Akua Dixon, American jazz cellist, arranger, composer, and educator (Quartette Indigo), born in New York City",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 54
+  },
+  {
+    "id": 361,
+    "year": "1960",
+    "original": "Kyle Gass, American guitarist and singer-songwriter (Tenacious D; Trainwreck), born in Walnut Creek, California",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 56
+  },
+  {
+    "id": 145,
+    "year": "2024",
+    "original": "Evian Championship Women's Golf, Evian Resort GC: Japan's Ayaka Furue eagles the final hole to defeat Stephanie Kyriacou of Australia by 1 stroke for her first major title",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 57
+  },
+  {
+    "id": 259,
+    "year": "1914",
+    "original": "Edith Renfrow Smith, American supercentenarian (110 years) and first African American woman to graduate from Grinnell College, born in Grinnell, Iowa",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 58
+  },
+  {
+    "id": 213,
+    "year": "1801",
+    "original": "Johannes Peter Müller, German physiologist, made first distinction between motor and sensory nerves, born in Coblenz, First French Repu (d. 1858)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 59
+  },
+  {
+    "id": 229,
+    "year": "1874",
+    "original": "Andre-Louis Debierne, French chemist and physicist (discoverer of actinium element, worked with Marie Curie), born in Paris, France (d. 1949)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 60
+  },
+  {
+    "id": 316,
+    "year": "1942",
+    "original": "Andrew Cassell, British sailor and Paralympic gold medalist (1996), born in East Sussex, England (d. 2025)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 61
+  },
+  {
+    "id": 343,
+    "year": "1952",
+    "original": "George E. Lewis, American trombonist avant-garde jazz, electronic and contemporary classical composer, born in Chicago, Illinois",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 62
+  },
+  {
+    "id": 2,
+    "year": "1077",
+    "original": "Bayeux Tapestry likely first goes on display to decorate the nave during the consecration of Notre-Dame of Bayeux Cathedral in Bayeux, Normandy",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 63
+  },
+  {
+    "id": 10,
+    "year": "1771",
+    "original": "Mission San Antonio de Padua founded in California",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 64
+  },
+  {
+    "id": 11,
+    "year": "1795",
+    "original": "French National Convention decrees \"La Marseillaise\" by Claude-Joseph Rouget de Lisle as France's national anthem",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 65
+  },
+  {
+    "id": 18,
+    "year": "1853",
+    "original": "Commodore Perry requests trade relations with Japan",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 66
+  },
+  {
+    "id": 32,
+    "year": "1902",
+    "original": "The Campanile in St Mark's Square, Venice collapses, also demolishing the loggetta (reconstructed 1912)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 67
+  },
+  {
+    "id": 33,
+    "year": "1911",
+    "original": "46 inches of rain begins to fall in Baguio, Philippines",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 68
+  },
+  {
+    "id": 36,
+    "year": "1916",
+    "original": "13.2 inches (33.6 cm) of rainfall at Effingham, South Carolina (state record until 1999)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 69
+  }
+]

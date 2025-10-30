@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Pretty in Pink Day!",
+    "story": "Pink takes over the world on June 23 during National Pink Day! People wear their brightest pink clothes, from hot pink sneakers to bubblegum-colored shirts. Social media explodes with pink photos of everything from pink cupcakes to pink sunsets. Some folks even dye their hair pink for the day or paint their nails in every shade of pink imaginable. It's the perfect excuse to celebrate this bold, cheerful color that makes everything look more fun and vibrant!",
+    "activity_question": "What do people often do with their hair on National Pink Day?",
+    "activity_choices": [
+      "Dye it pink",
+      "Cut it short",
+      "Braid it with ribbons",
+      "Wear a hat"
+    ],
+    "activity_answer": "Dye it pink",
+    "follow_up_question": "What's your favorite pink thing that you own?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  },
+  {
+    "id": "902",
+    "title": "Let It Go Day: Release Your Worries!",
+    "story": "Every June 23, people celebrate Let It Go Day by literally letting go of things that stress them out! Some folks write their worries on paper and throw them in the trash or burn them safely outside. Others might donate old clothes they don't need anymore or finally delete those embarrassing photos from their phone. The whole point is to feel lighter and happier by getting rid of stuff that weighs you down. Many people share their \"letting go\" moments on social media with hashtags like #LetItGoDay. It's like spring cleaning for your feelings!",
+    "activity_question": "What do some people do with their worries on Let It Go Day?",
+    "activity_choices": [
+      "Write them on paper and throw them away",
+      "Sing them loudly in the shower",
+      "Hide them under their pillow",
+      "Mail them to their friends"
+    ],
+    "activity_answer": "Write them on paper and throw them away",
+    "follow_up_question": "What's one worry or old thing you'd like to let go of today?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "903",
+    "title": "Sandy Cookies, Sweet Celebrations",
+    "story": "Pecan sandy cookies get their own special day on June 23! These crumbly, buttery treats are packed with chopped pecans and practically melt in your mouth. Bakeries across America bake fresh batches, while families dig out grandma's secret recipes. The cookies are so delicate they leave sweet crumbs everywhere, but nobody minds the mess when something tastes this good!",
+    "activity_question": "What makes pecan sandy cookies special compared to other cookies?",
+    "activity_choices": [
+      "They're crumbly and melt in your mouth",
+      "They're shaped like tiny sandcastles",
+      "They glow in the dark",
+      "They're made with chocolate chips"
+    ],
+    "activity_answer": "They're crumbly and melt in your mouth",
+    "follow_up_question": "What's your favorite type of cookie to bake with family?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 50
+  },
+  {
+    "id": "904",
+    "title": "Click-Clack Attack: Typewriter Day",
+    "story": "Every June 23, people celebrate the amazing machine that changed writing forever - the typewriter! On Typewriter Day, writers dust off old typewriters and click-clack away on stories and letters. Libraries and museums host typing contests where people race to see who can type fastest without making mistakes. Some folks share photos of vintage typewriters online, showing off colorful ribbons and fancy keys. Writers love how typewriters make every word feel important since you can't just delete mistakes like on computers. It's a day to appreciate the satisfying sound of keys hitting paper!",
+    "activity_question": "What do people do at libraries and museums on Typewriter Day?",
+    "activity_choices": [
+      "Host typing contests",
+      "Build new typewriters",
+      "Paint typewriter keys",
+      "Learn to juggle typewriters"
+    ],
+    "activity_answer": "Host typing contests",
+    "bonus_fact": "Unlike computers, typewriters make you think carefully before typing since mistakes are harder to fix!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "original": "International Day of Peace",
+    "score": 55,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "World Alzheimer's Day",
+    "score": 25,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 3,
+    "original": "World Gratitude Day",
+    "score": 70,
+    "is_kid_friendly": true
+  }
+]

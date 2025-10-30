@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Wild About Wildlife Day!",
+    "story": "Every September 4, people across the country celebrate National Wildlife Day by showing love for all the amazing animals that share our planet! Zoos host special educational programs where kids can learn about endangered species and conservation efforts. Wildlife photographers share their coolest animal pictures on social media, while nature centers organize guided walks to spot local creatures. Many families visit national parks or go on backyard safari adventures, looking for birds, squirrels, and insects. Some people donate to wildlife rescue organizations or adopt animals symbolically. It's the perfect day to appreciate everything from tiny butterflies to mighty elephants and remember why protecting their habitats matters so much!",
+    "activity_question": "What do wildlife photographers often do on National Wildlife Day?",
+    "activity_choices": [
+      "Share their coolest animal pictures on social media",
+      "Take pictures of people dressed as animals",
+      "Only photograph animals at the zoo",
+      "Teach animals how to use cameras"
+    ],
+    "activity_answer": "Share their coolest animal pictures on social media",
+    "follow_up_question": "What wild animals have you spotted in your own neighborhood or backyard?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Going Nuts for Macadamias!",
+    "story": "Crack open something special because September 4 is National Macadamia Nut Day! These buttery, creamy nuts get their moment to shine as people munch them straight from the bag, bake them into cookies, or sprinkle them on ice cream. Restaurants feature macadamia-crusted fish and fancy desserts. Social media fills with photos of macadamia treats and fun facts about these expensive little treasures that are harder to crack than most nuts!",
+    "activity_question": "What are some ways people enjoy macadamia nuts on this holiday?",
+    "activity_choices": [
+      "Eating them plain, in cookies, or on ice cream",
+      "Only in smoothies and salads",
+      "Wearing them as jewelry",
+      "Just looking at them in stores"
+    ],
+    "activity_answer": "Eating them plain, in cookies, or on ice cream",
+    "bonus_fact": "Macadamia nuts are among the most expensive nuts because they're so hard to crack open!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "903",
+    "title": "Spice Up Your Life Day!",
+    "story": "Every September 4, kitchens across America get extra flavorful for National Spice Blend Day! People celebrate by mixing their own special spice combinations and trying new flavor adventures. Some families create secret blends with names like \"Mom's Magic Mix\" or \"Super Sizzle Seasoning.\" Restaurants often feature special dishes showcasing unique spice blends from around the world. Home cooks experiment with everything from taco seasoning to curry powder, and many share their creations on social media with colorful photos of their spice jars and delicious meals.",
+    "activity_question": "What do people often name their homemade spice blends?",
+    "activity_choices": [
+      "Secret combinations with fun names",
+      "Only numbers like \"Blend #1\"",
+      "After their pets",
+      "The same name as store brands"
+    ],
+    "activity_answer": "Secret combinations with fun names",
+    "follow_up_question": "What spice blend would you create and what would you name it?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  }
+]

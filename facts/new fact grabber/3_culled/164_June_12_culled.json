@@ -1,0 +1,542 @@
+[
+  {
+    "id": 96,
+    "year": "1979",
+    "original": "Bryan Allen flies a human-powered aircraft, the Gossamer Albatross over English Channel, taking 2 hrs, 49 min",
+    "score": 96,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 1
+  },
+  {
+    "id": 187,
+    "year": "1981",
+    "original": "\"Raiders of the Lost Ark\" (the first Indiana Jones film) directed bySteven Spielberg, starringHarrison Ford, with story byGeorge Lucaspremieres",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 2
+  },
+  {
+    "id": 106,
+    "year": "1988",
+    "original": "Republic of Ireland beats England 1-0 at Euro '88 thanks to a headed goal by Ray Houghton in Ireland's first match at a major football tournament",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 3
+  },
+  {
+    "id": 109,
+    "year": "1990",
+    "original": "Egypt (500-1 longshot) ties favorite the Netherlands 1-1 in World Cup game",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 4
+  },
+  {
+    "id": 119,
+    "year": "2004",
+    "original": "A 1.3 kilogram chondrite type meteorite strikes a house in Ellerslie, New Zealand causing serious damage but no injuries",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 5
+  },
+  {
+    "id": 162,
+    "year": "1922",
+    "original": "Browns pitcher Hub Pruett strikes out future Baseball Hall of Fame sluggerBabe Ruth3 consecutive times as St. Louis beats New York Yankees, 7 - 1 at Sportsman's Park, St. Louis",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 6
+  },
+  {
+    "id": 164,
+    "year": "1923",
+    "original": "Harry Houdinifrees himself from a straight jacket while suspended upside down, 40 feet (12 m) above ground in NYC",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 7
+  },
+  {
+    "id": 211,
+    "year": "1942",
+    "original": "Anne Frankreceives her diary as a birthday present in Amsterdam",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 8
+  },
+  {
+    "id": 140,
+    "year": "2019",
+    "original": "Stanley Cup Final, TD Garden, Boston, MA: St. Louis Blues beat Boston Bruins, 4-1 for a 4-3 series victory; first title in franchise history",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 10
+  },
+  {
+    "id": 144,
+    "year": "2021",
+    "original": "Danish star soccer midfielder Christian Eriksen suffers an on-field cardiac arrest during Euro 2020 game with Finland in Copenhagen; revived with a defibrillator; game controversially restarts with 1-0 Finland win",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 11
+  },
+  {
+    "id": 305,
+    "year": "1928",
+    "original": "Richard Sherman, American Grammy and Academy Award-winning composer and lyricist, with his brother Robert (Mary Poppins; Chitty Chtitty Bang Bang; \"It's a Small World (After All)\"), born in New York City (d. 2024)[1]",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 12
+  },
+  {
+    "id": 315,
+    "year": "1931",
+    "original": "Barbara Hillary, American adventurer, 1st black woman to reach the North Pole, born in New York City (d. 2019)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 13
+  },
+  {
+    "id": 87,
+    "year": "1967",
+    "original": "USSR launches Venera 4 for parachute landing on Venus",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 14
+  },
+  {
+    "id": 15,
+    "year": "1770",
+    "original": "Patent for the 'Spinning Jenny', the first multiple spinning machine that revolutionizes cotton spinning, is granted to English weaver James Hargreaves",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 15
+  },
+  {
+    "id": 34,
+    "year": "1880",
+    "original": "Worcester Ruby Legs pitcher Lee Richmond throws the first perfect game in MLB history in a 1-0 win over the Cleveland Blues at the Agricultural County Fair Grounds in Worcester",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 16
+  },
+  {
+    "id": 103,
+    "year": "1983",
+    "original": "Comet C/1983 (Sugano-Saigusa-Fujikawa) approaches 0.0628 AUs of Earth",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 17
+  },
+  {
+    "id": 104,
+    "year": "1987",
+    "original": "US PresidentRonald Reaganchallenges Mikhail Gorbachev to \"tear down\" the Berlin wall",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 18
+  },
+  {
+    "id": 125,
+    "year": "2012",
+    "original": "An Australian coroner's report rules that a dingo was responsible for the death of a baby in 1980",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 19
+  },
+  {
+    "id": 126,
+    "year": "2012",
+    "original": "The chemical compound NOTT-202, which is capable of selectively absorbing carbon dioxide, is created",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 20
+  },
+  {
+    "id": 165,
+    "year": "1928",
+    "original": "New York Yankees future Baseball Hall of Fame first basemanLou Gehrigcollects 14 total bases with 2 triples and 2 home runs in a 15-7 win over Chicago White Sox",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 21
+  },
+  {
+    "id": 199,
+    "year": "2000",
+    "original": "\"X-Men\" 1st film based on comic book series, starringPatrick Stewart,Hugh Jackman, andIan McKellenpremieres on Ellis Island in New York Harbor",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 22
+  },
+  {
+    "id": 84,
+    "year": "1965",
+    "original": "The Big Bang theory of the creation of the universe is supported by the announcement of the discovery of new celestial bodies known as blue galaxies",
+    "score": 84,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 23
+  },
+  {
+    "id": 82,
+    "year": "1965",
+    "original": "Queen Elizabeth's Birthday Honours List names The Beatles as MBEs (Members of the Most Excellent Order of the British Empire); dozens of past winners return medals in protest",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 24
+  },
+  {
+    "id": 80,
+    "year": "1962",
+    "original": "USAF Maj Robert M White takes X-15 to 56,270 m",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 25
+  },
+  {
+    "id": 204,
+    "year": "2010",
+    "original": "\"Toy Story3,\" directed by Lee Unkrich and starringTom HanksandTim Allen, premieres at the Taormina Film Fest in Italy - first animated film to earn $1 billion",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 27
+  },
+  {
+    "id": 379,
+    "year": "1958",
+    "original": "Fernando \"Frank\" Caldeiro, Argentine-American astronaut, born in Buenos Aires, Argentina",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 28
+  },
+  {
+    "id": 406,
+    "year": "1965",
+    "original": "Gwen Torrence, American athlete (Olympic gold 200m 1992, 4x100m relay 1992, 96; World C'ship gold 100m 1995), born in Decatur, Georgia",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 29
+  },
+  {
+    "id": 81,
+    "year": "1965",
+    "original": "Morio Shigematsu of Japan runs world record marathon (2:12:00) in the Polytechnic Marathon in London, England",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 30
+  },
+  {
+    "id": 11,
+    "year": "1667",
+    "original": "Raid on the Medway: Dutch fleet sails up the Medway destroying British naval ships and capturing the flagship HMS Royal Charles",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 31
+  },
+  {
+    "id": 20,
+    "year": "1792",
+    "original": "British explorer Captain George Vancouver lands on the site of what is now Vancouver, British Columbia",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 32
+  },
+  {
+    "id": 25,
+    "year": "1840",
+    "original": "Meteorite hits Uden, Netherlands",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 33
+  },
+  {
+    "id": 40,
+    "year": "1897",
+    "original": "Possibly the most severe quake in history strikes Assam, India, Shock waves felt over an area size of Europe (low mortality rate given size of earthquake, 1,500 casualties).",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 34
+  },
+  {
+    "id": 75,
+    "year": "1955",
+    "original": "TV comedy \"Mister Peepers\" starring Wally Cox airs for last time on NBC",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 37
+  },
+  {
+    "id": 131,
+    "year": "2015",
+    "original": "Zimbabwe discards its own currency, offering an exchange of $1 for 35 quadrillion Zimbabwean dollars",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 40
+  },
+  {
+    "id": 154,
+    "year": "1560",
+    "original": "Battle of Okehazama:Oda Nobunagadefeats Imagawa Yoshimoto in Owari Province, Japan",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 42
+  },
+  {
+    "id": 155,
+    "year": "1651",
+    "original": "The newly completed Fontana dei Quattro Fiumi (Fountain of the Four Rivers) byGian Lorenzo Berniniis unveiled in Rome",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 43
+  },
+  {
+    "id": 203,
+    "year": "2008",
+    "original": "Patrick Kanereceives the Calder Memorial Trophy as the NHL's rookie of the year",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 45
+  },
+  {
+    "id": 215,
+    "year": "1997",
+    "original": "Shakespeare's Globe theatre opens in London, England, replica of original Globe theatre (1599-1642) with performance of Henry V, after campaign by Sam Wanamaker",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 46
+  },
+  {
+    "id": 258,
+    "year": "1899",
+    "original": "Anni Albers, German-American textile artist and printmaker (1st textile artist to exhibit solo at MOMA), born in Berlin, Germany (d. 1994)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 47
+  },
+  {
+    "id": 332,
+    "year": "1941",
+    "original": "(Armando) \"Chick\" Corea, American jazz-fusion pianist and composer; 27 time Grammy winner (Return To Forever; Delhpi I; Toy Dance), born in Chelsea, Massachusetts (d. 2021)[1][2]",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 49
+  },
+  {
+    "id": 381,
+    "year": "1959",
+    "original": "Jalal-ud-din, Pakistani cricketer (Pakistani paceman, ODI hat-trick v Aust 1982), born in Karachi, Pakistan",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 51
+  },
+  {
+    "id": 73,
+    "year": "1954",
+    "original": "Milwaukee Braves spot starting pitcher Jim Wilson throws first no-hitter in history of County Stadium when he blanks Philadelphia Phillies, 2-0",
+    "score": 73,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 52
+  },
+  {
+    "id": 18,
+    "year": "1776",
+    "original": "Virginia adopts Declaration of Rights",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 53
+  },
+  {
+    "id": 64,
+    "year": "1939",
+    "original": "Shooting begins on Paramount Pictures' \"Dr. Cyclops,\" the first horror film photographed in three-strip Technicolor",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 54
+  },
+  {
+    "id": 70,
+    "year": "1947",
+    "original": "British Amateur Women's Golf, Gullane GC: Babe Didrikson becomes first American to win event; beats England's Jacqueline Gordon 5 & 4",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 55
+  },
+  {
+    "id": 122,
+    "year": "2009",
+    "original": "Stanley Cup Final, Joe Louis Arena, Detroit, MI: Pittsburgh Penguins edge Detroit Red Wings, 2-1 for a 4-3 series win; Penguins 3rd Championship",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 59
+  },
+  {
+    "id": 166,
+    "year": "1930",
+    "original": "German boxerMax Schmelingbeats Jack Sharkey by disqualification in 4 rounds in NYC for vacant NBA, NYSAC, The Ring and lineal heavyweight titles; first time title won on a foul",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 61
+  },
+  {
+    "id": 205,
+    "year": "2016",
+    "original": "70th Tony Awards: \"Hamilton\" (musical) wins 11 awards after record 16 nominations, Leslie Odom Jr.,Cynthia Erivo, Frank Langella,Jessica Langewin acting awards; \"The Humans\" (play) wins 4",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 63
+  },
+  {
+    "id": 216,
+    "year": "2018",
+    "original": "Singapore Summit between North Korean leaderKim Jong-unand US President Donald Trump - first time a North Korean leader and an incumbent US President meet",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 64
+  },
+  {
+    "id": 230,
+    "year": "1806",
+    "original": "John Roebling, German-American civil engineer (Brooklyn Bridge), born in Mühlhausen, Germany (d. 1869)[1]",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 65
+  },
+  {
+    "id": 338,
+    "year": "1942",
+    "original": "Homer Neal, African-American particle physicist, born in Franklin, Kentucky (d. 2018)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 66
+  },
+  {
+    "id": 358,
+    "year": "1949",
+    "original": "Yuri Baturin, Russian cosmonaut (SK:Soyuz TM-28), born in Moscow, Russia",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 68
+  },
+  {
+    "id": 361,
+    "year": "1951",
+    "original": "Brad Delp, American rock singer (Boston - \"More Than A Feeling\"; RTZ), born in Peabody, Massachusetts (d. 2007)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 69
+  },
+  {
+    "id": 384,
+    "year": "1959",
+    "original": "John Linnell, American musician (They Might Be Giants - Constantinople), born in New York City",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 70
+  },
+  {
+    "id": 386,
+    "year": "1959",
+    "original": "Scott Thompson, Canadian comedian (The Kids in the Hall, Larry Sanders Show), born in North Bay, Ontario, Canada",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 71
+  },
+  {
+    "id": 2,
+    "year": "746",
+    "original": "Dedication of the Mat House / public meeting house at the Maya City of Copán under ruler Smoke Monkey",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 72
+  },
+  {
+    "id": 10,
+    "year": "1665",
+    "original": "New Amsterdam legally becomes an English colony and is renamed New York after the English Duke of York",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 73
+  },
+  {
+    "id": 17,
+    "year": "1775",
+    "original": "1st naval battle of Revolution-Unity (US) captures Margaretta (Br)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 74
+  },
+  {
+    "id": 27,
+    "year": "1849",
+    "original": "Gas mask patented by Lewis Haslett (Louisville, Kentucky)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 75
+  },
+  {
+    "id": 28,
+    "year": "1851",
+    "original": "Abass I of Egypt signs a contract with Robert Louis Stevenson to build a railway in Egypt, first stage opens 1854 between Alexandria and Kafer Eassa - first railway in Africa",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 76
+  }
+]

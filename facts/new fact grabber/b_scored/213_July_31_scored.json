@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "original": "National Avocado Day",
+    "score": 70,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "World Ranger Day",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "Harry Potter's Birthday",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "National Uncommon Instrument Awareness Day",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 5,
+    "original": "National Minority Mental Health Awareness Day",
+    "score": 48,
+    "is_kid_friendly": false
+  }
+]

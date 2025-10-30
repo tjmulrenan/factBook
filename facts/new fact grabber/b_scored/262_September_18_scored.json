@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "original": "National Cheeseburger Day",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "National Rice Day",
+    "score": 60,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "Chile Independence Day",
+    "score": 48,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "National HIV/AIDS and Aging Awareness Day",
+    "score": 35,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 5,
+    "original": "National Respect Day",
+    "score": 55,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 6,
+    "original": "International Equal Pay Day",
+    "score": 45,
+    "is_kid_friendly": false
+  }
+]

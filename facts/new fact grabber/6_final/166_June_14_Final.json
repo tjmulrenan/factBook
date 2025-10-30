@@ -1,0 +1,1262 @@
+[
+  {
+    "id": "901",
+    "title": "Stars, Stripes, and Flag Day Pride!",
+    "story": "Every June 14, Americans celebrate Flag Day by proudly displaying their red, white, and blue flags! People hang flags outside their homes, schools, and businesses to honor the Stars and Stripes. Many towns hold parades with marching bands, veterans, and scouts carrying flags of all sizes. Families often wear patriotic colors and share flag photos on social media to show their American pride.",
+    "activity_question": "What do people typically do to celebrate Flag Day?",
+    "activity_choices": [
+      "Display American flags outside their homes",
+      "Eat only red, white, and blue foods",
+      "Paint their houses with stars and stripes",
+      "Send flag-themed greeting cards"
+    ],
+    "activity_answer": "Display American flags outside their homes",
+    "bonus_fact": "The American flag has had 27 different designs throughout history!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "902",
+    "title": "Heroes Who Give Life",
+    "story": "Every June 14, people around the world celebrate World Blood Donor Day to thank amazing volunteers who donate blood to help save lives. Hospitals and blood banks host special events where donors get thank-you cards, snacks, and sometimes cool t-shirts. Many countries share stories about how donated blood helped patients during emergencies or surgeries. It's a day to recognize these everyday heroes!",
+    "activity_question": "What do blood donors often receive as thank-you gifts on World Blood Donor Day?",
+    "activity_choices": [
+      "Thank-you cards and snacks",
+      "Golden medals",
+      "Free movie tickets",
+      "Magic wands"
+    ],
+    "activity_answer": "Thank-you cards and snacks",
+    "follow_up_question": "What other ways could we thank people who help others in our community?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "903",
+    "title": "Sweet Strawberry Shortcake Celebration Day",
+    "story": "Every June 14, people across America celebrate National Strawberry Shortcake Day by making and eating this classic dessert! Families gather in kitchens to layer fluffy biscuits or sponge cake with fresh, juicy strawberries and dollops of whipped cream. Bakeries create special strawberry shortcake treats, while restaurants add them to their dessert menus. Social media fills with photos of towering shortcakes dripping with berry goodness. Some people pick their own strawberries at local farms to make their shortcakes extra special. It's the perfect summer treat to kick off strawberry season!",
+    "activity_question": "What are the three main ingredients in strawberry shortcake?",
+    "activity_choices": [
+      "Cake, strawberries, and whipped cream",
+      "Cookies, blueberries, and ice cream",
+      "Pie crust, apples, and frosting",
+      "Pancakes, bananas, and syrup"
+    ],
+    "activity_answer": "Cake, strawberries, and whipped cream",
+    "bonus_fact": "The first strawberry shortcake recipe appeared in American cookbooks in the 1840s!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "143",
+    "title": "Alien Life Clues on Saturn's Moon?",
+    "story": "Space explorers made a thrilling discovery on June 14, 2023. They found phosphates on Enceladus, one of Saturn's moons. This was the last piece of a cosmic puzzle. Scientists had already spotted carbon, hydrogen, nitrogen, oxygen, and sulfur there. These elements are the building blocks of life as we know it. The find sparked excitement about the possibility of alien life in our solar system!",
+    "activity_question": "What was discovered on Enceladus in 2023?",
+    "activity_choices": [
+      "Phosphates",
+      "Water",
+      "Alien fossils",
+      "A new moon"
+    ],
+    "activity_answer": "Phosphates",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why was finding phosphates on Enceladus so exciting for scientists?",
+    "score": 95,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "168",
+    "title": "A Girl's Powerful Words Begin",
+    "story": "A young girl picked up her pen and started writing. Little did she know her words would touch millions. Anne Frank began her diary on June 14, 1942, just after turning 13. She wrote in Dutch, sharing her thoughts and experiences during a dark time in history. Anne's diary became a powerful symbol of hope and resilience, giving voice to those who suffered during World War II.",
+    "activity_question": "In what language did Anne Frank write her diary?",
+    "activity_choices": [
+      "Dutch",
+      "English",
+      "German",
+      "French"
+    ],
+    "activity_answer": "Dutch",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think keeping a diary might be important during difficult times?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "121",
+    "title": "Girl Gets Groundbreaking Vein Transplant",
+    "story": "Doctors in Sweden made medical history on June 14, 2012. They performed the world's first stem-cell assisted vein transplant on a young girl. The 10-year-old patient received a new blood vessel grown from her own stem cells. This breakthrough surgery opened doors for future treatments using a person's own cells to create custom-made body parts.",
+    "activity_question": "What type of transplant did the Swedish doctors perform?",
+    "activity_choices": [
+      "Stem-cell assisted vein transplant",
+      "Heart transplant",
+      "Kidney transplant",
+      "Brain transplant"
+    ],
+    "activity_answer": "Stem-cell assisted vein transplant",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why might using a person's own cells be helpful in transplants?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "138",
+    "title": "A Toast to Peace on Hans Island",
+    "story": "Cheers to friendship! In 2022, Denmark and Canada found a clever way to end their playful 'Whiskey War' over Hans Island in the Arctic. For about 50 years, both countries claimed the tiny island as their own. They'd visit, raise their flag, and leave behind a bottle of whiskey for the other side. On June 14, they decided to split the island fairly, showing how countries can solve problems with kindness and humor.",
+    "activity_question": "How did Denmark and Canada resolve their dispute over Hans Island?",
+    "activity_choices": [
+      "They decided to split the island",
+      "They had a whiskey-drinking contest",
+      "They gave the island to Greenland",
+      "They built a bridge between their lands"
+    ],
+    "activity_answer": "They decided to split the island",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think leaving whiskey was a friendly way to claim the island?",
+    "score": 88,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "126",
+    "title": "Tiny Rodent Lost to Climate Change",
+    "story": "A small rodent made history in 2016, but not in a good way. The Bramble Cay melomys, a tiny mouse-like creature, became the first mammal declared extinct due to human-caused climate change. Living on a tiny island in Australia's Torres Strait, rising sea levels destroyed its home. On June 14, scientists announced this sad news, reminding us how our actions affect even the smallest animals.",
+    "activity_question": "What type of animal was the Bramble Cay melomys?",
+    "activity_choices": [
+      "A tiny mouse-like creature",
+      "A large sea mammal",
+      "A colorful bird",
+      "A rare fish"
+    ],
+    "activity_answer": "A tiny mouse-like creature",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How can we help protect other animals from climate change?",
+    "score": 75,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "152",
+    "title": "Babbage's Brilliant Idea: The Difference Engine",
+    "story": "Imagine a machine that could do math all by itself! In 1822, Charles Babbage had just that idea. On June 14, he shared his plan for a 'difference engine' with the Royal Astronomical Society. This clever device would use gears and levers to solve tricky math problems. Babbage's invention paved the way for the computers we use today!",
+    "activity_question": "What did Charles Babbage propose in 1822?",
+    "activity_choices": [
+      "A difference engine",
+      "A steam engine",
+      "A flying machine",
+      "A time machine"
+    ],
+    "activity_answer": "A difference engine",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think Babbage's idea changed the world of math and science?",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "153",
+    "title": "A Flame of Discovery",
+    "story": "Flames danced in the lab as Robert Bunsen unveiled his groundbreaking invention. In 1847, on June 14, this German chemist introduced the Bunsen burner. This clever device produced a clean, hot flame perfect for scientific experiments. It quickly became a must-have tool in laboratories worldwide, helping scientists make amazing discoveries. Bunsen's creation still lights up science classrooms today, inspiring young minds to explore the wonders of chemistry.",
+    "activity_question": "What did Robert Bunsen invent?",
+    "activity_choices": [
+      "The Bunsen burner",
+      "The microscope",
+      "The telescope",
+      "The thermometer"
+    ],
+    "activity_answer": "The Bunsen burner",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think the Bunsen burner was important for scientific experiments?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "42",
+    "title": "Daring Duo Flies Across the Atlantic",
+    "story": "Two brave pilots took to the skies for an incredible adventure. John Alcock and Arthur Brown climbed into their plane in Newfoundland, ready to attempt something no one had done before. On June 14, 1919, they began the first non-stop flight across the Atlantic Ocean. Their journey would push the limits of aviation and open up new possibilities for air travel around the world.",
+    "activity_question": "What did John Alcock and Arthur Brown attempt to do?",
+    "activity_choices": [
+      "The first non-stop flight across the Atlantic Ocean",
+      "The first flight around the world",
+      "The first flight to the moon",
+      "The first flight across the Pacific Ocean"
+    ],
+    "activity_answer": "The first non-stop flight across the Atlantic Ocean",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think flying across the Atlantic Ocean was such a big deal in 1919?",
+    "optional_type": "follow_up_question",
+    "score": 90,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "205",
+    "title": "Soccer Star's Snub Shakes Soda Giant",
+    "story": "Soccer superstar Cristiano Ronaldo caused a stir at the European Championships on June 14. During a press conference, he moved two Coca-Cola bottles away from his spot and held up water instead. This small gesture had a big impact. The soda company's share price suddenly dropped, costing them billions. Ronaldo's actions showed how much influence famous athletes can have.",
+    "activity_question": "What did Cristiano Ronaldo do at the press conference?",
+    "activity_choices": [
+      "He moved Coca-Cola bottles away",
+      "He drank a bottle of Coca-Cola",
+      "He signed autographs for fans",
+      "He announced his retirement"
+    ],
+    "activity_answer": "He moved Coca-Cola bottles away",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think Ronaldo preferred water over soda?",
+    "score": 85,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "150",
+    "title": "A New Flag for a New Nation",
+    "story": "Red, white, and blue stars and stripes burst onto the scene in 1777. The Continental Congress approved a fresh design for America's flag on June 14. Francis Hopkinson's creation featured 13 stripes and a circle of stars, one for each colony. This eye-catching banner replaced the older Grand Union flag, becoming a powerful symbol of the young nation's unity and independence.",
+    "activity_question": "Who designed the new Stars & Stripes flag?",
+    "activity_choices": [
+      "Francis Hopkinson",
+      "George Washington",
+      "Betsy Ross",
+      "Benjamin Franklin"
+    ],
+    "activity_answer": "Francis Hopkinson",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The date of June 14 is now celebrated as Flag Day in the United States.",
+    "score": 80,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "134",
+    "title": "Island Wants to Ditch Time",
+    "story": "Imagine a place where clocks don't matter! In 2019, the people of Sommarøy Island in Norway had a wild idea. On June 14, they sent a petition to their government asking to become the world's first time-free zone. Why? For two whole months each year, the sun never sets on their island. With constant daylight, they wanted to live freely without worrying about schedules. No more rushing to bed when it's still bright outside!",
+    "activity_question": "What did the people of Sommarøy Island want to become?",
+    "activity_choices": [
+      "The world's first time-free zone",
+      "A tourist-free island",
+      "The sunniest place on Earth",
+      "A midnight sun festival site"
+    ],
+    "activity_answer": "The world's first time-free zone",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think life would be different if we didn't use clocks?",
+    "optional_type": "follow_up_question",
+    "score": 88,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "144",
+    "title": "Quantum Leap in Computer Science",
+    "story": "Scientists at IBM made a breakthrough with their quantum computer on June 14, 2023. They successfully simulated a magnetic material, overcoming a tricky problem called quantum noise. This experiment was a big step forward, showing that quantum computers are getting better at solving complex problems that regular computers struggle with.",
+    "activity_question": "What did the IBM quantum computer successfully simulate?",
+    "activity_choices": [
+      "A magnetic material",
+      "A black hole",
+      "A new planet",
+      "A time machine"
+    ],
+    "activity_answer": "A magnetic material",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you think of any ways quantum computers might help us in the future?",
+    "optional_type": "follow_up_question",
+    "score": 88,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "90",
+    "title": "Venera 10: Exploring Venus from Space",
+    "story": "Blast off! In 1975, the Soviet Union sent a special spacecraft named Venera 10 zooming towards Venus. Launched on June 14, this robotic explorer was designed to study our mysterious neighbor planet. Venera 10 carried scientific instruments to measure Venus's atmosphere, take pictures, and even land on its scorching hot surface. It was part of an exciting era of space exploration, helping us learn more about the planets in our solar system.",
+    "activity_question": "What was the name of the spacecraft launched towards Venus?",
+    "activity_choices": [
+      "Venera 10",
+      "Apollo 11",
+      "Sputnik 1",
+      "Mars Rover"
+    ],
+    "activity_answer": "Venera 10",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think scientists wanted to study Venus?",
+    "score": 90,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "76",
+    "title": "Europe Reaches for the Stars",
+    "story": "Scientists across Europe joined forces to explore space in 1962. On June 14, they created the European Space Research Organisation in Paris. This group brought together the brightest minds to study the cosmos and build amazing spacecraft. Later, it grew into the European Space Agency we know today, launching satellites and sending astronauts to orbit Earth.",
+    "activity_question": "What did the European Space Research Organisation later become?",
+    "activity_choices": [
+      "The European Space Agency",
+      "NASA",
+      "The International Space Station",
+      "The Galactic Federation"
+    ],
+    "activity_answer": "The European Space Agency",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name a famous European astronaut or space mission?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "77",
+    "title": "Cosmonaut's Epic Space Journey",
+    "story": "Zoom! Russian cosmonaut Valery Bykovsky blasted off into space in 1963. Aboard his Vostok 5 spacecraft, he soared around Earth a whopping 81 times. For five thrilling days, Bykovsky floated in zero gravity, gazing at our blue planet below. His mission on June 14 pushed the boundaries of human endurance in space, paving the way for longer future explorations.",
+    "activity_question": "What was the name of Bykovsky's spacecraft?",
+    "activity_choices": [
+      "Vostok 5",
+      "Sputnik 1",
+      "Apollo 11",
+      "Cosmic Cruiser"
+    ],
+    "activity_answer": "Vostok 5",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think it would feel to float in zero gravity for five days?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "100",
+    "title": "A Shopping Adventure Begins",
+    "story": "Bulldozers roared to life in Bloomington, Minnesota, marking the start of an epic project. On June 14, 1989, construction began on the Mall of America, destined to become the world's largest shopping center. This massive complex would house hundreds of stores, restaurants, and even an indoor amusement park. It was like building a small city dedicated to shopping and fun!",
+    "activity_question": "What was special about the Mall of America when construction began?",
+    "activity_choices": [
+      "It was destined to become the world's largest shopping center",
+      "It was the first mall in Minnesota",
+      "It was designed to be underwater",
+      "It was made entirely of recycled materials"
+    ],
+    "activity_answer": "It was destined to become the world's largest shopping center",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What unique feature besides stores did the Mall of America plan to include?",
+    "score": 85,
+    "categories": [
+      "The What Zone"
+    ]
+  },
+  {
+    "id": "142",
+    "title": "Ancient Bones Reveal Human History",
+    "story": "Exciting news rocked the world of archaeology on June 14, 2023! Scientists discovered fossil bones in Tam Pà Ling, also known as the Cave of the Monkeys, in Laos. These ancient remains are about 86,000 years old, making them the oldest known examples of modern humans in South-East Asia. This amazing find helps us understand how our ancestors spread across the globe long ago.",
+    "activity_question": "Where were the ancient fossil bones discovered?",
+    "activity_choices": [
+      "Tam Pà Ling",
+      "Cave of the Elephants",
+      "Mount Everest",
+      "The Great Wall of China"
+    ],
+    "activity_answer": "Tam Pà Ling",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Tam Pà Ling means 'Cave of the Monkeys' in the local language.",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "117",
+    "title": "Lightning Fast: Asafa Powell's Record Sprint",
+    "story": "Zoom! Asafa Powell raced into history on June 14, 2005. The Jamaican sprinter blazed across the track at Athens Olympic Stadium, setting a new world record in the men's 100-meter dash. Powell's incredible speed clocked in at 9.77 seconds, making him the fastest man on Earth. His lightning-quick run thrilled spectators and showed just how swiftly humans can move.",
+    "activity_question": "What was Asafa Powell's record-breaking time in the 100-meter dash?",
+    "activity_choices": [
+      "9.77 seconds",
+      "10.77 seconds",
+      "8.77 seconds",
+      "11.77 seconds"
+    ],
+    "activity_answer": "9.77 seconds",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think athletes train to run so fast?",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "106",
+    "title": "Sprinting to Glory: Leroy Burrell's Record",
+    "story": "Lightning-fast Leroy Burrell raced into history on June 14, 1991. The American sprinter blazed across the finish line in New York City, clocking an incredible 9.90 seconds in the 100-meter dash. This jaw-dropping speed set a new world record, proving Burrell was truly the fastest man alive. His lightning-quick feat inspired runners everywhere to push their limits and chase their dreams.",
+    "activity_question": "What was Leroy Burrell's record-breaking time in the 100-meter dash?",
+    "activity_choices": [
+      "9.90 seconds",
+      "10.90 seconds",
+      "8.90 seconds",
+      "11.90 seconds"
+    ],
+    "activity_answer": "9.90 seconds",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think athletes train to run so fast?",
+    "score": 90,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "155",
+    "title": "Breaking Barriers at West Point",
+    "story": "Henry Ossian Flipper made history on June 14, 1877. He became the first African American to graduate from the prestigious West Point Military Academy. Flipper's achievement was a huge step forward for equality. He faced many challenges but never gave up on his dream. His success opened doors for future generations of Black soldiers in the U.S. Army.",
+    "activity_question": "What did Henry Ossian Flipper become the first African American to do?",
+    "activity_choices": [
+      "Graduate from West Point Military Academy",
+      "Join the U.S. Army",
+      "Become a general",
+      "Win a military medal"
+    ],
+    "activity_answer": "Graduate from West Point Military Academy",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think Flipper's achievement was important for equality?",
+    "optional_type": "follow_up_question",
+    "score": 88,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "265",
+    "title": "Scientist Who Exposed Smoking's Dangers",
+    "story": "A baby boy born in Baltimore would grow up to save countless lives. E. Cuyler Hammond entered the world in 1912 on June 14. This future scientist became famous for his groundbreaking research. Hammond was the first to prove that smoking cigarettes causes lung cancer. His work helped people understand the dangers of tobacco and make healthier choices.",
+    "activity_question": "What did E. Cuyler Hammond discover about smoking?",
+    "activity_choices": [
+      "It causes lung cancer",
+      "It improves health",
+      "It has no effect",
+      "It cures the common cold"
+    ],
+    "activity_answer": "It causes lung cancer",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it's important for scientists to study how things affect our health?",
+    "score": 80,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Ibn Battuta's Epic Journey Begins",
+    "story": "Curious about the world, Ibn Battuta set off on an incredible adventure in 1325. On June 14, this brave explorer left his home in Tangiers, Morocco, heading for Mecca. Little did he know his journey would last nearly a quarter-century! Battuta traveled through Africa, Asia, and Europe, meeting new people and experiencing different cultures along the way.",
+    "activity_question": "Where did Ibn Battuta start his journey?",
+    "activity_choices": [
+      "Tangiers, Morocco",
+      "Mecca",
+      "Africa",
+      "Europe"
+    ],
+    "activity_answer": "Tangiers, Morocco",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How long was Ibn Battuta's journey?",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "82",
+    "title": "Mariner 5: Exploring Venus from Space",
+    "story": "Blast off! In 1967, NASA sent a robotic explorer named Mariner 5 zooming towards Venus. Launched on June 14 from Cape Canaveral in Florida, this space probe was on a mission to uncover secrets about our mysterious neighbor planet. Mariner 5 would fly by Venus, gathering valuable data about its atmosphere and magnetic field. This exciting journey helped scientists learn more about the scorching hot world often called Earth's evil twin.",
+    "activity_question": "What was the name of the space probe NASA launched towards Venus?",
+    "activity_choices": [
+      "Mariner 5",
+      "Voyager 1",
+      "Apollo 11",
+      "Sputnik 2"
+    ],
+    "activity_answer": "Mariner 5",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think scientists are interested in studying Venus?",
+    "score": 82,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "170",
+    "title": "A Timeless Christmas Classic Is Born",
+    "story": "Chestnuts roasting on an open fire... In 1946, Nat King Cole's velvety voice brought those words to life. On June 14, he stepped into the studio to record 'The Christmas Song' for the very first time. This cozy tune, written by Mel Tormé and Bob Wells, would become a holiday favorite, warming hearts for generations to come.",
+    "activity_question": "What famous Christmas song did Nat King Cole record on June 14, 1946?",
+    "activity_choices": [
+      "'The Christmas Song'",
+      "'Jingle Bells'",
+      "'White Christmas'",
+      "'Frosty the Snowman'"
+    ],
+    "activity_answer": "'The Christmas Song'",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The song mentions 'Jack Frost nipping at your nose,' a playful way to describe cold weather.",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "263",
+    "title": "A Voice of Folk and Frosty Fun",
+    "story": "Burl Ives, a man of many talents, came into the world on June 14, 1909. This American folk singer charmed audiences with hits like 'A Little Bitty Tear' and 'Silver And Gold'. But Ives wasn't just a musical star. He shone on screen too, acting in films like 'Cat On A Hot Tin Roof'. Perhaps his most beloved role? The jolly snowman narrator in the classic TV special 'Rudolph the Red-Nosed Reindeer'.",
+    "activity_question": "What famous Christmas special did Burl Ives narrate as a snowman?",
+    "activity_choices": [
+      "Rudolph the Red-Nosed Reindeer",
+      "Frosty the Snowman",
+      "A Charlie Brown Christmas",
+      "The Grinch Who Stole Christmas"
+    ],
+    "activity_answer": "Rudolph the Red-Nosed Reindeer",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Burl Ives was born in Hunt City, Illinois, and lived until 1995.",
+    "score": 80,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "249",
+    "title": "The Voice Behind a Wishing Star",
+    "story": "A tiny cricket with a big voice was born on June 14, 1895. Cliff Edwards, nicknamed 'Ukulele Ike', came into the world in Hannibal, Missouri. This talented singer would later charm audiences as the voice of Jiminy Cricket in Walt Disney's Pinocchio. His rendition of 'When You Wish Upon a Star' became a timeless classic, inspiring dreamers everywhere.",
+    "activity_question": "What famous Disney character did Cliff Edwards voice?",
+    "activity_choices": [
+      "Jiminy Cricket",
+      "Mickey Mouse",
+      "Donald Duck",
+      "Goofy"
+    ],
+    "activity_answer": "Jiminy Cricket",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Cliff Edwards got his nickname 'Ukulele Ike' because he often performed with a ukulele.",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "403",
+    "title": "K-pop Star Taeil Enters the World",
+    "story": "Imagine a baby's first cry echoing through Seoul. That sound belonged to Taeil, who would grow up to become a K-pop sensation. Born on June 14, 1994, Taeil Moon entered a world that had no idea he'd one day be belting out hits like 'Make a Wish' with the popular group NCT. His journey from Seoul newborn to global superstar was just beginning on that summer day.",
+    "activity_question": "What famous K-pop group is Taeil a member of?",
+    "activity_choices": [
+      "NCT",
+      "BTS",
+      "EXO",
+      "BLACKPINK"
+    ],
+    "activity_answer": "NCT",
+    "suitable_for_8_to_12_year_old": false,
+    "follow_up_question": "Can you name any other K-pop groups you've heard of?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "400",
+    "title": "Spy Kid Star Enters the World",
+    "story": "A future secret agent was born! On June 14, 1992, Daryl Sabara made his grand entrance in Torrance, California. Little did anyone know, this baby boy would grow up to become a famous actor. Sabara captured hearts as Juni Cortez in the exciting Spy Kids movies. He also lent his voice to animated adventures like Generator Rex and The Polar Express.",
+    "activity_question": "In which movie series did Daryl Sabara play Juni Cortez?",
+    "activity_choices": [
+      "Spy Kids",
+      "Generator Rex",
+      "The Polar Express",
+      "Baby Geniuses"
+    ],
+    "activity_answer": "Spy Kids",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What other animated projects did Daryl Sabara work on?",
+    "score": 80,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "206",
+    "title": "BTS Takes a Break",
+    "story": "K-pop superstars BTS shocked fans worldwide. The seven-member boy band announced they were taking a break from group activities. Each singer wanted to focus on solo projects and personal growth. This news came on June 14, 2022, during a live-streamed dinner. BTS promised to reunite in the future, stronger than ever.",
+    "activity_question": "What did BTS announce they were taking?",
+    "activity_choices": [
+      "A break",
+      "A world tour",
+      "A new album",
+      "A movie role"
+    ],
+    "activity_answer": "A break",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How many members are in BTS?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "178",
+    "title": "Ringo Rejoins the Beatles Down Under",
+    "story": "Beatlemania hit Australia as Ringo Starr reunited with his bandmates in Melbourne. The famous drummer had been sidelined by tonsillitis, missing the start of their tour. But on June 14, 1964, fans cheered as the Fab Four became whole again. Ringo's return sparked fresh excitement for their concerts, proving the Beatles were unstoppable even when facing health hiccups.",
+    "activity_question": "Why had Ringo Starr been absent from the Beatles tour?",
+    "activity_choices": [
+      "He had tonsillitis",
+      "He was on vacation",
+      "He was recording a solo album",
+      "He got lost in Australia"
+    ],
+    "activity_answer": "He had tonsillitis",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name the other three members of the Beatles?",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "125",
+    "title": "Dino-Sized Box Office Smash",
+    "story": "Roaring onto screens in 2015, Jurassic World became a monster hit. The dinosaur adventure stomped its way to a jaw-dropping $500 million worldwide on June 14. This marked the first time any movie reached such a colossal sum in its opening weekend. Audiences flocked to theaters, eager to return to the thrilling world of prehistoric beasts.",
+    "activity_question": "What did Jurassic World achieve in its opening weekend?",
+    "activity_choices": [
+      "$500 million worldwide",
+      "$100 million worldwide",
+      "$1 billion worldwide",
+      "Sold out every theater"
+    ],
+    "activity_answer": "$500 million worldwide",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think so many people were excited to see this movie?",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "196",
+    "title": "Jim Carrey's Wacky Cable Adventure",
+    "story": "Zany faces and wild antics hit the big screen as Jim Carrey's comedy 'Cable Guy' premiered in 1996. The movie followed a lonely cable installer who goes to extreme lengths to make a new friend. Carrey's over-the-top performance had audiences laughing on June 14, though some found the character a bit too creepy!",
+    "activity_question": "What was Jim Carrey's character in the movie?",
+    "activity_choices": [
+      "A cable installer",
+      "A telephone repairman",
+      "A pizza delivery guy",
+      "A wacky weatherman"
+    ],
+    "activity_answer": "A cable installer",
+    "suitable_for_8_to_12_year_old": false,
+    "bonus_fact": "Jim Carrey was known for making silly faces and using rubber-like expressions in his comedies.",
+    "optional_type": "bonus_fact",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "193",
+    "title": "Swashbuckling Adventure Hits the Big Screen",
+    "story": "Arrows flew and swords clashed as a legendary hero came to life. The movie Robin Hood: Prince of Thieves burst onto cinema screens in 1991. On June 14, audiences thrilled to the tale of the noble outlaw who stole from the rich to give to the poor. Kevin Costner starred as the daring Robin, with Morgan Freeman as his loyal friend.",
+    "activity_question": "Who starred as Robin Hood in the 1991 movie?",
+    "activity_choices": [
+      "Kevin Costner",
+      "Morgan Freeman",
+      "Kevin Reynolds",
+      "Prince of Thieves"
+    ],
+    "activity_answer": "Kevin Costner",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What famous action does Robin Hood do in the legend?",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "209",
+    "title": "Epic Journey of Captain Bligh",
+    "story": "Imagine sailing across the ocean in a tiny boat! In 1789, Captain William Bligh and his loyal crew completed an incredible journey. After being forced off their ship, the HMS Bounty, they traveled a vast distance in a small launch. On June 14, they finally reached safety in Timor, having crossed nearly the entire South Pacific Ocean.",
+    "activity_question": "Where did Captain Bligh and his crew finally reach safety?",
+    "activity_choices": [
+      "Timor",
+      "HMS Bounty",
+      "South Pacific Ocean",
+      "A desert island"
+    ],
+    "activity_answer": "Timor",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think the crew felt when they finally reached land after such a long journey?",
+    "score": 80,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "186",
+    "title": "Nolan Ryan's Strikeout Spectacular",
+    "story": "Nolan Ryan's arm was on fire! In 1974, the baseball world watched in awe as the California Angels pitcher unleashed a storm of strikeouts. On June 14, Ryan faced off against the Boston Red Sox at Anaheim Stadium. Over 13 intense innings, he struck out an incredible 19 batters. The game stretched to 15 nail-biting innings before the Angels clinched a 2-1 victory. Ryan's performance that day became legendary in baseball history.",
+    "activity_question": "How many batters did Nolan Ryan strike out during the game?",
+    "activity_choices": [
+      "19",
+      "13",
+      "15",
+      "2"
+    ],
+    "activity_answer": "19",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What team was Nolan Ryan pitching for during this amazing game?",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "184",
+    "title": "Reggie Jackson's Incredible Baseball Feat",
+    "story": "Reggie Jackson swung his bat with incredible power. On June 14, 1969, he led the Oakland As to a massive victory over the Boston Red Sox. Jackson drove in an amazing ten runs, helping his team score 21 points against the Red Sox's 7. His performance that day showed why he would become one of baseball's greatest hitters.",
+    "activity_question": "How many runs did Reggie Jackson drive in during this game?",
+    "activity_choices": [
+      "Ten",
+      "Seven",
+      "Twenty-one",
+      "Forty-two"
+    ],
+    "activity_answer": "Ten",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Reggie Jackson's nickname was Mr. October because of his clutch hitting in the playoffs.",
+    "score": 82,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "101",
+    "title": "Nolan Ryan's Pitching Milestone",
+    "story": "Nolan Ryan, the legendary pitcher for the Texas Rangers, achieved a remarkable feat in 1989. On June 14, he became only the second pitcher in Major League Baseball history to defeat all 26 teams. Ryan's powerful arm and incredible skill allowed him to dominate batters from every team in the league, cementing his status as one of baseball's greatest players.",
+    "activity_question": "What team did Nolan Ryan play for when he achieved this milestone?",
+    "activity_choices": [
+      "Texas Rangers",
+      "New York Yankees",
+      "Houston Astros",
+      "Los Angeles Dodgers"
+    ],
+    "activity_answer": "Texas Rangers",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Nolan Ryan is known as 'The Ryan Express' due to his incredibly fast pitches.",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "111",
+    "title": "Rangers Break the Ice After 54 Years",
+    "story": "The crowd roared as the New York Rangers clinched victory in 1994. At Madison Square Garden, they defeated the Vancouver Canucks 3-2 in a nail-biting game. This win secured the Stanley Cup for the Rangers, ending a long dry spell. Hockey fans had waited 54 years to see their team lift the championship trophy again. It was a moment of pure joy for New York sports enthusiasts on June 14.",
+    "activity_question": "Which team did the New York Rangers defeat to win the Stanley Cup?",
+    "activity_choices": [
+      "Vancouver Canucks",
+      "Montreal Canadiens",
+      "Boston Bruins",
+      "Chicago Blackhawks"
+    ],
+    "activity_answer": "Vancouver Canucks",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How many years had passed since the Rangers last won the Stanley Cup?",
+    "score": 80,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "81",
+    "title": "Baseball's Marathon Match",
+    "story": "Batter up... and up... and up! In 1966, baseball fans witnessed an epic showdown that just wouldn't end. On June 14, the Miami and St. Petersburg teams in Florida's State League kept swinging for an incredible 29 innings. Imagine playing nearly three games back-to-back! Miami finally clinched a 4-3 victory in what became the longest uninterrupted game in organized baseball history. Players must have been exhausted but thrilled to be part of such a memorable match.",
+    "activity_question": "How many innings did the record-breaking baseball game last?",
+    "activity_choices": [
+      "29 innings",
+      "9 innings",
+      "18 innings",
+      "4 innings"
+    ],
+    "activity_answer": "29 innings",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think players stayed focused during such a long game?",
+    "score": 85,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "164",
+    "title": "Baer's Knockout Punch Claims Heavyweight Crown",
+    "story": "Pow! In a thrilling boxing match, American fighter Max Baer unleashed a powerful punch that changed history. On June 14, 1934, Baer faced off against Italian champion Primo Carnera at Madison Square Garden. The crowd roared as Baer delivered a knockout blow in the 11th round, claiming the world heavyweight title. It was a moment of triumph that boxing fans would remember for years to come.",
+    "activity_question": "Where did the boxing match between Max Baer and Primo Carnera take place?",
+    "activity_choices": [
+      "Madison Square Garden",
+      "Yankee Stadium",
+      "Wembley Arena",
+      "The Roman Colosseum"
+    ],
+    "activity_answer": "Madison Square Garden",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What sport do you think requires more skill: boxing or chess?",
+    "score": 72,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "173",
+    "title": "Jim Peters Races Into History",
+    "story": "Feet pounding the pavement, Jim Peters pushed himself to the limit. On June 14, 1952, this British runner blazed through a marathon in an incredible time. Peters crossed the finish line in 2 hours, 20 minutes, and 42.2 seconds, setting a new world record! His amazing feat showed what determination and training could achieve in long-distance running.",
+    "activity_question": "What was Jim Peters' record-breaking marathon time?",
+    "activity_choices": [
+      "2 hours, 20 minutes, and 42.2 seconds",
+      "3 hours, 15 minutes, and 30 seconds",
+      "2 hours, 45 minutes, and 10 seconds",
+      "1 hour, 59 minutes, and 59 seconds"
+    ],
+    "activity_answer": "2 hours, 20 minutes, and 42.2 seconds",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think runners train for marathons?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "202",
+    "title": "Cricket Star's Debut for Afghanistan",
+    "story": "Excitement filled the air as Rashid Khan stepped onto the cricket field. On June 14, 2018, this talented player made his Test debut for Afghanistan against India. Test matches are the longest and most challenging form of cricket. Rashid's first appearance in this format marked a big moment for Afghan cricket, showing how far the sport had come in the country.",
+    "activity_question": "What type of cricket match did Rashid Khan debut in?",
+    "activity_choices": [
+      "Test match",
+      "One-day international",
+      "Twenty20 game",
+      "Cricket World Cup"
+    ],
+    "activity_answer": "Test match",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Do you know what country Afghanistan played against in Rashid's debut?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "28",
+    "title": "Baseball's First Cycle: A Diamond Feat",
+    "story": "Batter up! On June 14, 1876, George Hall of the Philadelphia Athletics made baseball history. He became the first player ever to hit for the cycle. That means he smacked a single, double, triple, and home run all in one game! Hall's amazing performance showed off his skills and set a standard for future sluggers to aim for.",
+    "activity_question": "What did George Hall achieve in 1876?",
+    "activity_choices": [
+      "He became the first player to hit for the cycle",
+      "He invented the baseball bat",
+      "He pitched a perfect game",
+      "He started the Philadelphia Athletics team"
+    ],
+    "activity_answer": "He became the first player to hit for the cycle",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name the four types of hits needed for a cycle?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "156",
+    "title": "A Powerful Farewell for Women's Rights",
+    "story": "Thousands of women marched through London's streets in 1913, honoring Emily Davison. This brave suffragette had fought tirelessly for women's right to vote. On June 14, a sea of 6,000 supporters joined her funeral procession. Their presence sent a strong message: the fight for equality would continue, inspired by Davison's dedication.",
+    "activity_question": "How many suffragettes joined Emily Davison's funeral procession?",
+    "activity_choices": [
+      "6,000",
+      "1,913",
+      "Hundreds",
+      "Millions"
+    ],
+    "activity_answer": "6,000",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What right were the suffragettes fighting for?",
+    "score": 78,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "135",
+    "title": "Swiss Women Unite for Equality",
+    "story": "Purple-clad crowds filled Swiss streets in 2019. Women across the country joined forces on June 14, staging a massive national strike. Their goal? To shine a spotlight on gender inequality and push for faster progress. Protesters used creative tactics like giant clocks to symbolize the need for change. The colorful demonstration echoed a similar strike held nearly three decades earlier.",
+    "activity_question": "What color did the protesting women wear?",
+    "activity_choices": [
+      "Purple",
+      "Red",
+      "Green",
+      "Blue"
+    ],
+    "activity_answer": "Purple",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think the women chose to use giant clocks as symbols?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "140",
+    "title": "Floating Restaurant's Final Voyage",
+    "story": "A massive floating restaurant called Jumbo Kingdom sailed away from Hong Kong in 2022. This seafood eatery had been a popular attraction for 46 years. Sadly, its journey ended just four days later on June 14 when it sank near the Paracel Islands. The enormous vessel was once the largest floating restaurant in the world, drawing diners and tourists alike.",
+    "activity_question": "What was special about the Jumbo Kingdom restaurant?",
+    "activity_choices": [
+      "It was the largest floating restaurant in the world",
+      "It was made entirely of glass",
+      "It could fly in the air",
+      "It served only desserts"
+    ],
+    "activity_answer": "It was the largest floating restaurant in the world",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you imagine eating dinner on a giant floating restaurant? What might that be like?",
+    "score": 75,
+    "categories": [
+      "The What Zone"
+    ]
+  },
+  {
+    "id": "137",
+    "title": "Scorching Heat Grips Western North America",
+    "story": "Sweltering temperatures swept across western North America in 2021. On June 14, a massive heatwave began, sending thermometers soaring. Denver baked at 101 degrees, while Helena sizzled at a blistering 105. The extreme heat affected both the western United States and parts of Canada, making it a challenging time for people and animals alike.",
+    "activity_question": "Which two cities were mentioned as experiencing extreme temperatures?",
+    "activity_choices": [
+      "Denver and Helena",
+      "Seattle and Portland",
+      "Los Angeles and San Francisco",
+      "Vancouver and Calgary"
+    ],
+    "activity_answer": "Denver and Helena",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How might people stay cool during a heatwave?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "115",
+    "title": "Iowa's Unexpected Waterfall",
+    "story": "Splash! In 1998, the skies opened up over Atlantic, Iowa. A massive rainstorm poured down, drenching the town with an incredible amount of water. By the time it was over on June 14, Atlantic had received so much rain that it set a new state record. The town looked more like a series of rivers and lakes than streets!",
+    "activity_question": "What happened in Atlantic, Iowa in 1998?",
+    "activity_choices": [
+      "A massive rainstorm",
+      "A big parade",
+      "An earthquake",
+      "A hot air balloon festival"
+    ],
+    "activity_answer": "A massive rainstorm",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How might a town prepare for such heavy rainfall?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "74",
+    "title": "San Francisco's Sizzling Summer Surprise",
+    "story": "Sweat dripped and ice cream melted as San Francisco sizzled under a scorching 106°F heat wave. On June 14, 1961, the city known for its cool fog experienced its hottest day ever recorded. Residents sought relief at beaches and in the shade, while fans and air conditioners worked overtime to beat the unexpected heat.",
+    "activity_question": "What was the record-breaking temperature in San Francisco?",
+    "activity_choices": [
+      "106°F",
+      "100°F",
+      "96°F",
+      "116°F"
+    ],
+    "activity_answer": "106°F",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you stay cool on very hot days?",
+    "score": 70,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "72",
+    "title": "Raindrops Keep Falling in Illinois",
+    "story": "Splash! In 1957, East St. Louis, Illinois, got soaked like never before. On June 14, the skies opened up and poured down an incredible amount of rain. It was so much that it set a new state record! Imagine stepping outside and seeing puddles everywhere. The streets turned into mini rivers as the rain just kept coming. It was definitely a day for staying inside with hot cocoa and board games!",
+    "activity_question": "What happened in East St. Louis, Illinois in 1957?",
+    "activity_choices": [
+      "It set a new state record for rainfall",
+      "A big parade was held",
+      "The first computer was invented",
+      "A giant rainbow appeared"
+    ],
+    "activity_answer": "It set a new state record for rainfall",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What do you think people did for fun on such a rainy day?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Learning for All in Colonial America",
+    "story": "Quills scratched on parchment as lawmakers in Massachusetts made history. In 1642, they passed a groundbreaking law that would shape the future of America. For the first time, children were required to learn reading and writing. This compulsory education law, enacted on June 14, laid the foundation for public schooling in the colonies.",
+    "activity_question": "What did the Massachusetts law require children to learn?",
+    "activity_choices": [
+      "Reading and writing",
+      "Farming and hunting",
+      "Dancing and singing",
+      "Cooking and cleaning"
+    ],
+    "activity_answer": "Reading and writing",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think education was considered so important in colonial America?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "70",
+    "title": "Two Words Change the Pledge",
+    "story": "Hands raised, students recite the Pledge of Allegiance. But in 1954, it sounded a bit different. On June 14 that year, President Eisenhower signed an order adding two important words: 'under God.' This change made the phrase 'one nation under God' part of the Pledge we know today.",
+    "activity_question": "What two words did President Eisenhower add to the Pledge of Allegiance?",
+    "activity_choices": [
+      "under God",
+      "of America",
+      "with liberty",
+      "and justice"
+    ],
+    "activity_answer": "under God",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think these words were added to the Pledge?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "54",
+    "title": "A Pioneering Artist's Biblical Bestiary",
+    "story": "Pencils and paintbrushes danced across the pages, bringing lions, doves, and donkeys to life. In 1938, Dorothy Lathrop's magical illustrations in 'Animals of the Bible' captured hearts and imaginations. On June 14 that year, her talent earned her a special honor - the very first Caldecott Medal for children's book illustration. Lathrop's detailed drawings opened young readers eyes to the creatures of ancient stories in a whole new way.",
+    "activity_question": "What book did Dorothy Lathrop illustrate to win the first Caldecott Medal?",
+    "activity_choices": [
+      "Animals of the Bible",
+      "Noah's Ark Adventures",
+      "Creatures of the Holy Land",
+      "Biblical Beasts and Birds"
+    ],
+    "activity_answer": "Animals of the Bible",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another animal that might appear in a book about Bible stories?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "282",
+    "title": "A Tiger's Tea Party Creator",
+    "story": "Roar! A tiger for tea? That's the whimsical world Judith Kerr brought to life. Born in Berlin in 1923, this talented storyteller moved to England and became a beloved children's author. Her most famous tale, 'The Tiger Who Came to Tea,' has delighted generations since its creation. Kerr's playful imagination also gave us the lovable Mog the cat series. On June 14, we celebrate the birth of this creative mind who turned teatime into an adventure!",
+    "activity_question": "What was Judith Kerr's most famous children's book?",
+    "activity_choices": [
+      "The Tiger Who Came to Tea",
+      "Mog the Cat",
+      "Berlin Adventures",
+      "Teatime Tales"
+    ],
+    "activity_answer": "The Tiger Who Came to Tea",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Have you ever read a Judith Kerr book? Which one is your favorite?",
+    "optional_type": "follow_up_question",
+    "score": 90,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "254",
+    "title": "The Math Genius Behind Computer Science",
+    "story": "A brilliant mind was born in 1903 that would change the world of mathematics forever. Alonzo Church, an American mathematician, came into the world on June 14 in Washington, D.C. His groundbreaking work laid the foundation for computer science, shaping how we think about calculations and logic in the digital age.",
+    "activity_question": "What field did Alonzo Church's work provide a foundation for?",
+    "activity_choices": [
+      "Computer science",
+      "Biology",
+      "Astronomy",
+      "Architecture"
+    ],
+    "activity_answer": "Computer science",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you think of ways we use computer science in our daily lives?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "235",
+    "title": "Danish Inventor Takes Flight",
+    "story": "A watchmaker with dreams of flying was born on June 14, 1871. Jacob Ellehammer from Denmark tinkered with more than just timepieces. He became an inventor who helped pioneer powered flight. Ellehammer's creative mind soared beyond watches, leading him to design and build early aircraft. His inventions paved the way for future aviators to take to the skies.",
+    "activity_question": "What did Jacob Ellehammer help pioneer?",
+    "activity_choices": [
+      "Powered flight",
+      "Watchmaking",
+      "Time travel",
+      "Bicycle design"
+    ],
+    "activity_answer": "Powered flight",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you think of other inventors who started in one field but made breakthroughs in another?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "232",
+    "title": "The Birth of a Math Genius",
+    "story": "A brilliant mind was born on June 14, 1856. Andrey Markov entered the world in Ryazan, Russian Empire. This baby would grow up to become a famous mathematician. Markov's work on special number patterns, now called Markov Chains, changed how we understand random events. His ideas help predict weather and even how search engines work!",
+    "activity_question": "What special number patterns did Andrey Markov work on?",
+    "activity_choices": [
+      "Markov Chains",
+      "Fibonacci Sequences",
+      "Prime Numbers",
+      "Fractals"
+    ],
+    "activity_answer": "Markov Chains",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you think of any other areas where predicting patterns might be useful?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "228",
+    "title": "The Man Behind the Kodak Camera",
+    "story": "Snap! The world of photography changed forever thanks to David Houston. Born in Auchterarder, Scotland on June 14, 1841, this clever inventor would go on to create the famous Kodak camera. Houston's brilliant idea made taking pictures easier for everyone, not just professionals. His invention helped capture countless memories and changed how we see the world.",
+    "activity_question": "What famous camera did David Houston invent?",
+    "activity_choices": [
+      "The Kodak camera",
+      "The Polaroid camera",
+      "The digital camera",
+      "The pinhole camera"
+    ],
+    "activity_answer": "The Kodak camera",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think cameras have changed since Houston's time?",
+    "score": 70,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "258",
+    "title": "Trailblazing Photographer Snaps into History",
+    "story": "Click! Margaret Bourke-White captured groundbreaking moments through her camera lens. Born in New York City in 1904 on June 14, she grew up to become a pioneering photographer. Bourke-White made history as the first woman to join the staff of LIFE magazine, paving the way for future generations of female photojournalists.",
+    "activity_question": "What magazine did Margaret Bourke-White work for?",
+    "activity_choices": [
+      "LIFE",
+      "TIME",
+      "National Geographic",
+      "Vogue"
+    ],
+    "activity_answer": "LIFE",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What other 'firsts' do you think women achieved in journalism during the 20th century?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "338",
+    "title": "Legendary Coach Pat Summitt's Winning Legacy",
+    "story": "Pat Summitt, born in Clarksville, Tennessee in 1952, became a basketball coaching powerhouse. She led the University of Tennessee women's team to incredible success. Summitt's teams won the NCAA Division I tournament eight times and reached the Final Four an amazing eighteen times. Her talent and dedication earned her a place in the Basketball Hall of Fame.",
+    "activity_question": "How many times did Pat Summitt's teams win the NCAA Division I tournament?",
+    "activity_choices": [
+      "Eight times",
+      "Eighteen times",
+      "Four times",
+      "Twice"
+    ],
+    "activity_answer": "Eight times",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Pat Summitt coached for nearly four decades, inspiring countless young athletes along the way.",
+    "score": 80,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  }
+]

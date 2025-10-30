@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Mocha Madness Day!",
+    "story": "Coffee meets chocolate in the most delicious way possible on National Mocha Day, celebrated every September 29! People line up at coffee shops to order their favorite mocha drinks - hot chocolate mixed with rich espresso coffee. Some folks make homemade mochas by stirring chocolate syrup into their morning coffee, while others get fancy with whipped cream and chocolate sprinkles on top. Coffee shops often offer special mocha flavors like peppermint or caramel just for this sweet holiday!",
+    "activity_question": "What two main ingredients make a mocha drink?",
+    "activity_choices": [
+      "Coffee and chocolate",
+      "Tea and vanilla",
+      "Milk and sugar",
+      "Coffee and pickles"
+    ],
+    "activity_answer": "Coffee and chocolate",
+    "bonus_fact": "The word 'mocha' comes from a port city in Yemen famous for coffee beans!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "902",
+    "title": "Twice-Baked Treats Take the Day!",
+    "story": "Crunch time arrives every September 29 when National Biscotti Day celebrates Italy's famous twice-baked cookies! These hard, crunchy treats are perfect for dunking in coffee, hot chocolate, or milk. Bakeries across America showcase special biscotti flavors like chocolate chip, almond, and cranberry orange. Many families try baking their own at home, learning the special double-baking technique that makes biscotti so wonderfully crispy and long-lasting.",
+    "activity_question": "What makes biscotti different from regular cookies?",
+    "activity_choices": [
+      "They're baked twice to make them extra crunchy",
+      "They're made with special Italian flour",
+      "They're shaped like tiny boots",
+      "They're only eaten on holidays"
+    ],
+    "activity_answer": "They're baked twice to make them extra crunchy",
+    "bonus_fact": "The word 'biscotti' actually means 'twice-cooked' in Italian!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "903",
+    "title": "Michaelmas: Angels and Apples Day",
+    "story": "Every September 29, people celebrate Michaelmas, a special day honoring the archangel Michael. Families gather to eat roast goose, blackberries, and carrots as traditional feast foods. In some places, kids go apple picking or make special Michaelmas daisies into flower crowns. Churches hold services, and people share stories about courage and protection, just like the brave archangel Michael.",
+    "activity_question": "What traditional meat do families often eat on Michaelmas?",
+    "activity_choices": [
+      "Roast goose",
+      "Fried chicken",
+      "Turkey sandwich",
+      "Pizza slices"
+    ],
+    "activity_answer": "Roast goose",
+    "bonus_fact": "Michaelmas daisies bloom perfectly around this time, making them the holiday's special flower.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 50
+  }
+]

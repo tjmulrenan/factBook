@@ -1,0 +1,542 @@
+[
+  {
+    "id": 103,
+    "year": "1991",
+    "original": "Ötzi the Iceman, a five-thousand-year-old mummy, is discovered by German tourists in the Italian Alps, the oldest known natural human mummy in Europe",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 1
+  },
+  {
+    "id": 190,
+    "year": "2024",
+    "original": "Japanese 2-way phenomShohei Ohtanibecomes first player in MLB history to hit 50 home runs and steal 50 bases in a season; slugs 3 HRs in a 10 RBI game as the LA Dodgers rout the Miami Marlins 20-4 in Miami",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 2
+  },
+  {
+    "id": 98,
+    "year": "1988",
+    "original": "US women's all-round gymnastics team is controversially penalised 0.5 after compulsory round at the Seoul Olympics; substitute an alternate athlete on uneven bars medal podium; Americans finish 4th just 0.3 behind East Germany",
+    "score": 98,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 32
+  },
+  {
+    "id": 375,
+    "year": "1967",
+    "original": "Jim Abbott, American MLB baseball pitcher born with only one hand, 1989-99 (Olympic gold 1988; California Angels, NY Yankees, and 2 other teams), born in Flint, Michigan",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 4
+  },
+  {
+    "id": 191,
+    "year": "1893",
+    "original": "New Zealand becomes the first country to grant all women the right to vote",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 5
+  },
+  {
+    "id": 16,
+    "year": "1848",
+    "original": "Hyperion, moon of Saturn - the first non-round moon - discovered by William Cranch Bond, his son George Phillips Bond and William Lassell",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 6
+  },
+  {
+    "id": 136,
+    "year": "2022",
+    "original": "Scientists discover site of the Amazon's tallest tree, an angelim vermelho at 88.5 meters (290 feet) tall and 9.9 meters (32 feet) wide, Iratapuru River Nature Reserve, northern Brazil,",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 7
+  },
+  {
+    "id": 369,
+    "year": "1965",
+    "original": "Sunita Williams, American NASA astronaut and naval officer (set record most spacewalks by a woman), born in Euclid, Ohio",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 8
+  },
+  {
+    "id": 119,
+    "year": "2015",
+    "original": "Japan beats South Africa 34-32 in Brighton, England in the biggest upset in Rugby World Cup history",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 9
+  },
+  {
+    "id": 155,
+    "year": "1955",
+    "original": "Cubs sluggerErnie Bankshits record 5th grand slam of season",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 10
+  },
+  {
+    "id": 69,
+    "year": "1961",
+    "original": "Betty and Barney Hill claim that they saw a mysterious craft in the sky and that it tried to abduct them.",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 11
+  },
+  {
+    "id": 131,
+    "year": "2021",
+    "original": "Cumbre Vieja volcano erupts on the Spanish island of La Palma, its first eruption since 1971",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 12
+  },
+  {
+    "id": 125,
+    "year": "2019",
+    "original": "North America has lost 3 billion birds (29%) since 1970 according to analysis published in \"Science\"",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 13
+  },
+  {
+    "id": 189,
+    "year": "2022",
+    "original": "British monarchQueen Elizabeth IIinterred at Windsor Castle after a state funeral at Westminster Abbey in London with an unprecedented 500 world leaders in attendance",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 14
+  },
+  {
+    "id": 220,
+    "year": "1867",
+    "original": "Arthur Rackham, English book illustrator (Grimm's Fairy Tales, Rip van Winkle), born in London, England (d. 1939)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 15
+  },
+  {
+    "id": 166,
+    "year": "1986",
+    "original": "3-D short film \"Captain EO\" withMichael Jacksonpremieres at Disney theme parks",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 16
+  },
+  {
+    "id": 152,
+    "year": "1952",
+    "original": "\"Adventures of Superman\" TV series starringGeorge Reevespremieres in syndication in the US",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 17
+  },
+  {
+    "id": 169,
+    "year": "1989",
+    "original": "\"Doogie Howser, M.D.\", starringNeil Patrick Harrisas a teenage physician, debuts on ABC",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 18
+  },
+  {
+    "id": 276,
+    "year": "1928",
+    "original": "Adam West [William West Anderson], American actor (Batman, Last Precinct), born in Walla Walla, Washington (d. 2017)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 19
+  },
+  {
+    "id": 192,
+    "year": "1960",
+    "original": "Chubby Checker's cover version of \"The Twist\" hits #1 on the Billboard Hot 100",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 20
+  },
+  {
+    "id": 157,
+    "year": "1960",
+    "original": "\"LIFE\" magazine celebrates artist Anna Mary \"Grandma\" Moses' 100th birthday by putting her on their cover",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 21
+  },
+  {
+    "id": 374,
+    "year": "1967",
+    "original": "Aleksandr Karelin, Russian Greco-Roman wrestler who went undefeated for 13 years and won 3 Olympic golds (1988; 1992; 1996), born in Novosibirsk, Russia",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 22
+  },
+  {
+    "id": 177,
+    "year": "2000",
+    "original": "Ken Griffey Jr.pinch-hits his 400th home run becoming the first major league player to reach the mark as a pinch-hitter",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 23
+  },
+  {
+    "id": 267,
+    "year": "1924",
+    "original": "Jacques Lusseyran, Frenchauthorand resistance leader who was blind from age 7, born in Paris, France (d. 1971)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 25
+  },
+  {
+    "id": 335,
+    "year": "1952",
+    "original": "Nile Rodgers, American guitarist (Chic - \"Le Freak\"), and music producer (Sister Sledge; David Bowie - \"Let's Dance\"), born in The Bronx, New York, City",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 26
+  },
+  {
+    "id": 162,
+    "year": "1975",
+    "original": "\"Fawlty Towers\" starringJohn Cleese, Prunella Scales and Andrew Sachs premieres on BBC2 in the UK",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 27
+  },
+  {
+    "id": 151,
+    "year": "1947",
+    "original": "Jackie Robinsonis named 1947 \"Rookie of the Year\"",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 28
+  },
+  {
+    "id": 105,
+    "year": "1992",
+    "original": "Sergei Boebka pole vaults world record (6.13m)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 29
+  },
+  {
+    "id": 95,
+    "year": "1988",
+    "original": "Australian swimmer Duncan Armstrong sets world record 1:47.25 to win the 200m freestyle gold medal at the Seoul Olympics; beats Anders Holmertz of Sweden by 0.64",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 30
+  },
+  {
+    "id": 96,
+    "year": "1988",
+    "original": "British swimmer Adrian Moorehouse wins 100m breaststroke gold medal in 1:02.04 at the Seoul Olympics; edges Károly Güttler of Hungary by 0.01",
+    "score": 96,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 31
+  },
+  {
+    "id": 112,
+    "year": "1994",
+    "original": "Volcanic eruption destroys the town of Rabaul on New Britain, Papua New Guinea",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 34
+  },
+  {
+    "id": 26,
+    "year": "1879",
+    "original": "The Blackpool Illuminations are switched on for the first time.",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 35
+  },
+  {
+    "id": 24,
+    "year": "1876",
+    "original": "First carpet sweeper patented by Melville Bissell of Grand Rapids, Michigan",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 36
+  },
+  {
+    "id": 81,
+    "year": "1976",
+    "original": "New York concert promoter Sid Bernstein offers $230 million to charity for a Beatles reunion; they politely decline",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 37
+  },
+  {
+    "id": 85,
+    "year": "1981",
+    "original": "Simon & Garfunkel reunite for a concert in Central Park, NYC,",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 38
+  },
+  {
+    "id": 179,
+    "year": "2004",
+    "original": "NFL Oakland Raider wide receiverJerry Riceends NFL streak of 274 consecutive games with a reception in a 13-10 victory over Buffalo Bills",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 41
+  },
+  {
+    "id": 109,
+    "year": "1993",
+    "original": "San Diego Chargers' kicker John Carney boots 6 field goals in an 18-17 win over Houston to set a new NFL record with 29 consecutive field goals made",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 42
+  },
+  {
+    "id": 182,
+    "year": "2008",
+    "original": "Thierry Henryscores his first goal for Barcelona in a 3–0 Champions League group stage win over Lyon",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 48
+  },
+  {
+    "id": 184,
+    "year": "2014",
+    "original": "Columbia Records releases \"Cheek To Cheek\", a duet album of jazz standards by singersTony BennettandLady Gaga; debuts at #1 on Billboard 200, Jazz Albums, and Traditional Jazz Albums charts.",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 49
+  },
+  {
+    "id": 170,
+    "year": "1989",
+    "original": "\"Janet Jackson's Rhythm Nation 1814\" 4th studio album by Janet Jackson is released (Grammy Award Best Long Form Music Video 1990, Billboard Album of the Year 1990)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 50
+  },
+  {
+    "id": 355,
+    "year": "1962",
+    "original": "Cheri Oteri, American comedian and actress (Scary Movie, Saturday Night Live), born in Upper Darby, Pennsylvania",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 51
+  },
+  {
+    "id": 361,
+    "year": "1963",
+    "original": "Jarvis Cocker, British pop singer-songwriter (Pulp - \"Common People\"), and radio personality, born in Sheffield, England",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 52
+  },
+  {
+    "id": 367,
+    "year": "1965",
+    "original": "Katrina McClain, American basketball forward (Olympic gold 1996), born in Charleston, South Carolina",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 53
+  },
+  {
+    "id": 346,
+    "year": "1957",
+    "original": "Richard M. Linnehan, American astronaut (STS 78, sk: 90), born in Lowell, Massachusetts",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 54
+  },
+  {
+    "id": 351,
+    "year": "1959",
+    "original": "Marshall Jefferson, American musician 'father of house music' (Move your Body), born in Chicago, Illinois",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 55
+  },
+  {
+    "id": 82,
+    "year": "1980",
+    "original": "\"Ordinary People\" film directed by Robert Redford and starring Donald Sutherland,Mary Tyler Mooreand Judd Hirsch premieres (Academy Award - Best Picture, 1981)",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 56
+  },
+  {
+    "id": 90,
+    "year": "1984",
+    "original": "Britain & China complete a proposed agreement to transfer Hong Kong to China by 1997",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 57
+  },
+  {
+    "id": 134,
+    "year": "2022",
+    "original": "Magnitude 7.6 earthquake strikes western Mexico on exact anniversary of two previous temblors in 1985 and 2017, killing at least two people,",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 58
+  },
+  {
+    "id": 135,
+    "year": "2022",
+    "original": "Nigerian authorities says over 300 people have died and 100,000 have been displaced by the worse floods in many years",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 59
+  },
+  {
+    "id": 127,
+    "year": "2019",
+    "original": "Tropical Depression Imelda hits southeast Texas and Louisiana prompting widespread evacuations",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 60
+  },
+  {
+    "id": 123,
+    "year": "2018",
+    "original": "Korean joint summit in Pyongyang agrees to limit North Korea's weapons programme and to South Korea economic cooperation",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 61
+  },
+  {
+    "id": 140,
+    "year": "1356",
+    "original": "English forces underEdward the Black Princedefeat the French at the Battle of Poitiers and capture French King John II during the Hundred Years' War",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 62
+  },
+  {
+    "id": 142,
+    "year": "1796",
+    "original": "George Washington's farewell address as US President is published",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 63
+  },
+  {
+    "id": 9,
+    "year": "1676",
+    "original": "Rebels under Nathaniel Bacon set Jamestown, Virginia, on fire",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 64
+  },
+  {
+    "id": 12,
+    "year": "1777",
+    "original": "Battle of Freeman's Farm (Bemis Heights) or 1st Battle of Saratoga",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 65
+  },
+  {
+    "id": 36,
+    "year": "1912",
+    "original": "The wattle is declared Australia's national flower and incorporated into the Commonwealth Coat of Arms",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 66
+  },
+  {
+    "id": 104,
+    "year": "1992",
+    "original": "Demolition begins of JFK Stadium in Philadelphia, Pennsylvania; built in 1926 as Sesquicentennial Stadium, also known as Municipal Stadium, it hosted the 1926 Tunney-Dempsey fight, 41 Army-Navy football games, The Beatles; The Rolling Stones; victory rallies for The NHL Flyers and MLB Phillies; and the US portion of Live-Aid",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 69
+  },
+  {
+    "id": 89,
+    "year": "1983",
+    "original": "St Kitts & Nevis declares independence from the United Kingdom",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 71
+  },
+  {
+    "id": 100,
+    "year": "1989",
+    "original": "Chase Manhattan Discovery Center at Brooklyn Botanic Garden opens",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 73
+  },
+  {
+    "id": 84,
+    "year": "1981",
+    "original": "Satellites China 10 & 11 launched into Earth orbit by B-1 rocket",
+    "score": 84,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 74
+  }
+]

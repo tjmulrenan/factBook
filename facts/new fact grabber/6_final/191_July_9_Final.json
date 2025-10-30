@@ -1,0 +1,1242 @@
+[
+  {
+    "id": "901",
+    "title": "Nunavut Day: Canada's Newest Territory Celebrates",
+    "story": "Every July 9, Canada's youngest territory throws a huge birthday party! Nunavut Day celebrates when this Arctic territory officially became part of Canada. People gather for traditional Inuit games, feast on local foods like Arctic char, and share stories passed down through generations. It's a day to honor Inuit culture and the beautiful frozen homeland they call home.",
+    "activity_question": "What type of traditional activities do people enjoy on Nunavut Day?",
+    "activity_choices": [
+      "Inuit games and storytelling",
+      "Beach volleyball tournaments",
+      "Hot air balloon rides",
+      "Desert camping trips"
+    ],
+    "activity_answer": "Inuit games and storytelling",
+    "bonus_fact": "Nunavut means \"our land\" in the Inuktitut language!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 45
+  },
+  {
+    "id": "902",
+    "title": "Argentina's Freedom Fiesta",
+    "story": "Every July 9, Argentina throws a massive birthday party for their entire country! Streets fill with blue and white flags as people celebrate Argentina Independence Day with parades, folk dancing, and delicious empanadas. Families gather to watch traditional gaucho performances and sing patriotic songs. The celebration honors the day Argentina declared freedom from Spain, and today millions of Argentinians proudly wave their flag and share mate tea to mark this special national holiday.",
+    "activity_question": "What colors are featured on Argentina's flag during Independence Day celebrations?",
+    "activity_choices": [
+      "Blue and white",
+      "Red and yellow",
+      "Green and orange",
+      "Purple and gold"
+    ],
+    "activity_answer": "Blue and white",
+    "follow_up_question": "What traditions does your family have for celebrating your country's independence?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "158",
+    "title": "Donkey Kong Swings into Arcade History",
+    "story": "Barrels rolled and a plumber jumped as Nintendo unleashed Donkey Kong on July 9, 1981. This groundbreaking arcade game, dreamed up by Shigeru Miyamoto, introduced the world to a barrel-tossing ape and a brave hero who would later become Mario. Players guided the little mustached man up ladders and over obstacles, dodging Donkey Kong's wild throws. The game's success launched Nintendo into video game stardom.",
+    "activity_question": "Who created the game Donkey Kong?",
+    "activity_choices": [
+      "Shigeru Miyamoto",
+      "Mario",
+      "Nintendo",
+      "Donkey Kong"
+    ],
+    "activity_answer": "Shigeru Miyamoto",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Donkey Kong was one of the first games to tell a story through gameplay.",
+    "score": 95,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "114",
+    "title": "Daring Cave Rescue Continues in Thailand",
+    "story": "Cheers erupted as four more boys emerged from a flooded cave in Thailand in 2018. They had been trapped for over two weeks with their soccer coach and teammates. Brave divers guided the boys through dark, twisting tunnels. The world watched anxiously as the rescue team raced against time. On July 9, hope soared as the rescue count reached eight. Everyone prayed for the remaining five still inside.",
+    "activity_question": "How many people were still trapped in the cave after this rescue?",
+    "activity_choices": [
+      "Four boys and their coach",
+      "Eight boys",
+      "Five boys",
+      "The entire soccer team"
+    ],
+    "activity_answer": "Four boys and their coach",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What natural event caused the boys to become trapped in the cave?",
+    "score": 95,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "138",
+    "title": "Groundbreaking Heart Surgery Saves a Life",
+    "story": "A daring doctor made history in 1893. Dr. Daniel Hale Williams faced a patient with a knife wound to the heart. Without modern tools, he bravely opened the chest and repaired the damaged heart covering. This risky operation on July 9 became the first successful open-heart surgery. The patient, James Cornish, survived against the odds. Dr. Williams pioneering work paved the way for future life-saving heart surgeries.",
+    "activity_question": "What did Dr. Williams repair during the surgery?",
+    "activity_choices": [
+      "The damaged heart covering",
+      "A broken rib",
+      "A punctured lung",
+      "A clogged artery"
+    ],
+    "activity_answer": "The damaged heart covering",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Dr. Williams performed this surgery without antibiotics or blood transfusions, which weren't available then.",
+    "score": 92,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "113",
+    "title": "Ancient Pink: Earth's Oldest Color Discovered",
+    "story": "Scientists made a dazzling discovery in 2018 on July 9. They found the world's oldest biological color: bright pink! This ancient hue comes from tiny cyanobacteria trapped in marine shale rock. The rock, from the Taoudeni Basin in Mauritania, is a mind-boggling 1.1 billion years old. Imagine a world where pink ruled long before dinosaurs roamed the Earth!",
+    "activity_question": "What type of organisms produced the oldest biological color?",
+    "activity_choices": [
+      "Cyanobacteria",
+      "Dinosaurs",
+      "Plants",
+      "Jellyfish"
+    ],
+    "activity_answer": "Cyanobacteria",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think scientists study colors from ancient rocks?",
+    "score": 92,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "187",
+    "title": "Voyager 2's Close Encounter with Jupiter",
+    "story": "Zooming through space, Voyager 2 buzzed past the giant planet Jupiter on July 9, 1979. This robotic explorer snapped amazing pictures of swirling storms and colorful clouds. It discovered new moons and even spotted a faint ring around the gas giant. Voyager 2's visit taught us so much about our solar system's biggest planet!",
+    "activity_question": "What did Voyager 2 discover around Jupiter?",
+    "activity_choices": [
+      "A faint ring",
+      "A giant volcano",
+      "An alien spaceship",
+      "A frozen ocean"
+    ],
+    "activity_answer": "A faint ring",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name any of Jupiter's famous moons?",
+    "optional_type": "follow_up_question",
+    "score": 90,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "121",
+    "title": "Death Valley's Scorching Heat Record",
+    "story": "Sizzling! In 2021, Death Valley in California lived up to its name. On July 9, the temperature soared to a blistering 130 degrees Fahrenheit (54.4 Celsius). This extreme heat was one of the highest temperatures ever recorded on Earth. Death Valley is known for its harsh climate, but this day was exceptionally hot. It's a reminder of our planet's incredible weather extremes.",
+    "activity_question": "What was the temperature recorded in Death Valley on July 9, 2021?",
+    "activity_choices": [
+      "130 degrees Fahrenheit",
+      "54.4 degrees Celsius",
+      "100 degrees Fahrenheit",
+      "212 degrees Fahrenheit"
+    ],
+    "activity_answer": "130 degrees Fahrenheit",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think Death Valley gets so hot?",
+    "score": 90,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "181",
+    "title": "Barbie Doll Comes to Life on Screen",
+    "story": "Lights, camera, action! The world's favorite doll stepped off the toy shelf and onto the big screen. On July 9, 2023, the fantasy comedy film 'Barbie' made its grand debut at the Shrine Auditorium in Los Angeles. Starring Margot Robbie as the iconic plastic fashionista and Ryan Gosling as her trusty sidekick Ken, this movie promised to bring Barbie's world to life like never before.",
+    "activity_question": "Who directed the 'Barbie' movie?",
+    "activity_choices": [
+      "Greta Gerwig",
+      "Margot Robbie",
+      "Ryan Gosling",
+      "Barbie herself"
+    ],
+    "activity_answer": "Greta Gerwig",
+    "suitable_for_8_to_12_year_old": false,
+    "bonus_fact": "Barbie dolls have been around since 1959, inspiring generations of kids to dream big.",
+    "optional_type": "bonus_fact",
+    "score": 80,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "395",
+    "title": "A Magical Journey Begins",
+    "story": "A future queen of Narnia took her first breath in Ilkley, England. On July 9, 1995, Georgie Henley was born, destined to enchant audiences worldwide. Years later, she would step through a magical wardrobe and into our hearts as Lucy Pevensie in The Chronicles of Narnia film series. Her journey from a small English town to the big screen captured the imagination of millions.",
+    "activity_question": "Which character did Georgie Henley play in The Chronicles of Narnia films?",
+    "activity_choices": [
+      "Lucy Pevensie",
+      "Susan Pevensie",
+      "The White Witch",
+      "Aslan the Lion"
+    ],
+    "activity_answer": "Lucy Pevensie",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Have you ever read or watched The Chronicles of Narnia? Which is your favorite character?",
+    "score": 85,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "139",
+    "title": "Babe Ruth's Big League Break",
+    "story": "A baseball legend was born when the Boston Red Sox scooped up Babe Ruth in 1914. On July 9, they bought the contract of this young pitcher from the minor league Baltimore Orioles. Little did they know, Ruth would become one of the greatest hitters in baseball history, changing the game forever with his powerful swing and larger-than-life personality.",
+    "activity_question": "Which team purchased Babe Ruth's contract?",
+    "activity_choices": [
+      "Boston Red Sox",
+      "New York Yankees",
+      "Baltimore Orioles",
+      "Chicago Cubs"
+    ],
+    "activity_answer": "Boston Red Sox",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "Babe Ruth started as a pitcher before becoming famous for his home runs.",
+    "optional_type": "bonus_fact",
+    "score": 78,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "145",
+    "title": "Rock 'n' Roll Takes Over the Charts",
+    "story": "Jukebox needles were jumping! Bill Haley & His Comets' catchy tune 'Rock Around the Clock' skyrocketed to the top of the Billboard chart on July 9, 1955. This energetic song became a smash hit, getting feet tapping and hips swinging across America. It wasn't just a passing fad - the single went on to become one of the best-selling records ever, helping launch the rock 'n' roll revolution.",
+    "activity_question": "What song topped the Billboard chart on July 9, 1955?",
+    "activity_choices": [
+      "'Rock Around the Clock'",
+      "'Jailhouse Rock'",
+      "'Twist and Shout'",
+      "'Boogie Woogie Bugle Boy'"
+    ],
+    "activity_answer": "'Rock Around the Clock'",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Who performed 'Rock Around the Clock'?",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "36",
+    "title": "Soaring to New Heights",
+    "story": "Zoom! Walter Brookins took to the skies in a Wright biplane, pushing the limits of flight. On July 9, 1910, he soared over Atlantic City, New Jersey, becoming the first person to fly an airplane to a mile high. But Brookins didn't stop there - he kept climbing until he reached an incredible 6,175 feet! That's more than a mile above the ground. His daring flight showed just how far aviation had come in just a few short years.",
+    "activity_question": "What type of airplane did Walter Brookins fly?",
+    "activity_choices": [
+      "Wright biplane",
+      "Boeing jet",
+      "Hot air balloon",
+      "Flying saucer"
+    ],
+    "activity_answer": "Wright biplane",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it was important to set altitude records in early aviation?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "125",
+    "title": "Europe's New Space Giant Takes Flight",
+    "story": "Whoosh! A massive new rocket roars to life, shaking the ground in French Guiana. It's July 9, 2024, and the Ariane 6 is making its debut. This powerful launcher, built by the European Space Agency, represents a giant leap in space technology. Designed to carry heavy satellites and other payloads into orbit, the Ariane 6 opens up exciting possibilities for future space missions and scientific discoveries.",
+    "activity_question": "Where did the Ariane 6 rocket launch from?",
+    "activity_choices": [
+      "French Guiana",
+      "Cape Canaveral",
+      "Kazakhstan",
+      "The Moon"
+    ],
+    "activity_answer": "French Guiana",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What do you think the Ariane 6 might be used to launch into space?",
+    "score": 90,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "95",
+    "title": "Columbia's Record-Breaking Space Journey",
+    "story": "Whoosh! The Space Shuttle Columbia zoomed back to Earth on July 9, 1992, completing an incredible journey. This wasn't just any mission - it was the longest shuttle flight ever at that time! The brave astronauts spent nearly two weeks orbiting our planet, conducting cool experiments in a special lab. They studied crystals, flames, and even how plants grow in space. Columbia's landing marked the end of an amazing adventure in the stars.",
+    "activity_question": "What kind of experiments did the astronauts conduct on the Columbia mission?",
+    "activity_choices": [
+      "They studied crystals, flames, and plants",
+      "They tested new rocket engines",
+      "They fixed satellites in orbit",
+      "They played zero-gravity sports"
+    ],
+    "activity_answer": "They studied crystals, flames, and plants",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it's important for astronauts to do experiments in space?",
+    "optional_type": "follow_up_question",
+    "score": 95,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "117",
+    "title": "Starbucks Sips Goodbye to Plastic Straws",
+    "story": "Slurp! Starbucks made a big splash in 2018. The coffee giant announced plans to ditch plastic straws by 2020. This July 9 decision aimed to cut over a billion straws used each year. Customers would soon sip their iced drinks through new strawless lids or eco-friendly alternatives. It was a bold move to help our oceans and reduce plastic waste.",
+    "activity_question": "What did Starbucks plan to stop using by 2020?",
+    "activity_choices": [
+      "Plastic straws",
+      "Paper cups",
+      "Plastic lids",
+      "Coffee beans"
+    ],
+    "activity_answer": "Plastic straws",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you think of other ways to reduce plastic use in your daily life?",
+    "score": 70,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "375",
+    "title": "Rock Star Jack White Enters the World",
+    "story": "Guitar strings twanged as Jack White took his first breath in Detroit. Born on July 9, 1975, this future rock star would shake up music. He formed The White Stripes, a band that made simple, powerful songs. Jack's unique style and catchy tunes helped bring rock back to its raw roots.",
+    "activity_question": "What band did Jack White form?",
+    "activity_choices": [
+      "The White Stripes",
+      "The Black Keys",
+      "The Red Hot Chili Peppers",
+      "The Blue Notes"
+    ],
+    "activity_answer": "The White Stripes",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Jack White is known for his love of the number three and the colors red, white, and black.",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "105",
+    "title": "Soccer Showdown: Italy's Penalty Triumph",
+    "story": "Tension filled the air as Italy and France faced off in the FIFA World Cup Final. The match, held in Berlin's Olympiastadion in 2006, was a nail-biter. After a thrilling game that ended 1-1 in extra time, it all came down to penalty kicks. Italy's nerves of steel prevailed as they clinched victory, winning 5-3 in the shootout on July 9. Fans erupted in celebration as Italy claimed soccer's most prestigious trophy.",
+    "activity_question": "Where was the 2006 FIFA World Cup Final held?",
+    "activity_choices": [
+      "Olympiastadion",
+      "Wembley Stadium",
+      "Camp Nou",
+      "Maracanã"
+    ],
+    "activity_answer": "Olympiastadion",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What sport do you think is the most exciting to watch?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "112",
+    "title": "Teen Golf Prodigy Swings into History",
+    "story": "Atthaya Thitikul shocked the golfing world in 2017. At just 14 years old, this Thai amateur golfer won the Ladies European Thailand Championship on July 9. Her incredible victory made her the youngest winner ever in a female professional golf event. Atthaya's skill and determination proved that age is just a number when it comes to talent. Her win inspired young athletes everywhere to dream big and practice hard.",
+    "activity_question": "What championship did Atthaya Thitikul win?",
+    "activity_choices": [
+      "Ladies European Thailand Championship",
+      "Junior Golf World Cup",
+      "Asian Games Golf Tournament",
+      "Thai National Amateur Open"
+    ],
+    "activity_answer": "Ladies European Thailand Championship",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How old was Atthaya when she won this championship?",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "148",
+    "title": "Element 102: A Nobel Discovery",
+    "story": "Scientists at the Nobel Institute of Physics in Stockholm made a groundbreaking announcement on July 9, 1957. They had discovered a brand new element! This tiny addition to the periodic table was given the number 102 and named Nobelium. Can you guess why? It honors Alfred Nobel, the famous inventor who created the Nobel Prizes. Finding new elements is like a treasure hunt for chemists, and Nobelium was a prized gem indeed!",
+    "activity_question": "What was the new element named?",
+    "activity_choices": [
+      "Nobelium",
+      "Stockholmium",
+      "Physicsium",
+      "Alfredium"
+    ],
+    "activity_answer": "Nobelium",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think scientists keep searching for new elements?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "122",
+    "title": "Sizzling Summer: Record Heat Hits America",
+    "story": "Whew, it's hot out there! In 2021, the United States felt the heat like never before. Scientists announced that July 9 of that year fell in the hottest June ever recorded in America. Temperatures soared way above normal, leaving people searching for ways to stay cool. It was so toasty that even the average temperature for the whole month was unusually high.",
+    "activity_question": "What did scientists announce about June 2021?",
+    "activity_choices": [
+      "It was the hottest June ever recorded in America",
+      "It was the coldest June on record",
+      "It had the most rainfall ever",
+      "It had the strongest winds"
+    ],
+    "activity_answer": "It was the hottest June ever recorded in America",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What are some fun ways to stay cool on a hot summer day?",
+    "score": 80,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "143",
+    "title": "Satchel Paige: A Pitching Legend's Late Debut",
+    "story": "Satchel Paige proved it's never too late to chase your dreams. At 42 years old, this legendary pitcher finally stepped onto a Major League mound on July 9, 1948. Playing for Cleveland, Paige amazed fans by throwing two scoreless innings against St. Louis. His debut showed that talent and determination can shine at any age, inspiring players and fans alike.",
+    "activity_question": "How many scoreless innings did Satchel Paige pitch in his Major League debut?",
+    "activity_choices": [
+      "One inning",
+      "Two innings",
+      "Three innings",
+      "Four innings"
+    ],
+    "activity_answer": "Two innings",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think Satchel Paige's debut at 42 was so special?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "205",
+    "title": "The Spark of Electric Innovation",
+    "story": "Zap! A brilliant inventor was born on July 9, 1802. Thomas Davenport came into the world in Williamstown, Vermont. He would grow up to create something that changed the way machines work. Davenport invented the first commercial electric motor, a device that turns electricity into movement. His clever invention helped pave the way for many of the gadgets and appliances we use today.",
+    "activity_question": "What did Thomas Davenport invent?",
+    "activity_choices": [
+      "The first commercial electric motor",
+      "The light bulb",
+      "The telephone",
+      "The steam engine"
+    ],
+    "activity_answer": "The first commercial electric motor",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you think of three things in your home that might use an electric motor?",
+    "score": 80,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "198",
+    "title": "The Cool Inventor Who Changed Our Kitchens",
+    "story": "Imagine a world without refrigerators! Jacob Perkins, born in Newburyport, Massachusetts on July 9, 1766, would change that forever. This clever American inventor became known as the 'father of the refrigerator.' His brilliant ideas helped keep food fresh and cold, making a huge difference in how we store and enjoy our meals today.",
+    "activity_question": "What was Jacob Perkins known as?",
+    "activity_choices": [
+      "The father of the refrigerator",
+      "The king of cool",
+      "The ice cream man",
+      "The kitchen wizard"
+    ],
+    "activity_answer": "The father of the refrigerator",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think life would be different without refrigerators?",
+    "optional_type": "follow_up_question",
+    "score": 82,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "280",
+    "title": "A Mind for Mysteries",
+    "story": "Brilliant brains fascinated Oliver Sacks from the start. Born in London on July 9, 1933, he grew up to become a famous neurologist and author. Sacks wrote amazing books about the human mind, including Awakenings. His work helped people understand brain mysteries in new ways.",
+    "activity_question": "What famous book did Oliver Sacks write?",
+    "activity_choices": [
+      "Awakenings",
+      "Brain Teasers",
+      "London Minds",
+      "Neurology Now"
+    ],
+    "activity_answer": "Awakenings",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What do you think a neurologist studies?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "97",
+    "title": "Space Travelers Return from Mir",
+    "story": "Whoosh! A Russian spacecraft zoomed back to Earth on July 9, 1994. The Soyuz TM-18 had just finished an amazing journey to the Mir space station. Brave astronauts lived and worked in space for months before their successful landing. They studied the stars, did experiments, and even saw beautiful views of our planet from high above!",
+    "activity_question": "What was the name of the Russian spacecraft that landed?",
+    "activity_choices": [
+      "Soyuz TM-18",
+      "Apollo 11",
+      "Mir",
+      "Skylab"
+    ],
+    "activity_answer": "Soyuz TM-18",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What do you think would be the coolest part of living on a space station?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "183",
+    "title": "Freedom's Words Echo in New York",
+    "story": "Soldiers stood at attention as powerful words filled the air. The Declaration of Independence was read aloud to George Washington's troops in New York. It was July 9, 1776, just days after the document's adoption. The revolutionary message of freedom and equality inspired the men who would soon fight for these ideals.",
+    "activity_question": "What important document was read to the troops?",
+    "activity_choices": [
+      "The Declaration of Independence",
+      "The Constitution",
+      "A battle plan",
+      "George Washington's diary"
+    ],
+    "activity_answer": "The Declaration of Independence",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it was important for the soldiers to hear this document?",
+    "score": 78,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "135",
+    "title": "Argentina Breaks Free!",
+    "story": "Freedom rang out across Argentina! In 1816, brave leaders gathered at the Congress of Tucumán. They had a big dream - to break away from Spain's rule. On July 9, they made it happen. With courage and determination, they declared Argentina an independent nation. It was a moment that changed history forever.",
+    "activity_question": "Where did Argentina's leaders gather to declare independence?",
+    "activity_choices": [
+      "Congress of Tucumán",
+      "Plaza de Mayo",
+      "Casa Rosada",
+      "Andes Mountains"
+    ],
+    "activity_answer": "Congress of Tucumán",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think Argentina wanted independence from Spain?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "24",
+    "title": "Sailing into History: Perry's Japan Mission",
+    "story": "Knock, knock! Who's there? It was Commodore Matthew Perry and his four US Navy ships, arriving in Japan in 1853. On July 9, Perry's fleet sailed into Tokyo Bay, determined to open Japan's doors. For centuries, Japan had kept to itself, but Perry's mission aimed to change that. He carried a letter from the US president, hoping to establish trade and friendship between the two nations.",
+    "activity_question": "What was Commodore Perry trying to do in Japan?",
+    "activity_choices": [
+      "Open Japan's doors",
+      "Start a war",
+      "Build a naval base",
+      "Learn to make sushi"
+    ],
+    "activity_answer": "Open Japan's doors",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think Japan had kept to itself for so long before Perry's visit?",
+    "score": 72,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "32",
+    "title": "Sweet Invention: The Donut Cutter",
+    "story": "Craving a perfectly round donut? Thank John Blondel! On July 9, 1872, this clever inventor from Thomaston, Maine, received a patent for his donut cutter. Blondel's creation helped bakers shape those delicious rings of dough we all love. Before this, donuts were often oddly shaped or had to be carefully cut by hand.",
+    "activity_question": "Where was John Blondel from?",
+    "activity_choices": [
+      "Thomaston, Maine",
+      "Boston, Massachusetts",
+      "New York City",
+      "Donutville, USA"
+    ],
+    "activity_answer": "Thomaston, Maine",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Some donuts have holes to help them cook evenly and avoid raw centers.",
+    "score": 65,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "60",
+    "title": "Mega-Wave Climbs a Mountain",
+    "story": "A colossal splash rocked Lituya Bay, Alaska in 1958. On July 9, a massive chunk of rock and ice tumbled into the water. The impact created a gigantic wave that surged up a nearby mountainside. Incredibly, the water climbed nearly a third of a mile high! This mind-boggling event showed the awesome power of nature.",
+    "activity_question": "How high did the giant wave climb up the mountainside?",
+    "activity_choices": [
+      "1,800 feet",
+      "900 feet",
+      "3,600 feet",
+      "500 feet"
+    ],
+    "activity_answer": "1,800 feet",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What caused this enormous wave in Lituya Bay?",
+    "score": 60,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "55",
+    "title": "Nebraska's Wettest Day Ever",
+    "story": "Splash! York, Nebraska, got soaked on July 9, 1950. The sky opened up and poured down an incredible 13.15 inches of rain in just one day. That's more than a foot of water! This massive downpour set a new record for the most rainfall in 24 hours anywhere in Nebraska. Imagine stepping outside to find puddles deep enough to swim in!",
+    "activity_question": "How much rain fell in York, Nebraska, on this record-breaking day?",
+    "activity_choices": [
+      "13.15 inches",
+      "24 inches",
+      "33.40 inches",
+      "1950 inches"
+    ],
+    "activity_answer": "13.15 inches",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How might this much rain in one day affect a town?",
+    "score": 70,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "67",
+    "title": "Mississippi's Massive Rainfall Record",
+    "story": "Splash! Columbus, Mississippi, got soaked in 1968. On July 9, the city experienced its wettest day ever. Nearly 16 inches of rain poured down in just 24 hours! That's like filling a kiddie pool with rainwater. This incredible downpour set a new state record for the most rainfall in a single day.",
+    "activity_question": "How much rain fell in Columbus, Mississippi?",
+    "activity_choices": [
+      "Nearly 16 inches",
+      "About 10 inches",
+      "Less than 5 inches",
+      "Over 20 inches"
+    ],
+    "activity_answer": "Nearly 16 inches",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "That's enough rain to fill thousands of bathtubs!",
+    "optional_type": "bonus_fact",
+    "score": 70,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "172",
+    "title": "Hockey Legend Hangs Up His Skates",
+    "story": "Hockey fans' hearts skipped a beat on July 9, 2009. Joe Sakic, the incredible captain of the Colorado Avalanche, announced his retirement. After 21 thrilling seasons, Sakic had scored a whopping 625 goals and racked up 1,641 points. His entire career was with one franchise, starting as the Quebec Nordiques before they became the Avalanche.",
+    "activity_question": "How many goals did Joe Sakic score in his career?",
+    "activity_choices": [
+      "625",
+      "1,641",
+      "21",
+      "2009"
+    ],
+    "activity_answer": "625",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Sakic's jersey number, 19, was retired by the Avalanche to honor his legendary career.",
+    "score": 70,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "98",
+    "title": "Sonia's Swift Stride to Victory",
+    "story": "Feet pounding, heart racing, Sonia O'Sullivan flew across the track. The Irish runner was on a mission to make history. On July 9, 1994, she did just that. O'Sullivan smashed the world record for the 2000-meter race. Her incredible time? A blazing fast 5 minutes and 25.36 seconds. This feat showcased her amazing speed and endurance, inspiring runners worldwide.",
+    "activity_question": "What distance did Sonia O'Sullivan set a world record for?",
+    "activity_choices": [
+      "2000 meters",
+      "1500 meters",
+      "5000 meters",
+      "Marathon"
+    ],
+    "activity_answer": "2000 meters",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What country is Sonia O'Sullivan from?",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "83",
+    "title": "Cricket Hero's Epic Innings",
+    "story": "Bam! The cricket ball soared over the boundary. Ian Botham was on fire, smashing an incredible 208 runs for England against India. It happened on July 9, 1982, at The Oval in London. Botham faced just 225 balls, scoring at lightning speed. His powerful batting dazzled the crowd and helped England dominate the match. This unforgettable performance cemented Botham's status as one of cricket's greatest all-rounders.",
+    "activity_question": "How many runs did Ian Botham score in this famous innings?",
+    "activity_choices": [
+      "208",
+      "225",
+      "1982",
+      "100"
+    ],
+    "activity_answer": "208",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What sport was Ian Botham playing?",
+    "score": 88,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "92",
+    "title": "Baseball Milestones: Speier's Cycle and Giants' Homer",
+    "story": "Bats were on fire in 1988! On July 9, Chris Speier achieved a rare baseball feat called 'hitting for the cycle.' He smacked a single, double, triple, and home run all in one game. But the excitement didn't stop there. In the same match, Ernest Riles blasted the 10,000th home run in Giants team history. It was a day of double diamond delight for fans!",
+    "activity_question": "What rare baseball feat did Chris Speier achieve?",
+    "activity_choices": [
+      "Hitting for the cycle",
+      "Pitching a no-hitter",
+      "Stealing home base",
+      "Catching a foul ball"
+    ],
+    "activity_answer": "Hitting for the cycle",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name the four types of hits needed for a cycle?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "150",
+    "title": "Basketball Giant Switches Teams",
+    "story": "Slam dunk! Basketball superstar Wilt Chamberlain made history in 1968. The reigning NBA Most Valuable Player shocked fans when he switched from the Philadelphia 76ers to the Los Angeles Lakers on July 9. It was the first time a current MVP had been traded to a new team for the next season.",
+    "activity_question": "Which team did Wilt Chamberlain join in 1968?",
+    "activity_choices": [
+      "Los Angeles Lakers",
+      "Philadelphia 76ers",
+      "Chicago Bulls",
+      "Boston Celtics"
+    ],
+    "activity_answer": "Los Angeles Lakers",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think a team would trade their best player?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "185",
+    "title": "Wimbledon Serves Up Tennis History",
+    "story": "Rackets at the ready! The first-ever Wimbledon tennis championship bounced into action on July 9, 1877. This groundbreaking tournament featured only men's singles matches on lush green lawns. It marked the birth of official lawn tennis competitions, setting the stage for one of the world's most prestigious sporting events. Players donned long trousers and used wooden rackets, quite different from today's high-tech gear!",
+    "activity_question": "What type of tennis was played at the first Wimbledon championship?",
+    "activity_choices": [
+      "Lawn tennis",
+      "Table tennis",
+      "Beach tennis",
+      "Indoor tennis"
+    ],
+    "activity_answer": "Lawn tennis",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Wimbledon is the oldest tennis tournament in the world and is still played on grass courts.",
+    "score": 65,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "106",
+    "title": "A New Nation Is Born",
+    "story": "Cheers erupted as South Sudan declared its independence in 2011. After years of struggle, this African region officially became the world's newest country on July 9. Colorful celebrations filled the streets as people waved flags and sang songs. It was a moment of hope and pride for South Sudanese citizens.",
+    "activity_question": "What did South Sudan become on July 9, 2011?",
+    "activity_choices": [
+      "The world's newest country",
+      "A part of Sudan",
+      "An independent city",
+      "A giant party"
+    ],
+    "activity_answer": "The world's newest country",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name any other countries that have gained independence in recent years?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "94",
+    "title": "South Africa's Olympic Comeback",
+    "story": "Cheers erupted as South Africa received exciting news: they were back in the Olympic family! After being excluded for decades, the country was re-admitted to the Olympics in 1991. On July 9, the International Olympic Committee welcomed South Africa's return, allowing their athletes to once again compete on the world stage. This decision marked a new chapter in South African sports history, opening doors for future champions to chase their Olympic dreams.",
+    "activity_question": "What happened to South Africa in 1991?",
+    "activity_choices": [
+      "They were re-admitted to the Olympics",
+      "They won their first gold medal",
+      "They hosted the Olympic Games",
+      "They invented a new Olympic sport"
+    ],
+    "activity_answer": "They were re-admitted to the Olympics",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think being part of the Olympics is important for a country?",
+    "optional_type": "follow_up_question",
+    "score": 94,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "86",
+    "title": "Lightning Strikes York Minster",
+    "story": "Boom! A massive lightning bolt lit up the night sky on July 9, 1984. Its target? The ancient York Minster in England. This grand cathedral, over 800 years old, suffered damage when the lightning ignited a fire in its south transept. Brave firefighters rushed to save the historic building. Their quick action prevented widespread destruction, preserving much of the minster's beauty for future visitors.",
+    "activity_question": "What part of York Minster was damaged by the lightning strike?",
+    "activity_choices": [
+      "The south transept",
+      "The north tower",
+      "The main entrance",
+      "The stained glass windows"
+    ],
+    "activity_answer": "The south transept",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it's important to protect historic buildings like York Minster?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "56",
+    "title": "Helicopters Take Flight in the Big Apple",
+    "story": "Whirling blades sliced through the air as New York City's first helicopter passenger service took off in 1953. On July 9, daring travelers could soar above traffic jams and skyscrapers, seeing the bustling metropolis from a whole new angle. This high-flying adventure marked the beginning of a new era in urban transportation.",
+    "activity_question": "What type of transportation service started in New York City?",
+    "activity_choices": [
+      "Helicopter passenger service",
+      "Subway system",
+      "Hot air balloon rides",
+      "Flying taxi cabs"
+    ],
+    "activity_answer": "Helicopter passenger service",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think helicopter rides changed how people saw the city?",
+    "score": 65,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "39",
+    "title": "Sneaky Submarine's Secret Voyage",
+    "story": "A German submarine slipped silently across the Atlantic, carrying a secret cargo. On July 9, 1916, it surfaced in Baltimore, surprising everyone. This wasn't a warship, but the world's first cargo submarine! Named Deutschland, it had crossed the ocean undetected, bringing valuable goods despite a British naval blockade.",
+    "activity_question": "What was special about the submarine that arrived in the US?",
+    "activity_choices": [
+      "It was the first cargo submarine",
+      "It was the fastest submarine",
+      "It was painted bright colors",
+      "It was made of rubber"
+    ],
+    "activity_answer": "It was the first cargo submarine",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The submarine's name, Deutschland, means 'Germany' in the German language.",
+    "score": 72,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "34",
+    "title": "Australia Becomes a Nation",
+    "story": "Cheers erupted across the land down under! The British House of Commons officially established the Commonwealth of Australia in 1900. This historic decision on July 9 united six separate colonies into one nation. Australians celebrated their newfound identity, ready to forge their own path while maintaining ties with Britain.",
+    "activity_question": "What did the British House of Commons establish?",
+    "activity_choices": [
+      "The Commonwealth of Australia",
+      "The Republic of New Zealand",
+      "The United States of Oceania",
+      "The Kingdom of Tasmania"
+    ],
+    "activity_answer": "The Commonwealth of Australia",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name any of the six colonies that united to form Australia?",
+    "score": 55,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "142",
+    "title": "A Royal Love Story Begins",
+    "story": "Love was in the air for Britain's Princess Elizabeth in 1947. On July 9, she announced her engagement to Lieutenant Philip Mountbatten. The future queen, just 21 years old, was set to marry her dashing prince. Their romance captured hearts across the nation, sparking excitement for the upcoming royal wedding.",
+    "activity_question": "Who did Princess Elizabeth announce her engagement to?",
+    "activity_choices": [
+      "Lieutenant Philip Mountbatten",
+      "Prince Charles",
+      "King George VI",
+      "Duke of Edinburgh"
+    ],
+    "activity_answer": "Lieutenant Philip Mountbatten",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How old was Princess Elizabeth when she got engaged?",
+    "score": 70,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "58",
+    "title": "Breaking Barriers at the White House",
+    "story": "History was made when E. Frederic Morrow stepped into his new role at the White House. On July 9, 1955, he became the first African American to serve as an executive on the US White House staff. Morrow's appointment marked a significant milestone in the ongoing struggle for civil rights and equal representation in American government.",
+    "activity_question": "Who was the first African American executive on US White House staff?",
+    "activity_choices": [
+      "E. Frederic Morrow",
+      "Martin Luther King Jr.",
+      "Barack Obama",
+      "Thurgood Marshall"
+    ],
+    "activity_answer": "E. Frederic Morrow",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it took until 1955 for an African American to hold this position?",
+    "optional_type": "follow_up_question",
+    "score": 60,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "130",
+    "title": "A Daring Sea Battle for Scotland's Future",
+    "story": "Cannons roared as French ships clashed with a British warship in 1745. The Du Teillay and Elizabeth carried a secret passenger: Bonnie Prince Charlie. He hoped to claim the Scottish throne. Despite fierce fighting that left many wounded, the French vessels managed to slip away on July 9. Charlie's adventure was just beginning!",
+    "activity_question": "Who was the secret passenger on the French ships?",
+    "activity_choices": [
+      "Bonnie Prince Charlie",
+      "The French captain",
+      "A British spy",
+      "The Scottish king"
+    ],
+    "activity_answer": "Bonnie Prince Charlie",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think Bonnie Prince Charlie wanted to go to Scotland?",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "131",
+    "title": "Swedish King's Naval Triumph",
+    "story": "King Gustav III led Swedish ships to a stunning victory on July 9, 1790. In the Second Battle of Svensksund, his fleet outmaneuvered the Russian Baltic forces. The Swedes destroyed or captured one-third of the Russian ships, dealing a decisive blow. This triumph ended the Russo-Swedish War, showcasing the power of clever naval tactics.",
+    "activity_question": "What did the Swedish fleet do to one-third of the Russian ships?",
+    "activity_choices": [
+      "Destroyed or captured",
+      "Painted blue and yellow",
+      "Invited for tea",
+      "Sent back home"
+    ],
+    "activity_answer": "Destroyed or captured",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think naval battles were important in wars long ago?",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "5",
+    "title": "A Bridge Fit for an Emperor",
+    "story": "Imagine a bridge so special an emperor helped build it! In 1357, Charles IV, the Holy Roman Emperor, rolled up his sleeves on July 9. He joined workers to lay the first stone of a magnificent new bridge in Prague. This wasn't just any bridge - it would become the famous Charles Bridge, named after the emperor himself!",
+    "activity_question": "Who helped lay the first stone of the bridge in Prague?",
+    "activity_choices": [
+      "Charles IV",
+      "A group of monks",
+      "The mayor of Prague",
+      "A team of horses"
+    ],
+    "activity_answer": "Charles IV",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Charles Bridge still stands today and is one of Prague's most popular landmarks!",
+    "score": 72,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "A Mighty Maya Ruler Takes the Throne",
+    "story": "A powerful leader known as 18 Rabbit rose to power in 695. He became the king of Copán, a great Maya city. His Maya name was Yax K'uk Mo', which means 'First Quetzal Macaw'. 18 Rabbit ruled Copán for many years, guiding his people through an age of building and art. On July 9, he began his long reign that would shape Maya history.",
+    "activity_question": "What was 18 Rabbit's Maya name?",
+    "activity_choices": [
+      "Yax K'uk Mo'",
+      "First Quetzal Macaw",
+      "King of Copán",
+      "Mighty Ruler"
+    ],
+    "activity_answer": "Yax K'uk Mo'",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The Maya used a special counting system based on 20, not 10 like we use today.",
+    "score": 70,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "107",
+    "title": "Reds Triumph in Super Rugby Showdown",
+    "story": "Rugby fans roared with excitement as the Queensland Reds clinched their first-ever Super Rugby title on July 9, 2011. In a nail-biting match at Suncorp Stadium in Brisbane, the home team faced off against the Canterbury Crusaders. The Reds emerged victorious with a thrilling 18-13 win, sending the crowd into a frenzy of celebration.",
+    "activity_question": "Where did the Queensland Reds win their first Super Rugby title?",
+    "activity_choices": [
+      "Suncorp Stadium",
+      "Canterbury Stadium",
+      "Sydney Opera House",
+      "Melbourne Cricket Ground"
+    ],
+    "activity_answer": "Suncorp Stadium",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What sport is Super Rugby?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "64",
+    "title": "Cricket Hero's Epic Innings",
+    "story": "Bam! The ball soared over the boundary for another six. In 1965, English cricketer John Edrich played an unforgettable innings on July 9. He batted for 532 minutes, smashing 52 fours and 5 sixes against New Zealand. Edrich finished with an incredible 310 runs and wasn't even out! His marathon performance helped England win the Test match.",
+    "activity_question": "How many sixes did John Edrich hit during his epic innings?",
+    "activity_choices": [
+      "5",
+      "52",
+      "310",
+      "532"
+    ],
+    "activity_answer": "5",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What sport is a Test match played in?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "167",
+    "title": "The Grateful Dead's Surprise Farewell",
+    "story": "Fans had no idea they were witnessing history. On July 9, 1995, The Grateful Dead took the stage at Soldier Field in Chicago. Lead guitarist Jerry Garcia strummed his final notes with the legendary band. It was their last show together, though no one knew it then. Garcia passed away a month later, marking the end of an era in rock music.",
+    "activity_question": "Where did The Grateful Dead play their final concert with Jerry Garcia?",
+    "activity_choices": [
+      "Soldier Field",
+      "Wrigley Field",
+      "United Center",
+      "Grant Park"
+    ],
+    "activity_answer": "Soldier Field",
+    "suitable_for_8_to_12_year_old": false,
+    "bonus_fact": "The Grateful Dead formed in 1965 and became known for their unique live performances.",
+    "optional_type": "bonus_fact",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "82",
+    "title": "The Jacksons Rock the Nation",
+    "story": "Fans screamed with excitement as the Jacksons kicked off their massive tour on July 9, 1981. Michael Jackson and his brothers hit the stage, ready to dazzle audiences across the country. Their electrifying performances would light up arenas in many cities, spreading joy and music to thrilled crowds everywhere. It was a summer of unforgettable concerts and chart-topping hits.",
+    "activity_question": "What did the Jacksons begin on July 9, 1981?",
+    "activity_choices": [
+      "Their massive tour",
+      "A new album recording",
+      "A television show",
+      "A dance competition"
+    ],
+    "activity_answer": "Their massive tour",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "Michael Jackson's moonwalk became one of the most famous dance moves in history.",
+    "optional_type": "bonus_fact",
+    "score": 82,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "153",
+    "title": "Wings Take Flight in France",
+    "story": "Rock and roll soared to new heights as Paul McCartney's band Wings embarked on their first French tour in 1972. On July 9, the former Beatle and his musical crew touched down, ready to dazzle audiences with their fresh sound. Fans across the country eagerly awaited the chance to see this legendary musician in a whole new light.",
+    "activity_question": "What country did Wings tour for the first time?",
+    "activity_choices": [
+      "France",
+      "England",
+      "Germany",
+      "Italy"
+    ],
+    "activity_answer": "France",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another famous member of The Beatles besides Paul McCartney?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "163",
+    "title": "Opera Star Takes on Carmen",
+    "story": "Powerful voices filled the recording studio as Jessye Norman began singing the role of Carmen. The famous opera singer started this exciting project in 1988 on July 9. Norman's rich voice brought new life to the classic story of love and jealousy in Spain.",
+    "activity_question": "What role did Jessye Norman begin recording?",
+    "activity_choices": [
+      "Carmen",
+      "Madame Butterfly",
+      "The Magic Flute",
+      "The Barber of Seville"
+    ],
+    "activity_answer": "Carmen",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Do you know what country Carmen is set in?",
+    "optional_type": "follow_up_question",
+    "score": 60,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "364",
+    "title": "Musical Youth's Guitar Star is Born",
+    "story": "Kelvin Grant strummed his way into the world on July 9, 1971, in Birmingham, England. This future guitar hero would help create the catchy reggae-rock sound of Musical Youth. Their hit song 'Pass the Dutchie' had people grooving and singing along. Grant's guitar skills added a special spark to the band's unique blend of music.",
+    "activity_question": "What was the name of Musical Youth's hit song?",
+    "activity_choices": [
+      "Pass the Dutchie",
+      "Strum the Guitar",
+      "Birmingham Beat",
+      "Reggae Rocks"
+    ],
+    "activity_answer": "Pass the Dutchie",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What style of music did Musical Youth play?",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "391",
+    "title": "A Cheetah Girl's Musical Journey Begins",
+    "story": "Kiely Williams roared onto the scene on July 9, 1986. Born in Alexandria, Virginia, she would grow up to become a fierce talent in music and acting. Williams later found fame as Aqua, a member of the popular girl group The Cheetah Girls. Her journey from Virginia to stardom inspired many young fans to chase their dreams.",
+    "activity_question": "What character did Kiely Williams play in The Cheetah Girls?",
+    "activity_choices": [
+      "Aqua",
+      "Cheetah",
+      "Spots",
+      "Whiskers"
+    ],
+    "activity_answer": "Aqua",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name another famous girl group from the 2000s?",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "393",
+    "title": "Hannah Montana Star's Birthday Surprise",
+    "story": "Lights, camera, action! Mitchel Musso burst onto the scene in Garland, Texas. Born on July 9, 1991, he'd grow up to become a familiar face on TV. Musso charmed audiences as Oliver in the hit show Hannah Montana, making kids laugh alongside Miley Cyrus. He also ruled in Pair of Kings, proving he was no one-hit wonder!",
+    "activity_question": "Which TV show did Mitchel Musso star in alongside Miley Cyrus?",
+    "activity_choices": [
+      "Hannah Montana",
+      "Pair of Kings",
+      "Texas Talent",
+      "Birthday Bonanza"
+    ],
+    "activity_answer": "Hannah Montana",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name another TV show Mitchel Musso starred in?",
+    "score": 65,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "356",
+    "title": "A Voice Star Is Born",
+    "story": "Lights, camera, action! Pamela Adlon burst onto the scene in 1966, born on July 9 in New York City. This talented performer would grow up to become a voice acting sensation, bringing cartoon characters to life. Her most famous role? The mischievous Bobby Hill on the hit show King of the Hill, which earned her an Emmy Award.",
+    "activity_question": "What famous cartoon character did Pamela Adlon voice?",
+    "activity_choices": [
+      "Bobby Hill",
+      "Bart Simpson",
+      "SpongeBob SquarePants",
+      "Dora the Explorer"
+    ],
+    "activity_answer": "Bobby Hill",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Have you ever tried doing different voices for fun?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "396",
+    "title": "Swimming Star Makes a Splash",
+    "story": "Tatjana Smith splashed into the world on July 9, 1997, in Johannesburg, South Africa. This future swimming sensation would go on to make waves in the pool. Tatjana, whose maiden name was Schoenmaker, became an Olympic champion in breaststroke. She struck gold in the 200-meter event at the 2020 Olympics and later won the 100-meter race in 2024, proving herself a true aquatic powerhouse.",
+    "activity_question": "In which swimming stroke did Tatjana Smith become an Olympic champion?",
+    "activity_choices": [
+      "Breaststroke",
+      "Freestyle",
+      "Butterfly",
+      "Backstroke"
+    ],
+    "activity_answer": "Breaststroke",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name the city where Tatjana Smith was born?",
+    "optional_type": "follow_up_question",
+    "score": 90,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  }
+]

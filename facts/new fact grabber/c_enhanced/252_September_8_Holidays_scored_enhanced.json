@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Reading Around the World Day",
+    "story": "Books take center stage on September 8 when the whole world celebrates International Literacy Day! Schools organize reading marathons where kids read their favorite stories out loud. Libraries host special storytimes and give away free books to anyone who visits. Teachers dress up as famous book characters, and students create colorful posters about why reading matters. Many countries use this day to remind everyone that reading opens doors to amazing adventures and helps people learn new things throughout their lives.",
+    "activity_question": "What do libraries often give away on International Literacy Day?",
+    "activity_choices": [
+      "Free books",
+      "Reading glasses",
+      "Bookmarks only",
+      "Library cards"
+    ],
+    "activity_answer": "Free books",
+    "follow_up_question": "What's the most exciting book you've ever read?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "902",
+    "title": "Going Nuts for Date Nut Bread Day",
+    "story": "Bakers across America fire up their ovens on September 8 for National Date Nut Bread Day! This sweet, dense bread combines chewy dates with crunchy walnuts or pecans. People share homemade loaves with neighbors, post photos of their baking adventures online, and hunt for the perfect recipe. Some families make it a tradition to bake together, while bakeries offer special deals on this nutty-fruity treat.",
+    "activity_question": "What two main ingredients make date nut bread special?",
+    "activity_choices": [
+      "Dates and nuts",
+      "Raisins and chocolate chips",
+      "Bananas and walnuts",
+      "Apples and almonds"
+    ],
+    "activity_answer": "Dates and nuts",
+    "bonus_fact": "Date nut bread stays fresh longer than regular bread because dates are natural preservatives!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  }
+]

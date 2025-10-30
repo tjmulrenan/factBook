@@ -1,0 +1,542 @@
+[
+  {
+    "id": 122,
+    "year": "2021",
+    "original": "A herd of 14 elephants returns home from a 500 km (300 mile) trek across China, leading authorities to evacuate 150,000 people out of their path",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 1
+  },
+  {
+    "id": 151,
+    "year": "1936",
+    "original": "Jesse Owensis part of the American 4 x 100 m relay team that wins gold in a world record time of 39.8 seconds at the Berlin Olympics; his fourth gold medal of the Games",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 2
+  },
+  {
+    "id": 167,
+    "year": "2012",
+    "original": "Jamaican sprint superstarUsain Boltwins the 200m at the London Olympics in 19.32 seconds, becoming the first to win the 100m and 200m double in consecutive Olympics",
+    "score": 98,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 3
+  },
+  {
+    "id": 46,
+    "year": "1944",
+    "original": "Smokey Bear debuts as the US Forest Service spokesperson for fire prevention; named after NYC firefighter Smokey Joe Martin",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 4
+  },
+  {
+    "id": 170,
+    "year": "2016",
+    "original": "American swimmerMichael Phelpsswims 1:53.36 to win the men's 200 m butterfly gold medal at the Rio de Janeiro Olympics, beating Japan's Masato Sakai by 0.04 seconds for his 20th Olympic gold medal",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 5
+  },
+  {
+    "id": 91,
+    "year": "1988",
+    "original": "Just one day after 8/8/88, the number 888 pops up as the winning lottery combination in New York",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 6
+  },
+  {
+    "id": 3,
+    "year": "1173",
+    "original": "Construction of the Tower of Pisa begins, and it takes two centuries to complete",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 7
+  },
+  {
+    "id": 161,
+    "year": "1988",
+    "original": "Edmonton Oilers tradeWayne Gretzkyto LA Kings for $15-$20 million",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 8
+  },
+  {
+    "id": 124,
+    "year": "2021",
+    "original": "Landmark UN IPCC climate report is a \"Code Red for humanity\", rise of 1.5°C now certain; catastrophic change can still be avoided if the world acts quickly",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 9
+  },
+  {
+    "id": 169,
+    "year": "2016",
+    "original": "American swimmerKatie Ledeckywins her second gold medal of the Rio de Janeiro Olympics in the women's 200 m freestyle with a time of 1:53.73, ahead of Sarah Sjöström of Sweden and AustralianEmma McKeon",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 10
+  },
+  {
+    "id": 347,
+    "year": "1968",
+    "original": "Peter Docter, American animator, and film director (Monsters, Inc; Up; Soul), born in Bloomington, Minnesota",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 11
+  },
+  {
+    "id": 160,
+    "year": "1985",
+    "original": "Adventure comedy film \"Pee-wee's Big Adventure,\" starringPaul Reubens, is released",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 12
+  },
+  {
+    "id": 158,
+    "year": "1971",
+    "original": "Satchel Paigeis inducted into the Baseball Hall of Fame",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 13
+  },
+  {
+    "id": 12,
+    "year": "1790",
+    "original": "Robert Gray's Columbia Rediviva returns to Boston after a 3-year journey as the first American ship to circumnavigate the globe",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 14
+  },
+  {
+    "id": 21,
+    "year": "1859",
+    "original": "Otis Tufts patents the first passenger elevator in the US",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 15
+  },
+  {
+    "id": 131,
+    "year": "2025",
+    "original": "Jen Pawol (43) becomes first female to umpire an MLB baseball game when she joins the crew at Truist Park as Atlanta Braves host doubleheader against Miami Marlins",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 16
+  },
+  {
+    "id": 111,
+    "year": "2016",
+    "original": "Hungary's Katinka Hosszú swims an Olympic record of 2:06.58 in the women's 200 m individual medley, winning her third gold medal of the Rio de Janeiro Olympics",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 25
+  },
+  {
+    "id": 105,
+    "year": "2008",
+    "original": "US wins all three medals in women's fencing sabre event at the Beijing Olympics, the first US podium sweep of a fencing event since 1904; Mariel Zagunis wins gold ahead of Sada Jacobson and Rebecca Ward",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 19
+  },
+  {
+    "id": 40,
+    "year": "1936",
+    "original": "Helen Stephens claims the women's sprint double at the Berlin Olympics, winning the 100 m and participating as part of the victorious American 4 x 100 m relay team",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 21
+  },
+  {
+    "id": 100,
+    "year": "1995",
+    "original": "South Africa celebrates the first National Women's Day",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 22
+  },
+  {
+    "id": 96,
+    "year": "1992",
+    "original": "Future six-weight boxing world champion Oscar De La Hoya of the US defeats German Marco Rudolph on points to win the lightweight gold medal at the Barcelona Olympics",
+    "score": 96,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 24
+  },
+  {
+    "id": 95,
+    "year": "1992",
+    "original": "Cuban boxer Félix Savón wins the first of three consecutive Olympic heavyweight gold medals when he dominates Nigerian David Izonritei on points at the Barcelona Games",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 27
+  },
+  {
+    "id": 126,
+    "year": "2023",
+    "original": "MLB Phillies pitcher Michael Lorenzen throws a no-hitter in his first career complete game, a 7-0 win over the Washington Nationals, and outfielder Weston Wilson makes his MLB debut, hitting a home run in his first at-bat at Citizens Bank Park in Philadelphia",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 28
+  },
+  {
+    "id": 92,
+    "year": "1990",
+    "original": "Russian spacecraft Soyuz TM-10 launches",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 33
+  },
+  {
+    "id": 77,
+    "year": "1976",
+    "original": "USSR launches Luna 24, the last lunar flight to date from Earth",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 35
+  },
+  {
+    "id": 36,
+    "year": "1930",
+    "original": "113°F (45°C) recorded in Perryville, Tennessee (state record)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 36
+  },
+  {
+    "id": 41,
+    "year": "1936",
+    "original": "Hungarian swimmer Ferenc Csik wins the 100 m freestyle gold medal in 57.6 seconds at the Berlin Olympics, beating Japanese pair Masanori Yusa and Shigeo Arai",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 40
+  },
+  {
+    "id": 80,
+    "year": "1977",
+    "original": "NHL refuses the merger of six World Hockey Association clubs",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 41
+  },
+  {
+    "id": 156,
+    "year": "1964",
+    "original": "MLB Philadelphia Phillies pitcherJim Bunningcontinues perfectly against the New York Mets until two outs in the 5th inning in the first match-up since throwing a perfect game in June when Joe Christopher beats out a bunt; Bunning masters the Mets for 15 innings over the two games",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 45
+  },
+  {
+    "id": 142,
+    "year": "1854",
+    "original": "American transcendentalistHenry David Thoreaupublishes \"Walden\"",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 46
+  },
+  {
+    "id": 263,
+    "year": "1925",
+    "original": "David A. Huffman, American computer scientist, creator of Huffman coding, born in Ohio (d. 1999)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 47
+  },
+  {
+    "id": 280,
+    "year": "1934",
+    "original": "Yves Coppens, French anthropologist (co-discovered 'Lucy' skeleton), born in Vannes, France (d. 2022)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 48
+  },
+  {
+    "id": 360,
+    "year": "1972",
+    "original": "Juanes [Juan Esteban Aristizábal], Colombian singer and songwriter, winner of 24 Latin Grammy Awards, born in Carolina del Príncipe, Antioquia, Colombia",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 49
+  },
+  {
+    "id": 228,
+    "year": "1896",
+    "original": "Jean Piaget, Swiss pioneer developmental psychologist and zoologist, born in Neuchâtel, Switzerland (d. 1980)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 50
+  },
+  {
+    "id": 278,
+    "year": "1933",
+    "original": "Tetsuko Kuroyanagi, Japanese television personality and children's author, born in Nogisaka, Tokyo",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 51
+  },
+  {
+    "id": 333,
+    "year": "1962",
+    "original": "Yinka Shonibare, British Nigerian artist (Nelson's Ship in a Bottle), born in London, England",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 52
+  },
+  {
+    "id": 248,
+    "year": "1913",
+    "original": "Harry Mills, American baritone jazz and pop singer and vocal trumpet (The Mills Brothers - \"Paper Doll\", \"Up A Lazy River\", \"The Glow-Worm\"), born in Piqua, Ohio (d. 1982)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 53
+  },
+  {
+    "id": 201,
+    "year": "1819",
+    "original": "William T. G. Morton, American dentist who first used ether as a surgical anaesthetic (HOF 1920), born in Charlton, Massachusetts (d. 1868)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 54
+  },
+  {
+    "id": 15,
+    "year": "1831",
+    "original": "First US steam engine train runs from Albany to Schenectady, NY",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 55
+  },
+  {
+    "id": 72,
+    "year": "1973",
+    "original": "USSR launches Mars 7",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 56
+  },
+  {
+    "id": 137,
+    "year": "1778",
+    "original": "CaptainJames Cookreaches Cape Prince of Wales, Bering Strait",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 57
+  },
+  {
+    "id": 200,
+    "year": "1819",
+    "original": "Jonathan Homer Lane, American astrophysicist who mathematically analyzed the Sun as a gaseous body, born in Geneseo, New York (d. 1880)",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 58
+  },
+  {
+    "id": 292,
+    "year": "1939",
+    "original": "Max Neuhaus, American classical musician and experimental percussionist (sound sculptures), born in Beaumont, Texas (d. 2009)",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 59
+  },
+  {
+    "id": 48,
+    "year": "1944",
+    "original": "WWII: Port Chicago Mutiny - mass work stoppage by munition loaders at Port Chicago Naval facility concerned with conditions after a recent explosion in Port Chicago, California; 258 men are convicted of various insubordination charges, including 50 who are tried for mutiny, found guilty, and sentenced to 15 years of hard labor; exonerated in 2024",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 60
+  },
+  {
+    "id": 37,
+    "year": "1930",
+    "original": "Animated character Betty Boop debuts in Max Fleischer's cartoon \"Dizzy Dishes\"",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 61
+  },
+  {
+    "id": 13,
+    "year": "1803",
+    "original": "First horses arrive in Hawaii",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 62
+  },
+  {
+    "id": 51,
+    "year": "1948",
+    "original": "Italian rider Mario Ghella beats Reg Harris of Great Britain for the gold medal in the cycling sprint final at the London Olympics",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 64
+  },
+  {
+    "id": 86,
+    "year": "1984",
+    "original": "STS 41-D vehicle moves out to the launch pad",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 65
+  },
+  {
+    "id": 88,
+    "year": "1987",
+    "original": "LA Rams beat Dallas Cowboys 28-27 in London (NFL expo)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 66
+  },
+  {
+    "id": 121,
+    "year": "2020",
+    "original": "New Zealand reaches 100 days without community transmission of COVID-19",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 67
+  },
+  {
+    "id": 145,
+    "year": "1898",
+    "original": "Rudolf Dieselof Germany obtains patent #608,845 for his internal combustion engine, later known as the diesel engine",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 68
+  },
+  {
+    "id": 177,
+    "year": "2017",
+    "original": "A giant inflatable chicken resembling US PresidentDonald Trumpis placed outside the US White House as a political protest; Trump is out of town at the time [Note: photo shows return visit to National Mall in October of 2018]",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 69
+  },
+  {
+    "id": 192,
+    "year": "1757",
+    "original": "Thomas Telford, Scottish civil engineer (designed and constructed Menai Bridge, Wales in 1819-26), born in Eskdale, Dumfriesshire, Scotland (d. 1834)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 70
+  },
+  {
+    "id": 206,
+    "year": "1845",
+    "original": "Brother André [Alfred Bessette], Canadian Roman Catholic lay brother and saint (St Joseph’s Oratory, Montreal), born in Mont-Saint-Grégoire, Quebec, Canada (d. 1937)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 71
+  },
+  {
+    "id": 269,
+    "year": "1927",
+    "original": "Daniel Keyes, American author (Flowers for Algernon), born in Boca Raton, Florida (d. 2014)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 72
+  },
+  {
+    "id": 297,
+    "year": "1942",
+    "original": "Jack DeJohnette, American Jazz drummer (Skyline), born in Chicago, Illinois",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 73
+  },
+  {
+    "id": 323,
+    "year": "1959",
+    "original": "Kurtis Blow [Walker], American rapper (Krushgroove - \"The Breaks\"), born in New York City",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 74
+  },
+  {
+    "id": 354,
+    "year": "1970",
+    "original": "Rod Brind'Amour, Canadian ice hockey center (Stanley Cup 2006 Carolina Hurricanes captain; NHL All Star 1992; Selke Trophy 2006, 07) and coach (Jack Adams Award 2021; Carolina Hurricanes), born in Ottawa, Ontario",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 75
+  },
+  {
+    "id": 358,
+    "year": "1972",
+    "original": "A-Mei [Kulilay Amit], Taiwanese Puyuma singer known as the \"Queen of Mando-Pop\", born in Beinan, Taitung, Taiwan",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 76
+  },
+  {
+    "id": 2,
+    "year": "681",
+    "original": "Bulgaria is founded as a Khanate on the south bank of the Danube after the defeat of the Byzantine armies of Emperor Constantine IV near the Danube Delta",
+    "score": 68,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 77
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Sweet Dreams Are Made of Chocolate",
+    "story": "Every July 28, chocolate lovers across America celebrate National Milk Chocolate Day by indulging in their favorite creamy treats! People visit chocolate shops, bake brownies and cookies, and share chocolate bars with friends and family. Many folks post photos of their favorite milk chocolate candies on social media, from classic Hershey's bars to fancy truffles. Some families even have chocolate-tasting parties where they try different brands and flavors. Restaurants often feature special chocolate desserts on their menus, and ice cream shops promote their milk chocolate flavors. It's the perfect excuse to satisfy your sweet tooth guilt-free!",
+    "activity_question": "What do many people post on social media during National Milk Chocolate Day?",
+    "activity_choices": [
+      "Photos of their favorite milk chocolate candies",
+      "Pictures of their pets eating chocolate",
+      "Videos of chocolate factories",
+      "Recipes for vanilla cake"
+    ],
+    "activity_answer": "Photos of their favorite milk chocolate candies",
+    "bonus_fact": "Milk chocolate was invented in 1875 by Swiss chocolatier Daniel Peter.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Nature's Big Day Out!",
+    "story": "Every July 28, people around the world celebrate World Nature Conservation Day by taking action to protect our planet! Kids and families plant trees, clean up parks and beaches, and learn about endangered animals. Schools organize nature walks where students spot different birds and insects. Many people share photos of beautiful landscapes on social media to spread awareness about protecting forests, oceans, and wildlife. Some communities host recycling drives or build butterfly gardens together. It's a day when everyone becomes a nature superhero, working to keep Earth healthy and amazing for future generations!",
+    "activity_question": "What do people commonly do on World Nature Conservation Day?",
+    "activity_choices": [
+      "Plant trees and clean up parks",
+      "Have giant pizza parties",
+      "Stay inside and watch TV",
+      "Build snowmen"
+    ],
+    "activity_answer": "Plant trees and clean up parks",
+    "follow_up_question": "What's one small thing you could do in your neighborhood to help protect nature?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  }
+]

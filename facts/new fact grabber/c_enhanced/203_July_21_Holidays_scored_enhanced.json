@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "National Junk Food Day: Guilt-Free Munching!",
+    "story": "Every July 21, people across America celebrate National Junk Food Day by throwing healthy eating rules out the window! This is the one day when chips for breakfast, candy for lunch, and ice cream for dinner are totally acceptable. Families stock up on their favorite treats like cookies, donuts, pizza, and soda. Social media fills with photos of people proudly showing off their junk food feasts. Some restaurants even offer special deals on burgers, fries, and milkshakes. It's a day to indulge without guilt and remember that sometimes the most delicious foods are the ones we usually try to avoid!",
+    "activity_question": "What do people typically do on National Junk Food Day?",
+    "activity_choices": [
+      "Eat only vegetables and fruits",
+      "Throw healthy eating rules out the window",
+      "Go on a strict diet",
+      "Only drink water all day"
+    ],
+    "activity_answer": "Throw healthy eating rules out the window",
+    "follow_up_question": "What's your favorite junk food that you'd want to eat guilt-free?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Be Someone Special Day!",
+    "story": "Every July 21, National Be Someone Day reminds us that we all have the power to make a difference! People celebrate by doing kind acts, helping neighbors, or simply being their best selves. Some volunteer at shelters, others write encouraging notes to friends, or stand up for someone who needs support.",
+    "activity_question": "What are some ways people celebrate National Be Someone Day?",
+    "activity_choices": [
+      "Doing kind acts and helping neighbors",
+      "Eating special birthday cake",
+      "Wearing superhero costumes all day",
+      "Playing video games for 12 hours"
+    ],
+    "activity_answer": "Doing kind acts and helping neighbors",
+    "follow_up_question": "What's one small way you could be someone special to a friend or family member today?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 45
+  }
+]

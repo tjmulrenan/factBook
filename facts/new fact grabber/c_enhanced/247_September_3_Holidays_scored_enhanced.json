@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Sky-High Celebration Day",
+    "story": "People crane their necks and look way up on September 3 for National Skyscraper Day! This awesome holiday celebrates those super tall buildings that seem to touch the clouds. Fans share photos of famous skyscrapers like the Empire State Building or cool towers in their own cities. Some people visit observation decks to see amazing views from way up high. Others draw their dream skyscrapers or build tall towers with blocks and LEGOs. Architecture lovers post fun facts about the world's tallest buildings on social media. It's the perfect day to appreciate how humans figured out how to build straight up into the sky!",
+    "activity_question": "What do people often visit on National Skyscraper Day to see amazing views?",
+    "activity_choices": [
+      "Observation decks",
+      "Underground tunnels",
+      "Swimming pools",
+      "Pizza restaurants"
+    ],
+    "activity_answer": "Observation decks",
+    "follow_up_question": "If you could design your own skyscraper, what special features would it have?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "902",
+    "title": "Cheesy Dreams: Welsh Rarebit Day",
+    "story": "Welsh rarebit isn't actually made with rabbit at all! This gooey, cheesy dish is basically fancy cheese toast that people celebrate every September 3. To make it, you melt cheese with beer or milk, add spices, then pour it over toasted bread and broil it until bubbly. Restaurants and home cooks across America whip up this British comfort food today, sharing photos of their golden, melted creations on social media.",
+    "activity_question": "What is Welsh rarebit actually made with?",
+    "activity_choices": [
+      "Rabbit meat and vegetables",
+      "Melted cheese and toast",
+      "Welsh cookies and cream",
+      "Fish and chips"
+    ],
+    "activity_answer": "Melted cheese and toast",
+    "bonus_fact": "The name \"rarebit\" comes from \"rabbit\" as a playful joke about the missing meat.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  }
+]

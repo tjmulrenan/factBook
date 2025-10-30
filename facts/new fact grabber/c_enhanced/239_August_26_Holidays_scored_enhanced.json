@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Women's Equality Day: Celebrating Progress and Power",
+    "story": "Every August 26, Americans celebrate Women's Equality Day to honor the day women won the right to vote! People share stories about amazing women leaders, post inspiring messages on social media, and attend special events at schools and libraries. Many families use this day to talk about how women have changed history and continue making a difference today. It's a perfect time to celebrate the strong women in your life!",
+    "activity_question": "What right did women win that Women's Equality Day celebrates?",
+    "activity_choices": [
+      "The right to vote",
+      "The right to drive cars",
+      "The right to own purple unicorns",
+      "The right to eat ice cream"
+    ],
+    "activity_answer": "The right to vote",
+    "follow_up_question": "Which women in your life inspire you the most and why?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "902",
+    "title": "Paws for Celebration: National Dog Day",
+    "story": "Dogs get their own special day every August 26 when people across the country celebrate National Dog Day! On this tail-wagging holiday, dog lovers share adorable photos of their furry friends on social media, take their pups on extra-long walks, and spoil them with special treats and new toys. Many families visit animal shelters to adopt dogs who need loving homes, while others donate food, blankets, and supplies to help homeless pets. Dog parks become extra busy as people organize puppy playdates and doggy birthday parties. Some pet stores even offer free treats and photo sessions for four-legged customers on this special day!",
+    "activity_question": "What do many families do at animal shelters on National Dog Day?",
+    "activity_choices": [
+      "Adopt dogs who need loving homes",
+      "Teach dogs how to skateboard",
+      "Give dogs haircuts",
+      "Have dogs judge a talent show"
+    ],
+    "activity_answer": "Adopt dogs who need loving homes",
+    "bonus_fact": "Dogs can learn over 150 words and can even count to four or five!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  }
+]

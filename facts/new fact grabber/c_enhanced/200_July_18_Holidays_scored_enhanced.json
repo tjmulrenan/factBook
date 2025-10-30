@@ -1,0 +1,22 @@
+[
+  {
+    "id": "901",
+    "title": "Making a Difference Like Mandela",
+    "story": "Every July 18, people around the world celebrate Nelson Mandela International Day by doing good deeds for 67 minutes. This special time represents the 67 years Mandela spent fighting for equality and justice in South Africa. On this day, kids and adults volunteer at food banks, clean up parks, help elderly neighbors, or donate toys and clothes. Schools organize community service projects, and families work together to make their neighborhoods better. The goal is simple: spend 67 minutes making the world a little kinder, just like Mandela did throughout his amazing life.",
+    "activity_question": "How many minutes do people volunteer on Nelson Mandela International Day?",
+    "activity_choices": [
+      "45 minutes",
+      "67 minutes",
+      "100 minutes",
+      "30 minutes"
+    ],
+    "activity_answer": "67 minutes",
+    "follow_up_question": "What 67-minute act of kindness would you want to do in your community?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  }
+]

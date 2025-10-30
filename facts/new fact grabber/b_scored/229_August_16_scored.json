@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "original": "National Roller Coaster Day",
+    "score": 95,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "National Rum Day",
+    "score": 50,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 3,
+    "original": "National Tell a Joke Day",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "National Bratwurst Day",
+    "score": 70,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 5,
+    "original": "National Airborne Day",
+    "score": 70,
+    "is_kid_friendly": true
+  }
+]

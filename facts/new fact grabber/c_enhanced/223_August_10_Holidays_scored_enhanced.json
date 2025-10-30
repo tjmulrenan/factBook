@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "S'more Fun Than You Can Handle!",
+    "story": "Gooey marshmallows, melted chocolate, and crunchy graham crackers come together for the ultimate campfire treat on National S'mores Day every August 10! People celebrate by roasting marshmallows over fire pits, camp stoves, or even kitchen flames. Some folks get creative with different chocolates like peanut butter cups or cookies instead of graham crackers. Restaurants serve s'mores pizza and ice cream flavors, while families have backyard s'mores parties. Social media fills with photos of perfectly golden marshmallows and chocolate-dripping masterpieces. The best part? Everyone has their own special technique for getting that marshmallow just right!",
+    "activity_question": "What are the three main ingredients in a traditional s'more?",
+    "activity_choices": [
+      "Marshmallows, chocolate, and graham crackers",
+      "Marshmallows, cookies, and peanut butter",
+      "Chocolate, crackers, and whipped cream",
+      "Marshmallows, chocolate, and potato chips"
+    ],
+    "activity_answer": "Marshmallows, chocolate, and graham crackers",
+    "follow_up_question": "What creative ingredient would you use to make your own unique s'more?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Roaring for the King of Beasts",
+    "story": "Lions get their own special day every August 10 when the world celebrates World Lion Day! Zoos around the globe host lion-themed events where kids can learn amazing facts about these powerful cats. Wildlife organizations share incredible photos and videos of lions in Africa on social media. Many people donate money to help protect wild lions and their habitats. Schools often plan lion craft projects and read books about life in the pride. Some families even visit local zoos to watch feeding time and hear those famous roars echoing through the air!",
+    "activity_question": "What do zoos often host on World Lion Day?",
+    "activity_choices": [
+      "Lion-themed educational events",
+      "Lion costume contests only",
+      "Free pizza parties",
+      "Magic shows with rabbits"
+    ],
+    "activity_answer": "Lion-themed educational events",
+    "bonus_fact": "A lion's roar can be heard from up to 5 miles away!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "903",
+    "title": "Spoil Your Dog Day: Paws for Celebration!",
+    "story": "Dogs everywhere get the royal treatment on August 10 during Spoil Your Dog Day! Pet owners go completely overboard, buying fancy treats, new toys, and even doggy spa visits. Some pups get gourmet meals served on special plates, while others enjoy extra-long walks to their favorite parks. Dog bakeries sell out of pupcakes and bacon-flavored cookies. Social media fills with photos of pampered pooches wearing cute outfits or getting belly rubs. Many families take their furry friends on special adventures like beach trips or hiking trails they've never explored before. It's basically Christmas morning for dogs!",
+    "activity_question": "What do dog bakeries often sell out of on Spoil Your Dog Day?",
+    "activity_choices": [
+      "Pupcakes and bacon-flavored cookies",
+      "Regular human birthday cakes",
+      "Dog leashes and collars",
+      "Cat treats and toys"
+    ],
+    "activity_answer": "Pupcakes and bacon-flavored cookies",
+    "follow_up_question": "What special treat would your dog love most on their spoiling day?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "904",
+    "title": "Fuel Made From French Fries!",
+    "story": "Cars can run on cooking oil from your favorite restaurant! World Biodiesel Day celebrates this amazing fuel made from used vegetable oil, animal fats, and even algae. On August 10, people share facts about how biodiesel helps keep our air cleaner than regular gas. Some families visit biodiesel plants or watch videos about turning old fry oil into car fuel. It's incredible that yesterday's french fries could power tomorrow's road trip!",
+    "activity_question": "What can biodiesel be made from?",
+    "activity_choices": [
+      "Used cooking oil and animal fats",
+      "Only brand new vegetable oil",
+      "Crushed rocks and sand",
+      "Pure water and soap"
+    ],
+    "activity_answer": "Used cooking oil and animal fats",
+    "follow_up_question": "What other everyday waste could scientists turn into useful fuel?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  }
+]

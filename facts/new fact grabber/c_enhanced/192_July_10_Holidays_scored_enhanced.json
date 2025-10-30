@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Tropical Treats and Coconut Dreams",
+    "story": "Bartenders everywhere are blending up something special on July 10 — it's National Piña Colada Day! This creamy, tropical drink made with coconut and pineapple flavors gets its own celebration every year on this date. Restaurants and cafes serve up both the classic grown-up version and kid-friendly virgin piña coladas that taste just as amazing. Families make them at home using coconut milk, pineapple juice, and ice, then serve them in fancy glasses with little paper umbrellas and pineapple chunks on top.",
+    "activity_question": "What two main flavors make up a piña colada?",
+    "activity_choices": [
+      "Coconut and pineapple",
+      "Banana and mango",
+      "Orange and vanilla",
+      "Strawberry and lime"
+    ],
+    "activity_answer": "Coconut and pineapple",
+    "bonus_fact": "The name 'piña colada' means 'strained pineapple' in Spanish!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "902",
+    "title": "Buzz Off! Don't Step on a Bee Day",
+    "story": "Every July 10, people celebrate Don't Step on a Bee Day by being extra careful where they walk and showing love for our buzzing friends! Kids and families spend the day learning about how important bees are for making flowers grow and creating delicious honey. Many people plant bee-friendly flowers like sunflowers and lavender in their gardens. Some families visit local beekeepers or watch documentaries about bees together. Others simply walk barefoot more carefully in the grass and remind everyone to look before they step outside!",
+    "activity_question": "What do many people plant on Don't Step on a Bee Day to help bees?",
+    "activity_choices": [
+      "Bee-friendly flowers like sunflowers and lavender",
+      "Vegetable gardens with carrots and potatoes",
+      "Tiny bee houses made of cardboard",
+      "Special grass that bees can't see"
+    ],
+    "activity_answer": "Bee-friendly flowers like sunflowers and lavender",
+    "bonus_fact": "A single bee visits about 2,000 flowers every day to collect nectar!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "903",
+    "title": "Sparks Fly for Tesla Day!",
+    "story": "Every July 10, science fans celebrate Nikola Tesla Day to honor one of history's most brilliant inventors! Tesla created the alternating current electricity system that powers our homes today, plus he invented wireless technology, radio waves, and even remote controls. On this special day, science museums host Tesla coil demonstrations that shoot lightning bolts through the air. Kids build simple circuits, watch electricity experiments, and learn about his wild inventions. Some people even dress up like the famous scientist with his signature mustache! Tesla once said he could split the Earth in half with vibrations, making him the ultimate mad scientist hero.",
+    "activity_question": "What do science museums often demonstrate on Nikola Tesla Day?",
+    "activity_choices": [
+      "Tesla coil lightning bolts",
+      "Time travel machines",
+      "Flying cars",
+      "Invisible cloaks"
+    ],
+    "activity_answer": "Tesla coil lightning bolts",
+    "bonus_fact": "Tesla had a photographic memory and could build entire machines in his mind!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 92
+  }
+]

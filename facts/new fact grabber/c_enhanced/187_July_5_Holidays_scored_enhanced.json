@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Flaky, Sweet Apple Turnover Treats!",
+    "story": "Bakers across America fire up their ovens on July 5 for National Apple Turnover Day! These golden, flaky pastries are like little apple pie pockets that you can hold in your hand. People celebrate by visiting bakeries, making homemade turnovers with their families, or trying new flavors like caramel apple or cinnamon sugar. Social media fills with photos of perfectly golden turnovers fresh from the oven. Some families make it a tradition to have apple turnovers for breakfast on this special day, turning an ordinary morning into something deliciously memorable!",
+    "activity_question": "What makes apple turnovers different from regular apple pie?",
+    "activity_choices": [
+      "They're shaped like little pockets you can hold",
+      "They're always made with green apples only",
+      "They must be eaten with ice cream",
+      "They're baked in giant purple ovens"
+    ],
+    "activity_answer": "They're shaped like little pockets you can hold",
+    "follow_up_question": "What other fruits would make delicious turnovers?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "902",
+    "title": "Crunch Time for Graham Crackers!",
+    "story": "Every July 5, people across America celebrate National Graham Cracker Day by munching on these sweet, crunchy squares! Families make s'mores around campfires, crushing graham crackers between gooey marshmallows and melted chocolate. Kids pack them in lunchboxes as snacks, while bakers use them to create pie crusts for cheesecakes and key lime pies. Some people even eat them plain with a cold glass of milk, just like they did when they were little. Social media fills with photos of creative graham cracker treats and childhood memories of this beloved snack.",
+    "activity_question": "What popular campfire treat uses graham crackers as a main ingredient?",
+    "activity_choices": [
+      "S'mores",
+      "Hot dogs",
+      "Trail mix",
+      "Popcorn"
+    ],
+    "activity_answer": "S'mores",
+    "bonus_fact": "Graham crackers were originally invented as a health food in the 1800s!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "903",
+    "title": "Stuffed Guardians Get Their Day",
+    "story": "Grab some old clothes and straw because July 5 is Build a Scarecrow Day! Families across the country stuff shirts and pants with hay, leaves, or newspaper to create their own farm guardians. Some people make traditional scarecrows with floppy hats and button eyes, while others get creative with wild hair and funny faces. Kids love picking out clothes from donation piles and watching their creations come to life. Many families display their scarecrows in gardens or front yards all summer long. It's the perfect excuse to get messy and build something totally unique together!",
+    "activity_question": "What do people typically stuff inside scarecrow clothes?",
+    "activity_choices": [
+      "Hay, leaves, or newspaper",
+      "Rocks and sand",
+      "Cotton candy and marshmallows",
+      "Water balloons"
+    ],
+    "activity_answer": "Hay, leaves, or newspaper",
+    "follow_up_question": "What would you name your scarecrow and what outfit would you choose?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "904",
+    "title": "Click, Write, Repeat: Mechanical Pencil Day",
+    "story": "Every July 5, pencil fans celebrate the amazing mechanical pencil! These clever writing tools don't need sharpening because they push out fresh lead with each click. Students love posting photos of their colorful mechanical pencil collections on social media. Some people even have pencil-decorating contests or trade rare designs with friends. It's the perfect day to appreciate how this simple invention makes writing and drawing so much easier!",
+    "activity_question": "What makes mechanical pencils special compared to regular pencils?",
+    "activity_choices": [
+      "They don't need sharpening",
+      "They write in rainbow colors",
+      "They can erase themselves",
+      "They write upside down"
+    ],
+    "activity_answer": "They don't need sharpening",
+    "bonus_fact": "The first mechanical pencil was actually invented way back in 1822!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Peace Out: A Day for Global Harmony",
+    "story": "Every September 21, people around the world celebrate the International Day of Peace by ringing bells, releasing white doves, and holding hands in giant peace circles. Schools organize special assemblies where kids learn about solving problems without fighting, while communities plant peace gardens filled with white flowers. Many people wear white clothing and share messages of kindness on social media using peace sign emojis.",
+    "activity_question": "What do people often release on International Day of Peace?",
+    "activity_choices": [
+      "White doves",
+      "Colorful balloons",
+      "Paper airplanes",
+      "Soap bubbles"
+    ],
+    "activity_answer": "White doves",
+    "follow_up_question": "What's one small act of peace you could do in your school or neighborhood?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "902",
+    "title": "Thanks a Million Day!",
+    "story": "People around the world pause on September 21 to celebrate World Gratitude Day by saying thank you for all the good things in their lives. Families write gratitude lists together, friends send appreciation texts, and kids make thank-you cards for teachers, parents, or neighbors. Some people post grateful messages on social media or keep gratitude journals. It's a simple but powerful way to spread kindness and remember how much we have to appreciate!",
+    "activity_question": "What do families often write together on World Gratitude Day?",
+    "activity_choices": [
+      "Gratitude lists",
+      "Shopping lists",
+      "Homework assignments",
+      "Secret codes"
+    ],
+    "activity_answer": "Gratitude lists",
+    "follow_up_question": "What are three things you're most grateful for right now?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  }
+]

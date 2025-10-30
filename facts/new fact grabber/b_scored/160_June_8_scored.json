@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "original": "World Oceans Day",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "Best Friends Day",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "World Brain Tumor Day",
+    "score": 55,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 4,
+    "original": "Frank Lloyd Wright Day",
+    "score": 35,
+    "is_kid_friendly": false
+  }
+]

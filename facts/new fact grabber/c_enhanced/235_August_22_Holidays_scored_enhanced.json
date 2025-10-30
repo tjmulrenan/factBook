@@ -1,0 +1,102 @@
+[
+  {
+    "id": "901",
+    "title": "Be an Angel Day: Spread Your Wings!",
+    "story": "Every August 22, people celebrate Be an Angel Day by doing kind acts for others without expecting anything back. Kids might help elderly neighbors carry groceries, leave encouraging notes in library books, or donate toys to shelters. Adults volunteer at food banks, pay for someone's coffee, or simply listen to a friend who needs support. The best part? Most angels stay anonymous, so the person receiving kindness never knows who helped them. Social media fills with stories of mysterious good deeds and random acts of kindness that brighten everyone's day.",
+    "activity_question": "What's the best part about celebrating Be an Angel Day?",
+    "activity_choices": [
+      "Most angels stay anonymous when doing kind acts",
+      "You get free wings and a halo",
+      "Everyone has to volunteer at the same place",
+      "Only adults can participate in the celebration"
+    ],
+    "activity_answer": "Most angels stay anonymous when doing kind acts",
+    "follow_up_question": "What anonymous act of kindness would you want to do for someone?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "902",
+    "title": "Peachy Keen Eating Day!",
+    "story": "Every August 22, peach lovers across America celebrate National Eat a Peach Day by biting into the juiciest, fuzziest fruit they can find! People visit farmers markets to pick the perfect peach, bake peach pies with their families, or blend fresh peach smoothies. Some folks even have peach-eating contests to see who can finish one the fastest without making a mess. Social media fills up with photos of peach desserts and sticky, happy faces covered in sweet peach juice.",
+    "activity_question": "What do people often do on National Eat a Peach Day besides eating fresh peaches?",
+    "activity_choices": [
+      "Bake peach pies and make smoothies",
+      "Plant peach trees in their backyard",
+      "Dress up like giant peaches",
+      "Write poems about fuzzy fruit"
+    ],
+    "activity_answer": "Bake peach pies and make smoothies",
+    "bonus_fact": "A medium peach contains about 85% water, making it super refreshing on hot summer days!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "903",
+    "title": "Milk That Grows on Trees!",
+    "story": "People around the world celebrate plant-based milk alternatives every August 22 on World Plant Milk Day! Families try delicious drinks made from almonds, oats, coconuts, and even peas instead of regular cow's milk. Coffee shops offer special deals on soy lattes and oat milk smoothies. Many people share their favorite plant milk recipes online and discover new flavors they've never tasted before. It's a perfect day to be kind to animals and the planet while enjoying creamy, tasty drinks!",
+    "activity_question": "Which of these is NOT mentioned as a plant milk ingredient in the story?",
+    "activity_choices": [
+      "Almonds",
+      "Bananas",
+      "Coconuts",
+      "Oats"
+    ],
+    "activity_answer": "Bananas",
+    "follow_up_question": "What other plants do you think could make tasty milk?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "904",
+    "title": "Spumoni: The Rainbow Ice Cream Day",
+    "story": "Every August 22, ice cream lovers celebrate National Spumoni Day by digging into this colorful Italian frozen treat! Spumoni is like three ice cream flavors having a party in one scoop - usually chocolate, pistachio, and cherry or strawberry, all swirled together with nuts and candied fruits. People visit Italian restaurants, gelato shops, or make their own rainbow creation at home. Social media fills with photos of the pretty layered dessert that looks almost too good to eat!",
+    "activity_question": "What makes spumoni different from regular ice cream?",
+    "activity_choices": [
+      "It has three flavors swirled together with nuts and fruits",
+      "It's served only in winter",
+      "It's made without any milk",
+      "It glows in the dark"
+    ],
+    "activity_answer": "It has three flavors swirled together with nuts and fruits",
+    "bonus_fact": "Spumoni means \"foamy\" in Italian because of its light, airy texture!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "905",
+    "title": "Purr-fect Health Check Day!",
+    "story": "Cats everywhere get extra attention on August 22 during Take Your Cat to the Vet Day! Pet owners schedule checkups to keep their furry friends healthy and happy all year long.",
+    "activity_question": "What do cat owners do on Take Your Cat to the Vet Day?",
+    "activity_choices": [
+      "Schedule health checkups for their cats",
+      "Teach their cats to drive",
+      "Buy new cat toys",
+      "Give their cats baths"
+    ],
+    "activity_answer": "Schedule health checkups for their cats",
+    "bonus_fact": "Regular vet visits help cats live longer, healthier lives!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 40
+  }
+]

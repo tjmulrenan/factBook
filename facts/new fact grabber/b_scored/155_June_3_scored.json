@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "original": "National Egg Day",
+    "score": 65,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "National Chocolate Macaroon Day",
+    "score": 75,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "National Repeat Day",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "Insect Repellent Awareness Day",
+    "score": 55,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 5,
+    "original": "Opium War Day",
+    "score": 22,
+    "is_kid_friendly": false
+  }
+]

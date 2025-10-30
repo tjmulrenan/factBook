@@ -1,0 +1,1242 @@
+[
+  {
+    "id": "901",
+    "title": "Split Happens: National Banana Split Day!",
+    "story": "Every August 25, ice cream lovers across America celebrate National Banana Split Day by creating the ultimate dessert masterpiece! This sweet holiday honors the classic treat that starts with a banana sliced lengthwise, then gets loaded with three scoops of ice cream, hot fudge, whipped cream, nuts, and a cherry on top. Ice cream shops offer special deals and giant banana splits meant for sharing. Families make their own versions at home, experimenting with different flavors and toppings. Some people even host banana split parties where everyone builds their own creation. It's the perfect excuse to turn an ordinary day into something deliciously extraordinary!",
+    "activity_question": "What fruit is the main ingredient in a banana split?",
+    "activity_choices": [
+      "Banana",
+      "Apple",
+      "Strawberry",
+      "Pineapple"
+    ],
+    "activity_answer": "Banana",
+    "bonus_fact": "The first banana split was invented in 1904 in Pennsylvania!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Kiss and Make Up Day Magic",
+    "story": "Every August 25, people celebrate Kiss and Make Up Day by fixing broken friendships and saying sorry for past mistakes. Friends who haven't talked in weeks send texts, siblings hug it out after big fights, and families gather to clear the air. Some people write apology letters, others bring peace offerings like cookies or flowers. Social media fills with posts about forgiveness and second chances. It's the perfect day to swallow your pride and repair relationships that matter most to you.",
+    "activity_question": "What do people commonly do on Kiss and Make Up Day?",
+    "activity_choices": [
+      "Send apology texts and hug it out",
+      "Kiss every person they meet",
+      "Make up new dance moves",
+      "Only eat makeup-shaped candy"
+    ],
+    "activity_answer": "Send apology texts and hug it out",
+    "follow_up_question": "What friendship would you want to repair if you celebrated this day?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "153",
+    "title": "Double Dave: The Two-Headed Rattlesnake",
+    "story": "Slithering through the Pine Barrens forest of New Jersey, a rare sight caught the eye of herpetologists in 2019. They discovered a timber rattlesnake with not one, but two heads! This unusual serpent, nicknamed Double Dave, became an instant sensation. Born with a genetic quirk, the snake had two fully formed heads on a single body. While fascinating, such mutations often make survival challenging in the wild. Double Dave's discovery on August 25 reminded us of nature's surprising twists.",
+    "activity_question": "What kind of snake was Double Dave?",
+    "activity_choices": [
+      "A timber rattlesnake",
+      "A garter snake",
+      "A copperhead",
+      "A python"
+    ],
+    "activity_answer": "A timber rattlesnake",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why might having two heads make it harder for a snake to survive in the wild?",
+    "score": 92,
+    "categories": [
+      "Creature Feature"
+    ]
+  },
+  {
+    "id": "139",
+    "title": "Giant Among Giants: Hyperion the Redwood",
+    "story": "Deep in California's Redwood National Park, two naturalists made an incredible discovery on August 25, 2006. Chris Atkins and Michael Taylor found Hyperion, a coast redwood that towers above all others. This living giant stretches an astounding 379 feet into the sky, making it the tallest known tree on Earth. Imagine a tree as tall as a 37-story building, reaching higher than a football field is long!",
+    "activity_question": "What type of tree is Hyperion?",
+    "activity_choices": [
+      "Coast redwood",
+      "Sequoia",
+      "Douglas fir",
+      "Giant bamboo"
+    ],
+    "activity_answer": "Coast redwood",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think scientists name important discoveries like Hyperion?",
+    "score": 95,
+    "categories": [
+      "Creature Feature"
+    ]
+  },
+  {
+    "id": "145",
+    "title": "Voyager 1: The First Interstellar Explorer",
+    "story": "Zoom! Voyager 1 boldly went where no spacecraft had gone before. On August 25, 2012, this plucky explorer became the first human-made object to enter interstellar space. Launched way back in 1977, Voyager 1 had been cruising through our solar system for decades. Now, it was venturing beyond, carrying a golden record with Earth sounds and greetings for any aliens it might meet on its endless journey.",
+    "activity_question": "What did Voyager 1 become the first to do in 2012?",
+    "activity_choices": [
+      "Enter interstellar space",
+      "Land on Mars",
+      "Orbit Jupiter",
+      "Take a selfie of Earth"
+    ],
+    "activity_answer": "Enter interstellar space",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What special item is Voyager 1 carrying to greet potential aliens?",
+    "optional_type": "follow_up_question",
+    "score": 95,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "119",
+    "title": "Voyager 2's Epic Neptune Encounter",
+    "story": "Zooming through space, Voyager 2 reached Neptune in 1989 after an incredible journey. This plucky spacecraft traveled about 4 billion miles over 12 years to visit the distant, icy planet. On August 25, it soared above Neptune's swirling clouds, snapping amazing photos. Voyager even captured images of Triton, Neptune's largest moon, revealing mysterious dark patches that looked like swamps.",
+    "activity_question": "What did Voyager 2 photograph on Neptune's moon Triton?",
+    "activity_choices": [
+      "Mysterious dark patches",
+      "Icy mountains",
+      "Colorful rainbows",
+      "Alien spaceships"
+    ],
+    "activity_answer": "Mysterious dark patches",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How long did it take Voyager 2 to reach Neptune?",
+    "score": 95,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "164",
+    "title": "Galileo's Starry Surprise for Venice",
+    "story": "Galileo Galilei had a trick up his sleeve. In 1609, he unveiled a magical tube that brought faraway things close. On August 25, he showed off his invention - the telescope - to the big shots of Venice. The Doge, the city's top leader, peered through it in wonder. This gadget would change how we see the stars forever!",
+    "activity_question": "What did Galileo demonstrate to Venetian lawmakers?",
+    "activity_choices": [
+      "His first telescope",
+      "A magic wand",
+      "A new type of boat",
+      "A flying machine"
+    ],
+    "activity_answer": "His first telescope",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What do you think the Venetian leaders saw when they looked through Galileo's telescope?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "169",
+    "title": "The Moon Hoax That Fooled New York",
+    "story": "Imagine peering through a telescope and seeing unicorns on the Moon! In 1835, The New York Sun newspaper printed an amazing tale. They claimed astronomer John Herschel had spotted life on the lunar surface. Readers were captivated by descriptions of bat-people, blue goats, and lush forests. The story spread like wildfire across the city on August 25. It was all a clever hoax, of course, but for a few days, New Yorkers believed the Moon was teeming with fantastical creatures!",
+    "activity_question": "What did the newspaper claim John Herschel saw on the Moon?",
+    "activity_choices": [
+      "Life",
+      "Martians",
+      "Alien spaceships",
+      "A giant cheese wheel"
+    ],
+    "activity_answer": "Life",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think people believed this story at first?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "197",
+    "title": "Instant Noodles: A Tasty Revolution Begins",
+    "story": "Slurp! A new food sensation hit Japan in 1958. Momofuku Ando created the first package of precooked instant noodles called Chikin Ramen. This quick and easy meal would change how people ate around the world. On August 25, Ando introduced his invention, making busy lives a little easier and tastier. Little did he know his noodles would become a global favorite for quick meals!",
+    "activity_question": "What was the name of the first package of precooked instant noodles?",
+    "activity_choices": [
+      "Chikin Ramen",
+      "Instant Soba",
+      "Quick Udon",
+      "Speedy Noodles"
+    ],
+    "activity_answer": "Chikin Ramen",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think instant noodles became so popular worldwide?",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "188",
+    "title": "The Birth of Linux: A Digital Revolution",
+    "story": "A computer whiz named Linus Torvalds sparked a digital revolution with a simple email. On August 25, 1991, he announced his plan to create a new computer operating system. This project would grow into Linux, a powerful and free system used by millions today. Torvalds invitation for others to join him set the stage for a global community of programmers working together to build something amazing.",
+    "activity_question": "What did Linus Torvalds announce in his email?",
+    "activity_choices": [
+      "His plan to create a new computer operating system",
+      "The launch of a new email service",
+      "A competition for programmers",
+      "His retirement from coding"
+    ],
+    "activity_answer": "His plan to create a new computer operating system",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you think of ways you use Linux in your daily life, even if you dont know it?",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "95",
+    "title": "Drummer's Crash Can't Stop the Music",
+    "story": "Crash! Bang! But this time, it wasn't just drumsticks hitting cymbals. In 1973, Butch Trucks, the talented drummer of the Allman Brothers Band, had a car accident on August 25. The crash left him with a broken leg, but it couldn't break his spirit. Trucks was known for his powerful beats, and even this setback couldn't silence his rhythm for long. The band played on, proving that true rock 'n' roll determination can overcome any obstacle.",
+    "activity_question": "What happened to Butch Trucks in the car accident?",
+    "activity_choices": [
+      "He broke his leg",
+      "He lost his drumsticks",
+      "He got a speeding ticket",
+      "He met a new bandmate"
+    ],
+    "activity_answer": "He broke his leg",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How might a drummer adapt to play with a broken leg?",
+    "score": 95,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "121",
+    "title": "Soaring to New Heights",
+    "story": "Leaping into the history books, Li Hui Rong of China set an incredible record in 1990. On August 25, she performed an astonishing triple jump, sailing through the air for a distance of 47 feet 8½ inches. That's nearly as long as a school bus! Li's amazing feat established a new women's world record in this challenging track and field event, showcasing the power of human athleticism.",
+    "activity_question": "What was the distance of Li Hui Rong's record-breaking triple jump?",
+    "activity_choices": [
+      "47 feet 8½ inches",
+      "14.54 meters",
+      "50 feet",
+      "A school bus length"
+    ],
+    "activity_answer": "47 feet 8½ inches",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you imagine jumping as far as a school bus is long?",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "200",
+    "title": "Africa Triumphs Over Polio",
+    "story": "Cheers erupted across Africa as health workers celebrated a major victory. The World Health Organization declared the continent polio-free in 2020. This milestone came after four years without a single case of wild polio. Decades of vaccination efforts paid off, protecting millions of children from this crippling disease. The announcement on August 25 marked a huge step towards global polio eradication.",
+    "activity_question": "How long had Africa gone without a case of wild polio?",
+    "activity_choices": [
+      "Four years",
+      "Two years",
+      "Six months",
+      "One decade"
+    ],
+    "activity_answer": "Four years",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why is vaccination important in preventing diseases like polio?",
+    "score": 90,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "73",
+    "title": "Zooming into the History Books",
+    "story": "Whoosh! On August 25, 1947, pilot Marion Carl strapped into a sleek D-558-I aircraft and blasted off into aviation history. With nerves of steel and incredible skill, Carl pushed the plane to its limits, reaching an astonishing speed of 1,047 kilometers per hour. This lightning-fast flight set a new world aircraft speed record, leaving everyone in awe of what humans and machines could achieve together.",
+    "activity_question": "What type of aircraft did Marion Carl fly to set the speed record?",
+    "activity_choices": [
+      "D-558-I",
+      "Boeing 747",
+      "Cessna 172",
+      "Flying saucer"
+    ],
+    "activity_answer": "D-558-I",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think it would feel to fly that fast?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "37",
+    "title": "Daring Pilot Conquers the Deadly Spin",
+    "story": "Wilfred Parke's heart raced as his plane spiraled out of control. On August 25, 1912, this brave pilot became the first person to recover from a terrifying aircraft spin. Using quick thinking and steady nerves, Parke discovered a technique to regain control mid-air. His groundbreaking maneuver saved countless lives and revolutionized flight safety for future aviators.",
+    "activity_question": "What did Wilfred Parke become the first person to do?",
+    "activity_choices": [
+      "Recover from an aircraft spin",
+      "Fly across the Atlantic Ocean",
+      "Build a jet engine",
+      "Land on the moon"
+    ],
+    "activity_answer": "Recover from an aircraft spin",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think Parke's discovery was important for aviation safety?",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "141",
+    "title": "Crocodile Chaos in the Sky",
+    "story": "A wild scene unfolded in the air on August 25, 2010. A small plane in the Democratic Republic of the Congo faced an unexpected passenger - a smuggled crocodile! The reptile escaped mid-flight, causing panic. Sadly, the chaos led to a crash near Bandundu Airport. Only one person survived out of the many on board. This bizarre incident reminds us why following air safety rules is so important.",
+    "activity_question": "What unexpected passenger caused panic on the plane?",
+    "activity_choices": [
+      "A smuggled crocodile",
+      "A loose monkey",
+      "An angry passenger",
+      "A swarm of bees"
+    ],
+    "activity_answer": "A smuggled crocodile",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it's dangerous to bring wild animals onto planes?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "198",
+    "title": "Voyager 2's Close Encounter with Saturn",
+    "story": "Zooming through space, Voyager 2 made history in 1981. On August 25, this intrepid spacecraft swooped incredibly close to Saturn, coming within about 63,000 miles of the ringed planet. That's like flying from Earth to the Moon and back nearly 8 times! This daring flyby gave scientists amazing new views of Saturn's mysterious rings and moons, helping us understand our solar system better.",
+    "activity_question": "How close did Voyager 2 get to Saturn?",
+    "activity_choices": [
+      "63,000 miles",
+      "100,000 miles",
+      "1 million miles",
+      "To the surface"
+    ],
+    "activity_answer": "63,000 miles",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What famous feature of Saturn did Voyager 2 help scientists study better?",
+    "score": 90,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "342",
+    "title": "Olivia's Creator: A Pig-tastic Talent Born",
+    "story": "Squeals of delight echoed through Ridgefield, Connecticut on August 25, 1959. Ian Falconer, the creative genius behind the beloved Olivia the pig book series, was born. This multi-talented artist would grow up to illustrate for The New Yorker magazine and design theatrical sets and costumes. But it was his charming piglet character that captured the hearts of children worldwide.",
+    "activity_question": "What famous pig character did Ian Falconer create?",
+    "activity_choices": [
+      "Olivia",
+      "Peppa",
+      "Wilbur",
+      "Babe"
+    ],
+    "activity_answer": "Olivia",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Besides children's books, what other artistic fields did Ian Falconer work in?",
+    "score": 85,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "172",
+    "title": "Ethelda Makes a Splash in Olympic History",
+    "story": "Ethelda Bleibtrey dove into the pool and swam her way into history. On August 25, 1920, she led an American sweep in the women's 100-meter freestyle at the Antwerp Olympics. Bleibtrey not only won gold but also set a new world record with a time of 1:13.6. Her victory made her the first American woman to become an Olympic champion in swimming.",
+    "activity_question": "What Olympic event did Ethelda Bleibtrey win?",
+    "activity_choices": [
+      "Women's 100-meter freestyle",
+      "Men's 200-meter backstroke",
+      "Women's diving competition",
+      "Synchronized swimming"
+    ],
+    "activity_answer": "Women's 100-meter freestyle",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How did Ethelda's victory make history for American women in the Olympics?",
+    "score": 90,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "173",
+    "title": "Amelia Earhart Soars Across America",
+    "story": "Zoom! Amelia Earhart raced through the sky, piloting her plane from coast to coast without stopping. On August 25, 1932, she became the first woman to fly non-stop across the entire United States. Earhart's daring journey ended in Newark, New Jersey, where cheering crowds welcomed the brave aviator. Her groundbreaking flight inspired girls and boys alike to dream big and reach for the stars.",
+    "activity_question": "Where did Amelia Earhart's historic flight end?",
+    "activity_choices": [
+      "Newark, New Jersey",
+      "New York City",
+      "Los Angeles",
+      "Chicago"
+    ],
+    "activity_answer": "Newark, New Jersey",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What made Amelia Earhart's flight special?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "166",
+    "title": "Captain Cook Sets Sail for Adventure",
+    "story": "Ahoy, matey! On August 25, 1768, Captain James Cook hoisted the sails of his ship, the Endeavour, and waved goodbye to Plymouth, England. This brave explorer was about to embark on his very first voyage across the vast Pacific Ocean. Cook and his crew were ready for an epic journey filled with new discoveries, uncharted islands, and exciting adventures that would change the map of the world forever.",
+    "activity_question": "What was the name of Captain Cook's ship on this voyage?",
+    "activity_choices": [
+      "Endeavour",
+      "Mayflower",
+      "Discovery",
+      "Beagle"
+    ],
+    "activity_answer": "Endeavour",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think explorers like Captain Cook were important in that time period?",
+    "score": 85,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "124",
+    "title": "Splash of Glory: A Swimming Sensation",
+    "story": "Krisztina Egerszegi made waves in the swimming world on August 25, 1991. The Hungarian athlete glided through the water like a torpedo, setting a new world record in the 200-meter backstroke. Her incredible time of 2 minutes, 6.62 seconds left spectators and fellow swimmers in awe. Egerszegi's lightning-fast performance showcased the power of dedication and skill in the pool.",
+    "activity_question": "What swimming event did Krisztina Egerszegi set a world record in?",
+    "activity_choices": [
+      "200-meter backstroke",
+      "100-meter freestyle",
+      "400-meter butterfly",
+      "50-meter doggy paddle"
+    ],
+    "activity_answer": "200-meter backstroke",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think swimmers train to improve their speed in the water?",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "229",
+    "title": "All Aboard the Electric Train!",
+    "story": "Choo-choo! Joshua L. Cowen, the inventor who would make electric trains zoom into homes, was born in New York City in 1877. On August 25 of that year, a future filled with miniature locomotives began. Cowen's creative mind would later spark joy for countless children, bringing the excitement of the railway right to their living rooms.",
+    "activity_question": "What did Joshua L. Cowen invent?",
+    "activity_choices": [
+      "Electric train",
+      "Steam engine",
+      "Toy car",
+      "Model airplane"
+    ],
+    "activity_answer": "Electric train",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you think of other toys that run on electricity?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "263",
+    "title": "Pogo's Creator Enters the World",
+    "story": "A future master of comic art took his first breath in Philadelphia. Walt Kelly, born in 1913, would grow up to delight millions with his witty cartoon creations. His most famous character, Pogo the possum, first appeared on August 25 years later, sharing Kelly's birthday. This clever swamp-dwelling opossum became an American cultural icon.",
+    "activity_question": "What was Walt Kelly's most famous cartoon character?",
+    "activity_choices": [
+      "Pogo the possum",
+      "Mickey Mouse",
+      "Garfield",
+      "Snoopy"
+    ],
+    "activity_answer": "Pogo the possum",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Pogo often spoke in funny rhymes and puns, making both kids and adults laugh.",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "402",
+    "title": "A Star is Born: China Anne McClain",
+    "story": "Lights, camera, action! On August 25, 1998, a future star entered the world. China Anne McClain was born in Decatur, Georgia, destined for the spotlight. This talented American actress and singer would go on to shine in movies like 'The Gospel' and 'Daddy's Little Girls'. McClain's journey from Georgia to Hollywood began on this very date.",
+    "activity_question": "In which state was China Anne McClain born?",
+    "activity_choices": [
+      "Georgia",
+      "California",
+      "New York",
+      "Texas"
+    ],
+    "activity_answer": "Georgia",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What other talents might help someone become a successful actress?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "393",
+    "title": "A Star is Born: Liu Yifei's Journey",
+    "story": "A talented performer entered the world on August 25, 1987. Liu Yifei, born in Wuhan, China, would grow up to become a multi-talented star. This Chinese-American actress dazzled audiences in films like The Chinese Widow and Disney's live-action Mulan. But Liu's talents don't stop at acting - she's also a pop singer, entertaining fans with her voice.",
+    "activity_question": "What other talent does Liu Yifei have besides acting?",
+    "activity_choices": [
+      "Pop singer",
+      "Ballet dancer",
+      "Martial artist",
+      "Painter"
+    ],
+    "activity_answer": "Pop singer",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Have you seen Liu Yifei in any movies? Which one is your favorite?",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "385",
+    "title": "Kel Mitchell: From Chicago to Comedy Stardom",
+    "story": "Laughter echoed through Chicago as Kel Mitchell entered the world on August 25, 1978. This future comedy star would grow up to tickle funny bones across America. Kel became famous for his hilarious roles on the TV show 'All That' and as the voice of T-Bone in 'Clifford the Big Red Dog'. His goofy expressions and wild antics made him a favorite among kids and adults alike.",
+    "activity_question": "What TV show did Kel Mitchell become famous for?",
+    "activity_choices": [
+      "'All That'",
+      "'Saturday Night Live'",
+      "'The Amanda Show'",
+      "'Kenan & Kel'"
+    ],
+    "activity_answer": "'All That'",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What other beloved children's character did Kel Mitchell voice?",
+    "score": 90,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "321",
+    "title": "KISS Bassist Rocks into the World",
+    "story": "Chaim Witz, better known as Gene Simmons, roared onto the music scene in 1949. Born on August 25 in Tirat Carmel, Israel, he would grow up to become the fire-breathing, tongue-wagging bassist of the iconic rock band KISS. Simmons helped create unforgettable hits like 'Rock and Roll All Nite', thrilling fans with his wild stage persona.",
+    "activity_question": "What was Gene Simmons' birth name?",
+    "activity_choices": [
+      "Chaim Witz",
+      "Gene Simmons",
+      "Paul Stanley",
+      "Ace Frehley"
+    ],
+    "activity_answer": "Chaim Witz",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "KISS band members wear face paint and costumes on stage, each with a unique character.",
+    "score": 70,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "156",
+    "title": "California's Big Move for Cleaner Cars",
+    "story": "Vroom! California made a bold decision in 2022. On August 25, the state voted to stop selling new gas-powered cars by 2035. This means future cars in California will run on electricity or other clean energy. It's a big step to help the environment and fight climate change. The rule gives car makers time to create more eco-friendly vehicles for everyone.",
+    "activity_question": "What type of cars will California stop selling by 2035?",
+    "activity_choices": [
+      "New gas-powered cars",
+      "Used electric cars",
+      "Flying cars",
+      "Self-driving cars"
+    ],
+    "activity_answer": "New gas-powered cars",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think California made this decision?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "115",
+    "title": "Space Dreams Take Flight in Houston",
+    "story": "Blast off! On August 25, 1988, the Challenger Center in Houston opened its doors to young space enthusiasts. This special classroom wasn't just any old school - it was designed to inspire the next generation of astronauts and scientists. Kids could step into a mock space shuttle and feel like real space explorers. The center honored the brave Challenger crew while sparking curiosity about the cosmos.",
+    "activity_question": "What was special about the Challenger Center classroom?",
+    "activity_choices": [
+      "It was designed to inspire future astronauts",
+      "It was made of moon rocks",
+      "It had zero gravity",
+      "It was taught by aliens"
+    ],
+    "activity_answer": "It was designed to inspire future astronauts",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Would you like to visit a space-themed classroom? What would you want to learn there?",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "43",
+    "title": "America's Natural Treasures Get a Guardian",
+    "story": "Majestic mountains, deep canyons, and ancient forests gained a powerful protector. On August 25, 1916, the National Park Service was born. This new agency would care for America's most beautiful wild places. It ensured future generations could explore and enjoy these natural wonders. From Yellowstone to the Grand Canyon, the National Park Service became the guardian of America's outdoor treasures.",
+    "activity_question": "What was created to protect America's natural wonders?",
+    "activity_choices": [
+      "The National Park Service",
+      "The Forest Rangers",
+      "The Wildlife Protection Agency",
+      "The Mountain Climbers Club"
+    ],
+    "activity_answer": "The National Park Service",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name a famous national park you'd like to visit?",
+    "score": 70,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "18",
+    "title": "A City Born from Swamps",
+    "story": "Imagine a swampy wilderness transformed into a bustling city! That's exactly what happened in 1718 when French colonists arrived in Louisiana. On August 25, they founded New Orleans, carving a new settlement out of the marshy land. These brave pioneers laid the groundwork for what would become one of America's most unique and vibrant cities, known for its rich culture, music, and delicious cuisine.",
+    "activity_question": "What did French colonists do when they arrived in Louisiana?",
+    "activity_choices": [
+      "Founded New Orleans",
+      "Built a giant fort",
+      "Planted a huge garden",
+      "Started a school"
+    ],
+    "activity_answer": "Founded New Orleans",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "New Orleans was named after the Duke of Orleans, who ruled France at the time.",
+    "optional_type": "bonus_fact",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "25",
+    "title": "A Bridge Fit for a Prince",
+    "story": "Imagine a bridge so long it seemed to stretch forever! In 1860, the Tubular Victoria Bridge opened in Montreal, Canada. Spanning the mighty St. Lawrence River, it was an engineering marvel. At nearly two kilometers, it was the world's longest bridge. On August 25, the Prince of Wales himself came to cut the ribbon, making it official.",
+    "activity_question": "Who officially opened the Tubular Victoria Bridge?",
+    "activity_choices": [
+      "The Prince of Wales",
+      "The Mayor of Montreal",
+      "The Queen of England",
+      "A famous engineer"
+    ],
+    "activity_answer": "The Prince of Wales",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The bridge was 'tubular', meaning trains could pass through it like a giant tunnel!",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "195",
+    "title": "Giant Airship Soars Over San Francisco",
+    "story": "A massive silver airship glided silently above San Francisco's skyline. The Graf Zeppelin, longer than two football fields, amazed onlookers on August 25, 1929. This gentle giant of the skies had just completed an incredible journey across the Pacific Ocean. Now it floated majestically towards Los Angeles, marking a golden age of airship travel.",
+    "activity_question": "What was the name of the airship that flew over San Francisco?",
+    "activity_choices": [
+      "Graf Zeppelin",
+      "Silver Bullet",
+      "Pacific Voyager",
+      "Sky Giant"
+    ],
+    "activity_answer": "Graf Zeppelin",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "Airships like the Graf Zeppelin were filled with hydrogen, a very light gas.",
+    "optional_type": "bonus_fact",
+    "score": 75,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "31",
+    "title": "Scientist Cracks the Plague's Secret",
+    "story": "In a groundbreaking discovery, Japanese scientist Shibasaburo Kitasato uncovered the cause of the dreaded bubonic plague. His findings, published in the medical journal The Lancet in 1894, shed light on the mysterious illness that had terrified people for centuries. Kitasato's work on August 25 that year marked a huge step forward in understanding and fighting this deadly disease.",
+    "activity_question": "Where did Kitasato publish his findings about the bubonic plague?",
+    "activity_choices": [
+      "The Lancet",
+      "National Geographic",
+      "Scientific American",
+      "The New England Journal of Medicine"
+    ],
+    "activity_answer": "The Lancet",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think understanding the cause of a disease is important for fighting it?",
+    "score": 70,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "160",
+    "title": "Dust Storm Swallows Phoenix",
+    "story": "A massive wall of dust called a haboob swept through Phoenix, Arizona on August 25, 2025. The towering cloud of sand and dirt plunged the city into darkness, making it nearly impossible to see. As if that wasn't wild enough, fierce thunderstorms followed, bringing strong winds that knocked out power across the area. Despite the chaos, Phoenicians showed their resilience, working together to clean up and stay safe.",
+    "activity_question": "What type of dust storm hit Phoenix?",
+    "activity_choices": [
+      "Haboob",
+      "Tornado",
+      "Hurricane",
+      "Sandstorm"
+    ],
+    "activity_answer": "Haboob",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think people in Phoenix prepared for the dust storm?",
+    "optional_type": "follow_up_question",
+    "score": 82,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "149",
+    "title": "Powerful Hurricane Harvey Strikes Texas",
+    "story": "Howling winds and pounding rain battered the Texas coast as Hurricane Harvey roared ashore in 2017. This massive storm packed winds of 130 mph when it slammed into land northeast of Corpus Christi on August 25. Harvey was a Category 4 hurricane, one of the strongest to hit the United States in years. It brought widespread flooding and damage, testing the resilience of Texans.",
+    "activity_question": "What category was Hurricane Harvey when it made landfall?",
+    "activity_choices": [
+      "Category 2",
+      "Category 3",
+      "Category 4",
+      "Category 5"
+    ],
+    "activity_answer": "Category 4",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it's important for coastal communities to prepare for hurricanes?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "144",
+    "title": "Monsoon Mayhem in Myanmar",
+    "story": "Raging waters swept through Myanmar in 2012, forcing tens of thousands to flee their homes. Heavy monsoon rains triggered severe floods on August 25, affecting villages and farmlands across the country. Communities banded together, setting up shelters and distributing aid to those in need. The floods highlighted the importance of disaster preparedness and environmental protection.",
+    "activity_question": "What caused the severe floods in Myanmar?",
+    "activity_choices": [
+      "Heavy monsoon rains",
+      "Broken dams",
+      "Melting glaciers",
+      "Alien water cannons"
+    ],
+    "activity_answer": "Heavy monsoon rains",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How can communities prepare for floods?",
+    "score": 70,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "117",
+    "title": "NASA's Cosmic Balloon Adventure",
+    "story": "Whoosh! A giant balloon soared into the sky, carrying precious scientific instruments. This wasn't just any balloon - it was NASA's space vehicle S-214, launched on August 25, 1988. Scientists eagerly watched as it climbed higher and higher, ready to explore the mysteries of our atmosphere and beyond. These special balloons help researchers study space without the need for expensive rockets, floating gently above Earth to gather important data.",
+    "activity_question": "What did NASA launch in 1988?",
+    "activity_choices": [
+      "Space vehicle S-214",
+      "A weather satellite",
+      "The Hubble telescope",
+      "A giant kite"
+    ],
+    "activity_answer": "Space vehicle S-214",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why might scientists prefer using balloons instead of rockets for some space research?",
+    "score": 92,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "190",
+    "title": "Lauryn Hill's Musical Masterpiece",
+    "story": "Lauryn Hill's voice soared to new heights when she released her groundbreaking solo album. 'The Miseducation of Lauryn Hill' hit the music world on August 25, 1998, and quickly became a sensation. The album's powerful blend of hip-hop, soul, and R&B captivated listeners. It went on to win an impressive five Grammy Awards, including the coveted Album of the Year. Billboard also named it Album of the Year for 1998.",
+    "activity_question": "What prestigious award did Lauryn Hill's album win?",
+    "activity_choices": [
+      "Album of the Year",
+      "Best New Artist",
+      "Song of the Year",
+      "Record of the Year"
+    ],
+    "activity_answer": "Album of the Year",
+    "suitable_for_8_to_12_year_old": false,
+    "bonus_fact": "Lauryn Hill was the first female hip-hop artist to win Album of the Year at the Grammys.",
+    "optional_type": "bonus_fact",
+    "score": 85,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "185",
+    "title": "Paul Simon's Musical Journey to Graceland",
+    "story": "Paul Simon took listeners on a global adventure with his album Graceland. Released in 1986, it blended pop, African rhythms, zydeco, and rock into a unique sound. The album's catchy tunes and innovative style captured hearts worldwide. Graceland went on to win a Grammy and sell millions of copies, becoming a musical landmark on August 25.",
+    "activity_question": "What musical styles did Paul Simon blend in Graceland?",
+    "activity_choices": [
+      "Pop, African, zydeco, and rock",
+      "Jazz, blues, and country",
+      "Classical, opera, and folk",
+      "Reggae, punk, and disco"
+    ],
+    "activity_answer": "Pop, African, zydeco, and rock",
+    "suitable_for_8_to_12_year_old": false,
+    "bonus_fact": "Graceland's title track was inspired by Simon's road trip to Elvis Presley's famous home.",
+    "optional_type": "bonus_fact",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "181",
+    "title": "The Boss Rocks with 'Born to Run'",
+    "story": "Rock and roll history was made when Bruce Springsteen's album 'Born to Run' hit the shelves on August 25, 1975. The music world buzzed with excitement as fans rushed to hear The Boss's powerful new songs. This album launched Springsteen to superstardom, with its raw energy and unforgettable tunes capturing the spirit of American dreams.",
+    "activity_question": "What was the name of Bruce Springsteen's landmark album released in 1975?",
+    "activity_choices": [
+      "'Born to Run'",
+      "'Born in the USA'",
+      "'Thunder Road'",
+      "'The River'"
+    ],
+    "activity_answer": "'Born to Run'",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "Springsteen's nickname 'The Boss' stuck from his early days of collecting and distributing gig money to his band.",
+    "optional_type": "bonus_fact",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "179",
+    "title": "Elton John's American Debut Rocks LA",
+    "story": "Elton John burst onto the American music scene in 1970. The British piano man dazzled the crowd at the Troubadour, a famous club in West Hollywood. His energetic performance on August 25 wowed the audience, launching his superstar career in the United States. Elton's flashy outfits and catchy tunes quickly made him a household name.",
+    "activity_question": "Where did Elton John make his first US appearance?",
+    "activity_choices": [
+      "The Troubadour",
+      "Madison Square Garden",
+      "Hollywood Bowl",
+      "Central Park"
+    ],
+    "activity_answer": "The Troubadour",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What city is the Troubadour located in?",
+    "score": 65,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "178",
+    "title": "The Beatles' Spiritual Journey Begins",
+    "story": "The Fab Four took an unexpected turn in 1967. On August 25, The Beatles hopped on a train to Bangor, Wales. Their mission? To study transcendental meditation with Maharishi Mahesh Yogi. This marked the start of the band's spiritual exploration, influencing their music and personal lives for years to come.",
+    "activity_question": "Where did The Beatles travel to study meditation?",
+    "activity_choices": [
+      "Bangor, Wales",
+      "London, England",
+      "Liverpool, England",
+      "Penny Lane"
+    ],
+    "activity_answer": "Bangor, Wales",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What type of meditation did The Beatles study?",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "193",
+    "title": "ABBA's Mamma Mia! Returns to London Stage",
+    "story": "The curtain rises again! On August 25, 2021, the hit musical Mamma Mia! made its triumphant return to London's West End. After a long pause due to COVID-19, the Novello Theatre once again filled with the catchy tunes of ABBA. Fans danced in their seats, thrilled to experience the magic of this beloved show live on stage once more.",
+    "activity_question": "Where did Mamma Mia! reopen in London?",
+    "activity_choices": [
+      "The Novello Theatre",
+      "The Royal Opera House",
+      "The Globe Theatre",
+      "The Piccadilly Theatre"
+    ],
+    "activity_answer": "The Novello Theatre",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Mamma Mia! features songs by the Swedish pop group ABBA, including Dancing Queen and Take a Chance on Me.",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "187",
+    "title": "Miles Davis: The Last Trumpet Call",
+    "story": "The smooth sounds of a trumpet filled the air at the Hollywood Bowl. Jazz legend Miles Davis was giving his final live performance, though no one knew it at the time. On August 25, 1991, Davis played his heart out, mesmerizing the audience with his unique style. His innovative music had shaped jazz for decades, inspiring countless musicians along the way.",
+    "activity_question": "Where did Miles Davis give his final live performance?",
+    "activity_choices": [
+      "Hollywood Bowl",
+      "Carnegie Hall",
+      "Madison Square Garden",
+      "Central Park"
+    ],
+    "activity_answer": "Hollywood Bowl",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Miles Davis was known for playing the trumpet with his back to the audience, adding mystery to his performances.",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "196",
+    "title": "Paris Saved: A Commander's Brave Choice",
+    "story": "Boom! The sound of freedom echoed through Paris in 1944. German commander Dietrich von Choltitz made a daring decision. Instead of destroying the beautiful city as ordered, he surrendered it to the Free French forces on August 25. This brave act saved countless lives and preserved Paris's stunning landmarks. Charles de Gaulle, leader of the French government-in-exile, celebrated with a rousing speech.",
+    "activity_question": "What did the German commander do instead of destroying Paris?",
+    "activity_choices": [
+      "He surrendered it",
+      "He fled the city",
+      "He joined the French forces",
+      "He built a giant croissant"
+    ],
+    "activity_answer": "He surrendered it",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it was brave for the commander to disobey orders?",
+    "score": 70,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "168",
+    "title": "A Shocking Painting Rocks Paris",
+    "story": "Gasps filled the air as visitors saw Théodore Géricault's new painting. 'The Raft of the Medusa' caused a huge stir when it debuted at the Paris Salon on August 25, 1819. The massive artwork showed survivors of a real shipwreck, sparking heated debates about art and politics. It quickly became the talk of the town!",
+    "activity_question": "What was the name of Géricault's painting that caused a sensation?",
+    "activity_choices": [
+      "'The Raft of the Medusa'",
+      "'The Shipwreck'",
+      "'Survivors at Sea'",
+      "'The Paris Sensation'"
+    ],
+    "activity_answer": "'The Raft of the Medusa'",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think this painting caused such a stir among people who saw it?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "44",
+    "title": "Taking Flight: The First Passenger Plane",
+    "story": "Wings spread wide, a small aircraft soared into aviation history. On August 25, 1919, the first scheduled passenger flight took off, connecting Paris to London. Adventurous travelers climbed aboard, excited to cross the English Channel by air instead of boat. This daring journey marked the beginning of a new era in transportation, shrinking the world and opening up exciting possibilities for global travel.",
+    "activity_question": "What two cities did the first scheduled passenger flight connect?",
+    "activity_choices": [
+      "Paris and London",
+      "New York and Boston",
+      "Berlin and Moscow",
+      "Rome and Athens"
+    ],
+    "activity_answer": "Paris and London",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think air travel has changed since 1919?",
+    "score": 70,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "134",
+    "title": "Cuba Strikes Gold in Olympic Baseball",
+    "story": "Bats cracked and crowds roared as Cuba clinched baseball gold at the Athens Olympics in 2004. On August 25, the Cuban team outplayed Australia with a decisive 6-2 victory. Japan secured the bronze, rounding out the podium. Surprisingly, the United States, known for its love of baseball, didn't even qualify for the tournament. It was a thrilling showcase of international talent on the diamond.",
+    "activity_question": "Which country did Cuba defeat to win the gold medal in baseball?",
+    "activity_choices": [
+      "Australia",
+      "Japan",
+      "United States",
+      "Greece"
+    ],
+    "activity_answer": "Australia",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think baseball is popular in Cuba?",
+    "optional_type": "follow_up_question",
+    "score": 82,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "93",
+    "title": "Baseball Star's Pitching and Hitting Heroics",
+    "story": "Rocky Colavito amazed baseball fans with his versatility in 1968. The New York Yankees outfielder stepped onto the mound and pitched for part of an inning, helping his team defeat the Detroit Tigers 6-5. But Colavito wasn't done yet! In the second game on August 25, he returned to his usual spot in right field and smacked a home run. Talk about a player who could do it all!",
+    "activity_question": "What position did Rocky Colavito usually play for the New York Yankees?",
+    "activity_choices": [
+      "Pitcher",
+      "Outfielder",
+      "Catcher",
+      "Shortstop"
+    ],
+    "activity_answer": "Outfielder",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another sport where players might switch positions during a game?",
+    "optional_type": "follow_up_question",
+    "score": 93,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "53",
+    "title": "Pitching Perfection: Walter Johnson's No-Hitter",
+    "story": "Baseball legend Walter Johnson dazzled fans in 1924 with an incredible performance. The Washington Senators pitcher threw his second career no-hitter on August 25, shutting down the Browns. Johnson's arm was on fire as he struck out batter after batter. The game lasted just seven innings, but that was enough for the Senators to claim a 2-0 victory.",
+    "activity_question": "What team did Walter Johnson pitch for?",
+    "activity_choices": [
+      "Washington Senators",
+      "New York Yankees",
+      "Boston Red Sox",
+      "Chicago Cubs"
+    ],
+    "activity_answer": "Washington Senators",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "A no-hitter means the pitcher doesn't allow any hits from the opposing team throughout the entire game.",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "155",
+    "title": "Cricket Legend Bowls His Way to History",
+    "story": "James Anderson made cricket history with a spectacular catch. The English fast bowler snagged his 600th Test wicket when Pakistan's Azhar Ali was caught at first slip. This amazing feat happened during a match in Southampton on August 25, 2020. Anderson became the first fast bowler ever to reach this incredible milestone in Test cricket.",
+    "activity_question": "What milestone did James Anderson achieve?",
+    "activity_choices": [
+      "600 Test wickets",
+      "500 Test wickets",
+      "100 Test wickets",
+      "1000 Test wickets"
+    ],
+    "activity_answer": "600 Test wickets",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What position is a fast bowler in cricket?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "78",
+    "title": "Marathon Mix-Up: A Wrong Turn's Costly Lesson",
+    "story": "In a thrilling race on August 25, 1954, runner Ivan Filin learned a tough lesson about focus. Leading the Bern Marathon, Filin entered the stadium first, victory in sight. But in a moment of confusion, he turned the wrong way! Two quick-thinking runners seized the opportunity, dashing past Filin to claim first and second place. Despite his earlier lead, Filin finished third, reminding us that every step counts in a marathon.",
+    "activity_question": "What mistake did Ivan Filin make during the Bern Marathon?",
+    "activity_choices": [
+      "He turned the wrong way",
+      "He started running backwards",
+      "He stopped to tie his shoes",
+      "He tripped over a hurdle"
+    ],
+    "activity_answer": "He turned the wrong way",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why is it important to stay focused during a race?",
+    "score": 78,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "45",
+    "title": "Norman Ross: Olympic Swimming Sensation",
+    "story": "Splash! American swimmer Norman Ross dove into Olympic glory in 1920. At the Antwerp Games on August 25, he clinched his first gold medal in the men's 1,500 m freestyle. But Ross wasn't done yet! He went on to dominate two more events, winning gold in the 400 m freestyle and 4 x 200 m freestyle relay. His incredible performance made waves in the swimming world.",
+    "activity_question": "In which event did Norman Ross win his first gold medal?",
+    "activity_choices": [
+      "Men's 1,500 m freestyle",
+      "400 m freestyle",
+      "4 x 200 m freestyle relay",
+      "Underwater basket weaving"
+    ],
+    "activity_answer": "Men's 1,500 m freestyle",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How many total gold medals did Norman Ross win at the 1920 Olympics?",
+    "score": 78,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "176",
+    "title": "Sugar Ray's Sweet Victory",
+    "story": "Pow! Sugar Ray Robinson's fists flew like lightning. On August 25, 1950, the boxing ring erupted with excitement. Robinson faced off against Jose Basora for the middleweight title. With skill and power, Sugar Ray knocked out his opponent. The crowd roared as he claimed the championship belt, cementing his place as one of boxing's greatest stars.",
+    "activity_question": "What did Sugar Ray Robinson win?",
+    "activity_choices": [
+      "The middleweight boxing title",
+      "A gold medal",
+      "A sugar cane contest",
+      "The heavyweight championship"
+    ],
+    "activity_answer": "The middleweight boxing title",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think the boxer was nicknamed 'Sugar Ray'?",
+    "score": 65,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "182",
+    "title": "Hockey Legend's Sweet Legacy",
+    "story": "Skates and donuts? Tim Horton mastered both! This Canadian hockey star wowed fans on the ice, then created a beloved coffee shop chain. On August 25, 1977, the Hockey Hall of Fame honored Horton's amazing career. Sadly, he wasn't there to see it. But his legacy lives on in both sports history and tasty treats!",
+    "activity_question": "What did Tim Horton create besides his hockey career?",
+    "activity_choices": [
+      "A beloved coffee shop chain",
+      "A new type of hockey stick",
+      "An ice cream flavor",
+      "A sports magazine"
+    ],
+    "activity_answer": "A beloved coffee shop chain",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Have you ever been to a Tim Hortons? What's your favorite donut?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "128",
+    "title": "Wanda Panfil's Marathon Triumph",
+    "story": "Feet pounding the pavement, Wanda Panfil raced to victory in 1991. On August 25, she conquered the Women's World Championship Marathon. Panfil's incredible endurance and speed led her to finish in just over two and a half hours. Her win showcased the strength and determination of female athletes on the world stage.",
+    "activity_question": "What event did Wanda Panfil win in 1991?",
+    "activity_choices": [
+      "Women's World Championship Marathon",
+      "Olympic 100-meter sprint",
+      "Tour de France cycling race",
+      "World Cup soccer final"
+    ],
+    "activity_answer": "Women's World Championship Marathon",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think runners prepare for such long races?",
+    "score": 70,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "70",
+    "title": "Victory in the Solomon Islands",
+    "story": "Jungle warfare raged in the Pacific. In 1943, US forces battled through dense forests and swamps on New Georgia island. Their mission? To push back Japanese troops during World War II. After weeks of fierce fighting, on August 25, American soldiers finally secured control of the island. This victory was a crucial step in the Allied campaign to reclaim the Solomon Islands.",
+    "activity_question": "What island did US forces secure control of?",
+    "activity_choices": [
+      "New Georgia",
+      "Solomon",
+      "Pacific",
+      "Japan"
+    ],
+    "activity_answer": "New Georgia",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The Solomon Islands are home to over 900 islands, many uninhabited.",
+    "score": 70,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "80",
+    "title": "Austria Waves Goodbye to Soviet Troops",
+    "story": "Cheers erupted across Austria as the last Soviet soldiers packed up and left the country. After a decade of occupation following World War II, Austria finally regained full independence on August 25, 1955. People celebrated in the streets, waving flags and singing. It marked the end of a long chapter and the start of a new era of freedom for Austrians.",
+    "activity_question": "What did people do to celebrate the Soviet troops leaving Austria?",
+    "activity_choices": [
+      "Waved flags and sang",
+      "Held a military parade",
+      "Launched fireworks",
+      "Planted trees"
+    ],
+    "activity_answer": "Waved flags and sang",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think Austrians felt when they finally regained their independence?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "109",
+    "title": "Airship Adventure Gone Wrong",
+    "story": "Whoosh! A giant French airship took to the skies on August 25, 1984. But this wasn't your average flight. As the airship soared, something went terribly wrong. The massive balloon-like craft suddenly flipped upside down! Imagine being a passenger hanging on for dear life as the world turned topsy-turvy. Luckily, quick-thinking rescuers saved the day.",
+    "activity_question": "What happened to the French airship during its flight?",
+    "activity_choices": [
+      "It capsized",
+      "It exploded",
+      "It disappeared",
+      "It landed safely"
+    ],
+    "activity_answer": "It capsized",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think airships are less common for travel today?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "120",
+    "title": "Breaking Barriers in Japanese Politics",
+    "story": "Mayumi Moriyama shattered a glass ceiling in Japanese politics. On August 25, 1989, she became Japan's first female cabinet secretary. This historic appointment marked a significant step forward for women in government. Moriyama's achievement opened doors for future generations of female leaders in Japan.",
+    "activity_question": "What position did Mayumi Moriyama become the first woman to hold in Japan?",
+    "activity_choices": [
+      "Cabinet secretary",
+      "Prime Minister",
+      "Emperor",
+      "Chief samurai"
+    ],
+    "activity_answer": "Cabinet secretary",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it's important for women to have leadership roles in government?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  }
+]

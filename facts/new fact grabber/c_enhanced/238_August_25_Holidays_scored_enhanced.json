@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Split Happens: National Banana Split Day!",
+    "story": "Every August 25, ice cream lovers across America celebrate National Banana Split Day by creating the ultimate dessert masterpiece! This sweet holiday honors the classic treat that starts with a banana sliced lengthwise, then gets loaded with three scoops of ice cream, hot fudge, whipped cream, nuts, and a cherry on top. Ice cream shops offer special deals and giant banana splits meant for sharing. Families make their own versions at home, experimenting with different flavors and toppings. Some people even host banana split parties where everyone builds their own creation. It's the perfect excuse to turn an ordinary day into something deliciously extraordinary!",
+    "activity_question": "What fruit is the main ingredient in a banana split?",
+    "activity_choices": [
+      "Banana",
+      "Apple",
+      "Strawberry",
+      "Pineapple"
+    ],
+    "activity_answer": "Banana",
+    "bonus_fact": "The first banana split was invented in 1904 in Pennsylvania!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Kiss and Make Up Day Magic",
+    "story": "Every August 25, people celebrate Kiss and Make Up Day by fixing broken friendships and saying sorry for past mistakes. Friends who haven't talked in weeks send texts, siblings hug it out after big fights, and families gather to clear the air. Some people write apology letters, others bring peace offerings like cookies or flowers. Social media fills with posts about forgiveness and second chances. It's the perfect day to swallow your pride and repair relationships that matter most to you.",
+    "activity_question": "What do people commonly do on Kiss and Make Up Day?",
+    "activity_choices": [
+      "Send apology texts and hug it out",
+      "Kiss every person they meet",
+      "Make up new dance moves",
+      "Only eat makeup-shaped candy"
+    ],
+    "activity_answer": "Send apology texts and hug it out",
+    "follow_up_question": "What friendship would you want to repair if you celebrated this day?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  }
+]

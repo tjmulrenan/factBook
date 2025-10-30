@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "original": "International Day for Biological Diversity",
+    "score": 65,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "National Maritime Day",
+    "score": 55,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "Harvey Milk Day",
+    "score": 43,
+    "is_kid_friendly": false
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Social Media Day: Share the Fun!",
+    "story": "Every June 30, people around the world celebrate Social Media Day by posting their favorite memories, sharing funny memes, and connecting with friends online! This special day honors all the apps and websites that help us stay in touch, from Instagram photos to TikTok videos. People create special hashtags, post throwback pictures, and even meet up with online friends in real life. It's a day to appreciate how technology brings us together!",
+    "activity_question": "What do people commonly share on Social Media Day?",
+    "activity_choices": [
+      "Favorite memories and funny memes",
+      "Only serious news articles",
+      "Their grocery shopping lists",
+      "Secret diary entries"
+    ],
+    "activity_answer": "Favorite memories and funny memes",
+    "follow_up_question": "What's your favorite way to connect with friends online?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  },
+  {
+    "id": "902",
+    "title": "Space Rocks Get Their Special Day!",
+    "story": "Every June 30, people around the world celebrate International Asteroid Day by looking up at the sky and learning about space rocks! Scientists host special events where kids can touch real meteorites, build asteroid models, and watch cool videos about these flying chunks of rock and metal. Museums open their doors for asteroid exhibits, and astronomers set up telescopes so families can stargaze together. The day helps everyone understand how asteroids have shaped our planet and continue to zoom through space. Some people even throw \"asteroid parties\" where they eat round snacks and play space-themed games to honor these cosmic travelers!",
+    "activity_question": "What do scientists let kids do on International Asteroid Day?",
+    "activity_choices": [
+      "Touch real meteorites",
+      "Ride on rockets",
+      "Paint the moon",
+      "Feed space aliens"
+    ],
+    "activity_answer": "Touch real meteorites",
+    "follow_up_question": "What would you want to learn most about asteroids if you visited a space museum?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  }
+]

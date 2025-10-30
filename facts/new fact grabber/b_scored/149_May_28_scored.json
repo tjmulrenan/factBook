@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "original": "National Hamburger Day",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "International Day of UN Peacekeepers",
+    "score": 45,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 3,
+    "original": "World Menstrual Hygiene Day",
+    "score": 35,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 4,
+    "original": "National Blueberry Cheesecake Day",
+    "score": 80,
+    "is_kid_friendly": true
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Dumpling Delight Day!",
+    "story": "Every September 17, kitchens across America fill with the sweet smell of baking apple dumplings! National Apple Dumpling Day celebrates this cozy dessert where whole apples get wrapped in flaky pastry dough and baked until golden. Families gather to make them together, rolling out dough and stuffing apples with cinnamon, butter, and brown sugar. Bakeries showcase their fanciest versions with special glazes and toppings. Food bloggers share their secret recipes online, while restaurants offer apple dumpling specials. It's the perfect way to welcome fall flavors and enjoy a warm, comforting treat that brings people together.",
+    "activity_question": "What do people typically stuff inside the apples when making apple dumplings?",
+    "activity_choices": [
+      "Cinnamon, butter, and brown sugar",
+      "Chocolate chips and marshmallows",
+      "Cheese and crackers",
+      "Peanut butter and jelly"
+    ],
+    "activity_answer": "Cinnamon, butter, and brown sugar",
+    "bonus_fact": "Apple dumplings are sometimes called \"apple babies\" in Pennsylvania Dutch country!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "902",
+    "title": "The Sandwich That's Fancy and Fried",
+    "story": "Every September 17, sandwich lovers celebrate National Monte Cristo Day by biting into one of the most delicious creations ever invented! A Monte Cristo sandwich is like a grilled cheese that went to fancy school - it's stuffed with ham, turkey, and Swiss cheese, then dipped in egg batter and fried until golden brown. Many restaurants serve them with powdered sugar on top and jam on the side, making it taste like breakfast and lunch had a party together. People love posting pictures of these towering, crispy sandwiches on social media because they look as amazing as they taste!",
+    "activity_question": "What makes a Monte Cristo sandwich different from a regular sandwich?",
+    "activity_choices": [
+      "It's dipped in egg batter and fried",
+      "It's served completely frozen",
+      "It only has vegetables inside",
+      "It's made with purple bread"
+    ],
+    "activity_answer": "It's dipped in egg batter and fried",
+    "bonus_fact": "The Monte Cristo sandwich was inspired by a French dish called Croque-monsieur!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "903",
+    "title": "Boots, Banjos, and Big Country Hearts",
+    "story": "Every September 17, country music fans around the world celebrate International Country Music Day by cranking up their favorite songs and sharing the twangy tunes they love most. People post videos of themselves singing country classics, attend local concerts, and even dress up in cowboy boots and hats for the occasion. Radio stations play non-stop country hits all day long, while social media fills with stories about legendary artists and rising stars who keep this heartfelt music alive.",
+    "activity_question": "What do people often wear to celebrate International Country Music Day?",
+    "activity_choices": [
+      "Cowboy boots and hats",
+      "Superhero costumes",
+      "Formal tuxedos",
+      "Swimming suits"
+    ],
+    "activity_answer": "Cowboy boots and hats",
+    "follow_up_question": "What country song always makes you want to sing along?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  }
+]

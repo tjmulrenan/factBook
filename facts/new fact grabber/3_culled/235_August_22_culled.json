@@ -1,0 +1,542 @@
+[
+  {
+    "id": 131,
+    "year": "2019",
+    "original": "Russia launches Fedor, the first life-sized robot, into space to the International Space Station on a Soyuz rocket from Baikonur Cosmodrome, Kazakhstan",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 1
+  },
+  {
+    "id": 142,
+    "year": "2024",
+    "original": "The largest diamond in more than a century, at 2,492 carats, is found in a mine in Botswana and is displayed by the country's President Mokgweetsi Masisi",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 2
+  },
+  {
+    "id": 2,
+    "year": "565",
+    "original": "Saint Columba reports seeing a monster in Loch Ness",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 3
+  },
+  {
+    "id": 128,
+    "year": "2018",
+    "original": "Discovery of a bone of a 90,000-year-old hybrid human, half Neanderthal, half Denisovan, from Anuy River, Siberia, is published in \"Nature\"",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 4
+  },
+  {
+    "id": 100,
+    "year": "1989",
+    "original": "The first complete ring around Neptune is discovered",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 5
+  },
+  {
+    "id": 130,
+    "year": "2019",
+    "original": "Bielefeld in Germany offers a €1 million prize to anyone who can prove the town doesn't exist to disprove a 25-year-old conspiracy theory",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 6
+  },
+  {
+    "id": 111,
+    "year": "2007",
+    "original": "The Texas Rangers rout the Baltimore Orioles 30-3, the most runs scored by a team in modern MLB history",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 7
+  },
+  {
+    "id": 184,
+    "year": "2008",
+    "original": "The Jamaican team led byUsain Boltsmashes the world 4 x 100m relay record in the final at the Beijing Olympics; disqualified in 2017 as Nesta Carter tests positive for a prohibited substance",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 8
+  },
+  {
+    "id": 26,
+    "year": "1851",
+    "original": "The 100 Guineas Cup yacht race is held around the Isle of Wight, the first race of the oldest international sporting competition now known as the America's Cup. In the race, US schooner \"America\" beats the British cutter \"Aurora\" by 24 minutes, prompting spectator Queen Victoria to ask who was in second place and the famous reply, \"Your majesty, there is no second.\"",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 9
+  },
+  {
+    "id": 139,
+    "year": "2023",
+    "original": "Eight people are dramatically rescued from a cable car after 14 hours in Khyber Pakhtunkhwa province, northwest Pakistan",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 10
+  },
+  {
+    "id": 177,
+    "year": "1986",
+    "original": "\"Stand By Me,\" a film based on the novella byStephen King, directed byRob Reinerand starring Wil Wheaton,River Phoenix, Corey Feldman, and Jerry O'Connell, is released",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 11
+  },
+  {
+    "id": 287,
+    "year": "1920",
+    "original": "Ray Bradbury, American sci-fi author (Fahrenheit 451), born in Waukegan, Illinois (d. 2012)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 12
+  },
+  {
+    "id": 74,
+    "year": "1963",
+    "original": "NASA civilian test pilot Joe Walker in the X-15 rocket plane achieves a world record altitude of 354,200 feet (107,960 m; 67 miles)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 13
+  },
+  {
+    "id": 179,
+    "year": "1989",
+    "original": "MLB Texas Rangers pitcherNolan Ryanstrikes out his 5,000th batter, Oakland A's outfielderRickey Henderson",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 14
+  },
+  {
+    "id": 280,
+    "year": "1915",
+    "original": "James Hillier, Canadian-American inventor (co-created the electron microscope), born in Brantford, Canada (d. 2007)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 15
+  },
+  {
+    "id": 285,
+    "year": "1920",
+    "original": "Denton Cooley, American heart surgeon (1st artificial heart transplant), born in Houston, Texas (d. 2016)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 16
+  },
+  {
+    "id": 157,
+    "year": "1902",
+    "original": "US PresidentTheodore Rooseveltbecomes the first US president to ride in an electric car",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 17
+  },
+  {
+    "id": 92,
+    "year": "1984",
+    "original": "Mets pitcherDwight Goodenbecomes the 11th rookie to strike out 200",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 35
+  },
+  {
+    "id": 162,
+    "year": "1927",
+    "original": "Yankees sluggerBabe Ruthhits his 40th home run during his MLB record 60-home-run season in New York's 9-4 loss to the Cleveland Indians at Dunn Field",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 19
+  },
+  {
+    "id": 91,
+    "year": "1984",
+    "original": "American Evelyn Ashford ties the world women's 100 m record in 10.76 seconds",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 30
+  },
+  {
+    "id": 164,
+    "year": "1950",
+    "original": "Althea Gibsonbecomes the first Black competitor in a US national tennis competition",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 21
+  },
+  {
+    "id": 186,
+    "year": "2021",
+    "original": "Josephine Bakerwill be the first Black woman to be interred in the Panthéon in Paris, according to the French government",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 22
+  },
+  {
+    "id": 334,
+    "year": "1941",
+    "original": "Thomas Lovejoy, American conservation biologist who coined the term \"biodiversity\", born in New York City (d. 2021)",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 23
+  },
+  {
+    "id": 145,
+    "year": "1485",
+    "original": "Battle of Bosworth Field:Henry Tudor's forces defeat English KingRichard IIIduring the last battle in the Wars of the Roses. Richard is killed, becoming the last English monarch to die in battle.",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 25
+  },
+  {
+    "id": 20,
+    "year": "1812",
+    "original": "Swiss traveler Johann Ludwig Burckhardt is the first European to rediscover the Nabataean city of Petra in modern-day Jordan",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 26
+  },
+  {
+    "id": 229,
+    "year": "1867",
+    "original": "Charles Francis Jenkins, American Inventor (altimeter, automobile self-starter, and early television pioneer), born in Dayton, Ohio (d. 1934)",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 27
+  },
+  {
+    "id": 60,
+    "year": "1950",
+    "original": "First patent for controlling vehicle speed (cruise control) is granted to American inventor Ralph Teetor",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 28
+  },
+  {
+    "id": 101,
+    "year": "1991",
+    "original": "Krisztina Egerszegi swims a world record 100 m backstroke in 1:00.31",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 29
+  },
+  {
+    "id": 117,
+    "year": "2008",
+    "original": "Steve Hooker wins the men's pole vault with 5.96 m at the Beijing Olympics, Australia's first gold medal in men's athletics since 1968",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 31
+  },
+  {
+    "id": 238,
+    "year": "1880",
+    "original": "George Herriman, American cartoonist (Krazy Kat), born in New Orleans, Louisiana (d. 1944)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 39
+  },
+  {
+    "id": 170,
+    "year": "1964",
+    "original": "Civil rights activistFannie Lou Hamerspeaks at the US Democratic National Convention about her terrifying experiences with voter registration as a Black woman in Mississippi",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 40
+  },
+  {
+    "id": 155,
+    "year": "1877",
+    "original": "800Nez PerceNative Americans, fleeing the US Army and attempting to reach Canada, retreat into Yellowstone National Park",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 41
+  },
+  {
+    "id": 133,
+    "year": "2020",
+    "original": "Fires burning in Northern California are declared a major disaster with the LNU Lightning Complex Fire (341,243 acres) and the SCU Lightning Complex Fire (339,968 acres) among the three largest wildfires in state history",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 42
+  },
+  {
+    "id": 138,
+    "year": "2022",
+    "original": "One of world's longest school closures ends in the Philippines as schools reopen for the first time since the COVID-19 pandemic after only online learning",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 43
+  },
+  {
+    "id": 19,
+    "year": "1791",
+    "original": "Haitian Slave Revolution begins under Vodou priest Boukman",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 44
+  },
+  {
+    "id": 30,
+    "year": "1872",
+    "original": "Australia's Overland Telegraph Line, one of Australia's greatest logistical and engineering feats, allows fast communication between Australia and the world for the first time",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 45
+  },
+  {
+    "id": 151,
+    "year": "1770",
+    "original": "British explorerJames Cook's claims the east coast of Australia for the British Crown and names it New South Wales",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 46
+  },
+  {
+    "id": 190,
+    "year": "1909",
+    "original": "First international flying event, the French air show Grande Semaine d'Aviation de la Champagne, is held near Reims in France, sponsored by Moët et Chandon, Mumm, and other makers of champagne",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 47
+  },
+  {
+    "id": 197,
+    "year": "1647",
+    "original": "Denis Papin, French physicist, and inventor (steam piston engine; Papinian pot (pressure cooker), born in Blois, France (d. 1713)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 48
+  },
+  {
+    "id": 203,
+    "year": "1771",
+    "original": "Henry Maudslay, English inventor of the metal lathe, born in Woolwich, London (d. 1831)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 49
+  },
+  {
+    "id": 248,
+    "year": "1893",
+    "original": "Ernest H. Volwiler, American scientist and co-inventor of Pentothal - world's most widely used anesthetic, born in Hamilton, Ohio (d. 1992)[1]",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 50
+  },
+  {
+    "id": 282,
+    "year": "1917",
+    "original": "John Lee Hooker, American blues guitarist (\"Boogie Chillen\"'; \"Boom Boom\"), born in Clarksdale, Mississippi (d. 2001)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 51
+  },
+  {
+    "id": 322,
+    "year": "1937",
+    "original": "Phyllis O'Donnell, Australian surfer (first Women's World Surfing Champion 1964), born in Sydney, Australia (d. 2024)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 52
+  },
+  {
+    "id": 333,
+    "year": "1941",
+    "original": "Michael Aldrich, British inventor (online shopping), born in Brocket Hall, England (d. 2014)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 53
+  },
+  {
+    "id": 13,
+    "year": "1762",
+    "original": "Ann Franklin publishes the Newport Mercury, becoming the first American female editor and publisher and the first woman inducted into the University of Rhode Island's Journalism Hall of Fame",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 54
+  },
+  {
+    "id": 156,
+    "year": "1894",
+    "original": "Mahatma Gandhiforms the Natal Indian Congress (NIC) in order to fight discrimination against Indian traders in the British Colony of Natal in South Africa",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 55
+  },
+  {
+    "id": 176,
+    "year": "1985",
+    "original": "Octavia E. Butler's \"Bloodchild\" wins her second Hugo Award for Best Novelette",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 56
+  },
+  {
+    "id": 227,
+    "year": "1860",
+    "original": "Paul G. Nipkow, German inventor, television technology pioneer (Nipkow disk), and namesake of the Nipkow Programm, born in Lauenburg, Pomerania, Kingdom of Prussia (d. 1940)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 57
+  },
+  {
+    "id": 231,
+    "year": "1868",
+    "original": "Willis Rodney Whitney, American Chemist, founder of the General Electric research laboratory, and pioneer of industrial scientific research, born in Jamestown, NY (d. 1958)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 58
+  },
+  {
+    "id": 253,
+    "year": "1896",
+    "original": "Laurence McKinley Gould, American Geologist and Polar Explorer who was chief scientist and second-in-command on the first expedition to the interior of Antarctica in 1929, born in Lacota, Michigan (d. 1995)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 59
+  },
+  {
+    "id": 308,
+    "year": "1932",
+    "original": "Gerald P Carr, American USMC colonel and NASA astronaut (Skylab 4), born in Denver, Colorado",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 60
+  },
+  {
+    "id": 217,
+    "year": "1844",
+    "original": "George Washington De Long, American Arctic Explorer whose disastrous expedition provided evidence to support the theory of trans-Arctic oceanic drift, born in New York City (d. 1881)",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 61
+  },
+  {
+    "id": 150,
+    "year": "1707",
+    "original": "PrinceEugene of Savoyleads the Austrian Imperial army to break the Great Siege of Turin, saving northern Italy from French control, an event still celebrated today",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 62
+  },
+  {
+    "id": 158,
+    "year": "1913",
+    "original": "Jack London's 15,000-square-foot stone mansion, called Wolf House, burns down two weeks before he plans to move in with his family",
+    "score": 68,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 63
+  },
+  {
+    "id": 78,
+    "year": "1966",
+    "original": "The Beatles arrive in New York City and hold two press conferences, one for the press and one for their fans",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 64
+  },
+  {
+    "id": 166,
+    "year": "1956",
+    "original": "Elvis Presleybegins filming \"Love Me Tender\" (The Reno Brothers)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 65
+  },
+  {
+    "id": 172,
+    "year": "1969",
+    "original": "The Beatles' last official group photo session takes place at John and Yoko's home, Tittenhurst Park, near Ascot, England",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 66
+  },
+  {
+    "id": 168,
+    "year": "1957",
+    "original": "Olympic heavyweight boxing champion Pete Rademacher becomes the first to contest the world title in his first professional bout and is knocked out byFloyd Pattersonin the 6th round at Sicks' Stadium, Seattle",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 68
+  },
+  {
+    "id": 105,
+    "year": "1998",
+    "original": "South Africa beats Australia 29-15 in Johannesburg to win its first Tri Nations Rugby Series with an unbeaten record; Springboks fullback Percy Montgomery lands five penalties and two conversions",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 69
+  },
+  {
+    "id": 80,
+    "year": "1969",
+    "original": "Gloria O. Smith of New York is crowned the second Miss Black America",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 70
+  }
+]

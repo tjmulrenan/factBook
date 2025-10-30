@@ -1,0 +1,542 @@
+[
+  {
+    "id": 190,
+    "year": "1991",
+    "original": "Tim Berners-Leereleases files describing his idea for the World Wide Web and debuts WWW as a publicly available service on the internet",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 1
+  },
+  {
+    "id": 95,
+    "year": "1979",
+    "original": "Marcus Hooper, 12, becomes the youngest person to swim across the English Channel",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 2
+  },
+  {
+    "id": 126,
+    "year": "1996",
+    "original": "NASA announces that life may have existed on Mars after examining meteorite ALH 84001, discovered in Antarctica and believed to be from Mars",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 3
+  },
+  {
+    "id": 83,
+    "year": "1964",
+    "original": "Prometheus, the world's oldest tree, aged at least 4,862 years, is accidentally cut down in Nevada, USA",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 4
+  },
+  {
+    "id": 6,
+    "year": "1181",
+    "original": "Supernova SN 1181 in the constellation Cassiopeia is observed by Chinese and Japanese astronomers and is visible for 185 days to February 6, 1182",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 5
+  },
+  {
+    "id": 136,
+    "year": "2012",
+    "original": "Mount Tongariro, New Zealand, erupts for the first time in a century",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 6
+  },
+  {
+    "id": 45,
+    "year": "1926",
+    "original": "American Gertrude Ederle (20) becomes the first woman to swim across the English Channel from Cap Gris-Nez, France, to Kingsdown, England, in 14 hours and 39 minutes, setting a record for males and females",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 7
+  },
+  {
+    "id": 183,
+    "year": "1972",
+    "original": "Hank Aaronhits his 660th and 661st home runs for the Atlanta Braves, breaking Babe Ruth's MLB record for most home runs with one team",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 8
+  },
+  {
+    "id": 201,
+    "year": "2023",
+    "original": "\"Barbie\" film passes $1 billion at the global box office; its director,Greta Gerwig, is the first solo female filmmaker to achieve this",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 9
+  },
+  {
+    "id": 162,
+    "year": "2024",
+    "original": "Chinese diver Quan Hongchan successfully defends her 10 m platform gold medal at the Paris Olympics, adding to her 10 m synchro platform gold with partner Chen Yuxi",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 16
+  },
+  {
+    "id": 206,
+    "year": "1960",
+    "original": "Chubby Checker performs his version of Hank Ballard's \"The Twist\" on \"TheDick ClarkShow,\" starting a worldwide dance craze",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 12
+  },
+  {
+    "id": 80,
+    "year": "1961",
+    "original": "Gherman S. Titov is the second Russian in space aboard Vostok 2 (17 orbits)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 13
+  },
+  {
+    "id": 180,
+    "year": "1966",
+    "original": "Muhammad Aliknocks out English boxer Brian London in round 3 at Earl's Court in London to retain his undisputed world heavyweight title",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 14
+  },
+  {
+    "id": 130,
+    "year": "2006",
+    "original": "American children's program \"Blue's Clues\" concludes its 10-year run on Nickelodeon cable channel",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 15
+  },
+  {
+    "id": 198,
+    "year": "2016",
+    "original": "Australian women's 4 × 100 m freestyle relay team ofEmma McKeon, Brittany Elmslie, Bronte Campbell, and Cate Campbell set a new world record of 3:30.65 to win gold ahead of the US and Canada at the Rio de Janeiro Olympics",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 17
+  },
+  {
+    "id": 66,
+    "year": "1948",
+    "original": "Dutch super athlete Fanny Blankers-Koen wins the 200 m in 24.4 seconds at the London Olympics, becoming the first woman to claim three individual track and field gold medals at a Games, having already won the 100 m and 80 m hurdles",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 21
+  },
+  {
+    "id": 200,
+    "year": "2021",
+    "original": "Jamaican 100/200m championElaine Thompson-Herahclaims her third track gold medal at the Tokyo Olympics as part of the winning Jamaican 4 x 100 m relay team",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 22
+  },
+  {
+    "id": 119,
+    "year": "1992",
+    "original": "Wrestler Bruce Baumgartner becomes the first American to win in three straight Olympics, capturing the gold in the 286-pound freestyle division in Barcelona",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 25
+  },
+  {
+    "id": 194,
+    "year": "1997",
+    "original": "Sri Lanka sets a world record of 952 for 6 in the first cricket Test against India in Colombo;Sanath Jayasuriyascores 340, Roshan Mahanama scores 225 in a record partnership of 576",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 27
+  },
+  {
+    "id": 148,
+    "year": "2017",
+    "original": "UEFA Women's Euro Final: Dutch forward Vivianne Miedema scores 2 as the Netherlands beat Denmark 4-2 in Enschede, the Netherlands",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 28
+  },
+  {
+    "id": 177,
+    "year": "1953",
+    "original": "Future Baseball Hall of Fame sluggerTed Williamsreturns to the Red Sox from military service in Korea and ends the abbreviated season with a .407 batting average",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 31
+  },
+  {
+    "id": 108,
+    "year": "1986",
+    "original": "Baltimore's Jim Dwyer & Larry Sheets, and Rangers Toby Harrah hit MLB record 3 grand slams in Texas' 13-11 win",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 51
+  },
+  {
+    "id": 81,
+    "year": "1962",
+    "original": "Jamaica becomes independent after 300 years of British rule",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 32
+  },
+  {
+    "id": 154,
+    "year": "2019",
+    "original": "A quarter of humanity is running out of water, with 17 countries under extreme water stress, including Cape Town, Los Angeles, and Bangalore, according to a report by the World Resources Institute",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 33
+  },
+  {
+    "id": 79,
+    "year": "1961",
+    "original": "First case of motion sickness in space reported",
+    "score": 79,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 34
+  },
+  {
+    "id": 105,
+    "year": "1985",
+    "original": "19th NASA Space Shuttle Mission (51-G): Challenger 8 lands at Edwards AFB",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 35
+  },
+  {
+    "id": 19,
+    "year": "1856",
+    "original": "The Great Bell is cast for the Great Clock of Westminster, London (Big Ben)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 36
+  },
+  {
+    "id": 164,
+    "year": "1497",
+    "original": "Italian explorerJohn Cabotreturns to Bristol from North America (Newfoundland), becoming the first European to do so since the Vikings",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 37
+  },
+  {
+    "id": 179,
+    "year": "1965",
+    "original": "US PresidentLyndon B. Johnsonsigns theVoting Rights Act, prohibiting voting discrimination against minorities",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 38
+  },
+  {
+    "id": 124,
+    "year": "1995",
+    "original": "Thousands gather in Hiroshima for the 50th anniversary of the atomic bombing of the city",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 39
+  },
+  {
+    "id": 85,
+    "year": "1965",
+    "original": "Beatles release their fifth UK album \"Help!\" from the film soundtrack",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 40
+  },
+  {
+    "id": 192,
+    "year": "1996",
+    "original": "American punk rock band \"TheRamones\" performs for the last time at the Palace in Hollywood, California",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 41
+  },
+  {
+    "id": 188,
+    "year": "1990",
+    "original": "Jim PalmerandJoe Morganare inducted into Baseball Hall of Fame, Cooperstown, NY",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 42
+  },
+  {
+    "id": 82,
+    "year": "1963",
+    "original": "Philadelphia NBA franchise changes name from \"Nationals\" to \"76ers,\" based on the US Declaration of Independence signed in Philadelphia in 1776",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 53
+  },
+  {
+    "id": 169,
+    "year": "1824",
+    "original": "Battle of Junín:Simón Bolívar's army defeats the Spanish",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 54
+  },
+  {
+    "id": 17,
+    "year": "1825",
+    "original": "Bolivia gains independence from Spain (National Day)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 55
+  },
+  {
+    "id": 167,
+    "year": "1699",
+    "original": "HMS Roebuck, captained byWilliam Dampier, lands at Shark Bay, Western Australia on the first British scientific expedition to Australia",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 56
+  },
+  {
+    "id": 87,
+    "year": "1966",
+    "original": "Salazar Bridge over the Tagus, the longest suspension bridge in Europe, opens",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 57
+  },
+  {
+    "id": 184,
+    "year": "1973",
+    "original": "Roberto Clemente,Warren Spahn, Billy Evans, Monte Irvin, Mickey Welch, and George \"High Pockets\" Kelly are inducted into the Baseball Hall of Fame in Cooperstown, NY",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 63
+  },
+  {
+    "id": 182,
+    "year": "1970",
+    "original": "Festival for Peace concert is held at Shea Stadium, New York City, to commemorate the 25th anniversary of the Hiroshima bombing; performers includeJanis Joplin,Paul Simon,Creedence Clearwater Revival, Steppenwolf,Miles Davis, Johnny Winter,Herbie Hancock,Dionne Warwick, John Sebastian, The Rascals, and the Broadway cast of \"Hair\"",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 64
+  },
+  {
+    "id": 149,
+    "year": "2018",
+    "original": "Boston appoints its first African American Police Commissioner William G. Gross",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 65
+  },
+  {
+    "id": 147,
+    "year": "2016",
+    "original": "Super Rugby Final, Westpac Stadium Wellington: Wellington Hurricanes win their first Super Rugby title with a 20-3 victory over the Lions from Johannesburg",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 66
+  },
+  {
+    "id": 102,
+    "year": "1983",
+    "original": "First NFL exhibition game in Europe: Minnesota Vikings beat St. Louis Cardinals 28-10 at London's Wembley Stadium",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 68
+  },
+  {
+    "id": 78,
+    "year": "1961",
+    "original": "British auto racer Sterling Moss scores his 16th and final Formula 1 victory in the German Grand Prix at the Nürburgring",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 69
+  },
+  {
+    "id": 41,
+    "year": "1919",
+    "original": "Harry Butler makes the first flight across a major body of water in Australia, delivering mail from Adelaide across Gulf St. Vincent to Minlaton on the Yorke Peninsula",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 70
+  },
+  {
+    "id": 103,
+    "year": "1983",
+    "original": "Supertanker Castillo de Bellver catches fire and sinks northwest of Cape Town, South Africa",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 73
+  },
+  {
+    "id": 128,
+    "year": "1997",
+    "original": "Newly established NHL franchise Nashville Predators name Barry Trotz as inaugural coach; lasts 15 seasons and 1,196 regular season games",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 74
+  },
+  {
+    "id": 13,
+    "year": "1806",
+    "original": "Holy Roman Empire ends; it was described by Voltaire as \"in no way holy, nor Roman, nor an empire.\" Emperor Francis II renounces the title, becoming instead the first Emperor of Austria",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 75
+  },
+  {
+    "id": 15,
+    "year": "1819",
+    "original": "Norwich University is founded in Vermont as the first private military school in the United States",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 76
+  },
+  {
+    "id": 9,
+    "year": "1661",
+    "original": "Treaty of The Hague is signed, whereby the Dutch Republic sells New Holland (Brazil) to Portugal for 63 tons of gold",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 77
+  },
+  {
+    "id": 3,
+    "year": "695",
+    "original": "Maya King Jasaw Chan K'awill I of Tikal defeats Yich'aak K'ahk' (\"Claw of Fire\"), his long-standing rival and king of Calakmul",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 78
+  },
+  {
+    "id": 71,
+    "year": "1951",
+    "original": "The National Museum of Racing opens in Congress Park in Saratoga Springs, NY",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 79
+  },
+  {
+    "id": 291,
+    "year": "1924",
+    "original": "Ella Jenkins, American folk singer-songwriter, and ukulele player (Multicultural Children's Songs), born in St. Louis, Missouri (d. 2024)[1]",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 80
+  },
+  {
+    "id": 392,
+    "year": "1981",
+    "original": "Leslie Odom Jr., American stage actor and singer (Hamilton), born in Queens, New York City",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 81
+  },
+  {
+    "id": 339,
+    "year": "1948",
+    "original": "Michael Peters, American choreographer and dancer (\"Dreamgirls\"; Michael Jackson videos \"Beat It\" and \"Thriller\"), born in Brooklyn, New York (d. 1994)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 82
+  },
+  {
+    "id": 388,
+    "year": "1976",
+    "original": "Soleil Moon Frye, American actress (Punky Brewster; Sabrina, the Teenage Witch - \"Roxie\"), and documentary film maker, born in Glendora, California",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 83
+  },
+  {
+    "id": 399,
+    "year": "2001",
+    "original": "Ty Simpkins, American actor (Insidious; Jurassic World), born in New York City",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 84
+  },
+  {
+    "id": 374,
+    "year": "1965",
+    "original": "Yuki Kajiura, Japanese film, anime, and video game music composer, born in Tokyo, Japan",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 85
+  },
+  {
+    "id": 329,
+    "year": "1943",
+    "original": "Jon Postel, American computer scientist known as \"the god of the internet\", born in Altadena, California (d. 1998)",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 87
+  },
+  {
+    "id": 379,
+    "year": "1969",
+    "original": "Elliott Smith [Steven Smith], American Oscar nominated singer-songwriter (Good Will Hunting - \"Miss Misery\"), born in Omaha, Nebraska (d. 2003)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 88
+  }
+]

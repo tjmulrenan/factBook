@@ -1,0 +1,542 @@
+[
+  {
+    "id": 103,
+    "year": "1984",
+    "original": "Hollie Roffey, aged 10 days, is the youngest person to ever receive a heart transplant and survives 28 days",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 1
+  },
+  {
+    "id": 149,
+    "year": "2020",
+    "original": "NASA launches its Perseverance rover and Ingenuity helicopter to Mars aboard an Atlas V 541 rocket from Cape Canaveral, Florida",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 2
+  },
+  {
+    "id": 94,
+    "year": "1980",
+    "original": "Vanuatu (New Hebrides) gains independence from Britain and France",
+    "score": 94,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 3
+  },
+  {
+    "id": 52,
+    "year": "1930",
+    "original": "First FIFA World Cup Final, Estadio Centenario, Montevideo, Uruguay: Uruguay beats Argentina 4-2 in the inaugural event",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 4
+  },
+  {
+    "id": 92,
+    "year": "1980",
+    "original": "American swimmers Mary T. Meagher (2.06.37) and Craig Beardsley (1.58.21) set 200 m butterfly world records at the US National Swimming Championships at Irvine, California",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 5
+  },
+  {
+    "id": 120,
+    "year": "1992",
+    "original": "Lin Li swims a female world record in the 200m medley with a time of 2:11.65",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 6
+  },
+  {
+    "id": 159,
+    "year": "2025",
+    "original": "8.8 magnitude earthquake strikes off Russia's far eastern Kamchatka Peninsula, triggering tsunami warnings across the Pacific Ocean; evacuations ordered in parts of Japan and Hawaii, as well as alerts being issued in China, New Zealand, the Philippines, and other island countries",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 7
+  },
+  {
+    "id": 406,
+    "year": "1999",
+    "original": "Tom Pidcock, English cyclist (Olympic gold mountain bike cross country 2020, 24; Cyclo-cross World C'ship gold 2022), born in Leeds, England",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 8
+  },
+  {
+    "id": 61,
+    "year": "1946",
+    "original": "First rocket attains 100 mi (167 km) altitude in White Sands, New Mexico",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 9
+  },
+  {
+    "id": 71,
+    "year": "1966",
+    "original": "FIFA World Cup Final, Wembley Stadium, London: Striker Geoff Hurst scores a hat trick as England beats West Germany 4-2 after extra time",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 10
+  },
+  {
+    "id": 90,
+    "year": "1976",
+    "original": "Japan defeats Russia for Olympic gold in woman's volleyball",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 11
+  },
+  {
+    "id": 91,
+    "year": "1978",
+    "original": "Expos crush Braves 19-0, collecting 28 hits and tying the National League record with eight home runs",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 12
+  },
+  {
+    "id": 139,
+    "year": "2015",
+    "original": "In Bandar Mahshahr, Iran, the temperature reaches 46°C (115°F), but humidity makes it feel like 73°C (163°F)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 15
+  },
+  {
+    "id": 321,
+    "year": "1947",
+    "original": "Françoise Barré-Sinoussi, French virologist (Nobel Prize 2008, discovered HIV), born in Paris, France",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 16
+  },
+  {
+    "id": 143,
+    "year": "2017",
+    "original": "Largest gathering of people with the same first name: 2,325 people named Ivan in Kupres, Bosnia and Herzegovina",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 21
+  },
+  {
+    "id": 162,
+    "year": "2025",
+    "original": "Klyuchevskoy Volcano in Russia's Kamchatka Peninsula erupts",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 22
+  },
+  {
+    "id": 169,
+    "year": "1775",
+    "original": "CaptainJames Cookwith HMS Resolution safely returns to England at the end of his second voyage",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 23
+  },
+  {
+    "id": 184,
+    "year": "1959",
+    "original": "In his MLB debut, SF Giants future Baseball Hall of Fame first basemanWillie McCoveygoes 4-for-4 in a 7-2 win over Philadelphia Phillies at Seal Stadium",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 24
+  },
+  {
+    "id": 199,
+    "year": "2003",
+    "original": "Toronto Rocks - SARSStock benefit with performers includingThe Rolling Stones,AC/DC, Rush, The Guess Who,Justin Timberlake, The Flaming Lips, and The Isley Brothers, at Downsview Park; largest concert in Canadian history attracts 450,000 spectators",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 25
+  },
+  {
+    "id": 348,
+    "year": "1958",
+    "original": "Kate Bush, English singer-songwriter (\"Running Up That Hill\"; \"Wuthering Heights\"), born in Bexleyheath, Kent, England",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 26
+  },
+  {
+    "id": 82,
+    "year": "1971",
+    "original": "US Apollo 15 (Scott & Irwin) lands on Mare Imbrium on the Moon",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 29
+  },
+  {
+    "id": 161,
+    "year": "2025",
+    "original": "High-resolution images reveal intricate tattoos on a 2,500-year-old female Siberian 'ice mummy'",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 30
+  },
+  {
+    "id": 275,
+    "year": "1924",
+    "original": "C. T. Vivian, American civil rights activist, worked with Martin Luther King, born in Boonville, Missouri (d. 2020)",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 31
+  },
+  {
+    "id": 16,
+    "year": "1756",
+    "original": "Bartolomeo Rastrelli presents the newly built Catherine Palace to Empress Elizabeth and her courtiers in Russia",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 32
+  },
+  {
+    "id": 80,
+    "year": "1971",
+    "original": "38th NFL Chicago All-Star Game: Baltimore 24, All-Stars 17 (52,289 attendees)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 33
+  },
+  {
+    "id": 105,
+    "year": "1985",
+    "original": "Discovery moves to the Vehicle Assembly Building at Kennedy Space Center in Florida for the mating of the STS 51-I mission",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 34
+  },
+  {
+    "id": 122,
+    "year": "1994",
+    "original": "Record 103.8°F (39.9°C) in Preschen, Lusatia, Germany",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 35
+  },
+  {
+    "id": 163,
+    "year": "2025",
+    "original": "Temperature of 41.2°C (106.2°F) in Tamba, Hyogo prefecture, Japan, sets new record for country, eclipsing previous high of 41.1°C set in 2018 and 2020; surpassed less than a week later",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 36
+  },
+  {
+    "id": 203,
+    "year": "2020",
+    "original": "Former presidentBarack Obamagives the eulogy at the funeral of Georgia congressman and civil rights leaderJohn Lewis; former presidentsGeorge W. BushandBill Clintonalso speak at Ebenezer Baptist Church in Atlanta",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 37
+  },
+  {
+    "id": 231,
+    "year": "1859",
+    "original": "Henry Louis Smith, American physicist who made the first X-ray photograph, born in Greensboro, North Carolina (d. 1951)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 38
+  },
+  {
+    "id": 309,
+    "year": "1940",
+    "original": "Clive Sinclair, British consumer electronics inventor (Executive pocket calculator; ZX Spectrum computer), born in Richmond, Surrey, England (d. 2021)[1]",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 40
+  },
+  {
+    "id": 13,
+    "year": "1715",
+    "original": "Spanish gold and silver fleet disappears off St. Lucie, Florida",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 42
+  },
+  {
+    "id": 123,
+    "year": "1995",
+    "original": "Dominic Cork takes a hat-trick in England's Test cricket win against West Indies at Old Trafford",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 43
+  },
+  {
+    "id": 17,
+    "year": "1792",
+    "original": "Five hundred Marseillais men sing France's national anthem for the first time",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 45
+  },
+  {
+    "id": 32,
+    "year": "1872",
+    "original": "Mahlon Loomis patents wireless telegraphy",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 46
+  },
+  {
+    "id": 33,
+    "year": "1874",
+    "original": "Boston and Philadelphia are the first baseball teams to play outside the US in the British Isles",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 47
+  },
+  {
+    "id": 152,
+    "year": "2023",
+    "original": "Évian Championship Women's Golf, Évian Resort GC: Céline Boutier of France wins her first major title by 6 strokes over Canada's defending champion Brooke Henderson",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 51
+  },
+  {
+    "id": 160,
+    "year": "2025",
+    "original": "First Australian-made rocket by Gilmour Space Technologies launches in Queensland, Australia, for 14 seconds before crashing",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 52
+  },
+  {
+    "id": 244,
+    "year": "1889",
+    "original": "Vladimir Zworykin, Russian-American inventor of the cathode-ray tube for television, born in Murom, Russia (d. 1982)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 53
+  },
+  {
+    "id": 284,
+    "year": "1928",
+    "original": "Joe Nuxhall, American baseball pitcher and sportscaster (youngest MLB player at 15 years, 316 days), born in Hamilton, Ohio (d. 2007)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 54
+  },
+  {
+    "id": 287,
+    "year": "1929",
+    "original": "Sid Krofft, Canadian puppeteer and television producer - with his brother Marty (H.R. Pufnstuf; Land of the Lost; Sigmund and the Sea Monsters; Donny & Marie), born in Montreal, Quebec",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 55
+  },
+  {
+    "id": 298,
+    "year": "1936",
+    "original": "(George) \"Buddy\" Guy, American blues guitarist (Stone Crazy), born in Lettsworth, Louisiana",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 56
+  },
+  {
+    "id": 315,
+    "year": "1944",
+    "original": "Jimmy Cliff [Chambers], Jamaican reggae singer (\"The Harder They Come\"), born in St James, Colony of Jamaica",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 59
+  },
+  {
+    "id": 388,
+    "year": "1977",
+    "original": "Finneas [O'Connell], American Grammy Award-winning singer-songwriter, record producer, and audio engineer (Billie Eilish), born in Los Angeles, California",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 60
+  },
+  {
+    "id": 396,
+    "year": "1981",
+    "original": "Nicky Hayden, American motorcycle racer (MotoGP Champion 2006), born in Owensboro, Kentucky (d. 2017)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 61
+  },
+  {
+    "id": 8,
+    "year": "1619",
+    "original": "House of Burgesses in Virginia forms, first elected American governing body",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 63
+  },
+  {
+    "id": 177,
+    "year": "1928",
+    "original": "George Eastmanshows the first amateur color motion pictures to guests at his New York house, includingThomas Edison",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 64
+  },
+  {
+    "id": 207,
+    "year": "1935",
+    "original": "First Penguin Books published, starting the paperback revolution",
+    "score": 72,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 65
+  },
+  {
+    "id": 49,
+    "year": "1923",
+    "original": "New Zealand claims Ross Dependency in Antarctica",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 66
+  },
+  {
+    "id": 70,
+    "year": "1966",
+    "original": "Beatles' \"Yesterday... and Today\" album goes to #1 and stays at #1 for 5 weeks",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 67
+  },
+  {
+    "id": 130,
+    "year": "2012",
+    "original": "Indian power grid failure leaves over 300 million without electricity",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 70
+  },
+  {
+    "id": 194,
+    "year": "1991",
+    "original": "Heavy metal bandMetallicarelease their single \"Enter Sandman\"",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 71
+  },
+  {
+    "id": 195,
+    "year": "1995",
+    "original": "Richie AshburnandMike Schmidtenter baseball's Hall of Fame",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 72
+  },
+  {
+    "id": 209,
+    "year": "2003",
+    "original": "The last \"old style\" Volkswagen Beetle rolls off the assembly line in Mexico",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 73
+  },
+  {
+    "id": 250,
+    "year": "1898",
+    "original": "Henry Moore, English artist and sculptor (known for Three Piece Sculpture: Vertebrae), born in Castleford (d. 1986)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 74
+  },
+  {
+    "id": 282,
+    "year": "1927",
+    "original": "Victor Wong [Yee Keung Victor Wong], American actor (Big Trouble in Little China), born in San Francisco, California (d. 2001)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 75
+  },
+  {
+    "id": 343,
+    "year": "1957",
+    "original": "Bill Cartwright, American basketball center (NBA C'ship 1991, 92, 93 Chicago Bulls; NBA All-Star 1980 NY Knicks), born in Lodi, California",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 76
+  },
+  {
+    "id": 362,
+    "year": "1964",
+    "original": "Ron Block, American Grammy Awrd-winning bluegrass banjo player, guitarist, and singer-songwriter (Alison Krauss & Union Station), born in Gardena, California",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 77
+  },
+  {
+    "id": 369,
+    "year": "1968",
+    "original": "Terry Crews, American NFL linebacker (Washington Redskins) and actor (Brooklyn Nine-Nine), born in Flint, Michigan",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 78
+  },
+  {
+    "id": 405,
+    "year": "1999",
+    "original": "Joey King, American actress (The Kissing Booth, The Act), born in Los Angeles, California",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 79
+  }
+]

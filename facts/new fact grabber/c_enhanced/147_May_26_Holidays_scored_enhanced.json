@@ -1,0 +1,122 @@
+[
+  {
+    "id": "901",
+    "title": "Flying High on Paper Airplane Day",
+    "story": "Paper airplanes soar through classrooms, offices, and parks every May 26 during National Paper Airplane Day! People fold everything from simple darts to complex gliders, testing which designs fly the farthest or do the coolest tricks. Schools hold contests to see whose creation can stay airborne the longest, while offices turn into temporary flight zones during lunch breaks. Some folks get super creative, decorating their planes with markers or stickers before launch. The best part? You only need a piece of paper to join the fun and become a pilot for the day!",
+    "activity_question": "What do people test about their paper airplanes on this holiday?",
+    "activity_choices": [
+      "Which designs fly the farthest or do the coolest tricks",
+      "How much they weigh compared to real planes",
+      "Whether they can carry tiny passengers",
+      "If they taste good when folded"
+    ],
+    "activity_answer": "Which designs fly the farthest or do the coolest tricks",
+    "follow_up_question": "What's the most creative paper airplane design you can imagine making?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Berry Sweet Cheesecake Celebration",
+    "story": "Every May 26, dessert lovers across America celebrate National Blueberry Cheesecake Day by indulging in this creamy, fruity treat! Bakeries showcase their best blueberry cheesecakes with fresh berries piled high on silky smooth filling. Home bakers share photos of their homemade creations on social media, from no-bake versions to fancy New York-style cakes. Restaurants offer special cheesecake deals, and families gather to enjoy slices together. Some people even have cheesecake-making contests or visit their favorite dessert shops to try new flavors and toppings.",
+    "activity_question": "What do bakeries typically put on top of their blueberry cheesecakes on this holiday?",
+    "activity_choices": [
+      "Fresh berries",
+      "Chocolate chips",
+      "Rainbow sprinkles",
+      "Miniature umbrellas"
+    ],
+    "activity_answer": "Fresh berries",
+    "bonus_fact": "New York-style cheesecake is known for being extra thick and creamy!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "903",
+    "title": "Sally Ride Day: Reaching for the Stars",
+    "story": "Every May 26, people celebrate Sally Ride Day to honor America's first woman astronaut who broke barriers in space! Sally Ride made history when she blasted off aboard the Space Shuttle Challenger and showed girls everywhere that they could reach for the stars too. Today, schools host special science programs, museums display space exhibits, and kids learn about astronauts and space exploration. Many girls participate in STEM activities and rocket-building contests to celebrate Sally's amazing legacy. It's the perfect day to dream big about careers in science and space!",
+    "activity_question": "What did Sally Ride do that made her famous?",
+    "activity_choices": [
+      "She was America's first woman astronaut",
+      "She invented the space shuttle",
+      "She discovered a new planet",
+      "She built the first rocket ship"
+    ],
+    "activity_answer": "She was America's first woman astronaut",
+    "follow_up_question": "What kind of science or space career would you want to have?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "904",
+    "title": "Australia's National Sorry Day",
+    "story": "Every May 26, Australia observes National Sorry Day to remember and honor Aboriginal and Torres Strait Islander children who were taken from their families. People across the country participate in ceremonies, light candles, and wear yellow ribbons to show respect. Schools hold special assemblies where students learn about this important history. Many Australians visit memorials, attend community events, or simply take time to reflect on how they can help heal the past and build a better future together.",
+    "activity_question": "What do many Australians wear on National Sorry Day to show respect?",
+    "activity_choices": [
+      "Yellow ribbons",
+      "Red hats",
+      "Blue shirts",
+      "Green socks"
+    ],
+    "activity_answer": "Yellow ribbons",
+    "follow_up_question": "How can young people today help build understanding between different communities?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "905",
+    "title": "Georgia's Freedom Day Celebration",
+    "story": "Every May 26, the country of Georgia throws a huge party to celebrate their independence! People fill the streets with parades, waving their white flag with five red crosses. Families gather for traditional feasts with khachapuri (cheesy bread) and other delicious Georgian foods. Musicians play folk songs while dancers perform in colorful costumes. Fireworks light up the sky as everyone celebrates their freedom and proud history together.",
+    "activity_question": "What special food do Georgian families often eat during their Independence Day celebration?",
+    "activity_choices": [
+      "Khachapuri (cheesy bread)",
+      "Pizza",
+      "Hamburgers",
+      "Ice cream sandwiches"
+    ],
+    "activity_answer": "Khachapuri (cheesy bread)",
+    "bonus_fact": "Georgia's flag has five red crosses on a white background.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "906",
+    "title": "Guyana's Golden Arrow Freedom Day",
+    "story": "Every May 26, the South American nation of Guyana throws an amazing Independence Day party! People fill the streets wearing their country's green, gold, and red colors. Families gather for huge feasts with traditional foods like pepperpot stew and cassava bread. Parades march through Georgetown, the capital city, with colorful floats and steel drum bands. Kids wave tiny Guyanese flags while dancers perform in bright costumes that sparkle in the sunshine.",
+    "activity_question": "What are Guyana's national colors that people wear on Independence Day?",
+    "activity_choices": [
+      "Green, gold, and red",
+      "Blue, white, and yellow",
+      "Purple, orange, and silver",
+      "Pink, green, and polka dots"
+    ],
+    "activity_answer": "Green, gold, and red",
+    "bonus_fact": "Guyana is the only English-speaking country in South America!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Stars, Stripes, and Flag Day Pride!",
+    "story": "Every June 14, Americans celebrate Flag Day by proudly displaying their red, white, and blue flags! People hang flags outside their homes, schools, and businesses to honor the Stars and Stripes. Many towns hold parades with marching bands, veterans, and scouts carrying flags of all sizes. Families often wear patriotic colors and share flag photos on social media to show their American pride.",
+    "activity_question": "What do people typically do to celebrate Flag Day?",
+    "activity_choices": [
+      "Display American flags outside their homes",
+      "Eat only red, white, and blue foods",
+      "Paint their houses with stars and stripes",
+      "Send flag-themed greeting cards"
+    ],
+    "activity_answer": "Display American flags outside their homes",
+    "bonus_fact": "The American flag has had 27 different designs throughout history!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "902",
+    "title": "Heroes Who Give Life",
+    "story": "Every June 14, people around the world celebrate World Blood Donor Day to thank amazing volunteers who donate blood to help save lives. Hospitals and blood banks host special events where donors get thank-you cards, snacks, and sometimes cool t-shirts. Many countries share stories about how donated blood helped patients during emergencies or surgeries. It's a day to recognize these everyday heroes!",
+    "activity_question": "What do blood donors often receive as thank-you gifts on World Blood Donor Day?",
+    "activity_choices": [
+      "Thank-you cards and snacks",
+      "Golden medals",
+      "Free movie tickets",
+      "Magic wands"
+    ],
+    "activity_answer": "Thank-you cards and snacks",
+    "follow_up_question": "What other ways could we thank people who help others in our community?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "903",
+    "title": "Sweet Strawberry Shortcake Celebration Day",
+    "story": "Every June 14, people across America celebrate National Strawberry Shortcake Day by making and eating this classic dessert! Families gather in kitchens to layer fluffy biscuits or sponge cake with fresh, juicy strawberries and dollops of whipped cream. Bakeries create special strawberry shortcake treats, while restaurants add them to their dessert menus. Social media fills with photos of towering shortcakes dripping with berry goodness. Some people pick their own strawberries at local farms to make their shortcakes extra special. It's the perfect summer treat to kick off strawberry season!",
+    "activity_question": "What are the three main ingredients in strawberry shortcake?",
+    "activity_choices": [
+      "Cake, strawberries, and whipped cream",
+      "Cookies, blueberries, and ice cream",
+      "Pie crust, apples, and frosting",
+      "Pancakes, bananas, and syrup"
+    ],
+    "activity_answer": "Cake, strawberries, and whipped cream",
+    "bonus_fact": "The first strawberry shortcake recipe appeared in American cookbooks in the 1840s!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  }
+]

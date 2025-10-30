@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Roaring for Tigers Around the World",
+    "story": "Tigers get their own special day every July 29 when people around the world celebrate International Tiger Day! Zoos host tiger talks and feeding shows, while wildlife groups share amazing tiger photos and facts on social media. Schools organize tiger-themed art projects, and kids dress up in orange and black stripes. Conservation organizations use this day to raise money to protect wild tigers and their jungle homes. Many people adopt tigers symbolically or donate to tiger rescue centers. Some families even have tiger movie marathons or bake orange cupcakes with black stripes to join the celebration!",
+    "activity_question": "What do conservation organizations mainly focus on during International Tiger Day?",
+    "activity_choices": [
+      "Teaching tigers to dance",
+      "Protecting wild tigers and their habitats",
+      "Training tigers for movies",
+      "Building tiger playgrounds"
+    ],
+    "activity_answer": "Protecting wild tigers and their habitats",
+    "bonus_fact": "There are only about 3,900 wild tigers left in the entire world today!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Layers of Cheesy Fun on Lasagna Day",
+    "story": "Every July 29, pasta lovers across America celebrate National Lasagna Day by digging into this delicious layered dish! Restaurants offer special lasagna deals, families gather to make homemade versions, and food bloggers share their secret recipes online. Some people host lasagna cook-offs to see who can create the most creative layers - from classic meat and cheese to wild combinations like taco lasagna or dessert lasagna with sweet ricotta and chocolate. Italian restaurants get extra busy as people crave those perfect layers of noodles, sauce, and melted cheese that make lasagna so irresistible.",
+    "activity_question": "What do some people organize on National Lasagna Day to see who makes the best dish?",
+    "activity_choices": [
+      "Lasagna cook-offs",
+      "Pasta races",
+      "Cheese melting contests",
+      "Noodle dancing competitions"
+    ],
+    "activity_answer": "Lasagna cook-offs",
+    "follow_up_question": "What unusual ingredients would you put in your own creative lasagna?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Freedom Day Finally Arrives",
+    "story": "Every June 19, Americans celebrate Juneteenth, the day that marks when enslaved people in Texas finally learned they were free in 1865. Today, people honor this important holiday with parades, barbecues, and festivals filled with music, dancing, and delicious red foods like strawberry cake and red velvet cupcakes. Families gather to share stories, learn about African American history, and celebrate freedom together. Many communities hold special ceremonies and educational events to remember this powerful moment in American history.",
+    "activity_question": "What color foods do people often eat during Juneteenth celebrations?",
+    "activity_choices": [
+      "Red foods",
+      "Blue foods",
+      "Green foods",
+      "Purple foods"
+    ],
+    "activity_answer": "Red foods",
+    "bonus_fact": "Red symbolizes the blood and sacrifice of enslaved people who fought for freedom.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  },
+  {
+    "id": "902",
+    "title": "Raising Awareness for Sickle Cell Heroes",
+    "story": "People around the world wear red on June 19 for World Sickle Cell Day! This special day helps everyone learn about sickle cell disease and supports families who live with it. Schools, hospitals, and communities share information and show kindness to those affected by this condition.",
+    "activity_question": "What color do people wear on World Sickle Cell Day?",
+    "activity_choices": [
+      "Red",
+      "Blue",
+      "Green",
+      "Purple"
+    ],
+    "activity_answer": "Red",
+    "bonus_fact": "Sickle cell disease affects millions of people worldwide, especially in Africa and the Middle East.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 45
+  }
+]

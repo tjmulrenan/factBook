@@ -1,0 +1,102 @@
+[
+  {
+    "id": "901",
+    "title": "Heroes Around the World Day",
+    "story": "Every August 19, people around the world celebrate World Humanitarian Day to honor amazing helpers who risk their lives to save others. These brave heroes work in dangerous places during wars, natural disasters, and emergencies to bring food, medicine, and hope to people who need it most. People celebrate by sharing stories of these real-life superheroes on social media and learning about ways they can help their own communities.",
+    "activity_question": "What do humanitarian heroes bring to people in need?",
+    "activity_choices": [
+      "Food, medicine, and hope",
+      "Only birthday presents",
+      "Just good luck wishes",
+      "Only money"
+    ],
+    "activity_answer": "Food, medicine, and hope",
+    "follow_up_question": "What small act of kindness could you do in your community today?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "902",
+    "title": "Sky-High Fun on National Aviation Day",
+    "story": "Pilots, plane spotters, and aviation fans celebrate National Aviation Day every August 19! This special day honors the amazing world of flight and all the people who make it possible. Airports across the country host open houses where families can tour cockpits, watch air shows, and meet real pilots. Museums display vintage aircraft and let kids try flight simulators. Many people share photos of planes they've spotted or post about their favorite flying experiences on social media. Aviation clubs organize special events and some lucky visitors even get to take discovery flights in small aircraft. It's the perfect day to look up at the sky and dream about soaring through the clouds!",
+    "activity_question": "What kind of special events do airports host on National Aviation Day?",
+    "activity_choices": [
+      "Open houses with cockpit tours and air shows",
+      "Free airplane rides for everyone",
+      "Cooking contests with airplane food",
+      "Dance parties on the runway"
+    ],
+    "activity_answer": "Open houses with cockpit tours and air shows",
+    "follow_up_question": "What would be the most exciting part of visiting an airport open house for you?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "903",
+    "title": "Say Cheese to the World!",
+    "story": "Photographers around the globe grab their cameras and snap amazing pictures on World Photography Day, celebrated every August 19! People share their best shots on social media, from stunning sunsets to funny pet photos. Photography clubs host contests and workshops to teach new tricks. Museums display incredible photo collections, and many folks try taking their first professional-style pictures. It's the perfect day to capture memories and see the world through a camera lens!",
+    "activity_question": "What do people commonly share on social media during World Photography Day?",
+    "activity_choices": [
+      "Their best photographs",
+      "Cooking recipes",
+      "Dance videos",
+      "Math homework"
+    ],
+    "activity_answer": "Their best photographs",
+    "follow_up_question": "What would you most want to photograph if you celebrated this day?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "904",
+    "title": "Turn Up the Heat Day!",
+    "story": "Fire-breathing food lovers unite every August 19 for National Hot and Spicy Food Day! People celebrate by chomping down on the spiciest wings, hottest peppers, and most blazing dishes they can handle. Restaurants offer special spicy menu items and challenge customers to try their hottest creations. Social media fills with videos of brave souls attempting fiery food challenges, often with hilarious results. Some people host spicy cooking contests with friends and family, while others visit their favorite Mexican, Thai, or Indian restaurants to test their taste buds against seriously hot dishes.",
+    "activity_question": "What do restaurants often do on National Hot and Spicy Food Day?",
+    "activity_choices": [
+      "Offer special spicy menu items and challenges",
+      "Give away free ice cream to cool down",
+      "Only serve mild and bland foods",
+      "Close early to avoid the heat"
+    ],
+    "activity_answer": "Offer special spicy menu items and challenges",
+    "bonus_fact": "The spiciness of peppers is measured on the Scoville scale, named after scientist Wilbur Scoville.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "905",
+    "title": "Buzzing About World Mosquito Day",
+    "story": "Every August 19, people around the world celebrate World Mosquito Day by learning about these tiny but important insects. Scientists share cool facts about how mosquitoes help pollinate plants and feed fish and birds. Many people post mosquito photos online or visit science museums for special exhibits about these buzzing creatures.",
+    "activity_question": "What do scientists share on World Mosquito Day?",
+    "activity_choices": [
+      "Cool facts about mosquitoes",
+      "Free bug spray samples",
+      "Mosquito cooking recipes",
+      "Ways to train pet mosquitoes"
+    ],
+    "activity_answer": "Cool facts about mosquitoes",
+    "bonus_fact": "Only female mosquitoes bite - males just drink flower nectar!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 45
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Orange You Glad It's Creamsicle Day?",
+    "story": "Every August 14, people across America celebrate National Creamsicle Day by enjoying the perfect frozen treat! Creamsicles are those amazing orange popsicles with creamy vanilla ice cream in the middle that taste like a dreamsicle come true. On this special day, ice cream trucks play their jingly songs extra loud, grocery stores stock up on orange and cream flavored goodies, and families make homemade versions using orange juice and vanilla yogurt. Some people even create fancy creamsicle-flavored desserts like cakes, milkshakes, and cookies to honor this beloved summer treat!",
+    "activity_question": "What flavors make up a classic creamsicle?",
+    "activity_choices": [
+      "Orange and vanilla",
+      "Strawberry and chocolate",
+      "Lemon and mint",
+      "Cherry and banana"
+    ],
+    "activity_answer": "Orange and vanilla",
+    "bonus_fact": "The creamsicle was invented in 1905 by an 11-year-old boy!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "902",
+    "title": "Secret Code Heroes Day",
+    "story": "Every August 14, America honors the brave Navajo Code Talkers who helped win World War II using their native language as an unbreakable secret code. These incredible warriors served in the military while speaking Navajo over radios to share important battle plans that enemies couldn't understand. Today, people visit museums, attend special ceremonies, and learn about how these heroes used their own language to protect our country. Schools teach students about their amazing contributions, and many communities hold events to celebrate their courage. It's a day to remember how these smart, brave people turned their heritage into a powerful weapon for freedom.",
+    "activity_question": "What language did the Code Talkers use to create their secret code?",
+    "activity_choices": [
+      "Navajo",
+      "Cherokee",
+      "Spanish",
+      "French"
+    ],
+    "activity_answer": "Navajo",
+    "bonus_fact": "The Navajo code was never broken by enemies during the entire war!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "903",
+    "title": "Scales and Tales: World Lizard Day",
+    "story": "Lizards get their moment to shine every August 14 on World Lizard Day! People celebrate these amazing reptiles by visiting zoos, sharing lizard photos on social media, and learning cool facts about geckos, iguanas, and bearded dragons. Some families watch nature documentaries about lizards, while others create lizard art or read books about these scaly creatures. Pet stores often host special events where kids can safely meet friendly lizards up close. It's the perfect day to appreciate how lizards can change colors, regrow their tails, and even walk on ceilings!",
+    "activity_question": "What are some ways people celebrate World Lizard Day?",
+    "activity_choices": [
+      "Visiting zoos and sharing lizard photos",
+      "Teaching lizards to play fetch",
+      "Having lizard costume contests only",
+      "Building lizard houses in trees"
+    ],
+    "activity_answer": "Visiting zoos and sharing lizard photos",
+    "bonus_fact": "Some lizards can detach and regrow their tails as a defense mechanism!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  }
+]

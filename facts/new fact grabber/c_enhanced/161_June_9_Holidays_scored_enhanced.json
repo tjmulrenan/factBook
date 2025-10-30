@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Quack Attack: Donald Duck's Special Day",
+    "story": "Every June 9, fans around the world celebrate National Donald Duck Day by honoring Disney's most famous feathered friend! People watch classic Donald Duck cartoons, share their favorite clips on social media, and visit Disney parks wearing sailor suits just like Donald's iconic outfit. Kids love imitating his hilarious angry voice and famous temper tantrums. Disney stores often feature special Donald Duck merchandise, and some fans even eat orange juice and crackers for breakfast since those are Donald's favorite snacks. The holiday celebrates Donald's debut in cartoons back in 1934, but today it's all about having fun with his silly antics and unforgettable personality that still makes everyone laugh.",
+    "activity_question": "What do some fans wear to celebrate National Donald Duck Day?",
+    "activity_choices": [
+      "Sailor suits like Donald's outfit",
+      "Yellow duck costumes",
+      "Mickey Mouse ears",
+      "Superhero capes"
+    ],
+    "activity_answer": "Sailor suits like Donald's outfit",
+    "bonus_fact": "Donald Duck's middle name is actually Fauntleroy!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 92
+  },
+  {
+    "id": "902",
+    "title": "Sweet and Sour Pie Power Day",
+    "story": "Every June 9, pie lovers across America celebrate National Strawberry Rhubarb Pie Day by baking and eating this perfect sweet-and-sour treat! Bakeries display their flakiest crusts filled with bright red strawberries and tangy rhubarb stalks. Home bakers share photos of their homemade creations on social media, often with ice cream melting on top. Some families make it a tradition to pick fresh rhubarb from their gardens and strawberries from local farms to create the ultimate summer dessert together.",
+    "activity_question": "What do people often put on top of their strawberry rhubarb pie?",
+    "activity_choices": [
+      "Ice cream",
+      "Chocolate chips",
+      "Marshmallows",
+      "Pickles"
+    ],
+    "activity_answer": "Ice cream",
+    "bonus_fact": "Rhubarb is actually a vegetable, not a fruit, even though it's used in desserts!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "903",
+    "title": "Coral Triangle Day: Ocean's Rainbow Celebration",
+    "story": "Every June 9, people around the world celebrate Coral Triangle Day to protect one of Earth's most colorful underwater treasures! The Coral Triangle in Southeast Asia is home to more sea creatures than anywhere else on the planet. On this special day, marine biologists share amazing photos of rainbow-colored fish, sea turtles, and coral reefs that look like underwater gardens. Schools organize ocean cleanup events, aquariums host special exhibits, and kids create coral art projects to spread awareness about keeping our oceans healthy and beautiful.",
+    "activity_question": "What do people create on Coral Triangle Day to spread ocean awareness?",
+    "activity_choices": [
+      "Coral art projects",
+      "Underwater robots",
+      "Fish sandwiches",
+      "Seaweed smoothies"
+    ],
+    "activity_answer": "Coral art projects",
+    "bonus_fact": "The Coral Triangle contains 76% of all known coral species in the world!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  }
+]

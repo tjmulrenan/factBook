@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Stretch Into Summer Solstice Yoga",
+    "story": "People around the world roll out their yoga mats on June 21 for International Day of Yoga! This special day celebrates the ancient practice of stretching, breathing, and finding inner peace. Communities organize free outdoor yoga classes in parks, beaches, and city squares where beginners and experts practice together under the summer sun.",
+    "activity_question": "Where do communities often hold free yoga classes on International Day of Yoga?",
+    "activity_choices": [
+      "In shopping malls and movie theaters",
+      "In parks, beaches, and city squares",
+      "Only in expensive yoga studios",
+      "In people's basements"
+    ],
+    "activity_answer": "In parks, beaches, and city squares",
+    "follow_up_question": "What yoga pose would you want to try if you joined a community class?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 43
+  },
+  {
+    "id": "902",
+    "title": "World Music Day: The Planet's Biggest Jam Session",
+    "story": "Every June 21, the entire world becomes one giant concert hall! World Music Day turns streets, parks, and plazas into stages where anyone can perform for free. Professional musicians, garage bands, school choirs, and even your neighbor with a kazoo take over public spaces to share their sounds. Cities from Paris to Tokyo buzz with impromptu performances as people discover new artists just steps from their front door. The best part? All concerts are completely free, so you can hop from a jazz trio to a rock band to a classical quartet without spending a penny. It's like the world's most epic musical treasure hunt!",
+    "activity_question": "What makes World Music Day concerts special compared to regular concerts?",
+    "activity_choices": [
+      "They're all performed by famous musicians",
+      "They're completely free to attend",
+      "They only happen indoors",
+      "You need special tickets to get in"
+    ],
+    "activity_answer": "They're completely free to attend",
+    "bonus_fact": "The holiday started in France and now happens in over 120 countries worldwide!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "903",
+    "title": "Rolling Into Go Skateboarding Day",
+    "story": "Skateboarders around the world grab their boards and hit the streets every June 21 for Go Skateboarding Day! This awesome holiday celebrates everything about skateboarding culture. Skate shops offer free lessons and demos, while experienced riders show off their coolest tricks at local skate parks. Cities organize skateboarding events, contests, and group rides through downtown areas. Social media fills up with videos of people landing their first kickflip or attempting crazy stunts. Some skaters even dress up in wild costumes while they ride! The day encourages everyone to try skateboarding, whether you're a total beginner or a pro who can grind rails like it's nothing.",
+    "activity_question": "What do skate shops often offer on Go Skateboarding Day?",
+    "activity_choices": [
+      "Free lessons and demos",
+      "Free pizza and soda",
+      "Skateboard repair services",
+      "Magic skateboard tricks"
+    ],
+    "activity_answer": "Free lessons and demos",
+    "follow_up_question": "What skateboarding trick would you most want to learn and why?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  }
+]

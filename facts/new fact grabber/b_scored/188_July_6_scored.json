@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "original": "International Kissing Day",
+    "score": 60,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "World Zoonoses Day",
+    "score": 65,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "Malawi Independence Day",
+    "score": 35,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 4,
+    "original": "Comoros Independence Day",
+    "score": 38,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 5,
+    "original": "Lithuania Statehood Day",
+    "score": 55,
+    "is_kid_friendly": true
+  }
+]

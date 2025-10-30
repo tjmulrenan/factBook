@@ -1,0 +1,102 @@
+[
+  {
+    "id": "901",
+    "title": "Clicking Into World Wide Web Day",
+    "story": "Every August 1, people around the globe celebrate World Wide Web Day by appreciating the amazing invention that connects us all! On this special day, tech enthusiasts share stories about how the internet changed their lives, while schools and libraries host fun activities teaching kids about web safety and digital citizenship. Many people post their very first website screenshots or remember the funny dial-up internet sounds from years ago. Some families even have \"digital detox\" picnics to balance screen time with outdoor fun. It's the perfect day to thank Tim Berners-Lee, who created the World Wide Web, for making it possible to video chat with grandparents, research school projects, and watch endless cat videos!",
+    "activity_question": "Who created the World Wide Web?",
+    "activity_choices": [
+      "Tim Berners-Lee",
+      "Steve Jobs",
+      "Bill Gates",
+      "A team of dancing robots"
+    ],
+    "activity_answer": "Tim Berners-Lee",
+    "bonus_fact": "The first website ever created is still online today at info.cern.ch!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "902",
+    "title": "Berry Delicious Pie Paradise",
+    "story": "Bakers across America fire up their ovens on August 1 for National Raspberry Cream Pie Day! This sweet holiday celebrates one of summer's most perfect desserts - flaky pie crust filled with smooth, creamy filling and topped with juicy red raspberries. Families gather in kitchens to roll out dough, whip up vanilla or cream cheese filling, and carefully arrange fresh berries on top. Bakeries showcase their fanciest raspberry cream pies in display cases, while home cooks share photos of their colorful creations on social media. Some people even host pie-tasting parties where everyone brings a different version to try!",
+    "activity_question": "What do people often do with their raspberry cream pie photos on this holiday?",
+    "activity_choices": [
+      "Share them on social media",
+      "Mail them to their grandparents",
+      "Hide them in secret recipe books",
+      "Turn them into pie-shaped stickers"
+    ],
+    "activity_answer": "Share them on social media",
+    "bonus_fact": "Some bakeries create raspberry cream pies as tall as birthday cakes for this special day!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "903",
+    "title": "Lughnasadh: Ancient Harvest Party Time!",
+    "story": "Every August 1, people celebrate Lughnasadh, an ancient Celtic festival that marks the beginning of harvest season! Families gather to bake fresh bread from the first grains, share homemade foods, and give thanks for summer's bounty. Many communities host outdoor festivals with traditional music, dancing, and craft-making. Some people weave corn dollies or make flower crowns to honor nature's gifts.",
+    "activity_question": "What do people traditionally bake during Lughnasadh celebrations?",
+    "activity_choices": [
+      "Fresh bread from first grains",
+      "Chocolate chip cookies",
+      "Birthday cake",
+      "Pizza dough"
+    ],
+    "activity_answer": "Fresh bread from first grains",
+    "bonus_fact": "Lughnasadh is named after Lugh, the Celtic god of skill and crafts!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 58
+  },
+  {
+    "id": "904",
+    "title": "Lammas Day: Loaves of Fun!",
+    "story": "Every August 1, people celebrate Lammas Day by baking bread from the year's first wheat harvest! This ancient tradition turns kitchens into cozy bakeries as families knead dough and fill their homes with the smell of fresh loaves. Many communities hold bread-baking contests and share warm rolls with neighbors. It's a delicious way to celebrate the hard work of farmers and welcome the harvest season.",
+    "activity_question": "What do people traditionally bake on Lammas Day?",
+    "activity_choices": [
+      "Bread from new wheat",
+      "Birthday cakes",
+      "Chocolate cookies",
+      "Pizza with extra cheese"
+    ],
+    "activity_answer": "Bread from new wheat",
+    "bonus_fact": "The word 'Lammas' comes from 'loaf mass' - a church service blessing the first bread!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "905",
+    "title": "Your Friendly Neighborhood Spider-Man Day",
+    "story": "Web-slinging fans everywhere celebrate Spider-Man Day on August 1! This amazing holiday honors everyone's favorite wall-crawling superhero who shoots webs and saves New York City. People celebrate by reading Spider-Man comics, watching movies, and sharing their favorite Spidey moments online. Many fans dress up in red and blue costumes, complete with web shooters and masks. Comic book stores often host special events with Spider-Man trivia contests and costume competitions. Kids love recreating Spider-Man's famous poses and pretending to swing from building to building. Some people even bake spider-shaped cookies or cupcakes with web designs! It's the perfect day to remember why Spider-Man has been inspiring heroes for generations with his message that with great power comes great responsibility.",
+    "activity_question": "What colors are associated with Spider-Man's costume?",
+    "activity_choices": [
+      "Red and blue",
+      "Green and purple",
+      "Black and yellow",
+      "Orange and silver"
+    ],
+    "activity_answer": "Red and blue",
+    "follow_up_question": "What superpower would you want to have if you could be like Spider-Man?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 95
+  }
+]

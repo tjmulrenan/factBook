@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "original": "National Yo-Yo Day",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "D-Day Anniversary",
+    "score": 25,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 3,
+    "original": "National Drive-In Movie Day",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "National Tetris Day",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 5,
+    "original": "National Higher Education Day",
+    "score": 45,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 6,
+    "original": "National Applesauce Cake Day",
+    "score": 65,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 7,
+    "original": "Swedish National Day",
+    "score": 45,
+    "is_kid_friendly": false
+  }
+]

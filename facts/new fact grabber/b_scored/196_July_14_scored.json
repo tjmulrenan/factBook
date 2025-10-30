@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "original": "Bastille Day",
+    "score": 45,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 2,
+    "original": "National Mac and Cheese Day",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 3,
+    "original": "National Grand Marnier Day",
+    "score": 35,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 4,
+    "original": "Shark Awareness Day",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 5,
+    "original": "International Non-Binary People's Day",
+    "score": 70,
+    "is_kid_friendly": true
+  }
+]

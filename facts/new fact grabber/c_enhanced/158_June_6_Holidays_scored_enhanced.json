@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Yo-Yo Day: String Along for Fun!",
+    "story": "Every June 6, yo-yo masters and beginners alike celebrate National Yo-Yo Day by showing off their string skills! People dust off their old yo-yos, learn new tricks like \"Walk the Dog\" and \"Around the World,\" and share videos of their coolest moves online. Toy stores often host yo-yo contests where kids compete to see who can keep their yo-yo spinning the longest or perform the most impressive tricks. Schools sometimes bring in professional yo-yo performers who amaze students with lightning-fast spins and gravity-defying stunts. Whether you're just learning to make it go up and down or you're attempting advanced tricks, this day proves that sometimes the simplest toys create the most fun!",
+    "activity_question": "What are some popular yo-yo tricks mentioned in the story?",
+    "activity_choices": [
+      "\"Walk the Dog\" and \"Around the World\"",
+      "\"Catch the Fish\" and \"Spin the Wheel\"",
+      "\"Flying Saucer\" and \"Magic Carpet\"",
+      "\"Dancing Bear\" and \"Rocket Ship\""
+    ],
+    "activity_answer": "\"Walk the Dog\" and \"Around the World\"",
+    "follow_up_question": "What yo-yo trick would you invent and what would you name it?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Movies Under the Stars and Cars",
+    "story": "Cars line up in neat rows as giant movie screens light up the night sky on June 6 for National Drive-In Movie Day! Families pack snacks, blankets, and lawn chairs to watch films from the comfort of their vehicles. Some people tune their car radios to hear the movie's sound, while others use portable speakers. Kids love making popcorn runs to the snack bar and playing on playground equipment before showtime. Many drive-ins show double features, so movie lovers get two films for one ticket price. It's like having a personal movie theater where you can talk, laugh, and even wear pajamas without bothering anyone else!",
+    "activity_question": "How do people typically hear the sound at drive-in movies?",
+    "activity_choices": [
+      "Through their car radios",
+      "By shouting really loud",
+      "Through tiny earbuds only",
+      "The sound travels through the ground"
+    ],
+    "activity_answer": "Through their car radios",
+    "follow_up_question": "What snacks would you bring to make your drive-in movie experience perfect?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "903",
+    "title": "Block Party: National Tetris Day",
+    "story": "Every June 6, gamers around the world celebrate National Tetris Day by playing the legendary puzzle game that made falling blocks famous! People compete in online tournaments, share their highest scores on social media, and challenge friends to beat their records. Some fans even create real-life Tetris pieces from cardboard boxes and stack them in their yards. Gaming cafes host special Tetris marathons where players try to clear as many lines as possible without stopping. The holiday honors the addictive game that taught millions of people that fitting in perfectly makes everything disappear – but in the best way possible!",
+    "activity_question": "What do some Tetris fans make from cardboard boxes on National Tetris Day?",
+    "activity_choices": [
+      "Real-life Tetris pieces",
+      "Gaming controllers",
+      "Pizza boxes",
+      "Robot costumes"
+    ],
+    "activity_answer": "Real-life Tetris pieces",
+    "bonus_fact": "Tetris is one of the best-selling video games of all time!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "904",
+    "title": "Sweet Slice of Applesauce Cake Day",
+    "story": "Bakers across America fire up their ovens on June 6 for National Applesauce Cake Day! This moist, spiced cake gets its magic from applesauce, which keeps it super soft and adds natural sweetness. Families share recipes passed down for generations, while bakeries create special versions with cinnamon, nutmeg, and sometimes cream cheese frosting. Social media fills with photos of homemade creations as people celebrate this old-fashioned treat that's making a comeback in modern kitchens.",
+    "activity_question": "What ingredient makes applesauce cake especially moist and sweet?",
+    "activity_choices": [
+      "Applesauce",
+      "Extra butter",
+      "Chocolate chips",
+      "Vanilla extract"
+    ],
+    "activity_answer": "Applesauce",
+    "bonus_fact": "Applesauce was originally used in cakes during wartime when butter and eggs were scarce.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  }
+]

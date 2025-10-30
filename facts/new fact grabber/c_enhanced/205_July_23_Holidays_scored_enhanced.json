@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Vanilla Ice Cream Gets Its Sweet Day",
+    "story": "Vanilla ice cream scoops up all the attention on July 23 during National Vanilla Ice Cream Day! People celebrate by visiting ice cream shops, making homemade vanilla treats, and sharing photos of their favorite vanilla desserts online. Many families host ice cream parties where vanilla takes center stage in sundaes, milkshakes, and floats. Ice cream parlors often offer special vanilla flavors like Madagascar vanilla or vanilla bean. Some people even try making their own vanilla ice cream from scratch using real vanilla pods. It's the perfect summer day to prove that sometimes the classic flavor is still the best flavor of all!",
+    "activity_question": "What do many families host on National Vanilla Ice Cream Day?",
+    "activity_choices": [
+      "Ice cream parties",
+      "Vanilla cookie contests",
+      "Frozen yogurt races",
+      "Chocolate cake competitions"
+    ],
+    "activity_answer": "Ice cream parties",
+    "bonus_fact": "Vanilla is actually made from orchid pods and is the second most expensive spice in the world!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "902",
+    "title": "Gorgeous Grandma Day: Beauty and Wisdom Shine",
+    "story": "Every July 23, grandmas everywhere get the royal treatment they deserve on Gorgeous Grandma Day! This special holiday celebrates the amazing women who spoil us with cookies, tell the best stories, and always think we're perfect. Families surprise their grandmas with flowers, homemade cards, spa days, or fancy photo shoots to show off their beauty inside and out. Some grandmas get makeovers, while others prefer quiet tea parties with their grandkids. Social media fills up with gorgeous grandma photos and sweet messages. It's the perfect day to remind these incredible women that they're not just wise and loving, but absolutely beautiful too!",
+    "activity_question": "What do families often give their grandmas on this special day?",
+    "activity_choices": [
+      "Flowers and homemade cards",
+      "Pet dinosaurs",
+      "Math homework",
+      "Broken toys"
+    ],
+    "activity_answer": "Flowers and homemade cards",
+    "follow_up_question": "What makes your grandma gorgeous inside and out?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  }
+]

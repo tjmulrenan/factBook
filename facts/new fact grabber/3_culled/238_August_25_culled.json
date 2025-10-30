@@ -1,0 +1,542 @@
+[
+  {
+    "id": 153,
+    "year": "2019",
+    "original": "Double Dave, a rare two-headed timber rattlesnake, is found in Pine Barrens forest, New Jersey",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 1
+  },
+  {
+    "id": 139,
+    "year": "2006",
+    "original": "Hyperion, the world's tallest living tree, a redwood standing 115.55 m (379.1 ft), is discovered by naturalists Chris Atkins and Michael Taylor in Redwood National and State Parks, California",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Creature Feature",
+    "rank": 2
+  },
+  {
+    "id": 145,
+    "year": "2012",
+    "original": "Voyager 1 spacecraft becomes the first spacecraft to enter interstellar space (launched in 1977)",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 3
+  },
+  {
+    "id": 119,
+    "year": "1989",
+    "original": "After a 12-year, 4-billion-mile journey, Voyager 2 flies over the cloud tops of Neptune and its moon Triton, sending back photographs of swamps",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 4
+  },
+  {
+    "id": 164,
+    "year": "1609",
+    "original": "Galileo Galileidemonstrates his first telescope to Venetian lawmakers, including the Doge (ruler) of Venice, Leonardo Donato",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 5
+  },
+  {
+    "id": 169,
+    "year": "1835",
+    "original": "The New York Sun publishes the Great Moon Hoax story aboutJohn Herschel, who claimed he had discovered life, landscapes, and fantastical creatures on the Moon through a powerful telescope",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 6
+  },
+  {
+    "id": 197,
+    "year": "1958",
+    "original": "Momofuku Andomarkets the first package of precooked instant noodles, Chikin Ramen",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 7
+  },
+  {
+    "id": 188,
+    "year": "1991",
+    "original": "Linux is born whenLinus Torvaldssends an email announcing his project to create a new computer operating system",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 8
+  },
+  {
+    "id": 95,
+    "year": "1973",
+    "original": "Butch Trucks, drummer of the Allman Brothers, breaks his leg in a car crash",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 79
+  },
+  {
+    "id": 121,
+    "year": "1990",
+    "original": "Li Hui Rong of China sets the women's triple jump record of 47 ft 8½ in (14.54 m)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 22
+  },
+  {
+    "id": 200,
+    "year": "2020",
+    "original": "WHO announces that Africa has eradicated polio, defined as 4 years since the last case",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 11
+  },
+  {
+    "id": 73,
+    "year": "1947",
+    "original": "Marion Carl in D-558-I sets a world aircraft speed record of 1,047 km/h",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 21
+  },
+  {
+    "id": 37,
+    "year": "1912",
+    "original": "First time an aircraft recovers from a spin",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 13
+  },
+  {
+    "id": 141,
+    "year": "2010",
+    "original": "Panic caused by escaped crocodile being smuggled aboard domestic Filair flight leads to crash of Let L-410 Turbolet passenger aircraft near Bandundu Airport, Democratic Republic of the Congo, killing all but one of the 21 passengers and crew",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 14
+  },
+  {
+    "id": 198,
+    "year": "1981",
+    "original": "Voyager 2's closest approach to Saturn (63,000 miles; 100,000 km)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 15
+  },
+  {
+    "id": 342,
+    "year": "1959",
+    "original": "Ian Falconer, American author, illustrator of children's books and magazines (Olivia (the pig) series; The New Yorker), and theatrical set and costume designer, born in Ridgefield, Connecticut (d. 2023)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 17
+  },
+  {
+    "id": 172,
+    "year": "1920",
+    "original": "Ethelda Bleibtreyleads an American medal sweep at the Antwerp Olympics in the women's 100 m freestyle with a world record of 1:13.6, becoming the first US female Olympic champion",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 18
+  },
+  {
+    "id": 173,
+    "year": "1932",
+    "original": "AmericanAmelia Earhartcompletes a transcontinental non-stop flight, the first by a woman, landing in Newark, New Jersey",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 19
+  },
+  {
+    "id": 166,
+    "year": "1768",
+    "original": "CaptainJames Cookdeparts from Plymouth, England, bound for the Pacific Ocean on his first voyage aboard the Endeavour",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 20
+  },
+  {
+    "id": 124,
+    "year": "1991",
+    "original": "Krisztina Egerszegi swims the 200 m backstroke in a world record time of 2:06.62",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 23
+  },
+  {
+    "id": 229,
+    "year": "1877",
+    "original": "Joshua L. Cowen, American inventor (electric train), born in New York City (d. 1965)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 25
+  },
+  {
+    "id": 263,
+    "year": "1913",
+    "original": "Walt Kelly, American cartoonist and animator (Pogo), born in Philadelphia, Pennsylvania (d. 1973)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 26
+  },
+  {
+    "id": 402,
+    "year": "1998",
+    "original": "China Anne McClain, American actress and singer (The Gospel; Daddy's Little Girls), born in Decatur, Georgia",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 27
+  },
+  {
+    "id": 393,
+    "year": "1987",
+    "original": "Liu Yifei, Chinese-American actress (The Chinese Widow; Mulan), and pop singer, born in Wuhan, China",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 28
+  },
+  {
+    "id": 385,
+    "year": "1978",
+    "original": "Kel Mitchell, American actor and comedian (\"All That\", \"Clifford the Big Red Dog\"), born in Chicago, Illinois",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 29
+  },
+  {
+    "id": 321,
+    "year": "1949",
+    "original": "Gene Simmons [Chaim Witz], Israeli-American rock bassist (KISS - \"Rock and Roll All Nite\"), born in Tirat Carmel, Israel",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 30
+  },
+  {
+    "id": 156,
+    "year": "2022",
+    "original": "California votes to ban the sale of all new gasoline-powered cars by 2035",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 31
+  },
+  {
+    "id": 115,
+    "year": "1988",
+    "original": "Challenger Center opens its classroom doors in Houston",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 32
+  },
+  {
+    "id": 43,
+    "year": "1916",
+    "original": "The US Department of the Interior forms the National Park Service",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 33
+  },
+  {
+    "id": 18,
+    "year": "1718",
+    "original": "Hundreds of French colonists arrive in Louisiana and found New Orleans",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 34
+  },
+  {
+    "id": 25,
+    "year": "1860",
+    "original": "The Tubular Victoria Bridge across the St. Lawrence River at Montreal is officially opened by the Prince of Wales, an engineering wonder of the day, as it is the longest bridge in the world at that time, measuring 2 km",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 35
+  },
+  {
+    "id": 195,
+    "year": "1929",
+    "original": "Graf Zeppelinpasses over San Francisco en route to Los Angeles after a trans-Pacific voyage",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 36
+  },
+  {
+    "id": 31,
+    "year": "1894",
+    "original": "Japanese scientist Shibasaburo Kitasato discovers the infectious agent of the bubonic plague and publishes his findings in The Lancet",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 37
+  },
+  {
+    "id": 160,
+    "year": "2025",
+    "original": "Haboob dust storm swallows parts of metro Phoenix, Arizona, creating near-zero visibility, followed by severe thunderstorms causing wind damage and widespread power outages",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 38
+  },
+  {
+    "id": 149,
+    "year": "2017",
+    "original": "Category 4 Hurricane Harvey makes landfall in Texas northeast of Corpus Christi with 130 mph winds",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 39
+  },
+  {
+    "id": 144,
+    "year": "2012",
+    "original": "85,000 people are displaced by severe floods in Myanmar",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 40
+  },
+  {
+    "id": 117,
+    "year": "1988",
+    "original": "NASA launches space vehicle S-214",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 41
+  },
+  {
+    "id": 190,
+    "year": "1998",
+    "original": "\"The Miseducation ofLauryn Hill\" debut album by Lauryn Hill is released (5 Grammy Awards including Album of the Year, Billboard Album of the Year 1998)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 44
+  },
+  {
+    "id": 185,
+    "year": "1986",
+    "original": "Warner Bros. Records releasesPaul Simon's seventh solo album \"Graceland,\" a blend of pop, African, zydeco, and rock music; it wins the Grammy for Album of the Year in 1987 and sells over 16 million copies",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 45
+  },
+  {
+    "id": 181,
+    "year": "1975",
+    "original": "Columbia Records releasesBruce Springsteen's landmark third album \"Born to Run\"",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 46
+  },
+  {
+    "id": 179,
+    "year": "1970",
+    "original": "Elton Johnmakes his first US appearance at the Troubadour in West Hollywood, Los Angeles",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 47
+  },
+  {
+    "id": 178,
+    "year": "1967",
+    "original": "The Beatles go to Bangor, Wales, to study transcendental meditation withMaharishi Mahesh Yogi",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 48
+  },
+  {
+    "id": 193,
+    "year": "2021",
+    "original": "Benny AnderssonandBjörn Ulvaeus' musical \"Mamma Mia!,\" featuring the songs ofABBA, reopens at the Novello Theatre in London's West End after COVID-19 stopped performances in March 2020",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 49
+  },
+  {
+    "id": 187,
+    "year": "1991",
+    "original": "Jazz trumpeterMiles Davisgives what becomes his final live performance at the Hollywood Bowl in Los Angeles, California",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 50
+  },
+  {
+    "id": 196,
+    "year": "1944",
+    "original": "German commander Dietrich von Choltitz surrenders Paris to the Free French forces ofPhilippe Leclerc, disobeying Adolf Hitler's orders to destroy the city. President of the Provisional Government of the French Republic Charles de Gaulle gives a famous speech at the Hôtel de Ville.",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 51
+  },
+  {
+    "id": 168,
+    "year": "1819",
+    "original": "Paris Salon opens withThéodore Géricault’s painting \"The Raft of the Medusa\" causing a sensation",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 52
+  },
+  {
+    "id": 44,
+    "year": "1919",
+    "original": "First scheduled passenger service by airplane (Paris to London)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 53
+  },
+  {
+    "id": 134,
+    "year": "2004",
+    "original": "Cuba beats Australia 6-2 to win the baseball gold medal at the Athens Olympics; Japan takes bronze; the US does not qualify",
+    "score": 82,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 58
+  },
+  {
+    "id": 93,
+    "year": "1968",
+    "original": "NY Yankees outfielderRocky Colavitopitches 2/3 of an inning and beats the Tigers 6-5; he plays right field in the second game and hits a home run",
+    "score": 93,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 60
+  },
+  {
+    "id": 53,
+    "year": "1924",
+    "original": "MLB Washington SenatorWalter Johnsonpitches his second no-hitter, beating the Browns 2-0 in 7 innings",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 64
+  },
+  {
+    "id": 155,
+    "year": "2020",
+    "original": "England's James Anderson becomes the first fast bowler to reach 600 wickets in Test cricket as Pakistan batsman Azhar Ali is caught at first slip on the 5th day of the 3rd Test at Southampton",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 69
+  },
+  {
+    "id": 78,
+    "year": "1954",
+    "original": "Ivan Filin comes third in the Bern Marathon; he enters the stadium first but turns the wrong way and is overtaken by two other runners",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 71
+  },
+  {
+    "id": 45,
+    "year": "1920",
+    "original": "American swimmer Norman Ross wins his first of three gold medals at the Antwerp Olympics in dominating the men's 1,500 m freestyle; also wins the 400 m freestyle and 4 x 200 m freestyle relay",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 72
+  },
+  {
+    "id": 176,
+    "year": "1950",
+    "original": "Sugar Ray RobinsonKOs Jose Basora to win middleweight boxing title",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 74
+  },
+  {
+    "id": 182,
+    "year": "1977",
+    "original": "Canadian NHL playerTim Hortonposthumously inducted into Hockey Hall of Fame",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 75
+  },
+  {
+    "id": 128,
+    "year": "1991",
+    "original": "Wanda Panfil wins the third Women's World Championship Marathon in 2:29:53",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 76
+  },
+  {
+    "id": 70,
+    "year": "1943",
+    "original": "US forces overrun New Georgia in the Solomon Islands during WWII",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 80
+  },
+  {
+    "id": 80,
+    "year": "1955",
+    "original": "Last Soviet forces leave Austria",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 81
+  },
+  {
+    "id": 109,
+    "year": "1984",
+    "original": "French airship capsizes",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 83
+  },
+  {
+    "id": 120,
+    "year": "1989",
+    "original": "Mayumi Moriyama becomes Japan's first female cabinet secretary",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 84
+  }
+]

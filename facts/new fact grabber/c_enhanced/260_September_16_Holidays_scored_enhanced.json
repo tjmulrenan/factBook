@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "¡Viva México! Independence Day Fiesta",
+    "story": "Every September 16, Mexico explodes with green, white, and red celebrations for Mexican Independence Day! People fill the streets wearing their country's colors, waving flags, and shouting \"¡Viva México!\" at the top of their lungs. Families gather for huge feasts with traditional foods like pozole soup, chiles rellenos, and sweet tres leches cake. Mariachi bands play lively music while dancers spin in colorful dresses that twirl like flowers.",
+    "activity_question": "What colors do people wear to celebrate Mexican Independence Day?",
+    "activity_choices": [
+      "Green, white, and red",
+      "Blue, yellow, and purple",
+      "Orange, black, and silver",
+      "Pink, gold, and turquoise"
+    ],
+    "activity_answer": "Green, white, and red",
+    "bonus_fact": "The Mexican flag's green represents hope, white stands for unity, and red honors heroes.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "902",
+    "title": "Malaysia Day: Three States, One Nation!",
+    "story": "Every September 16, Malaysia celebrates the day when three separate states joined together to form one amazing country! On Malaysia Day, people wave colorful flags, enjoy traditional foods like nasi lemak and rendang, and watch special parades filled with music and dancing. Schools hold cultural performances where kids wear beautiful traditional costumes from different Malaysian communities. It's a day to celebrate how different cultures can come together as one nation!",
+    "activity_question": "What are some traditional Malaysian foods people enjoy on Malaysia Day?",
+    "activity_choices": [
+      "Nasi lemak and rendang",
+      "Pizza and hamburgers",
+      "Tacos and burritos",
+      "Fish and chips"
+    ],
+    "activity_answer": "Nasi lemak and rendang",
+    "follow_up_question": "How do you think different cultures in your community celebrate together?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "903",
+    "title": "Ozone Heroes Save the Sky",
+    "story": "Scientists around the world celebrate September 16 as International Day for the Preservation of the Ozone Layer! This invisible shield high above Earth protects us from harmful sun rays. People mark this day by learning about environmental protection and sharing tips to keep our atmosphere healthy. Schools teach students how everyday choices like using eco-friendly products help preserve the ozone layer for future generations.",
+    "activity_question": "What does the ozone layer protect us from?",
+    "activity_choices": [
+      "Harmful sun rays",
+      "Space aliens",
+      "Flying meteors",
+      "Cold winter weather"
+    ],
+    "activity_answer": "Harmful sun rays",
+    "follow_up_question": "What small changes could you make at home to help protect our atmosphere?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "904",
+    "title": "Setting Sail on Mayflower Day",
+    "story": "Every September 16, people celebrate Mayflower Day to remember the famous ship that carried the Pilgrims to America! Schools often host special lessons about the brave passengers who sailed across the ocean in 1620. Some museums display ship models and let kids try on Pilgrim costumes. Families might read stories about the long, bumpy voyage or even make paper boats to float in bathtubs and ponds!",
+    "activity_question": "What do some museums let kids try on during Mayflower Day?",
+    "activity_choices": [
+      "Pilgrim costumes",
+      "Pirate hats",
+      "Space suits",
+      "Chef aprons"
+    ],
+    "activity_answer": "Pilgrim costumes",
+    "bonus_fact": "The Mayflower voyage took 66 days to cross the Atlantic Ocean!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  }
+]

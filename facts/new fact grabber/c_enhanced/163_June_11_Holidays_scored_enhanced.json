@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Corn-y Fun on a Cob",
+    "story": "Every June 11, people across America celebrate National Corn on the Cob Day by firing up their grills and boiling big pots of water! Families gather around picnic tables, slathering butter on golden corn kernels and sprinkling salt everywhere. Some people roll their corn in mayo and cheese, while others prefer classic butter. Kids compete to see who can eat corn the cleanest without getting kernels stuck in their teeth. Restaurants serve special corn dishes, and farmers markets show off their freshest ears. It's the perfect excuse to get messy and enjoy summer's sweetest vegetable!",
+    "activity_question": "What do some people roll their corn in besides butter?",
+    "activity_choices": [
+      "Mayo and cheese",
+      "Peanut butter and jelly",
+      "Ketchup and mustard",
+      "Ice cream and sprinkles"
+    ],
+    "activity_answer": "Mayo and cheese",
+    "bonus_fact": "An average ear of corn has about 800 kernels arranged in 16 rows!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "902",
+    "title": "Sweet German Chocolate Cake Day",
+    "story": "Every June 11, cake lovers across America celebrate National German Chocolate Cake Day by baking and eating this deliciously sweet treat! Despite its name, German chocolate cake isn't from Germany at all. It's named after Samuel German, who created a special dark chocolate for baking in 1852. The cake features layers of chocolate sponge covered in a gooey coconut-pecan frosting that makes your taste buds dance with joy.",
+    "activity_question": "What makes German chocolate cake's frosting special?",
+    "activity_choices": [
+      "It's made with coconut and pecans",
+      "It's bright purple and sparkly",
+      "It contains actual pieces of Germany",
+      "It's made with vanilla and strawberries"
+    ],
+    "activity_answer": "It's made with coconut and pecans",
+    "bonus_fact": "Samuel German never actually tasted the famous cake named after his chocolate!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "903",
+    "title": "Hawaiian Heroes and Flower Power",
+    "story": "Every June 11, Hawaii celebrates Kamehameha Day to honor King Kamehameha I, the warrior who united all the Hawaiian islands into one kingdom over 200 years ago. People across Hawaii wear colorful leis made of fresh flowers and attend parades filled with music, dancing, and traditional Hawaiian culture. The biggest celebration happens in Honolulu, where giant statues of King Kamehameha get draped in beautiful flower leis that can be 18 feet long! Families gather for Hawaiian food like poi and kalua pig, while hula dancers perform ancient stories through their graceful movements. It's a day when Hawaiian pride shines brightest.",
+    "activity_question": "What do people drape on King Kamehameha statues during the celebration?",
+    "activity_choices": [
+      "Giant flower leis",
+      "Golden crowns",
+      "Colorful flags",
+      "Pineapple garlands"
+    ],
+    "activity_answer": "Giant flower leis",
+    "bonus_fact": "Some of the flower leis used on statues weigh over 100 pounds!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "904",
+    "title": "Purr-fect Hugs for Your Feline Friend",
+    "story": "Cat owners everywhere celebrate National Hug Your Cat Day on June 11 by giving their furry friends extra snuggles and affection! This special day encourages people to show love to their cats through gentle hugs, belly rubs, and cozy cuddle sessions. Many cat lovers share adorable photos of themselves hugging their pets on social media, creating a flood of heartwarming pictures online. Some cats absolutely love the attention, while others might give you that classic \"I'm too cool for this\" cat stare before secretly enjoying every minute of it!",
+    "activity_question": "What do many cat owners share on social media during National Hug Your Cat Day?",
+    "activity_choices": [
+      "Photos of themselves hugging their cats",
+      "Videos of cats doing math homework",
+      "Pictures of their cat's favorite toys",
+      "Stories about their cat's dreams"
+    ],
+    "activity_answer": "Photos of themselves hugging their cats",
+    "follow_up_question": "How do you think your cat shows affection back to you?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Crown Yourself Queen for a Day!",
+    "story": "Every May 24, people around the world put on their fanciest tiaras and crowns to celebrate International Tiara Day! This sparkly holiday encourages everyone to feel royal and confident, no matter who they are. People wear real tiaras, paper crowns, or even make their own from cardboard and glitter. Social media fills up with photos of kids, adults, and even pets wearing crowns. Some schools have special tiara contests, while others throw princess and prince parties. The day reminds us that everyone deserves to feel special and important, just like royalty!",
+    "activity_question": "What do people often make their own tiaras from on International Tiara Day?",
+    "activity_choices": [
+      "Cardboard and glitter",
+      "Real diamonds and gold",
+      "Plastic bottles and string",
+      "Paper plates and crayons"
+    ],
+    "activity_answer": "Cardboard and glitter",
+    "follow_up_question": "What would your perfect tiara look like if you could design one?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 92
+  },
+  {
+    "id": "902",
+    "title": "Sky-High Heroes Keep Planes Flying",
+    "story": "Aviation maintenance technicians are the unsung heroes who keep airplanes safe in the sky! Every May 24, we celebrate these skilled workers who inspect, repair, and maintain aircraft before takeoff. They check engines, test systems, and fix problems so passengers can fly safely to their destinations.",
+    "activity_question": "What do aviation maintenance technicians do to keep planes safe?",
+    "activity_choices": [
+      "Inspect, repair, and maintain aircraft",
+      "Serve snacks to passengers",
+      "Fly the planes to different cities",
+      "Design new airplane models"
+    ],
+    "activity_answer": "Inspect, repair, and maintain aircraft",
+    "bonus_fact": "These technicians must complete special training and pass tough tests to work on planes.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 45
+  },
+  {
+    "id": "903",
+    "title": "Bermuda Day: Island Fun in the Sun!",
+    "story": "Pink sand beaches come alive with parades, music, and dancing as Bermuda celebrates its biggest holiday on May 24! Families gather for picnics while colorful floats roll through the streets of Hamilton. People wear bright Bermuda shorts, wave flags, and cheer for local bands playing calypso music. The day kicks off with a half-marathon race, and everyone heads to the beach afterward for swimming and games in the crystal-clear water.",
+    "activity_question": "What type of race happens on Bermuda Day?",
+    "activity_choices": [
+      "A half-marathon",
+      "A swimming race",
+      "A bicycle race",
+      "A three-legged race with flamingos"
+    ],
+    "activity_answer": "A half-marathon",
+    "bonus_fact": "Bermuda's pink sand comes from tiny crushed shells and coral!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  }
+]

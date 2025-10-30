@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "original": "Constitution Day",
+    "score": 35,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 2,
+    "original": "Citizenship Day",
+    "score": 45,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 3,
+    "original": "National Apple Dumpling Day",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "National Monte Cristo Day",
+    "score": 80,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 5,
+    "original": "World Patient Safety Day",
+    "score": 45,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 6,
+    "original": "International Country Music Day",
+    "score": 70,
+    "is_kid_friendly": true
+  }
+]

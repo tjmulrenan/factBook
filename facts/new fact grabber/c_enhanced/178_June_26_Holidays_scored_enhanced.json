@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Pudding Paradise Day!",
+    "story": "Spoons are flying everywhere on June 26 because it's National Chocolate Pudding Day! People celebrate by making homemade chocolate pudding from scratch, buying fancy pudding cups from the store, or creating wild pudding parfaits with whipped cream and sprinkles. Restaurants offer special chocolate pudding desserts, and families have pudding-making contests to see who can create the creamiest, most delicious treat. Social media fills up with photos of people's pudding creations, from simple bowls to elaborate pudding cakes. Some brave souls even try chocolate pudding pizza or pudding-filled donuts on this sweet holiday!",
+    "activity_question": "What do families sometimes do to celebrate National Chocolate Pudding Day?",
+    "activity_choices": [
+      "Have pudding-making contests",
+      "Build pudding snowmen",
+      "Paint with chocolate pudding",
+      "Race with pudding spoons"
+    ],
+    "activity_answer": "Have pudding-making contests",
+    "bonus_fact": "Chocolate pudding was first invented in the 1840s as a fancy dessert for wealthy families.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Paddle Your Way to Fun Day",
+    "story": "Every June 26, paddlers across the country grab their oars and hit the water for National Canoe Day! This special day celebrates the joy of canoeing and encourages people to explore lakes, rivers, and streams in these classic boats. Families pack picnic lunches and spend the day gliding through calm waters, while adventure seekers tackle rushing rapids. Many parks and outdoor centers offer free canoe lessons or guided trips to help beginners learn the ropes. Social media fills with photos of people posing with their paddles and sharing their favorite canoeing spots.",
+    "activity_question": "What do many parks offer on National Canoe Day to help beginners?",
+    "activity_choices": [
+      "Free canoe lessons or guided trips",
+      "Free fishing licenses",
+      "Canoe-building workshops",
+      "Swimming competitions"
+    ],
+    "activity_answer": "Free canoe lessons or guided trips",
+    "follow_up_question": "What's the most interesting place you'd like to explore by canoe?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "903",
+    "title": "Keeping It Cool on World Refrigeration Day",
+    "story": "Every June 26, people around the world celebrate World Refrigeration Day by appreciating the amazing machines that keep our food fresh and our drinks cold! Refrigeration experts share cool facts about how fridges work, while families take time to organize their refrigerators and learn about food safety. Some people even post pictures of their perfectly organized fridges on social media, showing off colorful fruits and neatly arranged leftovers.",
+    "activity_question": "What do some people post on social media during World Refrigeration Day?",
+    "activity_choices": [
+      "Pictures of their organized fridges",
+      "Videos of dancing ice cubes",
+      "Photos of melted ice cream",
+      "Pictures of hot soup"
+    ],
+    "activity_answer": "Pictures of their organized fridges",
+    "follow_up_question": "What would happen if refrigerators were never invented?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  }
+]

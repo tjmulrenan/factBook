@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Presidential Punchlines and Political Puns",
+    "story": "Every August 11, Americans celebrate National Presidential Joke Day by sharing funny stories about their commanders-in-chief! People post memes about presidents on social media, tell jokes about political speeches, and share silly presidential trivia. Some schools even hold joke contests where kids dress up like famous presidents and deliver their best one-liners. It's a day to laugh at politics instead of arguing about it!",
+    "activity_question": "What do people often share on social media during National Presidential Joke Day?",
+    "activity_choices": [
+      "Memes about presidents",
+      "Serious political debates",
+      "Cooking recipes",
+      "Weather reports"
+    ],
+    "activity_answer": "Memes about presidents",
+    "follow_up_question": "What's the funniest thing you know about any U.S. president?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "902",
+    "title": "Steel Drums Make the World Sing",
+    "story": "Steel drums ring out across the globe every August 11 on World Steelpan Day! These magical metal instruments were invented in Trinidad and Tobago, where clever musicians discovered they could turn old oil barrels into beautiful music makers. Today, people celebrate by playing steelpan music in parks, schools, and concert halls. Musicians gather for special performances, sharing the happy, tropical sounds that make everyone want to dance. Some communities host steelpan workshops where kids can try playing these shiny drums themselves. The holiday spreads joy through the unique \"ping\" and \"pong\" sounds that only steel drums can make!",
+    "activity_question": "Where were steel drums originally invented?",
+    "activity_choices": [
+      "Trinidad and Tobago",
+      "Jamaica",
+      "Hawaii",
+      "Inside a giant coconut"
+    ],
+    "activity_answer": "Trinidad and Tobago",
+    "bonus_fact": "A full steelpan orchestra can have over 100 different sized steel drums!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "903",
+    "title": "Sandy Hands, Happy Hearts Day",
+    "story": "Grab your bucket and shovel because August 11 is National Play in the Sand Day! This awesome holiday celebrates the simple joy of digging, building, and creating with sand. Kids and adults head to beaches, sandboxes, and playgrounds to construct epic sandcastles, dig tunnels, or just let sand slip through their fingers. Some families organize sand sculpture contests, while others prefer making sand angels or burying each other's feet. Parks often host special sandbox activities, and many people share photos of their sandy masterpieces on social media. It's amazing how something as basic as sand can spark so much creativity and fun on this special day each year!",
+    "activity_question": "What do people commonly build when playing in sand on this holiday?",
+    "activity_choices": [
+      "Sandcastles",
+      "Ice sculptures",
+      "Tree houses",
+      "Rock towers"
+    ],
+    "activity_answer": "Sandcastles",
+    "follow_up_question": "What's the most creative thing you could build if you had unlimited sand?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 92
+  }
+]

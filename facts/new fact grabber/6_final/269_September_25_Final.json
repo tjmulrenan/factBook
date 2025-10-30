@@ -1,0 +1,1222 @@
+[
+  {
+    "id": "901",
+    "title": "One Song Stars Shine Bright",
+    "story": "Every September 25, music fans celebrate National One-Hit Wonder Day by cranking up those catchy songs that made artists famous for just one amazing tune! People create playlists of classics like \"Ice Ice Baby,\" \"Mambo No. 5,\" and \"Come on Eileen\" - songs everyone knows but might not remember who sang them. Radio stations play marathon blocks of these memorable hits, and social media fills with people sharing their favorite one-hit wonders and debating which songs truly count. It's the perfect day to appreciate artists who gave us unforgettable earworms, even if they never topped the charts again!",
+    "activity_question": "What do people typically create on National One-Hit Wonder Day?",
+    "activity_choices": [
+      "Playlists of one-hit wonder songs",
+      "New dance moves",
+      "Music videos",
+      "Karaoke machines"
+    ],
+    "activity_answer": "Playlists of one-hit wonder songs",
+    "follow_up_question": "What one-hit wonder song do you think everyone should know?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "134",
+    "title": "The Leap That Shocked the World",
+    "story": "Jaws dropped as Vince Carter soared through the air. During a basketball game at the 2000 Summer Olympics, the American player performed an incredible feat. He leaped completely over Frédéric Weis, a towering 7-foot-2-inch French player. This amazing jump on September 25 became legendary. In France, people called it 'le dunk de la mort' - the dunk of death. Carter's gravity-defying move showed the incredible athleticism of Olympic basketball players.",
+    "activity_question": "What did people in France call Vince Carter's incredible jump?",
+    "activity_choices": [
+      "The leap of faith",
+      "The dunk of death",
+      "The flying American",
+      "The Olympic surprise"
+    ],
+    "activity_answer": "The dunk of death",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think this dunk became so famous?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "130",
+    "title": "Zooming Past the Speed of Sound",
+    "story": "Vroom! Andy Green's jet-powered car roared across the desert, shattering records. On September 25, 1997, this British driver pushed his Thrust SSC to an incredible 714 mph. That's faster than the speed of sound! Green's daring feat proved humans could break the sound barrier on land, not just in the sky. It was a triumph of engineering and courage, though definitely not something to try on your daily commute!",
+    "activity_question": "What was the top speed of Andy Green's jet-powered car?",
+    "activity_choices": [
+      "714 mph",
+      "500 mph",
+      "1000 mph",
+      "60 mph"
+    ],
+    "activity_answer": "714 mph",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why is breaking the sound barrier on land significant?",
+    "score": 95,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "115",
+    "title": "Phoebe Mills Balances Her Way to History",
+    "story": "Flipping and twirling with grace, Phoebe Mills made gymnastics history in 1988. At the Seoul Olympics on September 25, she nailed her balance beam routine. Her stellar performance earned her a bronze medal, making Mills the first American woman to win an Olympic gymnastics medal with all countries competing. This breakthrough paved the way for future U.S. gymnasts to shine on the world stage.",
+    "activity_question": "What medal did Phoebe Mills win in the 1988 Olympics?",
+    "activity_choices": [
+      "Gold",
+      "Silver",
+      "Bronze",
+      "Platinum"
+    ],
+    "activity_answer": "Bronze",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What gymnastics event did Phoebe Mills compete in to win her medal?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "144",
+    "title": "China's Giant Eye in the Sky",
+    "story": "Imagine a telescope so big it could fill 30 football fields! On September 25, 2016, China switched on FAST, the world's largest radio telescope. This massive dish, nicknamed Tianyan or 'Sky Eye', spans 500 meters across. Hidden in the mountains of Guizhou Province, it searches for distant signals from space. Scientists hope FAST will help unlock cosmic mysteries and maybe even find alien life!",
+    "activity_question": "What does the acronym FAST stand for?",
+    "activity_choices": [
+      "Five-hundred-meter Aperture Spherical Telescope",
+      "Far-reaching Alien Signal Tracker",
+      "Fantastic Astronomy Science Tool",
+      "Futuristic Array of Space Technology"
+    ],
+    "activity_answer": "Five-hundred-meter Aperture Spherical Telescope",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think scientists built such a huge telescope?",
+    "optional_type": "follow_up_question",
+    "score": 90,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "139",
+    "title": "China's Space Leap: Shenzhou 7 Takes Flight",
+    "story": "Rockets roared as China reached for the stars! In 2008, the nation launched Shenzhou 7, its third crewed spaceflight. On September 25, three brave taikonauts blasted off, carrying China's space dreams with them. The mission marked a huge step forward in China's space program. It included the country's first-ever spacewalk, proving China's growing skills in space exploration. The successful flight inspired a new generation of young scientists and explorers.",
+    "activity_question": "What major achievement did the Shenzhou 7 mission include?",
+    "activity_choices": [
+      "China's first-ever spacewalk",
+      "Landing on the Moon",
+      "Docking with a space station",
+      "Discovering alien life"
+    ],
+    "activity_answer": "China's first-ever spacewalk",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What do you think would be the most exciting part of being a taikonaut on a space mission?",
+    "score": 92,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "92",
+    "title": "Spray Cans and the Ozone Layer",
+    "story": "Pssst! That's the sound of an aerosol spray can. But in 1974, scientists discovered these handy sprays were causing big trouble up in the sky. On September 25 that year, researchers reported that chemicals called freons, found in aerosol sprays, were damaging Earth's protective ozone layer. This invisible shield high above us blocks harmful rays from the sun. The discovery led to changes in how we make spray cans, helping to protect our planet's natural sunscreen.",
+    "activity_question": "What type of chemicals in aerosol sprays were damaging the ozone layer?",
+    "activity_choices": [
+      "Freons",
+      "Helium",
+      "Oxygen",
+      "Bubblegum"
+    ],
+    "activity_answer": "Freons",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why is the ozone layer important for Earth?",
+    "score": 92,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "124",
+    "title": "Boy Wins Right to Choose His Family",
+    "story": "Gregory Kingsley made history in 1992 when he stood up for his happiness. The brave 12-year-old went to court on September 25, fighting for the right to live with the foster family he loved. In a groundbreaking decision, the judge allowed Gregory to 'divorce' his birth parents. He joyfully changed his name to Shawn Russ, embracing his new life with the family who cared for him.",
+    "activity_question": "What did Gregory Kingsley fight for in court?",
+    "activity_choices": [
+      "The right to live with his foster family",
+      "The right to change his name",
+      "The right to become a lawyer",
+      "The right to skip school"
+    ],
+    "activity_answer": "The right to live with his foster family",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think Gregory felt after winning his case?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "35",
+    "title": "The Birth of Remote Control",
+    "story": "Imagine controlling a boat without touching it! In 1906, Leonardo Torres Quevedo amazed a large crowd in Bilbao with his Telekino invention. On September 25, he guided a boat from the shore using radio waves. This groundbreaking demonstration marked the birth of remote control technology. Quevedo's Telekino paved the way for the TV remotes and wireless gadgets we use today.",
+    "activity_question": "What did Leonardo Torres Quevedo demonstrate in Bilbao?",
+    "activity_choices": [
+      "The Telekino",
+      "A new type of boat",
+      "A radio station",
+      "A magic trick"
+    ],
+    "activity_answer": "The Telekino",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you think of three things you use today that are controlled remotely?",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "176",
+    "title": "A School Bulletin Board Births U2",
+    "story": "Rock legends are born in unexpected places. In 1976, a simple school notice sparked musical history. Larry Mullen Jr. posted an ad seeking bandmates at Mount Temple school. Bono, brothers David and Dik Evans, and Adam Clayton answered the call. Their jam sessions on September 25 laid the foundation for the iconic band U2. Little did they know their school meetup would change rock forever!",
+    "activity_question": "Where did Larry Mullen Jr. post the advertisement that led to U2's formation?",
+    "activity_choices": [
+      "On a school bulletin board",
+      "In a local newspaper",
+      "At a music store",
+      "On the radio"
+    ],
+    "activity_answer": "On a school bulletin board",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What instrument do you think Larry Mullen Jr. plays in U2?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "116",
+    "title": "Gymnast's Golden Day of Perfect Tens",
+    "story": "Flipping and twirling with incredible grace, Romanian gymnast Daniela Silivaș dazzled the world on September 25, 1988. At the Seoul Olympics, she achieved an amazing feat, winning three gold medals in a single day! Silivaș conquered the balance beam, floor exercise, and uneven bars events. But that's not all - her performances were so spectacular that she earned seven perfect scores of 10, tying the record for most perfect scores in Olympic gymnastics.",
+    "activity_question": "Which three events did Daniela Silivaș win gold medals in on that day?",
+    "activity_choices": [
+      "Balance beam, floor exercise, and uneven bars",
+      "Vault, floor exercise, and parallel bars",
+      "Balance beam, rings, and pommel horse",
+      "Trampoline, uneven bars, and rhythmic gymnastics"
+    ],
+    "activity_answer": "Balance beam, floor exercise, and uneven bars",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How many perfect scores of 10 did Daniela Silivaș earn during her Olympic performance?",
+    "optional_type": "follow_up_question",
+    "score": 98,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "309",
+    "title": "Shel Silverstein: Master of Words and Whimsy",
+    "story": "Shel Silverstein burst into the world on September 25, 1930, ready to sprinkle magic with his words. This Chicago-born wizard would grow up to be a beloved writer, cartoonist, and songwriter. Silverstein's clever mind created treasures like 'The Giving Tree' and funny songs such as 'A Boy Named Sue.' His playful poems and drawings continue to make kids (and grown-ups) giggle and think to this day.",
+    "activity_question": "What famous children's book did Shel Silverstein create?",
+    "activity_choices": [
+      "The Giving Tree",
+      "The Magic Treehouse",
+      "The Very Hungry Caterpillar",
+      "Green Eggs and Ham"
+    ],
+    "activity_answer": "The Giving Tree",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you think of a funny name for a song, like Shel did with 'A Boy Named Sue'?",
+    "score": 90,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "295",
+    "title": "The Inventor Who Made People Fly",
+    "story": "Paul MacCready dreamed of flying like a bird. Born in 1925 on September 25, this American inventor never gave up on that dream. Years later, he created something amazing: the first aircraft powered by a person pedaling! MacCready's invention showed that with creativity and hard work, humans could soar through the sky using only their own strength.",
+    "activity_question": "What did Paul MacCready invent?",
+    "activity_choices": [
+      "The first aircraft powered by a person pedaling",
+      "The first jet engine",
+      "The first hot air balloon",
+      "The first rocket ship"
+    ],
+    "activity_answer": "The first aircraft powered by a person pedaling",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think it would feel to fly an aircraft powered by your own pedaling?",
+    "optional_type": "follow_up_question",
+    "score": 90,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "127",
+    "title": "Mars Observer: A Space Mission Begins",
+    "story": "Rockets roared as the Space Shuttle blasted off, carrying a special passenger. On September 25, 1992, NASA launched the Mars Observer spacecraft. This robotic explorer's mission? To study the Red Planet's atmosphere, surface, and magnetic field. Scientists hoped it would unlock Mars' secrets and pave the way for future missions.",
+    "activity_question": "What was the Mars Observer's mission?",
+    "activity_choices": [
+      "To study Mars' atmosphere, surface, and magnetic field",
+      "To land astronauts on Mars",
+      "To collect Martian rocks",
+      "To take pictures of Martian aliens"
+    ],
+    "activity_answer": "To study Mars' atmosphere, surface, and magnetic field",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think scientists are so interested in studying Mars?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "186",
+    "title": "Matt Biondi's Golden Splash",
+    "story": "Splash! Matt Biondi rocketed through the water, leading the American team to victory in the 4 x 100m medley relay. This win on September 25, 1988, secured Biondi's fifth gold medal at the Seoul Olympics. Like a human torpedo, he anchored the relay, showcasing his incredible speed and skill. Biondi's amazing performance in the pool inspired young swimmers worldwide to chase their dreams.",
+    "activity_question": "What event did Matt Biondi win his fifth gold medal in?",
+    "activity_choices": [
+      "4 x 100m medley relay",
+      "100m freestyle",
+      "200m butterfly",
+      "Individual medley"
+    ],
+    "activity_answer": "4 x 100m medley relay",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think swimmers train to be so fast in the water?",
+    "score": 95,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "113",
+    "title": "Kristin Otto's Golden Splash",
+    "story": "Kristin Otto made waves in 1988! The East German swimmer raced through the water like a torpedo, setting an Olympic record in the 50-meter freestyle. Her lightning-fast time of 25.49 seconds earned her a shiny gold medal on September 25. But that wasn't all - this speedy swim marked Otto's sixth gold medal at the Seoul Olympics, making her performance truly unforgettable.",
+    "activity_question": "What Olympic event did Kristin Otto set a record in?",
+    "activity_choices": [
+      "50-meter freestyle",
+      "100-meter butterfly",
+      "200-meter backstroke",
+      "400-meter medley"
+    ],
+    "activity_answer": "50-meter freestyle",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How many gold medals did Kristin Otto win at the Seoul Olympics?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "183",
+    "title": "Flo-Jo's Lightning Sprint to Olympic Glory",
+    "story": "Florence Griffith Joyner blazed across the track in Seoul, leaving her competitors in awe. On September 25, 1988, the American sprinter nicknamed 'Flo-Jo' shattered the Olympic record in the women's 100-meter dash. She crossed the finish line in a blistering 10.54 seconds, outpacing her teammate Evelyn Ashford by nearly a third of a second. This incredible victory marked the first part of Flo-Jo's impressive sprint double at the Seoul Olympic Games.",
+    "activity_question": "What was Florence Griffith Joyner's nickname?",
+    "activity_choices": [
+      "Flo-Jo",
+      "Speedy",
+      "Lightning",
+      "Dash"
+    ],
+    "activity_answer": "Flo-Jo",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What other sprint event did Flo-Jo win at the Seoul Olympics?",
+    "optional_type": "follow_up_question",
+    "score": 90,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "379",
+    "title": "MythBusters Star Blasts onto the Scene",
+    "story": "Kaboom! Jamie Hyneman exploded into the world in Marshall, Michigan. Born in 1956 on September 25, this future special effects wizard would grow up to bust myths on TV. With his trademark beret and walrus mustache, Jamie became famous for testing wild ideas. His show MythBusters mixed science, explosions, and lots of fun!",
+    "activity_question": "What TV show did Jamie Hyneman become famous for?",
+    "activity_choices": [
+      "MythBusters",
+      "Explosion Masters",
+      "Science Wizards",
+      "Beret Busters"
+    ],
+    "activity_answer": "MythBusters",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What was Jamie Hyneman's job before he became a TV star?",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "152",
+    "title": "Billy the Kid's Daring Chimney Escape",
+    "story": "Smoke usually goes up chimneys, but in 1875, a notorious outlaw went down one! On September 25, Billy the Kid pulled off a bold escape from jail in Silver City, New Mexico. The young criminal, known for his quick draw, proved he was just as quick-thinking. He squeezed his way out through the narrow chimney, outsmarting the guards and vanishing into the night.",
+    "activity_question": "How did Billy the Kid escape from jail?",
+    "activity_choices": [
+      "By climbing out of a chimney",
+      "By digging a tunnel",
+      "By picking the lock",
+      "By disguising as a guard"
+    ],
+    "activity_answer": "By climbing out of a chimney",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think Billy chose to escape through the chimney instead of another way?",
+    "score": 82,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "289",
+    "title": "The Human Tugboat: A Navy Hero",
+    "story": "Splash! Charles J. French dove into the ocean, ready for an incredible feat. Born in Foreman, Arkansas on September 25, 1919, he would become a true hero. During World War II, this brave US Navy sailor earned the nickname 'the Human Tugboat' for his amazing actions in the South Pacific. French's strength and courage in the water saved lives and inspired his fellow sailors.",
+    "activity_question": "What nickname did Charles J. French earn during World War II?",
+    "activity_choices": [
+      "The Human Tugboat",
+      "The Arkansas Swimmer",
+      "The Ocean Hero",
+      "The Navy Lifesaver"
+    ],
+    "activity_answer": "The Human Tugboat",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think Charles J. French was called 'the Human Tugboat'?",
+    "score": 82,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "179",
+    "title": "A Groundbreaking Judge Takes Her Seat",
+    "story": "History was made when Sandra Day O'Connor raised her right hand and took the oath. In 1981, she became the first woman to join the US Supreme Court. O'Connor's appointment shattered a centuries-old barrier. Her sharp mind and fair rulings paved the way for future generations of women in law. On September 25, she stepped into her role, forever changing the face of American justice.",
+    "activity_question": "What position did Sandra Day O'Connor take in 1981?",
+    "activity_choices": [
+      "First woman on the US Supreme Court",
+      "First female President",
+      "First woman in Congress",
+      "First female astronaut"
+    ],
+    "activity_answer": "First woman on the US Supreme Court",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it's important to have diversity in the Supreme Court?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "101",
+    "title": "Keke Rosberg: Finland's First F1 Champion",
+    "story": "Zoom! In 1982, Keke Rosberg raced into history books. The Finnish driver clinched the Formula 1 World Drivers Championship with a fifth-place finish in Las Vegas on September 25. Rosberg's steady performance throughout the season paid off big time. He zoomed past his rivals, winning the title by a slim margin of just five points over Didier Pironi. This victory made Rosberg the first Finnish driver ever to claim the prestigious F1 crown.",
+    "activity_question": "What did Keke Rosberg become the first Finnish driver to do?",
+    "activity_choices": [
+      "Win the Formula 1 World Drivers Championship",
+      "Finish fifth in a race",
+      "Drive in Las Vegas",
+      "Beat Didier Pironi"
+    ],
+    "activity_answer": "Win the Formula 1 World Drivers Championship",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name another famous Finnish Formula 1 driver?",
+    "score": 85,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "114",
+    "title": "Swimming Sensation Makes a Splash",
+    "story": "Tamás Darnyi dove into Olympic glory on September 25, 1988. The Hungarian swimming sensation clinched gold in the 200-meter individual medley at the Seoul Olympics. Darnyi didn't just win; he shattered the world record with an incredible time. His victory completed a remarkable double, as he had already won gold in another medley event. Darnyi's powerful performance in the pool left spectators and competitors in awe.",
+    "activity_question": "What event did Tamás Darnyi win gold in at the Seoul Olympics?",
+    "activity_choices": [
+      "200-meter individual medley",
+      "100-meter freestyle",
+      "400-meter butterfly",
+      "Synchronized swimming"
+    ],
+    "activity_answer": "200-meter individual medley",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What other achievement did Darnyi accomplish at these Olympics?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "181",
+    "title": "Rickey Henderson's Speedy Record",
+    "story": "Zoom! Rickey Henderson raced into baseball history. The New York Yankees outfielder swiped his 75th base of the season on September 25, 1985. This lightning-fast feat set a new franchise record for stolen bases. Henderson's quick feet and daring dashes thrilled fans and frustrated pitchers all year long.",
+    "activity_question": "What position did Rickey Henderson play for the New York Yankees?",
+    "activity_choices": [
+      "Pitcher",
+      "Catcher",
+      "Outfielder",
+      "Shortstop"
+    ],
+    "activity_answer": "Outfielder",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think stealing bases is an important skill in baseball?",
+    "optional_type": "follow_up_question",
+    "score": 78,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "8",
+    "title": "A False Alarm on Columbus's Voyage",
+    "story": "Excitement rippled through the Pinta's crew in 1492. A sailor shouted 'Land ho!' on September 25, sparking hope after weeks at sea. But the celebration was short-lived. It turned out to be a false alarm—just clouds on the horizon. The real New World was still weeks away. This early sighting shows how eager Columbus's crew was to complete their long journey across the Atlantic.",
+    "activity_question": "What did the sailor on the Pinta mistakenly think he saw?",
+    "activity_choices": [
+      "Land",
+      "A mermaid",
+      "Another ship",
+      "A sea monster"
+    ],
+    "activity_answer": "Land",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think the crew felt when they realized it wasn't really land?",
+    "score": 85,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Balboa's Big Ocean Discovery",
+    "story": "Imagine trekking through dense jungle, then suddenly seeing a vast, unknown ocean! That's what happened to Spanish explorer Vasco Núñez de Balboa in 1513. On September 25, after a tough journey across the Isthmus of Panama, Balboa became the first European to spot the Pacific Ocean. He called it the South Sea, not realizing just how enormous it really was!",
+    "activity_question": "What did Balboa call the Pacific Ocean when he first saw it?",
+    "activity_choices": [
+      "The South Sea",
+      "The Big Blue",
+      "The New Ocean",
+      "The Western Waters"
+    ],
+    "activity_answer": "The South Sea",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think Balboa didn't realize how big the Pacific Ocean was?",
+    "score": 82,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "136",
+    "title": "Earth Shakes Japan's Northern Island",
+    "story": "The ground rumbled and buildings swayed as a powerful earthquake struck near Hokkaidō, Japan's northernmost main island. On September 25, 2003, the Earth unleashed its might with a magnitude 8.0 quake just off the coast. Fortunately, Japan's strict building codes and preparedness helped limit damage. The event reminded everyone of nature's awesome power and the importance of earthquake safety.",
+    "activity_question": "Where did the earthquake strike in Japan?",
+    "activity_choices": [
+      "Near Hokkaidō",
+      "In Tokyo",
+      "On Mount Fuji",
+      "Under the sea"
+    ],
+    "activity_answer": "Near Hokkaidō",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think Japan has such strict building codes?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "153",
+    "title": "Giant Trees Get a Giant Park",
+    "story": "Towering sequoias finally got their own special place! In 1890, President Benjamin Harrison created Sequoia National Park. These massive trees, some as tall as skyscrapers, now had a protected home in California. It became the state's first national park and only the second in the whole country. On September 25, nature lovers celebrated as these ancient giants were safeguarded for future generations to marvel at and enjoy.",
+    "activity_question": "What kind of trees does Sequoia National Park protect?",
+    "activity_choices": [
+      "Sequoias",
+      "Redwoods",
+      "Pines",
+      "Oaks"
+    ],
+    "activity_answer": "Sequoias",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Some sequoias are over 3,000 years old, making them among the oldest living things on Earth!",
+    "score": 90,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "33",
+    "title": "Breaking Barriers on the Football Field",
+    "story": "Charles Follis made history when he signed with the Shelby Blues football team in 1904. On September 25 that year, he became the first Black man in America to play professional football on an integrated team. Follis joined the Ohio League, paving the way for future athletes and helping to break down racial barriers in sports.",
+    "activity_question": "What team did Charles Follis sign with in 1904?",
+    "activity_choices": [
+      "Shelby Blues",
+      "Ohio Legends",
+      "Follis Flyers",
+      "American Aces"
+    ],
+    "activity_answer": "Shelby Blues",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think Charles Follis felt being the first Black player on an integrated team?",
+    "optional_type": "follow_up_question",
+    "score": 82,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "280",
+    "title": "Lilian Ngoyi: A Voice for Freedom",
+    "story": "Lilian Ngoyi roared into the world on September 25, 1911, ready to change history. Born in Pretoria, South Africa, she grew up to become a powerful voice against apartheid. Ngoyi wasn't just any activist - she smashed barriers by becoming the first woman elected to the African National Congress executive committee. From machinist to movement leader, her courage inspired many to stand up for equality.",
+    "activity_question": "What important 'first' did Lilian Ngoyi achieve?",
+    "activity_choices": [
+      "First woman elected to the ANC executive committee",
+      "First South African machinist",
+      "First person born in Pretoria",
+      "First voice against apartheid"
+    ],
+    "activity_answer": "First woman elected to the ANC executive committee",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it was important for women to be in leadership roles during the anti-apartheid movement?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "91",
+    "title": "Skylab 3 Crew Splashes Down Safely",
+    "story": "Splash! Three brave astronauts returned to Earth with a watery landing in the Pacific Ocean. After nearly two months floating high above our planet, the Skylab 3 crew completed their mission on September 25, 1973. These space explorers lived and worked aboard Skylab, America's first space station, conducting experiments and gazing at the stars.",
+    "activity_question": "Where did the Skylab 3 crew land when they returned to Earth?",
+    "activity_choices": [
+      "Pacific Ocean",
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Arctic Ocean"
+    ],
+    "activity_answer": "Pacific Ocean",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How long were the astronauts in space?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "26",
+    "title": "Howard University: A Groundbreaking School",
+    "story": "A new door to education swung open in 1867. Congress took a bold step, creating Howard University in Washington, D.C. This wasn't just any school - it was the first all-black university in America! On September 25, the founders laid plans for a place where African American students could learn, grow, and dream big. Howard University became a beacon of hope and opportunity.",
+    "activity_question": "What type of university was Howard University?",
+    "activity_choices": [
+      "The first all-black university",
+      "The first university in Washington, D.C.",
+      "The first university created by Congress",
+      "The first university named Howard"
+    ],
+    "activity_answer": "The first all-black university",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it was important to create an all-black university in 1867?",
+    "score": 80,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "52",
+    "title": "Taming the Sea: The Mighty Afsluitdijk",
+    "story": "A massive wall rose from the sea, stretching across the horizon. In 1933, the Netherlands unveiled the Afsluitdijk, a marvel of engineering that tamed the wild Zuiderzee. This 32-kilometer dam and road connected provinces, turning a treacherous inlet into a peaceful lake. Built to protect against floods, the Afsluitdijk became a symbol of Dutch ingenuity on September 25.",
+    "activity_question": "What body of water did the Afsluitdijk dam?",
+    "activity_choices": [
+      "The Zuiderzee",
+      "The North Sea",
+      "The Atlantic Ocean",
+      "The English Channel"
+    ],
+    "activity_answer": "The Zuiderzee",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The Afsluitdijk is considered one of the Seven Engineering Wonders of the Modern World.",
+    "score": 75,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "57",
+    "title": "Tiny Andorra's Big Peace Move",
+    "story": "Oops! When the big countries signed the Versailles Peace Treaty to end World War I, they forgot about tiny Andorra. This mountain nation finally made peace official in 1939. On September 25, Andorra and Germany signed their own treaty, closing a forgotten chapter of history.",
+    "activity_question": "Which two countries signed a treaty in this story?",
+    "activity_choices": [
+      "Andorra and Germany",
+      "France and Spain",
+      "Italy and Austria",
+      "Switzerland and Liechtenstein"
+    ],
+    "activity_answer": "Andorra and Germany",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Andorra is one of the smallest countries in Europe, nestled high in the Pyrenees mountains.",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "169",
+    "title": "The Mummy Rises: A Spooky Cinema Classic",
+    "story": "Bandages unraveled and ancient curses awakened as 'The Mummy' shuffled onto UK movie screens in 1959. This spine-tingling Hammer horror film, starring Christopher Lee as the mummified menace, thrilled audiences on September 25. Peter Cushing joined the fright-fest as the brave archaeologist facing off against the resurrected Egyptian terror. The movie wrapped viewers in suspense, becoming a classic monster tale.",
+    "activity_question": "Who starred as the mummified menace in 'The Mummy'?",
+    "activity_choices": [
+      "Christopher Lee",
+      "Peter Cushing",
+      "Boris Karloff",
+      "Vincent Price"
+    ],
+    "activity_answer": "Christopher Lee",
+    "suitable_for_8_to_12_year_old": false,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What other famous monster did Christopher Lee famously portray in Hammer horror films?",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "170",
+    "title": "Lightning-Fast Knockout Shocks Boxing World",
+    "story": "Pow! In a blink, the boxing world was turned upside down. On September 25, 1962, Sonny Liston unleashed a devastating punch that floored champion Floyd Patterson. The fight at Chicago's Comiskey Park lasted just over two minutes before Liston claimed the world heavyweight title. This lightning-fast victory stunned fans and changed boxing history forever.",
+    "activity_question": "Where did this historic boxing match take place?",
+    "activity_choices": [
+      "Comiskey Park",
+      "Madison Square Garden",
+      "Wembley Stadium",
+      "The Colosseum"
+    ],
+    "activity_answer": "Comiskey Park",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think a quick knockout might be surprising in a championship fight?",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "236",
+    "title": "Sweeping Up Success: The Carpet Cleaner's Creator",
+    "story": "Dust bunnies, beware! Melville Reuben Bissell, the genius behind the carpet sweeper, entered the world in 1843. Born in Hartwick, New York on September 25, Bissell would grow up to revolutionize home cleaning. His invention made sweeping carpets easier and quicker, helping families keep their homes tidy without the backbreaking work of beating rugs outdoors.",
+    "activity_question": "What did Melville Reuben Bissell invent?",
+    "activity_choices": [
+      "The carpet sweeper",
+      "The vacuum cleaner",
+      "The mop",
+      "The broom"
+    ],
+    "activity_answer": "The carpet sweeper",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think the carpet sweeper made cleaning easier for families?",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "243",
+    "title": "A Scientist's Birthday Breakthrough",
+    "story": "Buzzing flies led to big discoveries! Thomas Hunt Morgan, born in Kentucky on September 25, 1866, became a famous scientist who studied tiny fruit flies. His experiments with these insects helped explain how traits pass from parents to children. Morgan's work was so important that in 1933, he won a special prize called the Nobel Prize in Medicine.",
+    "activity_question": "What did Thomas Hunt Morgan study that led to important discoveries?",
+    "activity_choices": [
+      "Tiny fruit flies",
+      "Buzzing bees",
+      "Colorful butterflies",
+      "Jumping crickets"
+    ],
+    "activity_answer": "Tiny fruit flies",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you think of other small creatures scientists might study to learn big things?",
+    "score": 80,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "149",
+    "title": "Ethan Allen's Daring Raid",
+    "story": "Guns blazing, Ethan Allen led a surprise attack on Fort Ticonderoga. The American Revolutionary War hero and his Green Mountain Boys captured the British stronghold without firing a shot on September 25, 1775. This bold move secured valuable cannons for the Continental Army, giving them a much-needed boost in their fight for independence.",
+    "activity_question": "What did Ethan Allen capture?",
+    "activity_choices": [
+      "Fort Ticonderoga",
+      "A British ship",
+      "The king's crown",
+      "A herd of horses"
+    ],
+    "activity_answer": "Fort Ticonderoga",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Ethan Allen's group was called the Green Mountain Boys because they came from Vermont's Green Mountains.",
+    "score": 78,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "200",
+    "title": "Protecting People's Rights",
+    "story": "Freedom of speech, freedom of religion - these are just two of the important rights protected by the Bill of Rights. On September 25, 1789, the United States Congress proposed this crucial addition to the Constitution. The Bill of Rights would become the first ten amendments, safeguarding the liberties of American citizens for generations to come.",
+    "activity_question": "What did the United States Congress propose on September 25, 1789?",
+    "activity_choices": [
+      "The Bill of Rights",
+      "The Declaration of Independence",
+      "The Emancipation Proclamation",
+      "The Gettysburg Address"
+    ],
+    "activity_answer": "The Bill of Rights",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another right protected by the Bill of Rights?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "18",
+    "title": "Copper Wire's Magnetic Surprise",
+    "story": "Zap! A copper wire suddenly attracted iron filings, amazing French physicist François Arago in 1820. On September 25, he announced this groundbreaking discovery of electromagnetism. Arago found that when electricity flowed through a wire between battery poles, it created a magnetic field. This opened up a whole new world of scientific possibilities!",
+    "activity_question": "What did François Arago discover about copper wire?",
+    "activity_choices": [
+      "It attracted iron filings",
+      "It glowed in the dark",
+      "It became very hot",
+      "It turned green"
+    ],
+    "activity_answer": "It attracted iron filings",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you think of any devices we use today that might rely on electromagnetism?",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "238",
+    "title": "The Man Who Mapped Earth's Climates",
+    "story": "A baby born in Russia on September 25, 1846, would grow up to change how we understand Earth's weather. Wladimir Köppen became a famous scientist who created a special system for sorting the world's climates. His method helps us group places with similar weather patterns, making it easier to study and predict climate across the globe.",
+    "activity_question": "What did Wladimir Köppen create?",
+    "activity_choices": [
+      "A special system for sorting climates",
+      "A new type of weather balloon",
+      "The first accurate world map",
+      "A machine that controls the weather"
+    ],
+    "activity_answer": "A special system for sorting climates",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name a type of climate in your area?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "254",
+    "title": "Tennis Trailblazer Serves Up History",
+    "story": "Ace! May Sutton smashed her way into tennis history. Born in Plymouth, England on September 25, 1886, she moved to America as a child. Sutton became a powerhouse on the court, known for her fierce backhand. In 1905, she made waves by becoming the first American woman to win the Wimbledon singles title.",
+    "activity_question": "What tennis tournament did May Sutton win in 1905?",
+    "activity_choices": [
+      "Wimbledon",
+      "US Open",
+      "French Open",
+      "Australian Open"
+    ],
+    "activity_answer": "Wimbledon",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "May Sutton was only 18 years old when she won Wimbledon.",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "337",
+    "title": "Explorer Born: Retracing Ancient Voyages",
+    "story": "Tim Severin, a daring explorer, was born in 1940 on September 25. He grew up to become famous for recreating historic journeys. Severin sailed across oceans in boats built just like those used long ago. He wanted to prove that ancient explorers could have made incredible voyages using only the tools of their time. His adventures inspired many books and showed us how brave early travelers were.",
+    "activity_question": "What did Tim Severin become famous for?",
+    "activity_choices": [
+      "Recreating historic journeys",
+      "Building modern ships",
+      "Writing science fiction",
+      "Discovering new lands"
+    ],
+    "activity_answer": "Recreating historic journeys",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it's important to recreate historic voyages?",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "369",
+    "title": "A Voice for Change: bell hooks",
+    "story": "Gloria Jean Watkins, better known as bell hooks, entered the world in 1952. Born on September 25 in Hopkinsville, Kentucky, she grew up to become a powerful voice for equality. As an author, educator, and activist, hooks challenged unfair ideas and inspired people to think differently about society. Her words and teachings continue to shape conversations about fairness and respect for all.",
+    "activity_question": "What was bell hooks known for being?",
+    "activity_choices": [
+      "An author, educator, and activist",
+      "A chef and restaurant owner",
+      "A professional athlete",
+      "A movie director"
+    ],
+    "activity_answer": "An author, educator, and activist",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it's important for people to speak up about fairness in society?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "84",
+    "title": "The Beatles Rock Saturday Mornings",
+    "story": "Fab Four fever hit TV screens! On September 25, 1965, The Beatles cartoon show debuted in America. Kids across the country tuned in to watch animated versions of John, Paul, George, and Ringo have wild adventures and sing their hit songs. The show's colorful style and catchy tunes had fans twisting and shouting with joy every Saturday morning.",
+    "activity_question": "What day of the week did The Beatles cartoon show air?",
+    "activity_choices": [
+      "Saturday",
+      "Sunday",
+      "Friday",
+      "Wednesday"
+    ],
+    "activity_answer": "Saturday",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "The real Beatles didn't voice their cartoon characters!",
+    "optional_type": "bonus_fact",
+    "score": 84,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "193",
+    "title": "Racing to Victory: Alonso's F1 Triumph",
+    "story": "Engines roared as Fernando Alonso sped to glory in 2005. The Spanish driver secured third place in the Brazilian Grand Prix on September 25, sealing his first Formula 1 World Drivers Championship. Alonso's skill and determination on the track made him a racing legend, inspiring young fans around the world.",
+    "activity_question": "What did Fernando Alonso win in 2005?",
+    "activity_choices": [
+      "Formula 1 World Drivers Championship",
+      "Brazilian Grand Prix",
+      "Spanish Racing Cup",
+      "Autódromo Trophy"
+    ],
+    "activity_answer": "Formula 1 World Drivers Championship",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What country is Fernando Alonso from?",
+    "score": 70,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "313",
+    "title": "A Piano Prodigy's First Notes",
+    "story": "Glenn Gould's fingers first touched piano keys in 1932. Born on September 25 in Toronto, this Canadian boy grew into a classical music superstar. Gould became famous for playing Bach's tricky pieces with amazing skill. He also created cool radio shows, sharing his love of music with the world.",
+    "activity_question": "What famous composer's music did Glenn Gould become known for playing?",
+    "activity_choices": [
+      "Bach's",
+      "Mozart's",
+      "Beethoven's",
+      "Chopin's"
+    ],
+    "activity_answer": "Bach's",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Glenn Gould often hummed while playing piano, creating unique recordings that captured his passion for music.",
+    "score": 70,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "45",
+    "title": "Hockey's New Stars Take the Ice",
+    "story": "Skates sliced across fresh ice as two legendary hockey teams were born. In 1926, on September 25, the National Hockey League welcomed the Chicago Blackhawks and Detroit Red Wings. These teams would go on to become fierce rivals, thrilling fans for generations with their fast-paced games and skilled players. The addition of these franchises helped the NHL grow into the exciting league we know today.",
+    "activity_question": "Which two hockey teams were granted franchises by the NHL?",
+    "activity_choices": [
+      "Chicago Blackhawks and Detroit Red Wings",
+      "New York Rangers and Boston Bruins",
+      "Montreal Canadiens and Toronto Maple Leafs",
+      "Philadelphia Flyers and Pittsburgh Penguins"
+    ],
+    "activity_answer": "Chicago Blackhawks and Detroit Red Wings",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The Blackhawks and Red Wings are part of the 'Original Six', the oldest NHL teams still playing today.",
+    "score": 70,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "70",
+    "title": "Brave Students Face a Historic School Day",
+    "story": "Courage walked through the school gates in 1957. Nine brave black students returned to Central High School in Arkansas, protected by 300 US Army troops. These young heroes faced angry crowds to fight for their right to equal education. Their bravery on September 25 helped pave the way for school integration across America.",
+    "activity_question": "Who protected the nine black students at Central High School?",
+    "activity_choices": [
+      "300 US Army troops",
+      "Local police officers",
+      "Their parents",
+      "School teachers"
+    ],
+    "activity_answer": "300 US Army troops",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think it was important for these students to attend Central High School?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "135",
+    "title": "Mysterious Flash Lights Up Siberian Sky",
+    "story": "A brilliant flash lit up the night sky over Siberia on September 25, 2002. Scientists believe it was a bolide meteor, a space rock that explodes as it enters Earth's atmosphere. The event, known as the Vitim event, puzzled locals and researchers alike. Witnesses reported a blinding light and a thunderous boom that shook the ground. Luckily, the meteor burst high in the air, causing no damage.",
+    "activity_question": "What do scientists believe caused the Vitim event?",
+    "activity_choices": [
+      "A bolide meteor",
+      "A lightning storm",
+      "A nuclear test",
+      "An alien spaceship"
+    ],
+    "activity_answer": "A bolide meteor",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think it's important for scientists to study events like this?",
+    "score": 75,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "143",
+    "title": "Smoky Skies Shut Singapore Schools",
+    "story": "Thick smoke blanketed Singapore in 2015, forcing schools to close on September 25. The haze came from massive fires in nearby Indonesia. These fires, often started to clear land, created dangerous air pollution. Singapore took action to protect kids' health, showing how environmental problems can affect daily life.",
+    "activity_question": "What caused the dangerous air pollution in Singapore?",
+    "activity_choices": [
+      "Massive fires in Indonesia",
+      "Factory emissions",
+      "Volcanic eruptions",
+      "Car exhaust fumes"
+    ],
+    "activity_answer": "Massive fires in Indonesia",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How might closing schools help protect children during air pollution events?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "208",
+    "title": "A Star is Born: Ole Rømer",
+    "story": "Stargazers, rejoice! On September 25, 1644, a bright new star appeared in the world of astronomy. Ole Rømer was born in Aarhus, Denmark. This curious boy would grow up to become a famous astronomer, making groundbreaking discoveries about light and the vastness of space. His work helped scientists understand how fast light travels across the universe!",
+    "activity_question": "What did Ole Rømer become famous for?",
+    "activity_choices": [
+      "Being an astronomer",
+      "Inventing the telescope",
+      "Writing poetry",
+      "Sailing the seas"
+    ],
+    "activity_answer": "Being an astronomer",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another famous astronomer?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "220",
+    "title": "A Musical Prodigy's First Notes",
+    "story": "Tiny fingers danced across piano keys as George Pinto took his first breath in 1785. Born on September 25 in Lambeth, South London, this musical marvel would soon astonish audiences. Pinto grew into a violin prodigy and keyboard virtuoso, composing beautiful melodies that still echo today.",
+    "activity_question": "What two instruments was George Pinto known for playing?",
+    "activity_choices": [
+      "Violin and keyboard",
+      "Guitar and drums",
+      "Flute and harp",
+      "Trumpet and piano"
+    ],
+    "activity_answer": "Violin and keyboard",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name another famous composer born in London?",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "233",
+    "title": "Baseball's First Pro Team Pioneer",
+    "story": "Batter up! Harry Wright, born in Sheffield, England in 1835, would change baseball forever. On September 25 of that year, the future Hall of Famer entered the world. Wright went on to establish the Cincinnati Red Stockings in 1869, creating baseball's first fully professional team. His innovative spirit helped shape America's favorite pastime.",
+    "activity_question": "What team did Harry Wright establish?",
+    "activity_choices": [
+      "Cincinnati Red Stockings",
+      "Sheffield United",
+      "New York Yankees",
+      "Boston Red Sox"
+    ],
+    "activity_answer": "Cincinnati Red Stockings",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Harry Wright played center field and managed teams, earning him a spot in the Baseball Hall of Fame.",
+    "score": 70,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "307",
+    "title": "A Comedy Legend's First Laugh",
+    "story": "Laughter filled the air in Bedford, England, as Ronnie Barker took his first breath in 1929. Born on September 25, this future comedy star would grow up to tickle funny bones across the nation. Barker became famous for his roles in hilarious shows like 'The Two Ronnies' and 'Porridge', bringing joy to millions with his clever wordplay and perfect timing.",
+    "activity_question": "What famous comedy shows was Ronnie Barker known for?",
+    "activity_choices": [
+      "'The Two Ronnies' and 'Porridge'",
+      "'Laugh-In' and 'Monty Python'",
+      "'Fawlty Towers' and 'Blackadder'",
+      "'Mr. Bean' and 'Are You Being Served?'"
+    ],
+    "activity_answer": "'The Two Ronnies' and 'Porridge'",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Ronnie Barker was also a talented writer, often penning sketches under the pseudonym Gerald Wiley.",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "20",
+    "title": "Cricket Clash: Canada Triumphs in NYC",
+    "story": "Bats swung and balls flew as Canada faced the USA in a historic cricket match. In 1844, on September 25, players gathered at St. George's Cricket Club in Manhattan. The exciting game ended with Canada scoring a victory, beating their American rivals. This friendly competition marked the first international cricket match between the two nations, sparking a sporting tradition.",
+    "activity_question": "Where did this historic cricket match take place?",
+    "activity_choices": [
+      "St. George's Cricket Club",
+      "Central Park",
+      "Yankee Stadium",
+      "Toronto Cricket Ground"
+    ],
+    "activity_answer": "St. George's Cricket Club",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another sport the USA and Canada often compete in?",
+    "optional_type": "follow_up_question",
+    "score": 72,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "56",
+    "title": "Chinese Victory at Pingxingguan Pass",
+    "story": "Clash! Chinese soldiers surprised Japanese troops at Pingxingguan Pass in 1937. This battle was a bright spot for China during a difficult war. On September 25, Chinese forces used clever tactics to outsmart their opponents. They hid in the mountains and attacked when the Japanese least expected it. This victory boosted Chinese morale and showed they could stand up to the invading army.",
+    "activity_question": "Where did the Chinese soldiers hide before their surprise attack?",
+    "activity_choices": [
+      "In the mountains",
+      "In the city",
+      "On the beach",
+      "Behind trees"
+    ],
+    "activity_answer": "In the mountains",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think surprise attacks can be effective in battles?",
+    "optional_type": "follow_up_question",
+    "score": 72,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "137",
+    "title": "Cricket Clash: West Indies Triumph",
+    "story": "Bats swung and balls flew as the West Indies cricket team faced England in an epic showdown. On September 25, 2004, the ICC Men's Cricket Champions Trophy final unfolded at The Oval in London. In a nail-biting finish, the West Indies clinched victory by a narrow margin of two wickets. Ramnaresh Sarwan shone brightly, earning the Player of the Series title with an impressive tally of runs.",
+    "activity_question": "Where did the ICC Men's Cricket Champions Trophy final take place?",
+    "activity_choices": [
+      "The Oval in London",
+      "Lords Cricket Ground",
+      "Melbourne Cricket Ground",
+      "Wankhede Stadium"
+    ],
+    "activity_answer": "The Oval in London",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What does ICC stand for in cricket?",
+    "optional_type": "follow_up_question",
+    "score": 72,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "19",
+    "title": "Darwin's Voyage Reaches a Milestone",
+    "story": "Waves lapped against the hull as HMS Beagle dropped anchor at St Michael. It was September 25, 1836, and the famous ship carrying naturalist Charles Darwin had reached a crucial point in its epic journey. Darwin had spent years exploring and studying nature across the globe. His observations would later inspire his groundbreaking ideas about evolution.",
+    "activity_question": "What was the name of the ship that anchored at St Michael?",
+    "activity_choices": [
+      "HMS Beagle",
+      "HMS Eagle",
+      "HMS Voyager",
+      "HMS Explorer"
+    ],
+    "activity_answer": "HMS Beagle",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Who was the famous naturalist on board the HMS Beagle?",
+    "score": 70,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "69",
+    "title": "Indian Film Triumphs at Venice Festival",
+    "story": "Lights, camera, action! In 1957, an Indian film called Aparajito made history at the Venice Film Festival. Directed by Satyajit Ray, this powerful movie became the first ever to win both the Golden Lion and the Critics Award on September 25. It was a groundbreaking moment for Indian cinema, showing the world the artistry and storytelling prowess of filmmakers from India.",
+    "activity_question": "What two awards did the film Aparajito win at the Venice Film Festival?",
+    "activity_choices": [
+      "The Golden Lion and the Critics Award",
+      "The Silver Bear and the Audience Award",
+      "The Palme d'Or and the Best Director Award",
+      "The Golden Unicorn and the Best Screenplay Award"
+    ],
+    "activity_answer": "The Golden Lion and the Critics Award",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Have you ever watched a film from another country? What did you learn from it?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  }
+]

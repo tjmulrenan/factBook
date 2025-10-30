@@ -1,0 +1,42 @@
+[
+  {
+    "id": "901",
+    "title": "Slurpee Celebration at the Corner Store",
+    "story": "Every July 11, convenience stores across America throw a party for National 7-Eleven Day! The date matches the store's name perfectly - 7/11. On this sweet day, 7-Eleven gives away thousands of free Slurpees to customers who line up at their local stores. People post photos of their colorful frozen drinks on social media, showing off flavors like blue raspberry, cherry, and Coca-Cola. Some stores also offer special deals on snacks, hot dogs, and other treats. It's become a summer tradition where friends meet up to grab their free brain-freeze fuel together!",
+    "activity_question": "What does 7-Eleven give away for free on National 7-Eleven Day?",
+    "activity_choices": [
+      "Slurpees",
+      "Hot dogs",
+      "Pizza slices",
+      "Candy bars"
+    ],
+    "activity_answer": "Slurpees",
+    "bonus_fact": "The date 7/11 perfectly matches the store's name - that's why they picked this day!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "902",
+    "title": "Brain Freeze for Free!",
+    "story": "Every July 11, thousands of people line up at 7-Eleven stores across the country for one amazing reason: free Slurpees! This icy, colorful drink comes in wild flavors like blue raspberry, cherry, and Coca-Cola. On Free Slurpee Day, you can walk into any participating 7-Eleven and grab a small Slurpee without paying a penny. Kids and adults alike slurp down these frozen treats, often getting brain freeze from drinking too fast. Some people visit multiple stores to try different flavors, while others post photos of their colorful drinks on social media. It's the perfect way to cool down on a hot summer day!",
+    "activity_question": "What happens to many people when they drink their free Slurpee too quickly?",
+    "activity_choices": [
+      "They get brain freeze",
+      "They turn blue",
+      "They start dancing",
+      "They become invisible"
+    ],
+    "activity_answer": "They get brain freeze",
+    "bonus_fact": "Some Slurpee fans create rainbow drinks by mixing multiple flavors in one cup!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  }
+]

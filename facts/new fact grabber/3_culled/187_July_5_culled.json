@@ -1,0 +1,542 @@
+[
+  {
+    "id": 355,
+    "year": "1958",
+    "original": "William \"Bill\" Watterson, American cartoonist known for being author of the comic strip Calvin and Hobbes (1985-95), born in Washington, D.C.",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 1
+  },
+  {
+    "id": 107,
+    "year": "1981",
+    "original": "Rajan Mahadevan recites 31,811 digits of π (Pi) from memory",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 2
+  },
+  {
+    "id": 152,
+    "year": "2021",
+    "original": "One of world's oldest pieces of art, 51,000-year-old deer bone carved by Neanderthals, announced discovered in Harz Mountains, Germany",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 3
+  },
+  {
+    "id": 36,
+    "year": "1898",
+    "original": "Lizzie Arlington becomes first woman to play professional men's baseball when she pitches 9th inning for the Reading Coal Heavers against the Allentown Peanuts; allows 2 hits and walks a batter but preserves 5-0 win",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 4
+  },
+  {
+    "id": 192,
+    "year": "2015",
+    "original": "FIFA Women's World Cup Final: Carli Lloyd scores a hat-trick as US beats Japan 5-2, in Vancouver",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 5
+  },
+  {
+    "id": 163,
+    "year": "1687",
+    "original": "Isaac Newton's great work, \"Principia,\" is published by the Royal Society in England, outlining his laws of motion and universal gravitation",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 6
+  },
+  {
+    "id": 187,
+    "year": "1994",
+    "original": "Amazon.com is founded byJeff Bezosin Bellevue, Washington",
+    "score": 55,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 7
+  },
+  {
+    "id": 159,
+    "year": "2023",
+    "original": "Meta launches Threads - Instagram's new public conversations app - a day later it becomes the most rapidly downloaded app ever with 30 million downloads",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 8
+  },
+  {
+    "id": 135,
+    "year": "2012",
+    "original": "The Shard, the tallest building in Europe, is opened in London, at 309.6 metres (1,016 ft)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 9
+  },
+  {
+    "id": 162,
+    "year": "2025",
+    "original": "Three new swimming sites open to the public on the Seine River in Paris, France for the first time since being outlawed in 1923 due to pollution and navigation concerns",
+    "score": 88,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 10
+  },
+  {
+    "id": 12,
+    "year": "1643",
+    "original": "1st recorded tornado in US (Essex County, Massachusetts)",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 11
+  },
+  {
+    "id": 28,
+    "year": "1865",
+    "original": "United Kingdom creates the world's first speed limit law",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 12
+  },
+  {
+    "id": 67,
+    "year": "1946",
+    "original": "Louis Réard's design for a bikini swimsuit debuts at a Paris fashion show",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 13
+  },
+  {
+    "id": 174,
+    "year": "1951",
+    "original": "Invention of the junction transistor at Bell labs, invented byWilliam Shockley,John BardeenandWalter Houser Brattain(Nobel Physics Prize 1956)",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 14
+  },
+  {
+    "id": 141,
+    "year": "2017",
+    "original": "Volvo Cars announces that all new models by 2019 will be either hybrids or battery-powered, the first automaker to do so",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 15
+  },
+  {
+    "id": 156,
+    "year": "2022",
+    "original": "Mike Grier becomes the first Black manager in the NHL - of the San Jose Sharks",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 16
+  },
+  {
+    "id": 173,
+    "year": "1947",
+    "original": "Cleveland Indians rookieLarry Dobybecomes 1st black player in AL when he strikes out in 6-5 loss vs Chicago White Sox",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 17
+  },
+  {
+    "id": 169,
+    "year": "1934",
+    "original": "Lou Gehrighits record 17th career grand slam in Yankees 8-3 win v Washington, passesBabe Ruth's total",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 18
+  },
+  {
+    "id": 175,
+    "year": "1954",
+    "original": "SingerElvis Presley's 1st professional recording session (with guitarist Scotty Moore & bass player Bill Black) takes place at Sam Phillips' Memphis Recording Service in Memphis, Tennessee. The trio record four songs including their historic cover of Arthur \"Big Boy\" Crudup's song \"That's All Right\".",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 19
+  },
+  {
+    "id": 147,
+    "year": "2019",
+    "original": "Ancient Iraqi city of Babylon is declared a UNESCO World Heritage Site",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 20
+  },
+  {
+    "id": 124,
+    "year": "1996",
+    "original": "Angels score 3 top 1st, Oakland A's respond with 13 bottom 1st, highest-scoring 1st inning by 2 teams in MLB history, A's win 16-8",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 23
+  },
+  {
+    "id": 186,
+    "year": "1993",
+    "original": "MLB Oakland A's outfielderRickey Hendersonleads off both games of Oakland's doubleheader vs Cleveland with homers (first time since 1913)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 22
+  },
+  {
+    "id": 179,
+    "year": "1975",
+    "original": "At Knebworth Festival in England,Pink Floyddebut their album \"Wish You Were Here\" with pyrotechnics and an exploding plane that flies into the stage",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 24
+  },
+  {
+    "id": 189,
+    "year": "2009",
+    "original": "Wimbledon Men's Tennis:Roger FedererbeatsAndy Roddickof the US 5-7, 7-6, 7-6, 3-6, 16-14 for a record 15th Grand Slam singles title",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 25
+  },
+  {
+    "id": 158,
+    "year": "2023",
+    "original": "Hottest global temperature ever recorded -  for third consecutive day - as average global temperature tops 17.18 degrees Celsius, tying with July 4, 2023",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 26
+  },
+  {
+    "id": 53,
+    "year": "1937",
+    "original": "117°F (47°C), Medicine Lake, Montana (state record)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 27
+  },
+  {
+    "id": 52,
+    "year": "1936",
+    "original": "120°F (49°C), Gannvalley, South Dakota (state record)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 28
+  },
+  {
+    "id": 132,
+    "year": "2011",
+    "original": "\"Somebody That I Used to Know\" single released by Gotye ft. Kimbra (Grammy Award Best Pop Duo/Group Performance, Record of the Year 2013)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 29
+  },
+  {
+    "id": 198,
+    "year": "2025",
+    "original": "Ozzy Osbourne's \"Back to the Beginning\" final concert performance includes a reunion with original Black Sabbath band members at Villa Park in Birmingham, England, and raise funds for children's hospitals and Parkinson's disease research; other acts in the day-long festival includeMetallica, Slayer, Guns N’ Roses, Gojira, and Anthrax",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 30
+  },
+  {
+    "id": 94,
+    "year": "1969",
+    "original": "Rolling Stones play a free concert in London's Hyde Park",
+    "score": 94,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 31
+  },
+  {
+    "id": 89,
+    "year": "1966",
+    "original": "NASA launches Saturn IB rocket from Cape Canaveral, Florida",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 32
+  },
+  {
+    "id": 78,
+    "year": "1958",
+    "original": "First ascent of Gasherbrum I (Pakistani–Chinese border), 11th highest peak on earth",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 33
+  },
+  {
+    "id": 113,
+    "year": "1985",
+    "original": "Nicholas Mark Sanders (England) begins circumnavigation of globe, covering 13,035 road miles in 78 days, 3 hr, 30 min",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 34
+  },
+  {
+    "id": 121,
+    "year": "1993",
+    "original": "Richard Chelimo run world record 10 km (27:07.91)",
+    "score": 78,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 35
+  },
+  {
+    "id": 85,
+    "year": "1961",
+    "original": "St Louis Cardinals first baseman Bill White smashes 3 HRs & a double in 9-1 rout of LA Dodgers",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 37
+  },
+  {
+    "id": 171,
+    "year": "1937",
+    "original": "NY Yankees outfielderJoe DiMaggiohits 20th HR of the season but 1st career grand slam in 8-4 win vs Boston Red Sox",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 38
+  },
+  {
+    "id": 383,
+    "year": "1969",
+    "original": "RZA [Robert Fitzgerald Diggs], American rapper (Wu-Tang Clan), born in New York City",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 40
+  },
+  {
+    "id": 312,
+    "year": "1943",
+    "original": "(Jaime Royal) \"Robbie\" Robertson, Canadian-Mohawk singer-songwriter and rock guitarist (The Band - \"The Weight\"; \"Up On Cripple Creek\"), and soundtrack composer (Martin Scorsese films), born in Toronto, Ontario (d. 2023)[1][2]",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 41
+  },
+  {
+    "id": 155,
+    "year": "2022",
+    "original": "Mathematics Fields Medal (presented every four years to mathematicians under 40) awarded to James Maynard, June Huh, Maryna Viazovska and Hugo Duminil-Copin in Helsinki",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 42
+  },
+  {
+    "id": 153,
+    "year": "2022",
+    "original": "Amid Greater Sydney's fourth major flood in 18 months, the Australian government declares a natural disaster as 45,000 people threatened with evacuation orders",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 43
+  },
+  {
+    "id": 149,
+    "year": "2019",
+    "original": "Second stronger earthquake in Southern California at 7.1 magnitude centered near Ridgecrest",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Mother Nature's Meltdowns",
+    "rank": 44
+  },
+  {
+    "id": 129,
+    "year": "2006",
+    "original": "Emergency United Nations Security Council meeting at the U.N in New York City because of North Korean missile tests that day",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 45
+  },
+  {
+    "id": 145,
+    "year": "2018",
+    "original": "Saleswomen in Kerala, India, win right to sit down and take toilet breaks in new amendment to law",
+    "score": 55,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 46
+  },
+  {
+    "id": 21,
+    "year": "1841",
+    "original": "Thomas Cook opens first travel agency",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 47
+  },
+  {
+    "id": 66,
+    "year": "1945",
+    "original": "World War II: Liberation of the Philippines declared",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 48
+  },
+  {
+    "id": 86,
+    "year": "1962",
+    "original": "Algeria gains independence after 132 years of French rule",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 49
+  },
+  {
+    "id": 102,
+    "year": "1975",
+    "original": "Cape Verde Islands gain independence after 500 years of Portuguese rule",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 50
+  },
+  {
+    "id": 200,
+    "year": "1811",
+    "original": "Venezuelan Declaration of Independence: Seven provinces declare independence from Spain",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 51
+  },
+  {
+    "id": 70,
+    "year": "1950",
+    "original": "US forces enter combat in the Korean War for the first time, in the Battle of Osan",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 52
+  },
+  {
+    "id": 65,
+    "year": "1944",
+    "original": "Harry Crosby takes 1st rocket airplane, MX-324, for maiden flight",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 53
+  },
+  {
+    "id": 109,
+    "year": "1982",
+    "original": "Challenger flies to Kennedy Space Center via Ellington AFB, Texas",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 54
+  },
+  {
+    "id": 104,
+    "year": "1978",
+    "original": "Soyuz 30 spacecraft touches down in Soviet Kazakhstan",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 55
+  },
+  {
+    "id": 100,
+    "year": "1973",
+    "original": "Isle of Man begins issuing its own postage stamps",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 56
+  },
+  {
+    "id": 75,
+    "year": "1955",
+    "original": "Six week old British dock strike ends as London dockers return to work",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 57
+  },
+  {
+    "id": 74,
+    "year": "1954",
+    "original": "The BBC broadcasts its first television news bulletin",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 58
+  },
+  {
+    "id": 88,
+    "year": "1963",
+    "original": "First Beatles' tune to hit US charts, Del Shannon's cover of \"From Me to You\" at no. 87",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 59
+  },
+  {
+    "id": 183,
+    "year": "1989",
+    "original": "British singerRod Stewarthits his head on a lighting fixture while on stage and knocks himself out in Pine Knob, Michigan",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 60
+  },
+  {
+    "id": 185,
+    "year": "1993",
+    "original": "Icelandic musicianBjörkreleases her 1st solo album \"Debut\"",
+    "score": 60,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 61
+  },
+  {
+    "id": 115,
+    "year": "1988",
+    "original": "Wist Indies cricket paceman Malcolm Marshall takes career best 7-22, beat England by an innings & 156 at Old Trafford",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 62
+  },
+  {
+    "id": 77,
+    "year": "1957",
+    "original": "England cricket batsman Tom Graveney scores a brilliant 258 in the drawn 3rd Test v West Indies at Trent Bridge",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 63
+  }
+]

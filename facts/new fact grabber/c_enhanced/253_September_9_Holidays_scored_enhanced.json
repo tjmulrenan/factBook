@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Schnitzel Gets the Spotlight!",
+    "story": "Golden, crispy, and absolutely delicious, wiener schnitzel takes center stage every September 9! This famous Austrian dish is a thin piece of veal coated in breadcrumbs and fried until it's perfectly crunchy. Restaurants across America celebrate by serving up their best schnitzel platters, while food lovers share photos of their crispy creations online. Some people even try making it at home, carefully pounding the meat thin and coating it just right. It's like having a mini taste of Austria right on your plate!",
+    "activity_question": "What makes wiener schnitzel crispy and golden?",
+    "activity_choices": [
+      "It's coated in breadcrumbs and fried",
+      "It's baked with cheese on top",
+      "It's grilled with special spices",
+      "It's covered in magical fairy dust"
+    ],
+    "activity_answer": "It's coated in breadcrumbs and fried",
+    "bonus_fact": "Traditional wiener schnitzel is so big it often hangs over the edges of the plate!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "902",
+    "title": "Wonderful Weirdos Day: Celebrate Your Quirks!",
+    "story": "Every September 9, people around the world celebrate Wonderful Weirdos Day by embracing everything that makes them different and unique! This fun holiday encourages everyone to show off their quirky habits, unusual talents, and weird interests without feeling embarrassed. People wear mismatched socks, share their strangest collections, or post videos of their weirdest skills on social media. Schools sometimes hold \"weird talent shows\" where kids demonstrate unusual abilities like wiggling their ears or reciting the alphabet backwards. The whole point is to remember that being different isn't something to hide—it's something to celebrate with pride and joy!",
+    "activity_question": "What do people often wear to celebrate their weirdness on this holiday?",
+    "activity_choices": [
+      "Mismatched socks",
+      "Fancy formal clothes",
+      "School uniforms",
+      "Invisible cloaks"
+    ],
+    "activity_answer": "Mismatched socks",
+    "follow_up_question": "What weird talent or quirky habit would you proudly show off on Wonderful Weirdos Day?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "903",
+    "title": "Chrysanthemum Day: Japan's Flower Power Festival",
+    "story": "Every September 9, Japan celebrates Chrysanthemum Day, one of their most beautiful traditional festivals! Families visit gardens bursting with colorful chrysanthemum flowers in every shape and size imaginable. People sip special chrysanthemum tea, believing it brings long life and good health. Many Japanese wear bright kimonos decorated with chrysanthemum patterns and take photos among the stunning flower displays that bloom just for this special day.",
+    "activity_question": "What do people drink on Chrysanthemum Day in Japan?",
+    "activity_choices": [
+      "Chrysanthemum tea",
+      "Cherry blossom juice",
+      "Bamboo smoothies",
+      "Rice milk"
+    ],
+    "activity_answer": "Chrysanthemum tea",
+    "bonus_fact": "The chrysanthemum is actually Japan's national flower and appears on their imperial seal!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  }
+]

@@ -1,0 +1,422 @@
+[
+  {
+    "id": "901",
+    "title": "Cheesy Dreams Come True Day",
+    "story": "Millions of people grab their forks and dive into bowls of creamy, cheesy mac and cheese on July 14 for National Mac and Cheese Day! This beloved comfort food gets its moment to shine as families make homemade versions with fancy cheeses, while others heat up their favorite boxed brands. Restaurants create special mac and cheese dishes with wild toppings like bacon, lobster, or jalapeños. Social media fills with photos of golden, gooey masterpieces. Some people even host mac and cheese cook-offs to see who makes the cheesiest, most delicious bowl of this ultimate comfort food.",
+    "activity_question": "What do some people host on National Mac and Cheese Day?",
+    "activity_choices": [
+      "Mac and cheese cook-offs",
+      "Cheese sculpture contests",
+      "Pasta dancing competitions",
+      "Noodle art classes"
+    ],
+    "activity_answer": "Mac and cheese cook-offs",
+    "bonus_fact": "Americans eat about 2 billion boxes of mac and cheese every year!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "902",
+    "title": "Shark Awareness Day: Fin-tastic Facts!",
+    "story": "Sharks get their moment to shine every July 14 on Shark Awareness Day! People around the world celebrate these amazing ocean predators by sharing cool shark facts on social media, visiting aquariums, and watching shark documentaries. Marine biologists use this day to teach everyone that sharks aren't scary monsters—they're actually super important for keeping our oceans healthy. Many aquariums host special shark talks and feeding shows, while conservation groups raise money to protect shark habitats. Some people even go shark cage diving or snorkeling to see these incredible creatures up close safely!",
+    "activity_question": "What do marine biologists teach people about sharks on Shark Awareness Day?",
+    "activity_choices": [
+      "That sharks are scary monsters",
+      "That sharks are important for healthy oceans",
+      "That sharks only eat fish",
+      "That sharks can fly"
+    ],
+    "activity_answer": "That sharks are important for healthy oceans",
+    "bonus_fact": "Sharks have been around for over 400 million years—longer than trees!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "903",
+    "title": "Celebrating Every Color of the Rainbow",
+    "story": "July 14 is International Non-Binary People's Day, when communities around the world celebrate people who don't identify as just male or female. Friends and families show support by sharing colorful posts on social media, wearing yellow, white, purple, and black colors, and learning about different ways people express themselves. Schools and libraries often host special events where kids can explore books about identity and friendship. It's a day that reminds everyone that people are wonderfully different, and that's something worth celebrating together.",
+    "activity_question": "What colors do people often wear to show support on International Non-Binary People's Day?",
+    "activity_choices": [
+      "Yellow, white, purple, and black",
+      "Red, blue, and green",
+      "Pink and blue only",
+      "Orange and silver"
+    ],
+    "activity_answer": "Yellow, white, purple, and black",
+    "follow_up_question": "How do you think celebrating differences helps make communities stronger and more welcoming?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  },
+  {
+    "id": "143",
+    "title": "India's Lunar Leap: Chandrayaan-3 Takes Flight",
+    "story": "Rockets roared and dreams soared as India launched its Chandrayaan-3 spacecraft in 2023. On July 14, the gleaming vessel blasted off from the Sriharikota Space Centre, carrying the hopes of a nation. This marked India's third bold attempt to explore the mysteries of the moon. Scientists and space enthusiasts alike held their breath, watching the fiery ascent into the starry sky.",
+    "activity_question": "What was the name of India's spacecraft launched on this mission?",
+    "activity_choices": [
+      "Chandrayaan-3",
+      "Mangalyaan",
+      "Gaganyaan",
+      "Astro-Bharat"
+    ],
+    "activity_answer": "Chandrayaan-3",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think exploring the moon is important for countries like India?",
+    "score": 92,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "162",
+    "title": "A Monument to Genius",
+    "story": "Peanuts, sweet potatoes, and scientific breakthroughs! In 1953, the US honored a brilliant mind by creating its first national monument for a black American. The childhood home of George Washington Carver, a pioneering agricultural scientist and inventor, was preserved in Newton County, Missouri. On July 14, this special place became a tribute to Carver's incredible contributions to farming and food science.",
+    "activity_question": "What type of scientist was George Washington Carver?",
+    "activity_choices": [
+      "Agricultural scientist",
+      "Rocket scientist",
+      "Marine biologist",
+      "Computer scientist"
+    ],
+    "activity_answer": "Agricultural scientist",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Carver developed hundreds of products using peanuts, sweet potatoes, and other crops to help farmers.",
+    "score": 87,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "194",
+    "title": "Storming the Bastille: A Revolution Begins",
+    "story": "Angry crowds surged through Paris, demanding change. On July 14, 1789, they attacked the Bastille, a fortress-prison symbolizing royal power. This bold action sparked the French Revolution, a fight for liberty and equality. Today, France celebrates Bastille Day as its national holiday, remembering the brave citizens who stood up for their rights and changed history.",
+    "activity_question": "What does France celebrate on July 14?",
+    "activity_choices": [
+      "Bastille Day",
+      "Independence Day",
+      "Victory Day",
+      "Royal Day"
+    ],
+    "activity_answer": "Bastille Day",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think the Bastille was chosen as a target for the revolutionaries?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "180",
+    "title": "The Birth of Open Source Operating Systems",
+    "story": "A computer revolution began in 1992 when Lynne and William Jolitz released 386BSD. This special software allowed people to freely use and modify computer operating systems. It sparked a movement that changed how we think about software. Soon after, on July 14, Linus Torvalds introduced Linux, another open source system that became hugely popular.",
+    "activity_question": "What did Lynne and William Jolitz release in 1992?",
+    "activity_choices": [
+      "386BSD",
+      "Linux",
+      "Windows",
+      "MacOS"
+    ],
+    "activity_answer": "386BSD",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name another open source operating system mentioned in the story?",
+    "score": 80,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "138",
+    "title": "Giant Iceberg Threatens Tiny Greenland Village",
+    "story": "A massive iceberg loomed over the tiny village of Innaarsuit in western Greenland on July 14, 2018. Towering above the colorful houses, it was so enormous that villagers feared it might break apart and cause dangerous waves. To stay safe, some people had to leave their homes temporarily. Scientists watched closely, reminding us how climate change affects Arctic communities.",
+    "activity_question": "What did some villagers have to do because of the iceberg?",
+    "activity_choices": [
+      "Leave their homes temporarily",
+      "Build ice walls",
+      "Paint their houses",
+      "Learn to swim"
+    ],
+    "activity_answer": "Leave their homes temporarily",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why might an iceberg breaking apart be dangerous for a coastal village?",
+    "score": 92,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "17",
+    "title": "Doctor's Cool Invention Chills Florida",
+    "story": "A Florida doctor named John Gorrie wowed crowds with an icy surprise in 1850. On July 14, he showed off a machine that could make ice using refrigeration. People were amazed to see frozen water in the hot summer. Gorrie's invention paved the way for modern air conditioning and changed how we keep things cold.",
+    "activity_question": "What did John Gorrie demonstrate on July 14, 1850?",
+    "activity_choices": [
+      "A machine that could make ice",
+      "A new type of medicine",
+      "A flying car",
+      "A talking robot"
+    ],
+    "activity_answer": "A machine that could make ice",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How might Gorrie's invention have changed life in hot places like Florida?",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "82",
+    "title": "Hank Aaron's Mighty 500th Homer",
+    "story": "Crack! The ball soared through the air as Hank Aaron's bat connected. On July 14, 1968, this baseball legend smashed his 500th home run. Aaron's powerful hit sailed over the fence, leaving San Francisco Giants pitcher Mike McCormick in awe. This milestone solidified Aaron's place among the greatest sluggers in baseball history.",
+    "activity_question": "Who was the pitcher when Hank Aaron hit his 500th home run?",
+    "activity_choices": [
+      "Mike McCormick",
+      "Babe Ruth",
+      "Willie Mays",
+      "Sandy Koufax"
+    ],
+    "activity_answer": "Mike McCormick",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Hank Aaron finished his career with 755 home runs, a record that stood for decades.",
+    "score": 82,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "80",
+    "title": "Slugger Smashes 500th Homer",
+    "story": "Crack! The ball soared over the fence as Eddie Mathews of the Houston Astros connected with a pitch from San Francisco Giants ace Juan Marichal. This wasn't just any home run. On July 14, 1967, Mathews became one of the few players to reach the incredible milestone of 500 career home runs. His powerful swing had been thrilling baseball fans for years, and now he'd joined an elite club of sluggers.",
+    "activity_question": "Which team did Eddie Mathews play for when he hit his 500th home run?",
+    "activity_choices": [
+      "Houston Astros",
+      "San Francisco Giants",
+      "New York Yankees",
+      "Chicago Cubs"
+    ],
+    "activity_answer": "Houston Astros",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How many home runs did Eddie Mathews need to hit to reach this milestone?",
+    "score": 80,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "25",
+    "title": "Triumph and Tragedy on the Matterhorn",
+    "story": "Jagged peaks pierced the sky as Edward Whymper and his team conquered the Matterhorn in 1865. On July 14, these brave English mountaineers became the first to reach its summit. But their victory was bittersweet. During the treacherous descent, four climbers tragically fell. This climb taught us important lessons about mountain safety.",
+    "activity_question": "Who led the first expedition to climb the Matterhorn?",
+    "activity_choices": [
+      "Edward Whymper",
+      "George Mallory",
+      "Edmund Hillary",
+      "Tenzing Norgay"
+    ],
+    "activity_answer": "Edward Whymper",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why is it important to be careful when climbing mountains?",
+    "score": 72,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "27",
+    "title": "Measuring Up: The Tape Measure's Debut",
+    "story": "Snap! A new tool changed how we measure things. On July 14, 1868, Alvin J. Fellows from New Haven, Connecticut, patented the tape measure. This flexible ruler could bend around corners and roll up neatly. It made measuring much easier for builders, tailors, and even kids working on school projects!",
+    "activity_question": "Who patented the tape measure?",
+    "activity_choices": [
+      "Alvin J. Fellows",
+      "Thomas Edison",
+      "Benjamin Franklin",
+      "Mr. Tapey McRuler"
+    ],
+    "activity_answer": "Alvin J. Fellows",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you find a tape measure at home? What's the longest thing you can measure with it?",
+    "score": 70,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "178",
+    "title": "A Voice for Revolution",
+    "story": "Opera star Jessye Norman's powerful voice rang out across Paris. On July 14, 1989, she sang La Marseillaise, France's national anthem, at the Place de la Concorde. This special performance marked 200 years since the French Revolution began. Norman's singing helped bring history to life, celebrating France's journey to democracy.",
+    "activity_question": "What did Jessye Norman sing in Paris?",
+    "activity_choices": [
+      "La Marseillaise",
+      "Happy Birthday",
+      "God Save the Queen",
+      "The Star-Spangled Banner"
+    ],
+    "activity_answer": "La Marseillaise",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why was 1989 an important year for this celebration?",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "269",
+    "title": "A Foggy Tale Begins",
+    "story": "A master of mystery for young readers was born in Brighton, England in 1921. Leon Garfield would grow up to create thrilling stories that kept kids on the edge of their seats. His book 'Devil-in-the-Fog' became a favorite, weaving tales of adventure and suspense that transported readers to exciting worlds on July 14 and beyond.",
+    "activity_question": "What type of stories did Leon Garfield write?",
+    "activity_choices": [
+      "Cookbooks",
+      "Science textbooks",
+      "Thrilling stories",
+      "Poetry collections"
+    ],
+    "activity_answer": "Thrilling stories",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Have you ever read a book that kept you on the edge of your seat?",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "330",
+    "title": "Jazzing Up the Cello World",
+    "story": "Akua Dixon strummed her way into the world on July 14, 1948. Born in New York City, she grew up to become a talented jazz cellist, arranger, composer, and educator. Dixon's musical journey led her to form Quartette Indigo, a unique ensemble that blends classical and jazz styles. Her innovative approach has inspired many young musicians to explore new sounds on traditional instruments.",
+    "activity_question": "What musical group did Akua Dixon form?",
+    "activity_choices": [
+      "Quartette Indigo",
+      "Jazz Cello Trio",
+      "New York Strings",
+      "Melody Makers"
+    ],
+    "activity_answer": "Quartette Indigo",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name another instrument often used in jazz besides the cello?",
+    "optional_type": "follow_up_question",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "361",
+    "title": "Rockin' Birthday: Kyle Gass of Tenacious D",
+    "story": "Guitar strings vibrated with new energy on July 14, 1960. Kyle Gass, future rock star and comedian, entered the world in Walnut Creek, California. He'd grow up to form the hilarious band Tenacious D with Jack Black, blending music and laughter. Gass's guitar skills and silly songs would make fans giggle and headbang for years to come.",
+    "activity_question": "What band did Kyle Gass form with Jack Black?",
+    "activity_choices": [
+      "Tenacious D",
+      "Trainwreck",
+      "Guitar Giggles",
+      "Walnut Creek Rockers"
+    ],
+    "activity_answer": "Tenacious D",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Kyle Gass is also known by the nickname 'KG' to his fans.",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "213",
+    "title": "The Nerve-Splitting Scientist",
+    "story": "A curious boy named Johannes Peter Müller was born in 1801, destined to unravel body mysteries. Growing up in Coblenz, he became fascinated by how our bodies work. On July 14, years later, Müller made a groundbreaking discovery. He figured out the difference between motor nerves (which help us move) and sensory nerves (which let us feel). This split changed how we understand our nervous system!",
+    "activity_question": "What type of nerves did Müller discover help us move?",
+    "activity_choices": [
+      "Motor nerves",
+      "Sensory nerves",
+      "Splitting nerves",
+      "Curious nerves"
+    ],
+    "activity_answer": "Motor nerves",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you think of an activity where you use both motor and sensory nerves?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "10",
+    "title": "A Mission Rises in California",
+    "story": "Bells rang out as a new mission took shape in California. In 1771, Spanish priests established Mission San Antonio de Padua. On July 14 that year, they built an altar and celebrated the first Mass. This mission became a center for the local Native American Salinan people to learn new skills and religion.",
+    "activity_question": "What did the Spanish priests build first at the mission site?",
+    "activity_choices": [
+      "An altar",
+      "A church",
+      "A school",
+      "A garden"
+    ],
+    "activity_answer": "An altar",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Mission San Antonio de Padua is still standing today and welcomes visitors.",
+    "score": 65,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "18",
+    "title": "A Knock on Japan's Door",
+    "story": "Sailing into Tokyo Bay, Commodore Matthew Perry arrived with a bold mission in 1853. He carried a letter from the U.S. President, asking Japan to open its ports for trade. For centuries, Japan had kept itself isolated from the world. Perry's visit on July 14 marked the beginning of major changes in Japan's relationship with other countries.",
+    "activity_question": "What did Commodore Perry bring with him to Japan?",
+    "activity_choices": [
+      "A letter from the U.S. President",
+      "A fleet of warships",
+      "Japanese translators",
+      "Gifts for the Emperor"
+    ],
+    "activity_answer": "A letter from the U.S. President",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think Japan had kept itself isolated for so long?",
+    "optional_type": "follow_up_question",
+    "score": 65,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "33",
+    "title": "Raindrops Keep Falling in Baguio",
+    "story": "Umbrellas up! In 1911, the skies opened over Baguio, Philippines. A massive rainstorm began on July 14, dumping an incredible 46 inches of water. That's taller than many kids! The city turned into a giant puddle as the rain kept falling. Baguio's residents had to wade through flooded streets and seek shelter from the relentless downpour.",
+    "activity_question": "How much rain fell in Baguio during this storm?",
+    "activity_choices": [
+      "46 inches",
+      "46 feet",
+      "46 centimeters",
+      "46 gallons"
+    ],
+    "activity_answer": "46 inches",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How might you stay dry during such heavy rain?",
+    "score": 65,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  }
+]

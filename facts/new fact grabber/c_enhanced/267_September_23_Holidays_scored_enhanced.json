@@ -1,0 +1,62 @@
+[
+  {
+    "id": "901",
+    "title": "Paws in Politics Day",
+    "story": "Every September 23, National Dogs in Politics Day celebrates our four-legged friends who've made their mark on government! People share photos and stories of famous political pups, from presidential pets to mayor mutts. Some towns even hold mock elections where dogs \"run\" for silly offices like Chief Treat Officer. Social media fills with pictures of dogs wearing tiny ties or sitting at desks looking very important and serious.",
+    "activity_question": "What do some towns do to celebrate National Dogs in Politics Day?",
+    "activity_choices": [
+      "Hold mock elections where dogs run for silly offices",
+      "Teach dogs how to vote with paw prints",
+      "Send dogs to actual government meetings",
+      "Make dogs wear crowns and capes"
+    ],
+    "activity_answer": "Hold mock elections where dogs run for silly offices",
+    "follow_up_question": "What silly political office would your dog be perfect for?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
+  },
+  {
+    "id": "902",
+    "title": "Jump Into Checkers Day Fun!",
+    "story": "Every September 23, people celebrate Checkers Day by pulling out their game boards and making strategic moves! Families gather around kitchen tables, friends challenge each other at parks, and some communities even host checkers tournaments. Players of all ages enjoy jumping their red and black pieces across the board, trying to capture their opponent's checkers and become the ultimate champion. It's the perfect day to learn this classic game or show off your best moves!",
+    "activity_question": "What do people try to do with their opponent's checkers during the game?",
+    "activity_choices": [
+      "Capture them",
+      "Paint them purple",
+      "Stack them in towers",
+      "Hide them under the board"
+    ],
+    "activity_answer": "Capture them",
+    "follow_up_question": "What's your favorite strategy for winning at checkers?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  },
+  {
+    "id": "903",
+    "title": "Celebrate Bisexuality Day: Love Has Many Colors",
+    "story": "People around the world wave bright pink, purple, and blue flags on September 23 for Celebrate Bisexuality Day! This special day helps everyone learn about bisexuality and shows support for people who are attracted to more than one gender. Communities hold parades, share stories, and post colorful pictures online using the bisexual pride flag colors. It's a day about acceptance, understanding, and celebrating the beautiful diversity of how people love and care for each other.",
+    "activity_question": "What colors are featured on the bisexual pride flag?",
+    "activity_choices": [
+      "Pink, purple, and blue",
+      "Red, orange, and yellow",
+      "Green, white, and purple",
+      "Rainbow stripes only"
+    ],
+    "activity_answer": "Pink, purple, and blue",
+    "follow_up_question": "How do you think celebrating different kinds of love makes communities stronger?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  }
+]

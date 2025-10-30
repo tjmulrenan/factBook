@@ -1,0 +1,122 @@
+[
+  {
+    "id": "901",
+    "title": "Green Day for the Whole Planet",
+    "story": "Every June 5, millions of people around the world celebrate World Environment Day by taking action to protect our planet! Kids plant trees in their neighborhoods, families organize beach cleanups, and schools host recycling drives. People share photos of nature on social media with green hashtags, while others pledge to use less plastic or walk instead of driving. Some communities hold eco-friendly festivals with solar-powered music and organic food trucks. It's like Earth's birthday party, where everyone brings gifts of kindness to nature!",
+    "activity_question": "What do people commonly do on World Environment Day?",
+    "activity_choices": [
+      "Plant trees and organize cleanups",
+      "Have water balloon fights",
+      "Eat only birthday cake",
+      "Stay inside all day"
+    ],
+    "activity_answer": "Plant trees and organize cleanups",
+    "follow_up_question": "What's one small thing you could do to help the environment today?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "902",
+    "title": "Up, Up, and Away Day!",
+    "story": "Hot air balloons fill the sky like giant floating rainbows on June 5 each year for Hot Air Balloon Day! People gather at festivals and parks to watch these colorful giants drift through the clouds. Some brave adventurers climb into wicker baskets and soar hundreds of feet above the ground, waving down at tiny houses and cars below. Balloon pilots fire up their burners with loud whooshing sounds to keep the hot air flowing and stay airborne. Many people share amazing photos of balloon rides on social media, showing off breathtaking views from way up high. It's the perfect day to look up and dream of floating among the clouds!",
+    "activity_question": "What do hot air balloon pilots use to keep their balloons floating in the air?",
+    "activity_choices": [
+      "Burners that heat the air",
+      "Giant fans that blow air",
+      "Magic spells and fairy dust",
+      "Heavy weights tied to ropes"
+    ],
+    "activity_answer": "Burners that heat the air",
+    "bonus_fact": "The first hot air balloon passengers were a sheep, a duck, and a rooster!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "903",
+    "title": "Festival of Popular Delusions Day Gets Real",
+    "story": "Every June 5, people celebrate Festival of Popular Delusions Day by questioning the weird myths and silly beliefs that somehow became \"facts.\" This quirky holiday encourages everyone to think twice about those strange stories we hear and share. People post funny examples of popular delusions on social media, like how goldfish only have three-second memories or that we only use 10% of our brains. Teachers love using this day to help students become better fact-checkers and critical thinkers. It's the perfect time to bust myths and separate truth from fiction!",
+    "activity_question": "What does Festival of Popular Delusions Day encourage people to do?",
+    "activity_choices": [
+      "Question myths and silly beliefs",
+      "Share more fake stories online",
+      "Only believe what they read",
+      "Stop using social media completely"
+    ],
+    "activity_answer": "Question myths and silly beliefs",
+    "follow_up_question": "What's a popular myth you've heard that might not actually be true?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 85
+  },
+  {
+    "id": "904",
+    "title": "Shine Bright Like a Moonbeam Day",
+    "story": "Every June 5, people celebrate National Moonshine Day by learning about this famous homemade drink from American history! Moonshine got its name because people used to make it secretly at night under the moonlight. Today, families visit museums and historical sites to discover how moonshine was part of early American culture. Some places host educational tours showing old-fashioned distilling equipment and sharing stories about moonshiners from long ago. People also enjoy moonshine-flavored treats like candies and ice cream that taste like the real thing but are safe for everyone to enjoy!",
+    "activity_question": "Why was moonshine called 'moonshine'?",
+    "activity_choices": [
+      "Because people made it secretly at night under the moonlight",
+      "Because it was white like the moon",
+      "Because it was only drunk during full moons",
+      "Because it made people howl like wolves"
+    ],
+    "activity_answer": "Because people made it secretly at night under the moonlight",
+    "follow_up_question": "What other foods or drinks do you know that have interesting stories behind their names?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "905",
+    "title": "Sweet and Spicy Applesauce Cake Day",
+    "story": "Bakers everywhere whip up delicious applesauce cakes on June 5 for Applesauce Cake Day! This moist, spiced cake uses applesauce instead of butter or oil, making it extra tender and flavorful. People love sharing their family recipes online, trying new frosting combinations, and hosting cake-tasting parties. Some bakers get creative by adding cinnamon, nutmeg, or even chocolate chips to their applesauce creations.",
+    "activity_question": "What ingredient makes applesauce cake extra moist and tender?",
+    "activity_choices": [
+      "Applesauce",
+      "Extra sugar",
+      "Vanilla extract",
+      "Magic sprinkles"
+    ],
+    "activity_answer": "Applesauce",
+    "bonus_fact": "Applesauce was first used in cakes during wartime when butter and eggs were scarce!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 60
+  },
+  {
+    "id": "906",
+    "title": "Denmark's Constitution Day Celebration",
+    "story": "Every June 5, Denmark celebrates Constitution Day to honor their country's most important laws and freedoms! Danish families gather for outdoor picnics, political speeches happen in town squares, and many people attend folk festivals with traditional music and dancing. It's a half-holiday, so some people get time off work to enjoy the festivities and reflect on their democracy.",
+    "activity_question": "What do Danish families typically do on Constitution Day?",
+    "activity_choices": [
+      "Gather for outdoor picnics",
+      "Build snow castles",
+      "Go trick-or-treating",
+      "Exchange Christmas gifts"
+    ],
+    "activity_answer": "Gather for outdoor picnics",
+    "bonus_fact": "Constitution Day is a half-holiday in Denmark, so some people get partial time off work.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 54
+  }
+]

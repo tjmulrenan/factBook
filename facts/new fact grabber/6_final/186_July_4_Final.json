@@ -1,0 +1,1282 @@
+[
+  {
+    "id": "901",
+    "title": "Fireworks, Freedom, and Fun!",
+    "story": "Red, white, and blue decorations cover every street as Americans celebrate their country's birthday on July 4! Families fire up grills for backyard barbecues, munching on hot dogs and hamburgers while kids wave tiny flags. Parades march through towns with marching bands, fire trucks, and people dressed as Uncle Sam. As the sun sets, everyone gathers in parks and backyards to watch spectacular fireworks light up the night sky. It's the ultimate summer celebration of freedom and independence!",
+    "activity_question": "What do families typically cook at Independence Day celebrations?",
+    "activity_choices": [
+      "Hot dogs and hamburgers",
+      "Thanksgiving turkey",
+      "Birthday cake and ice cream",
+      "Pizza and spaghetti"
+    ],
+    "activity_answer": "Hot dogs and hamburgers",
+    "follow_up_question": "What would you add to make the perfect Independence Day celebration?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 75
+  },
+  {
+    "id": "902",
+    "title": "Boots, Banjos, and Big Country Hearts",
+    "story": "Every July 4, country music fans celebrate National Country Music Day by cranking up their favorite tunes about trucks, heartbreak, and small-town life. People wear cowboy boots and hats, attend outdoor concerts, and share videos of themselves line dancing or playing guitar. Radio stations play classic hits from legends like Johnny Cash and Dolly Parton alongside today's biggest stars. Many fans post photos with their guitars or sing along to their favorite country songs on social media. It's the perfect day to appreciate music that tells stories about real life, family, and following your dreams.",
+    "activity_question": "What do country music fans often wear when celebrating National Country Music Day?",
+    "activity_choices": [
+      "Cowboy boots and hats",
+      "Superhero costumes",
+      "Formal tuxedos",
+      "Swimming suits"
+    ],
+    "activity_answer": "Cowboy boots and hats",
+    "bonus_fact": "Nashville, Tennessee is known as the country music capital of the world.",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 80
+  },
+  {
+    "id": "903",
+    "title": "Lettuce Celebrate Caesar Salad Day!",
+    "story": "Crispy romaine lettuce gets tossed with creamy dressing and crunchy croutons every July 4 for National Caesar Salad Day! This famous salad was actually invented by a chef named Caesar Cardini, not the Roman emperor. Today, restaurants serve millions of Caesar salads, and families make their own versions at home. Some people add grilled chicken or shrimp to make it a full meal!",
+    "activity_question": "Who was Caesar salad named after?",
+    "activity_choices": [
+      "A Roman emperor",
+      "A chef named Caesar Cardini",
+      "A talking lettuce head",
+      "Julius Caesar"
+    ],
+    "activity_answer": "A chef named Caesar Cardini",
+    "bonus_fact": "The original Caesar salad was mixed right at your table by the waiter!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 55
+  },
+  {
+    "id": "904",
+    "title": "Sizzling Sidewalk Egg Frying Fun",
+    "story": "People across America grab eggs and head outside on July 4 to see if they can actually cook breakfast on hot pavement! National Sidewalk Egg Frying Day challenges everyone to test whether sidewalks get hot enough to fry an egg. Families spread out on driveways, parking lots, and sidewalks with raw eggs, timers, and cameras ready. Some crack eggs directly onto the concrete, while others use pans or aluminum foil to avoid the mess. The goal is to cook the egg using only heat from the sun-baked ground. Most eggs don't fully cook since sidewalks rarely reach the 160 degrees needed, but that doesn't stop people from trying! Social media fills with photos of gooey experiments and occasional success stories from the hottest places.",
+    "activity_question": "What temperature do sidewalks need to reach to properly fry an egg?",
+    "activity_choices": [
+      "160 degrees",
+      "100 degrees",
+      "200 degrees",
+      "75 degrees"
+    ],
+    "activity_answer": "160 degrees",
+    "bonus_fact": "Phoenix, Arizona holds the record for most successful sidewalk egg frying attempts!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 92
+  },
+  {
+    "id": "98",
+    "title": "Booming Salute on the Battlefield",
+    "story": "Boom! The sky lit up as American soldiers in Normandy, France, celebrated July 4 with a thunderous display. In 1944, during World War II, about a thousand US guns fired a special salute toward German lines. This wasn't just any fireworks show - it was a powerful message of freedom and determination, echoing across the battlefields of Europe.",
+    "activity_question": "Where did this special July 4 salute take place?",
+    "activity_choices": [
+      "Normandy, France",
+      "New York City",
+      "Washington D.C.",
+      "London, England"
+    ],
+    "activity_answer": "Normandy, France",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think the soldiers chose to celebrate July 4 this way?",
+    "score": 98,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "160",
+    "title": "A Magical Tale Born on a Boat",
+    "story": "Splash! A boat glided along the River Isis in Oxford. Inside sat Charles Dodgson, telling a fantastical story to young Alice Liddell. Little did they know, on July 4, 1862, literary magic was happening. Dodgson's tale of a curious girl tumbling down a rabbit hole would become the beloved classic 'Alice in Wonderland.' Writing as Lewis Carroll, he'd bring wonder to generations of readers.",
+    "activity_question": "What was the name of the river where the story of Alice in Wonderland was first told?",
+    "activity_choices": [
+      "River Isis",
+      "River Thames",
+      "River Oxford",
+      "River Wonderland"
+    ],
+    "activity_answer": "River Isis",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The River Isis is actually part of the River Thames as it flows through Oxford.",
+    "score": 95,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "195",
+    "title": "Freedom Rings: America's Bold Declaration",
+    "story": "Quills scratched parchment as brave leaders took a stand. In 1776, the US Congress made a daring move that would change history. On July 4, they proclaimed the Declaration of Independence, boldly stating America's freedom from Great Britain's rule. This powerful document declared the 13 colonies as a new nation, ready to chart its own course. It was a moment of courage, hope, and the birth of a country.",
+    "activity_question": "What did the US Congress proclaim on July 4, 1776?",
+    "activity_choices": [
+      "The Declaration of Independence",
+      "The Constitution",
+      "The Bill of Rights",
+      "The Emancipation Proclamation"
+    ],
+    "activity_answer": "The Declaration of Independence",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think declaring independence was such a brave act?",
+    "score": 95,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "The Sky's Biggest Boom!",
+    "story": "Kaboom! The night sky lit up like never before. Chinese astronomers spotted an incredible sight on July 4, 1054 - the brightest supernova ever seen! This cosmic explosion was so dazzling, it could be seen during the day for weeks. The stellar blast left behind a beautiful cloud of gas and dust we now call the Crab Nebula. It's still visible today with telescopes, a cosmic reminder of that long-ago stellar fireworks show.",
+    "activity_question": "What did the supernova leave behind?",
+    "activity_choices": [
+      "A beautiful cloud of gas and dust",
+      "A giant black hole",
+      "A new planet",
+      "A field of asteroids"
+    ],
+    "activity_answer": "A beautiful cloud of gas and dust",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What do we call the leftover cloud from this supernova?",
+    "score": 92,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "57",
+    "title": "The Year with an Extra Day",
+    "story": "Clocks went wild in Western Samoa in 1892! The country decided to switch sides of the International Date Line, causing a time-bending twist. This change meant Western Samoa experienced 367 days that year instead of the usual 365. Even stranger, July 4 happened twice, with two Mondays in a row. Imagine celebrating Independence Day two days in a row!",
+    "activity_question": "What unusual event happened in Western Samoa in 1892?",
+    "activity_choices": [
+      "They experienced 367 days that year",
+      "They skipped a whole month",
+      "They had two New Year's Eves",
+      "They reversed the seasons"
+    ],
+    "activity_answer": "They experienced 367 days that year",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think people felt about having an extra day in the year?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "91",
+    "title": "Slugger's Double Grand Slam Spectacle",
+    "story": "Batter up! In 1939, baseball fans witnessed an incredible feat on July 4. Jim Tabor, the Red Sox third baseman, stepped up to the plate and smashed not one, but two grand slams in a single game. His powerful swings helped Boston crush the Phillies 18-12. Tabor's double grand slam tied the Major League Baseball record, thrilling the crowd and cementing his place in baseball history.",
+    "activity_question": "What position did Jim Tabor play for the Red Sox?",
+    "activity_choices": [
+      "Third baseman",
+      "Pitcher",
+      "Catcher",
+      "Outfielder"
+    ],
+    "activity_answer": "Third baseman",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What's a grand slam in baseball?",
+    "score": 92,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "183",
+    "title": "Rock Legends Gather for Epic Festival",
+    "story": "Music fans flocked to Byron, Georgia in 1969 for an unforgettable experience. The Atlanta Pop Festival brought together legendary performers like Janis Joplin, Led Zeppelin, and Chuck Berry. On July 4, the air buzzed with excitement as nearly 140,000 people gathered over two days. The crowd grooved to the sounds of Creedence Clearwater Revival, Chicago, and many more iconic acts. It was a celebration of music that would be remembered for generations.",
+    "activity_question": "Which of these performers played at the Atlanta Pop Festival?",
+    "activity_choices": [
+      "Janis Joplin",
+      "The Beatles",
+      "Elvis Presley",
+      "Bob Dylan"
+    ],
+    "activity_answer": "Janis Joplin",
+    "suitable_for_8_to_12_year_old": false,
+    "bonus_fact": "The festival featured both established stars and up-and-coming bands of the era.",
+    "optional_type": "bonus_fact",
+    "score": 92,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "355",
+    "title": "Snap! The Digital Camera's Inventor Arrives",
+    "story": "Click! A baby's cry echoed in Brooklyn, New York. Little did anyone know, this newborn would change how we capture memories forever. Steven Sasson, born in 1950 on July 4, grew up to invent something revolutionary: the digital camera! Instead of film, his creation used electronics to take pictures. Today, we carry Sasson's legacy in our pockets, snapping selfies and sharing moments instantly.",
+    "activity_question": "What did Steven Sasson invent?",
+    "activity_choices": [
+      "The digital camera",
+      "The telephone",
+      "The microwave",
+      "The bicycle"
+    ],
+    "activity_answer": "The digital camera",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think photography was different before digital cameras?",
+    "optional_type": "follow_up_question",
+    "score": 92,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "39",
+    "title": "Alice Tumbles into Literary History",
+    "story": "A curious girl named Alice fell down a rabbit hole and into our hearts. Lewis Carroll's whimsical tale 'Alice's Adventures in Wonderland' was first published in 1865. The book, released on July 4, introduced readers to a fantastical world of talking animals, mad tea parties, and the infamous Queen of Hearts. Its clever wordplay and imaginative characters have captivated children and adults alike for generations.",
+    "activity_question": "What was the name of the book published on July 4, 1865?",
+    "activity_choices": [
+      "Alice's Adventures in Wonderland",
+      "Through the Looking Glass",
+      "The Cheshire Cat's Tale",
+      "Wonderland Adventures"
+    ],
+    "activity_answer": "Alice's Adventures in Wonderland",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name three characters from Alice's Adventures in Wonderland?",
+    "score": 90,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "90",
+    "title": "Phillies' New Home Field Blues",
+    "story": "The crack of the bat echoed through a brand-new ballpark. The Philadelphia Phillies were excited to play in their shiny Shibe Park stadium. But their first game there on July 4, 1938, didn't go as planned. The Boston Bees stung them with a 10-5 defeat. Despite the loss, fans were thrilled to cheer for their team in the modern facility. It marked a fresh start for Philly baseball.",
+    "activity_question": "What was the name of the new stadium the Phillies moved to?",
+    "activity_choices": [
+      "Shibe Park",
+      "Citizens Bank Park",
+      "Veterans Stadium",
+      "Franklin Field"
+    ],
+    "activity_answer": "Shibe Park",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Shibe Park was one of the first baseball stadiums built entirely of steel and concrete.",
+    "score": 90,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "110",
+    "title": "Soccer Surprise: West Germany's Stunning Victory",
+    "story": "Helmut Rahn became a soccer hero in 1954. On July 4, he scored two goals in a thrilling match. West Germany faced Hungary in the FIFA World Cup Final at Wankdorf Stadium in Bern, Switzerland. The game was intense, with both teams fighting hard. In the end, West Germany won 3-2, shocking everyone. Rahn's goals helped his country claim their first World Cup title.",
+    "activity_question": "Where did the 1954 FIFA World Cup Final take place?",
+    "activity_choices": [
+      "Wankdorf Stadium, Bern",
+      "Olympic Stadium, Berlin",
+      "Maracanã Stadium, Rio",
+      "Wembley Stadium, London"
+    ],
+    "activity_answer": "Wankdorf Stadium, Bern",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "This match is known as the 'Miracle of Bern' due to Hungary being heavily favored to win.",
+    "score": 90,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "174",
+    "title": "Lou Gehrig's Unforgettable Farewell",
+    "story": "Baseball legend Lou Gehrig stood before a packed Yankee Stadium, his voice echoing across the field. It was 1939, and the Iron Horse was saying goodbye. Despite facing a terrible illness, Gehrig's words soared with gratitude. 'Today, I consider myself the luckiest man on the face of the Earth,' he declared on July 4. The crowd roared as the Yankees retired his number 4, a first in Major League Baseball history.",
+    "activity_question": "What did Lou Gehrig call himself in his famous speech?",
+    "activity_choices": [
+      "The luckiest man on the face of the Earth",
+      "The Iron Horse",
+      "The greatest Yankee of all time",
+      "The bravest player in baseball"
+    ],
+    "activity_answer": "The luckiest man on the face of the Earth",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think Gehrig felt lucky, even though he was retiring due to illness?",
+    "score": 90,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "175",
+    "title": "Penicillin's Powerful Pioneers Unite",
+    "story": "Two brilliant scientists shook hands and changed medicine forever. Howard Florey and Norman Heatley met for the first time on July 4, 1941. These clever minds clicked instantly. Just 11 days later, they achieved something amazing - they successfully recreated penicillin! This powerful medicine would go on to save countless lives by fighting dangerous infections.",
+    "activity_question": "What did Howard Florey and Norman Heatley successfully recreate?",
+    "activity_choices": [
+      "Penicillin",
+      "A handshake",
+      "A time machine",
+      "A new laboratory"
+    ],
+    "activity_answer": "Penicillin",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Penicillin was actually discovered earlier by accident, but Florey and Heatley figured out how to make it in useful amounts.",
+    "score": 90,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "85",
+    "title": "Nature's Classroom Opens Its Doors",
+    "story": "Curious hikers stumbled upon something new in Cleveland's parks. The first-ever trailside museum opened its doors, bringing nature's wonders right to the path. In 1931, on July 4, this innovative idea sprouted in Cleveland Metroparks. Visitors could now learn about local plants, animals, and geology while enjoying their outdoor adventures. It was like having a miniature science center right in the heart of nature!",
+    "activity_question": "What kind of museum opened in Cleveland Metroparks?",
+    "activity_choices": [
+      "A trailside museum",
+      "An art museum",
+      "A history museum",
+      "A dinosaur museum"
+    ],
+    "activity_answer": "A trailside museum",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How might a trailside museum help hikers learn about nature?",
+    "score": 85,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "125",
+    "title": "Lennon's Peaceful Melody Hits the Airwaves",
+    "story": "Imagine a song so powerful it could inspire peace! In 1969, John Lennon, the famous Beatles musician, released a catchy tune with a big message. 'Give Peace a Chance' hit UK radio stations on July 4, spreading its hopeful lyrics far and wide. Lennon and his new group, the Plastic Ono Band, created this anthem for a world yearning for harmony.",
+    "activity_question": "What was the name of John Lennon's song released on July 4, 1969?",
+    "activity_choices": [
+      "Give Peace a Chance",
+      "Imagine",
+      "All You Need is Love",
+      "Happy Xmas (War is Over)"
+    ],
+    "activity_answer": "Give Peace a Chance",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think John Lennon chose to write a song about peace?",
+    "score": 85,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "140",
+    "title": "Space Shuttle Columbia's Daring Desert Landing",
+    "story": "Whoosh! The Space Shuttle Columbia streaked across the sky, returning from its fourth mission. In 1982, on July 4, this amazing spacecraft touched down at Edwards Air Force Base in California. The desert runway stretched out before the pilots as they guided the massive shuttle to a perfect landing. It was like a giant glider, soaring down from space to Earth.",
+    "activity_question": "Where did the Space Shuttle Columbia land?",
+    "activity_choices": [
+      "Edwards Air Force Base",
+      "Kennedy Space Center",
+      "Houston Space Center",
+      "Area 51"
+    ],
+    "activity_answer": "Edwards Air Force Base",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think they chose a desert location for the shuttle to land?",
+    "score": 85,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "189",
+    "title": "Righetti's Pitching Perfection",
+    "story": "Baseballs flew past bats as Dave Righetti dominated the diamond. On July 4, 1983, the New York Yankees pitcher achieved a rare feat. He threw a no-hitter against their rivals, the Boston Red Sox. Righetti's arm was unstoppable that day, leading the Yankees to a 4-0 victory at Yankee Stadium. Fans cheered as he made history with every pitch, proving sometimes one player can make all the difference.",
+    "activity_question": "What special achievement did Dave Righetti accomplish in this game?",
+    "activity_choices": [
+      "He threw a no-hitter",
+      "He hit a grand slam",
+      "He struck out every batter",
+      "He pitched with his eyes closed"
+    ],
+    "activity_answer": "He threw a no-hitter",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why is a no-hitter considered such a special achievement in baseball?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "197",
+    "title": "Lady Liberty's Grand Debut in Paris",
+    "story": "A colossal copper lady made her first appearance in Paris! On July 4, 1884, the Statue of Liberty was officially presented to the United States. This towering symbol of freedom wasn't in New York yet. She stood proudly in France, where skilled craftsmen had spent years piecing her together. Americans eagerly awaited their turn to welcome Lady Liberty to her new home across the ocean.",
+    "activity_question": "Where was the Statue of Liberty first presented to the United States?",
+    "activity_choices": [
+      "Paris",
+      "New York",
+      "Washington D.C.",
+      "London"
+    ],
+    "activity_answer": "Paris",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "The statue's face was modeled after the sculptor's mother.",
+    "optional_type": "bonus_fact",
+    "score": 85,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "232",
+    "title": "Stargazer's Brilliant Discovery",
+    "story": "Henrietta Swan Leavitt peered through telescopes, unlocking secrets of the stars. Born in Lancaster, Massachusetts in 1868 on July 4, she grew up to become a pioneering astronomer. Leavitt's groundbreaking work on the period-luminosity relation helped scientists measure vast distances in space. Her discoveries paved the way for understanding the size of our universe!",
+    "activity_question": "What important relationship did Henrietta Swan Leavitt discover?",
+    "activity_choices": [
+      "The period-luminosity relation",
+      "The star-planet connection",
+      "The galaxy formation process",
+      "The comet orbit pattern"
+    ],
+    "activity_answer": "The period-luminosity relation",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "How do you think Leavitt's work helps astronomers today?",
+    "optional_type": "follow_up_question",
+    "score": 85,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "235",
+    "title": "Extraordinary Twins Enter the World",
+    "story": "Two heads, four arms, but just two legs! The Tocci brothers, Giovanni and Giacomo, were no ordinary twins. Born in Locana, Italy in 1875, these conjoined twins amazed doctors and captivated the public. Joined at the chest, they each controlled one side of their shared body. Despite their unique condition, the brothers learned to walk, play instruments, and even became famous performers. Their July 4 birth marked the start of an extraordinary life journey.",
+    "activity_question": "What made the Tocci brothers unique?",
+    "activity_choices": [
+      "They were conjoined twins",
+      "They were triplets",
+      "They were born on different days",
+      "They had superpowers"
+    ],
+    "activity_answer": "They were conjoined twins",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How many total arms did the Tocci brothers have?",
+    "score": 85,
+    "categories": [
+      "Creature Feature"
+    ]
+  },
+  {
+    "id": "84",
+    "title": "Sparks Fly at Cleveland Stadium",
+    "story": "Boom! Crackle! Pop! The night sky lit up with dazzling colors as Cleveland Stadium hosted its very first fireworks show in 1931. Spectators gasped in awe as rockets soared and sparklers danced above the field on July 4. This explosive celebration marked the beginning of a beloved tradition that would continue to delight crowds for years to come.",
+    "activity_question": "What kind of show did Cleveland Stadium host for the first time?",
+    "activity_choices": [
+      "A fireworks show",
+      "A laser light show",
+      "A circus performance",
+      "A hot air balloon festival"
+    ],
+    "activity_answer": "A fireworks show",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "Fireworks were invented in China over 1,000 years ago!",
+    "optional_type": "bonus_fact",
+    "score": 84,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "20",
+    "title": "Digging into History: The Erie Canal Begins",
+    "story": "Shovels hit the ground as a massive project kicked off in 1817. Chief Engineer James Geddes led the charge to build the Erie Canal, starting in Rome, New York on July 4. This waterway would become one of North America's first major engineering marvels, connecting the Great Lakes to the Atlantic Ocean and revolutionizing transportation.",
+    "activity_question": "Where did construction of the Erie Canal begin?",
+    "activity_choices": [
+      "Rome, New York",
+      "Albany, New York",
+      "Buffalo, New York",
+      "Canals-ville, USA"
+    ],
+    "activity_answer": "Rome, New York",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think the Erie Canal was important for transportation in the 1800s?",
+    "score": 82,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "82",
+    "title": "The Speedy Lockheed Vega Takes Off",
+    "story": "Zoom! The Lockheed Vega soared into the sky for the first time in 1927. This sleek airplane could carry a pilot and four passengers, cruising at an impressive 120 miles per hour. Its powerful 225 horsepower engine made it one of the fastest planes of its time. On July 4, aviation enthusiasts cheered as the Vega showed off its speed and style in the air.",
+    "activity_question": "How fast could the Lockheed Vega cruise?",
+    "activity_choices": [
+      "120 miles per hour",
+      "225 miles per hour",
+      "100 miles per hour",
+      "80 miles per hour"
+    ],
+    "activity_answer": "120 miles per hour",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think speed was important for early airplanes like the Lockheed Vega?",
+    "score": 82,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "152",
+    "title": "Swedish King's Surprising Victory",
+    "story": "Swords clashed and cannons roared as Swedish King Charles XII led his army to an unexpected triumph. In 1708, on July 4, the Battle of Holowczyn unfolded. Despite facing a much larger Russian force, the skilled Swedish troops outmaneuvered their opponents. Through clever tactics and bold leadership, King Charles secured a remarkable victory that would be remembered for generations.",
+    "activity_question": "Who led the Swedish army to victory?",
+    "activity_choices": [
+      "King Charles XII",
+      "Tsar Peter the Great",
+      "Queen Christina",
+      "General Banana"
+    ],
+    "activity_answer": "King Charles XII",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "What qualities do you think make a good military leader?",
+    "optional_type": "follow_up_question",
+    "score": 82,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "114",
+    "title": "Maryland's Minute of Watery Mayhem",
+    "story": "Splash! In 1956, Unionville, Maryland, experienced a wild weather moment. On July 4, the sky opened up, unleashing a torrent of rain like never before. For one incredible minute, water poured down at an astonishing rate. It was the most intense rainfall ever recorded in the United States, with over an inch of rain falling in just 60 seconds!",
+    "activity_question": "What record did Unionville, Maryland set in 1956?",
+    "activity_choices": [
+      "Most intense rainfall in the US",
+      "Longest lasting thunderstorm",
+      "Highest temperature ever recorded",
+      "Biggest snowfall in one day"
+    ],
+    "activity_answer": "Most intense rainfall in the US",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How might such intense rain affect a town? Think about roads, buildings, and people's daily activities.",
+    "score": 80,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "119",
+    "title": "Stars and Stripes Get a Makeover",
+    "story": "Flags fluttered in the breeze as America unveiled its brand-new look. In 1960, the nation's banner got a starry upgrade. On July 4, the 50-star flag was officially raised for the first time. This special design honored Hawaii joining as the 50th state. The fresh flag symbolized growth and unity, waving proudly across the country.",
+    "activity_question": "What event did the new 50-star flag honor?",
+    "activity_choices": [
+      "Hawaii joining as the 50th state",
+      "America's independence",
+      "A presidential election",
+      "The moon landing"
+    ],
+    "activity_answer": "Hawaii joining as the 50th state",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "The 50-star pattern is the longest-used version of the American flag.",
+    "optional_type": "bonus_fact",
+    "score": 80,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "138",
+    "title": "Red Sox Blast Their Way to Victory",
+    "story": "Crack! The Boston Red Sox were on fire, smashing baseballs out of the park like never before. On July 4, 1977, they set a Major League Baseball record by hitting eight home runs in a single game. This explosive performance at Fenway Park helped them defeat the Toronto Blue Jays 9-6, finally ending their frustrating losing streak.",
+    "activity_question": "What record did the Boston Red Sox set in this game?",
+    "activity_choices": [
+      "Hitting eight home runs",
+      "Scoring nine runs",
+      "Winning by three points",
+      "Playing at Fenway Park"
+    ],
+    "activity_answer": "Hitting eight home runs",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think the fans reacted to seeing so many home runs in one game?",
+    "score": 80,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "156",
+    "title": "A Land Deal That Doubled America",
+    "story": "Imagine America suddenly doubling in size! That's what happened when President Thomas Jefferson announced the Louisiana Purchase in 1803. On July 4, as people celebrated Independence Day, Jefferson shared the exciting news. The United States had bought a huge chunk of land from France, stretching from the Mississippi River to the Rocky Mountains. This massive deal opened up new frontiers for exploration and settlement.",
+    "activity_question": "What did the Louisiana Purchase do to America's size?",
+    "activity_choices": [
+      "Doubled it",
+      "Tripled it",
+      "Halved it",
+      "Didn't change it"
+    ],
+    "activity_answer": "Doubled it",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you name any states that were part of the Louisiana Purchase?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "162",
+    "title": "A School for Success",
+    "story": "Booker T. Washington had a dream to help others learn. In 1881, on July 4, he made that dream come true. Washington opened the Tuskegee Institute in Alabama. This school gave African Americans a chance to get an education and learn important job skills. The institute started small but grew into a respected university that still exists today.",
+    "activity_question": "What did Booker T. Washington open in 1881?",
+    "activity_choices": [
+      "Tuskegee Institute",
+      "Alabama University",
+      "Washington School",
+      "Dream Academy"
+    ],
+    "activity_answer": "Tuskegee Institute",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think education was so important to Booker T. Washington?",
+    "score": 80,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "166",
+    "title": "Epic Pitching Duel: 20 Innings of Glory",
+    "story": "Two legendary pitchers faced off in a marathon baseball game that lasted an incredible 20 innings! On July 4, 1905, Rube Waddell of the Philadelphia Athletics and Cy Young of Boston battled it out on the mound. The crowd watched in awe as these Hall of Fame hurlers showcased their skills for hours. In the end, Waddell's Athletics emerged victorious with a 4-2 win.",
+    "activity_question": "How many innings did this epic baseball game last?",
+    "activity_choices": [
+      "9 innings",
+      "15 innings",
+      "20 innings",
+      "25 innings"
+    ],
+    "activity_answer": "20 innings",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think most baseball games today don't last this long?",
+    "score": 80,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "196",
+    "title": "A Remarkable Coincidence on Independence Day",
+    "story": "Two founding fathers, Thomas Jefferson and John Adams, passed away on July 4, 1826. Amazingly, this was exactly 50 years after they helped create the Declaration of Independence! President John Quincy Adams saw this as a special sign, calling it 'visible and palpable remarks of Divine Favor.' It's a powerful reminder of how these leaders shaped America's history.",
+    "activity_question": "What did President John Quincy Adams call the coincidence of Jefferson and Adams dying on July 4, 1826?",
+    "activity_choices": [
+      "visible and palpable remarks of Divine Favor",
+      "an amazing historical event",
+      "a strange twist of fate",
+      "a patriotic miracle"
+    ],
+    "activity_answer": "visible and palpable remarks of Divine Favor",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think this coincidence was seen as so special?",
+    "optional_type": "follow_up_question",
+    "score": 80,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "226",
+    "title": "A Champion for Children",
+    "story": "Thomas Barnardo was born in Dublin, Ireland in 1845. He grew up to become a hero for homeless kids. Barnardo moved to London and was shocked by the number of children living on the streets. He decided to take action. On July 4, 1867, he opened his first home for boys, giving them a safe place to live, learn, and grow.",
+    "activity_question": "What did Thomas Barnardo open in 1867?",
+    "activity_choices": [
+      "His first home for boys",
+      "A school for adults",
+      "A toy factory",
+      "A library"
+    ],
+    "activity_answer": "His first home for boys",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Barnardo's work led to a network of homes that helped thousands of children across the UK.",
+    "score": 80,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "264",
+    "title": "The Man Who Made Clouds Rain",
+    "story": "Vincent Schaefer was born in 1906, destined to change the weather! This American scientist discovered how to make clouds produce rain. His technique, called cloud seeding, involves adding tiny particles to clouds. These particles help water droplets form and fall as rain. Schaefer's groundbreaking work on July 4 opened up new possibilities for managing water resources and studying our atmosphere.",
+    "activity_question": "What technique did Vincent Schaefer discover?",
+    "activity_choices": [
+      "Cloud seeding",
+      "Rain dancing",
+      "Storm chasing",
+      "Weather forecasting"
+    ],
+    "activity_answer": "Cloud seeding",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why might cloud seeding be useful in areas experiencing drought?",
+    "score": 80,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "371",
+    "title": "Musical Maestro's Melodious Journey Begins",
+    "story": "A musical genius entered the world in Kovvur, Andhra Pradesh, India. M. M. Keeravani, the future composer of the catchy tune 'Naatu Naatu', was born in 1961. On July 4, this talented artist began a journey that would lead him to become a renowned composer, producer, and singer, creating melodies that would captivate audiences worldwide.",
+    "activity_question": "What famous song did M. M. Keeravani compose?",
+    "activity_choices": [
+      "Naatu Naatu",
+      "Jai Ho",
+      "Chaiyya Chaiyya",
+      "Kolaveri Di"
+    ],
+    "activity_answer": "Naatu Naatu",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you hum or dance to 'Naatu Naatu'? It's a fun, energetic song!",
+    "score": 80,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "17",
+    "title": "America's First Birthday Bash",
+    "story": "Fireworks lit up the sky as America celebrated its first official Independence Day in 1796. People gathered in towns across the new nation, waving flags and cheering. They read the Declaration of Independence aloud, reminding everyone why July 4 was so special. It was a day of pride, picnics, and patriotic speeches - the start of a tradition that continues today!",
+    "activity_question": "What did people read aloud during the first Independence Day celebration?",
+    "activity_choices": [
+      "The Declaration of Independence",
+      "The Constitution",
+      "The Pledge of Allegiance",
+      "A birthday card to America"
+    ],
+    "activity_answer": "The Declaration of Independence",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think reading the Declaration of Independence was an important part of the celebration?",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "21",
+    "title": "Freedom Rings in New York",
+    "story": "Cheers erupted across New York as the chains of slavery finally broke. In 1827, on July 4, the state officially abolished this cruel practice. It was a moment of joy and hope for thousands. While the road to equality remained long, this marked a crucial step forward. New York joined other northern states in rejecting slavery, setting an example for the nation.",
+    "activity_question": "What practice did New York abolish in 1827?",
+    "activity_choices": [
+      "Slavery",
+      "Child labor",
+      "Dueling",
+      "Public dancing"
+    ],
+    "activity_answer": "Slavery",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think July 4 was chosen as the date to abolish slavery in New York?",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "27",
+    "title": "Trains Change the World",
+    "story": "Choo-choo! The Grand Junction Railway chugged to life in 1837, connecting Birmingham and Liverpool. This wasn't just any train track - it was the world's first long-distance railway! On July 4, people marveled as steam engines thundered across the countryside, shrinking travel times and expanding possibilities. It marked the beginning of a new era in transportation, bringing distant cities closer together.",
+    "activity_question": "What was special about the Grand Junction Railway?",
+    "activity_choices": [
+      "It was the world's first long-distance railway",
+      "It was the fastest train ever built",
+      "It connected London and Paris",
+      "It was powered by electricity"
+    ],
+    "activity_answer": "It was the world's first long-distance railway",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think railways changed people's lives back then?",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "48",
+    "title": "A Sculptor's Dream Takes Shape",
+    "story": "Frédéric Auguste Bartholdi had a colossal vision. On July 4, 1876, the French sculptor stepped onto Bedloe's Island in New York Harbor. His eyes scanned the horizon as he imagined his creation: a towering statue of Lady Liberty. Bartholdi's visit marked a crucial step in bringing his dream to life, setting the stage for one of the world's most iconic monuments.",
+    "activity_question": "What did Bartholdi imagine on Bedloe's Island?",
+    "activity_choices": [
+      "A towering statue of Lady Liberty",
+      "A giant bridge",
+      "An amusement park",
+      "A submarine base"
+    ],
+    "activity_answer": "A towering statue of Lady Liberty",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The Statue of Liberty's full name is 'Liberty Enlightening the World.'",
+    "score": 75,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "71",
+    "title": "New Hampshire's Hottest Day Ever",
+    "story": "Whew! It was sizzling in Nashua, New Hampshire on July 4, 1911. The temperature soared to a scorching 106°F (41°C), setting the state record for the hottest day ever. Imagine trying to enjoy a holiday picnic or parade in that sweltering heat! People probably sought shade and cool drinks to beat the extreme weather.",
+    "activity_question": "What was the record-breaking temperature in Nashua, New Hampshire?",
+    "activity_choices": [
+      "106°F (41°C)",
+      "100°F (38°C)",
+      "110°F (43°C)",
+      "98°F (37°C)"
+    ],
+    "activity_answer": "106°F (41°C)",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How might people have stayed cool on such a hot day back in 1911?",
+    "score": 75,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "73",
+    "title": "Boxing Champion's Fiery Fourth of July Fight",
+    "story": "Pow! Bam! On July 4, 1912, boxing fans watched a heated match in Las Vegas. Jack Johnson, the world heavyweight champion, faced off against 'Fireman' Jim Flynn. The fight was intense, but ended unexpectedly. Flynn was disqualified in the ninth round, letting Johnson keep his title. It was a knockout Independence Day for the champ!",
+    "activity_question": "Who won the boxing match?",
+    "activity_choices": [
+      "Jack Johnson",
+      "'Fireman' Jim Flynn",
+      "The referee",
+      "It was a tie"
+    ],
+    "activity_answer": "Jack Johnson",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think Jim Flynn had the nickname 'Fireman'?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "78",
+    "title": "A Salad Fit for a Caesar",
+    "story": "Hungry diners were in for a treat in 1924. Chef Caesar Cardini whipped up something special at his Tijuana restaurant on July 4. With a flash of inspiration, he tossed together crisp lettuce, crunchy croutons, and a zesty dressing. Voila! The Caesar salad was born, destined to become a worldwide favorite.",
+    "activity_question": "Where did Chef Cardini create the Caesar salad?",
+    "activity_choices": [
+      "At his Tijuana restaurant",
+      "In a fancy Italian kitchen",
+      "On a picnic in Mexico",
+      "At a Fourth of July barbecue"
+    ],
+    "activity_answer": "At his Tijuana restaurant",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "The original Caesar salad didn't contain anchovies in the dressing!",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "124",
+    "title": "Listening to Space: Explorer 38 Takes Off",
+    "story": "Whoosh! A powerful rocket blasted off, carrying a special satellite into orbit. It was July 4, 1968, and Explorer 38 began its mission to listen to the cosmos. This radio astronomy satellite had huge antennas to catch faint signals from distant stars and galaxies. Scientists were excited to learn new secrets about our universe from this high-tech space explorer.",
+    "activity_question": "What was Explorer 38 designed to do in space?",
+    "activity_choices": [
+      "Listen to the cosmos",
+      "Take photos of Earth",
+      "Collect space rocks",
+      "Talk to aliens"
+    ],
+    "activity_answer": "Listen to the cosmos",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Why do you think scientists use satellites to study space instead of just telescopes on Earth?",
+    "optional_type": "follow_up_question",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "157",
+    "title": "Stargazer's Final Glimpse of Cosmic Visitor",
+    "story": "Peering through his powerful telescope, astronomer William Herschel made his final observation of a mysterious comet. On July 4, 1819, he tracked the celestial wanderer as it journeyed across the night sky. Herschel's dedication to studying the stars and planets helped expand our understanding of the universe. His careful notes about this comet's path added valuable information to the growing field of astronomy.",
+    "activity_question": "What did William Herschel observe for the last time in 1819?",
+    "activity_choices": [
+      "A mysterious comet",
+      "A new planet",
+      "A shooting star",
+      "A lunar eclipse"
+    ],
+    "activity_answer": "A mysterious comet",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think astronomers like Herschel study comets?",
+    "score": 75,
+    "categories": [
+      "Beyond Earth"
+    ]
+  },
+  {
+    "id": "168",
+    "title": "A Knockout Victory in the Ring",
+    "story": "Fists flew and crowds roared as Jack Johnson defended his world heavyweight boxing title. In a match dubbed the 'Fight of the Century', Johnson faced off against James J. Jeffries in Reno, Nevada. On July 4, 1910, Johnson emerged victorious, winning by TKO in the 15th round. This historic bout captured the nation's attention and solidified Johnson's place in boxing history.",
+    "activity_question": "What was the nickname given to this famous boxing match?",
+    "activity_choices": [
+      "Fight of the Century",
+      "Clash of the Titans",
+      "Battle of the Champions",
+      "Rumble in Reno"
+    ],
+    "activity_answer": "Fight of the Century",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What does TKO stand for in boxing?",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "172",
+    "title": "Cricket Legend Smashes Records in Canada",
+    "story": "Crack! The ball soared as Don Bradman, Australia's cricket superstar, swung his bat. On July 4, 1932, he amazed fans in Guelph, Canada, scoring a whopping 260 runs against Western Ontario. This incredible performance set a new North American record during the Australian team's Goodwill Tour, showcasing cricket's excitement to Canadian crowds.",
+    "activity_question": "Where did Don Bradman set his North American cricket record?",
+    "activity_choices": [
+      "Guelph, Canada",
+      "Sydney, Australia",
+      "London, England",
+      "New York, USA"
+    ],
+    "activity_answer": "Guelph, Canada",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Cricket bats are flat on one side and rounded on the other to help players hit the ball with precision.",
+    "score": 75,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "208",
+    "title": "Soaring Dreams of a Balloon Pioneer",
+    "story": "High above the clouds, Jean-Pierre Blanchard dreamed of adventure. Born in Les Andelys, France on July 4, 1753, he grew up to become a daring balloonist. Blanchard's courage and skill led him to achieve incredible feats, including the first balloon flights in both England and the United States. His pioneering spirit helped pave the way for future air travel.",
+    "activity_question": "What two countries did Jean-Pierre Blanchard make the first balloon flights in?",
+    "activity_choices": [
+      "England and the United States",
+      "France and Germany",
+      "Italy and Spain",
+      "Russia and China"
+    ],
+    "activity_answer": "England and the United States",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think early balloonists like Blanchard felt during their flights?",
+    "score": 75,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "231",
+    "title": "A Champion for America's Natural Wonders",
+    "story": "Stephen Mather loved the great outdoors. Born in San Francisco in 1867, he grew up to become a successful businessman. But Mather's true passion was protecting America's beautiful landscapes. On July 4, he entered the world, destined to make a huge impact. Years later, he helped organize the National Park Service, safeguarding breathtaking places for everyone to enjoy.",
+    "activity_question": "What did Stephen Mather help organize?",
+    "activity_choices": [
+      "The National Park Service",
+      "A successful business",
+      "The city of San Francisco",
+      "A giant birthday party"
+    ],
+    "activity_answer": "The National Park Service",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think protecting natural areas is important?",
+    "score": 75,
+    "categories": [
+      "World Shakers & Icon Makers"
+    ]
+  },
+  {
+    "id": "272",
+    "title": "Champion Jack: From Boxing to Blues",
+    "story": "Champion Jack Dupree packed a punch in more ways than one! Born in New Orleans on July 4, 1910, he became both a boxer and a blues musician. Jack's powerful hands could knock out opponents in the ring and tickle the ivories on a piano. He even survived as a prisoner of war during World War II, proving he was as tough as his nickname suggested.",
+    "activity_question": "What two talents did Champion Jack Dupree have?",
+    "activity_choices": [
+      "Boxing and playing piano",
+      "Singing and dancing",
+      "Writing songs and painting",
+      "Cooking and juggling"
+    ],
+    "activity_answer": "Boxing and playing piano",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "bonus_fact",
+    "bonus_fact": "Champion Jack Dupree's music style was called boogie-woogie, a lively type of blues piano playing.",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "334",
+    "title": "A Bluegrass Star Is Born",
+    "story": "Yodel-ay-hee-hoo! A musical legend entered the world in 1942. Peter Rowan, the talented bluegrass singer-songwriter, was born in Wayland, Massachusetts on July 4. This multi-talented musician would grow up to play guitar, mandolin, and become known for his impressive yodeling skills. Rowan later joined the band Old and In The Way, creating tunes like Panama Red that would make bluegrass history.",
+    "activity_question": "What instrument does Peter Rowan play besides the guitar?",
+    "activity_choices": [
+      "Mandolin",
+      "Banjo",
+      "Fiddle",
+      "Harmonica"
+    ],
+    "activity_answer": "Mandolin",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Have you ever tried yodeling? It's a unique singing style!",
+    "score": 75,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "22",
+    "title": "All Aboard America's First Passenger Railroad!",
+    "story": "Choo-choo! The wheels of progress started turning in 1828 when construction began on America's first passenger railroad. The Baltimore and Ohio Railroad, nicknamed the B&O, kicked off a transportation revolution on July 4. This groundbreaking project connected Baltimore to the Ohio River, opening up new possibilities for travel and trade across the young nation.",
+    "activity_question": "What was the nickname of America's first passenger railroad?",
+    "activity_choices": [
+      "The B&O",
+      "The Choo-Choo Express",
+      "The Ohio Flyer",
+      "The Baltimore Bullet"
+    ],
+    "activity_answer": "The B&O",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "The B&O Railroad inspired the railroad in the popular board game Monopoly!",
+    "optional_type": "bonus_fact",
+    "score": 72,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "47",
+    "title": "San Francisco's Dazzling Electric Debut",
+    "story": "Sparks flew in San Francisco as the city lit up with excitement. In 1876, on July 4, crowds gathered for a groundbreaking event. The first public exhibition of electric light illuminated the streets, leaving onlookers in awe. This bright moment marked a turning point, hinting at a future where darkness would no longer rule the night.",
+    "activity_question": "What was exhibited for the first time in San Francisco?",
+    "activity_choices": [
+      "Electric light",
+      "Fireworks",
+      "Steam engine",
+      "Flying machine"
+    ],
+    "activity_answer": "Electric light",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think people reacted to seeing electric light for the first time?",
+    "score": 72,
+    "categories": [
+      "Big Brain Energy"
+    ]
+  },
+  {
+    "id": "74",
+    "title": "A Stonehenge in America?",
+    "story": "Imagine finding Stonehenge in America! In 1918, a full-scale replica of the ancient stone circle was built in Maryhill, Washington. On July 4 that year, they dedicated the altar at this unusual monument. It stands as a World War I memorial, honoring soldiers who gave their lives. This American Stonehenge offers a unique way to experience the wonder of the original, right in the Pacific Northwest.",
+    "activity_question": "What was the purpose of building the Stonehenge replica in Washington?",
+    "activity_choices": [
+      "As a World War I memorial",
+      "To confuse time travelers",
+      "For a movie set",
+      "To attract tourists"
+    ],
+    "activity_answer": "As a World War I memorial",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think building a Stonehenge replica honors soldiers?",
+    "score": 72,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  },
+  {
+    "id": "86",
+    "title": "A Bridge to Connect Cities",
+    "story": "Hammers clanged and workers shouted as construction began on the Oakland Bay Bridge in 1933. This massive project would link San Francisco to Oakland, spanning the waters between them. Engineers faced big challenges, but they were determined to build a strong, safe bridge. When finished on July 4, it would change how people traveled in the area forever.",
+    "activity_question": "What two cities would the Oakland Bay Bridge connect?",
+    "activity_choices": [
+      "San Francisco and Oakland",
+      "New York and New Jersey",
+      "Los Angeles and San Diego",
+      "Seattle and Tacoma"
+    ],
+    "activity_answer": "San Francisco and Oakland",
+    "suitable_for_8_to_12_year_old": true,
+    "bonus_fact": "The bridge has two decks: cars drive on top, while trains once ran below.",
+    "optional_type": "bonus_fact",
+    "score": 72,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "116",
+    "title": "Stars and Stripes Get a Makeover",
+    "story": "The American flag got a fresh look! On July 4, 1959, a brand-new version of the Stars and Stripes waved for the first time. This special flag had 49 stars instead of 48. Why? To celebrate Alaska becoming the newest state in the USA. People across the country cheered as they saw this updated symbol of their nation flying high.",
+    "activity_question": "What was special about the new American flag in 1959?",
+    "activity_choices": [
+      "It had 49 stars",
+      "It was bigger",
+      "It was a different color",
+      "It had more stripes"
+    ],
+    "activity_answer": "It had 49 stars",
+    "suitable_for_8_to_12_year_old": true,
+    "follow_up_question": "Can you guess which state became the 50th star on the flag?",
+    "optional_type": "follow_up_question",
+    "score": 72,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "161",
+    "title": "A Turning Point in the Civil War",
+    "story": "Cannons fell silent as General Lee's army retreated from Gettysburg in 1863. After three days of fierce fighting, the Confederate forces withdrew on July 4, marking a crucial moment in the American Civil War. This battle proved to be a major turning point, shifting the tide in favor of the Union army.",
+    "activity_question": "What happened to General Lee's army after the Battle of Gettysburg?",
+    "activity_choices": [
+      "They withdrew from Gettysburg",
+      "They captured Gettysburg",
+      "They celebrated victory",
+      "They built a fort"
+    ],
+    "activity_answer": "They withdrew from Gettysburg",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Why do you think the Battle of Gettysburg was important for the Union army?",
+    "score": 72,
+    "categories": [
+      "History's Mic Drop Moments"
+    ]
+  },
+  {
+    "id": "167",
+    "title": "Lightning-Fast Boxing Champ",
+    "story": "Pow! In 1907, Canadian boxer Tommy Burns showed why he was the world heavyweight champion. On July 4, he faced Bill Squires from Australia in Colma, California. The fight was over in a flash! Burns knocked out Squires in just one round. It was his sixth successful defense of the heavyweight title.",
+    "activity_question": "Who did Tommy Burns defeat in this boxing match?",
+    "activity_choices": [
+      "Bill Squires",
+      "Mike Tyson",
+      "Muhammad Ali",
+      "Rocky Balboa"
+    ],
+    "activity_answer": "Bill Squires",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What country was Bill Squires from?",
+    "score": 72,
+    "categories": [
+      "Full Beast Mode"
+    ]
+  },
+  {
+    "id": "25",
+    "title": "A Patriotic Song Debuts",
+    "story": "Crowds gathered at Park Street Church in Boston for a special treat. Samuel Francis Smith had penned new lyrics to a familiar tune. As voices joined in harmony, 'America (My Country 'Tis of Thee)' rang out for the first time in public on July 4, 1831. The patriotic song quickly captured hearts, becoming a beloved national hymn.",
+    "activity_question": "Where did 'America (My Country 'Tis of Thee)' have its first public performance?",
+    "activity_choices": [
+      "Park Street Church",
+      "Boston Common",
+      "Independence Hall",
+      "The White House"
+    ],
+    "activity_answer": "Park Street Church",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Who wrote the lyrics to this patriotic song?",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "44",
+    "title": "Fishy Fun in San Francisco",
+    "story": "Splash! The first public aquarium in San Francisco made waves when it opened in Woodward Gardens in 1873. Visitors marveled at colorful fish swimming in glass tanks, bringing the wonders of the ocean to the city. This July 4th attraction gave people a chance to see underwater life up close, sparking curiosity about marine creatures.",
+    "activity_question": "Where did San Francisco's first public aquarium open?",
+    "activity_choices": [
+      "Woodward Gardens",
+      "Golden Gate Park",
+      "Fisherman's Wharf",
+      "Underwater World"
+    ],
+    "activity_answer": "Woodward Gardens",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "What kinds of sea creatures do you think people saw at this new aquarium?",
+    "score": 70,
+    "categories": [
+      "Creature Feature"
+    ]
+  },
+  {
+    "id": "60",
+    "title": "A Song for America's Beauty",
+    "story": "Inspired by a breathtaking view from Pikes Peak, Katherine Lee Bates penned a poem that would become an iconic American anthem. In 1895, on July 4, she published 'America the Beautiful' in a church newspaper. The stirring words celebrated the nation's natural wonders and hope for a bright future. Soon set to music, it became a beloved patriotic song sung across the country.",
+    "activity_question": "What inspired Katherine Lee Bates to write 'America the Beautiful'?",
+    "activity_choices": [
+      "A breathtaking view from Pikes Peak",
+      "A visit to the Statue of Liberty",
+      "A trip to the Grand Canyon",
+      "A parade in Washington D.C."
+    ],
+    "activity_answer": "A breathtaking view from Pikes Peak",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "Can you name another famous patriotic song about America?",
+    "score": 70,
+    "categories": [
+      "Vibes, Beats & Brushes"
+    ]
+  },
+  {
+    "id": "70",
+    "title": "Vermont's Hottest Day Ever",
+    "story": "Whew! It was sizzling in Vermont on July 4, 1911. The tiny town of Vernon felt like it was melting as temperatures soared to a scorching 105°F (41°C). This wasn't just hot; it was the hottest day ever recorded in Vermont's history! Imagine trying to enjoy a holiday picnic or parade in that sweltering heat.",
+    "activity_question": "What was the record-breaking temperature in Vernon, Vermont?",
+    "activity_choices": [
+      "105°F (41°C)",
+      "100°F (38°C)",
+      "95°F (35°C)",
+      "110°F (43°C)"
+    ],
+    "activity_answer": "105°F (41°C)",
+    "suitable_for_8_to_12_year_old": true,
+    "optional_type": "follow_up_question",
+    "follow_up_question": "How do you think people stayed cool on such a hot day before air conditioning?",
+    "score": 70,
+    "categories": [
+      "Mother Nature's Meltdowns"
+    ]
+  }
+]

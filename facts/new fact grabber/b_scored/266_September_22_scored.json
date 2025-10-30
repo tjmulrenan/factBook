@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "original": "World Rhino Day",
+    "score": 85,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 2,
+    "original": "American Business Women's Day",
+    "score": 35,
+    "is_kid_friendly": false
+  },
+  {
+    "id": 3,
+    "original": "Hobbit Day",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 4,
+    "original": "Dear Diary Day",
+    "score": 60,
+    "is_kid_friendly": true
+  },
+  {
+    "id": 5,
+    "original": "World Car-Free Day",
+    "score": 75,
+    "is_kid_friendly": true
+  }
+]

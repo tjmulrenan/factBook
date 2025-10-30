@@ -1,0 +1,82 @@
+[
+  {
+    "id": "901",
+    "title": "Screams, Loops, and Roller Coaster Whoops!",
+    "story": "Every August 16, thrill-seekers across America celebrate National Roller Coaster Day by racing to their favorite amusement parks! People wait in long lines just to scream their heads off on towering coasters with crazy loops, drops, and twists. Some brave riders throw their hands up high, while others grip the safety bars for dear life. Theme parks often offer special deals and discounts to mark this exciting day. Roller coaster fans share photos and videos of their wildest rides on social media, comparing who conquered the tallest, fastest, or most terrifying coasters. Whether you love the butterflies in your stomach or prefer keeping your feet on solid ground, this holiday celebrates one of the most heart-pounding inventions ever created for pure fun!",
+    "activity_question": "What do roller coaster fans often share on social media during National Roller Coaster Day?",
+    "activity_choices": [
+      "Photos and videos of their wildest rides",
+      "Recipes for cotton candy",
+      "Pictures of their pets",
+      "Maps of their neighborhoods"
+    ],
+    "activity_answer": "Photos and videos of their wildest rides",
+    "follow_up_question": "What's the scariest roller coaster feature you think you could handle?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 95
+  },
+  {
+    "id": "902",
+    "title": "National Tell a Joke Day: Giggles Galore!",
+    "story": "Every August 16, people across the country celebrate National Tell a Joke Day by sharing their funniest jokes with friends, family, and even strangers! Kids tell knock-knock jokes at lunch tables, parents share silly puns at dinner, and comedians post their best one-liners on social media. Schools might have joke contests, offices hold comedy breaks, and families compete to see who can make everyone laugh the hardest. Some people wear funny t-shirts or share memes online to spread the giggles. It's the perfect day to practice your timing, learn new jokes, or finally use that hilarious joke you've been saving up!",
+    "activity_question": "What do people often share on social media during National Tell a Joke Day?",
+    "activity_choices": [
+      "Their best one-liners",
+      "Serious poetry",
+      "Cooking recipes",
+      "Math homework"
+    ],
+    "activity_answer": "Their best one-liners",
+    "follow_up_question": "What's the funniest joke you know that always makes people laugh?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 90
+  },
+  {
+    "id": "903",
+    "title": "Sizzling Sausage Celebration Day",
+    "story": "The smell of grilling bratwurst fills the air every August 16 during National Bratwurst Day! These thick German sausages sizzle on backyard grills and at food festivals across America. People pile them high with mustard, sauerkraut, and onions, then stuff them into crusty buns. Many families fire up their grills for bratwurst cookouts, while restaurants offer special bratwurst platters and creative toppings like cheese and peppers.",
+    "activity_question": "What do people commonly put on their bratwurst besides mustard?",
+    "activity_choices": [
+      "Sauerkraut and onions",
+      "Ice cream and sprinkles",
+      "Peanut butter and jelly",
+      "Cereal and milk"
+    ],
+    "activity_answer": "Sauerkraut and onions",
+    "bonus_fact": "Bratwurst means \"frying sausage\" in German!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  },
+  {
+    "id": "904",
+    "title": "Sky-High Heroes Get Their Day",
+    "story": "Paratroopers who jump out of perfectly good airplanes get their own special day on August 16! National Airborne Day honors the brave soldiers who parachute from the sky during military missions. People celebrate by visiting airborne museums, watching parachute demonstrations, and thanking veterans who served in airborne units. Some communities host air shows where you can see actual paratroopers leap from planes and land with incredible precision.",
+    "activity_question": "What do paratroopers use to safely land after jumping from planes?",
+    "activity_choices": [
+      "Parachutes",
+      "Trampolines",
+      "Giant umbrellas",
+      "Jetpacks"
+    ],
+    "activity_answer": "Parachutes",
+    "bonus_fact": "The first successful parachute jump from an airplane happened in 1912!",
+    "optional_type": "bonus_fact",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 70
+  }
+]
