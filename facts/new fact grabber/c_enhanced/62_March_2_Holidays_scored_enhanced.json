@@ -1,57 +1,37 @@
 [
   {
     "id": "901",
-    "title": "Cat in the Hat Day Madness!",
-    "story": "Red and white striped hats pop up everywhere on March 2 as kids and grown-ups celebrate Dr. Seuss Day! Schools transform into Whoville with crazy hat contests, green eggs and ham for lunch, and students reading favorite Seuss books aloud. Libraries host Thing One and Thing Two costume parades, while teachers speak in rhymes all day long. Some classrooms even have backwards day where kids wear clothes inside-out like the Wocket in their Pocket! Bookstores give away free Cat in the Hat stickers, and families snuggle up to read \"One Fish, Two Fish\" together. It's the perfect day to discover that reading is pure magic and silliness rolled into one fantastic adventure!",
-    "activity_question": "What do schools often serve for lunch on Dr. Seuss Day?",
+    "title": "Cat in the Hat Celebration Day!",
+    "story": "Every March 2, schools across America turn into wonderlands of rhymes and silly creatures! Dr. Seuss Day celebrates the birthday of Theodor Seuss Geisel, the genius behind beloved books like \"Green Eggs and Ham\" and \"The Cat in the Hat.\" Teachers wear striped hats, kids dress up as Truffula Trees and Sneetches, and classrooms buzz with read-alouds of zany stories. Libraries host special story times where everyone speaks in rhyme, and some schools even serve green eggs for lunch! It's a day when imagination runs wild and reading becomes pure magic.",
+    "activity_question": "What do some schools serve for lunch on Dr. Seuss Day?",
     "activity_choices": [
-      "Green eggs and ham",
-      "Purple pancakes and bacon",
-      "Blue cookies and milk",
-      "Rainbow sandwiches"
+      "Green eggs",
+      "Purple pancakes",
+      "Blue cookies",
+      "Red rice"
     ],
-    "activity_answer": "Green eggs and ham",
-    "follow_up_question": "What's your favorite Dr. Seuss book and why does it make you smile?",
-    "optional_type": "follow_up_question",
+    "activity_answer": "Green eggs",
+    "bonus_fact": "Dr. Seuss wrote \"Green Eggs and Ham\" using only 50 different words!",
+    "optional_type": "bonus_fact",
     "categories": [
       "Days That Slay"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 95
+    "score": 90
   },
   {
     "id": "902",
     "title": "Books Take Over America!",
-    "story": "Every March 2, schools across America turn into reading wonderlands for Read Across America Day! Teachers dress up as favorite book characters, from the Cat in the Hat to Harry Potter. Students bring blankets and stuffed animals for cozy reading time. Libraries host special story hours with silly voices and dramatic readings. Many classrooms have reading marathons where kids try to read as many books as possible in one day. It's like a giant book party that celebrates how awesome reading can be!",
+    "story": "Every March 2, schools across America turn into reading wonderlands for Read Across America Day! Teachers dress up as favorite book characters, from the Cat in the Hat to Harry Potter. Students bring blankets and stuffed animals for cozy reading time. Libraries host special story hours with puppet shows and book giveaways. Many classrooms have reading marathons where kids try to read as many books as possible in one day.",
     "activity_question": "What do teachers often do on Read Across America Day?",
     "activity_choices": [
       "Dress up as book characters",
-      "Give extra homework",
+      "Give math tests all day",
       "Cancel all classes",
-      "Only teach math"
+      "Only read newspapers"
     ],
     "activity_answer": "Dress up as book characters",
-    "follow_up_question": "Which book character would you most want your teacher to dress up as?",
-    "optional_type": "follow_up_question",
-    "categories": [
-      "Days That Slay"
-    ],
-    "suitable_for_8_to_12_year_old": true,
-    "score": 70
-  },
-  {
-    "id": "903",
-    "title": "National Old Stuff Day: Treasures and Trash",
-    "story": "Every March 2, people celebrate National Old Stuff Day by digging through attics, basements, and closets to rediscover forgotten treasures! Some families spend the day sorting through old photo albums, vintage toys, and grandparents' keepsakes. Others visit antique shops, flea markets, or garage sales hunting for cool old items. Many people share pictures of their oldest possessions on social media, from ancient family recipes to worn-out teddy bears that have been loved for decades.",
-    "activity_question": "Where do people typically look for old stuff on this holiday?",
-    "activity_choices": [
-      "Attics, basements, and closets",
-      "Swimming pools and playgrounds",
-      "New shopping malls",
-      "School cafeterias"
-    ],
-    "activity_answer": "Attics, basements, and closets",
-    "follow_up_question": "What's the oldest thing you own, and what makes it special to you?",
+    "follow_up_question": "What book character would you most want your teacher to dress up as?",
     "optional_type": "follow_up_question",
     "categories": [
       "Days That Slay"
@@ -60,23 +40,43 @@
     "score": 65
   },
   {
-    "id": "904",
-    "title": "Oink-tastic National Pig Day Fun!",
-    "story": "Pigs get the spotlight they deserve every March 2 on National Pig Day! People celebrate these smart, adorable animals by visiting farms, petting zoos, and pig sanctuaries to meet real pigs up close. Many families cook bacon or ham for breakfast, while others prefer to honor pigs by sharing cute pig photos on social media instead. Schools often read books about pigs, and some kids even dress up like their favorite pig characters. Pig lovers post videos of pigs doing tricks, since pigs are actually smarter than dogs and can learn their names, play games, and solve puzzles. It's a day to appreciate these amazing animals!",
-    "activity_question": "According to the story, pigs are smarter than which common pet?",
+    "id": "903",
+    "title": "Going Bananas for Cream Pie Day!",
+    "story": "Bakeries across America whip up their fluffiest banana cream pies every March 2 for National Banana Cream Pie Day! This dreamy dessert features layers of vanilla custard, fresh banana slices, and towering whipped cream all nestled in a buttery crust. Families gather to bake homemade versions, while restaurants offer special deals on their signature pies. Social media fills with photos of people's gooey, golden creations. Some brave bakers even attempt sky-high versions with extra banana layers. Whether you buy one from your favorite diner or make it from scratch, this holiday gives everyone the perfect excuse to indulge in this classic American comfort dessert.",
+    "activity_question": "What are the main ingredients that make up a traditional banana cream pie?",
     "activity_choices": [
-      "Dogs",
-      "Cats",
-      "Hamsters",
-      "Flying unicorns"
+      "Vanilla custard, banana slices, whipped cream, and crust",
+      "Chocolate pudding, strawberries, and graham crackers",
+      "Apple filling, cinnamon, and pie crust",
+      "Peanut butter, jelly, and bread crumbs"
     ],
-    "activity_answer": "Dogs",
-    "bonus_fact": "Pigs can't actually sweat, so they roll in mud to stay cool!",
+    "activity_answer": "Vanilla custard, banana slices, whipped cream, and crust",
+    "bonus_fact": "Banana cream pie became popular in the 1950s when bananas were finally affordable year-round!",
     "optional_type": "bonus_fact",
     "categories": [
       "Days That Slay"
     ],
     "suitable_for_8_to_12_year_old": true,
-    "score": 85
+    "score": 90
+  },
+  {
+    "id": "904",
+    "title": "National Old Stuff Day: Treasures and Trash",
+    "story": "Every March 2, people celebrate National Old Stuff Day by digging through attics, basements, and closets to rediscover forgotten treasures! Some families spend the day sorting through old photo albums, trying on vintage clothes, or playing with toys they haven't touched in years. Others visit antique shops, flea markets, or garage sales to hunt for cool old items. It's amazing what stories old stuff can tell about the past!",
+    "activity_question": "What do people often search through on National Old Stuff Day?",
+    "activity_choices": [
+      "Attics, basements, and closets",
+      "Swimming pools and gardens",
+      "New shopping malls",
+      "Fresh grocery stores"
+    ],
+    "activity_answer": "Attics, basements, and closets",
+    "follow_up_question": "What's the oldest thing you own that tells an interesting story?",
+    "optional_type": "follow_up_question",
+    "categories": [
+      "Days That Slay"
+    ],
+    "suitable_for_8_to_12_year_old": true,
+    "score": 65
   }
 ]

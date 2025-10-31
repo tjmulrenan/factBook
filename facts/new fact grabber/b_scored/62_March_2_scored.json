@@ -2,25 +2,25 @@
   {
     "id": 1,
     "original": "Dr. Seuss Day",
-    "score": 95,
+    "score": 90,
     "is_kid_friendly": true
   },
   {
     "id": 2,
     "original": "Read Across America Day",
-    "score": 70,
-    "is_kid_friendly": true
-  },
-  {
-    "id": 3,
-    "original": "National Old Stuff Day",
     "score": 65,
     "is_kid_friendly": true
   },
   {
+    "id": 3,
+    "original": "National Banana Cream Pie Day",
+    "score": 90,
+    "is_kid_friendly": true
+  },
+  {
     "id": 4,
-    "original": "National Pig Day",
-    "score": 85,
+    "original": "National Old Stuff Day",
+    "score": 65,
     "is_kid_friendly": true
   }
 ]
