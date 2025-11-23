@@ -1,12 +1,28 @@
 // ---- constants ----
 // You can override the folder in one run with:  $env:FINAL_DIR='C:\path\to\FINAL
 const BASE_FINAL_DIR =
-  process.env.FINAL_DIR ?? 'C:\\Users\\timmu\\Documents\\repos\\Factbook Project\\FINAL';
+  process.env.FINAL_DIR ?? 'C:\\Personal\\What Happened On... (The Complete Collection)';
 
 const SERIES_RESULT_ID = 'TEWDPW65QXM'; // only if you use the series step
 const { test, expect } = require('@playwright/test');
+
 const path = require('path');
 const fs = require('fs');
+
+// Allow multiple tests in this file to run in parallel
+test.describe.configure({ mode: 'parallel' });
+
+// List of DOYs to run if DOYS env var is not provided
+const DEFAULT_DOYS = [16]; // change this default if you like
+
+// Parse DOYS from env (e.g. DOYS=16,17,18,19) or fall back to DEFAULT_DOYS
+const DOYS = (process.env.DOYS ? process.env.DOYS.split(',') : DEFAULT_DOYS)
+  .map((s) => Number(String(s).trim()))
+  .filter((n) => Number.isInteger(n) && n >= 1 && n <= 366);
+
+if (DOYS.length === 0) {
+  throw new Error('No valid DOYs supplied. Set DOYS env or update DEFAULT_DOYS.');
+}
 
 function norm(s) {
   return String(s ?? '')
@@ -144,7 +160,6 @@ async function fillWhenReady(page, locator, value, label = '') {
 
 async function setFilesWhenReady(page, locator, files, label = '') {
   const name = label || locator.toString();
-  await waitReady(page, locator, name);
   log(`UPLOAD → ${name} = ${Array.isArray(files) ? files.join(', ') : files}`);
   await locator.setInputFiles(files);
   await waitCalm(page);
@@ -209,24 +224,157 @@ function buildKeywords(monthName, day, sign) {
 // Helpers
 // --------------------------------------------------
 
-// Add this helper near your other helpers
-async function waitSelectedCategoryListed(categoriesModal, finalLabel, timeout = 12_000) {
-  const rx = new RegExp(`${escapeRegex(finalLabel)}(?:\\s|[\\p{P}\u2190-\u21FF]|$)`, 'iu');
-  // The selected list renders as a vertical <ul> with rows that include:
-  // "... Children's Books › History › <a>Exploration & Discovery</a> | Remove ..."
-  const row = categoriesModal
-    .locator('ul.a-unordered-list.a-vertical >> li .a-list-item')
-    .filter({ has: categoriesModal.locator('a.a-link-normal').filter({ hasText: rx }) })
+// Set the description HTML using CKEditor directly (no Source click needed)
+async function setDescriptionHtml(page, html) {
+  log('[Description] Waiting for CKEditor instance…');
+
+  // Wait until CKEditor is available and at least one instance exists
+  await page.waitForFunction(() => {
+    return (
+      typeof window.CKEDITOR !== 'undefined' &&
+      window.CKEDITOR.instances &&
+      Object.keys(window.CKEDITOR.instances).length > 0
+    );
+  });
+
+  await page.evaluate((html) => {
+    // Grab the first CKEditor instance on the page
+    const instances = window.CKEDITOR.instances;
+    const firstKey = Object.keys(instances)[0];
+    const editor = instances[firstKey];
+
+    // Set the HTML and sync it back to the underlying textarea
+    editor.setData(html);
+    editor.updateElement();
+  }, html);
+
+  log('[Description] CKEditor data set successfully.');
+}
+
+async function openCoverUploadSection(page) {
+  console.log('[Cover] Ensuring "Upload a cover you already have" section is open…');
+
+  const accordionRoot = page.locator('#data-print-book-publisher-cover-choice-accordion');
+  await expect(accordionRoot, 'Cover choice accordion not found').toBeVisible();
+
+  const coverInput = page.locator('#data-print-book-publisher-cover-file-upload-AjaxInput');
+
+  // This is the browse section inside the UPLOAD row
+  const browseSection = accordionRoot
+    .locator('[data-a-accordion-row-name="UPLOAD"] .file-upload-browse-section')
     .first();
 
-  const removeBtn = row.locator('.a-color-error', { hasText: /Remove/i });
-  await expect(row, `Selected category row for "${finalLabel}"`).toBeVisible({ timeout });
-  await expect(removeBtn, `Remove link for "${finalLabel}"`).toBeVisible({ timeout });
+  // 1) Short-circuit: if the browse section is already visible, we’re done.
+  if (await browseSection.isVisible().catch(() => false)) {
+    console.log('[Cover] Upload accordion already expanded (browse section visible).');
+    return;
+  }
 
-  // Defensive: ensure the anchor is actually there and readable
-  const anchor = row.locator('a.a-link-normal').filter({ hasText: rx }).first();
-  await expect(anchor).toBeVisible({ timeout });
-  console.log(`[Categories] Selected list shows "${await anchor.innerText()}".`);
+  // 2) Locate the UPLOAD accordion row’s clickable link
+  const uploadRowA11y = accordionRoot
+    .locator('[data-a-accordion-row-name="UPLOAD"] .a-accordion-row-a11y')
+    .first();
+
+  const uploadRowLink = uploadRowA11y.locator('a.a-accordion-row').first();
+
+  const maxAttempts = 1000;
+
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    console.log(
+      `[Cover] Attempt ${attempt}/${maxAttempts} to open "Upload a cover you already have" row…`,
+    );
+
+    // If it somehow became visible between attempts, bail out early
+    if (await browseSection.isVisible().catch(() => false)) {
+      console.log('[Cover] Upload accordion is now expanded (browse section visible).');
+      return;
+    }
+
+    // Try to click the accordion row link
+    await ensureVisible(uploadRowLink);
+    await uploadRowLink.click({ force: true });
+
+    // Give the UI a moment to toggle the accordion
+    await page.waitForTimeout(800);
+
+    // Check aria-expanded on the a11y wrapper
+    const expanded = await uploadRowA11y.getAttribute('aria-expanded').catch(() => null);
+    console.log(`[Cover] aria-expanded after click: ${expanded}`);
+
+    // If aria-expanded is "true" and the browse section shows, we’re done
+    if (expanded === 'true' && (await browseSection.isVisible().catch(() => false))) {
+      console.log('[Cover] Upload accordion expanded; browse section visible.');
+      return;
+    }
+  }
+
+  // 3) Final debug: dump some text from the accordion and fail
+  const snippet = (await accordionRoot.innerText().catch(() => '')).slice(0, 800);
+  throw new Error(
+    '[Cover] Failed to open "Upload a cover you already have" section after multiple attempts. ' +
+      `Accordion text snippet: ${JSON.stringify(snippet)}`,
+  );
+}
+
+async function setMarketplacePrice(page, marketCode, value) {
+  const wrapper = page.locator(`#data-pricing-print-${marketCode}-price-input`);
+  const input = wrapper.locator('input.price-input');
+
+  await fillSimpleNoIdle(page, input, value, `Price ${marketCode.toUpperCase()}`);
+}
+
+async function selectSimpleDropdownByLabel(page, trigger, optionLabel, label = '') {
+  const name = label || optionLabel;
+  log(`[Details] Dropdown "${name}" – opening…`);
+
+  await ensureVisible(trigger);
+  await trigger.click({ force: true });
+
+  const pop = page
+    .locator('.a-popover[aria-hidden="false"]:visible .a-nostyle.a-list-link[role="listbox"]')
+    .last();
+
+  await expect(pop, `Dropdown list for "${name}" not visible`).toBeVisible();
+
+  const option = pop
+    .getByRole('option', { name: new RegExp(`^${escapeRegex(optionLabel)}$`, 'i') })
+    .first();
+
+  await expect(option, `Option "${optionLabel}" not visible in "${name}"`).toBeVisible();
+  await option.click({ force: true });
+  await page.waitForTimeout(200);
+}
+
+async function fillSimpleNoIdle(page, locator, value, label = '') {
+  const name = label || locator.toString();
+  await waitReady(page, locator, name);
+  log(`FILL (simple-no-idle) → ${name} = ${JSON.stringify(value).slice(0, 120)}`);
+  await locator.fill(value);
+  // tiny pause so React/KDP bindings fire, but no networkidle wait
+  await page.waitForTimeout(300);
+}
+
+// Add this helper near your other helpers
+async function waitSelectedCategoryListed(categoriesModal, finalLabel, timeout = 12_000) {
+  const rx = new RegExp(escapeRegex(finalLabel), 'i');
+
+  // Summary text: "1 out of 3 category placements selected"
+  const summary = categoriesModal
+    .locator('span', { hasText: /out of 3 category placements selected/i })
+    .first();
+  await expect(summary, 'Selected-category summary not visible').toBeVisible({ timeout });
+
+  // Anchor in the selected list that contains our label
+  const anchor = categoriesModal
+    .locator('ul.a-unordered-list.a-vertical, ul.a-unordered-list.a-nostyle.a-vertical')
+    .locator('a.a-link-normal')
+    .filter({ hasText: rx })
+    .first();
+
+  await expect(anchor, `Selected-category link for "${finalLabel}"`).toBeVisible({ timeout });
+
+  const txt = await anchor.innerText();
+  console.log(`[Categories] Selected list shows link: ${JSON.stringify(txt)}.`);
 }
 
 function escapeRegex(s) {
@@ -471,421 +619,619 @@ async function pickCategoryPath(page, categoriesModal, pathLabels, maxRetries = 
 }
 
 /** Adds another category row and waits for the row count to increase. */
+/** Adds another category row and waits for the number of dropdowns to increase. */
 async function addAnotherCategoryRow(page, categoriesModal) {
   console.log('[Categories] Adding another category row…');
 
-  const selectOnes = () => categoriesModal.getByRole('button', { name: /^Select one$/ });
-  const before = await selectOnes()
+  // Each row has a <span class="a-dropdown-container"><select class="a-native-dropdown">…</select>
+  const dropdowns = () => categoriesModal.locator('.a-dropdown-container select.a-native-dropdown');
+
+  const before = await dropdowns()
     .count()
     .catch(() => 0);
+  console.log(`[Categories] Dropdowns before add: ${before}`);
 
   const addBtn = categoriesModal.getByRole('button', { name: /Add another category/i });
   await expect(addBtn).toBeVisible();
   await addBtn.click();
 
-  console.log('[Categories] Waiting for a new "Select one"…');
-  await expect.poll(async () => await selectOnes().count()).toBeGreaterThan(before);
+  console.log('[Categories] Waiting for dropdown count to increase…');
+  await expect
+    .poll(async () => {
+      const c = await dropdowns().count();
+      console.log(`[Categories] Current dropdown count: ${c}`);
+      return c;
+    })
+    .toBeGreaterThan(before);
 
   console.log('[Categories] New category row added.');
 }
 
 // ---------------- TEST ----------------
-test('publish paperback from DOY', async ({ page }) => {
-  page.setDefaultTimeout(0);
-  page.setDefaultNavigationTimeout(0);
+for (const doy of DOYS) {
+  test(`publish paperback from DOY ${doy}`, async ({ page }) => {
+    page.setDefaultTimeout(0);
+    page.setDefaultNavigationTimeout(0);
 
-  // optional: log browser events
-  page.on('console', (msg) => log(`BROWSER [${msg.type()}]`, msg.text()));
-  page.on('request', (req) => log('REQUEST →', req.method(), req.url()));
-  page.on('response', (res) => log('RESPONSE ←', res.status(), res.url()));
+    // optional: log browser events
+    page.on('console', (msg) => {
+      const type = msg.type();
+      const text = msg.text();
 
-  // ---- read DOY and derive title/paths/keywords ----
-  const doyRaw = process.env.DOY ?? '366'; // use env var if set, else "366"
-  const doy = Number(doyRaw);
-  log(`DOY: ${doy} (source: ${process.env.DOY ? 'ENV' : 'DEFAULT'})`);
-  if (!Number.isInteger(doy) || doy < 1 || doy > 366) {
-    throw new Error(`Bad DOY: ${doyRaw}`);
-  }
+      // Ignore CSP + batch telemetry noise from Amazon
+      if (text.includes('Content Security Policy directive') || text.includes('/1/batch/2/OE/')) {
+        return;
+      }
 
-  const { monthName, day } = doyToMonthDay(doy);
-  const title = `${monthName} ${day}`;
-  const sign = zodiac(monthName, day);
-  const keywords0 = buildKeywords(monthName, day, sign);
+      log(`BROWSER [${type}]`, text);
+    });
+    page.on('request', (req) => log('REQUEST →', req.method(), req.url()));
+    page.on('response', (res) => log('RESPONSE ←', res.status(), res.url()));
 
-  const folder = `${doy}_${monthName}_${day}`;
-  const folderPath = path.join(BASE_FINAL_DIR, folder);
-  const manuscriptPath = path.join(folderPath, 'full_manuscript.pdf');
-  const coverPath = path.join(folderPath, 'book_cover.pdf');
+    // ---- read DOY and derive title/paths/keywords ----
+    const doyNum = doy; // value from DOYS array
+    const doyRaw = String(doyNum);
+    log(`DOY: ${doyNum} (source: DOYS array)`);
 
-  if (!fs.existsSync(manuscriptPath)) throw new Error(`Missing manuscript:\n${manuscriptPath}`);
-  if (!fs.existsSync(coverPath)) throw new Error(`Missing cover:\n${coverPath}`);
+    if (!Number.isInteger(doyNum) || doyNum < 1 || doyNum > 366) {
+      throw new Error(`Bad DOY: ${doyRaw}`);
+    }
 
-  log('DOY:', doy);
-  log('Title:', title);
-  log('Sign:', sign);
-  log('Keywords0:', keywords0);
-  log('Manuscript:', manuscriptPath);
-  log('Cover:', coverPath);
+    const { monthName, day } = doyToMonthDay(doyNum);
 
-  // ---- start ----
-  await page.goto('https://kdp.amazon.com/en_US/bookshelf', { waitUntil: 'networkidle' });
-  await waitCalm(page);
+    const title = `${monthName} ${day}`;
+    const sign = zodiac(monthName, day);
+    const keywords0 = buildKeywords(monthName, day, sign);
 
-  // UNCOMMENT BELOW
-  // Create new title → paperback
-  await clickWhenReady(
-    page,
-    page.getByRole('link', { name: '+ Create new title or series' }),
-    'Create new title',
-  );
-  await clickWhenReady(
-    page,
-    page.getByRole('button', { name: 'Create paperback' }),
-    'Create paperback',
-  );
+    const folder = `${doyNum}_${monthName}_${day}`;
+    const folderPath = path.join(BASE_FINAL_DIR, folder);
+    const manuscriptPath = path.join(folderPath, 'full_manuscript.pdf');
+    const coverPath = path.join(folderPath, 'book_cover.pdf');
 
-  // Title & subtitle
-  await fillWhenReady(page, page.locator('#data-print-book-title'), title, 'Book title');
-  await fillWhenReady(
-    page,
-    page.locator('#data-print-book-subtitle'),
-    'Amazing stories and brain-teasing puzzles from one unforgettable day in history — perfect for curious minds of all ages.',
-    'Subtitle',
-  );
+    if (!fs.existsSync(manuscriptPath)) throw new Error(`Missing manuscript:\n${manuscriptPath}`);
+    if (!fs.existsSync(coverPath)) throw new Error(`Missing cover:\n${coverPath}`);
 
-  // Rights / age etc.
-  await clickWhenReady(
-    page,
-    page.getByRole('radio', { name: 'I own the copyright and I' }),
-    'Rights: I own',
-  );
-  await clickWhenReady(
-    page,
-    page.locator('#data-print-book-is-adult-content label:has-text("No")'),
-    'Adult content: No',
-  );
+    log('DOY:', doy);
+    log('Title:', title);
+    log('Sign:', sign);
+    log('Keywords0:', keywords0);
+    log('Manuscript:', manuscriptPath);
+    log('Cover:', coverPath);
 
-  // Keywords (slot 0 comes from the DOY; fill the rest with your preferred tags)
-  const moreKeywords = [
-    'on this day for kids this day in history',
-    'fun facts for kids ages 8 12 general knowledge',
-    'inventions for kids explorers for kids',
-    'word search for kids crossword puzzles for kids',
-    'activity book for kids puzzles',
-    'hidden picture find the character puzzle',
-  ];
+    // ---- start ----
+    await page.goto('https://kdp.amazon.com/en_US/bookshelf', { waitUntil: 'networkidle' });
+    await waitCalm(page);
 
-  const kwAll = [keywords0, ...moreKeywords].slice(0, 7);
-  for (let i = 0; i < kwAll.length; i++) {
+    // UNCOMMENT BELOW
+    // Create new title → paperback
+    await clickWhenReady(
+      page,
+      page.getByRole('link', { name: '+ Create new title or series' }),
+      'Create new title',
+    );
+    await clickWhenReady(
+      page,
+      page.getByRole('button', { name: 'Create paperback' }),
+      'Create paperback',
+    );
+
+    // Title & subtitle
+    await fillWhenReady(page, page.locator('#data-print-book-title'), title, 'Book title');
     await fillWhenReady(
       page,
-      page.locator(`#data-print-book-keywords-${i}`),
-      kwAll[i],
-      `Keywords slot ${i}`,
+      page.locator('#data-print-book-subtitle'),
+      'Amazing stories and brain-teasing puzzles from one unforgettable day in history — perfect for curious minds of all ages.',
+      'Subtitle',
     );
-  }
 
-  // Open the series modal
-  await clickWhenReady(
-    page,
-    page.locator('[data-test-id="add-series-details-button"]'),
-    'Add to series',
-  );
+    // Rights / age etc.
+    await clickWhenReady(
+      page,
+      page.getByRole('radio', { name: 'I own the copyright and I' }),
+      'Rights: I own',
+    );
+    await clickWhenReady(
+      page,
+      page.locator('#data-print-book-is-adult-content label:has-text("No")'),
+      'Adult content: No',
+    );
 
-  // Wait for the modal
-  const seriesDialog = page.getByRole('dialog', { name: /Add title to a series/i });
-  await seriesDialog.waitFor({ state: 'visible' });
+    // Keywords (slot 0 comes from the DOY; fill the rest with your preferred tags)
+    const moreKeywords = [
+      'on this day for kids this day in history',
+      'fun facts for kids ages 8 12 general knowledge',
+      'inventions for kids explorers for kids',
+      'word search for kids crossword puzzles for kids',
+      'activity book for kids puzzles',
+      'hidden picture find the character puzzle',
+    ];
 
-  // Select existing series
-  const selectExisting = seriesDialog.getByRole('button', { name: /^Select series$/ });
-  await clickWhenReady(page, selectExisting, 'Select series');
-
-  // Click the first available series result button (keep it simple)
-  const firstSeriesRow = page.locator('[data-test-id^="series-search-result"]').first();
-  await firstSeriesRow.scrollIntoViewIfNeeded();
-  await firstSeriesRow.click();
-
-  // Choose relation
-  const relationDialog = page.getByRole('dialog');
-  await relationDialog.waitFor({ state: 'visible' });
-
-  // Assert and click "Main content"
-  const mainBtn = relationDialog.getByRole('button', { name: /Main content/i });
-  await expect(mainBtn).toBeVisible();
-  await mainBtn.click();
-
-  // Assert and click "Confirm and continue" (if shown)
-  const confirmBtn = relationDialog.getByRole('button', { name: /Confirm and continue/i });
-  if (await confirmBtn.isVisible().catch(() => false)) {
-    await expect(confirmBtn).toBeVisible();
-    await confirmBtn.click();
-  }
-
-  // Final submit: prefer closing the "saved" popover if it appears;
-  // otherwise click the SECOND "Submit", then close the popover.
-
-  // Match the Amazon popover
-  const savedDialog = page.getByRole('dialog', { name: /Your changes have been saved/i });
-  // Defensive selector(s) for the Done button in the popover footer
-  const doneBtn = page
-    .locator(
-      '[data-test-id="modal-confirm-button"], .a-popover-footer [type="submit"], .a-popover-footer .a-button-text:has-text("Done")',
-    )
-    .first();
-
-  const submitBtns = page.getByRole('button', { name: /^Submit$/ });
-
-  // Try for up to ~30s total, checking for the saved dialog first each cycle.
-  const deadline = Date.now() + 30_000;
-  let clickedSubmit = false;
-
-  while (Date.now() < deadline) {
-    // 1) If the saved dialog is already visible, click Done and finish.
-    if (await savedDialog.isVisible().catch(() => false)) {
-      await clickWhenReady(page, doneBtn, 'Saved dialog: Done');
-      await savedDialog.waitFor({ state: 'hidden', timeout: 10_000 }).catch(() => {});
-      break;
+    const kwAll = [keywords0, ...moreKeywords].slice(0, 7);
+    for (let i = 0; i < kwAll.length; i++) {
+      await fillWhenReady(
+        page,
+        page.locator(`#data-print-book-keywords-${i}`),
+        kwAll[i],
+        `Keywords slot ${i}`,
+      );
     }
 
-    // 2) Otherwise, if we haven't clicked Submit yet and there are 2+, click the SECOND one.
-    if (!clickedSubmit && (await submitBtns.count()) > 1) {
-      const secondSubmit = submitBtns.nth(1);
-      if (await secondSubmit.isVisible().catch(() => false)) {
-        await expect(secondSubmit).toBeEnabled();
-        await secondSubmit.scrollIntoViewIfNeeded();
-        await secondSubmit.click();
-        clickedSubmit = true;
-        // after clicking, loop back to wait for the saved dialog
-        await page.waitForTimeout(300);
-        continue;
+    // Open the series modal
+    await clickWhenReady(
+      page,
+      page.locator('[data-test-id="add-series-details-button"]'),
+      'Add to series',
+    );
+
+    // Wait for the modal
+    const seriesDialog = page.getByRole('dialog', { name: /Add title to a series/i });
+    await seriesDialog.waitFor({ state: 'visible' });
+
+    // Select existing series
+    const selectExisting = seriesDialog.getByRole('button', { name: /^Select series$/ });
+    await clickWhenReady(page, selectExisting, 'Select series');
+
+    // Click the first available series result button (keep it simple)
+    const firstSeriesRow = page.locator('[data-test-id^="series-search-result"]').first();
+    await firstSeriesRow.scrollIntoViewIfNeeded();
+    await firstSeriesRow.click();
+
+    // Choose relation
+    const relationDialog = page.getByRole('dialog');
+    await relationDialog.waitFor({ state: 'visible' });
+
+    // Assert and click "Main content"
+    const mainBtn = relationDialog.getByRole('button', { name: /Main content/i });
+    await expect(mainBtn).toBeVisible();
+    await mainBtn.click();
+
+    // Assert and click "Confirm and continue" (if shown)
+    const confirmBtn = relationDialog.getByRole('button', { name: /Confirm and continue/i });
+    if (await confirmBtn.isVisible().catch(() => false)) {
+      await expect(confirmBtn).toBeVisible();
+      await confirmBtn.click();
+    }
+
+    // Final submit: prefer closing the "saved" popover if it appears;
+    // otherwise click the SECOND "Submit", then close the popover.
+
+    // Match the Amazon popover
+    const savedDialog = page.getByRole('dialog', { name: /Your changes have been saved/i });
+    // Defensive selector(s) for the Done button in the popover footer
+    const doneBtn = page
+      .locator(
+        '[data-test-id="modal-confirm-button"], .a-popover-footer [type="submit"], .a-popover-footer .a-button-text:has-text("Done")',
+      )
+      .first();
+
+    const submitBtns = page.getByRole('button', { name: /^Submit$/ });
+
+    // Try for up to ~30s total, checking for the saved dialog first each cycle.
+    const deadline = Date.now() + 30_000;
+    let clickedSubmit = false;
+
+    while (Date.now() < deadline) {
+      // 1) If the saved dialog is already visible, click Done and finish.
+      if (await savedDialog.isVisible().catch(() => false)) {
+        await clickWhenReady(page, doneBtn, 'Saved dialog: Done');
+        await savedDialog.waitFor({ state: 'hidden', timeout: 10_000 }).catch(() => {});
+        break;
       }
+
+      // 2) Otherwise, if we haven't clicked Submit yet and there are 2+, click the SECOND one.
+      if (!clickedSubmit && (await submitBtns.count()) > 1) {
+        const secondSubmit = submitBtns.nth(1);
+        if (await secondSubmit.isVisible().catch(() => false)) {
+          await expect(secondSubmit).toBeEnabled();
+          await secondSubmit.scrollIntoViewIfNeeded();
+          await secondSubmit.click();
+          clickedSubmit = true;
+          // after clicking, loop back to wait for the saved dialog
+          await page.waitForTimeout(300);
+          continue;
+        }
+      }
+
+      // 3) Short sleep before re-checking
+      await page.waitForTimeout(200);
     }
 
-    // 3) Short sleep before re-checking
-    await page.waitForTimeout(200);
-  }
+    // Final safety: if the dialog popped after the loop, close it.
+    if (await savedDialog.isVisible().catch(() => false)) {
+      await clickWhenReady(page, doneBtn, 'Saved dialog: Done (post-loop)');
+      await savedDialog.waitFor({ state: 'hidden', timeout: 10_000 }).catch(() => {});
+    }
+    // UNCOMMENT ABOVE
 
-  // Final safety: if the dialog popped after the loop, close it.
-  if (await savedDialog.isVisible().catch(() => false)) {
-    await clickWhenReady(page, doneBtn, 'Saved dialog: Done (post-loop)');
-    await savedDialog.waitFor({ state: 'hidden', timeout: 10_000 }).catch(() => {});
-  }
-  // UNCOMMENT ABOVE
+    console.time('Description: set via CKEditor');
+    console.log('[Description] Setting description HTML via CKEditor…');
 
-  // Click the "Source" button in the Description toolbar
-  console.time('Description: switch to Source');
-  console.log('[Description] Clicking "Source" button…');
-  await clickWhenReady(page, page.getByRole('button', { name: 'Source' }), 'Description Source');
+    const descriptionHtml = `<p><b>ONE DATE. ONE BOOK. BIG FUN.</b></p>
 
-  // Wait 1s for the editor to switch
-  console.log('[Description] Waiting 1s for editor to switch to source…');
-  await page.waitForTimeout(1000);
+<p>Each title in the <b>What Happened On…</b> series spotlights a single calendar day—no filler—mixing bite-size facts, wild moments from history and nature, and puzzles that make learning feel like play. Every book has its own set of themed categories based on what happened on that date, so the vibe changes from title to title.</p>
 
-  // Paste the description HTML directly into the textarea
-  console.log('[Description] Locating source textarea…');
-  const sourceBox = page.locator('textarea.cke_source');
+<p><b>What's inside</b></p>
+<ul>
+  <li>Short, high-impact facts across day-specific themes (e.g., <i>History's Mic Drop Moments</i>, <i>Creature Feature</i>, <i>Big Brain Energy</i>, <i>The What Zone</i>)</li>
+  <li>Bonus snippets: jokes, quotes, and follow-up questions</li>
+  <li><b>Grid Gauntlet</b> crossword and <b>Letter Quest</b> word search</li>
+  <li><b>Find TJ:</b> I am the author—hidden in the art. Can you spot me?</li>
+</ul>
 
-  console.log('[Description] Filling source HTML…');
-  await fillWhenReadyNoIdle(
-    page,
-    sourceBox,
-    `
-  <p><b>ONE DATE. ONE BOOK. BIG FUN.</b></p>
+<p><b>Who it's for</b><br>
+Perfect for ages 8–12 (independent reading or classrooms), with plenty for older readers too.</p>
 
-  <p>Each title in the <b>What Happened On…</b> series spotlights a single calendar day—no filler—mixing bite-size facts, wild moments from history and nature, and puzzles that make learning feel like play. Every book has its own set of themed categories based on what happened on that date, so the vibe changes from title to title.</p>
+<p><b>Make it a challenge</b><br>
+Pick birthdays or any date you like and compare with friends—whose day had the coolest discoveries, biggest breakthroughs, or wildest animal feats? Build a set of dates you care about most.</p>`;
 
-  <p><b>What's inside</b></p>
-  <ul>
-      <li>Short, high-impact facts across day-specific themes (e.g., <i>History's Mic Drop Moments</i>, <i>Creature Feature</i>, <i>Big Brain Energy</i>, <i>The What Zone</i>)</li>
-      <li>Bonus snippets: jokes, quotes, and follow-up questions</li>
-      <li><b>Grid Gauntlet</b> crossword and <b>Letter Quest</b> word search</li>
-      <li><b>Find TJ:</b> I am the author—hidden in the art. Can you spot me?</li>
-  </ul>
+    await setDescriptionHtml(page, descriptionHtml);
 
-  <p><b>Who it's for</b><br>
-  <br>
-  Perfect for ages 8–12 (independent reading or classrooms), with plenty for older readers too.</p>
+    console.timeEnd('Description: set via CKEditor');
 
-  <p><b>Make it a challenge</b><br>
-  <br>
-  Pick birthdays or any date you like and compare with friends—whose day had the coolest discoveries, biggest breakthroughs, or wildest animal feats? Build a set of dates you care about most.</p>
-  `,
-  );
-  console.timeEnd('Description: switch to Source');
+    // small settle pause
+    await page.waitForTimeout(2000);
 
-  // Wait 1s for the editor to switch
-  console.log('[Description] Waiting 1s after fill to settle…');
-  await page.waitForTimeout(1000);
+    // await clickWhenReady(page, page.getByRole('button', { name: 'Source' }), 'Description Source');
 
-  // await clickWhenReady(page, page.getByRole('button', { name: 'Source' }), 'Description Source');
+    console.log('[Details] Waiting for remaining-character counter to update from 4000…');
 
-  console.log('[Details] Verifying H4 "2785" or "2823" is visible…');
+    // Find the wrapper that contains the remaining-character UI
+    const remainingWrapper = page
+      .locator('div')
+      .filter({ hasText: /remaining characters/i })
+      .last();
+    const remainingCounter = remainingWrapper.locator('h4').first();
 
-  const h4_2785 = page.getByRole('heading', { level: 4, name: '2785' });
-  const h4_2823 = page.getByRole('heading', { level: 4, name: '2823' });
+    await expect(remainingWrapper).toBeVisible();
+    await expect(remainingCounter).toBeVisible();
 
-  if (await h4_2785.isVisible().catch(() => false)) {
-    console.log('[Details] H4 "2785" verified.');
-  } else if (await h4_2823.isVisible().catch(() => false)) {
-    console.log('[Details] H4 "2823" verified.');
-  } else {
-    throw new Error('[Details] Neither H4 "2785" nor "2823" was visible!');
-  }
+    let remaining = NaN;
 
-  console.log('[Categories] Opening categories modal…');
-  await page.waitForTimeout(1000);
-  // Open the Categories modal
-  const chooseBtn = page.getByRole('button', { name: /Choose categories/i });
-  await expect(chooseBtn).toBeVisible();
-  await chooseBtn.click();
+    // Retry for up to ~20s (40 × 500ms) until it changes from 4000
+    for (let attempt = 1; attempt <= 40; attempt++) {
+      const raw = (await remainingCounter.innerText().catch(() => '')).trim();
+      const numeric = raw.replace(/[^\d]/g, '');
+      remaining = Number(numeric || NaN);
 
-  const categoriesModal = page.getByRole('dialog', { name: /Categories/i });
-  await expect(categoriesModal.getByText(/^Categories$/)).toBeVisible();
-  await expect(categoriesModal).toBeVisible();
-  await expect(categoriesModal.getByText('Categories', { exact: true })).toBeVisible();
-  console.log('[Categories] Modal visible.');
+      console.log(
+        `[Details] Remaining counter attempt ${attempt}: raw=${JSON.stringify(raw)} → ${remaining}`,
+      );
 
-  /* -------------------------
+      // Stop once it’s a real value and not the initial 4000
+      if (Number.isFinite(remaining) && remaining !== 4000) {
+        break;
+      }
+
+      await page.waitForTimeout(500);
+    }
+
+    // If it never changed, dump some HTML to help debug
+    if (!Number.isFinite(remaining) || remaining === 4000) {
+      const htmlSnippet = (await remainingWrapper.innerHTML().catch(() => '')).slice(0, 500);
+      throw new Error(
+        `[Details] Remaining-character counter never updated from 4000. ` +
+          `HTML snippet: ${JSON.stringify(htmlSnippet)}`,
+      );
+    }
+
+    // Instead of hard-coding 2797, just assert it looks sane.
+    // If you *really* want 2797, swap this block back to a strict equality check.
+    if (!(remaining > 2000 && remaining < 4000)) {
+      throw new Error(
+        `[Details] Remaining-character counter was ${remaining}, expected between 2001 and 3999. ` +
+          `If you changed the description text, update this assertion.`,
+      );
+    }
+
+    console.log(`[Details] Remaining-character counter looks good: ${remaining}.`);
+
+    // ------------------------------------------------------------
+    // Fill edition + author + age ranges BEFORE opening categories
+    // ------------------------------------------------------------
+
+    console.log('[Details] Filling edition number, author, and age ranges…');
+
+    // Edition number = 1
+    await fillSimpleNoIdle(
+      page,
+      page.locator('#data-print-book-edition-number'),
+      '1',
+      'edition number',
+    );
+
+    // Primary author: TJ Mulrenan
+    await fillSimpleNoIdle(
+      page,
+      page.locator('#data-print-book-primary-author-first-name'),
+      'TJ',
+      'author first name',
+    );
+    await fillSimpleNoIdle(
+      page,
+      page.locator('#data-print-book-primary-author-last-name'),
+      'Mulrenan',
+      'author last name',
+    );
+
+    // Reading age range: 8 – 18+
+    const minAgeSelect = page.locator('#data-print-book-reading-interest-age-start-input-native');
+    const maxAgeSelect = page.locator('#data-print-book-reading-interest-age-end-input-native');
+
+    log('[Details] Setting age range 8–18+…');
+
+    await waitReady(page, minAgeSelect, 'Age minimum select');
+    await waitReady(page, maxAgeSelect, 'Age maximum select');
+
+    // select by visible label
+    await minAgeSelect.selectOption({ label: '8' });
+    await maxAgeSelect.selectOption({ label: '18+' });
+
+    // small pause so KDP bindings fire
+    await page.waitForTimeout(300);
+
+    // optional sanity checks
+    await expect(minAgeSelect).toHaveValue('8');
+    await expect(maxAgeSelect).toHaveValue('18');
+
+    console.log('[Details] Edition, author, and age ranges filled.');
+
+    console.log('[Categories] Opening categories modal…');
+    await page.waitForTimeout(1000);
+    // Open the Categories modal
+    const chooseBtn = page.getByRole('button', { name: /Choose categories/i });
+    await expect(chooseBtn).toBeVisible();
+    await chooseBtn.click();
+
+    const categoriesModal = page.getByRole('dialog', { name: /Categories/i });
+    await expect(categoriesModal.getByText(/^Categories$/)).toBeVisible();
+    await expect(categoriesModal).toBeVisible();
+    await expect(categoriesModal.getByText('Categories', { exact: true })).toBeVisible();
+    console.log('[Categories] Modal visible.');
+
+    /* -------------------------
    Your three category picks
    ------------------------- */
 
-  console.log('[Categories] Pick #1 — Children’s Books > History > Exploration & Discovery');
-  await pickCategoryPath(page, categoriesModal, [
-    "Children's Books",
-    'History',
-    'Exploration & Discovery',
-  ]);
+    console.log('[Categories] Pick #1 — Children’s Books > History > Exploration & Discovery');
+    await pickCategoryPath(page, categoriesModal, [
+      "Children's Books",
+      'History',
+      'Exploration & Discovery',
+    ]);
 
-  console.log('[Categories] Adding row between pick #1 and #2…');
-  await addAnotherCategoryRow(page, categoriesModal);
+    console.log('[Categories] Adding row between pick #1 and #2…');
+    await addAnotherCategoryRow(page, categoriesModal);
 
-  console.log(
-    '[Categories] Pick #2 — Children’s Books > Science, Nature & How It Works > Inventions & Inventors',
-  );
-  await pickCategoryPath(page, categoriesModal, [
-    "Children's Books",
-    'Science, Nature & How It Works',
-    'Inventions & Inventors',
-  ]);
+    console.log(
+      '[Categories] Pick #2 — Children’s Books > Science, Nature & How It Works > Inventions & Inventors',
+    );
+    await pickCategoryPath(page, categoriesModal, [
+      "Children's Books",
+      'Science, Nature & How It Works',
+      'Inventions & Inventors',
+    ]);
 
-  console.log('[Categories] Adding row between pick #2 and #3…');
-  await addAnotherCategoryRow(page, categoriesModal);
+    console.log('[Categories] Adding row between pick #2 and #3…');
+    await addAnotherCategoryRow(page, categoriesModal);
 
-  console.log(
-    '[Categories] Pick #3 — Children’s Books > Education & Reference > Reference > Almanacs',
-  );
-  await pickCategoryPath(page, categoriesModal, [
-    "Children's Books",
-    'Education & Reference',
-    'Reference',
-    'Almanacs',
-  ]);
+    console.log(
+      '[Categories] Pick #3 — Children’s Books > Education & Reference > Reference > Almanacs',
+    );
+    await pickCategoryPath(page, categoriesModal, [
+      "Children's Books",
+      'Education & Reference',
+      'Reference',
+      'Almanacs',
+    ]);
 
-  console.log('[Categories] Saving categories…');
-  const saveCatsBtn = page.getByRole('button', { name: /Save categories/i });
-  await expect(saveCatsBtn).toBeVisible();
-  await saveCatsBtn.click();
+    console.log('[Categories] Saving categories…');
+    const saveCatsBtn = page.getByRole('button', { name: /Save categories/i });
+    await expect(saveCatsBtn).toBeVisible();
+    await saveCatsBtn.click();
 
-  console.time('Details: Save & Continue');
-  console.log('[Details] Clicking "Save and Continue"…');
-  // Continue to Content
-  await clickWhenReady(
-    page,
-    page.getByRole('button', { name: 'Save and Continue' }),
-    'Save & Continue (Details)',
-  );
-  console.timeEnd('Details: Save & Continue');
-  console.log('[Details] Completed.');
+    console.time('Details: Save & Continue');
+    console.log('[Details] Clicking "Save and Continue"…');
+    // Continue to Content
+    await clickWhenReady(
+      page,
+      page.getByRole('button', { name: 'Save and Continue' }),
+      'Save & Continue (Details)',
+    );
+    console.timeEnd('Details: Save & Continue');
+    console.log('[Details] Completed.');
 
-  // Content choices
-  await clickWhenReady(page, page.getByRole('button', { name: 'Assign ISBN' }), 'Assign ISBN');
-  await clickWhenReady(
-    page,
-    page.getByRole('button', { name: 'Standard color interior with' }),
-    'Interior: Standard color',
-  );
-  await clickWhenReady(page, page.getByRole('button', { name: 'Bleed (PDF only)' }), 'Bleed: On');
-  await clickWhenReady(page, page.getByRole('button', { name: 'Glossy' }), 'Cover finish: Glossy');
+    // Content choices (2nd page)
 
-  // Upload manuscript
-  await setFilesWhenReady(
-    page,
-    page.getByRole('button', { name: 'Upload manuscript' }),
-    manuscriptPath,
-    'Upload manuscript',
-  );
-  await waitHidden(page, 'text=/Uploading|Processing manuscript/i', 'Manuscript processing');
-  await waitVisible(page, 'text=/Upload complete|Manuscript uploaded|✓/i', 'Manuscript uploaded');
-  await waitCalm(page);
+    // First click the Assign ISBN button
+    await clickWhenReady(page, page.getByRole('button', { name: /^Assign ISBN$/ }), 'Assign ISBN');
 
-  // Upload cover
-  await clickWhenReady(
-    page,
-    page.getByRole('link', { name: 'Upload a cover you already' }),
-    'Upload cover link',
-  );
-  await clickWhenReady(
-    page,
-    page.getByRole('button', { name: 'Upload your cover file' }),
-    'Upload cover button',
-  );
-  await setFilesWhenReady(
-    page,
-    page.getByRole('button', { name: 'Upload your cover file' }),
-    coverPath,
-    'Upload cover',
-  );
-  await waitHidden(page, 'text=/Uploading|Processing cover/i', 'Cover processing');
-  await waitVisible(page, 'text=/Upload complete|Cover uploaded|✓/i', 'Cover uploaded');
-  await waitCalm(page);
+    // Now wait for the popover to appear
+    const isbnPopover = page.getByRole('dialog', { name: /Free KDP ISBN/i });
+    await expect(isbnPopover).toBeVisible({ timeout: 10000 });
 
-  // AI declarations
-  await clickWhenReady(page, page.getByRole('link', { name: 'Yes' }), 'AI Declarations: Yes');
-  await clickWhenReady(
-    page,
-    page.getByLabel('Texts', { exact: true }).locator('span').nth(2),
-    'AI Texts toggle',
-  );
-  await clickWhenReady(
-    page,
-    page.getByLabel('Some sections, with extensive'),
-    'AI Texts: Some sections',
-  );
-  await fillWhenReady(page, page.getByPlaceholder('e.g. ChatGPT'), 'Claude', 'AI Texts tool');
+    // Confirm inside the popover
+    const confirmISBN = isbnPopover.locator('#free-isbn-confirm-button');
+    await clickWhenReady(page, confirmISBN, 'Confirm ISBN');
 
-  await clickWhenReady(
-    page,
-    page.getByLabel('Images', { exact: true }).locator('span').nth(2),
-    'AI Images toggle',
-  );
-  await clickWhenReady(
-    page,
-    page.getByLabel('Many AI-generated images, with minimal or no editing'),
-    'AI Images: Many',
-  );
-  await fillWhenReady(page, page.getByPlaceholder('e.g. DALL-E'), 'ChatGPT', 'AI Images tool');
+    // Small wait for it to process + close
+    await page.waitForTimeout(800);
 
-  await clickWhenReady(
-    page,
-    page.getByLabel('Translations', { exact: true }).locator('span').nth(2),
-    'AI Translations toggle',
-  );
-  await clickWhenReady(page, page.getByLabel('None'), 'AI Translations: None');
+    await clickWhenReady(
+      page,
+      page.getByRole('button', { name: 'Standard color interior with' }),
+      'Interior: Standard color',
+    );
+    await clickWhenReady(page, page.getByRole('button', { name: 'Bleed (PDF only)' }), 'Bleed: On');
+    await clickWhenReady(
+      page,
+      page.getByRole('button', { name: 'Glossy' }),
+      'Cover finish: Glossy',
+    );
 
-  // Save & preview (can take ages)
-  await clickWhenReady(
-    page,
-    page.getByRole('button', { name: 'Save and Continue' }),
-    'Save & Continue (Content)',
-  );
-  await waitHidden(
-    page,
-    'text=/Preparing your files|Processing|Generating preview/i',
-    'Previewer processing',
-  );
-  await waitVisible(page, 'role=link[name="Approve"]', 'Approve link visible');
-  await clickWhenReady(page, page.getByRole('link', { name: 'Approve' }), 'Approve preview');
+    // ---- Manuscript upload (no button click) ----
+    const manuscriptInput = page.locator(
+      '#data-print-book-publisher-interior-file-upload-AjaxInput',
+    );
 
-  // (Optional) publish…
-  // await clickWhenReady(page, page.getByRole('button', { name: 'Publish Your Paperback Book' }), 'Publish');
-});
+    await setFilesWhenReady(page, manuscriptInput, manuscriptPath, 'Upload manuscript input');
+    await waitCalm(page);
+
+    // await page.goto('https://kdp.amazon.com/en_US/title-setup/paperback/GXAE62B914F/content', {
+    //   waitUntil: 'networkidle',
+    // });
+    // await waitCalm(page);
+
+    // ---- Cover upload (robust accordion handling) ----
+    console.log('[Cover] Opening "Upload a cover you already have" section…');
+    await openCoverUploadSection(page);
+
+    // Now the upload widget should be visible
+    const coverInput = page.locator('#data-print-book-publisher-cover-file-upload-AjaxInput');
+    await setFilesWhenReady(page, coverInput, coverPath, 'Upload cover input');
+    await waitCalm(page);
+
+    // AI declarations
+    await clickWhenReady(page, page.getByRole('link', { name: 'Yes' }), 'AI Declarations: Yes');
+
+    await clickWhenReady(
+      page,
+      page.getByLabel('Texts', { exact: true }).locator('span').nth(2),
+      'AI Texts toggle',
+    );
+    await clickWhenReady(
+      page,
+      page.getByLabel('Some sections, with extensive'),
+      'AI Texts: Some sections',
+    );
+    await fillWhenReady(page, page.getByPlaceholder('e.g. ChatGPT'), 'Claude', 'AI Texts tool');
+
+    await clickWhenReady(
+      page,
+      page.getByLabel('Images', { exact: true }).locator('span').nth(2),
+      'AI Images toggle',
+    );
+    await clickWhenReady(
+      page,
+      page.getByLabel('Many AI-generated images, with minimal or no editing'),
+      'AI Images: Many',
+    );
+    await fillWhenReady(page, page.getByPlaceholder('e.g. DALL-E'), 'ChatGPT', 'AI Images tool');
+
+    await clickWhenReady(
+      page,
+      page.getByLabel('Translations', { exact: true }).locator('span').nth(2),
+      'AI Translations toggle',
+    );
+
+    // Specifically pick the "None" option for *Translations* only
+    const translationsNoneOption = page.locator(
+      'li[aria-labelledby="generative-ai-questionnaire-translations_0"]',
+    );
+    await clickWhenReady(page, translationsNoneOption, 'AI Translations: None');
+
+    // --- Save & Preview / Approve (ALWAYS run through previewer) ---
+    console.log('[Content] Clicking "Save and Continue"…');
+    await clickWhenReady(
+      page,
+      page.getByRole('button', { name: 'Save and Continue' }),
+      'Save & Continue (Content)',
+    );
+
+    // Wait for the "Please preview and approve your book" error banner
+    console.log('[Preview] Waiting for "Please preview and approve your book" banner…');
+    const previewError = page
+      .locator('#potter-error-alert-bottom .a-alert-content')
+      .filter({ hasText: /Please preview and approve your book/i });
+
+    await previewError.waitFor({ state: 'visible', timeout: 30_000 });
+    console.log('[Preview] Banner visible, launching Previewer…');
+
+    // Click "Launch Previewer"
+    await clickWhenReady(
+      page,
+      page.getByRole('button', { name: 'Launch Previewer' }),
+      'Launch Previewer',
+    );
+
+    // Wait for and click "Approve"
+    const approveLink = page.getByRole('link', { name: 'Approve' });
+    await clickWhenReady(page, approveLink, 'Approve preview');
+
+    console.log('[Preview] Approved preview, back on Content page.');
+
+    // Now Save & Continue again – this time it should succeed
+    await clickWhenReady(
+      page,
+      page.getByRole('button', { name: 'Save and Continue' }),
+      'Save & Continue (Content, after preview)',
+    );
+
+    // --- Paperback Rights & Pricing page ---
+    console.log('[Pricing] Navigating to pricing page…');
+
+    // await page.goto('https://kdp.amazon.com/en_US/title-setup/paperback/E7DJ1FZANK8/pricing', {
+    //   waitUntil: 'networkidle',
+    // });
+    // await waitCalm(page);
+
+    // Assert we’re really on the pricing page by waiting for US price input
+    const usPriceInput = page
+      .locator('#data-pricing-print-us-price-input')
+      .locator('input.price-input');
+
+    await waitReady(page, usPriceInput, 'US price input');
+    console.log('[Pricing] Pricing grid visible, filling prices…');
+
+    // US – $9.99
+    await setMarketplacePrice(page, 'us', '9.99');
+
+    // UK – £7.99
+    await setMarketplacePrice(page, 'uk', '7.99');
+
+    // DE / FR / ES / IT / NL / BE / IE – €9.99
+    await setMarketplacePrice(page, 'de', '9.99');
+    await setMarketplacePrice(page, 'fr', '9.99');
+    await setMarketplacePrice(page, 'es', '9.99');
+    await setMarketplacePrice(page, 'it', '9.99');
+    await setMarketplacePrice(page, 'nl', '9.99');
+    await setMarketplacePrice(page, 'be', '9.99');
+    await setMarketplacePrice(page, 'ie', '9.99');
+
+    // PL – 40 zł
+    await setMarketplacePrice(page, 'pl', '40');
+
+    // SE – 110 kr
+    await setMarketplacePrice(page, 'se', '110');
+
+    // JP – ¥1478
+    await setMarketplacePrice(page, 'jp', '1478');
+
+    // CA – $13.99
+    await setMarketplacePrice(page, 'ca', '13.99');
+
+    // AU – $15.26
+    await setMarketplacePrice(page, 'au', '15.26');
+
+    console.log('[Pricing] All marketplaces filled, publishing...');
+
+    // --- Click Publish ---
+    const publishBtn = page.getByRole('button', { name: 'Publish Your Paperback Book' });
+
+    await clickWhenReady(page, publishBtn, 'Publish Your Paperback Book');
+
+    // --- Wait for confirmation banner ---
+    console.log('[Publish] Waiting for submission confirmation...');
+
+    const submittedText = page
+      .locator('span.a-text-bold', { hasText: 'Your paperback has been submitted' })
+      .first(); // ← FORCE the first match
+
+    await submittedText.waitFor({ state: 'visible', timeout: 60000 });
+
+    console.log('[Publish] SUCCESS — Paperback has been submitted!');
+    await page.waitForTimeout(5000);
+
+    // (Optional) publish…
+    // await clickWhenReady(page, page.getByRole('button', { name: 'Publish Your Paperback Book' }), 'Publish');
+  });
+}
