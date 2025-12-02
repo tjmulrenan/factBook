@@ -846,7 +846,7 @@ for (const doy of DOYS) {
     console.time('Description: set via CKEditor');
     console.log('[Description] Setting description HTML via CKEditor…');
 
-    const descriptionHtml = `<p><b>ONE DATE. ONE BOOK. BIG FUN.</b></p>
+    const descriptionHtml = `<p><b></b></p>
 
 <p>Each title in the <b>What Happened On…</b> series spotlights a single calendar day—no filler—mixing bite-size facts, wild moments from history and nature, and puzzles that make learning feel like play. Every book has its own set of themed categories based on what happened on that date, so the vibe changes from title to title.</p>
 
@@ -859,10 +859,10 @@ for (const doy of DOYS) {
 </ul>
 
 <p><b>Who it's for</b><br>
-Perfect for ages 8–12 (independent reading or classrooms), with plenty for older readers too.</p>
+</p>
 
-<p><b>Make it a challenge</b><br>
-Pick birthdays or any date you like and compare with friends—whose day had the coolest discoveries, biggest breakthroughs, or wildest animal feats? Build a set of dates you care about most.</p>`;
+<p><b></b><br>
+</p>`;
 
     await setDescriptionHtml(page, descriptionHtml);
 
