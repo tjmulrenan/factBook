@@ -6,8 +6,8 @@ from datetime import date
 from PIL import Image, ImageOps
 
 # --- CONFIG ---
-SPINES_DIR  = r"C:\Users\timmu\Documents\repos\Factbook Project\cover\spines"
-OUTPUT_BASE = r"C:\Users\timmu\Documents\repos\Factbook Project\FINAL"
+SPINES_DIR  = r"C:\Personal\factBook\cover\spines"
+OUTPUT_BASE = r"C:\Personal\What Happened On... (The Complete Collection)"
 YEAR        = 2024                 # leap year so Feb 29 exists
 SEED        = 29                   # per-day wobble
 
@@ -20,8 +20,8 @@ V_GAIN_BASE     = 0.95             # global multiplier on luminance (darken a to
 V_GAIN_JITTER   = 0.02             # random micro-variance
 V_GAMMA         = 1.20             # >1 darkens midtones; 1.0 = linear
 
-FRONT_REF   = r"C:\Users\timmu\Documents\repos\Factbook Project\cover\front.png"
-BACK_REF    = r"C:\Users\timmu\Documents\repos\Factbook Project\cover\back.png"
+FRONT_REF   = r"C:\Personal\factBook\cover\front.png"
+BACK_REF    = r"C:\Personal\factBook\cover\back.png"
 
 # --- Helpers ---
 def ensure_rgba(img: Image.Image) -> Image.Image:

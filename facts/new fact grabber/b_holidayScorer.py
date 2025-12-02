@@ -12,8 +12,8 @@ from tqdm import tqdm
 
 
 # Path setup
-FACTS_DIR = "C:/Users/timmu/Documents/repos/Factbook Project/facts/new fact grabber/a_raw"
-SCORED_DIR = "C:/Users/timmu/Documents/repos/Factbook Project/facts/new fact grabber/b_scored"
+FACTS_DIR = "C:/Personal/factBook/facts/new fact grabber/a_raw"
+SCORED_DIR = "C:/Personal/factBook/facts/new fact grabber/b_scored"
 BATCH_SIZE = 1  # or 1 if you want to test smaller batches
 os.makedirs(SCORED_DIR, exist_ok=True)
 

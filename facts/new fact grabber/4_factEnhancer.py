@@ -11,11 +11,11 @@ from tqdm import tqdm
 import string
 
 # Path setup
-FACTS_DIR = "C:/Users/timmu/Documents/repos/Factbook Project/facts/new fact grabber/3_culled"
-SORTED_DIR = "C:/Users/timmu/Documents/repos/Factbook Project/facts/new fact grabber/4_enhanced"
+FACTS_DIR = "C:/Personal/factBook/facts/new fact grabber/3_culled"
+SORTED_DIR = "C:/Personal/factBook/facts/new fact grabber/4_enhanced"
 BATCH_SIZE = 1  # or 1 if you want to test smaller batches
 os.makedirs(SORTED_DIR, exist_ok=True)
-MODEL_NAME = os.getenv("CLAUDE_MODEL", "claude-3-5-sonnet-20240620")  # or your preferred working ID
+MODEL_NAME = os.getenv("CLAUDE_MODEL", "claude-sonnet-4-20250514")  # or your preferred working ID
 
 
 def story_missing_month_or_day(story: str, today_str: str) -> bool:

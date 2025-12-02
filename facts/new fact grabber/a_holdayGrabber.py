@@ -7,7 +7,7 @@ from anthropic import Anthropic
 
 LEAP_YEAR = 2024  # use leap-year indexing (e.g., Sep 7 = 251)
 
-OUTPUT_DIR = r"C:\Users\timmu\Documents\repos\Factbook Project\facts\new fact grabber\a_raw"
+OUTPUT_DIR = r"C:\Personal\factBook\facts\new fact grabber\a_raw"
 
 def doy_to_month_day(doy: int):
     base = datetime(LEAP_YEAR, 1, 1) + timedelta(days=doy - 1)

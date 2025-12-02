@@ -6,13 +6,13 @@ import fitz  # PyMuPDF
 from PIL import Image
 
 # ===== PATHS =====
-INPUT_DIR  = r"C:\Users\timmu\Documents\repos\Factbook Project\cover\complete"
-OUTPUT_DIR = r"C:\Users\timmu\Documents\repos\Factbook Project\cover\paperback"
-BACK_IMG   = r"C:\Users\timmu\Documents\repos\Factbook Project\cover\back.png"
-SPINE_IMG  = r"C:\Users\timmu\Documents\repos\Factbook Project\cover\spine.png"
-SPINE_TITLE_IMG = r"C:\Users\timmu\Documents\repos\Factbook Project\cover\what_happened_on.png"
-SPINE_FONT_FILE = r"C:\Users\timmu\Documents\repos\Factbook Project\fonts\Domine-Bold.ttf"
-FINAL_DIR = r"C:\Users\timmu\Documents\repos\Factbook Project\FINAL"
+INPUT_DIR  = r"C:\Personal\factBook\cover\complete"
+OUTPUT_DIR = r"C:\Personal\factBook\cover\paperback"
+BACK_IMG   = r"C:\Personal\factBook\cover\back.png"
+SPINE_IMG  = r"C:\Personal\factBook\cover\spine.png"
+SPINE_TITLE_IMG = r"C:\Personal\factBook\cover\what_happened_on.png"
+SPINE_FONT_FILE = r"C:\Personal\factBook\fonts\Domine-Bold.ttf"
+FINAL_DIR = r"C:\Personal\What Happened On... (The Complete Collection)"
 
 SPINE_TEXT_COLOR = (0, 0, 0)  # RGB 0–1
 SPINE_ROTATE_DEG = 270        # 90 or 270
@@ -335,17 +335,26 @@ def main():
     if not os.path.exists(img_path):
         print(f"❌ front_cover.png missing: {img_path}")
         sys.exit(1)
-    if not os.path.exists(manuscript_path):
-        print(f"❌ full_manuscript.pdf missing: {manuscript_path}")
-        sys.exit(1)
 
-    # Page count (auto)
-    try:
-        with fitz.open(manuscript_path) as mdoc:
-            pages_in = mdoc.page_count
-    except Exception as e:
-        print(f"❌ Failed to read manuscript: {e}")
-        sys.exit(1)
+    # ---- page count: try auto from full_manuscript.pdf, else ask you ----
+    pages_in = None
+    if os.path.exists(manuscript_path):
+        try:
+            with fitz.open(manuscript_path) as mdoc:
+                pages_in = mdoc.page_count
+                print(f"📄 Page count from full_manuscript.pdf: {pages_in}")
+        except Exception as e:
+            print(f"⚠ Failed to read manuscript for page count: {e}")
+    else:
+        print(f"⚠ full_manuscript.pdf missing: {manuscript_path}")
+
+    if pages_in is None:
+        user_pages = input("Enter total number of interior pages (e.g., 100): ").strip()
+        if not user_pages.isdigit():
+            print("❌ Invalid page count; must be an integer.")
+            sys.exit(1)
+        pages_in = int(user_pages)
+        print(f"📄 Using manual page count: {pages_in}")
 
     # Force even pages for print
     pages = even_pages(pages_in)

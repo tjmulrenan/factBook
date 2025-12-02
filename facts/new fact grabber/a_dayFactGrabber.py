@@ -131,7 +131,7 @@ def ask_claude_to_clean_day_facts(month: str, day: int, facts: list) -> list:
         return facts
 
 def save_to_json(doy: int, month: str, day: int, facts: list):
-    output_dir = r"C:\Users\timmu\Documents\repos\Factbook Project\facts\new fact grabber\a_rawDay"
+    output_dir = r"C:\Personal\factBook\facts\new fact grabber\a_rawDay"
     os.makedirs(output_dir, exist_ok=True)
     filename = os.path.join(output_dir, f"{doy}_{month}_{day}_Facts.json")
     with open(filename, "w", encoding="utf-8") as f:

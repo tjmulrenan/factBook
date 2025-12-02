@@ -6,12 +6,12 @@ import fitz  # PyMuPDF
 from PIL import Image
 
 # ===== PATHS =====
-INPUT_DIR  = r"C:\Users\timmu\Documents\repos\Factbook Project\cover\complete"
-OUTPUT_DIR = r"C:\Users\timmu\Documents\repos\Factbook Project\cover\hardcover"   # base dir
-BACK_IMG  = r"C:\Users\timmu\Documents\repos\Factbook Project\cover\back.png"
-SPINE_IMG = r"C:\Users\timmu\Documents\repos\Factbook Project\cover\spine.png"
-SPINE_TITLE_IMG = r"C:\Users\timmu\Documents\repos\Factbook Project\cover\what_happened_on.png"
-SPINE_FONT_FILE = r"C:\Users\timmu\Documents\repos\Factbook Project\fonts\Domine-Bold.ttf"
+INPUT_DIR  = r"C:\Personal\factBook\cover\complete"
+OUTPUT_DIR = r"C:\Personal\factBook\cover\hardcover"   # base dir
+BACK_IMG  = r"C:\Personal\factBook\cover\back.png"
+SPINE_IMG = r"C:\Personal\factBook\cover\spine.png"
+SPINE_TITLE_IMG = r"C:\Personal\factBook\cover\what_happened_on.png"
+SPINE_FONT_FILE = r"C:\Personal\factBook\fonts\Domine-Bold.ttf"
 SPINE_TEXT_COLOR = (0, 0, 0)   # black (0–1 RGB). Use (1,1,1) for white on dark spine
 SPINE_ROTATE_DEG = 270          # 90 or 270 depending on reading direction
 SPINE_TEXT_MARGIN_IN = 0.03   # inset inside TRUE spine

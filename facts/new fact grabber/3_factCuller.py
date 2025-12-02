@@ -37,7 +37,7 @@ except ImportError:
     Anthropic = None  # we'll error nicely later
 
 # Config
-BASE_DIR    = r"C:\Users\timmu\Documents\repos\Factbook Project\facts\new fact grabber"
+BASE_DIR    = r"C:\Personal\factBook\facts\new fact grabber"
 SCORED_DIR  = os.path.join(BASE_DIR, "2_scored")   # pick from here
 CULLED_DIR  = os.path.join(BASE_DIR, "3_culled")   # save here
 os.makedirs(CULLED_DIR, exist_ok=True)

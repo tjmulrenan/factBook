@@ -43,7 +43,7 @@ def choose_file_by_daynum(items):
 
 LEAP_YEAR = 2024  # always treat as leap year for DOY
 
-BASE_DIR = Path(r"C:/Users/timmu/Documents/repos/Factbook Project/facts/new fact grabber")
+BASE_DIR = Path(r"C:/Personal/factBook/facts/new fact grabber")
 ENHANCED_DIR = BASE_DIR / "4_enhanced"
 HOLIDAYS_DIR = BASE_DIR / "c_enhanced"
 OUTPUT_DIR = BASE_DIR / "6_final"

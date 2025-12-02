@@ -1,66 +1,12 @@
 [
   {
-    "id": 148,
-    "year": "1869",
-    "original": "Dmitri Mendeleevpresents the first periodic table of the elements to the Russian Chemical Society",
-    "score": 95,
-    "is_kid_friendly": true,
-    "category": "Big Brain Energy",
-    "rank": 1
-  },
-  {
-    "id": 371,
-    "year": "1967",
-    "original": "Özlem Türeci, German scientist (BioNTech - created 1st mRNA-based vaccine for COVID-19), born in Siegen, West Germany",
-    "score": 95,
-    "is_kid_friendly": true,
-    "category": "Big Brain Energy",
-    "rank": 2
-  },
-  {
-    "id": 390,
-    "year": "1987",
-    "original": "Alexey Molchanov, Russian freediver (25 world records), born in Volgograd, Russia",
-    "score": 95,
-    "is_kid_friendly": true,
-    "category": "Full Beast Mode",
-    "rank": 3
-  },
-  {
     "id": 94,
     "year": "1982",
     "original": "Susan Birmingham makes then world's loudest recorded human shout (120 dB)",
     "score": 94,
     "is_kid_friendly": true,
     "category": "Full Beast Mode",
-    "rank": 4
-  },
-  {
-    "id": 59,
-    "year": "1950",
-    "original": "Silly Putty goes on sale in the US",
-    "score": 92,
-    "is_kid_friendly": true,
-    "category": "The What Zone",
-    "rank": 5
-  },
-  {
-    "id": 92,
-    "year": "1981",
-    "original": "Worlds Ladies' Figure Skating Champ in Hartford won by Denise Biellmann",
-    "score": 92,
-    "is_kid_friendly": true,
-    "category": "Full Beast Mode",
-    "rank": 6
-  },
-  {
-    "id": 93,
-    "year": "1982",
-    "original": "NBA highest scoring game: San Antonio beat Milwaukee 171-166 (3 OT)",
-    "score": 92,
-    "is_kid_friendly": true,
-    "category": "Full Beast Mode",
-    "rank": 7
+    "rank": 1
   },
   {
     "id": 133,
@@ -69,7 +15,34 @@
     "score": 92,
     "is_kid_friendly": true,
     "category": "The What Zone",
-    "rank": 9
+    "rank": 2
+  },
+  {
+    "id": 59,
+    "year": "1950",
+    "original": "Silly Putty goes on sale in the US",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 3
+  },
+  {
+    "id": 158,
+    "year": "1945",
+    "original": "George Nissenof Cedar Rapids, Iowa, receives a patent for the first modern trampoline",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 4
+  },
+  {
+    "id": 390,
+    "year": "1987",
+    "original": "Alexey Molchanov, Russian freediver (25 world records), born in Volgograd, Russia",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 15
   },
   {
     "id": 50,
@@ -78,6 +51,60 @@
     "score": 90,
     "is_kid_friendly": true,
     "category": "World Shakers & Icon Makers",
+    "rank": 6
+  },
+  {
+    "id": 175,
+    "year": "1985",
+    "original": "Future undisputed world heavyweight boxing championMike TysonKOs Hector Mercedes at 1:47 in round 1 of 4 in Albany, NY in his first professional fight",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 7
+  },
+  {
+    "id": 397,
+    "year": "2003",
+    "original": "Millicent Simmonds, American deaf actress (A Quiet Place), born in Bountiful, Utah",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 8
+  },
+  {
+    "id": 371,
+    "year": "1967",
+    "original": "Özlem Türeci, German scientist (BioNTech - created 1st mRNA-based vaccine for COVID-19), born in Siegen, West Germany",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 9
+  },
+  {
+    "id": 148,
+    "year": "1869",
+    "original": "Dmitri Mendeleevpresents the first periodic table of the elements to the Russian Chemical Society",
+    "score": 95,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 10
+  },
+  {
+    "id": 269,
+    "year": "1917",
+    "original": "Harry Coover, American chemist and inventor of Superglue, born in Newark, Delaware (d. 2011)[1]",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 11
+  },
+  {
+    "id": 149,
+    "year": "1899",
+    "original": "Aspirin (acetylsalicylic acid) is patented byFelix Hoffmannat the German company Bayer",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
     "rank": 12
   },
   {
@@ -87,79 +114,7 @@
     "score": 90,
     "is_kid_friendly": true,
     "category": "Beyond Earth",
-    "rank": 14
-  },
-  {
-    "id": 170,
-    "year": "1976",
-    "original": "In his 10th title defense, WBA light welterweight champion Antonio Cervantes of Colombia is beaten by 17-year-old Puerto Rican boxerWilfred Benítezin a 15-round split decision in San Juan, Puerto Rico; Benitez youngest ever world champion",
-    "score": 90,
-    "is_kid_friendly": true,
-    "category": "Full Beast Mode",
-    "rank": 15
-  },
-  {
-    "id": 380,
-    "year": "1974",
-    "original": "Sônia Guajajara, Brazilian indigenous activist and politician (1st indigenous person on a presidential ticket in Brazil), born in  Araribóia Indigenous Land, Brazil[1]",
-    "score": 90,
-    "is_kid_friendly": true,
-    "category": "World Shakers & Icon Makers",
-    "rank": 17
-  },
-  {
-    "id": 397,
-    "year": "2003",
-    "original": "Millicent Simmonds, American deaf actress (A Quiet Place), born in Bountiful, Utah",
-    "score": 90,
-    "is_kid_friendly": true,
-    "category": "World Shakers & Icon Makers",
-    "rank": 18
-  },
-  {
-    "id": 62,
-    "year": "1959",
-    "original": "Farthest radio signal heard (Pioneer IV, 400,000 miles)",
-    "score": 85,
-    "is_kid_friendly": true,
-    "category": "Beyond Earth",
-    "rank": 20
-  },
-  {
-    "id": 101,
-    "year": "1986",
-    "original": "USSR's Vega 1 flies by Halley's Comet at 8,889 km",
-    "score": 85,
-    "is_kid_friendly": true,
-    "category": "Beyond Earth",
-    "rank": 23
-  },
-  {
-    "id": 129,
-    "year": "2018",
-    "original": "American WWII aircraft carrier USS Lexington rediscovered in Australia's Coral Sea, lost during 1942 Battle of the Coral Sea",
-    "score": 85,
-    "is_kid_friendly": true,
-    "category": "History's Mic Drop Moments",
-    "rank": 25
-  },
-  {
-    "id": 139,
-    "year": "2025",
-    "original": "Spacecraft Athena, carrying a NASA ice drill, built by Intuitive Machines, Texas, lands on its side on the Moon, ending its mission",
-    "score": 85,
-    "is_kid_friendly": true,
-    "category": "Beyond Earth",
-    "rank": 26
-  },
-  {
-    "id": 175,
-    "year": "1985",
-    "original": "Future undisputed world heavyweight boxing championMike TysonKOs Hector Mercedes at 1:47 in round 1 of 4 in Albany, NY in his first professional fight",
-    "score": 85,
-    "is_kid_friendly": true,
-    "category": "Full Beast Mode",
-    "rank": 27
+    "rank": 13
   },
   {
     "id": 189,
@@ -168,7 +123,61 @@
     "score": 85,
     "is_kid_friendly": true,
     "category": "Full Beast Mode",
-    "rank": 28
+    "rank": 16
+  },
+  {
+    "id": 170,
+    "year": "1976",
+    "original": "In his 10th title defense, WBA light welterweight champion Antonio Cervantes of Colombia is beaten by 17-year-old Puerto Rican boxerWilfred Benítezin a 15-round split decision in San Juan, Puerto Rico; Benitez youngest ever world champion",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 18
+  },
+  {
+    "id": 93,
+    "year": "1982",
+    "original": "NBA highest scoring game: San Antonio beat Milwaukee 171-166 (3 OT)",
+    "score": 92,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 19
+  },
+  {
+    "id": 101,
+    "year": "1986",
+    "original": "USSR's Vega 1 flies by Halley's Comet at 8,889 km",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 20
+  },
+  {
+    "id": 62,
+    "year": "1959",
+    "original": "Farthest radio signal heard (Pioneer IV, 400,000 miles)",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 21
+  },
+  {
+    "id": 291,
+    "year": "1927",
+    "original": "Gordon Cooper, American aerospace engineer, test pilot and astronaut (Mercury-Atlas 9, Gemini 5), born in Shawnee, Oklahoma (d. 2004)",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 22
+  },
+  {
+    "id": 129,
+    "year": "2018",
+    "original": "American WWII aircraft carrier USS Lexington rediscovered in Australia's Coral Sea, lost during 1942 Battle of the Coral Sea",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 23
   },
   {
     "id": 265,
@@ -177,7 +186,16 @@
     "score": 85,
     "is_kid_friendly": true,
     "category": "Full Beast Mode",
-    "rank": 29
+    "rank": 24
+  },
+  {
+    "id": 392,
+    "year": "1991",
+    "original": "Tyler, the Creator [Tyler Okonma], American rapper and record producer (Flower Boy; Igor), born in Ladera Heights, California",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 25
   },
   {
     "id": 302,
@@ -186,15 +204,15 @@
     "score": 85,
     "is_kid_friendly": true,
     "category": "Full Beast Mode",
-    "rank": 30
+    "rank": 27
   },
   {
-    "id": 395,
-    "year": "1993",
-    "original": "Ning Zetao, Chinese swimmer (World C'ship gold 100m freestyle 2015), born in Zhengzhou, China",
+    "id": 139,
+    "year": "2025",
+    "original": "Spacecraft Athena, carrying a NASA ice drill, built by Intuitive Machines, Texas, lands on its side on the Moon, ending its mission",
     "score": 85,
     "is_kid_friendly": true,
-    "category": "Full Beast Mode",
+    "category": "Beyond Earth",
     "rank": 31
   },
   {
@@ -213,61 +231,16 @@
     "score": 82,
     "is_kid_friendly": true,
     "category": "Big Brain Energy",
+    "rank": 33
+  },
+  {
+    "id": 143,
+    "year": "1835",
+    "original": "Volume One ofThomas Carlyle's famous work \"The French Revolution: A History\" is accidentally burnt by a maid using it as fire starter before its publication. Carlyle re-writes it.",
+    "score": 65,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
     "rank": 34
-  },
-  {
-    "id": 80,
-    "year": "1970",
-    "original": "The Beatles release single \"Let it Be\" in UK",
-    "score": 80,
-    "is_kid_friendly": true,
-    "category": "Vibes, Beats & Brushes",
-    "rank": 35
-  },
-  {
-    "id": 153,
-    "year": "1922",
-    "original": "Babe Ruthsigns 3 year contract with NY Yankees at $52,000 a year",
-    "score": 80,
-    "is_kid_friendly": true,
-    "category": "World Shakers & Icon Makers",
-    "rank": 36
-  },
-  {
-    "id": 167,
-    "year": "1971",
-    "original": "Test Cricket debut of Indian cricket greatSunil Gavaskarversus West Indies at Port-of-Spain; 125 Tests, 10,122 runs @ 51.12; 34 Test centuries",
-    "score": 80,
-    "is_kid_friendly": true,
-    "category": "World Shakers & Icon Makers",
-    "rank": 37
-  },
-  {
-    "id": 269,
-    "year": "1917",
-    "original": "Harry Coover, American chemist and inventor of Superglue, born in Newark, Delaware (d. 2011)[1]",
-    "score": 80,
-    "is_kid_friendly": true,
-    "category": "Big Brain Energy",
-    "rank": 38
-  },
-  {
-    "id": 291,
-    "year": "1927",
-    "original": "Gordon Cooper, American aerospace engineer, test pilot and astronaut (Mercury-Atlas 9, Gemini 5), born in Shawnee, Oklahoma (d. 2004)",
-    "score": 80,
-    "is_kid_friendly": true,
-    "category": "Beyond Earth",
-    "rank": 39
-  },
-  {
-    "id": 342,
-    "year": "1946",
-    "original": "Patrick Baudry, French astronaut (STS-51-G) and second French citizen in space, born in Douala, Cameroon",
-    "score": 80,
-    "is_kid_friendly": true,
-    "category": "Beyond Earth",
-    "rank": 40
   },
   {
     "id": 7,
@@ -276,43 +249,61 @@
     "score": 78,
     "is_kid_friendly": true,
     "category": "History's Mic Drop Moments",
+    "rank": 35
+  },
+  {
+    "id": 395,
+    "year": "1993",
+    "original": "Ning Zetao, Chinese swimmer (World C'ship gold 100m freestyle 2015), born in Zhengzhou, China",
+    "score": 85,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 36
+  },
+  {
+    "id": 380,
+    "year": "1974",
+    "original": "Sônia Guajajara, Brazilian indigenous activist and politician (1st indigenous person on a presidential ticket in Brazil), born in  Araribóia Indigenous Land, Brazil[1]",
+    "score": 90,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 37
+  },
+  {
+    "id": 342,
+    "year": "1946",
+    "original": "Patrick Baudry, French astronaut (STS-51-G) and second French citizen in space, born in Douala, Cameroon",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 38
+  },
+  {
+    "id": 153,
+    "year": "1922",
+    "original": "Babe Ruthsigns 3 year contract with NY Yankees at $52,000 a year",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 40
+  },
+  {
+    "id": 80,
+    "year": "1970",
+    "original": "The Beatles release single \"Let it Be\" in UK",
+    "score": 80,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
     "rank": 41
   },
   {
-    "id": 1,
-    "year": "1079",
-    "original": "Persian polymath Omar Khayyam completes the Jalali calendar, a solar calendar with a precise 33-year intercalation cycle and the basis for the Persian calendar still in use today",
-    "score": 75,
+    "id": 167,
+    "year": "1971",
+    "original": "Test Cricket debut of Indian cricket greatSunil Gavaskarversus West Indies at Port-of-Spain; 125 Tests, 10,122 runs @ 51.12; 34 Test centuries",
+    "score": 80,
     "is_kid_friendly": true,
-    "category": "Big Brain Energy",
-    "rank": 43
-  },
-  {
-    "id": 27,
-    "year": "1895",
-    "original": "England beat Australia to win one of the best cricket series ever, 3-2; Jack Brown hits the fastest 50 in test cricket in 28 mins",
-    "score": 75,
-    "is_kid_friendly": true,
-    "category": "Full Beast Mode",
-    "rank": 44
-  },
-  {
-    "id": 72,
-    "year": "1965",
-    "original": "Bruce Taylor hits 105 for NZ v India in 1st Test Cricket innings",
-    "score": 75,
-    "is_kid_friendly": true,
-    "category": "Full Beast Mode",
-    "rank": 45
-  },
-  {
-    "id": 91,
-    "year": "1981",
-    "original": "Soyuz 39 returns to Earth",
-    "score": 75,
-    "is_kid_friendly": true,
-    "category": "Beyond Earth",
-    "rank": 46
+    "category": "World Shakers & Icon Makers",
+    "rank": 42
   },
   {
     "id": 166,
@@ -321,169 +312,7 @@
     "score": 75,
     "is_kid_friendly": true,
     "category": "Vibes, Beats & Brushes",
-    "rank": 47
-  },
-  {
-    "id": 203,
-    "year": "1619",
-    "original": "Cyrano de Bergerac, French playwright and novelist known for his large nose (Voyage to the Moon) and inspiration for Edmond Rostand’s play, born in Paris, France (d. 1655)",
-    "score": 75,
-    "is_kid_friendly": true,
-    "category": "World Shakers & Icon Makers",
-    "rank": 48
-  },
-  {
-    "id": 208,
-    "year": "1716",
-    "original": "Pehr Kalm, Swedish explorer and naturalist, first scientific description of Niagara Falls, born in Ångermanland, Sweden (d. 1779)",
-    "score": 75,
-    "is_kid_friendly": true,
-    "category": "Big Brain Energy",
-    "rank": 49
-  },
-  {
-    "id": 280,
-    "year": "1923",
-    "original": "(John) \"Wes\" Montgomery, American influential and Grammy Award-winner jazz guitarist, born in Indianapolis, Indiana (d. 1968)",
-    "score": 75,
-    "is_kid_friendly": true,
-    "category": "Vibes, Beats & Brushes",
-    "rank": 50
-  },
-  {
-    "id": 324,
-    "year": "1938",
-    "original": "Pauline Boty, English artist, co-founder of the Pop art movement, born in London (d. 1966)",
-    "score": 75,
-    "is_kid_friendly": true,
-    "category": "Vibes, Beats & Brushes",
-    "rank": 51
-  },
-  {
-    "id": 392,
-    "year": "1991",
-    "original": "Tyler, the Creator [Tyler Okonma], American rapper and record producer (Flower Boy; Igor), born in Ladera Heights, California",
-    "score": 75,
-    "is_kid_friendly": true,
-    "category": "Vibes, Beats & Brushes",
-    "rank": 52
-  },
-  {
-    "id": 393,
-    "year": "1992",
-    "original": "Momoko Tsugunaga, Japanese J-pop singer (Berryz Kobo), actress, radio personality, and kindergarten teacher, born in Kashiwa, Chiba, Japan",
-    "score": 75,
-    "is_kid_friendly": true,
-    "category": "Vibes, Beats & Brushes",
-    "rank": 53
-  },
-  {
-    "id": 73,
-    "year": "1966",
-    "original": "Barry Sadler's \"Ballad of the Green Berets\" becomes #1 (13 weeks)",
-    "score": 73,
-    "is_kid_friendly": true,
-    "category": "Vibes, Beats & Brushes",
-    "rank": 54
-  },
-  {
-    "id": 36,
-    "year": "1918",
-    "original": "US naval boat \"Cyclops\" disappears in Bermuda Triangle",
-    "score": 70,
-    "is_kid_friendly": true,
-    "category": "The What Zone",
-    "rank": 55
-  },
-  {
-    "id": 61,
-    "year": "1957",
-    "original": "Ghana (formerly Gold Coast) declares independence from the United Kingdom",
-    "score": 70,
-    "is_kid_friendly": true,
-    "category": "History's Mic Drop Moments",
-    "rank": 56
-  },
-  {
-    "id": 89,
-    "year": "1980",
-    "original": "Princess Theater (Latin Quarter, Cotton Club) opens at 200 W 48th NYC",
-    "score": 70,
-    "is_kid_friendly": true,
-    "category": "Vibes, Beats & Brushes",
-    "rank": 58
-  },
-  {
-    "id": 120,
-    "year": "2012",
-    "original": "9,000 residents are evacuated from Wagga Wagga, Australia, as the Murrimbidgee River threatens to overflow",
-    "score": 70,
-    "is_kid_friendly": true,
-    "category": "History's Mic Drop Moments",
-    "rank": 59
-  },
-  {
-    "id": 140,
-    "year": "1521",
-    "original": "Portuguese navigatorFerdinand Magellanis the first European to sight Guam in the western Pacific",
-    "score": 70,
-    "is_kid_friendly": true,
-    "category": "Beyond Earth",
-    "rank": 60
-  },
-  {
-    "id": 149,
-    "year": "1899",
-    "original": "Aspirin (acetylsalicylic acid) is patented byFelix Hoffmannat the German company Bayer",
-    "score": 70,
-    "is_kid_friendly": true,
-    "category": "Big Brain Energy",
-    "rank": 61
-  },
-  {
-    "id": 190,
-    "year": "2021",
-    "original": "Tibetan spiritual leaderDalai Lamais vaccinated against COVID-19 in Dharamsala, India and urges others to do so",
-    "score": 70,
-    "is_kid_friendly": true,
-    "category": "World Shakers & Icon Makers",
-    "rank": 62
-  },
-  {
-    "id": 229,
-    "year": "1871",
-    "original": "Ben Harney, American composer and \"Father of Ragtime Piano\" (You've Been a Good Old Wagon, But You Done Broke Down), born on the Mississippi River (d. 1938)[1]",
-    "score": 70,
-    "is_kid_friendly": true,
-    "category": "Vibes, Beats & Brushes",
-    "rank": 63
-  },
-  {
-    "id": 247,
-    "year": "1900",
-    "original": "Robert \"Lefty\" Grove, American Baseball HOF pitcher (6 × MLB All-Star; World Series 1929, 30; AL MVP 1931; Triple Crown 1930, 31; Philadelphia A's, Boston Red Sox), born in Lonaconing, Maryland (d. 1975)",
-    "score": 70,
-    "is_kid_friendly": true,
-    "category": "Full Beast Mode",
-    "rank": 64
-  },
-  {
-    "id": 254,
-    "year": "1905",
-    "original": "Bob Wills, American western-swing singer, and bandleader, known as the 'King of Western Swing' (Texas Playboys -\"Steel Guitar Rag\"), born in Limestone County, Texas (d. 1975)",
-    "score": 70,
-    "is_kid_friendly": true,
-    "category": "Vibes, Beats & Brushes",
-    "rank": 66
-  },
-  {
-    "id": 259,
-    "year": "1912",
-    "original": "Madge Adam, English solar astronomer (1st solar physicist at Oxford university's observatory), born in London, England (d. 2001)",
-    "score": 70,
-    "is_kid_friendly": true,
-    "category": "Big Brain Energy",
-    "rank": 67
+    "rank": 43
   },
   {
     "id": 270,
@@ -492,7 +321,88 @@
     "score": 70,
     "is_kid_friendly": true,
     "category": "Vibes, Beats & Brushes",
-    "rank": 68
+    "rank": 44
+  },
+  {
+    "id": 203,
+    "year": "1619",
+    "original": "Cyrano de Bergerac, French playwright and novelist known for his large nose (Voyage to the Moon) and inspiration for Edmond Rostand’s play, born in Paris, France (d. 1655)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 45
+  },
+  {
+    "id": 1,
+    "year": "1079",
+    "original": "Persian polymath Omar Khayyam completes the Jalali calendar, a solar calendar with a precise 33-year intercalation cycle and the basis for the Persian calendar still in use today",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 46
+  },
+  {
+    "id": 208,
+    "year": "1716",
+    "original": "Pehr Kalm, Swedish explorer and naturalist, first scientific description of Niagara Falls, born in Ångermanland, Sweden (d. 1779)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 47
+  },
+  {
+    "id": 27,
+    "year": "1895",
+    "original": "England beat Australia to win one of the best cricket series ever, 3-2; Jack Brown hits the fastest 50 in test cricket in 28 mins",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 48
+  },
+  {
+    "id": 72,
+    "year": "1965",
+    "original": "Bruce Taylor hits 105 for NZ v India in 1st Test Cricket innings",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 52
+  },
+  {
+    "id": 91,
+    "year": "1981",
+    "original": "Soyuz 39 returns to Earth",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 53
+  },
+  {
+    "id": 280,
+    "year": "1923",
+    "original": "(John) \"Wes\" Montgomery, American influential and Grammy Award-winner jazz guitarist, born in Indianapolis, Indiana (d. 1968)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 54
+  },
+  {
+    "id": 324,
+    "year": "1938",
+    "original": "Pauline Boty, English artist, co-founder of the Pop art movement, born in London (d. 1966)",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 55
+  },
+  {
+    "id": 393,
+    "year": "1992",
+    "original": "Momoko Tsugunaga, Japanese J-pop singer (Berryz Kobo), actress, radio personality, and kindergarten teacher, born in Kashiwa, Chiba, Japan",
+    "score": 75,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 56
   },
   {
     "id": 337,
@@ -501,7 +411,7 @@
     "score": 70,
     "is_kid_friendly": true,
     "category": "Vibes, Beats & Brushes",
-    "rank": 71
+    "rank": 57
   },
   {
     "id": 365,
@@ -510,7 +420,7 @@
     "score": 70,
     "is_kid_friendly": true,
     "category": "World Shakers & Icon Makers",
-    "rank": 73
+    "rank": 58
   },
   {
     "id": 369,
@@ -519,7 +429,7 @@
     "score": 70,
     "is_kid_friendly": true,
     "category": "World Shakers & Icon Makers",
-    "rank": 74
+    "rank": 59
   },
   {
     "id": 372,
@@ -528,7 +438,7 @@
     "score": 70,
     "is_kid_friendly": true,
     "category": "Full Beast Mode",
-    "rank": 75
+    "rank": 60
   },
   {
     "id": 389,
@@ -537,6 +447,96 @@
     "score": 70,
     "is_kid_friendly": true,
     "category": "Vibes, Beats & Brushes",
-    "rank": 76
+    "rank": 61
+  },
+  {
+    "id": 73,
+    "year": "1966",
+    "original": "Barry Sadler's \"Ballad of the Green Berets\" becomes #1 (13 weeks)",
+    "score": 73,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 62
+  },
+  {
+    "id": 36,
+    "year": "1918",
+    "original": "US naval boat \"Cyclops\" disappears in Bermuda Triangle",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "The What Zone",
+    "rank": 63
+  },
+  {
+    "id": 61,
+    "year": "1957",
+    "original": "Ghana (formerly Gold Coast) declares independence from the United Kingdom",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 64
+  },
+  {
+    "id": 140,
+    "year": "1521",
+    "original": "Portuguese navigatorFerdinand Magellanis the first European to sight Guam in the western Pacific",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Beyond Earth",
+    "rank": 66
+  },
+  {
+    "id": 190,
+    "year": "2021",
+    "original": "Tibetan spiritual leaderDalai Lamais vaccinated against COVID-19 in Dharamsala, India and urges others to do so",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "World Shakers & Icon Makers",
+    "rank": 67
+  },
+  {
+    "id": 120,
+    "year": "2012",
+    "original": "9,000 residents are evacuated from Wagga Wagga, Australia, as the Murrimbidgee River threatens to overflow",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "History's Mic Drop Moments",
+    "rank": 68
+  },
+  {
+    "id": 229,
+    "year": "1871",
+    "original": "Ben Harney, American composer and \"Father of Ragtime Piano\" (You've Been a Good Old Wagon, But You Done Broke Down), born on the Mississippi River (d. 1938)[1]",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 69
+  },
+  {
+    "id": 247,
+    "year": "1900",
+    "original": "Robert \"Lefty\" Grove, American Baseball HOF pitcher (6 × MLB All-Star; World Series 1929, 30; AL MVP 1931; Triple Crown 1930, 31; Philadelphia A's, Boston Red Sox), born in Lonaconing, Maryland (d. 1975)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Full Beast Mode",
+    "rank": 70
+  },
+  {
+    "id": 254,
+    "year": "1905",
+    "original": "Bob Wills, American western-swing singer, and bandleader, known as the 'King of Western Swing' (Texas Playboys -\"Steel Guitar Rag\"), born in Limestone County, Texas (d. 1975)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Vibes, Beats & Brushes",
+    "rank": 72
+  },
+  {
+    "id": 259,
+    "year": "1912",
+    "original": "Madge Adam, English solar astronomer (1st solar physicist at Oxford university's observatory), born in London, England (d. 2001)",
+    "score": 70,
+    "is_kid_friendly": true,
+    "category": "Big Brain Energy",
+    "rank": 73
   }
 ]

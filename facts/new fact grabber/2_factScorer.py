@@ -38,8 +38,8 @@ BATCH_SIZE = 1
 MAX_CONCURRENCY = 5   # fire off 50 at a time 🚀
 PIVOT_DAY_OF_YEAR = 274  # Oct 1 pivot (non-leap). Rotates order to Oct→Nov→Dec→Jan→…→Sep.
 # Path setup
-FACTS_DIR = r"C:/Users/timmu/Documents/repos/Factbook Project/facts/new fact grabber/1_raw"
-SCORED_DIR = r"C:/Users/timmu/Documents/repos/Factbook Project/facts/new fact grabber/2_scored"
+FACTS_DIR = r"C:/Personal/factBook/facts/new fact grabber/1_raw"
+SCORED_DIR = r"C:/Personal/factBook/facts/new fact grabber/2_scored"
 os.makedirs(SCORED_DIR, exist_ok=True)
 
 def retry_backoff_sleep(attempt: int):

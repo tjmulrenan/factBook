@@ -259,7 +259,7 @@ def visually_fill_transparent_gaps(pdf_path, out_path, alpha=0.85, dpi=144):
     print(f"💾 Saved clouds → {out_path}")
 
 if __name__ == "__main__":
-    FINAL_ROOT = r"C:\Users\timmu\Documents\repos\Factbook Project\FINAL"
+    FINAL_ROOT = r"C:\Personal\What Happened On... (The Complete Collection)"
 
     # Folders like: 89_March_29
     dir_re = re.compile(r'^(?P<num>\d+)_([A-Za-z]+)_(\d{1,2})$')

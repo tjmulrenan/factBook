@@ -26,6 +26,8 @@ from PIL import Image
 from reportlab.lib.colors import Color
 from reportlab.lib.units import inch
 from reportlab.platypus import HRFlowable
+import random 
+import hashlib
 
 print("CWD:", os.getcwd())
 
@@ -39,6 +41,12 @@ PAGE_H = (TRIM_H_IN + 2*BLEED_IN) * inch
 # Use the full bleed page size for the document
 custom_page_size = (PAGE_W, PAGE_H)
 custom_blue = Color(13/255, 78/255, 111/255)
+
+def stable_shuffle(seq, seed_str):
+    rng = random.Random(int(hashlib.md5(seed_str.encode("utf-8")).hexdigest(), 16))
+    out = list(seq)
+    rng.shuffle(out)
+    return out
 
 def extract_fact_text(rec: dict) -> str:
     return rec.get("fact") or rec.get("story") or rec.get("original") or rec.get("title") or ""
@@ -548,8 +556,6 @@ class MyDocTemplate(BaseDocTemplate):
         )
         template = PageTemplate(id='Content', frames=[frame], onPage=self.draw_background)
         self.addPageTemplates([template])
-        template = PageTemplate(id='Content', frames=[frame], onPage=self.draw_background)
-        self.addPageTemplates([template])
 
     def afterFlowable(self, flowable):
         super().afterFlowable(flowable)
@@ -769,10 +775,6 @@ def build_elements(facts, styles, date_str, category_pages=None):
     
     
     # 🌤️ Today's Vibe Check Section
-    # elements.append(Paragraph(
-    #     "__TODAYS_VIBE_CHECK__",
-    #     ParagraphStyle("HiddenVibeMarker", fontSize=1, textColor=colors.white)
-    # ))
 
     # Estimate vertical space like category headers
     page_height = custom_page_size[1]
@@ -782,13 +784,6 @@ def build_elements(facts, styles, date_str, category_pages=None):
     # Vibe Check intro in transparent boxes
     vibe_intro = KeepTogether([
         Paragraph("<para align='center'><b>Today's Vibe Check</b></para>", styles['category']),
-    #     TransparentBox("<para align='center'><b>Today's Vibe Check</b></para>", styles['cat_title'], alpha=0.85),
-    #     Spacer(1, 10),
-    #     TransparentBox(
-    #         "What's the deal with this day? Seasonal chaos, sky weirdness, animal drama — it's all happening.",
-    #         styles['story'],
-    #         alpha=0.85
-        # )
     ])
     elements.append(vibe_intro)
 
@@ -799,7 +794,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
         month, day = date_str.split()
         day = ''.join(filter(str.isdigit, day))
 
-        vibe_base = r"C:/Users/timmu/Documents/repos/Factbook Project/facts/new fact grabber/a_rawDay"
+        vibe_base = r"C:/Personal/factBook/facts/new fact grabber/a_rawDay"
         vibe_path = find_vibe_json_path(vibe_base, month, day)
 
         if not vibe_path:
@@ -1083,38 +1078,53 @@ def build_elements(facts, styles, date_str, category_pages=None):
             )
         )
 
-
         # Add each question and checkbox table
         for fact in fact_list:
             q = fact.get("activity_question")
             choices = fact.get("activity_choices", [])
-            if q and choices:
-                question_paragraph = Paragraph(f"<b>{question_number}.</b> {q}", styles['trivia_questions'])
-                checkboxes = [Paragraph(f"☐ {opt}", styles['trivia_questions']) for opt in choices]
-                grid = [checkboxes[i:i+2] for i in range(0, len(checkboxes), 2)]
-                if len(grid[-1]) == 1:
-                    grid[-1].append("")
 
-                table = Table(grid, colWidths=[160, 160])
-                table.setStyle(TableStyle([
-                    ('LEFTPADDING', (0, 0), (-1, -1), 6),
-                    ('RIGHTPADDING', (0, 0), (-1, -1), 6),
-                    ('TOPPADDING', (0, 0), (-1, -1), 6),
-                    ('BOTTOMPADDING', (0, 0), (-1, -1), 6),
-                    ('VALIGN', (0, 0), (-1, -1), 'TOP'),
-                    ('LINEBELOW', (0, 0), (-1, -2), 0.25, colors.darkgrey),
-                    ('LINEAFTER', (0, 0), (0, -1), 0.25, colors.darkgrey),
-                ]))
+            if not q or not choices:
+                continue
 
+            # 🔀 Shuffle the options so the correct one isn't always first
+            fact_id = fact.get("id") or f"{category}-{question_number}"
+            seed_str = f"{date_str}-{category}-{fact_id}"
+            shuffled_choices = stable_shuffle(choices, seed_str)
 
-                # Wrap each question in its own TransparentBox
-                elements.append(TransparentBox([
-                    question_paragraph,
-                    table
-                ], styles['trivia_questions'], alpha=0.85))
+            question_paragraph = Paragraph(
+                f"<b>{question_number}.</b> {q}",
+                styles['trivia_questions']
+            )
 
-                question_number += 1 
-                # elements.append(Spacer(1, 12))
+            checkboxes = [
+                Paragraph(f"☐ {opt}", styles['trivia_questions'])
+                for opt in shuffled_choices
+            ]
+
+            grid = [checkboxes[i:i + 2] for i in range(0, len(checkboxes), 2)]
+            if len(grid[-1]) == 1:
+                grid[-1].append("")
+
+            table = Table(grid, colWidths=[160, 160])
+            table.setStyle(TableStyle([
+                ('LEFTPADDING', (0, 0), (-1, -1), 6),
+                ('RIGHTPADDING', (0, 0), (-1, -1), 6),
+                ('TOPPADDING', (0, 0), (-1, -1), 6),
+                ('BOTTOMPADDING', (0, 0), (-1, -1), 6),
+                ('VALIGN', (0, 0), (-1, -1), 'TOP'),
+                ('LINEBELOW', (0, 0), (-1, -2), 0.25, colors.darkgrey),
+                ('LINEAFTER', (0, 0), (0, -1), 0.25, colors.darkgrey),
+            ]))
+
+            elements.append(TransparentBox(
+                [question_paragraph, table],
+                styles['trivia_questions'],
+                alpha=0.85,
+                inner_spacing=8  # keep the nice spacing, but no fixed height
+            ))
+
+            question_number += 1
+
 
         # ➕ Letter Quest Page
         elements.append(PageBreak())
@@ -1132,7 +1142,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
         # Word search image (centered below description)
         category_key = CATEGORY_BACKGROUNDS.get(category, '').lower()
         image_path = os.path.join(
-            "C:/Users/timmu/Documents/repos/Factbook Project/wordsearch",
+            "C:/Personal/factBook/wordsearch",
             f"{category_key}.png"
         )
         if os.path.exists(image_path):
@@ -1164,7 +1174,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
             elements.append(Paragraph("Word search image not found.", styles['story']))
         # Word list below the picture
         all_words_path = os.path.join(
-            "C:/Users/timmu/Documents/repos/Factbook Project/wordsearch",
+            "C:/Personal/factBook/wordsearch",
             "letter_quest_words.json"
         )
         if os.path.exists(all_words_path):
@@ -1234,7 +1244,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
         # Crossword image
         category_key = CATEGORY_BACKGROUNDS.get(category, '').lower()
         crossword_path = os.path.join(
-            "C:/Users/timmu/Documents/repos/Factbook Project/crossword",
+            "C:/Personal/factBook/crossword",
             f"{category_key}.png"
         )
 
@@ -1268,7 +1278,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
             elements.append(Paragraph("Crossword image not found.", styles['story']))
 
         # Load clue data
-        clue_path = "C:/Users/timmu/Documents/repos/Factbook Project/crossword/grid_gauntlet_words.json"
+        clue_path = "C:/Personal/factBook/crossword/grid_gauntlet_words.json"
         clue_key = f"{category_key}_crossword"
 
         across_clues = {}
@@ -1405,7 +1415,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
     if category_pages:
         lq_items = _collect_answer_images(
             categories=categories.keys(),
-            base_folder="C:/Users/timmu/Documents/repos/Factbook Project/wordsearch",
+            base_folder="C:/Personal/factBook/wordsearch",
             suffix="_answers.png"
         )
 
@@ -1422,7 +1432,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
         # ➕ Grid Gauntlet Answers Section (match preview look)
         gg_items = _collect_answer_images(
             categories=categories.keys(),
-            base_folder="C:/Users/timmu/Documents/repos/Factbook Project/crossword",
+            base_folder="C:/Personal/factBook/crossword",
             suffix="_answers.png"
         )
 
@@ -1442,25 +1452,12 @@ def build_elements(facts, styles, date_str, category_pages=None):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     # elements.append(PageBreak())
     # elements.append(TransparentBox("🧪 Letter Quest Previews", styles['cat_title'], alpha=0.85))
 
     # # Load word lists once
     # all_words_path = os.path.join(
-    #     "C:/Users/timmu/Documents/repos/Factbook Project/wordsearch",
+    #     "C:/Personal/factBook/wordsearch",
     #     "letter_quest_words.json"
     # )
     # if os.path.exists(all_words_path):
@@ -1482,7 +1479,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
 
     #     # 📸 Word search image (auto-scale to frame width, up to 480px tall)
     #     image_path = os.path.join(
-    #         "C:/Users/timmu/Documents/repos/Factbook Project/wordsearch",
+    #         "C:/Personal/factBook/wordsearch",
     #         f"{bg_key.lower()}.png"
     #     )
 
@@ -1558,7 +1555,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
     # elements.append(TransparentBox("🧠 Grid Gauntlet Previews", styles['cat_title'], alpha=0.85))
 
     # # Load all crossword clues
-    # clue_path = "C:/Users/timmu/Documents/repos/Factbook Project/crossword/grid_gauntlet_words.json"
+    # clue_path = "C:/Personal/factBook/crossword/grid_gauntlet_words.json"
     # if os.path.exists(clue_path):
     #     with open(clue_path, "r", encoding="utf-8") as f:
     #         all_clues = json.load(f)
@@ -1577,7 +1574,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
 
     #     # 📸 Crossword image (auto-scale to frame width, up to 480px tall)
     #     crossword_path = os.path.join(
-    #         "C:/Users/timmu/Documents/repos/Factbook Project/crossword",
+    #         "C:/Personal/factBook/crossword",
     #         f"{bg_key.lower()}.png"
     #     )
 
@@ -1656,7 +1653,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
     # lq_answers_image_paths = []
     # for category, bg_key in CATEGORY_BACKGROUNDS.items():
     #     p = os.path.join(
-    #         "C:/Users/timmu/Documents/repos/Factbook Project/wordsearch",
+    #         "C:/Personal/factBook/wordsearch",
     #         f"{bg_key.lower()}_answers.png"
     #     )
     #     if os.path.exists(p):
@@ -1682,7 +1679,7 @@ def build_elements(facts, styles, date_str, category_pages=None):
     # gg_answers_image_paths = []
     # for category, bg_key in CATEGORY_BACKGROUNDS.items():
     #     p = os.path.join(
-    #         "C:/Users/timmu/Documents/repos/Factbook Project/crossword",
+    #         "C:/Personal/factBook/crossword",
     #         f"{bg_key.lower()}_answers.png"
     #     )
     #     if os.path.exists(p):
@@ -1954,6 +1951,7 @@ def generate_pdf_with_manual_toc(json_file, output_pdf):
                 logging.warning(f"⚠️ Odd categories shape in id={rec.get('id')}: {raw}")
                 break
 
+    book_seed = int(hashlib.md5(json_file.encode("utf-8")).hexdigest(), 16) % (2**32)
 
     # Font registration
     pdfmetrics.registerFont(TTFont("DejaVu", os.path.join("fonts", "DejaVuSans.ttf")))
@@ -2089,6 +2087,7 @@ def generate_pdf_with_manual_toc(json_file, output_pdf):
 
 
     # First pass – generate page tracker info
+    random.seed(book_seed)
     doc1 = MyDocTemplate(output_pdf, pagesize=custom_page_size, title=f"What Happened on {date_str}")
     elements1 = build_elements(facts, styles, date_str)
     doc1.build(elements1)
@@ -2105,6 +2104,7 @@ def generate_pdf_with_manual_toc(json_file, output_pdf):
     category_pages = [(cat, TOC_PAGE_OVERRIDES.get(cat, pg)) for cat, pg in category_pages]
 
     # Second pass – render again with TOC now present
+    random.seed(book_seed)
     doc2_stream = BytesIO()
     doc2 = MyDocTemplate(doc2_stream, pagesize=custom_page_size, title=f"What Happened on {date_str}")
     elements2 = build_elements(facts, styles, date_str, category_pages)
@@ -2118,6 +2118,7 @@ def generate_pdf_with_manual_toc(json_file, output_pdf):
     final_doc._background_ranges = background_ranges
 
     # Rebuild final output
+    random.seed(book_seed)
     final_elements = build_elements(facts, styles, date_str, category_pages)
 
     logging.info("📄 Final build started with full backgrounds...")
@@ -2343,8 +2344,8 @@ if __name__ == "__main__":
     import sys
     import re
 
-    FACTS_DIR = r"C:\Users\timmu\Documents\repos\Factbook Project\facts\new fact grabber\6_final"
-    FINAL_ROOT = r"C:\Users\timmu\Documents\repos\Factbook Project\FINAL"
+    FACTS_DIR = r"C:\Personal\factBook\facts\new fact grabber\6_final"
+    FINAL_ROOT = r"C:\Personal\What Happened On... (The Complete Collection)"
 
     # Build an index: number -> (filename, "Month_Day")
     pattern = re.compile(

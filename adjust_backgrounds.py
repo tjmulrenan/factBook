@@ -18,7 +18,7 @@ import re
 import shutil
 
 # ---- Paths ----
-PROJECT_ROOT = Path(r"C:\Users\timmu\Documents\repos\Factbook Project")
+PROJECT_ROOT = Path(r"C:\Personal\factBook")
 SRC_DIR = PROJECT_ROOT / "backgrounds"
 
 # --------- Core helpers ---------

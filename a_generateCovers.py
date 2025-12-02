@@ -3,10 +3,10 @@ from PIL import Image, ImageDraw, ImageFont
 from datetime import datetime, timedelta
 
 # === CONFIG ===
-INPUT_PATH = r"C:\Users\timmu\Documents\repos\Factbook Project\cover\raw\cover.png"
-FINAL_BASE_DIR = r"C:\Users\timmu\Documents\repos\Factbook Project\FINAL"
+INPUT_PATH = r"C:\Personal\factBook\cover\raw\cover.png"
+FINAL_BASE_DIR = r"C:\Personal\What Happened On... (The Complete Collection)"
 
-FONT_PATH = r"C:\Users\timmu\Documents\repos\Factbook Project\fonts\Knewave-Regular.ttf"
+FONT_PATH = r"C:\Personal\factBook\fonts\Knewave-Regular.ttf"
 FONT_MONTH_SIZE = 75
 FONT_DAY_SIZE   = 180
 

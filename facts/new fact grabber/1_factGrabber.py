@@ -6,7 +6,7 @@ import re
 import calendar
 import datetime
 
-OUTPUT_DIR = r"C:\Users\timmu\Documents\repos\Factbook Project\facts\new fact grabber\1_raw"
+OUTPUT_DIR = r"C:\Personal\factBook\facts\new fact grabber\1_raw"
 
 def fetch_onthisday_events(month: str, day: int):
     url = f"https://www.onthisday.com/events/{month.lower()}/{day}"

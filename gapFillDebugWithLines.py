@@ -111,6 +111,6 @@ def visually_fill_transparent_gaps(pdf_path, alpha=0.65, dpi=144):
 
 # 🔧 Replace this with your test file path
 visually_fill_transparent_gaps(
-    r"C:\Users\timmu\Documents\repos\Factbook Project\books\fresh_test.pdf",
+    r"C:\Personal\factBook\books\fresh_test.pdf",
     alpha=0.65
 )

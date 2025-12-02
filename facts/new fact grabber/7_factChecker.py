@@ -9,7 +9,7 @@ import sys
 from typing import Any, Dict, List, Tuple
 
 # ---------------------- CONFIG ----------------------
-BASE_DIR = Path(r"C:\Users\timmu\Documents\repos\Factbook Project\facts\new fact grabber")
+BASE_DIR = Path(r"C:\Personal\factBook\facts\new fact grabber")
 FINAL_DIR = BASE_DIR / "6_final"
 CHECKED_DIR = BASE_DIR / "7_checked"
 CHECKED_DIR.mkdir(parents=True, exist_ok=True)

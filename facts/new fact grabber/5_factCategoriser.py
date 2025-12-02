@@ -4,8 +4,8 @@ import os
 import re
 
 # === CONFIG: folders only (file is chosen interactively) ===
-INPUT_DIR = r"C:\Users\timmu\Documents\repos\Factbook Project\facts\new fact grabber\4_enhanced"
-OUTPUT_DIR = r"C:\Users\timmu\Documents\repos\Factbook Project\facts\new fact grabber\5_catagorised"
+INPUT_DIR = r"C:\Personal\factBook\facts\new fact grabber\4_enhanced"
+OUTPUT_DIR = r"C:\Personal\factBook\facts\new fact grabber\5_catagorised"
 
 CATEGORY_CAP = 20
 MIN_CATEGORY_SIZE = 6

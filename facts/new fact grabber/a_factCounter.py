@@ -11,7 +11,7 @@ def count_facts_in_file(file_path, is_culled=False):
         return len(data.get("Facts", []))  # Dict with "Facts" key
 
 def choose_folder():
-    base_path = r"C:\Users\timmu\Documents\repos\Factbook Project\facts\new fact grabber"
+    base_path = r"C:\Personal\factBook\facts\new fact grabber"
     options = {
         "1": ("1_raw", os.path.join(base_path, "1_raw")),
         "2": ("2_culled", os.path.join(base_path, "2_culled"))

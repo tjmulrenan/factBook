@@ -13,19 +13,19 @@ INCH = 72
 RAISE_Y = 25
 
 # Font
-FONT_PATH = r"C:\Users\timmu\Documents\repos\Factbook Project\fonts\Baloo2-Bold.ttf"
+FONT_PATH = r"C:\Personal\factBook\fonts\Baloo2-Bold.ttf"
 FONT_NAME = "Baloo2Bold"  # No spaces — required by PyMuPDF
 
 # Quotes & jokes (JSON5 tolerant to trailing commas)
-QUOTES_JSON = r"C:\Users\timmu\Documents\repos\Factbook Project\quotes\generatedquotes.json"
-JOKES_JSON  = r"C:\Users\timmu\Documents\repos\Factbook Project\jokes\generatedJokes.json"
+QUOTES_JSON = r"C:\Personal\factBook\quotes\generatedquotes.json"
+JOKES_JSON  = r"C:\Personal\factBook\jokes\generatedJokes.json"
 
 # Image assets
 IMAGE_MAP = {
-    "bonus_fact":        r"C:\Users\timmu\Documents\repos\Factbook Project\pics\bonusFact.png",
-    "follow_up_question":r"C:\Users\timmu\Documents\repos\Factbook Project\pics\followUpQuestion.png",
-    "quote":             r"C:\Users\timmu\Documents\repos\Factbook Project\pics\quote.png",
-    "joke":              r"C:\Users\timmu\Documents\repos\Factbook Project\pics\joke.png",
+    "bonus_fact":        r"C:\Personal\factBook\pics\bonusFact.png",
+    "follow_up_question":r"C:\Personal\factBook\pics\followUpQuestion.png",
+    "quote":             r"C:\Personal\factBook\pics\quote.png",
+    "joke":              r"C:\Personal\factBook\pics\joke.png",
 }
 
 # Load quotes/jokes once
@@ -376,8 +376,8 @@ def add_bubbles(input_pdf, facts_json, out_pdf):
 # Runner
 # =========================
 if __name__ == "__main__":
-    FINAL_ROOT = r"C:\Users\timmu\Documents\repos\Factbook Project\FINAL"
-    FACTS_ROOT = r"C:\Users\timmu\Documents\repos\Factbook Project\facts\new fact grabber\6_final"
+    FINAL_ROOT = r"C:\Personal\What Happened On... (The Complete Collection)"
+    FACTS_ROOT = r"C:\Personal\factBook\facts\new fact grabber\6_final"
 
     dir_re = re.compile(r'^(?P<num>\d+)_([A-Za-z]+)_(\d{1,2})$')
     index = {}
@@ -411,7 +411,7 @@ if __name__ == "__main__":
     candidates = [
         os.path.join(build_dir, "2.pdf"),
         os.path.join(build_dir, "1.pdf"),
-        r"C:\Users\timmu\Documents\repos\Factbook Project\books\finishedBook.pdf",
+        r"C:\Personal\factBook\books\finishedBook.pdf",
     ]
     pdf_in = next((p for p in candidates if os.path.exists(p)), None)
     if not pdf_in:
@@ -444,4 +444,4 @@ if __name__ == "__main__":
                                   jpeg_quality=100, color_res=300, gray_res=300, mono_res=600)
         print(f"🗜️ Compressed PDF written to:\n{out_final}")
     except FileNotFoundError:
-        print("ℹ️ Ghostscript not found — skipping compression.")
+        print("ℹ️  Ghostscript not found — skipping compression.")
