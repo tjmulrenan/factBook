@@ -323,28 +323,6 @@ async function setMarketplacePrice(page, marketCode, value) {
   await fillSimpleNoIdle(page, input, value, `Price ${marketCode.toUpperCase()}`);
 }
 
-async function selectSimpleDropdownByLabel(page, trigger, optionLabel, label = '') {
-  const name = label || optionLabel;
-  log(`[Details] Dropdown "${name}" – opening…`);
-
-  await ensureVisible(trigger);
-  await trigger.click({ force: true });
-
-  const pop = page
-    .locator('.a-popover[aria-hidden="false"]:visible .a-nostyle.a-list-link[role="listbox"]')
-    .last();
-
-  await expect(pop, `Dropdown list for "${name}" not visible`).toBeVisible();
-
-  const option = pop
-    .getByRole('option', { name: new RegExp(`^${escapeRegex(optionLabel)}$`, 'i') })
-    .first();
-
-  await expect(option, `Option "${optionLabel}" not visible in "${name}"`).toBeVisible();
-  await option.click({ force: true });
-  await page.waitForTimeout(200);
-}
-
 async function fillSimpleNoIdle(page, locator, value, label = '') {
   const name = label || locator.toString();
   await waitReady(page, locator, name);
@@ -685,8 +663,8 @@ for (const doy of DOYS) {
 
     const folder = `${doyNum}_${monthName}_${day}`;
     const folderPath = path.join(BASE_FINAL_DIR, folder);
-    const manuscriptPath = path.join(folderPath, 'full_manuscript.pdf');
-    const coverPath = path.join(folderPath, 'book_cover.pdf');
+    const manuscriptPath = path.join(folderPath, 'full_manuscript_3.pdf');
+    const coverPath = path.join(folderPath, 'book_cover_3.pdf');
 
     if (!fs.existsSync(manuscriptPath)) throw new Error(`Missing manuscript:\n${manuscriptPath}`);
     if (!fs.existsSync(coverPath)) throw new Error(`Missing cover:\n${coverPath}`);
