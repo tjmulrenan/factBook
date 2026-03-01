@@ -2,7 +2,7 @@
 // Opens KDP Bookshelf, filters to LIVE titles, opens Edit paperback content
 // for each DOY from the DOYS env variable, handles the step-access popover
 // if present, asserts the page title matches the expected date, and checks
-// that "full_manuscript_3.pdf" is already uploaded (success banner visible).
+// that "full_manuscript.pdf" is already uploaded (success banner visible).
 
 const { test, expect } = require('@playwright/test');
 
@@ -17,30 +17,16 @@ function log(msg) {
 
 // --- helpers -----------------------------------------------------------
 
+const MONTHS = [
+  'January', 'February', 'March', 'April', 'May', 'June',
+  'July', 'August', 'September', 'October', 'November', 'December',
+];
+
 function doyToMonthDay(doy, year = 2024) {
   // Use leap year so DOY 366 works
   const date = new Date(Date.UTC(year, 0, 1));
   date.setUTCDate(doy);
-
-  const monthIndex = date.getUTCMonth();
-  const day = date.getUTCDate();
-
-  const months = [
-    'January',
-    'February',
-    'March',
-    'April',
-    'May',
-    'June',
-    'July',
-    'August',
-    'September',
-    'October',
-    'November',
-    'December',
-  ];
-
-  return { monthName: months[monthIndex], day };
+  return { monthName: MONTHS[date.getUTCMonth()], day: date.getUTCDate() };
 }
 
 async function clickWhenReady(page, locator, label = '') {
@@ -306,12 +292,12 @@ async function runForDoyVerifyExistingManuscript(page, doy) {
       `Expected "${expectedTitle}", got ${JSON.stringify(titleOnContent)}`,
   ).toBe(expectedTitle);
 
-  // Now assert that the manuscript "full_manuscript_3.pdf" is already uploaded
+  // Now assert that the manuscript "full_manuscript.pdf" is already uploaded
   const manuscriptSuccess = page
     .locator('#data-print-book-publisher-interior-file-upload-success .success-header')
     .first();
 
-  log('Waiting up to 5 seconds for manuscript success banner for full_manuscript_3.pdf...');
+  log('Waiting up to 5 seconds for manuscript success banner for full_manuscript.pdf...');
 
   let manuscriptOk = false;
   let bannerText = '';
@@ -321,9 +307,9 @@ async function runForDoyVerifyExistingManuscript(page, doy) {
     await manuscriptSuccess.waitFor({ state: 'visible', timeout: 5_000 });
     bannerText = ((await manuscriptSuccess.textContent()) ?? '').trim();
 
-    if (bannerText.includes('full_manuscript_3.pdf')) {
+    if (bannerText.includes('full_manuscript.pdf')) {
       manuscriptOk = true;
-      log('Confirmed manuscript "full_manuscript_3.pdf" is shown as uploaded.');
+      log('Confirmed manuscript "full_manuscript.pdf" is shown as uploaded.');
     } else {
       log(
         `Manuscript banner visible but does not contain expected filename. ` +
@@ -344,7 +330,7 @@ async function runForDoyVerifyExistingManuscript(page, doy) {
   // Record result into shared JSON summary
   manuscriptCheckSummary.push({
     doy,
-    expected: 'full_manuscript_3.pdf',
+    expected: 'full_manuscript.pdf',
     okManuscript: manuscriptOk, // <- explicit "ok" flag
     bannerText,
     url: page.url(),
@@ -354,7 +340,7 @@ async function runForDoyVerifyExistingManuscript(page, doy) {
   // Still enforce the expectation so the test fails if it's not correct
   expect(
     manuscriptOk,
-    `Expected manuscript success banner with "full_manuscript_3.pdf" for DOY=${doy}. ` +
+    `Expected manuscript success banner with "full_manuscript.pdf" for DOY=${doy}. ` +
       `Got bannerText=${JSON.stringify(bannerText)}`,
   ).toBe(true);
 

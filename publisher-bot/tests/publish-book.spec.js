@@ -1,7 +1,8 @@
 // ---- constants ----
 // You can override the folder in one run with:  $env:FINAL_DIR='C:\path\to\FINAL
 const BASE_FINAL_DIR =
-  process.env.FINAL_DIR ?? 'C:\\Personal\\What Happened On... (The Complete Collection)';
+  process.env.FINAL_DIR ??
+  'C:\\Users\\tmulrenan\\OneDrive - The Retail Equation, Inc\\Desktop\\Personal\\factBook\\What Happened On... (The Complete Collection)';
 
 const SERIES_RESULT_ID = 'TEWDPW65QXM'; // only if you use the series step
 const { test, expect } = require('@playwright/test');

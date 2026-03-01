@@ -15,30 +15,20 @@ function log(msg) {
 
 // --- helpers -----------------------------------------------------------
 
+const MONTHS = [
+  'January', 'February', 'March', 'April', 'May', 'June',
+  'July', 'August', 'September', 'October', 'November', 'December',
+];
+
+const BASE_FINAL_DIR =
+  process.env.FINAL_DIR ??
+  'C:\\Users\\tmulrenan\\OneDrive - The Retail Equation, Inc\\Desktop\\Personal\\factBook\\What Happened On... (The Complete Collection)';
+
 function doyToMonthDay(doy, year = 2024) {
   // Use leap year so DOY 366 works
   const date = new Date(Date.UTC(year, 0, 1));
   date.setUTCDate(doy);
-
-  const monthIndex = date.getUTCMonth();
-  const day = date.getUTCDate();
-
-  const months = [
-    'January',
-    'February',
-    'March',
-    'April',
-    'May',
-    'June',
-    'July',
-    'August',
-    'September',
-    'October',
-    'November',
-    'December',
-  ];
-
-  return { monthName: months[monthIndex], day };
+  return { monthName: MONTHS[date.getUTCMonth()], day: date.getUTCDate() };
 }
 
 async function waitCalm(page) {
@@ -61,22 +51,7 @@ function getFolderNameFromTitle(title) {
   const [monthName, dayStr] = trimmed.split(/\s+/);
   const day = Number(dayStr);
 
-  const months = [
-    'January',
-    'February',
-    'March',
-    'April',
-    'May',
-    'June',
-    'July',
-    'August',
-    'September',
-    'October',
-    'November',
-    'December',
-  ];
-
-  const monthIndex = months.indexOf(monthName);
+  const monthIndex = MONTHS.indexOf(monthName);
   if (monthIndex === -1 || !day) {
     throw new Error(`Cannot parse title "${title}" as "Month Day"`);
   }
@@ -291,8 +266,7 @@ async function runForDoy(page, doy) {
   ).toBe(expectedTitle);
 
   const folderName = getFolderNameFromTitle(titleOnContent);
-  const baseDir = 'C:\\Personal\\What Happened On... (The Complete Collection)';
-  const folderPath = path.join(baseDir, folderName);
+  const folderPath = path.join(BASE_FINAL_DIR, folderName);
 
   log(`Resolved local folder for this book: ${folderPath}`);
 
@@ -302,8 +276,8 @@ async function runForDoy(page, doy) {
     log(`Folder exists on disk: ${folderPath}`);
   }
 
-  const manuscriptPath = path.join(folderPath, 'full_manuscript_3.pdf');
-  const coverPath = path.join(folderPath, 'book_cover_3.pdf');
+  const manuscriptPath = path.join(folderPath, 'full_manuscript.pdf');
+  const coverPath = path.join(folderPath, 'book_cover.pdf');
 
   log(`Manuscript path: ${manuscriptPath}`);
   log(`Cover path: ${coverPath}`);

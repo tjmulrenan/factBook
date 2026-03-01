@@ -1,10 +1,32 @@
-books/
-facts/new fact grabber/scored/
-facts/new fact grabber/old/
-facts/new fact grabber/retry_log.txt
-facts/old/
-.env
-oldResources/
-cover/complete/
+# Data & output (large/generated — not tracked)
+data/books/
+data/facts/raw/
+data/facts/final/
+assets/cover/complete/
 FINAL/
+What Happened On... (The Complete Collection)/
+
+# Secrets
+.env
+
+# Node (publisher-bot)
 publisher-bot/node_modules/
+publisher-bot/auth.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Debug / temp
+debug_*.html
+debug_output.log
+*.log
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vs/
+*.lnk
