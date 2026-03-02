@@ -13,6 +13,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 from config import FINAL_FACTS_DIR, FINAL_OUTPUT_DIR, FONTS_DIR, BACKGROUNDS_DIR
 
 import fitz
+from PIL import Image
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_CENTER, TA_LEFT
 from reportlab.lib.styles import ParagraphStyle
@@ -497,9 +498,20 @@ if __name__ == "__main__":
         print("❌ No *_Final.json files found in the facts directory.")
         sys.exit(1)
 
-    # Ask for the number
-    user_in = input("Type the book number (e.g., 89): ").strip()
-    if not user_in.isdigit():
+    # Resolve DOY: --doy arg, FACTBOOK_DOY env var, or interactive prompt
+    _doy_arg = None
+    for _a in sys.argv[1:]:
+        _v = _a.lstrip("-").split("=", 1)
+        if _v[0] == "doy" and len(_v) == 2:
+            _doy_arg = _v[1]
+            break
+        if _v[0].isdigit():
+            _doy_arg = _v[0]
+            break
+    user_in = _doy_arg or os.environ.get("FACTBOOK_DOY", "")
+    if not user_in:
+        user_in = input("Type the book number (e.g., 89): ").strip()
+    if not str(user_in).isdigit():
         print("❌ Please enter a valid number, e.g., 89")
         sys.exit(1)
 

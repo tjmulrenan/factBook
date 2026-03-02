@@ -290,8 +290,19 @@ if __name__ == "__main__":
         print("❌ No valid <num>_<Month>_<Day> folders with build_docs\\1.pdf found.")
         sys.exit(1)
 
-    user_in = input("Type the book number (e.g., 89): ").strip()
-    if not user_in.isdigit():
+    _doy_arg = None
+    for _a in sys.argv[1:]:
+        _v = _a.lstrip("-").split("=", 1)
+        if _v[0] == "doy" and len(_v) == 2:
+            _doy_arg = _v[1]
+            break
+        if _v[0].isdigit():
+            _doy_arg = _v[0]
+            break
+    user_in = _doy_arg or os.environ.get("FACTBOOK_DOY", "")
+    if not user_in:
+        user_in = input("Type the book number (e.g., 89): ").strip()
+    if not str(user_in).isdigit():
         print("❌ Please enter a number, e.g., 89")
         sys.exit(1)
 

@@ -24,7 +24,7 @@ from reportlab.platypus import (
 from book.flowables import (
     BLEED_PT, CUSTOM_BLUE, CUSTOM_PAGE_SIZE, MyDocTemplate,
     MidGapRule, OverlayRule, PAGE_H, PAGE_W,
-    TransparentBox, FixedBottomTransparentBox, WhiteoutPage,
+    TransparentBox, FixedBottomTransparentBox,
 )
 
 

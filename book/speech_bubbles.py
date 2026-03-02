@@ -404,8 +404,19 @@ if __name__ == "__main__":
     if not index:
         raise SystemExit("❌ No valid <num>_<Month>_<Day> folders under FINAL.")
 
-    user_in = input("Type the book number (e.g., 89): ").strip()
-    if not user_in.isdigit():
+    _doy_arg = None
+    for _a in sys.argv[1:]:
+        _v = _a.lstrip("-").split("=", 1)
+        if _v[0] == "doy" and len(_v) == 2:
+            _doy_arg = _v[1]
+            break
+        if _v[0].isdigit():
+            _doy_arg = _v[0]
+            break
+    user_in = _doy_arg or os.environ.get("FACTBOOK_DOY", "")
+    if not user_in:
+        user_in = input("Type the book number (e.g., 89): ").strip()
+    if not str(user_in).isdigit():
         raise SystemExit("❌ Please enter a number, e.g., 89")
     pick = int(user_in)
     if pick not in index:
@@ -454,4 +465,6 @@ if __name__ == "__main__":
                                   jpeg_quality=100, color_res=300, gray_res=300, mono_res=600)
         print(f"🗜️ Compressed PDF written to:\n{out_final}")
     except FileNotFoundError:
-        print("ℹ️  Ghostscript not found — skipping compression.")
+        import shutil
+        shutil.copy2(out_build_3, out_final)
+        print(f"ℹ️  Ghostscript not found — copied uncompressed to:\n{out_final}")
