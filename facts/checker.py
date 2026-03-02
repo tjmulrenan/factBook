@@ -1,20 +1,24 @@
-# 7_factChecker_simple.py
-import os
+# checker.py
 import json
-from pathlib import Path
-from datetime import datetime
-from dateutil.relativedelta import relativedelta
-import time
+import os
 import sys
+import time
+from datetime import datetime
+from pathlib import Path
 from typing import Any, Dict, List, Tuple
 
-# ---------------------- CONFIG ----------------------
-BASE_DIR = Path(r"C:\Personal\factBook\facts\new fact grabber")
-FINAL_DIR = BASE_DIR / "6_final"
-CHECKED_DIR = BASE_DIR / "7_checked"
+from dateutil.relativedelta import relativedelta
+
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from config import CHECKED_FACTS_DIR, FINAL_FACTS_DIR
+
+from anthropic import Anthropic
+
+FINAL_DIR = FINAL_FACTS_DIR
+CHECKED_DIR = CHECKED_FACTS_DIR
 CHECKED_DIR.mkdir(parents=True, exist_ok=True)
 
-ANTHROPIC_MODEL = "claude-3-5-sonnet-20240620"   # change to "claude-3-5-sonnet-latest" if needed
+ANTHROPIC_MODEL = os.getenv("ANTHROPIC_MODEL", "claude-3-5-sonnet-20240620")
 API_KEY = os.getenv("ANTHROPIC_API_KEY")
 
 MAX_RETRIES = 2
@@ -88,7 +92,6 @@ def extract_first_json_obj(text: str) -> Dict[str, Any]:
     raise ValueError("No complete JSON object found in model output.")
 
 def call_llm(system: str, user: str) -> str:
-    from anthropic import Anthropic
     if not API_KEY:
         raise RuntimeError("ANTHROPIC_API_KEY is not set.")
     client = Anthropic(api_key=API_KEY, timeout=40)

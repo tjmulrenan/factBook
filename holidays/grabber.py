@@ -1,13 +1,18 @@
 import os
 import json
+import sys
 import calendar
 import re
+from pathlib import Path
 from datetime import datetime, timedelta
 from anthropic import Anthropic
 
-LEAP_YEAR = 2024  # use leap-year indexing (e.g., Sep 7 = 251)
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from config import HOL_RAW_DIR, LEAP_YEAR
 
-OUTPUT_DIR = r"C:\Personal\factBook\facts\new fact grabber\a_raw"
+MODEL_NAME = os.getenv("CLAUDE_MODEL", "claude-sonnet-4-20250514")
+
+OUTPUT_DIR = str(HOL_RAW_DIR)
 
 def doy_to_month_day(doy: int):
     base = datetime(LEAP_YEAR, 1, 1) + timedelta(days=doy - 1)
@@ -55,7 +60,7 @@ def ask_claude_for_initial_holidays(month: str, day: int) -> list:
     )
 
     response = anthropic.messages.create(
-        model="claude-sonnet-4-20250514",
+        model=MODEL_NAME,
         system="Return ONLY a valid JSON array. No prose. No code fences.",
         max_tokens=1000,
         temperature=0.0,
@@ -97,7 +102,7 @@ def ask_claude_to_clean_holidays(month: str, day: int, holidays: list) -> list:
     )
 
     response = anthropic.messages.create(
-        model="claude-sonnet-4-20250514",
+        model=MODEL_NAME,
         system="Return ONLY a valid JSON array. No prose. No code fences.",
         max_tokens=1000,
         temperature=0.0,

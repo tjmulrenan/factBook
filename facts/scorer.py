@@ -1,20 +1,28 @@
-import json
-import os
-import re
-from anthropic import Anthropic
-import time
-import html
-import sys
-import math
 import datetime
-from concurrent.futures import ThreadPoolExecutor, as_completed
+import html
+import json
+import math
+import os
 import random
+import re
+import sys
+import threading
+import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from config import LOGS_DIR, RAW_FACTS_DIR, SCORED_FACTS_DIR
+
+from anthropic import Anthropic
 
 try:
     # Optional, depending on SDK version
     from anthropic import RateLimitError, APIError, APIStatusError, APIConnectionError
 except Exception:
     RateLimitError = APIError = APIStatusError = APIConnectionError = ()
+
+MODEL_NAME = os.getenv("CLAUDE_MODEL", "claude-3-haiku-20240307")
 
 # ---- Anthropic client (modern SDK) ----
 API_KEY = os.getenv("ANTHROPIC_API_KEY")
@@ -28,18 +36,15 @@ PRINT_MODEL_JSON = False          # print the model's raw JSON array text
 PRINT_PARSED_JSON = False        # pretty-print the parsed Python list
 PRINT_ENRICHED = False            # print each enriched object you save
 # ------------------------
-# --- add near your imports ---
-import threading
-
 _retry_gate_lock = threading.Lock()
 _next_retry_earliest = 0.0  # used to space out herd retries
 
 BATCH_SIZE = 1
-MAX_CONCURRENCY = 5   # fire off 50 at a time 🚀
+MAX_CONCURRENCY = 5   # fire off 5 at a time
 PIVOT_DAY_OF_YEAR = 274  # Oct 1 pivot (non-leap). Rotates order to Oct→Nov→Dec→Jan→…→Sep.
-# Path setup
-FACTS_DIR = r"C:/Personal/factBook/facts/new fact grabber/1_raw"
-SCORED_DIR = r"C:/Personal/factBook/facts/new fact grabber/2_scored"
+
+FACTS_DIR = str(RAW_FACTS_DIR)
+SCORED_DIR = str(SCORED_FACTS_DIR)
 os.makedirs(SCORED_DIR, exist_ok=True)
 
 def retry_backoff_sleep(attempt: int):
@@ -291,7 +296,8 @@ def extract_json_from_markdown(text):
     return m.group(1).strip() if m else text.strip()
 
 def log_retry_error(error_message, batch, attempt):
-    with open("retry_log.txt", "a", encoding="utf-8") as log_file:
+    LOGS_DIR.mkdir(parents=True, exist_ok=True)
+    with open(LOGS_DIR / "retry_log.txt", "a", encoding="utf-8") as log_file:
         timestamp = datetime.datetime.now().isoformat()
         ids = ", ".join(str(f["id"]) for f in batch)
         log_file.write(f"[{timestamp}] Attempt {attempt + 1} failed for IDs: {ids}\nError: {error_message}\n\n")
@@ -357,7 +363,7 @@ def enhance_facts(facts):
                     _next_retry_earliest = max(now, _next_retry_earliest) + random.uniform(0.04, 0.08)
 
             response = anthropic.messages.create(
-                model="claude-3-haiku-20240307",
+                model=MODEL_NAME,
                 max_tokens=4000,
                 temperature=0.2,
                 system="You are a strict JSON generator. You must output ONLY a single valid JSON array and nothing else. No code fences, no commentary.",

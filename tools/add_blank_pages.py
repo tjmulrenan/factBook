@@ -1,11 +1,16 @@
 # add_blank_pages.py
 # pip install pymupdf
 
-import fitz  # PyMuPDF
+import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from config import FINAL_OUTPUT_DIR
+
+import fitz  # PyMuPDF
+
 def add_blank_pages_to_manuscript():
-    folder = Path(r"C:\Personal\What Happened On... (The Complete Collection)\196_July_14")
+    folder = FINAL_OUTPUT_DIR / "196_July_14"
     input_path = folder / "full_manuscript_3.pdf"
     output_path = folder / "full_manuscript_3_blankpages.pdf"
 

@@ -1,10 +1,11 @@
 import json
 import os
 import re
-import sys  # <-- added
+import sys
 from collections import defaultdict, Counter
 from typing import List, Dict, Any
-import time, random
+import random
+import time
 
 # ---- Anthropic exceptions (so retries don't NameError) ----
 try:
@@ -37,9 +38,11 @@ except ImportError:
     Anthropic = None  # we'll error nicely later
 
 # Config
-BASE_DIR    = r"C:\Personal\factBook\facts\new fact grabber"
-SCORED_DIR  = os.path.join(BASE_DIR, "2_scored")   # pick from here
-CULLED_DIR  = os.path.join(BASE_DIR, "3_culled")   # save here
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from config import SCORED_FACTS_DIR, CULLED_FACTS_DIR
+SCORED_DIR  = str(SCORED_FACTS_DIR)   # pick from here
+CULLED_DIR  = str(CULLED_FACTS_DIR)   # save here
 os.makedirs(CULLED_DIR, exist_ok=True)
 
 CATEGORY_CAP = 20

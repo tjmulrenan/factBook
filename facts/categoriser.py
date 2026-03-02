@@ -2,10 +2,15 @@ import json
 from collections import Counter
 import os
 import re
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from config import ENHANCED_FACTS_DIR, CATEG_FACTS_DIR
 
 # === CONFIG: folders only (file is chosen interactively) ===
-INPUT_DIR = r"C:\Personal\factBook\facts\new fact grabber\4_enhanced"
-OUTPUT_DIR = r"C:\Personal\factBook\facts\new fact grabber\5_catagorised"
+INPUT_DIR = str(ENHANCED_FACTS_DIR)
+OUTPUT_DIR = str(CATEG_FACTS_DIR)
 
 CATEGORY_CAP = 20
 MIN_CATEGORY_SIZE = 6
@@ -45,7 +50,7 @@ def pick_input_file():
             continue
         month, day, fname = files[idx - 1]
         input_path = os.path.join(INPUT_DIR, fname)
-        output_name = f"{month}_{day}_culled_enhanced_catagorised.json"
+        output_name = f"{month}_{day}_culled_enhanced_categorised.json"
         output_path = os.path.join(OUTPUT_DIR, output_name)
         return input_path, output_path, f"{month}_{day}"
 

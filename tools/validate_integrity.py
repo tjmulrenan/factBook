@@ -16,12 +16,16 @@ Prints:
 """
 
 import os
-from pathlib import Path
+import sys
 from datetime import date, timedelta
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from config import FINAL_OUTPUT_DIR, LEAP_YEAR
 
 # --- config -------------------------------------------------------------
 
-BASE_DIR = Path(r"C:\Personal\What Happened On... (The Complete Collection)")
+BASE_DIR = FINAL_OUTPUT_DIR
 
 REQUIRED_FILES = [
     "book_cover.pdf",
@@ -30,8 +34,7 @@ REQUIRED_FILES = [
     "spine.png",
 ]
 
-# Use a leap year so DOY matches your factbook mapping
-LEAP_YEAR = 2024
+# LEAP_YEAR is imported from config above
 
 
 # --- helpers ------------------------------------------------------------

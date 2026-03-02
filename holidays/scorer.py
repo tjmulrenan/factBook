@@ -1,20 +1,22 @@
+import datetime
+import html
 import json
+import math
 import os
 import re
-from anthropic import Client
-from pathlib import Path
-import time
-import html
 import sys
-import math
-import datetime
+import time
+from pathlib import Path
+
+from anthropic import Anthropic
 from tqdm import tqdm
 
-
-# Path setup
-FACTS_DIR = "C:/Personal/factBook/facts/new fact grabber/a_raw"
-SCORED_DIR = "C:/Personal/factBook/facts/new fact grabber/b_scored"
-BATCH_SIZE = 1  # or 1 if you want to test smaller batches
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from config import HOL_RAW_DIR, HOL_SCORED_DIR, LOGS_DIR
+FACTS_DIR = str(HOL_RAW_DIR)
+SCORED_DIR = str(HOL_SCORED_DIR)
+BATCH_SIZE = 1
+MODEL_NAME = os.getenv("CLAUDE_MODEL", "claude-3-haiku-20240307")
 os.makedirs(SCORED_DIR, exist_ok=True)
 
 NUMERIC_PREFIX_RE = re.compile(r"^\s*(\d+)_.*\.json$", re.IGNORECASE)
@@ -54,7 +56,7 @@ def choose_file_by_daynum(items):
 
 
 # Claude client setup
-client = Client(api_key=os.getenv("ANTHROPIC_API_KEY"))
+client = Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
 
 PROMPT_HEADER = """
 You are helping create a fun and exciting fact book for children aged 8–12 in the year 2025. You’ll be given a list of holiday names.
@@ -109,13 +111,6 @@ EXAMPLES:
 
 
 def extract_json_from_markdown(text):
-    if "```json" in text:
-        match = re.search(r"```json\s*(.*?)\s*```", text, re.DOTALL)
-        if match:
-            return match.group(1).strip()
-    return text.strip()
-
-def extract_json_from_markdown(text):
     # First try: inside ```json block
     match = re.search(r"```json\s*(\[\s*{.*?}\s*\])\s*```", text, re.DOTALL)
     if match:
@@ -129,9 +124,10 @@ def extract_json_from_markdown(text):
     return text.strip()
 
 def log_retry_error(error_message, batch, attempt):
-    with open("retry_log.txt", "a", encoding="utf-8") as log_file:
+    LOGS_DIR.mkdir(parents=True, exist_ok=True)
+    with open(LOGS_DIR / "retry_log.txt", "a", encoding="utf-8") as log_file:
         timestamp = datetime.datetime.now().isoformat()
-        ids = ", ".join(f["id"] for f in batch)
+        ids = ", ".join(str(f["id"]) for f in batch)
         log_file.write(f"[{timestamp}] Attempt {attempt + 1} failed for IDs: {ids}\nError: {error_message}\n\n")
 
 def safe_parse_json(raw_output):
@@ -160,7 +156,7 @@ def enhance_facts(facts, retries=2):
             Respond ONLY with the JSON array of scores. Nothing else."""
 
             response = client.messages.create(
-                model="claude-3-haiku-20240307",
+                model=MODEL_NAME,
                 max_tokens=4000,
                 temperature=0.7,
                 timeout=90,
@@ -245,10 +241,6 @@ def process_file(input_path):
         batch_result = enhance_facts(batch)
         enhanced.extend(batch_result)
         time.sleep(1.2)
-
-        # # Only process 2 batches for testing
-        # if len(enhanced) >= 2 * BATCH_SIZE:
-        #     break
 
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(enhanced, f, indent=2, ensure_ascii=False)

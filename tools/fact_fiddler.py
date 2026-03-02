@@ -441,9 +441,6 @@ class FactEditorApp:
         cat_row_frame = Frame(self.right_frame, bg=BG_DARK)
         cat_row_frame.pack(anchor="w", padx=5, pady=(0, 5))
         
-        for widget in cat_row_frame.winfo_children():
-            print(widget, widget.winfo_class())
-
         # Category dropdown
         self.category_menu = ttk.Combobox(cat_row_frame, textvariable=self.category_var, state="readonly", width=50)
         self.category_menu.pack(side="left")
@@ -569,11 +566,6 @@ class FactEditorApp:
         fact_index = self.index
         original_value = self.original_facts[fact_index].get(field, "")
         edited_value = self.facts[fact_index].get(field, "")
-
-        # 🔍 DEBUG
-        print(f"[DEBUG] Field: {field}")
-        print(f"[DEBUG] ORIGINAL: {original_value}")
-        print(f"[DEBUG] MODIFIED: {edited_value}")
 
         # 🔄 Flip and store view state
         currently_showing_original = self.original_view_state.get(field, False)

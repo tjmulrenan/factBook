@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
 
+import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from config import FINAL_OUTPUT_DIR
+
 # Root folder to scan
-ROOT = Path(r"C:\Personal\What Happened On... (The Complete Collection)")
+ROOT = FINAL_OUTPUT_DIR
 
 # Map of old name -> new name (all lowercase keys for case-insensitive match)
 NAME_MAP = {

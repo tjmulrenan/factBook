@@ -1,7 +1,8 @@
 import json
-from pathlib import Path
-from datetime import datetime
 import re
+import sys
+from datetime import datetime
+from pathlib import Path
 
 NUMERIC_PREFIX_RE = re.compile(r"^\s*(\d+)_([A-Za-z]+)_(\d{1,2})_.*enhanced.*\.json$", re.IGNORECASE)
 
@@ -41,12 +42,12 @@ def choose_file_by_daynum(items):
         print(f"No file starting with '{n}_' was found. Try again.")
 
 
-LEAP_YEAR = 2024  # always treat as leap year for DOY
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from config import ENHANCED_FACTS_DIR, HOL_ENHANCED_DIR, FINAL_FACTS_DIR, LEAP_YEAR
 
-BASE_DIR = Path(r"C:/Personal/factBook/facts/new fact grabber")
-ENHANCED_DIR = BASE_DIR / "4_enhanced"
-HOLIDAYS_DIR = BASE_DIR / "c_enhanced"
-OUTPUT_DIR = BASE_DIR / "6_final"
+ENHANCED_DIR = ENHANCED_FACTS_DIR
+HOLIDAYS_DIR = HOL_ENHANCED_DIR
+OUTPUT_DIR = FINAL_FACTS_DIR
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 def load_json(path: Path):

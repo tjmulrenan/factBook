@@ -1,17 +1,20 @@
-# 0_run_book_pipeline.py
+# run_book_pipeline.py
 # Batch runner: scan FINAL/*, find which days don't have full_manuscript.pdf,
 # and run the full pipeline for those days only.
 
 import os
+import shutil
+import subprocess
 import sys
 import time
-import subprocess
-from typing import List, Tuple
-import shutil  # for deleting build_docs
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from pathlib import Path
+from typing import List, Tuple
 
-PROJECT_ROOT = r"C:\Personal\factBook"
-FINAL_ROOT = r"C:\Personal\What Happened On... (The Complete Collection)"
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from config import FINAL_OUTPUT_DIR, PROJECT_ROOT
+
+FINAL_ROOT = FINAL_OUTPUT_DIR
 
 # tweak this if you still want a gap between stages (within one day)
 PAUSE_BETWEEN_STEPS_SECONDS = 5  # was 15
@@ -153,10 +156,10 @@ def run_pipeline_with_retries(
 
 def main():
     # script paths
-    step1 = os.path.join(PROJECT_ROOT, "1_generateBook.py")
-    step2 = os.path.join(PROJECT_ROOT, "2_gapFill.py")
-    step3 = os.path.join(PROJECT_ROOT, "3_generateSpeechBubbles.py")
-    step4 = os.path.join(PROJECT_ROOT, "b_coverBuild_paperback.py")
+    step1 = os.path.join(PROJECT_ROOT, "book", "generate.py")
+    step2 = os.path.join(PROJECT_ROOT, "book", "gap_fill.py")
+    step3 = os.path.join(PROJECT_ROOT, "book", "speech_bubbles.py")
+    step4 = os.path.join(PROJECT_ROOT, "covers", "build_paperback.py")
 
     for p in (step1, step2, step3, step4):
         if not os.path.exists(p):

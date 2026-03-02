@@ -1,12 +1,18 @@
-import requests
-from bs4 import BeautifulSoup
+import calendar
+import datetime
 import json
 import os
 import re
-import calendar
-import datetime
+import sys
+from pathlib import Path
 
-OUTPUT_DIR = r"C:\Personal\factBook\facts\new fact grabber\1_raw"
+import requests
+from bs4 import BeautifulSoup
+
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from config import RAW_FACTS_DIR
+
+OUTPUT_DIR = str(RAW_FACTS_DIR)
 
 def fetch_onthisday_events(month: str, day: int):
     url = f"https://www.onthisday.com/events/{month.lower()}/{day}"

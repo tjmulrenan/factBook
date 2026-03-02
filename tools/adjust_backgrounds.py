@@ -11,15 +11,19 @@ Adjust PNG backgrounds for print (stronger lightening + pop).
 Requires: Pillow, numpy
 """
 
-from pathlib import Path
-from PIL import Image, ImageEnhance
-import numpy as np
 import re
 import shutil
+import sys
+from pathlib import Path
+
+import numpy as np
+from PIL import Image, ImageEnhance
+
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from config import PROJECT_ROOT, BACKGROUNDS_DIR
 
 # ---- Paths ----
-PROJECT_ROOT = Path(r"C:\Personal\factBook")
-SRC_DIR = PROJECT_ROOT / "backgrounds"
+SRC_DIR = BACKGROUNDS_DIR
 
 # --------- Core helpers ---------
 def split_alpha(img: Image.Image):

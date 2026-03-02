@@ -1,9 +1,16 @@
-import fitz
-from PIL import Image, ImageDraw
-import numpy as np
 import io
+import sys
 from itertools import groupby
 from operator import itemgetter
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from config import BOOKS_DIR
+
+import fitz
+import numpy as np
+from PIL import Image, ImageDraw
+
 
 def visually_fill_transparent_gaps(pdf_path, alpha=0.65, dpi=144):
     doc = fitz.open(pdf_path)
@@ -23,7 +30,7 @@ def visually_fill_transparent_gaps(pdf_path, alpha=0.65, dpi=144):
         stripe_width = int(width * 0.02)
         best_x = None
         max_bright_rows = -1
-        candidates = [round(x / 100, 2) for x in range(85, 84, -1)]
+        candidates = [round(x / 100, 2) for x in range(85, 50, -1)]
 
 
 
@@ -111,6 +118,6 @@ def visually_fill_transparent_gaps(pdf_path, alpha=0.65, dpi=144):
 
 # 🔧 Replace this with your test file path
 visually_fill_transparent_gaps(
-    r"C:\Personal\factBook\books\fresh_test.pdf",
+    str(BOOKS_DIR / "fresh_test.pdf"),
     alpha=0.65
 )

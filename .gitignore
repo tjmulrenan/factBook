@@ -1,8 +1,12 @@
 # Data & output (large/generated — not tracked)
 data/books/
-data/facts/raw/
-data/facts/final/
+output/
 assets/cover/complete/
+assets/cover/hardcover/
+assets/cover/paperback/
+assets/cover/spines/
+assets/pictures/
+archive/
 FINAL/
 What Happened On... (The Complete Collection)/
 
@@ -30,3 +34,6 @@ debug_output.log
 Thumbs.db
 .vs/
 *.lnk
+
+# Claude Code
+.claude/

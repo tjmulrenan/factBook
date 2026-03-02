@@ -1,18 +1,21 @@
+import datetime
 import json
+import math
 import os
 import re
-from anthropic import Client
-from pathlib import Path
-import time
-import sys
-import math
-import datetime
-from tqdm import tqdm
+import traceback
 import string
+import sys
+import time
+from pathlib import Path
 
-# Path setup
-FACTS_DIR = "C:/Personal/factBook/facts/new fact grabber/3_culled"
-SORTED_DIR = "C:/Personal/factBook/facts/new fact grabber/4_enhanced"
+from anthropic import Anthropic
+from tqdm import tqdm
+
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from config import CULLED_FACTS_DIR, ENHANCED_FACTS_DIR, LOGS_DIR
+FACTS_DIR = str(CULLED_FACTS_DIR)
+SORTED_DIR = str(ENHANCED_FACTS_DIR)
 BATCH_SIZE = 1  # or 1 if you want to test smaller batches
 os.makedirs(SORTED_DIR, exist_ok=True)
 MODEL_NAME = os.getenv("CLAUDE_MODEL", "claude-sonnet-4-20250514")  # or your preferred working ID
@@ -144,7 +147,7 @@ def choose_file_by_daynum(items):
 api_key = os.getenv("ANTHROPIC_API_KEY")
 if not api_key:
     raise RuntimeError("ANTHROPIC_API_KEY is not set.")
-client = Client(api_key=api_key)
+client = Anthropic(api_key=api_key)
 
 def build_prompt_with_date(today_str: str) -> str:
     date_lock = f"""
@@ -301,12 +304,11 @@ Return ONLY the single corrected JSON object, no code fences, no prose.
     return obj if ok and isinstance(obj, dict) else bad_item
 
 def log_retry_error(error_message, batch, attempt):
-    with open("retry_log.txt", "a", encoding="utf-8") as log_file:
+    LOGS_DIR.mkdir(parents=True, exist_ok=True)
+    with open(LOGS_DIR / "retry_log.txt", "a", encoding="utf-8") as log_file:
         timestamp = datetime.datetime.now().isoformat()
         ids = ", ".join(str(f["id"]) for f in batch)
         log_file.write(f"[{timestamp}] Attempt {attempt + 1} failed for IDs: {ids}\nError: {error_message}\n\n")
-
-# --- snip (imports & setup unchanged) ---
 
 def enhance_facts(facts, retries=2, today_str=None):
     # Check all required fields are present
@@ -418,29 +420,10 @@ def enhance_facts(facts, retries=2, today_str=None):
                 else:
                     repaired.append(item)
 
-                    # simplest policy: keep but mark; or skip/regen. To be strict, skip:
-                    # continue  # uncomment to drop bad ones
-
-
-                # 🧪 Trivia validation comes AFTER story-level checks
-                errs  = validate_item(item, story, year)
-                if errs:
-                    print(f"🧪 Trivia check failed for id={item['id']}: {errs}")
-                    fixed = repair_trivia_for_item(item, story, year)
-                    errs2 = validate_item(fixed, story, year)
-                    if errs2:
-                        print(f"❌ Still failing after repair for id={item['id']}: {errs2}")
-                        repaired.append(item)
-                    else:
-                        repaired.append(fixed)
-                else:
-                    repaired.append(item)
-
             return repaired
 
 
         except Exception as e:
-            import traceback
             print(f"❌ Claude error (attempt {attempt + 1}): {e}")
             print(traceback.format_exc())
             log_retry_error(str(e), facts, attempt)

@@ -1,8 +1,12 @@
 import os
+import subprocess
 import sys
 import time
-import subprocess
 from datetime import datetime, timedelta
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from config import LEAP_YEAR, PROJECT_ROOT, FINAL_FACTS_DIR
 
 # ----- Environment (fix Windows emoji/Unicode) -----
 ENV = os.environ.copy()
@@ -10,25 +14,23 @@ ENV["PYTHONUTF8"] = "1"
 ENV["PYTHONIOENCODING"] = "utf-8"
 
 # ----- Config -----
-LEAP_YEAR = 2024                       # keep leap-year mapping (Sep 7 = 251 etc)
 START_FROM_OCTOBER = True              # always sweep starting in October
 OCT1_DOY = 275                         # Oct 1 in a leap year
 END_DOY = 366                          # Dec 31
 GAP_SECONDS = 5                        # delay between scripts
 
-# Pipeline (unchanged; culler is interactive)
+# Pipeline scripts — paths relative to PROJECT_ROOT
+_FACTS    = PROJECT_ROOT / "facts"
+_HOLIDAYS = PROJECT_ROOT / "holidays"
 PIPELINE = [
-    ("a_dayFactGrabber.py", False),
-    ("a_holdayGrabber.py", False),   # spelling kept as provided
-    ("b_holidayScorer.py", False),
-    ("c_holidayEnhancer.py", False),
-    ("3_factCuller.py", True),       # stays interactive
-    ("4_factEnhancer.py", False),
-    ("5_factCombiner.py", False),
+    (str(_FACTS / "day_grabber.py"),      False),
+    (str(_HOLIDAYS / "grabber.py"),       False),
+    (str(_HOLIDAYS / "scorer.py"),        False),
+    (str(_HOLIDAYS / "enhancer.py"),      False),
+    (str(_FACTS / "culler.py"),           True),   # stays interactive
+    (str(_FACTS / "enhancer.py"),         False),
+    (str(_FACTS / "combiner.py"),         False),
 ]
-
-# Relative to this script's folder
-FINAL_DIR_REL = os.path.join("6_final")
 
 
 # ----- Helpers -----
@@ -41,7 +43,7 @@ def final_json_path(root_folder: str, doy: int) -> str:
     """Return the expected final JSON path for this DOY: e.g. 275_October_1_Final.json"""
     month, day = doy_to_month_day(doy)
     fname = f"{doy}_{month}_{day}_Final.json"
-    return os.path.join(root_folder, FINAL_DIR_REL, fname)
+    return str(FINAL_FACTS_DIR / fname)
 
 
 def countdown(seconds: int):
@@ -97,21 +99,21 @@ def run_pipeline_for_doy(folder: str, py_exe: str, doy: int) -> str:
     ENV["FACTBOOK_DOY"] = str(doy)
 
     # Run the pipeline steps
-    for idx, (script, interactive) in enumerate(PIPELINE, start=1):
-        script_path = os.path.join(folder, script)
+    for idx, (script_path, interactive) in enumerate(PIPELINE, start=1):
+        script_name = os.path.basename(script_path)
         if not os.path.exists(script_path):
-            print(f"⚠️  Skipping missing file: {script}")
+            print(f"⚠️  Skipping missing file: {script_name}")
             continue
 
         step_label = f"[{idx}/{len(PIPELINE)}]"
-        print(f"{step_label} Preparing to run {script} …")
+        print(f"{step_label} Preparing to run {script_name} …")
         countdown(GAP_SECONDS)
 
         if interactive:
             run_script_interactive(py_exe, script_path, folder, doy)
         else:
             run_script_with_input(py_exe, script_path, doy, folder)
-        print(f"✔ Finished: {script}\n")
+        print(f"✔ Finished: {script_name}\n")
 
     # After pipeline completes, re-check that Final JSON exists (optional sanity)
     if os.path.exists(final_path):
@@ -144,7 +146,7 @@ def main():
         order = [single_doy]
 
     # Ensure final dir exists (not required to run, but nice to have)
-    os.makedirs(os.path.join(folder, FINAL_DIR_REL), exist_ok=True)
+    FINAL_FACTS_DIR.mkdir(parents=True, exist_ok=True)
 
     results = {"ok": 0, "skipped": 0, "failed": 0}
     for doy in order:

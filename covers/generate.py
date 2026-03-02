@@ -1,12 +1,18 @@
 import os
-from PIL import Image, ImageDraw, ImageFont
+import sys
 from datetime import datetime, timedelta
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from config import COVER_DIR, FONTS_DIR, FINAL_OUTPUT_DIR, LEAP_YEAR
+
+from PIL import Image, ImageDraw, ImageFont
 
 # === CONFIG ===
-INPUT_PATH = r"C:\Personal\factBook\cover\raw\cover.png"
-FINAL_BASE_DIR = r"C:\Personal\What Happened On... (The Complete Collection)"
+INPUT_PATH = str(COVER_DIR / "raw" / "cover.png")
+FINAL_BASE_DIR = str(FINAL_OUTPUT_DIR)
 
-FONT_PATH = r"C:\Personal\factBook\fonts\Knewave-Regular.ttf"
+FONT_PATH = str(FONTS_DIR / "Knewave-Regular.ttf")
 FONT_MONTH_SIZE = 75
 FONT_DAY_SIZE   = 180
 
@@ -70,6 +76,6 @@ def generate_cover_for_date(d, output_filename="front_cover.png"):
 
 # === RUN FOR ALL DAYS IN A LEAP YEAR (INCLUDES FEB 29) ===
 if __name__ == "__main__":
-    start = datetime(2024, 1, 1)  # leap year so Feb 29 exists
+    start = datetime(LEAP_YEAR, 1, 1)  # leap year so Feb 29 exists
     for i in range(366):
         generate_cover_for_date(start + timedelta(days=i))

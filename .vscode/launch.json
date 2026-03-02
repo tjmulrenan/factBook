@@ -12,7 +12,7 @@
         "-g", "publish paperback from DOY",
         "--project=chromium"
       ],
-      "cwd": "${workspaceFolder}",
+      "cwd": "${workspaceFolder}/publisher-bot",
       "env": {
         "DOY": "292"                // set your DOY here when practicing
       },

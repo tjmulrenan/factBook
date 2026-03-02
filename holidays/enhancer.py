@@ -1,20 +1,22 @@
+import datetime
+import html
 import json
+import math
 import os
 import re
-from anthropic import Client
-from pathlib import Path
-import time
-import html
 import sys
-import math
-import datetime
+import time
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from config import HOL_ENHANCED_DIR, HOL_SCORED_DIR, LOGS_DIR
+
+from anthropic import Anthropic
 from tqdm import tqdm
-
-
-# Path setup
-FACTS_DIR = "C:/Personal/factBook/facts/new fact grabber/b_scored"
-SORTED_DIR = "C:/Personal/factBook/facts/new fact grabber/c_enhanced"
-BATCH_SIZE = 1  # or 1 if you want to test smaller batches
+FACTS_DIR = str(HOL_SCORED_DIR)
+SORTED_DIR = str(HOL_ENHANCED_DIR)
+BATCH_SIZE = 1
+MODEL_NAME = os.getenv("CLAUDE_MODEL", "claude-sonnet-4-20250514")
 os.makedirs(SORTED_DIR, exist_ok=True)
 
 NUMERIC_PREFIX_RE = re.compile(r"^\s*(\d+)_([A-Za-z]+)_(\d{1,2})_scored\.json$", re.IGNORECASE)
@@ -33,29 +35,8 @@ def select_file_by_doy(directory: str, doy: int):
     return candidates[0]
 
 
-def story_missing_month_or_day(story: str, today_str: str) -> bool:
-    """
-    Return True if the story is missing either the month or the day token.
-    Month must appear as a whole word (e.g., 'September').
-    Day may appear as 7, 07, 7th, 7ST, etc. (case-insensitive).
-    """
-    if not story or not today_str:
-        return True
-
-    parts = today_str.split()
-    if len(parts) != 2:
-        return True
-
-    month, day_str = parts[0], str(int(parts[1]))  # normalize '07' -> '7'
-
-    month_ok = re.search(rf"\b{re.escape(month)}\b", story, flags=re.IGNORECASE) is not None
-    day_ok   = re.search(rf"\b0*{re.escape(day_str)}(?:st|nd|rd|th)?\b", story, flags=re.IGNORECASE) is not None
-
-    return not (month_ok and day_ok)
-
-
 # Claude client setup
-client = Client(api_key=os.getenv("ANTHROPIC_API_KEY"))
+client = Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
 
 PROMPT_HEADER = """
 You're helping write a fun fact book for curious kids aged 8 to 12.
@@ -201,7 +182,8 @@ def safe_parse_json(raw_output):
             return [], False
 
 def log_retry_error(error_message, batch, attempt):
-    with open("retry_log.txt", "a", encoding="utf-8") as log_file:
+    LOGS_DIR.mkdir(parents=True, exist_ok=True)
+    with open(LOGS_DIR / "retry_log.txt", "a", encoding="utf-8") as log_file:
         timestamp = datetime.datetime.now().isoformat()
         ids = ", ".join(f["id"] for f in batch)
         log_file.write(f"[{timestamp}] Attempt {attempt + 1} failed for IDs: {ids}\nError: {error_message}\n\n")
@@ -237,7 +219,7 @@ def enhance_facts(facts, retries=2, today_str=None):
 
 
             response = client.messages.create(
-                model="claude-sonnet-4-20250514",
+                model=MODEL_NAME,
                 max_tokens=4000,
                 temperature=0.2,   # lower = less drift
                 top_p=0.3,

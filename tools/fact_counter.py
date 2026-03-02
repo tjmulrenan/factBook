@@ -1,6 +1,11 @@
-import os
 import json
+import os
+import sys
 from glob import glob
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from config import RAW_FACTS_DIR, CULLED_FACTS_DIR
 
 def count_facts_in_file(file_path, is_culled=False):
     with open(file_path, "r", encoding="utf-8") as f:
@@ -11,10 +16,9 @@ def count_facts_in_file(file_path, is_culled=False):
         return len(data.get("Facts", []))  # Dict with "Facts" key
 
 def choose_folder():
-    base_path = r"C:\Personal\factBook\facts\new fact grabber"
     options = {
-        "1": ("1_raw", os.path.join(base_path, "1_raw")),
-        "2": ("2_culled", os.path.join(base_path, "2_culled"))
+        "1": ("raw", str(RAW_FACTS_DIR)),
+        "2": ("culled", str(CULLED_FACTS_DIR))
     }
 
     print("Choose a folder:")
@@ -55,7 +59,7 @@ def main():
     if not folder:
         return
 
-    pattern = "*.json" if label == "2_culled" else "OnThisDay_*.json"
+    pattern = "*.json" if label == "culled" else "OnThisDay_*.json"
     files = glob(os.path.join(folder, pattern))
     if not files:
         print("❌ No matching JSON files found.")
@@ -65,7 +69,7 @@ def main():
     if not file_path:
         return
 
-    is_culled = label == "3_culled"
+    is_culled = label == "culled"
 
     try:
         count = count_facts_in_file(file_path, is_culled=is_culled)

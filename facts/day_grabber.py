@@ -1,18 +1,24 @@
 import os
 import json
+import sys
 import calendar
 import re
+from pathlib import Path
 from datetime import datetime, timedelta
 from anthropic import Anthropic
 from anthropic._exceptions import BadRequestError, APIStatusError
+
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from config import HOL_DAY_DIR, LEAP_YEAR
+
+MODEL_NAME = os.getenv("CLAUDE_MODEL", "claude-sonnet-4-20250514")
+
 # runtime toggles
 SKIP_CLAUDE_DAY = os.getenv("SKIP_CLAUDE_DAY") == "1"
-LEAP_YEAR = 2024  # treat as leap year for DOY mapping
 
 def local_day_facts_fallback(month: str, day: int):
     # lightweight, deterministic “good enough” facts so the pipeline can proceed
     # No external calls; clearly labeled as approximate
-    doy = (datetime(LEAP_YEAR, 1, 1) - datetime(LEAP_YEAR, 1, 1)).days  # 0
     date = datetime(LEAP_YEAR, list(calendar.month_name).index(month), day)
     day_of_year = (date - datetime(LEAP_YEAR, 1, 1)).days + 1
     days_left = 366 - day_of_year
@@ -68,7 +74,7 @@ def ask_claude_for_day_facts(month: str, day: int) -> list:
 
     try:
         response = anthropic.messages.create(
-            model="claude-sonnet-4-20250514",
+            model=MODEL_NAME,
             max_tokens=1200,
             temperature=0.0,
             messages=[{"role": "user", "content": user_input}]
@@ -110,7 +116,7 @@ def ask_claude_to_clean_day_facts(month: str, day: int, facts: list) -> list:
 
     try:
         response = anthropic.messages.create(
-            model="claude-sonnet-4-20250514",
+            model=MODEL_NAME,
             max_tokens=1000,
             temperature=0.0,
             messages=[
@@ -131,7 +137,7 @@ def ask_claude_to_clean_day_facts(month: str, day: int, facts: list) -> list:
         return facts
 
 def save_to_json(doy: int, month: str, day: int, facts: list):
-    output_dir = r"C:\Personal\factBook\facts\new fact grabber\a_rawDay"
+    output_dir = str(HOL_DAY_DIR)
     os.makedirs(output_dir, exist_ok=True)
     filename = os.path.join(output_dir, f"{doy}_{month}_{day}_Facts.json")
     with open(filename, "w", encoding="utf-8") as f:
