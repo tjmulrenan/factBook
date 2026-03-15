@@ -115,6 +115,8 @@ factBook/
 │   └── quotes/                 # generatedquotes.json
 │
 ├── publisher-bot/              # Playwright automation for KDP uploads
+├── webapp/                     # Daily Facts with TJ — production hub (port 3000)
+├── webapp-reel/                # Reel Builder — 30s Instagram reels (port 3001)
 └── archive/                    # Old/draft files (not active)
 ```
 
