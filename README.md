@@ -15,6 +15,7 @@ A pipeline for generating a 366-day series of illustrated educational PDF fact b
   - [Book Pipeline](#book-pipeline)
 - [Running a Single Day](#running-a-single-day)
 - [Publisher Bot](#publisher-bot)
+- [Reel Builder](#reel-builder)
 - [Data Flow](#data-flow)
 - [Categories](#categories)
 - [Environment Variables](#environment-variables)
@@ -307,6 +308,51 @@ Override the default book output path with the `FINAL_DIR` environment variable:
 ```bash
 FINAL_DIR="D:\My Books" node run-with-doy.js 1
 ```
+
+---
+
+## Reel Builder
+
+A Node.js web app for producing 30-second Instagram reels about historical facts. Runs at `http://localhost:3001`.
+
+```bash
+cd webapp-reel
+npm install
+node server.js
+```
+
+**Workflow:**
+
+1. Pick a date → **Find Facts** — searches and verifies 5 scroll-stopping historical facts via web search
+2. Select the best fact, or swap any you don't like
+3. **Generate Reel Package** — internally generates 10 script candidates, scores each on 8 metrics (Hook, Pacing, TJ Voice, Payoff, Clarity, Economy, Spoken Flow, Arc), returns the top 3 with scores out of 80
+4. Pick a script version — edit any line inline if needed
+5. Scripts are automatically fact-checked via web search; any wrong, uncertain, or embellished lines are auto-fixed
+6. **Generate Visuals** — produces Kling AI prompts for all 6 shots (2 scenes × 3 shots) plus a TJ costume element prompt for ChatGPT
+7. Generate the TJ costume reference image in ChatGPT, upload to Kling as an element, then run each shot prompt in Kling's image-to-video
+
+**Output:** 6 Kling prompts (30s total), a TJ costume element definition, and the full voiceover script ready for ElevenLabs or Kling native TTS.
+
+**Structure:**
+```
+webapp-reel/
+├── server.js               # Node HTTP server — all API endpoints
+├── public/index.html       # Single-page UI
+├── package.json
+└── KLING_ELEMENTS_GUIDE.md # Reference guide for Kling Elements workflow
+```
+
+**API endpoints:**
+
+| Endpoint | Description |
+|---|---|
+| `POST /api/facts` | Find 5 verified facts for a date |
+| `POST /api/swap` | Replace one fact with a fresh alternative |
+| `POST /api/generate-video` | Generate 10 scripts, score, return top 3 |
+| `POST /api/generate-visuals` | Generate Kling prompts for chosen script |
+| `POST /api/check-script` | Fact-check script lines via web search |
+
+Uses `ANTHROPIC_API_KEY` from the root `.env`. Script generation uses `claude-opus-4-6`; fact finding, visuals, and fact-checking use `claude-sonnet-4-6`.
 
 ---
 

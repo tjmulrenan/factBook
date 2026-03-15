@@ -1,0 +1,13 @@
+{
+  "name": "daily-facts-reel-builder",
+  "version": "1.0.0",
+  "description": "5-fact Reel Builder — Daily Facts with TJ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "dotenv": "^16.4.5"
+  }
+}

@@ -1,0 +1,468 @@
+const path = require('path');
+require('dotenv').config({ path: path.join(__dirname, '..', '.env') });
+
+const Anthropic = require('@anthropic-ai/sdk');
+const fs = require('fs');
+const http = require('http');
+const url = require('url');
+
+const PORT = 3001;
+const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+
+function sanitizeJson(s) {
+  return s.replace(/\\([^"\\\/bfnrtu])/g, (_, c) => c);
+}
+
+function parseJson(text) {
+  // Strip markdown code fences
+  const stripped = text.trim().replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/, '');
+  const clean = sanitizeJson(stripped.trim());
+  try { return JSON.parse(clean); } catch {}
+  // Try object first, then array
+  const objMatch = clean.match(/\{[\s\S]*\}/);
+  if (objMatch) try { return JSON.parse(objMatch[0]); } catch {}
+  const arrMatch = clean.match(/\[[\s\S]*\]/);
+  if (arrMatch) try { return JSON.parse(arrMatch[0]); } catch {}
+  throw new Error('Could not parse JSON. Raw: ' + text.slice(0, 300));
+}
+
+// ── Find 5 fact candidates ─────────────────────────────────────────────────
+async function findFacts(date) {
+  const response = await client.messages.create({
+    model: 'claude-opus-4-6',
+    max_tokens: 8000,
+    tools: [{ type: 'web_search_20250305', name: 'web_search', max_uses: 8 }],
+    messages: [{
+      role: 'user',
+      content: `Find 5 historical facts for a short-form Instagram reel about ${date}. The goal is scroll-stopping entertainment, not education.
+
+USE WEB SEARCH to verify every fact before including it. Search for the specific event and confirm: (1) it happened on this exact date, (2) the specific details are accurate. Do not include any fact you cannot verify. Discard candidates where the colourful detail turns out to be embellished or unconfirmed.
+
+DATE RULE — NON-NEGOTIABLE: Every fact must be something that specifically and verifiably happened ON this exact date. Not "around this time", not "during a period", not "approximately". Verified exact date only.
+
+THE ONLY TEST THAT MATTERS: Would someone screenshot this and send it to a friend saying "you won't believe this"? If not, it doesn't qualify.
+
+What actually works:
+- ONE specific ridiculous detail that sounds made up but is real — a single valve, a poem rejection, two schoolboys with umbrellas. Specific beats broad every time.
+- Famous person did something embarrassing, stupid, or absurd
+- Massive consequence from a tiny, almost funny cause
+- Coincidence so good it feels scripted
+- A rule, word, product, or law we still use today that came from something completely ridiculous
+- The gap between what powerful people claimed and what actually happened — painful irony, not political commentary
+- Something where the underdog, the idiot, or the nobody accidentally wins
+
+Avoid entirely:
+- Well-known overused stories ("New Coke", "moon landing", "Rosa Parks bus") — novelty is everything
+- Heavy or serious events with no absurd angle (wars, disasters, political speeches)
+- Facts that require background knowledge to land — must hit in 3 seconds cold
+- "Significant" but boring — textbook importance is irrelevant here
+- Anything where the hook is "this was historically important"
+
+The hook line must be a single sentence that could stand alone as a caption. If it needs context to be interesting, it's not good enough.
+
+After searching and verifying, return ONLY a valid JSON array of exactly 5 objects, no markdown:
+[
+  {
+    "title": "Punchy title, max 8 words — lead with the absurd detail not the event",
+    "year": 1976,
+    "location": "Specific place",
+    "description": "2-3 sentences. The weird specific detail first, consequence second, punchline third. Write it like you're texting a friend something that just made you laugh out loud.",
+    "whyItWorks": "1 sentence — what is the single detail that makes this sound made up.",
+    "hookPotential": "The opening line of the reel — one sentence, cold, no context needed. Must work as a standalone caption.",
+    "visualMoment": "The single most absurd or dramatic visual moment — what would stop someone mid-scroll."
+  }
+]
+
+Only include facts you have verified via web search. Aim for variety across eras and topics.`
+    }]
+  });
+  const textBlocks = response.content.filter(b => b.type === 'text');
+  if (!textBlocks.length) throw new Error('No text block in findFacts response');
+  return parseJson(textBlocks[textBlocks.length - 1].text);
+}
+
+// ── Swap one fact ──────────────────────────────────────────────────────────
+async function swapFact(date, currentFacts, indexToSwap) {
+  const exclude = currentFacts.map(f => `"${f.title}" (${f.year})`).join(', ');
+  const response = await client.messages.create({
+    model: 'claude-opus-4-6',
+    max_tokens: 3000,
+    tools: [{ type: 'web_search_20250305', name: 'web_search', max_uses: 3 }],
+    messages: [{
+      role: 'user',
+      content: `Find ONE historical fact for a short-form Instagram reel about ${date}. Scroll-stopping entertainment only — not education.
+
+USE WEB SEARCH to verify the fact before returning it. Confirm the exact date and that the specific details are accurate. Do not return a fact you cannot verify.
+
+DATE RULE — NON-NEGOTIABLE: Must have specifically and verifiably happened ON this exact date.
+
+Do NOT suggest any of these (already in use): ${exclude}
+
+The only test: would someone screenshot this and send it to a friend saying "you won't believe this"?
+
+What works: one specific ridiculous detail that sounds made up but is real, famous person doing something absurd or stupid, massive consequence from a tiny cause, painful irony between what was claimed and what happened, something where the underdog or the idiot accidentally wins.
+
+Avoid: well-known overused stories, heavy events with no absurd angle, anything needing background knowledge to land, facts where the hook is "this was historically important".
+
+After verifying, return ONLY a valid JSON object, no markdown:
+{
+  "title": "Punchy title, max 8 words — lead with the absurd detail",
+  "year": 1976,
+  "location": "Specific place",
+  "description": "2-3 sentences. Weird specific detail first, consequence second, punchline third.",
+  "whyItWorks": "1 sentence — the single detail that makes this sound made up.",
+  "hookPotential": "Opening line of the reel — one sentence, cold, no context needed.",
+  "visualMoment": "The most absurd or dramatic visual moment."
+}
+
+Must be verified, accurate, and different from the excluded facts.`
+    }]
+  });
+  const textBlock = response.content.find(b => b.type === 'text');
+  if (!textBlock) throw new Error('No text block in swapFact response');
+  return parseJson(textBlock.text);
+}
+
+// ── Generate full video package for one selected fact ─────────────────────
+async function generateVideoPackage(fact, date) {
+  const response = await client.messages.create({
+    model: 'claude-opus-4-6',
+    max_tokens: 12000,
+    messages: [{
+      role: 'user',
+      content: `Generate a complete short-form reel package for this historical fact.
+
+Fact: ${fact.year} — ${fact.title} (${fact.location})
+Date: ${date}
+${fact.description}
+Hook potential: ${fact.hookPotential}
+Key visual: ${fact.visualMoment}
+
+TARGET AUDIENCE: 16–35. Fast scrollers. They respond to irony, surprise, sharp delivery, and a payoff they didn't see coming.
+
+NARRATOR — TJ:
+TJ is an animated British character who appears physically in every shot. He is NOT realistic — modern cartoon style, like a Disney or Pixar character but less polished. Warm skin tone, brown hair, big expressive eyes, slightly goofy proportions, and a small dark moustache — the moustache is a key part of his look and must appear in every shot. Funny, slightly awkward, a bit silly. Sharp wit underneath the bumbling exterior. Dry, self-aware, occasionally chaotic. Think Simpsons HUMOUR — adult wit that still works for younger audiences, occasionally absurd, never preachy. He finds history genuinely interesting but can't help himself getting into trouble or doing daft things to people nearby. Everything is fully animated — no photorealism anywhere.
+
+TJ OUTFIT RULE:
+Before writing any prompts, decide on TJ's outfit for this fact. The outfit should be funny and themed to the subject — and it can go as far as TJ becoming the thing itself. It doesn't have to be a wearable costume — it can be a full character transformation: a giant red apple with arms, legs, and TJ's face on it for an Apple fact; a literal robot body with TJ's eyes blinking through the visor for a tech fact; a dollar bill with TJ's face in the portrait oval for a finance fact; a giant football with TJ's face and limbs for an NFL fact. Or it can be a more traditional funny outfit — oversized lab coat and thick glasses, full mascot uniform, tiny crown and velvet cape. The rule is: it should be immediately readable as connected to the fact, visually distinctive, and slightly absurd. TJ's eyes and expression must always be visible — they are how you know it's him. The outfit stays identical for every single shot — it never changes after Shot 1.
+
+Scene 1 Shot 1: TJ is in his default outfit (white "I ❤ FACTS" t-shirt, blue jeans, white trainers). He clocks the camera, does a quick snappy gesture of some kind — invent something fresh and fitting for this fact — and the outfit instantly transforms into the themed outfit. The change is fast and cartoonish. TJ glances down at himself, reacts briefly, and moves on. No examples given — the gesture should be unique each time and feel natural for the character and setting. If the transformation turns TJ into an object or creature, the transformed form must immediately show TJ's big expressive eyes, small dark moustache, and wide cartoon mouth on its surface — these appear the moment the transformation completes, not after. They are what make it recognisably TJ and must be visually prominent from the first frame of the new form.
+
+The chosen outfit or object form must be described in exhaustive detail in EVERY shot — not just Shot 1. Kling treats each shot prompt independently and will hallucinate or drift the costume if it isn't fully restated each time. Every prompt must include: shape, size, colour, texture, surface details, limbs, gloves, shoes, and all props. If TJ is an object, every prompt must also include: the exact colours and markings on the object's surface, the position and appearance of TJ's big expressive eyes, small dark moustache, and wide expressive cartoon mouth on the object's face. Never abbreviate. Never assume Kling remembers from the previous shot.
+
+TJ IN SHOTS: TJ is physically present in every shot. He walks through the scene, leans into the action, pokes at things, nudges people, or reacts visibly to what's happening around him. He is part of the scene — not a floating head, not a presenter-to-camera overlay. He belongs in the shot even though he clearly doesn't belong in the time period.
+
+DIALOGUE VOICE: TJ is sharp, dry, and genuinely into history. He reacts with real surprise, disbelief, or reluctant respect — naturally funny because his reactions are honest. Energetic but not manic.
+
+BRITISH SLANG RULE: TJ drops in the occasional British word or phrase — "brilliant", "blimey", "mate", "spiffing", "cheers", "cor", "absolutely mental" — but only once or twice per script, only when it genuinely fits and gets a laugh. Never forced. Never every line. If it doesn't earn it, leave it out.
+
+Line energy: sharp, direct, warm. Real names and numbers. Short punchy reactions for impact moments. Never try-hard.
+
+VIDEO STRUCTURE — EXACTLY 2 SCENES:
+Scene 1: Kling multi-shot — 15 seconds total. Three shots, durations must sum to exactly 15. Vary the durations to serve the pacing — a quick 3s reaction shot, a longer 7s establishing shot, a punchy 5s beat. Don't default to 5+5+5. SETUP: opens cold with date hook, establishes who, where, what's about to happen.
+Scene 2: Kling multi-shot — 15 seconds total. Three shots, durations must sum to exactly 15. Same variety rule. PAYOFF: the thing happens, fallout, punchline.
+Total runtime: 30 seconds. Valid duration splits per scene: e.g. 3+5+7, 4+6+5, 6+4+5, 3+7+5, 7+4+4 — whatever serves the story. Never 5+5+5 unless there's a genuine reason.
+
+VOICEOVER SELECTION PROCESS:
+1. Internally generate 10 complete scripts — all 6 shots written as a unit each time, including the closing line. Each script must flow naturally as one continuous piece of narration.
+2. Score each complete script on:
+   - Cohesion: reads as one continuous piece of narration, not disconnected fragments
+   - Specificity: real names, real numbers, real places throughout
+   - Rhythm: natural spoken flow, sentences vary in length, no choppy string of short stops
+   - Interest: surprising, witty, dry, or carries genuine weight at the right moments
+   - Compliance: date rules, word budget followed
+   - Originality: couldn't have been written for any other fact
+3. Return the TOP 3 scoring scripts. The user will choose between them.
+4. Do not show all candidates or scores — only the top 3.
+
+VOICEOVER RULES:
+- Each shot gets its own voiceover line, delivered by TJ in his own voice.
+- The voiceover narrates INTO the shot — TJ reacts to what's happening on screen, not around it.
+- Words and visuals belong together. TJ is IN the scene commenting on what he sees.
+- Scene 1 Shot 1: TJ says the month and day, then delivers a short throwaway self-aware line about changing into his outfit — casual, like he's muttering to himself. The line must be unique and freshly written for this specific fact and costume — never reuse phrasing from other videos. It should feel natural and slightly funny given what he's about to transform into. No examples given — invent it from scratch each time. Then the visual change happens. Keep the whole shot within word budget.
+- The year may appear ONCE, naturally, somewhere in Scene 1. Nowhere else.
+- The full date (month + day) appears only in Shot 1. Never again.
+- Scene 1 builds the situation — TJ exploring, setting up what's about to happen.
+- Scene 2 delivers the consequence and payoff. TJ reacts to the fallout. Close with something punchy, dry, or a bit daft in a satisfying way.
+- Word budget per shot: TJ speaks at roughly 3 words per second for plain sentences, drops to ~2 words per second when dense with proper nouns, numbers, or years. Scale to the shot duration — a 3s shot fits ~8 plain words, a 5s shot ~14, a 7s shot ~20. Do not cram, do not pad. The shot duration should be chosen to fit the natural length of the line, not the other way around.
+- NUMBER PRONUNCIATION RULE: All years, figures, and numbers must be written out exactly as they should be spoken — no numerals. Years are spoken as two pairs: 1976 → "nineteen seventy-six", 1781 → "seventeen eighty-one", 2003 → "two thousand and three". Large round numbers: $800 → "eight hundred dollars", $300 billion → "three hundred billion dollars". Never leave a numeral in the voiceover text — always spell it out in full so TTS reads it correctly. DATE ORDINALS: write as "Month cardinal" — "March fourteen" not "March fourteenth" and never "March the fourteenth". Cardinal form ("fourteen", "twenty-two") is always cleaner for TTS than ordinal form.
+- HARD WORD RULE: Kling TTS mispronounces long or unusual words. First choice: replace with a simpler synonym that means the same thing ("physicist" → "scientist", "mathematician" → "maths genius", "entrepreneur" → "businessman", "philosopher" → "thinker", "nuclear" → keep but flag). If no good synonym exists, spell the word phonetically in the script so TTS reads it correctly: "physicist" → "fizzicist", "February" → "Feb-roo-airy", "Worcestershire" → "Wooster-sheer". Never use a word you are not confident TTS will handle cleanly — rewrite around it.
+- If a shot voiceover would clearly overrun its duration, split the thought across two shots.
+- Vary sentence length. Short reactions for impact, longer flowing lines for setup. Never string multiple short full-stop sentences in a row — choppy and robotic when spoken.
+- Dark or serious facts: TJ stays dry and straight. Wit is earned, never forced.
+
+VOICEOVER ANTI-PATTERNS — never write these:
+- Full date after Shot 1: BANNED.
+- Year after Scene 1: BANNED.
+- "change everything", "changed the world", "changed history": BANNED. Too vague, too cliché.
+- "little did they know", "no one could have predicted": BANNED. Overused.
+- No overexplaining. One sharp specific detail beats three general ones.
+- Use real names — people, companies, places. Never be coy. If the story is about Apple, say Apple. If it's about Napoleon, say Napoleon. Vagueness kills the punch.
+- Do NOT drop British slang into every line — once or twice per script max. If it's there just to remind the audience TJ is British rather than to make the line funnier, cut it.
+
+Do NOT generate Kling prompts in this step. Visuals are generated separately after the user selects their preferred script.
+
+ELEVENLABS TAGS: sparingly. Only [emphasized] [upbeat] [excited] [laughs]. Never slow delivery.
+
+Return ONLY a valid JSON object, no markdown:
+{
+  "factSummary": {
+    "title": "...",
+    "year": 0,
+    "location": "...",
+    "whyItWorks": "..."
+  },
+  "scripts": [
+    {
+      "version": 1,
+      "shots": [
+        { "sceneNumber": 1, "shotNumber": 1, "duration": 4, "voiceover": "Month and day + blend-in line" },
+        { "sceneNumber": 1, "shotNumber": 2, "duration": 6, "voiceover": "Setup — year may appear here" },
+        { "sceneNumber": 1, "shotNumber": 3, "duration": 5, "voiceover": "Setup continues" },
+        { "sceneNumber": 2, "shotNumber": 1, "duration": 5, "voiceover": "Payoff begins" },
+        { "sceneNumber": 2, "shotNumber": 2, "duration": 7, "voiceover": "Consequence lands" },
+        { "sceneNumber": 2, "shotNumber": 3, "duration": 3, "voiceover": "Closing line — punchy, dry, satisfying" }
+      ],
+      "fullScript": "All 6 shots joined as one flowing narration."
+    },
+    {
+      "version": 2,
+      "shots": [
+        { "sceneNumber": 1, "shotNumber": 1, "duration": 0, "voiceover": "..." },
+        { "sceneNumber": 1, "shotNumber": 2, "duration": 0, "voiceover": "..." },
+        { "sceneNumber": 1, "shotNumber": 3, "duration": 0, "voiceover": "..." },
+        { "sceneNumber": 2, "shotNumber": 1, "duration": 0, "voiceover": "..." },
+        { "sceneNumber": 2, "shotNumber": 2, "duration": 0, "voiceover": "..." },
+        { "sceneNumber": 2, "shotNumber": 3, "duration": 0, "voiceover": "..." }
+      ],
+      "fullScript": "All 6 shots joined."
+    },
+    {
+      "version": 3,
+      "shots": [
+        { "sceneNumber": 1, "shotNumber": 1, "duration": 0, "voiceover": "..." },
+        { "sceneNumber": 1, "shotNumber": 2, "duration": 0, "voiceover": "..." },
+        { "sceneNumber": 1, "shotNumber": 3, "duration": 0, "voiceover": "..." },
+        { "sceneNumber": 2, "shotNumber": 1, "duration": 0, "voiceover": "..." },
+        { "sceneNumber": 2, "shotNumber": 2, "duration": 0, "voiceover": "..." },
+        { "sceneNumber": 2, "shotNumber": 3, "duration": 0, "voiceover": "..." }
+      ],
+      "fullScript": "All 6 shots joined."
+    }
+  ],
+  "characters": [
+    {
+      "name": "Full name of historical person",
+      "role": "One phrase — who they are in this story",
+      "chatgptPrompt": "Full body cartoon character, centre frame, plain white background, facing camera, mouth closed neutral expression. [Detailed physical description: height/build, hair colour and style, eye colour, notable facial features, age, era-appropriate clothing described specifically]. Art style: match the reference image exactly — 2000s Saturday morning cartoon, thick clean black outlines on every edge, flat cel shading with single soft highlight per surface, bright saturated colours, no gradients, no photorealism, no 3D rendering. This character must look clearly distinct from TJ — different build, different hair, different face shape."
+    }
+  ],
+  "editingNotes": {
+    "idealRuntime": "30 seconds",
+    "pacingNotes": "...",
+    "musicVibe": "...",
+    "capCutSuggestions": "..."
+  }
+}`
+    }]
+  });
+  const raw = response.content[0]?.text;
+  if (!raw) throw new Error('Empty response from model');
+  console.log('Raw response (first 500):', raw.slice(0, 500));
+  const parsed = parseJson(raw);
+  if (!parsed.factSummary || !parsed.scripts) {
+    console.error('Unexpected response structure:', JSON.stringify(parsed).slice(0, 500));
+    throw new Error('Model returned unexpected structure — check server logs');
+  }
+  return parsed;
+}
+
+// ── Generate visuals for a chosen script ───────────────────────────────────
+async function generateVisuals(shots, fact, date) {
+  const scriptText = shots.map(s => `S${s.sceneNumber}·${s.shotNumber} (${s.duration}s): ${s.voiceover}`).join('\n');
+  const response = await client.messages.create({
+    model: 'claude-opus-4-6',
+    max_tokens: 8000,
+    messages: [{
+      role: 'user',
+      content: `Generate Kling visual prompts for each shot in this short-form reel script.
+
+Fact: ${fact.year} — ${fact.title} (${fact.location})
+Date: ${date}
+
+Script:
+${scriptText}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ART STYLE — FULLY ANIMATED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Everything in every shot is rendered in TJ's cartoon art style — characters, environments, objects, everything. Clean black outlines, soft cel shading, bright warm colours, slightly goofy proportions throughout. Match the @TJ Element's visual style. No photorealism anywhere.
+
+TJ is referenced in Kling using the saved Element @TJ. Include "@TJ" in every prompt.
+
+TJ's fixed appearance: animated cartoon character, warm skin tone, brown hair, big expressive eyes, small dark moustache, slightly goofy proportions, clean black outlines, soft cel shading. The moustache is non-negotiable — it must appear in every shot.
+
+THEMED OUTFIT — decide once before writing any prompts:
+Choose a funny, thematically specific outfit or full object transformation for this fact. It can be a costume OR TJ literally becoming the object (e.g. a giant apple with TJ's face, a robot with his eyes through the visor, a dollar bill with his face in the portrait oval, a football with limbs). The funnier and more specific to the fact the better.
+
+If TJ becomes an object: describe shape, size, colour, texture, surface details, limbs. The object MUST have: a visible expressive cartoon mouth (capable of speech and emotion), TJ's big expressive eyes, and his small dark moustache — all clearly on the object's face. Example: "a giant glossy red cartoon apple, roughly human-height, with a bright green stalk, TJ's big round eyes, small dark moustache, and a wide expressive cartoon mouth on its face, stubby cartoon arms with white-gloved hands, stubby legs wearing white trainers."
+
+The outfit/form is IDENTICAL in every shot — never varies. Describe it in full in EVERY shot without exception. Kling does not carry costume memory between shots. The full description must include every time: object shape, size, colour, texture, surface details, limbs, gloves, shoes, eyes, moustache, mouth position and expression. Never abbreviate, never assume the previous shot is remembered.
+
+SCENE 1 SHOT 1 — OUTFIT CHANGE:
+@TJ starts in default outfit: white "I ❤ FACTS" t-shirt, blue jeans, white trainers. He spots the camera, jumps and spins mid-air in an exaggerated Saturday-morning-cartoon spin with motion blur and sparkle effects, lands transformed into the themed outfit. Fast and snappy. He glances down at himself, gives a quick satisfied nod, moves on.
+
+TJ IN EVERY SHOT: describe exactly what @TJ is doing — position in frame, what he's touching, reacting to, or pointing at. He is active, not decorative.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+REAL PEOPLE — CHARACTER RULES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Kling does not know what real people look like. Every named person must be described with a unique physical profile. Use this format:
+[Name: build, hair, face, clothing, position in frame]
+
+Make silhouettes maximally distinct — height, build, hair length/style. If two characters share similar features, explicitly contrast them in the same sentence.
+
+Every shot, every scene: every named character gets a physical anchor + explicit position in frame. Never name-only at any point. Shot 1 of Scene 1 gets the full description. Every subsequent shot gets at minimum: name + 1-2 distinguishing physical features + position in frame. In Scene 2, additionally state for every shot: "@TJ is the animated cartoon [object/form] — he is NOT a human figure" and "[Name] is a human [man/woman] — NOT a cartoon" to prevent blending between TJ's form and human characters.
+
+Assign a fixed position anchor to each character and keep it consistent across shots:
+- e.g. "Jobs always stands left-frame, Wozniak centre, Wayne right-frame"
+This is Kling's primary tool for keeping characters from blending.
+
+SCENE 1 SHOT 3 — GROUP ESTABLISHING SHOT:
+Shot 3 of Scene 1 MUST include ALL named characters AND @TJ together in a single wide or medium-wide frame. A clean frame from this shot will be extracted and used as the starting image for Scene 2 image-to-video. Requirements: all characters clearly visible and sharp, no motion blur, characters at rest or in a stable pose. Assign and describe an explicit final position for every character including @TJ — e.g. "@TJ stands foreground-centre facing camera." Camera static or slow push only. End the prompt with: "NOTE: The animated cartoon character in [position] is @TJ — he is the only speaker in subsequent shots."
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SCENE RULES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NAMED PEOPLE ONLY — no unnamed extras, no background crowd, no bystanders, no passersby. If the setting is naturally busy (street, stadium, office), describe it as empty or sparsely populated. Do not invent people.
+
+BACKGROUND GAG: In one shot (not Shot 1, not the final shot) include a small silly visual gag happening to TJ's costume or form — something thematically connected to what TJ has transformed into, subtle and incidental. Invent something fresh each time — no examples given. It happens in the background, nobody reacts, doesn't interrupt the story. One shot only.
+
+No captions, no text on screen.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DIALOGUE & NATIVE AUDIO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Each shot uses Kling's native audio. TJ speaks the voiceover line from the script for that shot. Historical characters may speak a brief contextual line if it fits naturally — or stay silent.
+
+VOICE FORMAT — use this exact format for every speaking character in every shot:
+[Name] says in the voice of a [age] [gender], [timbre], [tone], [pacing]: "[line]"
+
+TJ's voice is always:
+@TJ says in the voice of a young adult male, bright and slightly squeaky, cheerful and high-energy with a British accent, quick-fire delivery with the occasional silly pause: "[voiceover line for this shot]"
+TJ occasionally drops in a natural British word or phrase — but only once or twice per script, only when it genuinely fits and earns a laugh. Never forced. No examples given — invent something that feels natural for the specific moment.
+
+For historical characters: figure out their voice based on who they are — age, nationality, background, personality, era. Assign each a distinct voice profile using the format above. Every character in the same scene must sound distinctly different from each other. No examples given — derive the voice from the character. If a historical character has no reason to speak in a shot, mark them explicitly as: [Name]: mouth closed, silent, no lip movement.
+
+Only characters with a dialogue line move their mouths. All others: mouth closed, silent, no lip movement. Every silent character must be explicitly labelled as such in the prompt — never leave it implicit. Kling defaults to assigning speech to the wrong character if not explicitly blocked.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+HARD LIMIT: 2500 CHARACTERS PER PROMPT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Kling enforces a 2500-character hard limit. Every prompt MUST stay under 2500 characters. Count carefully. If a draft exceeds this, cut in this priority order:
+1. Trim setting to 1-2 key details only — not a full scene inventory
+2. Shorten character descriptions to silhouette + 1 key clothing item + position
+3. Shorten camera/lighting to one phrase each
+4. Never cut the dialogue line, @TJ reference, or Avoid/Style tags
+
+NO NUMERALS ANYWHERE RULE: Kling's TTS reads the entire prompt — not just the dialogue. Any numeral in any part of the prompt (setting, props, character description, anywhere) will be read aloud and collide with the dialogue, causing mangled pronunciation. Therefore: zero numerals anywhere in the prompt. Not in settings ("eighteen-seventies bedroom" not "1879 bedroom"), not on props ("a calendar showing March fourteen" not "MARCH 14"), not anywhere. Spell out or describe around every number in every part of every prompt.
+
+PROMPT STRUCTURE (follow for every shot, stay under 2500 chars):
+1. Setting: 1-2 specific period details only — location, era described in words, one distinctive prop. No inventories. No numerals.
+2. Characters: every named character gets [Name: 1-2 distinguishing physical features + explicit position in frame] in EVERY shot — never name-only. Position must be stated every time: far-left, centre, right-frame, foreground, background. Kling drifts without this. Shot 1 of each scene gets the full description; Shots 2-3 get a short anchor (e.g. "Jobs: lean, dark hair, far-left, arms folded").
+3. @TJ: full costume/outfit description in EVERY shot without exception — Kling does not remember between shots. Position in frame must also be stated explicitly in every shot. Never abbreviate the costume description.
+4. Dialogue: always comes FIRST in the prompt, before setting and character descriptions. TJ's voice line always appears first. Then every other character is explicitly marked — either their voice line or "[Name]: mouth closed, silent, no lip movement." If only TJ speaks, begin with "Only @TJ speaks in this shot." If another character also speaks, list TJ first then the other character — never list a silent character before a speaking one. Never leave any character's speaking status implicit.
+5. Camera + Lighting: one short phrase each
+6. Avoid: crowd, extras, duplicate characters, text, captions, photorealism, live-action footage, duplicate TJ, human version of TJ, second animated character, white t-shirt figure in background
+- SINGLE TJ RULE: In every shot where @TJ is in a transformed form (object, creature, costume), explicitly state: "There is only ONE @TJ in this scene — he appears ONLY as the [form]. No human TJ. No white t-shirt figure. No second animated character anywhere in the frame." Kling will otherwise render the @TJ element's saved human form alongside the described transformation.
+- LIP SYNC RULE: Every shot where @TJ speaks must have his face front-facing, unobstructed, and occupying at least one third of the frame height — Kling needs a clear forward-facing face to lock lip sync onto. Never write a speaking shot where TJ is side-on, turned away, very small in frame, or with his face obscured. If TJ is transformed into an object, his face on that object must be front-facing and large. State explicitly in every speaking shot: "@TJ's face is front-facing, clearly visible, unobstructed."
+7. Style: 2000s Saturday morning cartoon — thick clean black outlines on every edge, flat cel shading with a single soft highlight per surface (no gradients, no blending), bright fully saturated colours, slightly chubby goofy character proportions, backgrounds rendered in the same cartoon style as the characters. No photorealism. No 3D rendering. No painterly textures. Match @TJ Element visual style throughout.
+
+VISUAL GENERATION PROCESS — for each shot:
+1. Internally generate 5 Kling prompt candidates following the structure above.
+2. Score each on: voiceover alignment, TJ active integration, real-people distinctness, camera clarity, setting specificity — and length (must be under 2500 characters; disqualify any that exceed this).
+3. Return only the top-scoring prompt. Do not show scores or candidates.
+
+Return ONLY a valid JSON object, no markdown:
+{
+  "tjOutfit": "Full description of TJ's themed outfit or object form for this fact",
+  "shots": [
+    { "sceneNumber": 1, "shotNumber": 1, "klingPrompt": "..." },
+    { "sceneNumber": 1, "shotNumber": 2, "klingPrompt": "..." },
+    { "sceneNumber": 1, "shotNumber": 3, "klingPrompt": "..." },
+    { "sceneNumber": 2, "shotNumber": 1, "klingPrompt": "..." },
+    { "sceneNumber": 2, "shotNumber": 2, "klingPrompt": "..." },
+    { "sceneNumber": 2, "shotNumber": 3, "klingPrompt": "..." }
+  ]
+}`
+    }]
+  });
+  return parseJson(response.content[0].text);
+}
+
+// ── HTTP Server ────────────────────────────────────────────────────────────
+const server = http.createServer(async (req, res) => {
+  const parsed = url.parse(req.url, true);
+  const { pathname } = parsed;
+  res.setHeader('Access-Control-Allow-Origin', '*');
+
+  if (req.method === 'GET' && pathname === '/') {
+    const html = fs.readFileSync(path.join(__dirname, 'public', 'index.html'), 'utf8');
+    res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
+    return res.end(html);
+  }
+
+  if (req.method === 'POST') {
+    let body = '';
+    req.on('data', c => { body += c; });
+    req.on('end', async () => {
+      const send = (status, data) => {
+        res.writeHead(status, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify(data));
+      };
+      try {
+        const payload = JSON.parse(body);
+
+        if (pathname === '/api/facts') {
+          if (!payload.date) throw new Error('Missing date');
+          console.log(`Finding facts for: ${payload.date}`);
+          send(200, await findFacts(payload.date));
+
+        } else if (pathname === '/api/swap') {
+          const { date, facts, index } = payload;
+          if (!date || !facts || index == null) throw new Error('Missing fields');
+          console.log(`Swapping fact ${index + 1} for: ${date}`);
+          send(200, await swapFact(date, facts, index));
+
+        } else if (pathname === '/api/generate-video') {
+          const { fact, date } = payload;
+          if (!fact || !date) throw new Error('Missing fact or date');
+          console.log(`Generating video package for: ${fact.title}`);
+          send(200, await generateVideoPackage(fact, date));
+
+        } else if (pathname === '/api/generate-visuals') {
+          const { shots, fact, date } = payload;
+          if (!shots || !fact || !date) throw new Error('Missing shots, fact or date');
+          console.log(`Generating visuals for: ${fact.title}`);
+          send(200, await generateVisuals(shots, fact, date));
+
+        } else {
+          send(404, { error: 'Not found' });
+        }
+      } catch (err) {
+        console.error(err.message);
+        res.writeHead(500, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ error: err.message }));
+      }
+    });
+    return;
+  }
+
+  res.writeHead(404);
+  res.end('Not found');
+});
+
+server.listen(PORT, () => {
+  console.log(`\nDaily Facts — Reel Builder`);
+  console.log(`Running at http://localhost:${PORT}\n`);
+});

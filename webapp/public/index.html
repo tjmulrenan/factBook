@@ -1,0 +1,1471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Facts with TJ</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>">
+  <style>
+    :root {
+      --bg: #0d1117;
+      --surface: #161b22;
+      --surface2: #21262d;
+      --border: #30363d;
+      --text: #e6edf3;
+      --muted: #8b949e;
+      --accent: #58a6ff;
+      --warm: #f0883e;
+      --green: #3fb950;
+      --yellow: #d29922;
+      --red: #f85149;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      min-height: 100vh;
+      padding: 24px 32px 80px;
+    }
+
+    .wrap { max-width: 900px; margin: 0 auto; }
+
+    /* ── Header ── */
+    .header {
+      text-align: center;
+      padding: 36px 0 28px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 32px;
+    }
+    .header h1 { font-size: 26px; font-weight: 700; letter-spacing: -0.3px; }
+    .header p  { color: var(--muted); font-size: 13px; margin-top: 6px; }
+
+    /* ── Date / fact ── */
+    .date-row { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; flex-wrap: wrap; }
+    .date-label { color: var(--muted); font-size: 13px; }
+    .date-value { font-size: 16px; font-weight: 700; color: var(--accent); }
+
+    .tag { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.6px; padding: 2px 8px; border-radius: 4px; }
+    .tag-test { background: rgba(210,153,34,0.15); color: var(--yellow); border: 1px solid rgba(210,153,34,0.3); }
+
+    .fact-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 20px 24px; margin-bottom: 20px; }
+    .fact-title { font-size: 17px; font-weight: 600; margin-bottom: 10px; }
+    .fact-story { font-size: 14px; line-height: 1.7; color: var(--muted); }
+    .fact-card-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; margin-bottom: 10px; }
+    .fact-card-header .fact-title { margin-bottom: 0; }
+    .fact-score { display: inline-block; margin-top: 12px; font-size: 11px; color: var(--green); background: rgba(63,185,80,0.1); padding: 2px 8px; border-radius: 4px; }
+
+    .edit-btn { background: none; border: 1px solid var(--border); border-radius: 5px; color: var(--muted); font-size: 11px; padding: 3px 10px; cursor: pointer; white-space: nowrap; flex-shrink: 0; transition: all 0.15s; }
+    .edit-btn:hover { color: var(--text); border-color: var(--accent); }
+
+    .edit-field { width: 100%; background: var(--surface2); border: 1px solid var(--border); border-radius: 6px; color: var(--text); font-family: inherit; font-size: 14px; padding: 8px 10px; resize: vertical; outline: none; transition: border-color 0.15s; }
+    .edit-field:focus { border-color: var(--accent); }
+    #editTitle { font-size: 15px; font-weight: 600; margin-bottom: 8px; }
+    .edit-actions { display: flex; gap: 8px; margin-top: 10px; }
+    .save-btn { background: var(--accent); color: #0d1117; border: none; border-radius: 5px; font-size: 12px; font-weight: 700; padding: 5px 14px; cursor: pointer; transition: opacity 0.15s; }
+    .save-btn:hover { opacity: 0.85; }
+    .save-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+    .cancel-btn { background: none; border: 1px solid var(--border); border-radius: 5px; color: var(--muted); font-size: 12px; padding: 5px 12px; cursor: pointer; transition: all 0.15s; }
+    .cancel-btn:hover { color: var(--text); }
+    .save-msg { font-size: 12px; padding: 5px 0; display: none; }
+    .save-msg.ok  { color: var(--green); display: inline; }
+    .save-msg.err { color: var(--red);   display: inline; }
+
+    /* ── Generate button ── */
+    .gen-btn { display: block; width: 100%; padding: 14px; background: var(--accent); color: #0d1117; border: none; border-radius: 8px; font-size: 15px; font-weight: 700; cursor: pointer; transition: opacity 0.15s, transform 0.1s; margin-bottom: 28px; }
+    .gen-btn:hover:not(:disabled) { opacity: 0.88; transform: translateY(-1px); }
+    .gen-btn:active:not(:disabled) { transform: translateY(0); }
+    .gen-btn:disabled { opacity: 0.45; cursor: not-allowed; }
+
+    /* ── Loading / Error ── */
+    .loading { display: none; text-align: center; padding: 48px 0; color: var(--muted); }
+    .loading.on { display: block; }
+    .spinner { width: 34px; height: 34px; border: 3px solid var(--border); border-top-color: var(--accent); border-radius: 50%; animation: spin 0.75s linear infinite; margin: 0 auto 14px; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .error-box { display: none; background: rgba(248,81,73,0.1); border: 1px solid rgba(248,81,73,0.3); border-radius: 8px; padding: 14px 18px; color: var(--red); font-size: 13px; margin-bottom: 20px; }
+    .error-box.on { display: block; }
+
+    /* ── Quick-reference results ── */
+    #results { display: none; }
+    #results.on { display: block; }
+    .section { margin-bottom: 30px; }
+    .section-title { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); margin-bottom: 12px; }
+    .block { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; position: relative; }
+    .block-text { padding: 18px 56px 18px 20px; font-size: 14px; line-height: 1.75; white-space: pre-wrap; color: var(--text); }
+
+    /* ── Copy button (results section) ── */
+    .copy-btn { position: absolute; top: 10px; right: 10px; background: var(--surface2); border: 1px solid var(--border); border-radius: 5px; color: var(--muted); font-size: 11px; padding: 4px 10px; cursor: pointer; transition: all 0.15s; white-space: nowrap; }
+    .copy-btn:hover { color: var(--text); border-color: var(--accent); }
+    .copy-btn.ok { color: var(--green); border-color: var(--green); }
+
+    .clips { display: flex; flex-direction: column; gap: 10px; }
+    .clip { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+    .clip-head { display: flex; align-items: center; gap: 10px; padding: 9px 14px; background: var(--surface2); border-bottom: 1px solid var(--border); }
+    .num-badge { width: 22px; height: 22px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; flex-shrink: 0; background: var(--accent); color: #0d1117; }
+    .clip-label { font-size: 13px; font-weight: 600; flex: 1; }
+    .type-pill { font-size: 10px; font-weight: 600; padding: 2px 8px; border-radius: 4px; }
+    .type-frame { background: rgba(240,136,62,0.15); color: var(--warm); }
+    .type-text  { background: rgba(88,166,255,0.12); color: var(--accent); }
+    .clip-body { padding: 13px 56px 13px 14px; position: relative; }
+    .clip-prompt { font-size: 13px; line-height: 1.6; color: var(--text); margin-bottom: 8px; }
+    .settings-pill { font-size: 11px; font-family: 'SF Mono', Consolas, monospace; background: var(--surface2); color: var(--muted); padding: 3px 8px; border-radius: 4px; display: inline-block; }
+    .frames { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+    @media (max-width: 800px) { .frames { grid-template-columns: 1fr; } }
+    .frame { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+    .frame-head { display: flex; align-items: center; gap: 8px; padding: 9px 13px; background: var(--surface2); border-bottom: 1px solid var(--border); font-size: 12px; font-weight: 600; color: var(--muted); }
+    .frame-head .num-badge { background: var(--warm); }
+    .frame-body { padding: 13px 52px 13px 13px; position: relative; }
+    .frame-prompt { font-size: 13px; line-height: 1.6; color: var(--text); }
+    .overlays { display: grid; grid-template-columns: repeat(3,1fr); gap: 10px; }
+    @media (max-width: 520px) { .overlays { grid-template-columns: 1fr; } }
+    .overlay { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 16px 14px 12px; text-align: center; }
+    .overlay-num { font-size: 10px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--muted); margin-bottom: 8px; }
+    .overlay-text { font-size: 22px; font-weight: 800; color: var(--accent); word-break: break-word; margin-bottom: 10px; }
+    .overlay .copy-btn { position: static; display: block; width: 100%; text-align: center; }
+    .fc-table { width: 100%; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; border-collapse: collapse; }
+    .fc-table th { background: var(--surface2); padding: 9px 14px; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.6px; color: var(--muted); text-align: left; border-bottom: 1px solid var(--border); }
+    .fc-table td { padding: 11px 14px; font-size: 13px; border-bottom: 1px solid var(--border); vertical-align: top; }
+    .fc-table tr:last-child td { border-bottom: none; }
+    .status { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.4px; }
+    .s-verified   { background: rgba(63,185,80,0.12);  color: var(--green); }
+    .s-simplified { background: rgba(210,153,34,0.12); color: var(--yellow); }
+    .s-debated    { background: rgba(248,81,73,0.12);  color: var(--red); }
+
+    /* ── Fact picker ── */
+    .picker-wrap { position: relative; display: inline-block; }
+    .change-btn { background: none; border: 1px solid var(--border); border-radius: 5px; color: var(--muted); font-size: 12px; padding: 3px 10px; cursor: pointer; transition: all 0.15s; }
+    .change-btn:hover { color: var(--text); border-color: var(--accent); }
+    .picker-panel { display: none; position: absolute; top: calc(100% + 6px); left: 0; width: 340px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; box-shadow: 0 8px 24px rgba(0,0,0,0.5); z-index: 100; overflow: hidden; }
+    .picker-panel.open { display: block; }
+    .picker-search { width: 100%; background: var(--surface2); border: none; border-bottom: 1px solid var(--border); color: var(--text); font-size: 13px; padding: 10px 14px; outline: none; }
+    .picker-search::placeholder { color: var(--muted); }
+    .picker-list { max-height: 280px; overflow-y: auto; scrollbar-width: thin; scrollbar-color: var(--border) transparent; }
+    .picker-item { display: flex; align-items: baseline; gap: 10px; padding: 9px 14px; cursor: pointer; border-bottom: 1px solid var(--border); transition: background 0.1s; }
+    .picker-item:last-child { border-bottom: none; }
+    .picker-item:hover { background: var(--surface2); }
+    .picker-item.active { background: rgba(88,166,255,0.08); }
+    .picker-day { font-size: 12px; font-weight: 600; color: var(--accent); min-width: 72px; flex-shrink: 0; }
+    .picker-title { font-size: 12px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .picker-item.active .picker-title { color: var(--text); }
+
+    /* ════════════════════════════════════════════
+       PRODUCTION CHECKLIST
+    ════════════════════════════════════════════ */
+    .cl-wrap {
+      margin-top: 40px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    /* Header bar */
+    .cl-header {
+      background: var(--surface);
+      padding: 16px 20px;
+      border-bottom: 1px solid var(--border);
+    }
+    .cl-header-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    .cl-header-top h3 {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--muted);
+    }
+    .cl-prog-label { font-size: 12px; color: var(--muted); }
+    .cl-prog-bar { height: 4px; background: var(--border); border-radius: 2px; overflow: hidden; }
+    .cl-prog-fill { height: 100%; background: var(--green); border-radius: 2px; transition: width 0.4s ease; width: 0%; }
+
+    /* Individual step */
+    .cl-step { background: var(--surface); border-bottom: 1px solid var(--border); transition: background 0.15s; }
+    .cl-step:last-child { border-bottom: none; }
+
+    .cl-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 14px 16px;
+      cursor: pointer;
+      user-select: none;
+    }
+    .cl-row:hover { background: rgba(255,255,255,0.02); }
+
+    .cl-check {
+      width: 17px; height: 17px;
+      accent-color: var(--green);
+      cursor: pointer;
+      flex-shrink: 0;
+    }
+
+    .cl-num {
+      width: 24px; height: 24px;
+      border-radius: 50%;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 11px; font-weight: 700;
+      color: var(--muted);
+      flex-shrink: 0;
+      transition: all 0.2s;
+    }
+
+    .cl-title { flex: 1; font-size: 14px; font-weight: 500; color: var(--text); }
+    .cl-arrow { font-size: 11px; color: var(--muted); transition: transform 0.2s; flex-shrink: 0; }
+    .cl-step.cl-open .cl-arrow { transform: rotate(180deg); }
+    .cl-lock-msg { font-size: 11px; color: var(--muted); opacity: 0.5; font-style: italic; }
+
+    /* States */
+    .cl-locked .cl-row { cursor: default; }
+    .cl-locked .cl-row:hover { background: transparent; }
+    .cl-locked .cl-title { color: var(--muted); opacity: 0.45; }
+    .cl-locked .cl-num  { opacity: 0.3; }
+    .cl-locked .cl-check { opacity: 0.25; pointer-events: none; }
+
+    .cl-active { background: rgba(88,166,255,0.04); }
+    .cl-active .cl-num { background: var(--accent); border-color: var(--accent); color: #0d1117; }
+    .cl-active .cl-title { color: var(--accent); font-weight: 600; }
+
+    .cl-done .cl-num { background: var(--green); border-color: var(--green); color: #0d1117; }
+    .cl-done .cl-title { color: var(--muted); text-decoration: line-through; }
+
+    /* Step body */
+    .cl-body {
+      padding: 0 20px 20px 52px;
+      border-top: 1px solid var(--border);
+      background: rgba(0,0,0,0.15);
+    }
+    .cl-body-inner { padding-top: 16px; }
+
+    .cl-instruction {
+      font-size: 13px;
+      line-height: 1.65;
+      color: var(--muted);
+      margin-bottom: 14px;
+    }
+
+    /* Numbered step list */
+    .cl-list {
+      list-style: none;
+      counter-reset: clstep;
+      margin: 10px 0 16px;
+    }
+    .cl-list li {
+      counter-increment: clstep;
+      display: flex;
+      gap: 10px;
+      font-size: 13px;
+      color: var(--text);
+      margin-bottom: 9px;
+      line-height: 1.5;
+    }
+    .cl-list li::before {
+      content: counter(clstep);
+      min-width: 20px; height: 20px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 10px; font-weight: 700;
+      color: var(--muted);
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+
+    /* Content text block */
+    .cl-content-text {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      padding: 12px 14px;
+      font-size: 13px;
+      line-height: 1.7;
+      white-space: pre-wrap;
+      color: var(--text);
+      margin-bottom: 6px;
+    }
+
+    /* Inline copy button (not absolute) */
+    .cl-copy-btn {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 5px;
+      color: var(--muted);
+      font-size: 11px;
+      padding: 4px 12px;
+      cursor: pointer;
+      transition: all 0.15s;
+      margin-bottom: 4px;
+      display: inline-block;
+    }
+    .cl-copy-btn:hover { color: var(--text); border-color: var(--accent); }
+    .cl-copy-btn.ok { color: var(--green); border-color: var(--green); }
+
+    /* Frame label */
+    .cl-frame-label {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      color: var(--muted);
+      margin-bottom: 5px;
+      margin-top: 2px;
+    }
+
+    /* Warning */
+    .cl-warning {
+      background: rgba(248,81,73,0.08);
+      border: 1px solid rgba(248,81,73,0.2);
+      border-radius: 6px;
+      padding: 9px 12px;
+      font-size: 12px;
+      color: var(--red);
+      margin: 10px 0 14px;
+      line-height: 1.5;
+    }
+
+    /* Settings chips */
+    .cl-chips { display: flex; flex-wrap: wrap; gap: 7px; margin: 4px 0 16px; }
+    .cl-chip { background: var(--surface2); border: 1px solid var(--border); border-radius: 6px; padding: 4px 10px; font-size: 12px; color: var(--text); }
+    .cl-chip strong { color: var(--accent); font-weight: 600; }
+
+    /* Kling sub-cards */
+    .cl-kling-card { background: var(--surface); border: 1px solid var(--border); border-radius: 7px; overflow: hidden; margin-bottom: 8px; }
+    .cl-kling-head { display: flex; align-items: center; gap: 8px; padding: 8px 12px; background: var(--bg); border-bottom: 1px solid var(--border); font-size: 12px; font-weight: 600; }
+    .cl-kling-body { padding: 10px 12px; position: relative; }
+    .cl-kling-note { font-size: 11px; color: var(--warm); margin-bottom: 7px; display: block; }
+
+    /* CapCut timeline */
+    .cl-timeline { display: flex; flex-direction: column; gap: 4px; margin: 10px 0 16px; }
+    .cl-trow { display: flex; align-items: center; gap: 10px; font-size: 12px; padding: 6px 10px; background: var(--surface2); border-radius: 5px; }
+    .cl-tnum { color: var(--accent); font-weight: 700; width: 20px; flex-shrink: 0; }
+
+    /* Overlay big text */
+    .cl-overlay-text { font-size: 24px; font-weight: 800; color: var(--accent); background: var(--surface2); border: 1px solid var(--border); border-radius: 7px; padding: 12px 16px; margin-bottom: 6px; word-break: break-word; }
+
+    /* Posting reminders */
+    .cl-reminders { list-style: none; margin: 8px 0; }
+    .cl-reminders li { display: flex; gap: 8px; font-size: 13px; color: var(--text); padding: 6px 0; border-bottom: 1px solid var(--border); line-height: 1.5; }
+    .cl-reminders li:last-child { border-bottom: none; }
+    .cl-reminders li::before { content: '→'; color: var(--accent); flex-shrink: 0; }
+
+    /* Congrats */
+    .cl-congrats {
+      display: none;
+      text-align: center;
+      padding: 28px 20px;
+      background: rgba(63,185,80,0.06);
+      border-top: 1px solid rgba(63,185,80,0.2);
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--green);
+      letter-spacing: 0.3px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <!-- Header -->
+    <div class="header">
+      <h1>Daily Facts with TJ</h1>
+      <p>Instagram Reels Production Hub</p>
+    </div>
+
+    <!-- Date + fact -->
+    <div class="date-row">
+      <span class="date-label">Today's fact:</span>
+      <span class="date-value" id="displayDate">Loading...</span>
+      <span class="tag tag-test" id="testBadge" style="display:none">Test Mode</span>
+      <div class="picker-wrap" id="pickerWrap" style="display:none">
+        <button class="change-btn" onclick="togglePicker()">Change Fact</button>
+        <div class="picker-panel" id="pickerPanel">
+          <input class="picker-search" id="pickerSearch" placeholder="Search by date or title…" oninput="filterPicker(this.value)">
+          <div class="picker-list" id="pickerList"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fact-card" id="factCard" style="display:none">
+      <div id="viewMode">
+        <div class="fact-card-header">
+          <div class="fact-title" id="factTitle"></div>
+          <button class="edit-btn" onclick="startEdit()">Edit</button>
+        </div>
+        <div class="fact-story" id="factStory"></div>
+        <span class="fact-score" id="factScore"></span>
+      </div>
+      <div id="editMode" style="display:none">
+        <textarea class="edit-field" id="editTitle" rows="2"></textarea>
+        <textarea class="edit-field" id="editStory" rows="6"></textarea>
+        <div class="edit-actions">
+          <button class="save-btn" id="saveBtn" onclick="saveFact()">Save</button>
+          <button class="cancel-btn" onclick="cancelEdit()">Cancel</button>
+          <span class="save-msg" id="saveMsg"></span>
+        </div>
+      </div>
+    </div>
+
+    <button class="gen-btn" id="generateBtn" style="display:none" onclick="generate()">
+      Generate Production Plan
+    </button>
+
+    <div class="loading" id="loading">
+      <div class="spinner"></div>
+      <p>Generating your production plan&hellip;</p>
+      <p style="font-size:12px;margin-top:6px;color:var(--muted)">Usually takes 15–20 seconds</p>
+    </div>
+
+    <div class="error-box" id="errorBox"></div>
+
+    <!-- Quick-reference results -->
+    <div id="results">
+      <div class="section">
+        <div class="section-title">Kling Video Clips</div>
+        <div class="clips" id="klingClips"></div>
+      </div>
+      <div class="section">
+        <div class="section-title">Key Text Overlays</div>
+        <div class="overlays" id="textOverlays"></div>
+      </div>
+      <div class="section">
+        <div class="section-title">Fact Check</div>
+        <table class="fc-table">
+          <thead><tr><th style="width:44%">Claim</th><th style="width:14%">Status</th><th>Note</th></tr></thead>
+          <tbody id="factCheckBody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════
+         PRODUCTION CHECKLIST
+    ═══════════════════════════════════════════ -->
+    <div class="cl-wrap" id="cl-wrap">
+      <div class="cl-header">
+        <div class="cl-header-top">
+          <h3>Production Checklist</h3>
+          <span class="cl-prog-label" id="cl-prog-label">0 of 6 complete</span>
+        </div>
+        <div class="cl-prog-bar">
+          <div class="cl-prog-fill" id="cl-prog-fill"></div>
+        </div>
+      </div>
+      <div id="cl-steps"></div>
+      <div class="cl-congrats" id="cl-congrats">Video done. See you tomorrow.</div>
+    </div>
+
+  </div><!-- /wrap -->
+
+  <script>
+    // ── Global state ──────────────────────────────────────────
+    let currentDayKey  = null;
+    let currentFact    = null;
+    let allFacts       = [];
+    let generatedPlan  = null;
+    let stepTicked     = Array(6).fill(false);
+    let stepOpen       = Array(6).fill(false);
+    let klingDurations = {};  // { clipNumber: userOverrideDuration }
+
+    let transitionClipDur = 7; // global, not day-keyed
+
+    const STEP_TITLES = [
+      'Generate Production Plan',
+      'Kling — Submit Clips Sequentially',
+      'CapCut — Assemble Video',
+      'Captions',
+      'Key Text Overlays',
+      'Export and Post',
+    ];
+
+    const HASHTAGS = '#dailyfacts #funfacts #didyouknow #facts #edutainment #funfact #amazingfacts #factsoftheday #todayinhistory #knowledgeispower';
+
+    // ── LocalStorage helpers ──────────────────────────────────
+    function clKey(suffix) { return `tj-${suffix}-${currentDayKey || 'default'}`; }
+
+    function saveClState() {
+      try {
+        localStorage.setItem(clKey('ticks'), JSON.stringify(stepTicked));
+        localStorage.setItem(clKey('open'),  JSON.stringify(stepOpen));
+      } catch {}
+    }
+
+    function loadClState() {
+      try {
+        const t = localStorage.getItem(clKey('ticks'));
+        const o = localStorage.getItem(clKey('open'));
+        if (t) stepTicked = JSON.parse(t);
+        if (o) stepOpen   = JSON.parse(o);
+      } catch {}
+    }
+
+    function savePlan(plan) {
+      try { localStorage.setItem(clKey('plan'), JSON.stringify(plan)); } catch {}
+    }
+
+    function loadSavedPlan() {
+      try {
+        const s = localStorage.getItem(clKey('plan'));
+        return s ? JSON.parse(s) : null;
+      } catch { return null; }
+    }
+
+    function saveKlingDurations() {
+      try { localStorage.setItem(clKey('kling'), JSON.stringify(klingDurations)); } catch {}
+    }
+
+    function loadKlingDurations() {
+      try {
+        const s = localStorage.getItem(clKey('kling'));
+        if (s) klingDurations = JSON.parse(s);
+      } catch {}
+    }
+
+    function saveIntroState() {
+      try { localStorage.setItem('tj-transition-dur', String(transitionClipDur)); } catch {}
+    }
+
+    function loadIntroState() {
+      try { transitionClipDur = parseInt(localStorage.getItem('tj-transition-dur') || '7', 10) || 7; } catch {}
+    }
+
+
+    function initKlingDurations(plan) {
+      (plan.klingClips || []).forEach(clip => {
+        if (klingDurations[clip.clipNumber] === undefined) {
+          klingDurations[clip.clipNumber] = clip.duration || 7;
+        }
+      });
+      saveKlingDurations();
+    }
+
+    function updateKlingDuration(clipNum, val) {
+      const n = parseInt(val, 10);
+      if (!isNaN(n) && n > 0) {
+        klingDurations[clipNum] = n;
+        saveKlingDurations();
+
+        // Update button active states for this clip
+        [5,6,7,8,9,10].forEach(d => {
+          const btn = document.getElementById(`kling-btn-${clipNum}-${d}`);
+          if (btn) {
+            const isActive = d === n;
+            btn.style.background  = isActive ? 'var(--accent)' : 'var(--surface2)';
+            btn.style.borderColor = isActive ? 'var(--accent)' : 'var(--border)';
+            btn.style.color       = isActive ? '#0d1117' : 'var(--muted)';
+            btn.style.fontWeight  = isActive ? '700' : '500';
+          }
+        });
+
+        // Update running total duration display
+        const totalDurEl = document.getElementById('kling-total-dur');
+        if (totalDurEl && generatedPlan) {
+          const story = (generatedPlan.klingClips || []).reduce(
+            (sum, c) => sum + (klingDurations[c.clipNumber] || Math.min(10, Math.max(5, c.duration || 7))), 0
+          );
+          const total = 10 + transitionClipDur + story;
+          totalDurEl.textContent = total;
+          const isOver = total > 60, isUnder = total < 40;
+          totalDurEl.style.color = (isOver || isUnder) ? 'var(--red)' : 'var(--green)';
+        }
+      }
+    }
+
+    function copyIntroPrompt() {
+      const el = document.getElementById('intro-prompt-text');
+      if (!el) return;
+      navigator.clipboard.writeText(el.textContent).then(() => {
+        const btn = document.getElementById('intro-copy-btn');
+        if (btn) {
+          const orig = btn.textContent;
+          btn.textContent = 'Copied!';
+          btn.style.background = 'var(--green)'; btn.style.color = '#0d1117';
+          setTimeout(() => { btn.textContent = orig; btn.style.background = ''; btn.style.color = ''; }, 2000);
+        }
+      });
+    }
+
+    function updateTransitionDur(val) {
+      transitionClipDur = parseInt(val, 10) || 7;
+      saveIntroState();
+      [5,6,7].forEach(d => {
+        const btn = document.getElementById(`trans-btn-${d}`);
+        if (btn) {
+          const isActive = d === transitionClipDur;
+          btn.style.background  = isActive ? '#a78bfa' : 'var(--surface2)';
+          btn.style.borderColor = isActive ? '#a78bfa' : 'var(--border)';
+          btn.style.color       = isActive ? '#0d1117' : 'var(--muted)';
+          btn.style.fontWeight  = isActive ? '700' : '500';
+        }
+      });
+      // Update live total display
+      const totalEl = document.getElementById('kling-total-dur');
+      if (totalEl && generatedPlan) {
+        const story = (generatedPlan.klingClips || []).reduce(
+          (s, c) => s + (klingDurations[c.clipNumber] || Math.min(10, Math.max(5, c.duration || 7))), 0
+        );
+        totalEl.textContent = 10 + transitionClipDur + story;
+      }
+    }
+
+    async function generateTransitionPrompt() {
+      const btn = document.getElementById('trans-gen-btn');
+      if (btn) { btn.disabled = true; btn.textContent = 'Generating…'; }
+      try {
+        const res = await fetch('/api/transition-prompt', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ fact: currentFact, dayKey: currentDayKey })
+        });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error || 'Failed');
+        // Persist into saved plan
+        if (generatedPlan) {
+          if (!generatedPlan.transitionClip) generatedPlan.transitionClip = {};
+          generatedPlan.transitionClip.prompt = data.prompt;
+          savePlan(generatedPlan);
+        }
+        const promptEl = document.getElementById('trans-prompt-text');
+        const copyBtn  = document.getElementById('trans-copy-btn');
+        if (promptEl) promptEl.textContent = data.prompt;
+        if (copyBtn) copyBtn.style.display = 'inline-block';
+      } catch (err) {
+        const promptEl = document.getElementById('trans-prompt-text');
+        if (promptEl) { promptEl.textContent = 'Error: ' + err.message; promptEl.style.color = 'var(--red)'; }
+      } finally {
+        if (btn) { btn.disabled = false; btn.textContent = 'Regenerate'; }
+      }
+    }
+
+    function copyTransitionPrompt() {
+      const el = document.getElementById('trans-prompt-text');
+      if (!el) return;
+      navigator.clipboard.writeText(el.textContent).then(() => {
+        const btn = document.getElementById('trans-copy-btn');
+        if (btn) {
+          const orig = btn.textContent;
+          btn.textContent = 'Copied!';
+          btn.style.background = 'var(--green)'; btn.style.color = '#0d1117';
+          setTimeout(() => { btn.textContent = orig; btn.style.background = ''; btn.style.color = ''; }, 2000);
+        }
+      });
+    }
+
+    function clearDayState() {
+      stepTicked     = Array(6).fill(false);
+      stepOpen       = Array(6).fill(false);
+      generatedPlan  = null;
+      klingDurations = {};
+    }
+
+    // ── Checklist rendering ───────────────────────────────────
+    function renderChecklist() {
+      const container = document.getElementById('cl-steps');
+      if (!container) return;
+
+      const planReady   = !!generatedPlan;
+      const tickedCount = stepTicked.filter(Boolean).length;
+
+      document.getElementById('cl-prog-fill').style.width  = `${(tickedCount / 6) * 100}%`;
+      document.getElementById('cl-prog-label').textContent = `${tickedCount} of 6 complete`;
+      document.getElementById('cl-congrats').style.display  = tickedCount === 6 ? 'block' : 'none';
+
+      // First unticked unlocked step = active
+      let activeIdx = -1;
+      for (let i = 0; i < 6; i++) {
+        if (!stepTicked[i] && (i === 0 || planReady)) { activeIdx = i; break; }
+      }
+
+      let html = '';
+      for (let i = 0; i < 6; i++) {
+        const locked = !planReady && i > 0;
+        const done   = stepTicked[i];
+        const active = i === activeIdx;
+        const isOpen = stepOpen[i] && !locked;
+
+        let cls = 'cl-step';
+        if (locked)      cls += ' cl-locked';
+        else if (done)   cls += ' cl-done';
+        else if (active) cls += ' cl-active';
+        if (isOpen)      cls += ' cl-open';
+
+        html += `
+          <div class="${cls}" id="cl-step-${i}">
+            <div class="cl-row" onclick="toggleStep(${i}, event)">
+              <input type="checkbox" class="cl-check"
+                     ${done ? 'checked' : ''}
+                     ${locked ? 'disabled' : ''}
+                     onclick="tickStep(${i}, this.checked, event)">
+              <div class="cl-num">${i + 1}</div>
+              <div class="cl-title">${STEP_TITLES[i]}</div>
+              ${locked
+                ? `<span class="cl-lock-msg">Complete step 1 first</span>`
+                : `<div class="cl-arrow">▼</div>`}
+            </div>
+            ${isOpen ? `<div class="cl-body">${stepBody(i)}</div>` : ''}
+          </div>`;
+      }
+      container.innerHTML = html;
+    }
+
+    function toggleStep(i, ev) {
+      if (ev && ev.target.type === 'checkbox') return;
+      if (!generatedPlan && i > 0) return;
+      const wasOpen = stepOpen[i];
+      stepOpen.fill(false);          // close all
+      stepOpen[i] = !wasOpen;        // toggle clicked one
+      saveClState();
+      renderChecklist();
+    }
+
+    function tickStep(i, checked, ev) {
+      ev.stopPropagation();
+      if (!generatedPlan && i > 0) return;
+      stepTicked[i] = checked;
+      if (checked) stepOpen[i] = false;
+      saveClState();
+      renderChecklist();
+    }
+
+    function onPlanGenerated(plan) {
+      generatedPlan = plan;
+      savePlan(plan);
+      initKlingDurations(plan);
+      stepTicked[0] = true;
+      stepOpen[0]   = false;
+      // Open next uncompleted step
+      stepOpen.fill(false);
+      const next = stepTicked.indexOf(false);
+      if (next > 0) stepOpen[next] = true;
+      saveClState();
+      renderChecklist();
+      document.getElementById('cl-wrap').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    // ── Step body builders ────────────────────────────────────
+    function stepBody(i) {
+      const p = generatedPlan;
+      switch (i) {
+        case 0: return sb0(p);
+        case 1: return sb1(p);
+        case 2: return sb2(p);
+        case 3: return sb3(p);
+        case 4: return sb4(p);
+        case 5: return sb5(p);
+      }
+      return '';
+    }
+
+    function sb0(p) {
+      if (p) return `<div class="cl-body-inner"><p class="cl-instruction" style="color:var(--green)">Production plan generated. All 7 steps below are now unlocked and ready.</p></div>`;
+      return `<div class="cl-body-inner"><p class="cl-instruction">Click the <strong>Generate Production Plan</strong> button above to generate your script, Kling prompts, text overlays and fact check for today's fact. Everything below will populate once this is done.</p></div>`;
+    }
+
+    // ── STEP 1: Kling ─────────────────────────────────────────
+    function buildIntroPanel() {
+      const PROMPT = `One continuous animated shot. TJ comes to life from the title scene and launches forward, flying fast through bright clouds toward Earth. The camera tracks smoothly behind and slightly below him, giving a fun, cinematic sense of speed and adventure. As he flies, he glances back toward the camera with a big smile, inviting the viewer along for the journey. Keep it vibrant, polished, whimsical, and family-friendly, with smooth motion and a magical educational adventure feel.`;
+
+      return `<div style="background:rgba(240,136,62,0.05);border:2px solid rgba(240,136,62,0.45);border-radius:10px;padding:16px 18px;margin-bottom:14px">
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px">
+          <span style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.6px;background:rgba(240,136,62,0.18);color:var(--warm);border:1px solid rgba(240,136,62,0.4);border-radius:4px;padding:2px 9px;flex-shrink:0">INTRO CLIP</span>
+          <span style="font-size:13px;font-weight:700;color:var(--warm)">Fixed opener — same every day</span>
+          <span style="margin-left:auto;font-size:12px;font-weight:700;color:var(--warm)">10s — Fixed</span>
+        </div>
+        <p style="font-size:12px;color:var(--muted);line-height:1.5;margin-bottom:14px">TJ launches from the title scene, flies through clouds, glances back at camera with a smile. Generate this clip once and reuse it forever.</p>
+
+        <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px">
+          <span style="font-size:11px;background:var(--surface2);border:1px solid var(--border);border-radius:4px;padding:2px 8px;color:var(--muted)">Model: <strong style="color:var(--text)">Video 3.0 Omni</strong></span>
+          <span style="font-size:11px;background:var(--surface2);border:1px solid var(--border);border-radius:4px;padding:2px 8px;color:var(--muted)">Resolution: <strong style="color:var(--text)">1080p</strong></span>
+          <span style="font-size:11px;background:rgba(139,148,158,0.08);border:1px solid var(--border);border-radius:4px;padding:2px 8px;color:var(--muted);font-weight:700">NATIVE AUDIO OFF</span>
+        </div>
+
+        <div id="intro-prompt-text" style="font-size:13px;line-height:1.7;color:var(--text);background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:10px 12px;margin-bottom:10px">${h(PROMPT)}</div>
+        <button id="intro-copy-btn" onclick="copyIntroPrompt()"
+          style="padding:6px 14px;font-size:12px;font-weight:700;border-radius:6px;cursor:pointer;border:1px solid rgba(63,185,80,0.4);background:rgba(63,185,80,0.1);color:var(--green);transition:all 0.15s;margin-bottom:14px">Copy Prompt</button>
+
+        <div style="font-size:11px;color:var(--text);background:rgba(0,0,0,0.25);border-radius:6px;padding:10px 12px;line-height:1.8">
+          <div style="color:var(--yellow)">After rendering: Extract the last frame → used as the <strong>Start Frame for the Transition Clip.</strong></div>
+          <div style="margin-top:2px;color:var(--muted)">Generate this clip once and reuse it every day.</div>
+        </div>
+      </div>`;
+    }
+
+    function buildTransitionPanel(p) {
+      const tc      = p && p.transitionClip;
+      const prompt  = tc ? (tc.prompt || '') : '';
+      const dest    = tc ? (tc.destination || '') : '';
+      const hasPrompt = !!prompt;
+
+      const durBtns = [5,6,7,8,9,10].map(d => {
+        const isActive = transitionClipDur === d;
+        return `<button onclick="updateTransitionDur(${d})" id="trans-btn-${d}"
+          style="padding:4px 11px;font-size:12px;font-weight:${isActive?'700':'500'};border-radius:5px;cursor:pointer;transition:all 0.12s;border:1px solid ${isActive?'#a78bfa':'var(--border)'};background:${isActive?'#a78bfa':'var(--surface2)'};color:${isActive?'#0d1117':'var(--muted)'}">${d}s</button>`;
+      }).join('');
+
+      return `<div style="background:rgba(167,139,250,0.05);border:2px solid rgba(167,139,250,0.4);border-radius:10px;padding:16px 18px;margin-bottom:20px">
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px">
+          <span style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.6px;background:rgba(167,139,250,0.18);color:#a78bfa;border:1px solid rgba(167,139,250,0.4);border-radius:4px;padding:2px 9px;flex-shrink:0">TRANSITION CLIP</span>
+          <span style="font-size:13px;font-weight:700;color:#a78bfa">TJ flies to today's location</span>
+          <span style="margin-left:auto;font-size:12px;font-weight:700;color:#a78bfa">Changes daily</span>
+        </div>
+        ${dest ? `<div style="font-size:12px;color:var(--muted);margin-bottom:10px">Destination: <strong style="color:var(--text)">${h(dest)}</strong></div>` : '<p style="font-size:12px;color:var(--muted);margin-bottom:10px;line-height:1.5">TJ flying through clouds toward today\'s fact location. Generated with the production plan.</p>'}
+
+        <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px">
+          <span style="font-size:11px;background:var(--surface2);border:1px solid var(--border);border-radius:4px;padding:2px 8px;color:var(--muted)">Model: <strong style="color:var(--text)">Video 3.0 Omni</strong></span>
+          <span style="font-size:11px;background:var(--surface2);border:1px solid var(--border);border-radius:4px;padding:2px 8px;color:var(--muted)">Resolution: <strong style="color:var(--text)">1080p</strong></span>
+          <span style="font-size:11px;background:rgba(63,185,80,0.1);border:1px solid rgba(63,185,80,0.3);border-radius:4px;padding:2px 8px;color:var(--green);font-weight:700">NATIVE AUDIO ON</span>
+          <span style="font-size:11px;background:var(--surface2);border:1px solid var(--border);border-radius:4px;padding:2px 8px;color:var(--muted)">Mode: <strong style="color:var(--text)">Image to Video</strong></span>
+        </div>
+
+        <div id="trans-prompt-text" style="font-size:13px;line-height:1.65;color:var(--text);background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:10px 12px;margin-bottom:10px;${hasPrompt?'':'color:var(--muted);font-style:italic'}">${hasPrompt ? h(prompt) : '(generate plan to populate — or click Regenerate)'}</div>
+
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px">
+          <button id="trans-gen-btn" onclick="generateTransitionPrompt()"
+            style="padding:6px 14px;font-size:12px;font-weight:700;border-radius:6px;cursor:pointer;border:1px solid rgba(167,139,250,0.5);background:rgba(167,139,250,0.12);color:#a78bfa;transition:all 0.15s">Regenerate</button>
+          <button id="trans-copy-btn" onclick="copyTransitionPrompt()"
+            style="display:${hasPrompt?'inline-block':'none'};padding:6px 14px;font-size:12px;font-weight:700;border-radius:6px;cursor:pointer;border:1px solid rgba(63,185,80,0.4);background:rgba(63,185,80,0.1);color:var(--green);transition:all 0.15s">Copy Prompt</button>
+        </div>
+
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px">
+          <span style="font-size:12px;color:var(--muted)">Duration:</span>
+          ${durBtns}
+          <span style="font-size:11px;color:var(--muted);margin-left:4px">★ recommended</span>
+        </div>
+
+        <div style="font-size:11px;color:var(--text);background:rgba(0,0,0,0.25);border-radius:6px;padding:10px 12px;line-height:1.8">
+          <div>Start Frame: <strong>extracted last frame from Intro Clip</strong> — upload as Start Frame in Kling.</div>
+          <div style="margin-top:2px;color:var(--muted)">TJ mutters a stray thought mid-flight. Wind, whoosh + brief dialogue via Native Audio.</div>
+          <div style="margin-top:6px;color:var(--yellow)">After rendering: Extract the last frame. This becomes the <strong>Start Frame for Story Clip 1.</strong></div>
+        </div>
+      </div>`;
+    }
+
+    function sb1(p) {
+      const clips    = p ? (p.klingClips || []) : [];
+
+      let totalCredits = 0;
+      const clipsHtml = clips.map((clip, i) => {
+        const estDur    = Math.min(10, Math.max(5, clip.duration || 7));
+        const actDur    = Math.min(10, Math.max(5, klingDurations[clip.clipNumber] || estDur));
+        const cid       = `cl-kling${clip.clipNumber}`;
+        const isLast    = i === clips.length - 1;
+        const isTeleport = clip.teleportTransition === true;
+
+        totalCredits += 30;
+
+        const tjBadge = clip.tjInScene
+          ? `<span style="font-size:10px;font-weight:700;background:rgba(240,136,62,0.15);color:var(--warm);border-radius:4px;padding:1px 7px;border:1px solid rgba(240,136,62,0.3)">TJ IN SCENE</span>`
+          : `<span style="font-size:10px;font-weight:700;background:rgba(139,148,158,0.08);color:var(--muted);border-radius:4px;padding:1px 7px;border:1px solid var(--border)">NO TJ</span>`;
+
+        const audioBadge = clip.nativeAudio
+          ? `<span style="font-size:10px;font-weight:700;background:rgba(63,185,80,0.12);color:var(--green);border-radius:4px;padding:1px 7px;border:1px solid rgba(63,185,80,0.3)">NATIVE AUDIO ON</span>`
+          : `<span style="font-size:10px;font-weight:700;background:rgba(139,148,158,0.08);color:var(--muted);border-radius:4px;padding:1px 7px;border:1px solid var(--border)">NATIVE AUDIO OFF</span>`;
+
+        const shotBadge = clip.multiShot
+          ? `<span style="font-size:10px;font-weight:700;background:rgba(167,139,250,0.15);color:#a78bfa;border-radius:4px;padding:1px 7px;border:1px solid rgba(167,139,250,0.4)">MULTI-SHOT</span>`
+          : `<span style="font-size:10px;font-weight:700;background:rgba(139,148,158,0.08);color:var(--muted);border-radius:4px;padding:1px 7px;border:1px solid var(--border)">SINGLE SHOT</span>`;
+
+        const startFrameNote = i === 0
+          ? `<div style="font-size:11px;color:#a78bfa;margin-bottom:10px;padding:6px 10px;background:rgba(167,139,250,0.07);border:1px solid rgba(167,139,250,0.25);border-radius:5px">Start Frame: extracted last frame from the <strong>Transition Clip</strong> — upload before generating.</div>`
+          : '';
+
+        const tjEntrance = clip.tjInScene && clip.tjEntrance
+          ? `<div style="font-size:11px;color:var(--warm);margin-bottom:10px;line-height:1.4"><strong>TJ entrance:</strong> ${h(clip.tjEntrance)}</div>` : '';
+
+        const characterRef = clip.tjInScene
+          ? `<div style="font-size:11px;color:var(--accent);margin-bottom:8px">Select <strong>@TJ character reference</strong> before generating this clip</div>` : '';
+
+        // Duration buttons 5–10s
+        const durBtns = [5,6,7,8,9,10].map(d => {
+          const isActive = actDur === d;
+          return `<button onclick="updateKlingDuration(${clip.clipNumber}, ${d})"
+            id="kling-btn-${clip.clipNumber}-${d}"
+            style="padding:4px 9px;font-size:12px;font-weight:700;border-radius:5px;cursor:pointer;transition:all 0.12s;border:1px solid ${isActive ? 'var(--accent)' : 'var(--border)'};background:${isActive ? 'var(--accent)' : 'var(--surface2)'};color:${isActive ? '#0d1117' : 'var(--muted)'}">${d}s</button>`;
+        }).join('');
+
+        // Detailed Extract Frame box
+        const extractBox = !isLast
+          ? (isTeleport
+              ? `<div style="background:rgba(139,148,158,0.06);border:1px solid var(--border);border-radius:8px;padding:12px 14px;margin-top:14px">
+                  <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.5px;color:var(--muted);margin-bottom:4px">Scene Jump</div>
+                  <div style="font-size:12px;color:var(--muted);line-height:1.5">No Extract Frame needed. Next clip starts fresh in a new location.</div>
+                </div>`
+              : `<div style="background:rgba(88,166,255,0.05);border:2px solid rgba(88,166,255,0.35);border-radius:8px;padding:14px 16px;margin-top:14px">
+                  <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.5px;color:var(--accent);margin-bottom:10px">Extract Last Frame Before Continuing</div>
+                  <ol style="list-style:none;counter-reset:ef;margin:0;padding:0">
+                    ${['Wait for this clip to finish rendering',
+                       'Click the clip in your Kling assets',
+                       'Click <strong>Extract Frame</strong>',
+                       'Scrub to the very <strong>last frame</strong>',
+                       'Click <strong>Save / Use Frame</strong>',
+                       `When submitting Clip ${clip.clipNumber + 1} — upload this frame as the <strong>Start Frame</strong>`
+                      ].map(s => `<li style="counter-increment:ef;display:flex;gap:8px;font-size:12px;color:var(--text);margin-bottom:6px;line-height:1.5"><span style="min-width:18px;height:18px;background:rgba(88,166,255,0.15);border:1px solid rgba(88,166,255,0.3);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:var(--accent);flex-shrink:0">${['1','2','3','4','5','6'][['Wait for this clip to finish rendering','Click the clip in your Kling assets','Click <strong>Extract Frame</strong>','Scrub to the very <strong>last frame</strong>','Click <strong>Save / Use Frame</strong>',`When submitting Clip ${clip.clipNumber + 1} — upload this frame as the <strong>Start Frame</strong>`].indexOf(s)]}</span><span>${s}</span></li>`).join('')}
+                  </ol>
+                </div>`)
+          : '';
+
+        return `<div class="cl-kling-card" style="margin-bottom:4px">
+          <div class="cl-kling-head">
+            <div class="num-badge">${clip.clipNumber}</div>
+            <span style="flex:1">${h(clip.label)}</span>
+            ${tjBadge}
+            ${audioBadge}
+            ${shotBadge}
+          </div>
+          <div class="cl-kling-body">
+            ${startFrameNote}
+            ${tjEntrance}
+            ${characterRef}
+            <div id="${cid}" style="font-size:13px;line-height:1.65;color:var(--text);background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:10px 12px;margin-bottom:8px">${h(clip.prompt || '')}</div>
+            <button class="cl-copy-btn" onclick="clCopy('${cid}', this)">Copy Prompt</button>
+            ${clip.multiShot
+              ? `<div style="margin-top:10px;padding:8px 12px;background:rgba(167,139,250,0.07);border:1px solid rgba(167,139,250,0.3);border-radius:6px">
+                   <div style="font-size:11px;font-weight:700;color:#a78bfa;margin-bottom:3px">MULTI-SHOT MODE — set this in Kling before generating</div>
+                   ${clip.multiShotReason ? `<div style="font-size:11px;color:var(--muted)">${h(clip.multiShotReason)}</div>` : ''}
+                 </div>`
+              : clip.multiShotReason
+                ? `<div style="margin-top:8px;font-size:11px;color:var(--muted);font-style:italic">${h(clip.multiShotReason)}</div>`
+                : ''}
+            <div style="display:flex;align-items:center;gap:8px;margin-top:12px;padding-top:12px;border-top:1px solid var(--border);flex-wrap:wrap">
+              <span style="font-size:12px;color:var(--muted)">Duration:</span>
+              ${durBtns}
+              <span style="margin-left:auto;font-size:11px;color:var(--muted)">30 credits</span>
+            </div>
+            ${clip.durationNote ? `<div style="font-size:11px;color:var(--muted);margin-top:5px;padding-left:2px;font-style:italic">${h(clip.durationNote)}</div>` : ''}
+          </div>
+        </div>
+        <div style="margin-bottom:16px">${extractBox}</div>`;
+      }).join('') || '<p style="color:var(--muted);font-size:13px">(generate plan first)</p>';
+
+      const storyDur  = clips.reduce((s, c) => s + (klingDurations[c.clipNumber] || Math.min(10, Math.max(5, c.duration || 7))), 0);
+      const totalDur  = 10 + transitionClipDur + storyDur;
+      const avgStory  = clips.length > 0 ? Math.round(storyDur / clips.length) : 8;
+      const isUnder   = totalDur < 40;
+      const isOver    = totalDur > 60;
+      const totalColor = (isUnder || isOver) ? 'var(--red)' : 'var(--green)';
+      const totalWarn  = isUnder ? ' — ⚠ under 40s, add more clips' : isOver ? ' — ⚠ over 60s, trim content' : '';
+
+      return `<div class="cl-body-inner">
+        ${buildIntroPanel()}
+        ${buildTransitionPanel(p)}
+        <div style="background:rgba(248,81,73,0.08);border:2px solid rgba(248,81,73,0.35);border-radius:8px;padding:12px 16px;font-size:13px;font-weight:700;color:var(--red);margin-bottom:16px;line-height:1.5">
+          Generate one clip at a time. Never submit the next clip until you have extracted the last frame of the current one.
+        </div>
+        <div style="background:rgba(210,153,34,0.08);border:1px solid rgba(210,153,34,0.3);border-radius:7px;padding:10px 14px;font-size:12px;color:var(--yellow);margin-bottom:16px;line-height:1.5">
+          Generate clips <strong>SEQUENTIALLY</strong>. Each clip's last frame becomes the start frame of the next — this is what keeps the visual world continuous.
+        </div>
+        <div class="cl-chips">
+          <div class="cl-chip">Model: <strong>Video 3.0 Omni</strong></div>
+          <div class="cl-chip">Resolution: <strong>1080p</strong></div>
+          <div class="cl-chip">Native Audio: <strong>per clip below</strong></div>
+          <div class="cl-chip">@TJ ref: <strong>TJ clips only</strong></div>
+        </div>
+        <div>${clipsHtml}</div>
+        <div style="margin-top:4px;padding:14px;border-top:1px solid var(--border);background:rgba(0,0,0,0.1);border-radius:0 0 8px 8px">
+          <div style="font-size:12px;color:var(--muted);margin-bottom:4px">
+            Intro: <strong style="color:var(--text)">10s</strong> + Transition: <strong style="color:var(--text)">${transitionClipDur}s</strong> + ${clips.length} story clip${clips.length!==1?'s':''} × avg <strong style="color:var(--text)">${avgStory}s</strong> = <strong id="kling-total-dur" style="color:${totalColor}">${totalDur}s total</strong><span style="color:var(--red)">${totalWarn}</span>
+          </div>
+          <div style="display:flex;justify-content:flex-end">
+            <span id="kling-credits-total" style="font-size:12px;color:var(--muted)">${2 + clips.length} clips × 30 credits = <strong style="color:var(--text)">${(2 + clips.length) * 30} credits</strong></span>
+          </div>
+        </div>
+      </div>`;
+    }
+
+    // ── STEP 2: CapCut ────────────────────────────────────────
+    function sb2(p) {
+      const clips    = p ? (p.klingClips || []) : [];
+      const sections = p ? (p.sections || []) : [];
+      const allDurs  = clips.map(c => klingDurations[c.clipNumber] || c.duration || 7);
+      const maxDur   = Math.max(10, transitionClipDur, ...allDurs);
+
+      const introRow = `<div style="margin-bottom:16px">
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">
+          <span style="font-size:10px;font-weight:700;background:rgba(240,136,62,0.15);color:var(--warm);border:1px solid rgba(240,136,62,0.3);border-radius:4px;padding:1px 7px">INTRO</span>
+          <span style="font-size:12px;font-weight:600">Title card → catchphrase</span>
+          <span style="margin-left:auto;font-size:11px;font-weight:700;color:var(--warm)">10s</span>
+        </div>
+        <div style="height:10px;background:rgba(240,136,62,0.12);border-radius:3px;overflow:hidden">
+          <div style="height:100%;width:${Math.round((10/maxDur)*100)}%;background:var(--warm);border-radius:3px"></div>
+        </div>
+        <div style="font-size:10px;color:var(--muted);margin-top:2px">VIDEO &nbsp;<code>intro-clip.mp4</code> &nbsp;<span style="color:var(--green)">TJ voice via Native Audio</span></div>
+      </div>`;
+
+      const transRow = `<div style="margin-bottom:16px">
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">
+          <span style="font-size:10px;font-weight:700;background:rgba(167,139,250,0.15);color:#a78bfa;border:1px solid rgba(167,139,250,0.3);border-radius:4px;padding:1px 7px">TRANS</span>
+          <span style="font-size:12px;font-weight:600">Flying to location</span>
+          <span style="margin-left:auto;font-size:11px;font-weight:700;color:#a78bfa">${transitionClipDur}s</span>
+        </div>
+        <div style="height:10px;background:rgba(167,139,250,0.12);border-radius:3px;overflow:hidden">
+          <div style="height:100%;width:${Math.round((transitionClipDur/maxDur)*100)}%;background:#a78bfa;border-radius:3px"></div>
+        </div>
+        <div style="font-size:10px;color:var(--muted);margin-top:2px">VIDEO &nbsp;<code>transition-clip.mp4</code> &nbsp;<span style="color:var(--green)">wind/atmosphere via Native Audio</span></div>
+      </div>`;
+
+      const pairsHtml = clips.map((clip, i) => {
+        const dur    = allDurs[i];
+        const pct    = Math.round((dur / maxDur) * 100);
+        const isOver = dur > 10;
+        const partBDur = Math.max(1, dur - 10);
+        const pctA   = Math.round((10 / maxDur) * 100);
+        const pctB   = Math.round((partBDur / maxDur) * 100);
+
+        const videoBar = isOver
+          ? `<div style="display:flex;gap:2px">
+              <div style="height:10px;width:${pctA}%;background:var(--accent);border-radius:3px 0 0 3px;flex-shrink:0"></div>
+              <div style="height:10px;width:${pctB}%;background:rgba(88,166,255,0.5);border-radius:0 3px 3px 0;flex-shrink:0"></div>
+            </div>`
+          : `<div style="height:10px;width:${pct}%;background:var(--accent);border-radius:3px"></div>`;
+
+        const videoLabel = isOver
+          ? `<code style="font-weight:400">clip${clip.clipNumber}a-video.mp4</code> <span style="color:var(--muted)">+</span> <code style="color:rgba(88,166,255,0.7);font-weight:400">clip${clip.clipNumber}b-video.mp4</code>`
+          : `<code style="font-weight:400">clip${clip.clipNumber}-video.mp4</code>`;
+
+        const audioNote = clip.nativeAudio
+          ? `<span style="font-size:10px;color:var(--green);margin-left:6px">voice baked in via Kling Native Audio</span>`
+          : '';
+
+        const splitNote = isOver
+          ? `<div style="font-size:11px;color:var(--yellow);margin-top:4px">Part A (10s) + Part B (${partBDur}s) — drop end-to-end. Audio plays continuously underneath.</div>`
+          : '';
+
+        return `<div style="margin-bottom:16px">
+          <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">
+            <div class="num-badge">${clip.clipNumber}</div>
+            <span style="font-size:12px;font-weight:600">${h(clip.label)}</span>
+            <span style="margin-left:auto;font-size:11px;font-weight:700;color:var(--accent)">${dur}s</span>
+          </div>
+          <div style="margin-bottom:3px">
+            <div style="font-size:10px;color:var(--muted);margin-bottom:2px">VIDEO &nbsp;${videoLabel}</div>
+            <div style="height:10px;background:rgba(88,166,255,0.12);border-radius:3px;overflow:hidden">${videoBar}</div>
+          </div>
+          <div>
+            <div style="font-size:10px;color:var(--muted);margin-bottom:2px">AUDIO ${audioNote}</div>
+            <div style="height:10px;background:rgba(63,185,80,0.12);border-radius:3px;overflow:hidden">
+              <div style="height:100%;width:${pct}%;background:var(--green);border-radius:3px"></div>
+            </div>
+          </div>
+          ${splitNote}
+        </div>`;
+      }).join('') || '<p style="color:var(--muted);font-size:13px">(generate plan first)</p>';
+
+      return `<div class="cl-body-inner">
+        <p class="cl-instruction">Drop each clip and its matching audio end to end. They are already the same duration — no manual syncing needed.</p>
+        <ol class="cl-list">
+          <li>Open <strong>capcut.com</strong> → your <strong>1080×1920 template</strong></li>
+          <li>Import all Kling clips</li>
+          <li>Drop each clip in order on the video track — they join up continuously</li>
+          <li>For TJ clips: his voice is baked in via Native Audio. No separate audio file needed unless voice quality is poor.</li>
+          <li>Click <strong>Audio → Music</strong> → add background track at <strong>15%</strong> volume</li>
+          <li>If a clip has Part A and Part B — drop both video parts end to end. The audio for that section (if any) plays underneath both.</li>
+        </ol>
+        <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.6px;color:var(--muted);margin:14px 0 10px">Clip Layout</div>
+        ${introRow}
+        ${transRow}
+        ${pairsHtml}
+        <ol class="cl-list" style="margin-top:14px">
+          <li>Click each video clip → <strong>Animation → Ken Burns</strong> — alternate zoom in / zoom out</li>
+          <li>Trim any black padding at the end of clips to match audio length</li>
+        </ol>
+      </div>`;
+    }
+
+    // ── STEP 3: Captions ──────────────────────────────────────
+    function sb3(p) {
+      return `<div class="cl-body-inner">
+        <p class="cl-instruction">About 60% of people watch Reels without sound. Auto captions are non-negotiable.</p>
+        <ol class="cl-list">
+          <li>Click <strong>Text → Auto Captions → Generate</strong></li>
+          <li>Read through and fix any errors or misheard words</li>
+          <li>Font: <strong>Bold, White, Black outline</strong></li>
+          <li>Size: minimum <strong>80</strong> — must be readable on a phone screen</li>
+        </ol>
+      </div>`;
+    }
+
+    // ── STEP 4: Key Text Overlays ──────────────────────────────
+    function sb4(p) {
+      const overlays = p ? (p.textOverlays || []) : [];
+      const ovHtml   = overlays.map((text, i) => `
+        <div style="margin-bottom:14px">
+          <div class="cl-frame-label">OVERLAY ${i + 1}</div>
+          <div class="cl-overlay-text" id="cl-ov${i}">${h(text)}</div>
+          <button class="cl-copy-btn" onclick="clCopy('cl-ov${i}', this)">Copy</button>
+        </div>`).join('') || '<p style="color:var(--muted);font-size:13px;margin-bottom:14px">(generate plan first)</p>';
+      return `<div class="cl-body-inner">
+        <p class="cl-instruction">Three big-impact text moments — separate from auto captions. These are your scroll-stoppers for silent viewers.</p>
+        ${ovHtml}
+        <ol class="cl-list">
+          <li>Click <strong>Text → Add Text</strong> for each overlay</li>
+          <li>Large, bold, high contrast — <strong>white with black outline</strong> or bold yellow for numbers</li>
+          <li>Position top or bottom — never covering TJ's face</li>
+          <li>Sync each one to exactly when it's said</li>
+        </ol>
+      </div>`;
+    }
+
+    // ── STEP 5: Export and Post ───────────────────────────────
+    function sb5(p) {
+      const caption = p ? (p.caption || '(generate plan first)') : '(generate plan first)';
+      return `<div class="cl-body-inner">
+        <p class="cl-instruction">Watch it back once before exporting. Check voice is clear, captions sync, overlays hit right.</p>
+        <div class="cl-chips">
+          <div class="cl-chip">Resolution: <strong>1080p</strong></div>
+          <div class="cl-chip">Format: <strong>MP4</strong></div>
+          <div class="cl-chip">Frame rate: <strong>30fps</strong></div>
+        </div>
+        <ol class="cl-list">
+          <li>Click <strong>Export</strong> → resolution <strong>1080p</strong>, format <strong>MP4</strong>, frame rate <strong>30fps</strong></li>
+          <li>Save to your device</li>
+          <li>Post to Instagram as a Reel</li>
+        </ol>
+        <div class="cl-frame-label" style="margin-top:16px">INSTAGRAM CAPTION</div>
+        <div class="cl-content-text" id="cl-caption">${h(caption)}</div>
+        <button class="cl-copy-btn" onclick="clCopy('cl-caption', this)">Copy Caption</button>
+        <div class="cl-frame-label" style="margin-top:16px">HASHTAGS</div>
+        <div class="cl-content-text" id="cl-hashtags" style="color:var(--muted);font-size:12px;line-height:1.8">${h(HASHTAGS)}</div>
+        <button class="cl-copy-btn" onclick="clCopy('cl-hashtags', this)">Copy Hashtags</button>
+        <div class="cl-frame-label" style="margin-top:16px">POSTING REMINDERS</div>
+        <ul class="cl-reminders">
+          <li>Post between <strong>6pm – 8pm</strong> for best reach</li>
+          <li>Share to Stories immediately after posting</li>
+          <li>Reply to every comment within the first <strong>30 minutes</strong></li>
+        </ul>
+      </div>`;
+    }
+
+    function clCopy(id, btn) {
+      const el = document.getElementById(id);
+      if (!el) return;
+      navigator.clipboard.writeText(el.textContent).then(() => {
+        const orig = btn.textContent;
+        btn.textContent = 'Copied!';
+        btn.classList.add('ok');
+        setTimeout(() => { btn.textContent = orig; btn.classList.remove('ok'); }, 2000);
+      });
+    }
+
+    // ── Load today's fact ─────────────────────────────────────
+    async function loadFact() {
+      try {
+        const res  = await fetch('/api/fact');
+        const data = await res.json();
+        currentDayKey = data.dayKey;
+        currentFact   = data.fact;
+        document.title = `TJ \u2014 ${data.dayKey}`;
+
+        document.getElementById('displayDate').textContent = data.dayKey;
+        if (data.testMode) document.getElementById('testBadge').style.display = 'inline-block';
+
+        if (data.fact) {
+          document.getElementById('factTitle').textContent = data.fact.title;
+          document.getElementById('factStory').textContent = data.fact.story;
+          document.getElementById('factScore').textContent = `Score: ${data.fact.score}`;
+          document.getElementById('factCard').style.display = 'block';
+          document.getElementById('generateBtn').style.display = 'block';
+        } else {
+          document.getElementById('factCard').innerHTML = '<p style="color:var(--red);padding:16px">No fact found for this date.</p>';
+          document.getElementById('factCard').style.display = 'block';
+        }
+
+        // Restore saved state for this day
+        loadClState();
+        loadKlingDurations();
+        const saved = loadSavedPlan();
+        if (saved) {
+          generatedPlan = saved;
+          initKlingDurations(saved);
+          render(saved);
+          document.getElementById('results').classList.add('on');
+        }
+        renderChecklist();
+      } catch (err) {
+        document.getElementById('displayDate').textContent = 'Error loading fact';
+        console.error(err);
+      }
+    }
+
+    // ── Generate ──────────────────────────────────────────────
+    async function generate() {
+      const btn    = document.getElementById('generateBtn');
+      const loading = document.getElementById('loading');
+      const results = document.getElementById('results');
+      const errBox  = document.getElementById('errorBox');
+
+      btn.disabled = true;
+      loading.classList.add('on');
+      results.classList.remove('on');
+      errBox.classList.remove('on');
+
+      try {
+        const res  = await fetch('/api/generate', {
+          method:  'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body:    JSON.stringify({ dayKey: currentDayKey, fact: currentFact })
+        });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error || 'Generation failed');
+
+        render(data);
+        results.classList.add('on');
+        onPlanGenerated(data);
+
+      } catch (err) {
+        errBox.textContent = `Error: ${err.message}`;
+        errBox.classList.add('on');
+      } finally {
+        btn.disabled = false;
+        loading.classList.remove('on');
+      }
+    }
+
+    // ── Render quick-reference results ────────────────────────
+    function render(data) {
+      const klingEl = document.getElementById('klingClips');
+      klingEl.innerHTML = '';
+      (data.klingClips || []).forEach(clip => {
+        const id       = `qr-kling${clip.clipNumber}`;
+        const tjCls    = clip.tjInScene ? 'type-frame' : 'type-text';
+        const tjLabel  = clip.tjInScene ? 'TJ IN SCENE' : 'NO TJ';
+        const audioBadge = clip.nativeAudio
+          ? `<span style="font-size:10px;background:rgba(63,185,80,0.12);color:var(--green);border:1px solid rgba(63,185,80,0.3);border-radius:4px;padding:1px 6px;font-weight:700">AUDIO ON</span>`
+          : `<span style="font-size:10px;background:rgba(139,148,158,0.12);color:var(--muted);border:1px solid var(--border);border-radius:4px;padding:1px 6px;font-weight:700">AUDIO OFF</span>`;
+        const shotBadgeQr = clip.multiShot
+          ? `<span style="font-size:10px;background:rgba(167,139,250,0.15);color:#a78bfa;border:1px solid rgba(167,139,250,0.4);border-radius:4px;padding:1px 6px;font-weight:700">MULTI-SHOT</span>`
+          : '';
+        const div = document.createElement('div');
+        div.className = 'clip';
+        div.innerHTML = `
+          <div class="clip-head">
+            <div class="num-badge">${clip.clipNumber}</div>
+            <span class="clip-label">${h(clip.label)}</span>
+            <span class="type-pill ${tjCls}">${tjLabel}</span>
+            ${audioBadge}
+            ${shotBadgeQr}
+          </div>
+          <div class="clip-body">
+            <div class="clip-prompt" id="${id}">${h(clip.prompt || '')}</div>
+            <button class="copy-btn" data-target="${id}">Copy</button>
+          </div>`;
+        klingEl.appendChild(div);
+      });
+
+      const overlaysEl = document.getElementById('textOverlays');
+      overlaysEl.innerHTML = '';
+      (data.textOverlays || []).forEach((text, i) => {
+        const id  = `qr-overlay${i}`;
+        const div = document.createElement('div');
+        div.className = 'overlay';
+        div.innerHTML = `
+          <div class="overlay-num">Overlay ${i + 1}</div>
+          <div class="overlay-text" id="${id}">${h(text)}</div>
+          <button class="copy-btn" data-target="${id}">Copy</button>`;
+        overlaysEl.appendChild(div);
+      });
+
+      const tbody = document.getElementById('factCheckBody');
+      tbody.innerHTML = '';
+      (data.factCheck || []).forEach(item => {
+        const s   = (item.status || 'verified').toLowerCase();
+        const cls = s === 'verified' ? 's-verified' : s === 'simplified' ? 's-simplified' : 's-debated';
+        const tr  = document.createElement('tr');
+        tr.innerHTML = `
+          <td>${h(item.claim)}</td>
+          <td><span class="status ${cls}">${h(item.status || 'verified')}</span></td>
+          <td style="color:var(--muted)">${h(item.note || '')}</td>`;
+        tbody.appendChild(tr);
+      });
+
+      document.getElementById('results').querySelectorAll('.copy-btn[data-target]').forEach(btn => {
+        btn.addEventListener('click', () => copyEl(btn.dataset.target, btn));
+      });
+    }
+
+    // ── Helpers ───────────────────────────────────────────────
+    function copyEl(id, btn) {
+      const el = document.getElementById(id);
+      if (!el) return;
+      navigator.clipboard.writeText(el.textContent).then(() => {
+        const orig = btn.textContent;
+        btn.textContent = 'Copied!';
+        btn.classList.add('ok');
+        setTimeout(() => { btn.textContent = orig; btn.classList.remove('ok'); }, 2000);
+      });
+    }
+
+    function h(str) {
+      return String(str || '')
+        .replace(/&/g, '&amp;').replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+
+    // ── Fact editing ──────────────────────────────────────────
+    function startEdit() {
+      document.getElementById('editTitle').value = currentFact.title;
+      document.getElementById('editStory').value = currentFact.story;
+      document.getElementById('viewMode').style.display = 'none';
+      document.getElementById('editMode').style.display  = 'block';
+      document.getElementById('editTitle').focus();
+      document.getElementById('saveMsg').className = 'save-msg';
+    }
+
+    function cancelEdit() {
+      document.getElementById('editMode').style.display  = 'none';
+      document.getElementById('viewMode').style.display = 'block';
+    }
+
+    async function saveFact() {
+      const title = document.getElementById('editTitle').value.trim();
+      const story = document.getElementById('editStory').value.trim();
+      const msg   = document.getElementById('saveMsg');
+      const btn   = document.getElementById('saveBtn');
+      if (!title || !story) { showSaveMsg('Title and story cannot be empty.', false); return; }
+      btn.disabled = true;
+      btn.textContent = 'Saving…';
+      msg.className = 'save-msg';
+      try {
+        const res  = await fetch('/api/fact/save', {
+          method: 'POST', headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ day: currentDayKey, title, story })
+        });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error || 'Save failed');
+        currentFact = data.fact;
+        document.getElementById('factTitle').textContent = data.fact.title;
+        document.getElementById('factStory').textContent = data.fact.story;
+        const pickerItem = document.querySelector(`.picker-item[data-day="${CSS.escape(currentDayKey)}"] .picker-title`);
+        if (pickerItem) pickerItem.textContent = data.fact.title;
+        const listItem = allFacts.find(f => f.day === currentDayKey);
+        if (listItem) listItem.title = data.fact.title;
+        cancelEdit();
+        flashEditBtn('Saved!');
+      } catch (err) {
+        showSaveMsg(err.message, false);
+      } finally {
+        btn.disabled = false;
+        btn.textContent = 'Save';
+      }
+    }
+
+    function showSaveMsg(text, ok) {
+      const msg = document.getElementById('saveMsg');
+      msg.textContent = text;
+      msg.className   = 'save-msg ' + (ok ? 'ok' : 'err');
+    }
+
+    function flashEditBtn(text) {
+      const btn = document.querySelector('#viewMode .edit-btn');
+      if (!btn) return;
+      const orig = btn.textContent;
+      btn.textContent = text;
+      btn.style.color = 'var(--green)'; btn.style.borderColor = 'var(--green)';
+      setTimeout(() => { btn.textContent = orig; btn.style.color = ''; btn.style.borderColor = ''; }, 2000);
+    }
+
+    // ── Fact picker ───────────────────────────────────────────
+    async function loadAllFacts() {
+      try {
+        const res = await fetch('/api/facts');
+        allFacts = await res.json();
+        buildPickerList(allFacts);
+        document.getElementById('pickerWrap').style.display = 'inline-block';
+      } catch (err) { console.error('Failed to load facts list:', err); }
+    }
+
+    function buildPickerList(items) {
+      const list = document.getElementById('pickerList');
+      list.innerHTML = '';
+      items.forEach(f => {
+        const div = document.createElement('div');
+        div.className = 'picker-item' + (f.day === currentDayKey ? ' active' : '');
+        div.dataset.day = f.day;
+        div.innerHTML = `<span class="picker-day">${h(f.day)}</span><span class="picker-title">${h(f.title)}</span>`;
+        div.addEventListener('click', () => selectFact(f.day));
+        list.appendChild(div);
+      });
+    }
+
+    function filterPicker(query) {
+      const q = query.toLowerCase();
+      buildPickerList(q ? allFacts.filter(f => f.day.toLowerCase().includes(q) || f.title.toLowerCase().includes(q)) : allFacts);
+    }
+
+    async function selectFact(dayKey) {
+      closePicker();
+      document.getElementById('displayDate').textContent = 'Loading…';
+      document.getElementById('factCard').style.display = 'none';
+      document.getElementById('generateBtn').style.display = 'none';
+      document.getElementById('results').classList.remove('on');
+      document.getElementById('errorBox').classList.remove('on');
+
+      try {
+        const res  = await fetch(`/api/fact?day=${encodeURIComponent(dayKey)}`);
+        const data = await res.json();
+        currentDayKey = data.dayKey;
+        currentFact   = data.fact;
+        document.title = `TJ \u2014 ${data.dayKey}`;
+
+        document.getElementById('displayDate').textContent = data.dayKey;
+        document.getElementById('testBadge').style.display = data.testMode ? 'inline-block' : 'none';
+
+        if (data.fact) {
+          document.getElementById('factTitle').textContent = data.fact.title;
+          document.getElementById('factStory').textContent = data.fact.story;
+          document.getElementById('factScore').textContent = `Score: ${data.fact.score}`;
+          document.getElementById('factCard').style.display = 'block';
+          document.getElementById('generateBtn').style.display = 'block';
+        }
+
+        document.querySelectorAll('.picker-item').forEach(el => {
+          el.classList.toggle('active', el.dataset.day === data.dayKey);
+        });
+
+        // Load saved state for this day
+        clearDayState();
+        loadClState();
+        loadKlingDurations();
+        const saved = loadSavedPlan();
+        if (saved) {
+          generatedPlan = saved;
+          initKlingDurations(saved);
+          render(saved);
+          document.getElementById('results').classList.add('on');
+        }
+        renderChecklist();
+      } catch (err) {
+        document.getElementById('displayDate').textContent = 'Error';
+        console.error(err);
+      }
+    }
+
+    function togglePicker() {
+      const panel  = document.getElementById('pickerPanel');
+      const search = document.getElementById('pickerSearch');
+      const isOpen = panel.classList.toggle('open');
+      if (isOpen) {
+        search.value = '';
+        filterPicker('');
+        search.focus();
+        const active = document.querySelector('.picker-item.active');
+        if (active) active.scrollIntoView({ block: 'center' });
+      }
+    }
+
+    function closePicker() { document.getElementById('pickerPanel').classList.remove('open'); }
+
+    document.addEventListener('click', e => {
+      if (!document.getElementById('pickerWrap').contains(e.target)) closePicker();
+    });
+
+    // ── Init ──────────────────────────────────────────────────
+    loadIntroState();
+    loadFact().then(loadAllFacts);
+  </script>
+</body>
+</html>

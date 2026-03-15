@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reel Builder — Daily Facts</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --surface: #161b22;
+      --surface2: #21262d;
+      --border: #30363d;
+      --text: #e6edf3;
+      --muted: #8b949e;
+      --accent: #58a6ff;
+      --warm: #f0883e;
+      --green: #3fb950;
+      --yellow: #d29922;
+      --red: #f85149;
+      --purple: #a78bfa;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      min-height: 100vh;
+      padding: 24px 32px 80px;
+    }
+    .wrap { max-width: 820px; margin: 0 auto; }
+
+    .header {
+      text-align: center;
+      padding: 32px 0 24px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 28px;
+    }
+    .header h1 { font-size: 24px; font-weight: 700; }
+    .header p { color: var(--muted); font-size: 13px; margin-top: 6px; }
+
+    .controls {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+    .date-input {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text);
+      font-size: 14px;
+      font-weight: 600;
+      padding: 8px 14px;
+      outline: none;
+      width: 200px;
+    }
+    .date-input:focus { border-color: var(--accent); }
+
+    .btn {
+      padding: 8px 18px;
+      font-size: 13px;
+      font-weight: 700;
+      border-radius: 8px;
+      cursor: pointer;
+      border: none;
+      transition: opacity 0.15s;
+    }
+    .btn:disabled { opacity: 0.45; cursor: not-allowed; }
+    .btn-accent { background: var(--accent); color: #0d1117; }
+    .btn-select { background: var(--green); color: #0d1117; font-size: 13px; padding: 7px 20px; }
+    .btn-muted { background: var(--surface2); border: 1px solid var(--border); color: var(--muted); font-size: 12px; padding: 5px 12px; }
+    .btn-purple { background: rgba(167,139,250,0.12); border: 1px solid rgba(167,139,250,0.5); color: var(--purple); font-size: 14px; font-weight: 700; padding: 10px 28px; border-radius: 8px; cursor: pointer; transition: background 0.15s; }
+    .btn-purple:hover { background: rgba(167,139,250,0.2); }
+    .btn-purple:disabled { opacity: 0.45; cursor: not-allowed; }
+
+    .status-msg { font-size: 13px; color: var(--muted); margin-bottom: 16px; }
+    .status-msg.error { color: var(--red); }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .spinner {
+      display: inline-block;
+      width: 13px; height: 13px;
+      border: 2px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+      vertical-align: middle;
+      margin-right: 6px;
+    }
+
+    /* ── Fact cards ─────────────────────────────────────────────────── */
+    .fact-card {
+      background: var(--surface);
+      border: 2px solid var(--border);
+      border-radius: 10px;
+      margin-bottom: 12px;
+      transition: border-color 0.2s;
+    }
+    .fact-card.selected {
+      border-color: var(--green);
+      background: rgba(63,185,80,0.04);
+    }
+    .fact-card.loading { opacity: 0.5; pointer-events: none; }
+
+    .fact-card-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      padding: 16px 16px 14px;
+    }
+    .fact-num {
+      font-size: 11px;
+      font-weight: 700;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 3px 9px;
+      color: var(--muted);
+      flex-shrink: 0;
+      margin-top: 3px;
+    }
+    .fact-meta { flex: 1; min-width: 0; }
+    .fact-title { font-size: 15px; font-weight: 700; color: var(--text); margin-bottom: 6px; line-height: 1.3; }
+    .fact-chips { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 8px; }
+    .chip {
+      font-size: 11px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 2px 8px;
+      color: var(--muted);
+    }
+    .chip-year { color: var(--accent); border-color: rgba(88,166,255,0.3); background: rgba(88,166,255,0.06); }
+    .fact-desc { font-size: 13px; color: var(--muted); line-height: 1.55; margin-bottom: 8px; }
+
+    .fact-hook {
+      font-size: 12px;
+      color: var(--warm);
+      background: rgba(240,136,62,0.07);
+      border: 1px solid rgba(240,136,62,0.25);
+      border-radius: 6px;
+      padding: 7px 10px;
+      margin-bottom: 6px;
+      line-height: 1.4;
+    }
+    .fact-hook-label {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--warm);
+      opacity: 0.8;
+      margin-bottom: 3px;
+    }
+    .fact-why {
+      font-size: 12px;
+      color: var(--purple);
+      font-style: italic;
+      opacity: 0.8;
+      line-height: 1.4;
+    }
+
+    .fact-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-shrink: 0;
+      flex-direction: column;
+    }
+
+    .selected-badge {
+      font-size: 11px;
+      font-weight: 700;
+      background: rgba(63,185,80,0.15);
+      border: 1px solid rgba(63,185,80,0.4);
+      color: var(--green);
+      border-radius: 6px;
+      padding: 4px 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    /* ── Generate bar ────────────────────────────────────────────────── */
+    .generate-bar {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin: 20px 0;
+      padding: 16px 18px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+    }
+    .generate-bar-info { flex: 1; }
+    .generate-bar-info h3 { font-size: 14px; font-weight: 700; margin-bottom: 2px; }
+    .generate-bar-info p { font-size: 12px; color: var(--muted); }
+
+    /* ── Output panel ────────────────────────────────────────────────── */
+    #output-panel { margin-top: 28px; }
+
+    .section-header {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+      color: var(--muted);
+      margin-bottom: 10px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    .output-block {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 18px;
+      margin-bottom: 16px;
+    }
+
+    /* fact summary */
+    .summary-title { font-size: 18px; font-weight: 700; color: var(--text); margin-bottom: 6px; }
+    .summary-chips { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
+    .summary-why { font-size: 13px; color: var(--muted); line-height: 1.5; }
+
+    /* hook package */
+
+    /* scenes */
+    .scene-card {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      margin-bottom: 12px;
+      overflow: hidden;
+    }
+    .scene-card-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 14px;
+      background: var(--surface2);
+      border-bottom: 1px solid var(--border);
+    }
+    .scene-num {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--muted);
+    }
+    .scene-dur {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--accent);
+      background: rgba(88,166,255,0.08);
+      border: 1px solid rgba(88,166,255,0.2);
+      border-radius: 4px;
+      padding: 1px 8px;
+    }
+    .scene-purpose { font-size: 12px; color: var(--muted); flex: 1; }
+    .scene-card-body { padding: 12px 14px; }
+
+    /* script tabs */
+    .script-tabs { display: flex; gap: 8px; margin-bottom: 16px; }
+    .script-tab {
+      flex: 1; padding: 11px 16px; font-size: 13px; font-weight: 700; border-radius: 8px; cursor: pointer;
+      border: 2px solid var(--border); background: var(--surface2); color: var(--muted);
+      transition: all 0.15s; text-align: center;
+    }
+    .script-tab:hover { border-color: var(--muted); color: var(--text); }
+    .script-tab.active { background: var(--green); border-color: var(--green); color: #0d1117; }
+    .script-version { display: none; }
+    .script-version.active { display: block; }
+    .field-label {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 5px;
+    }
+    .field-label.kling { color: var(--purple); }
+    .field-label.vo { color: var(--green); }
+    .field-box {
+      font-size: 13px;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 9px 12px;
+      margin-bottom: 8px;
+    }
+    .field-box.vo-box { background: rgba(63,185,80,0.05); border-color: rgba(63,185,80,0.2); }
+    .field-box.kling-box { background: rgba(167,139,250,0.05); border-color: rgba(167,139,250,0.2); }
+    .scene-copy-row { display: flex; gap: 8px; margin-bottom: 10px; }
+
+    /* full script */
+    .script-box {
+      font-size: 14px;
+      line-height: 1.8;
+      color: var(--text);
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 14px 16px;
+      white-space: pre-wrap;
+    }
+
+    /* editing notes */
+    .notes-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .note-item { background: var(--surface2); border: 1px solid var(--border); border-radius: 6px; padding: 10px 12px; }
+    .note-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: var(--muted); margin-bottom: 5px; }
+    .note-value { font-size: 13px; color: var(--text); line-height: 1.5; }
+
+  </style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="header">
+    <h1>Reel Builder</h1>
+    <p>Pick the best fact · 2 × 15s multi-shot Kling clips · 30 seconds</p>
+  </div>
+
+  <div style="margin-bottom:20px">
+    <button onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='none'?'block':'none';this.textContent=this.textContent.includes('▶')?'▼  Workflow guide':'▶  Workflow guide'" style="background:none;border:1px solid var(--border);color:var(--muted);font-size:12px;padding:5px 12px;border-radius:6px;cursor:pointer;width:100%;text-align:left">▶  Workflow guide</button>
+    <div style="display:none;margin-top:10px;border:1px solid var(--border);border-radius:8px;padding:16px;font-size:12px;line-height:1.8;color:var(--muted)">
+
+      <div style="color:var(--yellow);font-weight:700;margin-bottom:6px">ONE-TIME SETUP (do once)</div>
+      <div>1. Upload <code>front.png</code>, <code>hand.png</code>, <code>front-side.png</code>, <code>shock.png</code> to Kling as the <code>@TJ</code> element</div>
+      <div>2. Generate <code>base_scene.png</code> in ChatGPT — upload <code>front.png</code> alongside the base scene prompt, save the result forever</div>
+
+      <div style="color:var(--accent);font-weight:700;margin:12px 0 6px">EVERY FACT — IN THIS APP</div>
+      <div>3. Pick date → <strong>Find Facts</strong></div>
+      <div>4. Select the best fact</div>
+      <div>5. <strong>Generate Reel Package</strong> → copy any character prompts shown</div>
+      <div>6. Pick your preferred script version</div>
+      <div>7. <strong>Generate Visuals</strong> → get shot prompts + costume element prompt + scene element prompts</div>
+
+      <div style="color:var(--green);font-weight:700;margin:12px 0 6px">EVERY FACT — IN CHATGPT</div>
+      <div>8. Named characters (if any): upload <code>front.png</code> + paste character prompt → save as <code>charactername.png</code></div>
+      <div>9. TJ costume: upload <code>front.png</code> + paste costume prompt → save as <code>tj_costume.png</code></div>
+
+      <div style="color:var(--purple);font-weight:700;margin:12px 0 6px">EVERY FACT — IN KLING (create elements)</div>
+      <div>10. Upload each generated image as a Kling element using the exact name shown (<code>@Einstein</code>, <code>@TJPie</code> etc.)</div>
+
+      <div style="color:var(--warm);font-weight:700;margin:12px 0 6px">EVERY FACT — IN KLING (generate video)</div>
+      <div>11. Scene 1 Shot 1: image-to-video · paste prompt · use <code>@TJ</code> + <code>@TJCostume</code> elements</div>
+      <div>12. Shots 2 + 3: same workflow</div>
+      <div>13. Extract last frame of Shot 3 → use as starting image for Scene 2</div>
+      <div>14. Scene 2 Shots 1–3: image-to-video from that frame</div>
+
+      <div style="color:var(--muted);font-weight:700;margin:12px 0 6px">EVERY FACT — IN CAPCUT</div>
+      <div>15. Assemble 6 clips · add music · sync audio · export</div>
+    </div>
+  </div>
+
+  <div class="controls">
+    <input class="date-input" id="date-input" type="date" />
+    <button class="btn btn-accent" id="find-btn" onclick="findFacts()">Find Facts</button>
+  </div>
+
+  <div id="status" class="status-msg"></div>
+
+  <!-- Fact selection cards -->
+  <div id="cards-container"></div>
+
+  <!-- Generate bar (shown after selection) -->
+  <div class="generate-bar" id="generate-bar" style="display:none">
+    <div class="generate-bar-info">
+      <h3 id="selected-title-preview">—</h3>
+      <p>Selected · ready to generate the full reel package</p>
+    </div>
+    <button class="btn-purple" id="gen-btn" onclick="generatePackage()">Generate Reel Package</button>
+    <span class="status-msg" id="gen-status" style="margin-bottom:0"></span>
+  </div>
+
+  <!-- Output panel -->
+  <div id="output-panel" style="display:none"></div>
+
+</div>
+
+<script>
+  let currentDate = '';
+
+  function formatDateInput(val) {
+    if (!val) return '';
+    const [, month, day] = val.split('-');
+    const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+    return months[parseInt(month, 10) - 1] + ' ' + parseInt(day, 10);
+  }
+  let facts = [];
+  let selectedIndex = null;
+
+  function h(s) {
+    return String(s || '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
+  function setStatus(msg, isError) {
+    const el = document.getElementById('status');
+    el.innerHTML = msg ? (isError ? msg : '<span class="spinner"></span>' + msg) : '';
+    el.className = 'status-msg' + (isError ? ' error' : '');
+    if (!msg || isError) el.innerHTML = msg || '';
+  }
+
+  // ── Find facts ──────────────────────────────────────────────────────
+  async function findFacts() {
+    currentDate = formatDateInput(document.getElementById('date-input').value);
+    if (!currentDate) return;
+
+    selectedIndex = null;
+    const btn = document.getElementById('find-btn');
+    btn.disabled = true;
+    btn.textContent = 'Finding…';
+    setStatus('Finding 5 facts for ' + currentDate + '…');
+    document.getElementById('cards-container').innerHTML = '';
+    document.getElementById('generate-bar').style.display = 'none';
+    document.getElementById('output-panel').style.display = 'none';
+    document.getElementById('output-panel').innerHTML = '';
+
+    try {
+      const res = await fetch('/api/facts', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ date: currentDate })
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || 'Failed to find facts');
+      facts = data;
+      setStatus('');
+      renderCards();
+    } catch (err) {
+      setStatus(err.message, true);
+    } finally {
+      btn.disabled = false;
+      btn.textContent = 'Find Facts';
+    }
+  }
+
+  // ── Render fact cards ───────────────────────────────────────────────
+  function renderCards() {
+    const container = document.getElementById('cards-container');
+    container.innerHTML = facts.map((f, i) => buildCard(f, i)).join('');
+  }
+
+  function buildCard(f, i) {
+    const isSelected = selectedIndex === i;
+    return `<div class="fact-card${isSelected ? ' selected' : ''}" id="card-${i}">
+      <div class="fact-card-header">
+        <span class="fact-num">${i + 1}</span>
+        <div class="fact-meta">
+          <div class="fact-title">${h(f.title)}</div>
+          <div class="fact-chips">
+            <span class="chip chip-year">${h(String(f.year))}</span>
+            <span class="chip">${h(f.location)}</span>
+          </div>
+          <div class="fact-desc">${h(f.description)}</div>
+          <div class="fact-hook">
+            <div class="fact-hook-label">Hook</div>
+            ${h(f.hookPotential)}
+          </div>
+          <div class="fact-why">${h(f.whyItWorks)}</div>
+        </div>
+        <div class="fact-actions">
+          ${isSelected
+            ? `<span class="selected-badge">Selected</span>`
+            : `<button class="btn btn-select" onclick="selectFact(${i})">Select</button>`
+          }
+          <button class="btn btn-muted" onclick="swapFact(${i})">Swap</button>
+        </div>
+      </div>
+    </div>`;
+  }
+
+  // ── Select a fact ───────────────────────────────────────────────────
+  function selectFact(index) {
+    selectedIndex = index;
+    renderCards();
+    const bar = document.getElementById('generate-bar');
+    bar.style.display = 'flex';
+    document.getElementById('selected-title-preview').textContent = facts[index].title;
+    document.getElementById('output-panel').style.display = 'none';
+    document.getElementById('output-panel').innerHTML = '';
+    bar.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+
+  // ── Swap a fact ─────────────────────────────────────────────────────
+  async function swapFact(index) {
+    const card = document.getElementById('card-' + index);
+    card.classList.add('loading');
+
+    try {
+      const res = await fetch('/api/swap', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ date: currentDate, facts, index })
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || 'Swap failed');
+      facts[index] = data;
+      if (selectedIndex === index) {
+        selectedIndex = null;
+        document.getElementById('generate-bar').style.display = 'none';
+      }
+      card.outerHTML = buildCard(data, index);
+    } catch (err) {
+      setStatus('Swap failed: ' + err.message, true);
+      card.classList.remove('loading');
+    }
+  }
+
+  // ── Generate video package ──────────────────────────────────────────
+  async function generatePackage() {
+    if (selectedIndex === null) return;
+    const fact = facts[selectedIndex];
+
+    const genBtn = document.getElementById('gen-btn');
+    const genStatus = document.getElementById('gen-status');
+    genBtn.disabled = true;
+    genBtn.textContent = 'Generating…';
+    genStatus.textContent = '';
+    genStatus.className = 'status-msg';
+    document.getElementById('output-panel').style.display = 'none';
+    document.getElementById('output-panel').innerHTML = '';
+
+    try {
+      const res = await fetch('/api/generate-video', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ fact, date: currentDate })
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || 'Generation failed');
+      window._currentFact = fact;
+      window._currentDate = currentDate;
+      renderOutput(data);
+    } catch (err) {
+      genStatus.textContent = err.message;
+      genStatus.className = 'status-msg error';
+    } finally {
+      genBtn.disabled = false;
+      genBtn.textContent = 'Generate Reel Package';
+    }
+  }
+
+  // ── Render output ───────────────────────────────────────────────────
+  function renderOutput(pkg) {
+    const panel = document.getElementById('output-panel');
+    panel.style.display = 'block';
+
+    const { factSummary, scripts, closers, editingNotes, characters } = pkg;
+
+    // ── 1. Fact Summary
+    const summaryHtml = `
+      <div class="output-block">
+        <div class="section-header">Fact Summary</div>
+        <div class="summary-title">${h(factSummary.title)}</div>
+        <div class="summary-chips">
+          <span class="chip chip-year">${h(String(factSummary.year))}</span>
+          <span class="chip">${h(factSummary.location)}</span>
+        </div>
+        <div class="summary-why">${h(factSummary.whyItWorks)}</div>
+      </div>`;
+
+    // ── 2. Character reference prompts
+    const charactersHtml = (characters && characters.length) ? `
+      <div class="output-block">
+        <div class="section-header">Character References — generate in ChatGPT</div>
+        <p style="font-size:12px;color:var(--muted);margin-bottom:14px">Upload your TJ image to ChatGPT alongside each prompt below to get matching art-style references for Kling.</p>
+        ${characters.map(c => `
+          <div style="border:1px solid var(--border);border-radius:8px;padding:14px;margin-bottom:10px">
+            <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px;margin-bottom:8px">
+              <div>
+                <div style="font-size:14px;font-weight:700;color:var(--text)">${h(c.name)}</div>
+                <div style="font-size:12px;color:var(--muted);margin-top:2px">${h(c.role)}</div>
+              </div>
+              <button class="btn btn-muted" style="flex-shrink:0;font-size:12px" onclick="copyStr(${JSON.stringify(c.chatgptPrompt||'')}, this)">Copy prompt</button>
+            </div>
+            <div style="font-size:12px;color:var(--muted);background:var(--surface2);border-radius:6px;padding:10px;line-height:1.6;white-space:pre-wrap">${h(c.chatgptPrompt)}</div>
+          </div>`).join('')}
+      </div>` : '';
+
+    const hookHtml = '';
+
+    // Store pkg for use in generateVisuals
+    window._currentPkg = pkg;
+    window._selectedScript = 0;
+
+    // Auto-run fact check in background after render
+    setTimeout(() => checkScript(true), 100);
+
+    // ── 3. Script picker — 3 versions as tabs
+    const scriptTabsHtml = (pkg.scripts || []).map((s, i) => `
+      <button class="script-tab${i === 0 ? ' active' : ''}" id="stab-${i}" onclick="selectScript(${i})">
+        ${i === 0 ? '<span style="color:var(--green);font-size:10px;margin-right:4px">★ TOP</span>' : ''}Version ${s.version}${s.score ? ` <span style="font-size:10px;opacity:0.7">${s.score}/80</span>` : ''}
+      </button>`).join('');
+
+    const scriptVersionsHtml = (pkg.scripts || []).map((s, i) => {
+      const rows = (s.shots || []).map((shot, si) => `
+        <div id="row-${i}-${si}" style="padding:8px 0;border-bottom:1px solid var(--border)">
+          <div style="display:flex;gap:10px;align-items:flex-start">
+            <span style="font-size:10px;font-weight:700;color:var(--muted);flex-shrink:0;width:52px;padding-top:6px">S${shot.sceneNumber}·${shot.shotNumber}</span>
+            <span id="vo-${i}-${si}" style="flex:1;font-size:13px;color:var(--text);line-height:1.55;padding-top:4px">${h(shot.voiceover)}</span>
+            <button class="btn btn-muted" style="flex-shrink:0;font-size:11px;padding:3px 8px" onclick="editLine(${i},${si})">Edit</button>
+          </div>
+          <div id="flag-${i}-${si}" style="display:none;margin:4px 0 0 62px;font-size:11px;border-radius:4px;padding:4px 8px;line-height:1.5"></div>
+        </div>`).join('');
+      const scoreBar = s.score ? `
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;padding:8px 10px;background:var(--surface2);border-radius:6px">
+          <div style="font-size:13px;font-weight:700;color:${i===0?'var(--green)':'var(--accent)'};">${s.score}/80</div>
+          <div style="font-size:12px;color:var(--muted);flex:1">${h(s.scoreNote||'')}</div>
+        </div>` : '';
+      return `<div class="script-version${i === 0 ? ' active' : ''}" id="sver-${i}">
+        ${scoreBar}${rows}
+        <div style="display:flex;gap:8px;align-items:flex-start;margin-top:12px">
+          <div class="script-box" id="full-${i}" style="flex:1;font-size:13px;padding:10px 12px">${h(s.fullScript || '')}</div>
+          <button class="btn btn-muted" style="flex-shrink:0" onclick="copyEl('full-${i}', this)">Copy</button>
+        </div>
+      </div>`;
+    }).join('');
+
+    const scriptsHtml = `
+      <div class="output-block">
+        <div class="section-header">Script — pick a version</div>
+        <div class="script-tabs" style="margin-bottom:14px">${scriptTabsHtml}</div>
+        ${scriptVersionsHtml}
+        <div style="margin-top:16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap">
+          <button class="btn-purple" id="visuals-btn" onclick="generateVisuals()">Generate Visuals</button>
+          <button class="btn btn-muted" id="check-btn" onclick="checkScript()">Check script</button>
+          <span class="status-msg" id="visuals-status" style="margin-bottom:0"></span>
+          <span class="status-msg" id="check-status" style="margin-bottom:0"></span>
+        </div>
+      </div>
+      <div id="visuals-panel"></div>`;
+
+    // ── 5. Editing Notes
+    const notesHtml = `
+      <div class="output-block">
+        <div class="section-header">Editing Notes</div>
+        <div class="notes-grid">
+          <div class="note-item"><div class="note-label">Ideal Runtime</div><div class="note-value">${h(editingNotes.idealRuntime || '—')}</div></div>
+          <div class="note-item"><div class="note-label">Music Vibe</div><div class="note-value">${h(editingNotes.musicVibe || '—')}</div></div>
+          <div class="note-item" style="grid-column:1/-1"><div class="note-label">Pacing</div><div class="note-value">${h(editingNotes.pacingNotes || '—')}</div></div>
+          <div class="note-item" style="grid-column:1/-1"><div class="note-label">CapCut</div><div class="note-value">${h(editingNotes.capCutSuggestions || '—')}</div></div>
+        </div>
+      </div>`;
+
+    panel.innerHTML = summaryHtml + charactersHtml + hookHtml + scriptsHtml + notesHtml;
+    panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  // ── Script selection ─────────────────────────────────────────────────
+  function editLine(vi, si) {
+    const span = document.getElementById(`vo-${vi}-${si}`);
+    const current = span.textContent;
+    span.innerHTML = `<textarea id="ta-${vi}-${si}" style="width:100%;font-size:13px;line-height:1.55;background:var(--surface2);color:var(--text);border:1px solid var(--accent);border-radius:4px;padding:4px 6px;resize:vertical;min-height:48px">${h(current)}</textarea>
+      <button class="btn btn-accent" style="font-size:11px;padding:3px 10px;margin-top:4px" onclick="saveLine(${vi},${si})">Save</button>`;
+  }
+
+  function saveLine(vi, si) {
+    const ta = document.getElementById(`ta-${vi}-${si}`);
+    const val = ta.value.trim();
+    window._currentPkg.scripts[vi].shots[si].voiceover = val;
+    const span = document.getElementById(`vo-${vi}-${si}`);
+    span.textContent = val;
+    // rebuild fullScript
+    const shots = window._currentPkg.scripts[vi].shots;
+    window._currentPkg.scripts[vi].fullScript = shots.map(s => s.voiceover).join(' ');
+    document.getElementById(`full-${vi}`).textContent = window._currentPkg.scripts[vi].fullScript;
+  }
+
+  async function checkScript(auto = false) {
+    const btn = document.getElementById('check-btn');
+    const statusEl = document.getElementById('check-status');
+    if (!auto) { btn.disabled = true; btn.textContent = 'Checking…'; }
+    statusEl.style.color = 'var(--muted)';
+    statusEl.textContent = auto ? 'Checking facts…' : '';
+    // clear old flags
+    document.querySelectorAll('[id^="flag-"]').forEach(el => { el.style.display = 'none'; el.textContent = ''; });
+    try {
+      const res = await fetch('/api/check-script', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ fact: window._currentFact, scripts: window._currentPkg.scripts })
+      });
+      const flags = await res.json();
+      if (!res.ok) throw new Error(flags.error || 'Failed');
+      window._lastFlags = flags;
+      if (!flags.length) {
+        statusEl.textContent = '✓ All clear';
+        statusEl.style.color = 'var(--green)';
+      } else {
+        // Auto-apply all fixes immediately
+        autoFixAll();
+        statusEl.innerHTML = `<span style="color:var(--green)">✓ ${flags.length} issue${flags.length > 1 ? 's' : ''} auto-fixed</span>`;
+      }
+    } catch (err) {
+      statusEl.textContent = err.message;
+      statusEl.style.color = 'var(--red)';
+    } finally {
+      btn.disabled = false;
+      btn.textContent = 'Re-check';
+    }
+  }
+
+  function applyFix(vi, shotIdx, suggestion) {
+    window._currentPkg.scripts[vi].shots[shotIdx].voiceover = suggestion;
+    document.getElementById(`vo-${vi}-${shotIdx}`).textContent = suggestion;
+    const el = document.getElementById(`flag-${vi}-${shotIdx}`);
+    if (el) { el.style.color = 'var(--green)'; el.innerHTML = '✓ Fixed'; }
+    rebuildFullScript(vi);
+  }
+
+  function autoFixAll() {
+    const flags = window._lastFlags || [];
+    flags.forEach(f => {
+      if (!f.suggestion) return;
+      const shotIdx = (f.sceneNumber - 1) * 3 + (f.shotNumber - 1);
+      for (let vi = 0; vi < 3; vi++) applyFix(vi, shotIdx, f.suggestion);
+    });
+    document.getElementById('check-status').innerHTML = '<span style="color:var(--green)">✓ All fixed</span>';
+  }
+
+  function rebuildFullScript(vi) {
+    const shots = window._currentPkg.scripts[vi].shots;
+    const full = shots.map(s => s.voiceover).join(' ');
+    window._currentPkg.scripts[vi].fullScript = full;
+    const el = document.getElementById(`full-${vi}`);
+    if (el) el.textContent = full;
+  }
+
+  function selectScript(i) {
+    window._selectedScript = i;
+    document.querySelectorAll('.script-tab').forEach((t, j) => t.classList.toggle('active', j === i));
+    document.querySelectorAll('.script-version').forEach((v, j) => v.classList.toggle('active', j === i));
+  }
+
+  // ── Generate visuals ─────────────────────────────────────────────────
+  async function generateVisuals() {
+    const pkg = window._currentPkg;
+    const script = pkg.scripts[window._selectedScript];
+    const shots = script.shots;
+
+    const btn = document.getElementById('visuals-btn');
+    const statusEl = document.getElementById('visuals-status');
+    btn.disabled = true;
+    btn.textContent = 'Generating…';
+    statusEl.textContent = '';
+
+    try {
+      const res = await fetch('/api/generate-visuals', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ shots, fact: window._currentFact, date: window._currentDate })
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || 'Failed');
+      const merged = data.shots.map(vs => {
+        const match = shots.find(s => s.sceneNumber === vs.sceneNumber && s.shotNumber === vs.shotNumber);
+        return { ...vs, voiceover: match ? match.voiceover : '', duration: match ? match.duration : '' };
+      });
+      renderVisuals(merged, data.tjOutfit, data.tjCostumeElementName);
+    } catch (err) {
+      statusEl.textContent = err.message;
+      statusEl.className = 'status-msg error';
+    } finally {
+      btn.disabled = false;
+      btn.textContent = 'Generate Visuals';
+    }
+  }
+
+  function renderVisuals(shots, tjOutfit, tjCostumeElementName) {
+    const costumeHtml = tjOutfit ? `
+      <div class="output-block">
+        <div class="section-header">Kling Element to Create</div>
+        <p style="font-size:12px;color:var(--muted);margin-bottom:14px">Generate in ChatGPT (upload your TJ reference alongside), then upload to Kling Elements with the name shown.</p>
+        <div style="border:1px solid rgba(167,139,250,0.3);border-radius:8px;padding:14px">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px;margin-bottom:8px">
+            <div>
+              <div style="font-size:14px;font-weight:700;color:var(--purple)">${h(tjCostumeElementName || '@TJCostume')}</div>
+              <div style="font-size:12px;color:var(--muted);margin-top:2px">TJ costume element</div>
+            </div>
+            <button class="btn btn-muted" style="flex-shrink:0;font-size:12px" onclick="copyStr(${JSON.stringify(tjOutfit)}, this)">Copy prompt</button>
+          </div>
+          <div style="font-size:12px;color:var(--muted);background:var(--surface2);border-radius:6px;padding:10px;line-height:1.6;white-space:pre-wrap">${h(tjOutfit)}</div>
+        </div>
+      </div>` : '';
+
+    const outfitHtml = costumeHtml;
+
+    const grouped = [1, 2].map(sn => shots.filter(s => s.sceneNumber === sn));
+    const html = grouped.map((group, gi) => {
+      const shotsHtml = group.map((shot, shi) => `
+        <div style="border:1px solid var(--border);border-radius:6px;padding:10px 12px;margin-bottom:10px;background:var(--bg)">
+          <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px">
+            <span style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.5px;color:var(--muted)">Shot ${shot.shotNumber}</span>
+            <span style="font-size:11px;font-weight:700;color:var(--accent);background:rgba(88,166,255,0.08);border:1px solid rgba(88,166,255,0.2);border-radius:4px;padding:1px 7px">${shot.duration}s</span>
+          </div>
+          <div style="font-size:12px;color:var(--green);font-style:italic;margin-bottom:8px;line-height:1.4">"${h(shot.voiceover)}"</div>
+          <div class="field-label kling">Kling Prompt</div>
+          <div class="field-box kling-box" id="kp-${gi}-${shi}" style="margin-bottom:6px">${h(shot.klingPrompt)}</div>
+          <button class="btn btn-muted" onclick="copyEl('kp-${gi}-${shi}', this)">Copy Kling</button>
+        </div>`).join('');
+      return `
+        <div class="scene-card" style="margin-bottom:12px">
+          <div class="scene-card-header">
+            <span class="scene-num">Scene ${gi + 1}</span>
+            <span class="scene-dur">15s</span>
+            <span class="scene-purpose">${gi === 0 ? 'Setup' : 'Payoff'}</span>
+          </div>
+          <div class="scene-card-body">${shotsHtml}</div>
+        </div>`;
+    }).join('');
+
+    // Full script copy
+    const fullScript = shots.map(s => s.voiceover).join(' ');
+    const fullHtml = `
+      <div class="output-block" style="margin-top:4px">
+        <div class="section-header">Full Script</div>
+        <div class="script-box" id="final-script" style="font-size:13px;padding:10px 12px">${h(fullScript)}</div>
+        <button class="btn btn-muted" style="margin-top:10px" onclick="copyEl('final-script', this)">Copy Full Script</button>
+      </div>`;
+
+    const scene2Tip = `
+      <div style="background:rgba(88,166,255,0.06);border:1px solid rgba(88,166,255,0.2);border-radius:6px;padding:10px 14px;margin-bottom:12px;font-size:12px;color:var(--muted);line-height:1.6">
+        <strong style="color:var(--accent)">Scene 2 workflow:</strong> Generate Scene 1 in Kling first. Extract the last frame of Shot 3 (the group shot). Use that frame as the starting image for Scene 2 in Kling's image-to-video mode — this locks all character appearances from Scene 1 into Scene 2.
+      </div>`;
+
+    document.getElementById('visuals-panel').innerHTML = `
+      ${outfitHtml}
+      <div class="output-block">
+        <div class="section-header">Kling Prompts — 6 shots · 30s</div>
+        ${scene2Tip}
+        ${html}
+      </div>${fullHtml}`;
+  }
+
+  // ── Copy helpers ────────────────────────────────────────────────────
+  function copyEl(id, btn) {
+    const el = document.getElementById(id);
+    if (!el) return;
+    copyStr(el.textContent, btn);
+  }
+
+  function copyStr(text, btn) {
+    navigator.clipboard.writeText(text).then(() => {
+      const orig = btn.textContent;
+      btn.textContent = 'Copied!';
+      setTimeout(() => { btn.textContent = orig; }, 1500);
+    });
+  }
+
+</script>
+</body>
+</html>

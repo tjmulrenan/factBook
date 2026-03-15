@@ -13,9 +13,11 @@ What Happened On... (The Complete Collection)/
 # Secrets
 .env
 
-# Node (publisher-bot)
+# Node
 publisher-bot/node_modules/
 publisher-bot/auth.json
+webapp/node_modules/
+webapp-reel/node_modules/
 
 # Python
 __pycache__/
